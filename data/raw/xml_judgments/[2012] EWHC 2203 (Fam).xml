@@ -1,0 +1,649 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2012/2203"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2012/2203"/>
+	  <FRBRdate date="2012-07-27" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2203"/>
+	  <FRBRname value="A London Borough v A &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2203"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2203"/>
+	  <FRBRdate date="2012-07-27" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2203/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2203/data.xml"/>
+	  <FRBRdate date="2024-10-28T02:01:46" name="transform"/>
+	  <FRBRdate date="2024-11-21T18:55:00" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2012-07-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-london-borough" href="" showAs="A London Borough"/>
+	<TLCPerson eId="a" href="" showAs="A"/>
+	<TLCPerson eId="c-j-and-m" href="" showAs="C, J and M"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-peter-jackson" href="/judge-the-honourable-mr-justice-peter-jackson" showAs="THE HONOURABLE MR JUSTICE PETER JACKSON"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2012</uk:year>
+	<uk:number>2203</uk:number>
+	<uk:cite>[2012] EWHC 2203 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>0cba93915df5e5974f99681da49259db4294a954c639dedb165040f56757c636</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Normal8 { text-align: center; margin-right: 0.01in; font-family: 'Courier New'; font-size: 12pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .PageNumber { }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FootnoteTextChar { font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText"><span style="font-family:'Calibri, sans-serif'">Case No: </span><docketNumber style="font-family:'Calibri, sans-serif'">AL11C00030</docketNumber></p>
+      <p class="CoverText" style="text-align:justify"><span style="font-family:'Calibri, sans-serif'">Neutral Citation Number: </span><neutralCitation style="font-family:'Calibri, sans-serif'">[2012] EWHC 2203 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family" style="font-family:'Calibri, sans-serif'">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif'">FAMILY DIVISION</courtType></p>
+      <p class="CoverText"><span style="font-family:'Calibri, sans-serif'">Royal Courts of Justice</span></p>
+      <p class="CoverText"><span style="font-family:'Calibri, sans-serif'">Strand, London, WC2A 2LL</span></p>
+      <p class="CoverText"><span style="font-family:'Calibri, sans-serif'">Date: </span><docDate date="2012-07-27" refersTo="#judgment" style="font-family:'Calibri, sans-serif'">27/07/2012</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Calibri, sans-serif'">Before</span><span style="font-family:'Calibri, sans-serif'"> :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-peter-jackson" style="font-family:'Calibri, sans-serif'">THE HONOURABLE MR JUSTICE PETER JACKSON</judge></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Calibri, sans-serif'">Between :</span></p>
+      <table uk:widths="1.03in 4.07in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a-london-borough" style="font-weight:bold;font-family:'Calibri, sans-serif'">A London Borough</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant" style="font-family:'Calibri, sans-serif'">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:'Calibri, sans-serif'">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a" style="font-weight:bold;font-family:'Calibri, sans-serif'">Mrs A (1)</party></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a" style="font-weight:bold;font-family:'Calibri, sans-serif'">Mr A (2)</party></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#c-j-and-m" style="font-weight:bold;font-family:'Calibri, sans-serif'">C, J and M (3)</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:'Calibri, sans-serif'">(children by their Children&#8217;s Guardian Carmel Shepherd)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-family:'Calibri, sans-serif'">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - </span></p>
+      <p style="text-align:center;margin-right:-0.23in"><span style="font-weight:bold;font-family:'Calibri, sans-serif'">Alison Grief</span><span style="font-family:'Calibri, sans-serif'"> (instructed by local authority solicitors) for the Applicant</span></p>
+      <p style="text-align:center;margin-right:-0.23in"><span style="font-weight:bold;font-family:'Calibri, sans-serif'">David Boyd</span><span style="font-family:'Calibri, sans-serif'"> (instructed by Edwards Duthie) for the First Respondent mother</span></p>
+      <p style="text-align:center;margin-right:-0.23in"><span style="font-weight:bold;font-family:'Calibri, sans-serif'">Wendy Frempong</span><span style="font-family:'Calibri, sans-serif'"> (instructed by Charles Allotey &amp; Co) for the Second Respondent father</span></p>
+      <p style="text-align:center;margin-right:-0.23in"><span style="font-weight:bold;font-family:'Calibri, sans-serif'">Giles Bain</span><span style="font-family:'Calibri, sans-serif'"> (instructed by Lawrence and Co) for the Respondent children</span></p>
+      <p style="text-align:center"><span style="font-family:'Calibri, sans-serif'">Hearing dates: 23-27 July 2012</span></p>
+      <p class="Normal8" style="margin-right:0.01in"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - </span></p>
+      <p class="CoverDesc"><span style="font-family:'Calibri, sans-serif'">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;font-family:'Calibri, sans-serif'">Mr Justice Peter Jackson:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">These proceedings concern three siblings, identified by initials: C (a boy aged nearly 6), J (a boy aged 18 months) and M (a girl aged 7 months).  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The local authority seeks care orders in relation to all three children and placement orders in relation to the younger two.  The applications are supported by the Children's Guardian and opposed by their mother and by their father.  The mother seeks a postponement of the decision about the children's future to enable her to start on a course of therapy, so that the children might be safely returned to her sole care.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The reason for the proceedings is set out in a judgment given on 11 November 2011.  I found that the father was responsible for the death of J&#8217;s twin brother B in February 2011.  I exonerated the mother, who was not present, and C, who was present but did not cause B&#8217;s injuries.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">On 11 December 2011, the mother separated from the father in the sense that they have since that date lived apart and had no contact of any kind with each other, except unavoidably at meetings and hearings about the children.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">On 13 December, there was a pre-birth case conference and on 29 December, M was born.  She was removed into foster care at the time of her birth.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">On 20 January 2012, there was a further case conference in relation to M.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">On 18 July 2012, the father's appeal against the finding of fact against him was dismissed by the Court of Appeal.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">At the beginning of this hearing, I reviewed the finding of fact against the father in the light of evidence about an incident in May 2012 when C had kicked and injured his school transport assistant.  My conclusion, for reasons given at the time, was that this did not affect my findings of fact.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">A decision must now be taken about the children's future.  As to that, their welfare is my paramount consideration, and other considerations, such as sympathy for the mother, must give way to it.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">A number of professional assessments have been carried out with the purpose of identifying what is in the children's interests.  These have been of a consistently high quality.  I have received written reports and oral evidence from the following:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify"><marker name="tab"/><span style="font-family:'Calibri, sans-serif'">Laura Stephens, the children's social worker</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify"><marker name="tab"/><span style="font-family:'Calibri, sans-serif'">Nkechi Ode, social worker, Moorfield Family Assessment Centre </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify"><marker name="tab"/><span style="font-family:'Calibri, sans-serif'">Dr Eia Asen, Consultant Child and Adolescent Psychiatrist</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify"><marker name="tab"/><span style="font-family:'Calibri, sans-serif'">Carmel Shepherd, Children&#8217;s Guardian</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">C and J are currently in one foster home and M in another.  There is a very high level of contact between the children and their mother and occasional contact with their father.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The local authority's plan is for C to remain as a long-term foster child with his current carers, for J to be moved and adopted or (more likely) long-term fostered elsewhere, and for M to be adopted on her own.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">I will describe the relevant features of the children's situation with reference to aspects of the welfare checklist.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Calibri, sans-serif'">The children's ages and relevant characteristics</span></heading>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">C&#8217;s autistic spectrum disorder is prominent, but he has been making very good progress recently.  Unfortunately, J is showing unmistakable signs of global developmental delay, which makes him a demanding child to care for.  His exact health status will not be clear for some time.  M is making good developmental progress and is a rewarding child to look after.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">All the children, and particularly the younger two, are at an age where it is very important that they should be able to make attachments to their permanent carers as soon as possible.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Calibri, sans-serif'">The children's wishes and feelings</span></heading>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">None of the children is able to articulate wishes, but their feelings are apparent.  C has a close relationship with both parents, while J and M have a close relationship with their mother, sustained through contact.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Calibri, sans-serif'">The children&#8217;s needs</span></heading>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Following the death of B, the children need to be protected from violence at the hands of their father.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">After a prolonged period in foster care, they need clarity about their futures, and an environment in which they can learn in an appropriate way about what has happened in their family.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Calibri, sans-serif'">Effect of change of circumstances</span></heading>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Both younger children face a move from their current placements.  The earlier it happens, the easier it will be.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Calibri, sans-serif'">Harm</span></heading>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The fate of B shows that the children would be at risk of serious and possibly fatal physical harm if they were in the unsupervised care of their father, either as a result of the mother resuming her marital relationship with him, or of her allowing unsupervised contact.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Moreover, the children would be at risk of emotional harm if they were brought up in the belief that C was the cause of B&#8217;s death.  This would be particularly harmful for C himself, and the issue is also of great significance to J, as B&#8217;s twin.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Calibri, sans-serif'">Parental capacity</span></heading>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The father being excluded from any significant role in children's future, this assessment now concerns the mother. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">There is strong evidence of her excellent parenting.  The children were apparently well looked after up to February 2011, and since then her commitment to contact and her behaviour with the children has been exemplary.  She is good at providing routines and stimulation.  She is warmly devoted to them, and well equipped to help C and J with their difficulties.  She has insight into the children&#8217;s need for permanence.  In all these respects, she is a very good mother.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The problem is that there is serious doubt about whether she can meet the children's physical need to be kept safe and their emotional need to understand their family history.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">There is unanimous professional advice that the mother is not currently able to do these things.  Even the mother herself does not argue with that.  I am clear that the children cannot be returned to her care now.  The risk is far too high.  The mother&#8217;s good intentions cannot protect the children over time while she genuinely believes that the father is the victim of a miscarriage of justice.  If a decision is to be taken now, it must be to approve the care plans.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The only remaining question is whether the mother has the </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">capacity</span><span style="font-family:'Calibri, sans-serif'"> to meet the children&#8217;s needs within their timescale.  The only possible way that this could be achieved if she were able to participate in and benefit from psychotherapy.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Calibri, sans-serif'">The disadvantages of the care plan</span></heading>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The children will lose their mother, and will learn in later life that this happened despite her being blameless in relation to the death of B. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">They will not grow up in their family of origin, and are unlikely to find carers who reflect their distinctive ethnic and cultural identity.  Neither of the present foster homes fully meets this need, and it is unlikely that a full match could be found for J or M.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The children will be split, with uncertain prospects for future sibling contact.  While M will be adopted, C will not be, and J probably will not be.  There will be difficulties in arranging contact with M if her placement is a conventional adoptive placement.  There is likely to be a situation where one or more child has some parental contact while one or more does not.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">C will lose parents to whom he is very attached and who know his ways well. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Rather than being adopted, it is more likely that J will grow up in long-term foster care from infancy.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Calibri, sans-serif'">The disadvantages of deferring a decision</span></heading>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">It leaves the children in limbo for a further six months.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">This is particularly concerning in M&#8217;s case, as she could almost certainly be placed for adoption by then; delay affects her ability to make the most secure attachments.  It may also somewhat reduce the pool of prospective adopters.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Deferral also holds disadvantages for J, who will not get to the adoption starting gate without a placement order.  In the meantime, his foster placement is not absolutely guaranteed to last, due to the demands he places on his carers.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">For C, it would be a disaster if the current plan was lost.  It is possible that his carers would be disheartened by being asked to wait.  The process of making definite long-term ties between him and his carers could not begin on either side.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Calibri, sans-serif'">Discussion</span></heading>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">A decision can only be deferred if there is a real prospect of a different outcome emerging.  That depends on two things: the mother&#8217;s state of mind and the court&#8217;s criteria.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif'">The mother&#8217;s state of mind</span><span style="font-family:'Calibri, sans-serif'"> is that she does not accept the judgment.  To the perplexity of those working with the family, who all acknowledge her good parental qualities, she remains stuck in this position. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">In my earlier judgment, I said this:            </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.38in"><span style="font-style:italic;font-family:'Calibri, sans-serif'">The mother&#8217;s actions cannot remotely be compared to the father&#8217;s, and some understanding and sympathy is due.  She has lost a child in tragic circumstances, been separated from her other children, and is now pregnant again.  However, by her response to B&#8217;s death, she has let him and the other children down.  She has put her own dependence on the father ahead of the interests of her children.  This cannot continue if she is going to parent C, J and the expected child safely without the father&#8217;s involvement.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">From the standpoint of the children&#8217;s interests, this creates a real dilemma.  It is clear that the mother has a blind spot where the father is concerned.  Nothing has changed in the nine months that have passed since the judgment, when I said this:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.38in"><span style="font-style:italic;font-family:'Calibri, sans-serif'">She has never even suggested that he might have injured B, instead choosing to marry him and become pregnant by him without even waiting to hear the medical opinions, let alone the court&#8217;s conclusions.  While continually asking others to help her to find out what happened, she has made no meaningful effort to do so herself.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The question now is whether, given more time, the mother can change, by realising that she has this blind spot and by doing something about it, or whether the trauma that she has experienced is so deep that she is incapable of seeing where the danger lies.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">At this hearing, the reasons for the mother&#8217;s position have been explored.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">I start with an overview of the family tragedy.  The mother has been faced with a series of appalling losses: the violent death of B, the removal of C and J, enforced separation from a husband who she loves, and the removal at birth of M.  Dr Asen described her as having suffered more losses than an ordinary person can stomach.  She is frozen in a state of shock and has been left alone with all these issues.  She has not been able to grieve for B and has found the thought of acknowledging the unthinkable too overwhelming.  Dr Asen described her as a shipwreck survivor, metaphorically hanging on to the plank of her certainty, so that even when she is now on dry land she cannot trust herself to let it go.   The mother acknowledged in her evidence that Dr Asen had described how she feels.  It is as if she is continually eating without digesting and is now full up.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">I next consider some influences on the mother&#8217;s thinking.  She has received sensitive professional service from Ms Stephens, Ms Ode, Ms Shepherd and Dr Asen, but she has not been able to trust them when set alongside other influences upon her.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">In the first place, there is the father.  He has given the mother no assistance at all in understanding what he did and why.  He was angry and intimidating towards Ms Stephens in January and surly and unhelpful towards Dr Asen in April.  He has continued to maintain his innocence, including by exercising his right to pursue an appeal.  The timing meant that the case was in the Court of Appeal on the Wednesday before the Monday on which this hearing began, permission to appeal having been granted in June.  Although the mother was formally neutral, she must have hoped that the findings against the father would be reopened, if only on the basis of the incident involving C in May.  While that issue remained unresolved, it has been difficult for M to move on in her thinking.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Next there is the Coroner&#8217;s verdict.  It was only this week that the mother understood that the Coroner is not resisting the setting aside of his verdict (a letter to the local authority in May explains this). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Then, the police.  I have read information on the files of the local authority about the conduct of the police liaison officer at the meetings in December and January.  Despite stating that he was not aware of details of the police investigation, the officer is recorded in the official minutes as stating that the Coroner&#8217;s court is the highest in the land, that the police have accepted that verdict, and that the verdict of the civil court is not legally binding.  This was said in front of the parents and their supporters in the course of a meeting in which the father&#8217;s behaviour had already been aggressive and threatening to the social worker.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Although I have not heard from the officer in question, based on what I have heard from Ms Stephens and Ms Ode, I express grave concern about the professional conduct of this officer at that meeting.  If accurately described (and I have no reason to doubt that) his contribution to a conference designed to promote the welfare of these vulnerable children was mischievously irresponsible.  At a time when the mother and wider family needed to move on with their thinking, they were effectively being told by a seemingly powerful official that they need do no such thing.    </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The local authority took up its concerns at the officer&#8217;s conduct at a meeting with the police in February 2012, but to no apparent effect.  I direct the local authority to bring my remarks in the two preceding paragraphs to the attention of an officer of a more senior rank within the Metropolitan Police than the officers that attended that meeting, together with another copy of the fact-finding judgment.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Lastly, there is the mother&#8217;s support network.  This is to a significant extent formed by relatives of the father, as well as members of the mother&#8217;s own circle.  The prevailing view is that B was injured by C and, given the father&#8217;s refusal to accept responsibility and the sort of episode that occurred on 20 January, which took place in front of the three closest family members, this can be no surprise.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The mother&#8217;s own evidence about her predicament was moving, and has to be viewed dispassionately so that the children&#8217;s interests are not obscured.  She spurned all offers of therapeutic assistance from the time of Dr Asen&#8217;s recommendation in early May until the morning of 25 July, when she gave evidence.  She now says that she wants some help because her feelings are confused, and she owes it to herself and the children to see what it might be like.  She has been scared, but she now has to face it.  She is sorry it is so late, but she has now realised.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">There were other aspects of the mother&#8217;s evidence that were less attractive.  She said that it was unfair that M was removed at birth, even though she had separated from the father.  Although this was understandably a painful topic, the mother did not appreciate that M&#8217;s removal had been necessary to protect her away from potentially life-threatening danger in the shape of the father.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">More worrying still was the mother&#8217;s evidence about past domestic violence.  Faced with clear police records of her having made complaints about violence by the father in November 2008 and May 2010, her evidence was completely unsatisfactory.  She played down or even erased these events, making excuses for the father and thereby underlining how difficult it is for anyone to trust that she will act protectively in any situation where he is involved.  I do not think that she has gone backwards, but she is stuck on this issue.  How can she be trusted to keep social services informed if the father comes to her address in future when she casts doubt on clear evidence that she called the police when he did so in November 2008?</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">There is a real worry that someone who is not accurately describing and acting upon something they experienced themselves will be even less likely to act upon a danger that they did not directly experience, in this case the father&#8217;s assault on B. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The mother&#8217;s evidence was observed by the local authority and by the Guardian, and it did not cause them to change their position.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">There has been a debate about what </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif'">the court&#8217;s criteria</span><span style="font-family:'Calibri, sans-serif'"> should be. The local authority and the Guardian argue that in a case of this seriousness nothing less than the mother&#8217;s unqualified internalised acceptance of the court&#8217;s findings would amount to a safe physical and emotional environment for the children.  The Guardian considers that ambivalence is not acceptable in a case where B died in a violent attack, whose trigger is unknown.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The alternative view, which received some support from Dr Asen&#8217;s oral evidence, is that </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">&#8220;real collaboration in the face of real ambivalence&#8221;</span><span style="font-family:'Calibri, sans-serif'"> could be sufficiently protective.  This phrase emerges from the decision of Mr Justice Ryder in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif'">A Local Authority v A (No 2)</span><span style="font-family:'Calibri, sans-serif'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/590" uk:canonical="[2011] EWHC 590 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 590 (Fam)</ref>, where experts regarded healthy ambivalence on the part of grandparents towards their daughter as sufficient, even thought they did not agree with findings that she had smothered the child.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Dr Asen advises that in this case the risk depends upon a variety of factors, including, but not exclusively, the mother&#8217;s attitude towards culpability.  He said that for the mother to achieve a healthy state of ambivalence would be a huge step forward.  In his words, she has to recognise the risks appropriately, consider what risks to guard against, and cut her emotional links with her husband.  At the time he gave evidence, the mother&#8217;s stance meant that he could detect no foundations for a therapeutic process.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">I do not transpose expert advice in another reported case into the decision that must be made here.  Nonetheless, in the circumstances of this case, I do not believe that the mother&#8217;s unqualified acceptance of the court&#8217;s findings is a precondition for reunification.  Of course, full acceptance would be best for the children, but it is possible that a substantial and genuine acknowledgement that the father may be dangerous, combined with a genuine emotional distancing from him, would be sufficiently protective.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Calibri, sans-serif'">Therapy</span></heading>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Dr Asen described the features of insight-oriented psychotherapy.  The aim of weekly therapy is not to make the mother change her mind, but to give her space to reflect in a trusting environment, so that she might become able to understand her own needs better and reflect on whether they may be causing her to lose sight of the children&#8217;s needs and the risk that the father poses.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Therapy could be delivered by Dr Asen&#8217;s service and could begin in early September.  It would be a process lasting at least a year but in his view it was realistically possible that an answer could be given to the question of whether there had been a significant reduction in risk by December.  Ambivalence may have set in by then so that the mother could examine her relationship with the father more critically.  He discussed the means by which progress, or lack of progress, could be gauged.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The local authority and the Guardian think that the likelihood of the mother changing her outlook sufficiently (by which they mean moving to full acceptance of what happened to B) within the next few months is low.  The Guardian sees this as a single issue, but one that the mother will be unable to resolve.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">I agree with Ms Ode that the mother is hard to fathom.  My assessment is that she has changed her position only to the extent that she now acknowledges that she has a problem.  If she were to undertake therapy, there can be no confidence that by the end of the year there will have been a real change in her outlook sufficient to allow the children to return safely to her care: it is more likely that time would have passed with the situation remaining the same.  On the other hand, the possibility that she will make a shift of some kind cannot be ruled out.  At least we have some understanding of the problem.  In the mother&#8217;s current psychological state, surrounded by the influences I have outlined, it is not hard to see why she has so far been completely unable to move forward in her thinking about how B died.  </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_12">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Calibri, sans-serif'">Weighing up the children&#8217;s interests</span></heading>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Ms Stephens rightly described this as a difficult and challenging decision.  Given the high quality of the parenting of which the mother is capable, it is, she said, extremely difficult to contemplate placing the children elsewhere.  Nevertheless, both she and the Guardian consider the risks too high and the chance of change too low to justify keeping the children waiting any longer for a decision.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">On the other hand, Dr Asen and Ms Ode were prepared to contemplate a postponement provided that the mother was genuine in her desire to seek help.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">I have narrowly concluded that it is in the children&#8217;s interests for their mother to be given a final chance to become a parent who is able to protect them from their father.  Accepting all the disadvantages that are entailed, I am going to postpone my decision on the local authority&#8217;s applications until a hearing on 14 January 2013, to which I will give a time estimate of two days.   I will give the local authority permission to restore the matter before me at short notice in the meantime if it is apparent that no effort is being made by the mother to engage in therapy.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">The reason for my conclusion is that I consider that the prize for these children of being cared for by their mother is so valuable that they should only be denied it if the disadvantages of waiting are too great or the chances of success too small.  On the evidence, I find that the risks arising from delay are sustainable.  They are relatively slight for C.  The chances of J finding adopters, given the uncertainty about his development, are not great.  The brunt of the disadvantage is borne by M, but even this is outweighed by the possibility of a lifelong relationship with her mother.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">I further find that the mother is capable of changing her approach, even though I am far from sure that she will succeed.  I would like to say this to her.  Everyone understands what you have been through, but the children now need you to do more.  The time for clinging on to your belief in your husband is over.  The time for minimising his violence towards you is past.  The time for thinking that the Coroner&#8217;s verdict justifies your beliefs about how B died has run out.   You can no longer put the responsibility for your actions onto other people.  How you use therapy is a matter for you, but unless you can come to acknowledge the threat that the father poses to you and your children, you will have stood in the way of the local authority finding them new homes that can protect them.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">Although, like Dr Asen, I do not yet give up on the children being brought up by their mother, I want to make it absolutely clear that in January I will make care and placement orders unless there is a wholesale change in her position.  Indeed I am expecting to have to make those orders.  It is up to the mother to make a different outcome possible.  Unless she can persuade Ms Stephens, Ms Shepherd and Dr Asen that she has significantly moved on, there is no chance of her persuading the court that she can be trusted to bring up these children.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">I am scarcely in disagreement with the well-argued professional views of Ms Stephens and Ms Shepherd, but since I am reaching a different ultimate conclusion, I would identify my difference of approach as being: (i) that I do not set unqualified acceptance of the findings as an inflexible precondition to reunification of the mother and children, and (ii) that I consider that a chance of change is sufficient, even if it does not amount to a probability.                </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Calibri, sans-serif'">I commend the work done by the local authority and its willingness to provide funding for the mother&#8217;s therapy for three months.  I hope that there can be some further thinking on its part about how to neutralise the effects of the police attitude and the Coroner&#8217;s verdict, and that a meeting might be held to help the mother&#8217;s family and friends to learn more about what has happened and what has to happen.  Otherwise, these influences may continue to be a sheet anchor against progress.  But in the end, it will be up to the mother herself.  There will need to be inner change, but there are also certain outward actions that she can take to show that she is serious about distancing herself from someone who is a danger to her children.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

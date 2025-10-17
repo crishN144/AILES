@@ -1,0 +1,888 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2019/3950"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2019/3950"/>
+	  <FRBRdate date="2019-10-18" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3950"/>
+	  <FRBRname value="Re Y (Leave to Remove Children from Jurisdiction)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2019/3950"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2019/3950"/>
+	  <FRBRdate date="2019-10-18" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2019/3950/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2019/3950/data.xml"/>
+	  <FRBRdate date="2024-11-09T05:42:49" name="transform"/>
+	  <FRBRdate date="2024-11-26T08:00:03" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2019-10-18" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="x" href="" showAs="X"/>
+	<TLCPerson eId="y" href="" showAs="Y"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis" href="/judge-mrs-justice-theis" showAs="MRS JUSTICE THEIS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2019</uk:year>
+	<uk:number>3950</uk:number>
+	<uk:cite>[2019] EWHC 3950 (Fam)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>3351d70b7243bfb9c1b39978b2c7a18e87c0b4796a8bfe38afb1cd1db4b14f98</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.5pt;height:75pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2019] EWHC 3950 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>ZC19P00452</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2019-10-18" refersTo="#judgment">18/10/2019</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis">MRS JUSTICE THEIS </judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#x" style="font-weight:bold">X</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#y" style="font-weight:bold">Y </party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Christopher Butterfield </span>(instructed by<span style="font-weight:bold"> Brabners LLP</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Michael Gration </span>(instructed by <span style="font-weight:bold">Penningtons LLP</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 16<span style="vertical-align:super;font-size:smaller">th</span> &amp; 17<span style="vertical-align:super;font-size:smaller">th</span> October 2019</p>
+      <p style="text-align:center">Judgment 18<span style="vertical-align:super;font-size:smaller">th</span> October 2019</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MRS JUSTICE THEIS </p>
+      <p style="text-align:justify"><span style="font-weight:bold">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published. The anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</span></p>
+      <p><span style="font-weight:bold">Mrs Justice Theis DBE:</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><marker name="tab"/><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The court is concerned with the mother&#8217;s application for leave to take the two children of the family G, age 8, and Z, rising 5, out of the jurisdiction for two years to live in Amman, Jordan. This is because she has a job there with an international humanitarian organisation as a Regional Programme Adviser, which is scheduled to start on 6 November 2019. Her application is opposed by the father as he considers such a move is not in the children&#8217;s interest due to the security risks out there, the uncertainty around the arrangements, whether the mother will return to the jurisdiction and the impact on the children&#8217;s relationship with him due to the change in the time he will have with the children. I shall refer to the parents in this judgment as the mother and father.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The hearing started on 16 October, the evidence concluded on 17 October and I adjourned judgment until today. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In addition to reading the court bundle the court has had the benefit of hearing oral evidence from both parents and the independent social worker (ISW), Hilary Trevelyan. Both parties filed two detailed statements and Ms Trevelyan two reports; her main report and the addendum. In her first report she recommended, on balance, the refusal of the mother&#8217;s application. In her addendum, having seen the second statements filed by the parties, her recommendation changed and, on balance, she supported the mother&#8217;s application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The parties jointly sought expert advice from Ian Edge regarding any legal safeguards that could be put in place in Jordan, by way of mirror orders or similar. He has provided two reports. The net effect of his written evidence is that there is no structure of mirror orders that could be put in place in Jordan. There is a process whereby an agreement reached between the parties could be registered but there is considerable uncertainty about how long such a process could take and, even if it could be achieved, how it could be enforced. Even if such registration was possible it is agreed that it can&#8217;t be done in the timescales of this case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">I am acutely aware the outcome of this application is extremely important for both parents. They gave powerful and moving oral evidence, each strongly advocating the reasons that underpin their respective positions. By definition one of them will be disappointed with the court&#8217;s decision. What I hope is they will each find the necessary strength to ensure their respective relationships with each other and the children will not be affected and that they will each support their respective roles as parents for their children whatever the court&#8217;s decision, such steps can only be in the children&#8217;s interests.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">What has shone through from the papers and during this hearing is both parents love their children deeply, and the children in turn have a close, warm, loving and affectionate relationship with each parent. Whatever the differences there have been between the parents the fact that the children have been able to have these relationships with both parents is very much to the parents&#8217; credit. The description by Ms Trevelyan of her visits to each of their homes demonstrate the ease and strength of these relationships.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Both parents have had the benefit of excellent legal representatives who have advocated their respective positions with great skill, in both the written and oral submissions. I am grateful for the written closing submissions and the draft orders submitted by both counsel.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Legal Framework</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Counsel have jointly submitted an agreed statement of the law. I do not propose to recite its content in any great detail, I have borne it very much in mind and its content should be read into this judgment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">9.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">As the cases make clear there can be no presumptions in a case governed by <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 1</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. From the beginning to the end the child&#8217;s welfare is paramount and the evaluation of where the child&#8217;s interest lie is to be determined having regard to the &#8216;welfare checklist&#8217; in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1 (3)</ref>. Every case must be considered on its own facts having regard to the welfare checklist with the focus being on what is in the child&#8217;s best interests.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Relevant Background</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother is 43 and the father 37. They met on an aid convoy in Gaza in 2009, had an Islamic religious marriage in May 2009 and a civil ceremony in September 2009. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Following their marriage, they spent several years working abroad in humanitarian aid, and each has developed their careers in that sector. They both have considerable experience in this field, and both speak a number of foreign languages.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">From May 2009 they lived in Jordan where the mother worked as Head of Mission for an NGO and the father secured work as a freelance translator/coordinator for another NGO.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In June 2010 they moved to Pakistan, where the mother worked as Head of Programme for NGO and the father worked initially for one NGO followed by a move to another one. In October that year the mother changed jobs and started working for X country Refugee council (XRC) in Pakistan.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The parties returned to England in April 2011 and purchased the family home with the assistance of the father&#8217;s family trust. On April 2011 G was born.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In June the following year, 2012, the parties moved to Jordan where the mother secured a job as a grants co-ordinator for XRC and worked on a consultancy basis for an International Commission. The father secured work there for the International Committee of an NGO.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In August 2014, according to the father, the parties separated. The mother says it was later. The mother was then 7 months pregnant with Z, who was born in Jordan in November 2014. The mother alleges the father had commenced a relationship with another woman, which he accepts, and their relationship was under some strain at that time. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother returned to England in December 2014, initially staying with her family until it was possible to return to the family home. The father stayed with his parents, saw the children over Christmas 2014 before travelling to New York for New Year with his girlfriend. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In January 2015 the father returned to work in Jordan for another NGO, and the mother and children remained in the family home in London.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">There is a dispute between the parties as to whether he had any further time with the children in early 2015.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In March 2015 the father returned to live in England, he says to ensure he was able to see the children.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In June 2015 the father returned to live in the family home and the parties attempted a reconciliation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The parties separated in September 2015 when the father secured a job working in the Lebanon for an NGO. The family went on holiday together for a week in Morocco in December 2015. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The father returned to work in England for an NGO in July 2016. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In February 2017 the mother returned to work working as an HMG Programme coordinator for another NGO.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In early 2017 the parties secured the assistance of a mediator and in March 2017 the father started work as a waiter.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother commenced divorce proceedings in May 2017, the decree nisi was made in February 2018.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The father changed job in July 2017 and started working for another NGO. In November he moved to work in Tunisia for a previous NGO he had worked with.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother issued her financial remedy application in March 2018 and the first appointment took place in July 2018.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In November 2018 the father returned to England and at the end of the month there was the first FDR hearing, with further directions being made in February 2019.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother changed her job in February 2019 to work as a Humanitarian Funding Programme Coordinator for an NGO.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The parties agreed to mediate in relation to the children in early 2019, after the initial meetings they each had with the mediator there was a delay in securing the first joint session.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In April 2019 the father issued his application for a child arrangements order. In the application he described not having seen the children at Christmas since 2013 and that he had been refused contact with them. Following the application being adjourned twice it was dismissed as the parents were able to largely agree matters by June 2019, set out in a memorandum of understanding with the assistance of the mediator.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In June 2019 the parties reached final agreement on all aspects of the financial proceedings. This involved negotiations with the father&#8217;s family trust with the result that the mother could remain in the family home, she has a charge for 45% which can be realised at her request or when the youngest child completes her secondary education. One of the terms of the trust provides that if the mother is working abroad, she can rent out the home.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">According to the mother she applied for a job here around that time but was unsuccessful, despite having got down to the last two and she describes in her statement the efforts she has made to take on additional work. The mother applied for the job in Jordan in June, she was interviewed and was offered the post on 18 July. She informed the father about this on 27 July when he refused to agree to the children accompanying the mother to Jordan. The mother accepted the job offer on 4 August, gave notice to her current job and ceased working for them last Friday.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">This application was issued on 30 July 2019, directions were made by Recorder Sadd, which included the instruction of the ISW to report on the mother&#8217;s application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">36.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The matter was listed for a pre-trial review on 2 October and directions given leading to this hearing.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The father&#8217;s contact with the children</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The parents disagree about some matters regarding the history of the arrangements for the father seeing the children after the parties&#8217; separation. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The father accepts he saw the children in December 2014 before he went to New York, there is a dispute between the parties whether he saw them on his return in early 2015 and when he later came back to England, prior to his return full time in March 2015.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">From June to September 2015 the parties were living in the same home seeking to reconcile, so the father saw the children very regularly. Following the father going to work in the Lebanon in September 2015 he agrees the family spent a week together over Christmas in Morocco.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The father returned back to England in August 2016. Although he denies drinking heavily at that time, he accepts there were occasions when he did which he explains as being caused by his distress at the mother stopping his contact.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The father accepted there were messages exchanged between the parents in October, November and December 2016 relating to arrangements for him to see the children, both face to face and by Skype. The messages are friendly and co-operative in tone, indicating fluid and amicable arrangements.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">During the first half of 2017, when the father was working in England, there are again examples in February, May and June of civilised message exchanges between the parties making arrangements for the father to see the children. The father went to work in Tunisia in November 2017. He agrees the mother took the children out there for a week in the summer of 2018, so they could spend time with him. By the time he came back to England in November 2018 the financial proceedings were ongoing and both parties agree that was a particularly difficult period for them. According to the father he saw the children approximately monthly, the mother thinks it was more frequent but has not provided any further details. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother accepts that until June this year the contact arrangements have been ad hoc. She says she has sought to promote and encourage contact, but there have been gaps due to the father working abroad for extensive periods and the inconsistency in his response to offers she has made for him to see the children. She relies on the message exchanges in 2016 and 2017 as being illustrative of the way she promoted contact between the father and the children.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The father says the mother has been obstructive about arranging contact and there have been long periods when it has not taken place and the mother has been slow in responding to proposals. He cites as an example the proposals for contact his solicitor made on 4 December 2018 which the mother did not respond substantively to until May 2019, some six months later. The mother says that not only was overnight contact taking place during this period, the parties were engaged in mediation and in her response in May 2019, she offered overnight contact, even though it wasn&#8217;t part of the father&#8217;s December proposals. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">45.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">According to the father contact has only taken place on a regular basis since June 2019 when it has been on alternate weekend staying contact, one mid-week contact after school, with longer periods during the school holidays.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The parents&#8217; evidence</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The mother</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother describes in her statements the reasons that underpin her application. She sees the job in Jordan as the best way for her to secure her financial position and to enable her to gain additional experience that will help her get better jobs here in the future. She accepts the move would involve disruption to the current arrangements for contact, but states when looked at though a wider lens the father will have the same quantity of time with the children, it will just be less frequent but for longer periods.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The main reasons for her application are to help secure her financial position both in the short and long term and to improve her career prospects. She realistically recognises that if she is given leave there will be an impact on the relationship between the children and their father as they will be seeing him less frequently, he will be less directly involved in their day to day life but she says that needs to be balanced with the wider aspects of the children&#8217;s welfare of them being able to benefit from the experience of living in another country, the advantages additional financial security will bring and to see their mother being able to progress in her career. Although she accepted there was some equivocation about her plans beyond the two year period in her first statement, she was clear in her oral evidence and her second statement that she intends only to go for two years and return back here in 2021 to secure the children&#8217;s schooling, in particular for N.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother rejected the suggestion that she would seek to limit or interfere with the father&#8217;s contact. She said she understands the children&#8217;s need to have a secure and strong relationship with their father and whilst she accepts there may have been difficulties around the time of the breakdown of their marriage, caused in part by her own anger at the circumstances of the break-down of the marriage, she has sought to promote contact and has frequently been the instigator of the arrangements. For example, the trip to Morocco in December 2015 and Tunisia in the summer of 2018.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother denied she had unilaterally sought to change the children&#8217;s school or arrange trips abroad to defeat the time the children could spend with their father. In relation to the trip abroad in December 2018 the father accepts she approached him in the summer 2018 asking him when he would like to see the children over Christmas, he responded he was unable to commit to when with the result the mother, in turn, booked a holiday. In relation to the question of schooling the father states the first he knew of any change in school was when he was told about this by G, during a contact visit in December 2018. It looks like there was communication between the parties about this issue prior to the email on 10 January although neither parent can remember when the earlier email was sent. The mother said she did not make the change of school or complete the form for any new school until the father&#8217;s views had been sought. It is unfortunate that the adults could not communicate this issue first between themselves, rather than information being conveyed by the children. The strident language used in some of the solicitor&#8217;s letters was not helpful. Matters such as schooling are decisions for the adults to make jointly, in the exercise of their parental responsibility.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Turning to the evidence of the details of the mother&#8217;s job offer. The court does not have the finalised signed contract or any concrete details about such matters as hours of work, detail as to the extent of any travel and what countries the mother&#8217;s job would hold responsibility for. What is known is that she is expected to travel for between 20 -30% of the time, which equates with between 8 &#8211; 12 weeks a year. On the second day of the hearing email exchanges were produced with the mother&#8217;s prospective employer which stated that the countries she will be responsible for are Syria and Libya, that the travel will be to those two countries &#8216;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">but also may include others in particular circumstances like emergencies&#8217;.</span><span style="font-family:'Times New Roman';font-size:12pt"> Details of the working hours were provided, and travel is expected to be every two months for up to 10 days at a time observing that the employer </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;are a family friendly organisation and adapt as much as possible to individual circumstances&#8217;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother set out her plans for the care of the children in her statement, she says that such time as she is away through work the children will be cared for by the full-time carer she will employ, if they are not with their father. In her statement the mother describes the detailed enquiries she has made about accommodation and schooling in Amman, there is no significant issue about the appropriateness of the arrangements she will make in those respects.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The financial position is described in her statement. Her income is largely used to meet her expenses. Mr Gration sought to suggest that some of the expenses were no longer applicable (such as Arabic lessons). In addition, she has outstanding legal fees in the region of &#163;55,000 that need to be paid, as well as some outstanding amounts on credit cards and loans from her family. Her aim, as set out in her statement, is by having a larger salary she will be able to save to clear her debts, as well as have the benefit of the income from renting the family home in London. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother also sets out in her statement why the job with the international humanitarian organisation is such an important step for her career. It will, she says, enable her to secure better paid work on her return on England in 2021. She has sought to get better paid work here, such as the position with the Zoological Society, but has not been successful.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother acknowledges in part the father&#8217;s concerns about security in the region. She relies on the fact that Amman remains a family posting, and all the major organisations permit families to be based there. She relies on the advice from the Foreign Office set out in the papers.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">55.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In her oral evidence there were times when the mother became somewhat defensive and inconsistent. For example, in her first statement she stated that at the end of the two year period she would consider whether to extend or stay on, yet in her second statement she was clearer that she intended to return to England at the end of the two year period. She said it demonstrated she had been able to reflect on the position and consider, in particular, the impact in G&#8217;s schooling. Also, when pressed about changing the children&#8217;s schooling, she displayed limited acknowledgement of the father&#8217;s role in that process.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The father</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In his written statements and oral evidence, the father articulated his objections to the mother&#8217;s application. He considers she has put obstacles in the way of him developing a relationship with the children in the past, and the situation has only improved since the regularity of his contact with the children has been in place since June 2019. He fears if the mother and children go to live Jordan that the recent improvement in his relationship with the children, brought about by the more stable structure of contact, will be put at risk by the proposed changes in the time he will have with the children and the risks that the arrangements will not take place with no effective structure to enforce them.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">He does not accept the mother&#8217;s financial position is as difficult as she suggests, he considers she could make savings in her expenses, some of her debts are &#8216;soft loans&#8217; within the family and he considers she could secure suitable work in England, which she hasn&#8217;t fully explored. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">He remains concerned about the general security in the region, the uncertainty about the times when the mother will need to travel to visit other countries and what the care arrangements will be for the children if she gets delayed, or is unable to effectively communicate to those responsible for the children&#8217;s care. He raises concern about the level of pollution in Amman although accepted that the material he was relying on was many years out of date. His concern is that the mother is what he describes as a &#8216;risk taker&#8217; and may put herself or the children in difficult situations. In his evidence he referred to an occasion when the mother and children were in South Africa and spent some time in a police station, although it transpired this related to the mother reporting the fact that her bank card had been stolen. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">59.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The father&#8217;s position and plans are that he will complete his Masters in June 2020 and then to secure work in this country, he has no plans to work abroad. He agreed if the mother was permitted to take the children to Amman, he would be able to visit for long weekends so the gaps when he would not see the children would not be too long. Whilst the cost of such trips would be able to be funded from the family trust, he was less sure how it could be accommodated with his lecture timetable but did not rule it out.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">ISW</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In her two perceptive and detailed reports Ms Trevelyan provides a careful analysis of the welfare advantages and disadvantages for the children of the mother&#8217;s proposed stay in Jordan.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In addition to seeing the written material she saw the children with both parents on two separate occasions in September. In her first report she recommends, on balance, that the mother&#8217;s application should be refused. In her addendum report the balance for her tips the other way and she (conditionally) supports the mother&#8217;s application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In her balanced and thoughtful oral evidence, she outlined what she considered are the important considerations. From her reading of the statements and observations of the parents she considers they are </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;a long way from being able to co-parent with each other because they are so distrustful and suspicious of each other. They interpret each other&#8217;s action in a negative way.&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt">  She acknowledged the steps the mother had taken to promote contact and the more stable arrangement that has been in place since June 2019. She agreed that the mother had been able to say positive things about the father, and that was reflected in the positive way the children interacted with the father. She acknowledged the positive comments had not been reciprocated by the father, which chimed with his oral evidence. She considered the children were aware of the tensions between the parents and cited as an example the anxiety she noted when requesting some additional time when she observed the children with the father. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">When asked about the impact of the mother&#8217;s application being refused, she said if that does happen it will be confusing and upsetting for the girls. This was, in part, due to her impression that it has not been presented to the girls as something that may or may not happen. She considered the mother will be upset and frustrated if the application is refused and that may impact on the girls. It was her assessment this is an opportunity the mother wants to have; she had described it to Ms Trevelyan as an adventure for her and the children. When asked about the concerns about security in the region Ms Trevelyan&#8217;s view is the mother is a very conscientious parent who prioritises the children&#8217;s health, education and wider welfare.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">One of the factors for Ms Trevelyan changing her recommendation in her addendum report was the commitment by the mother to return at the end of two years, as this meant G would be back for secondary education and it would limit the impact on the children&#8217;s relationship with their father. She noted there still remained some uncertainty about the details, such as the child-care. She considered the mother&#8217;s second statement provided more concrete detail about the contact proposals, the security the mother was offering in relation to the home, gave more explanation about the background in the relationship and in Ms Trevelyan&#8217;s view the impact on the mother and children of refusal of the application. She agreed with Mr Butterfield that the mother had fought hard within the financial proceedings for her interest in the family home, so the fact she was willing to offer it as security was a significant matter. When asked whether with all the safeguards in place the mother&#8217;s proposals to take the children to Jordan for two years were in their best interests she responded </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;what is in the children&#8217;s best interests is the way parents most likely to move on. If refusal the mother will find it difficult to move on, she would be very unhappy, she has not exposed her feelings to the children, but they will pick it up. If they go to Jordan there will be an impact on the father. They both need to begin to behave as co-operative parents. On balance most likely if this application is allowed, that is what is the children&#8217;s best interests if the parents are able to co-operate without huge loss, the loss is more to the mother than the father.&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Ms Trevelyan agreed she found her conclusion in this case difficult and the matter remained finely balanced. She agreed the ad hoc arrangements prior to June 2019 had impacted on the children&#8217;s relationship with the father, and since the more settled arrangements have been in place the children&#8217;s relationship with the father is improving. In her view, in the same way as the mother made the effort when the father was abroad, now the situation was reversed, and it was incumbent on both parties to do that. There is a need to balance risks of not having such frequent contact with the negative impact as a result of the application being refused. She agreed the children have limited sense of time and may feel loss at not seeing their father so frequently, although she considered if they were living in Jordan they would realise they would not see their father as frequently. It would be a change in the children&#8217;s relationship with their father. She agreed there could be an emotional distance. It was suggested that what the mother proposed was a return to the position prior to June, she didn&#8217;t agree with that as one of the features of the previous ad hoc arrangements was the uncertainty that accompanied them, which was not a feature on the mother&#8217;s proposals as there was a clear plan. In Ms Trevelyan&#8217;s view there needed to be an attitude change by both parents, for the mother to treat the father as a parent and for the father to take the initiative and rise to the occasion, be more proactive and take responsibility. She agreed there was currently a lack of trust on both sides and that communication was poor, citing the example of the mother taking initial steps about the change of school without consulting the father. She was asked about the risks of contact breaking down if the children went to Jordan; she considered that unlikely. As she said the mother is going to Jordan for her career, not to prevent contact with the father and her behaviour in the past does not suggest she would do that, although she acknowledged the mother had prioritised other matters in the past and there was a risk of it happening again. If it resulted in less contact between the father and the children that was not in the children&#8217;s interests. She agreed the way the matter had been presented to the children, particularly N, there is likely to be more disappointment if the application is refused. Whilst she agreed if the application was refused the children would continue with their settled lives here there was a danger the refusal would have a knock-on effect in the children&#8217;s relationship with their father. Whilst she accepted the theory that it was the responsibility of the mother to manage her disappointment if her application was refused, she considered the reality may be very different as the mother has committed herself to this job. She agreed the mother could access support to assist her managing her disappointment but she considered this would be difficult when the mother was being asked to do it again (having had such help to manage the breakdown of the marriage) and it may take some considerable time. She accepted the arrangements in Jordan presented risks for the children, for example by the mother&#8217;s work related travel,  but it was her view that there was nothing to suggest from the mother&#8217;s past parenting to suggest the live in carer would not be a success, the mother has always taken child focussed decisions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">66.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In Ms Trevelyan&#8217;s view the mother&#8217;s application from the children&#8217;s point of view is not at a good time but if it is something the mother wants to do, it is better to do it now because of factors such as the children&#8217;s schooling. It is her view that, based on her parenting to date, it is not something the mother would suggest should happen if she did not feel the children could manage. Ms Trevelyan considered if the narrow view of the children&#8217;s best interests was taken you would not take the risks inherent in any change, if the wider view was taken regarding the positive aspects of what the mother proposes the position is different. There are benefits to be gained from different experiences.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The children</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In her report Ms Trevelyan describes the children as intelligent and delightful children, who are very engaging and chatty. It was her view that the children are cherished by both parents. During her visits with each parent she describes the warm and loving relationship the children have with each parent.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Ms Trevelyan did describe in her report that her direct work with the children indicated that their lack of contact with their father had impacted on their relationship with him. Through her work with them they indicated they felt happiest and safest with their mother. However, she observed that they appeared relaxed and happy with their father and talked a lot about social occasions with both sides of the family which indicates they don&#8217;t feel under any pressure not to describe their experiences with either parent.  This chimed with what the mother said that the children will always tell her what they have done when they are with their father and to their credit there is no suggestion of either parent seeking to prevent the children discussing these matters.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">69.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In terms of the children having knowledge of the proposed move to Jordan. G, being the eldest, does have an understanding commensurate with her age of what is proposed but, as Ms Trevelyan observes, although she is an intelligent and articulate child she is unlikely to have a fully developed sense of distance or time and neither child is likely to be able to fully comprehend the change in time periods if they went as to when they would see their father. Ms Trevelyan also notes in her first report if the application was refused G may blame her father as she is likely to pick up on her mother&#8217;s disappointment, although by remaining here both children will be able to continue with the regular times they can see their father.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Submissions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">On behalf of the mother Mr Butterfield relies on the following matters. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The history of the relationship between the parties since their separation and the arrangements for the father to see the children show that it has been the mother who has often instigated and promoted contact and the ease of language in the texts and emails in 2016 and 2017 demonstrate this has taken place and the gaps have been caused in large part by the father working abroad for extended periods. The mother has remained in this jurisdiction and given the children the security and stability they have clearly benefitted from whilst there have been uncertainties about the father&#8217;s position, both in terms of his periods of work abroad and his psychological difficulties as outlined in his most recent statement. Whilst it is recognised that the recent stability in the arrangements for the father to see the children has benefitted the children and helped improve their relationship with the father that is likely to have been assisted by the support the mother has given to contact since separation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">He submits the reasons that lie behind the Mother&#8217;s application are well thought out and child focussed. She, not unreasonably, seeks to secure her financial future. She does not have the benefit of the financial security that is available to the father. She has debts now that need to be paid and whatever trimming there can be made to her expenses that is not going to make any inroads into the debts she has. Whilst some may be soft loans within the family, others are to credit card companies and the estimated debt to the solicitors is estimated to be in excess of &#163;55,000. By undertaking this two year contract, earning about &#163;20,000 more per annum than she could here, supplemented by the allowances with her job and the rental income from the family home she will be able to clear or, at least, make substantial inroads into her debts. Additionally, by undertaking this role she says it will increase her chances of securing better job opportunities on her return here.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">As regards the issues raised by the father concerning security in Amman, and the region more generally, the Foreign Office advice has not changed significantly. This is an area well known to both parents and there is no evidence that the mother has done other than safeguard her children&#8217;s physical and emotional needs. The organisation the mother is going to work for is internationally known, the mother has worked for it previously and the father has knowledge of it. There is no suggestion they put the safety of their employees at unacceptable risk. In terms of the uncertainties about the detail of the arrangements regarding time when the mother will be away this has to be looked at in the context of the mother not only having detailed knowledge of the region but taking steps regarding support there as described in her written statement.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In relation to the uncertainties regarding her plans as to whether she would return. This is a mother who has much to anchor her here &#8211; her elderly parents and sisters, as well as her only asset, namely her interest in the family home. He submits the risks of her not returning here are small and are managed within the safeguards the mother proposes, for example offering her interest in the house as security. He submits the court should accept her developing position in her written and oral evidence at face value, which shows she has the ability to reflect. The timetable fits in with the children&#8217;s return to schooling here with G returning back into year 6 in 2021 and she would accept returning here in August 2021.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother recognises there will be a change in the arrangements for the father to see the children, it will be less frequent but in overall time there is less change over the year. It will be less frequent but for longer periods. This has to be seen in the context of the close relationship the children have with their father, the increasing ease with which they will be able to communicate independently by Skype and the father&#8217;s acceptance that he would be able to come to Amman for long weekends, so the gaps when he doesn&#8217;t see them won&#8217;t be as long.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Butterfield recognises there have been difficulties with the parents&#8217; relationship in the past but he submits, as is often the case, there are criticisms that can be made on both sides. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Gration, on behalf of the father, submits that when the welfare balancing exercise is undertaken the risks, actual and inherent, in the mother&#8217;s proposals result in the balance coming down in favour of refusing the application as it not being in the children&#8217;s interests. There were significant gaps in the mother&#8217;s proposals, some of which were filled by emails produced on the second day of the hearing dealing with hours of work, countries she will be responsible for and detail regarding the travel commitments but in his view there remain gaps about how much control she would have over travel.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">He submits there remains concern about the mother&#8217;s attitude to the father and his role as a parent. He relies on the actions taken by her in relation to the change in school, the delays in responding to the father&#8217;s contact proposal in December and most recently booking a trip to Spain without seeking the consent of the father for the children to go. He submits there remains a distrustful relationship between the parents, which places at risk the complex arrangements regarding what would need to work for contact to take place.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">He submits the evidence since the June arrangements have been in place is that the children&#8217;s relationship with their father is improving, and that is likely to be put at risk if the children go to Jordan. Their relationship would lose the benefits that come from frequent contact that would not be compensated by the less frequent but more extended periods.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The father disputes the financial justification for the mother&#8217;s proposal and considers the evidence does not support suitable jobs not being available here. Mr Gration submits the mother should be expected to hide her disappointment from the children, following an objective analysis of what is in the children&#8217;s best interests undertaken by the court. In those circumstances it would be incumbent on the parents to work on the parental relationship in order to find a way to effectively co-parent the children.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Gration submits it was notable from the evidence of Ms Trevelyan that she would not say it was in the children&#8217;s best interests to relocate, rather she was looking for the least worst option, which would most encourage the parents to move on from the current situation. She did not hear the parents&#8217; oral evidence and it is far from certain that by permitting the application that is most likely course to result in the parents being able to move on. Even if it does, he submits it comes with such risks to the children that it would not be in their interests to test the water in that way.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Gration submits one aspect of Ms Trevelyan&#8217;s evidence is illuminating. She recommends if the mother goes that she returns the children in August 2021 to enable them to spend time with the father before starting school here in September. The mother has not agreed to this proposal, which Mr Gration says does not bode well regarding co-parenting and supports the continuation of the mother not seeing the father as an equal parent and raises the risk of the mother not being fixed on returning to England at the end of the two year period.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The father&#8217;s concerns about lack of any effective safeguards remain. The mother has a history of prioritising other things over the father&#8217;s contact and if she did so again there would be no effective means of enforcement other than an application when either she or the children are in the jurisdiction or when the mother returns at the end of her contract. Whilst the security relating to her interest in the family home could ensure her return, it would not assist with contact issues in the interim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">84.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Gration submits that when the holistic welfare analysis is undertaken, as Ms Trevelyan did in her first report the court will be driven to the conclusion that it would not be in the children&#8217;s interests to travel to Jordan as the mother&#8217;s plans are too vague and the risks too great, it risks the children&#8217;s relationship with the father and these outweigh any welfare benefits the children living in Jordan would bring.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Discussion and Decision</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">These cases are always inherently difficult as, by definition, there is no middle ground to be considered.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Despite the difficulties there have been in the parents&#8217; relationship the children appear well adjusted. They are secure in their relationship with their mother, who has been their primary caregiver, and they have a loving warm relationship with both parents and the wider maternal and paternal family.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In reaching a decision the court is guided by a holistic evaluation of the relevant welfare considerations to determine what order meets the best interests of each child, which is the courts paramount consideration.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">88.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The mother has been the children&#8217;s main carer. Ms Trevelyan&#8217;s evidence was clear that when looking at her past in relation to the care she had provided for the children her decisions have been child focussed and her written and oral evidence demonstrated how well the children have done in every aspect of their lives. I agree.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">89.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In my judgment, although there has been criticism of her in the way she has or has not made arrangements for the children to see their father, those have not been made out to the extent the father suggests. His C100 application in April 2019 and his statement in these proceedings make assertions about how the mother has obstructed contact that have not been balanced or given the complete picture. By way of example, to suggest as he does, that he has not seen the children at Christmas since 2013 is simply wrong. He saw them in December 2014 and they spent a week together in December 2015. The mother offered for him to have Christmas 2018 but he was unable to commit himself to that at the time. Also to suggest, as he does, that there were wider difficulties about contact did not give an entirely balanced picture. As the mother has demonstrated with the messages attached to her statement there were amicable exchanges making arrangements for contact in 2016 and 2017. It is very unlikely those were in total isolation of other arrangements that were taking place. Whilst it may be said there could have been more contact offered the father was abroad for significant periods and the mother took the initiative to take the children to go and see him. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">90.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">What is of note, in my judgment, is the ease with which Ms Trevelyan observed the relationship between the father and the children in September 2019, that is not just down to the structure of the contact that has been taking place since June 2019 it is also due to the steps the mother has taken to ensure the children see their father, and bringing them up in an environment that they feel free to discuss what they have done during their time with him and the paternal family. Whilst there may be some force in the submission that she could have done more to support contact with the father the evidence demonstrates that she did considerably more than the father gives her credit for in the context of him spending significant periods working abroad. This resonates with the observation made by Ms Trevelyan that whilst the mother was able to give a balanced view about the father, that was not the position given by the father. The criticisms of the mother in delaying to respond to the father&#8217;s contact proposals in December 2018 have to be considered in the light of what was going on at the time; the parties were undergoing mediation and the overnight contact that was actually taking place during that time, albeit at monthly intervals, as set out in the schedule produced by the father. It can&#8217;t be ignored either that this was at a time when the parties were also managing the tensions inherent in the financial application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">91.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Whilst it may fairly be said more contact could have been arranged prior to June 2019 this is not a case where, as the father suggests, the mother has sought to stop contact. As is often the position it is more complex than that.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">92.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">I agree with Ms Trevelyan that the mother needs to properly acknowledge the father&#8217;s role as a parent. Whilst there is some force to Mr Butterfield&#8217;s analysis in his closing submissions of the chronology relating to consulting the father about the change of school, it still should have been a matter that was dealt with more effectively between the adults first. The father acknowledged in his oral evidence he can sometimes take his time to consider matters, whereas the mother is perhaps more focussed. These are the respective dynamics of their personalities that each needs to acknowledge going forward in terms of their parental roles. They have both been under the shadow of contested litigation for over a year, which is unlikely to have helped. It was a sad vignette of the father&#8217;s evidence that he seemed unable to consider the impact of not responding to communications from the mother. For her part, the mother demonstrated a lack of respect for the father&#8217;s position when leaving the question of consultation about a proposed trip to Madrid until so late.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">93.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Turning to consider the welfare checklist. Both girls have a good and secure relationship with each parent, they see their mother as their primary carer for the reasons set out in Ms Trevelyan&#8217;s report and enjoy their time spent with their father. They are said to be enthusiastic about the prospect of going to Jordan although as Ms Trevelyan observes they lack the maturity to properly comprehend the changes such a move will bring about. It is unfortunate that they have not been given a more nuanced view about whether they are going or not, as if the application is refused the disappointment, they may feel is likely to be enhanced. Having said that due to their young ages it may have been difficult, as Ms Trevelyan observed, to convey such a message to them. Their enthusiasm for spending time with the father and the respective wider families means that it is in their best interests for that to continue. It is important for them to continue to develop a better relationship with their father but also important for them to feel that their mother, as their main carer, is happy.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">94.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Neither child has any health difficulties and they are well adjusted balanced children. The difficulties there have been over contact between the children and their father has impacted their relationship with him, however in my judgment despite the gaps they have been able to pick up their relationship with their father without any great difficulties, which the mother should have some credit for. If the application is granted their relationship with their father will change by virtue of the change in the contact arrangements. The children are better equipped to manage that change due to the stability of the more recent contact arrangements. The emotional disruption will be less if the mother&#8217;s proposed contact arrangements for the father and the children are not disrupted. If the mother&#8217;s application is refused there will be a risk to the children as a result of the mother&#8217;s disappointment, although they would have the benefit of the continuity of their lives and seeing their father here. Whilst it is incumbent on the mother to shield the children from that, like Ms Trevelyan I consider it very likely the children will become aware of the position. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">95.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The children are doing well at school here and will inevitably feel some uncertainty by a move of school, there is no issue about the suitability of the school proposed by the mother in Amman. Ms Trevelyan&#8217;s evidence was clear, it is in the children&#8217;s interests, particularly G, for the children to return to England in August 2021 in readiness for the new term, which would allow sufficient time for discussion about secondary schooling for G in the state sector. The option of fee paid schools, the timetable and logistical arrangements wherever the children are will need to be discussed between the parties.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">96.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">In her report Ms Trevelyan describes the children&#8217;s relationship with their parents and the wider family and friends. G describes a closeness to her two maternal aunts, and they appear well balanced. Whilst Ms Trevelyan felt G was perhaps cautious about what she said and focussed on the benefits of going to Jordan she did not consider her failure to mention features about her life here indicated any difficulties. She considers there is a risk that G may pick up on her mother&#8217;s disappointment if the application is refused and hold her father responsible which may impact on their relationship. If the children remained here, they would continue seeing their father with the frequency that they do at present with the benefits that such an arrangement will bring to their relationship.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">97.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">The children strongly identify as Muslims, as does their mother. Their father is still a practising Muslim although he is more interested in religion generally. The children have travelled extensively, and their parents speak many languages.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">98.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Whilst the statements from the parties suggest mutual frustration with each other which the children are likely to be aware of it is to their credit that Ms Trevelyan was able to observe warm relationship with the children and their parents. A structure that is adhered to is important for the children, it removes the uncertainty which can impact on welfare. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">99.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman';font-size:12pt">Both parents are capable of meeting the children&#8217;s needs. There is no issue the mother remains the main carer, whether continuing to live here or going to stay in Amman. The children have a secure relationship with her, and Ms Trevelyan positively comments on the way she has parented the children. Whilst there remain some gaps in the detail of the information the mother has provided about the logistics of what will take place in Amman Ms Trevelyan is satisfied that this is a mother who has not put her children at risk in the past and will take the necessary steps to safeguard their welfare. She is proposing to work for an organisation she has worked for before, she sets out their ethos in her statement regarding the support they give to those with families and that is corroborated by the email from Ms K that they are a </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;family friendly organisation and adapt as much as possible to individual circumstances&#8217;.</span><span style="font-family:'Times New Roman';font-size:12pt"> The father has demonstrated his commitment to the children through the contact which will continue if they remain here and he accepted in his oral evidence he would be able to travel to Amman to see the children. It is a place he knows, having lived there before.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="margin-left:0.59in;text-indent:-0.1in">100.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;text-indent:0.28in"><span style="font-family:'Times New Roman';font-size:12pt">The mother&#8217;s proposals that are now put forward, having taken on board the suggestions made by Ms Trevelyan are set out in Mr Butterfield&#8217;s closing submissions and draft order. In essence, they provide for contact during each of the school holidays either in England or Jordan, with additional contact in the event the father travels to Jordan. In addition, there will be twice weekly Skype contact, weekly updates about the children&#8217;s activities and progress and a commitment to consult with the father in advance of any proposed changes to the children&#8217;s education. Additionally, the mother proposes that in the event of further dispute between the parties about the arrangements for the children to use the services of a mediator. The mother offers to security of her interest in the family home to secure her return at the end of the period permitted by the court.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="margin-left:0.59in;text-indent:-0.2in">101.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;text-indent:0.18in"><span style="font-family:'Times New Roman';font-size:12pt">In the event the application is refused the parties agree the framework for contact will continue with alternate staying contact from Friday to Sunday, mid-week overnight contact on the intervening week and division of the school holidays.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">102.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">Whilst it is right the parents have experienced a difficult relationship, that has largely been in the context of the breakdown of their marriage and then ongoing litigation. Looking forward those features will not be to the fore. I accept Ms Trevelyan&#8217;s assessment that the main motivating factor for the mother&#8217;s application is to improve her career prospects, she set out clearly in her statements the efforts she has made to improve her financial position here, which I accept. This is not a case where it is suggested the motivation by the mother is to distance or alienate the children from their father. Of course, a very important consideration when assessing and evaluating the mother&#8217;s proposals is to consider the impact of what she proposes on the children&#8217;s relationship with their father and assess her capacity to adhere to what she proposes.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="margin-left:0.64in;text-indent:-0.25in">103.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">Having considered carefully the balancing considerations on each side and standing back and evaluating the children&#8217;s welfare in the widest sense I have reached the conclusion that the mother&#8217;s application should be granted. That conclusion is reached for the following reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt"> In reaching my conclusion I have carefully balanced the evidence about how settled the children are in their current environment and school, supported by regular contact with the father. These arrangements meet the children&#8217;s welfare needs but are only part of the wide canvas the court needs to consider.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt"> I am satisfied that the main motivating factor behind the mother&#8217;s application is to further her career in the way she describes in her statement. She has tried to secure better employment here as described in her statement but has not been successful. I accept her analysis in her written evidence of what she has done and the long term benefits this job will give for her to be able to secure better paid employment when she returns here. I agree with Ms Trevelyan that the mother will find refusal of her application very hard to manage and that there is a real risk that may have an impact on the children and, in turn, their relationship with their father. Whilst I accept the mother may be able to get assistance in managing this, due to the background, I agree with Ms Trevelyan this would take many months, if not longer.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt"> I have carefully taken into account the concerns expressed on behalf of the father about the gaps in the mother&#8217;s proposals and the inherent risks of her living with the children in the region, the impact on the children of being cared for whilst she is travelling related to her work and the risks of her being delayed. Whilst I of course acknowledge those matters in my judgment they should be viewed in the context of the mother having worked for this organisation before, having lived in Amman before and undertaken similar work. This is a mother who has always prioritised her children&#8217;s needs and I agree with Ms Trevelyan that whilst these are obviously uncertainties that carry risks this mother will ensure appropriate arrangements are put in place. The same applies to the concern about the children not having properly comprehend the change going to live in Amman will involve due to their age. I am satisfied the mother will support them in navigating those changes.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt"> I also accept what the mother says about her financial position. Whilst she may be able to trim some of her expenses that is not going to put her in a position to be able to repay her debts. Her outstanding legal costs are in excess of &#163;55,000. Through the higher salary, the additional allowances and the rental income she has a realistic chance of securing hers and the children&#8217;s financial future which she would be very unlikely to be able to do if she remained here. She does not have the same financial support in the background as the father has. The terms of the trust by which the property is held envisaged her working abroad as being an option.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt"> I have very carefully considered the impact of the mother&#8217;s proposals on the father&#8217;s relationship with the children. There are two aspects to this. First, the change in the contact frequency and the impact on the loss of the more regular contact. It will be a change, but I am satisfied that it will not impact on the relationship to the extent that it should tip the balance in favour of the mother&#8217;s application being refused. The children have a good relationship with the father and the wider paternal family. That relationship has been supported by the mother, although she acknowledges in the early period after the separation her own feelings sometimes impacted on what she did. The recent past has demonstrated she works within a structure and there is no evidence she has sought to undermine the children&#8217;s relationship with their father. This important relationship will be maintained through the longer periods of contact, the opportunity of the father visiting Jordan in the intervening period and the regular skype contact supported by the mother&#8217;s weekly updates with photos and videos as suggested by her. That package of contact will assist in ameliorating the change in the arrangements. I am satisfied the mother will comply with the order she puts forward. Second, the need for her to respect his role as a parent, to understand the need to consult him in relation to decisions regarding the children. That is recognised in the draft order I have seen, where it is recorded the need to consult with him in relation to schooling.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in">(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt"> I have also weighed in the balance the risks of the mother not complying with the arrangements for contact, the lack of effective enforcement if neither she or the children are in this jurisdiction, and her not returning or seeking to extend her time there. In the circumstances of this case I regard the risks as relatively low for the following reasons. The mother accepts in her first statement she left open the option of staying longer, however since then she has reflected and considered the evidence as it has come in and changed her position which I accept. There is much to anchor the mother back here. All her immediate family are here, it is of note that G described to Ms Trevelyan her close relationship with her maternal aunts. The only asset the mother has is here. The evidence suggests she held out for that interest and the security it gives her, and, in my judgment, she is very unlikely to put that at risk. There is no evidence to suggest this is part of any concerted plan to distance herself from this jurisdiction. Finally, although not mentioned by the mother, if she didn&#8217;t return, she may risk the children&#8217;s entitlement under the paternal family trusts. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in">(7)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt"> I have considered what Mr Gration submits about the failure of the mother to agree to the children returning in August 2021, as suggested by Ms Trevelyan, as being indicative of her true intent, as set out in her first statement, of keeping the option open of staying longer. In his closing submissions Mr Butterfield confirmed the mother would agree to this. In my judgment the children should return by the middle of August 2021, at the latest, as this will enable them to settle back here prior to starting back at school in September 2021. For G, in particular, that will give her the necessary stability prior to her move to secondary school in 2022 and enable the parents to make the necessary enquires about suitable schools. The position about the timing for applications to fee paid schooling is less clear, but there is more than sufficient time for the parties to liaise about this and agree how this should be dealt with by them.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in">(8)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt"> One aspect of the case that I have given anxious consideration to is the difficulties the parties have experienced in their relationship and whether those difficulties will impede in the inevitable arrangements that will need to be made if the mother and children move to Jordan. Whilst the parents have experienced difficulties in communicating effectively in the past there have been periods when they have been able to communicate appropriately in a child centred way, as shown by the messages attached to the mother&#8217;s statement. I agree with Ms Trevelyan that the prospects of the parents being able to communicate better are more likely to happen if the mother&#8217;s application is granted. She considers, and I agree, that if her application is refused that is likely to make matters more difficult which even with assistance will take some time to manage to the likely detriment of the children&#8217;s welfare needs. This reflects the realities of the dynamics now of the parent&#8217;s relationship. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in">(9)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt"> I have taken account of the concerns about the security in Amman, the countries she has responsibility for and the region but consider the combination of the mother&#8217;s knowledge and experience and that of her employer will ensure those aspects of the mother and the children&#8217;s lives will be properly safeguarded. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.1in">(10)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.4in"><span style="font-family:'Times New Roman';font-size:12pt">Standing back and carefully evaluating the welfare advantages and disadvantages I am satisfied that the mother&#8217;s application for permission for the children to be removed from the jurisdiction from 6 November until a date to be agreed in August 2021 should be granted as it meets the overall welfare needs of these children.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">104.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.03in"><span style="font-family:'Times New Roman';font-size:12pt">Can I finish where I started? Both these parents have much to offer their children, who they love and cherish. I hope that now decisions have been made they will support each other as parents, as I know they both have the capacity to do. Both G and Z will greatly benefit from that, as will each of the parents.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

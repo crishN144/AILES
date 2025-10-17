@@ -1,0 +1,646 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2023/41"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2023/41"/>
+	  <FRBRdate date="2023-03-28" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="41"/>
+	  <FRBRname value="X &amp; Anor v Z &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/41"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/41"/>
+	  <FRBRdate date="2023-03-28" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/41/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/41/data.xml"/>
+	  <FRBRdate date="2023-04-03T14:37:25" name="transform"/>
+	  <FRBRdate date="2023-04-03T15:02:50" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-03-28" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewfc" href="https://www.judiciary.uk/you-and-the-judiciary/going-to-court/family-law-courts/" showAs="The Family Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="x" href="" showAs="X"/>
+	<TLCPerson eId="y" href="" showAs="Y"/>
+	<TLCPerson eId="z" href="" showAs="Z"/>
+	<TLCPerson eId="b" href="" showAs="B"/>
+	<TLCPerson eId="[through-her-childrens-guardian-jane-biggs]" href="" showAs="[Through Her Children&#8217;s Guardian, Jane Biggs]"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis-dbe" href="/judge-mrs-justice-theis-dbe" showAs="MRS JUSTICE THEIS DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWFC</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>41</uk:number>
+	<uk:cite>[2023] EWFC 41</uk:cite>
+	<uk:parser>0.13.8</uk:parser>
+	<uk:hash>897853a4bec53ec7d0a59681728111bfbfc88367399087256e90776c836146aa</uk:hash>
+	<uk:tna-enrichment-engine>0.1.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Strong { font-weight: bold; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EWFC 41</neutralCitation><span> </span></p>
+      <p class="CoverText">Case No: <docketNumber>ZC21P01408</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewfc">IN THE FAMILY COURT</courtType></p>
+      <p class="CoverMain">SITTING AT THE ROYAL COURTS OF JUSTICE</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2023-03-28" refersTo="#judgment">28/03/2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis-dbe">MRS JUSTICE THEIS DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><party as="#applicant" refersTo="#x" style="font-weight:bold;font-family:TimesNewRomanPS-BoldMT;font-size:11pt">X</party></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">1<span style="vertical-align:super;font-size:smaller">st</span> Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><party as="#applicant" refersTo="#y" style="font-weight:bold;font-family:TimesNewRomanPS-BoldMT;font-size:11pt">Y</party></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">2<span style="vertical-align:super;font-size:smaller">nd</span> Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><span style="font-weight:bold">- and - </span></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><party as="#respondent" refersTo="#z" style="font-weight:bold;font-family:TimesNewRomanPS-BoldMT;font-size:11pt">Z</party></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">1<span style="vertical-align:super;font-size:smaller">st</span> Respondent </role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><span style="font-weight:bold">- and - </span></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><party as="#respondent" refersTo="#b" style="font-weight:bold"> B </party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#[through-her-childrens-guardian-jane-biggs]" style="font-weight:bold">[Through Her Children&#8217;s Guardian, Jane Biggs]</party></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">2<span style="vertical-align:super;font-size:smaller">nd</span> Respondent </role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">The Applicants Appeared in person</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The 1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> Respondent did not attend </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Jamie Niven-Philips </span> (instructed by <span style="font-weight:bold">Cafcass Legal </span>) for the <span style="font-weight:bold">2</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold"> Respondent </span></p>
+      <p style="text-align:center">Hearing date: 16<span style="vertical-align:super;font-size:smaller">th</span> March 2023 </p>
+      <p style="text-align:center">Judgment: 28<span style="vertical-align:super;font-size:smaller">th</span> March 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 2pm on 28<span style="vertical-align:super;font-size:smaller">th </span>March 2023 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MRS JUSTICE THEIS DBE</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level>
+	  <content>
+	    <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published. The anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+	    <p><span style="font-weight:bold">Mrs Justice Theis DBE :</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court is concerned with an application for a parental order in relation to B, now age 19 months. The applicants, X and Y, seek this order to secure their legal parental relationship with B. The respondent to the application is Z, who was the gestational surrogate, and B, through her Children&#8217;s Guardian, Ms Biggs. Z carried B as a result of a surrogacy arrangement entered into between the parties in this jurisdiction on 6 November 2020. Z has been given notice of this hearing, has engaged in email exchanges with Mr Niven-Philips, the child&#8217;s solicitor, and has been spoken to by Ms Biggs. Z did not attend this hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is accepted that all the criteria under <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">s 54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">Human Fertilisation and Embryology Act 2008</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref>) are met save for one, the requirement of domicile. Both applicants were born in the US and, for them to be able to meet the provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/4" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">s54(4)</ref>(b), at least one of them will need to establish they had a domicile of choice in this jurisdiction both when the application was issued in November 2021, and at the time when the court is making the order in March 2023.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before turning to consider the background and evidence, this case is another timely reminder of the need for parties to surrogacy arrangements to understand the legal consequences and implications of the agreement they are entering into. As has been made clear by this court on many occasions before, a parental order is a transformative order; it changes in a lifelong way the legal status the child has with the parties to the proceedings. If a parental order cannot be made for any reason, the legal parental relationship will remain with the birth mother, with all the lifelong consequences that flow from that, even though everyone may agree the child will remain living with, and be brought up by the commissioning parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to this application, whilst the welfare considerations for this order to be made are strong, it is still necessary for the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">s54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref> criteria to be satisfied before the court can turn to consider the child&#8217;s welfare in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1" uk:canonical="2002 c. 38 s. 1" uk:origin="TNA" uk:type="legislation">s 1</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicants have been critical of the delays that have taken place in dealing with this application. They are right that there were initial delays. The application was issued in November 2021. It was listed for a final hearing before the magistrates in August 2022 when the issue of the difficulties with the evidence to establish domicile was raised, and the application was re-allocated to High Court Judge level. Further evidence was directed to be filed by the applicants, with encouragement for them to seek legal advice. Having considered the applicants further evidence I made directions on the papers on 31 October 2022 and listed the matter for hearing on 6 December 2022. After hearing submissions at the hearing on 6 December 2022 I joined the child as a party and listed the matter for this hearing. On the three occasions when directions for further evidence have been made in August, October and December 2022, the focus has been on the applicants providing further evidence about domicile, and demonstrating the evidential basis upon which they say their domicile of choice is in this jurisdiction. If that evidence had been provided earlier by the applicants, the delays would have been much reduced.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Relevant Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Both applicants were born in the US. They met in about 2014 and married in 2017 in the US.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In late February 2020, they came to the UK, having visited here on a number of occasions beforehand. They took short term lets in various parts of London and then a longer term let in central London for 12 months in December 2021.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">They wished to have a family of their own. Their statements confirm that Y  suffered an accident a few years ago which required surgery to cause some bone fusion and was advised that it would be difficult for her to carry a pregnancy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicants decided to pursue surrogacy and embryos were created using both their gametes on 31 October 2020 at the London Women&#8217;s Clinic (&#8216;LWC&#8217;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following introductions via a website, the applicants entered into a surrogacy arrangement with Z on 6 November 2020, and the embryo transfer took place at the LWC on 4 December 2020.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B was born in 2021 and was placed in the applicants&#8217; care at birth. The applicants returned to live in the London property, although they travelled extensively, referring in their oral evidence to spending a month each in Italy, Spain and Denmark.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In November 2022 they went as a family to Hawaii to enable Y to undertake fieldwork that had been delayed during the pandemic. In their oral evidence, Y said it was connected to the Harvard University Extension School Arts programme. Initially it was unclear how long they would be there. The most recent information is that this fieldwork will be concluded by July 2023. The applicants joined this hearing remotely from Hawaii.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B remains in their full time care.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">section 54</ref> criteria other than domicile</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The letter from LWC dated 8 November 2021 establishes that B was carried by Z and that there is a biological link between both of the applicants and B (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/1" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">s54(1)</ref>. The applicants married on 17 September 2017 (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/2" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">s54(2)</ref>) and the application, though undated, was issued within six months of B&#8217;s birth, as all the documents suggest it was issued in November 2021 (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/3" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">s54(3)</ref>). B had her home with the applicants at the relevant times, namely on the issue of these proceedings and at the time when the court was considering making a parental order (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/4" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">s54 (4)</ref>(a)). Both applicants are over the age of 18 years (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/5" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">s54(5)</ref>) and Z has given her consent to the court making a parental order and the document she signed was witnessed by Cafcass (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/6" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">ss54(6)</ref> and (7)). The surrogacy agreement provided for payments of expenses totalling &#163;15,000. Although there is no expenses list individually itemised, the evidence does not suggest this sum was used other than for expenses reasonably incurred and, if there was any sum left, it was relatively modest and should be authorised in accordance with the principles set out in <span style="font-style:italic">Re X (A Child)(Surrogacy: Time Limit)</span> [2014] EWHC 3135 [75] as was done by Russell J in <span style="font-style:italic">Re A,B and C(UK surrogacy expenses) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/760" uk:canonical="[2016] EWHC 760 (Fam)" uk:isneutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 760 (Fam)</ref> [26]) (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/8" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">s54(8)</ref>).</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Domicile &#8211; legal framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">15.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Y v Z</span><span style="font-style:italic"> </span>[2017] EWFC 60 I summarised the relevant authorities as follows at [13 &#8211; 15]:</p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;color:#000000">13.&#160; Dealing with domicile first I have been referred to two cases. The first is&#160;</span><a href="https://uk.westlaw.com/Document/I1A15FFA04BA211E1BC37D067E48F22A4/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=96aede4b5ae14c55b7d2dd9abc7ee107&amp;contextData=(sc.DocLink)"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Z and B v C (Parental Order: domicile) [2012] 2 FLR 797</span></a><span style="font-style:italic;color:#000000">&#160;where I summarised the relevant principles at paragraph 13 as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">i.&#160; "A person is in general, domiciled in the country in which he considered by English Law to have his permanent home. A person may sometimes be domiciled in a country although he does not have his permanent home in it.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">ii.&#160; No person can be without a domicile.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">iii.&#160; No person can at the same time for the same purpose have more than one domicile.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">iv.&#160; An existing domicile is presumed to continue until it is proved that a new domicile has been acquired.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">v.&#160; Every person receives at birth a domicile of origin.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">vi.&#160; Every independent person can acquire a domicile of choice by the combination of residence and an intention of permanent or indefinite residence, but not otherwise.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">vii.&#160; Any circumstance that is evidence of a person's residence, or of his intention to reside permanently or indefinitely in a country must be considered in determining whether he has acquired a domicile of choice.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">viii.&#160; In determining whether a person intends to reside permanently or indefinitely, the court may have regard to the motive for which residence was taken up, the fact that residence was not freely chosen and the fact that residence was precarious.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">ix.&#160; A person abandons a domicile of choice in a country by ceasing to reside there and by ceasing to intend to reside there permanently, or indefinitely and not otherwise. A person who has formed the intention of leaving a country does not cease to have his home in it until he acts according to that intention</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">x.&#160; When a domicile of choice is abandoned, a new domicile of choice may be acquired, but if it is not acquired, the domicile of origin revives."</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;color:#000000">14.&#160; More recently in&#160;</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;color:#000000">U v J</span><span style="font-style:italic;color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/449" uk:canonical="[2017] EWHC 449 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 449 (Fam)</ref> Cobb J&#160;at paragraph 9 set out the principles to be applied to the determination of a person's domicile, taken in large part from the summary provided in Dicey and Morris (15th edition), noting that the statements of the person claiming or disputing a change in domicile must be treated with caution, unless corroborated by action consistent with the declaration. The person whose domicile is in question may himself testify as to his intention, but the court will view the evidence of an interested party with suspicion. The weight of such evidence will vary from case to case.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;color:#000000">15.&#160; The issue of domicile is highly fact dependent. As the authorities in the context of parental order applications have shown, it is unusual for domicile to be at issue between the applicants in parental order cases, as, by definition, they are joint applicants and seek the same outcome. Although unusual to be at issue between the applicants, the relevant principles applied by the court must remain the same. Domicile is a legal concept and must be met on the facts of the case. It is the jurisdictional gateway to the ability of the court to make a parental order (see&#160;</span><a href="https://uk.westlaw.com/Document/IE6FE0DE0BE7611DCBC26C3763579D59A/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=96aede4b5ae14c55b7d2dd9abc7ee107&amp;contextData=(sc.DocLink)"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Re G (Surrogacy: Foreign Domicile) <ref href="#" uk:canonical="[2008] 1 FLR 1047" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 FLR 1047</ref></span></a><span style="font-style:italic;color:#000000">&#160;at para 6).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Re G and M</span> [2014] EWHC 1561 (Fam) I considered circumstances where the applicants had only recently moved to this jurisdiction, stating<span style="font-style:italic">:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.75in"><span class="Strong" style="font-style:italic;color:#000000">[42]</span><span style="font-style:italic;color:#000000">&#160;The general principles in relation to domicile has been set out in a number of cases, in particular in a decision of mine in&#160;</span><span class="Emphasis" style="font-style:normal;color:#000000">Z and B v C&#160;</span><span style="font-style:italic;color:#000000">[2011] EWHC 3181 at paras 13-18. It is accepted this is very much a question of fact. What the court needs to look at in particular is whether actual residence has been taken up and whether the intention of the relevant individual is to live here permanently and indefinitely. It is accepted that the burden of proving the abandonment of the domicile of origin and the acquisition of the domicile of choice here is on the applicants, and they must prove it on the balance of probabilities.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.75in"><span class="Strong" style="font-style:italic;color:#000000">[43]</span><span style="font-style:italic;color:#000000">&#160;One of the issues here is the applicants have only relatively recently moved to this jurisdiction. They sold their main family home in Paris at the end of 2012 and purchased a family home here. They physically moved here in January 2013. The fact that the move has been relatively recent is a factor, but the court needs to look at it in the context of all of the other factors. In particular, the acceptance in&#160;</span><span class="Emphasis" style="font-style:normal;color:#000000">B v C (Domicile) <ref href="#" uk:canonical="[2012] 2 FLR 805" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 2 FLR 805</ref>&#160;</span><span style="font-style:italic;color:#000000">at para 25 where the court endorsed the academic commentary provided in Dicey's Conflict of Laws as follows:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">&#8216;It is not, as a matter of law, necessary that the residence should be long in point of time. Residence for a few days is enough. Indeed, an immigrant can acquire a domicile immediately upon his arrival in the country in which he intends to settle. The length of residence is not important in itself, it is only important as evidence of the animus manendi.'</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.75in"><span class="Strong" style="font-style:italic;color:#000000">[44]</span><span style="font-style:italic;color:#000000">&#160;So it is only relevant in the context of looking at the question of intention. It is also important to recognise that the court does not have to be satisfied that the move here is irrevocable. What the court has to look at is whether there is an intention to make the home here permanent or indefinite. As was said in&#160;</span><span class="Emphasis" style="font-style:normal;color:#000000">IRC v Bullock&#160;</span><span style="font-style:italic;color:#000000"><ref href="#" uk:canonical="[1976] 1 WLR 1178" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1976">[1976] 1 WLR 1178</ref>:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;color:#000000">&#8216;The true test is whether the person intends to make his new home in the country until the end of his days unless, and until, something happens to make him to change his mind.'</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify"><span style="font-weight:bold;color:#000000">Domicile &#8211; the evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicants have filed five written statements, some of which are joint and they both gave oral evidence. Only two of the statements are signed but, in their oral evidence, the applicants confirmed they were all true.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In their statements and oral evidence the applicants repeat that they decided to live and raise their children in the UK. In their first statement, they said they are renting in London and are <span style="font-style:italic">&#8216;in the process of either a long lease or purchase of a home&#8217;</span> in the area. Regarding work, their first statement states they have <span style="font-style:italic">&#8216;transitioned their work and professions to be based in the UK and have established necessary legal and banking relationships for this&#8217;</span> and then refer to two UK based companies that have been established. As a result of their wish to make London their permanent and forever home, they began discussions with the LWC and with Z while still living in the US, with <span style="font-style:italic">&#8216;the intent to be resident in the UK by the time the baby was born&#8217;.</span> Their first statement refers to the challenges of doing the procedures during COVID and describe it as &#8216;<span style="font-style:italic">very challenging with several flights we had to make back and forth for blood work, gamete samples, waiting periods, meeting Z  etc&#8217;</span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In their first statement, they describe their delight when Z became pregnant continuing <span style="font-style:italic">&#8216;In the summer of &#8217;21 we had finally made the permanent move to the UK and were staying near Z so we could be close by whenever the baby was born</span>&#8217;, they stayed for an additional two weeks in the area after B was born and then <span style="font-style:italic">&#8216;moved to London as a new family of three&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Their second statement, dated 19 September 2022, confirms they had not yet met the requirements for citizenship but planned to apply as soon as they are eligible which they expected to be the next three years &#8216;<span style="font-style:italic">based on a UK ancestry or based on indefinite leave to remain based on private life&#8217;.</span> That statement lists fourteen matters they rely upon to demonstrates they have made this jurisdiction their domicile of choice. Their list includes their rented accommodation; not having retained a residence in the US; the fact X undertook university studies here in 2011-2012 and 2020-2021; they have established two companies here; they have relatives here born in 1854 and 1821; they each have an NHS number; have a bank account here; do all their shopping in the UK; have plans to purchase larger accommodation; attend weekly church services;  Y is a member of the local residents association; have UK mobile numbers; their daughter was born here and has a UK passport; and they have not been physically present in their jurisdiction of origin for 2 years.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In their two statements in December 2022 X stated <span style="font-style:italic">&#8216;I&#8217;ve spent more time in England than I have any other location during the previous 10 years. Y has also experienced life in the UK having studied at the University of Arts London between 2017 and 2019 in addition to our extensive travels&#8217;.</span> In that statement, they describe that, when they moved to the UK in 2020, they did so wanting to make the UK <span style="font-style:italic">&#8216;our permanent home and we were sure about that decision because we had both spent lots of time in the country beforehand.&#8217;</span> They acknowledged they travelled regularly but stated they &#8216;<span style="font-style:italic">love living in London for a number of reasons, including a. It is geographically central to a working remote lifestyle as you hit more major time zones than any other location; b. We love the architecture and culture; c. Importantly, we feel it is the best place to raise our children (we hope to have another child through surrogacy in the near future). The nannies, child support and school system appeals to us more than anywhere else in the world; d. London is well connected to most of the world which enables us to travel with our family easily&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2020 X set up two UK based companies that will be used to operate his urban development business. His December 2022 statement stated <span style="font-style:italic">&#8216;they are not yet generating much income due to it being early days and so they have not yet paid UK corporation tax. I expect this will change in time.&#8217;</span> In his oral evidence X confirmed that both he and Y remain registered to pay tax in the US.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">X confirmed that, whilst he completed his Masters at Cambridge in 2021, Y was undertaking a Masters at Harvard, although her program was 95% remote so she only spent 8 weeks studying at Harvard. X plans to undertake a PhD in this jurisdiction in the future. Their 12 month rented tenancy commenced in December 2021.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the December 2022 statement there is some generalised information about plans for B&#8217;s schooling here, stating they <span style="font-style:italic">&#8216;have been actively considering schools in London</span>&#8217;, plan for her to attend one in central London and make a final decision on school choice <span style="font-style:italic">&#8216;once we have bought our home&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his December 2022 statement X states &#8216;<span style="font-style:italic">Our move to the UK has only been recent but it was a decision made with plenty of experience of what life would be like for us in the UK and additionally we were able to put context to that decision through our extensive experience in other countries. We were certain about our decision to make the UK our permanent home when he made it, and that remains our position. We have no intention of returning to live in the US and it is not where we want to raise B. We believe that the UK is better suited for us to raise her and we much prefer the education system in the UK as well as the diversity and lifestyle in London. We have not made an application in the United States to establish our legal parentage.&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the most recent statement, in February 2023, Y confirms the family has been away from London <span style="font-style:italic">&#8216;for sometime&#8217;</span> due to the fieldwork she is undertaking in the US as the final part of her course at Harvard. She confirms it is due to finish on 15 July 2023. She re-iterates that London is <span style="font-style:italic">&#8216;home for us&#8217;</span> and confirms the continuing connections with nannies and friends here. She confirms that they continue to look for housing here, she undertook a &#8216;<span style="font-style:italic">second IVF transfer in April 2022 and our embryos are still stored&#8217;</span> in LWC, she has acquired a management position based in London with the model agency she had worked with and remains registered with a doctor here.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the oral evidence given during this hearing, X confirmed they were both still registered to pay tax in the US. He recognised that at some point it does need to change, but intends to delay that for as long as possible. He agreed the tax authorities in the US still considered him to be resident there and he had a mailing address, using a registered agent based in the US for that purpose. He confirmed he had no income in this jurisdiction and no assets in the US. When asked about the recent discussion with Ms Biggs in February 2023, he said the intention of them both is to return to the UK in July. He agreed they had considered getting a US passport for B, but decided not to.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In Ms Bigg&#8217;s report dated 3 March 2022, she sets out her account of her discussions with the applicants and states as follows <span style="font-style:italic">&#8216;The couple&#8217;s journey through surrogacy took place during the Covid-19 global pandemic when they were living in New York City in the USA and X  was in the UK. Despite the challenges this posed, X and Y were able to create two embryos through IVF treatment at the London Women&#8217;s Clinic in London. X and Y relocated permanently to the UK in the summer of 2021&#8217;.</span> This was prior to B&#8217;s birth.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In Ms Bigg&#8217;s more recent contact with the applicants on 22 February 2023, X expressed his frustrations with the legal process regarding this application, as he considers the issue of domicile is a subjective one that he believed  has been satisfied. In that conversation, according to Ms Biggs, the applicants did not give any fixed date when they planned to return to this jurisdiction and implied that, due to his frustration about how long these proceedings had  taken, they had no intention of returning to this country. In her oral evidence Y felt this was said out of frustration and anger. They indicated they had hoped to ask Z to have another child for them but felt what was happening with this application was affecting that process.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Discussion and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The burden of proof regarding domicile is on the applicants. It is a question of fact. The standard of proof is the balance of probability. In summary, they must satisfy the court that it is more likely than not that at least one of them has formed an intention to permanently and indefinitely live in this jurisdiction at the relevant times. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this hearing the court had the benefit of not only considering the written evidence but also the oral evidence from both X and Y, who were both asked questions by Mr Niven-Philips and the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On behalf of B, Mr Niven-Philips has provided careful and balanced written submissions. X and Y have not provided any response to those submissions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Niven-Phillips makes clear in his document that Ms Biggs remains of the view that B&#8217;s welfare would best be met through a parental order being made, as that would reflect what the parties had intended and the reality of B&#8217;s life. He recognises that, even though there are the strong welfare considerations, the court is not exercising a welfare jurisdiction when determining the issue of domicile.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Niven-Phillips reminds the court that it needs to consider the broad canvas of facts relied upon by the applicants in support of their contention that they have acquired a domicile of choice in this jurisdiction. Whilst the court does need to consider what the applicants say about their intention, he submits the court should be cautious is accepting X&#8217;s position that what the applicants say in their statements alone is sufficient. The court needs to consider whether there is any other evidence that is consistent with those self-proclaimed declarations of intent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">35.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Niven-Phillips drew the courts attention to the following matters:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">X&#8217;s oral evidence about the development of his intention to live here, supported by the increasing amount of time he spent here crystalising his intention by 2010.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">This is supported by him raising the idea of living here soon after he met Y in 2014 and his increased physical presence here from 2010 to 2020 stating he spent between 5-6 months each year here, spread over 2 or 3 visits. His work did not require him to be in any particular location.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The move here in 2020/2021 and informing his family of that.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Although he had not declared himself to be resident here for tax purposes, which may counter what X asserts is his intention, he had sought advice and, in his oral evidence, he recognised that the changes to where he pays his tax would have to happen at some point, which could support his intention to remain living here indefinitely.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Y&#8217;s evidence about how her intention to live here developed after meeting X supported his account of the development of his intention, together with the actions she took after their move here, such as giving up volunteering in the US, moving her belongings here, informing her family and only retaining a student tuition credit card account in the US.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Y was clear she wanted to raise their children here and had maintained contact with friends and other contacts based here, even though they had been in the US since November 2022.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Niven-Phillips realistically acknowledges that there are features  that  run contrary to the applicants&#8217; stated intention. They have only been here for a limited period of time, there is a lack of a settled immigration status to remain living here, they  lack  a settled home here and  they remain resident for tax purposes in the US.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He submits that taking all these matters into account on a <span style="font-style:italic">&#8216;fine balance&#8217;</span> the court could, if it accepts the applicant&#8217;s oral and largely uncorroborated written evidence,  determine that the applicants had a domicile of choice at the relevant times.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This case is particularly difficult as it is hard to ignore the fact that this is an order that all parties agree should be made and is one that is said to meet the welfare needs of this child. It is counter intuitive to do anything other than try and seek that outcome. However, the court has to be careful not to find that the domicile requirement is met unless there is the evidence to support it, however powerful the welfare considerations maybe. The court&#8217;s task has been hampered by the applicant&#8217;s approach to this application and their failure to provide documentary evidence to support their written statements.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The issue of whether domicile has changed is a question of fact. The court must look at the wide evidential canvas, in the context that it is considering whether the applicants have discharged the evidential burden on them. In looking at intention the focus is on an intention to reside permanently, or for an unlimited time. The court needs to consider with caution a self-proclaimed declaration to live here, unless it is corroborated by actions that are consistent with it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">40.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree with Mr Niven-Philips, this case is very finely balanced but having considered all the evidence I have reached the conclusion that domicile of choice has been established at the relevant times. That conclusion has not been reached without considerable hesitation and I recognise is largely based on the court accepting the account given by the applicants being credible and truthful. Whilst it only needs to be established by one of the applicants the reality in this case is the evidence they rely upon is interdependent and they have both discharged the burden. I have reached that conclusion for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">There is a consistency in the written and oral account given by each of the applicants, which supports the credibility of what they say. X&#8217;s account of a growing realisation of his wish to live here permanently is supported by the increasing amounts of time he said he spent here from 1999, his experience of being based here for his Masters in 2011 &#8211; 2012, the fact that he raised this early on in his relationship with Y and the time they spent here prior to 2020.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">That expressed intention is supported by a number of actions that, when taken together, provide some corroboration for that declaration of intent, although there is a paucity of documentary evidence. Those actions include: (i) Wanting to undertake a surrogacy arrangement in this jurisdiction, undertaking the necessary procedures at LWC for the embryos to be created, the embryo transfer taking place here and B&#8217;s birth here. B has a British passport and they have not applied for a US passport even though she is entitled to one, albeit they did consider it at one stage. (ii) They did not take any steps to establish B&#8217;s legal parentage in the US. (iii) X has established two companies here, and, whilst they are not currently generating any income currently, his stated intention is to operate his business through them. (iii) Both applicants are registered with the NHS here, and remain registered with a GP here. (iv) Giving up their rented accommodation in the US in 2020, and not retaining any accommodation there  together with Y&#8217;s evidence that they moved all their belongings here. (v) I accept their evidence that they have maintained their contacts here within the community and with friends, and they have actively continued to look for properties here. When Y finishes her fieldwork in July 2023, they will return to this jurisdiction.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">I have carefully weighed in the balance the factors that point away from establishing the required intention, including: (i) The lack of settled immigration status, although they are permitted to remain here on time limited visas and intend to apply for more settled status when they can. (ii) The lack of settled accommodation here, although I accept their evidence that their reason for going to the US in November 2022 was for Y to complete her Harvard course, and it was uncertain then as to how long that would take. They have continued to look at the options for purchasing a property in this jurisdiction and maintained their contacts and connections here. (iii) The decision to continue to pay tax in the US, although I accept they have taken advice as to when that change should be made. It remains their intention for that change to take place at some point. (iv) The discrepancy between what the applicants have said about moving here in early 2020 and what Ms Biggs concluded in her first report that they relocated here permanently in the summer of 2021. That is likely to have been caused by a combination of the Covid travel restrictions at the time and the applicant&#8217;s evidence that they had a series of short term lets here until December 2021. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">I have weighed in the balance the lack of documentary evidence to corroborate the actions the applicants rely upon to support their stated intention other than the information from LWC and their December 2021 tenancy agreement.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">All of this has to be looked at in the context of the history of the applicants&#8217; lifestyle. Although they have spent increasing amounts of time in this jurisdiction over the years, a feature of their relationship is they have also travelled a considerable amount and spent limited periods of time in a number of different jurisdictions.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Standing back and viewing the evidence as a whole, I find on a fine balance  that the requirement in <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/4" uk:canonical="2008 c. 22 s. 54" uk:origin="TNA" uk:type="legislation">s 54 (4)</ref>(b) that at least one of the applicants had their domicile of choice here at the time when the application was issued and when the court is considering making an order. In doing so I make it clear that in the event of the applicants having another child through a surrogacy arrangement in the UK and a parental order application is made, the court will need to evaluate the question of domicile then, in the light of the evidence at that time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning briefly, but importantly, to consider whether making this order will meet B&#8217;s lifelong welfare needs, the evidence clearly establishes that it will. She has been cared for by the applicants since soon after her birth. Following making her own enquiries Ms Biggs makes a clear recommendation to the court that a parental order should be made, which I accept and make a parental order in favour of the applicants.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

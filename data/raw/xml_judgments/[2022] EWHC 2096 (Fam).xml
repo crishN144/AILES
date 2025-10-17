@@ -1,0 +1,920 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/2096"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/2096"/>
+	  <FRBRdate date="2022-07-26" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2096"/>
+	  <FRBRname value="X v Y"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/2096"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/2096"/>
+	  <FRBRdate date="2022-07-26" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/2096/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/2096/data.xml"/>
+	  <FRBRdate date="2024-11-09T03:47:07" name="transform"/>
+	  <FRBRdate date="2024-11-12T09:45:34" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-07-26" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="x" href="" showAs="X"/>
+	<TLCPerson eId="y" href="" showAs="Y"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>2096</uk:number>
+	<uk:cite>[2022] EWHC 2096 (Fam)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>16cffffbbbfd43af5ab79cf44f7d03dd7de333e1b486cc6f9ed56e773561208d</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .FootnoteText { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .FootnoteTextChar { font-family: 'Calibri, sans-serif'; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2022] EWHC 2096 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD22P00417</docketNumber><span/></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2022-07-26" refersTo="#judgment">26/07/2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center">MS RUTH HENKE Q.C </p>
+      <p class="CoverMain" style="text-align:center">(Sitting as a Deputy High Court Judge)</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#x" style="font-weight:bold;color:#000000">X</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#y" style="font-weight:bold;color:#000000">  Y&#160; &#160;</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Michael Hosford-Tanner </span>(instructed by<span style="font-weight:bold"> Duncan Lewis</span>) for the <span style="font-weight:bold">Applicant </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Jessica Hunter </span>(instructed by <span style="font-weight:bold;color:#212121">Fisher Jones Greenwood</span>) for the <span style="font-weight:bold">Respondent </span></p>
+      <p style="text-align:center">Hearing dates: 25<span style="vertical-align:super;font-size:smaller">th</span> &amp; 26<span style="vertical-align:super;font-size:smaller">th</span> July 2022</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center"><span style="font-weight:bold">MS RUTH HENKE Q.C </span></p>
+      <p style="text-align:justify">This judgment was delivered in private.  The judge has given leave for this version of the judgment to be published. The anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Ms Ruth Henke QC:</span></p>
+	    <p><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am concerned with an application under the <a class="Hyperlink" href="http://uk.westlaw.com/Document/I6013F580E42311DAA7CF8F68F6EE57AB/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;vr=3.0&amp;rs=PLUK1.0&amp;contextData=(sc.Search)"><ref href="http://www.legislation.gov.uk/id/ukpga/1985/60" uk:canonical="1985 c. 60" uk:origin="TNA" uk:type="legislation">Child Abduction and Custody Act 1985</ref></a> for a summary return order under the 1980 Hague Convention.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> The application concerns two children. They are A who was born on 27 February 2013 and is now 9 years old and B who was born on 22 March 2017 and is now 5 years old. They are the children of X and Y who I shall hereafter refer to as mother and father. The mother and the children are dual British/Ukrainian nationals. The father is a British national.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The application is made by the mother who claims the children were wrongfully removed or in the alternative, wrongfully retained by the father in England. The application is opposed by the father.  He does so on 4 grounds. Firstly, that the Hague Convention exists to ensure the return of a child to the state in which they are habitually resident. Here it is said on his behalf that return is sought to a third state and thus the application is out with the Hague Convention. If, however, I find that this case falls within the Convention, then the father seeks to defend the removal of the children on the following bases </p>
+	  </intro>
+	  <subparagraph>
+	    <num>(i)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.98in;text-indent:0.02in">Consent</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(ii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.98in;text-indent:0.02in">Acquiescence</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(ii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.98in;text-indent:0.02in">The child&#8217;s objections. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Factual Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parents cohabited for about 5 years before they married in Las Vegas in May 2012.  In December 2012 the parents flew to Ukraine where they lived until December 2013. A was born in Ukraine. The parents and A then travelled to England where they stayed until shortly before B&#8217;s birth in 2017 when they again returned to Ukraine. B was born in Ukraine. The marriage did not endure. The parents separated in September 2017 with the children remaining with their mother in Ukraine. The parents divorced in the Ukraine on 4 July 2019. Both parents have parental responsibility. On 4 July 2019 a District Court in Kyiv determined the children should reside with their mother. In addition the court granted the mother permission to draw up documents for the departure or accompanying the children outside Ukraine until they reach the age of 16 years and granted the mother permission to leave Ukraine with the children without the prior permission of the court.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Until 26 February 2022 the children lived with their mother in Kyiv and had contact, including staying contact with their father in England. As at 26 February 2022 there can be no doubt that the children were habitually resident in Ukraine. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The backdrop to this case is Russia&#8217;s war against Ukraine. From November 2021 Russian troops began to gather along the Ukrainian border. The military threat was evident but President Putin of Russia denied any plans to invade. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By 22 February 2022   war was imminent. I have before me emails passing between the parents at that time. Within those emails the father expressed the wish that the children should stay with him until the war was over. The email he sent at 20.46 hrs on 23 February 2022 captures the father&#8217;s fears for the children who he considered were no longer safe in Kyiv. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The emails during this part of the chronology evidence that the mother was considering leaving Ukraine with the children. She was weighing up a number of options. Those included seeking refuge for herself, her mother and the children in Canada and relocating to England. I find that the emails demonstrate that as far as the mother was concerned if she and the children were to return to England she would need both accommodation and a job. From the emails it is clear to me that whatever her plan was to be it involved her and the children as a unit.  In her email of 13.37 hrs on 24 February 2022 the mother states that she would travel to the UK with the children. She then writes to the father.<span style="font-style:italic"> The sooner you understand that I cannot separate from the kids the better. I already explained. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 24 February 2022 President Putin announced<span style="font-style:italic"> a special military operation</span> to <span style="font-style:italic">demilitarise and denazify </span>Ukraine. Russian missiles were launched and a large ground invasion began on numerous fronts. The mother, the children and the maternal grandmother took refuge in a bomb shelter in Kyiv. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have in the papers before me, email exchanges between the mother and father on 24 February 2022. The anxiety and distress of both is, I find, palpable. I find that the relationship between the mother and father became strained. The mother now says that she was pressurised by the father at this time. However, looking at the evidence as a whole, I find that both parents were by this time operating under the pressures of war. The mother was having to flee with the children and her own mother to safety. The father, as the absent parent, was anxious for the safety of the children. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> At pages 96-100 of the bundle I have a conversation in message form between the mother and father on 25 and 26 February 2022. The conversation thus recorded includes the father offering to fly over to Poland to collect the mother, maternal grandmother and the children and fly them all back to England. Within the messages the father wrote <span style="font-style:italic">your mum should be able to claim asylum in the UK under the circumstances. </span>A later message captures the father&#8217;s attempts to phone the British Embassy to secure a visa for the maternal grandmother. Whilst the mother is clearly considering the option proposed by the father, she is also considering the USA. There is an air of desperation in the texts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fearing for their lives, on 26 February 2022 the mother, the maternal grandparents and the children boarded an evacuation train to Lviv and from there they travelled by train to Poland.  The journey took two days. It is common ground that the mother, the maternal grandmother and the children were then taken by volunteers working with Ukrainian refugees to Wroclaw where they were given shelter, food and a shower. The father travelled to Wroclaw where he met up with the mother, the children and the maternal grandmother. From there they travelled together to Berlin where they were all provided with accommodation in a house that belonged to the husband of the mother&#8217;s cousin. Although it was a large three storey town house, I find that it was full to the gunnels with 12 people, including the mother, the maternal grandmother and the children, all staying under its roof.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By 28 February 2022, the conversations in message form between the mother and father concentrate on the UK&#8217;s announcement that Ukrainian&#8217;s will be able to obtain sanctuary in the UK.  At page 172 of the bundle there is a message from the mother dated 28 February 2022 in which she asks the British Embassy about the process by which her mother could gain a visa to enter the UK as<span style="font-style:italic"> she would like to see what her options are at present.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 1 March 2022 the father booked flights for himself and the children to travel to England. The mother now accepts that she was present when the flights were booked and that she knew of the father&#8217;s actions. In the early hours of 2 March 2022, the father left the house in Berlin with the children and flew with them to England. The mother could have stopped the children leaving. Under the July 2019 order she had power to stop them leaving and she could have exercised that power. She was staying in a household where there were 7 other people   excluding herself, her mother, the children and the father. She could have sought the assistance of those others to prevent the children leaving if she wished. She could have called on the support of her own mother, if she considered it appropriate to do so. Instead the mother accepts that she took a photograph of the children just before they left with the father. In doing so I find that she acted as many a parent would by taking a snap before they caught the flight to England to stay with their father.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At 213- 225 in the bundle there is a trail of messages passing between the mother and father from 2<span style="vertical-align:super;font-size:smaller">nd</span> until 25 March 2022. Within those messages the mother is asking after the children but she is not requesting their return. On 3 March 2022 the father tells the mother that he is enrolling the children in school in England. Later on he tells her that he is registering the children at the doctors. Within the messages the mother speaks of waiting for the outcome of the maternal grandmother&#8217;s application for a visa. It is clear from the messages that the mother at no point contemplates travelling to the UK without the maternal grandmother.  On 7 March 2022, the mother refers to a holiday the father wants to take with the children and writes <span style="font-style:italic">I really hope </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">we </span><span style="font-style:italic">can be in the UK by then,</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 21 March 2022 the mother flew to England and spent time with the children and marked B&#8217;s birthday. She returned to Berlin on 23 March 2022.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 25 March 2022 it became apparent that the maternal grandmother could not get a visa to enter the UK without a sponsor and that there was no one in the UK who could realistically sponsor the maternal grandmother. Thus the maternal grandmother could not come to the UK. In her message to the father timed at 12.41 on 25 March 2022 the mother wrote <span style="font-style:italic">we agreed that we are all together. If my mum is unable to come to the UK we will be looking to register here all together with the kids. </span> The <span style="font-style:italic">here</span> referred to in that message is Germany. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At or around the end of March 2022 the mother and the maternal grandmother moved out of the cousin&#8217;s husband&#8217;s home in Berlin and moved into an apartment in a suburban municipality neighbouring Berlin. The apartment is big enough to house the mother, the maternal grandmother and the children. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 29 March 2022 the mother sent the father a message to tell him that they had found accommodation in Germany for herself, her mother and the children and that she would be putting the children into school in Germany soon.  The father responds that the children do not want to live in Germany to which the mother writes<span style="font-style:italic"> they don&#8217;t want to live without their mother. I don&#8217;t have accommodation in the UK. The agreement was we all travel together. I cant leave my mother here alone, I hope you understand, We tried. UK isn&#8217;t an option right now. </span>And at 17.39hrs on 29 March 2022 she wrote <span style="font-style:italic">Jason, it was a temporary solution re you housing the kids</span> and at 18.07 hrs on 29 March <span style="font-style:italic">if I knew you would do this, I would never have let you take them from Germany.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> Within days the mother sought legal representation in Berlin. On 8 April 2022 her German lawyer contacted the father and requested the return of the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father reacted by issuing Children Act proceedings in England on 12 April 2022.  On the face of his application the father stated <span style="font-style:italic">when war broke out in Ukraine this year I travelled and collected the respondent, her mother and our children and took them to Berlin, We agreed that I would bring the children back to England and the Respondent and her mother would join us once her mother had obtained a visa</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The same day, 12 April 2022, the mother was issued with a German residence permit which expires on 4 March 2024.  It is agreed before me that the mother and the maternal grandmother now have protected status in Germany and that the children would also have protected status if they returned to Germany. The first hearing of the father&#8217;s Children Act application was on 10 May 2022. The mother clearly disputed the jurisdiction of the court of England and Wales at that hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 19 April 2022, the children started school in England.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 25 April 2022 the mother had signed an application under the 1980 Hague Convention seeking the return of the children to her in Germany. The German Federal Office transmit mother&#8217;s application to ICACU on 16 May 2022. Proceedings were issued on 1 June 2022 under the 1980 Hague Convention. They came before Mrs Justice Roberts on 10 June 2022 who stayed the Children Act proceedings, directed the filing of statements and ordered a CAFCASS report in relation to the wishes and feelings of A primarily and B if necessary. The case was listed for a final hearing with a time estimate of two days.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Evidence and this Hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The final hearing came before me on 25 July 2022. On the morning I heard an application on behalf of the father that I should hear oral evidence from the mother and father on the issue of consent. I allowed that application. Thus on the morning of 25 July 2022 I heard evidence from the mother and the father confined to the issue of consent. I also heard from the CAFCASS officer who was cross-examined by both parties in relation to the content of her report dated 19 July 2022. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the afternoon of 25 July 2022 I heard oral submissions on behalf of both parents. Those submissions supplemented the position statement and note I had received on behalf of the mother and father respectively. I then adjourned to give judgment indicating that I would do so at 2pm on 26 July 2022. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In order to come to the decisions that I do, I have taken into account the oral evidence that I have heard, the bundle which runs to 405 pages which I have read and re-read, the authorities to which I have been taken and all the arguments that have been placed before me.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Both the mother and the father have been ably represented before me by Counsel and I thank them both for their assistance. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I listened to the oral evidence of the mother and father intently. I was struck by how much both parents clearly love their children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have reminded myself that the purpose of proceedings under the 1980 Hague Convention is to ensure, subject to a small number of narrow exceptions, the prompt return of the child to the jurisdiction of his or her habitual residence in order that that jurisdiction can determine all disputed questions of welfare. The objective of the Convention is to ensure that a child who has been removed unilaterally from the country of his or her habitual residence in breach of rights of custody is returned forthwith in order that the courts in the country to which they are returned can decide his or her long term future. It is likewise important to recall that a decision by the court to return a child under the terms of the Convention is, no more and no less, a decision to return the child for a specific purpose and for a limited period of time pending further determination by the court in the country to which they have been returned. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The legal framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Hague Convention states as follows: -</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The States signatory to the present Convention are firmly convinced that the interests of children are of paramount importance in matters relating to their custody, desiring to protect children internationally from the harmful effects of their wrongful removal or retention and to establish procedures to ensure their prompt return to the State of their habitual residence, as well as to secure protection for rights of access, have resolved to conclude a Convention to this effect, and have agreed upon the following provisions</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Article 1 of the 1980 convention states </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The objects of the present Convention are -</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>a)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">to secure the prompt return of children wrongfully removed to or retained in any Contracting State; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>b)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">to ensure that rights of custody and of access under the law of one Contracting State are effectively respected in the other Contracting States.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Article 3 states as follows: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">&#8216;The removal or the retention of a child is to be considered wrongful where</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>a)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">it is in breach of rights of custody attributed to a person, an institution or any other body, either jointly or alone, under the law of the State in which the child was habitually resident immediately before the removal or retention; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>b)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">at the time of removal or retention those rights were actually exercised, either jointly or alone, or would have been so exercised but for the removal or retention.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The rights of custody mentioned in sub-paragraph a) above, may arise in particular by operation of law or by reason of a judicial or administrative decision, or by reason of an agreement having legal effect under the law of that State&#8217;.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Article 12 of the Convention states that: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">&#8216;Where a child has been wrongfully removed or retained in terms of Article 3 and, at the date of the commencement of the proceedings before the judicial or administrative authority of the Contracting State where the child is, a period of less than one year has elapsed from the date of the wrongful removal or retention, the authority concerned shall order the return of the child forthwith.&#8217;.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">However, Article 13 of the convention provides as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">&#8216;Notwithstanding the provisions of the preceding Article, the judicial or administrative authority of the requested State is not bound to order the return of the child if the person, institution or other body which opposes its return establishes that -</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>a)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">the person, institution or other body having the care of the person of the child was not actually exercising the custody rights at the time of removal or retention, or had consented to or subsequently acquiesced in the removal or retention; or </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>b)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">there is a grave risk that his or her return would expose the child to physical or psychological harm or otherwise place the child in an intolerable situation.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judicial or administrative authority may also refuse to order the return of the child if it finds that the child objects to being returned and has attained an age and degree of maturity at which it is appropriate to take account of its views.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In considering the circumstances referred to in this Article, the judicial and administrative authorities shall take into account the information relating to the social background of the child provided by the Central Authority or other competent authority of the child's habitual residence&#8217;.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I turn to the issues in this case</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:-0.1in"><span style="font-weight:bold">  Habitual Residence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> I deal firstly with the issue of habitual residence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> In this case Ms Hunter on behalf of father argues that the Convention exists to ensure the return of a child to the state where that child is habitually resident. It is argued that Germany cannot be found as a fact to be their place of habitual residence. Thus it is said that this case falls out with the Convention. In support of her argument Ms Hunter   emphasises that the preamble to the Convention states that the object of the Convention is the child&#8217;s prompt <span style="font-style:italic;font-weight:bold">return to the State of their habitual residence. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Hosford-Tanner on behalf of the mother argues that children can be returned to third states and relies in support on the authorities of <span style="font-weight:bold">RE S <ref href="#" uk:canonical="[2019] 2 FLR 194" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 2 FLR 194</ref></span> and <span style="font-weight:bold">O v O <ref href="#" uk:canonical="[2014] 1 FLR 1406" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 FLR 1406</ref></span>. Ms Hunter says that <span style="font-weight:bold">RE S</span> was not a case decided on the summary return of a child under the 1980 convention. She accepts that <span style="font-weight:bold">O v O</span> is on the face of it such an authority but seeks to argue that the decision was truly one based on welfare. I disagree with Ms Hunter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In order to determine this issue   I have   reminded myself of <span style="font-weight:bold">In Re B (A Child) V International Centre for Family Law Policy and Practice <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1187" uk:canonical="[2020] EWCA Civ 1187" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 1187</ref></span> and the judgment of Moylan LJ. In particular I have read again paragraphs 100-115 of is judgment.  Whilst his judgment is obiter, I find that it is powerful. He concludes for the reason he sets out within his judgment that there is power under the Hague Convention to order that a child be returned to a third state. To confine the terms of article 12 of the Convention to permitting the return of a child only to the state of habitual residence at the relevant date would not promote the objectives of the Convention. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> Habitual residence itself is of course a matter of fact.  For habitual residence to be established the residence of the child must reflect some degree of integration in a social and family environment- <span style="font-weight:bold">Re A (Jurisdiction: Return of Child) <ref href="#" uk:canonical="[2014] 1 AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 AC 1</ref></span>. The law in relation to habitual residence is relatively well known. Recently and helpfully it has been summarised by Mr Justice McDonald in<span style="font-weight:bold"> E v D <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/1216" uk:canonical="[2022] EWHC 1216 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWHC 1216 (Fam)</ref>. </span>I adopt that summary.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In considering the question of habitual residence, it is not necessary for the court to make a searching and microscopic enquiry - <span style="font-weight:bold">Re B (Minors)(Abduction)(No 1) <ref href="#" uk:canonical="[1993] 1 FLR 988" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] 1 FLR 988</ref></span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I now turn to apply the law to the facts of this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is accepted in this case that as at the relevant date the children were not habitually resident in this jurisdiction. It is argued on behalf of the mother that the children are habitually resident in Germany. I have, however, set out above the chronology as I have found it to be in this case. It is clear from that chronology that the children&#8217;s feet barely touched the ground in Germany. Whilst I accept that habitual residence can be changed in as little as a day, I find on the facts that their stay in Germany was of such a short nature that they cannot be said to have even begun to integrate in society there.  The intention on arrival in Germany was to ensure that children were safe and away from the risks of war. Germany at that stage provided a safe haven where the mother, the maternal grandmother and the children could pause whilst the mother considered what to do next.  I find that this was far from a pre-planned move. It was an escape. The planning went as far as finding somewhere safe and from which further plans could be made.  In terms of future planning, the evidence is clear that one of the options was to re-establish the family unit of mother, maternal grandmother and the children in England. Another option was to remain in Germany. At the time that the children were in Germany, both options had yet to be fully explored. I find that at the time the children were in Germany concrete plans had not been made nor, in the circumstances that the family found themselves, could they have reasonably been expected to have been made. The underlying hope at that time was that the war would be over soon and they could return home to Ukraine.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I find on the facts that at the relevant date the children were habitually resident in Ukraine. Ukraine is the country in which they have deep roots. It is where they lived with their mother and maternal grandmother. There is no dispute that when they fled Ukraine on 26 February 2022 in fear of their lives, the children were habitually resident in Ukraine.  When they left Ukraine they did so in the company of their maternal grandmother and their mother who exercised her right under the Ukrainian order of 4 July 2019 to take them out of the country.  I find as a fact that what the mother has done in essence has been to exercise her right under the July 2019 order of the Ukrainian court to take the children out of Ukraine. She has exercised those rights to keep her children safe and has done so for as long as necessary to keep them safe.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I find that the mother, maternal grandmother and the children left to seek refuge but with the intention to return to Ukraine when it is safe to do so. I find as a fact that the intention remains to return to Ukraine when it is safe to do so. Sadly that day is not yet in sight. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The children&#8217;s mother and the grandmother have found sanctuary in Germany and that sanctuary is available to the children should they return to Germany.  In Germany the mother and grandmother now have protected status. The mother has a visa to reside in Germany until 2024. The children will be permitted to live in Germany if I say they should return. All options having been explored. The mother, maternal grandmother and the children cannot live as a single family unit in England. They can however do so in Germany until such time as they can return to Ukraine.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Return to third party states</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That leads me on to consider whether the 1980 Convention applies in this case. I have found that the children are habitually resident in Ukraine. That is a Convention state. The mother seeks the children&#8217;s return to Germany. Germany is a Convention state but not the place of the children&#8217;s habitual residence. I agree with and adopt the reasoning of Moylan LJ in<span style="font-weight:bold"> In Re B (A Child) V International Centre for Family Law Policy and Practice </span>(above). In such circumstances as I find to exist in this case there is a power under the 1980 Convention to order the children&#8217;s return to a third party state. To even contemplate returning the children to Ukraine at the moment in the midst of war would be absurd. Indeed it is to the father&#8217;s credit that he sees that absurdity and does not ask me to even contemplate it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If I consider that the defences in this case argued for by the father are not made out, then it seems to me I can order the return of the children to Germany. Such an order would be consistent with the Ukrainian order of July 2019 which gave residence of the children to their mother. Their mother and maternal grandmother are in Germany and have settled there until they can return home to Ukraine. If I order that the children should return to Germany, practical arrangements can be simply made for their return and issues about their welfare can be litigated in the German courts within 6 weeks of their return. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I find that in this case, if the defences relied upon by the father are not made out, then a return to Germany would be consistent with the objectives of the Convention to prevent unlawful removal or retention. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That leads me to consider the defences raised by the father to the mother&#8217;s application under the 1980 Hague Convention.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Consent and Acquiescence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father relies upon the consent and acquiescence exception in Art 13 of the 1980 Hague Convention.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The legal principles to be applied in relation to consent were summarised by Peter Jackson LJ in <span style="font-weight:bold">Re G <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/139" uk:canonical="[2021] EWCA Civ 139" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 139</ref> </span>as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">The removing parent must prove consent to the civil standard. The inquiry is fact-specific and the ultimate question is: had the remaining parent clearly and unequivocally consented to the removal?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">The presence or absence of consent must be viewed in the context of the common sense realities of family life and family breakdown, and not in the context of the law of contract. The court will focus on the reality of the family&#8217;s situation and consider all the circumstances in making its assessment. A primary focus is likely to be on the words and actions of the remaining parent. The words and actions of the removing parent may also be a significant indicator of whether that parent genuinely believed that consent had been given, and consequently an indicator of whether consent had in fact been given.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Consent must be clear and unequivocal but it does not have to be given in writing or in any particular terms. It may be manifested by words and/or inferred from conduct.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">A person may consent with the gravest reservations, but that does not render the consent invalid if the evidence is otherwise sufficient to establish it.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Consent must be real in the sense that it relates to a removal in circumstances that are broadly within the contemplation of both parties.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Consent that would not have been given but for some material deception or misrepresentation on the part of the removing parent will not be valid.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(7)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Consent must be given before removal. Advance consent may be given to removal at some future but unspecified time or upon the happening of an event that can be objectively verified by both parties. To be valid, such consent must still be operative at the time of the removal.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(8)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Consent can be withdrawn at any time before the actual removal. The question will be whether, in the light of the words and/or conduct of the remaining parent, the previous consent remained operative or not.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(9)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">The giving or withdrawing of consent by a remaining parent must have been made known by words and/or conduct to the removing parent. A consent or withdrawal of consent of which a removing parent is unaware cannot be effective.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> In this case I find that the mother did consent to the children&#8217;s removal by the father to England on 2 March 2022. I find that had she objected, she would have made her objection known in person on 2 March 2022. Had the father taken the children without her consent then I find that the messages between the mother and father up to 25 March 2022 would have contained evidence of her objection which she would have voiced.  I find the mother to be a highly intelligent and capable woman. If she had objected to the children&#8217;s removal to England on 2 March 2022, then I find that she would have taken steps to secure their return earlier than she did.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, I find that the mother&#8217;s consent to removal was for the temporary removal of the children whilst the mother made plans for their longer term residence with herself as she is entitled to do under the terms of the July 2019 order. It is, I find, clear from the messages that passed between the mother and father before the children&#8217;s removal to England and in the immediate aftermath of that removal that the overriding intention of the mother was that the children should remain with her and the maternal grandparent wherever they could find accommodation and the mother could find work.  I find as a fact that the mother never consented to the children living in England long term with their father in the absence of herself and her mother.   I find as a fact that father knew full well that the mother would never agree with that. The mother&#8217;s consistent theme throughout the parental conversations as recorded in the messages is that she, the children and the maternal grandmother will remain together as a unit. In his own statement the father at 164 in the bundle states that <span style="font-style:italic">I did suggest to the Applicant that I would bring the children to England for a while to be safe. </span> I find that was an offer of a temporary solution and I find it is one the mother accepted whilst she sorted things out for herself, the children and her mother. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is clear from the messages exchanged between the parties that each quite reasonably found the chaos of war stressful and anxiety provoking. However, I do not find that the father pressurised the mother into giving the limited consent that I find she did in fact give to temporary removal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I find that the father gave his evidence to the court calmly and without self-interest. In cross-examination he conceded that the time when they had all been in Berlin was not a time for long term decision making and that <span style="font-style:italic">you could think about that time like that</span>.  He accepted that plan A had been for the mother, grandmother and the children to be reunited in England but if not possible then Plan B was for the four of them to live in Germany. He had always thought the mother would be able to come to England with the children. He accepted that when it became apparent that the maternal grandmother could not come to England, he would have returned the children to the mother in Germany if that is what the children themselves had wanted. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Looking at the facts of this case as a whole including the father&#8217;s own oral evidence, it seems to me that the father always knew that the mother did not consent to the children living in England with their father on a long term basis. He always knew that the consent was temporary whilst the mother made plans for her, her mother and the children to be together wherever that was viable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I find as a fact that on or about 25 March 2022 the mother found out that the maternal grandmother would not get a visa to come to England. Her message to the father on 25 March 2022 is to my mind telling. In her message to the father timed at 12.41 the mother wrote<span style="font-style:italic"> we agreed that we are all together. If my mum is unable to come to the UK we will be looking to register here all together with the kids. </span> The <span style="font-style:italic">here</span> referred to in that message is Berlin. In essence as soon as the mother knew that she, her children and her mother could not be reunited in England, she told the father that she wanted them back so that they could be a family unit. Thereafter she took steps expeditiously to secure the children&#8217;s return to Germany where they could form a unit with her and the maternal grandmother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the father&#8217;s behalf the defence of acquiescence has been raised. The relevant legal principles are summarised by Lord Brown-Wilkinson in <span style="font-weight:bold">Re H (Minors) (Abduction: Acquiescence) <ref href="#" uk:canonical="[1997] 1 FLR 872" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] 1 FLR 872</ref></span>:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">For the purposes of Art 13 of the Convention, the question whether the wronged parent has 'acquiesced' in the removal or retention of the child depends upon his actual state of mind. As Neill LJ said in Re S (Minors) 'the court is primarily concerned, not with the question of the other parent's perception of the applicant's conduct, but with the question whether the applicant acquiesced in fact'.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">The subjective intention of the wronged parent is a question of fact for the trial judge to determine in all the circumstances of the case, the burden of proof being on the abducting parent. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">The trial judge, in reaching his decision on that question of fact, will no doubt be inclined to attach more weight to the contemporaneous words and actions of the wronged parent than to his bare assertions in evidence of his intention. But that is a question of the weight to be attached to evidence and is not a question of law.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">There is only one exception. Where the words or actions of the wronged parent clearly and unequivocally show and have led the other parent to believe that the wronged parent is not asserting or going to assert his right to the summary return of the child and are inconsistent with such return, justice requires that the wronged parent be held to have acquiesced.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> I find that that defence is not made out in this case. Whilst the mother did know that the children were being enrolled in school and that the father was registering them at the doctors, I find that those are the actions of a mother allowing measures to be taken to promote the children&#8217;s wellbeing whilst a temporary solution is in place. Throughout the chronology of this case, this mother has been clear that she would not consent to any long-term living arrangement which would see her, the children and the maternal grandmother living separately in any country. Once the mother knew that that aim could not be achieved in England, I find as a fact that the mother acted promptly and sought the return of the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly on the basis of the mother&#8217;s rights under the July 2019 order and on the facts as I have found them to be, I find that having received the text on 25 March 2022, the father ought to have taken steps to return the children to their mother in Germany. I thus find that since on or about 25 March 2022 the father has wrongfully retained the children.  He, himself, has told me he would have returned the children if they had wanted to go to Germany.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.4in"><span style="font-weight:bold">The Children&#8217;s Objections </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> That brings me to consider the children&#8217;s objections in this case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I remind myself that I <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">may</span><span style="font-weight:bold"/>refuse to order the return of a child if I find that the child objects to being returned and has attained an age and degree of maturity at which it is appropriate to take account of its views.  I have underlined the word may because I have a discretion whether or not to return a child who objects. In <span style="font-weight:bold">Re M <ref href="#" uk:canonical="[2008] 1 FLR 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 FLR 251</ref>,</span> Baroness Hale stated:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">[42]     In Convention cases, however, there are general policy considerations which may be weighed against the interests of the child in the individual case. These policy considerations include, not only the swift return of abducted children, but also comity between the contracting states and respect for one another's judicial processes. Furthermore, the Convention is there, not only to secure the prompt return of abducted children, but also to deter abduction in the first place&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;..</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">[43]     My Lords, in cases where a discretion arises from the terms of the Convention itself, it seems to me that the discretion is at large. The court is entitled to take into account the various aspects of the Convention policy, alongside the circumstances which gave the court a discretion in the first place and the wider considerations of the child's rights and welfare. I would, therefore, respectfully agree with Thorpe LJ in the passage quoted in para [32] above, save for the word 'overriding' if it suggests that the Convention objectives should always be given more weight than the other considerations. Sometimes they should and sometimes they should not.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">[46] In child&#8217;s objections cases, the range of considerations may be even wider than those in the other exceptions. The exception itself is brought into play when only two conditions are met: first, that the child herself objects to being returned and secondly, that she has attained an age and degree of maturity at which it is appropriate to take account of her views. These days, and especially in the light of Art 12 of the United Nations Convention on the Rights of the Child 1989, courts increasingly consider it appropriate to take account of a child&#8217;s views. Taking account does not mean that those views are always determinative or even presumptively so. Once the discretion comes</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">into play, the court may have to consider the nature and strength of the child&#8217;s</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">objections, the extent to which they are &#8216;authentically her own&#8217; or the product of the influence of the abducting parent, the extent to which they coincide or are at odds with other considerations which are relevant to her welfare, as well as the general Convention considerations referred to earlier. The older the child, the greater the weight that her objections are likely to carry. But that is far from saying that the child&#8217;s objections should only prevail in the most exceptional circumstances.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">In addition, in <span style="font-weight:bold">Re K <ref href="#" uk:canonical="[2011] 1 FLR 1268" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 FLR 1268</ref></span>, Thorpe LJ observed:</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">[24].  &#8230;&#8230;&#8230; The Convention is clear in its terminology. There must be a very clear distinction between the child's objections and the child's wishes and feelings. The child who has suffered an abduction will very often have developed wishes and feelings to remain in the bubble of respite that the abducting parent will have created, however fragile the bubble may be, but the expression of those wishes and feelings cannot be said to amount to an objection unless there is a strength, a conviction and a rationality that satisfies the proper interpretation of the Article.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>65.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">In <span style="font-weight:bold">M <ref href="#" uk:canonical="[2015] 2 FLR 1074" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 2 FLR 1074</ref></span> the Court of Appeal held (headnote and paragraphs 69- 71):</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">The position regarding consideration of a child&#8217;s objections should be that the gateway stage was confined to a straightforward and robust examination of whether the simple terms of the Hague Convention were satisfied in that the child objected to being returned and had attained an age and degree of maturity at which it was appropriate to take account of his or her views. Sub-tests and technicality of all sorts should be avoided. In particular, the Re T (Abduction: Child&#8217;s Objections to Return) approach to the gateway stage should be abandoned as it was unhelpful, potentially robbed the discretionary stage of its proper role and was contrary to the approach to be used for the purposes of Art 11(2) of Council Regulation (EC) No 2201/2003 of 27 November 2003 Concerning Jurisdiction and the Recognition and Enforcement of Judgments in Matrimonial Matters and in Matters of Parental Responsibility, repealing Regulation (EC) No 1347/2000 (Brussels IIA) (2003) OJ L 338/1 (BIIA). That approach was consistent with the reasoning of Baroness Hale of Richmond in Re M (Children) (Abduction: Rights of Custody) <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2007/55" uk:canonical="[2007] UKHL 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] UKHL 55</ref>, sub nom Re M (Abduction: Zimbabwe) <ref href="#" uk:canonical="[2008] 1 FLR 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 FLR 251</ref> (see paras [64]&#8211;[70], [76], [77]).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">[69] In the light of all of this, the position should now be, in my view, that the gateway stage is confined to a straightforward and fairly robust examination of whether the simple terms of the Hague Convention are satisfied in that the child objects to being returned and has attained an age and degree of maturity at which it is appropriate to take account of his or her views. Subtests and technicality of all sorts should be avoided. In particular, the Re T approach to the gateway stage should be abandoned.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">[70] I see this as being in line with what Baroness Hale of Richmond said in Re M (Children) (Abduction: Rights of Custody) <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2007/55" uk:canonical="[2007] UKHL 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] UKHL 55</ref>, <ref href="#" uk:canonical="[2008] 1 AC 1288" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 AC 1288</ref>, sub nom Re M (Abduction: Zimbabwe) <ref href="#" uk:canonical="[2008] 1 FLR 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 FLR 251</ref>, at [46]. She treated as relevant the sort of factors that featured in Re T but, as she described the process, they came into the equation at the discretion stage. It also fits in with Wilson LJ's view in Re W that the gateway stage represents a fairly low threshold.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">[71]     &#8230;. It would be unwise of me to attempt to expand or improve upon the list in para [46] of Re M (Children) (Abduction: Rights of Custody) of the sort of factors that are relevant at that stage, although I would emphasise that I would not view that list as exhaustive because it is difficult to predict what will weigh in the balance in a particular case. The factors do not revolve only around the child's objections, as is apparent. The court has to have regard to other welfare considerations, insofar as it is possible to take a view about them on the limited evidence that will be available as part of the summary proceedings. And importantly, it must give weight to the Hague Convention considerations. It must at all times be borne in mind that the Hague Convention only works if, in general, children who have been wrongfully retained or removed from their country of habitual residence are returned and returned promptly. To reiterate what Baroness Hale of Richmond said at para [42] of Re M (Children) (Abduction: Rights of Custody), '[t]he message must go out to potential abductors that there are no safe havens among contracting states'.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I now turn to the facts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have a report from the CAFCASS officer in this case dated 19 July 2022 and I have taken it fully into account. From that report I take that whilst in school both A and B have said that they miss their mother. On 12 July 2022, the CAFCASS officer saw both children at her offices. She spoke to each child individually. B told the CAFCASS officer about her school and said she is really happy there. She told the officer that her mother is a liar. I remind myself that B is only 5 years old. When asked why she said that, she said it was because she had lied about things in court and to get her dad in trouble. B told the CAFCASS officer that she knew this because her father had told her. After gentle exploration by the CAFCASS officer B told her that she loved and missed her mummy. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A is now 9 years old. She appeared to the CAFCASS officer as more reticent than her younger sister. She was shy and appeared to care deeply about those closest to her. She explained that since starting school in England she has felt quite settled with her father.  A told the CAFCASS officer that things used to be friendly with her mother but that things had changed because her mother had told lies in court to get her father into trouble and had said that their father had kidnapped them in the middle of the night. A told the officer that her father had told her about this lie. A gave some examples of things she didn&#8217;t like when living with her mother. However, and despite all that, A told the CAFCASS officer she feels <span style="font-style:italic">very conflicted and torn and if the judge said she had to go back to Germany, a small part of her would feel happy because she loves and misses her mother a lot. On balance however, she definitely has a preference to remain living in England with her father.</span> A&#8217;s reasons for not wanting to return to her mother are set out in full paragraph 23 of the CAFCASS report. I have reminded myself of them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her oral evidence the CAFCASS officer told me in cross examination by Mr Hosford Tanner that A is very torn about the prospect of moving to Germany. She had told her that part of her would be relieved if I did order return because her mother was there.  In cross-examination by Ms Hunter for the father the CAFCASS officer told me that A is anxious about having to learn another language and attend a new school. Neither A nor B speak German although their mother does. A knows little about Germany itself. A had weighed up her options and the benefits and detriments. According to the CAFCASS officer A has a clear preference to remain in England which amounts to an objection to returning to Germany.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I accept the CAFCASS officer&#8217;s view in relation to A&#8217;s objections and thus I open the gateway to the exercise of my discretion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In exercising my discretion I take into account A&#8217;s objection. Whilst it is her genuine view, I also factor in that she very, very torn. It seems to me that the fact that the child herself is torn is relevant when I consider what weight I should give her objection. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I judge A&#8217;s objections in the light of not only her age but her maturity. I factor in that her understanding is coloured by the context in which she finds herself. She is displaced from her home in Ukraine. Her father&#8217;s home is familiar to her. She fears the unknown and reasonably is concerned about having to learn a new language and make new friends. She loves her mother and father. She misses her mother dearly. Her thoughts about her mother have, however, been tainted by adult conversations in which she has been involved or which she has inappropriately overheard. How else would she know about the lies her mother is said to have said in court about being kidnapped in the middle of the night? </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> When exercising my discretion, I also take into account what B has said. She is younger and not as expressive as her older sister but that does not mean I should ignore what she has said as has been reported to me. That said, her views do not in my judgment amount to an objection that I should take into account.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I factor in that A and B have been together throughout their respective lives. They have had each other for support and comfort through the breakdown of their parents&#8217; relationship and now as they come to terms with the effect of war on their lives. Whatever I decide to do, they will have the support of each other.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I take into account that given their respective ages A and B are likely to adapt to life in Germany quicker than they themselves appreciate at this moment. They will have the benefit of a mother who speaks German and a German society which is familiar with English. I find that it will not be as strange as A and probably B fear. In Germany they will have the love and support of their mother with whom they will live. She has been their   primary carer throughout their lives. They will also be reunited with the maternal grandmother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Against that if I order a return to Germany, I factor in that the children will suffer further disruption with a further move to Germany. They will have to leave their English school which they like and where despite only being there since mid-April, they are settled. They will undoubtedly miss their father and the paternal family.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> I balance all those factors against the 1980 Hague Convention considerations which I must consider. It must at all times be borne in mind that the Hague Convention only works if, in general, children who have been wrongfully retained or removed from their country of habitual residence are returned and returned promptly. I remind myself that I am applying the Convention and not making a welfare determination.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I weigh in the balance my findings that the children have been wrongfully retained in this jurisdiction. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> I take into account the order of the Ukrainian court in July 2019 which settled with whom A and B were to live.  I factor in that which I have already found that when the mother left Ukraine with the children she was acting within the terms of the order and taking the children out of the court as she was permitted to do.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The German courts are, I am told, able to determine issues of welfare regarding the children in about 6 weeks time. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Balancing all the factors that I do, I determine that A and B should be returned to Germany.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In order to facilitate return I ask the mother to give the undertakings set out in paragraph 29 of the CAFCASS officer&#8217;s report. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I ask both of the parents to put the children first and to agree arrangements for the children&#8217;s travel to Germany and for their continued contact with their father and the paternal extended family until the German courts can make a full welfare determination. The school holiday are upon us and it should be possible for sensible parents who love their children to make arrangements to enable the children to maintain their relationship with both parents.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

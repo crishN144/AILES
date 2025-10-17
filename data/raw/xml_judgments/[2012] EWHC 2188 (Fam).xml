@@ -1,0 +1,387 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2012/2188"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2012/2188"/>
+	  <FRBRdate date="2012-07-30" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2188"/>
+	  <FRBRname value="NHS Trust v Baby X &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2188"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2188"/>
+	  <FRBRdate date="2012-07-30" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2188/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2188/data.xml"/>
+	  <FRBRdate date="2024-10-28T02:01:58" name="transform"/>
+	  <FRBRdate date="2024-11-24T22:01:59" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2012-07-30" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="nhs-trust" href="" showAs="NHS Trust"/>
+	<TLCPerson eId="baby-x-and-others" href="" showAs="Baby X and others"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2012</uk:year>
+	<uk:number>2188</uk:number>
+	<uk:cite>[2012] EWHC 2188 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>000aaae47bb7696f66cca9667f07c740af4d4bf7fd4cce57739ac3e8992ce6d1</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2012] EWHC 2188 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>BM12P08645</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Birmingham Civil Justice Centre</p>
+      <p class="CoverText">Bull Street.</p>
+      <p class="CoverText">Birmingham</p>
+      <p class="CoverText">Date: <docDate date="2012-07-30" refersTo="#judgment">30<span style="vertical-align:super;font-size:smaller">th</span> July 2012</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center">THE HON. MR. JUSTICE HEDLEY</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#nhs-trust" style="font-weight:bold">NHS Trust</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#baby-x-and-others" style="font-weight:bold">Baby X and others</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Miss Fenella Morris, QC </span>(instructed by<span style="font-weight:bold"> Capsticks</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr. Vikram Sachdeva </span> (instructed by <span style="font-weight:bold">Irwin Mitchell,  solicitors</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Miss Melanie Carew, CAFCASS Legal </span>for the <span style="font-weight:bold">child</span></p>
+      <p style="text-align:center">Hearing dates: 5<span style="vertical-align:super;font-size:smaller">th</span> July 2012</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">THE HON. MR. JUSTICE HEDLEY</p>
+      <p style="text-align:justify">This judgment is being handed down in private on  30<span style="vertical-align:super;font-size:smaller">th</span> July 2012. It consists of 8 pages and has been signed and dated by the judge.  The judge hereby gives leave for it to be reported.</p>
+      <p style="text-align:justify"> The judgment is being distributed on the strict understanding that in any report no person other than the advocates or the solicitors instructing them (and other persons identified by name in the judgment itself) may be identified by name or location and that in particular the anonymity of the children and the adult members of their family must be strictly preserved.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">The Hon. Mr. Justice Hedley :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The question in this case is whether a baby known as X should be removed from a ventilator and made the subject only of palliative care.  As the evidence is that he will almost certainly die within minutes, or at best hours, of such removal, it will be readily apparent that this case is both tragic and difficult. Given the nature of the question, I have thought it right to deliver this judgment in open court but nothing of course may be reported which might reasonably lead to the identification of X or his parents.  An issue has arisen over the reporting restrictions order in this case;  I intend to deal with this matter quite separately to this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">X was born a healthy child on 10<span style="vertical-align:super;font-size:smaller">th</span> June 2011, the first and only child of a married couple Mr. and Mrs. X. On 10<span style="vertical-align:super;font-size:smaller">th</span> May 2012 he suffered a catastrophic accident at home which has resulted, as I shall shortly relate, in chronic, profound and irreversible brain damage.  It is unnecessary to describe the accident beyond saying that no suggestion has ever been made that either parent was culpable (whatever the mother in particular may feel) and it is quite clear to me that this was nothing more nor less than a wholly unforeseeable disaster.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">All agree that X has received exemplary care at the children&#8217;s hospital and that includes the parents.  However, the position has now been reached where the staff (who speak as one on this issue) have concluded that it is no longer in X&#8217;s best interests to remain on artificial ventilation as no improvement is to be expected and that this treatment has now become futile.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parents oppose this view essentially on three grounds:  first, that X should be given every chance to improve, however unlikely that looks at present; secondly, that they believe (and Mrs. X has effectively been with X throughout) that signs of improvement are discernible; and thirdly that the tenets of their faith prevent their giving their consent in the present circumstances to a course which will almost inevitably lead to death.  They are anxious to point out that these views are their own and that they are under no pressure from family, community, or religious leaders;  I accept that the parents are right about that.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I turn next to the law that must be applied in this case.  Although these proceedings are brought under the Inherent Jurisdiction, the court is determining a question with respect to the upbringing of a child and accordingly by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1(1)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> X&#8217;s welfare is the court&#8217;s paramount consideration.  Of  course in reaching a conclusion about X&#8217;s welfare, the views of his committed and blameless parents must weigh heavily but at the end of the day what must prevail is the court&#8217;s independent assessment of what is best for X.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A helpful analysis of the judicial process can be found in the case of <span style="font-style:italic">Wyatt -v- Portsmouth NHS Trust</span> [2006] 1FLR 554 where the Court of Appeal identify six &#8216;intellectual milestones&#8217; on the road to decision, as follows &#8211;</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Judge must decide what is in the best interests of the child.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In doing so, the child&#8217;s welfare is a paramount consideration.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The judge must look at it from the assumed point of view of the patient.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is a strong presumption in favour of the course of action that would prolong life but that presumption is not irrebuttable.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The term &#8220;best interests&#8221; encompasses medical, emotional and all other welfare issues.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The court must conduct a balancing exercise in which all relevant factors are weighed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in">It seems to me, with great respect, that, guided by those milestones and the lodestar of X&#8217;s welfare as the paramount consideration, the court has all the requisite legal authority and guidance for the formulation of its decision.  In so saying, I am not to be taken as being in other than full agreement with the legal analysis of Holman J. in <span style="font-style:italic">NHS Trust &#8211; v &#8211; MB and B</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2006/507" uk:canonical="[2006] EWHC 507 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] EWHC 507 (Fam)</ref> at paragraph 16.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court&#8217;s decision must be informed by a clear understanding of the medical evidence in the case and to that I must now turn in a little more detail.  I heard evidence from the PICU treating team at the hospital.  I also heard forensic expert evidence from two consultant &#8216;Intensivists&#8217; Dr. Stephen Playfor (Royal Manchester Children&#8217;s Hospital) and Dr. Mark Peters (Great Ormond Street), from a consultant paediatric neurosurgeon, Professor Michael Vloeberghes (Queen&#8217;s Medical Centre, Nottingham) and a consultant paediatric neurologist Dr. Christopher Rittey (Sheffield Children&#8217;s Hospital).  The court is very grateful for their evidence, compiled often under considerable pressure of time, and they were in substantive agreement save where otherwise indicated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 10<span style="vertical-align:super;font-size:smaller">th</span> May 2012 X suffered a massive cardiac arrest resulting in catastrophic ischaemic hypoxic brain damage which, although not fulfilling the criteria of brain death, has left X with a severe neurological injury resulting in his being profoundly unconscious with no spontaneous purposeful movement.  He is thus incapable of breathing on his own and in any event lacks the reflexes necessary to protect his breathing even were he able to do so.  He is accordingly permanently ventilated and is fed by a nasal gastric tube.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">His condition is summed up by the treating consultant intensivist as follows: -</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel3" style="margin-left:0.98in">&#8220;Baby X&#8217;s brain injury is such that he lacks awareness of his surroundings.  He is unable to even experience discomfort or distress from the intense treatment he regularly receives whilst being mechanically ventilated.  He remains comatose, shows no interaction or recognition to his parents or carers&#8217; voice, touch or surrounding.  He does not react or relate with the outside world, and is reliant on others for all care.  In my opinion Baby X no longer has the human instinct and desire to survive.  He doesn&#8217;t even shed tears or attempt to smile.  Baby X&#8217;s mother reads and sings to him, but he has not shown any response or awareness.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">All the doctors seem to agree that it is highly improbable that he will make any discernible improvement though of course there will be changes in his condition; many of these sadly will be deteriorations, for example in terms of increasing spasticity, with implications for his care and comfort.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Perhaps the most vivid statement of X&#8217;s present plight came from Dr. Peters who noted that he had never before seen a child survive in the position in which X is having gone through what X has experienced.  Given his vast experience as a paediatric intensivist, his observation (which I accept) was compelling.  There was, however, one area of anxiety and uncertainty in relation to X and this was the extent, if any, to which he could &#8216;sense&#8217;, &#8216;experience&#8217; or &#8216;suffer&#8217; pain.  All agreed that there was no objective evidence that he felt or responded to pain.  Indeed on 15<span style="vertical-align:super;font-size:smaller">th</span> May all analgesia and pain relief had been withdrawn without perceptible effect.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, there was broad agreement that some experience of pain could not be excluded as a possibility; indeed were a surgical procedure (e.g. a tracheostomy) to be carried out, the treating team would use anaesthesia.  Moreover, there were other routine procedures (e.g. suction of lungs because he cannot gag or cough) which were unpleasant and potentially painful as well as e.g. developing contractions resultant on increased spasticity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It follows that the essential case being advanced on behalf of the parents was that as X has no consciousness or awareness of self or surroundings and as he has no apparent perception of pain, there were few if any burdens on X in the continuing of life however slight the benefits might also be.  The only positive proposal came from Professor Vloeberghs who advised a tracheostomy on the  basis that that might allow care at home or in a hospice.  In his evidence Professor Vloeberghs thought X&#8217;s condition to be not dissimilar to some 15% of his clinical cases.  I thought that unlikely as he had expressed his general agreement with the other forensic experts (and Dr. Ritty in particular) whose views of X&#8217;s condition could never support such a conclusion, as shown by Dr. Peter&#8217;s observation cited above.  What really set Professor Vloeberghs apart was the weight that he gave to parental views in general i.e. effectively to confer a veto on them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">X&#8217;s present condition is in my view as described by the treating consultant intensivist.  I think the overwhelming probability (one can never say certainty) is that X will not progress from his present position, in any way that is meaningful, in terms of improved life experience.  That is to say that, whilst there will be discernible changes in X, there will not be any material development of awareness of self or environment.  Equally it is highly probable that he does not in any meaningful sense experience pain and highly probable (though again no-one can be certain) that that will not change.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It follows then, if treatment be continued, that he will remain ventilated.  In the longer term he will require a tracheostomy;  the nasal gastric tube will have to be replaced by a PEG.  He will remain at risk of potentially fatal respiratory infections and the more generalised problems associated with cerebral palsy and increasing spasticity.  Were he to be removed from ventilation, he may never draw another breath or he may do so but, for reasons associated with the loss of reflex, his ability to do so is likely to be measured in terms of hours or even minutes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I heard evidence from both parents.  Considering the enormity of what has engulfed them, their evidence was given with dignity, balance and a full realisation of the medical opinions.  Their tribute to the care given to X was fulsome.  I hope they will not think me patronising if I say that I found their evidence both deeply impressive and moving.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">They come from a faith tradition in which the obligations of parenthood are clear: they are to give lifelong care to X whatever in fact the burden cast upon them of doing so may be.  They were, however, able to appreciate the distinction between their duties as parents and the assessment of what actually is in their son&#8217;s best interests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">They had the instinctive yearning of any parent to maintain the life of X in order to maximise any chance, however remote, of improvement:  where there&#8217;s life, there&#8217;s hope.  Moreover they were sure that they had seen signs of actual improvement, of voluntary response or movement.  The medical evidence is that indeed there had been (and would continue to be) changes but they could not in any sense be described as improvement.  In particular, it is said, the parents have mistaken as voluntary responses those which in fact were caused by the severe brain injury and its effect on all parts of the bodily system.  Sadly, I conclude that the medical evidence is correct and that there is no medical basis for any real sign of improvement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parents say that whilst their religion permits a parent in certain circumstance to consent to the withholding or withdrawal of treatment, even though death ensues, no such circumstance arise in this case.  I am quite prepared for these purposes to accept the parents&#8217; interpretation of their religious obligations.  As I said at the time, some of these permitted circumstances would be recognised in our law and some would not.  That very assertion begs the question as to the foundations on which a welfare decision is to be fashioned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this case the doctors had recourse to the Royal College of Paediatricians and Child Health publication &#8220;Withholding or Withdrawing of Life Sustaining Treatment in Children: a Framework  for Practice&#8221; (2<span style="vertical-align:super;font-size:smaller">nd</span> Edn 2004).  Each doctor founded his or her opinion on this document.  It is common ground that this does not bind the court which has to make a welfare based decision.   Accordingly I do not think an examination of it is either necessary or proper in this judgment.  Its value is to allow me to understand the framework of thought of the witnesses.  It is not, however, my intention to cast any gloss, let alone doubt, on that framework in this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given the enormity and chronicity of the brain damage suffered in this case, the conventional list of burdens and benefits is not very extensive.  X has no realistic prospect of improvement or consciousness or awareness of self or environment.  On the other hand, for those very reasons, he has no consciousness of pain, indignity, invasive procedures or any appreciation of the nature or depth of his disability.  It is the fact that if maintained on ventilation, he will require a tracheostomy, some suctioning and will be prone to infections, especially respiratory ones.  Yet all this could be done (and indeed could ultimately perhaps be done at home or in a hospice) and indeed such has been the high quality of care received that all organs (other than the brain) are in good condition.  The present state of affairs could be managed on an open ended basis and the parents are ready, willing and able to do that.  On the other hand, as there will be no improvement, it could from X&#8217;s point of view, all be described as futile:  no chance of recovery and no purpose in treatment.  That is the view of all doctors other than Professor Vloeberghs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Insofar as Professor Vloeberghs sought to describe a condition different to that portrayed by the others, I prefer (as I have said) the views of the majority.  However, I am inclined to the view that what in the end separated him from the others was not a matter of diagnosis or prognosis but the weight he accorded to the views of the parents.  As I have said, that is not a view open to the court whatever sympathy, regard and respect it has for parental views and I have much of each.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus it is argued on behalf of the NHS Trust that it is in the best interests of X for treatment (save palliative care) to be withdrawn and to allow nature to take its no doubt rapid course.  This, it is said, is a classic case of futile treatment, without hope or purpose.  On the other hand it is argued that, with so slim a list of burdens, the priority of saving life should prevail and treatment which is life sustaining and open-ended should be continued indefinitely.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment that then is a sufficient assessment of the expert evidence and of the professional and parental views.  Moreover, I am satisfied that I have sufficiently set out the matters capable of constituting burdens and benefits in this case.  The legal route is marked with milestones and the lodestar of decision making identified.  The next task is to the address the issue of X&#8217;s welfare.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That assessment must be the court&#8217;s independent assessment but it must be one that looks at all relevant issues from the assumed point of view of the patient; a necessary but necessarily artificial exercise in some ways it may be thought.  Yet it is rightly so required for X is a human being of unique value:  body, mind and spirit expressed in the unique personality that is X.  It is important that &#8216;quality of life&#8217; judgments are not made through other eyes for &#8216;quality of life&#8217; may weigh very differently with different people depending on their individual views and aspirations.  A life from which others may recoil can yet be precious.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the same time preservation of life, however important, cannot be everything.  No understanding of life is complete unless it has in it a place for death which comes to each and every human with unfailing inevitability.  There is unsurprisingly deep in the human psyche a yearning that, when the end comes, it does so as a &#8216;good death&#8217;.  It is often easier to say what that is not rather than what it is but in this case the contrast is between a death in the arms and presence of parents and a death wired up to machinery and so isolated from all human contact in the course of futile treatment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As a result of what has happened, X&#8217;s lifespan is inevitably severely curtailed even if the present regime could be maintained for a few years before some infection or the like intervened.  In those circumstances issues surrounding death must be faced now in a way that otherwise would be quite unwarranted.  It is necessary to bear in mind that though X may be conscious of few, if any, burdens, he is also unconscious of any benefit.  The parents of course derive benefit from caring for him but this further illustrates the distinction between how the world is as they see it and how it is as X would see it if he could.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have pondered long and anxiously over this matter all too aware of the gravity of any such decision and all too aware that such decisions are usually arrived at consensually between the treating team and family.  In the end I have to conclude that X&#8217;s welfare requires his removal from ventilation on to palliative care.  As this may result in a very speedy death, it will of course require planning and management.  I know of no reason why that cannot in due course be agreed between the treating team and the family.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The essence of the reasoning which supports this conclusion is as follows.  First, I recognise the desire to preserve life as the proper starting point to which I add that X is very probably unaware of any burden in his continued existence.  Against that, secondly, I have set both his unconsciousness or unawareness of self, others or surroundings and the evidence that any discernible improvement is an unrealistic aspiration.  Thirdly, I have acknowledged his ability to continue for some time yet on ventilation but have balanced that with the risk of infection or other deterioration and the desire to avoid death in isolation from human contact.  Fourthly, having accepted that treatment serves no purpose in terms of improvement and has no chance of effecting it, I have taken into account its persistent, intense and invasive nature.  Fifthly, I have noted the treating consultant&#8217;s view that X shows no desire to live or capacity to struggle to survive which are the conventional marks of a sick child;  although I think that observation as such is correct, I would not want that to have significant let alone decisive weight in this balance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Essentially for those reasons and on that balance I reach the conclusion that X should in future be treated on the basis of palliative care.  This is, of course, not an order of the court.  It is a declaration that so to treat would be lawful as being in X&#8217;s best interests.  The treating team must of course satisfy themselves that that remains the case when they decide to withdraw ventilation and/or decline any other aggressive, invasive treatment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I cannot part from the case without expressing my appreciation to everyone involved for the co-operative effort that has been needed to get this case heard promptly and get it completed in the time available.  Although I am satisfied that my own assessment of this case is sound acknowledging all the limitations of human insight and understanding, my last words must be of profound sympathy to Mr. and Mrs. X whose loss and sorrow can I think only be grasped by those who also have passed through the valley of the shadow of death with their own children.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

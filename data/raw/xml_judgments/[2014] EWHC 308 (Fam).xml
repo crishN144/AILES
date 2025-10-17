@@ -1,0 +1,859 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/308"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/308"/>
+	  <FRBRdate date="2014-01-31" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="308"/>
+	  <FRBRname value="Medway Council v Mother &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/308"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/308"/>
+	  <FRBRdate date="2014-01-31" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/308/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/308/data.xml"/>
+	  <FRBRdate date="2024-10-27T22:34:27" name="transform"/>
+	  <FRBRdate date="2024-11-16T10:59:02" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2014-01-31" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="medway-council" href="" showAs="Medway Council"/>
+	<TLCPerson eId="mother" href="" showAs="Mother"/>
+	<TLCPerson eId="father" href="" showAs="Father"/>
+	<TLCPerson eId="g-by-her-childrens-guardian" href="" showAs="G (By her Children&#8217;s Guardian)"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis-dbe" href="/judge-mrs-justice-theis-dbe" showAs="MRS JUSTICE THEIS DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2014</uk:year>
+	<uk:number>308</uk:number>
+	<uk:cite>[2014] EWHC 308 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>61b751adcf6304e9525f8bfdf3004b457d59916cd9ffcb03da7dbbcca661277b</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .lc { margin-right: 0.19in; font-family: Arial; font-size: 9pt; color: #666666; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .nquotedlist1num1 { color: #666666; }
+#judgment .nquotedlist1text1 { color: #666666; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+#judgment .PageNumber { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><span style="font-size:11pt;color:#000000">This judgment was delivered in private. The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved. All persons, including representatives of the media, must ensure that this condition is strictly complied with. Failure to do so will be a contempt of court.</span></p>
+      <p class="CoverText">Case No: <docketNumber>ME13C00637</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2014] EWHC 308 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2014-01-31" refersTo="#judgment">31/01/2014</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis-dbe">MRS JUSTICE THEIS DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.31in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#medway-council" style="font-weight:bold;font-size:11pt">Medway Council</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant" style="font-size:11pt">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#mother" style="font-weight:bold;font-size:11pt;color:#000000"> Mother</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-size:11pt">1st Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt;color:#000000">- and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#father" style="font-weight:bold;font-size:11pt;color:#000000"> Father</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-size:11pt">2nd Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt;color:#000000">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#g-by-her-childrens-guardian" style="font-weight:bold;font-size:11pt;color:#000000"> G (By her Children&#8217;s Guardian)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-size:11pt">3rd Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Ms Rachel Langdale Q. C. &amp; Ms Julie Stather </span><span style="font-size:10pt">(instructed by</span><span style="font-weight:bold;font-size:10pt"> Medway Council</span><span style="font-size:10pt">) for the </span><span style="font-weight:bold;font-size:10pt">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Mr John Vater Q. C. &amp; Mr Simon Johnson</span><span style="font-size:10pt"> (instructed by </span><span style="font-weight:bold;font-size:10pt;color:#000000">Gill Turner Tucker Solicitors</span><span style="font-size:10pt">) </span></p>
+      <p style="text-align:center"><span style="font-size:10pt">for the </span><span style="font-weight:bold;font-size:10pt">1st Respondent </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Mr John Swales </span><span style="font-size:10pt">(instructed by </span><span style="font-weight:bold;font-size:10pt;color:#000000">Reeves and Co Solicitors</span><span style="font-size:10pt;color:#000000">) for the </span><span style="font-weight:bold;font-size:10pt;color:#000000">2nd Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Mr Philip McCormack </span><span style="font-size:10pt">(instructed by </span><span style="font-weight:bold;font-size:10pt;color:#000000">Davis Simmonds and Donaghey Solicitors</span><span style="font-size:10pt;color:#000000">) for the </span><span style="font-weight:bold;font-size:10pt;color:#000000">3rd Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 23rd - 31st January 2014</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-size:16pt">Judgment</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold">Mrs Justice Theis DBE:</span></p>
+      <p class="ParaLevel1"><span style="font-weight:bold">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This matter concerns a little girl G born in early 2013, now just over a year old.  I will refer to her parents in this judgment as the mother and father.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These are care proceedings issued by Medway Council (LA) following G&#8217;s admission to hospital due to fitting on 5 March 2013. Subsequent investigations revealed the presence of chronic subdural haematoma (CSDH) and retinal haemorrhages (RH). The court was asked to determine the causation and likely timing of the SDHs which became chronic and the RHs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the fifth day of this hearing the LA applied for permission to withdraw their application pursuant to rule 29.4 (4) Family Proceedings Rules 2010. This involves the determination of a <span style="font-style:italic">&#8216;question with respect to the upbringing of a child&#8217;,</span> and so the paramountcy principle in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s1 (1)</ref> applies. The primary consideration for the court is whether the withdrawal of the proceedings would promote or conflict with the welfare of the child concerned. Such an evaluation is fact specific and the court must look to see if there is some <span style="font-style:italic">&#8216;solid advantage to the child to be derived from continuing the proceedings&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having heard submissions from all the parties I announced my decision that I was going to give the LA permission to withdraw their application and I would give fuller reasons for taking that course in this judgment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am very grateful for the enormous assistance of all advocates in this case, not only during the hearing but in the written documents they have prepared. They have submitted an agreed note of the law, chronology and submissions on the expert evidence. These documents have been extremely helpful.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">General Observation &#8211; delay in issuing proceedings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">One of the matters that concerned me in this case was the delay of 12 weeks following the parents attending hospital with G and the LA issuing proceedings. The parents say, in reality, they had little choice but to sign a section 20 agreement for the LA to accommodate G on her discharge from hospital on 4 April 2013, whilst further medical opinion was sought. Without the LA issuing proceedings the parents did not have effective access to legal advice, and there is no framework for them to be involved in the further medical investigations being sought.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">According to Mr Richards (Consultant Paediatric Neurosurgeon), who gave evidence in this case, there are different practices around the country in this type of case. Some LA issue proceedings promptly, others await further investigation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst it is important in cases where alleged shaking of an infant is a differential diagnosis to await CT, MRI and eye examination before issuing care proceedings, if alleged shaking remains the position following those enquiries serious consideration should be given by the LA to issuing care proceedings promptly.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court, together with the parties who will be legally represented, is then in a position to timetable and manage further medical investigation, analysis and disclosure. It is of note in this case that the LA first requested the medical records from Kings Hospital on 16 April, yet by the time they issued proceedings 6 weeks later only partial disclosure had been given. If they had issued proceedings promptly the parties could have sought further directions from the Court.  Due to the delay in issuing proceedings experts were not instructed until early July some 4 months after G was first taken to hospital.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court is, of course, able to consider the withdrawal of proceedings in appropriate cases.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There should, in my judgment, be great caution in using section 20 agreements in cases where complex medical evidence may become involved. Parents faced with that situation may consider they have little choice but to agree to section 20; they have no, or limited, access to legal advice and if they don&#8217;t agree they risk being regarded by the LA as being &#8216;uncooperative&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">G has now been in the care of foster carers for about 9 months, she is only 12 months old. The parents have had contact 5 times per week. No one has suggested it is other than excellent contact and takes place in the family home. The Local Authority case at the start of this hearing was that the medical evidence supported a finding of a non accidental head injury whilst G was in her parents care. In their written opening Local Authority stated the following in relation to the parents <span style="font-style:italic">&#8216;..it is readily apparent that the parents love G very much. They behave lovingly and affectionately towards her, despite the stresses and strains these proceedings have inevitably brought. There are no signs of bruising or extra cranial injury in this case; no features of repeated assault and, as Mr Richard opines, as far as non accidental head injury is concerned &#8220;the event may have occurred during a momentary loss of control or frustration on the part of the carer who had not planned to injure G&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As the oral evidence of the experts developed in this hearing it became less clear that the LA were going to be able to prove their case to the required standard. By the time the expert evidence had concluded the LA did not consider they could prove the case to the required standard. That position was supported by all the other parties, including the Guardian.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1 (2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> makes clear the general principle that any delay in determining any proceedings in which any question with respect to the upbringing of a child arises is likely to prejudice their welfare. That principle applies as well in the context of any delay in issuing proceedings in circumstances such as this case.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no dispute between the parties as to the applicable legal principles. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The burden of proof is on the LA and the standard is the balance of probabilities in accordance with the principles set out in <span style="font-style:italic">Re B (care proceedings: Standard of Proof) <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/35" uk:canonical="[2008] UKHL 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 35</ref></span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court&#8217;s findings in these cases must be based on evidence, including properly drawn inferences from the evidence, rather than speculation or suspicion (per Munby J (as he then was) in <span style="font-style:italic">Re A (Fact Finding: Disputed Findings) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/12" uk:canonical="[2011] EWCA Civ 12" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 12</ref>. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If the evidence in relation to any particular allegation remains equivocal, then the LA has failed to discharge either the burden or (axiomatically) standard of proof. In that event, the Court will treat that event as not having occurred (<span class="Emphasis">Re B (Care Proceedings: Standard of Proof) </span><span class="Emphasis" style="font-style:normal">per Baroness Hale at [32].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In considering cases of alleged child abuse, the Court &#8216;invariably surveys a wide canvas&#8217; of evidence. The Court must consider and take into account each piece of evidence in the context of all the other evidence (See Butler &#8211; Sloss, P. in <span class="Emphasis">Re U (Serious Injury: Standard of Proof); Re B</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/567" uk:canonical="[2004] EWCA Civ 567" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 567</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As Charles J. observed in <span class="Emphasis">A County Council v K, D and L</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2005/144" uk:canonical="[2005] EWHC 144 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWHC 144 (Fam)</ref>, <a href="http://onlineservices.jordanpublishing.co.uk/web/%20%20%09%09%09%09%09%20%20%20%20%20%20javascript:CVPortal.components.lcContent.loadDoc(null,%20%7b%20docid:%20'Family_FLRONLINE_FLR_20051FLR0851',%20filename:%20''%20%7d);%09%09%09%09%20%20%20%20"><ref href="#" uk:canonical="[2005] 1 FLR 851" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 1 FLR 851</ref></a> at paras [39] and [44]:</p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="lc" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial">&#8216;&#8216;It is important to remember</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num class="nquotedlist1num1" style="font-style:italic">(1)</num>
+	      <content>
+		<p class="lc" style="text-align:justify;margin-left:1.17in;text-indent:0.33in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial"/><span class="nquotedlist1text1" style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial">that the roles of the court and the expert are distinct; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="nquotedlist1num1" style="font-style:italic">(2)</num>
+	      <content>
+		<p class="lc" style="text-align:justify;margin-left:1.17in;text-indent:0.33in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial"/><span class="nquotedlist1text1" style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial">it is the court that is in the position to weigh up the expert evidence against its findings on the other evidence. The judge must always remember that he or she is the person who makes the final decision.' </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="lc" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial">&#8216;In a case where the medical evidence is to the effect that the likely cause is non-accidental and thus human agency, a court can reach a finding on the totality of the evidence either</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num class="nquotedlist1num1" style="font-style:italic">(a)</num>
+	      <content>
+		<p class="lc" style="text-align:justify;margin-left:1.17in;text-indent:0.33in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial"/><span class="nquotedlist1text1" style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial">that on the balance of probability an injury has a natural cause, or is not a non-accidental injury; or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="nquotedlist1num1" style="font-style:italic">(b)</num>
+	      <content>
+		<p class="lc" style="text-align:justify;margin-left:1.17in;text-indent:0.33in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial"/><span class="nquotedlist1text1" style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial">that a local authority has not established the existence of the threshold to the civil standard of proof &#8230;</span><span class="nquotedlist1text1" style="font-family:'Times New Roman';font-size:12pt;color:initial">&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It follows that it is not for those accused to &#8216;prove&#8217; an accidental event in order to rebut the allegations against them. As Moses, L.J., explains  in <span class="Emphasis" style="font-family:Cambria">R v Henderson; Butler; Oyediran</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2010/1269" uk:canonical="[2010] EWCA Crim 1269" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Crim 1269</ref>, <a href="http://onlineservices.jordanpublishing.co.uk/web/%20%20%09%09%09%09%09%20%20%20%20%20%20javascript:CVPortal.components.lcContent.loadDoc(null,%20%7b%20docid:%20'Family_FLRONLINE_FLR_20111FLR0547',%20filename:%20''%20%7d);%09%09%09%09%20%20%20%20"><ref href="#" uk:canonical="[2011] 1 FLR 547" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 FLR 547</ref></a> at para [1] (and see also<span style="font-style:italic;font-family:Verdana"> Lancashire County Council v D and E</span><span style="font-family:Verdana"> <ref href="#" uk:canonical="[2010] 2 FLR 196" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 2 FLR 196</ref> at paras [36] and [37]; </span><span style="font-style:italic;font-family:Verdana">Re C and D (Photographs of Injuries)</span><span style="font-family:Verdana"> <ref href="#" uk:canonical="[2011] 1 FLR 990" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 FLR 990</ref>, at para [203]):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="lc" style="text-align:justify;margin-left:0.62in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial">&#8216;Where the prosecution is able, by advancing an array of experts, to identify a non-accidental injury and the defence can identify no alternative cause, it is tempting to conclude that the prosecution has proved its case. Such a temptation must be resisted. In this, as in so many fields of medicine, the evidence may be insufficient to exclude, beyond reasonable doubt, an unknown cause. As </span><span class="Emphasis" style="font-style:normal;font-family:'Times New Roman';font-size:12pt;color:initial">Cannings </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial">teaches, even where, on examination of all the evidence, every possible known cause has been excluded, the cause may still remain unknown.' </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> The frontiers of medical science are always expanding. There will not always be sufficient understanding to explain every case. In <span class="Emphasis">Re R (Care Proceedings: Causation)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/1715" uk:canonical="[2011] EWHC 1715 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 1715 (Fam)</ref>, <a href="http://onlineservices.jordanpublishing.co.uk/web/%20%20%09%09%09%09%09%20%20%20%20%20%20javascript:CVPortal.components.lcContent.loadDoc(null,%20%7b%20docid:%20'Family_FLRONLINE_FLR_20112FLR1384',%20filename:%20''%20%7d);%09%09%09%09%20%20%20%20"><ref href="#" uk:canonical="[2011] 2 FLR 1384" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 2 FLR 1384</ref></a>, Hedley J, who had been part of the constitution of the Court of Appeal in the <span class="Emphasis">R v Henderson; Butler; Oyediran</span> case, developed this point further. At para [10], he observed: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="lc" style="text-align:justify;margin-left:0.62in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial">&#8216;A temptation there described is ever present in Family proceedings too and, in my judgment, should be as firmly resisted there as the courts are required to resist it in criminal law. In other words, there has to be factored into every case which concerns a discrete aetiology giving rise to significant harm, a consideration as to whether the cause is unknown. That affects neither the burden nor the standard of proof. It is simply a factor to be taken into account in deciding whether the causation advanced by the one shouldering the burden of proof is established on the balance of probabilities.' </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Later in the judgment, at para [19], Hedley J added this observation: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.62in"><span style="font-style:italic">&#8216;In my judgment a conclusion of unknown aetiology in respect of an infant represents neither professional nor forensic failure. It simply recognises that we still have much to learn and it also recognises that it is dangerous and wrong to infer non-accidental injury, merely from the absence of any other understood mechanism. Maybe it simply represents a general acknowledgment that we are fearfully and wonderfully made.'</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parents have been in a relationship since about 2011, they are now 24 and 21 years. The pregnancy was unplanned. When the mother was about 14 weeks pregnant with G she moved in with the father at the paternal grandmother&#8217;s home. The mother had a difficult pregnancy, she suffered vomiting and was admitted to hospital with extreme nausea in June 2012. All scans were normal and no concerns were noted. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">G was born pre-term in early January 2013 at 36 weeks gestation. The birth process was uncomplicated; labour was spontaneous, a normal vaginal delivery. There were no concerns at birth. Apgar scores were 9 at 1 minute and 9 at 5 minutes. Her birth weight was 2.16 kgs and head circumference 33 cms (50<span style="vertical-align:super;font-size:smaller">th</span> &#8211; 75<span style="vertical-align:super;font-size:smaller">th</span> centile).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">G was noted to be hypoglycaemic, symptomatically polycythaemic and was jaundiced. She had an IV dextrose for her sugars and she was given a dilutional transfusion, after which time her packed cell volume (PCV) improved and remained stable. Professor Kinsey, Professor of Paediatric Haematology, considered G&#8217;s polycythaemia was acted on promptly. Subsequent to the transfusion, which was done at about 23.00 on the day of birth, G&#8217;s haemoglobin levels fell.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">An ultrasound was performed the day after her birth, and nothing abnormal was detected. There was no evidence of intracranial bleeding, although all the experts agreed it was very difficult to identify this on an ultrasound scan, particularly one taken at the angles this one was.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">G and her mother were discharged from hospital just over week after the birth. Whilst the mother had been in hospital the father had moved them into a two bedroom property they were renting from his brother. The mother breast fed in hospital but she decided to change to formula milk when at home.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A midwife visited on 15 January and G&#8217;s weight, as recorded in her red book, had increased to 2.46kgs. A further midwife visit took place on 19 January when no concerns were noted. A health visitor did not visit until 23 January. This delay may have been due to some confusion as to where the family were living. The health visitor, conducted a standard assessment and gave routine advice. No concerns were noted or observed by her. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">According to the mother they visited the Clinic earlier that day (23 January) where they saw a midwife and possibly a heath visitor. The midwife has provided a statement setting out what she observed during that visit to the clinic. She had no concerns and G was weighed (2.46kgs). According to the mother&#8217;s statement a health visitor measured G&#8217;s head and the circumference had increased so that she was on the 99<span style="vertical-align:super;font-size:smaller">th</span> centile. The only place this is recorded is in the head circumference chart in the red book. It is not recorded anywhere else, despite extensive searches having been undertaken of the relevant records. The LA did not challenge the entries in the red book.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 18 February G was taken to the Clinic again. Her weight was recorded as 3.45kgs (25-50<span style="vertical-align:super;font-size:smaller">th</span> centile), length 1.5cms (50<span style="vertical-align:super;font-size:smaller">th</span> centile) and head circumference 39.5cms (above 99<span style="vertical-align:super;font-size:smaller">th</span> centile). She was referred to a paediatrician and on 20 February saw Dr S  at a local Hospital. The parents reported G to be <span style="font-style:italic">&#8220;slightly snuffly over the last few weeks&#8221; </span>but feeding <span style="font-style:italic">&#8220;very well&#8221; </span>and she had colicky episodes which settled when her mother gave her infacol. Dr S suggested further monitoring and review in 6 months. Dr Robinson, the expert paediatrician instructed in the case, did not consider that to be optimal treatment. In his view the centile differences required more prompt further investigation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At G&#8217;s 8 week check on 25 February 2013   the GP conducted a <span style="font-style:italic">&#8220;satisfactory examination&#8221;</span> although noted <span style="font-style:italic">&#8220;weight and length low in centiles&#8221;.</span> Head control was recorded as <span style="font-style:italic">&#8220;satisfactory&#8221;.</span> Advice given was to keep up follow up review   and the mother recalls she was advised to &#8220;<span style="font-style:italic">keep an eye&#8221;</span> on the head growth.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 5 March the parents noticed G was not feeding well and was crying in an unusual manner. In the afternoon they observed G twitch and/or fit at about 4.30 pm. They called NHS Direct for advice. Later that afternoon G fitted again and they called an ambulance. G was admitted to a different local Hospital where she was treated with phenobarbitone until 8 May 2013. Her head circumference was noted at 42 cm (above the 99<span style="vertical-align:super;font-size:smaller">th</span> centile). Her fontanelle was tense and she suffered further seizures at hospital.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The CT scan performed on 5 March showed extra axial collections in both hemispheres of 13-14mm in width, as well as 6 or 7 high attenuation areas on the surface of the brain measuring just a few millimetres. There was suspected subdural haematoma with some possible fresh bleeds. Sutures were noted to be wider than normal. Dr J Consultant Radiologist, reviewed the scans and noted bilateral subdural fluid collection. G&#8217;s blood was tested and revealed significant anaemia, with a haemoglobin of 63 g/l. The normal level was between 100 &#8211; 122 g/l. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">According to Professor Kinsey the cause for G&#8217;s <span style="font-style:italic">&#8216;moderate&#8217;</span> anaemia on admission was the immediate bleeding in the areas of subdural collection. G had normal platelet count and coagulation. In her opinion moderate anaemia in a child of 8 weeks of age with normal platlet and coagulation is unlikely to cause RHs and the presence of anaemia does not assist in explaining the causes of the SDH or RHs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 7 March G had further seizures in the morning. It was a feature of the seizures that during them G&#8217;s eyes were deviating to the right.  Later she was seen by  Mr. B Consultant Paediatric Opthalmic Surgeon who conducted an ophthalmic examination. He observed extensive multi layer bilateral haemorrhages, left more than right. Following blood tests G&#8217;s red cell count was 1.88 and haemoglobin 61 g/l.<span style="font-weight:bold"/>She was given two transfusions of red blood cells.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 8 March the parents and the paternal grandmother signed a supervision agreement with the LA so that contact was to be supervised at all times by the paternal grandmother. G was x-rayed and the results showed no fractures or new bone formation, but did show some suture widening and some apparent femoral abnormalities.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 9 March G was transferred to King&#8217;s Hospital. Her head circumference was 42.2cm. It was measured every day from then until 19 March and ranged between 42cm and 42.3cm.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 11 March the parents were seen by the Consultant Paediatrician, Dr. F. The parents denied injuring G or leaving her in the care of anyone else. On examination G had a head circumference of 42 cm, tense fontanelle and no visible bruises.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 12 March G was assessed by Mr A, Consultant Opthalmic Surgeon. He notes extensive retinal haemorrhages in the left eye but none in the right. The appearance was consistent with blood dyscrasia. G was seen by an occupational therapist who felt G&#8217;s difficulty with head control was due to a large head circumference. In the medical records there is a typed note that records a conversation with Mr A as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.62in"><span style="font-style:italic">&#8220;  [Mr A] just seen not classical multilayered haems so maybe a blood disorder but just spoken to him they could still be consistent with NAHI as you can get a spectrum Mr A. is interested in the big drop in Hb anaemia can cause retinal haems as well&#8217;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 13 March an MRI scan of G demonstrated bilateral chronic subdurals which Dr Anslow described as <span style="font-style:italic">&#8220;huge and contained membranes&#8221;.</span> There were also possible fresh bleeds on the surface of the brain. Dr J, Consultant Neuroradiologist, reviewed the scan and notes bilateral subdural fluid collections with evidence of membranes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 19 March G was transferred back to her local Hospital.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 27 March there was an MRI scan of the brain and cervical cord.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 1 April, the maternal grandmother,<span style="font-weight:bold"/>wrote a note to hospital staff explaining an incident while G was in her care when G&#8217;s head went back which could have caused her injuries. On the same day the health visitor saw G. Her weight was on the 50 &#8211; 75<span style="vertical-align:super;font-size:smaller">th</span> centile, her length on the 75<span style="vertical-align:super;font-size:smaller">th</span> centile and head circumference above the 99<span style="vertical-align:super;font-size:smaller">th</span> centile.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 4 April G was placed with foster carers pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 11 April the health visitor visited the foster carer&#8217;s home. G&#8217;s weight was on the 25 &#8211; 50<span style="vertical-align:super;font-size:smaller">th</span> centile, her length on the 50 &#8211; 75<span style="vertical-align:super;font-size:smaller">th</span> centile and head circumference was 43.3cm above the 99<span style="vertical-align:super;font-size:smaller">th</span> centile.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The foster carer called King&#8217;s Hospital on 12 April as she was concerned that G&#8217;s fontanelle and eyes both intermittently appeared sunken. She repeated those concerns to the health visitor on 15 April. She was advised to contact the GP or A&amp;E with any concerns. The parents expressed concern about G&#8217;s fontanelle appearing larger. G was taken to A &amp; E at Kings Hospital, and was re-admitted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 16 April G was seen by Dr P, Consultant Paediatrician, who concluded that no medical cause yet established for the injuries and the findings were supportive of abusive head trauma in the first weeks (but not the first week) of life. The paternal grandmother emailed Dr P suggesting the bad car seat as possible cause for G&#8217;s injuries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 17 April G had a CT scan. They were reviewed by Dr J; subdural fluid collections of the same size but lower in density. Dr Anslow noted a slight widening of the subarachnoid space. There was no skull fracture or other abnormality.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 19 April G underwent an MRI scan. Results showed a 16 to 12mm and 15 to 5mm reduction in the subdural haematomas, although both reductions are expressed as being in the right hemisphere. Subarachnoid spaces were more prominent. Dr J reviewed and noted decrease in size of subdural fluid collections. G was also x-rayed; findings normal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 20 April G was discharged from hospital.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On about 8 May G ceased being given phenobarbitone.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 13 May Dr H, Consultant Paediatric Haematologist, reviewed G&#8217;s test results. She concluded no coagulation factor deficiency, or quantative or functional platelet problem.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 15 May Dr F reviewed G&#8217;s notes and concluded no medical cause to explain injuries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The LA issued proceedings on 28 May 2013. There was a delay in identifying experts and directions were not given for their instruction until 26 June 2013. The matter was set down for hearing in November. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 30 May G was seen by the health visitor, her weight and height was on 55 &#8211; 75<span style="vertical-align:super;font-size:smaller">th</span> centile, and her head circumference remained above the 99<span style="vertical-align:super;font-size:smaller">th</span> centile. This position remained when she was seen by Dr P on 3 June.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There was a delay in one of the expert reports being filed, requiring further directions from the court. Mr Morrison&#8217;s report dated 2 October recommended the instruction of a haematologist. That direction was made on 18 October, the November hearing had to be adjourned and the matter was listed before me to commence on 23 January. The haematologists report came in on 16 December, the experts meeting took place on 2 January and the schedule of agreement/disagreement was lodged thereafter. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The matter first came before me for directions on 17 January. The LA had notified the paternal grandmother, before that hearing that they sought findings that included her being in the pool of perpetrators. She attended the hearing and was joined as an intervener. The court is extremely grateful to the LAA for considering her application for public funding as a matter of urgency. She was not eligible on means and had to fund legal representation from her own resources. Her statement was filed on 22 January and set out her very limited involvement with G during the relevant time. The parents did not dispute the account she gave and the LA amended their schedule of findings to exclude her being within the pool of perpetrators. As a consequence I discharged her as an intervener on the first day of this hearing.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Expert Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> Five experts were instructed. They are all very experienced within their particular field of expertise. Their evidence can be summarised as follows.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Peter Richards (Consultant Paediatric Neurosurgeon)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his written report his opinion stated <span style="font-style:italic">&#8220;medical investigations have identified no abnormalities and follow-up imaging has shown the subdural collections resolving but the subarachnoid spaces enlarging and filling up space vacated by the resolving subdurals. Review of the head circumference suggests that a process capable of enlarging the head abnormally was established by three weeks of age. Whether that process was the development of a chronic subdural haemorrhage or enlarged subarachnoid spaces, cannot be determined as no imaging was performed.&#8217;</span> A little later he continues <span style="font-style:italic">&#8216;..the head circumference measurements would suggest that a pathological process capable of enlarging the head was apparent by three weeks of life. Chronic subdural haematoma development could be that cause, but also when the chronic subdurals settled, enlargement of the subarachnoid spaces was identified and it is possible that this was the underlying pathology that lead to the enlargement of the head. I do not know which was the cause of the enlarged head. In the presence of enlarged subarachnoid spaces, it is clinically recognised that acute subdural bleeding may occur following an event at a level of force less than would normally be required to cause acute subdural bleeding if the intracranial contents were completely normal. Therefore, it may be speculated that if the cause of the subdural haemorrhage identified in G was a non-accidental shaking event, on the basis of the intracranial appearances it may have been at the lower end of the forces commonly encountered in these events.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In answer to the question inviting him to state his views as to the likelihood of each possible cause he states <span style="font-style:italic">&#8220;Birth is a theoretical cause of subdurals and the fact that the head was large by 3 weeks does indicate that this was a possibility, if the Court determines that the likely cause of the enlarged head was the chronic subdural haematoma, without a contribution from the enlarged subarachnoid spaces.&#8221;</span> He considers <span style="font-style:italic">&#8220;unlikely&#8221;</span> the explanations put forward involving the car seat and continues <span style="font-style:italic">&#8220;Therefore, by a process of exclusion, the likeliest cause of the chronic subdural haematoma was that at some point in G&#8217;s life she was handled with greater force than normally encountered in everyday life, such that she was momentarily shaken. However, if it is accepted that there are enlarged subarachnoid spaces, this handling may have been at a lesser force than is normally required to cause subdural haemorrhaging with a normal subarachnoid space.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his oral evidence when asked about benign enlarged subarachnoid spaces (BESS) he said neither he or Dr Anslow could know whether that was present at the time the head was recorded as being enlarged as no scans were taken at the time. He said whilst there was no doubt, as noted on the scans on 17 April, that as the subdurals reduced in size the subarachnoid space was enlarged; but what neither of them know is whether the initial enlargement of the subarachnoid space was there first, or was caused by the SDH. He observed <span style="font-style:italic">&#8220;Was enlargement of the head due to BESS or CSDH beginning to develop; I have no idea&#8221;</span> He said the SDH could compress the BESS and he did not know how the relationship between the two worked. If G did have a BESS, SDH could be caused by handling that was not violent but could be a &#8220;<span style="font-style:italic">momentary loss at relatively low force&#8221;. </span>He explained he based his likeliest cause as being NAHI due to the studies that have taken place regarding CSDH. The study by Hobbs found that NAI was the likeliest in statistical terms following their community based study. In relation to timing if the head enlargement was caused by CSDH he said it would take &#8220;<span style="font-style:italic">at least two weeks and can go back to birth&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to whether having a BESS can result in ASDH being spontaneous he said his personal opinion was they didn&#8217;t, although he recognised there were studies that came to a contrary conclusion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, he agreed that if the head circumference was above the 99<span style="vertical-align:super;font-size:smaller">th</span> centile by 23 January, namely three weeks after birth, it is far more likely the ASDH was birth related and it was more likely that was when the seed was sown that grew into the CSDH, although he acknowledged that there are experts who say that there is no evidence that birth ASDH develop into CSDH. He said there was no biological reason why they should not do so.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Philip Anslow (Consultant Paediatric Radiologist)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his written report he described the subdural collections as <span style="font-style:italic">&#8220;huge&#8221;.</span> He said <span style="font-style:italic">&#8220;the appearance of CSDH in the first CT puts the episode of acute bleeding into the first weeks of life. If mother&#8217;s observations about a large head at three weeks are accepted by the court then the bleeding occurred at birth or very shortly thereafter. Birth itself is a cause of subdural bleeding in 46% of normal deliveries. Subsequent development of a CSDH is possible but rare. There is no clinical history of an additional traumatic event.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his oral evidence he confirmed he did not see any radiological evidence of BESS on the scans and thought the slight widening of the subarachnoid space on the scan taken on 17 April was due to a reduction in the size of the SDH. He agreed an ultrasound scan was the least sensitive scan for detecting SDH. He confirmed his position, as set out in the schedule of agreement/disagreement, that from a radiological perspective it was not possible to exclude SDH at birth as being the cause of the CSDH.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Dr Robinson (Consultant Paediatrician)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his written report he stated if <span style="font-style:italic">&#8220;enlarged subarachnoid spaces are not considered significant on the balance of probabilities G will have suffered a shaking injury in the second or third week of life. There is no history of a credible accidental event. Carers are likely to have noticed a change in her behaviour as described. If enlarged subarachnoid spaces are considered significant the SDH may have occurred spontaneously but this does not explain the retinal haemorrhages. I defer to the expert ophthalmologist regarding a balance of probabilities for the cause of the retinal haemorrhages&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his oral evidence he was clear if there was an increased head circumference at 3 weeks, as compared to the weight and height, something had happened by that time. There could be a number of explanations, including CSDH and BESS but no scan was taken around this time. He deferred to the neurosurgeon and neuroradiologist as to the existence of BESS. In relation to a birth SDH going on to be a CSDH he said there is no evidence they do that but it maybe a rare occurrence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He agreed it was necessary to look at the wider clinical picture. He described G as being severely anaemic when G was admitted to hospital with an hg level of 63. He also agreed that it was not possible to say how quickly she reached the level of 63, and so it was not possible to rule out the anaemia being chronic. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to timing as to when an ASDH became a CSDH he said it was a process that occurs over weeks, but there are variables. He confirmed his agreement that BESS could lead to a spontaneous subdural bleed. He agreed polycythaemia increased blood viscosity, and if the blood is thicker it can cause neurological complications. However, he said he had not seen such a baby with CSDH in such circumstances, but did acknowledge that there are rarely MRI scans done in those cases.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He agreed this was a complex and challenging case.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Mr Morrison (Consultant Paediatric Opthalmologist)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his report he described this as a <span style="font-style:italic">&#8220;challenging and complex case&#8221;</span> and it is <span style="font-style:italic">&#8220;far from being straightforward and there will be a range of opinions&#8221;. </span> He had no reason to doubt the findings of the two opthalmologists who are experienced specialists in paediatric ophthalmology. The RH can be caused by damage to retinal blood vessels and can also be caused, or made worse, by bleeding and coagulation disorders. Damaged retinal blood vessels respond by rupture or leaking, a direct consequence of trauma to the eye. The RH themselves and their appearance (shape and description) does not indicate the cause. There is no retinal appearance that is diagnostic of being shaken. The most likely cause can only be deduced from the entire clinical picture (the history and presentation, CT and MRI scan findings). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In considering the possible causes in his report he rules out accidental head trauma, prematurity, infection, birth trauma and seizures. In relation to the role of anaemia he notes Mr B&#8217;s examination on 7 March was within hours of G having received a blood transfusion for anaemia and notes the comment by Mr A attributing the retinal appearance to that of blood dyscrasia. His report states <span style="font-style:italic">&#8220;It is recognised that severe anaemia (which G had) can cause or predispose an individual to spontaneous retinal haemorrhages and G was very anaemic. She received a blood transfusion on 7 March. In my opinion it is relevant when trying to interpret the cause of the retinal haemorrhages that the role or influence of the anaemia was significant. Roth spots were not seen (not described) by the examining opthalmologists. Roth spots are a type of retinal haemorrhage sometimes seen in severe anaemia but also seen in retinal haemorrhages caused by abusive head trauma.&#8221;</span> He considered the severe anaemia, whilst unlikely to explain the presence of the RH completely it had contributed to the clinical picture, or made it worse. The position was further complicated by the fact that a few weeks previously G was diagnosed as polycthaemic and received a dilutional transfusion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the role played by raised intracranial pressure (ICP) he observed that G&#8217;s optic nerves were not described as swollen, although that did not exclude ICP, but he did not consider this was the likely or sole cause.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The complete disappearance of the RH in the right eye in the examination 5 days later on 12 March he considered suggests that the haemorrhages (both deep and superficial) described on 7 March were of a very transient nature. In his report he said <span style="font-style:italic">&#8220;the apparent rapid clearance of the haemorrhages is unusual and I would have expected some blood to have still been present, if some form of head trauma had caused the haemorrhages in late February or early March 2013.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning to the question of timing of the RHs he said no features (such as superficial nerve fibre layer haemorrhages) were described which indicates they predate 5 March. In his report he continued <span style="font-style:italic">&#8220;The period during which the haemorrhages described may have occurred extends as far back as approximately four weeks before 7 March, with extension beyond this time range being much less likely.&#8221;</span> In the experts meeting he modified the time frame as follows <span style="font-style:italic">&#8220;It&#8217;s four weeks with five/six/seven weeks being less likely, but certainly very possible&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his oral evidence he said he considered the anaemia <span style="font-style:italic">&#8220;modified the clinical picture/appearance and the way they [RH] disappeared&#8221;.</span> He agreed that up to an eight week time frame was <span style="font-style:italic">&#8220;less likely&#8221;,</span> it was <span style="font-style:italic">&#8220;more likely at four weeks than eight weeks&#8221;.</span> He agreed the RH had to be looked at in the context of the neurological picture and he considered the role of BESS to be important. He said following the report from Professor Kinsey he did not consider the role of anaemia and polycythaemia to be as significant although they alter the picture. However he agreed that the effect of hypoxia caused by the reduction in oxygen in the blood (due to anaemia) and the increase in blood viscosity (caused by polycythaemia) were unknown and opthalmologists were rarely asked to examine the eyes of polycythaemic children. He said he was <span style="font-style:italic">&#8220;surprised&#8221; </span>the RH in the right disappeared in five days between the 7 and 12 March, he <span style="font-style:italic">&#8220;struggled to explain this&#8221;.</span> In answer to Mr McCormack, on behalf of the Guardian, he said he could not tell whether these RH were traumatic in origin or not so his conclusion remains if the neurological findings state that the head injury was caused by shaking or impact then the most likely cause of the RH would be the same event. He was reliant on the neurological findings.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Professor Kinsey (Consultant Paediatric Haematologist)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She was instructed on the recommendation of Mr Morrison. She considered G&#8217;s polycythaemia at birth was acted on very promptly. There is a physiological normal fall in haemoglobin in newborns and early infancy. The range of the haemoglobin level at 8 weeks is between 100 to 122 g/l. In her report she said RH can be seen in association with severe anaemia and in <span style="font-style:italic">&#8220;general haematological parlance a haemoglobin of greater than 80 g/l but less than 100 g/l would be considered mild anaemia, between 50 and 80 g/l would be considered moderate and less than 50 g/l as severe&#8221;.</span> She considered G&#8217;s level in the low 60&#8217;s g/l would fall in the moderate bracket. RH seen in association with anaemia are usually seen in a situation of chronic severe anaemia; a haemoglobin less that 60g/l for some weeks.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She described G&#8217;s anaemia on admission to hospital on 5 March as <span style="font-style:italic">&#8220;significant&#8221; with a Hg</span> of 63g/l, she received a top up transfusion on 7 March and by 12 March her Hg was found to be 93g/l.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her report she said <span style="font-style:italic">&#8220;In my opinion the retinal haemorrhages seen in G on [7.3.13] are unlikely to be due to the haemoglobin being in the range of 61 &#8211; 63 g/l in the face of a normal platelet county and normal coagulation. The cause for the moderate anaemia in G is in my opinion most likely due to intermittent bleeding in the areas of subdural collection..&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her oral evidence she agreed that there was no basis upon which she could rule out intracranial bleeding at the time the ultrasound scan was taken in early January 2013.<span style="font-weight:bold"/>She also agreed that the question of whether the anaemia was severe or not was not limited to the haemoglobin levels, it included a clinical judgment too, as children may respond differently to different haemoglobin levels. She also agreed there was little evidence base as to the impact of anaemia on the eyes as they were not routinely examined in this situation.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Discussion and Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having heard the oral evidence of the experts I agree with the analysis of the LA that the position became less clear and they would be unable to prove on the balance of probabilities that CSDH and the RHs were caused at the same time by G being shaken by either of her parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This position was reached due to a number of factors, which include the following.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Firstly, the existence, or not, of BESS prior to 23 January was critical. Whilst Dr Anslow was clear it was not detected on any of the scans, Mr Richards was equally clear that it could not have been detected, as its existence would have been masked by the CSDH. No CT/MRI scans were taken at the time of birth. The significance of not knowing this is that if it had been there a subdural bleed could have occurred spontaneously.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Secondly, it was agreed the ultrasound scan taken on 3 January would not have detected ASDH.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thirdly, whilst there is no evidence of birth related SDH turning into CSDH there is, according to Mr Richards and Dr Anslow, no biological reason why they can&#8217;t. Bearing in mind the increase in head circumference noted on 23 January both Dr Anslow and Mr Richards considered the ASDH was more likely to be birth related, although they recognised there were other experts who consider there is no evidence they can become CSDH.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fourthly, there were a number of features of the RH that were unusual. In particular, the disappearance of the RH in the right eye between 7 and 12 March which was simply inexplicable. In relation to timing whilst Mr Morrison increased the time frame from 4 weeks (as set out in his written to report) to up to eight weeks (in the experts meeting) he acknowledged there was little evidence to support the time frames given. Dr Robinson described the change in time frame from 4 to 8 weeks as extraordinary. Mr Morrison accepted that the significance of the RHs was entirely reliant on the neurological findings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fifthly, the role played by G&#8217;s anaemic condition both at birth and on admission to hospital on 5 March is far from clear. There was a lack of clarity as to how long G had been anaemic prior to 5 March and what impact that had on the overall pathology.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court also has to consider the position of the parents as part of the <span style="font-style:italic">&#8220;wide canvas&#8221;</span>. All parties acknowledge that throughout the history of the case these parents have been consistent in their accounts, cooperative with all health and social care professionals and have responded in good time and appropriately to G&#8217;s health care needs. They consistently sought an explanation for the growth of their daughter&#8217;s head circumference and reassurance in relation to it. They also have the support of the wider family.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The consequence of the uncertainties in the medical evidence, in particular relating to the existence or not of BESS, means that the court is left in a position with a number of possibilities, but no consistent thread of evidence to underpin a finding that the CSDH and the RHs were more likely than not to have been caused by a shaking incident caused by one or other of the parents. In those circumstances the LA were correct in their analysis of the evidence and to seek permission to withdraw their application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is to be recorded, to the credit of all parties, that despite the length of time it has taken these proceedings to reach this stage all professional relationships have remained intact and the LA and the parents have been able readily to agree a rehabilitation plan for G to be returned to her parent&#8217;s care.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

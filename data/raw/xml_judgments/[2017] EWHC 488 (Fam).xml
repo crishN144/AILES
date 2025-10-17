@@ -1,0 +1,526 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2017/488"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2017/488"/>
+	  <FRBRdate date="2017-03-15" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="488"/>
+	  <FRBRname value="B (A Child by her Guardian), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/488"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/488"/>
+	  <FRBRdate date="2017-03-15" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/488/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/488/data.xml"/>
+	  <FRBRdate date="2024-09-18T07:31:09" name="transform"/>
+	  <FRBRdate date="2024-11-30T23:19:03" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2017-03-15" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="j" href="" showAs="J"/>
+	<TLCPerson eId="r" href="" showAs="R"/>
+	<TLCPerson eId="b" href="" showAs="B"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2017</uk:year>
+	<uk:number>488</uk:number>
+	<uk:cite>[2017] EWHC 488 (Fam)</uk:cite>
+	<uk:parser>0.26.2</uk:parser>
+	<uk:hash>f116dcf22f06b34c86a7d8eaad8707e91e9b89e515d42aa6b92f44579a20315e</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .FootnoteText { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .FootnoteTextChar { font-family: 'Calibri, sans-serif'; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+      <p class="CoverText">Case No: FD 14P00238</p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2017] EWHC 488 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p><docTitle style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE MATTER OF THE CHILDREN ACT 1989</docTitle></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">AND IN THE MATTER OF THE SENIOR COURTS ACT 1981</span></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2017-03-15" refersTo="#judgment">15<span style="vertical-align:super;font-size:smaller">th</span> March 2017</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center">MS JUSTICE RUSSELL</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#j" style="font-weight:bold">J</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#r" style="font-weight:bold">R</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#b" style="font-weight:bold">B</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(A child by her guardian)</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">1<span style="vertical-align:super;font-size:smaller">st</span> Respondent</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">2<span style="vertical-align:super;font-size:smaller">nd</span> Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Re B (No 2) (A Child) (Welfare: Child Arrangement Order)</p>
+      <p style="text-align:center">(Inherent Jurisdiction) (2017)</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Alistair G Perkins </span>(instructed by<span style="font-weight:bold"> Freemans Solicitors acting pro bono</span>) for the <span style="font-weight:bold">applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Kate Makepeace Grieve</span> (instructed by <span style="font-weight:bold">Goodman Ray Solicitors acting pro bono</span>) for the <span style="font-weight:bold">1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Jeremy Ford of Cafcass Legal on behalf of the child&#8217;s guardian</span></p>
+      <p style="text-align:center">Hearing dates: 20<span style="vertical-align:super;font-size:smaller">th</span> to 22<span style="vertical-align:super;font-size:smaller">nd</span> February 2017</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+      <p><span style="font-weight:bold">The Hon. Ms Justice Russell DBE :</span></p>
+      <p class="ParaHeading"><span style="font-weight:bold">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This case needs little introduction as it concerns a child B who has been the subject of proceedings since February 2014, during which time the case has been before the High Court, Family Division, in June 2014, Court of Appeal <span style="font-style:italic">Re B (A Child) (Habitual Residence) (Inherent Jurisdiction) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/886" uk:canonical="[2015] EWCA Civ 886" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 886</ref>, and the Supreme Court in, <span style="font-style:italic">In the matter of B (A child) </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2016/4" uk:canonical="[2016] UKSC 4" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKSC 4</ref>. Judgment was given on 3<span style="vertical-align:super;font-size:smaller">rd</span> February 2016 and by a majority decision of three to two the case proceeded to a substantive hearing in the Family Division. For numerous reasons, to which further reference will be made below, the substantive hearing did not take place until February 2017.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B was lawfully removed from this jurisdiction to the Islamic Republic of Pakistan by her biological mother and principal care-giver (R) in February 2014 and has remained there since. In February 2014 J made applications for a Child Arrangements Orders (CAO) pursuant to s 8 of the Children Act (CA) 1989 other orders and relief under the inherent jurisdiction. Her applications were refused by Mrs Justice Hogg on the basis that the court did not have jurisdiction as R and, by extension B given her very young age and dependency on her mother, were no longer habitually resident in the UK. J appealed and the Court of Appeal upheld the decision of Hogg J. The decision of the Court of Appeal was overturned in the Supreme Court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Briefly, R and J lived together in a same-sex relationship between 2004 and December 2011. Before their relationship began R had begun to try having a child by artificial means; she was unsuccessful in doing so. After she moved in with J she continued to do so and eventually, following NHS intrauterine insemination (IUI) treatment in 2007 B was born on 5<span style="vertical-align:super;font-size:smaller">th</span> April 2008. In 2011 R and J separated and for the following two years J had contact with B which was reduced to two hours every three weeks in the year prior to the move to Pakistan. There is no doubt that J was to all intents and purposes co-parenting B when the parties were living together and that B was treated by J as her child and that B saw her as a mother, and that she continued to see J in that context after the two women separated. B has not had any direct contact with J except for some limited telephone contact since B left the UK with R to live in Pakistan in 2014.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Prior to this hearing the guardian met B and filed an analysis/report in which she recommended, amongst other things, that B remain with R in Pakistan and that there should be a CAO in place for indirect contact only, including by telephone or Skype. Despite the guardian&#8217;s conclusions, which were based in part on the child&#8217;s wishes and on R&#8217;s reluctance to agree to direct contact, R, having read the guardian&#8217;s analysis arranged for B to see J over the weekend albeit for a very short time. On the second day of the trial, having carefully considered the recommendations of B&#8217;s guardian J pursues contact but no longer seeks the return of B to this jurisdiction and has accepted the guardian&#8217;s recommendation that B remain living with R in Islamabad. Thus, J and R have moved towards some consensus and to the beginning of co-operation in the interests of B. After three years of bitterly contested proceedings they are both to be commended.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">The Applications </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant applies for a CAO for B to spend time with her, for telephone and Skype contact, and for indirect contact by way of letter. J had by the end of the hearing broadly accepted the guardian&#8217;s proposals for contact. J applies for the case to return before the court in 9 months to ensure that the CAO has been given effect and to review that order. Under the inherent jurisdiction of the court J applies for B to be made a ward of court and declarations in respect of parental responsibility; as it is submitted on her behalf that the court cannot make a parental responsibility order (PRO) in her favour under <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref>Z (as inserted by the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">Human Fertilization and Embryology Act 2008</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/56" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 56</ref>, Sch. 6, Pt 1, para 27); a statutory lacuna which needs to be filled by application of the inherent jurisdiction. She asks that the court make a finding that she was a &#8220;psychological parent&#8221; to the child.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The 1<span style="vertical-align:super;font-size:smaller">st </span>respondent agrees to a CAO in the terms set out by the guardian in her oral evidence.  She opposes the applications for the case to return to court; for wardship proceedings to be initiated; for a parental responsibility order and/or declaration; and, for a finding that J was a psychological parent to B. R is concerned that a PRO will be used by J to bring further proceedings and create further conflict; and to undermine and interfere with her parenting of B.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The guardian originally recommended that there should be a CAO for indirect contact only. She did not recommend that B and R should be forced to return to the UK as Ms Demery did not consider that was in the best interests of B&#8217;s welfare either at present or in the near future. The guardian did not consider that R was able to give her daughter emotional permission to see J or spend time with her, but when R had arranged for B to meet J before this hearing and for another session on Thursday 23<span style="vertical-align:super;font-size:smaller">rd</span> February, the guardian recommend that there should be contact once a year; allowing for the practical and financial realities of the parties&#8217; circumstances. The guardian recommended that there should be a parental responsibility order in the interests of B which would recognise the role and status of J in B&#8217;s life; but on the basis that J will not be able to exercise parental responsibility in Pakistan. She recommended that the case return to court, for, she said that B re-establishing contact and her relationship with J was in a fledging stage and needed some oversight. The guardian was neutral as to wardship. She supported a finding that J was a psychological parent to J.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Both the guardian and J seek a finding that J was the &#8220;psychological mother&#8221; of B.  In cases of same-sex parenting where parental responsibility does not automatically exist in law and where it has not been agreed the courts may consider making a parental responsibility order or a child arrangements order in favour of both parents. In <span style="font-style:italic">Re G (Children) </span><ref href="#" uk:canonical="[2006] 2 FLR 629" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 2 FLR 629</ref> the House of Lords cautioned that the courts should not allow the unusual context of a case to <span style="font-style:italic">&#8220;distract them from principles which are of universal application.&#8221;</span> In <span style="font-style:italic">Re G (Shared Residence Order: Biological Mother of Donor Egg) </span><ref href="#" uk:canonical="[2014] 2 FLR 897" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 2 FLR 897</ref>, Lady Justice Black cautioned against devoting too much time to trying to work out whether a parent could properly be called a &#8220;psychological parent&#8221; when what matters is the parent&#8217;s involvement both past and future. The court&#8217;s first and paramount concern is the welfare of B, who is to be nine years old in about six weeks&#8217; time; any decision as to the role played by J will inform but not decide what is in B&#8217;s best interests in future.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court did not hear evidence about the relationship between the applicant and the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent while it existed, the circumstances surrounding the breakdown of that relationship and what followed after they separated. There was limited court time available to dispose of these prolonged proceedings; a passage of time which directly has affected the child as her life has, inevitably, moved on; when the proceedings started she was rising six, now she is almost nine. The decisions that the court must make are about what is in her best interests in February 2017, not what they may have been in February 2014, and still less what they were in December 2011 when the two women separated. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Some of the facts concerning the background to this case have been agreed include the following (non-exhaustive) facts and observations: starting with the fact that the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent was at all times, and remains, B&#8217;s primary carer. As counsel for the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent observes, <span style="font-style:italic">&#8220;on any view the applicant &#8216;pressed for contact&#8217; with [B] and on any view the respondent was &#8216;to some extent resistant to it&#8217;&#8221;</span>; which is another way of saying that the parties have been in considerable conflict, since they separated, about the continuing role the applicant should play in B&#8217;s life. When the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent took B to Pakistan the applicant, who was a central figure in B&#8217;s life, and probably the second most important figure at the time, was left behind in England. The move to Pakistan took place without the applicant&#8217;s knowledge or approval, and B was aware that the move to Pakistan was to be kept secret from the applicant. B had significant emotional links with the applicant and she feared she would miss her when she had moved to Pakistan. There can be little doubt that B did miss the applicant when she first moved.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Nonetheless, B&#8217;s removal to Pakistan was lawful. The applicant and the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent could have taken steps to formalise their relationship; that they did not choose to do so may well have been for reasons associated with their own perception of how they may have been treated by their own families and the wider communities to which they belonged. There may well have been good cause for their fear of rejection and disapproval. The result was that the applicant was not in law a parent nor was she accepted by the community at large as a parent to B, and, despite the fact that she could have brought proceedings much earlier when the time she spent with B was reduced, she did not do so until February 2014. During the two years following their separation the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent progressively reduced the level of B&#8217;s contact with the applicant from 6 hours every week for the first few months, to 3 hours every fortnight in the following year (for most of 2012) and then to two hours every three weeks in the year (for most of 2013) before moving to Pakistan.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As it is an accepted fact that these two adults have been in conflict since their separation in December 2011, and it is not clear why the applicant did not take proceedings sooner, although she did pursue the matter of her contact with B, and maintaining a relationship with her, assiduously with the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent, who has felt, as she told the court, under siege by the applicant. The applicant, in turn, must have felt that she had been shut out of B&#8217;s life and rejected as a member of B&#8217;s family. Once she brought proceedings the applicant has pursued them with some considerable vigour. Her counsel, Mr Perkins, accepted that the threat of summary return to the UK, committal to prison, sequestration and fines was <span style="font-style:italic">&#8220;at the Draconian end of the opportunities more usually available in domestic and some international disputes&#8221;</span> but said there was &#8220;little other option&#8221; given the lack of alternatives there was at the time. The lack of alternative was the inability of J to bring proceedings in Pakistan.  <span style="font-style:italic;font-weight:bold"/>It was expressly accepted the impact on the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent of the pursuit of these remedies as a method of enforcement would be marked.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is part of the applicant&#8217;s case that she was unable to pursue any remedy in Pakistan in the first instance as the relationship that she had with R and the birth of B during the currency of that relationship would not be recognised as giving rise to any cause of action in respect of B&#8217;s right to maintain a relationship with J. In the second place, J asserted that she would be unable to travel to Pakistan and would be personally in danger and unsafe if she did so; so that R&#8217;s offer of contact in Pakistan was meaningless. It must be noted that J has not, at any time, applied, or even attempted to apply for a visa to enter Pakistan; therefore, there is no evidence that she could not have travelled, in a private capacity, to take up the offer of contact, notwithstanding her Indian heritage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court heard evidence that R had, in the past, travelled to India and visited that country despite of her obvious Pakistani antecedents, and having travelled to Pakistan previously. While the fluctuating socio-political situation between India and Pakistan is a matter of well-known international dispute there was, and always has been, individual travel and connections between the two countries. It may well be true to say that to travel openly as a lesbian, bi-sexual, gay or transsexual person could place a person at risk and compromise their safety either in Pakistan or in India; it could also be said that may well be true for a single woman. It is not, however, an established fact on the evidence before this court, that J, individually, could not have travelled to Pakistan with appropriate arrangements put in place to visit B there.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When R took B to Pakistan in February 2014 it is her case that she took B to Pakistan in the genuine belief that they would have a better life there and with the intention that they would settle there. It is accepted that R had been made redundant and had to look for employment in order to support herself and B. It is accepted that two months earlier she had carried out a reconnoitre of possible arrangements in Islamabad. She did so in the knowledge that B had a close relationship with the applicant, one that she had encouraged and recognised when B was a baby and infant growing up in their joint household. R did not discuss the move, its timing or any other particular of her decision with J. While she was not legally obliged to do so, she did so in the full knowledge that J was pursuing an agreement over arrangements for her to spend time with B. Mediation had been arranged and R took part in it without divulging her plans. While it is the applicant&#8217;s case that R acted in a duplicitous manner to avoid her having contact with B, it is the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent&#8217;s case that J was pursuing her, was unnecessarily intrusive and seeking to control her life long after they had long ceased to be a couple. There is, no doubt, more than an element of truth in both view-points.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant did not initiate any proceedings until February 2014 and the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent was not aware of her application until it was served, effectively on the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent&#8217;s parents in April of that year. It was by service of the court papers B&#8217;s maternal-grandparents learnt of the circumstances of B&#8217;s conception and the relationship R had with J. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is a dispute about B&#8217;s conception and J&#8217;s role both prior to the conception and birth of B. The 1<span style="vertical-align:super;font-size:smaller">st</span> respondent says that she had been considering having a child, on her own, for some considerable time. In 2000, she had begun to investigate the possibility of artificially conceiving a child; and in 2001 she made unsuccessful attempts to do so. It was not until 2004 that the applicant and 1<span style="vertical-align:super;font-size:smaller">st</span> respondent start their relationship and set up home together. It is the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent&#8217;s case that she had already developed the intention of having a child, independently of any relationship.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2005-2006, the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent, along with the applicant explored possibility of the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent conceiving a child artificially and R underwent 2 cycles of IUI which were unsuccessful. In 2006 the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent and the applicant made a joint application as potential adopters but six months later, they withdrew their candidacy. The 1<span style="vertical-align:super;font-size:smaller">st</span> respondent says that this was at the instigation of the applicant, who did not feel ready to be a parent; that is what the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent told the local authority. The applicant says that it was the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent who had wanted the application withdrawn as she (the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent) was anxious about enquiries being made of her parents and who did not accept her sexual orientation or her relationship with the applicant. The court did not hear evidence about this issue and has made no findings about what happened in 2006. At this stage, it would appear that either the applicant had some doubts about parenthood or that the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent used it as a reason to withdraw from an application to be considered jointly with the applicant as adoptive parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The following year 2007, they applied for IUI for R on the NHS and this joint application was approved, as a result B was born on 5th April 2008. R took a year off from work to care for B returning to work in 2009. The applicant took a four-week break from work, consisting of two weeks&#8217; &#8216;paternity leave&#8217; and two weeks&#8217; holiday in April 2014. They continued to live together. The 1<span style="vertical-align:super;font-size:smaller">st</span> respondent was the principal care-giver for B; the applicant was, however, fully involved in the baby&#8217;s care after work and at weekends and holidays. In December 2011, the relationship ended in &#8216;acrimonious circumstances&#8217; and the applicant left their jointly owned family home. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This property is still jointly owned by the applicant and the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent; it is rented out by the applicant who is in receipt of the rent which, she says, just covers the out-goings. The property, its rental income and the disposition of the rent was not the subject of these proceedings. Any money received which is more than the outgoings could, and should, be used to fund future travel to facilitate B spending time with the applicant in the future, until the property is sold, and the proceeds of sale divided between the applicant and 1<span style="vertical-align:super;font-size:smaller">st</span> respondent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">After their relationship ended the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent arranged for B to spend 6 hours a week with the applicant. The communication between the two women was poor and by November 2012<marker name="tab"/>the applicant invited the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent to participate in family mediation. In June 2013, the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent was made redundant. She had difficulty in finding alternative employment. In October 2013, the applicant wrote to the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent asking for a &#8220;shared residence order&#8221;. As 2013 came to an end the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent had still not found an alternative source of income, and in November she travelled to Pakistan to discuss a setting up a business with a friend and to look at a school for B. She made plans to move to Pakistan and did not tell the applicant, while attending a mediation session on 15<span style="vertical-align:super;font-size:smaller">th</span> January 2014. The 1<span style="vertical-align:super;font-size:smaller">st</span> respondent and B arrived in Pakistan on 4<span style="vertical-align:super;font-size:smaller">th</span> February 2014; the applicant did not know they had moved.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is not possible for the court to assess with any real certainty, even on the balance of probabilities, what was in the minds of the applicant and the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent at the time that B was conceived as to their individual understanding and intentions. Much time has passed and the positions, feelings and memories of each has been affected by what has happened in the intervening years. In any case, what concerns this court, at the time of this judgment, is what is best for B and what will best meet her welfare needs at present. The 1<span style="vertical-align:super;font-size:smaller">st</span> respondent, on the evidence, had wanted, and intended, to have a child before she met or entered a relationship with the applicant. According to R, the applicant may have had some doubts, or reluctance, to adopt a child with the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent in 2006, but by 2007 they had applied for IUI together.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The agreement, such as was, as it can be discerned from the evidence, was that the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent would carry and give birth to a child for whom she would be primarily responsible. It is more likely than not that each of the two adult parties had differing expectations of each other&#8217;s role in the child&#8217;s life and in respect of each other; it is equally likely that they changed those expectations as their relationship deteriorated. Nonetheless, the applicant played a full role as a co-parent when the parties lived together until B was three years and 8 months old. From B&#8217;s point of view, the applicant who she called &#8220;Mimi&#8221;, while not being as important to her as her &#8220;Mama&#8221; (the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent), was a constant figure in her life, an important adult who loved and cared for her, and upon who she was dependent day to day, just as she was dependent on her Mama for her care. In this sense, at the outset of her life and during some most important developmental phases, the applicant played a significant role at a time that B was laying down the basis of her identity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Since she has moved to Pakistan the situation in respect of the applicant and her relationship with B, from B&#8217;s perspective, has changed a great deal. The 1<span style="vertical-align:super;font-size:smaller">st</span> respondent is her mother and she has not maintained a close relationship with the applicant. That is the reality from B&#8217;s point of view. The applicant has been insistent that this has been a result of the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent&#8217;s behaviour and her actions, alone. Superficially, this argument has some force, but it ignores the fact that the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent had some good financial reasons to move to Pakistan and that B was largely dependent on her once the applicant had left the family home, the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent and B. In addition to the need to feed, house, clothe and see to B&#8217;s education it is likely that the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent did, subjectively at least, feel besieged by the applicant; and it is likely that these feelings contributed to her decision to move to Pakistan. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Once the parties separated, and the applicant left B and the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent the relationship between B and the applicant was bound to undergo change. That is what happened; it is unfortunate, but sadly, hardly unusual, that it happened under circumstances of bitterness and acrimony. The fact that the applicant and the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent were unable to reach agreement or to compromise in 2012 and 2013 is a reflection of the anger and unhappiness they felt towards and about each other; to attempt to attribute blame, even if it were readily possible, at this stage is otiose as the situation must be dealt with as it is now and as it affects B herself. B had not had any direct contact with the applicant from the end of December 2013 until she saw her first in the Cafcass office, and then with her mother in a shopping mall in February 2017.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">B&#8217;s situation in Pakistan</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Since February 2014 B has been living in Pakistan with her mother in a community that is not entirely dissimilar from the one she had lived in in England. Although R needs to keep her sexual orientation hidden from society at large, just as she had seemingly done from members of her own family in the past, theirs is not an isolated existence. Her mother, R, has friends in the LBGT community in Pakistan and B is aware of that fact. R has a close friend who visits regularly from the UK who is in a same-sex relationship, both of whom B knew before she and R went to Pakistan. R has set up a catering business and runs a European-style caf&#233;, from which she supports herself and B. They live in rented accommodation with a female first-cousin of R&#8217;s; who B calls &#8216;auntie&#8217;. B attends an English medium school which follows an English curriculum. She is happy at this school (which she has been attending since September 2016) well integrated into the school community with a circle of friends whose company she enjoys. As observed by her guardian, B is reaching an age where society outside the family, particularly the friendship of other girls, is increasingly important. She is reaching an age where children should and do become increasingly independent of their parents. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">R&#8217;s cousin coming to live with them has been a positive and welcome addition to the household as she can help look after B when her mother is at work. R and B are visited throughout the year by R&#8217;s family from the UK. B&#8217;s grandfather visits once a year as do her aunts (R&#8217;s sisters) and her cousins. R and B visit family and friends within Pakistan, travelling to stay with them where they live. There can be little doubt that she is integrated into her home, family, school and community in Pakistan and is settled there. Nonetheless the guardian reported that in September 2016 B told her that there were more people who loved her in the UK than in Pakistan and that she saw her life in the future as being in London. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This somewhat unhappy child was no longer evident to the guardian in February 2017. B, who she described as an intelligent and articulate child, told her guardian that she likes it in Pakistan and has 11 friends there compared with 3 in the UK. B said her mother&#8217;s caf&#233; was doing well and that she had <span style="font-style:italic">&#8220;way more family&#8221;</span> in Pakistan than in the UK, and, that her mother&#8217;s cousin lives with them. In February 2017 B told her guardian that she likes coming to the UK to visit (but does not like the flight) and that she no longer wants to return to the UK in 2018, as she had said in September. They might, she said, go and live in Sri Lanka or Morocco as her mother wants to travel.  The guardian was in direct communication with B&#8217;s school, I shall return to this below. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The guardian, in her analysis of B&#8217;s wishes and feelings, as at September 2016, said that she could not <span style="font-style:italic">&#8220;overlook the possibility of parental influence and that this may also explain why [B] presented a more positive picture of life in Pakistan.&#8221;</span> In her oral evidence the guardian seemed less concerned about this as a possible explanation for B&#8217;s apparent positivity about Pakistan as she accepted that she had not realised at the time that B had just moved school in September 2016. I reject as unlikely the possibility of parental influence for two reasons the child had obviously felt more than able to express negative feelings about Pakistan to the guardian some months before, and secondly, there were good objective reasons, independent of her mother&#8217;s wishes, why B was more settled, not least that she enjoyed being school and had made her own friends; as well as having another relative living at home.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B scholastic progress is good, and she is well-liked at school. Her head-teacher told the guardian that B <span style="font-style:italic">&#8220;displays a positive attitude to her learning, demonstrating motivation, and seeking new opportunities. She is consistent with her work and participates actively in class discussions and group work&#8230;[B] is very social and made many friends at school. She is well liked by her peers&#8230;[B&#8217;s] mother comes regularly to attend parent teacher meetings and all the events hosted by the school.&#8221;</span> The school told B&#8217;s guardian that R was a concerned parent who kept in touch with the school for constant feedback about B&#8217;s progress. The Head said that it was a pleasure to have B in the school. One could hardly ask for a better report.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I heard the oral evidence of the applicant, the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent and the guardian. When the applicant gave her evidence, it was clear that she had not fully assimilated both the guardian&#8217;s analysis or the steps that the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent had taken to arrange for contact to take place. With the regards to the latter, the applicant had not appreciated for some months that the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent had agreed to contact taking place by Skype or by telephone since November 2016. While this was not the fault of either party (the solicitors for the applicant had not forwarded the information) the applicant was insistent on emphasising the contact that had <span style="font-style:italic">not </span>taken place; that had been missed because of travelling, or been by telephone not Skype. The fact is that B does not feel comfortable Skyping and the applicant did not seem to be able to appreciate that a child may not want to do so. It was obvious that the applicant took this stance because that is what she, the applicant, wanted to do.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Despite the guardian&#8217;s observations, contained in her report that the applicant had demonstrated sensitivity in her previous telephone contact with B, I found a distinct lack of insight and some obstinacy and truculence in the applicant&#8217;s evidence. It is not uncommon for children to dislike some forms of communication and an adult is unlikely to improve contact and re-build a relationship by insisting that contact takes a form with which a child is uncomfortable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The lack of insight in respect of B was marked, when asked what disadvantage there was for B in being forced to return to the UK with her mother, the applicant could not name or think of one such disadvantage. To ensure that she was given more than sufficient opportunity to answer this question, I asked her again after she had been cross-examined by counsel for the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent and Mr Ford, for Cafcass Legal and the child; she still had no reply. The disadvantages for B of a move back to the UK had been carefully analysed in the guardian&#8217;s report. B is happy at home and at school in Pakistan. She has friends at school and would miss both them and her school at an age when society outside home is becoming more important in her development. She would miss her home and her family in Pakistan. B has no home to go to in the UK and her mother has no means of supporting her. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">While giving her oral evidence, the applicant continued to seek an order for the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent to return to live in the UK. Part of the reason R had moved to Pakistan was to set up a business to support herself and B as she had been unemployed for some months. There was no work or employment for the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent to return to, no accommodation and no school identified for B. The application was unrealistic, as well as being antipathetic to B&#8217;s best interests as the distress and hardship caused to B and her mother would, self-evidently, have been considerable. At the outset of the hearing, and during her evidence, the applicant seemed to overlook these aspects of B&#8217;s life entirely; the rationale behind her application seemed to be that her relationship with B had acquired pre-eminence in B&#8217;s life and this case. In fairness to the applicant this was not a position which she maintained; and, during her oral evidence, she spoke of the need for &#8220;baby steps&#8221; in taking contact forward.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The limited financial resources of both parties are of significance in this case; neither the applicant nor the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent have the financial ability to fund frequent return trips to Pakistan for B. She cannot travel unaccompanied until she is older but it may be possible for her to be accompanied by a member of her mother&#8217;s family, if their visits to Pakistan fall within the school holidays. The parties agreed that it may be a more efficient use of those resources for contact to take place when on holiday somewhere between Pakistan and the UK, such as one of the Gulf States. By the end of the hearing the parties seemed to have in mind contact taking place, perhaps somewhere like Dubai, in the winter holiday so that the weather would be more pleasant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The guardian was, clearly, somewhat surprised but pleased by the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent offering and arranging direct contact on the Sunday prior to the hearing; and offering a second, longer session on the Thursday before they returned to Pakistan on the Friday. Ms Demery had recommended that there should be no direct contact as she had felt that the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent could not give B emotional permission (and support) in having contact. The guardian did not underestimate the financial and geographical restrictions placed on contact, with this in mind she recommended, in her oral evidence, that direct contact should take place once a year in a location to be agreed. The guardian felt that the case should return to court as the contact was in a nascent stage; she felt that the continued oversight of the court would provide some support for B and ensure that she was able to re-establish her relationship with J. The guardian recommended that the case return to court in nine months to a year&#8217;s time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The guardian did not support, nor did she oppose the application by J to have B made a ward of court, but observed that the case had run its course without wardship and questioned whether it was necessary. This observation was well made, particularly as there will be a child arrangements order in place. The reasoning behind the application for wardship was seemingly based on the assertion that the courts in Pakistan would be more familiar with the concept of wardship. This may provide some additional support for parents who both have connections with Pakistan and seek to enforce English and Welsh court orders there, but as the applicant is clear that she considers herself unable to travel to Pakistan to do so herself, there is little force in the argument advanced on her behalf. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The guardian considered that the applicant had been a significant and important figure in B&#8217;s early years. Indeed, B still retained positive memories of her and spoke about her, in particular, about going on holiday to Cuba with her. The guardian considered it of benefit to B to maintain contact and for B to re- build a relationship with B; this would provide B with a link with her past and would enable her to have a greater understanding of where she came from and the circumstances of her birth and infancy. For this reason, to emphasise to B the relevance and importance of the role the applicant had played in her life, the guardian supported the making of a parental responsibility order. The guardian said that the parental responsibility order should be limited in effect and was not to provide the applicant with school reports or medical records. Indeed, the applicant accepted that she would not be able to approach B&#8217;s school in Pakistan with requests for school reports as it would be likely to meet with refusal and may cause embarrassment for B and difficulties for the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The family courts are familiar with many kinds of families including those that might have once been considered unconventional and take a broad and purposive approach both to families and to family life; there is no precise definition of family life, nor can there be one. Following the decision in <span style="font-style:italic">Re G (Shared Residence Order: Biological Mother of Donor Egg) </span>[2014] EWCA 336; <ref href="#" uk:canonical="[2014] 2 FLR 897" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 2 FLR 897</ref> which considered the legal framework governing parental responsibility in the expanded boundaries of legal parenthood, including same-sex couples, the only governing principle remains the paramountcy of the child&#8217;s welfare while particular consideration must be given to the part each adult can play in the child&#8217;s life. Family life is a matter of fact, one of substance, not form. In this case in her earliest childhood and after J and her mother separated B had a family life which included the applicant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The welfare of the child is the court&#8217;s paramount consideration as set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> and I have regard to the welfare checklist in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(3)</ref>. I keep in mind s.2A as inserted by the Children and Families Act (CFA) 2014 s.11 that the court is <span style="font-style:italic">&#8220;to presume, unless the contrary is shown, that involvement of that parent in the life of the child concerned will further the child&#8217;s welfare.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant undertook a parental role when B was born and up until the parties separated, she continued to play a role, albeit reduced, until B went to Pakistan in February 2014. In <span style="font-style:italic">Re B</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2009/5" uk:canonical="[2009] UKSC 5" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] UKSC 5</ref> it was held in the Supreme Court that <span style="font-style:italic">"&#8230; re G had given the final quietus to the notion that parental rights have any part to play in the assessment of where the best interests of a child lay" </span>As Lord Kerr said in <span style="font-style:italic">Re B</span> said, <span style="font-style:italic">"All consideration of the importance of parenthood in private law disputes about residence must be firmly rooted in an examination of what is in the child's best interests. This is the paramount consideration. It is only as a contributor to the child's welfare that parenthood assumes any significance. In common with all other factors bearing on what is in the best interests of the child, it must be examined for its potential to fulfil that aim."</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The checklist set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> provides the legal framework within which to consider specific welfare issues in each case, including this one.  Not all matters set out in the checklist will necessarily come to the fore but all should be kept in mind. In this case, much has been made of the applicant as the social and psychological parent of B. In <span style="font-style:italic">Re G</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2006/43" uk:canonical="[2006] UKHL 43" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] UKHL 43</ref> Baroness Hale said [35] that social and psychological parenthood is <span style="font-style:italic">"&#8230; the relationship which develops through the child demanding and the parent providing for the child's needs, initially at the most basic level of feeding, nurturing, comforting and loving, and later at the more sophisticated level of guiding, socialising, educating and protecting. The phrase "psychological parent" gained most currency from the influential work of Goldstein, Freud and Solnit, Beyond the Best Interests of the Child (1973), who defined it thus: &#8216;A psychological parent is one who, on a continuous, day-to-day basis, through interaction, companionship, interplay, and mutuality, fulfils the child's psychological needs for a parent, as well as the child's physical needs. The psychological parent may be a biological, adoptive, foster or common law parent.&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lady Hale continued at [37]<span style="font-style:italic"> &#8220;&#8230;there are also parents who are neither genetic nor gestational, but who have become the psychological parents of the child and thus have an important contribution to make to their welfare.  Adoptive parents are the most obvious example, but there are many others&#8230;.'  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The submissions made on behalf of the child by Mr Ford that there is no presumption in favour of the biological parent when considering child arrangements and that it is acknowledged in the case law that it is the welfare of the child which remains the paramount consideration regardless of the family construction, are an accurate formulation of current law. There is no need to dwell on whether or not the applicant was a &#8220;psychological parent&#8221; for it cannot be disputed that J undertook a parental role when B was a baby and later when she was an infant and young child. This has been recognised by the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent who has agreed to direct contact and arranged for B to see the applicant prior to the hearing. Nonetheless it is clear that the applicant has not carried out the role as described by Lady Hale for some years.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As the court has made a CAO for contact between B and the applicant the court can make a parental responsibility order in favour of the applicant under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s12</ref>(2A) (a) &amp; (b) <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>. In making such an order I have applied the paramountcy principle of B&#8217;s welfare applies as Lady Justice Black described in <span style="font-style:italic">A v B and C</span> <ref href="#" uk:canonical="[2012] 2 FLR 607" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 2 FLR 607</ref>; and consider that it is in B&#8217;s best interests to make an order which recognises the significant parental role that the applicant played in B&#8217;s life. It is a role that B recalls and which formed part of the foundation of her infancy and will have positively affected her sense of identity when she was very small and growing up. The order will remain in force for the duration of the CAO as provided for by statute which is until B is sixteen (s9(6) CA). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parental responsibility order will be limited and the applicant is not to approach B&#8217;s school or medical practitioner for information. This is to ensure that neither B nor the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent are caused distress or made the subjects of unwarranted intrusion or enquiry in Pakistan; as such it reflects the wishes of the applicant. There is no time scale envisaged for B returning to live in the UK by the time she does so; if she is still under the age of sixteen, then the extent of the applicant&#8217;s ability to intrude or enquire into information regarding B&#8217;s scholastic or medical records will be subject to B&#8217;s own wishes and feelings. The legal framework for parental responsibility signals responsibility for the subject child as is not concerned with bestowing rights on an adult or conferring power over the child and or their other carers or parents. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was the guardian&#8217;s assessment that <span style="font-style:italic">&#8220;It is within [R&#8217;s] gift for [B] to see [J]. [B] requires her mother&#8217;s emotional permission to do so. This is not forthcoming at the present time.&#8221;</span>  Contrary to that assessment the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent was able to give B that emotional permission and support. The 1<span style="vertical-align:super;font-size:smaller">st</span> respondent told me that she was able to do so having read the guardian&#8217;s analysis and realising that she had placed a burden on B which was, in fact, her own burden, and that she did not want to do that to her child. I was impressed by the insight and maturity shown by the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent. She was also alive to the guardian&#8217;s assessment that B had not received an established narrative of why the applicant is no longer part of her life and that, in the guardian&#8217;s view, B felt a sense of abandonment by this person who had been significant figure in her life.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The guardian and the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent welcomed the suggestion that the court should write a letter to B explaining what the court had decided and why. The applicant did not disagree. The 1<span style="vertical-align:super;font-size:smaller">st</span> respondent felt that B would be pleased to get such a letter and told me so in her evidence. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Using the welfare checklist, the guardian concluded that it would not be in B&#8217;s best interests to be returned to the UK.  The guardian recommended indirect contact by way of letters, cards and telephone/skype on a fortnightly basis.  She further recommended that the applicant should have parental responsibility and that the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent should keep the applicant up to date <span style="font-style:italic">vis-&#224;-vis</span> progress at school, photographs, health and general wellbeing. The guardian&#8217;s position was that the case should remain before the court and return to court in nine months to a year for three reasons; the CAO has just been made (as alluded to above); secondly, the case is one with an international dimension and, thirdly, there is means by which to put mirror orders in place in Pakistan to safeguard the child&#8217;s best interests. The court accepts those reasons as valid and, in the circumstances of this case will retain some oversight. It is open to the parties <span style="font-style:italic">not</span> to return to court if they all agree.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In line with the guardian&#8217;s view that <span style="font-style:italic">&#8220;B requires a narrative of the role the applicant played in her early life and why she is a significant figure and that any findings the court may make in relation to this aspect could act as a springboard for this&#8221;</span>; the court will write a letter to B, based on this judgment.  It was the guardian&#8217;s assessment that the applicant was a psychological parent to B in her early life, though this has dissipated due to passage of time and the weight accorded to that relationship by the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The recommendation made by the guardian, and ultimately accepted by the applicant, was one which took cognisance of the fact that the status quo and passage of time ultimately undermined the realistic options available. Lord Wilson noted at [25] on 3 February 2016 that, <span style="font-style:italic">&#8220;The consequence of the conclusions reached in the lower courts, in both of them by judges of great experience in the field of family law, is that applications intended to secure for B a continuing relationship with the woman who, with the respondent&#8217;s consent, has acted as one of her parents and who, even for the two years following the separation, managed to maintain a significant, loving presence in her life have been dismissed without any appraisal of B&#8217;s welfare; without any knowledge of her current situation; without any collection of her wishes and feelings; and in circumstances in which no such applications can be entertained in any other court.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But, as submitted by Mr Ford on B&#8217;s behalf this is the first time since these proceedings began on 13 February 2014 that there has been a focus on B&#8217;s best interests.  He makes a strong point when he suggests, that in future cases, where there is dispute as to habitual residence, early consideration should be given to joinder of the child(ren) so that the court maintains a fluid picture of the child&#8217;s circumstances, wishes and feelings.  The orders made by this court reflect the reality of this child&#8217;s life and her best interests as considered by her guardian and the court when the case came before it in February 2017 some three years after she had moved to Pakistan with her mother. This court endorses his suggestion; it must be right that children in these cases should be separately represented to avoid the focus being on the dispute between parents and/or care-givers and their &#8220;rights&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Based on a large part by the parties&#8217; agreement the court made orders which permitted the 1<span style="vertical-align:super;font-size:smaller">st</span> respondent and B to return to Pakistan on the flights booked for them on Friday (23<span style="vertical-align:super;font-size:smaller">rd</span> March 2017) following the hearing. Further contact between B and J was to take place on Thursday. The reasons for the orders made by the court are set out in the body of this judgment. The order contained recitals which set out the parties&#8217; respective positions and recorded various facts germane to the case and the orders made. There is now a CAO in place which reflects the agreement reached between the parties; nothing in the order would stop the parties making any additional arrangements for B to spend time with the applicant or for additional exchanges of information, letters, cards or gifts, provided they both agree in advance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This matter is to return to court in February 2018 by which time it is intended that there will have been further direct contact between B and the applicant (possibly in a third country during the school winter holidays). There is to be regular &#8220;indirect&#8221; contact by telephone (the medium of communication with which B is most comfortable). The applicant is to send letters or cards to B once a month; arrangements are to be put in place for this to take place. The applicant will have parental responsibility (as set out above) which is to recognise the past and continuing role she has and will play in B&#8217;s life.  The application for wardship is refused as it is not necessary; there is no reason for the court to take up oversight or control over any major decisions in this child&#8217;s life at this point, when the parties have, finally, reached some agreement about B. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is my judgment.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

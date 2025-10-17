@@ -1,0 +1,788 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/2677"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/2677"/>
+	  <FRBRdate date="2022-10-21" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2677"/>
+	  <FRBRname value="FB v MG"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/2677"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/2677"/>
+	  <FRBRdate date="2022-10-21" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/2677/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/2677/data.xml"/>
+	  <FRBRdate date="2024-11-09T03:46:02" name="transform"/>
+	  <FRBRdate date="2024-11-13T19:06:38" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-10-21" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="fb" href="" showAs="FB"/>
+	<TLCPerson eId="mg" href="" showAs="MG"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-cobb" href="/judge-the-honourable-mr-justice-cobb" showAs="THE HONOURABLE MR JUSTICE COBB"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>2677</uk:number>
+	<uk:cite>[2022] EWHC 2677 (Fam)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>79ee491c6310a93263823cf13da14f26ce9886a2ddbc7c4eedcab4c926ccaa18</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .s3 { }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Strong { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.5pt;height:75.5pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2022] EWHC 2677 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD22P00525</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2022-10-21" refersTo="#judgment">21/10/2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-cobb">THE HONOURABLE MR JUSTICE COBB</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#fb" style="font-weight:bold">FB</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#mg" style="font-weight:bold">MG</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr. Mani Basi </span>(instructed by<span style="font-weight:bold"> MSB Law)</span> for the Applicant (father)</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms. Victoria Green</span> (instructed by <span style="font-weight:bold">Dawson Cornwell</span>) for the Respondent (mother) </p>
+      <p style="text-align:center">Hearing dates: 20-21 October 2022</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">THE HONOURABLE MR JUSTICE COBB</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">The Honourable Mr Justice Cobb:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Introduction </span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The application before the court, dated 5 August 2022, is brought under the <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/1985/60" uk:canonical="1985 c. 60" uk:origin="TNA" uk:type="legislation">Child Abduction and Custody Act 1985</ref></span> (incorporating the <span style="font-style:italic">1980 Hague Convention on the Civil Aspects of International Child Abduction </span>(the &#8220;<span style="font-style:italic">Hague Convention 1980</span>&#8221;)).  The application concerns S, a boy aged 21 months.  He is the only child of FB (&#8220;the father&#8221;), and MG (&#8220;the mother&#8221;).  The father seeks the summary return of S to the State of Israel.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father and mother are married.  There is no dispute in this case that the father has rights of custody in respect of S, and was exercising them at the material time.  It is the father&#8217;s case that S has throughout his life been habitually resident in Israel, and been wrongfully retained in this jurisdiction (England) since the end of May 2022.  He advances an alternative case that the mother formed the intention to retain S in this country in December 2021, and that therefore there was a pre-emptive retention of S in England from that date.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The application is contested.  The mother argues that S is, and always has been, habitually resident in England, and has only made visits to Israel in his short life.    In the circumstances, she argues, there has been no wrongful retention.  Alternatively, she contends that if the court were to find that S was habitually resident in Israel at the end of May 2022, she nonetheless can successfully defend the application on the following basis:- </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in">Pursuant to <span style="font-style:italic">Article 13 (a) </span>of the <span style="font-style:italic">1980 Hague Convention</span>, that the father has acquiesced to S living in this jurisdiction;</p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ParaLevel2" style="margin-left:0.98in">Or </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Pursuant to <span style="font-style:italic">Article 13 (b)</span>, there is grave risk that S&#8217;s return to Israel would expose him to physical or psychological harm or otherwise place him in an intolerable situation.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the purposes of determining this application, I have considered a significant bundle of documents including lengthy statements of evidence from the parties, and multiple exhibits.  I received characteristically helpful submissions &#8211; in writing and orally &#8211; from both counsel.  Ms Green made an application at the outset for me to hear some limited oral evidence on the issue of habitual residence.  Mr Basi was neutral on the application.  Ms Green was not able to identify any specific issue on which a factual determination would be likely to be essential, and I therefore declined the application. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Agreed background facts</span></heading>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In this next section of the judgment, I propose to recite what I understand to be the undisputed facts.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father was born and raised in the State of Israel.  The mother was born and raised in England.  The father is a Cloud Computing Solutions Sales Manager; the mother is a self-employed events organiser with her own <span style="color:#000000">UK registered international&#160;events&#160;company</span>.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother moved to Israel in 2017; she rented a flat in Tel Aviv.  It is agreed that she made the Aliyah at that time; under the Law of Return, every Jew has an automatic right to Israeli Citizenship&#160;and the right to apply for a visa where they have expressed his/her desire to settle in Israel.  This led to her acquiring Israeli Citizenship.  While in Israel she met the father, and they became engaged in the summer of 2018.  They married in October 2018 in Israel.    This was a second marriage for the mother.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is clear from the documents filed that the mother has regularly travelled between Israel and England throughout the period since May 2017; her events business brought her back to England for work, and her family live here.  Although in 2020 the mother started a similar events business in Israel, it is accepted that this did not really get off the ground.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The parties underwent IVF treatment in Israel which commenced in 2019, and in 2020 the mother fell pregnant.  With the agreement of the father, respecting the mother&#8217;s wish to take advantage of healthcare in England, S was born in London (prematurely) in early-January 2021. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is agreed that between S&#8217;s birth and the date of the inception of these proceedings, S travelled multiple times between Israel and England.  It is also agreed that he spent altogether a little over 20 weeks of his life in Israel; the balance of the time he has been in England.  That is to say, approximately 24% of his life up to the date of the alleged retention had been in Israel, and 76% in England<authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText" style="text-align:justify"> I should add here that the father&#8217;s lawyers filed a position statement at the outset of the proceedings asserting that S had spent &#8220;the majority&#8221; of his life in Israel, which is acknowledged now to be materially inaccurate.  It is of course possible that those were the father&#8217;s instructions.  However, if that was an <span style="font-style:italic">assumption</span> by the lawyers<span/>can I point out the real risk to the proper administration of justice and the fairness of proceedings if lawyers (particularly at the outset of proceedings when all facts may not be known) make <span style="font-style:italic">assumptions</span> about the facts, and <span style="font-style:italic">present</span><span/><span style="font-style:italic">those assumptions </span><span style="font-style:italic">as</span><span/><span style="font-style:italic">facts</span> to the court?</p>
+		</authorialNote>.  The longest period of any time spent in Israel (9 weeks) was acknowledged to be attributable at least in part to the temporary closure of borders because of Covid-19, and because of hostilities.  Between the New Year of 2022 and the launch of these proceedings, S had spent only 13 days in Israel.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">When in England, the mother and S have resided, and continue to reside, with the mother&#8217;s parents in a large and comfortable house in Central London.  When in Israel, the mother and S have resided with the father in one of two apartments (which have been rented, consecutively) in Ramat Gan a city to the east of Tel Aviv.  The parties have not shared a bedroom following S&#8217;s birth.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother has been in receipt of universal credit in England since S&#8217;s birth.  She applied for and was granted some furlough money from the Israeli government in respect of her Israeli business, but has received no further or other state benefits in that country.  S has been registered with medical practitioners in London; he has received reasonably significant medical attention in London <span style="font-style:italic">inter alia</span> to address flat head syndrome which he suffered due to his premature birth. His paediatric consultant is based in London, and all appointments for this issue were held in London.  On at least one occasion (though possibly on up to three occasions), S saw a doctor in Israel, but neither parent could recall the precise purpose of the visit(s).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the last 12 months or so, S has attended a Kids Club in London (the annual subscription for this is in excess of &#163;3,000), a music group, a kid&#8217;s football club, and an infants&#8217; martial arts group.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have seen extensive communications passing between the parents by WhatsApp.  These communications were reasonably cordial during the period up to June 2022, when the mother confronted the father about a new relationship which it is accepted he had formed.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The father&#8217;s case</span></heading>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is the father&#8217;s case that the mother wrongfully retained S in this country when she indicated her intention, at the end of May 2022, not to return to Israel following what he describes as a short planned trip here.  I should state here that I treat 31 May 2022 as being &#8211; to all intents and purposes &#8211; the date of the alleged wrongful retention.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">He mounts his case by asserting that the mother herself became habitually resident in Israel some years before S&#8217;s birth (i.e., from 2017), and that her habitual residence in that country continued uninterrupted since that time.  He contends that this is one way in which S has himself acquired habitual residence in Israel. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">He further or alternatively contends that S became habitually resident in Israel as soon as he arrived in Israel for the first time after his birth on 8 April 2021 (when he was 3 months old) and has not lost it since.  In the yet further alternative, he argues that if S has lost his habitual residence in Israel when returning to London, he has quickly regained it on each visit back to Israel.  He points to the following facts:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.49in"><span style="font-style:italic">Background of the parents</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The father is an Israeli national; he has lived in Israel all his life;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The mother took steps to put down roots in Israel after 2017, including obtaining her own rented flat;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The mother went to school in Israel to learn Hebrew;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The mother set up a business in Israel;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The mother made her Aliyah in 2017; the father contends that by this formal process the mother declared Israel to be the place where she intended to settle and make her &#8220;permanent&#8221; home; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">That the mother and father had intended to make their life in Israel from before S&#8217;s birth evidenced by their marriage;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The mother collected furlough money from the Israeli government in respect of her Israeli business during the Covid-19 pandemic;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">The mother has a bank account and financial accountants in Israel;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.49in"><span style="font-style:italic">The parents&#8217; intentions</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">In the summer of 2021, during S&#8217;s first year, the mother and father were <span style="font-style:italic">jointly</span> looking for another flat to live in together; by the end of the summer of 2021, the couple were in the new flat; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The mother brought wallpaper from London for the flat (she accepts that &#8220;I suggested wallpaper in the bedrooms. In the end I brought some safari wallpaper from London for [S]&#8217;s room or else he would only have white walls to look at&#8221;);</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The couple were in a meaningful relationship through to June 2022; the father says that he only knew that the relationship was over when she stopped paying the rent of the Israel flat in that month;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The mother&#8217;s &#8216;visits&#8217; to England were predominately work related; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xiii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">The lengthier occasions which the mother (and S) spent in England were attributable in part to Covid-19 travel restrictions;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.49in"><span style="font-style:italic">S&#8217;s life in Israel</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xiv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">S has extended family in Israel; there is a large paternal family network;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">When S travelled to Israel in April 2021, he was effectively arriving &#8220;home&#8221;;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xvi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">As indicated above, S attended two or possibly three routine medical checks in Israel with a Dr [J] in April/May 2021.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father&#8217;s secondary case is that the mother had planned to relocate to England from Israel in December 2021 and was taking steps surreptitiously to achieve this; he asserts that there was a pre-emptive retention.  If this is right, then I need to look at 1 January 2022 as the date of the alleged wrongful retention.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The mother&#8217;s case</span></heading>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother contends that S was at all material times, and is, habitually resident in England.  She contends that the application for summary return is therefore not made out.  In this regard, she refers to the following:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.49in"><span style="font-style:italic">The mother&#8217;s own circumstances</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The mother is English.  She asserts that at no time did she lose her habitual residence in England; in spite of making the Aliyah in 2017, she never made Israel her permanent home; she made the Aliyah simply because she could do so as a Jewish woman residing in Israel; she said that she went to Israel because of its favourable climate and to explore business opportunities;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">She has her home with her parents; they live in a desirable part of Central London; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Even though she had married an Israeli citizen and they were renting in Israel, she nonetheless kept &#8220;a foot in both camps&#8221; (per Ms Green) illustrated by her travelling between the two countries frequently; when I asked Ms Green about whether the couple had ever contemplated basing themselves in England, I was shown a WhatsApp message from the mother to the father (which I acknowledge may well to some degree be likely be self-serving, given that it was written after the launch of these proceedings) in which she says that she wanted the father to think about working from England;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">In other WhatsApp messages passing between the parties in 2021 (when they were apparently looking for a new apartment), the mother refers to possible options by reference to the location of &#8220;your&#8221; apartment in Ramat Gan, not (significantly, says Ms Green) &#8220;our&#8221; apartment;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">It is revealing (argues Ms Green) that when the mother sent a message to the father in January 2022, she referred to &#8220;visiting&#8221; Israel, not (for example) &#8216;coming home&#8217; to Israel;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The mother was not in Israel when the tenancy agreement for the current rented property was made and/or was signed (purportedly on 1 August 2021, although the mother must have signed later);  she said that this was negotiated and agreed independently of her, and (there can be no doubt) the father had moved in without her;  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">There is a straight dispute of fact whether the mother had her own key to the flat, or not, which I am unable to resolve (as I said to the parties during the hearing, I would have heard oral evidence on this if I felt that this would be determinative);</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">The apartment to which the father had moved in the summer of 2021, and in respect of which they both had signed the agreement, did not have all the relevant utilities connected; there was no gas, and the mother could not cook for herself and S; this plainly affected her ability to settle there;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The mother herself receives psychotherapy in London, she does/did not have a therapist in Israel;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.49in"><span style="font-style:italic">S&#8217;s situation</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">S takes his habitual residence from his mother, given that she is the primary carer; the mother&#8217;s habitual residence is England;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">S has a significant, strong and cohesive relationship with the maternal family in England; S has a cousin of a similar age and friends in London;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">S has become thoroughly integrated in life in England, his mother having joined him to multiple clubs;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xiii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">S has/had no friends in Israel; he has/had no nursery or day care provision or recreational clubs or activities;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xiv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">There was an agreed and long-established plan for S to be educated in England.  The mother points to the fact that the father &#8220;was aware that [she] visited nurseries [in England] with a view to registering [S] but did not make any comment on this. [S] regularly attended [music], [martial arts] and [kids club]. [The father] was aware and came along to each place whilst visiting us in London. He also received video / photo WhatsApps of [S] at these activities when he was in Israel&#8221;, and seemed to be supportive of these activities.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the event that I were to find that S was habitually resident in Israel at the relevant date, as I have indicated above, the mother contends that the father has acquiesced in S&#8217;s removal to, or retention, here; alternatively that a return would impose on him a grave risk of physical or psychological harm or otherwise place him in an intolerable situation.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As to acquiescence (<span style="font-style:italic">article 13(a)</span>), the mother claims that this arises because she says that t<span class="s3">he father never sought to object in any way to S&#8217;s &#8216;residence&#8217; in England. She points to the fact that there has never been any allegation (until June 2022) that the mother has retained S in England wrongfully and he has overtly indicated his approval of the various steps she has taken to integrate S into life in London. Instead, she argues, there are overwhelmingly supportive and positive responses to the updates that the mother was providing to him.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother&#8217;s case on <span style="font-style:italic">article 13(b)</span> is presented on the basis that when the court takes in combination:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the living conditions in Israel (the endemic tensions, and dangers associated with the conflict in the region and the more local incidents and/or threats of violence);</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the risks presented to S if left in the care of paternal family members;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">the lack of support network for the mother and S, and </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the lack of financial maintenance and accommodation, </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.49in">S would be placed at grave risk pf physical or psychological harm or otherwise placed in an intolerable situation.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The applicable law</span></heading>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Article 3</span> of the <span style="font-style:italic">1980 Hague Convention</span> defines that the removal of a child will be considered wrongful where: </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1.18in;margin-right:1.05in"><span style="color:#000000">" it is in breach of rights of custody attributed to a person... either jointly or alone, under the law of the State in which the child was habitually resident immediately before the removal...; and at the time of removal... those rights were actually exercised, either jointly or alone, or would have been so exercised but for the removal...&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The applicable law in relation to this <span style="font-style:italic">Article </span>of the <span style="font-style:italic">1980 Hague Convention</span> is well-known, and is not controversial in this case.  Both counsel have addressed me upon it.   I hope that I can be forgiven for not reproducing great swathes of the relevant authorities to which I was referred by counsel.  The cardinal principles which I have applied in this case have been drawn from a number of cases including but not limited to: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-style:italic">Proceedings brought by A</span> <ref href="#" uk:canonical="Case C-523/07" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-523/07</ref>, <ref href="#" uk:canonical="[2010] Fam 42" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] Fam 42</ref><span class="Hyperlink" style="text-decoration-line:none;color:initial">, </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-style:italic">Mercredi v Chaffe</span> (<ref href="#" uk:canonical="Case C-497/10PPU" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-497/10PPU</ref>) <ref href="#" uk:canonical="[2012] Fam 22" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] Fam 22</ref>), </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-style:italic">A v A and another (Children: Habitual Residence) (Reunite International Child Abduction Centre intervening)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/60" uk:canonical="[2013] UKSC 60" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 60</ref> <ref href="#" uk:canonical="[2013] 3 WLR 761" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 3 WLR 761</ref>, </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-style:italic">Re LC (Children) </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/221" uk:canonical="[2013] UKSC 221" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 221</ref>,</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-style:italic">Re B (A Child) </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2016/4" uk:canonical="[2016] UKSC 4" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKSC 4</ref>, <ref href="#" uk:canonical="[2016] AC 606" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] AC 606</ref>; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-style:italic;color:#000000">Re B (A Child)(Custody Rights: Habitual Residence)</span><span style="color:#000000">&#160;</span><ref href="#" uk:canonical="[2016] 4 WLR 156" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 4 WLR 156</ref>; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-style:italic">Re J (a child) (Finland: habitual residence) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/80" uk:canonical="[2017] EWCA Civ 80" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 80</ref>, </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-style:italic">Proceedings brought by HR </span>[2018] 3 W.L.R 1139, at [54] and [45]; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-style:italic">Re M (Habitual Residence: 1980 Hague Child Abduction Convention) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1105" uk:canonical="[2020] EWCA Civ 1105" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 1105</ref>.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.49in">The key principles engaged in this case (not exhaustive on the issue of habitual residence) are as follows:</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="color:#000000">habitual residence is a question of fact and not a legal concept such as domicile;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the child's place of habitual residence must be established on the basis of <span style="font-style:italic">all the circumstances</span><span/><span style="font-style:italic">specific</span> to each <span style="font-style:italic">individual</span> case; what is required is &#8220;a global analysis&#8221; of the individual child&#8217;s situation;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">the presence of the child in the particular country should not be in any way temporary;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="color:#000000">perhaps most significantly, habitual residence is &#8220;the place which reflects some degree of integration by the child in a social and family environment&#8221; in the country concerned. This depends upon numerous factors, including the reasons for the family's stay in the country in question; it is to be noted that the phrase used is &#8220;some degree&#8221;, not &#8211; for instance &#8211; &#8220;total/complete/full&#8221; integration;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="color:#000000">the social and family environment of an infant (as here) or young child is shared with those (whether parents or others) upon whom he is dependent. Hence it is necessary to assess the integration of that person or persons in the social and family environment of the country concerned;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the intention of the parents to settle with the child in a given member state, where that intention is manifested by tangible steps, may also be taken into account in order to determine the child's place of habitual residence</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">it is useful and indeed appropriate to take into consideration factors such as the duration, regularity, conditions and reasons for the child's stay in the territory of the different member states concerned, the place and conditions of the child's attendance at school (where relevant), and the family and social relationships of the child in those member states;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">it is the <span style="font-style:italic">stability</span> of a child's residence as opposed to its&#160;<span style="font-style:italic">permanence&#160;</span>which is relevant, though this is qualitative and not quantitative, in the sense that it is the integration of the child into the environment rather than a mere measurement of the time a child spends there.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">One factor which deserves emphasis is that in determining the issue the factual enquiry must be centred throughout on the circumstances of the child's life.  The investigation must be child-focused.  Thus, in this case I must focus on the particular situation of S.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Importantly, the burden lies on the applicant (in this case the father) to demonstrate that the relevant ingredients of <span style="font-style:italic">Article 3</span> are present and apply.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I was asked to consider whether there was a repudiatory retention in late-December 2021 (this was refined to be 1 January 2022).  Had I considered it necessary to consider this issue in any detail I would have been guided by the judgments of the Court of Appeal in <span style="font-style:italic">G-E (Children: Hague Convention 1980: Repudiatory Retention and Habitual Residence) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/283" uk:canonical="[2019] EWCA Civ 283" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 283</ref>, and of the Supreme Court in <span class="Strong" style="font-style:italic;font-weight:normal">Re C and another (Children)</span><span class="Strong" style="font-weight:normal"> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2018/8" uk:canonical="[2018] UKSC 8" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKSC 8</ref>.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Were I to have found it necessary to consider in any detail the issue of acquiescence, I would have considered the case of <span style="font-style:italic">Re H and Others (Minors)(Abduction: Acquiescence) <ref href="#" uk:canonical="[1998] AC 72" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">[1998] AC 72</ref>, <ref href="#" uk:canonical="[1997] 1 FLR 872" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] 1 FLR 872</ref></span>.  The legal test is an exacting one: the words or actions of the wronged parent must show clearly and unequivocally that the wronged parent is not insisting on the summary return of the child: it must be wholly inconsistent with a request for the summary return of the child (Lord Browne Wilkinson, ibid.).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Were I to have found it necessary to consider whether an <span style="font-style:italic">article 13(b)</span> exception is made out, I would have considered of course the well-known authority of <span style="font-style:italic">Re E (Children) Abduction: Custody Appeal)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/27" uk:canonical="[2011] UKSC 27" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKSC 27</ref> <ref href="#" uk:canonical="[2012] 1 AC 144" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 A.C. 144</ref> and <span style="font-style:italic">Re S (Abduction: Article 13(b) Defence)</span> <ref href="#" uk:canonical="[2012] 2 AC 257" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 2 AC 257</ref>, <span style="font-style:italic">Re A (Children) (Abduction: Article 13(b)</span>&#160;<ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/939" uk:canonical="[2021] EWCA Civ 939" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 939</ref>, at paragraphs 94 &#8211; 96.  The exceptions to the obligation to return are by their very nature restricted in their scope.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Findings and Conclusion </span></heading>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The task of discerning a habitual residence of the child, S, in this case is rendered more complex by virtue of at least four factors:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">During S&#8217;s short life he travelled extensively with his mother between Israel and England;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">During this period, some restrictions on travel were imposed by reason of the Covid-19 pandemic; this may have affected the periods the mother and S were either in or out of Israel;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The parents did not have, in my finding, what may be regarded as their own settled home-base in either country in the relevant period.  The mother resided with her parents when in London; the father moved flats in 2021 in Ramat Gan in the absence of the mother, taking up residence in accommodation which was, in the mother&#8217;s view, less than satisfactory given that essential utilities were not connected;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The parents were separated for extended periods during their marriage, including of course the crucial 21 months of S&#8217;s life; there is little or no evidence that they actually turned their minds to, let alone communicated with each other on, the implications of this both as to their marriage, its future, their futures (together or apart), and/or the future of S, or what represented their essential &#8216;home&#8217; state.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On this last point, there is some evidence that when they did discuss issues of relevance, they did not have a &#8220;meeting of minds&#8221; (as Ms Green put it).  Perhaps this derives in part from their different social backgrounds; the mother is a daughter of ostensibly a very wealthy family in London who live at one of the most desirable addresses in the centre of the city. The father is from a very different background indeed in Israel.  It is reasonable to infer from that, and other evidence, that their priorities and their values were different.  For instance, the mother obviously aspired to premium private school education for their son, in London; there is nothing in the papers which indicates that the father truly turned his mind to any alternative in Israel.  Revealing of their very different standpoints on this issue, I note that at one time the mother sent a photograph to the father of school children from a well-known private preparatory school, in central London on an outing, in their distinctive school uniform; she attached the comment: this is &#8220;how school trips are meant to look&#8221;.  He responded, &#8220;it&#8217;s like the military&#8221;.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Thus, I am not sure that there has been any deliberate attempt by either to mislead the court, or any conscious decision by either to characterise the actions, intentions, and movements of themselves or the other parent in a manner which is favourable to their case; inevitably, they see and have seen life differently. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I am not unsympathetic to the father&#8217;s argument that the mother had made her habitual residence in Israel from 2017 onwards &#8211; she is, after all, a Jewish woman, who had married an Israeli citizen, in Israel, and had made the Aliyah. He could reasonably be expected to have believed that she was making (or would make) Israel her settled and permanent home.  He may well have thought that by her taking Hebrew lessons, and transporting items from London for the apartment in Ramat Gan, she was investing in a life there.   But this would be to ignore the fact that the mother&#8217;s emotional connection remained with England; she has spent all of her life until 2017, a significant part of her life between 2017-2021, and the significant majority of her life since January 2021 in England.  The mother and S have been based in her parents&#8217; home; she has conducted her UK-registered business primarily from England; she has remained on the electoral roll in England; she has received universal credit in England for the whole period since S&#8217;s birth in early-2021 &#8211; an entitlement only available to those who live in the UK.  In short, it is likely, in my judgment that the mother&#8217;s habitual residence during the relevant period is/was in England not in Israel.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">My assessment of S&#8217;s habitual residence must be <span style="color:#000000">focussed on S himself.  As I have earlier referenced, S has spent only about one-quarter of his life in Israel; it is in London that he has his meaningful wider family network (including his grandparents with whom he lives); it is in London where he has an extensive and varied programme of age-appropriate activities; it is in London where his medical needs have been met throughout his life; it is in London where the mother has made plans (to the knowledge of the father) to enrol him in kindergarten.   And of course he is and has been throughout his life, in the primary care of his mother whose habitual residence is and has been (as I have found &#8211; see the previous paragraph) for the relevant period, in England.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The burden falls on the father to prove all of the ingredients in <span style="font-style:italic">Article 3</span> of the <span style="font-style:italic">1980 Hague Convention</span> if he is to succeed on a claim for summary return.  For the reasons articulated above, I find that the father has failed to prove that S was habitually resident in Israel at the relevant date (end-May 2022) and his claim for summary return accordingly therefore must fail.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Given my decision on habitual residence, it is unnecessary for me to consider the issue of acquiescence, or the asserted <span style="font-style:italic">Article 13(b)</span> exception as claimed by the mother.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That is my judgment.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

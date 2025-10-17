@@ -1,0 +1,836 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2013/2063"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2013/2063"/>
+	  <FRBRdate date="2013-07-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2063"/>
+	  <FRBRname value="LA v ML &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2063"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2063"/>
+	  <FRBRdate date="2013-07-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2063/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2063/data.xml"/>
+	  <FRBRdate date="2024-10-28T01:02:55" name="transform"/>
+	  <FRBRdate date="2024-11-30T18:08:10" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2013-07-12" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="la" href="" showAs="LA"/>
+	<TLCPerson eId="ml" href="" showAs="ML"/>
+	<TLCPerson eId="mq" href="" showAs="MQ"/>
+	<TLCPerson eId="sp" href="" showAs="SP"/>
+	<TLCPerson eId="mp" href="" showAs="MP"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis-dbe" href="/judge-mrs-justice-theis-dbe" showAs="MRS JUSTICE THEIS DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2013</uk:year>
+	<uk:number>2063</uk:number>
+	<uk:cite>[2013] EWHC 2063 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>50064b410af8acab7579d5968549cd156fd9e8a47bf93fe7e046a6b709b799d8</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .lc { margin-right: 0.12in; font-family: Arial; font-size: 6pt; color: #666666; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .jus { font-size: 12pt; }
+#judgment .ind { font-size: 12pt; }
+#judgment .in2 { font-size: 12pt; }
+#judgment .in3 { font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><span style="font-size:10pt">This judgment is being handed down in private on 12 July 2013. It consists of 14 pages and has been signed and dated by the judge.</span></p>
+      <p style="text-align:center"><span style="font-size:10pt">The judgment is being distributed on the strict understanding that in any report no person other than the advocates or the solicitors instructing them (and other persons identified by name in the judgment itself) may be identified by name or location and that in particular the anonymity of the children and the adult members of their family must be strictly preserved.</span></p>
+      <p class="CoverText">Case No: <docketNumber>UO13C00040</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2013] EWHC 2063 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2013-07-12" refersTo="#judgment">12/07/13</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis-dbe">MRS JUSTICE THEIS DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Between:</span></p>
+      <table uk:widths="1.23in 3.68in 1.38in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#la" style="font-weight:bold;font-size:10pt">LA</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant" style="font-size:10pt">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><party as="#respondent" refersTo="#ml" style="font-weight:bold;font-size:10pt">ML</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-size:10pt">1st Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><span style="font-weight:bold;font-size:10pt">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><party as="#respondent" refersTo="#mq" style="font-weight:bold;font-size:10pt">MQ</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-size:10pt">2nd Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><span style="font-weight:bold;font-size:10pt">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><party as="#respondent" refersTo="#sp" style="font-weight:bold;font-size:10pt">SP</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-size:10pt">3rd Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><span style="font-weight:bold;font-size:10pt">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><party as="#respondent" refersTo="#mp" style="font-weight:bold;font-size:10pt">MP</party></p>
+	    <p style="text-align:center;margin-left:-0.02in"><span style="font-weight:bold;font-size:10pt">(Through his Children&#8217;s Guardian)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent"><span style="font-size:10pt">4</span><span style="vertical-align:super;font-size:10pt">th</span><span style="font-size:10pt"> Respondent </span></role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><span style="font-weight:bold;font-size:10pt">The Centre for the International Protection of Children and Youth</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><span style="font-size:10pt">Intervenor</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-size:10pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-size:10pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Ms Celeste Irvine  </span><span style="font-size:10pt">(instructed by</span><span style="font-weight:bold;font-size:10pt"> Local Authority</span><span style="font-size:10pt">) for the </span><span style="font-weight:bold;font-size:10pt">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Mr Michael Hosford-Tanner</span><span style="font-size:10pt"> (instructed by </span><span style="font-weight:bold;font-size:10pt">Pritchard Joyce and Hinds</span><span style="font-size:10pt">) for the </span><span style="font-weight:bold;font-size:10pt">1st Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Mr David Williams Q.C. &amp; Ms Deborah Piccos </span><span style="font-size:10pt">(instructed by </span><span style="font-weight:bold;font-size:10pt">Hopkin Murray Beskine</span><span style="font-size:10pt">) for </span><span style="font-weight:bold;font-size:10pt">3rd Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">MQ - In Person</span></p>
+      <p style="text-align:center"><span style="font-size:11pt">Hearing dates: 9, 10 and 12 July 2013</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Judgment</p>
+      <p><span style="font-weight:bold">Mrs Justice Theis DBE:</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">These proceedings concern a young boy, the MP, born on 26 June 2008 (the Child), who is just 5 years old. Proceedings were commenced on 4 March 2013, following the Child being taken into police protection on 1 March 2013. This action was taken due to injuries (including bruising) being observed on the Child&#8217;s back at school, which he indicated had been caused by his step father. He has been placed with foster carers since, pursuant to a series of interim care orders made in favour of the Local Authority (the LA).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">The Respondents to the application are the mother ML (the mother), his step father MQ (the step father) who does not have parental responsibility, the Child though his Children&#8217;s Guardian (the Guardian) and the Central Authority for the Slovak Republic (the Central Authority). The Child&#8217;s biological father SP (the father) lives in Slovakia. He has been made aware of these proceedings, and the fact that the Child is placed with foster carers. Since being made aware of the situation he has requested the Child is returned to Slovakia.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">  The matter was listed before me on 21 June 2013 to determine whether this court had substantive jurisdiction to determine this case. I concluded it did under Article 8 Council Regulation (EC) No 2201/2003 27 November 2003 (&#8216;BllR&#8217;) as the Child was habitually resident here at the time these proceedings were commenced. The mother sought a transfer of the proceedings to Slovakia under Article 15, I refused that application then but directed it was to be reconsidered at the conclusion of this hearing. This judgment should be read together with the judgment I gave on 21 June 2013.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">  This hearing was listed as a fact finding hearing to determine whether the facts the LA rely on are proved by them to the required standard, namely the balance of probabilities. The burden of proof is on the LA. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">  The issues I have to determine concern alleged injuries observed on the child by his school on 1 March 2013 together with those noted at a subsequent medical examination and his dental decay. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">The position of the parties can be summarised as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.62in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.62in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Ms Irvine, on behalf of the LA, submits the court can find to the required standard that both the mother and step-father caused the injuries, they both failed to protect the Child&#8217;s health needs and failed to protect the Child from harm. They support the application made by the mother for the proceedings to be transferred to Slovakia pursuant to Article 15, although they share the Guardian&#8217;s concerns about delay.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.62in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.62in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Hosford-Tanner on behalf of the mother, supported by the step father who acts in person, submits the evidence does not meet the required standard and  consequently that is the end of the proceedings. If he is wrong about that he submits he applies for the proceedings to be transferred to Slovakia pursuant to Article 15.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.62in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.62in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Williams Q.C. and Ms Piccos, on behalf of the Guardian, agree with the LA that the evidence does support findings being made against both parents, the step father using an implement of some kind and the mother of inappropriate physical chastisement and failing to protect the Child from the step father. They see the force of the application to transfer under Article 15, but are anxious to avoid delay in making decisions about the Child.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">  Although the step father has been unrepresented he has very effectively been able to present his case and clearly has a good grasp of the issues and the written material. He obtained a law degree in Pakistan before he came to this country. The court is grateful to the LA for agreeing to fund legal advice to enable him to file a written statement. An Urdu speaking interpreter has been present in court with the step father to assist him with any words he did not understand. In fact the step father has only needed a little assistance. He has been able to question the witnesses without any difficulty and articulate his position clearly to the court.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother and father of the Child are both Slovakian nationals. They cohabited for a short time, but did not marry. The Child was born in Slovakia, and lived with his mother. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">Following an application made by the mother, the Slovakian court on 30 May 2011 granted the mother residence of the Child with contact to the father in the presence of the mother, together with an order for the father to pay maintenance for the Child. The evidence suggests he has had little contact with the Child. According to the mother he left when the Child was born and she has only seen him once since then. On 21 February 2012 the father applied to reduce his maintenance payments, that application is still outstanding.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">On 28 May 2012 the mother moved to England with the Child in order to pursue her relationship with the step father. They had met on the internet in early 2012. They married in a Muslim ceremony in the United Kingdom on 6 June 2012 (some 10 days after the mother&#8217;s arrival), followed by a civil ceremony on 29 August 2012.  They lived, together with the Child, at an address in east London. The Child started attending school and he and the mother were registered with a GP and the Child with a dentist. The evidence points to the mother coming here with the Child with the intention of settling in the UK and as I found at the earlier hearing they were both habitually resident here when these proceedings commenced.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">On 1 March 2013 the Child was accommodated with foster carers following a referral from his school which noted the Child had scratches, bruises and broken skin on his back. The Child indicated to his teacher at school his step father had been responsible for the injuries.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Care proceedings were commenced on 4</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> March 2013, following investigation by social services and the police. The doctor who examined the Child concluded </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;in view of the distribution of the bruises and the presence of multiple bruises on the body, the injuries are perhaps less likely to be accidental.....However the exact mechanism of the bruises are unclear and the situation warrants further investigation&#8217;.</span><span style="font-family:'Times New Roman';font-size:12pt"> The mother&#8217;s explanation for the injuries is that the Child fell onto a metal object which leaned against the garden wall in the back garden at the family home. According to the social worker&#8217;s statement, the mother and step father gave inconsistent accounts of their knowledge of the injuries and who was present when the Child fell over. It is said on behalf of the mother that this could be down to language difficulties.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">An emergency protection order was granted on 4 March 2013 followed by an 8 week interim care order on 7 March 2013. The CMC hearing on 20 March 2013 was adjourned to 23 April 2013. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 10 March 2013 the mother contacted the Slovakian central authority informing it that the Child had been removed from her care and she wishes for the Child to be returned to Slovakia. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 26 March 2013 the mother left the UK and returned to live in Slovakia. It appears this was done without any prior notice to the other parties, or to the Child. Her statement dated 18 March 2013 makes no mention of this. Her oral evidence in these proceedings is that is a permanent move by her and she plans to live in Slovakia in the long term with her daughter.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 16 April 2013 the Centre for the International Legal Protection of Children and Youth in the Slovak Republic (&#8216;the Central Authority&#8217;) sent an urgent request to the this court to intervene in these proceedings and for the Child to be placed in care in the Slovak Republic on the following grounds:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">The Child is a Slovak citizen</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Most of the Child&#8217;s relatives live in Slovakia</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.62in"><span style="font-family:'Times New Roman';font-size:12pt">The Slovak Republic is able to provide adequate social as well as medical </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">care for the Child</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Child has a particular connection with Slovakia</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(v)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">The Child would be under the constant supervisions of the competent </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">authorities</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(vi)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It is in the Child&#8217;s best interests</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 23 April 2013 HHJ Cox transferred the matter to the High Court for reasons of jurisdictional and international complexity.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 30 April 2013 the mother applied to the Slovakian court to change the Child&#8217;s name.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> On 7 May 2013 the President gave comprehensive directions and listed the matter for  a one day jurisdiction hearing on 21 June 2013.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 12 May 2013 the mother gave birth to a baby girl, the step father is said to be the father. The relevant welfare authorities have visited the mother and are satisfied with the care she is giving her daughter.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Prior to the jurisdiction hearing the Central Authority filed two documents; written statements dated 27 May 2013 and 19 June 2013. In addition, documents were filed from the proceedings in the Slovakian court and a report from the Central Office of Labour, Social Affairs and Family following visits to the family living in Slovakia. Since the jurisdiction hearing before me on 21 June 2013 the Central Authority have filed two further documents dated 4 July setting out their responses to the further queries raised. Those documents indicate that an Article 15 transfer request will be accepted.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">Legal framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There is little dispute between the parties about the relevant legal framework.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> The burden of proof is on the LA, they have to satisfy the court on the balance of probabilities that the threshold criteria set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> are met. Without that there is no basis for the State to intervene in family life.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In relation to the threshold criteria Baroness Hale in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Re J (Children) UKSC 9 </span><span style="font-family:'Times New Roman';font-size:12pt">stated as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;1.</num>
+		  <content>
+		    <p class="jus" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">In a free society, it is a serious thing indeed for the state compulsorily to remove a child from his family of birth. Interference with the right to respect for family life, protected by article 8 of the European Convention on Human Rights, can only be justified by a pressing social need. Yet it is also a serious thing for the state to fail to safeguard its children from the neglect and ill-treatment which they may suffer in their own homes. This may even amount to a violation of their right not to be subjected to inhuman or degrading treatment, protected by article 3 of the Convention. How then is the law to protect the family from unwarranted intrusion while at the same time protecting children from harm?</span><br/><br/><span style="font-style:italic">2.&#160;In England and Wales, the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> tries to balance these two objectives by setting a threshold which must be crossed before a court can consider what order, if any, should be made to enable the authorities to protect a child. The threshold is designed to restrict compulsory intervention to cases which genuinely warrant it, while enabling the court to make the order which will best promote the child's welfare once the threshold has been crossed. That threshold is defined by <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the Act</ref> as follows:</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ind" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">"A court may only make a care order or supervision order if it is satisfied &#8211;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">(a)</num>
+		  <content>
+		    <p class="in2" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">that the child concerned is suffering, or is likely to suffer, significant harm; and</span><br/><span style="font-style:italic">(b)&#160;that the harm, or likelihood of harm, is attributable to &#8211;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(i)</num>
+		  <content>
+		    <p class="in3" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the care given to the child, or likely to be given to him if the order were not made, not being what it would be reasonable to expect a parent to give to him; or</span><br/><span style="font-style:italic">(ii)&#160;the child's being beyond parental control."</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">3.</num>
+		  <content>
+		    <p class="jus" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Once that threshold is crossed, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the Act</ref> requires the court to treat the welfare of the child as its paramount consideration, having regard to the checklist of factors listed in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(3)</ref>. These include "any harm which [the child] has suffered or is at risk of suffering" (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1 (3)</ref>(e)). There are therefore three questions to be answered in any care case: first, is there harm or a likelihood of harm; second, to what is that harm or likelihood of harm attributable; and third, what will be best for the child?&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Hosford Tanner has rightly reminded me of other passages in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Re J (ibid)</span><span style="font-family:'Times New Roman';font-size:12pt">, namely paragraphs 16, 17, 44, 54 and 72 which I have carefully considered. He does so to remind me of the requirement of the court to be satisfied to the required standard on the evidence, mere suspicion is not enough.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Article 15 permits a transfer of a case to a court better placed to hear the case where it is in the interests of the child and the child has a particular connection with the other Member State.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">AB</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> v </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">JLB (Brussels II Revised: Article 15)</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> <ref href="#" uk:canonical="[2009] 1 FLR 517" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 FLR 517</ref></span><span style="font-family:'Times New Roman';font-size:12pt"> Munby J (as he then was) set out considerations for the court under Article 15(1). </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Firstly, the court must determine whether the child has a &#8216;particular connection&#8217; with the other Member state. This is a simple question of fact.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Secondly, it must determine whether the court of that other Member State would be better placed to hear the case or a specific part of it. This is an evaluation in all the circumstances of the case. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt"> Thirdly, it must determine if a transfer to the other court &#8216;is in the best interests of the child.&#8217; This again involves an evaluation undertaken in the light of all the circumstances of the particular child.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This issue has recently been considered by Mostyn J in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">Re T (A Child: Article 15 of BIIbis)</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/521" uk:canonical="[2013] EWHC 521 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 521 (Fam)</ref>. </span><span style="font-family:'Times New Roman';font-size:12pt">He set out in paragraph 32 the following principles relating to Article 15:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.12in;text-indent:-0.25in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.12in;margin-right:0.33in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">Article 15 applies to public law as well as private law proceedings.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.33in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The burden is upon the person applying to establish that a stay of the proceedings is appropriate;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.33in;text-indent:0.62in"><span style="font-family:'Times New Roman';font-size:12pt">The applicant must show not only that England is not the natural or appropriate forum but also that the other jurisdiction is clearly the more appropriate forum;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.33in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In assessing the appropriateness of each forum, the court must discern the forum with which the case has the more real and substantial connection in terms of convenience, expense and availability of witnesses;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(v)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.33in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">&#160;If the court were to conclude that the other forum was clearly more appropriate, it should grant a stay unless other more potent factors were to drive the opposite result; and&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt;margin-left:0.75in">(vi)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.33in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">in the exercise to be conducted at (d), the welfare of the child is an important, but not a paramount, consideration.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(vii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.33in;text-indent:0.62in"><span style="font-family:'Times New Roman';font-size:12pt">In making the best interests analysis at (vi) the court will not embark on a profound investigation of the child's situation and upbringing but will dwell in an attenuated inquiry upon the sort of considerations which come into play when deciding upon the most appropriate forum.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I heard the oral evidence from the allocated social worker at the time these proceedings were commenced, the foster carer, the mother via video link from Slovakia and the step father. In addition I have considered all the written material in the court bundle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 1 March 2013 the Child complained at school that his back hurt, they noted injuries on his back and he informed the office manager when asked how he hurt his back that &#8216;Dad did it&#8217; and raised his hand to show him. Following a referral to social services the social worker attended the school and spoke to the Child with two members of the police child abuse investigation team. The police took the lead in questioning the Child and he is reported to have disclosed that his mummy and daddy had beat him with the &#8216;green thing&#8217; because he was naughty. The social worker also spoke to the mother and step father. She spoke to the mother first who when asked about whether she was aware of any of the injuries she said on the previous evening the Child was playing in the garden with a friend, fell over and hurt his back on a metal object that leaned against the garden wall. Later on the mother said the Child was playing alone in the garden and fell on something metallic. She said she had informed the father about the accident and the injuries the Child had sustained. The step father attended the school and said he was not aware of any injuries on the Child and had not been informed of any by the mother.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The social worker reports that on 5 and 14 March the Child told her he did not want to go home. On 5 March he said that was because </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;mum and dad are beating me too much, every day and every night&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There was no dispute regarding the medical evidence. The report from the community paediatrician, following appointments with the Child on 5 and 8 March 2013 sets out the marks they found which were consistent with a soft tissue contusion/bruise on seven different locations of the Child&#8217; body including a 6cm x 1cm bruise on the left upper arm; three bruises 1.5 cm in diameter in a linear fashion on the mid line of the back of the chest; linear mark measuring 2 cm x 0.5 cm over the left shoulder; bruise measuring 3cm x 1cm on the back of the left side of the chest below the left side  shoulder blade; three bruises on the front and outer aspect of the left upper and mid thigh measuring 1.5cm, 3cm and 2 cm and about 1cm in width; two linear bruises measuring 1cm and 3cm on the back of the lower left limb and a small oval bruise on the outer aspect of the right side lower forearm. Within the papers there is a helpful body map completed by the doctors describing visually where these marks are located on the Child&#8217;s body. I have also seen the photos. In the written report he states </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;In view of the distribution of the bruises and the presence of multiple bruises on the body, the injuries are perhaps less likely to be accidental. However the exact mechanisms of the bruises are unclear and the situation warrants further investigations.&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In relation to the dental decay the report from the dentist confirms that two teeth had to be removed and two required treatment. This took place on 8 March following the Child complaining of pain. The report states this was caused by poor diet and poor oral hygiene.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The police investigated the matter. They saw the Child at school on 1 March 2013 and conducted an interview with the Child on 14 March 2013. I have seen the transcript and watched the video recording of that interview. There is little of any evidential value. Apart from showing a dislike when talking about his mother and step father he made no other references to them other than in response to leading questions. They wrote on 6 June 2013 saying they were taking no further action in the case although the letter noted they still had concerns about the Child as they had witnessed him to be </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;a particularly miserable and unhappy little boy&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother and step father deny causing the Child any harm. They account for the injuries to the back as being caused by the Child falling in the back garden when he was playing and the other injuries/marks through general play, either at home or at school. In their statements they state the step father knew about the incident in the garden as the Child came in crying. They state that there have been many occasions when the Child has been harmed at school, which they have taken up with the school. They rely on the application dated 25 February 2013, attached to the mother&#8217;s statement, requesting a transfer of the Child to another school, where they give as one of the reasons for requesting a change of school as being </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;our child have too many problems in a school teachers know about this but no one do nothing child don&#8217;t want to go to school as well. We complaint a lot of time, but we don&#8217;t see any different&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Child&#8217;s foster carer, Mrs P, gave oral evidence in addition to the written statement signed by her. She details about 7 occasions when the Child has said to her he has been hit by his mother and step father. She said she keeps a daily diary where she records events as they happen. The typed document attached to her statement was from that diary. She said on each occasion the Child volunteered the comments attributed to him, it was not as a result of any questioning by her. On 13 March he demonstrated what he meant by showing a flat hand slap to the cheek. On 21 and 28 May he describes being made to eat chillies and on the 28</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> describes them making him eat chillies and water was coming out from his mouth. On 28 May he described being hit by his step father using a stick he got from the tree and would hit him on his feet. She describes in her statement and her oral evidence the positive Skype contact between the Child and his mother, although she said the Child does easily get distracted. During the contact she said the mother speaks in Slovak and the Child responds mainly in English, although he sometimes speaks Slovak. She said he understands what his mother is saying and is impressed by his ability to slip from one language to the other. She said she had no difficulty understanding his English, although he does sometimes struggle to find the right word. For example &#8216;moustache&#8217; although he was able to demonstrate what he meant.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The LA, supported by the Guardian, submits there is sufficient evidence to find the threshold criteria are met. The court needs to look at the wide canvas of evidence; the combination of the medical and dental evidence, what the Child has said and the inconsistent accounts given by the parents lead to the conclusion that it is more likely than not they have been physically abusive to the Child, the mother through over chastisement and the step father by use of an implement. The dental evidence, they submit, support a finding that the Child was suffering significant harm at the time these proceedings commenced through a failure to support his health needs. In addition the mother failed to protect the Child from the step father.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother and step father submit the evidence does not meet the required standard. The medical evidence is equivocal and their and the Child&#8217;s explanations need to be looked at in the context of the language difficulties and the inconsistencies in the various records made at the time as to precisely what the Child said to whom and in response to what questions. The court should not ignore the other evidence; the positive relationship the Child has with his mother and step father, with no sign of fear, the regular attendance at the GP and the appointment that had been made for a dentist.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In the event that the court finds the threshold criteria are met there remains a limited dispute between the parties about the mother&#8217;s application for a transfer under Article 15. The Guardian remains concerned about the estimate of the time of proceedings in Slovakia will take. The response from the Central Authority states </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;the probable timescales for the disposal of the case according to our legal system is 6 months&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt">. That response describes the various enquiries that would be undertaken within the proceedings, which are very similar to those that would be undertaken here. Following telephone calls made during this hearing the court was further updated about the practical arrangements if there was a transfer. The named professional foster carers are still available and the Child could be placed with them within two days of his arrival in Slovakia. He would be placed in an institution pending that placement. Further enquiries are going to be made by the parties through the Central Authority and via the network judge as to whether it is possible for there to be a seamless transfer for the Child from his foster carer here to a foster carer in Slovakia. Whilst the Guardian sets out this concern, she accepts there is no compelling factor preventing a transfer.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Having considered all the written and oral evidence I have reached the clear conclusion that the threshold criteria are met in this case, as I am satisfied that it is more likely than not that the Child has been physically abused by his mother (through over chastisement) and his step father (with some form of implement, probably a stick of some kind). In addition they have both failed to look after his health needs resulting in the dental work done soon after his placement with foster carers. I also find that it is more likely than not that the mother has failed to protect the Child by failing to protect him from the actions of the step father.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I have reached that conclusion for the following reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">It is clear from the medical evidence the Child did have various bruises on his body, in particular on his back. The doctors opinion was in view of the number and distribution of bruises they are </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;less likely&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt"> to be accidental. This evidence needs to be considered together with the other evidence, in particular what is said by the mother, the step father and the Child.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">The parents, in my judgment, were not impressive witnesses and their accounts cannot be relied upon unless supported by corroborative evidence. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">The mother has been inconsistent in her accounts of what she alleged took place in the garden on 28 February 2013. She gave two accounts at the school, a different account in her statement and her oral evidence as to what she did see or not of the incident. I do not accept the mother&#8217;s explanation that the different explanations were down to her language difficulties. Whilst the mother gave her oral evidence via an interpreter the evidence points to her knowledge and understanding of English being far greater than she suggests. This was demonstrated through very effective cross examination by Mr Williams Q.C. for the Guardian when he established that the mother could only communicate with the step father in English, initially via the internet and following her arrival here in May 2012. That remains their only common language. I pause to note that it is not disputed that she married the step father in a religious ceremony days after her arrival here, which is hardly consistent with someone who can&#8217;t speak or understand the language the step father speaks. In addition the mother&#8217;s first statement filed in these proceedings dated 18 March 2013 she accepted did not require an interpreter. She also accepted she completed the application to transfer the Child&#8217;s school without assistance. I also noted in the questions I asked her during her oral evidence regarding the step father&#8217;s immigration position she was able to answer before my question was translated to her. Whilst understanding the need to have interpreters to enable her to give her oral evidence with confidence I am satisfied that in fact her understanding of English and her ability to speak it is good and that is it unlikely that she misunderstood what she was being asked about or the explanation she was giving. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">In relation to the account of the Child falling in the garden there is an inherent improbability that the mother was hanging washing outside late in the afternoon at the end of February. Additionally it is surprising that the Child when asked the following day at school did not give an account of falling in the garden as the explanation for the injuries on his back. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">I also considered the mother was also somewhat defensive of the step father in some of her responses about him (for example, suggesting that he was hardly left alone with the Child and then having to accept that she had a job and the step father had to care for the Child).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">I agree with Mr Williams Q.C that a recurring feature of the step father&#8217;s evidence was it was always the fault of someone else, for example that matters had been mis-recorded in the documents from the social worker and the school with no apparent motive to do so. In addition his somewhat idealised account of the parties relationship and the Child&#8217;s behaviour as having no difficulties which may be somewhat unrealistic bearing in mind the parties married 10 days after the mother&#8217;s arrival in this country, they had different languages and backgrounds, they lived in somewhat cramped conditions, and there were some difficulties with the Child at school. It is highly unlikely that there were not stresses in that situation that could lead to the use of inappropriate chastisement of the Child. I also cannot ignore the accounts given by both the school and social worker of the father losing his temper.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(7)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">The disclosures made by the Child to a number of people (office manager at the school, police at the school, social worker and foster carer) are significant. He states he was physically assaulted by either his step father alone or with the mother together with actions to demonstrate what they did. Both the social worker and foster carer stated they did not have any difficulty in understanding him, which I accept. The significance of the disclosures is they were given to different people in different settings, were often unprompted, twice were accompanied by actions to demonstrate what had happened, were given a context (because he was naughty) and the descriptions of the Child&#8217;s demeanour as he said them; sad looking with his shoulders hunched.  These disclosures corroborate to some extent the injuries to the back, as he said &#8216;Dad did it&#8217;. There is no issue that the Child refers to the step father as </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;Daddy&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt"> or </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;Dad&#8217;.</span><span style="font-family:'Times New Roman';font-size:12pt"> The consistency in the substance of the disclosures adds weight to their reliability.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(8)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">I have factored into my assessment of the evidence the positive reports of the contact between the Child and his mother and step father, which on the face of them point away from the findings sought. I have also considered the fact that the Child was not a child kept away from the medical services, there are records showing his attendances at the GP. The mother sought medical advice appropriately and there is no record of injuries.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(9)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">However, the combination of the physical injuries, the inconsistent accounts from the parents whose evidence I regard as unreliable and the comments made by the Child drive me to the conclusion that it is more likely than not that the Child has been physically assaulted by both the mother and step father. In relation to the step father the Child discloses his use of an implement, described by the Child as a green thing or a stick.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(10)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Times New Roman';font-size:12pt">The evidence of the dental decay has not been challenged and whilst that would probably not on its own amount to significant harm it adds to the findings I have already made about physical harm. This decay was caused by poor diet and nutrition. The mother accepted that but said she had started to take steps to address this.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(11)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Times New Roman';font-size:12pt">It is more likely than not that the mother failed to protect the Child from harm. It is unlikely that the mother was not aware what was going on. For the reasons set out above, I regard the account of the Child falling in the garden as being unlikely to have occurred and it is more likely than not there was an incident when the step father assaulted the Child on or around the 28 February which the mother knew, or ought to have known about.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Article 15</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Turning to the question of the Article 15 transfer there is, in reality, now no real issue about this between the parties. Whilst at the earlier hearing the balance of the relevant considerations tipped in favour of the proceedings remaining here, that was heavily influenced by the availability of factual witnesses here and the benefits of this court, with substantive jurisdiction, determining the factual foundation of the proceedings without delay. Now that has been done and with the additional information that has helpfully been provided by the Slovakian Central Authority I am satisfied that the balance now tips in favour of the Article 15 request being made. I have reached that conclusion for the following reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">The nationality of the Child&#8217;s biological parents and the Child is Slovakia;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">Slovakia is where the Child was formerly habitually resident and where he lived until just before his fourth birthday;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">Slovakian is the first language of the Child and his parents;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">Both the Child&#8217;s biological parents are now in Slovakia. The mother, who has been the Child&#8217;s primary carer, has stated clearly in these proceedings she plans to remain living there long term. This is understood to be irrespective of the step father&#8217;s immigration position. He said in evidence that he had been brought up in Pakistan and had come here in 2010 on a student visa. That was extended until 30 August 2012. The mother and step father had a religious marriage on 6 June followed by a civil ceremony on 29 August 2012. The step father has applied for a spousal visa, he said he has informed his immigration solicitor that the mother has returned to Slovakia but did not know whether they, in turn, had informed the Home Office. He has been advised that whilst his application for a spousal visa is pending he should not leave this jurisdiction as such a step would be treated as he having withdrawn his application. He said he applied for the spousal visa in January 2013 and thought it should take about six months to process;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">The Child&#8217;s wider family, including his half sibling, all live in Slovakia;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">There are clear benefits that any welfare based assessments regarding what arrangements should be put in place for the future care of the Child should take place in the jurisdiction where the Child has spent most of his life and the mother and all the wider family live and intend to remain living for the foreseeable future. The Central Authority has set out the arrangements in the event of the Child returning to Slovakia. They consent to the Child being placed with professional foster carers, and state the competent court is the District Court Trnava. They confirm the social welfare offices will support and control the realisation of contact between the Child and members of his biological family. They also describe the assessments that will be undertaken before any decisions are made about where the Child will live.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As has been recently emphasised by Cobb J in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">LM (A Child) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/646" uk:canonical="[2013] EWHC 646 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 646 (Fam)</ref></span><span style="font-family:'Times New Roman';font-size:12pt"> paragraph 39 it is important when at Article 15 request is made the Requesting State should communicate such a request at once through the offices of the International Hague Network of Judges (IHNJ). This approach has recently been endorsed by Sir James Munby President of the Family Division in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Re HJ (A Child) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/1867" uk:canonical="[2013] EWHC 1867 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 1867 (Fam)</ref></span><span style="font-family:'Times New Roman';font-size:12pt"> at paragraph 6 and I add my support to this approach too.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Such a request has been made in this case and I have been informed that such assistance as is required will be given. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As described by Cobb J in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">LM (ibid) </span><span style="font-family:'Times New Roman';font-size:12pt">the procedure in this jurisdiction if such a request is made from another Member State is for the court here to immediately fix a directions hearing to consider the future conduct of the case and the court deals with the case as if the application had been in England and Wales (see paragraphs 43 &#8211; 48). Importantly, the procedure contemplates taking some preparatory steps to give effect to the imminent receipt of the proceedings. As Cobb J states at paragraph 46</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">&#8220;This anticipatory process operates as an exception to the principle that the courts of England and Wales will not generally accept jurisdiction in relation to a child who is neither physically present nor habitually resident here; such a course has been recognised as a legitimate approach by way of an &#8220;auxillary&#8221; power exercisable in limited circumstances &#8220;to provide protective measures to safeguard children in transit from one jurisdiction to another...&#8221;[47]: see Re W (Jurisdiction: mirror order)[2011] EWCA(Civ)703. The judgment of Thorpe LJ in Re W drew on the decision of Singer J. in Re P (A child: mirror orders) <ref href="#" uk:canonical="[2000] 1 FLR 435" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 FLR 435</ref>, in which it was observed that: </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">"&#8230; there is the category of case, of which this one is typical, where a foreign court is making provision for contact to take place in another jurisdiction in this case England. In that category of case it is important that there should be the possibility for orders to be made </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">in advance of and against the arrival of the child</span><span style="font-style:italic"> so that the parties and the foreign court may have confidence that if either of them seeks to take advantage of the presence of the child in the contact jurisdiction, the court there will not lend itself to any such attempt." [Emphasis added]</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">Singer J. considered that "as a matter of common sense, of comity, and of public policy" the High Court should make orders in these circumstances notwithstanding the absence of the child or the lack of habitual residence of the child in question: see page 441 ibid (and see also Wilson J (as he then was) in A v A (Abduction: Jurisdiction) <ref href="#" uk:canonical="[1995] 1 FLR 341" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 FLR 341</ref>). The "expedient" route (as he described it) adopted by Singer J is arguably no longer necessary, given the provisions of Article 24 of the Convention on Jurisdiction, Applicable Law, Recognition, Enforcement and Co-operation in respect of Parental Responsibility and Measures for the Protection Of Children 1996 (which entered into force here on 1</span><span style="font-style:italic;vertical-align:super;font-size:smaller">st</span><span style="font-style:italic"> November 2012).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:11pt;margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As well as making the Article 15 request I shall renew the interim care order in favour of the LA. The Child&#8217;s foster carers here go away for four weeks next Thursday 18 July. This was known at the hearing on 21 June 2013. I flagged up then that if the court was going to make an Article 15 transfer request at this hearing I wanted to ensure that it could be implemented in such a way to enable a smooth transfer for the Child from foster carers in this jurisdiction to foster carers in Slovakia. The information give to the court today by the parties, via the Central Authority, is that no steps can be taken until the Child has arrived in Slovakia, an application can then be made to the relevant court in Trnava for placement with the professional foster carers who have already been identified, but that could take about two days. The Child would be placed in an institution (children&#8217;s home) pending that decision. I hope with assistance through the IHNJ that will be avoided, and arrangements can be put in place to enable the Child to be placed with foster carers straight away following his arrival in Slovakia.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I have directed the parties in this case to agree an order (which should include a summary of the threshold findings made by the court) and the practical arrangements on the ground to facilitate the Child going to Slovakia. The solicitor for the child is going to liaise with the step father as he is unrepresented. The LA should submit a draft order for approval by 9.30 am 12 July 2013. If the court is required to determine any outstanding issue I will hear the matter later on that day. I am anxious that all arrangements should be in place by 12 July 2013, so that the Child can be prepared for the move.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:11pt;margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I would like to express the court&#8217;s gratitude to the Slovakian Central Authority for the assistance it has given in promptly dealing with the various requests that have been made for further information, and to the Slovakian interpreter, Ms Rachelova, who provided such enormous assistance to the parties and the court in helping overcome the technical difficulties that arose in the mother giving evidence by video link from Slovakia. With her assistance the hearing was able to proceed to a conclusion.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

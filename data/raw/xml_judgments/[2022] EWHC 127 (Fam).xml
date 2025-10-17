@@ -1,0 +1,500 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/127"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/127"/>
+	  <FRBRdate date="2022-01-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="127"/>
+	  <FRBRname value="A LOCAL AUTHORITY v J"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/127"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/127"/>
+	  <FRBRdate date="2022-01-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/127/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/127/data.xml"/>
+	  <FRBRdate date="2022-03-16T16:23:11" name="transform"/>
+	  <FRBRdate date="2024-12-01T22:31:36" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-01-24" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A LOCAL AUTHORITY"/>
+	<TLCPerson eId="j" href="" showAs="J"/>
+	<TLCPerson eId="k" href="" showAs="K"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-cobb" href="/judge-the-honourable-mr-justice-cobb" showAs="THE HONOURABLE MR JUSTICE COBB"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>127</uk:number>
+	<uk:cite>[2022] EWHC 127 (Fam)</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>7b6ee26818b660c6142db7625279ab41f281249916a09516fac84353284d2d2c</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.50in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1.00in; margin-right: 1.00in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3.00in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">THE HONOURABLE MR JUSTICE COBB</span></p>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Approved Judgment</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"><span style="font-family:'Times New Roman';font-size:8pt">Re L (Third Party Disclosure: HMPPS)</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:1.0631944444444446in;height:1.0472222222222223in;"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2022] EWHC 127 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>NE21C00246</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2022-01-24" refersTo="#judgment">24/01/2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-cobb">THE HONOURABLE MR JUSTICE COBB</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a-local-authority" style="font-weight:bold">A LOCAL AUTHORITY</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#j" style="font-weight:bold">J</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#k" style="font-weight:bold">K</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(L, M, N, P, four children by their Children&#8217;s Guardian)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Re L (Third Party Disclosure Order: Her Majesty&#8217;s Prison and Probation Service)</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Nicholas Stonor QC and Claire Gibson </span>(instructed by<span style="font-weight:bold"> County Solicitor</span>) for the Local Authority</p>
+      <p style="text-align:center"><span style="font-weight:bold">Penny Howe QC and Lindsay Webster </span>(instructed by <span style="font-weight:bold">Ben Hoare Bell</span>) for the Mother </p>
+      <p style="text-align:center"><span style="font-weight:bold">Tim Donnelly</span> (instructed by <span style="font-weight:bold">Mortons Law</span>) for the Father</p>
+      <p style="text-align:center"><span style="font-weight:bold">Jonathan Flower </span>(of <span style="font-weight:bold">Ward Hadaway</span>) for the Children&#8217;s Guardian</p>
+      <p style="text-align:center"><span style="font-weight:bold">Fiona Paterson</span> (instructed by <span style="font-weight:bold">Government Legal Department</span>) for the Secretary of State for Justice, Respondent to the Application for Third Party Disclosure</p>
+      <p style="text-align:center">Hearing dates: No Oral Hearing.  </p>
+      <p style="text-align:center">Written Submissions: 6 December 2021 (SSJ) and 23 December 2021 (all other parties)</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">THE HONOURABLE MR JUSTICE COBB</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">The Honourable Mr Justice Cobb:</span></p>
+	  </content>
+	</level>
+	<level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">Introduction</span>: These public law proceedings under <span style="font-style:italic">Part IV <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref></span> concern four children; they range in age from 17<authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText" style="text-align:justify"> L was 16 years old at the time of the launch of proceedings but has recently turned 17. It is acknowledged that no care or supervision order can be made in relation to her now: <span style="font-style:italic">section 31(</span><span style="font-style:italic">3)</span><span/><span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref></span>.</p>
+		</authorialNote> to 7. They are the younger children of Ms J (&#8220;the mother&#8221;) and Mr K (&#8220;the father&#8221;). The proceedings were launched by the Local Authority in late-April 2021, and are due for final hearing in February 2022.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">In 2015, the father was convicted of several terrorist offences under the <span style="font-style:italic">Terrorism Acts 2000</span> and <span style="font-style:italic">2006</span>, and has served the relevant part of his 8-year sentence in prison. In April 2021 he was released from prison on licence. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">The central issue within the care proceedings is the potential risk which is posed to the children by having contact with their father given his proven engagement in terrorist activities. Both the mother and the father remain married and ideally wish to live together with the children. The four children currently have supervised contact with their father twice a week while he continues to live in &#8220;approved premises&#8221;. Mr K&#8217;s current religious/political ideology will be critical to the assessment of any ongoing risk he may pose to his children.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">At an earlier stage of these proceedings, at a case management hearing and at the request of the parties, I directed disclosure of documents from Her Majesty&#8217;s Prison and Probation Service (&#8220;HMPPS&#8221;); the direction sought discovery of documents which would shed (it is hoped) more light on the circumstances of the father&#8217;s offences, his current attitude to those offences and his conviction, and his ideology. Disclosure was provided. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">A jointly instructed psychologist was then appointed within the proceedings in accordance with the <span style="font-style:italic">Part 25 FPR 2010</span> to advise the court on the family&#8217;s functioning, the risk posed by the father and the mother&#8217;s capacity to protect; the psychologist requested further information which it was thought would be contained in documents generated within the criminal justice process. Accordingly, and pursuant to a formal application which I considered on the papers, I made a further direction, by consent, for further disclosure from HMPPS. In response to my direction, the Secretary of State for Justice (&#8220;SSJ&#8221;) responded. Through counsel, Ms Fiona Paterson, he indicated a willingness to comply with the direction (and did so) but wished to take the opportunity to make wider submissions to the court about the process by which additional disclosure had been ordered in this case, and in future cases. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">On the wider procedural issues referred to above, Ms Fiona Paterson filed detailed written submissions on behalf of the SSJ; she has proposed that it would be useful for the court to consider in general terms how third-party directions orders against HMPPS and similar bodies connected with the criminal justice system could in the future could be better managed. All parties to the <span style="font-style:italic">Part IV</span> proceedings have responded to those submissions. I am grateful to them all for their focused attention to this discrete issue.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">Context</span>: In public law cases such as this, tensions often arise between the need to expedite proceedings in order to comply with the statutory requirements for completion within 26 weeks<authorialNote class="footnote" marker="2">
+		  <p class="FootnoteText"><span/><span style="font-style:italic">Section 32</span><span style="font-style:italic">(1)(a)(ii)</span><span style="font-style:italic"> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref></span></p>
+		</authorialNote> (which itself underscores the need to achieve early decision making for vulnerable children), as against the protection of the public interest by only ordering appropriate levels of disclosure by third party agencies. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">There is a significant wealth of general and specific guidance on disclosure issues in linked family and criminal proceedings. General guidance is offered by <span style="font-style:italic">Working Together to Safeguard Children</span> (2018), and this is particularly apposite for those agencies which &#8211; by virtue of <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2004/31/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2004/31" uk:canonical="2004 c. 31" uk:origin="TNA" uk:type="legislation">Children Act 2004</ref></span> &#8211; are specifically charged with safeguarding responsibilities (which include, for instance, the local probation board, prison governors, and national crime agency). Arrangements for mutual disclosure between the Family Court and the police service is covered in the <span style="font-style:italic">Protocol and Good Practice Model: Disclosure of information in cases of alleged child abuse and in linked criminal and care directions hearings</span> (October 2013).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">Ms Paterson helpfully referenced the guidance offered by Sir James Munby (then President of the Family Division) in relation to cases concerning suspected radicalisation/terrorism, namely &#8220;<span style="font-style:italic">Radicalisation Cases in the Family Courts</span>&#8221; (October 2015). Therein, importantly, the President:</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Alerted judges to the need to avoid inappropriately wide or inadequately defined requests for disclosure of information or documents by the police or other agencies (&#167;7(d));</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Further alerted judges to the need to avoid seeking disclosure from the police or other agencies of information or material which may be subject to PII, or the disclosure of which might compromise ongoing investigations, damage the public interest or put lives at risk, unless the judge is satisfied that such disclosure is &#8220;necessary to enable the court to resolve the proceedings justly&#8221; within the meaning given to those words when used in, for example, <span style="font-style:italic">sections 32(5)</span> and <span style="font-style:italic">38(7A)</span> of the <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref></span> and <span style="font-style:italic">section 13(6)</span> of the <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2014/6" uk:canonical="2014 c. 6" uk:origin="TNA" uk:type="legislation">Children and Families Act 2014</ref></span> (&#167;7(e));</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Highlighted the importance of the family justice system working together in co-operation with the criminal justice system to achieve the proper administration of justice in both jurisdictions, for the interests of the child are not the sole consideration. So the family courts should extend all proper assistance to those involved in the criminal justice system, for example, by disclosing materials from the family court proceedings into the criminal process (&#167;12);</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Added to the point in (iii) above that, in the same way, the police and other agencies will wish to be alert to the need of the court for early access to information, for example, information derived from examination of seized electronic equipment, so far as such information is relevant to the issues in the family proceedings. Accordingly, the court should be careful to identify with as much precision as possible in any order directed to the police or other agencies: the issues which arise in the family proceedings; the types of information it seeks; and the timetable set by the court for the family proceedings (&#167;13).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <heading class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">That guidance remains very much in place, and is of importance not only in this case, but in all similar cases.</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">Once proceedings have been issued, third-party disclosure is governed by <span style="font-style:italic">Part 21</span> of the <span style="font-style:italic">Family Procedure Rules 2010</span> (&#8216;<span style="font-style:italic">FPR 2010</span>&#8217;) Where <span style="font-style:italic">r.21</span> is silent, the rules are supplemented by <span style="font-style:italic">Part 31</span> of the <span style="font-style:italic">Civil Procedure Rules 1998</span>. The Family Courts&#8217; wide-ranging powers to make orders, including without notice orders, for disclosure against third parties are described in <span style="font-style:italic">r.21.2</span>; thus, it is to be noted that the court may make an order under this rule &#8220;only where disclosure is <span style="text-decoration-line:underline;text-decoration-style:solid">necessary</span> in order <span style="text-decoration-line:underline;text-decoration-style:solid">to dispose fairly of the proceedings</span> or to <span style="text-decoration-line:underline;text-decoration-style:solid">save costs</span>&#8221; (<span style="font-style:italic">r.21.2(3)</span>) (emphasis by underlining added). An order for disclosure must &#8220;specify the documents all the classes of document which the respondent must disclose&#8221; (<span style="font-style:italic">r.21.2(4)</span>).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">Given Mr. K&#8217;s conviction and the consequent potential risk to his children through radicalisation, the SSJ, through Ms Paterson, acknowledges that there is a &#8220;compelling argument for the Family Court, the expert and the parties, to receive disclosure of any material&#8221; which informs the question of Mr K&#8217;s current religious/political ideology. However, she submits, that argument must be balanced against the practical challenges faced by HMPPS in this (or indeed any other similar) case in responding to a direction for the disclosure of relevant documents. In particular, she pointed up that:</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the collation of documents requested may take time, particularly if, as in the case of Mr K, the offender has served his sentence in more than one prison, appeared before a Parole Board on more than one occasion, and/or has remained under the supervision of the probation service for any length of time. In this particular case, the disclosure which the SSJ has made amounts to some 640 pages; this is a fraction of the total amount of material held by HMPPS concerning Mr K. Accordingly, specific rather than general requests for documents are encouraged;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">there may be a need to redact some of the documents to remove information in order to protect the safety of individuals and/or the public at large, and/or for personal data protection reasons. Ms Paterson observes that the disclosure may contain (particularly in terrorism cases) security intelligence information which has not necessarily been disclosed to the offender and which the intelligence owner may want, or need, to protect. The process of redaction may be time-consuming and challenging;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">some documents are generated by HMPPS on a rolling basis; for instance, the offenders OASys<authorialNote class="footnote" marker="3">
+		  <p class="FootnoteText"><span/>OASys is the abbreviated term for the Offender Assessment System used in England and Wales by HMPPS from 2002 to measure the risks and needs of criminal offenders under their supervision.</p>
+		</authorialNote> report is based on a dynamic risk assessment which is subject to constant review. It follows that a direction for disclosure on a rolling basis may well be of more assistance to the expert instructed and to the court than merely an assessment prepared at a particular point in time;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the offender is likely to have been provided with copies of his/her Parole Dossier in advance of any Parole Hearing. Mr K had such a dossier. It is suggested that a significant amount of time could have been saved in the disclosure process had Mr K, in this case, alerted his legal team to the fact that he possessed some of the relevant documents and could then have written to the SSJ and the Parole Board seeking their views about the appropriateness of disclosure of these documents to the appointed expert and/or to the court and parties in the care proceedings (Mr K would not have had an automatic right to disclose the Parole Dossier or its contents directly to non-parties to the Parole Board proceedings).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">I agree with all the points made above, save that, in relation to &#167;11(iv), I would observe that a court may generally not be comfortable in relying solely upon the co-operation of the offender in providing the relevant and/or complete disclosure. So, while it may be a good first step to explore with the offender/party what documents he/she has, that is likely to lead to a second step &#8211; namely the formal request for disclosure from the third party.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">Proposals for future applications for third party disclosure from HMPPS and similar bodies</span>: Ms Paterson has proposed, on behalf of the SSJ, that in future, parties seeking disclosure from HMPPS in public law proceedings, whether they give rise to potential national security issues (as this case does) or not, should proceed in the following way:</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the party applying for third-party disclosure should serve the application (and order if any) on the SSJ by the Government Legal Department (&#8220;GLD&#8221;). The GLD has expressed itself willing to accept service of court orders and applications for such orders in the GLD &#8216;new proceedings&#8217; inbox; the address of this inbox is <a href="mailto:NewProceedings@governmentlegal.gov.uk"><span class="Hyperlink">NewProceedings@governmentlegal.gov.uk</span></a>; </p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the application should in the ordinary way also be served on the intended recipient (in this case HMPPS); which would still be the primary and obligatory point of service;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">any request for disclosure on a &#8220;rolling basis&#8221; should be made explicitly clear in the application and/or order;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">any correspondence (i.e., not court orders or applications for court orders), should continue to be addressed exclusively to the intended recipient (i.e., HMPPS);</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">any requests for third-party disclosure which are not accompanied by any third-party disclosure order or application should, as now, be sent to the person or body believed to hold the material in question (i.e., HMPPS here)<span style="font-style:italic">, </span>and<span style="font-style:italic"> not </span>to the GLD.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">Ms Paterson explains the proposals in this way. HMPPS is an arm of the Ministry of Justice, for which the SSJ has responsibility. <span style="font-style:italic">CPR 1998, r.66.3(1)(d)/(e)</span> makes provision for an appropriate officer acting on behalf of the Crown to make a disclosure statement and/or discharge any other procedural obligation. The accompanying <span style="font-style:italic">Practice Direction</span> (&#167;2.1) provides, in effect, that in issued proceedings this is the Treasury Solicitor&#8217;s Office (i.e., GLD). The principal advantage of service of an order on the GLD, submits Ms Paterson, is that the request for disclosure can be considered by someone who is legally qualified, and who will be in a good position to appreciate not only the significance of the request but also the potential urgency. He/she may also anticipate what classes of documents could be available and whether redaction is likely to be necessary.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">The SSJ proposes that any request for third-party disclosure against HMPPS or similar body would be made materially easier if it were accompanied by a short summary of the issues with which the court is seised. This may enable the SSJ to suggest the potential relevance of documents which have not been identified by the parties &#8211; for example, in the present proceedings, Mr K&#8217;s updated OASys report. In my judgment, the parties should obtain explicit permission of the court to provide the summary of relevant information given the provisions of <span style="font-style:italic">r.12.72-75</span><span/><span style="font-style:italic">FPR 2010 / PD12G FPR 2010</span>; it may be necessary/appropriate to accompany the proposed summary with an application for a reporting restriction order to prohibit further publication of the summary information provided.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">It is suggested by Ms Paterson that the following information would be of value to the recipient(s) of the third-party disclosure order (i.e., GLD/HMPPS):</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the case name and number;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the court centre where the proceedings are being heard;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">the name of the allocated judge;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the next hearing date;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">what orders are sought by the applicant in the proceedings and/or under which provision of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> proceedings have been issued;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">a brief factual summary, including the age of the child/children and his/her/their relationship with the offender (ideally in a form approved by the court), together with a reporting restriction order if deemed necessary;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">the date of the conviction of the offender, together with the offence, or type of offence if more specific details are not known;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">the approximate dates of the custodial sentence;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the approximate date of release (on licence);</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">x)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">whether the offender is still under the supervision of the Probation Service (if known);</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the date by which it is anticipated that the Family Court will make a determination of the principal application;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">a list of the documents requested; this may well include:</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">a Pre-Sentence Report for the offender;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">a list of the offender&#8217;s previous convictions;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">c)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">a transcript of the sentencing remarks made by the judge who passed the custodial sentence (if available);</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">d)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">an OASys report for the offender (it is always helpful to specify the date of the last OASys report if known);</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">e)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">a Parole Dossier for the offender;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">f)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">any other reports concerned with the offender&#8217;s rehabilitation;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">g)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">the date by which disclosure is required and (in general terms) why.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">In my judgement, the proposals set out at &#167;13-16 above can and should usefully be adopted by those making third-party disclosure applications in circumstances similar to those which obtain on these facts.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">The SSJ further submits that <span style="font-style:italic">without notice</span> applications for third-party disclosure (contemplated by <span style="font-style:italic">r.21.2 FPR 2010</span>) are best avoided, save in cases of genuine emergency. This point requires no elaboration; I agree with the submission.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">Conclusion</span>: It is well known that some of the most difficult cases with which the courts must deal span both the criminal and family courts often at the same time; the children involved, and their families need consistent treatment within the justice system - consistency, liaison and, where possible, co-operation across the two systems are essential. All parties submit, and I agree, that this case underscores the importance of co-operation and co-ordination between all the safeguarding agencies involved with children in order to achieve good and informed decision-making in their best interests. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.50in">That is my judgment.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

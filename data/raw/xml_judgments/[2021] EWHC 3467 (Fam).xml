@@ -1,0 +1,591 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2021/3467"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2021/3467"/>
+	  <FRBRdate date="2021-12-20" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3467"/>
+	  <FRBRname value="Re A (a child)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/3467"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/3467"/>
+	  <FRBRdate date="2021-12-20" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/3467/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/3467/data.xml"/>
+	  <FRBRdate date="2022-03-16T16:13:38" name="transform"/>
+	  <FRBRdate date="2024-01-27T23:41:34" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2021-12-20" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-hayden" href="/judge-the-honourable-mr-justice-hayden" showAs="THE HONOURABLE MR JUSTICE HAYDEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2021</uk:year>
+	<uk:number>3467</uk:number>
+	<uk:cite>[2021] EWHC 3467 (Fam)</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>3799b4a6b2a4af08cb5fcb2617ef87ba82995bf3e25804027d788a1937707d6d</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.50in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.89in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1.00in; margin-right: 1.00in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 11pt; }
+#judgment .FootnoteText { margin-left: 0.55in; font-family: Calibri, sans-serif; font-size: 10pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .FootnoteTextChar { font-family: Calibri, sans-serif; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:1.0597222222222222in;height:1.05in;"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2021] EWHC 3467 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD20P00354</docketNumber> / <docketNumber>FD20P00355</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2021-12-20" refersTo="#judgment">20/12/2021</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-hayden">THE HONOURABLE MR JUSTICE HAYDEN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">RE A (a Child)</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Michael Gration </span>(instructed by<span style="font-weight:bold"> Prince Family Law Solicitors</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Christopher McWatters</span> (instructed by <span style="font-weight:bold">Dawson Cornwell</span>) for the <span style="font-weight:bold">1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Michael Edwards </span>(instructed by <span style="font-weight:bold">Cafcass Legal</span>) for the <span style="font-weight:bold">2</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold"> Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 19<span style="vertical-align:super;font-size:smaller">th</span>,20<span style="vertical-align:super;font-size:smaller">th</span>,21<span style="vertical-align:super;font-size:smaller">st</span>,22<span style="vertical-align:super;font-size:smaller">nd</span>, 23<span style="vertical-align:super;font-size:smaller">rd</span> July 2021 and 8<span style="vertical-align:super;font-size:smaller">th</span> October 2021</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level>
+	  <content>
+	    <p><span style="font-weight:bold">The Honourable Mr Justice Hayden :</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">This application concerns A who is nearly 3 years of age. On the 2<span style="vertical-align:super;font-size:smaller">nd</span> June 2020 her father (F) took her to Switzerland from the United Kingdom, without seeking her mother&#8217;s permission or informing her of his plans. It was an abduction and one which had been cynically and meticulously planned. F purported to be taking A for a walk, but he had in fact chartered a private flight to Switzerland with the contrivance of his own father who lives there. At that point in her life (aged 20 months) A&#8217;s mother (M) had been her primary carer. At the time she was abducted A was partly breast fed. The parents had recognised that their relationship had terminated and in June 2020, M believed that F was preparing to leave her home. She had been assisting him in locating alternative accommodation. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">This application came to be heard by me on 19<span style="vertical-align:super;font-size:smaller">th</span> July 2021. It had a time estimate of 5 days. Unfortunately, the case had to be adjourned part-heard and resumed on 8<span style="vertical-align:super;font-size:smaller">th</span> October 2021. This compounded the very significant delay. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In the intervening months, since the abduction, A has only seen her mother under supervision. There has been no direct contact beyond that arranged by video calls. These have been of limited success in part because the medium has restricted utility for a child of this age but also because I consider F has neither the parental instinct for nor the commitment to developing A&#8217;s relationship with her mother. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">When F arrived in Switzerland in June 2020, he sent M an email specifically timed to coordinate with the estimated time of arrival of the private flight in Switzerland. In my judgement that was calculated to maximise distress to M. It also signals controlling, manipulative behaviour. M immediately reported A&#8217;s abduction to the police. She contacted ICACU (International Child Abduction and Contact Unit) and commenced proceedings for A&#8217;s return pursuant to the 1980 Hague Convention. On 29<span style="vertical-align:super;font-size:smaller">th</span> July 2020 M&#8217;s 1980 Hague Convention application was dismissed by the Swiss court which found the Article 13b defence to be established. M launched an appeal, but this was ultimately unsuccessful. F had also commenced separate proceedings in the Swiss courts in which he sought urgent protective measures in respect of A, that application has since been dismissed. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In June 2020, M commenced these proceedings by which she seeks a Child Arrangements Order, requiring A to live with her; a Specific Issue Order (A to be returned to England and Wales); (a Prohibited Steps Order preventing A being removed). </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In August 2020, F signalled his intention to seek the transfer of these proceedings to Switzerland, pursuant to Article 7 of the 1996 Hague Convention. This provides:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="NormalWeb" style="text-align:center;margin-left:0.98in;margin-right:0.65in"><span style="font-style:italic">Article 7</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.98in;margin-right:0.65in"><span style="font-style:italic">(1) In case of wrongful removal or retention of the child, the authorities of the Contracting State in which the child was habitually resident immediately before the removal or retention keep their jurisdiction until the child has acquired a habitual residence in another State, and</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.98in;margin-right:0.65in"><span class="Emphasis">a)</span><span style="font-style:italic"> each person, institution or other body having rights of custody has acquiesced in the removal or retention; or </span><br/><span class="Emphasis">b)</span><span style="font-style:italic"> the child has resided in that other State for a period of at least one year after the person, institution or other body having rights of custody has or should have had knowledge of the whereabouts of the child, no request for return lodged within that period is still pending, and the child is settled in his or her new environment.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.98in;margin-right:0.65in"><span style="font-style:italic">(2) The removal or the retention of a child is to be considered wrongful where -</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.98in;margin-right:0.65in"><span class="Emphasis">a)</span><span style="font-style:italic"> it is in breach of rights of custody attributed to a person, an institution or any other body, either jointly or alone, under the law of the State in which the child was habitually resident immediately before the removal or retention; and </span><br/><span class="Emphasis">b)</span><span style="font-style:italic"> at the time of removal or retention those rights were actually exercised, either jointly or alone, or would have been so exercised but for the removal or retention.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.98in;margin-right:0.65in"><span style="font-style:italic">The rights of custody mentioned in sub-paragraph </span><span class="Emphasis">a</span><span style="font-style:italic"> above, may arise in particular by operation of law or by reason of a judicial or administrative decision, or by reason of an agreement having legal effect under the law of that State.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.98in;margin-right:0.65in"><span style="font-style:italic">(3) So long as the authorities first mentioned in paragraph 1 keep their jurisdiction, the authorities of the Contracting State to which the child has been removed or in which he or she has been retained can take only such urgent measures under Article 11 as are necessary for the protection of the person or property of the child.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Against the factual backdrop which I have just summarised, it is difficult to see how F&#8217;s application was arguable at all. Many months were lost, in my view avoidably. The legal framework intended to address child abduction is constructed to protect the rights of children. It is predicated on principles of international comity which recognise the desirability of a speedy and effective summary procedure which keeps the timescales of the child at the centre of the process. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In March 2021, Arbuthnot J dismissed F&#8217;s application, concluding thus:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-family:'Times New Roman';font-size:12pt;margin-left:1.18in;text-indent:-0.20in">i.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt">It is not possible, as a matter of technicality, to transfer proceedings that have Article 7 of the 1996 Hague Convention as their jurisdictional foundation;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-family:'Times New Roman';font-size:12pt;margin-left:1.18in;text-indent:-0.20in">ii.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.05in"><span style="font-family:'Times New Roman';font-size:12pt">In any event, the Swiss courts are not better placed to determine issues concerning A&#8217;s welfare; and</span></p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-family:'Times New Roman';font-size:12pt;margin-left:1.18in;text-indent:-0.20in">iii.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.18in"><span style="font-family:'Times New Roman';font-size:12pt">It is not in A&#8217;s best interests for issues concerning her to be determined by the Swiss courts.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 11<span style="vertical-align:super;font-size:smaller">th</span> September 2020, pursuant to the order of Russell J, A was joined as party to the proceedings and Mrs Lillian Odze was appointed as her guardian. In her report, dated 19<span style="vertical-align:super;font-size:smaller">th</span> February 2021, Mrs Odze came, inevitably in my view, to the conclusion that the nature of the allegations in this case by each parent against the other, were of such a serious complexion that a fact-finding hearing was required. On 28<span style="vertical-align:super;font-size:smaller">th</span> April the case came before me, on F&#8217;s application. Ultimately, I was constrained to adjourn the hearing. The reasons for this are set out in the recitals at paragraph 5 of my order. They require to be revisited:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in;text-indent:-0.50in"><span style="font-style:italic">&#8220;The court noted there had been wide-scale non-compliance by the applicant and first respondent with the directions made in the order of Mrs Justice ARBUTHNOT, dated 10 March 2021 and incomplete third party disclosure pursuant to the three disclosure orders of Mrs Justice ARBUTHNOT dated 2 March 2021. Namely: </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in;text-indent:-0.50in"><span style="font-style:italic">a. The mother filed approximately 300 pages of evidence over the past week; </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in;text-indent:-0.50in"><span style="font-style:italic">b. There has been no opportunity for the father satisfactorily to respond, meaning his examination in chief would have been extensive; </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in;text-indent:-0.50in"><span style="font-style:italic">c. There has been no honing downs of the key findings sought by either the mother or father; </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in;text-indent:-0.50in"><span style="font-style:italic">d. There has been no disclosure from Essex Social Services to date; and </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in;text-indent:-0.50in"><span style="font-style:italic">e. There had been no investigation as to whether the judge in the Watford proceedings with case no. WD20P00309 had made any findings of fact or delivered any judgment within those proceedings.&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I had required the parties to file a composite schedule of allegations and responses. My ambition was to encourage a honing down of the issues to those which required to be litigated in order to illuminate the welfare outcome. I had anticipated that if that were done, as I regret to say it ought to have been but was not, it should have been perfectly possible to resolve the case and deliver judgment within the now estimated 5 days for this hearing. This is the third occasion in the last 6 months when I have received statements from parties in excess of 200 pages in international abduction cases. This is bad practice, it is counterproductive forensically, it is an entirely disproportionate exercise and where it is undertaken on behalf of a publicly funded client it is unlikely to be a proper charge on the legal aid certificate.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The central thrust of M&#8217;s allegations against F is that he is a manipulative and controlling individual who perpetrated a cynical and carefully planned abduction and who temperamentally and psychologically has very little insight into the needs of his daughter. The circumstances of the abduction permit of no defence at all. I agree with the way they are characterised on behalf of M.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I heard evidence from Dr Fanny Black, a registered forensic psychologist. I found Dr Black to be rather discursive in her analysis of the parent&#8217;s presentation. To the extent that Dr Black felt able to rely on either parent as an honest or accurate witness, I would not share her confidence. Dr Black&#8217;s report contains a great deal of self-report, from both parents. I consider both the parents to be, in different ways, unreliable and dishonest. Accordingly, self-report which is ultimately unchallenged is of little evidential benefit. However, much of what Dr Black says, resonates with my own impression of the parents as they gave evidence. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Dr Black was unimpressed with the capacity of either parent to focus on the needs of the children:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in;text-indent:-0.50in"><span style="font-style:italic">&#8220;It is my opinion that both [F] and [M] appeared to significantly struggle to reflect upon the impact of their behaviour on both each other and their child&#8221;.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In the context of these proceedings, Dr Black concluded that the parents had responded in <span style="font-style:italic">&#8220;very different ways&#8221;. </span>F, she considered was <span style="font-style:italic">&#8220;nonchalant in his attitude and, at times, antagonistic&#8221;</span>. F was, she said, minimising <span style="font-style:italic">&#8220;the impact of both the abduction and the continued separation from her mother on [A]&#8221;</span>. I not only agree with this observation, I would go further. I was struck by F&#8217;s lack of insight into his daughter&#8217;s needs and I saw no evidence at all of any real understanding of the impact of the abduction on A, both at the time and subsequently. I struggle to see how any adult who callously constructed an abduction of a child, in these circumstances, could have empathy for the child. This abduction requires to be identified for what it is, an act of cruelty to both the mother and the child. It is inconsistent with any healthy paternal instinct, knowingly to come between the baby and the breast in the way that F did.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In her oral evidence Dr Black extrapolated from F&#8217;s complete inability to appreciate the impact of his actions upon A and the continuing separation of her from her mother, that this was likely to foreshadow his parenting style in the future. I agree with this analysis which I see to be reflected in F&#8217;s passively obstructive approach to the limited contact that has taken place.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Dr Black considered that M&#8217;s personality profile suggested that she does not have a personality disorder but indicated a marked tendency to <span style="font-style:italic">&#8220;create difficult interpersonal relationship difficulties and unrealistic expectations for herself&#8221;.</span> Her following observation is notable:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in;text-indent:-0.50in"><span style="font-style:italic">&#8220;It further suggests that she may at times coax others into doing things they would not otherwise do and may experience difficulties within relationships whereby others may become drained by her unending enthusiasm. [M] may respond to rejection by withdrawing from the situation and may find it difficult to self-examine her role in difficult situations.&#8221; </span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">As Dr Black observed in her report and reiterated in her oral evidence, both parents are similar in this respect. I too was struck by this as they gave their evidence. It is also important to be clear that whilst Dr Black did not consider that either parent had a personality disorder or major mental illness both, on objective psychometric assessment, revealed <span style="font-style:italic">&#8220;a degree of personality pathology in their functioning&#8221;.</span> Each parent, in Dr Black&#8217;s view, finds it <span style="font-style:italic">&#8220;difficult to reflect upon their role&#8221;.</span> Both <span style="font-style:italic">&#8220;appeared to significantly struggle to reflect upon the impact of their behaviour on both each other and their child&#8221;</span>. She analysed that the couple&#8217;s continuing preoccupation with the proceedings and with their relationship <span style="font-style:italic">&#8220;may preclude them from putting A&#8217;s needs first&#8221;</span>. I consider, for reasons for which I will expand upon below, that this is likely to be a feature of M&#8217;s parenting in the future, not least because it is plainly a significant deficiency in her parenting of her sons. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">A is F&#8217;s only child, but she has older half siblings. M has six sons ranging from 19 years to 5 years old. The older four boys are full siblings and live with her, but the younger two sons (S and A), who are also full siblings, now live with their father, TD. This relationship was also highly conflictual in its later years. M portrayed it to Dr Black in broadly positive terms. She described it as a relationship in which she had <span style="font-style:italic">&#8220;felt very safe&#8221;</span>. Ultimately, M said that <span style="font-style:italic">&#8220;everything kind of got too much&#8221;</span> and the couple separated in a way she described as <span style="font-style:italic">&#8220;no big drama&#8221;</span>. She insinuated that TD had become mean with money and dismissive towards the children at the breakdown of the relationship. She alleged to Dr Black that TD had taken the children for contact and not brought them back. She maintained that she had been manipulated in to leaving the children with him and felt <span style="font-style:italic">&#8220;she had been put into a corner&#8221;.</span> There are allegations and counter allegations by each parent of domestic abuse.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">TD filed a statement in these proceedings. In contrast to M&#8217;s account of the relationship, TD described it as <span style="font-style:italic">&#8220;very difficult&#8221;</span>. He told me how M travelled widely and was insufficiently attuned to her children&#8217;s physical and emotional needs. TD initially joined the family as an employed au pair to look after the children. He told me that he moved into the home in October 2010 and started a relationship with M in 2011. He described M as bullying and controlling in their relationship. In a manner which I consider to be diffident and embarrassed he told me how M had systematically isolated him from his family and friends. In contrast to the evidence of both M and F, I found TD&#8217;s evidence to be clear, consistent and compelling. It was littered with the hallmark of detail and delivered without any obvious rancour or malice. In my assessment TD is motivated by concern for the children, including the four older boys. TD described being financially exploited by M. He also recounts that when A was six months old, he seriously burnt his hand on the mesh of a gas heater that was left on beside the couple&#8217;s bed. This happened, he said, because M was on her phone and not supervising A properly. He described, in his statement, filed within these proceedings, that when she was in sole charge of the children M would leave S and A <span style="font-style:italic">&#8220;in dirty nappies all day with a pile of soiled nappies in their bedroom&#8221;</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The relationship between M and TD terminated in June 2015. It was agreed that S and A would live with her and that TD would have regular contact. It was clear that TD, notwithstanding his concerns, recognised that M loved her boys and was loved by them in return. This, in my judgement, is a sensitive and important insight on his behalf. It also has the effect of signalling the integrity of TD&#8217;s concerns about the welfare of the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Following the separation, TD took a second job in order to pay eight hundred pounds maintenance a month for the children, largely to cover the costs of a nanny. TD contends that M still travelled abroad frequently at this stage. TD makes no suggestion that M deliberately hurt any of the children. He reasons that her preoccupation with her own life and interests caused her to fail <span style="font-style:italic">&#8220;to give them sufficient attention&#8221;. </span>TD states that this is why <span style="font-style:italic">&#8220;accidents would happen&#8221;</span>. In addition to the accident with the fire, TD describes a situation in June 2018 when A was locked in a room and got hold of a pair of scissors and cut his hair. M decided that his head needed to be shaved to conceal it. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In August 2018 the boys went to live with their father, pursuant to a Child Arrangements Order. This order provided for contact with the mother on alternate weekends and some holidays. There were a number of alarming incidents in the years that followed, reinforcing TD&#8217;s concerns in respect of M&#8217;s inability consistently to give the children the attention they required, to promote their welfare and protect their safety. He recounts an occasion when S reported to him that he had <span style="font-style:italic">&#8220;almost drowned&#8221;</span> in a swimming pool in Spain, whilst in M&#8217;s care. M did not appear to dispute this, she told TD she was on her telephone when this happened, and he was saved by a stranger. Again, the episode reflects distraction and preoccupation with her own concerns on M&#8217;s behalf. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">TD told me that he was always concerned by M&#8217;s lack of vigilance to ensure that the children had their seat belts on in the car. A was permitted to sit in the front seat before he was old enough to do so. Even though TD pointed these matters out to M she did not attend to them. I reiterate, what is notable in TD&#8217;s account is that there is a level of detail in each of the allegations, which I find reinforces both their reliability and accuracy. I have already observed that the allegations each highlight a lack of attentive care by a distracted mother. If these were malicious allegations, as M suggests, they are advanced in language that is conspicuously free from malice. The language of TD&#8217;s complaints is, if anything, understated. I note that the allegations also resonate with Dr Black&#8217;s view of M&#8217;s tendency to develop <span style="font-style:italic">&#8220;unending enthusiasms&#8221;</span> or preoccupations which preclude her from putting the children&#8217;s needs first. For these reasons, and incorporating my assessment of TD in the witness box, I prefer his accounts to those given by M. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">One of the central disputes in this case has been M&#8217;s developing &#8220;enthusiasm&#8221; for Judaism. Though she is not Jewish she dresses in a broadly orthodox style, is attentive to the Levitical rigours of diet and observes significant holy days. Her developing preoccupation had been registered by TD and, correctly in my judgement, perceived by him as placing an unhealthy burden on the children. Following weekends with their mother the boys would tell TD that M had told them that they should undergo circumcision. The boys had been led to understand that this was <span style="font-style:italic">&#8220;what a good Christian would do&#8221;</span>. TD said the boys talked about it constantly. They told him that M had said that if they didn&#8217;t agree to the circumcision, she would not see them. They also told their father that they had been told that they would <span style="font-style:italic">&#8220;burn in the eternal flames of hell&#8221;</span>. TD confronted M with this, he was plainly disturbed that M was frightening the boys and behaving completely inappropriately. He told me it had no impact. I formed a clear impression that he was afforded very little respect by M. In the witness box I sensed that TD was struggling to understand how it was that he had become so victimised in this relationship. I had a very clear impression of a man who had struggled and was still struggling to assert his own autonomy. What is entirely clear is that he was totally opposed to the boys being circumcised and objected to it in language that left no room at all for any doubt about his position. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 17<span style="vertical-align:super;font-size:smaller">th</span> February 2020, M was having the children stay with her for a school holiday. On that day she took the children to a Dr Spitzer<span style="color:#FF0000"/>to be circumcised. She did this in a deliberately clandestine manner. TD only found out later from the children themselves. He described the boys as <span style="font-style:italic">&#8220;having had a hugely traumatic experience&#8221;</span>. This was picked up through the social services and psychological assessment. The headteacher proposed play therapy and counselling for S. As TD said, <span style="font-style:italic">&#8220;not only did [M] fail to show any insight into the effect of her actions on to the children, she refused to consent to the therapy to take place&#8221;.</span> Fortunately, social services intervened to ensure the therapy went ahead. TD told me he considered that M has never felt any regret for her actions. Again, I accept TD&#8217;s evidence, moreover, I agree with his assessment. In simple terms, in M&#8217;s eyes, the boys being circumcised makes them more acceptably Jewish. The distortion implicit of such thinking requires no further analysis. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The arrangements during the school break apparently involved M delivering the children to school at the end of their stay with her and TD collecting them at the conclusion of the school day. That evening TD told me that M texted him asking <span style="font-style:italic">&#8220;did you like the surprise?&#8221;.</span> I accept the text was sent and that it referred to the circumcision. F had already discovered the boys were circumcised. S was in pain at school that day and had quickly told his father about it. There is, to my mind, a symmetry here between F&#8217;s careful contrived cruelty to M and her own cruelty to TD. The propensity for this couple i.e. M and F to behave in similarly distorted ways was, I consider, astutely identified by Dr Black. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr Edwards, on behalf of the Guardian, invites me to make a finding that <span style="font-style:italic">&#8220;the mother arranged for S and Z to be circumcised without their father&#8217;s consent&#8221;</span>. As will be clear from the above, I have no hesitation in making that finding but it is a tepid and unsatisfactory reflection of the finding that requires to be made. This mother violated the personal and bodily integrity of her two boys. She did so in a planned way, deliberately concealing her actions from the boy&#8217;s father and following a period of coercion where she knowingly frightened the boys with fear of the &#8216;flames of hell&#8217; and the withdrawal of her own affection. With no apology for the repetition, it requires to be said that calculated parental behaviour of this kind is of comparable magnitude to the abduction of <span style="color:#000000">A</span> by F.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Whilst I agree with Mr Edwards that these proceedings have been painful for M, I do not consider that the Guardian has explored her behaviour with the same forensic rigour as she has focused upon F. Mr Gration invites me to say that M was credible and believable. With respect to him, I do not consider that to be a sustainable submission. As I have said where the evidence of TD conflicts with M and for the reasons I have analysed, I have little difficulty in preferring the evidence of TD. His honesty as a witness cast in to sharp focus the inherent unreliability of both M and F. The extensive contact M now has with the boys will in part be due to the efforts of extensive social work input but it is a great tribute to TD that he has been able to foster and revive the &#8216;boys&#8217; relationship with their mother after what she has done. I am afraid I disagree with Mr Edwards submission that M is genuinely <span style="font-style:italic">&#8220;reflective and able to accept what she had done was wrong&#8221;</span>. Her continuing construct of Jewish beliefs makes that impossible for her. At some level she believed that that was what she had to do. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I also heard from Z, M&#8217;s eldest son. I found him to be a delightful young man. Polite, courteous, respectful. It was obvious to me that he loves his mother. He had a smiling and a happy disposition. He aligned himself with his mother&#8217;s views. He told me that he had his kippah in his brief case with him at court. He identifies as Jewish, though he is not. He too was circumcised in his teenage years, but he believes this to have been his own choice. He told me that he prays regularly and is fond of a local Rabbi. I noticed in the course of his evidence that Z appeared malleable, yielding easily to counsel&#8217;s suggestions and perplexed when they confronted his perception of the world. I also observed that M was very proud of him and, within the constraints of the court room situation, they appeared happy and relaxed in each other&#8217;s company. Z spoke movingly of his sister. He feels a real grief in the separation. I feel sure that reflects the view of the whole family and it signals to me that whilst there are undoubtedly very troubling facets to M&#8217;s parenting, she nonetheless generates an atmosphere in which there is much love and fun. The significant harm she caused S and A has also to be measured against this more positive side of her personality. It strikes me that this is the balance that TD struck when he was able, ultimately, to promote unsupervised contact. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The Guardian began her evidence by asserting that this case <span style="font-style:italic">&#8220;is all about religion&#8221;</span>. With respect to her, that is simply not the case. M&#8217;s religious enthusiasm is a manifestation of her psychological functioning in the way that Dr Black describes. I am afraid that this misapprehension has skewed Ms Odze&#8217;s approach to the case. Mr Gration submits that TD and F have <span style="font-style:italic">&#8220;teamed up&#8221;</span> as I understand it, falsely to traduce M. In my judgement it is far more subtle than that. I consider that F, who I find to be highly manipulative, has approached TD and taken from him what I find to be his true account of his relationship with M. F has purloined this account and adopted it. I find the dynamic of M and F&#8217;s relationship to have been entirely different. F&#8217;s <span style="font-style:italic">&#8220;borrowed clothes&#8221;</span> from TD simply do not fit. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">F considers that it is central to this case to consider how S and A came to be circumcised, aged 6 and 8 years of age. I agree with that. I consider it to be a shocking episode, as I have said, which I am satisfied occurred, in the way that TD describes and which I regard as a violation of the &#8216;boys&#8217; bodily integrity. It is also an episode which caused real and potentially lasting emotional harm. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Dr Black considered that F presented as <span style="font-style:italic">&#8220;at times antagonistic&#8221;</span> and with a <span style="font-style:italic">&#8220;nonchalant attitude&#8221;</span>. This was obvious during his evidence and made a very strong impression on the Guardian. There has not been a flicker of remorse for his actions nor any element of sympathy for M. He showed no understanding at all of the trauma of the separation of A from her mother. He was without any respect for the English court and indicated that he would not return A in any circumstances. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr Gration makes the following submission in his closing document:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in;text-indent:-0.50in"><span style="font-style:italic">&#8220;It is plain that he does not consider that these proceedings will impact upon him. He does not intend to leave Switzerland, and he does not intend for [A] to do so either. He will not voluntarily comply with any order that is made, and he does not think that the Swiss court will enforce an order against him. He cannot be extradited from Switzerland and he is not concerned at the prospect of him and [A] being unable to leave that country in the near or distant future.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">I agree with this description.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr Gration further submits:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in;text-indent:-0.50in"><span style="font-style:italic">&#8220;In relation to [A&#8217;s] welfare needs, it is plain and obvious that the father has a very poor grasp of what is actually in [A&#8217;s] best interests. He cannot or will not acknowledge the harm that he has done to her. He has no plan as to how to remedy that harm in the future, including by way of facilitating proper contact between [A], her mother and her siblings. There is nothing to suggest that the father has sufficient insight into his actions to ameliorate the harm that he has caused. For so long as [A] remains in his care, she is extremely unlikely to have any direct relationship with her mother.&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Again, I agree. Indeed, I would go further, I consider F to be entirely ill equipped to ameliorate the harm that he has caused to his daughter. He lacks both the insight and the motivation to do so. I consider that this abduction, unlike most of such cases that the court hears, was not solely motivated by a desperate desire to care for a child but also by an intention deliberately to hurt the other parent. Mr Gration observed that given what F has said about his future intentions, <span style="font-style:italic">&#8220;it is perhaps surprising that he has engaged in these proceedings at all&#8221;</span>. Though I draw back from any firm conclusion I have, on a number of occasions, found myself wondering whether F has participated in these proceedings, merely or at least in part deliberately to cause further pain to M.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">As will be plain from the above analysis, I reject F&#8217;s account of himself as a victim of bullying behaviour by M and, accordingly, his assertion that he abducted A as a last resort to protect both himself and her. This was a cold and meticulously contrived abduction which required a great deal of careful planning. It not only separated A from her mother but from her siblings too. I am told that she is brought up to speak French which her mother does not speak. She is entirely deracinated from her maternal family with no recognition by F of the extent to which that will cause her lifelong harm and, ultimately, come to corrode her relationship with him too. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I have already indicated that I consider Ms Odze failed to give sufficient weight to some of M&#8217;s behaviour in the way that I have emphasised above. However, the balance of harm she identifies is not, in my judgement, ultimately displaced by this significant omission. Ms Odze considers that though she becomes distracted by her various preoccupations, M loves her children deeply and instinctively. This is not an instinct she sees in F. Further, the separation of A from her mother and siblings is, she correctly emphasises, to be interpreted as significant ongoing harm, entirely inimical to A&#8217;s best interests. In the present situation it is impossible to identify, on a true analysis, any amelioration of this ongoing harm. In contrast M&#8217;s identified failings are capable of being tempered by ongoing support. This has already been established by the reintroduction of her relationship with S and Z and her ongoing relationship with the older boys. Additionally, it requires to be noted, as Ms Odze emphasises, that M has been able, historically, to engage in therapy and remains committed to do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The harm that Ms Odze identifies to A is, manifestly, significant. It strikes to the core of her identity and, as she says, is likely to impact on her psychologically, especially in her adolescence and young adult hood. I agree with this analysis and I also agree with Mr Gration&#8217;s submission that this identified harm can only be addressed by A&#8217;s return to the UK. F is either unwilling or potentially unable (in the sense that he does not recognise it) to address it.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr McWatters, on behalf of F, submits that the court should resist the temptation to punish F for the abduction and focus, unwaveringly, on A&#8217;s best interests. That is an important point to make and I have borne it in mind throughout, as is clear from my analysis above. However, for all the reasons I have set out, I consider that the circumstances of A&#8217;s abduction, F&#8217;s identified psychological functioning, his inability to understand the impact on A of both the abduction and ongoing separation, all point to a very significant deficit in his ability to comprehend where his daughter&#8217;s best interests lie. F&#8217;s account of himself as a victim of M&#8217;s controlling or coercive behaviour I have found to be entirely false. Whilst this relationship is essentially toxic and in which both parties have, I am sure, behaved reprehensibly to each other, I am clear that F is not a victim. Accordingly, the account to the Swiss Authorities is entirely fallacious and as they have been unable to assess its reliability will inevitably have impeded their capacity to survey the wider canvas illuminating A&#8217;s best welfare interests. The most obvious consequence of F&#8217;s false account was to require M&#8217;s contact with A to be supervised to a degree which has proved to be unworkable and effectively made contact impossible for her. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr McWatters further submits that F would not be able to return to the UK if I ordered A&#8217;s return. It is contended that F would likely be arrested and charged with criminal offences, in respect of which a significant custodial sentence would almost certainly be imposed, upon conviction. This may well be true, but it nonetheless leaves a degree of choice with F as to how he chooses to respond. M, by contrast, and even against the backdrop of this disturbing history, remains, I find, genuinely and instinctively aware of the importance to A of some knowledge of and relationship with her father. F, in so far as he is able to articulate these principles at all, does so entirely unconvincingly. This is notwithstanding that he is otherwise an articulate man. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Ms Odze suggested, in her oral evidence, that M might wish to give an undertaking not to cooperate with any prosecution of F. In international abduction cases such undertakings are quite regularly given. However, in this case M has shown no inclination to do so and, as I intimated during the course of her evidence, I did not think that here, it was appropriate for Ms Odze, as the child&#8217;s Guardian, to raise it. Though I am certain Ms Odze would not have intended it, it might nonetheless have had a coercive impact. Ultimately, I went further and indicated that I was not prepared to accept such an undertaking. I do not consider that the High Court should effectively obstruct the administration of the criminal justice system, particularly in the face of such callous and clear criminality. Moreover, I would regard such an undertaking as unenforceable and for that reason alone, inappropriate. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The applicable law in this sphere is uncontroversial. It has been conveniently summarised by counsel:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:1.28in;text-indent:-0.30in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:1.28in">The burden of proof rests upon the person that is making the allegation;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:1.28in;text-indent:-0.30in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:1.28in;text-indent:0.08in">The standard of proof is the ordinary balance of probabilities. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In <span style="font-weight:bold">Re B (Care Proceedings: Standard of Proof) <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/35" uk:canonical="[2008] UKHL 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 35</ref>, <ref href="#" uk:canonical="[2008] 2 FLR 141" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 2 FLR 141</ref></span>, Baroness Hale held that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.65in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;[70]&#8230; </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The standard of proof in finding the facts necessary to establish the factual issues in the case is the simple balance of probabilities, nothing more and nothing less. Neither the seriousness of the allegations nor the seriousness of the consequences should make any difference to the standard of proof in determining the facts&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Lord Hoffman held:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.65in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;[2] </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">If a legal rule requires a fact to be proved (a &#8220;fact in issue&#8221;), a judge or jury must decide whether or not it happened. There is no room for a finding that it might have happened. The law operates a binary system in which the only values are 0 and 1. The fact either happened or it did not. If the tribunal is left in doubt, the doubt is resolved by a rule that one party or the other carries the burden of proof. If the party who bears the burden of proof fails to discharge it, a value of 0 is returned and the fact is treated as not having happened. If he does discharge it, a value of 1 is returned and the fact is treated as having happened&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.65in"><span style="font-family:'Times New Roman';font-size:12pt">And</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.65in"><span style="font-family:'Times New Roman';font-size:12pt">[15] </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8220;The inherent probability or improbability of an event remains a matter to be taken into account when weighing the probabilities and deciding whether, on balance, the event occurred&#8230;&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Findings of fact must be made on the basis of evidence, rather than speculation. In <span style="font-weight:bold">Re A (Fact Finding: Disputed Findings) <ref href="#" uk:canonical="[2011] 1 FLR 1817" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 FLR 1817</ref></span>, Munby LJ held (at para. 26) that: <span style="font-style:italic">&#8220;&#8230; it is an elementary proposition that findings of fact must be based on evidence, including inferences that can be properly drawn from evidence and not suspicion or speculation&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In <span style="font-weight:bold">Re T (Abuse: Standard of Proof) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/558" uk:canonical="[2004] EWCA Civ 558" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 558</ref>, <ref href="#" uk:canonical="[2004] 2 FLR 838" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 2 FLR 838</ref></span>, Butler-Sloss P held that: <span style="font-style:italic">&#8220;Evidence cannot be evaluated and assessed separately in separate compartments. A judge in these difficult cases must have regard to the relevance of each piece of evidence to other evidence and to exercise an overview of the totality of the evidence in order to come to a conclusion whether the case put forward by the Local Authority has been made out to the appropriate standard of proof&#8221;</span> (at para. 33)</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The motivations of the parties may be important. In <span style="font-weight:bold">Re W (Children) <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2010/12" uk:canonical="[2010] UKSC 12" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] UKSC 12</ref></span> at para. 29, Baroness Hale held that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.65in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8220;29. In principle, the approach in private family proceedings between parents should be the same as the approach in care proceedings. However, there are specific risks to which the court must be alive. Allegations of abuse are not being made by a neutral and expert local authority which has nothing to gain by making them, but by a parent who is seeking to gain an advantage in the battle against the other parent. This does not mean that they are false but it does increase the risk of misinterpretation, exaggeration or downright fabrication. On the other hand, the child will not routinely have the protection and support of a Cafcass guardian. There are also many more litigants in person in private proceedings. So if the court does reach the conclusion that justice cannot be done unless the child gives evidence, it will have to take very careful precautions to ensure that the child is not harmed by this.&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Having summarised the legal framework and analysed the facts, I have come to the clear conclusion that the greater harm to A lies in remaining with her father. I am entirely persuaded that were she to stay with him she would suffer significant emotional harm. A would grow up with no real understanding of her mother, her siblings and her own identity. F is simply not committed to promoting these crucial facets of A&#8217;s fundamental rights. By contrast, I feel confident that M, for all the challenges she faces, has an instinctive warmth and understanding of her children which, properly supported, will enable her to provide a more secure emotional base for A. It is also clear that the involvement of Social Services, in the past, has been generally beneficial to her practical parenting and that she remains receptive to working openly with them in the future. It requires to be stated unambiguously that A should be returned to her mother&#8217;s care without any further delay but, in a manner which keeps her needs at the centre of the process.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

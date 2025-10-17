@@ -1,0 +1,810 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2015/3663"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2015/3663"/>
+	  <FRBRdate date="2015-12-16" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3663"/>
+	  <FRBRname value="A, B, C and F (Children)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2015/3663"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2015/3663"/>
+	  <FRBRdate date="2015-12-16" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2015/3663/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2015/3663/data.xml"/>
+	  <FRBRdate date="2024-10-27T19:31:03" name="transform"/>
+	  <FRBRdate date="2024-11-29T00:14:00" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2015-12-16" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ma" href="" showAs="MA"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCPerson eId="judge-sir-peter-singer" href="/judge-sir-peter-singer" showAs="Sir Peter Singer"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2015</uk:year>
+	<uk:number>3663</uk:number>
+	<uk:cite>[2015] EWHC 3663 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>6acbc6e343a8ca7a29c268b9ab85bf0fd918730c691c84d779326d59f22f1c87</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .jus { font-family: Times; font-size: 10pt; }
+#judgment .ind { font-family: Times; font-size: 10pt; }
+#judgment .in2 { font-family: Times; font-size: 10pt; }
+#judgment .in3 { font-family: Times; font-size: 10pt; }
+#judgment .DocumentMap { font-family: 'Lucida Grande'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .DocumentMapChar { font-family: 'Lucida Grande'; font-size: 12pt; }
+#judgment .ColorfulGrid-Accent1 { }
+#judgment .ColorfulGrid-Accent1 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulList-Accent1 { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2015] EWHC 3663 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD14P00978</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2015-12-16" refersTo="#judgment">16 December 2015</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-sir-peter-singer">Sir Peter Singer</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.82in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#ma" style="font-weight:bold">MA</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">-</num>
+	      <p style="text-align:center;margin-left:0.5in"><span style="font-weight:bold">and -</span></p>
+	    </blockContainer>
+	    <p style="margin-left:0.5in"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">MN</span></p>
+	    <p style="text-align:center"/>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">-</num>
+	      <p style="text-align:center;margin-left:0.5in"><span style="font-weight:bold">and -</span></p>
+	    </blockContainer>
+	    <p style="margin-left:0.5in"/>
+	    <p style="text-align:center"><span style="font-weight:bold">A, B, C and F</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(wards of the court, by their Guardian HC)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right">Respondent</p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right">Respondents</p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Dermot Main Thompson and, on 10 and 16 December, Alistair Perkins </span>(instructed by<span style="font-weight:bold"> Freemans solicitors</span>) for the <span style="font-weight:bold">applicant mother, MA</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Michael Edwards</span> (instructed by <span style="font-weight:bold">Venters solicitors</span>) for the <span style="font-weight:bold">respondent father, MN</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Victoria Roberts</span> (instructed by <span style="font-weight:bold">K &amp; S @ Law solicitors</span>) for the <span style="font-weight:bold">wards A, B, C and F by their Guardian HC</span></p>
+      <p style="text-align:center">Hearing dates: 24, 25, 26, 27 and 30 November and 4, 10 and 16 December 2015</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:justify">This judgment is being handed down in private on 16 December 2015. It consists of <span style="background-color:highlightcolorvalues { }">91</span> paragraphs and has been signed and dated by the judge. The judge hereby gives leave for it to be reported.</p>
+      <p style="text-align:justify">The judgment is being distributed on the strict understanding that in any report no person other than the advocates or the solicitors instructing them (and other persons identified by name in the judgment itself) may be identified by name or location and that in particular the anonymity of the children and the adult members of their family must be strictly preserved.</p>
+      <p class="CoverDesc" style="text-align:left"><span style="font-size:12pt">Signed:</span></p>
+      <p class="CoverDesc" style="text-align:left"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-size:12pt"> (Sir Peter Singer)</span></p>
+      <p class="CoverDesc" style="text-align:left"><span style="font-size:12pt">Dated:</span><marker name="tab"/><marker name="tab"/><span style="font-size:12pt">16 December 2015</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold">Sir Peter Singer:</span></heading>
+	  <paragraph>
+	    <content>
+	      <p style="text-indent:0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">Family constitution and outline history until August 2011</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The family with which I am concerned has its roots in Somalia. Both parents were born there in 1969, and by the early 1990s each had left their home country. By 2001 they had separately migrated to Denmark where in that year they married. The mother already had a daughter by an earlier marriage whom I will call E and who is now 18 and has always made her home with the mother. The parents while in Denmark had 3 sons whom I will call A (now 14), B (just 12) and C (just 11).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p style="margin-left:0.25in">In 2005 the family moved in stages to Bristol, the mother and the then 4 children preceding the father by some months. The father's assertions at various points in his written and oral evidence that the mother's move with the children was unilateral and without his consent, and that upon his delayed arrival in Bristol he lived at a separate address, are blatant untruths. The reason why he might wish to conceal the truth about their cohabitation and the rationale for asserting that he somehow occupied what he described as an accommodation address elsewhere (a friend's flat where on his own evidence he never stayed more than a night or two at a time) may have to do with his (and indeed the mother's) benefits situation. And although that sort of consideration may have been behind others of his falsehoods it does not provide a motive for by any means all of them. His evidence, as will be observed, is littered from start to last in writing as from the witness box in inconsistency, contradiction and internal confusion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p style="margin-left:0.25in">There can be no doubt that whatever the mother's reasons for the move from Denmark to Bristol the father knew about it in advance and did not seek to prevent it. The hold-up for him was the need to await the grant of Danish citizenship and the availability of a Danish passport which would enable him to travel abroad without anything by way of hindrance. In fact the mother's explanation for her move is that it was motivated partly by desire to secure better employment but also to separate because of her increasing unhappiness in a marriage which she has described as abusive in a number of ways. I believe her when she says that notwithstanding that unhappiness and, as the future would prove, not for the last time upon his arrival in Bristol he simply moved into the home which she had established there with the children and over a period she made the best of a bad job and they were reconciled.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The family lived in Bristol until 2010. It is my clear impression that the mother was their financial mainstay, her earnings from multiple employment augmented by state benefits. The father worked sporadically, probably to a lesser extent than he would have me believe but probably also somewhat more than what the mother claims was hardly at all. He worked in hairdressing salons and in security and it may well be in other relatively menial roles. He did lend a hand in caring for the children at times when they were not at school and their mother was at work but clearly she was their prime caregiver. During this period their youngest child, a girl F now aged 7, was born.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p style="margin-left:0.25in">There either was or was not an incident of serious physical violence perpetrated by the father on the mother during the autumn of 2009 (or it may have been 2010: neither parent is a particularly accurate historian). I am in fact satisfied that the father threatened mother with a knife and struck her head against a door or wall in the presence of at least some of the children, including in particular E who was then about 12 or 13. The father's denial is unconvincing. I had written and oral evidence from E, who clearly is in her mother's camp but was nevertheless appreciative of some aspects of the father's behaviour towards the children. That did not however extend to this occasion, and I found convincing and accept as accurate her recollections of the anxiety she felt to protect her younger siblings (as she regarded them and they her) from the impact of what she observed and from the risk of fallout from the aggression manifested by the father.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p style="margin-left:0.25in">I am also persuaded of the cogency of what the mother relates as the sequel: the police attended and she made a statement and the father might well have been prosecuted, but she was prevailed upon by the elders of her community to withdraw her complaint, and they brokered at her insistence the father's agreement that he would allow her to go and live elsewhere and separate from him. It was that which, she says and E corroborates, led to the move of the family, again initially without the father, to Birmingham. The father denies the involvement of the police and the elders of the community and would have me believe that they all moved amicably to Birmingham together at the insistence of the wife who wished to leave Bristol.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The father says that he constructively participated in the transportation of household belongings to their new home in Birmingham in about September 2009 (or possibly 2010). The mother and E maintain the contrary and I prefer their evidence. But once again the father having discovered their whereabouts had moved in with the family by about the end of the relevant year. And again after a period they became reconciled and resumed living together.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">It was in August 2011 that the family's departure from England for Dubai and thence to stay in Somalia took place wherein lies the kernel, at least jurisdictionally, of this litigation. For A and B, the two older boys, and the young F remain there being looked after at present by the father's sister whom I will call G while both their parents remain here in England. The mother's aspiration is to have the children returned to England where she as their primary carer for most of their lives hopes they would settle with her and their sister E, and their youngest brother C who intermittently since about November 2012 has lived with the mother in this country. The father however invites me to say, assuming that I do find there is jurisdiction, that I should not exercise it in any event, and if I do do so that I should not make an order for those children's return to this country.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-indent:0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">The proceedings</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p style="margin-left:0.25in">Before though I describe the rival contentions of the parents in relation to the events of August 2011 and thereafter I will outline the course of these proceedings and something of the fluctuating positions adopted by both parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The mother instituted wardship proceedings in relation to all four children (that is to say other than E) in October 2014 and the position currently is that all four remain wards. At that time the mother had recently returned to England after about four months in Somalia and was living apart from C (who had been in England since November 2012 in circumstances I shall describe) whom the father in her absence had frequently left for periods of up to a week in the care of a nephew's wife in Birmingham. The mother however became aware in October 2014 that the father was in this country and this it was that prompted her to issue proceedings. In response to a without notice application made on behalf of the mother on 22 October 2014 Cobb J made a tipstaff location order in respect of the father and the child C. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The mother's statement signed the same day contained serious errors of fact which, in particular, would leave the reader with the impression that the family had been living in England throughout from 2005 until the father had removed A, B and F from her care in Somalia the very previous month, she having been the one who had taken them there in April 2014 "to ensure they were safe".</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The mother's statement was clearly prepared in haste, at least in respect of some of the very recent events it narrates. Nothing like the full extent of this family's comings and goings, its separations and its realignments, was deployed. I have to say that even with the assistance of the chronology compiled at leisure and with care for this hearing I have found it difficult to be quite sure who was where with whom at what date over the period since August 2011. This has been for the adults but in particular for the children a complex, contradictory and often bewildering odyssey. I say this not in exoneration of the mother but in recognition of how difficult it must have been for her legal advisers, through an interpreter, to obtain full and in particular less inaccurate instructions. The fact remains however that the mother did sign the statement to signify its accuracy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The difficulty I have in seeking to establish the extent to which the mother at this stage misled her advisers deliberately, and thus the court, is compounded by the fact that no adequate steps were taken in relation to the preparation and authentication of the contents of this, and many of the other statements prepared in this case on both sides for other witnesses.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p style="margin-left:0.25in">It is unhelpful for a person unable to speak or to read the English language proficiently simply to sign an English-language typescript, as was pointed out by Peter Jackson J in July 2013 in his decision in <span style="font-style:italic">NN v ZZ</span> [2013] EWHC 2261, but so far as he and I can establish unpublished except on BAILII. At my suggestion and with his approval the postscript in relation to the preparation of statements from witnesses who do not speak English which he appended at [56] to [61] of that judgment is reproduced at the conclusion of this in the hope that it may be better observed than, certainly in my limited but consistent experience, has been its fate since its guidance was given. Without clarity concerning the provenance of such a statement it is a far more difficult task to assess what weight can be given to it and, in particular, what may be the reasons why on examination it proves to be short on accuracy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p style="margin-left:0.25in">In fact, in this mother's case, she does in a later statement go some way to acknowledge that she did not initially understand the imperative need to maintain accuracy in her written evidence. And in the event her lapses in this regard do not, I believe, prevent me on broader grounds from assessing where as between her and the father on important issues I am to find relevant truth.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p style="margin-left:0.25in">It is however correct to say, as was said on the father's behalf, that an order made by Newton J on 11 December 2014 for the children's return (and suspended by him on 13 January 2015) would not have been made but for the inaccurate assertions made by the mother which are reflected in the preamble to the order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p style="margin-left:0.25in">As against that is still to me astonishing and unexplained how and with what motivation the father in his first statement dated 30 December 2014 was himself inviting the court to order the mother to procure the children's return to England "so that they can reside with me, as she was the one who removed them [to Somalia] in the first instance" in August 2011. I am certainly unable to lend any credence to his attempt at an explanation from the witness box when he was reminded (and he did indeed appear not to remember) that that was indeed his case not quite a year ago. What has changed since then, and what he invited me to conclude would justify his volte face, was the increased strength of the children's wishes not to be returned to this country or to their mother. I will have to reach conclusions as to how that has come about at a later point in this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p style="margin-left:0.25in">To revert however to the course of the proceedings: on 9 December 2014 pursuant to the location order (but before its existence could have come to the father's attention) C was found at Gatwick on and removed from a plane about to be bound for Somalia via Istanbul, accompanied by a woman acquaintance of the father to whose care he had committed the child for that journey. According to this lady she had never met C before the night before, a fact I shall bear in mind when considering the weight I should attach to the father's insistence that the children should not be looked after in Somalia and in particular should not travel by plane other than in the company of his sister or some other close member of his family: and should not be entrusted to any member of the mother's family, even one whom they might well already know well.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p style="margin-left:0.25in">C was restored to the care of the mother in the course of a series of hearings before Newton J in December 2014 and the beginning of January 2015. A CAFCASS report was ordered in relation to C's circumstances and was filed on 8 April 2015. It is in many ways a revealing document although I did not hear direct evidence from its author. It provides eloquent evidence of the mother's abilities as a caring parent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:11pt">20.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">Directions were given which it was envisaged would lead to a fact-finding hearing but there were extensive delays throughout the spring and summer for reasons no fault of either party. A procedural step of significance was that on the father's application assistance was sought from an independent social worker resident in Nigeria, Henrietta Coker. She was appointed Guardian to all four children. Through refusal of funding she was unable to visit the children in Somalia but did eventually speak to them once by telephone. She conveyed the clarity of certainly A's and to an extent B's expressed hostility to the mother, as well as her views as to the apparent lack of objective justification for those feelings and as to their provenance. I heard her oral evidence via a telephone link.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-indent:0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">The nature of this hearing</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p style="margin-left:0.25in">By the date of the hearing before me which commenced on 24 November and has so far stretched over the whole or part of seven days the parties' advocates had sensibly agreed that the nature of the case no longer required a full-scale fact finding exercise in relation to a 12-page 22-item Scott Schedule which had been prepared pursuant to earlier directions. Nor, it was agreed, would it be necessary for me to hear an array of ancillary witnesses including one via a link, if attainable, with Somalia.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p style="margin-left:0.25in">However a significant issue of jurisdiction had been recognised in relation to the question whether this court could and if so should contemplate ordering the return to England of the three children now in Somalia. Happily it was common ground at the Bar that the answer to that (for reasons which I shall explain) lay with the determination of the question whether in September 2011 the father had wrongfully retained the children in Somalia without their mother's agreement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">I would like to commend Mr Dermot Main-Thompson who during those stages of the case appeared for the mother, Mr Michael Edwards for the father and Ms Victoria Roberts for the children, and their instructing solicitors, for their clear-sightedness in reaching those conclusions. I must also pay tribute to the two interpreters who certainly gallantly and so far as I can tell accurately conveyed the gist of what we lawyers all on occasion rather too swiftly or too lengthily expressed, as well as what both the mother and the father said and understood. For both parents relied on the interpreters for an understanding of what else was said and done in court. It was in part the need to attempt to go at the speed of the interpreters which not unexpectedly led to the prolongation of this hearing, plus (I would observe) the tendency of the father to extend his answers into areas often little germane to the question put. I concluded in the end that this was at least in part a deliberate obfuscating ploy on his part.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-indent:0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">The events of August and September 2011</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">Paragraphs 16 to 19 of the Father's first account (in his detailed 90-paragraph statement signed on 30 December 2014, and containing an appropriate translator's certificate) of the family's journeys in that month are emphatic:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">"In February 2011 I returned to reside in Denmark on my own in order to gain employment as I was having trouble obtaining the same in England. The children were still residing with the mother in Birmingham and I was having telephone contact with them.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">On 16 August 2011 the mother took all four children, including her eldest daughter, to Dubai for a holiday. The mother informed me that she was going to take the children on holiday and I was agreeable to the same.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">On 17 September 2011 the mother then took all the children to Bosasso in Somalia to reside. The mother did not inform me that the children were going to reside permanently in Somalia and I was informed of the same by my family who reside in Somalia. The mother's family and my family are from the same tribe and live in the same area in Somalia and therefore this is how I am able to keep track of what the mother is doing with our children.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">As the mother had not discussed the children's change of residence with me, I travelled to Somalia from Denmark and arrived on 18 September 2011. When I arrived, I asked the mother whether she intended to remain in Somalia with the children permanently and she stated that she was. I was agreeable to the mother and the children remaining in Somalia provided they were all happy."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p style="margin-left:0.25in">However, the family passports (including the father's) recorded them all as travelling to Dubai and staying there between 16 August 2011 and 17 September 2011 and the father therefore was driven to accept that they did indeed all travel to and stay in Dubai together. Furthermore he accepted that they all travelled together from there to Somalia on 17 September 2011. He then alone travelled back to Dubai and stayed there for two nights between 1 and 3 November 2011, en route to England. That account in his statement is pure fiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p style="margin-left:0.25in">In his subsequent evidence, but not always as sequentially as I shall next describe it, the first stage of their journey became not (as the mother asserted) a summer holiday in Dubai where her parents were then either temporarily residing or themselves on holiday, but intended to see whether they would move from England to make their home there. Unsurprisingly (as one would have thought even the most basic preliminary investigations would have established) they found the cost of living in Dubai ruled that out, so they then decided to go on to Somalia with a view to staying there, and did so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p style="margin-left:0.25in">Alternatively another variant developed by the father described these settlement plans (in Dubai if feasible, in Somalia if it was not) as having been settled and agreed between him and the mother before ever they left England.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p style="margin-left:0.25in">Not only was the father's evidence on these critical events contradictory and confused it was in my concluded opinion far-fetched to the point that it wholly lacked credibility.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The mother's account as to these events is and for the most part since her second statement consistently has been that the family planned a holiday in Dubai to coincide with her parents being there. Their departure was delayed because the father was in Denmark longer than had been anticipated, but once he returned to Birmingham they set off on the basis that they were to return after a fortnight or so: to their rented home which had not been located, E to her first GCSE course year at school, the children then of school age to their schools and the mother to her employments. Then, while they were in Dubai, the father suggested that they should go and see relations in Somalia for a short period not least so that they might meet the youngest child F for the first time. But on arrival he put the family passports in a safe at a Bosasso hotel, the Rooble Hotel, owned by his family and said that the children should stay in Somalia for a year or two to learn about their culture and traditions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The mother had not previously been consulted and did not agree, but was powerless and could do nothing other than make a life for and cope with the children there as best she could once the father had left them and returned to England. She says that when she made it clear to the father that she refused to agree he asked the elders of the community to intervene, and that they told her that the father had made his decision as the head of the family and that her opinion was irrelevant. In the face of further protests from her the father told her that if she did not shut up he would take the boys away to another part of Somalia and would leave her on her own with F.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p style="margin-left:0.25in">E's evidence was clear: that she left for Dubai on the basis that this would be a holiday, and that before they arrived in Somalia there was no suggestion she was aware of that they would be making their home there, nor for that matter in Dubai.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p style="margin-left:0.25in">In his oral evidence and in answer to a question from me the father suggested that the family took about &#163;20,000 with them in cash when they left England to finance a shop they planned to (and he says did) open in Bosasso. The mother accepts that for the various times when she was in Somalia she assisted a relative in a shop owned by that lady, and for that was remunerated from time to time. I prefer her evidence. The father's reference to &#163;20,000 when the question was put to him out of the blue seems highly improbable, and is perhaps on a par with his knee-jerk retort when asked to contemplate the children's return from Somalia if that was my order, that the travel costs for just one of them (he later amended that to all of them) would come to &#163;5000: whereas internet searches reveal a variety of routes whereby this could be achieved for well less than &#163;500 each.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p style="margin-left:0.25in">Even taking the evidence of the parents and E on its own in regard to the circumstances surrounding the commencement of their stay in Somalia in 2011, I am wholly persuaded that the father's case &#8211; that settlement there was the mother's decision &#8211; is false. In my view he took deliberate steps to abandon them there and by one means and another to keep them there as long as he could. That indeed manifestly remains his intention in relation to the three now with his sister, and would have been C's situation but for his December 2014 airport interception.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The mother has in my judgment been subject to a variety of influences and pressures which have prevented her from taking a more positive stance over the years in question. That notwithstanding, I remain unpersuaded that ever of her own free will accepted or decided for herself that Somalia was where she and the children would make their home. She comes from a cultural and traditional background and is of a faith which makes her inclined to be submissive, and particularly vulnerable to what I am satisfied has been this father's bullying and controlling behaviour towards her and the children. She is a quietly-spoken traditional Somali wife and mother. I am not suggesting that I have total confidence in everything which in evidence she told me, but her case was hugely more consistent then the father's. He seemed dismissive if not indeed indifferent to the consequences of his actions so far as the children's emotional relationships and schooling and concerns about their health were concerned: there are schools and doctors everywhere in the world, he told me. The mother in contrast gave her evidence reasonably clearly and relatively consistently, certainly during her lengthy time in the witness box. Her affection for the children and her grief at being separated from them (and in particular from the youngest, F) were patent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">Ms Roberts drew my attention to paragraph 104 from the judgment of Munby LJ as he then was in<span style="font-style:italic"> Re A (fact-finding: disputed findings) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/12" uk:canonical="[2011] EWCA Civ 12" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 12</ref>, <ref href="#" uk:canonical="[2011] 1 FLR 1817" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 FLR 1817</ref>. His observations and conclusions in that case mirror mine in this. He said:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">' Any judge who has had to conduct a fact-finding hearing such as this is likely to have had experience of a witness &#8211; as here a woman deposing to serious domestic violence and grave sexual abuse &#8211; whose evidence, although shot through with unreliability as to details, with gross exaggeration and even with lies, is nonetheless compelling and convincing as to the central core. It is trite that there are all kinds of reasons why witnesses lie, but where the issues relate, as here, to failed marital relationships and the strong emotions and passions that the court process itself releases and brings into prominence in such a case, the reasons why someone in the mother's position may lie, even lie repeatedly, are more than usually difficult to decipher. Yet through all the lies, as experience teaches, one may nonetheless be left with a powerful conviction that on the essentials the witness is telling the truth, perhaps because of the way in which she gives her evidence, perhaps because of a number of small points which, although trivial in themselves, nonetheless suddenly illuminate the underlying realities.'</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p style="margin-left:0.25in">Mr Edwards compiled a list of 10 features of her evidence which, on behalf of his client, he suggested gave the lie to her account of wrongful retention at the outset and continuing inability on her part to bring the children out of Somalia if that was what she had wished to do. But, flashes of self-determination apart (as when in December 2013 she obtained a Quranic divorce in Somalia), what these ignore is her situation as a woman striving to live up to the requirements, including subservience, of a woman of her upbringing contending with the unhappinesses which I have no doubt her married life brought her, but as an observant Muslim wife under family and community and spiritual pressure to stick with her marriage and comply with her husband's demands as her commands. I regard it as entirely credible that, as she says occurred at various points in her marriage, she was subject to pressure from within their community to conform, and in particular to follow her husband's wishes as her duty.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p style="margin-left:0.25in">He, by contrast, struck a charismatic pose in the witness box, typified by much smiling and animated posturing and gesticulation. I  came to regard this as mere veneer. The father is self-centred and lacking in empathy whether for the mother or for the children he professes to care about so much, yet to whose emotional and indeed physical welfare he has been seen by many to be indifferent. He is in my view deeply manipulative, and I am sure it is a major part of his motivation that the mother should be punished for her rebellion by keeping the three children in Somalia at this juncture.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">He pays lip-service to the court: 'It will be your decision, I will have to accept it&#8230;', and yet has made clear how such a decision will only be acceptable to him if it reflects what the children say they want. He showed no inkling of appreciation that what barely 7-year-old F might most need and want could or should be different and differentiated from the alarmingly extreme position adopted by 14-year-old A in his telephone conversation with Henrietta Coker.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.3in"><span style="font-weight:bold;font-family:'Bookman Old Style'">[Note: the judge has directed that a number of paragraphs of his full judgment which follow should be excluded from any published report as they deal with detailed narrative and factual issues of no general significance.]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">There is no longer room for doubt. The father has, on my findings, much to answer for to his children. The disruption, indeed the havoc and turmoil in their and in their mother's lives since their departure on holiday to Dubai in August 2011 has been caused, indeed engineered, by him. Their needs for stability in their lives can only at this stage be met in England, and with their mother's home as their base where and while their emotional damage can be addressed and, one can only hope, managed and remedied. I do not though doubt that the father has positive features as their parent which he should be encouraged to deploy.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-indent:0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">Does the English court have jurisdiction? </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p style="margin-left:0.25in">In the case of C who has lived in England primarily with the mother and E since November 2012, although in disrupted and unsatisfactorily unsettled circumstances till December 2014, there clearly is jurisdiction, undisputed in the course of these hearings, based on what I hold had become his habitual residence in this jurisdiction at latest by the date when these proceedings commenced in October 2014. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p style="margin-left:0.25in">As to A, B and F, they all have Danish nationality (and perhaps may also qualify for Somali nationality) and have Danish passports. There is therefore no basis upon which British nationality might be relied upon as a foundation for the exercise of the wardship jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p style="margin-left:0.25in">It could not sensibly be argued (nor was it before me) that these three children who left Birmingham in August 2011 remained habitually resident in England at the time these proceedings commenced in October 2014.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">That leaves for consideration the consequence of my conclusion that these children were kept away from what until August 2011 was their country of habitual residence here by the deliberate, unilateral and wrongful actions of the father in retaining them in Somalia without the mother's agreement and contrary to her wishes. Allied to that is my finding that, given her circumstances, the mother has had no effective opportunity to challenge or contest that decision, nor to remove the children back to England in the face of the father's active opposition. For however well or ill-integrated in Somalia they had become in the 3 years before proceedings were instituted, it could no longer be sensibly maintained that their position could be differently regarded than that of the Bangladeshi children whose situation was described thus in the first instance judgment of Peter Jackson J in <span style="font-style:italic">Re H (abduction: jurisdiction)</span> (cited with approval by Black LJ in the Court of Appeal decision in that case, <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/1101" uk:canonical="[2014] EWCA Civ 1101" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 1101</ref>, <ref href="#" uk:canonical="[2015] 1 FLR 1132" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 FLR 1132</ref> at [35]):</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">'&#8230; I do not consider that these children were habitually resident in this jurisdiction on 4 February 2013, regardless of the circumstances in which they remained in Bangladesh in August 2008. Taking account of all factors and applying the test adopted by the European Court, on no sensible analysis could this country be regarded as ''the place which reflects some degree of integration by the child in a social and family environment''. The children left the United Kingdom at the age of about 14 months and 6 weeks old, and by the time the proceedings were issued they had spent nearly 5 years in Bangladesh. Even if (taking the father's case at its highest) they had been unlawfully retained in that country by the mother, they have as a matter of fact long since ceased to be habitually resident in this country.' (<ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2950" uk:canonical="[2013] EWHC 2950 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 2950 (Fam)</ref> at [81])</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The agreed position of counsel before me is that, in circumstances such as I have found in this case, jurisdiction is retained here. The reasoning for that conclusion follows precisely that adopted by Black LJ, and explained in [38] to [53] of her judgment in <span style="font-style:italic">Re H</span>. Reference to her full reasoning is valuable and instructive, but stripped to its essentials the existence of such jurisdiction is established in a case where, as a consequence of the wrongful removal or retention of children, their habitual residence changes from one within an EU Member State to one within a state or territory to which the provisions of Council Regulation (EC) No 2201/2003 (to which I shall refer as BIIR) do <span style="font-weight:bold">not</span> apply: for then by virtue of Art 10 of BIIR 'the courts of the Member State where the child was habitually resident immediately before the wrongful removal retention shall retain their jurisdiction', in effect, indefinitely.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">That indefinite retention of jurisdiction in the original Member State of habitual residence was expressly considered by Black LJ and explained thus at [46] of her judgment, and concluded at [53]:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">'[46] It will be seen that Art 10 of BIIR has two main components. It first ensures that in case of wrongful removal or retention, the courts of the Member State where the child was habitually resident immediately before the wrongful removal or retention retain their jurisdiction for a period. Secondly, it makes provision for that retained jurisdiction to come to an end (hereafter "the ending of jurisdiction provisions"). What troubled CAFCASS was that it would, in their view, be unsatisfactory, where the child has been taken to live somewhere outside the European Union, to have a retained jurisdiction without any provisions to bring it to an end. If the wording of Part 10 were to be given its natural meaning, this is what the position would be, because the requirements for the ending of jurisdiction includes the child has acquired a habitual residence in "another Member State".</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">[53] In those circumstances, working, as the judge did, upon the basis that the father's case as to wrongful retention is accepted, jurisdiction is retained in the courts of England and Wales by virtue of Art 10 of BIIR and has not been lost, because the children have not yet acquired a habitual residence in another Member State. To decide that there is jurisdiction is not, of course, the same as deciding their jurisdiction will be exercised. That is a separate question, to which I will return.'</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">An interesting question is whether, in such a situation, the retained jurisdiction might be brought to an end in the first of the circumstances ordained by Art 10(a) itself as a free-standing 'ending of jurisdiction provision', namely that 'each person, institution or other body having rights of custody has acquiesced in the removal or retention.' That, it might be thought, would be a logical and jurisprudentially acceptable elaboration of the <span style="font-style:italic">Re H</span> principle: but neither Black LJ on the facts of that case nor I on the facts as I have found them to be in this has had to express any conclusion on that proposition.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-indent:0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">Is it appropriate in this case for the English court to exercise that jurisdiction?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p style="margin-left:0.25in">It was not raised as a question before me on behalf of any of the parties that I should decline jurisdiction on <span style="font-style:italic">forum conveniens</span> grounds, on the very understandable basis that at the time when I announced at the conclusion of submissions my finding that jurisdiction existed and my decision to exercise it, there was no suggestion that there were any judicial or indeed any administrative proceedings in relation to the children extant in Somalia. Thus the questions left open by Black LJ at [57] to [59] of her <span style="font-style:italic">Re H </span>judgment (as, before her, by Baroness Hale at [33] of the Supreme Court decision <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/16" uk:canonical="[2013] UKSC 16" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 16</ref>, best known as <span style="font-style:italic">Re A (jurisdiction: return of child)</span> <ref href="#" uk:canonical="[2014] 1 FLR 111" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 FLR 111</ref>) did not arise.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p style="margin-left:0.25in">I have therefore to consider whether (as Black LJ put it in that [59]) 'the outcome of an exercise of the jurisdiction on the facts of this case would be the dismissal of the proceedings in any event '. Would it be better for these children to make no order about their future? Put another way (as did Munby LJ as he then was, albeit in a very different factual context, in <span style="font-style:italic">Re C (family proceedings: case management)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/1489" uk:canonical="[2012] EWCA Civ 1489" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 1489</ref>, <ref href="#" uk:canonical="[2013] 1 FLR 1089" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 FLR 1089</ref> at [15]) '&#8230; if the judge is satisfied that no advantage to the children is going to be obtained by continuing the investigation further, it is perfectly within his case management powers and the proper exercise of his discretion so to decide and to determine that the proceedings should go no further.' </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p style="margin-left:0.25in">A potent factor in <span style="font-style:italic">Re H</span>, but absent here, was that there had already for some substantial time been contested proceedings, participated in by both parents, in the Bangladeshi courts. The strongest factor in this case against exercising jurisdiction is undoubtedly the length of time which these three children have already spent in Somalia.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p style="margin-left:0.25in">But as against that stand the unstable and disruptive changes of carer to which they have been subject, and the uncertainties and indeed the anxieties about their health, schooling and safety and perhaps above all their emotional welfare in a situation where their father, certainly, has so little understanding of their needs. They are being kept in a situation and a poisonous climate where on the evidence I have heard their father has not hesitated to attempt to foster the breakdown of their relationship with their mother, and indeed (as I heard from her and accept) with E. I have absolutely no confidence that, left alone, these children will thrive into well-rounded and emotionally stable and secure adolescents and adults.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p style="margin-left:0.25in"> If all those concerned were within England and Wales no family court would shrink from imposing palliative measures, not least to end the gulf of separation which has been opened up between the siblings. I would regard it as unpalatable and as an abdication of the court's responsibility towards children for whom it carries responsibility to abrogate it in this case. For I am left in no doubt that the potential advantages of the removal of these children to England, or indeed of any of them should A remain adamant that he will not return, outweigh by a large margin the deficits inherent in their current situation. It is overwhelmingly in their best interests that orders to bring about that outcome should be made, and appropriate steps taken to encourage their father not simply to stand by and watch but positively to take the steps open to him to facilitate their return. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">I have of course had regard to the potential for harm to the children in imposing such a move, and of the difficulties which their mother will face if they are brought unwillingly to this country. But such solid reasons in their interests exist for securing their return that in my judgment and in my discretion appropriate orders should and will now be made.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-indent:0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">How best can the return of the children from Somalia be secured?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p style="margin-left:0.25in">It remains the case that the single most helpful contribution which the father could make in the interests of his children, as I have found them to demand, would be to give them supportive encouragement to reverse their present stated hostility to the move. His mantra, that the court must surrender its judgment to their own however strongly-stated but ill-formed and ill-founded wishes and feelings, is inimical to their welfare. How can it seriously be suggested that a parent, or a court, would be bound in these circumstances to oblige the preferences, if she were to maintain them, of seven-year-old F?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p style="margin-left:0.25in">At the hearings on Tuesday and Friday last week we began the process of structuring a return strategy for these children, which is not yet completely formed. But thus far what I have in mind to order and so far as possible to secure runs along the following lines, after recitals designed to demonstrate the basis upon which jurisdiction is in the circumstances of this case both exercisable and to be exercised.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The father will be ordered to instruct his sister in Somalia who currently has the three children in her charge to deliver them to a named maternal great-uncle in Bosasso to whose care they are to be transferred for the remainder of their stay in Somalia. The order will clarify who has responsibility for nominating the person or persons who are to accompany the children on each stage of their journey to London. I should perhaps make it abundantly clear that in my judgment the mother is reasonable and well-advised in her determination not to return to Somalia to collect the children herself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p style="margin-left:0.25in">To support that order I have in mind to require the father to sign a suitable document of authority and request to his sister and to all others who may be concerned with or involved in their transfer and travel, and requiring him to take such steps as he himself can to lend weight and authority to his own authority and request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The father will be restrained from taking any step (either by himself or by encouraging any other person to do so) which might hinder obstruct delay or prevent these children from travelling to England.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p style="margin-left:0.25in">On the children's return to this jurisdiction they are to go to and remain in the care and control of the mother until such time as the court orders otherwise. There will be an early directions hearing, before me if practicable, at which suitable arrangements for the children can be discussed and in so far as possible determined, including not least the frequency, mode and protective measures which should at least initially apply to any contact arrangements between the father and the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <intro>
+	    <p style="margin-left:0.25in">I will consider in the light of further submissions the extent to which I may have power and to which it would be appropriate to order that the father should share in the cost of bringing the children to this country, to include the travel costs of those who may have to accompany them on at least part of the journey. The current position is that the mother has the promise of funds from her family. Clearly however this is an expense which should in principle be shared. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">Sequel</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p style="margin-left:0.25in">Those are the principal elements of the framework I hoped to finalise or at least significantly to advance at the next hearing on 10 December. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p style="margin-left:0.25in">After final submissions were concluded on the afternoon of 4 December I had announced that my conclusions were that the English court has jurisdiction in relation to the children in Somalia, and would in the circumstances of this case exercise it and order their return. Insofar as the jurisdictional basis for earlier orders in this application might have been in any doubt it was therefore from this date on determined that this court has and will exercise jurisdiction over these children, and that it is fully seised of decision-making concerning them pursuant to its wardship powers and responsibilities.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p style="margin-left:0.25in">By that stage it had become apparent that the father was not minded to cooperate in bringing the children to England. I therefore invited the parties in advance of the hearing on 10 December to prepare a document which he might be invited, and if necessary ordered, to sign, the purpose of which would be to facilitate the children's handover to the maternal family in Somalia and their onward travel to England. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p style="margin-left:0.25in">By the time we convened again on 10 December an at least preliminary draft of such a document had been prepared and the father had had an opportunity of considering it with his legal advisers. His position resolutely was and remained that he would not sign the letter and that he would not instruct the transfer of the three children to members of the maternal family. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p style="margin-left:0.25in">An additional logistical difficulty might require the Danish passports of A and F, held here in London by the mother's solicitors to the order of the court, to be either extended or renewed with the use of forms which required the father's signature. His initial stance was not accommodating. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The father was recalled to the witness box where I explained to him the potential consequences for him of refusing to sign the documents if ordered so to do. Once I was satisfied that he sufficiently understood the position I did indeed order him to sign the documents. He maintained his refusal in relation to the authority to his relatives, but said that he would like a further opportunity to consider whether or not to sign the passport forms.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p style="margin-left:0.25in">The question arises whether the father's behaviour constitutes contempt in the face of the court. After discussion with and submissions from the legal representatives (who on this occasion included Mr Perkins for the mother in light of the unavoidable unavailability of Mr Main Thompson) I adjourned the hearing until Wednesday 16 December when I shall hand down this concluded and updated judgment (upon the draft of which the parties will have had an opportunity to comment), and check whether the father's position in relation to signature of the comparable but revised authorisation remains unchanged, and whether or not he is prepared to sign (if that remains an issue) the passport forms. It should also be possible to finalise or at least to advance preparation of the terms of the order I shall make for the 3 children's return. Reconsideration may be required of the terms on which currently the father has telephone contact with C three times weekly as recorded in a recital to orders made by Newton J in January and March this year.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p style="margin-left:0.25in">I propose that the parties should then proceed later that day to a hearing before a different judge of the Family Division for consideration what if any steps should be taken to punish him for his refusal to comply with a direct court order; and what if any steps to take in relation to his refusal, if maintained, to sign the Danish passport forms. That judge will have available to him or to her a transcript of my exchanges with the father on 10 December as evidence of what then transpired.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p style="margin-left:0.25in">Later on 10 December and overnight I finalised the drafting of an order requesting assistance if need be from the Danish passport and other authorities to facilitate and expedite the necessary steps in relation to A and F's passports, notwithstanding the lack of consent of their father.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p><span style="text-decoration-line:underline;text-decoration-style:solid">Postscript: preparation of statements</span></p>
+	    <p><span style="text-decoration-line:underline;text-decoration-style:solid">(Extracted from the judgment of Peter Jackson J in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">NN v ZZ</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [2013] EWHC 2261)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="jus" style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Times New Roman';font-size:12pt">In this case, seven of the witnesses gave evidence through an interpreter.&#160; During the hearing, concerns arose about statements taken from the witnesses in English, a language they did not speak. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="jus" style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Times New Roman';font-size:12pt">Ms F, called by the mother, gave evidence from Pakistan through an interpreter.&#160; The mother's solicitor, who is also qualified in Pakistan and is an Urdu speaker, has provided a statement explaining that she took Ms F's statement on the telephone and read it back to her, making corrections in the process.&#160; She then drew it up in English and sent it to Ms F via the mother for review, approval and signature.&#160; Ms F signed and returned it and it was filed and served.&#160; Asked during her evidence about the contents of her statement, she said, amongst other things, that she had not read it in English before signing it &#8211; how could she? &#8211; and that some of its contents, as explained to her, were not correct.&#160; </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="jus" style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Times New Roman';font-size:12pt">The taxi driver, a peripheral witness called by the father, had signed a statement in English, but was unable to give a clear explanation as to how the statement had been created or how he knew what it contained.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="jus" style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Times New Roman';font-size:12pt">Issues of this sort can arise whether or not a party is legally represented.&#160; In international cases, the contribution of experienced solicitors of the kind found in this case is invaluable, and I do not intend to be unduly critical of those involved.&#160; What occurred is nonetheless procedurally irregular and potentially unfair to the parties and to the witness. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <intro>
+	    <p class="jus" style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Times New Roman';font-size:12pt">At my invitation, counsel made submissions about the way in which evidence from witnesses who do not speak English should be prepared.&#160; In the light of those submissions, I record the following basic principles:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ind" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">An affidavit or statement by a non-English-speaking witness must be prepared in the witness's own language before being translated into English.&#160; This is implicit from Practice Direction 22A of the Family Procedure Rules 2010, paragraph 8.2 of which states that:&#160; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="ind" style="margin-left:0.79in"><span class="Emphasis" style="font-family:'Times New Roman';font-size:12pt">Where the affidavit/statement is in a foreign language &#8211;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num class="Emphasis">(a)</num>
+	      <content>
+		<p class="in2" style="margin-left:1.18in;text-indent:0.32in"><span class="Emphasis" style="font-family:'Times New Roman';font-size:12pt">the party wishing to rely on it must &#8211;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="Emphasis">(i)</num>
+	      <intro>
+		<p class="in3" style="margin-left:1.18in;text-indent:0.82in"><span class="Emphasis" style="font-family:'Times New Roman';font-size:12pt">have it translated; and</span></p>
+	      </intro>
+	      <subparagraph>
+		<num class="Emphasis">(ii)</num>
+		<content>
+		  <p class="in3" style="margin-left:1.18in;text-indent:0.82in"><span class="Emphasis" style="font-family:'Times New Roman';font-size:12pt">must file the foreign language affidavit/statement with the court; and</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="Emphasis">(b)</num>
+	      <content>
+		<p class="in2" style="margin-left:1.18in;text-indent:0.32in"><span class="Emphasis" style="font-family:'Times New Roman';font-size:12pt">the translator must sign the translation to certify that it is accurate.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ind" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">There must be clarity about the process by which a statement has been created.&#160; In all cases, the statement should contain an explanation of the process by which it has been taken: for example, face-to-face, over the telephone, by Skype or based on a document written in the witness's own language.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p class="ind" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">If a solicitor has been instructed by the litigant, s/he should be fully involved in the process and should not subcontract it to the client.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p class="ind" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">If presented with a statement in English from a witness who cannot read or speak English, the solicitor should question its provenance and not simply use the document as a proof of evidence.&#160; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(5)</num>
+	    <content>
+	      <p class="ind" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">The witness should be spoken to wherever possible, using an interpreter, and a draft statement should be prepared in the native language for them to read and sign.&#160; If the solicitor is fluent in the foreign language then it is permissible for him/her to act in the role of the interpreter.&#160; However, this must be made clear either within the body of the statement or in a separate affidavit. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(6)</num>
+	    <content>
+	      <p class="ind" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">A litigant in person should where possible use a certified interpreter when preparing a witness statement.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(7)</num>
+	    <content>
+	      <p class="ind" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">If the witness cannot read or write in their own native language, the interpreter must carefully read the statement to the witness in his/her own language and set this out in the translator's </span><span class="Emphasis" style="font-family:'Times New Roman';font-size:12pt">jurat</span><span style="font-family:'Times New Roman';font-size:12pt"> or affidavit, using the words provided by Annexes 1 or 2 to the Practice Direction.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(8)</num>
+	    <content>
+	      <p class="ind" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">Once the statement has been completed and signed in the native language, it should be translated by a certified translator who should then either sign a </span><span class="Emphasis" style="font-family:'Times New Roman';font-size:12pt">jurat</span><span style="font-family:'Times New Roman';font-size:12pt"> confirming the translation or provide a short affidavit confirming that s/he has faithfully translated the statement.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(9)</num>
+	    <content>
+	      <p class="ind" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">If a witness is to give live evidence either in person or by video-link, a copy of the original statement in the witness's own language and the English translation should be provided to them well in advance of the hearing.&#160; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(10)</num>
+	    <content>
+	      <p class="ind" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">If a statement has been obtained and prepared abroad in compliance with the relevant country's laws, a certified translation of that statement must be filed together with the original document.&#160;&#160;&#160; </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.11in">In this case, these basic steps were not observed.&#160; As a result, some time was needlessly spent exploring the process by which the statements had been taken, and the court's task in assessing the witnesses' evidence was made more difficult, to their disadvantage</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

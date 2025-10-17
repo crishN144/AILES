@@ -1,0 +1,997 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2022/83"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2022/83"/>
+	  <FRBRdate date="2022-07-29" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="83"/>
+	  <FRBRname value="Barnsley Metropolitan Borough Council v VW &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2022/83"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2022/83"/>
+	  <FRBRdate date="2022-07-29" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2022/83/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2022/83/data.xml"/>
+	  <FRBRdate date="2024-11-09T02:15:48" name="transform"/>
+	  <FRBRdate date="2024-11-22T02:22:15" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-07-29" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewfc" href="https://www.judiciary.uk/you-and-the-judiciary/going-to-court/family-law-courts/" showAs="The Family Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="barnsley-metropolitan-borough-council" href="" showAs="Barnsley Metropolitan Borough Council"/>
+	<TLCPerson eId="vw" href="" showAs="VW"/>
+	<TLCPerson eId="pm" href="" showAs="PM"/>
+	<TLCPerson eId="iw-a-child-by-his-guardian-hilda-mulcahy" href="" showAs="IW (a child by his guardian Hilda Mulcahy)"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-mostyn" href="/judge-mr-justice-mostyn" showAs="MR JUSTICE MOSTYN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWFC</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>83</uk:number>
+	<uk:cite>[2022] EWFC 83</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>b5d1a036058b09a7dc24bb4cc05ab81fec0565a28647e265f85e367ec2c72b72</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .QuoteChar { font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.1pt;height:75.25pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2022] EWFC 83</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>SE20C00603</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewfc">IN THE FAMILY COURT </courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">The Law Courts </span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">50 West Bar</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Sheffield, S3 8PH</span></p>
+      <p class="CoverText">Date: <docDate date="2022-07-29" refersTo="#judgment">29/07/2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-mostyn" style="text-decoration-line:none">MR JUSTICE MOSTYN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#barnsley-metropolitan-borough-council" style="font-weight:bold">Barnsley Metropolitan Borough Council</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#vw" style="font-weight:bold">(1)&#8194;VW</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#pm" style="font-weight:bold">(2) PM</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#iw-a-child-by-his-guardian-hilda-mulcahy" style="font-weight:bold">(3) IW&#8194;(a child by his guardian Hilda Mulcahy)&#8194;&#8194;&#8194;</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Jonathan Sampson QC and Olivia Weir </span>(instructed by <span style="font-weight:bold">Barnsley Metropolitan Borough Council</span>) for the <span style="font-weight:bold">applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Damian Garrido QC and Fazeela Ishmael </span>(instructed by<span style="font-weight:bold"> Child Law Partnership</span>) for the <span style="font-weight:bold">first respondent </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Christopher Patrick </span>(solicitor, <span style="font-weight:bold">Howells LLP</span>) for the <span style="font-weight:bold">second respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Frances Heaton QC and Justine Cole </span>(instructed by <span style="font-weight:bold">GWB Harthills Solicitors</span>) for the   <span style="font-weight:bold">third respondent</span></p>
+      <p style="text-align:center">Hearing dates: 19 July 2022</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MR JUSTICE MOSTYN</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so may be a contempt of court.</p>
+	    <p><span style="font-weight:bold">Mr Justice Mostyn:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am concerned with IW who was born on 26 March 2020. His mother is VW; his father is PM. The relationship of VW and PM was extremely short lived and they never lived together.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For over two years IW has been in care under an interim order made the day after he was born. He was in fact removed from VW shortly after his birth. VW has never played any part in his upbringing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The application for a care order was made on the day of IW&#8217;s birth. Today, VW is confronted by a lengthy threshold document. In another sphere she might say that her accusers had overloaded the indictment. She makes a certain number of admissions, indisputably sufficient to take the case well over the statutory threshold in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 31</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. She will not oppose the making of a final care order in September nor will she oppose the making of a placement order on that occasion, the application for which was issued on 4 September 2020. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father, PM, does not have parental responsibility. He will not seek to oppose the making of care and placement orders.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Why is this matter not proceeding by consent? The reason is that the local authority does not accept that VW&#8217;s admissions properly reflect the reasons why IW has to be permanently removed from his birth family and adopted. It seeks that at a five-day hearing in September 2022 the un-admitted allegations should be tried and judgment given upon them. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">An order was made by Her Honour Judge Marson on 14 June 2022, of her own motion, that I should consider as a preliminary issue which threshold issues remain in dispute and whether it is proportionate and appropriate for these to be litigated at a final, contested hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I heard the preliminary issue on 19 July 2022. I record that the quality of advocacy, both written and oral, was of a very high standard.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There has been a certain amount of case law on the question of whether the court in the exercise of its discretion should permit what are technically superfluous further allegations to be tried in circumstances where the admissions made by the parent satisfy the statutory threshold.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">General legal principles</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before I turn to that case law, I want to consider briefly some elementary propositions about the role and purpose of a court exercising civil jurisdiction and the effect, under the general civil law, of admissions when made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is an ancient principle that where there is a right there must be a remedy: <span style="font-style:italic">Ashby v White</span> (1702) 2 Ld Raymond 938 per Holt CJ. Courts exist solely to determine whether a right exists and, if it does, and is proved, to provide the necessary remedy. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A court exists only to try real cases between real parties. It has no authority to advise parties what their rights would be under a hypothetical state of facts: <span style="font-style:italic">Glasgow Navigation Company v Iron Ore Company </span><ref href="#" uk:canonical="[1910] AC 293" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1910">[1910] AC 293</ref>, HL at 294 per Lord Loreburn LC, emphatically confirmed in <span style="font-style:italic">Re X (Court of Protection Practice)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/599" uk:canonical="[2015] EWCA Civ 599" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 599</ref> by Gloster LJ at [113].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A court awards a remedy exclusively for the benefit of the parties to the proceedings. At a final hearing it can do no more than to award, or to deny, a proper remedy to a claimant before it. In <span style="font-style:italic">Scott v Scott </span><ref href="#" uk:canonical="[1912] P 241" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1912">[1912] P 241</ref> at 273 Fletcher Moulton  LJ  (as he then was) said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The same considerations apply to a defendant who is unsuccessful. The Court has the right and the duty to decree the proper relief against him, but it can do no more. It cannot add to that relief directions or commands as to his future conduct. If they are not part of the relief itself they are pronounced without authority. The conception of the Court interfering with litigants otherwise than by granting the relief which it is empowered and bound to grant is wholly vicious and strikes at the foundation of the status and duties of judges. We claim and obtain obedience and respect for our office because we are nothing other than the appointed agents for enforcing upon each individual the performance of his obligations.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Therefore, while a decision of a senior judge can amount to a binding precedent, its direct effect is confined to the parties to the proceedings. Obviously, in an incidental way, a decision of a judge can have an impact on non-parties, but the court has no authority to award relief against non-parties (save in defined exceptional circumstances), or, for that matter, to pronounce commands against a party which is not part of the relief properly awardable. It is a basic axiom that where a court takes it upon itself to exercise authority which it does not possess, its decision amounts to nothing and no party can in the least be bound by it: <span style="font-style:italic">A-G v Lord Hotham</span>&#160;(1827) 3 Russ 415 per Sir Thomas Plumer MR..</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was submitted to me that a judgment in these proceedings might be helpful in a later application concerning a future, as yet unborn, child. The classic common law view, as propounded in <span style="font-style:italic">Hollington v Hewthorn</span> <ref href="#" uk:canonical="[1943] KB 587" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1943">[1943] KB 587</ref> by Lord Goddard CJ, is that factual findings made by judges in civil cases are inadmissible in subsequent proceedings between different parties. The rule was traditionally explained as being an instance of the proscription of hearsay evidence, such that it fell away with the passage of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/38" uk:canonical="1995 c. 38" uk:origin="TNA" uk:type="legislation">Civil Evidence Act 1995</ref>. However, in <span style="font-style:italic">Hoyle v Rogers &amp; Anor</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/257" uk:canonical="[2014] EWCA Civ 257" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 257</ref> Christopher Clarke LJ held at [39] that the rule survived. He reasoned that the rule existed because:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The trial judge must decide the case for himself on the evidence that he receives, and in the light of the submissions on that evidence made to him. To admit evidence of the findings of fact of another person, however distinguished, and however thorough and competent his examination of the issues may have been, risks the decision being made, at least in part, on evidence other than that which the trial judge has heard and in reliance on the opinion of someone who is neither the relevant decision maker nor an expert in any relevant discipline, of which decision making is not one. The opinion of someone who is not the trial judge is, therefore, as a matter of law, irrelevant and not one to which he ought to have regard.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This reasoning forcefully reflects the general proposition that the role and purpose of a court is solely to determine on the evidence the dispute between the parties before it. It echoes the judgment of Sir William de Grey, Lord Chief Justice of the Common Pleas in the <span style="font-style:italic">Duchess of Kingston's case</span> [1775-1802] All ER Rep 623  (20 April 1776) where he stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;What has been said at the Bar is certainly true as a general principle, that a transaction between two parties, in judicial proceedings, ought not to be binding upon a third; for it would be unjust to bind any person who could not be admitted to make a defence, or to examine witnesses, or to appeal from a judgment he might think erroneous. Therefore, the depositions of witnesses in another cause in proof of a fact, the verdict of a jury finding the fact, and the judgment of the court upon facts found, although evidence against the parties, and all claiming under them, are not, in general, to be used to the prejudice of strangers.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, the rule in <span style="font-style:italic">Hollington v Hewthorn</span> has been held not to apply to inquisitorial proceedings where the court is obliged by statute to take all the circumstances of the case into account: <span style="font-style:italic">Re H (A Minor) (Adoption: Non-Patrial)</span> <ref href="#" uk:canonical="[1982] Fam 121" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1982">[1982] Fam 121</ref>. I therefore accept that a fact-finding judgment in public law children proceedings would not be technically inadmissible in later proceedings in relation to a different child. But when considering whether to order a fact-finding trial in respect of un-admitted allegations for possible use in later proceedings the court will surely have in mind the reasons why the common law has developed the public policy principle that such a judgment is generally inadmissible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first proposition  is therefore that the ulterior motive of bringing into existence a fact-finding judgment to use in proceedings about a future, as yet unborn, child wound be considered to be a misuse of the role and purpose of the court and arguably would be the exercise of an authority that the court does not possess.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The second proposition is that where a claim has been made against a defendant, and where that defendant has admitted, in whole or in part, the truth of the claim, the claimant may then apply for judgment on the admission (see CPR r.14.1 for the procedure). If sufficient facts are admitted either to prove liability, or to prove a complete defence to liability, then the court will not normally allow further facts to be proved: <span style="font-style:italic">Dublin Wicklow and Wexford Railway Company v Slattery</span> (1878) 3 I. Cas. 1155 per Lord Cairns LC. It&#160;is only where the admitted facts are capable of two equally possible views that it would be appropriate for a fact-finder to decide between them and thereby to resolve the conflict: <span style="font-style:italic">Davey v L &amp; SW Ry </span>(1883) <ref href="#" uk:canonical="12 QBD 70" uk:isNeutral="false" uk:origin="TNA" uk:type="case">12 QBD 70</ref> at 76, per Bowen LJ. Naturally, if the further facts would influence a later phase of the proceedings, such as damages, then the court will allow those facts to be proved, in that phase, for that purpose.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my opinion these general common law propositions should be kept well in mind when the family court is considering whether to permit a trial of further, technically superfluous, facts.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The family law authorities</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The family law authorities on the exercise of the court&#8217;s discretionary power to permit such a trial are in some respects contradictory. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I cite first <span style="font-style:italic">Re G (A Minor) (Care Order: Threshold Conditions) </span><ref href="#" uk:canonical="[1995] Fam 16" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] Fam 16</ref>, where Wall J held that on an application for a care order the court had to be satisfied by evidence that the significant harm suffered by the child was attributable to the care, or absence of care, given to the child by the parent against whom the order was sought, and no agreement between the parties could deprive the court of that duty to be so satisfied; and that where there was a disagreement as to the factual grounds for the making of a care order it was not an appropriate exercise of the court's power to take the lowest common denominator as the basis for an order. He stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Furthermore, whilst as a matter of strict law I am only concerned with L., I do not think I can properly shut my eyes to the fact that the father has other children, including a baby born on 5 May 1993. I am not, of course, making any decision other than that under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref> in relation to L. I am, however, in my judgment, entitled to take into account, in deciding whether or not to make findings of fact in relation to L., the possibility that the father may seek to use the absence of findings in relation to L. as a means to advance his case in other proceedings.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In contrast, in <span style="font-style:italic">Stockport Metropolitan Borough Council v D</span> <ref href="#" uk:canonical="[1995] 1 FLR 873" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 FLR 873</ref> Thorpe J was clear that the scope and purpose of the proceedings did not extend to protecting other children, let alone unborn children. He stated: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[T]he purposes and scope of the present proceedings ... are to settle the future of a single child. To do that by order at the conclusion without full trial of the Children Act proceedings, the duties of the court in relation to that child are contained within the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> and are specific both in relation to the threshold criteria and the pursuit of the welfare principle as paramount. The court has no definable statutory duty in relation to children as yet unborn. It has no function to grant a declaratory judgment.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Re G</span> was not cited to Thorpe J. Nonetheless, it can be seen that Thorpe J was faithful to the traditional conception of the role and purpose of a court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thorpe J went on to state:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Such understandable concern as the local authority has in relation to the possibility of fresh litigation of issues presented in these proceedings in relation to possible children as yet unborn, has to be set against what seems to me to be the enormous benefits of conclusion of contested proceedings by compromise. The over-complication of the procedures for conclusion by compromise risks the loss of that essential benefit in what may be a very finely balanced and complex situation. If there is a concession that the essential orders should be written either by consent or unopposed, if there is a formal concession of the passage of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">s&#8197;31</ref> threshold, if that concession is based on specific admissions of abuse or neglect, if the court is satisfied that the order and its foundations are proved, it seems to me quite contrary to public interest that the proceedings should be prolonged simply to resolve nice differences as to the expression of the essential concessions.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">The emotional and psychological cost to parents in accepting advice that leads to the conclusion of the case without a hearing is considerable. Some regard has to be paid to their self-esteem and some regard has to be paid to the pace at which the acceptance of responsibility for abuse or neglect of children evolves. If the court has a function, once formal admissions have been made that pass the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.&#8197;31</ref> threshold and that extend to the recognition that neither parent can safely be entrusted with the care of any child, then my conclusion is that the court should accept the terminology of those who proffer the formal admissions rather than the terminology of those who seek the orders.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Accordingly, I have accepted the formal admissions made by Mr Foster and Miss Hindley on behalf of their respective clients. I have declined the invitation of Miss Swift, and to some extent Mr Townend, that despite those formal admissions the court should exercise its discretion to investigate further and make pronouncements on evidence.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In<span style="font-style:italic"> Re B (threshold criteria: agreed facts)</span> <ref href="#" uk:canonical="[1998] 2 FLR 968" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">[1998] 2 FLR 968</ref>, [1999] 2 FCR 328 Thorpe LJ, sitting in the Court of Appeal, expressly confirmed and endorsed all that he had said in <span style="font-style:italic">Stockport Metropolitan Borough Council v D</span>. In <span style="font-style:italic">Re M (Threshold Criteria: Parental Concessions</span>)<span style="font-style:italic"/><ref href="#" uk:canonical="[1999] 2 FLR 728" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 2 FLR 728</ref>, CA, the correctness of those decisions was not doubted. One would have thought, therefore, that the limited scope of the discretion to permit a fact-finding hearing of un-admitted allegations would have been, by these original authorities, fixed with certainty. Explicitly, the original authorities hold that the potential utility of the judgment in later proceedings involving a different child is not a legitimate purpose of such a hearing (I shall call this <span style="font-style:italic">&#8220;the different child&#8221;</span> purpose or factor). The original authorities do not mention as a legitimate purpose the advantage of having such a judgment so that the child may in adulthood know the whole truth about his adoption (<span style="font-style:italic">&#8220;the whole truth&#8221; </span> purpose or factor). Nor do the original authorities mention as a legitimate purpose that having such a judgment may be a useful platform for identifying a perpetrator of domestic abuse (<span style="font-style:italic">&#8220;the perpetrator identification&#8221; </span>purpose or factor). One can be sure that if Thorpe LJ considered these latter two factors to be legitimate purposes he would have said so. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The reason that the original authorities explicitly reject the <span style="font-style:italic">different child</span> factor, and tacitly reject the <span style="font-style:italic">whole truth</span> and <span style="font-style:italic">perpetrator identification</span> factors is because, in the words of Thorpe J, &#8220;the purposes and scope of the present proceedings are to settle the future of a single child&#8221;. In a case such as this, that purpose is achieved by the court performing its statutory duty under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.31</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/21" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.21</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref> and making care and placement orders. Those are the over-arching objectives of the proceedings, no more, no less. It is not the role, function or purpose of the court to do anything more than this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Naturally, a judgment from a standard fact-finding trial (where there were no, or insufficient, admissions of the threshold allegations) may have the <span style="text-decoration-line:underline;text-decoration-style:solid">consequence</span> of satisfying one or more of these three purposes. So, in a future case about another child such a standard judgment may be admitted in evidence and have some influence on the result. Or it may be helpful in compiling a life-story book for the subject child. Or it may be shared with another local authority to put it on alert to the presence of a child abuser in its domain. But on an application for a fact-finding trial of un-admitted allegations where the admitted allegations amply satisfy the threshold, these possible side-effects cannot legitimately be put forward as the main purposes of such a trial. To do so would be to put the cart of useful side-effects before the horse of legitimate purposes.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Oxfordshire County Council v DP &amp; Ors</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2005/1593" uk:canonical="[2005] EWHC 1593 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWHC 1593 (Fam)</ref> McFarlane J, as he then was, at [24] stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The authorities make it plain that, amongst other factors, the following are likely to be relevant and need to be borne in mind before deciding whether or not to conduct a particular fact finding exercise:</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.58in"><marker name="tab"/>The interests of the child (which are relevant but not paramount);</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>The time that the investigation will take;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>The likely cost to public funds;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>The evidential result;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>The necessity or otherwise of the investigation;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>f)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.58in"><marker name="tab"/>The relevance of the potential result of the investigation to the future care plans for the child;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>g)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.58in"><marker name="tab"/>The impact of any fact finding process upon the other parties;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>h)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>The prospects of a fair trial on the issue;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>The justice of the case.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Rightly, having regard to the original authorities, McFarlane J did not include as a relevant factor the different child purpose. However, in [29(iv)] he stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The public interest in the identification of the perpetrators of child abuse and the public interest in children knowing the truth about past abuse are important factors&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have pointed out above that neither of these factors was mentioned in the original authorities.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Re H-D-H and C (Children: Fact-Finding)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1192" uk:canonical="[2021] EWCA Civ 1192" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 1192</ref>, <ref href="#" uk:canonical="[2021] 4 WLR 106" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 4 WLR 106</ref> the Court of Appeal considered the subject anew. Unfortunately, neither <span style="font-style:italic">Stockport Metropolitan Borough Council v D</span> nor <span style="font-style:italic">Re B (threshold criteria: agreed facts) </span>was cited to it. Peter Jackson LJ held at [21]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Many of the factors identified in <span style="font-style:italic">Oxfordshire</span> overlap with each other and the weight to be given to them will vary from case to case. Clearly, the necessity or otherwise of the investigation will always be a key issue, particularly in current circumstances. Every fact-finding hearing must produce something of importance for the welfare decision. But the shorthand of necessity does not translate into an obligation to conclude every case as quickly as possible, regardless of other factors, and that is clearly not the intention of the administrative guidance. There will be cases in which the welfare outcome for the child is not confined to the resulting order. <span style="font-weight:bold">Not infrequently, a finding in relation to one child will have implications for the welfare of other children</span>. Sometimes, findings that cross the threshold at a minimum level will not reflect the reality. The court's broad obligation is to deal with the case justly, having regard to the welfare issues involved.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">And at [22(iv)]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The evidential result may relate not only to the case before the court <span style="font-weight:bold">but also to other existing or likely future cases in which a finding one way or the other is likely to be of importance</span>. <span style="font-weight:bold">The public interest in the identification of perpetrators of child abuse can also be considered.</span>&#8221;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">(Emphases added)</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, Ms Heaton QC argues in her position statement: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Her vacillation requires the court to hear the evidence and, if it can without straining to do so, make findings in respect of the central issues in this case so that [IW] will come to understand why he is unable to live with his mother.&#8221; </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">and</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;It is also reasonably foreseeable that mother may have another child and that the same issues would surface again. At this point when the evidence is available and poised to be determined it is far better, and cost and time effective, to undertake that exercise now than at a later point possibly a year or so ahead.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It can be seen that Ms Heaton QC suggests that having findings on the different child and whole truth factors should be the main (or even perhaps <span style="text-decoration-line:underline;text-decoration-style:solid">only</span>) purpose of the proposed fact-finding. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This places me as a first instance Judge in a position of some difficulty. The previous binding authority of the Court of Appeal in <span style="font-style:italic">Re B </span>made it absolutely clear that when making a decision whether to allow a fact-finding trial in relation to un-admitted allegations there was no room for the different child factor. Nor was there any place for the perpetrator identification or the whole truth factors. Yet, in this latest decision of the Court of Appeal these are all cited as being potential purposes for a fact-finding trial of un-admitted allegations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Garrido QC argues that I should consider myself bound by the earlier decision of the Court of Appeal and should not follow what he submits is an erroneous expansion of the potentially relevant purposes by this later decision of the Court of Appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree with Mr Garrido QC. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, the list at [24] of<span style="font-style:italic"> Oxfordshire</span> should be regarded as definitive. It should be applied without bringing into consideration the different child factor (which is in fact not mentioned in [24]). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my opinion, if  a judge has to consider an application such as this and  stays strictly within the four corners of the list at [24] of<span style="font-style:italic"> Oxfordshire</span> then she is unlikely to go wrong. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I find Peter Jackson LJ&#8217;s checklist in [22] of <span style="font-style:italic">Re H-D-H</span> to be helpful, provided it is understood, having regard to the original (binding) authorities, that the relevant purposes will not include under para (i) of that checklist the whole truth factor and under para (iv) the different child and perpetrator identification factors.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The checklist omits the key consideration of necessity (which was item (e) in McFarlane J&#8217;s original list) because Peter Jackson LJ had dealt with this aspect earlier in his para [21].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would therefore re-express the checklist as follows, with my amendments (and the reinsertion of the criterion of necessity) <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">underlined</span><span style="font-weight:bold">:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">When considering&#160;<span style="font-style:italic">the welfare of the child</span>, the effect on the child's welfare of an allegation being investigated or not <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">is relevant.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">But the significance to the individual child of knowing the whole truth cannot, of itself, be a main  purpose of the investigation.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">The likely cost to public funds</span>&#160;can extend to the expenditure of court resources and their diversion from other cases.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">The time that the investigation will take</span>&#160;allows the court to take account of the nature of the evidence. For example, an incident that has been recorded electronically may be swifter to prove than one that relies on contested witness evidence or circumstantial argument.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">The evidential result</span>&#160;relates only to the case before the court.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Its potential utility in a future case about another child cannot, of itself, be a main purpose of the investigation. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Similarly, the  public interest in the identification of perpetrators of child abuse cannot, of itself, be such a purpose.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(v)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">The relevance of the potential result of the investigation to the future care plans for the child</span>&#160;should be seen in the light of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 31</ref>(3B) obligation on the court to consider the impact of harm on the child and the way in which his or her resulting needs are to be met.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(vi)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">The impact of any fact-finding process upon the other parties</span>&#160;can also take account of the opportunity costs for the local authority, even if it is the party seeking the investigation, in terms of resources and professional time that might be devoted to other children.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(vii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">The prospects of a fair trial</span>&#160;may also encompass the advantages of a trial now over a trial at a possibly distant and unpredictable future date.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(viii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">The justice of the case</span>&#160;gives the court the opportunity to stand back and ensure that all matters relevant to the overriding objective have been taken into account. One such matter is whether the contested allegation may be investigated within criminal proceedings. Another is the extent of any gulf between the factual basis for the court's decision with or without a fact-finding hearing. The level of seriousness of the disputed allegation may inform this assessment. As I have said, the court must ask itself whether its process will do justice to the reality of the case.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">(ix)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Above all, the court must be satisfied that a fact-finding hearing is </span><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">necessary</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">. </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">This means that the court must be satisfied that the findings, if made, would produce something of importance for the welfare decision.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The amendments I have made to the checklist should help to promote a perception that family law is part of, and not separate from, the general law.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The facts of this case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">IW is VW&#8217;s second child.  Her first child is AW (born on 16 September 2016).  She was the subject of care proceedings in Guildford in 2016 - 2017, which concluded with AW being placed with her father, CC.  In those proceedings, threshold matters included causation of a rib fracture, sustained in late 2016 &#8211; early 2017 and ingestion by AW (then pre-mobile) of dihydrocodeine, a medication prescribed for VW, which resulted in AW becoming profoundly unwell.  A judgment of Recorder Bugg given on 4 September 2017 concluded that, while it could not be said that the dihydrocodeine was administered deliberately, VW had &#8216;somehow committed an act that recklessly endangered AW&#8217;s life&#8217;.  No finding was made as to causation of the rib fracture, in view of the accepted possibility that it could have been caused during CPR.    </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Recorder Bugg noted that VW&#8217;s own childhood was blighted by neglect and abuse, leading to significant mental health difficulties from her adolescence onwards.  Self-harming behaviour began when she was 12 years old. She was diagnosed with borderline personality disorder and &#8216;has spent periods of time admitted to mental health units and has attempted suicide&#8217;.  Her self-harming behaviour and mental health issues worsened during her pregnancy with AW, including, as noted by the Recorder:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;an overdose with paracetamol, cutting herself and, in May 2016, an attempt to commit suicide by jumping onto train tracks.&#8217;  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following AW&#8217;s birth she was admitted to hospital on a number of occasions, with significant episodes of dehydration, vomiting, failure to feed, and failure to thrive. At the same time, VW&#8217;s response to AW was of increasing concern, reporting to relatives, for example: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;I don&#8217;t wanna touch her or hold her or even to be in the same room as her. I thought if I ignored it or just kept doing what I had to it would pass but it&#8217;s just getting worse. I wish I hadn&#8217;t had her and how can I say that I&#8217;m meant to love her unconditionally.  I shouldn&#8217;t feel these things.&#8217;   </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">VW was further hospitalised with self-harming behaviour and mental health issues in late 2016, leading to VW and AW being placed in a residential unit.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In January 2017 AW was repeatedly admitted to hospital and the rib fracture and toxicology testing for dihydrocodeine led to those threshold matters being adjudicated on by the court.  Over and above those two issues, findings were sought as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The mother has a borderline personality disorder as a result of which she has self-harmed on a number of occasions&#8221;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">and</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The mother has been assessed as a medium to high risk to AW&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But those findings were not made. The court did not reject the averments. They just were not dealt with.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As stated above, these proceedings were issued on 26 March 2020.  During the three years between the two sets of proceedings VW was repeatedly admitted to hospital and, on occasions, to periods of detention in hospital under the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref>.  In the proceedings before me she has been assessed by:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Dr Stein (consultant psychiatrist). He has diagnosed VW with Factitious Disorder.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Professor Nathan (consultant psychiatrist). He has opined that VW suffers from a personality disorder with a range of traits, predominantly borderline personality disorder. He records a history of symptoms of anxiety disorder, depressive disorder and PTSD. He notes features of Substance Use Disorder. He considers that there may be possible mild intellectual impairment. He concludes that VW has a condition within the &#8216;somatic syndrome and related disorders&#8217; category and/or malingering although it is not possible to determine the precise nature of it. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Dr Jennings (consultant endocrinologist). He has stated that it is most unlikely VW has Addison&#8217;s disease and that the recurrent hypoglycaemia during pregnancy may have been caused by self-administration of insulin.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The reports, which I have summarised above, are lengthy and detailed, and my summary of them does not do them justice. Suffice to say that they provide an exhaustive analysis and diagnosis of VW&#8217;s physical and mental health problems. That evidence is uncontradicted.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The threshold document sets out in pitiless detail why it is said that VW poses a risk of serious harm to IW were he to be entrusted to her care. In summary it alleges:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">A:<marker name="tab"/>VW has experienced abusive and neglectful parenting throughout her childhood.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">B: <marker name="tab"/>The resulting mental and emotional instability has resulted in an itinerant unstable lifestyle, and emotional and mental health issues.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">C: <marker name="tab"/>VW has extensive, serious and enduring psychiatric, psychological and emotional difficulties. She suffers from: (a) somatic symptom disorder, (b) factitious disorder, and (c) malingering.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">D: <marker name="tab"/>VW has an extensive history of deliberate self-harm spanning from the age of 12.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">E: <marker name="tab"/>Since the age of 13, VW has frequently and repeatedly been detained in secure accommodation.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">F: <marker name="tab"/>VW hoards medication and conceals sharp implements so she can continue to deliberately self-harm, even whilst under hospital care or detention.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">G: <marker name="tab"/>In December 2020 whilst detained under <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref>, VW floridly self-harmed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">H: <marker name="tab"/>From her early teenage years VW has abused alcohol and various illicit substances including cocaine, crystal meth, magic mushrooms, ecstasy, and cannabis.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">I: <marker name="tab"/>VW has an extensive history of presenting at numerous hospitals throughout the country with wide-ranging complaints as reflected in nearly 20,000 pages of medical records.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">J: <marker name="tab"/>VW falsifies signs and symptoms in order to mislead and manipulate medics.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">K: <marker name="tab"/>VW is dependant on opioids.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">L: <marker name="tab"/>On repeated occasions during her pregnancy with IW, VW deliberately and surreptitiously self-administered insulin in order to manipulate her blood sugar levels and thereby factitiously induced a state of hypoglycaemia.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">M:.<marker name="tab"/>VW&#8217;s psychiatric and psychological difficulties and behaviours are enduring, and by virtue of them, any child placed in her care is at risk of serious physical and emotional harm.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">N: <marker name="tab"/>VW&#8217;s first child, AW, was the subject of care proceedings in which it was found that AW&#8217;s life-threatening collapse on the 28 January 2017 was consistent with dihydrocodeine poisoning and that the dihydrocodeine present in AW&#8217;s system was due to VW, who gave dihydrocodeine to AW.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.29in">O:<marker name="tab"/>VW&#8217;s vulnerability and underlying issues have led her to form a series of damaging, controlling, emotionally and, on occasions, physically abusive relationships with men and to place herself at risk.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her witness statement of 15 July 2022 VW made extensive, but far from complete, admissions in relation to the contents of the threshold document. Mr Sampson QC described her admissions as &#8220;anodyne&#8221;. Ms Heaton QC described her admissions as &#8220;vacillation&#8221;, and said that she had &#8220;effectively skirted around or not addressed the central findings sought&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I emphatically reject these descriptions. VW&#8217;s admissions were extensive. She admitted a large number of the concrete facts alleged against her. So, for example, she accepted that she had self harmed by cutting herself; by swallowing razor blades; by overdosing even when in hospital; by tying ligatures around her neck; by threatening to jump off bridges or in front of trains; by self harming in relation to food; by abusing cocaine; and by her extraordinarily high number of hospital attendances. She accepted that from a young age she was involved in abusive relationships. She accepted the findings made by Recorder Bugg. She accepted that she cannot care for IW.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Garrido QC described her admissions as accepting the underlying facts but disputing the professional label. Therefore, while she admits much of the conduct that led the experts to conclude that she suffered from FII, she disputes that diagnosis. In my opinion to have a state trial about professional labelling or nomenclature would be the height of futility.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the <span style="font-style:italic">Stockport</span> case Thorpe J refers to the very considerable emotional and psychological cost to parents in accepting advice that leads to the conclusion of the case without a hearing. I can completely understand VW&#8217;s instinctive reluctance to condemn herself as being a sufferer of mordantly described psychiatric conditions. In my opinion it was brave and sufficient for her to make the admissions that she did in relation to concrete facts. Those concrete facts have been analysed by the experts and they have rendered their diagnostic opinions, which are uncontradicted.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Decision </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">My findings in this case applying the discipline of the checklist (as amended) are as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In my judgment there is no advantage at all to IW in his mother being subjected to the toll of a contested fact-finding hearing. Indeed, I consider that it would be contrary to his interests for that to happen. VW is extraordinarily vulnerable. I judge that the toll of a contested hearing would likely overwhelm her. IW would be likely at some stage in the future to learn that a case about her conduct towards him had led to widespread anguish. I believe that such knowledge would be harmful to IW.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">(I deal with the whole truth factor below.)</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The cost to public funds in having a five day fact-finding hearing in September, with leading counsel and junior counsel for each of the local authority, VW and IW would be, I estimate, around &#163;300,000. This cost, which will fall entirely on the public purse, simply cannot be justified.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The time taken to undertake the fact-finding hearing should be confined to the five days already allowed in September, although one has to anticipate that there could be spillage to a much later date, especially bearing in mind that there are already over 4,200 pages in the bundle.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The relevant evidential result is the result of this case, and no other case. I cannot predict what the relevant evidential result will be. Either way, the ordeal for VW will be considerable.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.98in">(I deal with the different child and perpetrator identification factors below.)</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The future care plans for the child may well have to be reviewed by the local authority if factual findings were made. So, obviously, there is going to be scope for the future care plans for the child to be influenced by the result of such a local authority review. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The consumption by a fact-finding exercise of the local authority&#8217;s resources and professional time that might be devoted to other children, is, in my judgment, strongly relevant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">No legitimate question can arise concerning the fairness of the trial that VW would receive should the fact-finding hearing in September be allowed to proceed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">When surveying the justice of the case&#160;I confirm that I have stood back and rechecked that I have taken into account all relevant matters, including all matters relevant to the implementation of the overriding objective. I am not persuaded that there would be any particularly material &#8220;gulf&#8221; between the facts that would underpin a care order without a fact-finding exercise, and the apprehended factual findings were I to permit the matter to proceed to trial. This exercise is quintessentially conjectural and hypothetical. However, I have taken into account the level of seriousness of the disputed allegations and I have satisfied myself that the process I have ordained does justice to the reality of the case.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fundamentally, I am not persuaded that a fact-finding hearing is <span style="text-decoration-line:underline;text-decoration-style:solid">necessary</span>. During argument I asked Mr Sampson QC: <span style="font-style:italic">cui bono? </span>By which I meant, for whose benefit would a fact-finding judgment accrue? In the <span style="font-style:italic">Oxfordshire </span>case it was foreseeable that the father would apply for direct contact in the future. Plainly, a judgment containing clear factual findings would be highly relevant were such an application to be made. In this case, however, VW will agree to a care order and a placement order being made. It has been suggested that there is a possibility that the VW will apply in the future either for leave to oppose the making of an adoption order under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/47/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 47(5)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref>, or for leave to revoke the placement order under s. 24(2)(a) of the same Act. Each provision requires proof of a change of circumstances since the placement order was made. The change of circumstances must be significant and unexpected. Then the court must go on to make the familiar evaluation whether in the light of such a change of circumstances, and all other relevant facts, the application should be allowed to proceed. At that stage the applicant has to show that there are &#8216;solid&#8217; prospects of success.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is my considered estimation, having regard to (i) the history, (ii) VW&#8217;s admissions, (iii) the terms of the uncontradicted expert evidence, and, above all, (iv) her agreement to the making of the orders, that the probability of VW obtaining leave under either section is very close to zero, and that this spectre can thus be safely ignored.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have held above that the different child purpose is not a legitimate purpose of a fact-finding trial of superfluous un-admitted allegations. If I am wrong about that, I am clear, on the specific facts of this case, that the probability produced by a combination of the likelihood of (i) another child being born to VW, and (ii) care proceedings being initiated in respect of that child, and (iii) findings about VW&#8217;s conduct before 26 March 2020 (now nearly  2&#189; years ago) being material in such proceedings is so small as to rule out this factor as a relevant consideration in the discretionary exercise.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have also held above how the original authorities implicitly reject as relevant the whole truth purpose.  If I am wrong on this point, then I make clear that on the facts of this case I am far from satisfied that a judgment is needed on the un-admitted allegations in order to be able to reveal the whole truth to IW. If (and I emphasise if) there is an advantage to IW in the years ahead coming to understand the whole truth about his adoption, then I do not believe that the interlocutor who chronicles that whole truth will have any difficulty in assembling the story from the existing schedule of admitted allegations, and the 4,200-odd pages of evidence including the uncontradicted expert evidence referred to above. I do not believe that the chronicler needs the assistance of a judgment in order to assemble that story.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Similarly, if I am wrong as to the general irrelevance of the perpetrator identification purpose then on the specific facts of this case it is a completely irrelevant consideration. Taken at its highest, the case that the local authority wishes to prove could not conceivably be for the main purpose of later enabling  the public identification of VW as a child abuser. That is not a relevant factor on the facts of this case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The answer to my question <span style="font-style:italic">cui bono</span> is therefore <span style="font-style:italic">nemo</span>. I am not satisfied that the criterion of necessity is met in this case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That conclusion is reinforced when I introduce into the mix the terms of the overriding objective. In particular, I have regard to the need to be able to allot to the case an appropriate share of the court's resources, while taking into account the need to allot resources to other cases. In my opinion the five days in September would be much more appropriately occupied by dealing with a case where the resolution of factual issues will have a direct bearing on the outcome of the proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The result is all one way. In my judgment it would be a deplorable waste of valuable resources for the un-admitted allegations to be formally adjudicated in a state trial. I cannot see any upside to allowing this to proceed; by contrast I can see (and have seen) huge downsides. The downsides include the unquestionable toll that the process would take on VW. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For these reasons, I am satisfied that the proposal to conduct a fact-finding hearing in relation to the un-admitted matters cannot be justified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, I observe that on 14 February 2022 IW&#8217;s Guardian made an application to reopen the findings made by Recorder Bugg in relation to AW. On 27 May 2022 the Guardian limited the application to the finding about dihydrocodeine. On 29 May 2022 Her Honour Judge Marson dismissed the application. Over the following weekend she prepared a lengthy and, if I might respectfully say so, impeccable judgment giving her reasons. At [113] she held:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;I have not been persuaded it is necessary to relitigate the dihydrocodeine finding to dispose of the proceedings which relate to IW.&#8221;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">And at [115]:</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;I am persuaded it is disproportionate to the issues which are now in dispute in this case to reopen historic findings or to delay again to obtain further expert opinion. Neither parent is actively pursuing the return of IW to their care or opposing his final care plan of adoption.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have deliberately not allowed Her Honour Judge Marson&#8217;s reasoning to influence the formation of my own views. However, I have been pleased to note, on reading it after I had formed my views,  that we have reached the same destination, applying the same principles virtually identically.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I therefore direct that the five-day fixture on 5 September 2022 be reduced to one hour and that on that occasion the court shall make a care order and placement order without opposition from the parents. There shall be no further forensic investigation into the un-admitted allegations.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:center;margin-left:0.5in">_______________________________</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,614 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/493"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/493"/>
+	  <FRBRdate date="2024-03-06" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="493"/>
+	  <FRBRname value="SM (Deprivation of Liberty; Severely Disabled Child), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/493"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/493"/>
+	  <FRBRdate date="2024-03-06" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/493/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/493/data.xml"/>
+	  <FRBRdate date="2024-03-06T11:43:19" name="transform"/>
+	  <FRBRdate date="2024-11-26T09:15:05" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-03-06" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="peterborough-city-council" href="" showAs="PETERBOROUGH CITY COUNCIL"/>
+	<TLCPerson eId="mother" href="" showAs="MOTHER"/>
+	<TLCPerson eId="father" href="" showAs="FATHER"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-lieven" href="/judge-mrs-justice-lieven" showAs="MRS JUSTICE LIEVEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>493</uk:number>
+	<uk:cite>[2024] EWHC 493 (Fam)</uk:cite>
+	<uk:parser>0.23.0</uk:parser>
+	<uk:hash>31580ab2e98035c23863b29aeae6164a79ac2eacd1c353b8a48d51fa311a0648</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2024] EWHC 493 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD24C40113</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-03-06" refersTo="#judgment">06/03/2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-lieven">MRS JUSTICE LIEVEN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <p style="text-align:center"><party as="#applicant" refersTo="#peterborough-city-council" style="font-weight:bold">PETERBOROUGH CITY COUNCIL</party></p>
+      <p style="text-align:right"><role refersTo="#applicant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Applicant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#mother" style="font-weight:bold">MOTHER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">First Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#father" style="font-weight:bold">FATHER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Second Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">SM</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">(a child, through the Children&#8217;s Guardian)</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Third Respondent</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Christi Scarborough </span>(instructed by<span style="font-weight:bold"> Peterborough City Council</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The First Respondent represented herself</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Second Respondent </span>did not attend and was<span style="font-weight:bold"> not represented</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Kerry Avis</span> (instructed by <span style="font-weight:bold">Family Law Group</span>) for the <span style="font-weight:bold">Third Respondent</span></p>
+      <p style="text-align:center">Hearing dates: <span style="font-weight:bold">20 February 2024</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 6 March 2024 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MRS JUSTICE LIEVEN</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify">This judgment was delivered in private. The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media and legal bloggers, must ensure that this condition is strictly complied with.   Failure to do so may be a contempt of court.</p>
+	    <p><span style="font-weight:bold">Mrs Justice Lieven DBE :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is an application by Peterborough City Council, the Local Authority (&#8220;LA&#8221;), for a deprivation of liberty order (&#8220;DoLs order&#8221;) in respect of SM. The case raises an important issue about the requirement for such an order in the case of a very severely disabled child, such as SM.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The LA was represented by Christi Scarborough and the Guardian was represented by Kerry Avis. I am very grateful to both of them for their assistance. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">SM is a 12 year old girl with profound and enduring disabilities. She was diagnosed with Lissencephaly at 5 months old. She also has epilepsy, global development delay and scoliosis. She is non-mobile and non-verbal and she is fed via a gastrojejunal button. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In practical terms SM cannot leave her bed of her own volition, and according to her Mother does not like sitting up.  Her only body control is to be able to push her hands away and to wriggle and roll from side to side. She is moved by her carers from the bed to the floor, which according to her Mother she enjoys.  She cannot communicate in any form and does not understand language. It is difficult to assess her cognitive functioning, but her Mother described her responding like a child of a few months. She does respond to stimuli, and for those who know her well it is possible to tell whether she is responding positively or negatively. All her care needs are met by carers.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">SM was made subject to a final care order on 29 October 2022 and lives with foster carers who provide her with a high quality of care. It was clear to me that her Mother is very devoted to SM and wishes the best for her. I emphasised during the hearing that the issues before me have nothing to do with the quality of her care, and the support SM gets will not change by reason of any order I do or do not make.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The LA applied for a DoLs order to the DoLs List of the High Court. HHJ Barlow was concerned as to whether this was an appropriate case for a DoLs order and the matter was therefore listed before me. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">7.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The LA seek the following &#8220;restrictions&#8221; in the Order:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>&#8220;a.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in">SM is supervised 1:1 in the home at all times either by a physically present person or by remote live only video feed;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>b.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in">SM is moved by her carers as appears reasonable or necessary to meet her welfare needs;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>c.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in">SM&#8217;s feeding and administration of medicine is managed by her carers through her gastrojejeunal button as appears reasonable or necessary to meet her welfare needs;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>d.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in">SM is dressed and undressed, washed and her needs arising from her incontinence are managed as appears reasonable or necessary to meet her welfare needs;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>e.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in">SM&#8217;s bed has bars on the side to prevent her moving while in bed so as to fall and injure herself;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>f.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in">SM is supported outside of the home at all times, with up to 2:1 supervision to ensure her safety and ability to mobilise as appears reasonable or necessary to meet her welfare needs;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>g.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in">External doors to the property are kept locked for the purpose of ensuring the integrity and security of SM&#8217;s home.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Quite apart from the overarching issue as to whether SM should be subject to a DoLs order at all, there are a number of aspects of the above restrictions which do not amount to a deprivation of liberty. In my view (a), (b), (c), (d) and (e) are on any analysis part of her care provision, and not actions which deprive her of her liberty. This would be the case whether or not SM was severely disabled. It is important that the &#8220;mission creep&#8221; that seems to have set into the DoLs applications to the High Court. There are many aspects of care which may intrude on an individual&#8217;s privacy and autonomy, and which may interfere, albeit with justification, into the scope of Article 8. But they are not interferences with the right to liberty enshrined in Article 8. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Guardian opposes the making of a DoLs order on the grounds that is not necessary on the facts of SM&#8217;s case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">DoLs orders have become a depressingly common matter in the Family Division of the Family Court. Over the period of 12 months something in the region of 1700 such orders have been made. The exponential growth in these orders has been referred to in numerous cases in the High Court, Court of Appeal and Supreme Court, see <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re T (A Child)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/2136" uk:canonical="[2021] UKSC 2136" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 2136</ref>. The enormous expansion of this area of law can be traced to two factors. Firstly, the caselaw, in particular the judgment of the Supreme Court in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West v P</span> <ref href="#" uk:canonical="[2014] AC 896" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] AC 896</ref>; and secondly the severe shortage of places in secure accommodation units, see <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re T</span>. The present case does not concern the problem of the shortage of places. It is a product of the decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span> and the approach that has been taken to potential prospective breaches of Article 5 European Convention on Human Rights (&#8220;ECHR&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">11.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Article 5(1) states:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">&#8220;</span><span style="font-style:italic;font-weight:bold">ARTICLE 5 Right to liberty and security</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">Everyone has the right to liberty and security of person. No one shall be deprived of his liberty save in the following cases and in accordance with a procedure prescribed by law:&#8230;&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Strasbourg caselaw back to <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Engel v The Netherlands</span> (1976) EHRR 647 has referred to the Article being concerned with liberty <span style="font-style:italic">&#8220;in its classic sense, that is to say the physical liberty of the person&#8221;, </span>see <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Engel</span> at [58].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">13.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">HL v United Kingdom</span> [2004] 40 EHRR 32 the European Court of Human Rights (&#8220;ECtHR&#8221;) was concerned with a patient who was considered to be deprived of his liberty even though he was apparently compliant with the restrictions imposed upon him. The test applied at [89] to [91] was:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">&#8220;89.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">It is not disputed that in order to determine whether there has been a deprivation of liberty, </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">the starting-point must be the specific situation of the individual concerned and account must be taken of a whole range of factors arising in a particular case such as the type, duration, effects and manner of implementation of the measure in question</span><span style="font-style:italic">. The distinction between a deprivation of, and restriction upon, liberty is merely one of degree or intensity and not one of nature or substance (Guzzardi v. Italy judgment of 6 November 1980, Series A no. 39, &#167; 92 and the above-cited Ashingdane judgment, at &#167; 41).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">90.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">The Court observes that the High Court and the majority of the House of Lords found that the applicant had not been detained during this period while the Court of Appeal and a minority of the House of Lords found that he had. Although this Court will have regard to the domestic courts' related findings of fact, it does not consider itself constrained by their legal conclusions as to whether the applicant was detained or not, not least because the House of Lords considered the question from the point of view of the tort of false imprisonment (see paragraph 39 above) rather than the Convention concept of &#8220;deprivation of liberty&#8221; in Article 5 &#167; 1, the criteria for assessing those domestic and Convention issues being different.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">In this latter respect, considerable emphasis was placed by the domestic courts, and by the Government, on the fact that the applicant was compliant and never attempted, or expressed the wish, to leave. The majority of the House of Lords specifically distinguished actual restraint of a person (which would amount to false imprisonment) and restraint which was conditional upon his seeking to leave (which would not constitute false imprisonment). The Court does not consider such a distinction to be of central importance under the Convention. Nor, for the same reason, can the Court accept as determinative the fact relied on by the Government that the regime applied to the applicant (as a compliant incapacitated patient) did not materially differ from that applied to a person who had the capacity to consent to hospital treatment, neither objecting to their admission to hospital. The Court recalls that the right to liberty is too important in a democratic society for a person to lose the benefit of Convention protection for the single reason that he may have given himself up to be taken into detention (De Wilde, Ooms and Versyp v. Belgium (judgment of 18 June 1971, Series A no. 12, &#167;&#167; 64-65), especially when it is not disputed that that person is legally incapable of consenting to, or disagreeing with, the proposed action.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">91.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">Turning therefore to the concrete situation as required by the Ashingdane judgment, the Court considers the key factor in the present case to be that the health care professionals treating and managing the applicant exercised complete and effective control over his care and movements from the moment he presented acute behavioural problems on 22 July 1997 to the date he was compulsorily detained on 29 October 1997.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in">[emphasis added]</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I note in [89] the reference to the specific situation of the individual concerned. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">15.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Storck v Germany</span> [2005] 43 EHRR 6 the ECtHR set out three components that must be present for there having been a deprivation of liberty for the purposes of Art 5(1) of the Convention:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">An objective component of confinement in a particular restricted place for a not negligible length of time.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A subjective component of lack of valid consent.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The attribution of responsibility to the State.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Stanev v Bulgaria</span> [2012] 55 EHRR 696 the ECtHR, at [115] to [119], made it entirely clear that the fact that the fact that someone was voluntarily accepting the relevant restriction, when they did not have capacity, did not mean that Article 5 did not apply:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">&#8220;115.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">The Court reiterates that the difference between deprivation of liberty and restrictions on liberty of movement, the latter being governed by Article 2 of Protocol No. 4, is merely one of degree or intensity, and not one of nature or substance. Although the process of classification into one or other of these categories sometimes proves to be no easy task in that some borderline cases are a matter of pure opinion, the Court cannot avoid making the selection upon which the applicability or inapplicability of Article 5 depends (see Guzzardi v. Italy, 6 November 1980, &#167;&#167; 92-93, Series A no. 39). In order to determine whether someone has been deprived of his liberty, the starting-point must be his specific situation and account must be taken of a whole range of factors such as the type, duration, effects and manner of implementation of the measure in question (see Storck, cited above, &#167; 71, and Guzzardi, cited above, &#167; 92).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">116.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">In the context of deprivation of liberty on mental-health grounds, the Court has held that a person could be regarded as having been &#8220;detained&#8221; even during a period when he was in an open hospital ward with regular unescorted access to the unsecured hospital grounds and the possibility of unescorted leave outside the hospital (see Ashingdane v. the United Kingdom, 28 May 1985, &#167; 42, Series A no. 93).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">117.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">Furthermore, in relation to the placement of mentally disordered persons in an institution, the Court has held that the notion of deprivation of liberty does not only comprise the objective element of a person&#8217;s confinement in a particular restricted space for a not negligible length of time. A person can only be considered to have been deprived of his liberty if, as an additional subjective element, he has not validly consented to the confinement in question (see Storck, cited above, &#167; 74).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">118.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">The Court has found that there was a deprivation of liberty in circumstances such as the following: (a) where the applicant, who had been declared legally incapable and admitted to a psychiatric hospital at his legal representative&#8217;s request, had unsuccessfully attempted to leave the hospital (see Shtukaturov v. Russia, no. 44009/05, &#167; 108, ECHR 2008); (b) where the applicant had initially consented to her admission to a clinic but had subsequently attempted to escape (see Storck, cited above, &#167; 76); and (c) where the applicant was an adult incapable of giving his consent to admission to a psychiatric institution which, nonetheless, he had never attempted to leave (see H.L. v. the United Kingdom, no. 45508/99, &#167;&#167; 89-94, ECHR 2004-IX).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">119.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">The Court has also held that the right to liberty is too important in a democratic society for a person to lose the benefit of Convention protection for the single reason that he may have given himself up to be taken into detention (see De Wilde, Ooms and Versyp v. Belgium, 18 June 1971, &#167;&#167; 64&#8209;65, Series A no. 12), especially when it is not disputed that that person is legally incapable of consenting to, or disagreeing with, the proposed action (see H.L. v. the United Kingdom, cited above, &#167; 90).&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span> the Supreme Court was concerned with two sisters aged 15 and 16, referred to in the judgment as MIG and MEG. MIG had a learning disability, communication difficulties and needed help crossing the road because she was unaware of danger. MEG was less severely disabled but had autistic traits and could exhibit challenging behaviour, see [11]. MEG had continuous supervision and control, and showed no wish to go out on her own, and thus did not need to be prevented from doing so, [14]. In the second case, P was a 38 year old man with cerebral palsy and Downs Syndrome, who lived in a house, though not a care home, see [17]. He could walk short distances, but for further distances needed a wheelchair. The issue was whether he was deprived of his liberty.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Supreme Court found that there was a deprivation of liberty in all the cases, by a majority, with Lords Neuberger, Kerr, Sumption and Lady Hale in the majority. Lady Hale gave the lead judgment, with which Lord Sumption agreed. Lord Neuberger gave a concurring judgment, but expressly said at [59] that he agreed with Lady Hale. Lord Kerr also gave a concurring judgment and said he agreed with Lady Hale and Lord Neuberger, see [75], but on one point as I explain below went further than any of the other Justices. Lords Carnwath, Hodge and Clarke dissented. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">19.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lady Hale considered the European authorities and then said at [45]-[46]:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">&#8220;45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">In my view, it is axiomatic that people with disabilities, both mental and physical, have the same human rights as the rest of the human race. It may be that those rights have sometimes to be limited or restricted because of their disabilities, but the starting point should be the same as that for everyone else. This flows inexorably from the universal character of human rights, founded on the inherent dignity of all human beings, and is confirmed in the United Nations Convention on the Rights of Persons with Disabilities . Far from disability entitling the state to deny such people human rights: rather it places upon the state (and upon others) the duty to make reasonable accommodation to cater for the special needs of those with disabilities.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">Those rights include the right to physical liberty, which is guaranteed by article 5 of the European Convention . This is not a right to do or to go where one pleases. It is a more focussed right, not to be deprived of that physical liberty. But, as it seems to me, what it means to be deprived of liberty must be the same for everyone, whether or not they have physical or mental disabilities. If it would be a deprivation of my liberty to be obliged to live in a particular place, subject to constant monitoring and control, only allowed out with close supervision, and unable to move away without permission even if such an opportunity became available, then it must also be a deprivation of the liberty of a disabled person. The fact that my living arrangements are comfortable, and indeed make my life as enjoyable as it could possibly be, should make no difference. A gilded cage is still a cage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">For that reason, I would reject the &#8220;relative normality&#8221; approach of the Court of Appeal in the case of P <ref href="#" uk:canonical="[2012] PTSR 1447" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] PTSR 1447</ref>, where the life which P was leading was compared with the life which another person with his disabilities might be leading. &#8230;&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in">I note that Lord Carnwath, in his dissenting judgment at [94], viewed [46] as the ratio of the case.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">20.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In [48] she said:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">&#8220;&#8230; But these cases are not about the distinction between a restriction on freedom of movement and the deprivation of liberty. P, </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">MIG and MEG are, for perfectly understandable reasons, not free to go anywhere without permission and close supervision.</span><span style="font-style:italic"> So what are the particular features of their &#8220;concrete situation&#8221; on which we need to focus?&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in">[emphasis added]</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">21.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">And at [49]:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">&#8220;The answer, as it seems to me, lies in those features which have consistently been regarded as &#8220;key&#8221; in the jurisprudence which started with HL v United Kingdom 40 EHRR 761 : that the person concerned &#8220;was under continuous supervision and control and was not free to leave&#8221; (para 91). I would not go so far as Mr Gordon, who argues that the supervision and control is relevant only insofar as it demonstrates that the person is not free to leave. A person might be under constant supervision and control but still be free to leave should he express the desire so to do. Conversely, it is possible to imagine situations in which a person is not free to leave but is not under such continuous supervision and control as to lead to the conclusion that he was deprived of his liberty. Indeed, that could be the explanation for the doubts expressed in Haidn v Germany .&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">22.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lord Neuberger agreed with Lady Hale and Lord Kerr and said at [63]:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">&#8220;In agreement with Lady Hale, I consider that the Strasbourg court decisions do indicate that the twin features of continuous supervision and control and lack of freedom to leave are the essential ingredients of deprivation of liberty (in addition to the area and period of confinement). &#8230;&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">23.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lord Kerr addressed the question of whether someone was &#8220;restricted&#8221; at [76] to [78]:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">&#8220;76.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">While there is a subjective element in the exercise of ascertaining whether one's liberty has been restricted, this is to be determined primarily on an objective basis. Restriction or deprivation of liberty is not solely dependent on the reaction or acquiescence of the person whose liberty has been curtailed. Her or his contentment with the conditions in which she finds herself does not determine whether she is restricted in her liberty</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">. Liberty means the state or condition of being free from external constraint. It is predominantly an objective state. It does not depend on one's disposition to exploit one's freedom. Nor is it diminished by one's lack of capacity.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">77.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">The question whether one is restricted (as a matter of actuality) is determined by comparing the extent of your actual freedom with someone of your age and station whose freedom is not limited. Thus a teenager of the same age and familial background as MIG and MEG is the relevant comparator for them</span><span style="font-style:italic">. If one compares their state with a person of similar age and full capacity it is clear that their liberty is in fact circumscribed. They may not be conscious, much less resentful, of the constraint but, objectively, limitations on their freedom are in place.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">78.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">All children are (or should be) subject to some level of restraint. This adjusts with their maturation and change in circumstances. If MIG and MEG had the same freedom from constraint as would any child or young person of similar age, their liberty would not be restricted, whatever their level of disability. As a matter of objective fact, however, constraints beyond those which apply to young people of full ability are &#8211; and have to be &#8211; applied to them. There is therefore a restriction of liberty in their cases. Because the restriction of liberty is &#8211; and must remain &#8211; a constant feature of their lives, the restriction amounts to a deprivation of liberty.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in">[emphasis added]</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ratio of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span> is therefore that for there to be a deprivation of liberty the individual must be under constant supervision and control, and not be free to leave. The test that Lord Kerr sets out at [78] that the child should be compared to someone of the same age is not a separate test adopted by the majority of the Supreme Court. The dissenting judgments (Lord Carnwath and Lord Hodge, and Lord Clarke in a separate judgment) largely focused on the need to consider the &#8220;concrete situation&#8221; and the fact that the individuals had no wish to leave and were living in a &#8220;domestic setting&#8221;, see [98]. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is not straightforward, certainly in the more complex cases, to apply Lord Kerr&#8217;s approach in a meaningful manner. Firstly, assuming that one should compare SM with someone of &#8220;her age and station&#8221; is a difficult exercise with a child. There is no paradigm 12 year old who can be assumed to have a particular level of maturity, and therefore subject to a particular level of restraint and control. Secondly, and more fundamentally, it is a wholly unreal exercise to compare SM with another 12 year old. To the degree that such comparisons are useful, she functions cognitively in a way comparable to a baby of a few months in age and therefore, on the facts, that would be a much more useful comparator. Lord Kerr was simply not addressing the type of facts, and thus the legal issue, that therefore arises in this case. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Scarborough submits that SM is deprived of her liberty, and therefore a DoLs order is required. She points out that SM is not free to leave the property of her own will, and that an ordinary 12 year old might be expected to have some liberty to come and go. SM must stay where she is &#8220;whether she wants to or not&#8221;. Her movements are entirely controlled by third parties as she cannot move on her own. This is a substantial interference with individual liberty, albeit that intervention is both benevolent and highly beneficial to her. She relies on what was said by MacDonald J in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Manchester City Council v CP</span> [2023] EWHC 133 at [26]. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She submits that SM meets the three <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span> tests because she cannot consent to her own confinement; she is subject to continuous supervision and control; and she is not free to leave. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her oral submissions Ms Scarborough emphasised the importance of not discriminating against disabled people by applying different standards to them in relation to the rest of the population. She asserts that the &#8220;level of disability&#8221; is not relevant to whether there is a deprivation of liberty. The fact that SM has no volition, or free will, is again irrelevant to the legal issue. Her foster carers are acting as agents of the state and are exercising complete control over her physical liberty. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Avis told me that the Guardian had not reached a concluded view, but raised significant questions about whether there was a deprivation of liberty here, and as to the wider implications of the argument. She suggested that it was questionable whether the consequences of SM&#8217;s care and treatment was a deprivation of liberty imputable to the State, or rather arose out of SM&#8217;s own physical and mental disabilities. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She pointed to [79] of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span> where Lord Kerr spoke of the comparator being <span style="font-style:italic">&#8220;children of their own age and relative maturity who are free from disability&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is a case where the LA&#8217;s application takes the principles set out in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West </span>to a logical but extreme conclusion that, in my view, defies common sense and is not required by the terms of the Supreme Court decision. It is important to note that <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span> was concerned with the three individuals&#8217; inability to consent to the deprivation of their liberty, and their apparent compliance with the restraints placed upon them. They were all physically capable of leaving the property, and would have been stopped if they had tried to do so. That is not the facts of the present case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The argument was that by reason of their compliance, and the benevolent nature of their care, they were not deprived of their liberty within the meaning of Article 5. The Supreme Court found that they had been deprived of their liberty.  Given the issue before the Supreme Court, the ratio was that a disabled person is deprived of their liberty even if they are wholly compliant with the regime imposed upon them. I note that Lord Carnwath was concerned that Lady Hale was seeking to lay down a universal test, rather than consider the facts of the specific case, see [94]. However, it is clear from the Strasbourg caselaw that the question of whether an individual is deprived of their liberty must always involve a fact specific consideration, see <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Engel</span> and all subsequent cases. The tests being applied are applied to everyone, but the answer may differ depending on the circumstances of the individual. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The test for whether there is a deprivation of liberty adopted in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span> was whether the individual was under constant supervision and control and not free to leave.  It was axiomatic that they were not free to leave because of some action (or inaction) of the State.  <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span> does not deal with the situation of a child such as SM who is incapable of &#8220;leaving&#8221; because of a combination of her physical and mental disabilities, not by reason of any restraints placed upon her. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Both Counsel said that their researches had not found any case, whether in Strasbourg or the UK Courts, where a court had found a deprivation of liberty in circumstances similar or analogous to those of SM. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are a number of different ways of explaining why SM is not deprived of her liberty in breach of Article 5, but they all come down to focusing on the reason why she cannot leave where she is living. That reason is her profound disabilities, not any action of the State, whether by restraining her or by failing to meet the State&#8217;s positive obligations to enable her to leave. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fundamental to a breach of Article 5 is a deprivation of liberty attributable to the State, whether by negative or positive action. Often this will involve putting in place restrictions, such as locked doors or windows; or physically restraining the individual. However, the action to prevent someone leaving could be purely verbal or indeed psychological, which often will involve &#8220;close supervision and control&#8221;.  In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span> the facts suggest that there was little physical restraint, but the nature of the supervision was such that the individuals knew they were not allowed to leave and would be prevented if they tried to do so. So simply telling someone that they are not allowed to leave, may be sufficient to amount to a deprivation of liberty. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Scarborough placed much focus on the test of &#8220;close supervision and control&#8221; and submitted that applied to SM and amounted to a deprivation of her liberty. She referred to the fact that SM was under constant supervision, and virtually all physical movements were controlled by her carers. In my view that is to confuse two things. SM is undoubtedly under close supervision and control, but that is not in order to prevent her leaving. The close supervision is to meet her care needs. It does not need to be, and is not, for the purpose of preventing her leaving, because she is wholly incapable of leaving, both because of physical inability but also because she is unable to form any desire or intent to leave. It is simply not a concept of which she has any consciousness. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On a conceptual level it is difficult to see how one can be deprived of something that one is incapable of doing. Equally, how can one be deprived of a right that one is incapable of exercising, not through the actions of the State or any third party, but by reason of ones own insuperable inabilities. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span> the Supreme Court, particularly in the speeches of Lady Hale and Lord Kerr, were concerned to protect and facilitate the rights of disabled people. There will be many instances where a disabled person cannot do something through their own volition, by reason of their disability, but could do it with appropriate support. An obvious example is a disabled person who cannot move without a wheelchair, and therefore cannot leave the property without assistance. It is easy to see that that person may be deprived of their liberty because they are not free to leave, even though they need third party help in order to leave. In that situation the State may be under an obligation to assist the person in leaving, and failing to do so might amount to a breach of Article 5.  Equally, there will be people with mental disabilities, who may not assert their right to liberty, but are restrained by being told that they are not allowed to leave. Those are the type of situations which were in contemplation in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, that is a wholly different situation from that of SM. She is both physically incapable of exercising her right to liberty, and mentally incapable of asserting it. In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span> at [76]-[77] Lord Kerr focused on the &#8220;objective element&#8221; and suggested a comparison with a child of the same age &#8220;and station&#8221;. It is not entirely clear quite what he meant by this.  I note, however, that neither Lady Hale nor Lord Neuberger adopted the argument that the comparison must simply be a child of the same age and station. Lady Hale at [46] rather relied on the key tests of close supervision and not being free to leave. Lord Neuberger at [63] adopted the same words as Lady Hale. Therefore the binding ratio of the case is the test of close supervision and not being free to leave, rather than necessarily comparing SM with a non-disabled 12 year old. In many, indeed most cases, such a comparison will be very useful, and the approach has been applied in many subsequent cases as an appropriate exercise, never so far I am aware on facts similar to SM&#8217;s. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have said, the approach of comparing SM with a non-disabled 12 year old, as an &#8220;objective&#8221; analysis, is a wholly unreal exercise, and one that leads to a nonsensical result. Ms Scarborough submitted that not finding SM was deprived of her liberty would involve discriminating against her as a disabled person. To some degree this was the concern of the majority in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span>. The Court emphasised the universal quality of the rights granted by the ECHR, see [36]. This was not however a legal argument of unlawful discrimination under Article 14, as opposed to a general concern to protect the rights and interests of disabled people.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">42.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Such a legal analysis under Article 14 ECHR suggests that there is no arguable discrimination. In order for there to be a breach of Article 14 it is necessary for there to be different treatment between people in a relevantly similar situation for the purposes of the decision or matter in question. In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">R (SC) v Secretary of State for Work and Pensions</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/26" uk:canonical="[2021] UKSC 26" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 26</ref> at [59] Lord Reed said:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">&#8220;It is also necessary to bear in mind that not all differences in treatment are relevant for the purposes of article 14. The difference is only relevant, for the purpose of assessing whether there has been discrimination, if the claimant is comparing himself with others who are in a relevantly similar situation. An assessment of whether situations are &#8220;relevantly&#8221; similar generally depends on whether there is a material difference between them as regards the aims of the measure in question&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The able bodied 12 year old is plainly not an appropriate comparator because there is a material difference between them and SM as regards the matter in question, here the constant control and supervision. There may be good reason to apply a strict approach to Article 5 in respect of disabled people given the fundamental importance of protecting liberty. However, a discrimination argument does not, certainly on the facts of SM&#8217;s case, progress the analysis.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The need to ensure the universal applicability of Convention rights is central to the analysis in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cheshire West</span>, and how the term &#8220;deprivation of liberty&#8221; is defined. However, that does not mean that where the facts show overwhelmingly that the State is not depriving someone of their liberty the universal quality of the right force the Court to a conclusion that defies the facts and commonsense.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For these reasons, I find there is no deprivation of SM&#8217;s liberty within the meaning of Article 5 ECHR and I therefore refuse the application. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

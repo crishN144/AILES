@@ -1,0 +1,2041 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2024/19"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2024/19"/>
+	  <FRBRdate date="2024-03-20" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="19"/>
+	  <FRBRname value="A (Covert Medication: Residence), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2024/19"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2024/19"/>
+	  <FRBRdate date="2024-03-20" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2024/19/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2024/19/data.xml"/>
+	  <FRBRdate date="2024-11-26T19:00:40" name="transform"/>
+	  <FRBRdate date="2024-11-30T15:05:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-03-20" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewcop" href="https://www.gov.uk/courts-tribunals/court-of-protection" showAs="The Court of Protection"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A LOCAL AUTHORITY"/>
+	<TLCPerson eId="a" href="" showAs="A"/>
+	<TLCPerson eId="b" href="" showAs="B"/>
+	<TLCPerson eId="the-hospital-trust" href="" showAs="THE HOSPITAL TRUST"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-poole" href="/judge-mr-justice-poole" showAs="MR JUSTICE POOLE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCOP</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>19</uk:number>
+	<uk:cite>[2024] EWCOP 19</uk:cite>
+	<uk:parser>0.26.14</uk:parser>
+	<uk:hash>396dd161b2c3f5d787a17bfe49e49b38a77066f3846f1e08c81f271dc045980c</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 13pt; color: #2E74B5; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2E74B5; }
+#judgment .Heading5 { font-size: 12pt; color: #2E74B5; }
+#judgment .Heading6 { font-size: 12pt; color: #1F4D78; }
+#judgment .Heading7 { font-style: italic; font-size: 12pt; color: #1F4D78; }
+#judgment .Heading8 { font-size: 10.5pt; color: #272727; }
+#judgment .Heading9 { font-style: italic; font-size: 10.5pt; color: #272727; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .MainHeading { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Subheading { font-style: italic; font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Bibliography { font-size: 12pt; }
+#judgment .BlockText { margin-left: 0.8in; margin-right: 0.8in; font-style: italic; font-size: 12pt; color: #5B9BD5; }
+#judgment .BodyText { font-size: 12pt; }
+#judgment .BodyText2 { font-size: 12pt; }
+#judgment .BodyText3 { font-size: 8pt; }
+#judgment .BodyTextFirstIndent { font-size: 12pt; }
+#judgment .BodyTextIndent { margin-left: 0.2in; font-size: 12pt; }
+#judgment .BodyTextFirstIndent2 { margin-left: 0.25in; font-size: 12pt; }
+#judgment .BodyTextIndent2 { margin-left: 0.2in; font-size: 12pt; }
+#judgment .BodyTextIndent3 { margin-left: 0.2in; font-size: 8pt; }
+#judgment .Caption { font-style: italic; font-size: 9pt; color: #44546A; }
+#judgment .Closing { margin-left: 2.95in; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Date { font-size: 12pt; }
+#judgment .DocumentMap { font-family: 'Segoe UI'; font-size: 8pt; }
+#judgment .E-mailSignature { font-size: 12pt; }
+#judgment .EndnoteText { font-size: 10pt; }
+#judgment .EnvelopeAddress { margin-left: 2in; font-size: 12pt; }
+#judgment .EnvelopeReturn { font-size: 10pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .HTMLAddress { font-style: italic; font-size: 12pt; }
+#judgment .HTMLPreformatted { font-family: Consolas; font-size: 10pt; }
+#judgment .Index1 { margin-left: 0.17in; font-size: 12pt; }
+#judgment .Index2 { margin-left: 0.33in; font-size: 12pt; }
+#judgment .Index3 { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Index4 { margin-left: 0.67in; font-size: 12pt; }
+#judgment .Index5 { margin-left: 0.83in; font-size: 12pt; }
+#judgment .Index6 { margin-left: 1in; font-size: 12pt; }
+#judgment .Index7 { margin-left: 1.17in; font-size: 12pt; }
+#judgment .Index8 { margin-left: 1.33in; font-size: 12pt; }
+#judgment .Index9 { margin-left: 1.5in; font-size: 12pt; }
+#judgment .IndexHeading { font-weight: bold; font-size: 12pt; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-size: 12pt; color: #5B9BD5; }
+#judgment .List { margin-left: 0.2in; font-size: 12pt; }
+#judgment .List2 { margin-left: 0.39in; font-size: 12pt; }
+#judgment .List3 { margin-left: 0.59in; font-size: 12pt; }
+#judgment .List4 { margin-left: 0.79in; font-size: 12pt; }
+#judgment .List5 { margin-left: 0.98in; font-size: 12pt; }
+#judgment .ListBullet { margin-left: 0.25in; font-size: 12pt; }
+#judgment .ListBullet2 { margin-left: 0.45in; font-size: 12pt; }
+#judgment .ListBullet3 { margin-left: 0.64in; font-size: 12pt; }
+#judgment .ListBullet4 { margin-left: 0.84in; font-size: 12pt; }
+#judgment .ListBullet5 { margin-left: 1.04in; font-size: 12pt; }
+#judgment .ListContinue { margin-left: 0.2in; font-size: 12pt; }
+#judgment .ListContinue2 { margin-left: 0.39in; font-size: 12pt; }
+#judgment .ListContinue3 { margin-left: 0.59in; font-size: 12pt; }
+#judgment .ListContinue4 { margin-left: 0.79in; font-size: 12pt; }
+#judgment .ListContinue5 { margin-left: 0.98in; font-size: 12pt; }
+#judgment .ListNumber { margin-left: 0.25in; font-size: 12pt; }
+#judgment .ListNumber2 { margin-left: 0.45in; font-size: 12pt; }
+#judgment .ListNumber3 { margin-left: 0.64in; font-size: 12pt; }
+#judgment .ListNumber4 { margin-left: 0.84in; font-size: 12pt; }
+#judgment .ListNumber5 { margin-left: 1.04in; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .MacroText { font-family: Consolas; }
+#judgment .MessageHeader { margin-left: 0.79in; font-size: 12pt; }
+#judgment .NoSpacing { font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .NormalIndent { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NoteHeading { font-size: 12pt; }
+#judgment .PlainText { font-family: Consolas; font-size: 10.5pt; }
+#judgment .Salutation { font-size: 12pt; }
+#judgment .Signature { margin-left: 2.95in; font-size: 12pt; }
+#judgment .Subtitle { font-size: 11pt; color: #5A5A5A; }
+#judgment .TableofAuthorities { margin-left: 0.17in; font-size: 12pt; }
+#judgment .TableofFigures { font-size: 12pt; }
+#judgment .TOAHeading { font-weight: bold; font-size: 12pt; }
+#judgment .TOC1 { font-size: 12pt; }
+#judgment .TOC2 { margin-left: 0.17in; font-size: 12pt; }
+#judgment .TOC3 { margin-left: 0.33in; font-size: 12pt; }
+#judgment .TOC4 { margin-left: 0.5in; font-size: 12pt; }
+#judgment .TOC5 { margin-left: 0.67in; font-size: 12pt; }
+#judgment .TOC6 { margin-left: 0.83in; font-size: 12pt; }
+#judgment .TOC7 { margin-left: 1in; font-size: 12pt; }
+#judgment .TOC8 { margin-left: 1.17in; font-size: 12pt; }
+#judgment .TOC9 { margin-left: 1.33in; font-size: 12pt; }
+#judgment .TOCHeading { font-weight: normal; font-size: 16pt; color: #2E74B5; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ParaLevel1Char { font-size: 12pt; }
+#judgment .MainHeadingChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeadingChar { font-size: 12pt; }
+#judgment .SubheadingChar { font-style: italic; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Heading2Char { font-size: 13pt; color: #2E74B5; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2E74B5; }
+#judgment .Heading5Char { font-size: 12pt; color: #2E74B5; }
+#judgment .Heading6Char { font-size: 12pt; color: #1F4D78; }
+#judgment .Heading7Char { font-style: italic; font-size: 12pt; color: #1F4D78; }
+#judgment .Heading8Char { font-size: 10.5pt; color: #272727; }
+#judgment .Heading9Char { font-style: italic; font-size: 10.5pt; color: #272727; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .BodyTextChar { font-size: 12pt; }
+#judgment .BodyText2Char { font-size: 12pt; }
+#judgment .BodyText3Char { font-size: 8pt; }
+#judgment .BodyTextFirstIndentChar { font-size: 12pt; }
+#judgment .BodyTextIndentChar { font-size: 12pt; }
+#judgment .BodyTextFirstIndent2Char { font-size: 12pt; }
+#judgment .BodyTextIndent2Char { font-size: 12pt; }
+#judgment .BodyTextIndent3Char { font-size: 8pt; }
+#judgment .BookTitle { font-style: italic; font-weight: bold; }
+#judgment .ClosingChar { font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .DateChar { font-size: 12pt; }
+#judgment .DocumentMapChar { font-family: 'Segoe UI'; font-size: 8pt; }
+#judgment .E-mailSignatureChar { font-size: 12pt; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .EndnoteReference { vertical-align: super; }
+#judgment .EndnoteTextChar { }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { }
+#judgment .Hashtag { color: #2B579A; background-color: initial; }
+#judgment .HTMLAcronym { }
+#judgment .HTMLAddressChar { font-style: italic; font-size: 12pt; }
+#judgment .HTMLCite { font-style: italic; }
+#judgment .HTMLCode { font-family: Consolas; font-size: 10pt; }
+#judgment .HTMLDefinition { font-style: italic; }
+#judgment .HTMLKeyboard { font-family: Consolas; font-size: 10pt; }
+#judgment .HTMLPreformattedChar { font-family: Consolas; }
+#judgment .HTMLSample { font-family: Consolas; font-size: 12pt; }
+#judgment .HTMLTypewriter { font-family: Consolas; font-size: 10pt; }
+#judgment .HTMLVariable { font-style: italic; }
+#judgment .IntenseEmphasis { font-style: italic; color: #5B9BD5; }
+#judgment .IntenseQuoteChar { font-style: italic; font-size: 12pt; color: #5B9BD5; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #5B9BD5; }
+#judgment .LineNumber { }
+#judgment .MacroTextChar { font-family: Consolas; }
+#judgment .Mention { color: #2B579A; background-color: initial; }
+#judgment .MessageHeaderChar { font-size: 12pt; background-color: initial; }
+#judgment .NoteHeadingChar { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .PlainTextChar { font-family: Consolas; font-size: 10.5pt; }
+#judgment .SalutationChar { font-size: 12pt; }
+#judgment .SignatureChar { font-size: 12pt; }
+#judgment .SmartHyperlink { text-decoration-line: underline; text-decoration-style: dotted; }
+#judgment .SmartLink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; background-color: initial; }
+#judgment .Strong { font-weight: bold; }
+#judgment .SubtitleChar { font-size: 11pt; color: #5A5A5A; }
+#judgment .SubtleEmphasis { font-style: italic; color: #404040; }
+#judgment .SubtleReference { font-variant: small-caps; color: #5A5A5A; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .ColorfulGrid { }
+#judgment .ColorfulGrid td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent1 { }
+#judgment .ColorfulGrid-Accent1 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent2 { }
+#judgment .ColorfulGrid-Accent2 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent3 { }
+#judgment .ColorfulGrid-Accent3 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent4 { }
+#judgment .ColorfulGrid-Accent4 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent5 { }
+#judgment .ColorfulGrid-Accent5 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulGrid-Accent6 { }
+#judgment .ColorfulGrid-Accent6 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFFFFF; }
+#judgment .ColorfulList { }
+#judgment .ColorfulList-Accent1 { }
+#judgment .ColorfulList-Accent2 { }
+#judgment .ColorfulList-Accent3 { }
+#judgment .ColorfulList-Accent4 { }
+#judgment .ColorfulList-Accent5 { }
+#judgment .ColorfulList-Accent6 { }
+#judgment .ColorfulShading { }
+#judgment .ColorfulShading td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent1 { }
+#judgment .ColorfulShading-Accent1 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent2 { }
+#judgment .ColorfulShading-Accent2 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent3 { }
+#judgment .ColorfulShading-Accent3 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent4 { }
+#judgment .ColorfulShading-Accent4 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent5 { }
+#judgment .ColorfulShading-Accent5 td { border: 0.5pt solid #FFFFFF; }
+#judgment .ColorfulShading-Accent6 { }
+#judgment .ColorfulShading-Accent6 td { border: 0.5pt solid #FFFFFF; }
+#judgment .DarkList { }
+#judgment .DarkList-Accent1 { }
+#judgment .DarkList-Accent2 { }
+#judgment .DarkList-Accent3 { }
+#judgment .DarkList-Accent4 { }
+#judgment .DarkList-Accent5 { }
+#judgment .DarkList-Accent6 { }
+#judgment .GridTable1Light { }
+#judgment .GridTable1Light td { border: 0.5pt solid #999999; }
+#judgment .GridTable1Light-Accent1 { }
+#judgment .GridTable1Light-Accent1 td { border: 0.5pt solid #BDD6EE; }
+#judgment .GridTable1Light-Accent2 { }
+#judgment .GridTable1Light-Accent2 td { border: 0.5pt solid #F7CAAC; }
+#judgment .GridTable1Light-Accent3 { }
+#judgment .GridTable1Light-Accent3 td { border: 0.5pt solid #DBDBDB; }
+#judgment .GridTable1Light-Accent4 { }
+#judgment .GridTable1Light-Accent4 td { border: 0.5pt solid #FFE599; }
+#judgment .GridTable1Light-Accent5 { }
+#judgment .GridTable1Light-Accent5 td { border: 0.5pt solid #B4C6E7; }
+#judgment .GridTable1Light-Accent6 { }
+#judgment .GridTable1Light-Accent6 td { border: 0.5pt solid #C5E0B3; }
+#judgment .GridTable2 { }
+#judgment .GridTable2 td { border: 0.25pt solid #666666; }
+#judgment .GridTable2-Accent1 { }
+#judgment .GridTable2-Accent1 td { border: 0.25pt solid #9CC2E5; }
+#judgment .GridTable2-Accent2 { }
+#judgment .GridTable2-Accent2 td { border: 0.25pt solid #F4B083; }
+#judgment .GridTable2-Accent3 { }
+#judgment .GridTable2-Accent3 td { border: 0.25pt solid #C9C9C9; }
+#judgment .GridTable2-Accent4 { }
+#judgment .GridTable2-Accent4 td { border: 0.25pt solid #FFD966; }
+#judgment .GridTable2-Accent5 { }
+#judgment .GridTable2-Accent5 td { border: 0.25pt solid #8EAADB; }
+#judgment .GridTable2-Accent6 { }
+#judgment .GridTable2-Accent6 td { border: 0.25pt solid #A8D08D; }
+#judgment .GridTable3 { }
+#judgment .GridTable3 td { border: 0.5pt solid #666666; }
+#judgment .GridTable3-Accent1 { }
+#judgment .GridTable3-Accent1 td { border: 0.5pt solid #9CC2E5; }
+#judgment .GridTable3-Accent2 { }
+#judgment .GridTable3-Accent2 td { border: 0.5pt solid #F4B083; }
+#judgment .GridTable3-Accent3 { }
+#judgment .GridTable3-Accent3 td { border: 0.5pt solid #C9C9C9; }
+#judgment .GridTable3-Accent4 { }
+#judgment .GridTable3-Accent4 td { border: 0.5pt solid #FFD966; }
+#judgment .GridTable3-Accent5 { }
+#judgment .GridTable3-Accent5 td { border: 0.5pt solid #8EAADB; }
+#judgment .GridTable3-Accent6 { }
+#judgment .GridTable3-Accent6 td { border: 0.5pt solid #A8D08D; }
+#judgment .GridTable4 { }
+#judgment .GridTable4 td { border: 0.5pt solid #666666; }
+#judgment .GridTable4-Accent1 { }
+#judgment .GridTable4-Accent1 td { border: 0.5pt solid #9CC2E5; }
+#judgment .GridTable4-Accent2 { }
+#judgment .GridTable4-Accent2 td { border: 0.5pt solid #F4B083; }
+#judgment .GridTable4-Accent3 { }
+#judgment .GridTable4-Accent3 td { border: 0.5pt solid #C9C9C9; }
+#judgment .GridTable4-Accent4 { }
+#judgment .GridTable4-Accent4 td { border: 0.5pt solid #FFD966; }
+#judgment .GridTable4-Accent5 { }
+#judgment .GridTable4-Accent5 td { border: 0.5pt solid #8EAADB; }
+#judgment .GridTable4-Accent6 { }
+#judgment .GridTable4-Accent6 td { border: 0.5pt solid #A8D08D; }
+#judgment .GridTable5Dark { }
+#judgment .GridTable5Dark td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent1 { }
+#judgment .GridTable5Dark-Accent1 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent2 { }
+#judgment .GridTable5Dark-Accent2 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent3 { }
+#judgment .GridTable5Dark-Accent3 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent4 { }
+#judgment .GridTable5Dark-Accent4 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent5 { }
+#judgment .GridTable5Dark-Accent5 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable5Dark-Accent6 { }
+#judgment .GridTable5Dark-Accent6 td { border: 0.5pt solid #FFFFFF; }
+#judgment .GridTable6Colorful { }
+#judgment .GridTable6Colorful td { border: 0.5pt solid #666666; }
+#judgment .GridTable6Colorful-Accent1 { }
+#judgment .GridTable6Colorful-Accent1 td { border: 0.5pt solid #9CC2E5; }
+#judgment .GridTable6Colorful-Accent2 { }
+#judgment .GridTable6Colorful-Accent2 td { border: 0.5pt solid #F4B083; }
+#judgment .GridTable6Colorful-Accent3 { }
+#judgment .GridTable6Colorful-Accent3 td { border: 0.5pt solid #C9C9C9; }
+#judgment .GridTable6Colorful-Accent4 { }
+#judgment .GridTable6Colorful-Accent4 td { border: 0.5pt solid #FFD966; }
+#judgment .GridTable6Colorful-Accent5 { }
+#judgment .GridTable6Colorful-Accent5 td { border: 0.5pt solid #8EAADB; }
+#judgment .GridTable6Colorful-Accent6 { }
+#judgment .GridTable6Colorful-Accent6 td { border: 0.5pt solid #A8D08D; }
+#judgment .GridTable7Colorful { }
+#judgment .GridTable7Colorful td { border: 0.5pt solid #666666; }
+#judgment .GridTable7Colorful-Accent1 { }
+#judgment .GridTable7Colorful-Accent1 td { border: 0.5pt solid #9CC2E5; }
+#judgment .GridTable7Colorful-Accent2 { }
+#judgment .GridTable7Colorful-Accent2 td { border: 0.5pt solid #F4B083; }
+#judgment .GridTable7Colorful-Accent3 { }
+#judgment .GridTable7Colorful-Accent3 td { border: 0.5pt solid #C9C9C9; }
+#judgment .GridTable7Colorful-Accent4 { }
+#judgment .GridTable7Colorful-Accent4 td { border: 0.5pt solid #FFD966; }
+#judgment .GridTable7Colorful-Accent5 { }
+#judgment .GridTable7Colorful-Accent5 td { border: 0.5pt solid #8EAADB; }
+#judgment .GridTable7Colorful-Accent6 { }
+#judgment .GridTable7Colorful-Accent6 td { border: 0.5pt solid #A8D08D; }
+#judgment .LightGrid { }
+#judgment .LightGrid td { border: 1pt solid #000000; }
+#judgment .LightGrid-Accent1 { }
+#judgment .LightGrid-Accent1 td { border: 1pt solid #5B9BD5; }
+#judgment .LightGrid-Accent2 { }
+#judgment .LightGrid-Accent2 td { border: 1pt solid #ED7D31; }
+#judgment .LightGrid-Accent3 { }
+#judgment .LightGrid-Accent3 td { border: 1pt solid #A5A5A5; }
+#judgment .LightGrid-Accent4 { }
+#judgment .LightGrid-Accent4 td { border: 1pt solid #FFC000; }
+#judgment .LightGrid-Accent5 { }
+#judgment .LightGrid-Accent5 td { border: 1pt solid #4472C4; }
+#judgment .LightGrid-Accent6 { }
+#judgment .LightGrid-Accent6 td { border: 1pt solid #70AD47; }
+#judgment .LightList { }
+#judgment .LightList-Accent1 { }
+#judgment .LightList-Accent2 { }
+#judgment .LightList-Accent3 { }
+#judgment .LightList-Accent4 { }
+#judgment .LightList-Accent5 { }
+#judgment .LightList-Accent6 { }
+#judgment .LightShading { }
+#judgment .LightShading-Accent1 { }
+#judgment .LightShading-Accent2 { }
+#judgment .LightShading-Accent3 { }
+#judgment .LightShading-Accent4 { }
+#judgment .LightShading-Accent5 { }
+#judgment .LightShading-Accent6 { }
+#judgment .ListTable1Light { }
+#judgment .ListTable1Light-Accent1 { }
+#judgment .ListTable1Light-Accent2 { }
+#judgment .ListTable1Light-Accent3 { }
+#judgment .ListTable1Light-Accent4 { }
+#judgment .ListTable1Light-Accent5 { }
+#judgment .ListTable1Light-Accent6 { }
+#judgment .ListTable2 { }
+#judgment .ListTable2 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #666666; }
+#judgment .ListTable2-Accent1 { }
+#judgment .ListTable2-Accent1 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #9CC2E5; }
+#judgment .ListTable2-Accent2 { }
+#judgment .ListTable2-Accent2 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #F4B083; }
+#judgment .ListTable2-Accent3 { }
+#judgment .ListTable2-Accent3 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #C9C9C9; }
+#judgment .ListTable2-Accent4 { }
+#judgment .ListTable2-Accent4 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFD966; }
+#judgment .ListTable2-Accent5 { }
+#judgment .ListTable2-Accent5 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #8EAADB; }
+#judgment .ListTable2-Accent6 { }
+#judgment .ListTable2-Accent6 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #A8D08D; }
+#judgment .ListTable3 { }
+#judgment .ListTable3-Accent1 { }
+#judgment .ListTable3-Accent2 { }
+#judgment .ListTable3-Accent3 { }
+#judgment .ListTable3-Accent4 { }
+#judgment .ListTable3-Accent5 { }
+#judgment .ListTable3-Accent6 { }
+#judgment .ListTable4 { }
+#judgment .ListTable4 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #666666; }
+#judgment .ListTable4-Accent1 { }
+#judgment .ListTable4-Accent1 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #9CC2E5; }
+#judgment .ListTable4-Accent2 { }
+#judgment .ListTable4-Accent2 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #F4B083; }
+#judgment .ListTable4-Accent3 { }
+#judgment .ListTable4-Accent3 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #C9C9C9; }
+#judgment .ListTable4-Accent4 { }
+#judgment .ListTable4-Accent4 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #FFD966; }
+#judgment .ListTable4-Accent5 { }
+#judgment .ListTable4-Accent5 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #8EAADB; }
+#judgment .ListTable4-Accent6 { }
+#judgment .ListTable4-Accent6 td { border-top-width: 0.5pt; border-top-style: solid; border-top-color: #A8D08D; }
+#judgment .ListTable5Dark { }
+#judgment .ListTable5Dark-Accent1 { }
+#judgment .ListTable5Dark-Accent2 { }
+#judgment .ListTable5Dark-Accent3 { }
+#judgment .ListTable5Dark-Accent4 { }
+#judgment .ListTable5Dark-Accent5 { }
+#judgment .ListTable5Dark-Accent6 { }
+#judgment .ListTable6Colorful { }
+#judgment .ListTable6Colorful-Accent1 { }
+#judgment .ListTable6Colorful-Accent2 { }
+#judgment .ListTable6Colorful-Accent3 { }
+#judgment .ListTable6Colorful-Accent4 { }
+#judgment .ListTable6Colorful-Accent5 { }
+#judgment .ListTable6Colorful-Accent6 { }
+#judgment .ListTable7Colorful { }
+#judgment .ListTable7Colorful-Accent1 { }
+#judgment .ListTable7Colorful-Accent2 { }
+#judgment .ListTable7Colorful-Accent3 { }
+#judgment .ListTable7Colorful-Accent4 { }
+#judgment .ListTable7Colorful-Accent5 { }
+#judgment .ListTable7Colorful-Accent6 { }
+#judgment .MediumGrid1 { }
+#judgment .MediumGrid1 td { border: 1pt solid #404040; }
+#judgment .MediumGrid1-Accent1 { }
+#judgment .MediumGrid1-Accent1 td { border: 1pt solid #84B3DF; }
+#judgment .MediumGrid1-Accent2 { }
+#judgment .MediumGrid1-Accent2 td { border: 1pt solid #F19D64; }
+#judgment .MediumGrid1-Accent3 { }
+#judgment .MediumGrid1-Accent3 td { border: 1pt solid #BBBBBB; }
+#judgment .MediumGrid1-Accent4 { }
+#judgment .MediumGrid1-Accent4 td { border: 1pt solid #FFCF40; }
+#judgment .MediumGrid1-Accent5 { }
+#judgment .MediumGrid1-Accent5 td { border: 1pt solid #7295D2; }
+#judgment .MediumGrid1-Accent6 { }
+#judgment .MediumGrid1-Accent6 td { border: 1pt solid #93C571; }
+#judgment .MediumGrid2 { }
+#judgment .MediumGrid2 td { border: 1pt solid #000000; }
+#judgment .MediumGrid2-Accent1 { }
+#judgment .MediumGrid2-Accent1 td { border: 1pt solid #5B9BD5; }
+#judgment .MediumGrid2-Accent2 { }
+#judgment .MediumGrid2-Accent2 td { border: 1pt solid #ED7D31; }
+#judgment .MediumGrid2-Accent3 { }
+#judgment .MediumGrid2-Accent3 td { border: 1pt solid #A5A5A5; }
+#judgment .MediumGrid2-Accent4 { }
+#judgment .MediumGrid2-Accent4 td { border: 1pt solid #FFC000; }
+#judgment .MediumGrid2-Accent5 { }
+#judgment .MediumGrid2-Accent5 td { border: 1pt solid #4472C4; }
+#judgment .MediumGrid2-Accent6 { }
+#judgment .MediumGrid2-Accent6 td { border: 1pt solid #70AD47; }
+#judgment .MediumGrid3 { }
+#judgment .MediumGrid3 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent1 { }
+#judgment .MediumGrid3-Accent1 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent2 { }
+#judgment .MediumGrid3-Accent2 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent3 { }
+#judgment .MediumGrid3-Accent3 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent4 { }
+#judgment .MediumGrid3-Accent4 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent5 { }
+#judgment .MediumGrid3-Accent5 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumGrid3-Accent6 { }
+#judgment .MediumGrid3-Accent6 td { border: 0.75pt solid #FFFFFF; }
+#judgment .MediumList1 { }
+#judgment .MediumList1-Accent1 { }
+#judgment .MediumList1-Accent2 { }
+#judgment .MediumList1-Accent3 { }
+#judgment .MediumList1-Accent4 { }
+#judgment .MediumList1-Accent5 { }
+#judgment .MediumList1-Accent6 { }
+#judgment .MediumList2 { }
+#judgment .MediumList2-Accent1 { }
+#judgment .MediumList2-Accent2 { }
+#judgment .MediumList2-Accent3 { }
+#judgment .MediumList2-Accent4 { }
+#judgment .MediumList2-Accent5 { }
+#judgment .MediumList2-Accent6 { }
+#judgment .MediumShading1 { }
+#judgment .MediumShading1 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #404040; }
+#judgment .MediumShading1-Accent1 { }
+#judgment .MediumShading1-Accent1 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #84B3DF; }
+#judgment .MediumShading1-Accent2 { }
+#judgment .MediumShading1-Accent2 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #F19D64; }
+#judgment .MediumShading1-Accent3 { }
+#judgment .MediumShading1-Accent3 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #BBBBBB; }
+#judgment .MediumShading1-Accent4 { }
+#judgment .MediumShading1-Accent4 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #FFCF40; }
+#judgment .MediumShading1-Accent5 { }
+#judgment .MediumShading1-Accent5 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #7295D2; }
+#judgment .MediumShading1-Accent6 { }
+#judgment .MediumShading1-Accent6 td { border-top-width: 1pt; border-top-style: solid; border-top-color: #93C571; }
+#judgment .MediumShading2 { }
+#judgment .MediumShading2-Accent1 { }
+#judgment .MediumShading2-Accent2 { }
+#judgment .MediumShading2-Accent3 { }
+#judgment .MediumShading2-Accent4 { }
+#judgment .MediumShading2-Accent5 { }
+#judgment .MediumShading2-Accent6 { }
+#judgment .PlainTable1 { }
+#judgment .PlainTable1 td { border: 0.5pt solid #BFBFBF; }
+#judgment .PlainTable2 { }
+#judgment .PlainTable3 { }
+#judgment .PlainTable4 { }
+#judgment .PlainTable5 { }
+#judgment .Table3Deffects1 { }
+#judgment .Table3Deffects2 { }
+#judgment .Table3Deffects3 { }
+#judgment .TableClassic1 { }
+#judgment .TableClassic2 { }
+#judgment .TableClassic3 { }
+#judgment .TableClassic4 { }
+#judgment .TableColorful1 { }
+#judgment .TableColorful1 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #00FFFF; }
+#judgment .TableColorful2 { }
+#judgment .TableColorful3 { }
+#judgment .TableColorful3 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #C0C0C0; }
+#judgment .TableColumns1 { }
+#judgment .TableColumns2 { }
+#judgment .TableColumns3 { }
+#judgment .TableColumns3 td { border-right-width: 0.75pt; border-right-style: solid; border-right-color: #000080; }
+#judgment .TableColumns4 { }
+#judgment .TableColumns5 { }
+#judgment .TableColumns5 td { border-right-width: 0.75pt; border-right-style: solid; border-right-color: #C0C0C0; }
+#judgment .TableContemporary { }
+#judgment .TableContemporary td { border: 2.25pt solid #FFFFFF; }
+#judgment .TableElegant { }
+#judgment .TableElegant td { border: 0.75pt solid #000000; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .TableGrid1 { }
+#judgment .TableGrid1 td { border: 0.75pt solid #000000; }
+#judgment .TableGrid2 { }
+#judgment .TableGrid2 td { border: 0.75pt solid #000000; }
+#judgment .TableGrid3 { }
+#judgment .TableGrid3 td { border-right-width: 0.75pt; border-right-style: solid; border-right-color: #000000; }
+#judgment .TableGrid4 { }
+#judgment .TableGrid4 td { border: 0.75pt solid #000000; }
+#judgment .TableGrid5 { }
+#judgment .TableGrid5 td { border: 0.75pt solid #000000; }
+#judgment .TableGrid6 { }
+#judgment .TableGrid6 td { border-right-width: 0.75pt; border-right-style: solid; border-right-color: #000000; }
+#judgment .TableGrid7 { }
+#judgment .TableGrid7 td { border: 0.75pt solid #000000; }
+#judgment .TableGrid8 { }
+#judgment .TableGrid8 td { border: 0.75pt solid #000080; }
+#judgment .TableGridLight { }
+#judgment .TableGridLight td { border: 0.5pt solid #BFBFBF; }
+#judgment .TableList1 { }
+#judgment .TableList2 { }
+#judgment .TableList3 { }
+#judgment .TableList3 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #000000; }
+#judgment .TableList4 { }
+#judgment .TableList4 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #000000; }
+#judgment .TableList5 { }
+#judgment .TableList5 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #000000; }
+#judgment .TableList6 { }
+#judgment .TableList7 { }
+#judgment .TableList7 td { border-top-width: 0.75pt; border-top-style: solid; border-top-color: #000000; }
+#judgment .TableList8 { }
+#judgment .TableList8 td { border-right-width: 0.75pt; border-right-style: solid; border-right-color: #000000; }
+#judgment .TableProfessional { }
+#judgment .TableProfessional td { border: 0.75pt solid #000000; }
+#judgment .TableSimple1 { }
+#judgment .TableSimple2 { }
+#judgment .TableSimple3 { }
+#judgment .TableSubtle1 { }
+#judgment .TableSubtle2 { }
+#judgment .TableTheme { }
+#judgment .TableTheme td { border: 0.5pt solid; }
+#judgment .TableWeb1 { }
+#judgment .TableWeb1 td { border: 0.75pt solid; }
+#judgment .TableWeb2 { }
+#judgment .TableWeb2 td { border: 0.75pt solid; }
+#judgment .TableWeb3 { }
+#judgment .TableWeb3 td { border: 0.75pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:justify">Neutral Citation Number: <neutralCitation style="color:#000000;background-color:#F8F8F8">[2024] EWCOP 19</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>COP13236134</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewcop">IN THE COURT OF PROTECTION</courtType></p>
+      <p class="CoverText">Date: <docDate date="2024-03-20" refersTo="#judgment">20 March 2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p style="text-align:center"><judge refersTo="#judge-mr-justice-poole" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">MR JUSTICE POOLE </judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Re A (Covert Medication: Residence)</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a-local-authority" style="font-weight:bold">A LOCAL AUTHORITY</party></p>
+	  </td>
+	  <td style="vertical-align:bottom">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td style="vertical-align:middle">
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a" style="font-weight:bold">A</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(By her Litigation Friend, the Official Solicitor)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td style="vertical-align:bottom">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">First Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td style="vertical-align:middle">
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#b" style="font-weight:bold">B</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td style="vertical-align:bottom">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Second Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td style="vertical-align:middle">
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#the-hospital-trust" style="font-weight:bold">THE HOSPITAL TRUST</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td style="vertical-align:bottom">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Third Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-weight:bold">Katie Gollop KC</span> (instructed by the Local Authority) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Sam Karim KC</span> (instructed by the Official Solicitor) for the <span style="font-weight:bold">First Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mike O&#8217;Brien KC </span>(instructed by Thaliwal &amp; Veja Solicitors) for the <span style="font-weight:bold">Second Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Joe O&#8217;Brien KC</span> instructed by the <span style="font-weight:bold">Third Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 24-26 January 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+      <p style="text-align:justify">This judgment was delivered in public but a transparency order is in force.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the A and B must be strictly preserved.   All persons, including representatives of the media and legal bloggers, must ensure that this condition is strictly complied with.   Failure to do so may be a contempt of court. </p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Poole:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A is a 25 year old woman with mild learning difficulties, Asperger&#8217;s syndrome/autism spectrum disorder, and epilepsy who has been the subject of Court of Protection proceedings for five years. A currently lives in a care home (&#8220;placement A&#8221;) but her mother, B, applies for a declaration that it is in A&#8217;s best interests to return home to B&#8217;s care. The Local Authority, the NHS Trust responsible for A&#8217;s care, and the Official Solicitor acting for A, all oppose that application. The history of this case, the circumstances of A&#8217;s current situation, and the interrelationship between residence and medical treatment, mean that the decision about where it is in A&#8217;s best interests to live is rich with complexity. The feasible options are all fraught with risk and it is difficult to foresee a good outcome for A, whatever decision is made.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The history of A&#8217;s case is set out in a number of published judgments: <span style="font-style:italic">The Local Authority v A and B </span><ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2019/68" uk:canonical="[2019] EWCOP 68" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCOP 68</ref> and <span style="font-style:italic">A Local Authority v A and B</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2020/76" uk:canonical="[2020] EWCOP 76" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCOP 76</ref>, per HHJ Moir, and my own judgment in <span style="font-style:italic">Re A (Covert Medication: Closed Proceedings)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2022/44" uk:canonical="[2022] EWCOP 44" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCOP 44</ref>.  HHJ Moir determined that A lacked capacity to conduct this litigation and to make decisions for herself about residence, care, contact with others, and medical treatment. No-one disputes that A continues to lack capacity in those areas. In April 2019, HHJ Moir decided that it was in A&#8217;s best interests to be removed from her home where she lived with and was cared for by her mother, and to be cared for in a specialist care home, placement A. In June 2020, HHJ Moir decided that it was in A&#8217;s best interests to suspend all contact with B. In September 2020, HHJ Moir decided that it was in A&#8217;s best interests to be administered hormone treatment covertly. That decision was taken in closed proceedings of which B and her representatives were unaware. Two years later, in September 2022, after the case was passed to me following HHJ Moir&#8217;s retirement, I decided that B should be informed that there had been closed proceedings and that her daughter was being covertly medicated. I decided that it was in A&#8217;s best interests that contact with B should be reintroduced. Over time, contact has developed from telephone to video to face-to-face contact. By consent of all parties including B, covert medication has continued and A has remained at placement A. She receives specialist medical and other care including hormone replacement treatment (&#8220;HRT&#8221;) which is covertly administered to her.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The decision regarding A&#8217;s future residence is bound up with the continuation or cessation, of her covert medication. All parties have approached the hearing in that way, and expert evidence on HRT was called at the hearing. At the open hearing in September 2022, I directed that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;A medication plan should be drawn up by the Local Authority and the Trust, having liaised with B, to address:</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The transition to open medication with A&#8217;s consent and how that can be most effectively and safely achieved.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The imparting of information to A about her pubertal development.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The imparting of information to A about the risks and benefits of maintenance hormone treatment.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The imparting of information to A about the use of covert medication.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">The plan will include consideration of whether, when, where and by whom any such information should be given to A, and the involvement of B in the implementation of the plan given that she now knows of the use of covert medication and expresses a wish to help to encourage A to take the maintenance hormone treatment. By directing that the issues set out above should be addressed I am not, at this stage, directing what the contents of the plan should be.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A did not initially appear to have recognised that she had gone through puberty. The balance of hormones given to her prevents her from experiencing menstrual bleeding (except for two occasions of minor breakthrough bleeding). However, A has now been told that she has gone through puberty. Continued efforts have been made to impart information to her about the risks and benefits of HRT, but she steadfastly refuses to take it voluntarily and there has been no transition to open medication and there is no current plan to impart information to A about the use of covert medication. I have considered whether, without a proposed plan about ending covert medication or informing A that she has been covertly medicated, I can make a decision in her best interest about residence. For the reasons given below I have concluded that I can.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Background</span></heading>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The background has already been set out in the three previously published judgments, so I shall provide only a brief summary as is necessary to understand the decisions set out in this judgment on the question of residence and covert medication. I have also received detailed oral evidence from B which has helped to inform the summary that follows.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">After B and her then husband, A&#8217;s father, separated when A was about 14 months old, A was brought up by B alone. She was home-schooled by B throughout her childhood. She has never gone to school. Over time she became completely isolated from children and young people of her own age group. At the age of 11 she was diagnosed with epilepsy. Intermittently, concerns about A&#8217;s welfare were raised with authorities by neighbours but it took the intervention of a doctor in 2017, when A was 18,  to change the course of A&#8217;s life. A&#8217;s epilepsy was not fully controlled and on 13 September 2017 she suffered ten tonic-clonic seizures. Despite B&#8217;s reluctance to agree, A&#8217;s GP called an ambulance to the family home to take A to hospital.  Whilst in hospital A was made the subject of an urgent Deprivation of Liberty Safeguards authorisation to prevent her from being removed from the hospital by her mother against medical advice. A particular doctor noted that A&#8217;s presentation was of a person much younger than her age and referral led to her being diagnosed with Primary Ovarian Insufficiency (&#8220;POI&#8221;). Scanning was initially thought to show that she had no ovaries or uterus but in fact they were very underdeveloped rather than absent. The recommended treatment was hormone therapy but A refused it. Upon referral to a psychologist, A was found to have a full scale IQ of 65 which is within the learning disability range. Her learning disability had not previously been assessed or identified.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the subsequent Court of Protection proceedings heard by HHJ Moir, Dr X gave evidence as he did before me at the current hearing. He is anonymised in this and the previous judgments because although he has been instructed to give expert evidence, he has also been A&#8217;s clinician. Acting in this dual capacity should be avoided. Dr X himself said in evidence before me that this was not a satisfactory combination of roles. But he has had this dual capacity in this case for several years and no-one suggested to me that I should not hear his opinion evidence as an expert. His evidence to HHJ Moir in 2019 to 2020 was stark: without hormone treatment, A would not go through puberty and as a result she would suffer significant physical and mental health problems. She would be at risk of premature death. She would be deprived of the opportunity to develop into a fully adult woman. Hormone treatment was straightforward and virtually risk free. He was unaware of any similar case in which POI had gone untreated for so long or in which treatment for POI was being refused or denied to a woman who needed it. HHJ Moir recorded in her judgment from 2019:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Dr X became quite emotional when he was giving evidence before me. He told me that the likely success of the treatment was 100 percent. There is no failure rate. He told me it transforms a child into a woman. He said it is the basic human right of every girl to blossom into a woman and he found it inconceivable that it should be blocked. He said failure to treat it was unthinkable and it should have been done five years ago.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It was very clear, and HHJ Moir found, that it was in A&#8217;s best interests to receive hormone treatment for her POI. In addition, it was in her best interests to receive medication for her epilepsy and for her vitamin D deficiency which she was also suffering.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Unfortunately, A refused to take the hormone medication. Given the very clear evidence that it was in her best interests to take it, the question arose as to why she was not willing to do so. HHJ Moir found that the answer lay in the relationship between A and B which she described as &#8220;enmeshed&#8221;. She noted the history of appointments at which the need for hormone treatment had been discussed:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"> &#8220;[76] An appointment in the endocrine transition clinic was arranged for A on 19 October 2017. She failed to attend. A further appointment was arranged for 21 December 2017 but a phone call shortly before the appointment said that A would be unable to attend because her mother, who had LPA, had an upset stomach. A eventually attended an appointment on 19 April, some six months late, accompanied by her grandmother. The hospital note reads at G13:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Explained to them this difficult and distressing diagnosis. Ovaries have not developed properly and are so tiny as to be barely visible on ultrasound scans. Same for the uterus although, unlike the ovaries, this will grow with treatment. Neither A, nor apparently mum, were bothered by her lack of periods and being home schooled A does not have a peer group of class-mates with whom to compare physical development. She declined pubertal (inaudible) today by Sister J. Reassured that she is at no major excess risk of fracture now. However, in order to develop into a mature woman and, crucially, to avoid getting premature osteoporosis (brittle bone disease) in her 30s and 40s rather than her 70s or 80s, she will need to start oestrogen replacement and continue for four decades. Understandably, she is not delighted by the prospect but we explained the lack of any viable alternative. She elected for oral over patch oestrogen replacement with progesterone deferred until after she has begun to experience vaginal spotting.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">It is noted that with encouragement from her grandmother, A agreed to take the vitamin D capsules and oestrogen tablets.</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>77.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">A attended the RVI admissions suite on 21 June 2018. The tests undertaken on that occasion show that A had not taken any of the oestrogen tablets or the vitamin D supplement. B told the registrar who saw them on that occasion that if A does not want to take the tablets, she should be supported in this decision whatever the consequences. It was in contrast to the grandmother&#8217;s encouragement of A.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>78.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Dr X spoke to A on 11 July. He formed the strong impression A was being prompted by someone beside her, presumably her mother. B denies that this occurred. A said that they were going to pursue a private bone scan and ultrasound. Dr X advised that both scans would be a waste of time and money and that the ultrasound scan may cause unnecessary concern because a uterus that has never been exposed to oestrogen is often too small to be seen on ultrasound. Dr X told me that it would be useful to do the scans after treatment had been underway for a few years. Dr X did say that he had arranged for A to have a second opinion from Dr M which appointment A attended with her grandmother. Everything was again explained but A refused to have the treatment saying that she did not want to even have periods despite Dr M explaining that it would be possible to treat her without necessarily causing periods. A declined that option without giving reasons.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr Ince, Consultant Psychiatrist, gave expert evidence to the court in 2019. He was questioned about the influence of B, as recorded by HHJ Moir in her judgment:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;[45] He noted the comment from numerous professionals as to the difficulties in seeing A individually and that on occasion, B was heard in the background prompting A. He stated:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Obviously, A places great weight on mother&#8217;s views. As a child we acknowledge A had a degree of cognitive deficit and because home schooled, had limited exposure to alternative points of view.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[46].  He said, greater than that, the expression of mother&#8217;s views by A are such, &#8220;...that I believe they profoundly impact upon A&#8217;s ability to weigh information with which she is provided, including validity and alternatives&#8221; and he gave examples of &#8220;doctors in the NHS lie&#8221;. He went on to say, &#8220;I don&#8217;t believe A came to this conclusion on her own.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[47].  It was put to Dr Ince that he was not able to determine what A&#8217;s views are because they are so closely aligned with B&#8217;s views and that it affected A&#8217;s ability to weigh information. He agreed with both propositions. Dr Ince said that there were clear signs of influence which, in his view, significantly impacts upon A&#8217;s ability to weigh decisions because the decisions are not effectively appraised. Dr Ince stated that it was very hard to predict what may occur in the future given the degree of influence because of the proximity and likely degree of influence because of the relationship between A and B. Dr Ince cautioned that account must be taken of the diagnosis and whether A can develop skills to critically appraise information given to her. At the moment, he did not believe it could occur but he stated:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;&#8230; in my report, and [Mr P]&#8217;s report, whether that is the case in two or three years&#8217; time, I don&#8217;t know, if you took out the undue influence.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[48].   &#8230; He concluded that A&#8217;s removal from home would be the only option if B was refusing to accept the proposed treatment for A. Dr Ince concluded that A is:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;&#8230;profoundly lacking in life skills and na&#239;ve regarding accommodation, care, and support required.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[49].  At G70, at 16.93, Dr Ince states:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;A has led a socially isolated life to date. She has not had the opportunity to engage in usual peer interactions and it is not clear as to the precipitant for the decision for her to be home-schooled. As a consequence, it is my view that she is profoundly lacking in life skills and thus na&#239;ve regarding both accommodation, care, and support and her broader future options. Indeed, she does not really entertain the possibility of any alternative options for accommodation, care and support, education, employment, or a host of other areas, and she unquestioningly accepts that she will live at home with her mother.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This then was the dire set of circumstances, and the expert evidence, presented to HHJ Moir. In 2019, at the age of 20, A had never been to school: she had been home-schooled her entire life by her mother but her learning disability had not been recognised or diagnosed until the interventions following her hospital admission in 2017. She had epilepsy that was not fully controlled. She had vitamin D deficiency. She had previously undiagnosed POI. She had not gone through puberty and was physically and mentally under-developed, yet her mother, as her sole carer, had never sought medical advice or attention for the obvious lack of development. Having been diagnosed with POI and having been advised of the low/absent risks and considerable benefits of treatment, A was declining the offer of medication, seemingly influenced by B to refuse it. They had an enmeshed relationship which was unhealthy and prevented A from forming and expressing her own views and developing her individuality.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In those circumstances, and guided by very clear expert opinion, HHJ Moir decided to remove A from B&#8217;s care. In her judgment of 18 June 2019, HHJ Moir quoted from the Loal Authority&#8217;s care plan:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;A has significant health needs associated with epilepsy and primary-ovarian failure. She has been resistant to treatment plans, particularly in relation to the latter diagnosis. The aim of the plan is to provide a supportive, engaging environment where A&#8217;s understanding of the benefits of treatment and her compliance can be promoted more effectively.&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The next stage of A&#8217;s life therefore involved her living in placement A, having regulated contact with B, being offered medication for her POI, but continuing to refuse it. She did begin to take her anti-epilepsy medication regularly and began to take vitamin D tablets. In June 2020, concerned about B&#8217;s continuing influence on A, in particular in relation to A&#8217;s refusal to take hormone treatment, HHJ Moir suspended all contact between them. In her judgment at that time, she noted evidence that during contact, B had said to A, &#8220;remember who you are&#8221; and, &#8220;Don't let them tell you what to do.&#8221; The plan was to remove B&#8217;s influence and to continue educational work with A in the hope that she would volunteer to take the hormone treatment she so obviously needed. However, by September 2020, A was continuing to refuse hormone treatment. An application was then made, without notice to B or her lawyers, for a declaration that it would be lawful and in A&#8217;s best interests to administer hormone treatment to her covertly. HHJ Moir acceded to that application and made orders in closed hearings that B should not be informed of the decision lest she should influence A. Although B was not having contact, A&#8217;s maternal grandparents were still seeing her. They too were not to be informed of the covert medication plan.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">When I became involved in these proceedings, following HHJ Moir&#8217;s retirement, some two years had passed since the decision to begin covert medication. Every day over the period from when covert medication had begun, A had been offered hormone medication and had refused it. Every day she had been administered the medication covertly. As a result she had gone through puberty with all the associated physical changes. Surprisingly perhaps, A had not commented on the physical changes she had undergone. Even more surprisingly, her grandparents had not commented on them either, despite seeing her on a regular basis. B, of course, had not been permitted to see A or to have any form of contact with her. Her parents, not having taken notice of the changes in A, had not alerted B to them. So B did not know that her daughter had gone through puberty.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the reasons given in my published judgment, <span style="font-style:italic">Re A (Covert Medication: Closed Proceedings)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2022/44" uk:canonical="[2022] EWCOP 44" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCOP 44</ref>, I decided to inform B myself of the fact that the court had decided to conduct hearings without her knowledge, that it had decided that her daughter should be administered hormone treatment covertly, that this had been done and continued to be done, and that as a result A had now gone through puberty. B responded to this news by saying that she was pleased her daughter had gone through puberty. For the time being, B did not oppose A remaining at placement A and being covertly medicated whilst there, but she was anxious that covert medication should cease as soon as possible in A&#8217;s best interests and maintained that if given the chance, she would be able to persuade A to take HRT. Naturally there was some scepticism about that assertion given B&#8217;s previous attitude to treatment recommended by medical professionals, including Dr X. I considered it to be in A&#8217;s best interests for contact between A and B to be re-introduced but for covert medication to continue in the interim, as was agreed by all parties, and for A to remain at the care home, which B did not then oppose. B indicated that she would make an application for a change of residence at some point in the future, so that A could go home to her mother&#8217;s care. That is the application now made and which I have to determine.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have heard oral evidence from Dr X, who, as noted, has been A&#8217;s treating endocrinologist throughout these proceedings. He is soon to retire. I heard oral evidence, lasting the whole of the second day of the hearing, from B, and I also heard from AS, social worker. Unfortunately, two periods of delay meant that there was insufficient time for me to hear oral submissions. On the first morning Mr Mike O&#8217;Brien KC needed time to take instructions from B. Later that morning he was able to tell me that, having said for many months now that she would not be party to administering HRT covertly in her home or otherwise, B was now prepared to collaborate with covert medication but not to deliver the medication herself. Then, overnight between the second and third days of the hearing, B suffered an accident requiring hospital treatment. Concerns about her whereabouts and wellbeing on the morning of the third day of the hearing caused further delay.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The parties needed time to produce their written submissions which I have carefully considered.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At various hearings over the last year or so I have raised my concerns about the need for a plan to transition A from covert to voluntary medication. Extensive efforts have been made to provide health education to A with a view to presenting her with information on which, were she to act rationally, she would agree to take the HRT. She has steadfastly refused to do so. It should be remembered that she has been found to lack capacity to make decisions about her own treatment, otherwise covert medication could not have been authorised. When the issue was raised with her at a recent meeting with a solicitor for the Official Solicitor, A told him in very clear and colourful language not to even speak about the subject. In short, no progress has been made in persuading A to take HRT voluntarily. B says that she believes that if A were returned home, she would be able to persuade her to take HRT. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In response to B&#8217;s application for a change of residence, the Local Authority, in opposing it, have raised the possibility of a change of residence from the care home to supported independent living (&#8220;SIL&#8221;). The Local Authority have also submitted that the re-introduction of contact between A and B has had a detrimental effect on A&#8217;s behaviour and mood. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Legal Framework</span></heading>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Mental Capacity Acct 2005 (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref>&#8221;) <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">s1(5)</ref> and (6) provide:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(5)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">An act done, or decision made, under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> for or on behalf of a person who lacks capacity must be done, or made, in his best interests.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(6)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Before the act is done, or the decision is made, regard must be had to whether the purpose for which it is needed can be as effectively achieved in a way that is less restrictive of the person's rights and freedom of action.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s4</ref> provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;4 Best interests</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(1)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">In determining for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> what is in a person's best interests, the person making the determination must not make it merely on the basis of&#8212;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the person's age or appearance, or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">a condition of his, or an aspect of his behaviour, which might lead others to make unjustified assumptions about what might be in his best interests.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The person making the determination must consider all the relevant circumstances and, in particular, take the following steps.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">He must consider&#8212;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">whether it is likely that the person will at some time have capacity in relation to the matter in question, and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">if it appears likely that he will, when that is likely to be.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(4)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">He must, so far as reasonably practicable, permit and encourage the person to participate, or to improve his ability to participate, as fully as possible in any act done for him and any decision affecting him.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(6)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">He must consider, so far as is reasonably ascertainable&#8212;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the person's past and present wishes and feelings (and, in particular, any relevant written statement made by him when he had capacity),</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the beliefs and values that would be likely to influence his decision if he had capacity, and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the other factors that he would be likely to consider if he were able to do so.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(7)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">He must take into account, if it is practicable and appropriate to consult them, the views of&#8212;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">anyone named by the person as someone to be consulted on the matter in question or on matters of that kind,</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">anyone engaged in caring for the person or interested in his welfare,</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">            &#8230;</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>(11)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8220;Relevant circumstances&#8221; are those&#8212;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">of which the person making the determination is aware, and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">which it would be reasonable to regard as relevant.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Aintree University Hospitals NHS Trust v James</span> <ref href="#" uk:canonical="[2014] AC 591" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] AC 591</ref> at [23], Baroness Hale noted that the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref> gives limited guidance about best interests. At paragraph 39, she said this:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">"The most that can be said, therefore, is that in considering the best interests of this particular patient at this particular time, decision makers must look at his welfare in the widest sense, not just medical but social and psychological; they must consider what the outcome of that treatment for the patient is likely to be; they must try and put themselves in the place of the individual patient and ask what his attitude to the treatment is or would be likely to be; and they must consult others who are looking after him or are interested in his welfare, in particular for their view of what his attitude would be."</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As Baroness Hale put it at [45] of <span style="font-style:italic">Aintree</span>, the decision-maker must consider matters from the patient's point of view. This is one aspect of best interests decisions in the Court of Protection that distinguishes them from best interest decisions under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. In <span style="font-style:italic">N v ACCG</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/22" uk:canonical="[2017] UKSC 22" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 22</ref>, Baroness Hale, giving the judgment of the Supreme Court, said at paragraph 24:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;&#8230; the jurisdiction of the Court of Protection (and for that matter the inherent jurisdiction of the High Court relating to people who lack capacity) is limited to decisions that a person is unable to take for himself. It is not to be equated with the jurisdiction of family courts under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, to take children away from their families and place them in the care of a local authority, which then acquires parental responsibility for, and numerous statutory duties towards, those children. There is no such thing as a care order in respect of a person of 18 or over. Nor is the jurisdiction to be equated with the wardship jurisdiction of the High Court. Both may have their historical roots in the ancient powers of the Crown as parens patriae over people who were then termed infants, idiots and the insane. But the Court of Protection does not become the guardian of an adult who lacks capacity and the adult does not become the ward of the court.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">And at  paragraph 27 she said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;&#8230; <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> does not contemplate as a norm the conferring of the full gamut of decision-making power, let alone parental responsibility, over an adult who lacks capacity.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At paragraph 34 of her judgment, emphasising the need to consider best interests from the point of view of P when making a best interests decision under the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref>, Baroness Hale held:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In other words, it is a decision about what would be best for this particular individual, taking into account, so far as practicable, his individual characteristics, likes and dislikes, values and approach to life.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">When taking into account P&#8217;s wishes and feelings, Munby J held in <span style="font-style:italic">ITW v Z</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2009/2525" uk:canonical="[2009] EWCOP 2525" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCOP 2525</ref> at paragraph 35 that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;i)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">First, P's wishes and feelings will always be a significant factor to which the court must pay close regard: <span style="font-style:italic">see Re MM; Local Authority X v MM (by the Official Solicitor) and KM </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/2003" uk:canonical="[2007] EWHC 2003 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 2003 (Fam)</ref>, <ref href="#" uk:canonical="[2009] 1 FLR 443" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 FLR 443</ref>, at paras [121]-[124].</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>ii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Secondly, the weight to be attached to P's wishes and feelings will always be case-specific and fact-specific. In some cases, in some situations, they may carry much, even, on occasions, preponderant, weight. In other cases, in other situations, and even where the circumstances may have some superficial similarity, they may carry very little weight. One cannot, as it were, attribute any particular a priori weight or importance to P's wishes and feelings; it all depends, it must depend, upon the individual circumstances of the particular case. And even if one is dealing with a particular individual, the weight to be attached to their wishes and feelings must depend upon the particular context; in relation to one topic P's wishes and feelings may carry great weight whilst at the same time carrying much less weight in relation to another topic. Just as the test of incapacity under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> is, as under the common law, 'issue specific', so in a similar way the weight to be attached to P's wishes and feelings will likewise be issue specific.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>iii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Thirdly, in considering the weight and importance to be attached to P's wishes and feelings the court must of course, and as required by <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>, have regard to all the relevant circumstances. In this context the relevant circumstances will include, though I emphasise that they are by no means limited to, such matters as:</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the degree of P's incapacity, for the nearer to the borderline the more weight must in principle be attached to P's wishes and feelings: <span style="font-style:italic">Re MM; Local Authority X v MM (by the Official Solicitor) and KM</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/2003" uk:canonical="[2007] EWHC 2003 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 2003 (Fam)</ref>, <ref href="#" uk:canonical="[2009] 1 FLR 443" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 FLR 443</ref>, at para [124];</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the strength and consistency of the views being expressed by P;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the possible impact on P of knowledge that her wishes and feelings are not being given effect to: see again <span style="font-style:italic">Re MM; Local Authority X v MM (by the Official Solicitor) and KM</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/2003" uk:canonical="[2007] EWHC 2003 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 2003 (Fam)</ref>, <ref href="#" uk:canonical="[2009] 1 FLR 443" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 FLR 443</ref>, at para [124];</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the extent to which P's wishes and feelings are, or are not, rational, sensible, responsible and pragmatically capable of sensible implementation in the particular circumstances; and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>e)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">crucially, the extent to which P's wishes and feelings, if given effect to, can properly be accommodated within the court's overall assessment of what is in her best interests&#8221;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Wye Valley NHS Trust v B</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2015/60" uk:canonical="[2015] EWCOP 60" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCOP 60</ref>, Peter Jackson J discussed the great importance of giving proper weight to the wishes and feelings, beliefs and values of a patient who lacks capacity. He said at paragraphs 10 and 11:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;[10] Where a patient lacks capacity it is accordingly of great importance to give proper weight to his wishes and feelings and to his beliefs and values. On behalf of the Trust in this case, Mr Sachdeva QC submitted that the views expressed by a person lacking capacity were in principle entitled to less weight than those of a person with capacity. This is in my view true only to the limited extent that the views of a capacitous person are by definition decisive in relation to any treatment that is being offered to him so that the question of best interests does not arise. However, once incapacity is established so that a best interests decision must be made, there is no theoretical limit to the weight or lack of weight that should be given to the person's wishes and feelings, beliefs and values. In some cases, the conclusion will be that little weight or no weight can be given; in others, very significant weight will be due.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[11] This is not an academic issue, but a necessary protection for the rights of people with disabilities. As <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">the Act</ref> and the European Convention make clear, a conclusion that a person lacks decision-making capacity is not an "off-switch" for his rights and freedoms. To state the obvious, the wishes and feelings, beliefs and values of people with a mental disability are as important to them as they are to anyone else, and may even be more important. It would therefore be wrong in principle to apply any automatic discount to their point of view.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In this case and many others, the assessment of best interest involves consideration of very different concepts such as medical risks and benefits, human rights, wishes and feelings, autonomy, and relationships. Those disparate matters have to be taken into account but a balance sheet exercise may not be particularly helpful. When such disparate matters are balanced, it is simplistic to suppose that if the list of advantages flowing from a certain decision is longer than the list of disadvantages, then the decision must be in P&#8217;s best interests. As McFarlane LJ (now President of the Family Division and Court of Protection) stated in a different but related context in <span style="font-style:italic">In the Matter of Re F (A Child) (International Relocation Cases)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/882" uk:canonical="[2015] EWCA Civ 882" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 882</ref> at paragraph 52:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Whilst I entirely agree that some form of balance sheet may be of assistance to judges, its use should be no more than an aide memoire of the key factors and how they match up against each other. If a balance sheet is used it should be a route to judgment and not a substitution for the judgment itself. A key step in any welfare evaluation is the attribution of weight, or lack of it, to each of the relevant considerations; one danger that may arise from setting out all the relevant factors in tabular format, is that the attribution of weight may be lost, with all elements of the table having equal value as in a map without contours.&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">NHS Foundation Trust v QZ</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2017/11" uk:canonical="[2017] EWCOP 11" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCOP 11</ref>, Hayden J said at paragraph 25:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;I am bound to say that this is a case where I do not think that a 'balance sheet' approach (see: <span style="font-style:italic">Re A (Male Sterilisation) </span><ref href="#" uk:canonical="[2000] 1 FLR 549" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 FLR 549</ref> per Thorpe J at &#167;560F-H) is helpful. It does not really accommodate the enormity of the conflicting principles which are conceptually divergent.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is not a large body of case law concerning the use of covert medication and best interests decisions. In <span style="font-style:italic">A Local Authority v P</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2018/10" uk:canonical="[2018] EWCOP 10" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCOP 10</ref>, Baker J reviewed some relevant first instance decisions:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">&#8220;[54] Covert medical treatment is a serious interference with an individual's right to respect for private life under Article 8. In <span style="font-style:italic">An NHS Trust v The Patient</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2014/54" uk:canonical="[2014] EWCOP 54" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCOP 54</ref>, Holman J observed (at paragraph 22):</p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in">"My own view is that even in the case of incapacitous or very incapacitous patients (leaving aside those who lack consciousness), it remains extremely important in any civilised society that they are not subjected to anaesthesia or invasive surgery without, as a minimum, being informed in sensitive and appropriate language as to what is about to be done to them before it is done."</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">In that case, there were concerns that, were the individual to be informed about the surgery proposed for treating his cancer, he would "go berserk". Holman J did not regard this as sufficient reason not to inform him of the procedure before it was carried out:</p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in">"I regard it as acceptable that he has already been sedated to a degree before he is informed, and the hope must be that provided he has been sedated he will not in fact go berserk in the way that his sister predicts. But even at the risk of his going berserk, I insist that an integral part of the order (and this is mandatory) is that he must be informed in clear but sensitive terms of what is going to happen to him before it actually does happen.</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">[55] No reported authority has been cited to me in which contraception has been provided without informing the patient. As already stated, there was no reasoned judgment in the present case when the decision was taken to authorise the covert insertion of the IUD. The only reported cases concerning the covert provision of medication to which I was referred were decisions of District Judge Bellamy in <span style="font-style:italic">AG v BMBC </span>and another <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2016/37" uk:canonical="[2016] EWCOP 37" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCOP 37</ref> in which the court authorised the covert provision of medication to a patient suffering from Alzheimer's disease, and of HHJ Farquhar in <span style="font-style:italic">BHCC v KD</span> [2016] EWCOP B2, in which the court authorised the cover provision of medication to a patient suffering from long-term schizophrenia and frontal lobe dementia. In <span style="font-style:italic">AG</span>, the district judge observed (at paragraph 38):</p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in">"Covert medication is a serious interference with a person's autonomy and the right to self-determination under Article 8. It is likely to be a contributory factor giving rise to the existing DOL [deprivation on liberty]. Safeguards by way of review are essential."</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">In that case, the district judge endorsed the following guidance produced by the supervisory body:</p>
+		    </intro>
+		    <subparagraph>
+		      <num>"(i)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in;text-indent:0.32in">if a person lacks capacity and is unable to understand the risks to their health if they do not take their prescribed medication and the person is refusing to take the medication, then it should only be administered covertly in exceptional circumstances;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(ii)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in;text-indent:0.32in">before the medication is administered covertly, there must be a best interests decision which includes the relevant health professionals and the person's family members;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(iii)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in;text-indent:0.32in">if it is agreed that the administration of covert medication is in their best interests, then this must be recorded and placed in the person's medical records/care home records and there must be an agreed management plan including details of how it is to be reviewed; and</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(iv)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in;text-indent:0.32in">all of the above documentation must be easily accessible on any viewing of the person's records within the care/nursing home;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(v)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.18in;text-indent:0.32in">If there is no agreement, then there should be an immediate application to the court."</p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="Quote" style="margin-left:1in">[56] The covert provision of medication to an incapacitated adult is always an interference with personal autonomy and thus a very significant step.&#8221;</p>
+		    </wrapUp>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">An NHS Trust v XB</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2020/71" uk:canonical="[2020] EWCOP 71" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCOP 71</ref>, Theis J considered decisions about the use of covert medication in the context of the Vice President&#8217;s Guidance of 17 January 2020 relating to applications concerning medical treatment. The use of covert medication involves a serious interference with a person&#8217;s rights under the ECHR and so it was &#8220;highly probable&#8221; that an application to court should be made. She also referred to the Psychiatric Bulletin from the Royal College of Psychiatrists dated 2 January 2018 detailing the College Statement on Covert Administration of Medicine. This statement includes the following:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;&#8230;. There are times when very severely incapacitated patients can neither consent nor refuse treatment. In these circumstances the College echoes the view of the Law Commission that treatment should be made available to severely incapacitated patients judged according to their best interests and administered in the least restrictive fashion. In exceptional circumstances this may require the administration of medicines within foodstuffs when the patient is not aware that that is being done.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230; The treatment plan should normally be subject to weekly review initially and if the requirement for covert medication does persist, full reviews at less frequent intervals should take place.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Evidence at the Hearing</span></heading>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr X&#8217;s oral evidence supplemented and clarified his detailed written reports. A will not engage with him and so he has been largely unable to assess her in person. He was very impressed by the way A&#8217;s medication has been managed at her care home. Covert medication has been given consistently over a period of more than three years without detection. A is given oestrogen as well as progesterone. This prevents bleeding. A has had only two minor bleeds which, again, shows how successful the covert medication has been. He advised that A has gone through puberty as a result of the covert medication and that that cannot be reversed. To optimise her health she requires maintenance HRT for the remainder of her life. If she were to stop HRT now then she would experience bleeding. In the short term she would have a significant chance of suffering hot flushes and night sweats &#8211; in effect she would be at risk of suffering from menopausal symptoms in her mid-twenties. She might suffer from less stable mood. In the longer term she would be likely to suffer a 20% loss of bone density. This would happen earlier in her life than it does for the great majority of women who experience menopause in middle age. Thus, she would be at risk of fractures earlier in life and, when she was herself older, she would be at increased risk of fractures compared with women of the same age. As a woman undergoing a very early menopause, she would have at least an 88% increased risk of cardio-vascular disease. I asked Dr X about what the absolute risk of cardio-vascular disease would be but he could not answer. Nevertheless, for the purposes of this application, I accept his evidence that a relatively increased risk of 88% is very significant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr X advised that it would be difficult to monitor whether A was taking hormone medication, whether voluntarily or covertly, in the community. Blood tests would only reveal whether hormone medication had been taken in the previous 24 hours. Stopping hormone treatment would result in some loss of bone density even if it were later re-started, but there would certainly be value to A in re-starting at some point in the future even if she stopped taking the treatment now.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr X advised that having gone through puberty it was possible that A might be physically able to undergo IVF treatment to assist conception. However, A has not agreed to any scanning since she was started on covert medication and so the extent to which her uterus has matured is not known. Hence, the viability of IVF cannot be assessed.  In any event, Dr X was unsure if she would have the mental capacity to make decisions about such treatment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr X agreed that the most sustainable and therefore beneficial outcome would be for A to take hormone treatment voluntarily. He said that the &#8220;elephant in the room&#8221; was B&#8217;s role in achieving that outcome. What was required was a frank conversation between A and B in which B admitted to her daughter that she had been wrong to doubt the value of hormone treatment, apologised for her mistake, and encouraged A to follow medical advice and to accept HRT. He said that without a sincere recognition of past mistakes, A would not accept as genuine any encouragement B might now give to her to take the medication. There would be a &#8220;credibility gap&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr X noted that a new endocrinologist, Dr K, had been introduced to A but that she had refused to engage with her. It seems that Dr K has a Northern Irish accent. A, just like her mother, B, apparently has a &#8220;phobia&#8221; in relation to people from Northern Ireland. It will be recalled that A&#8217;s father is Northern Irish. A has had no contact with him since she was about 14 months old, but she appears to have adopted her mother&#8217;s feelings towards anyone or anything coming from Northern Ireland. Dr X strongly encouraged B to help A to overcome those feelings because Dr K is an excellent doctor. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is proposed that a further expert, Professor Z, might be able to see A and be able to persuade her of the benefits to taking hormone medication. The idea is that A will see Professor Z as independent of Dr X and Dr K. Dr X was very complimentary of Prof Z&#8217;s abilities. He did point out that he knows Prof Z, because they share expertise in a field which is a &#8220;small world&#8221;. Also, I would add, A&#8217;s view of who is independent is not necessarily rational.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">B came across to the court as a softly spoken, slightly timid witness, but as an intelligent person who was very able to understand the evidence and issues in the case. She told the court about her obsessive compulsive disorder. She maintained that this condition accounted for her phobia of anything associated with Northern Ireland, which also stems from the breakdown of her marriage to a man from that region, and to her dislike of certain things being brought into the house. She was unable even to say &#8220;Northern Ireland&#8221; or to name the place there where she had lived when married. She said that she had hated school. She decided to home school A when she had taken A to the same school B had attended, and A hated it too. I am afraid that I found her to be evasive, in particular in relation to evidence about her past conduct and beliefs. She was very reluctant to accept any responsibility for past harm caused to her daughter. For example, </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">B said that she would apologise to her daughter about not having encouraged her to take HRT but put her failure to have done so previously down to &#8220;ignorance&#8221;. She claimed not to have understood the benefits of HRT. When it was pointed out to her that Dr X&#8217;s evidence about the benefits of HRT at previous hearings had been very clear, she said that she had not been able to hear him very well. She was represented at these hearings and Dr X had provided written evidence. B can have been in no doubt in 2019 and 2020 what Dr X&#8217;s evidence was about the benefits of hormone treatment. As HHJ Moir recorded at the time, B was just not prepared to accept the evidence. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">B told the court that she and A had both taken vitamin D supplements but the evidence is clear that A had a vitamin D deficiency when in B&#8217;s care.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">I asked B about A&#8217;s interactions with children her own age. B told me that A did have a group of friends but on follow-up questioning she accepted that she had not had any peer friendships or contact since about the age of nine. Again, B was not open in her evidence and had not told the whole truth when initially asked about this issue.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">When being asked by Miss Gollop KC about her past history and working life, B was very evasive, only providing a full picture when repeatedly pressed.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">B told the court that A&#8217;s epilepsy was well controlled, but it is evident from the records that there were problems, including the day when A had ten tonic-clonic seizures and required hospitalisation. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">B said that she had thought when A was growing up that her difficulties with spelling were due to &#8220;laziness&#8221; but I cannot accept that, when home-schooling A over ten years or so, B did not recognise that A had, or might have, learning difficulties &#8211; her full IQ, when assessed, was only 65. I accept that A&#8217;s home-schooling was supposedly monitored and that responsibility for failing to recognise A&#8217;s learning disability must also lie with the monitor, whom B named. But B had day to day responsibility for teaching A and cannot have failed to notice that A&#8217;s learning was slow rather than that she was &#8220;lazy&#8221;.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">B told the court that the home-schooling monitor had advised B about a centre where A could have support for her maths learning, which had fallen behind. She had never taken A to that centre and explained that she had taken A to find it but they could not locate it. When explaining this, B appeared to think that this was a reasonable excuse for not providing her daughter with the learning support she needed. Clearly, she had not taken responsibility for ensuring that A received proper assistance.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">B was very reluctant to accept the evidence that A has a learning disability and Asperger&#8217;s syndrome. Earlier in the proceedings she had commissioned a report from a psychologist which identified the possibility that A has dyslexia. B&#8217;s focus has been on that report. She was willing only to say, &#8220;I understand that she has slight dyslexia &#8211; I accept that&#8221;. Similarly, in previous proceedings B had described A as &#8220;stubborn&#8221; when A&#8217;s difficulty with change is, as B must now know, due to her Asperger&#8217;s. Minimising A&#8217;s difficulties in this way allows B to act as if they do not exist and so she does not have to take responsibility for dealing with them as A&#8217;s carer.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">When asked about the fact that different neighbours, in different areas, had independently reported concerns about A&#8217;s isolation to authorities, B discounted the reports as being malicious.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">B did not seem to think that A&#8217;s adoption of her own phobia or antagonism towards people from Northern Ireland was &#8220;a significant problem&#8221; and said that it was &#8220;not racist, it is a medical thing.&#8221; However, she did not discriminate between her own position and A&#8217;s position in that respect. She did not reflect on why A, who will have no memory of living in Northern Ireland or of her father, should have developed a phobia of things Northern Irish other than through B. Also, it <span style="font-style:italic">is</span> a &#8220;significant problem&#8221; for A because she has refused to engage with a doctor, Dr K, who could help her, because of her accent.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">When it was put to B that she had been resistant to the involvement of professionals - which is undoubtedly true having regard to the history of this case and the evidence provided to the court &#8211; B denied it saying that she had regularly taken A to the ophthalmologist. This response exemplified B&#8217;s inability or unwillingness to face up to the truth, and to deflect her personal responsibility.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">B accepted that she had encouraged A to believe that two recent episodes of breakthrough bleeding were menstrual periods, and that she had told A&#8217;s grandmother that A&#8217;s periods had started. She accepted A had not started her periods but said that when A mentioned bleeding she was put in a difficult position and did not know what to say. In fact, she had ready access to advice and could have said to A that she would seek that advice but, as is typical for her, she did not want to take advice from others.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">B also revealed a lack of realism when it came to her evidence about proposals for A&#8217;s future care. B&#8217;s case at the hearing involved a marked departure from her previously held position. She told the court that whilst she would not give A medication covertly herself, she would support others to do so. She suggested that her own home would not be suitable for the preparation of food in which medication was incorporated: the layout of the kitchen and living area would allow A to wander in and see what was being done. Instead, she suggested two alternatives. First, medication, including hormone treatment, could be delivered to the home and she would just advise A to take it. The obvious flaw with that plan is that A has been seeing and refusing hormone medication for the past three years. The second plan was to ensure that A attended her grandmother&#8217;s home for lunch every day and that food incorporating the medication could be pre-prepared and given to her there. Again, this plan seems to me to be unrealistic. What if A did not want to go to her grandmother&#8217;s one day, or wanted to eat something else? HRT has to be taken daily but this plan would give rise to many possibilities for medication being missed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">B was asked about the transcripts of recent contact she has had with A. She has referred to A being &#8220;abused and bullied&#8221; and has referred obliquely to A being &#8220;a puppet with string pulled&#8221;. There are some passages where A and B talk about medication but there is no clear or consistent steer from B to A to take her medication. I also take into account staff notes of some recent dealings with B during which she has been antagonistic towards staff.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I heard evidence from Social Worker, Ms S, who has had a long involvement with A and B. She spoke to some progress having been made by A since she has been in placement A. Her personal hygiene has improved. She has engaged more with staff over time. She began to agree to go out on trips with them. However, there has been a deterioration since face to face contact with B was re-introduced. A expresses strong wishes to return home but her horizons are so limited by her upbringing that it is difficult for her to think any other way. She accepted that it is difficult to disentangle the effects of A&#8217;s learning disability and Asperger&#8217;s from the consequence of her upbringing and her relationship with B.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">After the close of the evidence, when I reserved my judgment pending receipt of written submissions, the Local Authority sought to discuss with the other parties proposals for an adjournment to allow for further professional work with A aimed at persuading her to take HRT voluntarily and of her grandmother being invited to participate in those efforts. On advice, B declined to participate in such discussions, preferring to allow the court to reach its determinations on the evidence adduce at the hearing. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I was told at the hearing that B had made an appointment for Professor Z to see A on 26 March 2024. It was hoped that Professor Z&#8217;s intervention would help to persuade A to take her HRT voluntarily. In further written submissions Ms Gollop KC for the Local Authority has advised that no appointment had been booked and Professor Z would not travel to see A at placement A. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The Parties&#8217; Positions</span></heading>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">B&#8217;s case is that it is &#8220;in the best interests of A to take HRT voluntarily as soon as possible and that this can be best achieved by A returning home for a trial period of 12 weeks when B can take the lead in convincing A to take HRT and can get her to see a doctor she can trust (Professor Z)&#8221;. Counsel for B has submitted a proposed order which would provide for a period of transition to a return home, and then a period of covert medication in the community, after return home. It also provides for A to travel to London to see Professor Z.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Local Authority invites the court to refuse B&#8217;s application in respect of A&#8217;s residence. It has floated the idea that A could move to a SIL placement. None has been identified but the Local Authority proposes to begin identification of a suitable placement. It invites the court to declare that it is in A&#8217;s best interests to receive endocrine advice and care from Dr K and that, if A&#8217;s grandmother is willing, the next appointment with Dr K should be at the grandmother&#8217;s house and in her presence. It invites the court to give directions for a final hearing of best interests in relation to residence, care and contact with B. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Hospital Trust also invites me to dismiss B&#8217;s application for A to return home and to continue the current best interest orders in relation to residence, care, contact with others and covert medication, and to make directions for further evidence with a view to a final hearing in relation to best interests on residence, care and contact with B. The Trust has &#8220;significant reservations&#8221; about involving A&#8217;s grandmother in persuading A voluntarily to take HRT. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Official Solicitor, as litigation friend for A, submits that it is in A&#8217;s best interests to continue to receive her maintenance medication and for the same to be administered covertly and managed by Dr K of the Trust. B&#8217;s application should be refused and it is in A&#8217;s best interests for a SIL placement to be identified by the Local Authority. Overnight contact should be considered but, in the meantime, the current contact regime should remain in place until a further hearing.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Analysis </span></heading>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Whilst the Local Authority has recently proposed that there should be an assessment of the viability of a SIL placement for A, no such proposal has been aired in the years since A was removed from her home with B until shortly before this hearing. No placement has been identified and I do not have any evidence that such a placement would be suitable for A. It seems to me that the choice of residence that A would face if she had capacity, and which is before the court, is between A continuing to live at placement A, but with exploration of the possibility of moving to SIL at some point, or A returning home to live with B.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">B has given plenty of notice of her application for A to return home &#8211; the court and the other parties have known that she intended to make the application since September 2022. Indeed, even before then, when she did not know about the covert medication, she sought the return home of her daughter. Furthermore, the related question of covert medication has been under active consideration for a long time prior to this hearing. In the absence of good reason to the contrary, B&#8217;s application should be determined on the evidence now available. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The decision about residence is complex and it cannot be divorced from consideration of the continuation of A&#8217;s covert medication. The need for A to receive hormone treatment was a key reason for removing her from her home. I have to consider the feasibility of continuing covert medication, wherever A is residing, and whether continuation of covert medication in any setting is in her best interests. As part of any best interests decision about medication, consideration has to be given as to what, if anything, to tell A: should she be told that she has been covertly medicated? If so, when and by whom? Despite my directions in September 2022 for a plan for a transition away from covert medication, I do not have a transition plan before me. Therefore I have also to consider whether I can make decisions about a transfer of residence, and of the continuation of covert medication without such a plan having been formulated and approved.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Covert Medication</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There can be no doubt that the use of covert HRT has produced a significant medical benefit for A: it has ensured that she has gone through puberty. For so long as it continues it protects her against early loss of bone density and very significantly increased risk of cardi-vascular disease. The worst consequences of ceasing HRT would arise some decades from now but those consequences could cause physical disability and even premature death. Hence A&#8217;s Article 2 and 3 rights are engaged. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Notwithstanding the manifest benefits to A of continuing to take HRT, there are four features of her case that now create difficulties for future planning:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The plan for covert medication does not have a foreseeable end date. In some cases, covert medicine may be used in the best interests of an incapacitous person as a one-off or short term measure where it is necessary in order, for example, to ensure that they can be safely anaesthetised for essential surgery. In the present case medical opinion was, and remains, that A requires hormone treatment for the rest of her life.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">A is not severely incapacitated. She is capable of understanding that she has been administered medication against her will and of forming a view about those responsible. She could discover that she is being, or has been, covertly medicated and that discovery could have a significant impact on her relationships with others, including her carers and her mother, and on her trust in healthcare professionals.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The medication was designed to induce puberty and that has happened. Hence, A has undergone some significant, physical changes. Anyone who knows A will be able to see that she has physically changed. Whilst A does not seem to have associated her physical changes with the possibility that she has been given HRT, others might do so and inadvertently alert her to it.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">If the administration of HRT were to cease, A would be likely to experience bleeding and might suffer menopausal symptoms such as hot flushes and night sweats within a short time of cessation. How can A be advised about these changes without informing her that they are being caused because HRT has been stopped, and therefore that she was being given HRT covertly?</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Having regard not only to the benefits of continued HRT but also these difficulties, I must consider whether continuing covert medication is both feasible and in A&#8217;s best interests, either as a resident at placement A or in SIL, or if she returns home.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is clearly feasible to continue administering HRT covertly within placement A &#8211; this has been accomplished for over three years. I have no details about how HRT could be administered covertly were A to move to SIL. I envisage that it would be more difficult to administer it in a SIL placement than it is in placement A where HRT can be added to food or drink well away from where A is situated. However, for present purposes I shall assume that covert medication could feasibly be continued were A to reside in SIL.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Nevertheless, I have concerns about the longer term sustainability of covert medication whilst A resides in placement A or in SIL. In his oral evidence Dr X was very complimentary of the staff at placement A for having administered HRT undetected for so long. But that points to the possibility of detection which is inherent in a covert regime. I am concerned as to the impact on A&#8217;s health and welfare should she discover that she is, and has been, covertly medicated. That risk is present and will continue not only so long as covert medication continues but also after it stops, if it ever does stop. If A discovered that she was or had been given medication against her will by secreting it in her food or drink, whilst she was still in placement A or in SIL, she might well lose all remaining trust in those caring for her. If that were to happen then she might well not believe what carers told her they were giving her to eat and drink, and there would be a real risk that she could choose to stop eating and drinking. She has done that previously. I also factor in the possibility that if B loses hope of her daughter returning home, she may be more likely to take matters into her own hands and to inform A that she is being covertly medicated. She has not done that to date, and I commend her for that, but  the hope that A might be returned home has provided an incentive to B to abide by the rules set by the court and the care home.  She has not found that easy and with the incentive removed she might relapse into the more confrontational mode of behaviour she has previously adopted, and which more recently she has shown some signs of adopting again.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Hence, whilst it is feasible for medication to continue to be administered covertly whilst A remains in placement A or in SIL, it is fraught with risk to do so and I doubt that it is sustainable for years ahead.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Is it feasible for HRT to be administered covertly upon A returning home? B told the court that she had listened carefully to the evidence and now believed that it would be in A&#8217;s best interests to take HRT and that she would persuade her to do so. She proposes that A continues to be covertly medicated at B&#8217;s home until A persuades her to take HRT voluntarily. I regard that proposal as unrealistic. Dr X said that in order to persuade A to take HRT voluntarily her mother would have to whole-heartedly apologise to A for having been wrong about hormone treatment in the past. Without a sincere acknowledgement of past mistakes, any attempts by B now to persuade A to take HRT will have no credibility. In my judgment, Dr X&#8217;s observation has considerable force. As it is, I found B to be unable or unwilling to accept responsibility for her past conduct and for the dire circumstances in which A found herself by 2019. I found B&#8217;s proposals for supporting the administration of covert medication and transition to voluntary medication, to be unrealistic. Indeed, although B says she supports A being given hormone treatment, her actions do not match her words. She has supported her daughter to refuse the medication in the past. She has not, even now, fully or genuinely accepted responsibility for that. She has not taken the opportunity clearly and consistently to persuade A to take the medication since contact was re-introduced. Furthermore, her proposals for covertly medicating A at home were so flawed as to suggest that she has no real intent for them to be effective. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I also note Dr X&#8217;s evidence that it would not be possible effectively to monitor compliance with the administration of HRT - whether given covertly or taken voluntarily.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Even if B co-operated fully, there would be a high risk of A finding out that she was being medicated covertly were she to return home. The care home provides a controlled environment for the preparation of food and for the administration of medication that cannot be replicated at home where there would be far higher risks of A seeing or hearing something that would lead to inadvertent disclosure. Changes in the way in which covert medication is administered will give rise to a significantly increased risk of detection. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, although some steps to provide covert medication to A in the first few days after returning home might be feasible, there is little to no prospect of medication being given covertly at home in the medium or long term.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Even if feasible, I have to consider whether the continued covert administration of HRT is in A&#8217;s best interests. Given that A will not accept HRT voluntarily, covert administration is the only alternative means of ensuring she receives treatment which is in her medical best interests. Continued medication protects her against the immediate and medium term consequences of stopping treatment, such as bleeding and menopausal symptoms, and the longer term consequences of reduced bone density, the risk of fractures, and very significantly increased risk of cardio-vascular disease. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On the other hand, it is a significant infringement of A&#8217;s human rights to medicate her against her wishes and without her knowledge. Presently, the provision of covert medication requires her to be deprived of her liberty, to live away from home, and for her contact with her mother to be regulated. Whilst she would no longer be deprived of her liberty if she were to return home, and contact with her mother would no longer be regulated in the same way, continued covert medication in the community would still be a significant infringement of her autonomy and Art 8 rights. Hormone treatment is good for A&#8217;s health, but it comes at a heavy price in terms of infringements with A&#8217;s human rights. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have to consider the length of time over which these very serious interferences with A&#8217;s human rights may continue. Dr X&#8217;s evidence is that it is in A&#8217;s medical best interests to continue to receive hormone treatment for the rest of her life. Therefore I have to contemplate the possibility of A being deprived of her liberty, covertly medicated, and separated from her mother whether in a care home or in SIL, for the rest of her life. In nearly five years since A was removed from her mother&#8217;s home no-one has persuaded her to take HRT voluntarily. Even now, it is proposed that further strategies are deployed to try to persuade her. Whilst it is understandable that attempts should continue, in my judgement the time has come to acknowledge that such attempts are unlikely to succeed. A has been remarkably consistent and tenacious in refusing HRT. Nothing that has been attempted - removing her from home, suspending all contact with her mother, providing information and education, building her trust in her carers &#8211; has made any difference. It is more in hope than expectation that new strategies are now suggested, even after the close of evidence. I proceed on the basis that if A remains at placement A or within SIL it is likely that she will continue to refuse to take HRT voluntarily. Hence, if undetected by A, covert medication could continue for many years ahead, potentially for the rest of A&#8217;s life. Now that A has gone through puberty, the rationale for continuing HRT will remain for the foreseeable future. It would be wrong, therefore, to focus only on the next few months. A needs HRT for her health for the rest of her life. If, as I find, A is unlikely ever to agree to take HRT voluntarily, then for so long as she resides in placement A, a similar care home, or in SIL, then a decision has to be made to whether to continue covert medication for the foreseeable future.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have to take into account the fact that as a consequence of having been given HRT, A has now gone through puberty. That is not reversible and so a significant element of the harm that was contemplated were she not to have been covertly medicated, has been overcome. The first goal of covert medication has been achieved. The adverse consequences to A of stopping hormone treatment now are significant but not as severe as the adverse consequences would have been had she never taken hormone treatment at all. Put another way, the additional benefits of HRT are considerable but they are not as considerable as they were when HRT was started. The balance of best interests has changed since orders were made removing A from her home and permitting the covert administration of medication.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As part of the best interests assessment, I have to consider what would be the consequences for A if covert medication ceased. There are dangers to A from stopping the covert medication. Firstly, the medication is beneficial for A&#8217;s health and she would lose those benefits unless she began to take HRT voluntarily. Secondly, upon ceasing HRT, A is likely to experience bleeding and liable to suffer menopausal symptoms. Thirdly, as a result of experiencing those physical changes, and in any event, A might learn from B, or otherwise, that she has been covertly medicated whilst in placement A. That knowledge could be harmful to A as discussed earlier. She could lose her remaining trust in healthcare professionals with adverse consequences for her whether she is living at home or in a placement.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If covert administration of HRT were stopped but A was not informed that she has been covertly medicated then an additional problem would be that A would have no knowledge of why she was bleeding or why, if it were the case, she had menopausal symptoms. Decisions would have to be made whether to lie to her in order to avoid her knowing that she had been covertly medicated. This would only heighten the risk that she would find out anyway, and that upon finding out, her trust in others would be even further undermined.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These harmful consequences and risks would be mitigated were A persuaded to take HRT voluntarily. Indeed, the best possible outcome for A is that she volunteers to take HRT. That is the most sustainable way in which she can achieve the medical benefits without infringement of her human rights. In my judgement there are two conditions that need to be met for there to be any chance of A being persuaded to take HRT. First, it will require honesty about the fact that she has been covertly administered HRT. Second, it will require the input of B. I have already observed that A has steadfastly refused to take HRT voluntarily despite all efforts to persuade her to do so whilst she has been resident at placement A. It is unlikely that A will be persuaded to take HRT voluntarily whilst, as now, she has no awareness that it has benefited her. As for B persuading A to take HRT voluntarily, I have serious doubts that B is willing or able to do so. She failed to do so when A was in her care previously and has not shown much willingness to assist in persuading A to take the medication when given the opportunity to do so whilst she has been living at the care home. Nevertheless, the best chance there is of A beginning to take HRT voluntarily is through B&#8217;s intervention. Their enmeshed relationship means that A is more likely to listen to B than to anyone else. If B can explain to her that the use of HRT has been beneficial to her and that she, B, was wrong not to have encouraged her to take it previously, then there is a small chance that A might choose to take it. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It was suggested by Dr X that a deliberate decision to inform A that she has been covertly medicated would be akin to deliberately stepping on a landmine, and that it might be better to at least try to navigate through the minefield, however difficult that journey may be. Why tell A that she has been covertly medicated when there might be a way to avoid her ever knowing? For a number of reasons I do not agree:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">It is unrealistic to believe that there is a safe route through the &#8220;minefield&#8221;. It is likely that at some point A is going to discover that she has been covertly medicated. All it takes is for one person to make one mistake on one day.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">If so, it would be in A&#8217;s best interests for her to learn of the covert medication in a managed way.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Potentially the most effective route to the best outcome &#8211; A agreeing to take the medication voluntarily &#8211; is by being honest with her: she can be told that HRT has been beneficial to her health but it had to be given covertly because she would not agree to it. B did not know A was being covertly medicated until September 2022 but B now agrees with the medical professionals that it is important that A continues to take it so that she can get the full benefit from it.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Given that the decisions about residence and covert medication are so closely interlinked, I need to consider other aspects of the decision on residence before reaching a final conclusion, but to summarise the complex issues discussed above:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Continued HRT is beneficial for A&#8217;s health. Stopping it would cause her to experience bleeding and may cause her to suffer menopausal symptoms. She would lose bone density much earlier in life than she would if she continued with HRT. This would give rise to a risk of earlier fractures. She would be at a very significantly increased risk of cardio-vascular disease. Albeit the most extreme risks to A would be some decades hence if she were to stop HRT now, those risks are of physical disability and even premature death. Her Art 2 and 3 Convention rights are engaged.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">A has refused to take HRT voluntarily despite all efforts to educate and persuade her. It is unlikely that whilst she remains at placement A or in SIL she will change her mind.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Continued covert medication with A at placement A or in SIL is feasible.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Continued covert medication with A at home is not feasible in the medium or long term.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">There is a significant risk that so long as covert medication continues, A will discover that it is taking place.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Serious harm could come to A were she to discover that she is being, or has been, covertly medicated. This harm would probably be more serious were she being cared for in placement A or SIL at the time of such discovery, compared to the harm caused to her were she at home. The harm may be mitigated by informing A of the fact of covert medication in managed circumstances.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Continued covert medication in placement A or SIL would require the deprivation of A&#8217;s liberty, separation from her mother and regulation of their contact with each other, and would be a significant infringement of A&#8217;s Art 8 rights;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">HRT is a lifelong requirement. Hence, the court has to contemplate the prospect of covert medication being given, and for the consequential deprivation of liberty and other human rights infringements continuing for the foreseeable future.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The medical benefits of HRT are significant but not as significant as they were when authorisation of the covert administration of HRT was given in 2020. A has now gone through puberty, which was the primary goal of the covert treatment, and that cannot be reversed.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The best outcome would be for A to agree to take HRT voluntarily. All attempts to persuade her to do so have failed. The best possible chance of her now agreeing to take HRT is if she is told the truth and if B is involved in telling her &#8211; that way she will know that HRT has benefited her, and she will hear that from the person whom she trusts the most. However, it is also possible that upon informing A that she has been covertly medicated, she will lose all remaining trust in healthcare professionals, with adverse consequences for the future management of her various medical conditions.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have not been provided with any plan for the transition of residence, the ending of covert medication, or the imparting of information to A about covert medication. Her mother is aware of the covert medication but A&#8217;s grandmother is not aware. The parties have previously submitted that A&#8217;s grandmother should not be told, but the Local Authority is now considering whether she might be enlisted to seek to persuade A to take HRT voluntarily. This will require a decision to be made whether to inform A&#8217;s grandmother that HRT is currently being given covertly. Approximately 18 months ago I asked for a plan for transition from covert medication. I do not doubt the difficulties of managing that transition but my perception is that the only exit plan from the covert regime is to persuade A to take HRT voluntarily. That plan has not succeeded and there has been no detailed planning for the option of ceasing covert HRT without A agreeing to take HRT voluntarily. The prospect of A not taking HRT at all has not been actively contemplated. If a decision to permit A to return home comes with an acceptance that covert medication would cease, then a plan does need to be made for that transition. There are therefore some uncertainties as to the next steps and I have to consider whether I should make a decision in A&#8217;s best interests about residence without further evidence and submissions on those next steps.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I note again the Bulletin from the Royal College of Psychiatrists quoted above. Covert medication should be used exceptionally, for severely incapacitated patients, and in the least interventionist way consistent with their best interests. The present case demonstrates the difficulties inherent in using covert medication in the case of an adult who whilst lacking capacity to make decisions about their own treatment, is not severely incapacitous; of using covert medication over a prolonged period; and of having to take additional interventionist measures such as deprivation of liberty, separation from family, suspension of contact, and closed proceedings, to support the covert administration of medication. Before covert medication is begun it should be asked how and when it will end and to plan for that eventuality. In the present case, unless covert medication is to continue for the rest of A&#8217;s life, it must end, but its ending is laden with complexity and risk.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Relationship Between A and B</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In her oral evidence B described herself as a &#8220;normal mother&#8221; with a &#8220;close relationship&#8221; with A. In my judgement, that self-description betrays a lack of insight. Clearly, there is no single template for motherhood, but at the time when B was removed from A&#8217;s care in 2019 at the age of 20, B&#8217;s relationship with A was deeply enmeshed, as HHJ Moir found. A aligned herself almost wholly with B&#8217;s views and wishes. B herself, lived through her daughter to an extreme degree. They spent all their time together and were very rarely apart. A was isolated with no friendships or contact with people of her own age, she was under-developed physically and mentally, she had very few independent living skills, she had not been given access to medical advice and treatment that she needed, she had adopted many of her mother&#8217;s obsessions and phobias, she had been denied adequate academic education and the opportunity for personal development. A did have learning disability and Asperger&#8217;s syndrome but B was heavily responsible for A&#8217;s isolation and lack of physical, mental, and social development. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">An enmeshed relationship is one in which an individual aligns their own wishes and goals with those of another. Boundaries between A and B have become blurred. This is demonstrated by their shared &#8220;phobia&#8221; of people from Northern Ireland, of their joint hostility to straightforward, reasonable medical advice, and their mutual retreat from the world into the confines of their home. Each has become deeply emotionally and reliant on the other such that they lack independent individuality. HHJ Moir referred to A and B&#8217;s relationship as enmeshed and I have adopted that description. In my view the evidence fully justifies that categorisation but it is right to note that, although I have evidence from Dr Ince on A&#8217;s capacity, I have not relied on any expert evidence on the dynamics of the relationship when reaching that conclusion.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A return home to the care of her mother, will expose A to a substantial risk of harm flowing from the nature of the relationship between her and B. This enmeshed relationship previously resulted in A being deprived of medical attention and treatment that she required, reasonable medical advice regarding A being rejected, and significant social isolation. Under B&#8217;s care A was under-developed physically and mentally, and was ill-prepared for independent or even semi-independent living. There is nothing in the evidence I have seen or heard to lead me to believe that there will be a marked difference in B&#8217;s approach to her relationship with A were A to return home. B may have learned to say some things that she knows she ought to say to portray a more positive future for A at home, but I have no sense that she has any real desire to change. She gave no impression that she thinks she has ever done anything wrong.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">To an extent, A is protected from some of the damaging aspects of her relationship with B for so long as she resides in a care home or in SIL, but that protection has so far entailed tight regulation of contact between A and B, including a prolonged period of suspension of contact, and it is likely that similarly tight regulation would be required in the future. The Local Authority and Trust&#8217;s evidence at the hearing hinted at a possible application in the future to reduce the level of contact because it is felt that the re-introduction of face-to-face contact has been detrimental to A&#8217;s wellbeing. The purpose of controlling contact is to protect A from B&#8217;s influence. I believe that some realism is required &#8211; A and B&#8217;s relationship has been so enmeshed over such a long period, including during A&#8217;s most formative years, that it is not possible to negate B&#8217;s influence over her daughter. Suspension of any contact between A and B for a prolonged period did not bring about any significant changes in A&#8217;s views and attitudes about HRT, about her trust in medical professionals, and about her social engagement. The effect of A and B&#8217;s relationship on A will persist wherever A resides. The advances that A has made in placement A are, with respect to the staff, relatively minor. Her core behaviours have persisted. Her oppositional behaviour to healthcare and other professionals seems to be deeply entrenched and her unhappiness at being separated from her mother seems to make her dig her heels in even more.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num>72.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have focused on the negative aspects of A and B&#8217;s enmeshed relationship but there are some positive aspects. There is a bond of love between them. A strongly wishes to live with B. They share a love for A&#8217;s maternal grandmother. There are some small signs of B encouraging A to join social activities such as at a local bowling club. B will provide a clean and tidy home for A where A can enjoy her own room, use the kitchen, and spend time with her mother and grandmother without supervision or regulation. I have already noted that it remains possible, but not probable, that B has genuinely changed her views about HRT and will seek to persuade A to take HRT voluntarily.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The Best Interests Assessment</span></heading>
+	  <paragraph eId="para_73">
+	    <num>73.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The application before me is for a declaration that it is in A&#8217;s best interests now to return home to live with her mother. I have to stand back and consider all the circumstances and those matters the court is specifically enjoined to consider by <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s4</ref>. For the reasons given, I find as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Were A to return home it is likely that she would be exposed to the harmful consequences of her enmeshed relationship with her mother. They have a loving relationship but it has previously been antithetical to important aspects of A&#8217;s health and welfare. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">To some extent, A is protected from the adverse consequences of that enmeshed relationship whilst removed from her home and whilst her contact with B is regulated. However the influence of A&#8217;s relationship with B is very strong and even their separation has not and will not negate all the harmful aspects of it. Furthermore, regulation of contact is a source of stress to A that seems to make her less, rather than more willing to change her attitudes and behaviour.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Separation from B and her home, and the regulation of contact with B, are infringements of A&#8217;s Art 8 rights and necessitate deprivation of her liberty.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">A&#8217;s strong wish is to return home to live with her mother. I have to take account of the influence of her enmeshed relationship with B on the expression of A&#8217;s wishes and feelings. I have to take into account A&#8217;s lack of capacity to make decisions about residence, care, and contact. However, her wish has been consistently and wholeheartedly expressed ever since she was removed from her mother&#8217;s care in 2019 and I must have regard to it not least because I have to put myself in A&#8217;s shoes when considering what is in her best interests.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Return home would allow for a more natural relationship between A and B, and between A and her grandmother. It would restore to her the family life with which she was familiar as she grew up and until she was removed in 2019.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Return home would restore A&#8217;s liberty and give her freedom to make choices about daily activities, including socialisation outside the home. However, that advantage has to be weighed with care because previously, although there were choices available to A, B&#8217;s influence prevented A from being truly free to make choices for herself. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">It is unlikely that A will volunteer to take HRT so long as she remains in placement A or in SIL.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">Were A to return home it is possible, albeit unlikely, that she will be persuaded to volunteer to take hormone treatment.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Were A to remain in a placement away from home, covert medication could continue, but its continuation would be a continued infringement of A&#8217;s autonomy and freedom, and would carry with it the risk of disclosure which could cause significant harm to A, extinguishing all remaining trust in healthcare professionals, and rendering the future provision of treatment and care for her in a care home or SIL setting very problematic.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">In my judgement, covert medication would be unsustainable in the medium or long term at home, and ought to be stopped on returning home. Stopping medication is likely to raise questions from A which might lead her to learn that she has been covertly medicated in placement A and to lose any remaining trust she has in healthcare professionals. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Were covert HRT to be stopped either at home or in a placement, A would be exposed to all the risks and adverse consequences identified by Dr X. These would be harmful to A&#8217;s health over her lifetime, but the extent of harm to her is less than it would have been had she never had HRT at all. Covert HRT has brought health benefits to her, some of which are not reversible.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">xii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">If covert medication is to stop, then it would be better for A&#8217;s welfare and consistent with supporting her to make autonomous decisions about treatment in the future, to inform her of the fact that she has been covertly medicated, that it has been beneficial to her health, and that it would be best for her health to continue to take it. For that messaging to have any chance of being effective, B ought to be involved in delivering it to A.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num>74.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The risks to A that arise from her relationship with B can be mitigated to some extent by ensuring that carers and social workers are allowed access to A at her home. Furthermore, it is clearly in A&#8217;s best interests to take steps to ensure that she has access to medical assessment and advice when needed. These protective measures can be included within the plan for her future care and treatment. A will be very likely to continue to lack capacity to make decisions about her care and treatment, and so decisions will have to be made in her best interests even if she were to reside at home.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num>75.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In short, the positive consequences of allowing B&#8217;s application for A to return home are that it would meet A&#8217;s strong wishes, end the continued deprivation of her liberty, end the serious infringement of her autonomy by terminating covert medication, end the regulation of her contact with her mother, and restore full respect for her family and private life. A would be very happy to be returning home. The negative consequences would be that she would be returning, without the protection that separation can provide, to an enmeshed relationship that has caused her significant harm in the past and is likely to expose her to the risk of harm in the future. It would not be practicable to administer HRT covertly and she would be unlikely to volunteer to take HRT. Hence, she would be exposed to the consequences of an early menopause and to significant risks of physical harm over the course of her life.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num>76.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Keeping A in placement A with the possibility of a move to SIL, would allow covert medication to continue with consequential benefits to her health, but only for so long as A does not know that she is being covertly medicated. It would allow some protection to her from some of the harmful aspects of her enmeshed relationship with B and allow for continued educational and therapeutic work. On the other hand, A&#8217;s behaviour and attitudes have not changed significantly even after nearly five years removed from home and after a prolonged period of suspended contact with her mother. She is being deprived of her liberty and prevented from enjoying a private and family life. She is being medicated against her will. Her wishes are not being met and that is upsetting to her. She has already benefitted from HRT medication and has gone through puberty &#8211; a process that cannot be reversed even if HRT ceased.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num>77.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have to have regard to all the circumstances. No-one can predict the future and there are many uncertainties in the present case. I take into account A&#8217;s wishes and feelings and the views as to her best interests of B and of those who presently care for A. B considers it to be in A&#8217;s best interests to return home. I do not have evidence from every person caring for B at placement A but I proceed on the basis that they align themselves with the Local Authority&#8217;s position that it is in A&#8217;s best interests to remain in her placement with the possibility of a move to SIL. The Official Solicitor supports the Local Authority&#8217;s position.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num>78.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A was removed from her home nearly five years ago. The main reasons for her removal, and the subsequent suspension of contact with her mother, were the damaging effects of the enmeshed relationship between her and her mother, and her refusal to accept hormone treatment, which was considered to be aided and abetted by her mother. Of those, at the time when the decision was taken, it was the refusal to accept treatment that was described by Mr Karim KC for the Official Solicitor as of &#8220;magnetic importance&#8221;. A continues to wish to return home and she continues to refuse hormone treatment. Her behaviour and attitudes have not significantly changed over those five years. I am concerned that the rationale for keeping her away from home, depriving her of her liberty, and medicating her without her knowledge and consent, will still be put forward in another five years from now, and indeed for the foreseeable future. A is unlikely to change in her refusal to accept HRT and so neither will the rationale for depriving her of her liberty.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num>79.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The covert administration of HRT has brought benefits for A which are largely irreversible. Stopping HRT will be detrimental to her health but comparatively less detrimental than had she never been treated at all. Continuing covert HRT is fraught with risk. In my judgement, on balance, the continuation of covert medication is not in itself a sufficient justification, in A&#8217;s best interests, for continuing to deprive her of her liberty, for overriding her autonomy, and for keeping her away from her home. Returning A home might allow B to persuade her to take HRT voluntarily. I doubt that that will happen, but it is at least a possibility and in my judgement the chances of A taking medication voluntarily are slightly higher if she is returned home than they are if she remains in a placement. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num>80.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The relationship between A and B is deeply troubling and has caused significant harm to A, but her relationship with B and with her grandmother is the family life that A knows and to which she strongly wants to return. Some measures can be taken, in A&#8217;s best interests to try to protect her from the most harmful aspects of her relationship with B, but it must be accepted that returning A home will remove a layer of protection that she has benefited from within the placement. However, if A&#8217;s enmeshed relationship with B prevents it being in her best interests now to reside at home, it is unlikely that it will ever be in her best interests to reside at home. It is difficult to see how their relationship will change. Hence, if A does not return home now, she may very well be accommodated away from home, separated from her mother, against her strong wishes, for the foreseeable future. The influence B has over A has apparently survived all attempts to dismantle it over the past few years. It is entrenched and cannot be wished away. Realistically, it is too late now to try to undo the all the harmful effects of the relationship. The best that can be done is to try to mitigate them in the future. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num>81.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The measures that have been taken, in A&#8217;s best interests, to counter the influence of her enmeshed relationship with her mother, could hardly have been more extreme, but they have not succeeded. Covert medication has succeeded in allowing A to achieve puberty, which has supported her right to develop into adulthood. However, separation from her home and her mother has not had other significant benefits in terms of her development and independence. Were it not for the opportunity to administer HRT covertly, which placement of A in a care home provides, I do not believe that it could reasonably be argued that her continued separation from her home and family life could be justified as being in her best interests. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num>82.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Standing back and considering all the evidence and all the matters discussed in this judgment, I am satisfied that it is in A&#8217;s best interests:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">to return home to B&#8217;s care.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">for covert medication to cease.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">for A to be informed that she has been covertly administered HRT and that it has been of benefit to her health. She has gone through puberty and that stopping HRT would be harmful to her health, whereas she will benefit from continuing to take it. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">to allow B to try to persuade A to take HRT voluntarily.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">for support to A to be provided to her in the community, whilst she is living at home.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num>83.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I am conscious that by making a decision that it is in A&#8217;s best interests now to allow her to return home to live with B, I am acting contrary to the positions taken by the Local Authority, the Trust, and the Official Solicitor. I have taken pains to provide my reasoning for allowing B&#8217;s application in the face of their opposition. I am conscious of the guidance of Baroness Hale in both <span style="font-style:italic">Aintree</span> and <span style="font-style:italic">N v ACCG</span> (above) that there is no such thing as a care order for adults &#8211; the Court of Protection has to put itself in the shoes of P and make the decision about what would be best for this particular individual taking into account, so far as practicable, their individual characteristics, likes and dislikes, values and approach to life.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num>84.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The assessment of best interests in this case is complex. Whatever decision is made, or if no decision is made, there will be both positive and negative consequences for A. I acknowledge the risk that my determination of A&#8217;s best interests will result in her returning home to an unhealthy relationship and will expose her to the harmful consequences of ceasing HRT. However, those risks are outweighed by the benefits of ending the deprivation of A&#8217;s liberty and the serious interference with her Art 8 rights, and of avoiding the risk of an unmanaged disclosure to her of the covert administration of HRT. The Court is enjoined to seek to achieve purposes &#8220;in a way that is less restrictive of the person's rights and freedom of action&#8221; (<ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/1/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s1(6)</ref>). Here, severe restrictions have been imposed in order to achieve the benefit of medical treatment. Now, the continuing and remaining benefits of treatment are not sufficient to justify the continued restrictions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num>85.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A&#8217;s transition home should not happen immediately but will require some planning to ensure that it is done in a way that meets her best interests. The plan for a transition home will need to consider whether there should be an introductory period where A stays for a single night, say, before returning to placement A. Or will A find that very difficult? Should A&#8217;s grandmother be told of the use of covert medication? What arrangements should be in place to ensure that healthcare professionals have adequate access to A? What information should be given to A, when and by whom? On the evidence I have received, it seems to me to be in A&#8217;s best interests for information to be given to A in the following sequence: (i) that the plan is to return her home to live with her mother (this is what she has said she wishes but her continued wish to go home can be checked at this point); (ii) that she has been covertly medicated with HRT, and that this has caused her to go through puberty and to become a physically mature woman with many benefits to her health; (iii) that HRT will no longer be given to her covertly; (iv) what symptoms A is likely to experience now that HRT has stopped; then (v) that it would be greatly beneficial to A to choose to take HRT voluntarily (B should be involved in seeking to persuade her to do so). It will be necessary to go through stages (ii) to (v) as and when covert medication is stopped. Stage (v) may involve providing information to A over a sustained period with the involvement of her mother, perhaps her grandmother, and perhaps Professor D.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num>86.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Steps to return her home and to provide her with information need to be planned but I should make clear that A&#8217;s return home should not be contingent on her volunteering to accept HRT &#8211; it should take place, in her best interests, whether or not she volunteers to accept HRT.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_87">
+	    <num>87.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Clearly these steps and the transition to care at home will require careful planning, but I have not received a transition plan and I have not received evidence on the details of any such transition. Having considered all the circumstances, I do not regard the decisions set out at paragraph 82 above as being contingent on the approval of a transition plan. Nevertheless, planning for the transition home and the provision of information to A is now required, and with some expedition.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_88">
+	    <num>88.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, I shall give directions for the parties to provide evidence to the court as to the planning for A&#8217;s return home, the cessation of covert medication, and the provision of information to her. The planning must include arrangements for providing access to A by healthcare professionals and the administration of her anti-epilepsy and vitamin D medication, as well as any provision of HRT tablets for her to decide whether to take. These plans are not directed as to whether A should return home but to how that can be managed in her best interests. I shall conduct a further hearing at which such plans can be considered by the court and the timing of a return home approved. That hearing shall be on 18 April 2024 and I anticipate that A will be returned home shortly after that hearing.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num>89.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I thank Counsel, solicitors, social workers, carers, and healthcare professionals, for their continued assistance with this difficult case.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

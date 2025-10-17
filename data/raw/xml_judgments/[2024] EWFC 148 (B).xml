@@ -1,0 +1,942 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2024/148"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2024/148"/>
+	  <FRBRdate date="2024-06-21" name="judgment"/>
+	  <FRBRauthor href="#ewfc-b"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="148"/>
+	  <FRBRname value="Z (A Child) (Long-Term Fostering or Adoption), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2024/148"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2024/148"/>
+	  <FRBRdate date="2024-06-21" name="judgment"/>
+	  <FRBRauthor href="#ewfc-b"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2024/148/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2024/148/data.xml"/>
+	  <FRBRdate date="2024-06-24T15:05:02" name="transform"/>
+	  <FRBRdate date="2024-06-24T16:18:25" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-06-21" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewfc-b" href="" showAs="Family Court judgments with &quot;B&quot; in their NCN"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="the-london-borough-of-hillingdon" href="" showAs="THE LONDON BOROUGH OF HILLINGDON"/>
+	<TLCPerson eId="bt" href="" showAs="BT"/>
+	<TLCPerson eId="mr" href="" showAs="MR"/>
+	<TLCPerson eId="z-by-his-childrens-guardian" href="" showAs="Z (by his Children&#8217;s Guardian)"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-willans" href="/judge-his-honour-judge-willans" showAs="HIS HONOUR JUDGE WILLANS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWFC-B</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>148</uk:number>
+	<uk:cite>[2024] EWFC 148 (B)</uk:cite>
+	<uk:parser>0.24.5</uk:parser>
+	<uk:hash>972c9070b33459c21cd15eaff44c40c6b338b0cc5d8e011f933ebbfc7546e06b</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Default { font-family: 'Calibri, sans-serif'; font-size: 12pt; color: #000000; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Neutral Citation Number: </span><neutralCitation style="font-family:'Calibri, sans-serif';font-size:11pt">[2024] EWFC 148 (B)</neutralCitation></p>
+      <p class="CoverText"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Case No: </span><docketNumber style="font-family:'Calibri, sans-serif';font-size:11pt">ZW23C50499</docketNumber></p>
+      <p class="CoverMain"><span style="font-family:'Calibri, sans-serif';font-size:11pt">IN THE FAMILY COURT AT WEST LONDON</span></p>
+      <p class="CoverText"><span style="font-family:'Calibri, sans-serif';font-size:11pt">West London Family Court,</span></p>
+      <p class="CoverText"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Gloucester House, 4 Dukes Green Avenue</span></p>
+      <p class="CoverText"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Feltham, TW14 0LR</span></p>
+      <p class="CoverText"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Date: </span><docDate date="2024-06-21" refersTo="#judgment" style="font-family:'Calibri, sans-serif';font-size:11pt">21 June 2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Before</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-his-honour-judge-willans" style="font-family:'Calibri, sans-serif';font-size:11pt">HIS HONOUR JUDGE WILLANS</judge></p>
+      <p style="text-align:center"><span style="font-family:'Calibri, sans-serif';font-size:11pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#the-london-borough-of-hillingdon" style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">THE LONDON BOROUGH OF HILLINGDON</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant" style="font-family:'Calibri, sans-serif';font-size:11pt">Applicant</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <blockContainer>
+	      <num style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	      <p style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#bt" style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">BT</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	      <p style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#mr" style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">MR</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">(3)</num>
+	      <p style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#z-by-his-childrens-guardian" style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Z (by his Children&#8217;s Guardian)</party></p>
+	    </blockContainer>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-family:'Calibri, sans-serif';font-size:11pt">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-family:'Calibri, sans-serif';font-size:11pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Calibri, sans-serif';font-size:11pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Paul Murray </span><span style="font-family:'Calibri, sans-serif';font-size:11pt">(instructed by</span><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt"> Hillingdon Legal Department</span><span style="font-family:'Calibri, sans-serif';font-size:11pt">) for the </span><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Janet Plange</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> (instructed by </span><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Duncan Lewis Solicitors</span><span style="font-family:'Calibri, sans-serif';font-size:11pt">) for the </span><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">First Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Anne-Marie Glover</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> (instructed by </span><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Powell Spencer &amp; Partners</span><span style="font-family:'Calibri, sans-serif';font-size:11pt">) for the </span><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Second Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Lauren Suding</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> (instructed by </span><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Blaser Mills Law</span><span style="font-family:'Calibri, sans-serif';font-size:11pt">) for the </span><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Third Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Hearing dates: 12-13 June 2024</span></p>
+      <p style="text-align:center"><span style="font-family:'Calibri, sans-serif';font-size:11pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p class="CoverDesc"><span style="font-family:'Calibri, sans-serif';font-size:11pt">JUDGMENT</span></p>
+      <p style="text-align:justify;border:0.5pt solid"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt;color:#FF0000">This judgment was delivered in private. The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved. All persons, including representatives of the media, must ensure that this condition is strictly complied with. Failure to do so will be a contempt of court.</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">His Honour Judge Willans:</span></p>
+	    <p><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I am concerned for the welfare of the child &#8220;Z&#8221;, throughout his life, the applicant supported by the child&#8217;s guardian seeking a final care and placement order. Z&#8217;s mother is the first respondent, &#8220;BT&#8221;, and his father the second respondent, &#8220;MR&#8221;. This is not the first occasion on which I have been asked to consider care planning for Z. In previous proceedings on 1 June 2022</span><authorialNote class="footnote" marker="1">
+		<p class="FootnoteText"><span style="font-family:'Calibri, sans-serif';font-size:8pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2022/190" uk:canonical="[2022] EWFC 190" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWFC 190</ref></span></p>
+	      </authorialNote><span style="font-family:'Calibri, sans-serif';font-size:11pt"> I handed down a fact-finding judgment following a hearing conducted over 11 days. Subsequently on 20 April 2023</span><authorialNote class="footnote" marker="2">
+		<p class="FootnoteText"><span style="font-family:'Calibri, sans-serif';font-size:8pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2023/61" uk:canonical="[2023] EWFC 61" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWFC 61</ref></span></p>
+	      </authorialNote><span style="font-family:'Calibri, sans-serif';font-size:11pt"> I handed down a final welfare judgment in the same care proceedings. The outcome of that process was that Z should live with BT without need for any public law order but that he should not have contact with his father due to the significant risks he posed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In reaching my decision I have regard to the documents contained within the final hearing bundle; to the live evidence heard</span><authorialNote class="footnote" marker="3">
+		<p class="FootnoteText"><span style="font-family:'Calibri, sans-serif';font-size:8pt"> Shannon McDonald (social worker); Laura Moorhouse (Family Finder) and Clare Durkin (Guardian). Neither parent was required to give evidence.</span></p>
+	      </authorialNote><span style="font-family:'Calibri, sans-serif';font-size:11pt">, and; to the written and oral submissions of counsel for each party. I have regard to all the information I have received. This case has benefitted from long standing continuity and the circumstances of the case are well known to me. I may not refer to every document I have received but I have not lost sight of any of the information placed before me.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">The Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">3.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I would generally refer to my previous judgments as noted above. It is not necessary to provide a full detailed history but I note the following key features.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In the original proceedings I made serious findings against MR that he had sexually abused a child and was a paedophile. I made no findings against BT and I make it clear there was no allegation of abuse raised against her. The allegations related to MR conduct in relationships prior to that with BT. Following fact-finding I gave directions for each party to respond to my findings.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">MR maintained his denial of the findings made. BT made clear she accepted the findings and did not intend to maintain a relationship with MR. During the proceedings Z was subject to an interim care order but placed in the care of his mother. As far as MR was concerned provision had been made for supervised contact but for reasons which I need not detail he had failed to accept that opportunity.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The matter proceeded to final hearing. Whilst there had been an initial direction for a parenting assessment of BT a combination of her clear acceptance of the findings; her stated intention to remain separate from MR, and; the evidence of good care being provided to Z by her, led to this not being pursued and the professionals agreed Z should remain in her care without need for any public order. MR had been subject to a risk assessment from Lucy Faithfull, an organisation with particular skill in assessing risk posed by those with a sexual offending profile. This assessment raised concerns as to the risk he posed to children including Z. Ultimately, MR did not pursue the contact he had argued for and a final order was made under which BT was not required to make Z available for contact with his father or provide to MR any information pertaining to Z. I made a section 91(14) order in respect of MR for 5 years. At </span><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">&#167;48</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> of the fact-finding judgment I considered it appropriate to make the following observation:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1.28in;margin-right:0.26in"><span style="font-style:italic;font-family:'Calibri, sans-serif';font-size:10pt">&#8230;I would wish to give a clear indication with respect to the impact of the order for no contact with the father so that the mother is in no doubt. This is not a decision following which I consider the mother should feel free and unencumbered to choose equally between contact with the father or not. I have not reached a neutral evaluation as to contact. Rather the order is phrased in the manner it is because she has expressed a clear understanding of the Court&#8217;s findings and agrees these concerns place the child at risk. It is quite clear to me that the mother should not be contemplating any direct contact with the father without the clearest evidence of progress with respect to his risk profile. I would expect this to include some form of professional work and re-evaluation of risk akin to that proposed by the Lucy Faithfull organisation. Were it to be suggested that this had been undertaken then I would not suggest she simply rely on statements to the same but should require sight of the same and should seek professional advice from children&#8217;s services before acting upon the same? A failure to self-protect in this manner may in future call back into question her ability to safeguard her son. </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">On 7 December 2023, the applicant brought the current proceedings before the Court. The key concern expressed within the threshold was that BT had permitted MR to have contact with Z; had left Z in his care on numerous occasions, and; in doing so had the parents had acted to both deceive the Court and the professionals leaving Z at risk of significant harm.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">At a hearing on 11 December 2023, I made an interim care order which confirmed Z&#8217;s interim separation from his parents following the police exercising protective steps. I heard the case management hearing on 9 January 2024 and among other matters (i) required the parents to detail the nature of their relationship in the period preceding the application; (ii) listed a contact hearing with respect to contact between MR and Z (contact with BT not being in dispute); (iii) directed an updating risk assessment from Lucy Faithfull with regard to BT, and; (iv) listed the Issue resolution hearing (&#8220;IRH&#8221;).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">On 22 January 2024 I refused BT&#8217;Ss application for two expert assessments. This decision was appealed unsuccessfully. On the same day I approved consent terms which permitted carefully supervised contact between Z and his father. I gave this approval having regard to the reality of the contact Z had been having with his father as opposed to that which should have been happening. I heard the IRH on 10 May 2024. Matters were not agreed and I fixed this final hearing with a focused witness template.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In section E of my bundle, I have expert evidence from Andrew Smith (Lucy Faithfull). I have a report dated 1 December 2023 (the applicant having commissioned this prior to issuing proceedings but in the light of the concerns identified in the application); an addendum report from Mr Smith dated 1 March 2024 and a response to questions raised dated 18 March 2024. I also have a parenting assessment of BT undertaken by the applicant. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">The real issues in the case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">5.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The parents concede the threshold and the making of a final care order. BT conceded the same in her final statement. MR had sought to argue that Z be placed into his care but did not maintain this at final hearing. The dispute in this case concerns the following questions:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Should the Court make a placement order as proposed by the applicant and children&#8217;s guardian or refuse the same on the basis of an alternative plan for long term foster care as proposed by the parents?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In the event a placement order is made should the applicant&#8217;s plan place a greater focus on the possibility of post-adoptive direct contact between Z and the parents (or either of them)?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Legal Principles</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Z&#8217;s welfare is my paramount consideration. I have regard to this throughout his life and consider this question through the lens of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref>. Given agreement I will not deal in depth with the basis upon which a care order can be made. However, I note the need for the section 31 threshold to be crossed and the distinction between the threshold being crossed and the subsequent making of a care order. The latter engages the consideration of the welfare checklist; analysis of the options available and a proportionality exercise.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">A plan for adoption is the most draconian form of intervention found within the family law landscape. It requires a very high level of justification represented through phraseology such as &#8216;last option&#8217; and &#8216;nothing else will do.&#8217; Before a Court could endorse such a plan it must conduct a holistic assessment of the realistic options placed before the Court. This amounts to identifying the realistic options and then analysing both the positives and negatives of each option before comparing each against the other. It is only by doing so that the Court can ensure the outcome reached is one which meets the high level of justification required. This assessment engages the exercise required by article 8 ECHR, given the extreme interference in family life arising on placement, and requires close scrutiny of the proportionality, necessity, reasonableness, and legality of the outcome proposed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I have additionally been referred to case law which considers the situation when a Court is faced by a choice between realistic options of placement or long term foster care.</span><authorialNote class="footnote" marker="4">
+		<p class="FootnoteText"><span style="font-family:'Calibri, sans-serif';font-size:8pt"> Re V (Children) [2013] EWCA </span><span style="font-family:'Calibri, sans-serif';font-size:8pt">Civ</span><span style="font-family:'Calibri, sans-serif';font-size:8pt"> 913; Re B-P (Children) (Adoption or Fostering) [2018] EWCA </span><span style="font-family:'Calibri, sans-serif';font-size:8pt">Civ</span><span style="font-family:'Calibri, sans-serif';font-size:8pt"> 2042</span></p>
+	      </authorialNote></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">As neither parent consents to the making of a placement order. If I judge this is the appropriate outcome then I must consider dispensing with their consent. To do this I must conclude Z&#8217;s welfare requires me to do so.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">The Evidence</span></heading>
+	  <paragraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.11in"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">The Parents</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">10.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The parents did not give live evidence. However, in the light of the above history the parental written evidence makes for concerning reading. It has the attraction of frankness but this cannot disguise the concerns which arise on reading it.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In a statement dated 5 January 2024 MR confirmed the essential elements of the threshold concerning parental contact. However, he also confirmed the parents had remained in a relationship </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif';font-size:11pt">throughout</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> the first proceedings with BT permitting contact between Z and his father outside the supervised setting deemed necessary by the Court. MR explained that when contact was moved to a supervised setting both BT and he agreed this was not necessary and so continued contact on a clandestine manner and on a daily basis. He confirmed they had &#8216;maintained their relationship throughout the proceedings and since April 2023&#8217; (being the date of the final order). He helped her move into her new property and when they knew social workers were visiting, he would absent himself from the property. In support of this evidence MR produced a photo album which demonstrated his consistent presence in Z&#8217;s life throughout the period in question. This account was confirmed by BT in her statement. It is plain they have been residing together pursuant to this relationship both before and after the fact finding process.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The significance of this cannot be overstated. It means that both during and after the fact-finding process and in circumstances in which BT had informed the Court that the evidence had moved her to accept the findings and the risks surrounding contact between Z and his father, and in circumstances in which she positively accepted MR was a risk of significant sexual risk to their son, that she and MR were actively and on a sustained basis deceiving both the professionals and the Court by maintaining a relationship and permitting MR open access to his son. As part of this deception, she had met with the social workers and Mr Smith and provided a convincing account which led those same professionals to gauge that Z would be safe in his mother&#8217;s care because she both understood and accepted the risks MR posed to Z. It is clear from the evidence that BT determined from her own observations that MR was not a risk to Z and proceeded on this basis to allow him to see his son including periods when he was left in the sole care of his father. MR equally prays in aid this period of time as evidencing his case that he is not a risk to his son.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">This situation was almost discovered in June 2023 when the parents were seen in company by a social worker. However, when the matter was investigated BT gave a persuasive account explaining the circumstances and maintained she was not and did not intend to be in any relationship with MR. She was supported by her own mother who claimed to be caring for Z at the time of the incident. It is now known both BT and her mother were giving a wholly untruthful account. It appears that whilst the applicant accepted the explanation given it nonetheless caused it to reflect on the situation and enter a pre-proceedings process. It was as part of this that the initial report of Mr Smith was obtained.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The parents separately report experiencing a personal deterioration in their mental health in late 2023. It appears they discussed a period apart. In the course of the pre-proceedings work on 24 November 2023 MR communicated with the social worker disclosing something of the relationship which had in fact been continuing between them as noted above. Within a brief time, he was seeking to recant this messaging on the basis he was drunk and trying to &#8216;spite&#8217; BT. The social worker was not persuaded by this explanation and organised a meeting with BT at which she denied the suggestions made by MR.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Then on 28 November 2023 a domestic incident arose at BT&#8217;Ss home with MR outside the property shouting and a male friend of BT&#8217;Ss (who was in the property) making as if to engage MR in a fight. There appears to have been a tussle between the men outside the property. The evidence suggests MR may have developed a level of jealousy or insecurity when he discovered BT had spent the day with the male. After the tussle MR entered the property and was emotional. Z was present throughout. MR grabbed BT and it is reported she fell to the floor. She temporarily left the property during which time MR placed Z in his car and left the property (it seems BT had returned at this point but Z was not returned to her). MR then telephoned a duty social worker explaining some of what had happened. Later that day the police attended at his parents&#8217; property and took Z into police protection. I have the police disclosure relating to this involvement. This includes allegations made by BT of being assaulted by MR prior to this date and held by the throat during the incident and photographs of purported bruises said to have arisen out of the incident. The above circumstances led to the application being issued.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">A separate issue raised within these proceedings was the involvement of the parents with a third-party woman I will refer to as Z. Following the incident above, it came to the attention of the applicant that the parents had formed a relationship with Z. The circumstances of this relationship are that Z also had a child in care; that this child was placed in the same placement as Z, and; that whilst at a contact centre Z and BT developed a level of friendship. The applicant has concern as to the circumstances of the relationship with particular regard to the fact that Z then moved into BT&#8217;s property (with her and MR); that Z was not informed as to the concerns surrounding MR, and; that Z was thereafter transported by MR to contact with her own child at the contact centre. It seems clear the applicant was concerned as to the potential for manipulative and potentially exploitative abuse of the vulnerabilities within this relationship. Z subsequently alleged MR had been abusing BT. When the fact of the relationship was discovered, the parents were required to address the circumstances of the relationship. In summary BT explained she had met Z in emotional circumstances at contact. That she and MR had assisted Z in a charitable fashion being sensitive to the circumstance she was in. That the relationship had broken down after Z expressed a level of romantic feeling towards her which BT did not reciprocate and that Z had then made false allegations as a result of this rejection. MR broadly supported this account.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">12.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In her final evidence BT explains how she felt dependent on MR. She confirmed she has now separated from him and accepts her previous actions were wrong and placed Z at risk of significant harm. She proposed a family member as a potential carer</span><authorialNote class="footnote" marker="5">
+		<p class="FootnoteText"><span style="font-family:'Calibri, sans-serif';font-size:8pt"> The proposed individual was contacted and confirmed she could only offer assistance but not care of </span><span style="font-family:'Calibri, sans-serif';font-size:8pt">Z</span></p>
+	      </authorialNote><span style="font-family:'Calibri, sans-serif';font-size:11pt"> and as an alternative long term foster care. Her preference was for Z to remain in his current placement</span><authorialNote class="footnote" marker="6">
+		<p class="FootnoteText"><span style="font-family:'Calibri, sans-serif';font-size:8pt"> It is accepted this is not </span><span style="font-family:'Calibri, sans-serif';font-size:8pt">possible</span></p>
+	      </authorialNote><span style="font-family:'Calibri, sans-serif';font-size:11pt"> and placed weight on the good bond between herself and Z; the quality contact which continues and the benefit to Z of her being a long-term part of his life.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">The expert assessments</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Mr Smith assessed MR in the first proceedings. He reached the conclusion MR posed a significant risk of sexual harm to Z. He identified the type of work that would be required to address this risk but was clear the outcome was unclear. MR made clear he would not be able to fund such work and there was no realistic basis on which it would otherwise be funded. Nothing of substance has changed since the date of this report save that it has transpired that MR was in fact throughout this period, and in the light of this assessed risk, residing with Z with the knowledge of Z&#8217;s mother.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Mr Smith met with BT virtually in early November 2023. I immediately note that this was at a time when she and MR were secretly maintaining their illicit relationship. In the course of this meeting, she gave an account of independently forming the view MR was &#8216;guilty&#8217; of the matters alleged, and before the Court reached its own conclusions, as a result of which she broke up with him. She also gave an account of the June 2023 meeting which was broadly consistent with that given to the social workers at that time. Based on the information provided the expert on balance assessed BT to have a good capacity to protect Z. He offered a programme of work to improve her safeguarding skills.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The updating assessment took place on 6 February 2024. Mr Smith naturally enquired as to why it had been that BT had chosen to mislead the professionals in the manner she had. Her response suggested that she had seen no evidence of MR being abusive and he appeared to be a loving parent to Z. She felt that by maintaining contact his safety could be established and in due course this might be used to persuade the applicant to allow MR back into Z&#8217;s life on an open basis. The expert probed the issue of the relationship with Z and drew analogies with previous &#8216;threesome&#8217; activities involving MR and the extent to which the same might be viewed as an entry point to loosened sexual boundaries and the child abuse that followed (prior to his relationship with BT).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In conclusion Mr Smith concluded BT did not have the capacity to keep Z safe from MR or others who might pose a similar risk to Z. He was asked as to works that might be undertaken to address this issue and referenced his previous advice given in November 2023 but now concluded:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in;margin-right:0.26in"><span style="font-style:italic;font-family:'Calibri, sans-serif';font-size:10pt">&#8230;I am not confident that the above work would be sufficient to render [BT] sufficiently protective. It is not a case of lack of knowledge about risk factors in relation to the Findings made against MR. [BT] still had good recall of the Findings when I reassessed her. Her safeguarding deficits are more profound, in my opinion, and centre around BT resolutely trusting in her own internal reality and judgement at the expense of trusting, or being willing to comply with, the judgement of an outside authority &#8211; such as the child protection system. From a psychodynamic attachment perspective, this might be due to the lack of trust in primary care givers, like her parents, with this lack of trust then projected onto child protection professionals, whom she views suspiciously as limiting her freedom&#8230;.BT gaining sufficient psychological security to live independently with a child without MR, to dispense with or relax her subjective frame of reference and to place trust in the professional view that MR does pose a risk, would take long term depth (sic) therapy of at least two years, in my view. Even then there would be no guarantee that this would enable BT to make sound objective decisions about risk, rather than making very unwise choices about risk driven by the emotions of the moment.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">BT has made it clear that she cannot afford to engage</span><authorialNote class="footnote" marker="7">
+		<p class="FootnoteText"><span style="font-family:'Calibri, sans-serif';font-size:8pt"> Although I heard in submission as to efforts being made to find and fund an alternative</span></p>
+	      </authorialNote><span style="font-family:'Calibri, sans-serif';font-size:11pt"> in these works and there is no other source of funding to meet this cost.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">18.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The social worker undertook a parenting assessment of BT. She concluded there was no doubt BT adored Z and they had a loving relationship. However, she considered BT had been unable to demonstrate she was able to safeguard Z and had placed him at risk of significant harm. Sadly, her love did not outweigh the level of risk she knowingly exposed Z to. Given concerns as to her continuing attitude to MR there remained a risk of this being repeated. On the information available the assessor remained concerned BT would resume a relationship with MR. She drew attention to the conclusions reached by Mr Smith and noted both the long-term nature of such work and the uncertainty as to the prospects of success of the same. She noted Z&#8217;s need for permanency in a safe environment sooner rather than later. Having regard to the conclusions as to inability to safeguard Z the assessment reached a negative outcome in respect of BT.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Applicant&#8217;s final evidence</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The applicant filed final evidence in which it identified the options before the Court and explained its logic for advancing a plan of placement for adoption. I have regard to the final evidence of the social worker and the care plan. Naturally, the focus of live evidence was on the question of long-term foster care or adoption and the related issue of parental contact.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In the written evidence the social worker noted the lengthy and uncertain outcome of the proposed works for BT and concluded this was outside Z&#8217;s timescales. The evidence highlighted a continue risk based on potential for a repeat of the deception previously deployed and had reference to what was felt to be BT&#8217;S continuing inability to accept the risk posed to Z by his father. The evidence drew on the expert risk and parenting assessments. The social worker was concerned as to the potential for post-adoption contact to destabilise Z&#8217;s placement. The final evidence confirms that at that point no alternative carers had been proposed. At section 7 of the final evidence the social worker addresses the competing options. I will return to these points in my own assessment set out below. The social worker concluded placement was the appropriate outcome for Z.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In her live evidence the social worker accepted long term foster care (LTFC) was a viable option and warranted consideration. She accepted contact between Z and both of his parents was positive and Z gained significant benefit from such contact. An adoption route would require careful planning and would be assisted by the input of the foster carer who looks after Z and has developed a strong relationship with him. The applicant was not suggesting BT had not provided Z with good care, the issue was the deception she had maintained and the risk that flowed from this. The social worker was of the view it is inevitable this home environment must have been surrounded by heightened levels of stress and anxiety given what was being hidden. She accepted there would be a significant impact on Z of moving from his current foster care but this was inevitable as she cannot provide long term care. The social worker explained the role of a MAPS team (Multi Agency Psychological Support) and the ability of the applicant to draw on this in assisting them in successfully transitioning Z through a placement process. She agreed the mother had not undermined the placement &#8211; indeed there was evidence of BT being keen for the placement to be maintained. She was opposed to the notion of post adoption contact on the facts of the case for a number of reasons including the risk of deception and destabilisation. She agreed direct contact had the potential to assist in a placement settling but also noted there were potential issues if Z were told he could not live with his parents due to a risk but then was taken to see them. There was an inherent conflict in MR posing a sexual risk to Z but Z nonetheless being brought into his company. She pointed out the likelihood that adopters would need to agree with contact in any event and that a suggestion of a need for an open placement (open to direct contact) might make finding a placement more difficult. She agreed adoptions can break down but felt adoption would bring a higher level of stability and security.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The social worker addressed the timelines for placement and deferred generally to the family finder. She agreed other things being equal that a sooner placement was better than a delayed option. She gave an overview as to the contact transition were placement to be ordered. She considered that so long as Z was properly supported, he would be able to settle consistent with the timelines being suggested for placement. She gave evidence as to the narrative that would be shared with Z and agreed this had some complexity. She accepted LTFC came with benefits over adoption and particularly ongoing contact but she felt it would not provide sufficient security and she worried that over time risks might increase. She confirmed the understanding of the applicant that there was an open and ongoing police investigation of alleged sexual abuse perpetrated by MR outside of the matters within the fact-finding and it was unknown what the outcome of this would be or how this might impact on the issues being considered. She was asked about the parents request for photographs of Z. Ultimately it seemed agreed this could be agreed prior to any placement but thereafter it was not supported due to the risk of identification and placement confidentiality being compromised.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">23.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I also heard from a family finder from an adoption team. The essential evidence in this regard was of a likely 6 to 9-month period prior to identifying a future family and a likely 2 to 3-month period thereafter prior to placement into that family, hence a period of 9 to 12 months in total. She confirmed a requirement for an open adoption would limit the pool of likely candidates and also agreed the facts of the case might also limit the pool, although she did not agree this would fundamentally impact on the prospects of any search. She also agreed that as time passed and Z aged so finding a family would become harder.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">The Guardian</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I have the benefit of the final analysis filed by the Guardian. She supports the arguments and outcome proposed by the applicant. In her Child Impact Analysis, she sets out the analysis which leads her to the conclusion she has reached. I have particular regard to her permanence analysis and as with that of the social worker I will return to this in my own analysis below. The guardian had particular regard to Z&#8217;s need for permanence in a settled and natural home and family environment. She did not consider a plan for LTFC met his welfare needs and was not the right outcome for him.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In live evidence she accepted the real positives to Z of his ongoing contact and accepted the significant loss to him were this to be curtailed by a placement decision. She also accepted that a placement option did not come with guarantees. She felt the inevitable need to inform Z as to the details of the case would come with an emotional impact but that this would arise whichever option were selected by the Court. She accepted there was a balancing act to be undertaken and accepted there were positives and negatives on each side of the scales. She did not agree one could have confidence at this time as to parental separation but agreed with the passage of time this might be clearer. She accepted a plan for LTFC left open the possibility of a future discharge application and a return to family life. However, in her view we were obliged to act on the information we currently possess and within Z&#8217;s timescales. She accepted LTFC did not have to be a bad option but in her experience the prospects of breakdown were real and higher than were there to be a placement decision. She acknowledged the positives of contact seen between Z and MR. She expressed concern that risks around contact could increase as Z got older. She agreed with a number of the propositions put to and agreed by the family finder but felt the timescales here were relatively normal and they did not dissuade her from supporting the placement application. She did not agree with a fixed time for securing placement failing which an alternative strategy would be required. She considered this was something that would need to be assessed in the prevailing circumstances as and when this point in time was reached. She agreed it would be very harmful were an adoptive placement to break down but considered it was less likely to occur in the first place.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I heard helpful but focused submissions. I will attempt to address all the key points within my analysis.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">27.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Having heard the evidence I consider there a number of conclusions which I should set out before turning to the appropriate outcome in this case. They are as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">The parents</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif';font-size:11pt">Previous assessment of risk is unchanged:</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> I have seen nothing to cause me to recast my assessment of risk as set out in the previous proceedings. My finding was that MR was a risk to Z whether directly or indirectly. The direct risk was of directed sexual abuse of Z. The indirect risk was of sexual harm arising out of abuse of a third-party child or otherwise from blurred sexual boundaries. Up to final hearing MR sought to care for Z. It seems likely the foundation of this position was that nothing untoward had happened to Z during the period of disguised care. I have not been asked to reach any findings referable to this period and on the evidence consider the only appropriate observation is one of neutrality. However, in my assessment the proven absence of any misconduct during this period would not remove the concern previously established. I judge MR continues to require focused and expert work in order for risk to be reduced, and there is a potential that even after such work he would remain a risk. I do not consider the risk can be said to be reduced simply by proof of a period in which he has not been shown to have acted inappropriately given that the character traits are sufficiently embedded.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif';font-size:11pt">BT&#8217;S understanding of the risk:</span><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt"/><span style="font-family:'Calibri, sans-serif';font-size:11pt">I remind myself of the application made by BT for expert assessment. Within the related C2 it was said: &#8216;</span><span style="font-style:italic;font-family:'Calibri, sans-serif';font-size:11pt">An assessment is required to ascertain whether her autism impacts her interpretation and understanding of the risk posed by the father</span><span style="font-family:'Calibri, sans-serif';font-size:11pt">&#8217;. It is clear to me BT fully understood the nature and significance of the Court findings in this case. Such is clear from a reading of her discussion with Mr Smith. It is also evident from her engagement in the process both during and after the fact-finding. I proceed on the basis she fully understood the risks posed but chose to take them nonetheless guided by her own assessment of what was best for Z.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif';font-size:11pt">The risk Z faced:</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> This leads me to the significant risk to which Z has been put. The evidence indicates Z has been left alone with MR and as such there can be no absolute certainty as to what has taken place. Furthermore, and in any event, the nature of abuse of this sort is of manipulation and the exercise of a power imbalance. This can operate as much in the adult sphere as in the child-adult relationship. The history of this case is of exploitation for personal sexual satisfaction. It is clear to me BT is a vulnerable individual. As such I would be concerned for Z whether or not he was left alone with MR. One can see in the earlier proceedings how a child came to be abused within (not outside) an adult relationship. The reality of abuse of this sort is that it often has a creeping and insidious form permeating a relationship with the passage of time. I gauge BT would not be well placed to guard against this and indeed it is clear to me she has in fact allowed this state of affairs to continue notwithstanding an awareness of the risk. This is despite her evident love for her son. This plainly points to a situation in which she has permitted her own personal needs (for a relationship with MR) and wishes (for Z to have a &#8216;family&#8217;) to outweigh Z&#8217;s need to be kept safe.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif';font-size:11pt">The level of deception</span><span style="font-family:'Calibri, sans-serif';font-size:11pt">: The parents have colluded to keep secret the deception they have been promoting. This deception has been sustained and sufficiently sophisticated to fool a range of professionals engaged with Z over a period of many months. Whilst this was being done the Court was separately misled by applications for contact made by the father (whilst he was in fact having contact). There can be no doubt now that this was aimed to further deceive. This is a concerning set of circumstances indeed when considering a case involving risk of sexual abuse from one of his care givers. I have read the logic given by BT in this regard - that she considered she would use this deception to effectively evaluate the question of whether MR could enjoy safe time with Z &#8211; and consider this to be a matter of the most significant concern. A true test by its very nature lends itself to two possible outcomes. That BT went ahead in such circumstances cannot be disregarded.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif';font-size:11pt">Has the relationship ended?</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> BT asserts the relationship is over and she now recognises the dangers posed by MR. In the light of the history of this case I am not willing to take such a statement at face value. It would be foolish in the extreme to simply accept this when, judged from her perspective other than being caught, nothing material has changed. The factual matrix remains the same, as does the risk, from the time when she continued the relationship. I accept over time sustained separation may give greater grounds for acceptance of separation but on any objective assessment the strength of the bond between the parents must be viewed as particularly strong given the risks the parents were willing to take to keep the relationship going. In my assessment it will be some considerable time before such optimism would be warranted and certainly outside Z&#8217;s timescales within this decision-making process.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Calibri, sans-serif';font-size:11pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif';font-size:11pt">Further allegations:</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> MR is now being separately investigated with respect to unrelated matters of alleged sexual abuse. Within my previous process there were further matters which did not come to be subject to fact finding. These matters play no material role in my decision making save to highlight the very real risks in this case.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">28.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The consequence of the above is that in approaching the option of foster care I must continue to keep in mind that the risks posed by MR will continue to require a very high level of safeguarding with there also needing to be a sophisticated analysis and approach to the indirect risks that might flow through the contact enjoyed between Z and his mother. Sadly, there is a risk dynamic arising out of the parental relationship which would need to be guarded against even on occasions in which MR is not an active participant in contact. Further, any team working around the child would need to cognisant of the potential for disguised compliance.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Family finding evidence</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Whilst I listened with care to the family finding evidence, I do not consider it sheds particular light on the decision I am required to make. The core of this evidence was to inform me as to a likely prospect of family finding within 6-9 months and placement within 9-12 months. In my experience this fits closely to expected timetables for other children without significant and particular needs. The evidence placed before me accepted that both the aging process and the issues in the case would have the potential to reduce any pool of possible candidates for placement but did not come close to suggesting the pool of candidates would be drained or come close to being drained. At 3 &#190; years of age I judge Z remains within an age group of children who do not face a specific difficulty in placement. It has to be recognised that he will retain a knowledge of his parents and his history were he to be placed and it has to be accepted that this is a complicating feature, but it is one shared with a substantial number of children who are placed successfully. The point is that placement is not purely the reserve of children below the age at which family memories have been embedded.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">30.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The point made as to the impact of sexual abuse as a feature needs to be considered with care. It is likely that this feature might turn off some prospective carers but it should also be borne in mind that this is not a case in which Z is known to have suffered personal abuse. Further, it is accepted by the applicant and guardian that he has in many ways received a good and loving level of care during this period. It seems to me that these are balancing features which may impact on the number of candidates for placement but again will not reduce the number of candidates to a point where the search for a placement becomes purposeless. In making this point I bear in mind that Z does not share many of the features that surround the early life of children within the care system looking for a placement, i.e., substance abuse or considerable evidence of mental health difficulties in the family, physical or emotional development needs or chaotic upbringing. As with nearly everything in this field there is a balance that exists and the prediction of how the balancing features will level out is bound to remain somewhat opaque.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Z&#8217;s welfare throughout his life</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Wishes and Feelings</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt"> The accepted evidence is that despite a clear order to the contrary Z spent considerable time with both his parents before their deception was discovered. It is both their own evidence and the implication from supporting evidence as to Z&#8217;s presentation and engagement with the parents subsequently, that there was many positives in this period of care. The professionals have observed contact between Z and both BT and MR and noted a positive and warm bond with sensitive care shown towards Z. I have been referred to the contact notes which support the broad picture described on behalf of the parents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">This has relevance as, although Z is far too young to be able to express wishes and feelings which are based on a level of age and understanding, it would appear reasonable to import into any assessment a likely wish on Z&#8217;s part for his relationship with his parents to continue. He appears to enjoy the time he spends with them and there would seem to be no basis for believing he would not want this to continue without interruption. This assessment must be considered in the light of the reality of the case and the strong likelihood, that were placement refused, that contact would be significantly reduced in quantum. Whilst a clear plan has not been reduced to writing at this time it seems plausible that contact would continue at no more than once a month or every other month. It would be time limited and surrounded by significant safeguards. It plainly would be quite different to the fluid relationship which was occurring prior to November 2023.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">One must also have regard to a likely wish for stability and security in his life. I appreciate it is somewhat fanciful to import into the mind of a 3-year-old sophisticated wishes of this sort but I do consider one can imply a wish for a consistent home and a feeling of safety and consistency in day-to-day affairs. I see no reason not to imply a wish to feel the centre of home life and to have day-to-day relationships which are bonded on a deep and meaningful love and lifelong commitment (as found in a family) rather than the potentially transitory and uncertain relationship based around a statutory parent.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">34.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Last, I consider it appropriate to have some regard to a likely wish to be just like any other child. I bear in mind the complications that arise on a child being &#8216;looked after&#8217; and the potential stigma that can be associated with such a status.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Z&#8217;s particular needs</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Z has a need to be kept safe from the risks posed by his father. Such safety includes both safety from directed harm but also the risk that his father might through his interactions with Z cause Z to develop dysfunctional boundaries around permissible sexual behaviour. Z also has a right to expect his key care givers to have his needs as their paramount focus and to ensure that their personal decision making does not place him in a position of risk. It is imperative that his needs take primacy over their own needs and wishes. He has a right to expect his care givers not to take significant risks with his welfare.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">He shares many obvious (non-particular) needs with other children of his age. These include a need for consistent and predictable care. In essence his needs include that his care givers will act and respond in a positive manner and one which is predictable based on the previous actions. His experience of this care will shape his own future interactions within his peer group and then over time in the relationships he forms and maintains throughout his life. As such it is crucial the foundation of such relationship building is founded on positive interactions and functional relationships. Through such positive relationships one can expect Z to achieve to his maximum both inside and outside education.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">It has not been consistent with his needs for his home life to be an artifice which risks the potential to collapse at any point. I am struggling to clearly assess the levels of stress and anxiety that must have been in play over the recent time period and during a time when at any moment the deception maintained by the parents might have been discovered. I also cannot assess with clarity the additional stress upon BT and likely conveyed to Z of maintaining this artifice at the same time as knowing her partner had abused another child and had been found to be a risk to their son. As I have observed BT has vulnerabilities and I judge this period must have been a deeply challenging period. I struggle to conclude that this will not have had some level of impact on Z and I note there he has some issues which require support (albeit not at a particularly high level). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Z now needs a sustained and settled period of care. To an extent this will be assisted by the degree to which he has to date received some good care. But he will now enter a transition period in any event and it is crucial that this can proceed without surrounding instability. I consider it positive that his current foster carer will be able to assist with any transition although I note she is unable to provide a long-term fostering option. There is a premium in Z establishing a settled and long-term placement to provide the opportunity to build a strong replacement relationship with a day-to-day care giver(s).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">39.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">As with any child in his position who has been removed from parents, and particularly so if for Z this removal may appear somewhat inexplicable, and for who there is no plan of return to their care, it will be important to minimise future disruption and to remove where possible the likelihood of such disruption.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Effect on Z of ceasing to be a member of his original family on adoption</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I have hinted at the limited level of understanding Z will currently possess as to why changes have been made in his life. He will simply not understand the concerns that exist let alone the risk that his father poses and the concerning decisions his mother has taken. A time will come when these matters have to be addressed with him. This will be a complex piece of work and will likely pose an emotional impact for Z. If a relationship is to continue with his parents, then this will be surrounded by safeguards which will be required to ensure contact is safe. These safeguards will over time begin to raise likely questions in Z&#8217;s mind. Again, this will place in focus the need for a sophisticated but child focused approach to the risks and the need for protection. It is difficult to predict how Z will respond to a growing understanding of these matters. He might challenge the perceived risk preferring to view his parents through an idolised lens. Such a response might lead to Z potentially allowing himself to be placed at risk. He might be disgusted by what he learns and may turn against his father and lose trust in his mother for her choices. With knowledge may come instability in any relationship with his parents (if subsisting) and with any carers. It would not be surprising if at some point Z were to question either of his parents about these matters. It is known his father continues to dispute the truth of the findings and his mother has plainly shown a level of equivocation. Were this to be the response of any questioning then this would also be destabilising of the protective work and of any placement.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The principal impact on Z under this header will be the likely loss or substantial diminution of Z&#8217;s relationship with his parents if such an order was endorsed by the Court. I have already commented on the evidence of a solid bond between Z and his mother. Within the last proceedings this was identified and acknowledged as a significant positive feature for Z. It was the foundation upon which the outcome of placement with her was constructed. Whilst the updating evidence does bring new and significant concerns it does not cause me to recalibrate the essence of this positive relationship. I now also have to bring into this assessment the relationship Z shares with MR. I recall at the conclusion of the last proceedings MR appeared not to have had contact with Z for a sustained period. He had rejected any attendance at a contact centre until late in the proceedings. At final disposition he had accepted the Court should not order any contact between him and Z in the light of the undermining impact this might have on Z&#8217;s placement with his mother. I now know this was a dishonest presentation. I am now obliged to have regard to the reality in existence whether or not this was best for Z or in compliance with the Court&#8217;s decision making. As such I have regard to the relationship which exists between Z and his father and the positives that derive from the same and will equally likely be lost on adoption.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In conducting this assessment, I proceed on the basis that post-adoption contact is less likely than not. I will return to this subject later within this judgment but I consider it would be unhelpful to bring into the assessment a false sense of optimism in order to deal with this issue. Whilst post-adoption contact has the potential to be a positive and stabilising experience for a child it is nearly always a decision made by actual adopters. In the circumstances of this case, it is easy to see why adopters may be wary of contact between Z and his parents. They will need to reflect on the risks posed by the parents and the danger of a level of deceit in their engagement. They will also have to factor in the management of life story work for Z alongside such a relationship and, as noted above, the potential for the contact to sit in contradiction to the perceived risks of the same. They will have to gauge whether addressing this life story work whilst contact is continuing will be stabilising or destabilising of Z&#8217;s home life. Judged today in this prospective fashion I consider there is a likelihood of contact being limited to indirect contact only.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">As a result, I am materially assessing the impact on Z of fundamentally losing the relationship he currently has with his parents. This severance must be exacerbated by the likely lack of understanding he will currently have as to the rationale for the loss. For him this will have the sense of a loss without reason and will amount to a form of bereavement. He will undoubtedly require skilled care to assist him through such a process.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I do not lose sight of the fact that this may store up future problems. Faced by the situation as described above a time will come when the rationale for this loss will need to be broached with Z. If this is managed poorly or delayed unduly then he may attempt to fill in the gaps. It is now well understood that with the availability of social media children have the growing ability to seek out and obtain information as to their biological family. If that occurs in an uncontrolled setting then the risks identified in this case will once again come to the fore. This therefore brings focus on the need for a clear plan for addressing this history.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">45.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">A related issue will be of emotional damage as Z seeks to come to terms with the undoubted loss of family life consequent on adoption. That he is adopted will not clear his memory of his family or of the positives that he may have experienced. In tough times he may return to that as an idolised memory. He may rely upon it to challenge his new placement if and when challenges arise. He may independently seek to understand why this happened to him and there is a danger at least, if not properly and timeously managed, of Z blaming himself and suffering emotional harm.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Z&#8217;s age, sex and any other personal characteristics deemed relevant</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I have elsewhere referred to Z&#8217;s age and the suggested impact of the same on placement options. Whilst I do not accept his age is such as to prohibit a successful placement outcome it has the potential to impact on any placement success. There is a general understanding that, other things being equal, with greater age comes a reduced prospect of successful placement. Whilst I would not be happy to take this point to far, I do accept the basic proposition. But there is an explanation behind this concept which should not be disregarded. One of the challenges with an older child being placed is not just that they know their family members and what they are losing (as I have noted this applies to most children over 2 and successful placements do still occur), rather their age has to be seen in the light of their experience to date. Where a child is aged 5 and has lived in an abusive home, or one in which domestic violence or substance misuse is prevalent, or where there is sustained neglect and chaos, then they will likely over this period have embedded this experience and this by its very nature adds to the difficulty in finding a long-term successful placement. Children can end up damaged by their experience and this damage can be lifelong. It is therefore hardly surprising the extended experience of neglect etc will impact on the stability of a future placement. Such children needs a form of reparative parenting and even with this good care attempts at repair may not be enough.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">47.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">On the evidence I have Z is not so damaged. I accept the process of removal (whether LTFC or adoption) and the reduction in likely contact will have a damaging emotional effect but this is quite different from the sustained and embedded harm noted in the preceding paragraph. In contrast, if as I am urged to conclude, Z has received substantially good care to date then in principle the process of transition may be less challenging over the medium term than in the circumstances set out above. The successful transition to foster care is evidence of Z&#8217;s ability to transfer his attachment to a new stranger as carer.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Any harm Z has suffered or is at risk of suffering</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">48.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">This case is entirely focused on the risk posed to Z by his father being a paedophile. Expert assessment from an experienced practitioner has concluded this risk is both direct and indirect in nature and requires significant intervention before the risk can be reduced, and if then. Consequent upon the discovery of the parents ongoing deception it is plain Z is also at risk from his mother facilitating unsupervised contact between Z and his father or underplaying the risk posed by his father. The expert has considered this situation and provided a somewhat pessimistic outlook in this regard. There is no reason for considering this risk will ameliorate in the near future or within Z&#8217;s timescales.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">The relationship Z has with his parents (a) The likelihood of this relationship continuing and the value to Z of it doing so; (b) the willingness and ability of the parents to provide Z with a secure environment in which he can develop and otherwise have his needs met, and; (c) the wishes and feelings of the parents regarding the child.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">As noted above Z has in fact enjoyed a sustained and significantly positive relationship with his parents. I am in little doubt that they, if given a chance, would continue to show commitment to this relationship. For the reasons noted above this would have value for Z but this has to be assessed having regard to the broader picture for Z were this to continue. Both parents argue for Z to be placed into LTFC. Their key reason for arguing for this is to enable their relationship with Z to continue. I accept there is also a likely hope for future rehabilitation on their part, and that would not be possible were an adoption order made. I bear in mind that the evidence at this time does not give particularly strong grounds for optimism in this regard.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">50.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">It is clear the parents would be &#8216;willing&#8217; to provide an environment in which Z could be raised. However, it is also clear this would not be the &#8216;secure environment&#8217; suggested above. It would be at heart insecure and surrounded by a substantial risk of significant harm for all the reasons given in this judgment. There is no doubt this would not be an environment in which his needs were being comprehensively met.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">An assessment of the real options</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">51.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The realistic options in this case are either placement or LTFC. The parents now accept they cannot put themselves forward as carers for Z within his timescales. No family members have been assessed to take on Z. At the end of the last proceedings the paternal family rejected an attempt to inform them as to the findings of the Court so as to better inform them as to risk issues. As such it is clear they do not accept the issues in the case and could not safeguard Z. I have noted above the role the maternal grandmother played in hiding the fact of the continuing relationship between the parents. This calls into question her ability to prioritise Z&#8217;s safety. To her credit BT recognised this reality in stating:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-family:'Calibri, sans-serif';font-size:10pt">I have decided not to put forward any proposed alternative carers for Z, as my friends and family were all aware of the judgment against MR and that we decided to continue our relationship and allow direct contact with Z anyway. Therefore, I do not believe that any of my support network are an appropriate protective factor for Z</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In conducting this holistic analysis, I will be in many regards examining the &#8216;opposite side of the same coin.&#8217; For instance, a positive feature of one option will amount to a negative feature with regard to the other option to the extent it is not part of that option. I will not engage in repeating such points when they arise but keep them in  mind throughout this analysis. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">53.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I also keep in mind the principle underlying the test in play is that &#8216;no other option will do&#8217; for Z. This does mean that I am not simply assessing the two and determining the better of the two. That would be to give the adoption option an equivalence which is not justified by the test. Rather I must reach the conclusion that LTFC &#8216;will not do for Z&#8217; whether or not in simple terms the scales balance against it. But I also make clear that just because an option is viable (as the LTFC option plainly is &#8211; in that it can be organised and will in fact happen if placement is refused) does not mean that it amounts to an acceptable outcome for Z or one that by definition amounts to &#8216;something else that will do.&#8217; In nearly every case LTFC will be a &#8216;viable&#8217; option understood in that way.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Adoption</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The key negative of adoption relates to the severance of Z&#8217;s relationship with his parents. In the section above I have characterised this as a likely consequence of adoption and I have identified significant negative implications of the same. I have viewed this through an emotional lens but I note the severance would be not only emotional but legal in nature replacing MR and BT with new legal parents for Z. It is this interference with family life which is recognised as draconian in nature and unprecedented when compared to other decisions reached in the Family Court.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Further such decision making is intended to be final in character with no further recourse to the Court. Unlike most decision making reached by the Court there is no opportunity to return at a later date to tweak or vary the outcome.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Linked to the above severance would be a loss of personal identity and, subject to life story work, of the hallmarks of personality as shaped by the parents and their biological make-up. It is likely adoption would limit the understanding in such regard. There would be little if any opportunity to turn to either parent were an issue to arise which might benefit from their insight based on their own life history. Whilst there is no current reasons for believing this to be the case this would include future medical concerns that reflect issues with the family.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">It also has to be recognised that adoption is not an answer in all cases, that it does not wipe the slate clean removing all issues and can itself be fragile and capable of breakdown. Where this happens the impact of breakdown can exacerbate the circumstances which brought the placement into effect. In such a case the child may be thrown back onto their family of origin in an unhelpful and unplanned manner. I accept that the risks of breakdown will have some correlation to the challenges existing at outset and that Z is not demonstrating particular issues at this point in time.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Adoption can face challenges if the applicants have an idealised view of how things will proceed or where the applicants have not been given a good understanding of the circumstances and life history of the child placed with them. I do consider it appropriate to proceed on the basis that prospective adopters would be selected with care and approach any placement with their eyes open to the challenges. As I have noted the circumstances of this case may unduly discourage some candidates but there is little in the evidence to suggest the placement would face undue and unexpected challenges.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The central positive of a placement is linked to the expectation that it would remove the concerns and risks otherwise found in this case. This is not to say that an adoption family would not have strains and issues from time to time. The reality of adoption is of placement into an ordinary family who may face upheaval and unexpected changes in their life journey. However, adopters enter the process with an understanding that the route forward may not be without difficulties and this is a significant safeguard against future challenge. But one can have greater confidence that this will not just be a placement with an expectation of love and warmth but one without a risk of sexual abuse as identified within the evidence. As such it will be a safe and secure environment in which Z can develop and interact with the outside world.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Such a placement would be akin to normal family life. Z would be a legal member of the family. Whilst a local authority or related agency may be on hand to offer support and guidance if required, there would be no responsibility or entitlement of the local authority or social workers to interfere in Z&#8217;s life or the decisions made on his behalf. Such a placement would entirely pass parental responsibility back to those exercising daily care for Z. It would remove the regular need for oversight, be it looked after reviews or medicals and would permit the freedom and spontaneity of decision making not always available to a foster carer.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Whilst it has been noted placement does not come with guarantees it is important to recognise that such adoption has the potential to be better able to deal with extraneous events whilst maintaining the placement. By way of example if an adoptive family  needed to move for work or other reasons or were an adoptive carer to fall sick for a period then there is no reason to believe that this would of itself endanger the placement. In contrast a foster carer&#8217;s continued ability to care would be subject to constant oversight and one can readily conceive of circumstances in which a local authority would have to consider ending the placement where an adoptive placement would continue without question.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">62.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">A further benefit is the intended lifespan of an adoption. It is lifelong in character and inter-generational. Z would become a member of the family as would any future children he might have. It is not a placement which is intended to simply carry him through to adulthood and independence with the potential for a level of abandonment on gaining majority.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">LTFC</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The central benefit of LTFC is its ability to promote and maintain familial contact. I have documented above the benefits of contact in general and for Z in particular. I bear in mind that this is both a principled point and a quantum point. In principle and on the facts of this case it is difficult to conceive of Z not having a level of direct contact were a LTFC outcome to be favoured. As noted above this is far less likely to be the case following adoption. Second, even were contact to be maintained post adoption then it is highly likely the quantum (amount) of contact arising following LTFC would be significantly in excess of that following adoption. In an adoptive scenario it is most likely any contact would be set out an identity level at around 1-2 times per annum. In contrast, under a LTFC outcome contact would likely arise on at least a bi-monthly basis. That level of contact has a much greater likelihood of maintaining the essence of the child-parent relationship. Third, there must be a possibility that were contact to continue after adoption that this might be for BT only. In substantial terms this would be a matter for any adopters and I cannot rule out adopters taking a differential attitude to each of the parents given where the direct risks lie in this case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">A separate benefit of LTFC is the flexibility it provides to contact, the duty on the applicant to facilitate the same and the enhanced  capacity for the parents to be an engaged party in any such process. Moreover, LTFC leaves open the possibility of future rehabilitation to parental care. This is an outcome which is not intended to be any part of an adoption outcome. By leaving this open it has the tendency to encourage the parents to make changes and improve. Indirectly this has the potential to have benefits for Z.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">A more debateable point but one which I acknowledge at least is the possibility that by being present in his life the parents may be able to help Z make more sense of his life history. It is a matter of debate whether he will find it easier or harder to come to terms with his father&#8217;s conduct if he has maintained a relationship with him. This is a matter requiring speculation however and it may be Z loses trust in those around him if a time comes when he has to understand why contact has been maintained with his father despite his father&#8217;s actions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Further, it may be argued that the future for Z comes with significant emotional challenges beyond the capacity of adoptive carers. Were this to be the case then the additional resources and expertise available to the applicant might be a feature which leans in favour of LTFC. Addressing Z&#8217;s needs would in such a scenario not be a matter for the services available to the adopters or those which they can advocate for, rather he would have a statutory parent with resources open to it to use for his benefit.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">A point made on behalf of the parents in support of LTFC is that an adoptive search has a significant question mark over it given Z&#8217;s age and the circumstances of the case. I have made contrary observations in this regard. But I do accept a LTFC placement would likely be in place earlier than an equivalent adoptive placement. On the evidence I have a LTFC placement would likely be in place well in advance of the 9-12 months identified as likely for adoption. It is argued this has a separate benefit in establishing the basis for future security at an earlier date thus enabling Z to begin to settle in sooner rather than later. The applicant accepted the proposition that &#8216;sooner was better than later&#8217; and I agree. The issue is as to whether the difference between the two is sufficiently material to weigh the outcome differently as a result.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The key negative of LTFC surrounds the key distinction between LTFC and adoption. It simply would not have the sense of permanency or belonging for Z that is associated and expected of adoption. He would undoubtedly be cared for and I do not overlook the potential for LTFC to provide a warm and loving home. Yet it simply is not the same as for adoption. A foster carer is a statutory carer subject to the overarching decision making of the applicant. Any such placement is inherently fragile as a result and subject to a host of different destabilising factors that simply would not arise in an adoptive setting. LTFC is not for life and creates no lifelong obligation to the child. I accept that many foster carers develop a commitment to a child which endures beyond childhood but this is not an expectation or requirement. For every child that has this experience will be a child who experiences a number of moves in care with the associated disruption of schooling and other related bonds.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">This difference may be problematic in a case which has a complex piece of life story work hanging over it. In contrast to adoption Z&#8217;s parents will remain a part of his life and as I have noted it may become increasingly unclear to him why it is that he is not with them. Such an outcome may lead to an acceleration of the time at which the life story history is considered and there is an enhanced danger of this being a problematic process if in contrast to adoption Z is receiving a different level of emotional support when at home. I have already noted the potential issues that may arise in circumstances in which the life story conflicts with that which is accepted by either or both parents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Whilst I have noted the positives of ongoing contact, I must at least have regard to the potential that contact will be unsettling of the placement and lead to damaging instability (whether in LTFC or adoptive placement). I accept the parents have been co-operative within this process but this can only be taken so far in circumstances in which it is now clear they were not co-operative with the process in previous proceedings. It is a matter of speculation as to how they will conduct themselves once proceedings are at an end.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Whilst LTFC benefits from the potential for it to be discharged and a child rehabilitated back to the care of his parents there will be cases in which such applications are made without merit and have an entirely disruptive impact on both the child and the placement.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">Finally, in contrast to adoption LTFC does not of itself address the risks which underpin this case. Rather it provides an intended safe home environment. Yet this remains surrounded by contact and the management not removal of risk. Over time Z will develop independence and there must be at least a risk of illicit contact taking place away from supervised contact. This would be a matter of real concern and would raise a continuing risk of significant harm. I appreciate the evidence as to current co-operation and the arguments around available safeguards. But I consider it na&#239;ve to assume there would be no dynamic over time and the possibility of risk arising outside of agreed contact.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">It can be seen I have addressed the key distinctions identified by Black LJ in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif';font-size:11pt">Re V</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> (&#167;96). For my part I do not consider </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif';font-size:11pt">Re B-P</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> adds anything particularly material to this discussion save to reinforce the need for a robust analysis of the comparative positives/negatives of each option (see my analysis above).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;font-family:'Calibri, sans-serif';font-size:11pt">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">It is deeply disappointing for the Court to find itself with the need to make the decision under consideration. Having undertaken a careful and comprehensive evaluation of the risks in this case it appeared a long-term family solution had been found for Z. I very much recall ending the last proceedings on a positive note. Yet even then my judgment sought to make it abundantly clear to BT as to the risks to Z should his father enter his life in an uncontrolled fashion. I specifically cautioned her as to the impact such decision making might have on the security of his placement.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">It was in that context that the parents planned and schemed to mislead the Court. Whilst they both explain this in the context of benefitting their child it is quite plain it had the very opposite effect. That this would be the case was entirely predictable and was well within their understanding. I do not expect them to readily accept my sustained concern as to risk of abuse. But I do expect them to have had the maturity and insight to follow through on their decision making. Even now I cannot countenance what they thought would happen as and when Z approached schooling and spent more of his life in open sight. They should have thought ahead and if they had of done so they would have immediately appreciated their deceit would likely come into open sight with the outcome one now sees writ large in these proceedings. As such the stark choice facing the Court is a consequence entirely of the parental decision making. This may appear a harsh point to draw but it is the reality and needs to be stated without hesitation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I am now faced by the reality of their period of care and the positives that they have been able to draw from this period. But this does not recalibrate my concerns. I am left with a natural caution in considering the manner in which the parents will interact into the future.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">That being said my ultimate conclusion has turned on my assessment of a need (given the above) for Z to have the option which is most likely and best placed to give him a future and life-long sense of stability, security and belonging. I am in no doubt this is now an imperative requirement to meet Z&#8217;s welfare needs and can in fact only be obtained by the making of a placement order with a plan for adoption. In my judgment he needs to be at the centre of a family where he has a legal place and in which his placement is not subject to uncertainty and instability. I have borne in mind his age but I did not assess this as being the issue which the parents would make of it. Z is still under 4 and will likely be placed within 12 months before his 5</span><span style="vertical-align:super;font-size:11pt;font-family:'Calibri, sans-serif'">th</span><span style="font-family:'Calibri, sans-serif';font-size:11pt"> birthday and commencement of schooling. I accept during transition there will be challenges but I agree there will challenges associated with necessary transition in any event. I judge this second transition for Z must be his final transition and not simply one of a possible number of future moves.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I also consider the particular circumstances of this case (one in which the risks are significant but not readily explainable to a young child and are such as to carry a high level of societal disapproval) favour adoption. In my assessment the future work with Z will be better understood by him if it is undertaken within an environment distant from his parents and the likely denial of the same that will flow from their involvement in his life. I also consider the statutory overview of Z in LTFC and the stigma it brings may well be exacerbated given the facts of this case. Z needs to have the opportunity for full time parents who can address this history in part by providing a consistent and supportive account of this history. He cannot afford to have any sense of mixed messages around this issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">In my assessment the likely risks of delay in finding a placement are overstated as far as Z is concerned. I have no reason to believe a positive placement will not be found in a timely manner.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I appreciate that this outcome may well lead to the cessation of any direct contact between Z and his parents and I agree this will be associated with emotional harm. But this does not exist in a vacuum and I judge it sadly is a necessary loss which is required to enhance the security and stability he now requires. Whatever the parents say as to willingness to be supportive of LTFC I cannot overlook their tendency to be deceitful to professionals or the potentially problematic interaction they may have with the instability of such a placement and the non-acceptance of the risks in the case. I appreciate this point is more in point with respect to MR. I am concerned there is a very real potential for these features to be exploited over time leading to Z being placed back into a position of risk of harm.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I have therefore reached the conclusion that placement for adoption is the outcome that will meet Z&#8217;s welfare needs throughout his life. I consider his parents&#8217; consent to placement must be dispensed with on the basis that Z&#8217;s welfare requires this to be done.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I have listened with care to the arguments around post adoption contact. The applicant has made clear its lack of support for the same. I am not being asked to encourage or limit the initial search only to those who express a willingness to entertain an open adoption. If I had been asked to do so I would have refused the same. Rather, I am being asked to set out in this judgment my own views as to the merits of such an open adoption with the potential that this may shape the views of prospective applicants and may function as a counterbalance to the position taken by the applicant. In general, there is much to be said for consideration of open adoption. It does have the potential to provide stability to a placement and particularly so where the child in question carries a powerful sense of their family identity. But each case turns on its facts. I have set out in this judgment the competing positives and negatives associated with the options before me and in doing so I have commented among other matters, on the relationship between Z and his parents. I consider that is as far as I should go. I consider I should leave it for any applicants to apply their mind to these circumstances free from any steer from me.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I am asked to direct disclosure to inform the prospective adopters as to the circumstances of the case. I accept there may be significant issues with redaction to safeguard the confidentiality of third-party children referenced in these proceedings. I agree there is no need for applicants to see the full history relating to MR as detailed within the assessments. I would have thought the sensible position would be to receive: (a) the guardian&#8217;s analysis; (b) the social worker&#8217;s final statement and care plan; (c) the risk assessment (mother and father) conclusions and recommendations; (d) the parenting assessment of BT, and; (e) my three judgments relating to Z as redacted and published.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">I agree with the guardian that there should be no fixed time period around the length of a search for a placement family prior to widening the options. This is not a case in which the Court can sensibly calculate what is the appropriate period for Z. Rather, I consider this should be a matter for the professionals around Z who will be in place to keep this issue under review. I would be concerned a period fixed at that time would amount to a strait jacket aound any search.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">The issue of photos of Z during contact has it seems been resolved. The question of photos as part of post-adoption contact is exclusively a matter for adopters and is not a subject on which I feel I can helpfully comment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Calibri, sans-serif';font-size:11pt">86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Calibri, sans-serif';font-size:11pt">This judgment will now be forwarded to the legal representatives. They are at liberty to share the same with their lay and professional clients prior to handing down (this is not embargoed) on Friday, 21 Jun 2024 at 3pm. As discussed at the final hearing I would welcome: (a) Any corrections; (b) Any requests for clarification; (c) Any further proposed redactions to the accompanying redacted version of this judgment given it will likely be published, and (d) a draft final order. Can I have the same by 4pm on 20 June 2024.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-family:'Calibri, sans-serif';font-size:11pt">His Honour Judge Willans</span></p>
+	    <p class="ParaLevel1"><span style="font-family:'Calibri, sans-serif';font-size:11pt">(18 June 2024)</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

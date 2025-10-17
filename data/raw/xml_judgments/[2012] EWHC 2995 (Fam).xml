@@ -1,0 +1,742 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2012/2995"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2012/2995"/>
+	  <FRBRdate date="2012-10-26" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2995"/>
+	  <FRBRname value="BP v KP and NI (Financial Remedy Proceedings: Res Judicata)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2995"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2995"/>
+	  <FRBRdate date="2012-10-26" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2995/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2995/data.xml"/>
+	  <FRBRdate date="2024-09-18T19:31:01" name="transform"/>
+	  <FRBRdate date="2024-11-29T22:55:05" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2012-10-26" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="bp" href="" showAs="BP"/>
+	<TLCPerson eId="kp" href="" showAs="KP"/>
+	<TLCPerson eId="ni" href="" showAs="NI"/>
+	<TLCPerson eId="oi" href="" showAs="OI"/>
+	<TLCRole eId="petitioner" href="" showAs="Petitioner"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="intervener" href="" showAs="Intervener"/>
+	<TLCPerson eId="judge-mr-justice-mostyn" href="/judge-mr-justice-mostyn" showAs="MR JUSTICE MOSTYN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2012</uk:year>
+	<uk:number>2995</uk:number>
+	<uk:cite>[2012] EWHC 2995 (Fam)</uk:cite>
+	<uk:parser>0.26.2</uk:parser>
+	<uk:hash>51625c6e5df078ceabcde99fd499035098d9812512033790fbbffe30695950fb</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .NoSpacing { font-size: 11pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .loose { font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .italic1 { font-style: italic; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">MR JUSTICE MOSTYN</span></p>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Approved Judgment</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2012] EWHC 2995 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD10D03361</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2012-10-26" refersTo="#judgment">26/10/2012</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-mostyn">MR JUSTICE MOSTYN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#petitioner" refersTo="#bp" style="font-weight:bold">BP</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#petitioner">Petitioner</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#kp" style="font-weight:bold">KP</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#intervener" refersTo="#ni" style="font-weight:bold">NI</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#intervener">1<span style="vertical-align:super;font-size:smaller">st</span> Intervener</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#intervener" refersTo="#oi" style="font-weight:bold">OI</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#intervener">2<span style="vertical-align:super;font-size:smaller">nd</span> Intervener</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Nicholas Cusworth QC &amp; Alexander Thorpe </span></p>
+      <p style="text-align:center">(instructed by<span style="font-weight:bold"> Kay Georgiou Solicitors</span>) for the <span style="font-weight:bold">Petitioner</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Martin Pointer QC &amp; Simon Webster</span></p>
+      <p style="text-align:center">(instructed by <span style="font-weight:bold">Schillings</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Deborah Bangay QC &amp; David Blayney</span></p>
+      <p style="text-align:center">(instructed by <span style="font-weight:bold">Goldkorn Mathias Gentle Page Solicitors</span>) for the <span style="font-weight:bold">1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> &amp; 2</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold"> Interveners</span></p>
+      <p style="text-align:center">Hearing dates: 22 &#8211; 26 October 2012</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p style="text-align:center">MR JUSTICE MOSTYN</p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify">This judgment is being handed down in private on 26 October 2012. It consists of 40 paragraphs and has been signed and dated by the judge.  The judge hereby gives leave for it to be reported in this anonymised form as <span style="font-style:italic">BP v KP and NI (Financial Remedy Proceedings: Res Judicata)</span></p>
+	    <p style="text-align:justify"> The judgment is being distributed on the strict understanding that in any report no person other than the advocates or the solicitors instructing them (and other persons identified by name in the judgment itself) may be identified by name or location and that in particular the anonymity of the children and the adult members of their family must be strictly preserved.</p>
+	  </content>
+	</level>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Mostyn :</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_2">
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is my judgment on two preliminary issues. Mr Pointer QC, who represents the husband (&#8220;H&#8221;) argues that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The wife (&#8220;W&#8221;) is barred by operation of the doctrine of <span style="font-style:italic">res judicata </span> from asserting in the financial remedy proceedings (which will be heard on 18 March 2013) that an agreement said by H to have been formed in early March 2008 was either the product of collusive fraud between him and Mr I (&#8220;NI&#8221;), or, if not actually fraudulent, was in fact formed in 2010; and </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">At the final hearing W is also barred from running a case of &#8220;add-back&#8221; in relation to the losses suffered by him, and therefore to the family, arising from enforcement of that agreement by NI.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The facts </span></heading>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I will endeavour to express the relevant facts as shortly as I can. H and W were married in 2003. At that time H was with ED the owner of an investment management company called XYZ. This had been established in 1998. The business was very successful, but in 2006 a financial regulatory authority (&#8220;Regulator&#8221;) served notice of an investigation by them into alleged market abuses. Notwithstanding that bad news the fund continued to trade and was very successful both for its investors and its managers. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">NI was an investor in the fund and a friend of H&#8217;s. He says that in 2007 he decided to withdraw into academic studies and wished to convert his investments into securities which were less exposed to risk. He and H say that in November 2007 they discussed entering into what has been described in a &#8220;Phantom Swap Agreement&#8221; or a &#8220;Cap and Collar Agreement&#8221;. Essentially the idea was that NI would buy 2,465.177 shares in the A B C Fund for &#163;7,766,959. If the value of the fund went up NI would receive the first 5%, and any profit above that would be shared equally by H and NI. But if the fund went down H would guarantee all the losses apart from &#163;100,000.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">NI and H say that they signed the agreement in the early part of March 2008, even though it states that its &#8220;effective date&#8221; is 8 February 2008. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the latter part of March 2008 the Regulator announced that it had concluded its investigations and would file a complaint against XYZ imminently. H says this news came out of the blue. Other than the notices served in 2006 he had no inkling that this step would be taken. As a result the funds were suspended. The complaint was filed   in early April 2008 and very heavy litigation ensued. Eventually  the Court in the Regulator&#8217;s country gave judgment in early 2012. It found the complaint partly proved and ordered XYZ and ED to disgorge their illegitimate pecuniary gains of over $30m and imposed a civil penalty in the same amount. XYZ was then placed into administration a few months later in 2012.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The combination of these events and the global financial crisis caused the value of NI&#8217;s funds to collapse. In April 2011 he sued H under the agreement in the Chancery Division claiming &#163;6,501,915 calculated as follows:</p>
+	      <table uk:widths="2.83in 0.93in">
+		<tr>
+		  <td style="border-style:none;vertical-align:bottom">
+		    <p>Purchase Price</p>
+		  </td>
+		  <td style="border-style:none;vertical-align:bottom">
+		    <p style="text-align:right">7,766,959 </p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border-style:none;vertical-align:bottom">
+		    <p>current market value agreed with H</p>
+		  </td>
+		  <td style="border-style:none;vertical-align:bottom">
+		    <p style="text-align:right"><span style="color:#FF0000">(1,165,044)</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border-style:none;vertical-align:bottom">
+		    <p>less sum to be borne by NI</p>
+		  </td>
+		  <td style="border-bottom-width:0.5pt;border-style:none none solid;border-bottom-color:initial;vertical-align:bottom">
+		    <p style="text-align:right"><span style="color:#FF0000">(100,000)</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border-style:none;vertical-align:bottom">
+		    <p/>
+		  </td>
+		  <td style="border-style:none;vertical-align:bottom">
+		    <p style="text-align:right">6,501,915 </p>
+		  </td>
+		</tr>
+	      </table>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">H did not defend the suit and in May 2011 judgment was entered in default in the sum of &#163;6,540,767 to cover the claim, interest and costs. H&#8217;s position is (or rather, was, until recent events took a different turn) that this is an unimpeachable liability of his which must be satisfied out of the family assets.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">W strongly disputes this. Her position is (or rather, again, was) that while she does not dispute that NI purchased the shares, the agreement is a fraudulent construct. It was not entered into in 2008, when the parties were reasonably happily married, but rather in 2010, when the marriage had broken down. She petitioned for divorce in July 2010. She says that the H and NI have conspired to create this construct which will have the effect of removing the great majority (about three-quarters) of their fortune from the powers of the court. When the dust has settled she says that NI will return all or most of the money to H.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In order to test the veracity of H&#8217;s case W would like to examine the originals of the agreement, assuming, not unreasonably, that each of H and NI would have a counterpart. It is possible forensically to examine paper and to discover when it was manufactured. But H says that his original version has disappeared from some papers kept in his bedroom and accuses W of having taken it. NI says that he sent the original to his solicitors but it was lost in the post. Faced with such a striking coincidence W has asked to examine NI&#8217;s computer on which the agreement was prepared, as the file would be on the hard drive embedded with its date of creation. But NI says that he threw the computer away last summer as it was outdated. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">W not only relies on the total absence of any original paper or electronic documents but also the complete absence of any surrounding letters or emails at the time of the alleged formation of this agreement. She points to the fact that there is no reference to this agreement anywhere in any medium before 2010.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Therefore late in the day W applied in the Chancery Division to set aside the default judgment. That application has not yet been heard. She had earlier succeeded in preventing Final Charging orders being made here in relation to H&#8217;s share of the former matrimonial home and in the Isle of Man over certain assets held there by H. In her application W clearly alleged fraud against H and NI, and explicitly alleged that the agreement had been made in 2010. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This week (22 &#8211; 26 October 2012) I had expected to conduct an <span style="font-style:italic">OS v DS</span> hearing. That is a form of oral discovery designed to test the strengths and weaknesses of the parties&#8217; cases under cross-examination, so that an effective FDR can take place. The parties&#8217; position statements were polarised. H asserted that the judgment debt was completely valid and the money irretrievably lost. W asserted that the judgment debt was a fraudulent sham. By then the judgment debt had risen with interest to &#163;7,302,005. Given that the assets of the parties comprise about &#163;10m it can be seen that a lot rode on their respective positions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">But events took an unexpected turn. As things stood at the end of last week NI had not in fact suffered a loss of &#163;6,501,915. That loss calculation was based on a figure for the value of the shares agreed between H and NI of 15% of the purchase price or &#163;1,165,044. However after the judgment NI had 1,068 of his shares compulsorily redeemed at &#163;2,179.61 per share, giving him &#163;2,326,910. At that redemption figure his remaining 1,178 shares would be worth &#163;2,567,709.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I was therefore both unsurprised and pleased to read in Miss Bangay QC&#8217;s position statement that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Mr and Mrs I did not intend or expect to receive a gain of that kind, and they were prepared (as part of a settlement in which they obtain payment and have no need to engage in further litigation) for that benefit, less their costs of these proceedings, to be returned to the "matrimonial pot" to be contested between Mr and Mrs P. They were also prepared to waive their right to 8% interest on the judgment. They made that position clear by way of an open offer contained in a letter from their solicitors dated 18th October 2012&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I do not need to recount the manoeuvrings that subsequently took place. Suffice to say that agreement was reached between the parties along the lines of this proposal, although much bad-tempered wrangling has taken place over the terms of the order. The compromise agreement provides for the following essential terms:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">NI will keep the sum received on compulsory redemption in March 2012.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">NI will receive &#163;3,826,640 in respect of his judgment debt.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">NI will sell his remaining 1,178 shares to H for &#163;1m (or &#163;848.90 per share), who will then put them in the joint names of him and W. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The aggregate sum of &#163;4,826,640 will be collected first via the charging order over H&#8217;s share of the matrimonial home, second via the third party debt order against Hs ISAs (about &#163;70,000) and third via the charging order against H&#8217;s assets obtained in the Isle of Man. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">W&#8217;s application to set aside the judgment in the Chancery Division will be dismissed.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The effect of this compromise is as follows. NI will recover &#163;4,826,640 of his judgment debt of &#163;7,302,005. This is 66p in the &#163;. That &#8220;restores&#8221; &#163;2,475,365 to H and W. In addition they will receive NI&#8217;s 1,178 shares. At the last redemption figure they are worth &#163;2,567,709<span style="font-weight:bold">. </span>At their purchase price they are worth &#163;1,000,000. Therefore W would argue that instead of she and H suffering a loss of  &#163;7,302,005 they have suffered a loss of between &#163;2,258,931 and &#163;3,826,640 depending on the true value of NI&#8217;s unredeemed shares which they will receive. She says that it is by virtue of her concession to withdraw her Chancery application alone that the loss has been reduced. She says that H was perfectly content to allow the whole judgment debt to be enforced. And she says that she should be allowed to argue that the loss should be attributed to H under the &#8220;add-back&#8221; doctrine at the final hearing. H says that I should proleptically bar<span style="font-weight:bold"/>W from advancing this argument and raises the two preliminary points referred to in para 1 above. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Cusworth QC accepts that the effect of the Chancery Judgment, which will not now be impeached by virtue of the compromise, is that he cannot by virtue of the doctrine of res judicata argue that the agreement was procured by fraud and is therefore void. He has to accept that it is a valid agreement. However, he says that the default judgment says nothing about when the agreement was actually formed, nor is it necessary for its validity that should do so. It would be, absent proof of fraud, equally valid whether it was formed in 2008 or 2010, whatever H&#8217;s motives may have been if his theory that it was formed in 2010 is right. But Mr Cusworth QC argues that his case on add-back is very substantially strengthened if he can prove that it was formed in 2010 when the marriage was over. Mr Pointer QC says that this is absolutely impermissible not only because of the default Chancery judgment but also because of the order which will be entered as a term of the compromise <span style="text-decoration-line:underline;text-decoration-style:solid">dismissing </span>W&#8217;s application to set it aside.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Res Judicata </span></heading>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Coke-Wallis, R (on the application of) v Institute of Chartered Accountants in England and Wales</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/1" uk:canonical="[2011] UKSC 1" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKSC 1</ref> Lord Clarke JSC giving the judgment of the Supreme Court stated at para 26:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The relationship between cause of action estoppel and issue estoppel was described, in terms that have been generally accepted, by Diplock LJ in <span style="font-style:italic">Thoday v Thoday </span><ref href="#" uk:canonical="[1964] P 181" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1964">[1964] P 181</ref>, 197-198: </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">"The particular type of estoppel relied upon by the husband is estoppel per rem judicatam. This is a generic term which in modern law includes two species. The first species, which I will call 'cause of action estoppel,' is that which prevents a party to an action from asserting or denying, as against the other party, the existence of a particular cause of action, the non-existence or existence of which has been determined by a court of competent jurisdiction in previous litigation between the same parties. If the cause of action was determined to exist, ie judgment was given upon it, it is said to be merged in the judgment, or, for those who prefer Latin, transit in rem judicatam. If it was determined not to exist, the unsuccessful plaintiff can no longer assert that it does; he is estopped per rem judicatam. This is simply an application of the rule of public policy expressed in the Latin maxim 'Nemo debet bis vexari pro una et eadem causa.' In this application of the maxim 'causa' bears its literal Latin meaning." </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Res judicata, or estoppel per rem judicatam, is thus a generic term of which cause of action estoppel and issue estoppel are two species. The distinction between the two species is of potential importance because the former creates an absolute bar, whereas the latter does not.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In his Note Mr Pointer QC argues that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">W is precluded by cause of action estoppel from further alleging collusive fraud against H in respect of the agreement; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">W is precluded by issue estoppel from challenging any of the fundamental facts set out below (and any other fact integral to the judgment in favour of NI) </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As I have stated Mr Cusworth QC accepts that he cannot challenge Mr Pointer QC&#8217;s first argument. The debate concerns the second argument and whether W can challenge what Mr Pointer QC calls the fundamental facts. These he listed as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the agreement was executed by H and by NI;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the agreement was entered into in about March 2008;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">the agreement was a valid agreement;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the trigger event for the put option, namely (in the reasonable opinion of NI) the value of the units falling below 75% of their purchase price had occurred;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">NI duly exercised the put option;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the agreed residual value of the units was 15% of their purchase price;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">the loss suffered by NI was &#163;6,501,916</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The key fact that Mr Pointer QC argues Mr Cusworth QC cannot challenge is that the agreement was formed in March 2008. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Pointer QC cites <span style="font-style:italic">New Brunswick Railway Co. v. British &amp; French Trust Corporation Ltd </span><ref href="#" uk:canonical="[1939] AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1939">[1939] AC 1</ref> in support of the proposition that it matters not that the judgment was by default. There Lord Maugham stated:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The true principle with a default judgment would seem to be that the defendant is estopped from setting up in a subsequent action a defence which was necessarily and with complete precision decided by the previous judgment; in other words, by the res judicata in the accurate sense.&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Pointer QC accepts that the estoppel only applies to facts which are necessary to the conclusion that has been reached. He cites Dixon J in <span style="font-style:italic">Blair v. Curran</span> (1939) 62 CLR 464, 532 who stated:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;A judicial determination directly involving an issue of fact or law disposes once and for all of the issue, so that it cannot afterwards be raised between the same parties or their privies. The estoppel covers only those matters which the prior judgment, decree or order necessarily established as the legal foundation or justification of its conclusion&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">In the phraseology of Lord Shaw &#8220;a fact fundamental to the decision arrived at&#8221; in the former proceedings and the legal quality of the fact must be taken as finally and conclusively established.&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally Mr Pointer submits that the finding or conclusion need not be expressed but may be tacit and inferred. He cites Coleridge J in <span style="font-style:italic">R v. Hartington Middle Quarter Inhabitants </span>(1855) 4 E &amp; B 780 where he stated:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;[the prior judgment relied upon] concludes not merely as to the point actually decided, but as to a matter which it was necessary to decide, and which was actually decided, as the groundwork of the decision itself, though not then the point in issue &#8230; [it is] conclusive evidence not merely of the fact directly decided, but of those facts which are&#8230; necessary steps to the decision&#8230;so cardinal to it that without them it cannot stand&#8230;&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">So the key question is this: is the fact relied on a cardinal fact without which the earlier decision cannot stand? I cannot see that the asserted fact that the agreement was formed in 2008 has such a status. The contract is equally valid whether it was executed in 2008 or 2010. NI&#8217;s rights under it are equally valid on either date, and the impact of H&#8217;s failure to comply with his obligations is the same whenever it was formed. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Pointer QC further argues that the consent order which will be entered in respect of W&#8217;s application to overturn the default judgment will also act as a separate cause of action estoppel in respect of this contentious fact. He argues that W is debarred by the rule in <span style="font-style:italic">Henderson v. Henderson </span>(1843) 3 Hare 100 from pursuing allegations that could and should have been prosecuted as part of that claim. In that case Wigram V-C stated</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;where a given matter becomes the subject of litigation in, and of adjudication by, a court of competent jurisdiction, the court requires the parties to that litigation to bring forward their whole case, and will not (except under special circumstances) permit the same parties to open the same subject of litigation in respect of matter which might have been brought forward as part of the subject in contest, but which was not brought forward, only because they have from negligence, inadvertence or even accident, omitted part of their case. The plea of <span style="font-style:italic">res judicata </span>applies, except in special cases, not only to points upon which the court was actually required by the parties to form an opinion and pronounce a judgment, but to every point which properly belonged to the subject of litigation, and which the parties, exercising reasonable diligence, might have brought forward at the time.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The question is therefore: does the withdrawal (by a consent order (not yet made) which dismisses her application) by W of her claim to set aside NI&#8217;s default judgment in proceedings between her and NI give rise to this species of estoppel in proceedings for a financial remedy between her  and H? I think not. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The rule in <span style="font-style:italic">Henderson v Henderson </span> was lucidly explained by Lord Bingham of Cornhill in <span style="font-style:italic">Johnson v Gore Wood &amp; Co (a firm) </span><ref href="#" uk:canonical="[2002] 2 AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 2 AC 1</ref> at 30:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;It may very well be, as has been convincingly argued  &#8230;, that what is now taken to be the rule in <span style="font-style:italic">Henderson v Henderson</span>, has diverged from the ruling which Wigram V-C made, which was addressed to res judicata. But <span style="font-style:italic">Henderson v Henderson</span> abuse of process, as now understood, although separate and distinct from cause of action estoppel and issue estoppel, has much in common with them. The underlying public interest is the same: that there should be finality in litigation and that a party should not be twice vexed in the same matter. This public interest is reinforced by the current emphasis on efficiency and economy in the conduct of litigation, in the interests of the parties and the public as a whole. The bringing of a claim or the raising of a defence in later proceedings may, without more, amount to abuse if the court is satisfied (the onus being on the party alleging abuse) that the claim or defence should have been raised in the earlier proceedings if it was to be raised at all. I would not accept that it is necessary, before abuse may be found, to identify any additional element such as a collateral attack on a previous decision or some dishonesty, but where those elements are present the later proceedings will be much more obviously abusive, and there will rarely be a finding of abuse unless the later proceeding involves what the court regards as unjust harassment of a party. It is, however, wrong to hold that because a matter could have been raised in early proceedings it should have been, so as to render the raising of it in later proceedings necessarily abusive. That is to adopt too dogmatic an approach to what should in my opinion be a broad, merits-based judgment which takes account of the public and private interests involved and also takes account of all the facts of the case, focusing attention on the crucial question whether, in all the circumstances, a party is misusing or abusing the process of the court by seeking to raise before it the issue which could have been raised before. As one cannot comprehensively list all possible forms of abuse, so one cannot formulate any hard and fast rule to determine whether, on given facts, abuse is to be found or not. Thus while I would accept that lack of funds would not ordinarily excuse a failure to raise in earlier proceedings an issue which could and should have been raised then, I would not regard it as necessarily irrelevant, particularly if it appears that the lack of funds has been caused by the party against whom it is sought to claim. While the result may often be the same, it is in my view preferable to ask whether in all the circumstances a party's conduct is an abuse than to ask whether the conduct is an abuse and then, if it is, to ask whether the abuse is excused or justified by special circumstances. Properly applied, and whatever the legitimacy of its descent, the rule has in my view a valuable part to play in protecting the interests of justice.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I simply cannot see how it can be seriously argued that H would be &#8220;unjustly harassed&#8221; were W to be allowed to pursue her contention in the financial remedy proceedings as to the date of formation of the agreement because the overall compromise that has been reached (to which H has been a party and which in the consent order embodying that compromise specifically records W&#8217;s contentions) provides for a dismissal by consent of W&#8217;s claim for a set-aside against NI. As Lord Bingham says I have to conduct an un-dogmatic merits-based exercise. In my view it is simply absurd to argue that H would be the subject of abusive harassment were W to be allowed to put forward her case. On any view this compromise is hugely beneficial to H as well as W. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I therefore hold that W is not estopped from seeking a finding as to the date on which the agreement was formed at the final trial in support of her add-back argument.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Add-back</span></heading>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my decision of <span style="font-style:italic">BJ v MJ (Financial Order: Overseas Trust) </span><ref href="#" uk:canonical="[2012] 1 FLR 667" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 FLR 667</ref> I attempted to summarise the law concerning the technique of add-back at paras 50 and 51:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>50.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">On 1 July 2009 H gifted C &#163;18,000 and this was followed by further gifts of &#163;57,010 on 3 July 2009, &#163;50,010 on 10 July 2009 and &#163;15,010 on 12 August 2009; a total of &#163;140,030. W seeks that these sums be added back to the pool of divisible assets as a wanton dissipation. I attempted to summarise the principles applicable to this technique in my decision of <span style="font-style:italic">N v F (Financial Orders: Pre-Acquired Wealth)</span> <ref href="#" uk:canonical="[2011] 2 FLR 533" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 2 FLR 533</ref> where I stated at para 39: </p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In this country we have separate property. If a party disposes of assets with the intention of defeating the other party's claim then such a transaction can be reversed under <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/37" uk:canonical="" uk:origin="TNA" uk:type="legislation">s&#160;37</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">MCA 1973</ref>. Similarly, where there is 'clear evidence of dissipation (in which there is a wanton element)' then the dissipated sums can be added back or re-attributed (see <span style="font-style:italic">Vaughan v Vaughan</span> <ref href="#" uk:canonical="[2008] 1 FLR 11" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 FLR 11</ref> at para&#160;[14]). But short of this a party can do what he wants with his money. What is not acceptable is a faint criticism falling short of either of these standards. If a party seeks a set aside or a re-attribution then she must nail her colours to the mast.&#8221; </p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>51.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Although intellectually pure, the problem with this technique is that it does not re-create any actual money. It is in truth a process of penalisation. In my judgment it should be applied very cautiously indeed and only where the dissipation is demonstrably wanton. I am not satisfied that here the gifts to C are to be characterised in this way. True, the timing is suspicious, but other than that there was no evidence that the gifts were anything other than bona fide. They would represent sensible IHT planning anyway. I therefore decline to add the gifts back. Generally speaking, I suggest that it would be altogether better where a reversal of a transaction is sought, that it is made pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/37" uk:canonical="" uk:origin="TNA" uk:type="legislation">s37</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">MCA 1973</ref>, where the disponee can be heard and where strict statutory criteria must be met. </p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It can therefore be seen that W faces a stiff climb to meet the test. However, Mr Pointer QC argues that if the event in question occurred before the breakdown of the marriage the technique simply cannot apply. He relies on the decision of Purchas LJ in <span style="font-style:italic">Scallon v Scallon</span> <ref href="#" uk:canonical="[1990] FLR 194" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1990">[1990] FLR 194</ref> where he stated:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;I now turn to the question of conduct in respect of which reference was made to the case of <span style="font-style:italic">Martin v Martin</span> <ref href="#" uk:canonical="[1978] Fam. 12" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1978">[1978] Fam. 12</ref>. That was a judgment which I delivered at first instance but which was considered on appeal and upheld. It is not necessary to do more than to reiterate the comment made by my Lord that the circumstances in that case were entirely different to those arising in this case. Mr Pointer submitted that such was the conduct of the husband on one occasion in causing a loss of some &#163;5,000 a substantial figure when compared with the total value of the assets at that time, that it ought to be, as it were, hung round his neck when the final distribution of the assets was reached on the breakdown of the marriage. I respectfully agree with what has fallen from my Lord that that sort of exercise is not one contemplated by the legislation. <span style="font-weight:bold">It certainly was not contemplated in the case of </span><span style="font-style:italic;font-weight:bold">Martin v Martin</span><span style="font-weight:bold">, since it was common ground in that case that questions of conduct which were governed by the leading authority of </span><span style="font-style:italic;font-weight:bold">Wachtel v Wachtel</span><span style="font-weight:bold"> <ref href="#" uk:canonical="[1973] Fam. 72" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1973">[1973] Fam. 72</ref> did not apply so as to import into the distribution of the assets any conduct of the parties prior to the breakdown and dissolution of the marriage.</span> It was purely the question of totally unjustifiable dissipation of the family assets after the breakdown of the marriage which was under consideration. Accordingly, I agree that that authority has no bearing upon this case. &#8220; (emphasis added)</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have to say that I have difficulty in following the logic of this. Why should it make any difference if the husband had lost a vast sum gambling a month before separation as opposed to a month after it? In any event I believe that this decision has been overreached by the sea-change in the way these cases are adjudicated following the seminal decisions of the House of Lords in <span style="font-style:italic">White v White </span><ref href="#" uk:canonical="[2001] 1 AC 596" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 1 AC 596</ref> and <span style="font-style:italic">Miller v Miller</span>[2006] 2 AC 618. Now the first key function of the Court is to establish with more or less precision the size of the pool in respect of which the sharing principle (which did not exist when <span style="font-style:italic">Scallon</span> was decided) will be applied. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">W will seek to argue that H was demonstrably wanton when he entered into the agreement. This was so if it was in 2008 and a fortiori if in 2010. It was a gamble of the utmost folly when the difficulties faced by XYZ were surely well known. If it was formed in 2008 there will have to be a close examination of the assertion that the Regulator&#8217;s actions in late March 2008 came out of the blue. If it was formed in 2010 when the marriage was on the rocks then Mr Cusworth QC would argue that the case is almost open and shut given the great size of the losses. Further, H had good defences to NI&#8217;s claim which he unjustifiably refused to mount. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">H emphatically disputes the suggestion that the agreement was formed other than in 2008. He says that speculative, leveraged investments made by him were a regular feature of his financial life both as a manager and on his own account. There was nothing abnormal, let alone wanton, in the agreement which he made. He has just been yet another victim of the global financial crisis, in his case aggravated by the later steps taken by the Regulator. He had no tenable defences to NI&#8217;s claim.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">All these arguments will have to be tested at trial by close cross-examination and scrutiny of documents. I am not prepared to decide now on a proleptic basis that W&#8217;s arguments of financial misconduct have no realistic prospect of success and to strike them out, in the manner that Bennett J did in <span style="font-style:italic">McCartney v Mills-McCartney</span> <ref href="#" uk:canonical="[2008] 1 FLR 1508" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 FLR 1508</ref>. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">LATER</span></heading>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Since this judgment was handed down, but before it had been anonymised and put on Bailii, I have read the Court of Appeal decision in <span style="font-style:italic">Spicer v Tulli</span> <ref href="#" uk:canonical="[2012] 1 WLR 3088" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 WLR 3088</ref> (handed down on 29 May 2102 and then placed on Bailii but not reported in the WLR until 9 November 2012). That case concerned proceedings alleging the same cause of action as an earlier set of proceedings which had been dismissed by consent. The question was whether the claimants were estopped from bringing the fresh proceedings. It was held both at first instance and on appeal that they were not. In his judgment at para 17 Lewison LJ (with whom Toulson LJ and Lord Neuberger MR (as he then was) agreed) referred to the earlier Court of Appeal decision (of which I was not aware) of <span style="font-style:italic">Ako v Rothschild Asset Management Limited</span>, <ref href="#" uk:canonical="[2002] ICR 899" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] ICR 899</ref> where Dyson LJ had stated (at para 41):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In my view, what emerges from these authorities is that there is no inflexible rule to the effect that a withdrawal or judgment by consent invariably gives rise to a cause of action or issue estoppel. If it is clear that the party withdrawing is not intending to abandon the claim or issue that is being withdrawn, then he or she will not be barred from raising the point in subsequent proceedings unless it would be an abuse of process to permit that to occur. On the facts of the present case, it is clear that Ms Ako did not intend to abandon her claim. Nor would it be unjust or unfair as between the parties to permit her to start again: no abuse of process is involved here. &#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In para 19 of his judgment in <span style="font-style:italic">Spicer v Tulli</span> Lewison LJ approved and adopted the approach of Dyson LJ stating:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;It must, however, be borne in mind that res judicata, cause of action estoppel and issue estoppel are all creations of judge-made law, and that judges have been careful not to lay down absolute limits to the rule. Since the fundamental purpose of both cause of action estoppel and abuse of process are the same, it is no surprise that Dyson LJ preferred the more flexible principles of abuse of process to a supposedly rigid application of cause of action estoppel.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Lewison LJ went on to observe at para 21 that the approach of Dyson LJ gained added force in the light of Article 6 of the European Convention on Human Rights which  entitles a person to a fair and public hearing in determining his or her civil rights.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">When entering into the compromise W never intended to abandon the issue of when the agreement was made. It is therefore obvious that these decisions fatally undermine Mr Pointer&#8217;s arguments and fortify me in my belief in the correctness of my decision.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

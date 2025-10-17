@@ -1,0 +1,568 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/56"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/56"/>
+	  <FRBRdate date="2014-01-22" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="56"/>
+	  <FRBRname value="Ramet, Re application for the committal to prison"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/56"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/56"/>
+	  <FRBRdate date="2014-01-22" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/56/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/56/data.xml"/>
+	  <FRBRdate date="2024-10-27T21:30:55" name="transform"/>
+	  <FRBRdate date="2024-11-24T17:18:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2014-01-22" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="chelmsford-county-court" href="" showAs="CHELMSFORD COUNTY COURT"/>
+	<TLCPerson eId="simon-abraham-ramet" href="" showAs="SIMON ABRAHAM RAMET"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-sir-james-munby" href="/judge-sir-james-munby" showAs="SIR JAMES MUNBY"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2014</uk:year>
+	<uk:number>56</uk:number>
+	<uk:cite>[2014] EWHC 56 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>7891de9cd2429d380ab02661371c979a01a8d51b564c89bf4295e426b22b6998</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .OrderStart { font-style: italic; font-weight: bold; text-transform: uppercase; font-family: Arial; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2014] EWHC 56 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>3CM00973</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2014-01-22" refersTo="#judgment">22 January 2014</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-sir-james-munby">SIR JAMES MUNBY </judge></p>
+      <p class="CoverMain" style="text-align:center">President of the Family Division</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><docTitle style="font-weight:bold">In the matter of an application for the committal to prison of Simon Abraham Ramet</docTitle></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#chelmsford-county-court" style="font-weight:bold">CHELMSFORD COUNTY COURT</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#simon-abraham-ramet" style="font-weight:bold">SIMON ABRAHAM RAMET</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Anthony Jerman </span>(instructed by<span style="font-weight:bold"> Taylor Haldane Barlex</span>) for the respondent</p>
+      <p style="text-align:center">The applicant was not represented</p>
+      <p style="text-align:center">Hearing dates: 28 November, 17 December 2013</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+      <p><span style="font-weight:bold">Sir James Munby, President of the Family Division :</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">10 October 2013: an ordinary afternoon in a typical County Court. Her Honour Judge Roberts is giving a judgment in Southend County Court. She has been hearing a family dispute between Simon Abraham Ramet and his former wife about his contact with their son, who is only a few weeks short of his thirteenth birthday. The mother is represented. The father is appearing in person. For the three human beings involved, the mother, the father and their son, the matter is intensely important. What, after all, can be more important than a parent&#8217;s contact with their child and the child&#8217;s contact with their parent? For the outsider all I need add is that the litigation has been going on for much of the time since the parents separated in 2003. That must be very distressing for the family. For anyone concerned with or concerned about the family justice system it is very depressing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is now almost ten years since, on 1 April 2004, I delivered a judgment drawing attention to the problem: <span style="font-style:italic">Re D (Intractable Contact Dispute: Publicity) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2004/727" uk:canonical="[2004] EWHC 727 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWHC 727 (Fam)</ref>, <ref href="#" uk:canonical="[2004] 1 FLR 1226" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 FLR 1226</ref> (it can be found on BAILII under the title <span style="font-style:italic">F v M</span>). My comments received much publicity at the time. How much has changed? A coruscating judgment by McFarlane LJ in September last year, <span style="font-style:italic">Re A (A Child) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/1104" uk:canonical="[2013] EWCA Civ 1104" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 1104</ref>, would suggest to the pessimist the answer &#8220;not much&#8221; and even to the optimist &#8220;not enough&#8221;. Something must be done. A recent report by a Working Group chaired by Cobb J, <span style="font-style:italic">Report to the President of the Family Division of the Private Law Working Group</span>, is at present the subject of consultation and urgent consideration. With its proposal for a <span style="font-style:italic">Child Arrangements Programme </span>to replace the current <span style="font-style:italic">Private Law Programme</span>, it maps out a radically different approach. I am determined to implement the necessary reforms as soon as possible this year.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I return to Southend. Judge Roberts has been describing Mr Ramet, his evidence and his closing submissions:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;he made no reference at all to the overwhelming mass of evidence, which was critical of his own conduct &#8230; [he] has focused on his own feelings &#8230; and finds it very difficult to see any fault on his own part.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Having referred to a report by a CAFCASS officer in 2007, she continues &#8220;If Mr Ramet had listened to that advice then, and since then, the situation may not be as it currently is. He did not&#8221;. Having referred to another expert report from 2011, she says &#8220;I accept all this expert evidence, and it is of huge regret that that advice was not followed.&#8221; She now turns to the mother. She says </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;I found [her] to be sensible, reasonable and thoughtful. I have read the older reports, and it is clear to me that she has listened to much of the advice she has been given.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">At that point the transcript abruptly ends. What has happened? </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Ramet has got up, as if to leave court, but in fact he attacks the mother, grabs her, repeatedly punches her about the head with his clenched fist, grabbing her hair and kicking her after she has fallen to the floor. The court clerk gallantly goes to her assistance, being assaulted by Mr Ramet for his pains. Mr Ramet is restrained. Order is restored. Judge Roberts adjourns. Mr Ramet is arrested. He is charged and appears in the Magistrates&#8217; Court, where he indicates that he pleads guilty. He is remanded in custody for trial in the Crown Court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Subsequent events can be summarised fairly shortly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 16 October 2013 Chelmsford County Court issued a summons requiring Mr Ramet to answer two complaints, that he did &#8220;attack&#8221; the mother and &#8220;hit&#8221; the court clerk, and to show cause why an order should not be made against him under the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">County Courts Act 1984</ref>. That is a reference to, respectively, <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/118" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 118</ref> and 14 of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/118" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 118</ref> provides as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Power to commit for contempt</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">If any person &#8211; </p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.58in;text-indent:0.42in">wilfully insults the judge of a county court, or any juror or witness, or any officer of the court during his sitting or attendance in court, or in going to or returning from the court; or </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.58in;text-indent:0.42in">wilfully interupts the proceedings of a county court or otherwise misbehaves in court; </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.58in">any officer of the court, with or without the assistance of any other person, may, by order of the judge, take the offender into custody and detain him until the rising of the court, and the judge may, if he thinks fit, &#8211;  </p>
+		      <block name="embeddedStructure"><embeddedStructure>
+			  <paragraph>
+			    <num>(i)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.97in;text-indent:0.03in"><marker name="tab"/>make an order committing the offender for a specified period not exceeding one month to &#8230; prison &#8230; ; or </p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num>(ii)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.97in;text-indent:0.03in">impose upon the offender, for every offence, a fine of an amount not exceeding &#163;2,500 or may both make such an order and impose such a fine. </p>
+			    </content>
+			  </paragraph>
+			</embeddedStructure></block>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The judge may at any time revoke an order committing a person to prison under this section and, if he is already in custody, order his discharge. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A district judge, assistant district judge, or deputy district judge shall have the same powers under this section in relation to proceedings before him as a judge.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 14 provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Penalty for assaulting officers</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">If any person assaults an officer of a court while in the execution of his duty, he shall be liable &#8211;  </p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.58in;text-indent:0.42in">on summary conviction, to imprisonment for a term not exceeding 3 months or to a fine of an amount not exceeding level 5 on the standard scale, or both; or </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.58in;text-indent:0.42in">on an order made by the judge in that behalf, to be committed for a specified period not exceeding 3 months to &#8230; prison &#8230; or to such a fine as aforesaid, or to be so committed and to such a fine, </p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">and a bailiff of the court may take the offender into custody, with or without warrant, and bring him before the judge. </p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The judge may at any time revoke an order committing a person to prison under this section and, if he is already in custody, order his discharge. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A district judge, assistant district judge or deputy district judge shall have the same powers under this section as a judge.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I draw attention to the limited extent of the court&#8217;s sentencing powers under these two provisions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In accordance with directions I had given, that summons was returnable at the Royal Courts of Justice on 23 October 2013. The hearing had to be vacated because of difficulties in serving Mr Ramet, who was in prison awaiting trial in the Crown Court. On 7 November 2013 Judge Roberts completed the giving of her judgment. On 28 November 2013 Mr Ramet appeared before me, represented by Mr Anthony Jerman of counsel. Having regard to his submissions, and taking the view that in any event I should not proceed to a determination until the proceedings in the Crown Court had concluded, I adjourned the matter part heard until 17 December 2013. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Ramet appeared before His Honour Judge Lodge in the Crown Court at Basildon on 5 December 2013. He pleaded guilty to offences of assault occasioning actual bodily harm (the attack on the mother) and common assault (the attack on the court clerk). Judge Lodge sentenced him to 20 months&#8217; imprisonment for the assault occasioning actual bodily harm and four months concurrent for the common assault.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Rejecting his solicitor&#8217;s submission that the case fell within category two of the Sentencing Council&#8217;s relevant guidelines, Judge Lodge continued:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;it is a case which falls squarely within category one. There is greater harm because this was a sustained attack upon your victim. There is higher culpability because &#8230; she was in a position of particular vulnerability. She was in a courtroom, she was there as your ex-partner in proceedings which were being taken in respect of your son.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Balancing the aggravating against the mitigating features, Judge Lodge said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Location is the most serious aggravating feature, but I also identify within the guidelines two further aggravating features: the ongoing effect upon your victim. I have read with care the victim personal statement. Your ex-wife having been subjected to an assault of this nature is forever looking over her shoulder and is always likely to be.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">The further factor, which I have to take into account insofar as the clerk to the court was concerned, is this was an offence committed against those working in the public sector.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">I have to balance against that, of course, those mitigating features, which have been put before me so carefully and clearly by [your solicitor] on your behalf. Yes, the proceedings were stressful. They came at a time when you yourself were under considerable personal stress, even outside the family proceedings.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">You are a man who has no previous convictions recorded against you.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Bearing in mind those aggravating features and giving such credit as I can for the mitigating features, I take the view that so far as the assault occasioning actual bodily harm is concerned, the appropriate starting point is one of 30 months&#8217; imprisonment and so far as the common assault is concerned, it is one of six months&#8217; imprisonment.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Judge Lodge explained why he was giving Mr Ramet credit for his guilty plea:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Some people may wonder why I give credit for a guilty plea, but I must. Despite the fact that there could never be any issue of identification or what you did, the guidelines lay down that you are entitled to credit for your guilty plea. You have not chosen to put your former wife through giving evidence. Your guilty plea shows remorse. Your guilty plea has saved a considerable amount of court&#8217;s time and public expense. You could not have entered your guilty plea any sooner. You received the maximum credit of one-third and that reduces the starting points that I have already indicated.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Judge Lodge concluded by explaining why, having regard to the &#8216;totality&#8217; principle, the two sentences were to run concurrently &#8220;despite the fact that that was a separate assault on a man who bravely intervened.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have set out those passages in Judge Lodge&#8217;s sentencing remarks because, for reasons I will come to shortly, it is important that I keep at the forefront the basis upon which Mr Ramet was sentenced in the Crown Court. There is another passage which I must also quote, not merely for the same reason but also because it articulates a very important point of principle with which I wish to associate myself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What Judge Lodge said was this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;It is hard to imagine any case for assault taking place within a courtroom which did not cause it to be within the most serious of that type of offence and the reason is quite clear.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">In a criminal court it is entirely appropriate to be acting in a secure atmosphere. There is a dock. There is a considerable presence by way of security, if necessary. Family proceedings cannot operate in that way. The family court cannot operate in that way. It is, of its very nature, less structured, somewhat less formal, and in cases where the emotional temperature is inevitably high. Parties are going to be in close proximity to each other. That increases the risk of matters such as that which occurred on this occasion happening. It also increases the responsibility of people involved in such proceedings to keep their emotions in trim, to act with appropriate dignity, not to lose their temper and the court will always act by way of deterrent sentences to ensure that proceedings which needs to be conducted in a proper dignified and non-violent matter.  Where they are interrupted, the courts will act entirely appropriately to punish those who act in that way.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">I respectfully agree. It is a point I must return to in due course.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before me, Mr Ramet candidly admitted the two matters set out in the summons. So the two allegations stand proved. Mr Jerman, to whose forensic skills I should pay tribute, for his submissions were clear, focused and realistic, addressed me on various legal matters and then mitigated. Mr Ramet is, no doubt, grateful for his counsel&#8217;s skilful assistance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I should make clear that I was <span style="font-style:italic">not </span>sitting in the Divisional Court. I was sitting as a single judge of the Family Division. In that connection Mr Jerman helpfully drew my attention to <span style="font-style:italic">Ali v Kayne and another </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/1582" uk:canonical="[2011] EWCA Civ 1582" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 1582</ref>, <ref href="#" uk:canonical="[2012] 1 WLR 1868" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 WLR 1868</ref>, though ultimately it was not of as much help as might have been hoped. In the first place, it involved a case where the entirety of certain proceedings in the County Court had been transferred to the Queen&#8217;s Bench Division, whereas in the present case all that had been transferred was the committal summons; indeed, that summons (3CM00973) is quite separate from the family proceedings (SS13P00337). Secondly, it concerned only the <span style="font-style:italic">jurisdiction </span>of the High Court judge to hear the committal application, saying nothing as to the extent of his <span style="font-style:italic">sentencing </span>powers.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Without finally deciding a point on which, in the event, there was no need for me to hear full argument, I decided that I should proceed on the basis that my sentencing powers were those set out in the relevant sections of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> and not the more extensive powers I would have had if the events which took place at Southend had occurred in the Family Division. I shall return to the implications of this below. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The other point on which Mr Jerman addressed me was as to the approach to be adopted by the family court where, as here, the same conduct has given rise to both criminal proceedings and committal proceedings, something that has been considered in a number of authorities. The first five decisions, in <span style="font-style:italic">Smith v Smith </span><ref href="#" uk:canonical="[1991] 2 FLR 55" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">[1991] 2 FLR 55</ref>, <span style="font-style:italic">Hale v Tanner (Practice Note) </span><ref href="#" uk:canonical="[2000] 1 WLR 2377" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 WLR 2377</ref>, <span style="font-style:italic">Director of Public Prosecutions v Tweddell </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2001/188" uk:canonical="[2001] EWHC 188 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWHC Admin 188</ref>, <ref href="#" uk:canonical="[2002] 2 FLR 400" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 2 FLR 400</ref>, <span style="font-style:italic">Lomas v Parle (Practice Note) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/1804" uk:canonical="[2003] EWCA Civ 1804" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 1804</ref>, <ref href="#" uk:canonical="[2004] 1 WLR 1642" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 WLR 1642</ref>, and <span style="font-style:italic">H v O (Contempt of Court: Sentencing) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/1691" uk:canonical="[2004] EWCA Civ 1691" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 1691</ref>, <ref href="#" uk:canonical="[2005] 2 FLR 329" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 2 FLR 329</ref>, were all surveyed in masterly fashion by Wilson LJ, as he then was, in <span style="font-style:italic">Slade v Slade </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/748" uk:canonical="[2009] EWCA Civ 748" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 748</ref>, <ref href="#" uk:canonical="[2010] 1 WLR 1262" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 1 WLR 1262</ref>. I cannot improve on his analysis and do not take up time repeating what he said. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">All I need do here is extract a few propositions which are particularly apposite in the present case, where the criminal proceedings have already concluded:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">First, as Balcombe LJ indicated in <span style="font-style:italic">Smith v Smith</span>, page 64, my task is to sentence for the contempt &#8211; the matters arising under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 14</ref> and 118 of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> &#8211; rather than for the crimes.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Second, I must take into account the outcome of the Crown Court proceedings. As it was put by Thorpe LJ in <span style="font-style:italic">Lomas v Parle</span>, para 48, &#8220;It is essential that the second court should be fully informed of the factors and circumstances reflected in the first sentence.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Third, a person is not to be punished twice for the same conduct. So, as Wilson LJ put it in <span style="font-style:italic">Slade v Slade</span>, para 21, &#8220;the second court should &#8230; decline to sentence for such of the conduct as has already been the subject of punishment in the criminal court.&#8221; What I must do &#8220;is to sentence only for such conduct as was not the subject of the criminal proceedings.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the light of these principles, Mr Jerman&#8217;s submission was simple and, in my judgment, unanswerable. Having regard (a) to the charges to which Mr Ramet pleaded guilty in the Crown Court and those to which he pleaded guilty before me and (b) to the way in which he was sentenced in the Crown Court by Judge Lodge, there is no further sentence that I can properly impose on Mr Ramet. In relation to the whole of the conduct with which I am concerned, Mr Ramet has already been prosecuted and sentenced. He is not to be punished twice for the same conduct.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the assault on the court clerk the point is really very simple. Before the Crown Court Mr Ramet was convicted of, and sentenced for, an assault (common assault) on the clerk. Before me he is summonsed for having &#8220;hit&#8221; the clerk in circumstances constituting an &#8220;assault&#8221; within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/14/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>. Insofar as <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/14/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> involves an additional ingredient &#8211; an assault on the clerk &#8220;while in the execution of his duty&#8221; &#8211; that factor was taken into account by Judge Lodge (&#8220;insofar as the clerk to the court was concerned &#8230; this was an offence committed against those working in the public sector&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the assault on the mother, the point is perhaps slightly more complex but the final outcome is the same. Before the Crown Court Mr Ramet was convicted of, and sentenced for, an assault occasioning actual bodily harm. Before me he is summonsed for having &#8220;attacked&#8221; his victim in circumstances bringing him within the reach of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/118/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 118(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>. There were here, judged from the perspective of the law of contempt, two aspects to what Mr Ramet did: first, there was the disturbance in the court room &#8211; a contempt in the face of the court irrespective of the identity of his victims; second, there was the retaliatory attack on the mother, as his opponent in the proceedings, which is a criminal contempt of court irrespective of where it occurs. Now whatever the ambit of the statutory contempt under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/118" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 118</ref>, a matter on which there is no need for me to express any view (though see <span style="font-style:italic">R v Bloomsbury County Court ex p Brady </span>(1987) Times 16 December), it is clear that every aspect of possible contempt was taken into account by Judge Lodge (&#8220;She was in a courtroom, she was there as your ex-partner in proceedings which were being taken in respect of your son &#8230; Location is the most serious aggravating feature&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I conclude therefore that it would be wrong as a matter of principle for me to impose any additional sentence on Mr Ramet. To do so would be to punish him twice for the same conduct.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the alternative Mr Jerman put before me in mitigation a number of factors: the fact that Mr Ramet was a man of previous good character with responsible employment; the fact (which I accept) that what he did was neither pre-planned nor premeditated; the fact that he had endured great emotional stress as a result of the family proceedings; and the fact that, as a result of what he did when, as Mr Jerman put it &#8220;he lost it&#8221;, his life has been ruined &#8211; he has lost not merely his liberty but also his job and in all likelihood the relationship with his son for which he had fought so tirelessly for so long. At this point Mr Ramet, who was sitting in the well of the court, broke down. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I take all this into account, and up to a point can sympathise with a father who, despite the strong criticisms of him understandably expressed by Judge Roberts, may, to some extent, be forgiven for feeling that the system had failed him. But none of this, nothing &#8211; I repeat, <span style="font-style:italic">nothing &#8211; </span>can begin to excuse what Mr Ramet did on that afternoon in court at Southend. His behaviour was disgraceful. His violent, indeed vicious, attack on the mother was despicable. Whatever can be said in mitigation, his conduct that afternoon demanded an immediate custodial sentence. But for the fact that he has already been sentenced by the Crown Court and but for the statutory limitations on my powers, the sentence would have been for a period very much in excess of what is permitted by <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 14</ref> and 118 of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, as I have said, given the sentence of the Crown Court it would not be proper for me to impose any additional sentence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was for these reasons that, at the end of the hearing on 17 December 2013, I said that, although his behaviour had been disgraceful, Mr Ramet had already been punished enough and that I did not propose to add to his misery. Accordingly, beyond making findings against Mr Ramet on each of the two matters identified in the summons I did not propose to make any order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before passing from this case there are a number of other matters I need to address.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first relates to the appropriate sentencing of persons guilty of behaviour such as Mr Ramet&#8217;s. Those guilty of violent disorder in a court and those who resort to actual physical violence against a person in court can expect an immediate and lengthy custodial sentence. I agree with Judge Lodge that deterrent sentences are justified in such cases, so as to ensure, insofar as the law can, both that the proper administration of justice is not impeded and that persons attending the court can do so without fear. Where there is serious violence &#8211; such as would amount to actual bodily harm or worse &#8211; consideration should be given, as in the present case, to inviting the appropriate authorities to consider bringing criminal proceedings in the Crown Court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is in this context that I have to express serious concerns about the adequacy &#8211; in fact, in my opinion, the utter inadequacy in modern conditions &#8211; of the statutory penalties available under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>. So far as concerns the family justice system I accordingly invite the Family Procedure Rules Committee to consider whether there is some way in which, compatibly with the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/2013/22" uk:canonical="2013 c. 22" uk:origin="TNA" uk:type="legislation">Crime and Courts Act 2013</ref>, District Judges, Circuit Judges and Recorders can be given powers more extensive than those currently available to them in these cases.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I turn to legal aid, public funding. In <span style="font-style:italic">Re Jennifer Marie Jones</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2579" uk:canonical="[2013] EWHC 2579 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 2579 (Fam)</ref>, para 43, I referred to what, as I was told, seemed to be the limited availability of public funding in contempt cases. Whatever the limitations of <span style="font-style:italic">civil </span>funding, public funding in contempt cases is available under the <span style="font-style:italic">criminal </span>scheme. The key provision is regulation 9(v) of the Criminal Legal Aid (General) Regulations 2013, SI 2013/9, which says:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The following proceedings are criminal proceedings for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14</ref>(h) of the [<ref href="http://www.legislation.gov.uk/id/ukpga/2012/10" uk:canonical="2012 c. 10" uk:origin="TNA" uk:type="legislation">Legal Aid, Sentencing and Punishment of Offenders Act 2012</ref>] (criminal proceedings) &#8211; </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(v)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">any other proceedings that involve the determination of a criminal charge for the purposes of Article 6(1) of the European Convention on Human Rights.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">The effect of the decision of the Court of Appeal in <span style="font-style:italic">Hammerton v Hammerton</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/248" uk:canonical="[2007] EWCA Civ 248" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Civ 248</ref>, <ref href="#" uk:canonical="[2007] 2 FLR 1133" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 2 FLR 1133</ref>, is that this covers all proceedings for contempt of court, whether criminal or civil in nature and whether arising in the context of criminal, civil or family proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Because this is <span style="font-style:italic">criminal </span>public funding, it can be ordered by the court. So, in the present case I made an order on 28 November 2013 granting Mr Ramet legal aid for solicitor and junior counsel. A detailed analysis of the scheme can be found in the judgment of Blake J in <span style="font-style:italic">King&#8217;s Lynn and West Norfolk Council v Bunning (Legal Aid Agency interested party) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2013/3390" uk:canonical="[2013] EWHC 3390 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 3390 (QB)</ref>, to which I would invite the attention of all family judges and practitioners.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is one final matter to which I must draw attention. As I have already mentioned, there were difficulties in serving Mr Ramet because he was in prison. Service was eventually effected by the expedient of having him brought to the Royal Courts of Justice on 7 November 2013 pursuant to a production order and served by the Tipstaff. Mr Jerman tells me on instructions that the papers were removed from Mr Ramet on his return to prison and not returned to him until a day or two before the hearing on 28 November 2013. He also tells me that there were, despite what I had said in court on that occasion, difficulties in arranging access in prison to Mr Ramet by his legal team, with the consequence that proper instructions could not be taken until Mr Ramet&#8217;s arrival at court on 17 December 2013. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Recognising that I have not thought it appropriate to conduct any kind of investigation into these matters, and that I accordingly have only one side of the story, I must nonetheless record my concerns. Prisoners have a constitutional right of access to the court, the obstruction of which may be a contempt of court: <span style="font-style:italic">Raymond v Honey</span> <ref href="#" uk:canonical="[1983] 1 AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] 1 AC 1</ref>. Mr Ramet was facing penal proceedings before me: denial of access to the papers which the court itself, acting by the Tipstaff, had served on him and preventing adequate access to his lawyers, if indeed that is what happened, are very serious matters. I trust there will be no future occasion when I have to express such concerns.  </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

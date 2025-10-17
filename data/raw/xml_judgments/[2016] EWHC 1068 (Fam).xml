@@ -1,0 +1,657 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2016/1068"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2016/1068"/>
+	  <FRBRdate date="2016-01-21" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1068"/>
+	  <FRBRname value="X (Foreign Surrogacy: Child's Name), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/1068"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/1068"/>
+	  <FRBRdate date="2016-01-21" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/1068/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/1068/data.xml"/>
+	  <FRBRdate date="2024-10-27T19:01:08" name="transform"/>
+	  <FRBRdate date="2024-12-05T02:04:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2016-01-21" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ch" href="" showAs="CH"/>
+	<TLCPerson eId="nm" href="" showAs="NM"/>
+	<TLCPerson eId="sm" href="" showAs="SM"/>
+	<TLCPerson eId="mm" href="" showAs="MM"/>
+	<TLCPerson eId="x" href="" showAs="X"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis" href="/judge-mrs-justice-theis" showAs="MRS JUSTICE THEIS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2016</uk:year>
+	<uk:number>1068</uk:number>
+	<uk:cite>[2016] EWHC 1068 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>b3dd934a17242a9cdf85a2a06f46ec6c346e6436ce4f7f5e051ddb6eb710f643</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><span style="font-size:11pt">This judgment was delivered in private.  The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</span></p>
+      <p class="CoverText">Case No: <docketNumber>BM15P08897</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2016] EWHC 1068 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2016-01-21" refersTo="#judgment">21/01/2016</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis" style="font-size:11pt">MRS JUSTICE THEIS</judge></p>
+      <p style="text-align:center"><span style="font-size:11pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#ch" style="font-weight:bold;font-size:11pt">CH</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant"><span style="font-size:11pt">1</span><span style="vertical-align:super;font-size:11pt">st</span><span style="font-size:11pt"> Applicant</span></role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#nm" style="font-weight:bold;font-size:11pt">NM</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant"><span style="font-size:11pt">2</span><span style="vertical-align:super;font-size:11pt">nd</span><span style="font-size:11pt"> Applicant</span></role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">- and - </span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#sm" style="font-weight:bold;font-size:11pt">SM</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent"><span style="font-size:11pt">1</span><span style="vertical-align:super;font-size:11pt">st</span><span style="font-size:11pt"> Respondent</span></role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#mm" style="font-weight:bold;font-size:11pt">MM </party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent"><span style="font-size:11pt">2</span><span style="vertical-align:super;font-size:11pt">nd</span><span style="font-size:11pt"> Respondent </span></role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">- and - </span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#x" style="font-weight:bold;font-size:11pt">X</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt"> (By His Children&#8217;s Guardian) </span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent"><span style="font-size:11pt">3</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> Respondent </span></role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Ms Kathryn Cronin </span><span style="font-size:11pt">(instructed by</span><span style="font-weight:bold;font-size:11pt"> Goodman Ray</span><span style="font-size:11pt">) for the </span><span style="font-weight:bold;font-size:11pt">3</span><span style="font-weight:bold;vertical-align:super;font-size:11pt">rd</span><span style="font-weight:bold;font-size:11pt"> Respondent </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">The Applicants</span><span style="font-size:11pt"> appeared </span><span style="font-weight:bold;font-size:11pt">in Person</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">The 1</span><span style="font-weight:bold;vertical-align:super;font-size:11pt">st</span><span style="font-weight:bold;font-size:11pt"> and 2</span><span style="font-weight:bold;vertical-align:super;font-size:11pt">nd</span><span style="font-weight:bold;font-size:11pt"> Respondents did not attend</span></p>
+      <p style="text-align:center"><span style="font-size:11pt">Hearing date:</span><span style="vertical-align:super;font-size:11pt"/><span style="font-size:11pt">13th January 2016</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+      <p style="text-align:justify"><span style="font-weight:bold">Mrs Justice Theis DBE:</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-size:11pt">Introduction </span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-size:11pt">1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">This matter concerns an application for a parental order made by CH and NM in relation to X born in July 2015. The respondents to the application are SM and her husband MM, the surrogate mother and her husband, and X, through his Children's Guardian, Zoe Taylor.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:11pt">2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">I made a parental order on 21 January 2016, with reasons to follow. These are now set out in this judgment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:11pt">3.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">X was born in Nepal in early July. The application to register X as a British Citizen was lodged 2 weeks later, X became a British Citizen on 11 August and his application for a British passport was lodged on 17 August. The decision to approve the issue of a passport was made on 30 September, X was refused an exit visa on 6 October, but permitted to exit Nepal on 29 October.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:11pt">4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">Before turning to consider the background I would like to highlight two issues from this case, much of which echoes matters raised by Ms Justice Russell in </span><span style="font-style:italic;font-size:11pt">Re Z (Foreign Surrogacy: Allocation of Work; Guidance on Parental order Reports) <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2015/90" uk:canonical="[2015] EWFC 90" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWFC 90</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:11pt">5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">Firstly, once again, this case highlights the difficulties that may be encountered when embarking on surrogacy arrangements abroad. This surrogacy arrangement took place in Nepal. At the time of the arrangement it was not unlawful; that subsequently changed. In addition, two months prior to X's birth Nepal suffered an earthquake, which caused enormous loss and damage in that country. This inevitably caused further complications in securing X's return to this jurisdiction. The result was CH and X were in Nepal for over 3 &#189; months while the British and Nepalese exit arrangements were completed. NM had to come back to the UK two weeks after X&#8217;s birth in order to return to work and Y, the applicant&#8217;s older child, returned back here soon afterwards, in order to start school. The family were separated for over 2 months. Whilst these delays were within the time estimates identified by the Home Office and Passport Office for citizen registration and passport issue for overseas surrogate born children; the reality of the separation of this family was considerable, in particular for CH having to manage the care of a new born child in such difficult circumstances.<span style="font-weight:bold"/>Anyone who embarks on a surrogacy arrangement abroad should seek specialist advice in both jurisdictions, as to the legal implications of any such arrangement. In this case the applicants are articulate professionals, who had previously had a child through a surrogacy arrangement abroad. Despite their preparation and experience they endured significant delays and separation in their family whilst the immigration procedures were undertaken. The prompt issue of their application for a parental order (within 8 weeks of X&#8217;s birth) before he had come to this country was vital. It enabled the Court to be appraised of the situation at an early stage, to fix an early hearing date and assist in any way that it could, as well as direct that X became a party to the application and be represented by a Children&#8217;s Guardian. All of those steps in this case undoubtedly helped.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:11pt">6.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">Secondly, the three relevant policy and advice documents have all recently been updated and should be considered carefully by anyone embarking on a surrogacy arrangement abroad. They are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:11pt;margin-left:0.5in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Foreign and Commonwealth Office&#8217;s publication </span><span style="font-style:italic;font-family:'Times New Roman'">Surrogacy Overseas </span><span style="font-family:'Times New Roman'">(FCO Guide)</span><span style="font-style:italic;font-family:'Times New Roman'">;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt;margin-left:0.5in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Passport Office guide </span><span style="font-style:italic;font-family:'Times New Roman'">Applying for a Passport from Outside the UK Guide to the </span><marker name="tab"/><span style="font-style:italic;font-family:'Times New Roman'">Online Application Service; </span><span style="font-family:'Times New Roman'">and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt;margin-left:0.5in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Home Office Guidance on completion of Form MN1, Guide MN1: Registration as a </span><marker name="tab"/><span style="font-family:'Times New Roman'">British citizen &#8211; A Guide about the registration of children under 18. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:11pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-family:'Times New Roman'">The FCO Guide begins with the observation that </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.38in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;International surrogacy is a complex area. The process for getting your child back to the UK can be very long and complicated, and can take several months to complete.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-family:'Times New Roman'">It carries the further comment (emphasised in bold type) on citizenship registration:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-family:'Times New Roman'"/><marker name="tab"/><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Please note, it can take several weeks, if not months, to process applications for children born  </span><marker name="tab"/><span style="font-style:italic;font-family:'Times New Roman'">through surrogacy overseas and you should be prepared for an extended stay overseas once </span><marker name="tab"/><span style="font-style:italic;font-family:'Times New Roman'">your child is born. The FCO does not handle passport applications and Embassies cannot </span><marker name="tab"/><span style="font-style:italic;font-family:'Times New Roman'">expedite your application.</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.38in"><span style="font-style:italic;font-size:11pt">The FCO and Embassies are not ordinarily able to issue Emergency Travel Documents to children born through surrogacy overseas. The checks required to determine nationality for children born through surrogacy must be carried out by Her Majesty&#8217;s Passport Office (as part of the passport application process) or UK Visas and immigration (as part of the nationality registration process).&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:11pt">8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The FCO Guide gives the following advice on passport issue: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.38in"><marker name="tab"/><span style="font-style:italic;font-size:11pt">&#8220;The process of determining nationality and issuing a passport can take time and require a number of checks. You should be prepared for the whole process to take several months and should plan to remain overseas for some time following the child&#8217;s birth. Please note that first-time applicants are not eligible for Emergency Travel Documents.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:11pt">9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The FCO Guide includes information on Indian surrogacy and exit visa arrangements and on the recent, limited lifting of restrictions on the issue of exit visas to surrogate born children seeking to leave Nepal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:11pt">10.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The FCO Guide provides information on the documents which must be submitted for the issue of a passport to children whose surrogate birth mother is unmarried. In this case the applicants were required to send these same documents to the Passport Office even though X had been registered as a British citizen and those relevant documents had been examined by the Nationality Centre in the Home Office. While no reason for such repeat request for documentation is given in any policy document, the Passport Office guide does alert commissioning parents to the possibility that its officers may request further documentation when considering whether to issue passports for surrogate born children. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:11pt">11.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">Finally, the FCO Guide provides a hyperlink to the Passport Office guide, Applying for a Passport from Outside the UK which carries the following advice concerning passport issue for overseas surrogate born children &#8211; namely:  </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.38in"><marker name="tab"/><span style="font-size:11pt">&#8220;</span><span style="font-style:italic;font-size:11pt">Passport applications involving surrogacy are often highly complex and we may</span><marker name="tab"/><span style="font-style:italic;font-size:11pt">need to ask for further documentation or to talk to you in person after you have sent us your application. Please allow a lot more time than our average processing times </span><marker name="tab"/><span style="font-style:italic;font-size:11pt">for such applications to be processed &#8211; we recommend submitting an application involving surrogacy at least 4 months before you need the passport. We are not in a position to guarantee a specific processing time for these cases.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:11pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-family:'Times New Roman'">It is hoped by referring to this important guidance, which highlight the complexities and delays that can occur for children who are born following surrogacy arrangements entered into abroad, it will help bring this essential information to the attention of those who are considering embarking on this type of arrangement. Any further steps the FCO can take to ensure this advice is as widely available as possible, would no doubt further assist couples prepare for what is required. The FCO Guide is essential reading for those contemplating these surrogacy arrangements, for example it succinctly sets out the evidence required for passport issue for any child born in these situations. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in;text-indent:-0.25in"><span style="font-weight:bold">Relevant Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num style="font-size:11pt">13.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The applicants are civil partners who already have a child, Y, now age 4</span><span style="font-weight:bold;font-size:11pt">,</span><span style="font-size:11pt"> born through a surrogacy arrangement in India. A parental order concerning Y was made by this court in 2011.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:11pt">14.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The applicants wished to have another child. By that time it was not possible for same sex couples to enter into surrogacy arrangements in India, the applicants were advised to go to Nepal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:11pt">15.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The respondent surrogate, SM, is a married Indian citizen who acted as a gestational surrogate.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:11pt">16.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The applicants contracted with the Indian fertility clinic, Surrogacy Centre India (SCI) and with its Nepalese partner, Medical Tourism Nepal (MTN). SCI was the clinic the applicants had used previously with their older child.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:11pt">17.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">SM was selected by SCI and MTN and the contractual arrangements were between SCI/MTN and SM and her husband, MM. The agreement confirms SM undertook the surrogacy with her husband&#8217;s knowledge and consent, they will not claim any rights in relation to the child SM gives birth to and that the child contractually and genetically belongs to the applicants. SM agrees to take any steps required to give full effect to the agreement. CH covenanted as to his general health, agreed to bear various expenses and costs and to accept full responsibility for the surrogate born child. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:11pt">18.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The applicants did not meet SM until after X&#8217;s birth.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:11pt">19.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The legal position regarding these arrangements is that the Nepalese surrogacy agencies were established following restrictions imposed on Indian surrogacies; India is now largely closed to international surrogacies. The Foreign and Commonwealth Office guidance, </span><span style="font-style:italic;font-size:11pt">Surrogacy Overseas</span><span style="font-size:11pt"> (FCO) states that on 4 November 2015, the Government of India, Ministry of Health and Family Welfare, issued a notice to stop the commissioning of surrogacy in India by foreign nationals and Overseas Citizen of India cardholders.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:11pt">20.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">From the published information on Nepal&#8217;s surrogacy arrangements it would appear this surrogacy arrangement was lawful. The initial Nepali law, which did not recognise surrogacy and did not enforce surrogacy contracts in Nepal, was relaxed by Nepal&#8217;s Cabinet of Ministers to allow foreigners to have surrogate babies provided the mother was also a foreigner. On 25 August 2015 the Supreme Court in Nepal halted commercial surrogacy services in Nepal and the Immigration Department suspended the issue of exit visas to Nepalese surrogate born children. The FCO Guidance states </span><span style="font-style:italic;font-size:11pt">&#8216;On 29 October 2015, the Government of Nepal approved the issue of exit visas for children born through surrogacy arrangements in Nepal, which had previously been delayed by the Supreme Court who halted commercial surrogacy services in Nepal on 25 August 2015. The Government of Nepal confirmed that exit visas will only be granted to children born of surrogacy before 25 August 2015.&#8217;</span><span style="font-size:11pt"> Fortunately, X fell into this category.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in;text-indent:-0.25in"><span style="font-weight:bold;font-size:11pt">Legal Framework</span></p>
+	    <p style="text-align:justify;margin-left:0.25in;text-indent:-0.25in"><span style="font-weight:bold;font-size:11pt"><ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">Human Fertilisation and Embryology Act 2008</ref> (HFEA)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-size:11pt">21.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The criteria under <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 54</ref> HFEA can be taken relatively shortly, as there is no dispute they are met.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:11pt">22.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The written evidence establishes X was carried by SM following IVF treatment whereby an embryo was transferred to her that was created with CH&#8217;s gametes and an egg from an anonymous donor (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 54 (1)</ref>).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:11pt">23.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The applicants are civil partners (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 54(2)</ref>) and made their application in early September, well within 6 months of X&#8217;s birth (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s54(3)</ref>). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:11pt">24.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The requirement in <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 54(4)</ref> (a) that at the time of the application and the making of the order the child&#8217;s home must be with the applicants is met. The applicants, their children Y and X were living together in Nepal until early August when NM was required to return to his work here. CH, his mother and the children remained in Nepal until the end of August when Y needed to return here to start school. CH and X were not able to come to the UK until the end of October. The circumstances the applicants found themselves in prior to the end of October was they had established two homes and X had his home with them at the time of the application (as found in </span><span style="font-style:italic;font-size:11pt">Re Z (ibid) </span><span style="font-size:11pt">at paragraph 57). By the time of the making of the order in January X had returned here and had his home with the applicants.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:11pt">25.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">Both applicants were born here and this remains their jurisdiction of origin (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 54(4)</ref>(b)) and they are both over the age of 18 years (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 54 (5)</ref>).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:11pt">26.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">SM and MM were served with notice of these proceedings and they have each signed a notarised Form A101A consent form. The consent was signed more than 6 weeks after X&#8217;s birth. The statement from the registered attorney demonstrates the consent forms were explained to SM and MM in their own language and confirms they only signed them after understanding the contents. Their consent to the making of a parental order is supported by their signature on the acknowledgment of service and their full co-operation in all the arrangements directed to securing X&#8217;s transfer to the applicant&#8217;s care and his relocation to this jurisdiction. The requirement for SM and MM to have freely and with full understanding consented to the making of a parental order is met (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s54 (6)</ref> and (7)).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:11pt">27.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">Turning to the question of payments (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 54(8)</ref>) under the package agreed to by the applicants with MTN they paid a total of USD $48332.49 from which SM was paid USD $5,600 compensation (depending on the exchange rate, this is around &#163;3,750). She was paid this in monthly payments in the local currency, with the final payment being made after X&#8217;s birth. This figure is in line with similar payments that have been authorised by this court (see </span><span style="font-style:italic;font-size:11pt">D and L (Minors Surrogacy) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/2631" uk:canonical="[2012] EWHC 2631 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 2631 (Fam)</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:11pt">28.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">In considering whether this payment should be authorised the court needs to consider whether the sum paid was disproportionate to reasonable expenses, whether the applicants were acting in good faith in their dealings with the surrogate mother and were the applicants&#8217; party to any attempt to defraud the authorities. As I have set out the level of payment made to SM is within the range of payments authorised by this court in similar cases, the applicants dealings with SM have been only through the agency and they met her after X&#8217;s birth. The applicants have been assiduous in their efforts to ensure that all the necessary procedures both in Nepal and here have been complied with. The evidence demonstrates the applicants entered into this arrangement in good faith, they had previous experience with SCI and as they set out in their statement they visited and satisfied themselves regarding the hospital and residential facilities provided to SM and her family during her pregnancy. In the circumstances of this case the payments made other than for expenses reasonably incurred should be authorised by the court. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in;text-indent:-0.25in"><span style="font-weight:bold;font-size:11pt">Welfare &#8211; <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref> (ACA)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-size:11pt">29.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">In considering what order to make, the court&#8217;s paramount consideration is X&#8217;s lifelong welfare needs having regard to the matters set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 1(4)</ref> ACA.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:11pt">30.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The Children&#8217;s Guardian, Ms Taylor, has known the applicants for some time, as she was the parental order reporter when they applied for an order relating to Y. When CH contacted her in August 2015 regarding X&#8217;s nationality and passport problems she very properly encouraged him to issue the parental order application, which foreshadowed the guidance in </span><span style="font-style:italic;font-size:11pt">Re Z (ibid). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:11pt">31.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">In her carefully analysed report Ms Taylor reports very positively on her observation during her visits to the family. In her analysis she balances the effect of a parental order being granted on X, that it will extinguish the parental responsibility of SM and MM and notes they have no genetic connection to X and have consented to the application. In her report she describes the family life X has established with the applicants and Y as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.38in"><span style="font-style:italic;font-family:'Times New Roman'">&#8216;&#8230; the benefits [X] will have by virtue of living with his biological father and being the child of a two parent mixed ethnicity family, where his mixed heritage will be reflected and his cultural needs will be met. These same gender parents have already evidenced that they are capable, caring and loving parents to [Y], and they will afford [X] every advantage and opportunity possible. He will be and is part of a close and mixed ethnicity extended family, and the immediate family is well supported by friends and extended family alike. Both [X] and [Y] regularly see their grandparents who play a significant role in their lives. [X] is well loved and cared for and I would consider that his emotional, educational, physical, cultural needs are currently being met within his family placement.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:11pt">32.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">In her view X has known the applicants as his parents from birth. He has a loving and secure relationship with them, he would not wish to be separated from them and requires orders to be made that accurately reflect his identity as a surrogate born child. In her perceptive report Ms Taylor recommends the court makes a parental order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:11pt">33.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The evidence demonstrates that X&#8217;s lifelong needs require a parental order to be made. It is only that order that will give him the lifelong security his welfare requires.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in;text-indent:-0.25in"><span style="font-weight:bold;font-family:'Times New Roman'">X&#8217;s name</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num style="font-size:11pt">34.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The applicants&#8217; wish for X to be known by the same surname as Y. This is different to what is on X&#8217;s birth certificate. The applicants were advised to have CH&#8217;s name to reflect the paternity in Nepal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:11pt">35.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">I agree with Ms Cronin&#8217;s extremely helpful written submissions that the clear inference from the legal provisions and the court processes for parental orders is that the child&#8217;s change of name does not require a specific order. The applicants can nominate a new name for the child and the registration of the parental order is, without further proof, to be evidence of the parental order as if it were a birth registration in the new family name.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:11pt">36.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The parental order application is required to be made in the name of the child as recorded in his/her birth registration. Rule 13.15 Family Procedure Rules 2010 provides as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-size:11pt">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.38in;text-indent:0.12in"><span style="font-style:italic;font-family:'Times New Roman'">Unless the contrary is shown, the child referred to in the application will be deemed to be the child referred to in the form of agreement to the making of the parental order where the conditions in paragraph (2) apply.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-size:11pt">(2)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.38in;text-indent:0.12in"><span style="font-style:italic;font-family:'Times New Roman'">The conditions are &#8211;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.75in;text-indent:0.25in"><span style="font-style:italic;font-family:'Times New Roman'">the application identifies the child by reference to a full certified copy of an entry in the registers of live-births;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.75in;text-indent:0.25in"><span style="font-style:italic;font-family:'Times New Roman'">the form of agreement identifies the child by reference to a full certified copy of an entry in the registers of live-births attached to the form; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt">(c)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.75in;text-indent:0.25in"><span style="font-style:italic;font-family:'Times New Roman'">the copy of the entry in the registers of live-births referred to in sub-paragraph (a) is the same or relates to the same entry in the registers of live-births as the copy of the entry in the registers of live-births attached to the form of agreement.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-size:11pt">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.38in;text-indent:0.12in"><span style="font-style:italic;font-family:'Times New Roman'">Where the precise date of the child's birth is not proved to the satisfaction of the court, the court will determine the probable date of birth.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-size:11pt">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.38in;text-indent:0.12in"><span style="font-style:italic;font-family:'Times New Roman'">The probable date of the child's birth may be specified in the parental order as the date of the child's birth.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-size:11pt">(5)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.38in;text-indent:0.12in"><span style="font-style:italic;font-family:'Times New Roman'">Where the child's place of birth cannot be proved to the satisfaction of the court &#8211;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.75in;text-indent:0.25in"><span style="font-style:italic;font-family:'Times New Roman'">the child may be treated as having been born in the registration district and sub-district in which the court is sitting where it is probable that the child may have been born in &#8211;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.83in;text-indent:0.17in"><span style="font-style:italic;font-family:'Times New Roman'">the United Kingdom;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.83in;text-indent:0.17in"><span style="font-style:italic;font-family:'Times New Roman'">the Channel Islands; or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.83in;text-indent:0.17in"><span style="font-style:italic;font-family:'Times New Roman'">the Isle of Man; or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.75in;text-indent:0.25in"><span style="font-style:italic;font-family:'Times New Roman'">in any other case, the particulars of the country of birth may be omitted from the parental order.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:11pt">37.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">Once the parental order is made the inference from the framework of forms, regulations and orders is that, as with adoption orders, the parental order and new birth registration can include the child&#8217;s new name nominated by the parental order parents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:11pt">38.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The Human Fertilisation and Embryology (Parental Order) Regulations 2010 (the 2010 Regulations) provide for the setting up and administration of parental order registers and registration of orders and the child&#8217;s birth on the same terms and utilising the same procedure as for adopted children. 2010 Regulations Schedule 1 adapts the following: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:11pt">(i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.42in"><span style="font-size:11pt">s77 ACA (adoption children register);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.42in"><span style="font-size:11pt">s79 (1),(3),(7) and (9) ACA (connections between the register and birth records);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(iii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.42in"><span style="font-size:11pt">Sch 1 para 1 ACA (to include parental orders registrations); and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(iv)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.42in"><span style="font-size:11pt">Sch 1 para 4 ACA (amendment and rectification of registers).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:11pt">39.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">Section 77 ACA provides that the certified entry of the adoption order (and by virtue of the </span><marker name="tab"/><span style="font-size:11pt">2010 Regulations the parental order) is to be received as evidence of birth facts in all respects as if an entry in the register of live births. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:11pt">40.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">The prescribed form of entry in Schedule 1 of the Parental Order (Prescribed Particulars and Forms of Entry) Regulations 2010 reads so as to require the new birth certificate for the child to record the name and surname of the child in the original birth registration as well as his/her name and surname after that registration. The parental order application form (prescribed Court Form C 51) reflects these registration arrangements, as it requires parties to give both the current name of the child and the name of the child if a parental order is made.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:11pt">41.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">Finally, Schedule 1 paragraph 4 <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref> (as amended by Sch 1 2010 Regulations) makes clear the courts&#8217; jurisdiction within 12 months of the making of the parental order to amend the said parental order to include a new name for the child. The change is to be referred to the Registrar General under FPR rule 13.22.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:11pt">42.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-size:11pt">For these reasons, I am satisfied I can make the parental order in the name requested by the applicants.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

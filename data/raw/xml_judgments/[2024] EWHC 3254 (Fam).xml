@@ -1,0 +1,782 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/3254"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/3254"/>
+	  <FRBRdate date="2024-12-13" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3254"/>
+	  <FRBRname value="AB v CD"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/3254"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/3254"/>
+	  <FRBRdate date="2024-12-13" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/3254/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/3254/data.xml"/>
+	  <FRBRdate date="2024-12-16T12:43:38" name="transform"/>
+	  <FRBRdate date="2024-12-16T13:39:06" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-12-13" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ab" href="" showAs="AB"/>
+	<TLCPerson eId="cd" href="" showAs="CD"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-trowell" href="/judge-mr-justice-trowell" showAs="MR JUSTICE TROWELL"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>3254</uk:number>
+	<uk:cite>[2024] EWHC 3254 (Fam)</uk:cite>
+	<uk:parser>0.26.16</uk:parser>
+	<uk:hash>6b12c5087a699f4a7807ac39d451da6a8493facddb85a116906293eb88805fdb</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: Aptos; }
+#judgment .Heading1 { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2 { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3 { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4 { font-style: italic; color: #0F4761; }
+#judgment .Heading5 { color: #0F4761; }
+#judgment .Heading6 { font-style: italic; color: #595959; }
+#judgment .Heading7 { color: #595959; }
+#judgment .Heading8 { font-style: italic; color: #272727; }
+#judgment .Heading9 { color: #272727; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .Quote { text-align: center; font-style: italic; color: #404040; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; color: #0F4761; }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; }
+#judgment .Revision { }
+#judgment .PlainText { font-family: 'Courier New'; font-size: 10pt; }
+#judgment .Heading1Char { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2Char { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3Char { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4Char { font-style: italic; color: #0F4761; }
+#judgment .Heading5Char { color: #0F4761; }
+#judgment .Heading6Char { font-style: italic; color: #595959; }
+#judgment .Heading7Char { color: #595959; }
+#judgment .Heading8Char { font-style: italic; color: #272727; }
+#judgment .Heading9Char { color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+#judgment .IntenseEmphasis { font-style: italic; color: #0F4761; }
+#judgment .IntenseQuoteChar { font-style: italic; color: #0F4761; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #0F4761; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .PlainTextChar { font-family: 'Courier New'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2024] EWHC 3254 (Fam)</neutralCitation><span/></p>
+      <p class="CoverText">Case No: <docketNumber>FD24P00405</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-12-13" refersTo="#judgment">13/12/2024</docDate></p>
+      <p><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-trowell">MR JUSTICE TROWELL</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#ab" style="font-weight:bold;font-family:'Times New Roman'">AB</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant" style="font-family:'Times New Roman'">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#cd" style="font-weight:bold;font-family:'Times New Roman'">CD</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-family:'Times New Roman'">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Brian Jubb </span><span style="font-family:'Times New Roman'">(instructed by</span><span style="font-weight:bold;font-family:'Times New Roman'"> JI Solicitors</span><span style="font-family:'Times New Roman'">) for the </span><span style="font-weight:bold;font-family:'Times New Roman'">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Darren Howe KC</span><span style="font-family:'Times New Roman'"> (instructed on a direct access basis) for the </span><span style="font-weight:bold;font-family:'Times New Roman'">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">Hearing dates: 12 and 13 December 2024</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">IMPORTANT NOTICE</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">This judgment was delivered in private. The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved. All persons, including representatives of the media, must ensure that this condition is strictly complied with. Failure to do so will be a contempt of court.</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Times New Roman'">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">This application concerns J a 13-year-old girl.  The application is brought by her mother, AB, for her summary return to the United States of America pursuant to the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/60" uk:canonical="1985 c. 60" uk:origin="TNA" uk:type="legislation">Child Abduction and Custody Act 1985</ref> and the 1980 Hague Convention.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Times New Roman'">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The respondent is J&#8217;s father, CD.  He resists the summary return.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Times New Roman'">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I have heard from Brian Jubb on behalf of the applicant and Darren Howe KC on behalf of the applicant. Mr Jubb is instructed by JI Solicitors.  Mr Howe is instructed on a direct access basis.  It has been a pleasure to have the benefit of two able and experienced barristers before me.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Times New Roman'">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">This judgment is delivered in writing on the afternoon of Friday the 12 December 2024.  The hearing started in the morning of the 11 December 2024.  It is necessary for me to take matters more shortly than the parties have in their written evidence if I am to deliver this judgment during the 2-day time estimate allocated to this case.  I will not therefore deal with every point raised in the written evidence. I intend to set out my decision and the reasoning that led me to it with sufficient clarity to enable my decision to be understood.  I hope to be able to deal with the narrower range of points that counsel put to me.  I apologise if the speed of preparing this judgment leads to poor expression of my thoughts.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Times New Roman'">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I do remark that the parties in the written evidence have opened the ambit of dispute between them very wide.  This application is for a summary return not a full welfare consideration.  It is to be determined under the framework of the 1980 Hague Convention.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Times New Roman'">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I have heard oral evidence only from the Family Court Adviser, or Cafcass Officer as I shall refer to her, Catherine Callaghan.  She was cross examined by both counsel.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman'">Summary Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Times New Roman'">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The mother is American.  The father is British.  They married abroad in 2010 and shortly after moved to England.  J was born in England in November 2011.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Times New Roman'">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The parties separated in 2014 and in 2015, with an agreed consent order of April 2015, the mother and J moved to the USA.  The mother and J lived in a state where some of the mother&#8217;s family lived.  There was provision for J to spend time with her father.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Times New Roman'">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Divorce proceedings were concluded in 2016.  I am told by the mother that these were acrimonious, and she took proceedings in the USA in 2017 to reinforce her position as the parent with whom J was to live.  The father denies that he was threatening to alter the child arrangements order at that time.   I have been shown some documentation in relation to the proceedings in the USA, but what caused those to be necessary, and the parties&#8217; conduct in relation to them does not need to be resolved by me.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Times New Roman'">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The contact between the father and J developed over time, in part prompted by covid shutdowns.  She spent extended periods with him including during the summer vacation.  At times he would travel to America.  At times she would come here.  Since 2020 she has spent extended school summer holiday periods in England.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Times New Roman'">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">This year she came to stay with the father in this country for the summer on the 15 June 2024.  She was due to return on the 22 August 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Times New Roman'">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The father&#8217;s case is that she did not wish to return.  This is not something that has come out of the blue, he tells me, but a gradually building position.  In particular:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">in his written evidence there were exhibited a series of What&#8217;sApp messages from J to him in April and May 2022 when she is expressing distress about her situation in America  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">in his written evidence and drawn to my attention in Mr Howe&#8217;s submissions is an email to the mother of September 2021 (and I have seen her reply) in which he sets out that J does not want to return at the end of that summer, and that she did not want to return at the end of the previous summer.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">in Mr Howe&#8217;s submissions my attention was drawn to the mother&#8217;s second statement when she says she does not agree with suggested family therapy because, </span><span style="font-style:italic;font-family:'Times New Roman'">inter alia, </span><span style="font-family:'Times New Roman'">J&#8217;s &#8216;insistent questions &#8211; like why I won&#8217;t let her live in England&#8217; are ones she will not answer because they will poison J&#8217;s relationship with her father.  Mr Howe infers from that, correctly I hold, that the mother is thereby acknowledging that J has been asking her mother to live in England.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Times New Roman'">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The father says that to force J to return would be psychologically harming to her.  He says that caused him to delay her return flight this year to the 12 September, when, he hoped, she would agree to return, but, he says, when that day approached, she still did not want to return. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Times New Roman'">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The mother made an application to the USA central authority in the meantime and, after solicitors were instructed, proceedings were used for a summary return on the 4 September 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Times New Roman'">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">There was a court hearing on the 11 September 2024.  A Cafcass Officer was directed to report on J&#8217;s objections to her return. This hearing and a further directions hearing were provided.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Times New Roman'">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Callaghan, the Cafcass Officer, reported on the 16 October 2024 recording that J wishes to remain with her father.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Times New Roman'">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">There was a further court hearing on the 18 October 2024.  Directions for evidence were given.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Times New Roman'">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Mediation has not been successful between the parties.  I do not consider it appropriate for me to engage in any apportionment of blame in relation to that.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Times New Roman'">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">On the 29</span><span style="vertical-align:super;font-size:smaller;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman'"> November 2024, J emailed Ms Callaghan to say she would like to arrange a call because her views have significantly changed as she had settled in more.  Ms Callaghan replied a few days later suggesting that J set out an update by way of email.  J did that on the next day, the 5 December.  Those emails were shared with the court and the parties the day before the hearing at my direction when I became aware of them.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman'">The Defences</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Times New Roman'">20.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It is accepted by the father that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">J was retained by him in this country in contravention of the mother&#8217;s rights of custody which she was exercising; and </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">J was habitually resident in the USA at the time of the retention;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">And as a consequence, the retention was wrongful.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Times New Roman'">21.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The father&#8217;s defence is that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">J objects to a return and has attained an age and degree of maturity at which it is appropriate to take account of her views: what is referred to as article 13 (2) albeit the convention does not so label it (leaving the relevant sentence as a freestanding part of article 13), and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">Article 13(b): a grave risk that her return would expose her to physical or psychological harm or otherwise place her in an intolerable situation.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Times New Roman'">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The two defences are in large part the same as advanced by Mr Howe, in that harm to J will arise if I don&#8217;t take her concerns seriously and force her to return against her will.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Times New Roman'">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Indeed, Mr Howe conceded that if I considered that I found that J did not have an objection to a return then the risk of harm would fall away, albeit he pointed to strong factual evidence to make good the alleged objection.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman'">The law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Times New Roman'">24.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">There has been no disagreement as to the law I should apply.  Both parties refer me to a decision of Cobb J </span><span style="font-style:italic;font-family:'Times New Roman'">Re C (1980 Hague Convention: Child Objections) </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/1875" uk:canonical="[2024] EWHC 1875 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWHC 1875 (Fam)</ref> and the following paragraphs in particular:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The seminal authorities on child objections are Re M (Republic of Ireland: Child&#8217;s Objections) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/26" uk:canonical="[2015] EWCA Civ 26" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 26</ref>; <ref href="#" uk:canonical="[2015] 2 FLR 1074" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 2 FLR 1074</ref>, and Re F (Abduction: Acquiescence: Child&#8217;s Objections) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/1022" uk:canonical="[2015] EWCA Civ 1022" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 1022</ref>. I apply the following principles (references are to Re M unless otherwise stated):</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">It is appropriate to break down the exercise into two parts &#8211; the &#8220;gateway stage&#8221; and the discretion stage (&#167;18); </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The gateway stage itself has two parts in that it has to be established that (a) the child objects to being returned and (b) the child has attained an age and degree of maturity at which it is appropriate to take account of his or her views (&#167;18);  the gateway stage represents a fairly low threshold (&#167;70);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The gateway stage is confined to a straightforward and fairly robust examination of whether the simple terms of the Convention are satisfied in that the child objects to being returned and has attained an age and degree of maturity at which it is appropriate to take account of his or her views (&#167;69);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">Whether a child objects to being returned is a matter of fact, as is his or her age (&#167;35);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">v)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The degree of maturity that the child has is also a question of fact (&#167;35); it is now recognised that children as young as 6 can be of sufficient maturity to have their objections taken into account (&#167;67);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">vi)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The child's views have to amount to objections before they can give rise to an Article 13 exception (&#167;38); there must be more than a mere preference expressed by the child (&#167;39); </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">vii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The child has to object to returning to the country of habitual residence rather than to returning to particular circumstances in that country, although it is clear that there may be difficulty in separating out the two sorts of objection (&#167;42);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">viii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The objection must be to returning to the country, although it may be difficult to extricate that from a return to the parent; the wording of Article 13 does not inhibit a court from considering the objections of a child to returning to a parent (&#167;44);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">ix)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The fact that a child objects to being returned does not determine the application (&#167;46); the child's views are not determinative of the application or even presumptively so (&#167;63);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">x)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The child who has suffered an abduction will very often have developed a wish to remain in the &#8216;bubble of respite&#8217; that the abducting parent will have created in the requested state, however fragile the bubble may be; the expression of those wishes cannot be said to amount to an objection unless there is a strength, a conviction and a rationality that satisfies the proper interpretation of the Article (&#167;54) (my emphasis by underlining);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">xi)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">An over-prescriptive or over-intellectualised approach to what, if it is to work with proper despatch, has got to be a straightforward and robust process is to be discouraged (&#167;77).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">In considering this issue I have had regard to the provisions of Article 12 of the</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">UNCRC, and the fact that &#8220;courts increasingly consider it appropriate to take account of a child&#8217;s views. Taking account does not mean that those views are always determinative or even presumptively so&#8221;: Baroness Hale in Re M and Another (Children) (Abduction: Rights of Custody) <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2007/55" uk:canonical="[2007] UKHL 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] UKHL 55</ref>; <ref href="#" uk:canonical="[2008] AC 1288" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] AC 1288</ref>, [2008] 1 FCR 536, <ref href="#" uk:canonical="[2008] 1 FLR 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 FLR 251</ref>.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">Should I reach the discretion stage, I would have regard to the case of Re M</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">(Abduction: Zimbabwe) <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2007/55" uk:canonical="[2007] UKHL 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] UKHL 55</ref> at &#167;46, as to which I highlight: &#8220;Once the discretion comes into play, the court may have to consider the nature and strength of the child's objections, the extent to which they are 'authentically her own' or the</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">product of the influence of the abducting parent, the extent to which they coincide or are at odds with other considerations which are relevant to her welfare, as well as the general Convention considerations referred to earlier. The older the child, the greater the weight that her objections are likely to carry. But that is far from saying that the child's objections should only prevail in the most exceptional circumstances&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Times New Roman'">12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The objections of a young child would not normally be expected to prevail in the absence of other considerations which suggest that a return should not be ordered  Re W (Abduction: Child&#8217;s Objections) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/520" uk:canonical="[2010] EWCA Civ 520" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Civ 520</ref>, <ref href="#" uk:canonical="[2010] 2 FLR 1165" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 2 FLR 1165</ref>.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Times New Roman'">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">On the 13(b) defence Mr Jubb reminds me that the language of the convention is that the </span><span style="font-style:italic;font-family:'Times New Roman'">grave</span><span style="font-family:'Times New Roman'"> risk must be of </span><span style="font-style:italic;font-family:'Times New Roman'">grave</span><span style="font-family:'Times New Roman'"> harm and that the situation in which the child would be placed on a return must be </span><span style="font-style:italic;font-family:'Times New Roman'">intolerable </span><span style="font-family:'Times New Roman'">for the defence to apply.  Necessarily a risk of some harm or the situation being less than ideal does not trigger the defence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Times New Roman'">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Both parties invite me if I consider that either defence has been triggered to consider the protective measures which have been sought if there is to be a return and to which there is now agreement.  These are (I summarise):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">Unlimited indirect contact</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">J being able to visit the UK each summer</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">Social service support for J in managing her mother&#8217;s needs</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">J to have therapy</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">Disclosure of J&#8217;s medical records and whether the mother has ever been diagnosed with or treated for any mental health illness.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Times New Roman'">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">These were not all agreed until the hearing and the father asks me to note that when considering how effective the measures will be in practice.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Times New Roman'">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Further, the mother has agreed, following comments made by J to Ms Callaghan, that if J is returned, she will not return to live with her but with her parents, who live relatively close.  (I understand they live some 18 miles away.)  I have received a statement from the maternal grandmother confirming that they would be happy to have J with them.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman'">Ms Callaghan&#8217;s evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Times New Roman'">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Callaghan gave evidence that J did not want to return to America.  In her report she recorded that the &#8216;main issue&#8217; was returning to live with her mother.  J had said that if she did have to return, she would stay with her grandparents and would not live with her mother.  She records her as saying &#8216;the main issue for me is my mum and also the area we live in is so isolated&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Times New Roman'">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In the report she records her as saying, &#8216;It is my first choice to stay in England and live with my dad.  If the Judge decided I have to go back, I will go if I am able to live with my grandparents but if I am to live with my mum, I will not go.  I cannot be physically forced onto a plane.&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Times New Roman'">31.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In her follow-up email J says she has settled better into her new school in England and so her position has changed.  She says in that email:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">I&#8217;m aware that there&#8217;s a possibility for me to move back to America with my grandparents, however, looking back at it now, I don&#8217;t want that.  When I spoke to you last, I think my feelings were slightly clouded due to the adjustment. Despite the fact that my grandparents are much better caretakers than my mother, that doesn&#8217;t change the fact that they live in the middle of nowhere, and the school I would have to return to is poorly funded with little to no after school activities or clubs.  I really, really, really don&#8217;t want to return to America.  I&#8217;m happy here &#8230; even if my mother were to promise to change her behaviour, I don&#8217;t want to go back to living with her.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Times New Roman'">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Callaghan reported that J was an intelligent young person, and her level of maturity is either in line or slightly more than others of her age.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Times New Roman'">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Callaghan reported that she considered that J&#8217;s views, expressed in the report, are authentically her own and not influenced by her father.  I pressed as to whether she similarly considered the views expressed in the email to be authentically her own.  Ms Callaghan was rightly reserved about expressing a view on that. She had only the email to judge the point on.  Mr Howe put to me that given the previous views were J&#8217;s own then I should hold these were too.  Mr Jubb suggested to me that this email was a &#8216;gilding the lily&#8217;.  He accepted that the email demonstrated that J&#8217;s strength of feeling &#8211; that she did not want to return &#8211; but that the email was in effect an attempt to close the possibility of a return to America, albeit to stay with the grandparents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Times New Roman'">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I asked Ms Callaghan in the light of the email whether I should now read across J&#8217;s comment that she could not be physically forced onto a plane to go and live with her mother, to any return to America.  Again, Ms Callaghan was reserved.  She said that given J had already conceived that she could physically resist a return there was a possibility.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Times New Roman'">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Callaghan was clear that it was a matter for the court as to whether the views expressed by J amount to an objection.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman'">Does J object to being returned?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Times New Roman'">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Applying the evidence to the law as set out by Cobb J it is manifest that J objects to a return to her mother and that she is of an age and maturity where that needs to be taken into account.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Times New Roman'">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">There is a question that needs further consideration as to whether the same finding can apply to a return to America, the country of her habitual residence.  I could construe what she said at first to Ms Callaghan and appears in her report as an expression of a preference not to return to America but not an objection.  I do not on balance consider that is an appropriate understanding of what she said then.  I consider that what she was saying then is that she would object to a return, but she would not object so strongly that she would resist an order of the court.  She said in terms that she would be &#8216;very unhappy&#8217; if the judge were to order her to return.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Times New Roman'">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I find that the subsequent email puts the issue as to whether there is an objection to returning to America or just to the mother beyond doubt.  It does so not simply in its terms (really, really, really) but in the mere fact that J felt so strongly about the issue that she chose to get in touch with Ms Callaghan for a second time.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman'">How should I exercise my discretion given the objection?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Times New Roman'">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The fact that I have found there is an objection does not of course determine the outcome.  I need to consider how I am to exercise the discretion that I have as a consequence of the objection.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Times New Roman'">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The best (and binding) guidance I have as to how I should exercise the discretion is to be found repeated in paragraph 11 of </span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'">, in a passage from </span><span style="font-style:italic;font-family:'Times New Roman'">Re M (Abduction: Zimbabwe) </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2007/55" uk:canonical="[2007] UKHL 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] UKHL 55</ref> at para 46.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Times New Roman'">41.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I break that down as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">I need to consider the nature and strength of the child&#8217;s objections.  Here I find that they are strong and are persistent and settled.  They have grown over a number of years.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">Are the views authentically the child&#8217;s?  I find they are.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">Do they coincide with or are they at odds with other considerations relevant to her welfare?  I cannot within a summary process embark on a full welfare consideration.  I do note that J has said she is very unhappy with her isolation in America.  It is accepted that it is a 2-hour bus journey to her school and that her mother rarely drives and will not fly because of a medical condition so she is very much on her own.  It is accepted that her mother has fallen out with her parents following an argument with her brother so that there is a hindrance on family interaction.  This is not however the proper venue to carefully weigh up where J&#8217;s welfare best interests lie.  That point having been made, I do consider that I can properly take notice at this stage of the following broad points:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Times New Roman'">The fact that if J were to return to America it is accepted that she would be living with her grandparents (at least until she is able to mend her relationship with her mother &#8211; and I have no evidence as to how long that would take).  In contrast she would be living with her father here.  In general term it is better for a child to be with a parent.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">That a forced return against J&#8217;s objection (given my findings as to the nature of the objection and her age and maturity) will damage further her relationship with her mother.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">I need to consider general convention considerations.  Here I note that Mr Jubb rightly draws my attention to paragraph 8 of </span><span style="font-style:italic;font-family:'Times New Roman'">Re E </span><span style="font-family:'Times New Roman'">in the Supreme Court where it is set out:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1.38in"><span style="font-style:italic;font-family:'Times New Roman'">The first object of the Convention is to deter either parent (or indeed anyone else) from taking the law into their own hands and pre-empting the result of any dispute between them about the future upbringing of their children. If an&#160;abduction&#160;does take place, the next object is to restore the children as soon as possible to their home country, so that any dispute can be determined there. The left-behind parent should not be put to the trouble and expense of coming to the requested state in order for factual disputes to be resolved there. The abducting parent should not gain an unfair advantage by having that dispute determined in the place to which she has come.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman'">There is no question that this is a powerful point in favour of exercising my discretion in favour of a return.   I do need to bear in mind however that when the convention was agreed those that framed it could have required me to disregard the child&#8217;s objection.  Given that instead those objections are highlighted as a reason that &#8216;may&#8217; cause a court to refuse a return, this point alone will not necessarily outweigh the other considerations.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Times New Roman'">42.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Before determining how to exercise my discretion there are other matters that on the facts of this case I need to consider.  I shall deal with them in turn below:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">Is the objection rational?  J&#8217;s objection is based on not wanting to live with her mother and not wanting to be isolated.  The isolation point is rational if not in these circumstances the strongest of grounds.  The fact that J does not want to live with her mother is something on which Ms Callaghan comments as follows: &#8216;I did have a sense that her lived experiences have left her emotionally vulnerable and her complaints about her mother may be more than what I consider usual teenagers complaining about their parent&#8217;.  I combine that with the historic communications that I have seen and reach the conclusion that this is a rational ground.  What is being suggested by the mother is that in the first instance J returns to live with her parents until her relationship can be mended.  This does not negate the rationality of the objection, in that the return to the mother remains the medium or long term aim.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">Is this a complaint from a &#8216;bubble of respite&#8217;, that the abducting parent has created, or as I suggested during the hearing, a child preferring the &#8216;holiday dad&#8217; to the &#8216;workaday mum&#8217;.  I conclude that it is not.  J&#8217;s motives are deeper and more long term.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">Mr Jubb suggests, in broad terms that the non-return is a paternal &#8216;set up&#8217;.  He points to an email written in July 2024 by the father to the mother in which the father says that J is again asking if she can move to live in the UK.  It is clear from that email that the father would like her to move to the UK, but it is also right to note that he says expressly that the problems between J and the mother can be sorted out by enabling J to have a bit more fun: going to a caf&#233; once a week, buying her a bun, taking her swimming, going on some trips.   This I find to be an email to be taken at face value.  The father was being asked by J if she could stay.  He recognised that the agreement was she should return.  He wanted to help J by either having her stay or making her have a better time when she returned.  It does not lead me to think that J&#8217;s objections are to be put on one side.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">It is necessary to consider whether the protective measures will mitigate any of the issues so far flagged up which might otherwise point against a summary return:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Times New Roman'">Unlimited indirect contact &#8211; It is better that is offered than refused, but it does not go to the heart of the issue.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Future summer visits &#8211; This attracts the same observation.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in;text-indent:0.25in"><span style="font-family:'Times New Roman'">Social services referral to support J managing her mother&#8217;s needs &#8211; Again, it is better offered than refused, but the court must be concerned that it is returning J to a situation where this might be appropriate.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.5in;text-indent:-0.12in">iv.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Therapy for J - I anticipate this will be needed wherever she is living.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.5in;text-indent:-0.12in">v.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Times New Roman'">Disclosure of medical records and disclosure of whether the mother has ever had a mental health illness &#8211; I can see that this would provide the father with some comfort that he is aware of what is going on in America.  It is not, as I see matters, going to the heart of the issues before me.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Times New Roman'">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Taking all these points together I conclude that all save for the general convention considerations, which push against, and the neutral impact of the protective measures, push me towards exercising my discretion to refuse a summary return.  The general convention considerations do not here outweigh the particular circumstances set out above, so I refuse a summary return.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman'">The Article 13(b) Defence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Times New Roman'">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I turn now to consider the article 13 (b) defence.  Given my conclusion above I will take this shortly.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Times New Roman'">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">There is evidence to suggest that J has considered self-harming while in America.  This is something that the mother acknowledges and raises as a risk in relation to J wherever she is.  The mother is concerned that the father will not supervise her well enough.  The father considers it relates to her unhappiness in America.  I do not consider on the evidence before me that to return J to America would be to expose her to a grave risk or put her in an intolerable situation.  There is a risk of self-harm.  It can be monitored.  It is not intolerable, particularly if she were to return to live with her grandparents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Times New Roman'">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The father says that to act against J&#8217;s objection will expose her to a grave risk of harm or put her in an intolerable situation.  I do consider that it will harm her relationship with her mother, which in turn will harm her.  I do not consider it is a grave risk or the situation would be intolerable.  These points are better made in relation to the exercise of my discretion in the light of the objection, and it is there that I have taken them into account.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman'">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Times New Roman'">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In summary I am refusing the application for a summary return in the exercise of my discretion, having found that there is an objection by J to a return.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Times New Roman'">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I acknowledge that the mother will find this decision deeply distressing.  I express the hope that the parties will be able to find a way to enable J to maintain and repair her relationship with her mother.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman'">Mr Justice Trowell </span></p>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman'">13 December 2024</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,855 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2013/2308"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2013/2308"/>
+	  <FRBRdate date="2013-05-03" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2308"/>
+	  <FRBRname value="Kent County Council v IS &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2308"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2308"/>
+	  <FRBRdate date="2013-05-03" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2308/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2308/data.xml"/>
+	  <FRBRdate date="2024-10-26T05:00:39" name="transform"/>
+	  <FRBRdate date="2024-11-23T05:37:01" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2013-05-03" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="kent-county-council" href="" showAs="KENT COUNTY COUNCIL"/>
+	<TLCPerson eId="is" href="" showAs="IS"/>
+	<TLCPerson eId="ls" href="" showAs="LS"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis-dbe" href="/judge-mrs-justice-theis-dbe" showAs="MRS JUSTICE THEIS DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2013</uk:year>
+	<uk:number>2308</uk:number>
+	<uk:cite>[2013] EWHC 2308 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>7a75b5ece993beab372e156e832dc05a374bf5c548df1b5feb2c841111507677</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ind { margin-left: 0.33in; font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .PageNumber { }
+#judgment .Emphasis { font-style: italic; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><span style="font-size:10pt">This judgment was handed down in private on 3rd May 2013. It consists of 17 pages and has been signed and dated by the judge.  The judgment is being distributed on the strict understanding that in any report no person other than the advocates and their solicitor may be identified by name or location and that in particular the anonymity of the Respondents and members of their family must be strictly preserved.</span></p>
+      <p class="CoverText">Case No: <docketNumber>DU12C00081</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2013] EWHC 2308 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION SITTING AT </courtType></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">CANTERBURY COMBINED COURT CENTRE</span></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2013-05-03" refersTo="#judgment">03/05/2013</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis-dbe" style="font-size:11pt">MRS JUSTICE THEIS DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.4in 1.75in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#kent-county-council" style="font-weight:bold;font-size:11pt">KENT COUNTY COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#applicant" style="font-size:11pt">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#is" style="font-weight:bold;font-size:11pt">IS</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent" style="font-size:11pt">1st Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#ls" style="font-weight:bold;font-size:11pt">LS</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent" style="font-size:11pt">2nd Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">(I)  MAS</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">(II) MOS</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">(III) JS</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">(IV) SS</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">(By their Children&#8217;s Guardian)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"><span style="font-size:11pt">3rd &#8211; 6th Respondents</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">LS</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><span style="font-size:11pt">7th Respondent</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-size:10pt"> - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-size:10pt"> - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Mr Anthony Jerman </span><span style="font-size:11pt">(instructed by</span><span style="font-weight:bold;font-size:11pt"> Kent County Council</span><span style="font-size:11pt">) for the </span><span style="font-weight:bold;font-size:11pt">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Ms Marie-Claire Sparrow</span><span style="font-size:11pt"> (instructed by Charlotte Huffington-Shinn of </span><span style="font-weight:bold;font-size:11pt">Pritchard, Joyce &amp; Hinds</span><span style="font-size:11pt">) for the </span><span style="font-weight:bold;font-size:11pt">1st Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Mr Adrian Pidduck </span><span style="font-size:11pt">(instructed by Lucinda Parker of </span><span style="font-weight:bold;font-size:11pt">Sternberg &#8211; Reed</span><span style="font-size:11pt">) for the </span><span style="font-weight:bold;font-size:11pt">2nd Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Mr Jeremy Hall </span><span style="font-size:11pt">(instructed by Philippa Thomas of </span><span style="font-weight:bold;font-size:11pt">Davis, Simmonds &amp; Donaghey</span><span style="font-size:11pt">) for the </span><span style="font-weight:bold;font-size:11pt">3rd &#8211; 6th Respondents (through their Guardian, Deborah Royle)</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Ms Sita Cox </span><span style="font-size:11pt">(instructed by Gary Hollands of </span><span style="font-weight:bold;font-size:11pt">Barford Fraser</span><span style="font-size:11pt">) for the </span><span style="font-weight:bold;font-size:11pt">7th Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 29th April &#8211; 3rd May 2013</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - </p>
+      <p class="CoverDesc"><span style="font-size:14pt">Judgment</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This matter concerns care proceedings relating to five children. L born on 28 October 1997 15 years, MA born 13 April 1999 14 years, MO born 1 April 2000 13 years, J born 18 February 2010 3 years and S born 7 July 2012 9 months. They are all the children of Mrs S (the mother) and Mr S (the father). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">L remains living at home with his parents. The younger four children are in the care of the Local Authority (&#8216;LA&#8217;) under interim care orders. MA and MO are with separate foster carers and J and S are placed together. All the children are represented by their Children&#8217;s Guardian, Ms Royle. L was recently joined to the proceedings, instructing his own solicitor, as he did not agree with all of the recommendations of the Children&#8217;s Guardian.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">The position of the parties can be summarised as follows.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">The LA do not support the rehabilitation of the four youngest children to the care of their parents. They seek care orders for all four children, together with placement orders in respect of J and S. In relation to L, who remains living at home, they seek a twelve month supervision order. They propose monthly contact between MA and MO and their parents and L. In relation to the youngest two children, they propose a reduction in contact, leading to a cessation of direct contact on placement with adoptive parents. Following that the LA propose indirect contact.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.25in">The parents seek the return of the four youngest children to their care, in this jurisdiction. They dispute the threshold criteria is met. If the children are not returned to their care they seek consideration of placement of the children in state care in Slovakia, pursuant to Article 56 Council Regulation (EC) No 2201/2003 (Brussels ll r). The Slovakian authorities have been consulted and would consent to that placement.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(iii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.38in"> L takes issue with the threshold criteria but, in the event they are found to be met, agrees to a one year supervision order.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(iv)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.25in">The Children&#8217;s Guardian supports the plans put forward by the LA.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I would like to record the courts gratitude to the interpreters in this case Ms T, Ms D and Ms T. They have been of the highest standard and have greatly assisted the parents in ensuring their evidence was clearly given.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The parents originate from Slovakia. They are from the Roma community. The social deprivation and discrimination endured by this community for many years has led to the migration of many people from this community from Slovakia to this country, and elsewhere. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The parents have ten children; five of the youngest six are the subject of these proceedings. According to the parents the father came to this country in December 2009 with their eldest son (then 18 years) and went to live in Bradford. The mother followed in March 2010 with 7 of their children (the youngest being just a month old). One of their children lived with the maternal grandmother and the tenth child, S, was born after the parents both started living here.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The parents&#8217; state they were trafficked, the person who trafficked them here provided accommodation for them. There is very limited information about the precise circumstances they lived in Bradford. However, there came a time when an organisation called Hope for Justice became involved and helped the parents and the five children subject to these proceedings move to live in D. They moved to D in August 2011. Between then and February 2012 they lived in cramped bed and breakfast accommodation, before they moved to their current four bedroom property.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">According to the mother, her mother and her eldest daughter returned to live in Slovakia in February 2013. Her mother looks after her son L age 10 years and her eldest daughter looks after her own two children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The LA were informed about the family moving to D. A social worker, JJ, was allocated and the children were subject to a children in need plan.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">According to the LA concerns about the care being provided to the children arose soon after their arrival and continued until the issue of care proceedings in August 2012 when, according to the LA, the children had suffered significant harm and all the children were at risk of future harm. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">The basis of the threshold criteria can be summarised from the evidence as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Failure to attend medical appointments. For example, audiology and eye tests for MA and L. And delay in seeking medical attention for J when he was scalded in February 2012.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Failure to ensure regular attendance at school. L&#8217;s unauthorised absence from Jan to Sept 2012 was 50%; MA&#8217;s for the year 2011/2012 was 24% and MO&#8217;s from Jan to May 2012 was 43%. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Over chastisement or threats to over chastise the children. E.g. father informing the LA at a meeting on 6.7.12 that he beat the children, and the incidents observed when the mother over chastised the children on 27 June 2012 (MA) and 7 August 2012 (MO).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Both MA and MO frequently being found unaccompanied late at night (4 occasions in Sept/Oct 2011; MA 9 occasions between May and July 2012) with contemporaneous records from the police.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Following S&#8217;s birth failing to visit him regularly in hospital (3 occasions over 3 &#189; weeks). On discharge failure to feed him regularly and failure to keep him in a smoke free area. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">The children were observed to be dirty and unkempt by the social worker, health visitor, school and the police.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In their written statements the parents dispute much of the evidence filed by the LA to support the threshold criteria being met. Their oral evidence made it clear they feel they have been discriminated against as they are from the Roma Community and both allocated social workers have made up their written evidence. This formed part of many of their answers in their oral evidence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The support give by the LA and other agencies is set out in the statements filed by the Social Worker. She was the allocated social worker from September 2011 until October 2012. She exhibits to her statement a schedule detailing the comprehensive and high level of support given to the family, ranging from assistance in securing the children&#8217;s attendance at school to helping apply for financial and practical support as well as social work visits. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The LA issued care proceedings on 2 August 2012 in relation to S, who had just been discharged from hospital following his birth on 7 July. At the first hearing in the FPC on 6 August the reaction of the father was so concerning that the police attended the family home whilst everyone was at court and secured a police protection order in relation to S and J and their cousin. This was because the father stormed out of court threatening to kill himself and that social services would never get his children.  The FPC gave directions on 6 August, including giving permission to the LA to amend the application to include all the children. They adjourned the matter for a contested interim care hearing on 9 August. On 9 August the FPC granted the applications for interim care orders in relation to S and J. The children were placed with Ms L, where they have remained to date. They have had supervised contact with their parents. Unfortunately the father refused to sign a contact agreement, setting out various expectations. As a result he has not attended contact since early September 2012. The mother has continued to attend contact alone.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">On 17 August the case was transferred to the County Court. The older three children remained living at home. The mother signed an agreement with the LA. The father refused and as a result a prohibited steps order was made restricting the people who could stay at the family home to family members, due to concerns about strangers in the home and the children being left in the care of unknown adults. The matter was listed for a further contested hearing, as the parents withdrew their consent to the agreement. The hearing on 18 September had to be adjourned due to delays in getting the court documents translated and the LA pursuing applications for interim care orders for MA and MO. There had been no improvement in the home situation and in some areas it had deteriorated. The LA were particularly concerned about the risk of emotional harm caused by the parents instructing MA and MO not to discuss matters with the social worker who, according to the social worker, they had built up a good relationship with. Further directions were made, including giving the mother permission to file evidence concerning her mental health and giving the LA permission to refuse contact with the father pending him signing the contact agreement.  There were further delays, particularly in translation of the documents, and the hearing listed on 4 October had to be adjourned to a two day hearing on 23 and 24 October. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">HHJ Murdoch QC heard the contested interim hearing on 23 and 24 October. He made interim care orders in respect of the four youngest children and an interim supervision order in respect of L. MA and MO were placed with foster cares, Mr and Mrs P. He directed the LA to file the plan for the parenting assessment of the parents by 2 November. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The father subsequently made an allegation that Mr P had assaulted MO. This was investigated by social services and found to be unsubstantiated. Further allegations were made in January 2013 resulting in the LA having to move both children. Having investigated those allegations, they were again found to be unsubstantiated. MA returned to live with Mr and Mrs P and MO remained with the alternative carer. The Children&#8217;s Guardian oversaw these investigations and moves and was satisfied by the actions taken by the LA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">A case management hearing was fixed for 23 November. At that hearing the matter was transferred to the High Court on the grounds that the case involved a complex foreign element. The LA was given permission to provide a copy of the court bundle to the Slovakian central authority. The parents were directed to provide to the Slovakian central authority by 30 November details of their last known address in Slovakia and the names and addresses of any members of the children&#8217;s extended family in Slovakia whom they wished to be considered as prospective carers for any of children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The matter came before Hogg J on 5 December. She directed a psychological assessment by Dr Frith, a Slovakian speaking psychologist. The report was to be filed by 15 February. A further direction required the father&#8217;s solicitor by 14 December to serve on the LA&#8217;s solicitor a letter stating the names, phone numbers, addresses and dates of birth of all extended family members he wished to be the subject of viability assessments. The LA was directed to file any viability assessments in relation to any family members by 18 February. The LA held a Family Group Conference on 11 December.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">At a LAC review in January, attended by the Children&#8217;s Guardian, she reports the parents as saying they would not co-operate with the psychological assessment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">When the matter returned to court on 25 January before Baker J the parents&#8217; willingness to undertake the assessment was confirmed. The appointment with Dr Frith was set up for 9 February and the emails between the solicitors leading up to this appointment confirm the parent&#8217;s willingness to attend. The mother&#8217;s solicitor emailed on 5 February that the mother had confirmed to her through her interpreter her intention to attend the appointment. Likewise, on the following day the father&#8217;s solicitor confirmed the father will be attending the appointment. Neither parent attended the appointment on 9 February. For the first time during this hearing the parents stated the reason they did not attend was due to them being unable to pay for the travel costs to the appointment. That had not been raised before between the parties or with me at the directions hearing on 20 March 2013. The mother&#8217;s counsel, Ms Sparrow, did show me an email exchange on 5 February between her client&#8217;s solicitor and the interpreter for the mother asking for financial help for travel cost to attend the appointment. The solicitor confirmed this was not available. This request was made before the mother&#8217;s solicitor confirmed the mother&#8217;s attendance. As a result of the parents failure to attend this appointment this evidence was not available to the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The matter was listed before me on 20 March 2013. The parents refused to agree renewal of the interim care orders. They said there had been a change in circumstances, due to the allegations of assault made by MO against the foster carer and MO&#8217;s recent behaviour reported by the parents. I heard oral evidence and submissions and made further interim care orders. I made comprehensive directions leading up to this hearing. There was some delay in the directions being complied with, due to the mother changing her solicitors.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">All the children have continued to have regular supervised contact with their mother, twice per week with the younger two children and once a week with the older two children. In addition there has been regular inter sibling contact. The contact with the younger two children is described as uneventful, in that the mother keeps S on her lap and J tends to amuse himself.  The father has not seen the younger two children since early September and MA and MO since they were placed in the care of the LA in October, save for unplanned visits by the children to the family home.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Slovakian Central Authority (Centre for the International Legal Protection of Children and Youth) have provided a number of helpful written statements from Ms C and the Head of Department of the Central Office of Employment, Social Affairs and Family in Bratislava, following requests for information by the LA, the parents and the court. Although in their latest statement they seek to be joined as a party to these proceedings, they make it clear they do not seek to attend court and I have therefore not considered it necessary to join them as parties, there is no issue that the court can, and should, consider the written material submitted by them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In the first statement from Ms C, dated 20 December, she states <span style="font-style:italic">&#8216;if the court decides that the minor children S shall not be returned into the care of their parents, because they cannot grant to the children an adequate care for healthy physical and mental growth, the Centre demand that the said children could be placed in a foster care in Slovakia under the Article 56 of the Council Regulation (EC) No 2201/2003&#8230;..the Centre&#8230;...strongly believes that the court will consider the case to his best knowledge and belief and will issue the order which will be in the best interest of the minor children.&#8217;</span> A letter from the Head of Department of the Central Office of Employment, Social Affairs and Family in Bratislava dated 17 December provides further information about the family. It states the parent&#8217;s son L has been in the care of the maternal grandmother since birth. There were court proceedings regarding residence and maintenance between the parents in 2007 where the court ordered the children to be placed in the personal care of the mother and orders the father to pay monthly maintenance. The letter states <span style="font-style:italic">&#8216;During that time, both parents were still married however they had not lived in a shared household since March 2007. The mother did not have knowledge of the whereabouts of her husband at the time.&#8217;</span> The letter confirms the children have not been in state care.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">A further statement from Ms C dated 12 February 2013 accepts this courts jurisdiction. The statement repeats the request that if this court decides the children cannot be restored to the care of the parents <span style="font-style:italic">&#8216;our Central Authority demand that the said children could be placed in a foster care in Slovakia under Article 56&#8230;&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Further documents dated 15 April from the Slovak Authorities set out the detail of what a transfer under Article 56 would involve. They state before any transfer steps must be taken to cause a competent Slovak court to give a preliminary ruling that the children will be placed together in the Residential Child Care Home of RH. The letter states that there are no members of the S family able to take the children, so they will need to be placed in the Child Care Home pending any necessary measure directing the placement of the children into the custody of a &#8216;surrogate family&#8217;. They enclose with the letter a plan of social work with the family, setting out the steps that would be undertaken, together with a preliminary plan of implementation of transfer of the children to Slovakia. Ms C in her written statement refers to these plans and repeats the &#8216;demand&#8217; for the children to be placed in Slovakia. She lists the three reasons for this as the children are Slovak citizens; most of their relatives and family live in Slovakia; and the Slovak Republic is able to provide the adequate social as well as medical care for the children. The letter formally consents to this placement under Article 56.     </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">At the start of this hearing the parents confirmed that as their primary case was for the children to be re-habilitated to their care in this jurisdiction they did not pursue a transfer of the proceedings pursuant to Article 15. Their secondary position was that in the event that the court did not return the children to their care they sought placement of the children in the children&#8217;s home in Slovakia pursuant to Article 56. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">They agreed that in the event that the court decided not to return the children to the care of their parents the focus then was on Art 56. It is accepted, following <span style="font-style:italic">AB (A Child) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/978" uk:canonical="[2012] EWCA Civ 978" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 978</ref> </span>the sole purpose of Article 56 was to require a court which is considering placing a child in institutional care or foster care in another member state, to consult any authority responsible for child placements in that member state and not to decide on any such placements without that authority&#8217;s consent. As Sir Stephen Sedley observed in that case (where a proposal was to place the child in Lithuania)  &#8216;<span style="font-style:italic">In this connection Art 56 will have a role, but it is the consultative role described above, not a role which ties the hands of the English court or reduces its obligation to arrive at its own judgment as to the child&#8217;s best interests.&#8217; </span>(paragraph 8).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In addition to the extensive written evidence and material in the trial bundle I have heard oral evidence from three social workers ZS, JJ, AC, the team manager RR, the foster carer Mr P, the parents and the Children&#8217;s Guardian.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In their oral evidence the social workers maintained their written evidence about the threshold criteria. Both JJ and AC denied that the LA had been unfair in the way they had treated the family. JJ said that she considered she had established a very good relationship with each of the children. She said her relationship with the parents had initially been very good, but she accepted it had deteriorated by the time the LA issued proceedings. It was suggested to her that was due to the discrimination by the LA against the parents; that they had prematurely ruled the parents out as future carers. She denied that was the case. She pointed to the extensive support given by her to the family prior to the commencement of proceedings, which she said had elicited no improvement in the parent&#8217;s care of the children. She became deeply concerned about the significant emotional harm to the children caused by their parents&#8217; unwillingness to engage with the LA. She noticed a change in MA and MO in particular. Just prior to the interim care orders for MA and MO she noted a change in their behaviour towards her. The parents had refused to allow her to see them at the family home so she had to see them at school. They informed her, the parents had told them not to speak to the social worker and they found it difficult to speak to her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">ZS has supervised a number of contact visits, during the period the father was having contact in August and since when contact was just with the mother. There was once particular incident in January 2013 when the mother was having contact. She was taking S and J to the car after the end of contact when she was approached by the father. She describes in her written and oral evidence the father trying to take J away from them. She said he was shouting and his body language was aggressive. She said he was leaning towards her shouting close to their faces, gesticulating with his arms and she was frightened. She describes him as walking away and then turning round and spat at her direction. The father was charged following this incident. At a recent hearing in the Magistrates Court the charges were dismissed and he agreed to be bound over to keep the peace.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">AC outlined the effort she undertook to engage the parents after she was allocated in October 2012. During the parenting assessment she conducted in October and November she had a number of meetings with the parents separately and together as described in her written assessment. In that document she describes the outcome as follows <span style="font-style:italic">&#8216;Mr and Mrs S  are unable to accept any of the concerns posed by the Local Authority. They have maintained a position of denial and this fixed view point has effectively disrupted and challenged any assessment of their parenting capacity.&#8217;</span> She described in that assessment the difficulties in getting the parents, particularly the father, to engage in any discussion other than their view that the previous social worker had lied. She describes the father as being <span style="font-style:italic">&#8216;too focussed on his own agenda&#8217;. </span> Her written report sets out the meeting she had with the parents. However, she detected no change in their attitude. They accepted no responsibility for what were seen as failings in their care of the children and the consequent harm suffered by the children or they were at risk of suffering. AC observed contact and noted there were some warm aspects to the mother&#8217;s parenting however there were also concerns about her ability to emotionally contain her behaviour and responses, particularly with MA and MO. As part of her assessment she had a home visit which she observed to be clean and tidy. AC detailed conclusion did not recommend placement of the children with them as she considered they were not able to provide safe care for the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">AC tried to resolve the block that was preventing the father signing the agreement to structure his contact with the children. There were two specific meetings chaired by the team manager in November and January to deal with this. She said even though there was some headway with the father agreeing the structure and the removal of the provision to speak English, the father still refused to sign the agreement as he did not accept the fortnightly frequency or that the contact was separate from the mother. She said he remained fixated on the unfairness of the position, and seemed unable to make compromises to enable contact to get re-started which would have been in the best interests of the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Mr P gave details of recent events. MA was not at school the previous Friday when Mr P went to collect him. It appears he had gone missing during a PE lesson. The social worker and the police were alerted. When the police attended the parents home at about 11.30 pm they found MA asleep there. They returned him to Mr P&#8217;s care. He said MA told him he had been drinking energy drinks and smoking cannabis with his father and some friends. He described MA&#8217;s eyes were &#8216;<span style="font-style:italic">bulging&#8217; </span>and he looked very distressed and unsettled. MA told him he had smoked cannabis and energy drinks with his father and some friends. Mr P also reported an incident on Monday when he was asked to collect MA from school following an argument between MA and L. According to MA L had accused him of being a <span style="font-style:italic">&#8216;squealer&#8217;</span> and he was going to <span style="font-style:italic">&#8216;get him but did not know how&#8217;</span>. He described MA as being confused and anxious. He described MA wanting Mr P to go into the centre when he has contact with his mother so he can see him. He accepted when he was living with him MP missed his family very much. He denied any suggestion by the parents that he had assaulted MO.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">RR, the team manager, gave written and oral evidence detailing the long term plans proposed by the LA. In relation to MA and MOthe plan is they would remain with their current carers. She made it clear the fact that these foster carers were from an outside agency would not be an obstacle to the plan. The LA had recently changed their policy to ensure placement stability, which she described as being <span style="font-style:italic">&#8216;high on the agenda&#8217;</span>.  She set out details in her statement regarding the timetable for an adoptive placement for J and S. She realistically recognised that it was very unlikely that they would be placed with a Slovak family, but emphasised the care that would be taking in ensuring they were placed with prospective adopters that most met the children&#8217;s needs. She did not support any placement of the children together in a residential home in Slovakia. She did not consider it would meet the needs of the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The mother gave oral evidence, in addition to the two detailed statements she had provided. She did not accept any of the matters relied upon by the LA to support the threshold criteria. She remained adamant in her evidence that the concerns of the LA were unsubstantiated and had been made up. She did not consider she or the father had any difficulties in caring for the children. In relation to the poor school attendance she said that was due to bullying suffered by the children, but was unable to describe what had been done about this or why it had not been mentioned before. She maintained the reason for not attending the appointment with Dr Frith was due to their inability to pay for the travel to get to the appointment. She was asked about why she had not taken up advice about not smoking during her pregnancy with S. She said most her of babies had been born prematurely and had low birth weight. She said she had tried to get the father to attend contact but had been unable to persuade him to sign the agreement. She was inconsistent as to whether she would accept any help or advice in the future from the LA. In relation to the events last Friday she said they were contacted by some Polish friends to say MA had come to their home. She asked them to bring him to her. She said when he arrived she did not phone the police or the LA, as MA begged them not to. She did try and contact her solicitor and left a message. She denied MA smoked cannabis. She said she would not try and hide him and when the police attended MA went with them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">If the court did not return the children to her care she said she wanted the children to be placed in Slovakia. She said they would go back and stay with the father&#8217;s brother in his home about an hour away from the children&#8217;s home where it was proposed the children would be placed. She confirmed if they remained placed here, she would remain living here so she could attend contact.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The father&#8217;s evidence was similar to the mother. There was a complete denial of any neglect of the children. He was adamant that this had all been made up by the LA, in particular the social workers JJ and AC. He felt very strongly that he and his family, as well as the wider Roma community, had been discriminated by this LA who had removed the children from the parents care on the basis of untruthful evidence. As he put it in one of his long answers <span style="font-style:italic">&#8216;..all her [JJ] evidence is a lie. What she wants to achieve is damage my personality and discriminate against me&#8217;.</span> He has pursued a number of complaints about the behaviour of the social workers and other professionals who have been involved in the family. It was very difficult to get him to focus on the questions. He regarded the requirement to sign the contact agreement as humiliating and an exploitation of parents. He was unable to see the wider picture of the negative impact of his stance on the children. On the contrary, as he said in his evidence, it was a good thing that they did not see him at contact as <span style="font-style:italic">&#8216;they abscond so I can see them&#8217;.</span> Trying to get him to focus on the questions put to him in his evidence became almost impossible. This resonates with references in the papers of the various attempts made by others to try and discuss things with him. He would hijack any issue with his unswerving agenda that everything had been made up and the discrimination against the family. Sadly, his evidence did not greatly assist me and merely confirmed the various assessments that had been made in the written material.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Ms Royle, the Children&#8217;s Guardian, gave evidence. She confirmed that having heard the oral evidence the recommendations in her written reports had not changed. She was asked about the issue of absconding from the foster carers, in particular MO. She noted that of the 5 occasions MO has absconded back to the family home most had been connected to contact. The previous venue for contact was close to the family home. After the venue was moved there has been no absconding home. She recognised MO&#8217;s mixed feelings about home and his family. She had discussed that with him. She considers some certainty through a court decision will greatly benefit the children. She acknowledged there had been some improvements since the children had been in care, but said there had been no acknowledgment of the previous poor parenting. Without that she did not consider any further attempt at rehabilitation was in the children&#8217;s interests. As she said, that is the <span style="font-style:italic">&#8216;starting block&#8217;. </span>She agreed the father had co-operated with her but she said <span style="font-style:italic">&#8216;it was on his agenda&#8217;</span> they could not move forward and discuss the children&#8217;s needs. She acknowledged the concerns about the children&#8217;s cultural identity and the separation of the siblings in the plans put forward by the LA, but emphasised that each child&#8217;s welfare had to be looked at and the needs for stability and permanency had to be considered, particularly for the younger children. She emphasised that contact must be kept under regular review, both in terms of frequency and the level of supervision.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">The Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">There is no dispute between the parties regarding the relevant legal principles upon which the court should be guided. The burden of proof rests with the LA and the standard of proof is the balance of probabilities (<span style="font-style:italic">Re B (Care Proceedings: Standard of Proof) <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/35" uk:canonical="[2008] UKHL 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 35</ref> in particular per Baroness Hale at para 70 and 72]).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The threshold criteria is defined by <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31 (2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. That has to be satisfied before the state can interfere with family life. In determining what, if any, order to make the child&#8217;s welfare is the courts paramount consideration, having regard to the checklist in s 1 (3). As Baroness Hale stated  <span style="font-style:italic">In the matter of J (Children) <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/9" uk:canonical="[2013] UKSC 9" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 9</ref></span> at paragraph 2 <span style="font-style:italic">&#8216;There are therefore three questions to be answered in any care case: first, is there harm or a likelihood of harm; second, to what is that harm or likelihood of harm attributable; and third, what will be best for the child?&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I am rightly reminded of the observations of Hale LJ (as she then was) in <span style="font-style:italic">Re C and B (care order: Future Harm) <ref href="#" uk:canonical="[2001] 1 FLR 611" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 1 FLR 611</ref> &#8220;the principle must be that the Local Authority works to support and eventually reunite the family unless the risks are so high that the child&#8217;s welfare requires alternative care&#8221;.</span> Also in <span style="font-style:italic">Re B (Care: Interference with family Life3) <ref href="#" uk:canonical="[2003] 2 FLR 923" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 2 FLR 923</ref> </span>Thorpe LJ said that a judge must not sanction an interference with family life <span style="font-style:italic">&#8220;unless he is satisfied that it is both necessary and proportionate and that no other less radical form of order would achieve the desired end of prompting the welfare of children.&#8221;</span> These principles are clear and echo the ECHR cases referred to me by Ms Sparrow.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I also remind myself, in relation to the placement applications, what the Court of Appeal said in Re P <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/535" uk:canonical="[2008] EWCA Civ 535" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Civ 535</ref> "<span class="Emphasis">it is elementary that, if Article 8 is not to be breached, any intervention under Part IV or Part V of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>, and any placement or adoption order made without parental consent in accordance with section 52(1)(b) of the 2002 Act, must be proportionate to the legitimate aim of protecting the welfare and interests of the child</span>."</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The decisions made by this court are guided by what will meet the welfare needs of the children and should guard against any form of social engineering. I remind myself of the words of Lord Templeman in <span style="font-style:italic">Re KD (A Minor) (Ward: Termination of Access) <ref href="#" uk:canonical="1988] AC 806" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1988">1988] AC 806</ref>   &#8216;The best person to bring up a child is the natural parent. It matters not whether the parent is wise or foolish, rich or poor, educated or illiterate, provided the child&#8217;s moral and physical health are not endangered. Public authorities cannot improve on nature.&#8217; </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Consideration of the evidence to support the threshold criteria inevitably involves an assessment of the credibility of the witnesses. Have the LA established that the threshold criteria is met in relation to each of these children? Without that there can be no state intervention in family life.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In considering the parents evidence I have taken into account the difficulties the parents undoubtedly have. Not only as a result of being trafficked into the country, their isolation and the sudden moves of home they have had to make with their family. Whilst the father has some understanding on English the mother has none, they have needed interpreters when they have been seen by professionals and when they gave their oral evidence. I readily acknowledge that assessing credibility can be difficult when someone is giving evidence in another language and account must be taken of this. I have also factored in the cultural considerations and what they may consider are their different ways of bringing up children. I have also carefully considered the fact that whilst they may have been untruthful about one aspect, it does not necessarily follow that the remainder of their evidence is unreliable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">Even making all those allowances I have reached the conclusion that the parents evidence is not reliable where it conflicts with that relied on by the LA. I have reached that conclusion for a number of reasons.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">There are a number of aspects of their evidence that are not credible. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">First, the evidence about the reasons why the older three children&#8217;s school attendance was so poor. The reference to continuing concerns regarding bullying at school is not supported by any of the other evidence. None of the information from the school refers to it. It was not raised with the allocated social worker JJ in her detailed recordings of her involvement with the family. It is not mentioned in the six statements filed by the parents, two from the mother and four from the father.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Second, the evidence that they did not visit S on any other occasions as they could not afford the travel expenses is not supported by the contemporaneous recordings made by JJ that the hospital would pay for those expenses and the particular arrangements put in place for this to be done by the ward sister.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Third, the reasons for the failure to attend the appointment with Dr Frith which were only put forward during this hearing. The issue of travel expenses had not been raised before save in a limited way between the mother and her solicitor, as described above. However, the records at the time make no mention of this between the parties either before or after the failed appointment or in the documents filed by the parties for the hearing before me on 20 March 2013.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">My assessment of the parents is that they simply cannot take responsibility for the deficits in their parenting, as outlined by the LA and their only way of responding is to say they are all made up. Their position was inherently implausible when the evidence was drawn from such wide sources.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">As a result where the evidence of the LA conflicts with the parents I prefer the evidence of the LA in relation to the factual background that underpins the LA case that the threshold criteria are met.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This is a case with stark choices. The LA plan, supported by the Children&#8217;s Guardian, involves placement of MA, MO, J and S away from their birth family and, in part, being in separate placements. That is a very draconian step. The parents seek the return of all children to their care. No party has realistically suggested any further assessment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The parent&#8217;s position is that they can see no justification for the LA concerns, let alone any evidential basis to establish the threshold criteria. In their oral evidence the parents, particularly the father, made it clear they considered the social workers had made up the evidence in their statements. Whilst this court is not unfamiliar with parents feeling the social workers have exaggerated their evidence it is rare for the suggestion to be it is effectively all made up. In considering the parents position I am very conscious of the very difficult circumstances in which they arrived in this country. It is accepted they and their family were trafficked. They have had to endure moving to a new area, albeit with the support of specialist organisations. Their spoken English is limited and they have required interpreters to give instructions and oral evidence. The parents are convinced that they have been discriminated against by the LA because the family are of Roma origin. They repeat this at every opportunity without examining or considering the underlying evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The difficulty with the parent&#8217;s position is that there is no evidence to support their position, if anything all the evidence points the other way. The support given by JJ, who was the first allocated social worker in September 2011 when the family arrived in D. She has attached to her statement dated 30 August 2012 a detailed schedule of support given to the family by her and other professionals, which has not been challenged. It demonstrates support given in assisting the family improve their housing, getting school and nursery placements for the children, travel expenses, liaising with other agencies (for example attending the schools at the request of the parents), assisting with claims for financial and other support as well as undertaking regular social work home visits with an interpreter. It is difficult to see how such a level of support can found a basis for suggesting this family had been discriminated against. In her oral evidence JJ described how she considered she had a good working relationship with the family at the start, in particular the children, but this became increasingly difficult. It was clear the father&#8217;s attitude was becoming increasingly entrenched. JJ was refused entry to the family home; she had to see the children at school. The Guardian&#8217;s assessment is that the parents willingly accepted the practical support from the LA, but the moment their parenting was questioned the barriers came down. I agree.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Following the interim care orders a new social worker and team manager were allocated to the case, from a different team. It was hoped that change would help move matters forward. They decided to undertake a parenting assessment in October and November. Unfortunately the resulting report merely provided yet another example of the parents&#8217; uncompromising and entrenched attitude. They were simply unable to prioritise the children&#8217;s welfare over their own agenda. Whilst the mother&#8217;s position is somewhat less hardened than the fathers, they present themselves as joint carers and my assessment is that the father has the controlling influence in the relationship. This is perhaps best evidenced by the mother&#8217;s failure to persuade the father to sign the contact agreement and attend contact.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I have carefully considered the detailed written submission made by Mr Pidduck that essentially the LA process was flawed as the combination of the police attendance at the family home on 6 August, the terms of the draft contact agreement, the failure to accede to an ISW assessment, and the suggestion that the LA had made their mind up at an early stage in the proceedings provides some justification for the father&#8217;s position in not co-operating or having confidence in the LA. I consider there are a number of difficulties with that submission and I reject it. First, in the light of the information before the LA on 6 August and the father&#8217;s behaviour they cannot be criticised for referring the matter to the police in the way they did. Having considered the oral evidence of AC I am satisfied that she embarked on the parenting assessment with an entirely open mind. It was a careful piece of work which gave the parents every opportunity to participate in, separately and together. The assessment demonstrates again that the father was simply unable to discuss the LA concerns about his parenting, as he simply would not accept them. It was accepted by the parents that the assessment by Dr Frith was an important preliminary step before considering as ISW assessment. The position statement on behalf of the father at the hearing on 25 January stated <span style="font-style:italic">&#8216;the merits of awaiting the outcome of the psychological assessment [before pursuing an assessment by an ISW] are recognised and, subject to instructions from the father, this application will not be pursued at this stage.&#8217;</span> The father gave those instructions as the ISW assessment was not pursued at that hearing. The parents failed to attend the appointment with Dr Frith for reasons which were only advanced for the first time during this hearing, nearly three months after that failed appointment. So even if the court accepts (which I don&#8217;t) the analysis advanced on behalf of the father he failed to attend the appointment that could provide the foundation for the independent assessment he said was required.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Dealing first with the threshold criteria. I am entirely satisfied on the evidence it is met. Prior to the commencement of the proceedings each of the children were suffering significant harm which was attributable to the care they were receiving from their parents. The main evidential foundations of this harm were the failure of the parents to ensure the older three children attended school with consequent harm to their emotional, social and educational development; their failure to properly supervise MA and MO; all the children appearing at times to be dirty and unkempt; failure to visit S in hospital, failure to prepare for his discharge and provide him with consistent care on his discharge home; over chastising the children either physically (MA and MO) or verbally. I am satisfied that the harm suffered by the children is attributable to the care given to them by the parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I am not satisfied that the evidence in relation to missed medical appointments meets the required standard of proof due to the change of address in the early part of 2012 and the parents&#8217; difficulties in communicating due to the language barrier. Also, I am not satisfied that the suggestion that J was kept away from nursery is sufficiently clear on the evidence and in my judgment does not meet the required standard of proof.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"> Having found that the threshold criteria are met it is necessary to then go on and consider what, if any, orders should be made bearing in mind the requirement that each child&#8217;s welfare is the courts paramount consideration, having regard to the welfare checklist set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 1 (3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> and the need to consider the parents and children&#8217;s right to family life and that any interference with that must be proportionate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">I have reached the clear conclusion that the order that meets the welfare needs of each of the younger four children is care orders. I have reached that conclusion for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">MA does not wish to return home. Whilst that may be related to being settled in his placement, he shows some anxiety when he has contact with his mother. He has said he would like to see his father but does not want him to be angry. This perhaps reflects his experience of his father when living at home. MO has found it more difficult, he clearly misses his family, in particular his mother. Neither MA or MO have expressed any wish to return to Slovakia. J and S are too young to express any wishes.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Their physical, emotional and educational needs were not being met when they were living in the family home. On the evidence there is little prospect of these needs being met if they returned to live at home. The parents have made it clear they do not accept the concerns about their parenting in the past and, in effect, can see no basis to change how they parented the children in the past. Without any insight there is no prospect for any change. MA and MO have become more settled at school and their behaviour has improved. MA did leave school last Friday to return home. I consider it is more likely than not that the parents had some involvement in that. They took no steps to return MA when they became aware of him being at their friends house, they did not contact the authorities (although the father states he did in his most recent statement) and there is no evidence to corroborate any contact with their solicitors. It has all the hallmarks of the parents being behind this as a last ditch attempt to bolster their case this week by trying to demonstrate that MA wishes to return home. What their actions have done is increase his anxiety as so graphically described by Mr P in his oral evidence.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.38in">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">I am entirely satisfied on the evidence that if the children returned to the care of their parents there would be no change in the parenting or care they received prior to being placed with foster carers. The parents can see no basis to change as, in their view, all the evidence has been made up. They will, in my judgment, not accept any social work intervention or support that questions their parenting. Therefore each of the children, if they return to the care of their parents, are likely to continue to suffer harm.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.38in">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">Whilst the LA plan involves separation of the siblings, that has to be weighed in the balance with the other considerations. Sibling relationships are important and the research evidence suggests the most enduring relationship. J and S will be placed together, although they will not have the benefit of direct contact with their older siblings. This has to be balanced with their need for security and stability due to their age. Whilst MA and MO will be in separate placements the plan envisages regular sibling contact between themselves and with L. They will lose the benefit of direct contact with J and S and will need to be considered carefully as part of their life story work.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.38in">(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">The parents rightly emphasise the Roma origins of the children and their Catholic faith. The evidence suggests that none of the placements proposed for the children by the LA will be with a Slovakian family, whether of Roma origin or not. This is an important consideration, but it cannot determine or overshadow other welfare considerations. As RR and Ms Royle described in their evidence this aspect of the children&#8217;s identity and origin can be dealt with in placements in a number of ways. The LA have made significant efforts to try and gather information to help with this from the parents and other agencies. Whilst it can never replicate living within the birth family what it can do is make sure that aspect of each of the children&#8217;s background is properly recognised by those who care for them.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.38in">(6)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">Each of the children has suffered harm. I am satisfied they are each at risk of future harm if returned to the care of their parents. This is due to the inability of the parents to recognise the deficits in their parenting in the past, and that harmful parenting is likely to continue in the future. There is little or no prospect of the parents accepting parenting advice and support in the future. Put simply they see no need to change.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.38in">(7)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">I have carefully considered, even though it was not part of any parties case, whether it is necessary for the court to have any further assessments of the parents. I am entirely satisfied I don&#8217;t. For the reasons set out above I do not accept the reasons why the parents did not attend the appointment with Dr Frith. It is revealing they don&#8217;t suggest any further assessment themselves. In reality I doubt they saw any need for it in the first place; this is consistent with what they said at the LAC review in January.  Their views about there being no need for them to change are entrenched.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Having considered the welfare checklist and balancing all the relevant considerations I am satisfied that the only orders that will meet the welfare needs of the children are care orders.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In relation to L there is very little dispute as to the type of order if I find the threshold satisfied, which I do. I am satisfied that a supervision order meets his welfare needs. It will ensure he remains living with his parents, which accords with his wishes. It will ensure he retains an allocated social worker, at least during the currency of the supervision order. It will help provide a structure to support him in his educational and emotional needs. Finally, it will enable him to access support, independent of his parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">I have considered carefully the parents proposals for the children to be placed in the Slovak Republic. I note this has the support of the Slovakian Central Authority. The court is extremely grateful for all the work that has been undertaken by the Central Authority in setting out what would be available. However I am satisfied that such a move for these particular children will not meet their welfare needs for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">The position of the parents is far from certain. They propose that they would return to Slovakia and stay with the father&#8217;s brother. There is no evidence before the court, other than their uncorroborated oral evidence of what this would involve. No detail is given in their recent statements. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Whilst it would have the benefit of the children being placed together and would help meet their cultural and identity needs, there are no details of timescales for any placement beyond residential care. The move would very likely cause them further emotional harm as described by Mr Hall in the closing submissions on behalf of the Children&#8217;s Guardian.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">On the information available the type of care proposed is very different to what the children have experienced so far and are clearly settled in.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">MA or MO do not wish to go. The younger two children have no memory or understanding of life in Slovakia.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">There were arrangements made in this jurisdiction for the parents to be assessed by a Slovak speaking expert which they failed to attend.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The last matter I have to consider are the placement order applications for J and S. The courts paramount consideration is J and S&#8217;s welfare throughout their lives, having regard to the matters set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">I have reached the conclusion that each child&#8217;s welfare requires the parents consent to be dispensed with, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/52/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 52(1)</ref>(b) <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref>,  for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Whilst the children are too young to express their wishes and feelings they require good quality care throughout their lives and to have the opportunity to have security and stability and lifelong relationships.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Both children are of Roma Slovakian origin and any placement will need to be sensitive to their needs and identity. They should be placed together to ensure their strong sibling relationship is maintained.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Bearing in mind their age they are likely to make the transition to an adoptive family more easily, as they have the foundation of the consistent care they have received with the current foster carer. The loss of direct contact with their mother and older brothers is unlikely to have a significant impact on their day to day life. Only J may have limited memory of his father due to the fact they have not seen him for six months. The loss of direct contact is unlikely to have any adverse impact. The significance of these relationships can be maintained through indirect contact and life story work. If placed together they have the benefit of being placed together as siblings in a lifelong relationship. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Both children are of Roma Slovakian origin and their parents are practising Catholics.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Both children have suffered significant harm and, for the reasons outlined above, are likely to suffer harm in the future.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">J has a limited relationship with his father and brother L as he has not seen them for many months. His relationship with his mother and MA and MO is stronger as he has seen them more regularly. S enjoys his contact with his mother and his brothers but has not developed a strong attachment to them. His relationship with his father is virtually non-existent as he has not seen him. It is clear on the evidence of the dynamics of the family that direct contact cannot continue with either the parents or J or S&#8217;s older siblings. They will need to be supported through indirect contact and life story work.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(7)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">Neither the parents, or any other family member are available to care for J or S in a way that would meet their welfare needs.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(8)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">There can be no doubt the parents wish to care for J and S and each strongly object to the plans to place the children for adoption, in particular because of the impact such an order would have on their Roma identity. But the children&#8217;s welfare needs for long term security and stability outweigh this consideration.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I agree with the proposals for contact in the revised care plans put before the court as meeting the welfare needs of the children. I reject Ms Sparrow&#8217;s submission, on behalf of the mother, that there should be more extensive contact at this stage. The contact will and must be kept under active review by the LA. MA and MO&#8217;s welfare needs will be met by continuing good quality contact with their parents and older brother, providing it does not undermine their placement and need for long term security and stability. I was informed there is an Independent Reviewing Officer allocated, Mr A, who will oversee the implementation of the care plans. I sincerely hope there can be some constructive discussions with the father to enable him to have contact with MA and MO. If that is not possible I give the LA permission to refuse contact pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/34/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 34 (4)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I fully acknowledge this decision is not what the parents wanted. But what they proposed did not, in my judgment, meet the welfare needs of these particular children.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

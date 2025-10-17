@@ -1,0 +1,642 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2013/242"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2013/242"/>
+	  <FRBRdate date="2013-02-15" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="242"/>
+	  <FRBRname value="A Local Authority v K"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2013/242"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2013/242"/>
+	  <FRBRdate date="2013-02-15" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2013/242/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2013/242/data.xml"/>
+	  <FRBRdate date="2024-11-06T23:16:23" name="transform"/>
+	  <FRBRdate date="2024-11-29T11:57:09" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2013-02-15" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewcop" href="https://www.gov.uk/courts-tribunals/court-of-protection" showAs="The Court of Protection"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A Local Authority"/>
+	<TLCPerson eId="a-nhs-trust" href="" showAs="A NHS Trust"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-cobb" href="/judge-the-honourable-mr-justice-cobb" showAs="THE HONOURABLE MR JUSTICE COBB"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCOP</uk:court>
+	<uk:year>2013</uk:year>
+	<uk:number>242</uk:number>
+	<uk:cite>[2013] EWCOP 242</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>c7f35ddbc51299e3f4def7f134c0ead35076cb4fed20839625d03fc5ca5ec773</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BodyTextIndent { font-size: 12pt; color: initial; }
+#judgment .BodyText { font-size: 12pt; color: initial; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .FootnoteReference { color: #000000; }
+#judgment .BodyTextIndentChar { font-size: 12pt; }
+#judgment .BodyTextChar { font-size: 12pt; }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText"><span style="font-family:Times">Case No: COP 12177341</span></p>
+      <p><courtType refersTo="#ewcop" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Times">IN THE COURT OF PROTECTION</courtType></p>
+      <p><docTitle style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Times">IN THE MATTER OF THE MENTAL CAPACITY ACT 2005</docTitle></p>
+      <p class="CoverText"><span style="font-family:Times">Royal Courts of Justice</span></p>
+      <p class="CoverText"><span style="font-family:Times">Strand, London, WC2A 2LL</span></p>
+      <p class="CoverText"><span style="font-family:Times">Date: </span><docDate date="2013-02-15" refersTo="#judgment" style="font-family:Times">15/02/2013</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Times">Before</span><span style="font-family:Times"> :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-cobb" style="font-family:Times">THE HONOURABLE MR JUSTICE COBB</judge></p>
+      <p style="text-align:center"><span style="font-family:Times">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Times">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a-local-authority" style="font-weight:bold;font-family:Times">A Local Authority</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant" style="font-family:Times">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:Times">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:Times">K</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:Times">(by the Official Solicitor)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:Times">Mrs K and Mr K</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a-nhs-trust" style="font-weight:bold;font-family:Times">A NHS Trust</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-family:Times">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-family:Times">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:Times">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Times">Mr. John McKendrick </span><span style="font-family:Times">(instructed by</span><span style="font-weight:bold;font-family:Times"/><span style="font-family:Times">the</span><span style="font-weight:bold;font-family:Times"/><span style="font-family:Times">County Solicitor) for the Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Times">Ms. Amy Street</span><span style="font-family:Times"> (instructed by Bindmans) for &#8216;K&#8217;, the 1</span><span style="vertical-align:super;font-size:smaller;font-family:Times">st</span><span style="font-family:Times"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Times">Mr and Mrs K</span><span style="font-family:Times"> in person</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Times">Ms. Bridget Dolan</span><span style="font-family:Times"> (instructed by Brachers) for A NHS Trust, the 4</span><span style="vertical-align:super;font-size:smaller;font-family:Times">th</span><span style="font-family:Times"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:Times">Hearing dates: 11 February 2013</span></p>
+      <p style="text-align:center"><span style="font-family:Times">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:center">THE HON. MR. JUSTICE COBB</p>
+	    <p style="text-align:justify">This judgment is being handed down in private on <span style="font-family:Times">15/02/2013</span>. It consists of 9 pages and has been signed and dated by the judge.  The judge hereby gives leave for it to be reported.</p>
+	    <p style="text-align:justify">The judgment is being distributed on the strict understanding that in any report no person other than the advocates or the solicitors instructing them (and other persons identified by name in the judgment itself) may be identified by name or location and that in particular the anonymity of the children and the adult members of their family must be strictly preserved.</p>
+	    <p><span style="font-weight:bold;font-family:Times">The Hon. Mr. Justice Cobb :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">This judgment follows a hearing in open court and is a public document. At a previous hearing, a reporting restriction order was made as being necessary to protect the privacy of the subject of these proceedings, &#8216;K&#8217;, and of those who surround and care for her. In summary, the Applicant is to be referred to as &#8216;A Local Authority&#8217;, the First Respondent as &#8216;K&#8217;, the Second and Third Respondents, her parents, as &#8216;Mr and Mrs K&#8217;, and the NHS Trust which is concerned with treatment issues (Fourth Respondent), &#8216;A NHS Trust&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">K is, by every account, a delightful, warm, engaging and affectionate young woman.  She was born with Down&#8217;s Syndrome and has an associated mild/moderate learning disability.  She is 21 years old.   She is a day student at a specialist college for people with learning disabilities.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">K is cared for by her parents, together with her older brother; theirs is a loving, close, devoted and supportive family.  There is a large extended family both here and abroad; K has, from time to time, travelled abroad to visit her relatives.  In every respect in which I have read about the care which K receives at home, there is nothing but praise for Mr and Mrs K, and their devotion to K.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">K is the First Respondent to proceedings brought by A Local Authority (the authority responsible for K&#8217;s social welfare) for a best interests&#8217; determination in relation to issues of contraception for, and sterilisation of, K.   The application was issued in July 2012.  By that application, A Local Authority sought declarations in relation to sterilisation and contraception and (given the perceived immediate risk that Mr and Mrs K may wish to remove K abroad for the purposes of sterilisation) an injunction to restrain the removal of K from this jurisdiction for that purpose.  The application was appropriately brought to this Court under the provisions of the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref></span><span style="font-family:Times">; the application in my view engages important considerations  under </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times">article 8</span><span style="font-family:Times"> (right to respect for private and family life) and </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times">article 12</span><span style="font-family:Times"> (right to found a family).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Background</span>:</p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">K was born in August 1991; she has lived all her life in the care of her family. Over recent years, Mr and Mrs K have become increasingly concerned that as K becomes older their ability to control and supervise aspects of her life will be reduced (in some respects appropriately so), and consequently the risks of her engaging in both wanted and unwanted sexual activity increase.  Were K to become pregnant at any time in the future they believe this would have a seriously adverse effect upon her.   They have particular concerns about her college attendance when they have less ability to supervise K.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">In 2010 they sought medical advice about contraception from their general practitioner; under local anaesthetic, a hormonal implant (Implanon) was inserted into K&#8217;s arm.  The procedure was difficult and traumatic for K (and her mother); the effect of the hormonal implant was to change K&#8217;s temperament significantly over the following months; she became difficult to manage.  Accordingly, in a further (difficult) procedure some few months later, the implant was removed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">In October 2011, at her parents&#8217; request, K was referred by her GP to a gynaecologist at the NHS Trust to consider sterilisation.  They saw Dr. X, Consultant Obstetrician and Gynaecologist; Mr and Mrs K expressed the clear view that K should be sterilised.  Dr. X initially supported Mrs K&#8217;s request for sterilisation for K.  He reported as follows: &#8220;[</span><span style="font-style:italic;font-family:Times">Mrs K] was adamant that she wanted [K] to have laparoscopic sterilisation. In view of this I agreed to the procedure&#8230;</span><span style="font-family:Times">&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">Dr. X&#8217;s recommendation for sterilisation of K was brought to the attention of a Matron for Safeguarding Vulnerable adults, who advised that due to the nature of the treatment, there was a need for a best interests meeting and a second opinion.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">A second opinion was sought from Dr. Y, another Consultant Obstetrician and Gynaecologist within the Trust. She expressed the view that if contraception were to be provided, the least restrictive contraceptive option for K would be a mirena coil. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">The issue of K&#8217;s possible sterilisation was considered at &#8216;best interests&#8217; meetings which were convened first on 28 November 2011 and secondly on 13 June 2012. These meetings involved staff from the Trust together with K&#8217;s parents; the second meeting also included representatives of the Local Authority.  The conclusion of the second meeting was that a non-therapeutic sterilisation was not in K&#8217;s best interests; it was proposed that given the difference of view between Dr. X and Dr. Y a further (third) gynaecological opinion would be sought from Dr Z.  At that time, it appears not to have been the intention of the Local Authority to direct the issue of sterilisation to the Court, or to sanction any specific treatment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">Following the 13</span><span style="vertical-align:super;font-size:smaller;font-family:Times"/><span style="font-family:Times">June 2012 meeting, Mrs K wrote to Dr. X (17 June 2012) as follows: &#8220;</span><span style="font-style:italic;font-family:Times">we feel that to do nothing [in relation to the sterilisation or contraception] is a very unsatisfactory outcome &#8230; it is our intention in the future and before [K] leaves our care to take her abroad to seek assistance with this matter both privately and confidentially</span><span style="font-family:Times">&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">Given the threat of removal of K from the jurisdiction for the purpose of sterilisation, and the imminence of the long summer holiday when K would not be seen at school, the Local Authority issued proceedings (11 July 2012).   The matter came before Moor J. (13 July 2012).  The parents attended the hearing in person, and freely gave undertakings not to remove K from the jurisdiction. K was joined to the proceedings, as was the NHS Trust.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">During the currency of proceedings, Dr. Z provided his opinion (2 October 2012); he concluded that K did not need contraception at the moment but that K&#8217;s contraceptive needs should be reviewed regularly if she was aiming to move to independent living.  Importantly, he observed that IUD / IUS implants were currently recommended as the first line contraceptive in adolescent girls; he opined that only if K is sexually active </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times">and</span><span style="font-family:Times"> an IUS has been shown to be unsuccessful should (hysteroscopic) sterilisation be considered.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">Within those proceedings, A Local Authority and the Official Solicitor jointly commissioned a report from Dr. Samuel Rowlands, Clinical Lead in Community Sexual and Reproductive Health at Dorset Healthcare University NHS Foundation Trust, and Honorary Associate Professor at Warwick Medical School.  His report (12 January 2013) is clear and informative, revealing an appropriate depth of knowledge of this subject; he appends to the report a table setting out the comparative methods of contraception (in order of increasing restrictiveness) and their effectiveness.  He discusses sensitively and in plain language the contraception options for K.  He then opines, significantly, as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(a)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:Times">there is no clinical need to treat K&#8217;s menstrual symptoms, she does not have a pre-menstrual syndrome;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(b)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:Times">it is not in K&#8217;s best interests to receive contraception at this time; there are no benefits, because:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:Times">K does not have any period problems which might benefit from contraception;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:Times">she is not running the risk of pregnancy;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in;text-indent:0.01in"><span style="font-family:Times">if the current level of supervision in the community is maintained and it is accepted K does not show signs of initiating a sexual relationship, contraception would not be in her best interests;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:Times">it is not justifiable to expose K to the disadvantages of the various contraceptive interventions.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(c)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:Times">should K develop an intimate relationship with a male partner and it was in her best interests to continue this, then she should receive contraception;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(d)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:Times">if a contraceptive intervention were to be used then a intrauterine device would be in her best interests;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.49in"><span style="font-family:Times">and finally and crucially:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(e)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:Times">sterilisation is not in K&#8217;s best interests and is not the least restrictive option.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">Mr and Mrs K &#8211; acting in person in this case &#8211; also reviewed Dr. Rowland&#8217;s report favourably; they observed (in an e-mail to the parties: 5.2.13) that it was &#8220;</span><span style="font-style:italic;font-family:Times">very well written and very informative.  It detailed and fully explained the issues that gave us cause for concern &#8230;</span><span style="font-family:Times">&#8221;.  In a forensic world in which self-representing litigants increasingly populate our courts, it is vitally important that an expert writes his or her report in a manner which is accessible and intelligible to all; Mr and Mrs K&#8217;s compliment is well-made. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">The opinion expressed by Dr. Rowlands is explicitly endorsed by Dr. Y and Dr. Z.  Dr. X has also reviewed it and has concurred that doing nothing at present is the least restrictive option; he has not sought to argue that his initial recommendation of sterilisation should be preferred over Dr. Rowland&#8217;s opinion. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">In the weeks leading up to the hearing, K has suffered some minor gynaecological problems, which have understandably caused her parents some additional concern.  It appears that at least in part for this reason, the parents are no longer supporting sterilisation at this stage (see below).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold;font-family:Times">The position of the parties</span><span style="font-family:Times">:  </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">At the outset of the hearing, it became clear that there was a large measure of agreement between all of the parties.  I give this short judgment:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(a)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">To deal with the (narrow but important) issue which separates the parties;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(b)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">At the invitation of counsel for A Local Authority, the Official Solicitor, and the NHS Trust, to highlight the procedure and practice issues which arise in a case where medical professionals are confronted with an issue such as proposed non-therapeutic sterilisation for a person lacking capacity.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">The parties agree that it is not in K&#8217;s best interests to receive any form of contraception at present as she is not currently sexually active and does not currently show interest in sexual relations.  Further it is apparent that she is well supervised at home and in the community.  It is the joint expectation of the parties (and this will be recorded on the face of the final Order in these proceedings) that the issues to which the proceedings give rise will not in fact need to be the subject of further best interests decisions, unless there are significantly changed circumstances relating to (a) K&#8217;s level of interest in intimate or sexual relations with others and/or (b) the assessment of risk that K will be the subject of sexual exploitation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">The issue which divides the parties is whether I should declare in these proceedings at this stage that it is not in K&#8217;s best interests to be the subject of a sterilisation procedure (on the basis that such a procedure would not be the least restrictive option), so that there is clarity should a &#8216;best interests&#8217; determination have to be made &#8216;on the ground&#8217;.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">The Applicant Local Authority (supported by the Official Solicitor and the NHS Trust) rely on the report from Dr. Samuel Rowlands; as indicated above he does not support sterilisation for K, as this is not the least restrictive option; Mr and Mrs K do not agree, and argue that in reality it is.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">By e-mail circulated on 5 February 2013 (i.e. shortly before the hearing), Mr and Mrs K indicated that they agreed &#8220;</span><span style="font-style:italic;font-family:Times">with all other parties that [K] should not be sterilised and that any other form of contraception should not be considered at this time</span><span style="font-family:Times">&#8221;.  In the hearing before me they emphasised the words &#8220;</span><span style="font-style:italic;font-family:Times">at this time</span><span style="font-family:Times">&#8221;.  They do not agree that sterilisation is not the least restrictive option for her; they believe that while it is not appropriate at present, they would not want to rule it out as an option for the future.  They add (per e-mail, ibid.) &#8220;</span><span style="font-style:italic;font-family:Times">[w]e realise that this leaves the case open-ended as at some time in the future these issues may have to be re-visited if the need should arise</span><span style="font-family:Times">&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold;font-family:Times">Capacity</span><span style="font-family:Times">:  </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">The first issue for me to consider is K&#8217;s capacity.  In assisting me to make a determination under </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times">section 2</span><span style="font-family:Times"> and </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times">section 3</span><span style="font-family:Times"> of the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref></span><span style="font-family:Times">, I have seen a report from Dr. D.  Having reviewed the material, and met with K, he concluded that K has a significant mental impairment, with a full scale IQ of less than 70 and Down&#8217;s Syndrome. Specifically, he comments, K lacks capacity to deal with the specific issues of contraception and sterilisation which are before the court.  Rightly, no party raises an issue in these proceedings about capacity.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">In evaluating capacity in circumstances concerning sterilisation and contraceptive treatment, I remind myself of the test formulated by Bodey J in </span><span style="font-style:italic;font-family:Times">A Local Authority v A </span><span style="font-family:Times"><ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2010/1549" uk:canonical="[2010] EWCOP 1549" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWHC 1549 (COP)</ref>; [2010] COPLR Con Vol 138 at para.64.  The test for capacity to be applied to ascertain a woman's ability to understand and weigh up the immediate medical issues surrounding contraceptive treatment includes consideration of:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(a)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the reason for contraception and what it does (which includes the likelihood of pregnancy if it is not in use during sexual intercourse);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(b)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the types available and how each is used;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(c)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the advantages and disadvantages of each type; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(d)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the possible side-effects of each and how they can be dealt with; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(e)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">how easily each type can be changed; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(f)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the generally accepted effectiveness of each. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">There is no doubt, having regard to the report of Dr. D, that K would not have capacity to understand and weigh up the immediate medical issues identified above.  I find that she lacks capacity in this regard and that I should therefore consider making a decision in her best interests.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold;font-family:Times">Best interests</span><span style="font-family:Times">:  </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">Any decision made or endorsed by the Court in a case such as this must, by statute, be taken in the best interests of K (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref></span><span style="font-family:Times">), with regard to the fact that the decision should be the &#8220;</span><span style="font-style:italic;font-family:Times">least restrictive</span><span style="font-family:Times">&#8221; of K&#8217;s rights and freedom of action (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/1/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(6)</ref></span><span style="font-family:Times">).  In reaching a conclusion on her best interests, I have had regard to the provisions of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref></span><span style="font-family:Times">, and to &#8220;</span><span style="font-style:italic;font-family:Times">all the relevant circumstances</span><span style="font-family:Times">&#8221; (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(2)</ref></span><span style="font-family:Times">).  Those circumstances include all &#8220;</span><span style="font-style:italic;font-family:Times">medical, emotional and all other welfare issues</span><span style="font-family:Times">&#8221; concerning K (borrowing the language of the pre-</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref></span><span style="font-family:Times"> Court of Appeal decisions of </span><span style="font-style:italic;font-family:Times">Re MB (Medical Treatment)</span><span style="font-family:Times"> <ref href="#" uk:canonical="[1997] 2 FLR 426" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] 2 FLR 426</ref> at 429, and </span><span style="font-style:italic;font-family:Times">R-B v Official Solicitor: Re A (Medical Sterilisation)</span><span style="font-family:Times"> (1999) 53 BMLR 66).   In this respect, I have of course had regard to the method of achieving the sterilisation (involving the necessary hospitalisation of K), the likely permanence of the procedure, and the interference with K&#8217;s physical integrity.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">In reaching a decision I have also paid significant attention to the views of K&#8217;s parents (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Times"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(7)</ref></span><span style="font-family:Times">).  They appeared in person in court before me; bravely and emotionally, Mrs K spoke for the couple in advancing to me why they believe that sterilisation is (or may well be) the right procedure for K.  In particular, I have noted, and understand, Mrs K&#8217;s plea that in the event that K has to undergo general anaesthetic for any contraceptive procedure (which would be indicated for the insertion of an IUCD), then it would be fairer to K for her to be sterilised so that the issue of future contraception is resolved &#8216;once and for all&#8217;.  I have no doubt that Mr and Mrs K are deeply concerned to do what is best for K, and that the views expressed by them sincerely reflect what they believe to be best for K.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">In reaching my conclusions, I have also had regard to the statements of the social worker; these reflect an intuitive understanding of the issues, and proper acknowledgement of the important role of the parents in K&#8217;s life.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold;font-family:Times">Conclusions</span><span style="font-family:Times">:  </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">It is in K&#8217;s best interests that I should bring as much clarity to medical treatment issues now as I can.  I endorse the view expressed by Dr. Z that </span><span style="font-style:italic;font-family:Times">&#8220;the processes for repeated assessments and best interests meetings will be time consuming and stressful&#8221;</span><span style="font-family:Times">.  I recognise that these issues may need to be re-visited in the future but in my judgment it is right that I should endeavour to bring as much clarity now as I can. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">No-one can doubt the seriousness and significance of a sterilisation procedure.  Further surgery would be required to reverse it (involving a laporotomy) and then only with a moderate prospect of success.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">I have weighed up the competing benefits and disadvantages of the sterilisation procedure now and in the future.  The parties concur that no step needs to be taken right now.  Although Mr and Mrs K expressed concerns that K is occasionally &#8216;tactile&#8217; and &#8216;over-familiar&#8217;, that she has begun to be more aware of the &#8216;opposite sex&#8217;, and is vulnerable to sexual exploitation, I note that K is well-supervised at home and at college; there is no evidence that she is seeking a sexual relationship.  I note that she is working with the Community Nurse Learning Disability to help her to reduce her vulnerability around others.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">While sterilisation is particularly effective at preventing pregnancy (5 in 1000 lifetime pregnancy risk if Filshie clips are used), I bear in mind that there are potential complications of the procedure too (in 2 out of 1000 cases there is a major complication such as damage to the bowel or bladder).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">I have sought to achieve the right balance between protection and empowerment as advised by Dr. Rowlands.  Having regard in particular to his carefully expressed opinion, it is my judgment that sterilisation would be a disproportionate (and not the least restrictive) step to achieve contraception for K in the future (absent significant change in her circumstances).  Plainly risk management is better than invasive treatment, it is less restrictive.  Moreover, I am persuaded by Dr. Rowlands that there are less restrictive methods of achieving the purpose of contraception than sterilisation, and that in the event of a need for contraception, these ought to be attempted.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">It is in K&#8217;s interests that I should make this declaration now; I do not believe that it is in K&#8217;s interests that this issue should be left unresolved; plainly it may need to be litigated at some point in the future but only if there has been a significant change in circumstances.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold;font-family:Times">Practice / Procedure</span><span style="font-family:Times">:  </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">On the reading of the material before me it appears that Dr. X may not have been aware of the need to refer the question of non-therapeutic sterilisation to the Court of Protection; indeed the Local Authority&#8217;s actions in bringing the proceedings appear to have been prompted more by the perceived need for injunctive relief than necessarily for the declaration itself.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">Referral to the Court of Protection in a case such as this could and should always be considered at the earliest moment in accordance with the Rules (see in particular </span><span style="font-style:italic;font-family:Times">Practice Direction 9E</span><span style="font-family:Times"> to the </span><span style="font-style:italic;font-family:Times">Court of Protection Rules 2007</span><span style="font-family:Times">, and </span><span style="font-style:italic;font-family:Times">Para.6.18</span><span style="font-family:Times"> and </span><span style="font-style:italic;font-family:Times">Paras.8.18-8.29</span><span style="font-family:Times"> of the </span><span style="font-style:italic;font-family:Times"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> Code of Practice</span><span style="font-family:Times">).  I take this opportunity to remind medical (and, where relevant, legal) practitioners of the Court of Protection&#8217;s role in considering a question of non-therapeutic sterilisation.  Such a treatment decision is so serious that the Court has to make it.  In particular I advise that particular note is made of the process as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(a)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The decision of whether someone who lacks capacity to consent should have a non-therapeutic sterilisation is a question involving &#8220;serious medical treatment&#8221; (see <span style="font-style:italic">Practice Direction E (PD9E)</span> &#8211; Applications relating to serious medical treatment).  Non-therapeutic sterilisation is specifically identified in this category (see <span style="font-style:italic">Paragraph 5(c)</span>);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(b)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A question concerning non-therapeutic sterilisation of a person who lacks capacity to give consent &#8220;<span style="font-style:italic">should be brought to the court</span>&#8221; (<span style="font-style:italic">Para.5</span> ibid.);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(c)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Where a question arises as to non-therapeutic sterilisation of a person who lacks capacity to consent, the proposed applicant (whether it be carer, local authority or trust), can (indeed I suggest should) usefully discuss the application with the Official Solicitor&#8217;s department before the application is made (see <span style="font-style:italic">PD9E para.8</span>): such cases <span style="font-family:Arial">should be addressed to a family and medical litigation lawyer at the Office of the Official Solicitor,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(d)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The organisation which is, or will be, responsible for providing clinical or caring services to P should usually be named as a respondent in the application form (where it is not already the applicant in the proceedings);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(e)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Proceedings of this kind must be conducted by a judge of the Court of Protection who has been nominated as such by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/46/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46(2)</ref>(a) to (c) of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">the Act</ref> (i.e. the President of the Family Division, the Chancellor or a puisne judge of the High Court) (<span style="font-style:italic">Para.12 PD9E</span>);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(f)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">At the first hearing of the application the Court will consider</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.38in;text-indent:-0.39in">i)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.38in">whether P should be joined as party to the proceedings, and give directions to that effect; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.38in;text-indent:-0.39in">ii)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.38in">if P is to be joined as a party to the proceedings, decide whether the Official Solicitor should be invited to act as a litigation friend or whether some other person should be appointed as a litigation friend; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.38in;text-indent:-0.39in">iii)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.38in;text-indent:0.11in">identify anyone else who has been notified of the proceedings and who has filed an acknowledgment and applied to be joined as a party to proceedings, and consider that application; and </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.38in;text-indent:-0.39in">iv)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.38in">set a timetable for the proceedings including, where possible, a date for the final hearing. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(g)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Note that the hearing will generally be in public, given the nature of the application, although the Court will ordinarily make an order pursuant to <span style="font-style:italic">Rule 92</span> that restrictions be imposed in relation to publication of information about the proceedings.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">Where a declaration is needed, the order sought should be in the following or similar terms: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(a)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">That P lacks capacity to make a decision in relation to the [proposed medical treatment or procedure]. e.g. &#8220;That P lacks capacity to make a decision in relation to sterilisation by [named procedure]&#8221;; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(b)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">That, having regard to the best interests of P, it is lawful for the [proposed medical treatment or procedure] to be carried out by [proposed healthcare provider];</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">or</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(c)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">That it is not in the best interests of P to undergo [the proposed medical treatment or procedure].</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:Times">The order which I will make in this case will carry on its face a specific recital that any issue of non-therapeutic sterilisation should be brought back before the court so that those who were responsible for K&#8217;s care in the past are clear about the requirements going forward.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

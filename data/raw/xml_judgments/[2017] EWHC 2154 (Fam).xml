@@ -1,0 +1,822 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2017/2154"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2017/2154"/>
+	  <FRBRdate date="2017-08-11" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2154"/>
+	  <FRBRname value="CL v AL"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2154"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2154"/>
+	  <FRBRdate date="2017-08-11" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2154/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2154/data.xml"/>
+	  <FRBRdate date="2024-10-27T05:31:24" name="transform"/>
+	  <FRBRdate date="2024-11-28T21:33:12" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2017-08-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="cl" href="" showAs="CL"/>
+	<TLCPerson eId="al" href="" showAs="AL"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2017</uk:year>
+	<uk:number>2154</uk:number>
+	<uk:cite>[2017] EWHC 2154 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>8037b207cf66e36403b53bb31e8337eff87276c94ab559d2729cadc35d801470</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .articlebody { }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+      <p class="CoverText">Case No: <docketNumber>BM16P09083</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2017] EWHC 2154 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2017-08-11" refersTo="#judgment">11/08/2017</docDate></p>
+      <p class="CoverMain" style="text-align:center">MR. JUSTICE KEEHAN</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#cl" style="font-weight:bold">CL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#al" style="font-weight:bold">AL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms. C. Jackson </span>(instructed by<span style="font-weight:bold"> Talbots Law</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms. Z. Saunders</span> (instructed by <span style="font-weight:bold">Woolley &amp; Co., Solicitors</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms. V. Clifford</span> (instructed by <span style="font-weight:bold">Glaisyers Solicitors</span>) for the <span style="font-weight:bold">Children's Guardian</span></p>
+      <p style="text-align:center">Hearing dates: 10th &amp; 11th August 2017</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+      <p><span style="font-weight:bold">Mr. Justice Keehan :</span></p>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">In this matter I am concerned with two children: IL, who was born on 21<span style="vertical-align:super;font-size:smaller">st</span> March 2004 and is, therefore, 13 years of age; and JL, who was born on 20<span style="vertical-align:super;font-size:smaller">th</span> February 2007, who is, therefore, 10 years of age.  Both of the children have dual British and Australian nationality.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The father of both children is CL.  He is British.  The mother of both children is AL.  She is Australian.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I have before me two applications.  The first in time is that of the father, issued on 27<span style="vertical-align:super;font-size:smaller">th</span> September 2016, seeking to vary the terms of an order made on 15<span style="vertical-align:super;font-size:smaller">th</span> July 2016 by District Judge Gailey.  The second application is that of the mother, dated 6<span style="vertical-align:super;font-size:smaller">th</span> October 2016, seeking to enforce the terms of the order of District Judge Gailey on 15<span style="vertical-align:super;font-size:smaller">th</span> July.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">That order arose following on from a judgment given by District Judge Gailey on 13<span style="vertical-align:super;font-size:smaller">th</span> July 2016, where he determined that it was then in the welfare/best interests of both of the children to move to live in Australia with their mother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The position now is that the father seeks to care for both IL and JL in this country.  In contrast, the mother seeks to care for IL and JL in Australia.  The guardian recommends that the ideal solution would be for the parents and the children to live in this jurisdiction and for there to be a shared care arrangement, or to endorse the status quo, as set out in her report, namely that the children are separated; IL living here with the father and JL living in Australia with the mother.  On reflection, and in her evidence, the guardian&#8217;s preferred course, if the ideal solution cannot be achieved, would be for JL to come to this jurisdiction to live with IL in his father&#8217;s home.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="margin-left:0.33in;text-indent:-0.33in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">When considering these applications, I have well in mind the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, namely that the welfare/best interests of  IL and JL are my paramount consideration.  I have regard and take into account each of those factors set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>: the welfare checklist.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I have regard to the Art.6 and Art.8 rights of both IL, JL and the parents, but I bear in mind that where there is a tension between the Art.8 rights of a child on the one hand and a parent on the other, the rights of the child prevail (<span style="font-style:italic">Yousef v Netherlands</span> <ref href="#" uk:canonical="[2003] 1 FLR 210" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 1 FLR 210</ref>).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I also have regard to various  authorities cited by Ms Saunders on behalf of the mother and, in particular, <span style="font-style:italic">Re D (A Child)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2006/51" uk:canonical="[2006] UKHL 51" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] UKHL 51</ref> and, importantly, <span style="font-style:italic">Re S (Relocation: Interest of Siblings)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/454" uk:canonical="[2011] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 454</ref>.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="margin-left:0.33in;text-indent:-0.33in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The brief background can be set out as follows.  The mother first came to live in the United Kingdom in 1999.  The parents met the following year.  They began to live together in 2001 and in 2002 the parents married in this country, but thereafter moved to Australia.  It was there in Australia that IL was born in March 2004.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">Shortly thereafter, in 2005, the parties returned to live in the United Kingdom and it was here that JL was born in February 2007.  Some four years later, the family returned to live in Australia.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">In July 2015, the family returned once more to this country.  Then, in October, the family moved to Scotland.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">On 7<span style="vertical-align:super;font-size:smaller">th</span> January 2016, the mother returned to Australia for a period of some three and a half weeks, leaving the children in the care of the father.  Shortly after she had left the country on 19<span style="vertical-align:super;font-size:smaller">th</span> January, the father moved from Scotland with the children to Hagley.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">Upon her return, the mother issued the original Children Act proceedings on 6<span style="vertical-align:super;font-size:smaller">th</span> February 2016.  As I have indicated, the order made by District Judge Gailey was on 15<span style="vertical-align:super;font-size:smaller">th</span> July last year.  The following day, the children were informed by the parents of the court&#8217;s decision.  IL reacted very badly and the parties then agreed to vary the arrangement by consent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The following day, on 17<span style="vertical-align:super;font-size:smaller">th</span> July, the parents met at the mother&#8217;s hotel, where it was agreed that IL would not fly with the mother and JL to Australia.  There is an issue between the parents as to that agreement.  The father says that the agreement was to be a permanent arrangement.  The mother asserts it was merely to be a temporary arrangement.  The mother left this country with JL on 20<span style="vertical-align:super;font-size:smaller">th</span> July last year.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">There then followed, as I have mentioned, the competing applications: one for a variation, one for enforcement.  The matter was then heard by District Judge Gailey, before the matter was allocated to me on 27<span style="vertical-align:super;font-size:smaller">th</span> March this year to determine the issue of jurisdiction, particularly in relation to JL.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I determined, on 9<span style="vertical-align:super;font-size:smaller">th</span> May of this year, that at the time the father&#8217;s application was issued both children &#8211; IL and JL &#8211; were still habitually resident in this jurisdiction.  This court was, therefore, first seized and this court, therefore, had jurisdiction to determine all issues in relation to both of the boys. I now give my reasons for coming to that conclusion.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in;text-indent:-0.33in"><span style="text-decoration-line:underline;text-decoration-style:solid">Jurisdiction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">During the course of these proceedings an issue arose about whether court had jurisdiction to make orders in respect of both children, but especially JL, (a) in July 2016 when DJ Gailey made his order in respect of the mother&#8217;s application for a child arrangements order dated 6 February 2016 and (b) in respect of these current proceedings initiated by the father&#8217;s application for a variation of the order of 15 July 2016 which was issued on 27 September 2016. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">There are concurrent proceedings in respect of IL and JL in the Family Court of Australia which have been stayed pending the resolution of these proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The father and the children&#8217;s guardian submit that this court had jurisdiction in respect of both sets of proceedings. The mother submits the court did not have jurisdiction for either of the boys in the former proceedings and, in any event, does not have jurisdiction in respect of JL who is, or was, habitually resident in Australia at the commencement of these proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I was not given a clear explanation as to why the issue of jurisdiction was not raised by DJ Gailey in the former proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The jurisdiction of this court in private law proceedings is determined by the application of the provision of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss.2</ref> and 3 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55" uk:canonical="1986 c. 55" uk:origin="TNA" uk:type="legislation">Family Law Act 1986</ref>. This section provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>2.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">(1)A court in England and Wales shall not have jurisdiction to make a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(1)</ref>(a) order with respect to a child in or in connection with matrimonial proceedings in England and Wales unless</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">[F2 the child concerned is a child of both parties to the matrimonial proceedings and the court has jurisdiction to entertain those proceedings by virtue of the Council Regulation, or]</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the condition in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55" uk:canonical="1986 c. 55" uk:origin="TNA" uk:type="legislation">this Act</ref> is satisfied</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">(2)A court in England and Wales shall not have jurisdiction to make a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(1)</ref>(a) order in a non-matrimonial case (that is to say, where the condition in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55" uk:canonical="1986 c. 55" uk:origin="TNA" uk:type="legislation">this Act</ref> is not satisfied) unless the condition in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55" uk:canonical="1986 c. 55" uk:origin="TNA" uk:type="legislation">this Act</ref> is satisfied.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">(3)A court in England and Wales shall not have jurisdiction to make a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(1)</ref>(d) order unless&#8212;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the condition in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55" uk:canonical="1986 c. 55" uk:origin="TNA" uk:type="legislation">this Act</ref> is satisfied, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the child concerned is present in England and Wales on the relevant date and the court considers that the immediate exercise of its powers is necessary for his protection.]</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">(1) The condition referred to in [<ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/2/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(2)</ref>] of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55" uk:canonical="1986 c. 55" uk:origin="TNA" uk:type="legislation">this Act</ref> is that on the relevant date the child concerned&#8212;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">(a)is habitually resident in England and Wales, or</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">(b)is present in England and Wales and is not habitually resident in any part of the United Kingdom,</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">and, in either case, the jurisdiction of the court is not excluded by sub<ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (2</ref>) below.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">For the purposes of sub<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (1</ref>) above, the jurisdiction of the court is excluded if, on the relevant date, [matrimonial proceedings] are continuing in a court in Scotland or Northern Ireland in respect of the marriage of the parents of the child concerned.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Sub<ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (2</ref>) above shall not apply if the court in which the other proceedings there referred to are continuing has made&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/13/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13(6)</ref> or [19A(4)] of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55" uk:canonical="1986 c. 55" uk:origin="TNA" uk:type="legislation">this Act</ref> (not being an order made by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/13/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13(6)</ref>(a)(i)), or</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">(b)an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/14/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14(2)</ref> or 22(2) of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55" uk:canonical="1986 c. 55" uk:origin="TNA" uk:type="legislation">this Act</ref> which is recorded as made for the purpose of enabling [Part I proceedings with respect to] the child concerned to be taken in England and Wales,</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">and that order is in force.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">Where a child is habitually resident in this jurisdiction the relevant provisions of Brussels II A must be applied to determine the issue of the jurisdiction of this court or the court of another country (including countries that are not members of the European Union). Art 8 and 13 of the convention provide:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Article 8</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">General jurisdiction</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The courts of a Member State shall have jurisdiction in matters of parental responsibility over a child who is habitually resident in that Member State at the time the court is seised.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>2.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Paragraph 1 shall be subject to the provisions of Articles 9, 10 and 12.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Article 13</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Jurisdiction based on the child's presence</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where a child's habitual residence cannot be established and jurisdiction cannot be determined on the basis of Article 12, the courts of the Member State where the child is present shall have jurisdiction.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>2.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Paragraph 1 shall also apply to refugee children or children internationally displaced because of disturbances occurring in their country.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="Quote" style="margin-left:0.42in">Where a child is habitually resident in a country which is not a member of the European Union but is a contracting state to the 1996 Hague Convention on the Protection of Children (&#8216;the 1996 Convention&#8217;), the provisions of this Convention applies to the issue of the determination of jurisdiction. Both the United Kingdom and Australia are contracting parties to and have ratified the 1996 Convention. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="Quote" style="margin-left:0.55in">The relevant provision of the 1996 Convention is Art 5 which provides: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Article 5 </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The judicial or administrative authorities of the Contracting State of the habitual residence of the child have jurisdiction to take measures directed to the protection of the child's person or property. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subject to Article 7, in case of a change of the child's habitual residence to another Contracting State, the authorities of the State of the new habitual residence have jurisdiction. </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">On 9 May 2017 I heard brief oral evidence from the parents and submission on the issue of jurisdiction. At the conclusion of the same I gave my decision but reserved my reasons to this judgment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">In considering where the children were and are habitually resident I have well in mind the principal authorities but most especially the decision of the Supreme Court in <span style="font-style:italic">Re B (A Child) (Habitual Residence: Inherent jurisdiction) </span>[2016] <span class="articlebody">UKSC 4 </span>and the lead judgment of Lord Wilson. At paragraph 45 he said, </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>45.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">I conclude that the modern concept of a child&#8217;s habitual residence operates in such a way as to make it highly unlikely, albeit conceivable, that a child will be in the limbo in which the courts below have placed B. The concept operates in the expectation that, when a child gains a new habitual residence, he loses his old one. Simple analogies are best: consider a see-saw. As, probably quite quickly, he puts <span style="font-style:italic">down</span> those first roots which represent the requisite degree of integration in the environment of the new state, <span style="font-style:italic">up </span>will probably come the child&#8217;s roots in that of the old state to the point at which he achieves the requisite de-integration (or, better, disengagement) from it.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I respectfully agree. It is unlikely and unusual that a child will be found to have lost habitual residence in one country but not yet acquired habitual residence in another country: unlikely but not impossible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The determination of &#8216;habitual residence&#8217; is a question of fact and not a legal concept like domicile. It is necessary to assess the degree of integration in the social and family environment of the country concerned: <span style="font-style:italic">A v A (Children: Habitual Residence)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/60" uk:canonical="[2013] UKSC 60" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 60</ref>, <ref href="#" uk:canonical="[2014] AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] AC 1</ref> per Baroness Hale at paragraph 54. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">As will be seen from the brief chronology set out above this family fairly regularly alternated between living in Australia and in this country. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">Prior to the families departure from Australia both  IL and JL were habitually resident in Australia. There is an issue between the parents as to whether the plan to relocate to this country was temporary or permanent. In any event it was agreed that the plan had been to run a guest house in Scotland and if the business was successful the family would have remained living in the UK for some years. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">In my judgment and I so find this having been the agreed plan, the boys lost their respective habitual residence in Australia. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">On arrival in the UK in July 2015 the family spent a short time living in the Midlands before moving to live in Aberlour in Scotland in October 2015. The boys were enrolled in a local school and attended a couple of school friends&#8217; parties. It was a remote part of Scotland and very quickly the parents&#8217; plans began to unravel and the objectives of the mother and father began to diverge. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">In early January 2016 the mother travelled alone for a brief visit to Australia. During her absence, on 19 January 2016, the father removed the boys from school and relocated back to the Midlands where he enrolled them in new schools as from 1 February 2016. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">Upon the mother&#8217;s return to this country she issued her application for a child arrangements order on 6 February 2016. Accordingly the boys initially lived in this country for, at most, a few weeks before moving to Scotland for no more than three months but it very quickly after their arrival became unclear what the family&#8217;s plans were going to be and very uncertain as to how long they would remain living in Scotland. I am satisfied and so find that as a matter of fact the boys had not established the degree of social and family environment in Scotland to have acquired habitual residence in that country. IL and JL had only lived in this country for a few weeks before the mother issued her application. Thus I am not satisfied that in that short period they had acquired habitual residence here. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">In those circumstances and pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.2(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55" uk:canonical="1986 c. 55" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>, neither BIIR nor the 1996 Convention applies and pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/55/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss.2(1)</ref>(b)(ii) and on the basis of the boys&#8217; presence in England and Wales. Therefore I am satisfied that when the mother issues her application on 6 February 2016 this court had jurisdiction to entertain the same.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">Although contrary to the mother&#8217;s wishes between January and July 2016 IL and JL settled into normal home life in the Midlands. Thus by the date of DJ Gailey&#8217;s order of 15 July 2016 each had established a degree of social and family environment integration in this country so as to have acquired habitual residence here. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">DJ Gailey&#8217;s order gave the mother permission to remove both boys from this country to reside with her in Australia. When IL was told of this he reacted very badly, as I have referred to below, and refused to go with his mother and JL. Thus IL has since remained living here and remains habitually resident here. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The mother and JL flew to Australia on 20 July. The father&#8217;s application to vary DJ Gailey&#8217;s order was dated 22 August but was issued on 27 September 2016. By this time the mother and JL had lived in three different locations and they had only lived in their final home a matter of a few weeks. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">Given that JL&#8217;s father and brother remained living in this country and that he had lived a somewhat itinerant lifestyle with his mother in the two months or so that they had lived in Australia, I am satisfied and so find that JL had not acquired habitual residence in Australia as at 25 September 2016 because he had not established the necessary degree of social integration but neither had he lost his habitual residence in this country. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">Accordingly I am satisfied that at the date of the father&#8217;s application in September 2016 both IL&#8217;s and JL&#8217;s habitual residence remained in this country and the court had and has jurisdiction to entertain the father&#8217;s application and the mother&#8217;s later issued application to enforce the order of 15 July 2016. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">On the basis of this finding and determination, the parties are agreed that this court was first seized of issues relating to IL and JL ahead of proceedings issued in the Family Court of Australia. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="margin-left:0.33in;text-indent:-0.33in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I heard evidence from the mother, the father and the children&#8217;s guardian.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">In relation to the father, he told me that he has mental health difficulties.  He suffers from reactive depression and has done so for some considerable time.  It is his desire that the boys are reunited and are no longer separated.  He told me that he now very much regretted the decision that was made in July for JL to go to Australia.  As I have said, he asserts that the agreement for IL not to go to Australia was intended to be a permanent arrangement between himself and the mother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">An issue about the immigration status of both parents and their ability to live either in the United Kingdom or in Australia has been raised.  The father asserts that in December of last year, when he travelled alone to Australia to see JL, he did so on a visitor&#8217;s visa, which he says negated his permanent resident status in Australia.  He asserts that the mother could, by various means of applying for various different visas &#8211; in particular to apply for a tier 2 work visa &#8211; be permitted to reside permanently in this jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The father told me that initially he had sought to persuade IL to go to Australia, as per District Judge Gailey&#8217;s order, but that he met with fierce resistance from IL and IL was deeply upset by the conversation.  Accordingly, thereafter, the father rarely, if ever, raised the issue with IL again.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The mother gave evidence and told me that she too very much regretted the decision that was taken by both of them last July.  She asserted, and I prefer her evidence on this issue, that the agreement was only a temporary arrangement, whilst efforts were made to try and persuade IL to travel to and live with her in Australia.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The mother also asserted that the advice she has been given by officials at the Australian High Commission was that the father&#8217;s permanent residence status has not been adversely affected by the application for a single visitor&#8217;s visa, although there are circumstances in which it could be so affected if there were to be multiple applications for a visitor&#8217;s visa.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The mother asserted that she is not able to come and live permanently in this country.  After the conclusion of the evidence I was told that further investigations had been made and, in relation to the tier 2 teaching posts, which might result in the mother being able to obtain a visa to reside and work in this country, at the moment the governing list only relates to secondary teachers in particular fields and not a primary teacher, which is the mother&#8217;s teaching qualification.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The mother believes that the father has influenced IL in his desire to stay in this country, but she has no evidence to support that contention.  She believes, she told me, that IL could be persuaded to change his mind if he spent a period of time in her care.  However, the mother frankly told me that she, again, had no evidence on which to base that belief and I put it to her that it was an aspiration and a hope that that could be achieved, rather than one which was based on any factual evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The guardian told me and confirmed, as she had in her report, that IL and JL have a very, very close relationship, despite the difference in years.  She described it as being one of the closest sibling relationships that she had come across in her experience.  She told me that both IL and JL very much love both of their parents, but that IL expressed the view that he wanted to live with his father because he was, as he put it, &#8220;more fun&#8221; and JL wanted to continue living with his mother because he loves her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I do not doubt that both of the parents have enormous, great love for both of their children.  The guardian confirmed to me that there are no issues about the abilities of either parent to meet all the physical, emotional and psychological needs of the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The guardian continued that, in her opinion, IL was completely resolute and determined in his view that he would not go to Australia and that he would not get on a plane.  In fact, when the scenario was put to him by the guardian of what should happen if his mother and JL were living in Australia and his father moved to Australia &#8211; so that he was effectively left alone here &#8211; IL said that he would stay.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">In her report, the guardian very reluctantly put forward the maintenance of the status quo.  However, in the light of the evidence she had read from the parents and the evidence she heard them give, she took the view that in fact the ideal solution would be for the parents, JL and IL to live in this country and for there to be a shared care arrangement between the parents, where the boys effectively spent equal time with both of them.  The only alternative, as she saw it, if that ideal could not be achieved, would be that JL should come to live with his father in this country.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="margin-left:0.33in;text-indent:-0.33in"><span style="text-decoration-line:underline;text-decoration-style:solid">Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">As I have already indicated, I preferred the mother&#8217;s evidence on the issue as to the nature of the agreement reached in July 2016.  However, that is not, in my judgment, now pertinent to what I have to decide.  It is well over a year ago since that happened.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">It is a matter of real regret for the court that there is no expert evidence available to assist on the issue of immigration.  I am bound to comment that neither of the parties have particularly helped themselves in trying to provide the court with clear evidence about the immigration status of both the mother and the father.  It rather appeared that enquiries have been made on the hoof, so to speak, either in the days leading up to this hearing or during the course of it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The father disputed that he could reside in Australia under his permanent resident status.  In any event, the father is adamant that he will not go and live in Australia.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The mother has the option of seeking an ancestry visa to live here and to be able to work here.  There is, theoretically, the option for her to apply for a tier 2 work visa.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">My view is that if the mother wished to live in this jurisdiction she would find the means and the way to do so &#8211; I mean, of course, entirely lawfully &#8211; and would pursue applications for visas relentlessly.  However, I have to accept that I cannot make that as a finding and I have to proceed on the basis, ultimately, that any decision I have to make has to be on the premise that the mother will not be able to live permanently in this jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The parents are agreed that the children should be reunited.  They both agree that it is wholly contrary to the interests of IL and JL to continue to live apart.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">In my judgment, it applies with equal force to both the mother and the father.  They have not, over the course of the last 12 months, done all that they could possibly have done to promote direct contact between IL and JL.  In part, I surmise, that is because such contact as there was, was taking place against the backdrop of this litigation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">What did concern me greatly, however, was the mother&#8217;s evidence yesterday that the reason why she booked a holiday in Australia for this Easter holiday, for herself and JL, was because of advice that she had received from her Australian lawyer not to bring JL to this jurisdiction.  That was plainly a litigation tactic.  Why that advice was not disclosed at any time prior to the mother giving evidence I do not know and no explanation has been forthcoming, but it very greatly concerned me that IL and JL were deprived of the opportunity and the chance of having contact together over Easter on the basis of litigation tactics.  It does not reflect well on this mother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">Given the children&#8217;s ages &#8211; 13 and 10 respectively &#8211; I have to not only take account, but give real weight to the wishes and feelings of both IL and JL.  It is IL who, by a long way, most strenuously holds and expresses the view that he does not want and he will not go to Australia.  However, he does want, very much, to live with his brother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">JL has been equally clear in expressing the view that he wants to live with his mother in Australia and would not want to live in this country.  However, it is plain from what I have heard, particularly from the guardian, that JL does not hold those views as vehemently and adamantly as IL.  For example, the guardian told me in evidence yesterday that when she raised the issue with JL of him coming to live in this country, JL said &#8220;That could work&#8221;, but maintained what his primary wish would be.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I am entirely satisfied that it is the strongly held wish of not only the parents, but more importantly and especially both of the boys, that they are reunited and live together.  That is particularly acutely important, in my judgment, in the circumstances of this case: (a) because of the very special relationship the boys have with one and other, and (b) because of the very limited options for them having direct contact if they remain separate and apart.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">The only overlap between school holidays in this country and in Australia is over the Christmas and Easter periods.  That would mean, if the situation continued, that some eight months would go by in between the children seeing each other at Easter, until the next visit in December.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I accept that there is regular indirect contact between the boys and the mother and the father  by telephone calls and particularly by Skype.  However, as I believe both parents accept, that form of contact is no substitute whatsoever for living together, still less simply seeing each other twice a year.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">Against the background of the welfare checklist and the factors set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>, in essence I have to decide what arrangement and what order will best meet the welfare/best interests of both boys.  I endorse the view of the children&#8217;s guardian that the ideal solution would be for the children to live together in this country, with both parents present, and for there to be a shared care arrangement.  However, that is not something I can order.  That is only something that the parents can agree and put in place themselves.  If, for whatever reason, it is not possible to achieve that ideal solution, there is, I regret, no easy answer or solution.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I am satisfied that it would be wholly contrary to the welfare/best interests of both IL and JL for the status quo to be maintained; that is for IL to remain living in this country, whilst his brother remains living in Australia.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">That leaves the court with an option.  Either both boys live with the father in this jurisdiction, or both boys live with the mother in Australia.  I am satisfied that if the court&#8217;s order was that JL should live in this country with his father, that will, initially, upset him, because it is not in accordance with his wishes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">However, I am satisfied that JL will be pleased that at least he is living with his brother.  Given his age of 10 years and given that there would be regular contact with his mother, in my judgment the harmful effects and the upset for JL of having to move from Australia to this country would be temporary and would not cause any significant or long term detriment to his overall welfare.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">How viable would it be for the court to order IL to go and live with his mother and his brother in Australia?  The mother submitted that there is a chance that IL could be persuaded to change his mind, on the basis of a concerted effort by both the mother and the father and with IL spending a prolonged period of time in her care, for example some two weeks, or, if that was not successful, for there to be some professional therapeutic intervention.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">To put it mildly, I am extremely disappointed that that sort of suggestion &#8211; in particular therapeutic intervention &#8211; is only mentioned in this case some ten months after these proceedings started, on the second day of this final hearing.  I well understand the mother&#8217;s aspiration or hope that IL could be persuaded to change his mind, but, in my judgment, there is not a single jot of evidence that could lead me to have any optimism whatsoever that that in fact would be the case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">IL has told the guardian that he just wants to settle down.  The chronology, which I have briefly referred to, does illustrate &#8211; and I say this as a matter of fact, rather than as a criticism of either of the parents &#8211; that they moved around a great deal and as a young boy IL would have moved homes so very many times, moved countries, changed schools and had to make new friends.  I appreciate that applies to JL as well, but it has led to IL coming to a very firm view that he just wants to stop and he just wants to settle.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I am very concerned about creating the self-same set of circumstances that followed the previous order made by District Judge Gailey.  I am also concerned about further extending the time before these boys and these parents have a decision on their long term future.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">It is a matter of regret that applies to both parents that no real steps and efforts have been taken by either the mother or the father to persuade IL to change his mind.  The consequence of that is that there have been a further 12 plus months where IL has had the belief that he is going to be staying in this country, where he has continued his friendships.  He greatly enjoys his rather idiosyncratic school, but it works for him and he is doing well there.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I regret to find that the mother&#8217;s hope that IL could be persuaded to change his mind, although I completely understand it on her part, is fanciful.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I have reminded myself that IL&#8217;s views, though strongly held, cannot be determinative, but I also have to ask myself, if I order IL to go and live with the mother in Australia, is that achievable and, if so, how is it going to be achieved?  How is he to be taken to the airport?  How is he to be placed on the plane for the long, long flight to Australia?  In my judgment, it is neither a credible nor practical option and it certainly is not in his welfare/best interests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">Although the desire of the boys to be together is equally held and equally strong, it can only be achieved by disappointing one of the boys.  Therefore, I have to consider and balance the harm that would come to IL if I ordered him to go to Australia and live with his mother, against the harm that JL would suffer as a result of being ordered to come and live with his father in this jurisdiction.  For the reasons that I have given (in particular JL&#8217;s younger age, the less forceful his views, his readiness with the guardian to acknowledge that living here might work and the fact that he has yet to start secondary education) I am entirely satisfied that the balance of harm falls in favour of making a child arrangements order in favour of the father in respect of both IL and JL, and then to make a child arrangements order as may be agreed between the parties, or later enforced by the court, for the children to spend time with their mother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.33in">I will leave it as a matter of negotiation between the parties, but my view at the moment is that JL should move such that he will be able to start the new academic year in this country at school.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

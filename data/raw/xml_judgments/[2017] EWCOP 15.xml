@@ -1,0 +1,964 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2017/15"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2017/15"/>
+	  <FRBRdate date="2017-09-05" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="15"/>
+	  <FRBRname value="D, Re (Medical Treatment)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2017/15"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2017/15"/>
+	  <FRBRdate date="2017-09-05" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2017/15/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2017/15/data.xml"/>
+	  <FRBRdate date="2024-08-28T20:00:42" name="transform"/>
+	  <FRBRdate date="2024-11-13T13:19:39" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2017-09-05" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewcop" href="https://www.gov.uk/courts-tribunals/court-of-protection" showAs="The Court of Protection"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="b" href="" showAs="B"/>
+	<TLCPerson eId="d-by-his-litigation-friend-the-official-solicitor" href="" showAs="D (by his litigation friend, the Official Solicitor)"/>
+	<TLCPerson eId="the-ministry-of-defence" href="" showAs="THE MINISTRY OF DEFENCE"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-baker" href="/judge-the-honourable-mr-justice-baker" showAs="THE HONOURABLE MR JUSTICE BAKER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCOP</uk:court>
+	<uk:year>2017</uk:year>
+	<uk:number>15</uk:number>
+	<uk:cite>[2017] EWCOP 15</uk:cite>
+	<uk:parser>0.26.0</uk:parser>
+	<uk:hash>151fcd1fafb8fcc79415aa7913b6eb52dec65fa67bf54abbf656e055c5bdca70</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BodyTextIndent { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Default { font-family: 'Calibri, sans-serif'; font-size: 12pt; color: #000000; }
+#judgment .Heading1Char { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Cambria; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .BodyTextIndentChar { font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2017] EWCOP 15</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>12405885</docketNumber></p>
+      <p><courtType refersTo="#ewcop" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE COURT OF PROTECTION</courtType></p>
+      <p><docTitle style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE MATTER OF THE MENTAL CAPACITY ACT 2005</docTitle></p>
+      <p><docTitle style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE MATTER OF D (MEDICAL TREATMENT)</docTitle></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2017-09-05" refersTo="#judgment">5<span style="vertical-align:super;font-size:smaller">th </span>September 2017</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-baker">THE HONOURABLE MR JUSTICE BAKER</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#b" style="font-weight:bold">B</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#d-by-his-litigation-friend-the-official-solicitor" style="font-weight:bold">D (by his litigation friend, the Official Solicitor) (1)</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#the-ministry-of-defence" style="font-weight:bold">THE MINISTRY OF DEFENCE (2)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">The Applicant in person</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Bridget Dolan QC </span>(instructed by<span style="font-weight:bold"> the Official Solicitor</span>) for the <span style="font-weight:bold">First Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Nicola Greaney</span> (instructed by <span style="font-weight:bold">Government Legal Department</span>) for the <span style="font-weight:bold">Second Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 28<span style="vertical-align:super;font-size:smaller">th</span> April and 5<span style="vertical-align:super;font-size:smaller">th</span> July 2017</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment Approved</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the incapacitated person and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.  Failure to do so will be a contempt of court.</p>
+      <p><span style="font-weight:bold">MR JUSTICE BAKER :</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These proceedings in the Court of Protection concern a twenty-seven-year-old man, hereafter referred to as &#8220;D&#8221;, who lacks capacity as a result of a traumatic brain injury. The application before this court is made by D&#8217;s mother, hereafter referred to as &#8220;Mrs B&#8221;, for a declaration and order that it is in D&#8217;s best interests to receive stem cell treatment for his brain injury at a clinic in Belgrade in Serbia. The application is opposed by the Official Solicitor, who has been appointed to act as D&#8217;s litigation friend in the proceedings, and by the Ministry of Defence (&#8220; MOD&#8221;) who, for reasons set out below, are responsible for D&#8217;s care and treatment.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">D was born in Eastern Europe in 1990 and moved to this country with his family at the age of ten. He became a British citizen in 2006 and shortly afterwards joined the Army. He was deployed to Afghanistan in 2009 and then moved with his regiment to Germany in 2010. In 2012 he was deployed to Cyprus and from there was sent to Afghanistan for two further short periods. In 2012, he was promoted to the rank of Lance Corporal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In June 2013, while serving abroad, D was assaulted in a bar by another member of the regiment and knocked unconscious. He was admitted to the local hospital and found to have sustained a diffuse axonal injury with features of right frontal subdural haematoma, interhemispheric bleeding in the parietal region, blood within the lateral ventricles and bilateral scalp haematoma. Upon being transferred to the regional hospital, he was found to have a Glasgow Coma Score of 4/15. A tracheotomy was inserted and he was transferred to hospital in England. On arrival, his Glasgow Coma Score was reassessed at 7/15. He was ventilated and sedated. An MRI identified significant traumatic brain injury. He was initially fed by gastric tube but this was subsequently removed and the tracheostomy was also de-cannulated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">D was then transferred to a rehabilitation hospital and in 2014 moved to a military rehabilitation centre, X House, where he remained for over two years, apart from a short unsuccessful move to another brain injury centre. He underwent an extensive multi-disciplinary rehabilitation programme incorporating physical mobility therapy, cognitive/neuropsychological input and speech and language rehabilitation, and as a result made substantial improvement. He continued to suffer, however, from very significant disabilities, including extensive physical disabilities, and global cognitive impairments including reduced attention, concentration, information-processing capacity, memory, executive functioning, and receptive and expressive language. He presents with severe dysarthria, with reduced intelligibility when tired and when speech is out of context. It is said that he is highly impulsive when emotionally aroused and his behaviour became increasingly difficult to manage at various times during his admission to X House.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">D is fortunate to have the dedicated support of his mother, Mrs B. She visits him twice a week and they exchange emails on a daily basis. Mrs B has played a crucial role in helping to plan D&#8217;s treatment and is utterly devoted to ensuring that he receives the best possible care and support. D is also visited by other members of his family on a regular basis together with friends both from the army and civilian life.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mrs B has extensively researched treatment options for D and identified stem cell therapy as a possible way forward. She initially approached a clinic in Germany but it transpired that establishment was unable to provide appropriate stem cell therapy tailored to D&#8217;s particular traumatic brain injury. After further research, Mrs B identified a clinic in Moscow, the Swiss Medica XXI Century SA (&#8220;Swiss Medica&#8221;) as a safe and appropriate clinic. The medical staff at X House, however, opposed this proposal on the basis that the use of stem cell therapy for patients such as D was not yet established in this country and that there was insufficient evidence to suggest that the benefits outweighed the risks.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 21 April 2016, Mrs B filed an application in the Court of Protection for declarations and orders pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss 15</ref> and 16 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> to determine D&#8217;s capacity and, in the event that he lacked capacity, to make best interests declarations, in particular regarding his medical treatment, and further for an order appointing Mrs B as his health and welfare deputy. The application included an assessment by his treating neuropsychologist to the effect that, as a result of the impairment to his brain, D lacked the capacity to make decisions concerning his medical treatment. In particular, he lacked the capacity to understand, use and weigh the relevant information. The neuropsychologist expressed the opinion that, due to his cognitive difficulties, D was not able to understand more complex information. He was able to say that the stem cells will make him &#8220;normal&#8221; but was not able to follow the description or the rationale of how they work. Furthermore, as a result of his difficulties, he was unable to use or weigh up the options as part of the decision-making process. His rigid thinking patterns made it impossible for him to think flexibly about the pros and cons of the treatment. The neuropsychologist added that D was assessed as being vulnerable to being suggestible to others. He said that his mother thinks the treatment will make him &#8220;normal&#8221; and therefore he will do it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 26 August 2016, the MOD filed an acknowledgment of service, stating:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;The Respondent does not support the application for [D] to travel to Moscow and receive stem cell treatment. The treatment is at a pre-clinical stage in the UK and there is insufficient evidence to demonstrate its efficacy and safety. However, the respondent is willing to take a neutral position and let the court determine the issue.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>The MOD added that it opposed the appointment of Mrs B as deputy on the grounds that such an appointment was unnecessary. In addition, the MOD filed an application for an order for D&#8217;s transfer to a civilian unit, hereafter referred to as Y Hospital, to continue his rehabilitation. The grounds for this proposal were said to be that the facilities at X House were insufficient to enable D to progress to the next phase of his rehabilitation, whereas Y Hospital was a more secure facility which operated a sequential care programme under which patients initially resided in a locked area and then moved on to a less restrictive unit. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When objection was taken to the proposed treatment in Moscow, Mrs B identified an alternative Swiss Medica clinic in Belgrade. It is that proposal which is now before the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The matter came before me first on 1 September 2016. I made an interim declaration that there was reason to believe that D may lack capacity to conduct proceedings and make decisions about his medical treatment, care and residence. I substituted the Official Solicitor as litigation friend for D in place of Mrs B and instead joined Mrs B as a party to proceedings in her own right and substituted her as the applicant. I joined the MOD as a respondent to the proceedings, and directed that all hearings of the serious medical treatment matter should be held in public in accordance with Practice Direction 9E. At a further hearing on 23 September 2016, I gave further directions in the proceedings for the disclosure of relevant documents, expert and other evidence, and listed the matter for a final hearing in December 2016. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the event, however, the final hearing of the medical treatment issue could not proceed as planned in December 2016 because the evidence was incomplete and was therefore adjourned, with further directions for the filing of expert and other evidence. Instead, the hearing on 16 December 2016 was utilised to determine the issue about D&#8217;s residence. Having considered the evidence filed on that issue, I declared that it was in his best interests to move from X House to Y Hospital, and that it was lawful for him to be deprived of his liberty for a period of four months after the order. Following that hearing, D moved to Y Hospital where, as described below, he has made further progress.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The application in respect of the proposed stem cell therapy was relisted before me on 28 April 2017. Written evidence was filed by all parties, including statements and reports from various professionals involved in his care, including his current treating psychiatrist at Y Hospital, (&#8220;Dr R&#8221;), two statements from Mrs B, a statement from Dr Igor Bulboh of the Swiss Medica centre in Belgrade, and Prof Gianvito Martino, an expert witness instructed on behalf of the Official Solicitor and the MOD. At the outset of the hearing, which was conducted in open court, I made a reporting restriction order in the usual terms to prevent the publication of any information likely to lead to the identification of D. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I then spoke to D himself by telephone. I summarise that call in the next paragraph.<span style="font-style:italic"/>I then heard oral evidence from Mrs B, and from Dr Bulboh, who gave evidence via an interpreter from Belgrade by telephone. Unfortunately, there was insufficient time to take the evidence of Prof Martino within the window of opportunity he had made available. The hearing was therefore adjourned and, regrettably, it was not possible to resume the hearing for several weeks until 5 July. On that latter date, oral evidence was given by Prof Martino, via an interpreter from Milan by telephone. A further report was available from Dr. R, D&#8217;s current treating psychiatrist, but no party sought to cross &#8211;examine him so he was not required for oral evidence. At the conclusion of Prof Martino&#8217;s evidence, I adjourned the matter again for written submissions, directing the MOD and Official Solicitor to file submissions by 17<span style="vertical-align:super;font-size:smaller">th</span> July and Mrs. B by 31<span style="vertical-align:super;font-size:smaller">st</span> July.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The evidence</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">My telephone conversation with D </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In attendance during my call with D were Mrs B and Mr Beck from the Official Solicitor&#8217;s office, together with his solicitor. D told me that he wished to have the stem cell treatment and that it would work for him. He said the reason why he wanted to have the treatment was that he wanted to be a normal person and thought the treatment would help. I asked whether he was ok about flying to another country for the treatment and he said yes. I asked whether he understood that there was no guarantee that the treatment would work and he replied that it would work for him. I asked whether he was happy to take the risk that it would not work and he replied &#8220;I am&#8221;. When I asked D how he was getting on at Y Hospital and whether it was better than where he had been before, he replied &#8220;no&#8221;. When I asked whether he was making progress there, he replied &#8220;not at all&#8221;. When I asked what else he would like to say to me about the treatment, he repeated: &#8220;I just want to be normal&#8221;. Mrs B then spoke, thanking him for coming to the phone and telling her his wishes. She said that she would call him later. D replied &#8220;I want stem cell mum, I want to leave here and don&#8217;t want&#8230;&#8221; It was not possible to discern precisely what D said at that point, but Mrs B summarised what she understood D had said he wanted, namely that he said that he wanted the treatment because he thinks his speech will improve and the tightness on his left side will improve. At that point, we said goodbye to D.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Mrs B&#8217;s evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her first statement, Mrs B described the substantial amount of research she had carried out in order to understand stem cell treatment and what it entails. She said that she had contacted a number of hospitals and clinics in this country, all of which had informed her that they did not provide stem cell treatment for brain injuries. She approached D&#8217;s treating team at X House on two occasions but they indicated that they did not support the proposal because the treatment was &#8220;innovative&#8221; and not yet provided by the NHS. From her researches, however, Mrs B strongly believes that stem cell treatment has the potential to improve D&#8217;s condition, and she found insufficient evidence to suggest that the negatives outweigh the positives. She found no evidence to confirm that the treatment could result in serious harm.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mrs B described D as &#8220;heavily disabled, still young and very depressed about his condition&#8221;. She expressed the view that D should not have to receive rehabilitation for the rest of his life. Even if the stem cell treatment does not provide the full effects for which she hopes, she feels it is still worth pursuing rather than D remaining in a wheelchair for the rest of his life. She says that, as his mother, she feels it is her duty of care to try everything she can to give him the chance of a normal life, adding &#8220;I will die peacefully knowing that I did everything I could to help my son.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mrs B has spoken to D about the treatment. She said that she has outlined the pros and cons to him in simple and understandable language, and sent him internet links to literature about it. She believes that D has a sufficient understanding of what the procedure entails.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As stated above, when objection was taken to treatment in Moscow, Mrs B identified an alternative Swiss Medica clinic in Belgrade. Unlike Moscow, Belgrade is not regarded as a high security threat and no higher authority permission will be required for D to travel there. He simply would need the authority from his commanding officer who has confirmed that, should the court order that it is in D&#8217;s best interest to travel to Belgrade, he will be granted permission to travel. The flight time to Belgrade is shorter than it is to Moscow, approximately two hours thirty-five minutes. The programme of treatment and recovery would last for the same time at both the Moscow and Belgrade clinics &#8211; about twelve days. The cost would be &#8364;25,000. D has funds to meet this cost as a result of his compensation claim following his injury.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her oral evidence, Mrs B reiterated her belief that the stem cell treatment will help D&#8217;s quality of life. She did not think he would recover 100%, but thought that there would be an improvement in his speech, walking and physical disabilities. She acknowledged that there had been an improvement in D&#8217;s condition since he moved to Y Hospital. She said that she had spoken to D about the risk of infection from the treatment. &#8220;I told him it may work, it may improve your life, it may not, he said &#8216;Mum, if I don&#8217;t try, I&#8217;ll never know.&#8217;&#8221;</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Dr Bulboh&#8217;s evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Igor Bulboh describes himself as the &#8220;chief doctor&#8221; of the Swiss Medica Stem Cell Clinic in Belgrade. He has been in practice as a doctor for over seventeen years and states that he has carried out several thousands of successful stem cell transplantations. His assessment of the suitability of D for stem cell treatment was based on a questionnaire completed by Mrs B and one medical report concerning D dated May 2016. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his report, Dr Bulboh outlined the treatment, which he described as &#8220;special activated autologous mesenchymal (bone-marrow derived) stem cell therapy&#8221;. The course of treatment involves the patient being treated with three types of stem cells &#8211; two autologous (i.e. from the patient himself, one type from his bone marrow, the other from fat tissue) and one allogeneic (i.e. from a donor). In short, the core process involves (a) collecting bone marrow from the patient&#8217;s hip area by puncture of the iliac bone under local or general anaesthetic (b) extracting the mesenchymal stem cells from the bone marrow by centrifuging, (c) mixing the stem cells with platelet-rich plasma prepared from the patient&#8217;s venous blood, (d) activating the mixed cells by a &#8220;EU-certified special medical device&#8221;, and (e) introducing the stem cells via lumbar puncture and intravenous infusion. A similar process is carried out involving stem cells derived from fat tissue. The allogeneic stem cells, derived from the bone marrow of a donor, are injected intravenously. In addition, peripheral blood-derived pericytes (progenitor cells) are injected to stimulate growth of new vessels from pre-existing vessels in the damaged areas. During the procedure, the patient is under constant medical supervision with permanent monitoring of his vital functions. There is then a programme of follow-up assessment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Bulboh stated that autologous stem cell therapy and allogeneic stem cell therapy in the Swiss Medica clinic &#8220;are absolutely safe with no risk of allergic reaction, infections, cancer transformation, incompatibility or rejection reaction.&#8221; Unlike some stem cell clinics, chemotherapy is not used. Dr Bulboh thought that treatment would be in D&#8217;s best interests &#8220;as the expected benefits are improved walking, memory and cognitive function (attention etc.) as well as dysarthria and other associated neurological symptoms&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In response to Prof Martino&#8217;s comments, Dr Bulboh replied:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;Of course, Prof Martino is right when he claims stem cells are not researched enough, established and approved. We are aware of and understand that stem cells therapy is very new and not yet thoroughly studied to the point of established guidelines, FDA and other health authorities&#8217; approval. However, latest medical information delivers medical evidence that shows that the stem cell represent a promising, effective and safe way of management of patients with neurodegenerative diseases (such as strokes, MS, Parkinson&#8217;s, brain injuries etc).&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>In response to concerns raised by Prof Martino arising out of published articles, Dr Bulboh stressed that his clinic did not use neural stem cells or modified stem cells. In respect of other published articles cited by Prof Martino, Dr Bulboh stated that there was insufficient information about the exact method of treatment described in the articles. Dr. Bulboh himself cited two published articles as evidence that stem cell therapy may be an effective treatment for brain injury. The first paper (&#8220;Umbilical cord mesenchymal stem cell transplantation significantly improves neurological function in patients with sequelae of traumatic brain injury&#8221;, Wang and others, Brain Research (2013) 76-84) was based on a randomised, single-blind controlled clinical study involving forty patients with sequelae of traumatic brain injury. The authors concluded that, based on this study, umbilical cord mesenchymal stem cell transplantation can significantly improve numerous neurological functions and that it may therefore be a potential treatment for patients after traumatic brain injury. They added, however, that further research, including a multicentre and large sample size prospective randomised clinical trial, would be required to define definitively the role of this treatment in such cases. Dr Bulboh also referred to a further paper, (&#8220;Cell-based therapy for traumatic brain injury&#8221;, Gennai and others, (2015) British Journal of Anaesthesia 115 (2): 203-12). In the abstract of this latter article, the authors report that, over the last fifteen years, pre-clinical studies in regenerative medicine utilising cell-based therapy have generated enthusiasm as a possible treatment option for traumatic brain injury. In these studies, stem cells and progenitor cells were shown to migrate into the injured brain and proliferate, exerting protective effects through possible cell replacement, gene and protein transfer, and release of anti-inflammatory and growth factors. The authors warn, however, that &#8220;although the benefits of cell-based therapy have been clearly demonstrated in pre-clinical studies, some questions remain regarding the biological mechanisms of repair and safety, dose, route and timing of cell delivery, which ultimately will determine its optimal clinical use.&#8221; The authors also point out that &#8220;most pre-clinical trials have delivered the cells early after traumatic brain injury to suppress the initial inflammatory response and activation of the cells of innate and adaptive immunity. There is minimal pre-clinical evidence of benefit when stem and progenitor cells are delivered more than one week after traumatic brain injury.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When he gave oral evidence via an interpreter from Belgrade, I asked Dr. Bulboh to explain, as best he could to a layman, how the treatment worked. His answer was as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;stem cells can produce all sorts of substances which change surrounding areas/tissues in the body. They work in such a way that they can awaken the damaged tissues so they start regenerating. They help to regenerate new vessels. They have an ability to be neuro-plastic so that the stem cells work with brain cells in the brain styles change their state. So brain injury does not mean that all the cells in the brain are dead. The brain is a very complex system and there are areas of the brain which are in a sleeping state but they are not dead. This ability of stem cells to change dormant cells to functioning cells they help to regenerate and this gives significant results.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his oral evidence, Dr Bulboh described Prof Martino&#8217;s report as very professional and objective, although he commented that the professor had worked mainly from documents and evidence in the public domain and had not had much contact with patients who have undergone this type of treatment or doctors who are providing it. He described how stem cell therapy was widely used across the world in sports medicine &#8211; soft tissue injuries and damaged muscles &#8211; and orthopaedics. To date it has been less widely used for brain injuries. As Dr Bulboh explained, &#8220;with a sports injury it is regeneration of mechanics, with a brain injury it is regeneration of electronics and this process is more complex and less studied.&#8221; On behalf of the MOD, Miss Greaney asked how many people with a brain injury had been treated with stem cell transplants at his clinic. Dr Bulboh said he did not have the exact data but that it was in a few &#8220;tens&#8221;. Of these, about 20% had significant improvements to their quality of life, including independent feeding, walking and more general independence; 60% have improvement including communication and cognitive function but the patient still requires care; 20% had no or no significant improvement. He agreed that nothing had as yet been published about his treatment because it was still at a case study stage. He accepted that stem cell treatment for patients with brain injury was still experimental to some degree, because the level of evidence from clinical trials is not established as in other areas of medicine. He agreed that he had only a very approximate information about D&#8217;s brain injury so it was difficult for him to give a prognosis as to the effectiveness of the treatment in his case. He agreed that more precise information would be required before such a prognosis could be given.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In answer to Miss Greaney, Dr Bulboh acknowledged there were risks with the treatment &#8211; for example using an intravenous catheter, or from an adverse reaction to medication. Subsequently when questioned by Ms Dolan QC for the Official Solicitor, he agreed that there was also a risk from the lumbar puncture procedure. He did not accept, however, that there were oncological complications. He contended that, in cases where cancer was subsequently found in patients who had had the therapy, there had been no assessment of their condition before the treatment. He did not accept that there was a risk of immune reaction after autologous stem cell treatment, although there were cases of allergic reactions, mainly to the substances used to extract stem cells in the laboratory. Ms Greaney suggested that his clinic did not follow all European guidelines regarding stem cell treatment, in particular in respect of the preparation of plasma. Dr Bulboh agreed but said that the differences were &#8220;very insignificant&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Cross-examined further by Ms Dolan, he agreed that there was not enough evidence as yet as to the effectiveness of the treatment, but added that that did not disprove the fact that there were successful outcomes. To date, he has only been supplied with one medical report concerning D by Mrs B and he acknowledged that he did not know all the details about D&#8217;s injuries, but stated that 80% of people with the same type of brain injury had neurological disabilities. &#8220;I can only say that D&#8217;s condition is typical of patients with the same type of brain injury. There are differences in little details, for example cognitive function, memory, speech. Every patient will have an individual composition.&#8221; He agreed that precise data as to the measurement of improvement was not yet available. He also agreed that the result of the treatment was better the sooner it was provided after the injury. He said that not every patient is suitable for treatment. At least ten patients with brain injury had been refused treatment after assessment at his clinic, either because of lack of electrical activity in the brain, so the treatment was not to be effective, or because of their poor general health.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Dr R&#8217;s statements</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although Dr. R, D&#8217;s current treating psychiatrist, was not required for oral evidence, reliance is placed on his reports filed in these proceedings. In his first report, dated 13<span style="vertical-align:super;font-size:smaller">th</span> April 2017, he diagnosed D as suffering from an organic personality disorder and confirmed that, as a result of this impairment of his brain, he lacked the capacity to make decisions as to his medical treatment. He described the progress D had made since arriving at Y Hospital as variable, although he had made good progress in his physical rehabilitation and had shown good motivation and level of engagement with the physiotherapist. Dr. R summarised the ongoing care programme, including psychology sessions to help him develop insight into his brain injury and its consequences, to focus his attention on one task at a time, and to help and support him to develop practical skills. In addition, he will continue to receive support from occupational therapists and psychotherapists, together with nursing support. In his latest report dated 30<span style="vertical-align:super;font-size:smaller">th</span> June 2017 filed between the two hearing dates, Dr. R reported that he had seen D and his mother on 28<span style="vertical-align:super;font-size:smaller">th</span> June, i.e. after D spoke to me. D told him: &#8220;I will be disappointed if the court were to refuse treatment, it&#8217;s not my fault&#8221;. Dr. R said that D is aware that the stem cell treatment is an experimental treatment, but seems to have no appreciation of the possible outcomes or the likelihood of the treatment being successful. Dr. R reported that, in their conversations, D had informed him that he has nothing to lose and he will feel happy about having tried the treatment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr. R expressed the view that, if it is decided that it is in D&#8217;s best interests to receive the proposed treatment while he is still undergoing rehabilitation at Y Hospital, this could have an impact on his rehabilitation. This would depend on the frequency and duration of D&#8217;s trips to the overseas clinic and might be particularly detrimental to the ongoing physical and psychological work he is undertaking. Furthermore, there could be a knock on effect on the package of care he will need once he moves on from Y Hospital. Dr. R added, however, that D&#8217;s general physical health and mobility have improved since his admission to Y Hospital and that, based on that progress, it is Dr. R&#8217;s opinion that he could travel to the clinic abroad with support and assistance, provided the travel time is no more than a few hours. He added, however, that a physiotherapy assessment and fitness to travel recommendation would be valuable before he leaves. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Prof Martino&#8217;s evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Gianvito Martino is professor of experimental biology at Vita Salute San Raffaele University in Milan. He is widely recognised as an expert in the field of neuroimmunology and amongst his many areas of interest is the use of stem cell therapy as a treatment for multiple sclerosis and other disorders of the central nervous system. In these proceedings, he prepared a preliminary report in December 2016 to which Dr Bulboh responded in a report dated 24 January 2017. Prof Martino then prepared a final report dated 26 March 2017.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his reports, Prof Martino expressed his opposition to the proposal that D should receive stem cell therapy at the Swiss Medica clinic. He said that he was unable to find &#8220;even a faint trace of the scientific and operative procedures that should be considered as a mandatory prerequisite to offer a cell-based combination therapy such as the one proposed to D.&#8221; The reasons for his conclusion were summarised in his final report as follows.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">there is no pre-clinical and clinical scientific evidence that the putative combination of several stem and progenitor cells used by Swiss Medica could be of any benefit to cure the permanent neurological cognitive and physical sequelae which D is suffering (b) there is no sufficient and enough detailed evidence about the characteristics of the cells to infuse and therefore short- and long-term side effects (e.g. tumour formation) cannot be ruled out;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">there is no evidence that Swiss Medica is strictly following the necessary rules during the procurement, manipulation and expansion of the cells and therefore life-threatening &#8211; acute (i.e. infection) and chronic (i.e. tumours) &#8211; potential risk of the medicinal product cannot be ruled out.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the body of his first report, Prof Martino warned against offers of &#8220;miraculous cures based on stem cells for virtually any disease&#8221;. He pointed out that &#8220;this situation increases the distress of patients who, while having an urgent need to know the real hope for success of truly effective therapies, perceived lack of appropriate information channels, which would help them make conscious and informed decisions.&#8221; He reported that stem cell treatments are routinely used in certain types of treatment, in particular, bone marrow transplantation treating malignant and non-malignant forms of blood disorder and, more recently, the use of skin stem cells for treating patients with serious burns and vision problems caused by damage to the cornea. He added, however, that &#8220;in the above-mentioned areas of research, the data are real and reliable, but the evidence of real healing power of stem cells in other contexts is not clear owing to the experimental available results that are neither solid nor unambiguously interpreted. Thus, further testing and confirmation are required.&#8221; He stressed the need for a cautious approach because there are many questions to be answered before permitting large-scale use of these new therapies. He recognised that stem cells can nowadays be considered a potentially useful and effective therapeutic tool, but added that &#8220;the flourishing world of so-called specialised centres for therapies based on stem cells, which do not undergo strict quality control and often make their own profit the only reason for existing, certainly does not facilitate the demanding task of proving, without any doubt, that stem cells might represent a realistic therapeutic option.&#8221; He advocated new legislative tools to protect the patients who are made vulnerable by need of care and hope. &#8220;Citizens need and have the right to be protected and instructed to make an informed choice&#8230;.In essence, to turn anecdotal experiences or promising preclinical results into safe and effective therapies, further research should be conducted.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Prof Martino was very critical of the information provided by Swiss Medica. He observed that most of the information was clearly misleading and not supported by solid scientific arguments. He contended that some assertions were simply not true, because of cases reported in the literature in which infectious diseases, tumours and immune reaction had been described even after the use of autologous stem cells. He argued that there is a lack of experimental, preclinical and clinical evidence that the &#8220;activated stem cells&#8221; from Swiss Medica could be of any benefit to cure the pathology from which D is suffering. Furthermore, he contended that it is not possible to understand clearly whether the clinic, while preparing the stem cells to infuse would follow the rules necessary to avoid life-threatening potential risks. Once transplanted, stem cells have an in vivo behaviour very dependent on a number of variables whose relative importance has not yet been fully clarified. &#8220;For these reasons, the therapies based on stem cells, of any origin, should be still considered experimental and, then, subject to all those strict controls that the medical testing requires.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">After Prof Martino&#8217;s first report, Dr. Bulboh replied to some of the points he had raised, and Prof Martino responded again in his final report. He did not consider that Dr. Bulboh&#8217;s reply provided a sound and reliable explanation about the potential &#8220;regenerative&#8221; efficacy of the therapy. He repeated his concern about the absence of published research to support Br. Bulboh&#8217;s arguments. He remained unclear about details of the procedure, including the meaning of &#8220;activated&#8221; cells, the process used to &#8220;activate&#8221; them, and the procedure used to standardize the platelet-rich plasma preparation. He pointed out that the fraction of mesenchymal stem cells within bone marrow is minimal. He was concerned about other factors, including the absence of information about the compatibility of the allogeneic cells, the nature of the pericytes to be injected, and the fact that the treatment involved a combination of three different types of cells and the safety of each type. This led him to the conclusion quoted above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Prof Martino gave evidence by telephone from Italy via an interpreter. In answer to questions from Mrs B, he said that he divided his time spending two days a week doing clinical work and three days doing research. He has been working on brains with stem cells since 1995 and is at present involved in a clinical trial involving brain stem cells. Prior to this research project, he had not previously been involved with treating a patient with brain injury with stem cell therapy. In answer to a further question from Mrs B, he reiterated his criticism of the Swiss Medica clinic for charging patients to receive treatments in the circumstances. It is his position that experimental therapies should be cost-free to the patient.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Picking up on Dr Bulboh&#8217;s response, I asked Prof Martino how he knew that the patients who developed tumours after stem cell therapy did not have them before. He replied that the tumour that originates from these patients originates from the stem cells transplanted. &#8220;This is easy to ascertain as the genes of the cells that are transplanted are different from the genes belong to the patient receiving the transplant.&#8221; He stated that his observation about patients suffering an immune reaction even after the use of autologous stem cells was based on research, whereas Dr Bulboh&#8217;s contrary view was merely a personal opinion. A further criticism which Prof Martino expressed about the Swiss Medica clinic was the absence of any published research to support their case as to the efficacy of the treatment. Answering questions from Ms Dolan, he reiterated his view that, according to the data that has been supplied regarding the three types of transplant proposed, there was no benefit to D. On the other hand, he identified two main risks were D to receive the therapy &#8211; the first that he may develop some illness related to the fact that the cells were not sterile, the second being the risk of developing tumours from the cells. In addition, there are risks associated with the methodology &#8211; e.g. the use of lumbar puncture &#8211; but Prof Martino regarded these as minimal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The criteria to be applied when making decisions about what is in the best interests of an incapacitated adult are set out in s.4 of the MCA:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <intro>
+		    <p class="BodyTextIndent" style="margin-left:1in;text-indent:0.5in">In determining for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> what is in a person's best interests, the person making the determination must not make it merely on the basis of  -</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="margin-left:2in;text-indent:-0.5in">(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:2in">the person's  age or appearance, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:2in;text-indent:-0.5in">(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:2in">a condition of his, or an aspect of his behaviour, which might lead others to make unjustified assumptions about what might be in his best interests.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;text-indent:0.5in">The person making the determination must consider all the relevant circumstances and, in particular, take the following steps.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:1.5in">He must consider -</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:2in">whether it is likely that the person will at some time have capacity in relation to the matter in question, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:2in">if it appears likely that he will, when that is likely to be.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;text-indent:0.5in">He must, so far as reasonably practicable, permit and encourage the person to participate, or to improve his ability to participate, as fully as possible in any act done for him and any decision affecting him.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in">&#8230;.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(6)</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:1.5in">He must consider, so far as is reasonably ascertainable -</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:2in">the person's past and present wishes and feelings (and, in particular, any relevant written statement made by him when he had capacity),</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:2in">the beliefs and values that would be likely to influence his decision if he had capacity, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:2in;text-indent:-0.5in">(c)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:2in">the other factors that he would be likely to consider if he were able to do so.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(7)</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:1in;text-indent:0.5in">He must take into account, if it is practicable and appropriate to consult them, the views of -</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:2in">anyone named by the person as someone to be consulted on the matter in question or on matters of that kind,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:2in;text-indent:-0.5in">(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:2in">anyone engaged in caring for the person or interested in his welfare,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:2in;text-indent:-0.5in">(c)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:2in">any donee of a lasting power of attorney granted by the person, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:2in;text-indent:-0.5in">(d)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:2in">any deputy appointed for the person by the court,</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="ParaLevel1" style="margin-left:1.08in">as to what would be in the person's best interests and, in particular, as to the matters mentioned in sub-section (6).</p>
+		  </wrapUp>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.08in">&#8230;.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The leading case as to the application of the best interests criteria is now the decision of the Supreme Court in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Aintree University Hospitals NHS Foundation Trust v James and others</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/67" uk:canonical="[2013] UKSC 67" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 67</ref>. At paragraph 39 of her judgment in that case, Baroness Hale of Richmond observed:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;The most that can be said, therefore, is that in considering the best interests of this particular patient at this particular time, decision-makers must look at his welfare in the widest sense, not just medical but social and psychological; they must consider the nature of the medical treatment in question, what it involves and its prospects of success; they must consider what the outcome of that treatment for the patient is likely to be; they must try and put themselves in the place of the individual patient and ask what his attitude to the treatment is or would be likely to be; and they must consult others who are looking after him or interested in his welfare, in particular for their view of what his attitude would be.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At paragraph 45, she added:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">&#8220;The purpose of the best interests test is to consider matters from the patient's point of view. That is not to say that his wishes must prevail, any more than those of a fully capable patient must prevail. We cannot always have what we want. Nor will it always be possible to ascertain what an incapable patient's wishes are. &#8230;. But insofar as it is possible to ascertain the patient's wishes and feelings, his beliefs and values or the things which were important to him, it is those which should be taken into account because they are a component in making the choice which is right for him as an individual human being.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also bear in mind the observation of Peter Jackson J in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Wye Valley NHS Trust v Mr B</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2015/60" uk:canonical="[2015] EWCOP 60" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCOP 60</ref> at paragraphs 10 to 12: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;10.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">Where a patient lacks capacity it is accordingly of great importance to give proper weight to his wishes and feelings and to his beliefs and values. On behalf of the Trust in this case, Mr Sachdeva QC submitted that the views expressed by a person lacking capacity were in principle entitled to less weight than those of a person with capacity. This is in my view true only to the limited extent that the views of a capacitous person are by definition decisive in relation to any treatment that is being offered to him so that the question of best interests does not arise. However, once incapacity is established so that a best interests decision must be made, there is no theoretical limit to the weight or lack of weight that should be given to the person&#8217;s wishes and feelings, beliefs and values. In some cases, the conclusion will be that little weight or no weight can be given in others, very significant weight will be due.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>11.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">This is not an academic issue, but a necessary protection for the rights of people with disabilities. As <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">the Act</ref> and the European Convention make clear, a conclusion that a person lacks decision-making capacity is not an &#8220;off-switch&#8221; for his rights and freedoms. To state the obvious, the wishes and feelings, beliefs and values of people with a mental disability are as important to them as they are to anyone else, and may even be more important. It would therefore be wrong in principle to apply any automatic discount to their point of view.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">12  &#8230;. It is, I think, important to ensure that people with a disability are not &#8211; by the very fact of their disability &#8211; deprived of the range of reasonable outcomes that are available to others. For people with disabilities, the removal of such freedom of action as they have to control their own lives may be experienced as an even greater affront than it would be by others who are more fortunate.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In determining where the best interests lie, it is helpful to draw up a balance sheet of the various factors, as suggested by Thorpe LJ in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re A (Male Sterilisation)</span> <ref href="#" uk:canonical="[2000] 1 FLR 549" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 FLR 549</ref>. In doing so, however, the court must bear in mind the warning given by McFarlane LJ in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re F (A Child) (International Relocation Cases)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/882" uk:canonical="[2015] EWCA Civ 882" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 882</ref> (at paragraph 52) which, although, as the title of the case shows, given in a different context, applies to the judicial use of balance sheets generally;</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;Whilst I entirely agree that some form of balance sheet may be of assistance to judges, its use should be no more than an aide memoire of the key factors and how they match up against each other. If a balance sheet is used it should be a route to judgment and not a substitution for the judgment itself. A key step in any welfare evaluation is the attribution of weight, or lack of it, to each of the relevant considerations; one danger that may arise from setting out all the relevant factors in tabular format, is that the attribution of weight may be lost, with all elements of the table having equal value as in a map without contours.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In earlier cases, including <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">PH v A Local Authority, Z Ltd and R</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/1704" uk:canonical="[2011] EWHC 1704 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 1704 (Fam)</ref> and <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">CC v KK</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2012/2136" uk:canonical="[2012] EWCOP 2136" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 2136 (COP)</ref>, I have drawn attention to a potential risk, identified by Ryder J (as he then was) in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Oldham MBC v GW and PW</span> [2007] EWHC136 (Fam) <ref href="#" uk:canonical="[2007] 2 FLR 597" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 2 FLR 597</ref>, a case brought under Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, that the professionals and the court may be unduly influenced by what Ryder J called the &#8220;child protection imperative&#8221;, meaning &#8220;the need to protect a vulnerable child&#8221; that, for perfectly understandable reasons, may influence the thinking of professionals involved in caring for the child.  Equally, in cases of vulnerable adults, there is a risk that all professionals involved with treating and helping that person &#8211; including, of course, a judge in the Court of Protection &#8211; may feel drawn towards an outcome that is more protective of the adult. This point was articulated most strikingly in the celebrated passage in the judgment of Munby J (as he then was) in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re MM (An Adult)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/2003" uk:canonical="[2007] EWHC 2003 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 2003 (Fam)</ref></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;A great judge once said, &#8216;all life is an experiment&#8217;, adding that &#8216;every year if not every day we have to wager our salvation upon some prophecy based upon imperfect knowledge&#8217; (see Holmes J in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Abrams v United States</span> (1919) 250 US 616 at 630). The fact is that all life involves risk, and the young, the elderly and the vulnerable, are exposed to additional risks and to risks they are less well equipped than others to cope with. But just as wise parents resist the temptation to keep their children metaphorically wrapped up in cotton wool, so too we must avoid the temptation always to put the physical health and safety of the elderly and the vulnerable before everything else. Often it will be appropriate to do so, but not always. Physical health and safety can sometimes be brought at too high a price in happiness and emotional welfare. The emphasis must be on sensible risk appraisal, not striving to avoid all risk, whatever the price, but instead seeking a proper balance and being willing to tolerate manageable or acceptable risks as the price appropriately to be paid in order to achieve some other good &#8211; in particular to achieve the vital good of the elderly or vulnerable person&#8217;s <span style="font-style:italic">happiness</span>. What good is it making someone safer if it merely makes them miserable?&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_10">
+	  <num style="font-style:italic">(1)</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">MOD</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The MOD&#8217;s position is that, while the court must give due weight to D&#8217;s wish to undergo stem cell treatment pursuant to s. 4(6) MCA, D appears to be convinced that this treatment will make him &#8220;normal&#8221; again. The fact that Swiss Medica and Dr Bulboh assert, despite the experimental nature of the treatment, that there are expected benefits for brain injured persons and that the treatment is &#8220;risk free&#8221;, has no doubt played a significant role in fostering D&#8217;s belief that the treatment will make him normal. The MOD submits that, in the circumstances, D&#8217;s wish to undergo stem cell treatment is not one to which the court can attach very much weight in the best interests balance. In any event, there are strong countervailing considerations which lead to an outcome whereby D&#8217;s wishes and feelings are not implemented. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The MOD acknowledged that Mrs B has expressed her view that her son should be permitted to undergo stem cell treatment and accepted as it must that her view falls to be taken into account under s. 4(7) MCA. The MOD pointed out, however, that in her oral evidence Mrs B stated that she &#8220;believes very strongly it<span style="font-style:italic"/>[the stem cell treatment] will work&#8221;. The MoD&#8217;s position is that her strong and very natural desire to see her son&#8217;s condition improve has clouded her ability objectively to judge the likely efficacy of the treatment and the risks to D of undergoing experimental treatment of this kind. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On behalf of the MOD, Miss Greaney invited the court to prefer the opinion of Prof Martino to that provided by Dr Bulboh. Miss Greaney emphasised that even Dr Bulboh accepted Prof Martino&#8217;s characterisation of stem cell therapy for brain injury as an experimental treatment. The MOD invited the court to accept Prof Martino&#8217;s evidence that the data available as to the efficacy of the treatment in humans with acquired brain injury is very limited and that there is a need for much more research including proper clinical trials, a point made in both of the articles cited by Dr Bulboh. To date, there is no published research about the efficacy of the treatment provided at the Swiss Medica clinic and no corroboration of Dr Bulboh&#8217;s assertion that there is at least some discernible improvement in 80% of patients. Furthermore, the MOD emphasised the evidence of life-threatening risks, including the development of carcinogenic tumours even after the use of autologous stem cells, as demonstrated in the case studies cited by Prof Martino. Miss Greaney described Dr Bulboh&#8217;s contrary assertion as incredible and irresponsible. She submitted that the court should attach no or very little weight to Dr Bulboh&#8217;s view that the stem cell treatment would be in D&#8217;s best interests or his assertions as to the likely benefits of treatment for D and the absence of risks. She pointed out that Dr Bulboh expressed the view that it would be in D&#8217;s best interests to have the treatment without examining him, without reviewing his medical records and without obtaining detailed information about his condition from his treating clinicians. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The MOD&#8217;s position is that the balance comes down firmly in favour of a conclusion that the proposed stem cell treatment is not in the best interests of D. It submits that the stem cell treatment has no proven medical benefit and is not a viable option. The only arguments in favour of the treatment are that it accords with D&#8217;s wishes and his mother&#8217;s wishes and that, were D&#8217;s wishes to be thwarted, he may have an adverse psychological reaction. Miss Greaney points out, however, that there may equally well be an adverse psychological reaction if he undergoes the treatment and experiences no improvement, as the MOD contends is likely to be the case. For the MOD, a key consideration in the carrying out of the balancing test is that D has made considerable and solid progress through the rehabilitation programme at X House and now Y Hospital. Further improvement is anticipated with a move at some point to a more independent living environment. Miss Greaney submits that D&#8217;s situation is very far removed from someone who is at the end of life and considers they have little to lose and decide to take the gamble of undergoing an experimental treatment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_11">
+	  <num style="font-style:italic">(2)</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-indent:0.5in"><span style="font-style:italic">The Official Solicitor</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Official Solicitor representing D submits that it is not in his best interests to undergo what he describes as &#8220;this unproven and risky procedure&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On behalf of the Official Solicitor, Ms Dolan QC recognised that primary consideration must be given to D&#8217;s wishes and feelings, particularly when, as in this case, D, although lacking capacity to make this decision, is nevertheless cognitively relatively high functioning and can, and does, clearly express his own views. She accepts that D is adamant that he would like to have the stem-cell procedure and has not wavered at any point in the proceedings. He also has his own funds to pay for it. She submits, however, that it may also be relevant to consider how realistic his opinion is and why he might hold the views he does, because they appear to be predicated upon his belief that the proposed procedure is likely to be effective. He has repeatedly said that having the stem cell procedure will &#8220;make him normal&#8221;. The Official Solicitor contends that, on any analysis, the likelihood of the stem-cell procedure bringing about the significant functional change that D hopes for is small.  Even Dr Bulboh does not claim he can make D &#8220;normal&#8221;. Ms Dolan further submits that D&#8217;s wish to have stem-cell treatment may also have been influenced by his mother&#8217;s strong views. While it is accepted that Mrs B is acting out of love and concern for D, and that her tireless pursuit of rehabilitation or other measures that can help her son is to be commended, the Official Solicitor submits that  her own faith in the proposed procedure may have influenced D&#8217;s views.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Dolan also recognises that, given D&#8217;s strongly-expressed wishes, the impact of a refusal of the application must be a relevant factor within the best interests balance sheet analysis. She points out, however, that Dr. R describes D&#8217;s likely reaction as &#8220;disappointment&#8221; and submits that the anticipated psychological impact upon D of refusal of the application, although clearly relevant, is not sufficiently serious to weigh particularly heavily in favour of permitting the treatment in any balancing exercise.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is submitted on behalf of the Official Solicitor that it is readily apparent that the stem cell procedure being proposed is not an evidenced-based treatment for the injury and/or disabilities from which D suffers and that, as a result, claims about its efficacy can be given little weight when balancing factors to determine his best interests. Ms Dolan expressed surprise that Dr. Bulboh&#8217;s evidence that 80% of cases resulted in some discernible improvement was not supported by any published research &#8211; indeed, not even recorded informally in an accessible form that Dr Bulboh could put before the court, let alone published in a proper clinical research paper. Neither he nor any of his Swiss Medica colleagues appear to have published any research. Ms Dolan submitted that the court should be suspicious of such unsupported claims in circumstances where both clinical and research evidence would be expected to be available. The Official Solicitor is also concerned at the relative lack of information about the procedure. It is his view that, given the potential complexity of the matters under consideration by the court, the brevity of Dr. Bulboh&#8217;s report is of itself of note. In addition, the Official Solicitor is concerned that, during Dr Bulboh&#8217;s oral evidence, it became clear that he knew little about D&#8217;s specific condition or disabilities beyond that he had a brain injury and he had not undertaken any individualised consideration of the appropriateness of this unusual and experimental procedure for D in the light of his specific injury, condition and rehabilitative prognosis.     </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Dolan therefore submits that the court can place no weight at all on Dr Bulboh&#8217;s unsubstantiated claims, that his anecdotal evidence cannot be relied upon as demonstrating any potential efficacy of the proposed procedure, and that there is no basis upon which this court could conclude that this procedure will probably have any benefit for D.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In addition, she submits that Dr. Bulboh plainly underestimated the extent of risk were D to undergo the procedure. On this point, and generally, the Official Solicitor agrees with the MOD that the court should prefer and accept the opinion of Prof Martino that the risks faced by D of the proposed stem cell procedure would outweigh any claimed benefit. In summary, it is the Official Solicitor&#8217;s case that Prof Martino&#8217;s view is clearly to be preferred over Dr Bulboh, and that the court cannot be satisfied on the basis of the evidence that any potential efficacy of the proposed procedure has been demonstrated that might justify taking the risks that Prof Martino has outlined. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_12">
+	  <num style="font-style:italic">(3)</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-indent:0.5in"><span style="font-style:italic">Mrs B</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her closing submissions, Mrs B submits that D persists in his wish to have the treatment, a wish which has been expressed on several occasions to her, various professionals, and the court. He has a strong belief that the treatment will improve his condition and has carried out his own research on the internet. Mrs B noted that the Official Solicitor stressed that D had stated that the treatment will make him &#8220;normal&#8221; and would &#8220;work&#8221; for him. Mrs B acknowledged that such expressions may not sound scientifically or legally appropriate, but submitted that factors such as personality, continuous military service which influenced the communication style, and physical disability must be taken into account before concluding that D cannot explain his expectations about the treatment. In reply to the Official Solicitor&#8217;s submission that D&#8217;s wishes are influenced by her, Mrs B pointed out that there had been nothing to stop the Official Solicitor from bringing other relevant information to D&#8217;s attention. She says that the reason she brought the idea of the treatment to her son&#8217;s attention was because she wanted to improve his quality of life. Before doing so, she thought about his ability to understand information, his values and beliefs that could influence his decision if he had capacity, and other factors, such as military training and personality.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mrs B acknowledges Prof Martino&#8217;s expertise but contends that he has no experience of stem cells in the field of brain injury. She describes him as a scientist not a practitioner. She concludes by saying: &#8220;I am aware that this treatment is not the &#8216;magic quick fix&#8217; cure. However, I strongly believe that my son&#8217;s health will improve after stem cells treatment. Even small improvement would be priceless bearing in mind his disability.&#8221;</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Discussion and conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Dolan on behalf of the Official Solicitor and Miss Greaney on behalf of the MOD both submitted balance sheets in accordance with my direction and the usual practice. I have combined their two drafts as follows:</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_14">
+	  <intro>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Having the stem cell treatment</span></p>
+	    <table uk:widths="2.48in 4in">
+	      <tr>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">Advantages </span></p>
+		</td>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">Disadvantages</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">It accords with D&#8217;s consistent and strongly-held wishes and feelings</span></p>
+		</td>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">The efficacy of this treatment has not been established through any clinical trials. According to Prof Martino, Swiss Medica does not adhere to the international regulations that should be followed in these matters</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">It accords with the views of his mother</span></p>
+		</td>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">D will be exposed to known risks (allergic reaction, developing a tumour, risks associated with the procedure e.g. lumbar puncture and use of a catheter) and also to unknown risks which cannot be excluded because of the absence of clinical trials or research.</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">Any adverse psychological reaction to being prevented from having the treatment is avoided. Regardless of treatment outcome there may be psychological benefit to D arising from (1) his having his wishes respected and (2) knowing that what he sees as a potential treatment avenue has at least been tried.</span></p>
+		</td>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">Travelling to Serbia to undergo the treatment risks disrupting his rehabilitation programme and the ongoing physical and psychological work.</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">There is a potential for improvement, although the evidence for this is only the anecdotal evidence of Dr. Bulboh unsupported by any research or by the opinion of Prof Martino. </span></p>
+		</td>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">He has made substantial progress through rehabilitation and is anticipated, at some point, to move on to a community step-down placement. If he develops a serious illness as a result of the treatment, his future prospects would be considerably worse. </span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:0.5pt solid">
+		  <p/>
+		</td>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">D may have an adverse psychological reaction when he does not see any benefit from the treatment </span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:0.5pt solid">
+		  <p/>
+		</td>
+		<td style="border:0.5pt solid">
+		  <p><span style="font-size:11pt">The treatment is expensive. He will be spending the money he received from his compensation award on an ineffective treatment when he could otherwise spend the money on  care/therapies /treatment or on other things he would like to do to enhance his life</span></p>
+		</td>
+	      </tr>
+	    </table>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Not having the treatment</span></p>
+	      <table uk:widths="3.15in 3.27in">
+		<tr>
+		  <td style="border:0.5pt solid">
+		    <p><span style="font-size:11pt">      Advantages </span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p><span style="font-size:11pt">Disadvantages</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.5pt solid">
+		    <p><span style="font-size:11pt">He does not undergo a treatment which has no scientifically proven benefit</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p><span style="font-size:11pt">The decision does not accord with D&#8217;s wishes</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.5pt solid">
+		    <p><span style="font-size:11pt">D is not exposed to known and unknown risks</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p><span style="font-size:11pt">There is a risk that D will have an adverse psychological reaction when told that he will not undergo the treatment</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.5pt solid">
+		    <p><span style="font-size:11pt">The progress he has made through rehabilitation is not put at risk </span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p><span style="font-size:11pt">The decision does not accord with the wishes of his mother</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.5pt solid">
+		    <p><span style="font-size:11pt">He does not spend a substantial amount of his compensation monies on a treatment which may be ineffective.</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p><span style="font-size:11pt">He loses the opportunity of a possible improvement which the treatment might achieve. </span></p>
+		  </td>
+		</tr>
+	      </table>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is a good example of the value of balance sheets as expressed by McFarlane LJ in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re F</span>, supra, namely as an aide memoire of the key factors and how they match up against each other and as a route to judgment rather than a substitution for the judgment itself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The key factor amongst the advantages of allowing D to undergo stem cell treatment, and the disadvantages of refusing, is that it accords with D&#8217;s wishes. I accept that D has a significantly limited understanding of what the treatment entails and of the prospect of success and of the possible risks. But I am satisfied that he wants the treatment and that he wants it very much. I agree with the observation of Peter Jackson J in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Wye Valley</span> case quoted above that </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;once incapacity is established so that a best interests decision must be made, there is no theoretical limit to the weight or lack of weight that should be given to the person&#8217;s wishes and feelings, beliefs and values. In some cases, the conclusion will be that little weight or no weight can be given in others, very significant weight will be due.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Wishes and feelings of an incapacitated adult are an important factor in any best interests analysis. As Ms Dolan recognised, the fact that D, although lacking capacity, is in cognitive terms relatively high-functioning does not by itself mean that his wishes and feelings carry greater weight. But it may make it easier to discern and understand what those wishes and feelings are &#8211; easier, adopting the words used by Baroness Hale in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Aintree</span> case, to &#8220;see things from the patient&#8217;s point of view&#8221;. In this case, I am very clear that D has a very strong wish to undergo stem cell treatment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also find, as Ms Dolan, I think, accepts, that the views D is expressing are his own views. I do think that B has some influence over her son, but from his own statements, in particular his statements to me, I am very confident that the wishes he is expressing are genuinely his own. The Official Solicitor and the MOD have both relied on D&#8217;s statement that he wants the treatment so that he can be &#8220;normal&#8221; as evidence of his lack of understanding of the treatment and its prospects of success. But I see this statement more as an expression of the strength of his wish to have the treatment. He may be over-optimistic as to the extent to which the treatment may improve his condition, but I find he is aware that it may not work at all. As he said to his mother &#8211; &#8220;Mum, if I don&#8217;t try, I&#8217;ll never know&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The key factors on the other side of the argument &#8211; the disadvantages of allowing treatment and the advantages of refusing it &#8211; are that it is unsupported by any or at least any significant body of research, that it has not been subjected to clinical trials, and that the evidence that it is, or might be, an effective treatment for traumatic brain injury is almost entirely anecdotal. The two research articles cited by Dr Bulboh provide, at best, only tentative support for the proposition that it is an effective treatment. For that reason, Prof Martino is right to counsel caution. I have thought carefully about his warnings as to the unregulated provision of treatment in this field and his concerns about the lack of detail about elements of the treatment. I accept his evidence that the use of stem cells in cases of traumatic brain injury is not yet established by research or clinical trials. I also accept Prof Martino&#8217;s evidence that there are known risks with stem cell treatment, including the type of stem cell treatment proposed in this case. Particular concern arises from the risk that the patient may develop tumours, but there is also concern about the risk of allergic reactions, other side effects, plus the hazards of the treatment process itself, in particular lumbar puncture and the insertion of catheters. I also accept, as with any new treatment, there may also be unknown risks, particularly in the early stages. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the other hand, having heard his evidence, and acknowledging that it was essentially anecdotal and not supported by any research of documentary evidence, I accept Dr. Bulboh&#8217;s assertion that 80% of the patients with brain injury who he has treated with stem cell therapy have shown at least some improvement. I have some concern about Dr Bulboh&#8217;s rather dismissive attitude to the possible risks, but note that, overall, he accepted in evidence that the use of stem cells for traumatic brain injury was in its early stages. He accepted that his treatment was experimental.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But all life is an experiment. In my thinking about this case, I have repeatedly come back to those words of Munby J in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re MM</span> , and to the rest of the passage, in particular: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;Physical health and safety can sometimes be bought at too high a price in happiness and emotional welfare. The emphasis must be on sensible risk appraisal, not striving to avoid all risk, whatever the price, but instead seeking a proper balance and being willing to tolerate manageable or acceptable risks as the price appropriately to be paid in order to achieve some other good &#8211; in particular to achieve the vital good of the elderly or vulnerable person&#8217;s <span style="font-style:italic">happiness</span>. What good is it making someone safer if it merely makes them miserable?&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this case, I think it almost certain that D will be much more than miserable if he is denied the opportunity to have stem cell treatment. I do not accept that his reaction will be confined to mere &#8220;disappointment&#8221;. It is highly likely that he will demonstrate an adverse reaction in his behaviour which may significantly impede and delay his rehabilitation. In saying that, I do not deny the possibility that D may also be distressed, and suffer an adverse reaction, if the treatment does not go well, or if he suffers side-effects or contracts an illness as a result of the treatment. But, as Peter Jackson J observed in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Wye Valley</span> case, as cited above, &#8220;for people with disabilities, the removal of such freedom of action as they have to control their own lives may be experienced as an even greater affront than it would be by others who are more fortunate.&#8221; Thus, as identified in the balance sheet above, regardless of treatment outcome there may be psychological benefit to D arising from his having his wishes respected and knowing that what he sees as a potential treatment avenue has at least been tried. As Baroness Hale emphasised in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Aintree</span> case, decision-makers must look at the patient&#8217;s welfare in the widest sense, not just medical but social and psychological.  If D is denied the opportunity to have stem cell treatment on the grounds that this is the safer option, there is in my judgment a strong argument that his safety may be bought at too high a price in terms of his happiness and emotional welfare.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have not found this an easy decision but, having appraised the risks and considered the advantages and disadvantages of the options in this case, I have ultimately reached the clear conclusion that this court should give its provisional consent to D travelling to Belgrade to receive stem cell treatment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are, however, several further steps that need to be taken before this court gives its final approval.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, Dr Bulboh and his team at the Swiss Medica clinic must be supplied with a fully detailed report concerning D&#8217;s medical condition, including full reports by his treating clinicians at Y Hospital.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Secondly, I direct that Dr Bulboh should then submit a further report stating whether, having read this material, he continues to recommend that D be given stem cell treatment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thirdly, I direct that a comprehensive plan be prepared setting out in full detail (a) the preliminary steps to be taken before D travels to Belgrade, including, as recommended by Dr R, a physiotherapy assessment and fitness to travel recommendation; (b) plans for his transport to and from Belgrade; (c) plans for his care, assessment and treatment at the clinic in Belgrade; (d) plans for the follow-up assessment and treatment in Belgrade and at the Y Hospital; and (e) so far as possible, an assessment of the impact of his travel to, and treatment in, Belgrade on the rehabilitation plan at Y Hospital. I would be grateful if the Official Solicitor would take on responsibility for coordinating discussions and compiling the plan.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fourthly, I direct that, if the plan goes ahead, and D travels to Belgrade, Dr Bulboh should carry out a full preliminary assessment in accordance with his normal procedure and should submit a written report to the Official Solicitor before the treatment goes ahead. The Official Solicitor should then be at liberty to bring the matter back to this court promptly if he has any concerns.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, I require Dr Bulboh and Mrs B to agree that they will comply with all directions given by this court in respect of D and his treatment, meaning that, if after considering Dr Bulboh&#8217;s preliminary assessment of D in Belgrade, this court concludes that the treatment should not go ahead, they will then not proceed with the programme, and will instead facilitate D&#8217;s immediate return to this country. In Mrs B&#8217;s case, I require the agreement to be given by way of an undertaking to the court &#8211; a formal promise, breach of which would be a contempt of court. I shall explain this requirement more fully to Mrs B when this judgment is handed down.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

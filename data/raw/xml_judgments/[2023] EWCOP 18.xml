@@ -1,0 +1,876 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2023/18"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2023/18"/>
+	  <FRBRdate date="2023-02-28" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="18"/>
+	  <FRBRname value="HH v Hywel Dda University Health Board &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2023/18"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2023/18"/>
+	  <FRBRdate date="2023-02-28" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2023/18/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2023/18/data.xml"/>
+	  <FRBRdate date="2024-11-10T00:44:14" name="transform"/>
+	  <FRBRdate date="2024-12-02T19:52:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-02-28" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewcop" href="https://www.gov.uk/courts-tribunals/court-of-protection" showAs="The Court of Protection"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="hh" href="" showAs="HH"/>
+	<TLCPerson eId="hywel-dda-university-health-board" href="" showAs="HYWEL DDA UNIVERSITY HEALTH BOARD"/>
+	<TLCPerson eId="carmarthenshire-county-council" href="" showAs="CARMARTHENSHIRE COUNTY COUNCIL"/>
+	<TLCPerson eId="lm" href="" showAs="LM"/>
+	<TLCPerson eId="ah" href="" showAs="AH"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-francis" href="/judge-mr-justice-francis" showAs="MR JUSTICE FRANCIS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCOP</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>18</uk:number>
+	<uk:cite>[2023] EWCOP 18</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>0fa40ae0419803168549b906b5738d2155178e284c0b820029f539bd9ca6bc95</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: justify; margin-left: 0.49in; font-weight: bold; font-family: Arial; font-size: 11pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2E74B5; }
+#judgment .NormalWeb { font-family: 'Arial Unicode MS'; font-size: 12pt; }
+#judgment .BodyTextIndent { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .BodyTextIndent2 { text-align: justify; margin-left: 0.75in; font-size: 12pt; }
+#judgment .BodyTextIndent3 { text-align: justify; margin-left: 0.38in; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-size: 12pt; }
+#judgment .BlockText { text-align: justify; margin-left: 0.75in; margin-right: 0.41in; font-size: 12pt; }
+#judgment .BodyText2 { text-align: right; font-size: 12pt; }
+#judgment .Judgmentparas { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .Quotes { text-align: justify; margin-left: 0.79in; margin-right: 0.39in; font-weight: bold; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .BodyTextIndent2Char { font-size: 12pt; }
+#judgment .JudgmentparasChar { font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .speakerspeaker-S11 { }
+#judgment .speakerspeaker-S7 { }
+#judgment .speakerspeaker-S8 { }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2E74B5; }
+#judgment .Strong { font-weight: bold; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EWCOP 18</neutralCitation></p>
+      <p class="CoverText">Case Nos: <docketNumber>13617222</docketNumber>, <docketNumber>13752178</docketNumber></p>
+      <p class="CoverMain">IN THE COURT OF PROTECTION AT CARDIFF</p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Cardiff Civil and Family Justice Centre</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">2 Park Street</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Cardiff</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">CF10 1ET</span></p>
+      <p class="CoverText">Date: <docDate date="2023-02-28" refersTo="#judgment">28 February 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-francis">MR JUSTICE FRANCIS</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#hh" style="font-weight:bold">HH </party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(BY HER LITIGATION FRIEND, DF OF MENTAL HEALTH MATTERS WALES)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#hywel-dda-university-health-board" style="font-weight:bold">(1) HYWEL DDA UNIVERSITY HEALTH BOARD</party></p>
+	    <p class="NormalWeb" style="text-align:center"><party as="#respondent" refersTo="#carmarthenshire-county-council" style="font-weight:bold;font-family:'Times New Roman'">(2) CARMARTHENSHIRE COUNTY COUNCIL</party></p>
+	    <p class="NormalWeb" style="text-align:center"><party as="#respondent" refersTo="#lm" style="font-weight:bold;font-family:'Times New Roman'">(3) LM</party></p>
+	    <p class="NormalWeb" style="text-align:center"><party as="#respondent" refersTo="#ah" style="font-weight:bold;font-family:'Times New Roman'">(4) AH</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(BY HIS LITIGATION FRIEND LK OF MENTAL HEALTH MATTERS WALES)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="NormalWeb" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Mr Rhys Hadden</span><span style="font-family:'Times New Roman'"> (Counsel on behalf of HH, instructed by Reeds Solicitors LLP)</span><span style="font-weight:bold;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">on behalf of the </span><span style="font-weight:bold;font-family:'Times New Roman'">Applicant</span></p>
+      <p class="NormalWeb" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Mr Conrad Hallin</span><span style="font-family:'Times New Roman'"> (Counsel on behalf of Hywel Dda University Health Board, instructed by NHS Wales Shared Services Partnership)</span><span style="font-weight:bold;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">on behalf of the</span><span style="font-weight:bold;font-family:'Times New Roman'"> First Respondent</span></p>
+      <p class="NormalWeb" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Ms Eliza Sharron</span><span style="font-family:'Times New Roman'"> (Counsel on behalf of Carmarthenshire County Council, instructed by Weightmans LLP) on behalf of the </span><span style="font-weight:bold;font-family:'Times New Roman'">Second Respondent</span></p>
+      <p class="NormalWeb" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">LM</span><span style="font-family:'Times New Roman'"> (Litigant in Person) </span><span style="font-weight:bold;font-family:'Times New Roman'">Third Respondent</span></p>
+      <p class="NormalWeb" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Ms Ulele Burnham</span><span style="font-family:'Times New Roman'"> (Counsel on behalf of AH, instructed by CJCH Solicitors) on behalf of the </span><span style="font-weight:bold;font-family:'Times New Roman'">Fourth Respondent</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+      <p style="text-align:center"> - - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="NormalWeb" style="text-align:center"><span style="font-family:'Times New Roman'">28 February 2023</span></p>
+      <p class="NormalWeb" style="text-align:center"><span style="font-family:'Times New Roman'">(start and end times cannot be noted due to audio format)</span></p>
+      <p class="NormalWeb" style="text-align:center"><span style="font-family:'Times New Roman'">Reporting Restrictions Applied: No</span></p>
+      <p class="Footer" style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-size:10pt">&#8220;This judgment was delivered in private. The judge has given leave for this anonymised version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the subjects of the must be strictly preserved. All persons, including representatives of the media, must ensure that this condition is strictly complied with. Failure to do so will be a contempt of court.&#8221;</span></p>
+      <p class="Footer" style="text-align:center"><span style="font-style:italic;font-weight:bold;font-size:10pt">&#8220;This Transcript is Crown Copyright.&#160; It may not be reproduced in whole or in part other than in accordance with relevant licence or with the express consent of the Authority.&#160; All rights are reserved.&#8221;</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0in"><span style="font-weight:bold">Mr Justice Francis: </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Carmarthenshire County Council (&#8216;the Local Authority&#8217;) is the Local Authority with responsibility for jointly commissioning AH&#8217;s mental health aftercare under <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/117" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.117</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref>, together with Hywel Dda University Health Board (&#8216;the Health Board&#8217;). The Health Board solely commissions the care of HH, who is AH&#8217;s wife. The Local Authority is also the Supervisory Body in respect of the standard authorisations which authorise the deprivation of liberty of both AH and HH. The first hearing listed before me in respect of both of these cases was on 19 December 2021. That hearing was specifically listed before me in order to determine:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in">&#8220;Whether the same judge sitting in the Court of Protection has the jurisdiction under [the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref>] to make best interests decisions pursuant to section 16(2)(a) in respect of more than one person at the same time or sequentially.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">The issue before me in December 2021 was amplified Mr Hallin, Counsel for the University Health Board as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in">&#8220;HH presently lives in a care home with her husband sharing a bedroom although with access to separate bathrooms if they wish to spend some time apart. HH lacks capacity and is deprived of her liberty under the package of care she received at the care home and is subject to section 21A proceedings [Case No: 13617222]. It is understood that her husband, AH, also lacks capacity and is subject to section 21A proceedings [Case No: 13752178] although Hywel Dda University Health Board does not share his care and is not a party to the proceedings concerning him. Both spouses are parties within each other&#8217;s proceedings. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in">The case has been listed before a tier 3 judge because the litigation friend of HH, and possibly also AH, considered that the proceedings should be consolidated before the same judge at the same time by the same judge. Hywel Dda University Health Board objected to the consolidation of proceedings on the basis that a judge in this situation could not fulfil this dual role as he risks being conflicted if the best interests of the two Ps did not happen to coincide.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">The Health Board&#8217;s position was that they object to the consolidation of two sets of proceedings or for them to be listed concurrently before the same judge at the same time as wrong in principle. The Health Board made it clear that, for the avoidance of any doubt, they did not dispute that the Court of Protection Rules, mirroring the Civil Procedure Rules, allow for the consolidation of proceedings or to hear two or more applications on the same occasion and that it is for the Court to consider whether this course is appropriate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">A number of reported cases were put forward on behalf of AH about applications which have been consolidated and/or heard together but the Health Board contended that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in">&#8220;It is notable that in not one of these cases has the Court of Protection consolidated or otherwise joined a case where there has been a potential conflict of P&#8217;s best interests and where the Court will be asked to do a balancing exercise between two Ps&#8217; best interests.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">At a hearing on 19 May 2021, HH&#8217;s representatives sought a direction that her application should be consolidated with AH&#8217;s hearing so that the two matters could be determined concurrently by the same judge, given the significant overlap and intertwined nature of these proceedings. The application was supported on behalf of AH, represented by Ms Burnham, and as a matter of jurisdiction and/or principle was opposed by the Health Board.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">The Local Authority has been represented by Ms Sharron and their position is that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in">&#8220;The Court plainly has jurisdiction to determine connected applications relating to the different individuals and there is nothing within the legislative framework to suggest otherwise.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Ms Sharron contends that the allocation of any application to the appropriate judge, and the consolidation of proceedings, or whether the application should be heard together are simply case management directions that fall well within the Court&#8217;s ordinary discretion. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">HH, through her litigation friend, has been represented throughout the proceedings by Mr Hadden of Counsel. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">It is common ground among the lawyers that there is no decided case law under the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> which has expressly considered this issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">It is clear that I have to decide not only whether the cases can be consolidated but, in the alternative, whether they can be determined concurrently by the same judge, given the significant overlap and intertwined nature of these proceedings. I am bound to say that, in spite of the erudite and extensive legal argument put forward by Mr Hallin on behalf of the Health Board in this case, it may be that the reason that there are no reported decisions about this issue is because the answer is actually fairly obvious and that this is a point that has not been taken before for that reason. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Permission was given to those representing both AH and HH to share documents for the purposes of the hearing. It is pertinent that I should record that HH is not a party to AH&#8217;s proceedings and that she is not eligible therefore for legal aid for such purposes. This means that her litigation friend is not funded by any public body for these proceedings. AH is a party to HH&#8217;s proceedings, but his litigation friend is compelled to act on a voluntary basis as no legal aid is available. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Not for the first time in Court of Protection proceedings, I find myself dismayed at the absence of Legal Aid in these circumstances where it is plainly needed. Whilst technically the Health Board may not be an arm of the state, to all right minded people I venture to suggest that a publicly funded NHS body is exactly that. I find it hard to imagine that the legislators intended that people in these circumstances should be without public funding. I wish to acknowledge the Court&#8217;s gratitude to those who have acted pro bono in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I have not been asked in these proceedings to make any determinations in respect of capacity. It is accepted that there is sufficient evidence for the Court to have reason to believe that both HH and AH lack capacity to conduct proceedings, make decisions about her residence and care and manage her property and affairs. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">The relevant background is as follows. HH was born in November 1945 and is therefore aged 77. In March 2020, she was admitted to hospital following a fall at home having hit her head. On admission, her ethanol levels were found to be extremely high, and she was noted to be aggressive and highly agitated while in hospital and initially needed intramuscular sedation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">HH and AH were not known to Social Services prior to HH&#8217;s admission to hospital. They had lived alone and independently. The couple were described as very private and they lived in a rural location. It seems to be agreed that alcohol played a large part in this couple&#8217;s life for the entirely of their marriage of over 50 years. I am told, and accept, that neither AH nor HH recognised that they had any alcohol problems. Both AH and HH have been diagnosed with cognitive impairment. AH has been diagnosed with dementia and HH has been diagnosed with alcohol related brain damage. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Little is known about the detail of the relationship between the couple although we have been joined in these proceedings, and indeed on earlier occasions as well, by the couple&#8217;s daughter LM, and I am extremely grateful to her for being present and for her input. As I said during the course of discussions in court again this morning, it cannot be at all easy for her to be pitted, as it were, not necessarily against, but alongside extremely experienced lawyers in Court of Protection, whilst at the same time having to cope with the emotional difficulty of addressing me and, of course, all of the lawyers in respect of her parents&#8217; marriage. It must be distressing for anybody such as her to witness the deterioration of her parents in the way that I have described.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I make it clear that I have not heard any evidence and I have not made any findings in these proceedings. However, I note the evidence has been put forward and accept for the purposes of this decision that I am making now as at least possible that the assertions will all be made out. It has been reported that, following the admission of HH to hospital, AH would attend under the influence of alcohol and would bring in concealed alcohol for HH. I am told that there was an occasion when the police had to attend their matrimonial home following HH&#8217;s admission to hospital because AH was threatening to commit suicide. Following this, AH was sectioned under <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref> and detained in hospital and the detention was converted into a section 3 detention, and, as a result, AH was in hospital for a long time. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">The Health Board has worked closely with the Local Authority to secure a placement that could accommodate the couple together. A suitable placement was found at B Care Home it having been determined that neither of them was fit enough to return to their matrimonial home. The Health Board has made it clear that it agrees with the Local Authority&#8217;s position that the issue would become hypothetical and academic if it is accepted by all that it is in both HH&#8217;s and AH&#8217;s best interests to live together and be cared for at B Care Home or another care home where they could be together or that both sets of proceedings should in any event come to an end on the basis that no alternative provision for the care and residence is available.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">As I have said, neither husband nor the wife were known to any services prior to the admission. They lived alone and independently. I am told that they have another daughter from whom they are estranged and LM, whom I have already referred to, lives in Brighton and so she is a considerable distance from the couple who are in West Wales. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">It is accepted by everybody that a trial of the husband and wife together and sharing a bedroom at B Care Home started in June 2021. I am told that this trial was largely a success, albeit with some incidents of concern. Fast forwarding for a moment to today, which is the end of February 2023, unfortunately a number of episodes have taken place evidencing what seems to be a deterioration particularly in the husband&#8217;s condition and they are at the moment not living together, not at the same home and not seeing each other. That, as I suggested to the parties this morning when we started, brings into sharp focus the argument being put forward by Mr Hallin about the difficulty of one judge making a best interests decision in respect of a couple who may have different best interests subject to which, of course, I am going to return.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I have seen a considerable amount of evidence which refers to both positive and negative aspects of the trial of the couple sharing in the way that I have just referred to. I am told and I accept for the purposes of this application that both husband and wife have repeatedly expressed a wish to live together. Again, fast forwarding from the December 2021 proceedings and the November 2022 proceedings to today, the end of February 2023, I am told that AH often asks about his wife but that his wife does not say very much about him unless she is expressly asked to say something about him, but I am clear that it is obvious for the purposes of these proceedings that the couple had repeatedly expressed a wish to live together. Given that they have spent almost the entirely of their adult lives together, that is unsurprising. I can imagine that, whilst there may be some downsides to them living in a shared arrangement, splitting them up could have had catastrophic effects on one or both of them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">It is of course accepted that they are not able to return home to live either individually or as a couple. They have both been assessed as requiring nursing care albeit the nature, intensity, complexity and unpredictability of their respective needs differ. For the purposes of this Judgment, I do not need to set out the particular issues affecting each of them. I accept that it is possible, without making any findings, that there may have been occasions when AH was aggressive towards HH, that AH may have been aggressive towards other residents at B Care Home and that there have been challenges presented in respect of the delivery of care to both of them but particularly to HH in AH&#8217;s presence and that he may well have attempted to prevent members of staff from assisting her with personal care and medication.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">It is accepted, as I have said, that pursuant to the Court of Protection Rules 2017, the Court may consolidate proceedings and/or hear two or more applications on the same occasion. Both AH and HH&#8217;s representatives asked for the two applications to be heard on the same occasion by the same judge. No one now is suggesting that I should consolidate proceedings but they are suggesting, that is everyone is suggesting except for the Health Board, that I should, as the allocated judge, hear the applications in respect of both AH and HH so I do not need to say anything more about the issue of consolidation. There may well be later issues that would need to be determined in respect of one of the couple rather than the other and it is obviously inappropriate for me to consolidate, and as I say I do not say anything further about that.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <intro>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I am not going to read out section 16 of the Mental Capacity Act but for the purposes of the transcript the relevant section is to be inserted at this part of the judgment. All of the lawyers here know what section 16 says and I do not think anybody particularly wants to sit and listen to me simply reading it out but as I say, it is to be inserted into the transcript when it is provided.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">16 Powers to make decisions and appoint deputies: general</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(1)This section applies if a person (&#8220;P&#8221;) lacks capacity in relation to a matter or matters concerning&#8212;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(a)P's personal welfare, or</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(b)P's property and affairs.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(2)The court may&#8212;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(a)by making an order, make the decision or decisions on P's behalf in relation to the matter or matters, or</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(b)appoint a person (a &#8220;deputy&#8221;) to make decisions on P's behalf in relation to the matter or matters.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(3)The powers of the court under this section are subject to the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">this Act</ref> and, in particular, to <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 1</ref> (the principles) and 4 (best interests).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(4)When deciding whether it is in P's best interests to appoint a deputy, the court must have regard (in addition to the matters mentioned in section 4) to the principles that&#8212;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(a)a decision by the court is to be preferred to the appointment of a deputy to make a decision, and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(b)the powers conferred on a deputy should be as limited in scope and duration as is reasonably practicable in the circumstances.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(5)The court may make such further orders or give such directions, and confer on a deputy such powers or impose on him such duties, as it thinks necessary or expedient for giving effect to, or otherwise in connection with, an order or appointment made by it under sub<ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (2</ref>).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(6)Without prejudice to section 4, the court may make the order, give the directions or make the appointment on such terms as it considers are in P's best interests, even though no application is before the court for an order, directions or an appointment on those terms.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(7)An order of the court may be varied or discharged by a subsequent order.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(8)The court may, in particular, revoke the appointment of a deputy or vary the powers conferred on him if it is satisfied that the deputy&#8212;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(a)has behaved, or is behaving, in a way that contravenes the authority conferred on him by the court or is not in P's best interests, or</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyTextIndent2" style="margin-left:0.79in;margin-right:0.39in">(b)proposes to behave in a way that would contravene that authority or would not be in P's best interests.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">AH has challenged his standard authorisation on the basis that the bests interests requirement is not met on the following ground:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in">&#8220;On the basis of the report from LK, it is obviously AH&#8217;s sincere wish to return home to resume family life with his wife, HH. There is therefore support in making this application and LK is prepared to act. Whether the best interests requirement is met in either case requires consideration of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> and I then for the purposes of the transcript will incorporate that section just referred to.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal"> 4 Best interests</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(1)In determining for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> what is in a person's best interests, the person making the determination must not make it merely on the basis of&#8212;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(a)the person's age or appearance, or</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(b)a condition of his, or an aspect of his behaviour, which might lead others to make unjustified assumptions about what might be in his best interests.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(2)The person making the determination must consider all the relevant circumstances and, in particular, take the following steps.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(3)He must consider&#8212;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(a)whether it is likely that the person will at some time have capacity in relation to the matter in question, and</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(b)if it appears likely that he will, when that is likely to be.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(4)He must, so far as reasonably practicable, permit and encourage the person to participate, or to improve his ability to participate, as fully as possible in any act done for him and any decision affecting him.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(5)Where the determination relates to life-sustaining treatment he must not, in considering whether the treatment is in the best interests of the person concerned, be motivated by a desire to bring about his death.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(6)He must consider, so far as is reasonably ascertainable&#8212;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(a)the person's past and present wishes and feelings (and, in particular, any relevant written statement made by him when he had capacity),</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(b)the beliefs and values that would be likely to influence his decision if he had capacity, and</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(c)the other factors that he would be likely to consider if he were able to do so.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(7)He must take into account, if it is practicable and appropriate to consult them, the views of&#8212;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(a)anyone named by the person as someone to be consulted on the matter in question or on matters of that kind,</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(b)anyone engaged in caring for the person or interested in his welfare,</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(c)any donee of a lasting power of attorney granted by the person, and</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(d)any deputy appointed for the person by the court,</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">as to what would be in the person's best interests and, in particular, as to the matters mentioned in subsection (6).</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(8)The duties imposed by sub<ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections (1</ref>) to (7) also apply in relation to the exercise of any powers which&#8212;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(a)are exercisable under a lasting power of attorney, or</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(b)are exercisable by a person under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> where he reasonably believes that another person lacks capacity.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(9)In the case of an act done, or a decision made, by a person other than the court, there is sufficient compliance with this section if (having complied with the requirements of sub<ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections (1</ref>) to (7)) he reasonably believes that what he does or decides is in the best interests of the person concerned.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(10)&#8220;Life-sustaining treatment&#8221; means treatment which in the view of a person providing health care for the person concerned is necessary to sustain life.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(11)&#8220;Relevant circumstances&#8221; are those&#8212;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(a)of which the person making the determination is aware, and</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">(b)which it would be reasonable to regard as relevant.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I am grateful to Mr Hallin for the clarity and detail which he has provided in his 31 page document probably inappropriately referred to as a skeleton argument because it has considered in very considerable detail every possible avenue of this issue. Mr Hallin submits that the meaning and effect of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> is clear. He says it provides a statutory framework for considering the best interests of the individual. It does not, he says, provide for any mechanism for balancing the interests of more than one individual. There is, he says, no ambiguity about this. There is no proper basis, he says, for reading this section down or qualifying this provision in any way so as to allow best interests between two Ps to be balanced or compromised. To do so, he says, offends the plain meaning rule of statutory interpretation, and in this regard he refers me to the familiar proposition set out in Halsbury&#8217;s Laws of England:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in">&#8220;If there is nothing to modify, alter or qualify the language which a statute contains, works and sentences must be construed in their ordinary and natural meaning.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I have also been referred by Mr Hallin to the speech of Lord Reid in <span style="font-style:italic">Pinner v Everett</span> [1969] UKHL J0729-1 that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">&#8220;In determining the meaning of any word or phrase in a statute the first question to ask is what is the natural or ordinary meaning of that word or phrase [and] its context in the statute? It is only when that meaning leads to some result which cannot reasonably be supposed to have been the intention of the legislature, that it is proper to look for some other possible meaning of the word or phrases.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Mr Hallin contends not unreasonably that the natural meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> and in particular the Mental Capacity Act framework in general is that the best interests of P are to be considered individually in accordance with the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> criteria. This allows the views of P to be taken into account under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(7)</ref> and potentially under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(6)</ref>. There is, says Mr Hallin, no mechanism for balancing the interests of two Ps.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">It is contended on behalf of AH that because the rules allow cases to be consolidated together, the Court is empowered to make individualised best interests decisions in respect of each P taking the best interests of the other into account as part of its determination.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I have been referred by Mr Hallin to the judgment of MacFarlane LJ (as he then was) in <span style="font-style:italic">York City Council v C</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/478" uk:canonical="[2013] EWCA Civ 478" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 478</ref> where he said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in"><span style="font-weight:normal">&#8220;All decisions, whatever their nature, fall to be evaluated with the straightforward and clear structure of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 1</ref> to 3, which requires the court to have regard to &#8216;a matter&#8217; requiring &#8216;a decision&#8217;. There is neither need nor justification for the plain words of the statute to be embellished.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Mr Hallin submits that this is no less applicable to the straightforward and clear structure of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> which he says obviously relates to decisions of individual incapacitated persons and does not permit a balancing exercise between multiple Ps. Mr Hallin forcefully submits that the Court of Protection cannot stand in the shoes of two people at the same time and attempt to balance the interests where they might not align. He says that it does not suffice to say, as on occasion appears to be said in this case, that the two Ps best interests, that is AH and HH, are likely, in assessments, to align. He says that whether the best interests of the two people concerned are sufficiently aligned could never be predicted in advance. He warns of the possibility that the Court would be tempted, and I quote from his document:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in">&#8220;To find a compromise between the best interests of two Ps.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">He says that this would subvert the statutory test in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of the Mental Capacity Act for both Ps in such a consolidated application or, I take it by implication, in the situation where the applications were to be heard together.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Ms Burnham contends on behalf of AH that the drafters of the Court of Protection Rules 2017 plainly contemplated that there could be circumstances in which it would be appropriate for more than one application to be heard at the same time and by application by the same court. Thus, she says that the Court of Protection Rules specifically provide that the court&#8217;s general powers of case management includes a discretion:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in">&#8220;To hear two or more applications on the same occasion.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Ms Burnham, reminds the Court that there are reported cases in which the Court of Protection has made determinations in respect of more than one person on the same occasion. She maintains that, as a matter of general principle, the cases in which the interests of the relevant persons were not actually connected are not of great assistance. She says that the one authority which may be considered to have a bearing on the instant application is <span style="font-style:italic">The Friendly Trust&#8217;s Bulk Application</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2016/40" uk:canonical="[2016] EWCOP 40" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCOP 40</ref>. In that case, the court rejected the bulk application specifically on the basis that applications to the court required individual scrutiny of the best interests of the person concerned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Here, however, Ms Burnham contends that AH does not argue that the Court should make a composite or blanket determination of an issue which requires individual consideration in order to comply with the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of the Mental Capacity Act. On the contrary, it is argued that the nuanced consideration of the individual circumstances of this case, that of his wife of 57 years, from Ms Burnham&#8217;s document:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quotes" style="margin-left:0.79in">&#8220;Militate in favour of their cases being heard together.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Proper consideration, Ms Burnham says, of his autonomy, his wishes and feelings and other factors that he would consider in his interests in financial circumstances as an individual are entirely consistent with the exercise of the discretion pursuant to rule 3.1(2) of the Court of Protection Rules to hear his and his wife&#8217;s application at the same time. The evidence before the Court, she contends, suggests that they consider their interests were intertwined prior to the loss of capacity in the relevant area. Ms Burnham contends that, following the loss of capacity, it is entirely appropriate that the determination of their bests interests ought properly to be regarded as continuing to be intertwined. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Mr Hallin sets out various examples which he asks me to consider, which I have carefully considered, of what could happen where two Ps best interests are determined at the same time. What would happen, he says, if HH&#8217;s best interests were to remain on a separate unit, whether AH&#8217;s best interests were to remain in the same room as his wife. For example, because he was miserable without her. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Mr Hallin says, as must be correct, that it would be wrong and impermissible for the Court to prefer the best interests of one P over another where they did not align and that the Court would be conflicted from making a decision about either P in those circumstances. He says that, taking these hypothetical cases as examples, the procedurally correct way to deal with the cases of this nature is that the application should be heard by two separate judges to avoid the risk of conflict, with the husband and wife having representation in each other&#8217;s proceedings. He says that even if contrary to the above, the view was that there would be a practical way for an experienced judge to balance two Ps best interests. Even where there was conflict, there is no statutory route to carry out such a balancing exercise.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Ms Burnham reminds me that her client, like his wife, does not pursue an application for the two sets of proceedings to be consolidated. She says the Court is being invited to make discrete decisions or determinations on each application but the applications ought to be heard together and determined by the same judge. The question whether the applications are heard sequentially would not obviate the conflict that might emerge if the Court were required to make best interests determinations in respect of two people at once. Ms Burnham says that on the Health Board&#8217;s argument, the Court would still be required to stand in the shoes of more than one person as part of a decision making process in which it is only capable of standing in the shoes of one. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Ms Burnham contends that the drafters of the Court of Protection Rules plainly contemplated that there would be circumstances in which it would be appropriate for more than one application to be heard at the same time and, by implication, by the same court. The rules, as I have said, specifically provide that the Court has general powers of case management including a discretion to hear two or more applications on the same occasion. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I have appropriately been referred to a potentially comparable best interests jurisdiction, namely, that under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1</ref> of the Children Act, of course, provides that the child&#8217;s welfare shall be the paramount consideration of the Court. Every day, family judges across England and Wales have to apply the welfare principle which guides the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, and they frequently have to do so in circumstances where there is more than one child in a family. Very often, the interests of the children might conflict. For example, a younger child might need the comfort or society of the older child in a sibling group whereas the older child might need to be free from the obligations to care for that younger sibling child.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Judges are, in the Family Division, completely used to making decisions about children in families where their interests may conflict with each other. Furthermore, there is a significant danger, in my judgement, that if the interests of the husband and wife such as AH and HH in this case were to be determined by two different judges, there is a real risk that those judges might make different findings of fact. In a case such as the instant one, issues such as whether the parties might be abusive towards each other or encourage each other to drink could be at the heart of a best interests determination. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">There is an obvious risk that a judge in court A hearing the case of AH might make different factual determinations from the judge in court B next door in respect of HH. This would lead, it seems to me, to an absurd and impossible situation. In my judgement, it is essential to go back to the statutory framework and the rules which govern that. Rule 3.1(2) of the Court of Protection Rules 2017 sets out a list of the Court&#8217;s general powers of case management. Among those powers referred to above, the Court may consolidate proceedings and/or may hear two or more applications on the same occasion. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Both husband and wife in this case, through their representatives, ask for the two applications to be heard on the same occasion by the same judge. It would, I suggest, defy common sense if different judges were to make different determinations in respect of each of them when they are and have been a couple for decades. Just because they may now have different interests does not mean that I, as the judge, cannot apply a best interests test in respect of each of them. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I accept that this may lead the judge, and if that is me, it may lead me, to making a finding that each of them has different needs and different best interests, and so their best interests may conflict. Surely the appropriate thing then that we need to do is to balance these interests, to consider the conflict and to make a proper determination in a holistic manner having regard to the needs of each of them and the best interests of each of them. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">The idea that a judge sits in one court dealing with AH whilst another judge sits in another court dealing with HH without even consulting each other would, it seems to me, be remarkable and would be regarded by most people, I suggest, as plainly wrong. It is so often the task of the judge to balance interests, and I have already referred to the circumstances which so often arise when dealing with cases pursuant to the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I have already said that I am not going to consolidate because nobody is asking me to do so. My view is that the same judge should hear these cases having heard the evidence and submission in respect of each case and should make a determination in respect of each of AH and HH. It is, as I have said, entirely possible that they may have different needs and different interests and therefore different decisions have to be made in respect of each of them. As I have said, this is not very different from a judge in the Family Court making decisions in respect of a sibling group.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Accordingly, I find that I agree with the submissions made by Counsel respectively for AH and HH and the Local Authority, and there is no reason in principle why both applications cannot be heard concurrently by the same judge at the same time. I agree that this is properly characterised as a case management decision and that there is nothing within the framework of the Mental Capacity Act which expressly prohibits the same decision maker from making a best interests decision on behalf of one or more incapacitated adults whose interests are closely connected and might conflict. Indeed, I go further and find that it is likely to be appropriate in cases such as this for the same court to hear the best interests decisions and that this should be the accepted approach in circumstances such as this. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I agree that the use of the singular person, or P, as we say, within the statutory provisions of the Mental Capacity Act and indeed the rules does not lend any weight to an interpretation that the same judge sitting in the Court of Protection is constrained from making a best interests determination in respect of different Ps. I agree with Mr Hadden&#8217;s submission on behalf of HH that the absence of any plural or collective nouns in the language of the Mental Capacity Act is indicative of nothing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">A further hearing took place on 17 November 2022. In the period between the 2021 hearing and the 2022 hearing, AH and HH continued to share a room and all parties considered it in their best interests to do so notwithstanding some concerns regarding AH&#8217;s conduct towards HH. The hearing on 17 November 2022 was precipitated by an urgent application made on behalf of the Health Board following a unilateral decision that was taken on 3 November 2022 to move HH to a different property called M Care Home. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">The issue as to whether the two sets of proceedings case managed by the same or different judge came alive again, and, on that occasion, given the urgency of the situation, I gave the parties my decision which was that the same judge could hear the two sets of proceedings. Whilst it is not ideal for a judge to give a decision before a reasoned judgment, it was clear that the circumstances then required it, the matter having been in obeyance for the period between the two hearings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Up until October 2022, AH and HH had continued to occupy a shared room together at B Care Home. I am told, and accept for the purposes of this application, that a best interests meeting took place, on 6 September 2022, convened by the Health Board in relation to HH regarding whether she should continue to occupy a room with her husband. Following a number of safeguarding concerns raised in the summer, that meeting did not include any representatives on behalf of AH. The outcome of the meeting was that it was decided that AH and HH should continue to reside and share a room together but it was felt that this option was not without risk and may need to be revisited at a later date.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">On 4 October 2022, a roundtable meeting was convened among the parties. It was agreed at that meeting that it was not appropriate for the meeting on 6 September to have taken place without input from AH or his representatives. It was agreed that a further meeting should be convened. That, unfortunately, was fixed for a date when the Social Worker acting for AH could not attend and nor did HH&#8217;s daughter or litigation friend attend either. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">HH had been placed in a separate room becoming unwell with a urinary tract infection. It seems that at that meeting it was agreed the contingency option should be explored urgently. The following day, on 3 November, the Health Board identified a single room at M Care Home and arranged for a transfer of HH to the property that day. AH was not informed about the move until after it had taken place. Given the existing best interests decision in place that AH and HH should stay together, the Local Authority indicated that it was mindful of the fact that unilateral action to remove HH should only have taken place in a genuine emergency where it was not practicable to consult with interested parties or apply to the court. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">In any event, following the move, for a time, HH presented as relatively settled M Care Home, and it was reported that she was not displaying the same levels of agitation that she had in the past when separated from AH. It also appeared that AH did not appear to be displaying any significant overt concern as to HH&#8217;s welfare. He did however express a wish to have contact with her. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">The Local Authority indicated, quite properly, that it was conscious of the express wishes of AH and HH to reside together and it was conscious of the enduring very long term relationship between them which led to the consensus within these proceedings that it is in their best interests to reside together notwithstanding the noted concerns. Accordingly, the Local Authority wanted to explore whether it was possible to reunite AH and HH in one placement. The Local Authority indicated that the parties would be guided by the Court in relation to any decision taken regarding whether the proceedings should be heard concurrently before the same judge or whether they should proceed in parallel. I was told that that was the only issue that required my determination at level 3, and I informed the parties, as I have said, of my decision. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Therefore, between December 2021 and November 2022, the situation was relatively stable, and everybody was able to agree the best interests decision in respect of each of the couple without recourse to the court. HH was moved to a separate room on 22 October 2022 as she was reportedly unwell with a urinary tract infection. I am told she was looking weak and pale and tired. I am told that when staff tried to feed HH, AH would become verbally abusive towards the staff and to HH. I am told that there was also a report of very aggressive behaviour by AH to HH. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">In a best interests meeting on 6 September 2022, it was acknowledged by all members of the MDT that should HH&#8217;s incontinence care and skin difficulties increase, particularly at night, sharing a room would no longer be a viable option. In the event, HH was moved to a separate room on 22 October to allow her to receive the care and rest that she required in a safe environment and to try and prevent any further deterioration in her condition. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Unfortunately, LM was unaware of the 2 November meeting. On 4 November, the care home made an application to the Local Authority for an authorisation of restrictions upon HH&#8217;s liberty as she was under continuous supervision and control and not free to leave. The Health Board took the view that HH now needed to be in a single room away from her husband. They considered that it was not in HH&#8217;s best interests to return to the situation where she was living with her husband although they agreed to keep that under review. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Following the hearing in December 2021, a discrete point arose as to whether the availability of legal aid is a relevant consideration when it comes to the Court considering whether one or more applications should be heard together pursuant to the Court of Protection Rules. I was referred to the case of <span style="font-style:italic">Re Briggs Incapacitated Person</span> <ref href="#" uk:canonical="[2018] Fam 63" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] Fam 63</ref>. HH does not rely on the non availability of legal aid in relation to the correct statutory interpretation of section 16(2)(a) of the Mental Capacity Act. It is submitted on behalf of HH that the non availability of legal aid arises in response to the Health Board&#8217;s submission that if both proceedings were kept separate, the solution would preserve appropriate autonomy of best interests decision making. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">I agree with the submissions made by Mr Hadden, on behalf of HH, that any proposal that AH&#8217;s case could be resolved without his wife also being joined as a party would be plainly wrong. I agree that this also raises issues of fairness, natural justice and compliance with article 6 ECHR. I also agree with Mr Hadden that any proceedings which effectively excluded HH as a party would also raise concerns about whether this would represent an unjustified interference with their rights under article 8 ECHR. Mr Hadden submits that the practical difficulties identified in these cases serve to highlight why the Court should direct that the case should be heard together not separately or consecutively. I agree with that submission.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="BodyTextIndent2" style="margin-left:0.39in">Accordingly, I am not in any doubt at all that it is not only possible for one judge to make a best interests decision in respect of each of these two Ps, but it is plainly right, in this case, that that judge should do so. I have canvassed with the parties today the question of whether I should now remit this case back to a lower tier level having made this determination, but the parties all agree with my suggestion, at least at the moment, that this case should remain with me, particularly given the amount of time that I have now spent with it. I entirely accept that, having heard this Judgment, Mr Hallin and his team may wish to reconsider that issue but for the time being at least this case will remain allocated to me and today&#8217;s order will reflect that. Obviously, I accept that Mr Hallin and his team will now need time to consider the implications of what I have said in this judgment, and they may or may not make any applications in due course.</p>
+	    <table class="TableGrid" uk:widths="5.81in">
+	      <tr>
+		<td style="border:none">
+		  <p class="NormalWeb" style="text-align:center"/>
+		  <p class="NormalWeb" style="text-align:center"><span style="font-family:'Times New Roman'">This Transcript has been approved by the Judge.</span></p>
+		  <p class="NormalWeb" style="text-align:justify"/>
+		  <p class="NormalWeb" style="text-align:center;margin-left:0.52in;margin-right:0.52in;text-indent:-0.1in"><span style="font-family:'Times New Roman'">The Transcription Agency hereby certifies that the above is an accurate and complete recording of the proceedings or part thereof.</span></p>
+		  <p class="NormalWeb" style="text-align:center"/>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p style="text-align:center">The Transcription Agency, 24-28 High Street, Hythe, Kent, CT21 5AT</p>
+		  <p style="text-align:center">Tel: 01303 230038 </p>
+		  <p style="text-align:center">Email: court@thetranscriptionagency.com</p>
+		  <p style="text-align:center"/>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

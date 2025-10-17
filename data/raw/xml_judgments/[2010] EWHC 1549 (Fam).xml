@@ -1,0 +1,976 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2010/1549"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2010/1549"/>
+	  <FRBRdate date="2010-06-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1549"/>
+	  <FRBRname value="A Local Authority v A &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2010/1549"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2010/1549"/>
+	  <FRBRdate date="2010-06-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2010/1549/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2010/1549/data.xml"/>
+	  <FRBRdate date="2024-10-28T03:33:01" name="transform"/>
+	  <FRBRdate date="2024-12-02T09:30:05" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2010-06-24" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A Local Authority"/>
+	<TLCPerson eId="a-by-her-litigation-friend-the-official-solicitor" href="" showAs="A, by her Litigation Friend, the Official Solicitor"/>
+	<TLCPerson eId="a" href="" showAs="A"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-bodey" href="/judge-mr-justice-bodey" showAs="Mr Justice Bodey"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2010</uk:year>
+	<uk:number>1549</uk:number>
+	<uk:cite>[2010] EWHC 1549 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>d72787d135510182b97fd6e690e3581b23ab90a011f274c65eaf16c62f0f4522</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .PageNumber { }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText">Case No: <docketNumber>11753201</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2010] EWHC 1549 (Fam)</neutralCitation></p>
+      <p class="CoverMain">IN THE HIGH COURT OF JUSTICE</p>
+      <p><courtType refersTo="#ewcop" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">COURT OF PROTECTION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2010-06-24" refersTo="#judgment">24<span style="vertical-align:super;font-size:smaller">th</span> June 2010</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-bodey">Mr Justice Bodey</judge></p>
+      <p style="text-align:center"> - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.45in 3.7in 1.19in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a-local-authority" style="font-weight:bold">A Local Authority</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a-by-her-litigation-friend-the-official-solicitor" style="font-weight:bold">Mrs A, by her Litigation Friend, the Official Solicitor</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">And</span></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a" style="font-weight:bold">Mr A</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">First Respondent </role></p>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Second Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Ms Nageena Khalique<span style="font-weight:bold"/>represented the Applicant Local Authority</p>
+      <p style="text-align:center">Mr Joseph O&#8217;Brien represented Mrs A by her Litigation Friend the Official Solicitor</p>
+      <p style="text-align:center">Miss Najma Mian represented Mr A</p>
+      <p style="text-align:center">(The identities of the instructing solicitors are omitted to avoid identification of the parties.)</p>
+      <p style="text-align:center">Hearing dates: 17<span style="vertical-align:super;font-size:smaller">th</span> to 21<span style="vertical-align:super;font-size:smaller">st</span> May 2010</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+      <p class="ParaHeading"><span style="font-weight:bold">Mr Justice Bodey</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="lvl_1">
+	  <num style="font-weight:bold">A.</num>
+	  <content>
+	    <p class="ParaHeading" style="text-indent:0.5in"><span style="font-weight:bold">INTRODUCTORY  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p style="text-indent:0.5in">By this interim application made in the context of &#8216;capacity&#8217; and &#8216;best interests&#8217; proceedings in the Court of Protection, a Local Authority seeks Declarations (i) that a young married woman whom I will call &#8220;Mrs A&#8221; lacks capacity to decide whether to use contraception and (ii) that it would be in her interests for her to be required to receive it.  Whilst the Local Authority reserves the right to argue that the administration of such contraception should if necessary be achieved by orders authorising the use of force, restraint and anaesthesia, it merely seeks a Declaration for now that it would be in Mrs A's best interest to receive contraception, subject to her consent.  Both Mr and Mrs A (the latter through Official Solicitor, her Litigation Friend) maintain that Mrs A has capacity to decide not to use contraception and they oppose the Declarations sought.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <intro>
+	    <p style="text-indent:0.5in">The application raises issues as follows.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1in">(i).  What is the test for determining whether a woman has capacity to make decisions as to contraceptive treatment?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in">(ii).  Applying that test, does Mrs A lack that capacity?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1in">(ii).  If so, is it in her best interests that an order be made for her to receive contraceptive treatment?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1in">(iv).  Should the Court make orders against Mr A forbidding him to interfere with arrangements put in place by the Local Authority designed to assist Mrs A in reaching a decision as to whether or not to use contraception?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p style="text-indent:0.5in">Both Art 8 of the ECHR (&#8216;respect for private and family life&#8217;) and Art 12 (&#8216;founding a family&#8217;) are engaged and the above issues raise important questions about state interference in matters of personal and family autonomy.  This application was therefore listed for hearing by a High Court Judge.  I heard the case between 17<span style="vertical-align:super;font-size:smaller">th</span> and 21<span style="vertical-align:super;font-size:smaller">st</span> May 2010 and gave my decision, including simplified reasons, on 11<span style="vertical-align:super;font-size:smaller">th</span> June 2010 with Mr and Mrs A in attendance.  This Judgment contains my full reasons and may be reported as anonamysed</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Mrs A is aged 29, having been born towards the end of 1980.  She has had two children removed from her at birth. There is no evidence before me that the processes of pregnancy or birth as such caused her physical harm or mental distress.  She has been assessed in and since 2002 by experts in Learning Disability as having a Full Scale IQ of 53.  This means that her general cognitive ability is in the extremely low range of intellectual functioning and that her overall thinking and reasoning abilities exceed those of only approximately 0.1% of adults of her age.  Therefore, according to a Clinical Psychologist&#8217;s report of October 2002, she &#8220;&#8230; may experience great difficulty in keeping up with her age-peers in a wide variety of situations that require age-appropriate thinking and reasoning abilities, and may experience significant difficulties across all intellectual domains.&#8221;  For the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">S.2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> (below) the Official Solicitor who acts as Mrs A&#8217;s litigation friend does not dispute that she suffers from &#8220;&#8230; an impairment of or a disturbance in the functioning of the mind or brain&#8221;, or that she meets the first part of the test for incapacity under that section, the &#8216;diagnostic&#8217; test.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Mrs A met Mr A in or about the Autumn of 2006 and they were married July 2008.  He too has a Learning Disability, having a full scale IQ of 65, putting him within the lowest 1% of the population, with a significant impairment of intellectual functioning.  They live together in a small town in the Midlands.  Neither works in the commercial sense, but each is involved in voluntary work locally.  Mrs A&#8217;s place of work features in the case and, to avoid identification, I will call it her &#8220;place of voluntary work&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">An important aspect of the case is to gain an insight and understanding of the relationship dynamic between Mr and Mrs A.  This is because one issue for determination is whether he places her under so much pressure to refuse contraception that her capacity is impaired and / or that she is unable to exercise her free will in taking a decision for herself.  This has required consideration of a large volume of evidence on the point, which appears greatly summarised in Parts C and D.  All three parties have been represented before me, the Local Authority by Ms Khalique; Mrs A by Mr O&#8217;Brien instructed by the Official Solicitor; and Mr A by Miss Mian.  I am grateful for the sensitive way they have conducted the hearing.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-weight:bold">B.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold">MRS A&#8217;s TWO CHILDREN AND HER BACKGROUND BEFORE SHE MET MR A</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">When Mrs A was 11, a Clinical Psychologist spoke of her suffering Atypical Autism, communication difficulties, and marked problems with empathy and emotional expression.  She was attending a Special Learning Disability school, where her progress was slow and she was on occasions disruptive.  By the time she was 15, in 1996, records spoke of her having &#8216;moderate severe learning difficulties&#8217;.  She was brought up in a loving family by her own father and mother, which is thought to be why she functions as effectively as she clearly does.  Unfortunately her father died young and Mrs A&#8217;s challenging behaviour increased.  In 2002, aged 21, she moved into a flat of her own in the area of a neighbouring Local Authority (&#8220;Local Authority B&#8221;) with support from the Community Living Team (&#8220;CLT&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In May 2003 Mrs A&#8217;s mother emigrated, after which concerns for Mrs A increased. A Risk Assessment in December 2003 spoke of her &#8216;struggling to manage generally&#8217;, in spite of daily support given by the CLT.  The identified risks were of physical and psychological harm, sexually transmitted disease, pregnancy and general exploitation.  In January 2004, a Social Work assessment recorded that Mrs A thought she was managing alright and &#8216;&#8230;does not appear to understand concerns&#8217;.  It referred to her very good verbal communication skills and her ability to hide the fact that her understanding could be poor in more complex situations.  A semi-supported placement was recommended.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In fact, unbeknown to the professionals, Mrs A was by then already pregnant.  The father was believed to be a young asylum-seeker.  This led to an assessment in March 2004 by a Doctor S, Consultant Psychiatrist in Learning Disability.  He found her to have a good understanding of the process of delivering a baby.  He reported: &#8220;&#8230;She described the process very accurately to me.  She understands the needs of a baby after it is born, including its needs for feeding, changing and comforting.  She said she had had training in the resuscitation of babies and gave me a highly accurate description of the resuscitation procedure for a young baby.  She is very clear that she wishes to complete her pregnancy and keep the child and care for it.  &#8230;She became upset and angry when [the possibility of adoption] was discussed.  She says that she would be a good mother and enjoys caring for children.  She currently works voluntarily in a play group and has held this job for two years&#8221;.  Dr S considered it likely that Mrs A would experience &#8216;severe distress&#8217; if a termination of pregnancy were pursued.  He felt though that with discussion and education, she would be able to understand the process of a termination and might be able to weigh the relative risks and benefits so as to come to her own informed decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In the event, termination was not pursued and in July 2004, when 7 months pregnant, Mrs A underwent a Pre-birth Assessment as to her likely parenting abilities. It was very negative.  It spoke of Mrs A displaying fear and incomprehension about what was happening to her body and of her lacking knowledge of how babies are born.  She was frightened by birth videos.  Clearly, that information does not sit easily with that recorded by Dr S only 4 months previously.  During the assessment, Mrs A was seen handling a baby-like doll in very inappropriate ways, including shaking and kicking it.  The conclusion of the social worker was that: &#8220;&#8230;. her learning disability means she lacks the insight to meet her baby&#8217;s basic care needs without intensive support &#8230;The baby would not be able to develop intellectual or social skills through interaction with her, due to her flat responses and lack of emotional warmth&#8230;[She can]&#8230;achieve a good standard of housework, personal hygiene, initial social presentation and cooking &#8230; [but she] &#8230; does not have the capacity to meet the baby&#8217;s needs&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In September 2004, Mrs A gave birth to her first child, a daughter.  It is recorded that the baby was removed at birth, made the subject of a care order and later adopted.  Subsequently, one or two other relationships followed with men who were regarded by the professionals as unsatisfactory.  Mrs A became pregnant again and on an unknown date in 2005, gave birth to her second child, a boy.  He too was removed at birth, made the subject of a care order and later adopted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Thereafter, the CLT of Local Authority B continued providing daily support for Mrs A, who was by then living in a supported living environment. They also arranged for her to be reviewed by a Dr D, Associate Specialist in Learning Disability, who again assessed her IQ to be 53.  She was noted as unable to read or write simple words, to tell the time, to give the correct month of the year, or to manage her personal finances.  Dr D concluded: &#8220;&#8230; in my opinion, [Mrs A] lacks insight into her problems and needs.  She was unable to reason on many issues and when pressurised to do so, became agitated, or hostile or went into denial.  I feel she lacks the mental capacity to make an informed thought-through decision as to what is in her best interests in relation to residential care or independent living&#8221;.  Dr D&#8217;s recommendation was that she be placed under a Guardianship order under the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref> and be found a residential placement with 24 hour supervision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-weight:bold">C.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold">FROM WHEN MRS A MET MR A, UP TO THE START OF THESE PROCEEDINGS</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">At this point there is a gap in the records until September 2007, by which time Mrs A had met Mr A.  She was then living in an Adult Family Placement, but planning to move in with him at his address.  As Mr A lives in the area of responsibility of the Applicant Local Authority, Local Authority B set about handing over the case. At a Vulnerable Adult Strategy meeting on 22<span style="vertical-align:super;font-size:smaller">nd</span> October 2007, it was acknowledged that there were a number of concerns about this relationship, but that it was &#8216;&#8230;difficult to take any legal action to prevent it&#8217;. As the meeting felt Mrs A had capacity to consent to it, it was decided that advice should be offered her and other steps taken &#8216;&#8230;to help her come to terms with what she might be taking on&#8217;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">The Minutes of a Review dated 19<span style="vertical-align:super;font-size:smaller">th</span> November 2007 record Local Authority B deciding that &#8220;&#8230; [Mrs A] would move into [Mr A&#8217;s address] on a permanent basis&#8221;. They were to be helped and supported in this respect. At that time, things were different, as Mrs A was taking contraception.  That was by a monthly depot injection, which seemed to be with Mr A&#8217;s support.  In June 2008, however, she missed her injection and has not had any form of contraception since. Nor, in spite of regular reported sexual relations, has she become pregnant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In July 2008, the CLT began to have difficulty in getting to see Mrs A.  Records say that Mr A refused to let workers in.  He himself told me in evidence &#8220;I didn&#8217;t answer the door. We did not want them in. I have never had so much harassment&#8221;.  When Social Care Assessor, Miss G, spoke with Mrs A on 15<span style="vertical-align:super;font-size:smaller">th</span> July 2008, Mrs A said that Mr A did not want the social services involved, as she (Mrs A) did not need them.  She herself (Mrs A) did however accept that social work help was important with correspondence, finances and other tasks of daily living.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">During the weekend of 26/27 July 2008, Mr and Mrs A were married.  It has not been suggested that Mrs A did not have capacity to make this decision; and (as just noted) they had earlier been supported into living together as a couple.  In August 2008, Mrs A refused to have her depot injection.  Attempts to meet with her and Mr A were unsuccessful.  Mr A says in his statement that, following the marriage, he and Mrs A did their best to avoid any further contact with the Social Services.  There were further refusals in September 2008 to let the CLT in and on 10<span style="vertical-align:super;font-size:smaller">th</span> October 2008, the Local Authority closed the case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">However, there were soon further developments.  Miss S, Mrs A&#8217;s college course- coordinator, informed Miss G in October 2008 of concerns at the college about Mr A&#8217;s apparent controlling behaviour in respect of Mrs A and about Mrs A reporting that she was not happy at home.  Miss S was concerned about Mr A&#8217;s travelling in to college with Mrs A, handling her college fees and speaking to her (Mrs A) as though she were a child.  She was worried that Mrs A was being &#8216;de-skilled&#8217; by Mr A.  In addition, Mrs A had told her (Miss S) and other staff members that she was not allowed to speak to Social Services.  She said she did not want Social Services forcing her to have the injection, as she and Mr A wanted a baby.  She also began telling college staff of Mr A&#8217;s hitting and kicking her, showing them small marks and bruises which she said he had caused.  She once said that Mr A was shooting at children with an air-rifle, a point to which I shall revert in part I below.  Miss S told me of Mrs A complaining to her personally in these respects.  She herself saw bruises which Mrs A said that Mr A had caused.  She (Miss S) describes it as an &#8220;almost daily occurrence&#8221; over the academic year 2008/2009 that Mrs A would either be crying, or would report to staff some incident at home.  On one occasion, Mrs A was &#8220;just crying and crying&#8221; to her tutor, saying that she never wanted to go back to Mr A.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Of particular significance is Miss S&#8217;s evidence of two occasions in the academic year 2008/2009 when Mrs A thought she was pregnant.  On one such occasion the college arranged for her to attend a Family Planning Clinic.  On her return, she (Mrs A) asked Miss S if she thought Mr A would notice if she had a coil fitted.  It came over to Miss S that Mrs A did not want a baby, but did not like the depot contraception and did not want to take the pill, because she thought Mr A would see her doing so.  Mrs A also told Miss S that Mr A had told her (Mrs A) that social services could not take a baby away from them as they were married.  Miss S told me that, when Mrs A thought she was pregnant, she was &#8216;really scared&#8217;: &#8220;&#8230; I saw how concerned she was.  Several times she said she did not want a baby, but that he did and that the only way to keep the relationship was for her to have a baby&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Also in mid-October 2008, Miss G received a telephone call from Mrs A&#8217;s mother expressing considerable concern about Mrs A.  Mrs A&#8217;s mother reported first that Mrs A had told her that Mr A had kicked her and second that she (Mrs A&#8217;s mother) had seen bruising on Mrs A&#8217;s arm.  I deal with this further in part I below.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">As a result of these various reported allegations about Mr A, the Local Authority triggered its &#8216;safeguarding&#8217; procedures and in November 2008 the case was transferred up to Mr W, a full social worker in the Disability Wellbeing Team.  He had a number of meetings with Mrs A at her college, as Mr A had refused to let social workers into the house.  Mrs A also told him that Mr A had hit her on the arm, which was where he &#8216;usually hit her&#8217;.  Nevertheless, on several occasions Mr W found her to be &#8220;in good spirits&#8221; and not reporting any problems with Mr A.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">On 20<span style="vertical-align:super;font-size:smaller">th</span> January 2009 there was a Multi Agency Risk Assessment Conference attended by a long list of involved professionals.  The Police said that there had been no reported incidents of domestic violence.  It was noted that the only contact with Mrs A was via the college, as Mr A was preventing contact with all agencies.  It was recorded that she had made complaints at college about his abuse and control over her, but the meeting considered such abuse to be &#8216;minimal&#8217;.  The minute says: &#8220;&#8230;[It is] difficult to establish her capacity, because she becomes defensive &#8230; She feels quite helpless re. the situation she is currently in.&#8221;  The risk-management plan was amongst other things for adult social services to visit Mrs A weekly at college to check on her welfare.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">On 27<span style="vertical-align:super;font-size:smaller">th</span> March 2009 a Strategy Meeting discussed Mrs A&#8217;s capacity to make decisions about staying with Mr A.  It was felt that she &#8220;&#8230; is able to decide whether to remain with her husband or leave him.  She is able to retain information and weigh it in the balance.  She also has demonstrated insight into her current home situation.&#8221;  As regards her remaining with Mr A, it was agreed that: &#8220;&#8230; Mrs A cannot and should not be directed to a particular course of action; she can only be made aware of the options available to her&#8221;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Occasional allegations about Mr A continued to be made by Mrs A, including on 30<span style="vertical-align:super;font-size:smaller">th</span> April 2009 when arrangements were made for Mrs A to spend a night in a respite unit.  She told Mr W and another worker that there had been an incident to do with Mr A&#8217;s wanting her to help him take gravel from the driveway of a local empty house, during which he had hit her on the left arm.  The following morning she refused to give the Police an interview and required to be returned home.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">When Mrs A arrived at college on the 8<span style="vertical-align:super;font-size:smaller">th</span> May 2009, she brought a note written by Mr A which reads: &#8220;Mrs A had not to see anybody from the social services because we are not with them anymore all [or] Mr W all [or] we will be getting a solicitor on them again&#8221;.  On 10<span style="vertical-align:super;font-size:smaller">th</span> May 2009 the couple sent a letter to the social services signed by them both, but clearly written by Mr A. The relevant extracts, as written, are: &#8220;&#8230; my wife and myself are getting tired of you visiting &#8230;  We no longer wish to receive any of your services and somebody interferences in our sex life and injections which has nothing to do with you, only with my wife and myself.  My wife and myself are capable of living independently life and shall be visiting solicitors again if necessary we apply to court for a court adduction to keep you away &#8230;&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">On 21<span style="vertical-align:super;font-size:smaller">st</span> June 2009, Lead Healthcare Facilitator, Miss J, told a Strategy Meeting that she believed Mrs A lacked capacity to decide whether or not she should take contraception.  Miss J said she would raise the issue with Mrs A&#8217;s doctor, Dr JN, when she took Mrs A for an appointment with him on the 25<span style="vertical-align:super;font-size:smaller">th</span> June 2009.  The view of the Strategy Meeting was that, whilst &#8216;the abusive relationship was of great concern&#8217;, there was &#8216;no immediate grave risk to Mrs A&#8217;s safety&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">On 25<span style="vertical-align:super;font-size:smaller">th</span> June 2009, Mrs A was seen by Dr JN.  He later sent the Local Authority a print-out dated 15<span style="vertical-align:super;font-size:smaller">th</span> December 2009, as follows: &#8220;&#8230; I have last seen her in June 2009.  Our only difficulty offering her contraceptive treatment is one of consent.  When I saw her in June 2009, I clearly felt that she was able to consent to or to decline my advice&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In July 2009, Mr W<span style="font-weight:bold"/>was replaced as Mrs A&#8217;s social worker by Miss C, who is still her social worker.  On 23<span style="vertical-align:super;font-size:smaller">rd</span> July 2009, she met with Mrs A at Mrs A&#8217;s place of voluntary work, along with a Transition Worker Miss N, who had been working with Mrs A for a little while.  They took her out to a coffee shop, where she told them that Mr A often became angry and would shout and break household items.  She said, becoming tearful, that on occasions she did not feel like going home, as she never knew what mood he would be in.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">On 19<span style="vertical-align:super;font-size:smaller">th</span> August 2009, Miss C and Miss N visited Mrs A again at her place of voluntary work.  She showed them that her stomach was distended and it was discussed that she might be pregnant.  She seemed pleased at the possibility.  She said Mr A did not want her to return to college in September, although she liked going and seeing her friends.  She showed them a bruise to her right arm, saying that Mr A had done it because she had not wanted to help him collect some slabs from a derelict property.  There was nothing to suggest that Mrs A was not perfectly comfortable meeting the two workers concerned.  That evening however Mrs A left a voice mail message for Miss N: &#8220;&#8230;  Hi, it&#8217;s [Mrs A]. I want to know if the people [Miss C and Miss N] who came into [the place of voluntary work] today are from the social services.  I don&#8217;t want them coming.&#8221;  Further, it was later reported back to Miss N by the manager of Mrs A&#8217;s place of work that, on 20<span style="vertical-align:super;font-size:smaller">th</span> August 2009, a member of staff there had received a call from Mrs A, who was in a distressed state, saying that Mr A was punching her because the two social workers had visited her there.  The member of staff concerned reported shouting down the telephone for Mr A to stop.  The manager also told to Miss C that, the following Wednesday, Mr A had come to Mrs A&#8217;s place of work with Mrs A wanting to know who had been visiting her there.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-weight:bold">D.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold">FROM THE START OF THESE PROCEEDINGS TO DATE</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">This build-up of events and concerns led the Local Authority to conclude that legal steps were now necessary to protect Mrs A&#8217;s interests and on 3rd September 2009 they issued these Court of Protection proceedings in the County Court.  The application seeks Declarations that Mrs A does not have capacity (i) as to where she should reside, nor (ii) what contact she should have with Mr A, nor (iii) what care she should receive.  Curiously, there is no application for a Declaration of her inability to decide about contraception, which was only added later.  One particular comment in the application form was: "... it is thought that Mr A has encouraged Mrs A to become pregnant, despite the likely outcome that the child would be removed from Mrs A's care".  That sentence caused Mr A, as I find, genuine anger and distress.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In September 2009, Mrs A was supposed to return to her college for the academic year 2009/2010, having earlier enrolled for the purpose.  However, she did not do so and has not yet attended this academic year.  On 6<span style="vertical-align:super;font-size:smaller">th</span> September 2009, social worker Miss B of the Disability Team managed to contact Mrs A by telephone.  She noted that during the call &#8220;&#8230;Mr A was constantly interrupting the conversation and did not want Mrs A to communicate with me&#8221;.  Further attempted visits took place at this time to check on Mrs A&#8217;s welfare, but were resisted by Mr A.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">On 10<span style="vertical-align:super;font-size:smaller">th</span> September 2009, a process-server supported by the Police served Mr A with the court papers.  This was done at his place of voluntary work, because he had said that Social Services were not to visit the house.  He was seen at the time to be &#8220;shaking with temper&#8221;. He told me he was really very upset to be served in this way in front of other people and I have no doubt he was.  When Miss B took Mrs A through some of the court documents, she noted: &#8220;&#8230; Mrs A is unable to state the day, date or time.  &#8230;  She could not remember her mother or father's name, or what date she got married.  She stated that Mr A was keeping her a prisoner in the house, although she stated she did not wish to leave him&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">On 2<span style="vertical-align:super;font-size:smaller">nd</span> November 2009, by prior arrangement, a Consultant Psychiatrist, Dr T, attended Mr and Mrs A&#8217;s home with Miss C. This was pursuant to an order of a District Judge for an assessment of Mrs A&#8217;s capacity to decide where to live and with whom to have contact. It took half an hour of knocking before Mr A opened the door. When he did so, he was shouting at them angrily to get off his property.  He said that Mrs A was not going to talk to Dr T. Miss C heard him go upstairs and shout at Mrs A to: &#8220;get down stairs now and get rid of these people&#8221;.  He returned to the front door and shouted at Dr T and Miss C again to go away and leave them alone.  In the end, he did agree to Dr T going upstairs.  Miss C heard Dr T ask Mrs A in her bedroom if Mr A hit her and later if she was scared of him, at which Mr A became angry and twice barged into the bedroom, ordering Dr T out of the house.  He was repeatedly threatening to call the police. Miss C says Mr A&#8217;s manner was obstructive and extremely angry.  Dr T says that when he asked Mrs A the two questions in her bedroom (about her being hit and being scared) she nodded &#8220;yes&#8221;.  He told me it is very difficult to put across just how frightened he felt in the face of Mr A&#8217;s aggressive attitude.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">On 4<span style="vertical-align:super;font-size:smaller">th</span> November 2009, Miss C met with both Mr and Mrs A in a local town hall.  She explained that the point of Dr T&#8217;s visit had been to assess Mrs A&#8217;s ability to make decisions.  Mrs A said she understood this.  But Mr A appeared agitated, stating repeatedly that the doctor had got nothing out of the visit and would not be able to make a report.  Miss C says Mr A continually raised his voice and repeatedly answered questions which she had directed towards Mrs A, despite her (Miss C) repeatedly asking him to let Mrs A speak for herself.  Miss C&#8217;s record continues that: &#8220;&#8230; Mr A became increasingly agitated and began waving his fingers at Mrs A, shouting in her face &#8216;it&#8217;s you spreading lies; you will know about it if you get me in trouble&#8217; &#8230;&#8221;.  At this, Miss C told him to stop threatening Mrs A, and he did calm down and apologise.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">On 14<span style="vertical-align:super;font-size:smaller">th</span> December 2009, Miss C had what turned out to be her last meeting with Mr and Mrs A, again at the local town hall.  She commented on how well Mrs A had done at the college and said that there were other helpful courses for her to attend.  But Mr A complained that people kept visiting her there and interfering, saying &#8216;she's not going, because they [the college] interfere and tell lies&#8217;.  Asked about contraception, Mrs A said that she was not taking it.  Mr A added that this was because they wanted children, at which Mrs A said &#8220;&#8230; well, he does&#8221;.  Miss C&#8217;s evidence generally is that when Mrs A is asked a question, she often looks at Mr A to see what his response is and that sometimes she will not answer at all until he has.  Miss C says: &#8220;&#8230; I would not say Mrs A is scared of him, but I would describe her demeanour as being cautious&#8221;.  Her experience is that Mrs A tends to go along with whatever Mr A says.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <intro>
+	    <p style="margin-left:0in;text-indent:0.5in">On 16<span style="vertical-align:super;font-size:smaller">th</span> December 2009, there was a hearing before a nominated Circuit Judge.  This was the first occasion within these proceedings when, through Counsel, the Local Authority raised Mrs A&#8217;s capacity regarding contraception and the issue was stood over to this hearing.  The Judge made interim Declarations that Mrs A lacks the capacity to litigate or to make decisions as to her residence, contact and care package.  Further he declared it to be in her interim best interests: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.7in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p style="margin-left:0.7in">       to continue for the time being to reside at home with Mr A, </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.7in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p style="margin-left:0.7in">to have weekly contact with Miss C and a Community Nurse, and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.7in;text-indent:-0.5in">(iii)</num>
+	    <content>
+	      <p style="margin-left:0.7in;text-indent:0.12in">that her care package should include her voluntary work and college.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p>These arrangements in (ii) and (iii) were directed to take place without obstruction or interference from Mr A.  Since that time, Mr and Mrs A have continued to live together and go to the place of voluntary work together: but the order has not otherwise been complied with. In spite of reasonable efforts by Miss C and the Community Nurse, weekly contact with Mrs A has not been achieved.  Nor has Mrs A returned to her college. It has only been through Mrs A&#8217;s place of voluntary work that the social services have been able to check second-hand on her welfare.  A few &#8216;safe and well&#8217; checks were made earlier this year by the Police; but Mr A objected to them and they have effectively petered out.</p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_6">
+	  <num style="font-weight:bold">E.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold">THE EVIDENCE OF THE OFFICIAL SOLICITOR&#8217;S REPRESENTATIVE</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Between December 2009 and May 2010, the Solicitor appointed by the Official Solicitor to represent Mrs A (Miss MW) had a number of meetings with Mrs A on her own and also together with Mr A.  Seen on her own, Mrs A told MW that she still wanted to be with Mr A, but without social work involvement.  When Mr A joined that meeting, Mrs A said that the social workers were pestering her at college, and so she felt that she could not go there anymore.  Mr A said he felt strongly that Mrs A had capacity and that all she had was a slight learning disability in terms of writing, learning and spelling.  He said that he did not want social workers near the house.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Seen again alone, Mrs A said that she had stopped taking contraception because it made her stomach swell and gave her backache.  Asked by MW whether she could take something else to avoid pregnancy, Mrs A said that there was no point because &#8220;&#8230; [Mr A] would not let me. I also don&#8217;t believe in it; you should have natural periods&#8221;.  Asked if she could get pregnant without contraception, she agreed she could.  She said that she wanted a baby, but not if she would not be able to keep it.  She showed MW pictures of her two babies and said in effect that they had been removed from her.  She said: &#8216;&#8230; [Mr A] will not let me take it [contraception].  If I do not have a baby, he will kick me out and I will be homeless&#8217;.  When MW asked her whether she would consider having the contraceptive injection without Mr A knowing, she replied that Mr A would know, as he goes to all the appointments with her.  Asked whether this included even into the nurse&#8217;s room, Mrs A replied with words to the effect &#8216;yes, weird isn&#8217;t it.  He is a very powerful person and so he would want to know &#8230; he would ask the nurses what had happened&#8217;.  When Miss MW asked her if it would help if the Court ordered her to have contraception, Mrs A said words to the effect &#8216;&#8230; no, he would be very angry and frustrated and would take it out on me&#8217;.  She told MW that she would like to have weekly contact with social services, but that Mr A had told her she should not, which was why she was not attending.  On 16<span style="vertical-align:super;font-size:smaller">th</span> February 2010 MW explained to Mrs A that Local Authority were looking for an order to force her to have contraception, at which Mrs A repeated that she did not want the injection because it caused her a distended stomach and backache.  Asked whether she would consider any other form of contraception, Mrs A replied that Mr A would not allow it and would &#8216;kick her out&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">On 6<span style="vertical-align:super;font-size:smaller">th</span> May 2010, MW had an important meeting with Mrs A at a local solicitor&#8217;s office.  She explained to Mrs A that the social services get concerned about her welfare when they cannot contact her, and Mrs A agreed that it would be better to keep in touch.  She (Mrs A) said she had tried to explain this to Mr A, but that he would not let her.  She said that she did not like needles and that she thought the coil could cause infertility.  When referred by MW to Mr A&#8217;s statement that he &#8216;is not a violent person and never has been&#8217;, Mrs A said &#8220;&#8230; well&#8221;, but did not want to add anything else. She told MW that she had been happy attending college and thought she could learn things there, but that Mr A does not want her to go.  Quite by chance, a finance company rang to speak to Mrs A during that meeting.  Mrs A found the call distressing, and so MW agreed to speak to them.  They told her that a loan had been taken out in Mrs A&#8217;s name, apparently for a conservatory, of which &#163;150 odd remained due.  That comprised interest and late-payment charges, the main loan having been paid off.  MW managed to negotiate that sum down and Mrs A agreed to pay it off.  She had difficulty understanding how these charges had been incurred and did not realise the debt was in her name.  When Mr A joined the meeting, he said the debt was nothing to do with him, as it was in Mrs A&#8217;s name, saying to her &#8216;look at the mess you have got yourself into&#8217;.  He said it was &#8216;not for him to sort out, if she went signing things&#8217;.  MW intervened to explain what had happened about the charges, at which Mr A repeated that it was Mrs A&#8217;s responsibility.  When Mrs A said she would need him to help her, he told her to &#8220;get lost&#8221; and left the building.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-weight:bold">F.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold">ABOUT MR A</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Mr A was brought up in the very house where he and Mrs A now live.  He was raised there by his grandparents, but says he had a lovely upbringing and a good relationship with his mother.  He left school with no formal qualifications and started work of a manual type, finishing work in 1997 through a back injury.  He has no criminal record.  When his grandmother died he initially took over the tenancy, but he and Mrs A have since purchased the property, although not without controversy regarding Mrs A&#8217;s capacity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In May 2010, Mr A was seen by a Registered Counselling Psychologist, Miss H. She concluded that his functioning is in the extremely low range with a significant impairment of intellectual ability and limited literacy skills, such that he is less able than 99% of the population of his age.  She says: &#8220;&#8230; He was aware that Mrs A has difficulties with learning, but appeared to understand this as being largely surrounding reading and writing.  He did not demonstrate any awareness of her vulnerability nor acknowledged some of the impairments that might make decision making for her difficult.  He presented quite a rigid view of marriage, in that Mrs A as his wife is his responsibility and there would be no requirement for support from external agencies.  Whilst I did not observe any evidence that he would act coercively or seek to manipulate Mrs A, he appears to be lacking in awareness and understanding of the extent of her difficulties.  His profile suggests rigid adherence to social conventions, seeking to avoid disapproval of others.  He also lacks awareness in both himself and others and would seek routine.  He appeared keen to minimise any of his own shortcomings &#8230;He reported that he believed decisions surrounding contraception should be made either by Mrs A herself, or by both of them as a married couple. ....He also demonstrates rigid beliefs about personal matters being kept within his marriage and that it is not a concern for external agencies.  He&#8230;appears to view seeking support from outside the marriage as weakness&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In terms of how to get the best response from Mr A, Miss H says: &#8220;&#8230; he appeared to respond well to the provision of clear information, full explanation of procedures, and ample opportunity to ask questions &#8230;He will require information and the reasons behind certain decisions to be communicated to him in a clear concise way, that takes account of his learning disability.  He will need to be given time to absorb relevant information and ask questions and may require several repetitions of the same material&#8221;.  In her oral evidence, Miss H expressed the opinion that, if the true extent of Mrs A&#8217;s limitations were properly explained to Mr A, then he could probably take them on board.  She said it would be a question of building a rapport with him, as his presentation is &#8216;&#8230;fairly dependent on how he is dealt with&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Having seen and heard both Mr A and Miss H, I have no hesitation in accepting her opinions in all respects.  They correspond with and explain the way Mr A has conducted himself in his relationship with Mrs A and in his dealings with the Local Authority.  I include particularly how and why he has perceived himself to have been ignored and marginalised by the Local Authority, which to a degree he has been.  This is not to cast blame. It is the fact that he was resistant to well-intentioned input, which made dealing with him difficult and created tension as regards the Local Authority&#8217;s need to keep an eye on Mrs A&#8217;s welfare.  When Mrs A&#8217;s reports of domestic violence started in October 2008, the Local Authority&#8217;s &#8216;safeguarding protocols&#8217; did not encompass anyone talking to Mr A about those reports, he being the alleged perpetrator.  The rationale of this protocol (to avoid putting the complainant at increased risk) is perhaps one thing if domestic violence is the only issue.  But here, the question of contraception was also in issue as from the 16<span style="vertical-align:super;font-size:smaller">th</span> December 2009.  By that time, Mr A had already taken umbrage at the way he was served with the court papers and his antipathy for the Local Authority was fixed.  In the result, and for whatever reasons, no-one has ever &#8216;sat down with&#8217; Mr A to help him to feel part of the decision process.  He told me that social service involvement made him feel there were &#8216;three parties to the marriage&#8217;.  His views about unwanted interference have thus grown and fed on themselves, creating split loyalties for Mrs A. Matters have been compounded by his rigid views about the status of marriage, and his sense of a personal responsibility for his wife, whose life-difficulties he has not been helped fully to understand.  These various factors have created a vicious circle in the relationship of Mr A with the Local Authority, in which Mrs A has been caught up, until the couple &#8216;pulled up the draw-bridge&#8217; earlier this year and useful communication with them became more or less impossible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-weight:bold">G.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold">THE EXPERT EVIDENCE ON THE ISSUE OF MRS A&#8217;S CAPACITY AS REGARDS CONTRACEPTION</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-style:italic">Dr T.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">I have already mentioned Dr T, whose ill-fated visit to the parties&#8217; home in November 2009 came to nought by reason of Mr A&#8217;s confrontational attitude and behaviour (paragraph 32 above).  Through no fault of Dr T&#8217;s, I do not consider that the circumstances were such as to make it possible for him to reach a meaningful conclusion on Mrs A&#8217;s capacity about anything.  Nor do I think it safe to put weight on the fact that Mrs A nodded &#8220;yes&#8221; to his hurried questions about whether she was hit by Mr A and/or scared of him, as those questions were understandably very leading.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-style:italic">Miss O</span>.</p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Miss O and Mr I, both Consultant Gynaecologists and Obstetricians, jointly examined Mrs A on 21<span style="vertical-align:super;font-size:smaller">st</span> December 2009.  Mrs A told them that she had had the contraceptive injection in the past, but did not like the side-effects.  She was aware of the coil and how and where it is fitted.  She said she and Mr A would like to have a child in the next year or two. She denied any coercion by him, but &#8216;&#8230; admitted he might leave her if she does not have another child&#8217;.  They considered that she answered their questions appropriately and concluded that: &#8220;&#8230;she understands her contraceptive choices&#8230;[although]&#8230;she did not want to make any decision today without consulting Mr A first and involving him in the decision-making process&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Miss O was called to give evidence.  She agreed with Mr O&#8217;Brien that Mrs A had understood all the elements which she (Miss O) regards as necessary for capacity as regards contraception: namely as to prognosis, diagnosis and an understanding of the medical treatment involved, the common methods, how they are used and the possible side-effects.  Miss O told me that Mrs A had volunteered knowledge of the pill and the coil and that, in her opinion, she could understand and weigh-up the side effects.  She confirmed that both she and Mr I had concluded that Mrs A had capacity to take her own decision about contraception.  Asked by Mr O&#8217;Brien whether there was any area of contraceptive treatment as a medical issue in respect of which Mrs A <span style="font-style:italic">lacked</span> capacity, Miss O said that there was not.  Miss O accepted that she had not seen the letter of instruction by the time she saw Mrs A and wrote her report, but added that she had been aware Mrs A had learning difficulties (indeed Miss C had accompanied Mrs A into the consulting-room).  Being now fully informed as to the extent of Mrs A&#8217;s learning disabilities, Miss O reiterated her opinion in her oral evidence that Mrs A understood contraceptive treatment and had capacity.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p><span style="font-style:italic">Mr M.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">On liaison with the Official Solicitor, the Local Authority took a second opinion from Consultant Gynaecologist, Mr M.  He saw Mrs A for 75 minutes just seven days after her much shorter appointment with Miss O and Mr I. He formed the opinion that she does <span style="font-style:italic">not</span> have capacity to decide about contraceptive treatment.  He gave his reason for this as being Mrs A&#8217;s intellectual functioning.  He found in interview that she had a basic understanding of the physiology of fertilisation and also of several contraceptive techniques, although she expressed no knowledge of the pill.  His report continues that: &#8220;&#8230; her understanding of the implications of achieving a pregnancy and rearing a child is minimal and as such demonstrates to me that she would not be capable of looking after and rearing a child in a safe and acceptable manner.  It is apparent that any future child would almost certainly be subject to the same type of care proceedings as for the two previous pregnancies, as her ability to bring up a child will always be limited by her intellectual capacity, which will not improve&#8221;.  Mrs A told Mr M that she had been trying to conceive and that she wanted a baby, &#8216;because she could give it a good home&#8217;.  She said she believed she could bring up a child, although she could not say why she could do so now when previously she could not. She explained that if she were not in her current relationship, she would not want to have a child, but was worried that Mr A might leave her if she did not become pregnant.  In his concluding paragraphs, Mr M reiterated his opinion that Mrs A does not have capacity regarding contraception &#8220;&#8230; because she lacks the intellectual ability to look after a child of any age independently; furthermore she lacks insight into this fact and is adamant that she is capable of doing so&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In oral evidence, Mr M agreed that in order to have capacity as to contraception, a woman needs to know the types of contraception available, their efficacy, their side-effects and perhaps an understanding of how they actually work.  He said that when he had asked Mrs A what bringing up a child would involve, she had replied that she would feed it, and change its nappy.  She would take it to the nursery and on holiday.  If the child coughed or sneezed, she would call an ambulance; if crying, she would take it to the nursery.  Mr M suggested that Mrs A&#8217;s apparent ignorance of the pill suggests an inability to retain information, since it is almost certain that the pill would have been discussed with her when she was prescribed the depot injection.  In answer to Mr O&#8217;Brien, Mr M accepted that the questions conventionally asked about capacity are essentially medical ones.  He agreed that he had not sought to prompt Mrs A when she did not mention the pill and had simply accepted her apparent ignorance of it.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p><span style="font-style:italic">Dr K.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Dr K is a well known Consultant Psychiatrist in Learning Disability, who saw Mr and Mrs A on 12<span style="vertical-align:super;font-size:smaller">th</span> March 2010.  He reports that Mr A presented as &#8216;clearly the dominant member of the couple&#8217;.  He (Mr A) often whispered to Mrs A, answered questions directed to her, completed her sentences, and corrected her when he thought her answer was wrong.  Despite Dr K&#8217;s attempts to discourage this, Mr A found it difficult to stop.  When he, Dr K, tried to get Mr A to leave, so that he could talk with Mrs A alone, Mr A only very reluctantly did so, telling Dr K &#8216;&#8230; they are trying to get things out of her&#8217;.  Before Mr A left, Mrs A had struggled to give Dr K her age, saying first that she was 20, then 26 and finally agreeing with Mr A&#8217;s saying that she is 29.  In interview with Mrs A alone, Dr K found her unable to recall dates or even years.  Her speech was simple in structure, limited in content and slow in pace; but coherent, without any evidence of formal thought disorder.  She appeared unaware of the date, month or season and could not state the winter months, describing March as being in the autumn.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Asked about available contraception, however, Dr K says Mrs A gave almost entirely appropriate answers, referring to the injection, the coil, the condom and the pill.  She said that the pill is taken twice a day, but does not always work.  She said she felt she could look after a baby on her own; but on further questioning, agreed she would need support, like a carer coming in.  She added that Mr A would give her a lot of support.  She told Dr K that she had stopped her depot contraception because it gave her backache. When he asked her what other contraceptive method she would choose, she said: &#8220;None. I want to have a baby&#8221;.  Asked why things would be different now in terms of her ability to care for a child, she said: &#8220;I&#8217;ve got Mr A. I&#8217;m a married woman&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">As to &#8216;Stage 1&#8217; (the &#8216;diagnostic test&#8217;) Dr K&#8217;s opinion is that Mrs A clearly suffers from significant learning difficulties and has an impairment of or a disturbance in the functioning of the mind or brain within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>.  Her learning disabilities would qualify as being at the lower end of &#8216;mild&#8217;, as per the definition in the International Classification of Diseases, 10<span style="vertical-align:super;font-size:smaller">th</span> Edition.  He is satisfied that she does not currently have the capacity to conduct this litigation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">As to &#8216;Stage 2&#8217; (the &#8216;functional test&#8217;) Dr K states in his report that not only do Mrs A&#8217;s cognitive limitations and social impairment interfere significantly with her capacity to decide whether to have contraception, but also (and &#8216;in dynamic interaction&#8217;) so do emotional factors.  Thus her capacity to weigh information: &#8220;&#8230; is further impeded by her ambivalence (mixed feelings, &#8216;confusion&#8217;) about her husband and the pressure he seems to place on her to have a family.  The latter [pressure] is contributed to (a) by Mrs A&#8217;s personal characteristics, associated with both her learning disability and her personality, such as her eagerness to please, her suggestibility and her tendency to acquiescence and (b) by Mr A&#8217;s personal characteristics, including a suspicious and hostile stance in relation to support services, leading to his giving Mrs A mixed messages about what is in her interests, thereby &#8216;confusing her&#8217; more and therefore incapacitating her further&#8221;. Dr K goes on to express the opinion that Mrs A is unable to comprehend and retain information, especially as to the likely consequences of not having contraception. As to that, he says: &#8220;&#8230; here what is required of Mrs A is the capacity to imagine what life with a family is likely to be, and make a judgement of the pros and cons of a hypothetical scenario of which she has very limited understanding&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Cross-examined by Mr O&#8217;Brien, Dr K agreed that contraceptive treatment is a medical procedure and accepted that Mrs A understands it is to prevent pregnancy.  He accepted that she can identify the different types of contraceptive treatment available, including their advantages and disadvantages, and understands their possible side-effects.  Asked the question: &#8220;&#8230;It is obviously not perfect, but she has a good degree of understanding?&#8221;, Dr K accepted this was right.  Nevertheless he went on to say that contraception necessitates a social understanding over and above a medical understanding, because the outcome is not only a medical one.  Asked by Mr O&#8217;Brien to confine himself to the issue of the medical treatment per se and to state in what way Mrs A is lacking in capacity, Dr K answered: &#8220;&#8230; I have doubts whether she understands fully and can retain the necessary information, but I have no doubt that she lacks capacity to use the information to make a decision &#8230;  Currently the key feature is the emotional factors and I do not feel she has the ability to free herself from other influences&#8221;.  Although he accepted Mr O&#8217;Brien&#8217;s proposition that Mrs A knows the risks, side-effects and purpose of contraception, he disagreed that she can &#8220;use&#8221; that knowledge, saying &#8220;&#8230; I think the emotional factors are so strong that they prevent her from freely assessing the situation and weighing the pros and cons&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Cross-examined by Miss Khalique, Dr K agreed with her proposition that an understanding of the wider social issues is required over and above an understanding of the medical treatment itself.  He described the social issues as &#8216;key features&#8217;.  He said that Mrs A finds it very difficult to imagine what it would be like looking after a child, as her autistic features cause &#8216;a deficit of imagination&#8217;: &#8220;&#8230; I do not think she has the capacity to see in her mind&#8217;s eye what sort of care having a child would involve&#8221;.  All in all, he expressed the view that Mrs A currently lacks capacity to take a decision about contraception.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Dr K&#8217;s suggestion as to how one might enable Mrs A to gain capacity was to give her &#8216;ability-appropriate&#8217; education, with simplified information and questions, re-phrasing of points, and plenty of time.  He thought this could best be done in a multi-disciplinary context.  There should be meetings for her alone and also for both Mr A and her as a couple, these being of a more therapeutic nature.  This could be done through the Community Learning Disability Team, which has access to the necessary disciplines.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_13">
+	  <num style="font-weight:bold">H.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold">THE TEST FOR CAPACITY TO DECIDE ON CONTRACEPTIVE TREATMENT.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <intro>
+	    <p style="text-indent:0.5in">As the parties strongly disagree on this, it is necessary to consider the following Sections of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref>.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:1in">&#8220;S.1 (2) A person must be assumed to have capacity unless it is established that he lacks capacity.  </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p style="margin-left:1in;text-indent:0.5in">A person is not to be treated as unable to make a decision unless all practicable steps to help him to do so have been taken without success.  </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p style="margin-left:1in;text-indent:0.5in">A person is not to be treated as unable to make a decision merely because he makes an unwise decision.  </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <content>
+		    <p style="margin-left:1in;text-indent:0.5in">An act done, or decision made, under <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">this Act</ref> for or on behalf of a person who lacks capacity must be done, or made, in his best interests.  </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(6)</num>
+		  <content>
+		    <p style="margin-left:1in;text-indent:0.5in">Before the act is done, or the decision is made, regard must be had to whether the purpose for which it is needed can be as effectively achieved in a way that is less restrictive of the person&#8217;s rights and freedom of action.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">S.2</ref> People who lack capacity.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p style="margin-left:1in;text-indent:0.5in">For the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">this Act</ref>, a person lacks capacity in relation to a matter if at the material time he is unable to make a decision for himself in relation to the matter because of an impairment of, or a disturbance in the functioning of, the mind or brain.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p style="margin-left:1in;text-indent:0.5in">It does not matter whether the impairment or disturbance is permanent or temporary.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <intro>
+	      <p style="margin-left:0.5in;text-indent:1in">A lack of capacity cannot be established merely by reference to:-</p>
+	    </intro>
+	    <subparagraph>
+	      <num>(a)</num>
+	      <content>
+		<p style="text-indent:0.5in">a person&#8217;s age or appearance, or</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(b)</num>
+	      <intro>
+		<p style="margin-left:0.79in;text-indent:0.61in">a condition of his, or an aspect of his behaviour, which might lead<marker name="tab"/>others to make unjustified assumptions about his capacity.</p>
+	      </intro>
+	      <subparagraph>
+		<num>(4)</num>
+		<content>
+		  <p style="margin-left:1in;text-indent:0.5in">In proceedings under <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">this Act</ref> or any other enactment, any question whether a person lacks capacity within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">this Act</ref> must be decided on the balance of probabilities &#8230;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="margin-left:0.5in;text-indent:0.5in">S.3 Inability to make decisions.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>(1)</num>
+		<intro>
+		  <p style="margin-left:1in;text-indent:0.5in">For the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref>, a person is unable to make a decision for himself if he is unable:-</p>
+		</intro>
+		<subparagraph>
+		  <num>(a)</num>
+		  <content>
+		    <p style="text-indent:0.5in">to understand the information relevant to the decision,</p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num>(b)</num>
+		  <content>
+		    <p style="text-indent:0.5in">to retain that information,</p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num>(c)</num>
+		  <content>
+		    <p style="margin-left:1.18in;text-indent:0.32in">to use or weigh that information as part of the process of making the decision&#8230;.</p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num>(2)</num>
+		<content>
+		  <p style="margin-left:1in;text-indent:0.5in">A person is not to be regarded as unable to understand the information relevant to a decision if he is able to understand an explanation of it given to him in a way that is appropriate to his circumstances (using simple language, visual aids or any other means).</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>(3)</num>
+		<content>
+		  <p style="margin-left:1in;text-indent:0.5in">The fact that a person is able to retain the information relevant to a decision for a short period only does not prevent him from being regarded as able to make the decision.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>(4)</num>
+		<intro>
+		  <p style="margin-left:1in;text-indent:0.5in">The information relevant to a decision includes information about the reasonably foreseeable consequences of:-</p>
+		</intro>
+		<subparagraph>
+		  <num>(a)</num>
+		  <content>
+		    <p style="text-indent:0.5in">deciding one way or another, or</p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num>(b)</num>
+		  <content>
+		    <p style="text-indent:0.5in">failing to make the decision.&#8221;</p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p style="text-indent:0.5in">The crucial wording is the need for the woman concerned to be able to understand, retain, use and weigh &#8220;the information relevant to the decision&#8221; [S.3 (1)(a) to (c)].  This &#8220;&#8230; includes information about the reasonably foreseeable consequences of deciding one way or another [whether to use contraception] &#8221; [S.3(4)].  The Local Authority submits that &#8220;the reasonably foreseeable consequences&#8221; are very wide words, clearly wide enough to import a requirement that the woman concerned is able to understand and envisage (if she decided against contraception and became pregnant) what would actually be involved in caring for and committing to a child. She needs to be able, as per Dr K&#8217;s opinion, to project forward and see it in her mind&#8217;s eye.  The Local Authority also relies on Mr M&#8217;s opinion that Mrs A demonstrates a lack of the necessary capacity to look after a child.  To propound and apply a test excluding these factors would amount, it is said, to considering capacity &#8216;in a vacuum&#8217;, which would be &#8216;artificial and unrealistic&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">The Official Solicitor submits that this approach is &#8216;fundamentally flawed&#8217;.  To require a woman to be able to envisage the wider &#8216;social&#8217; ramifications of possible childbirth is said to be (i) unsupported by authority (ii) impractical and (iii) likely to introduce subjective decisions, with a danger of confusing capacity with best interests.  It would, it is said, &#8216;set the bar too high&#8217;.  It would catch and deny capacity to large numbers of women, including many would-be first-time mothers, who would presently be regarded as clearly having capacity regarding contraception.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Mr O&#8217;Brien relies on to the decision of Thorpe J in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re C Adult: refusal of treatment</span>: 1994 WLR290, to which the origins of S.3(1)(a)to(c) may be traced.  Having proposed the now-familiar three stage analysis (comprehending information, retaining it and  weighing it in the balance) Thorpe J then went to say of Mr C (who sought an injunction to forbid amputation of his gangrenous leg) that: &#8220;&#8230; although his general capacity is impaired by schizophrenia, it has not been established that he does not sufficiently understand <span style="font-style:italic">the</span><span/><span style="font-style:italic">nature, purpose and effects of the treatment he refuses</span>&#8221; [emphasis added].  Mr O&#8217;Brien submits that this is the limit of the ability to understand and weigh the relevant information which a person needs to have in respect of any form of medical treatment, including contraception.  He supports this by reference to <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Sheffield City Council v E</span> 2005 2WLR 953, where Munby J ran through the typical advice which a patient needs to be given and needs to understand (etc) as regards a medical procedure, comprising a diagnosis, a prognosis and advice as to treatment.  Munby J there gives a graphic illustration of the advice which a doctor would give about surgery for appendicitis.  Nowhere there, submits Mr O&#8217;Brien is there any question of the test for capacity involving the likely social consequences.  Similarly, he says, a person&#8217;s understanding of the social consequences of (say) a leg amputation would never be investigated as part of deciding whether he or she had capacity to consent.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">The difficulty with this argument is that, so far as counsel have ascertained, there has never been a case considering the test for contraception, as distinct from other medical procedures.  I accept Mr O&#8217;Brien&#8217;s submission that contraception is properly described as a form of medical treatment.  There is support for that proposition in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gillick v West Norfolk and Wisbech Area Health Authority</span> 1986 1FLR224, where Lord Scarman said &#8220;&#8230; young people, once they have attained the age of 16, are capable of consenting to contraceptive treatment, since it is medical treatment &#8230;&#8221;. But the administration of contraception is different from any other medical procedure, since (leaving aside sterilisation) no other medical procedure, or the refusal of it, produces such significant social consequence as the potential creation of a child.  So dicta from judgments which address the test for purely medical procedures lacking this feature, do not take the matter that much further.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">However, the argument of Mr O&#8217;Brien which I have found persuasive relates to the public policy / practicality considerations involved in enlarging the test from (a) whether a woman understands the &#8220;proximate medical issues&#8221; (per the Official Solicitor) to (b) whether she is also capable of envisaging the wider practicalities of bringing up a child (per the Local Authority).  The test, whatever it is, has to be applied daily in surgeries and family planning clinics, during appointments lasting perhaps less than half an hour.  The vast majority of decisions on capacity get nowhere near a court.  Absent legal proceedings, there is no opportunity for a meaningful investigation as to the woman&#8217;s background; nor as to the accuracy of whatever she tells the practitioner.  There is no opportunity for disclosure of medical or social services records about her background, nor for discussion about her with professionals or with family members (quite apart from all the difficulties of confidentiality).  In my view, these considerations militate against the wider &#8216;social consequences&#8217; test.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Further, I am persuaded that this wider test would create a real risk of blurring the line between capacity and best interests.  If part of the test were to involve whether the woman concerned understood enough about the practical realities of parenthood, then one would inevitably be in the realms of a degree of subjectivity, into which a paternalistic approach could easily creep.  What exactly would the woman have to be able to envisage about parenthood, who would decide, and just how accurate would her expectations have to be?  Butler-Sloss LJ put it this way in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re B (consent to treatment: capacity)</span> 2002 1FLR1090: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in">&#8220;&#8230; if there are difficulties in deciding whether the patient has sufficient mental capacity, particularly if the refusal may have grave consequences for the patient, it is most important that those considering the issue should not confuse the question of mental capacity with the nature of the decision made by the patient, however grave the consequences.  The view of the patient may reflect a difference in values rather than an absence of competence and the assessment of capacity should be approached with this firmly in mind.  The doctors must not allow their emotional reaction to or strong disagreement with the decision of the patient to cloud their judgment in answering the primary question whether the patient has the mental capacity to make the decision.&#8221;  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p>This translates into the statutory embargo in S.1(4) against finding incapacity on the basis that a given decision would be &#8216;unwise&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Mr O&#8217;Brien submits that this is indeed where both Mr M and Dr K have adopted a flawed approach.  They have wrongly considered whether Mrs A could bring up a child and (in spite of there being no assessment of the couple&#8217;s joint parenting capacity) have concluded that she could not.  So the risk of pregnancy should be eliminated or reduced and hence she should receive contraception.  Thus says Mr O&#8217;Brien they have blurred the distinction between capacity and best interests.  They have transgressed S.1(4) by treating Mrs A as lacking capacity, because they think that she is making an &#8220;unwise&#8221; decision in refusing contraception, a decision which they regard as not being in her best interests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Contrary to my initial view as to the very wide ambit of the words &#8220;the reasonably foreseeable consequences&#8221; of deciding one way or another on contraception, I have concluded that the Official Solicitor&#8217;s submissions on this are correct.  Although in theory the &#8216;reasonably foreseeable consequences&#8217; of not taking contraception involve possible conception, a birth and the parenting of a child, there should be some limit in practice on what needs to be envisaged, if only for public policy reasons.  I accept the submission that it is unrealistic to require consideration of a woman&#8217;s ability to foresee the realities of parenthood, or to expect her to be able to envisage the fact-specific demands of caring for a particular child not yet conceived (let alone born) with unpredictable levels of third-party support. I do not think such matters <span style="font-style:italic">are</span> reasonably foreseeable: or, to borrow an expression from elsewhere, I think they are too remote from the medical issue of contraception.  To apply the wider test would be to &#8216;set the bar too high&#8217; and would risk a move away from personal autonomy in the direction of social engineering.  Further, if one were to admit of a requirement to be able to foresee things beyond a child&#8217;s birth, then drawing a line on into the child&#8217;s life would be nigh impossible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <intro>
+	    <p style="margin-left:0in;text-indent:0.5in">So in my judgment, the test for capacity should be so applied as to ascertain the woman&#8217;s ability to understand and weigh up the immediate medical issues surrounding contraceptive treatment (&#8220;the proximate medical issues&#8221; - per Mr O&#8217;Brien), including: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.12in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p style="margin-left:1.12in">        the reason for contraception and what it does (which includes the likelihood of pregnancy if it is not in use during sexual intercourse);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.12in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p style="margin-left:1.12in">the types available and how each is used;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.12in;text-indent:-0.5in">(iii)</num>
+	    <content>
+	      <p style="margin-left:1.12in;text-indent:0.12in">the advantages and disadvantages of each type; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.12in;text-indent:-0.5in">(iv)</num>
+	    <content>
+	      <p style="margin-left:1.12in">the possible side-effects of each and how they can be dealt with;  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.12in;text-indent:-0.5in">(v)</num>
+	    <content>
+	      <p style="margin-left:1.12in">how easily each type can be changed; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.12in;text-indent:-0.5in">(vi)</num>
+	    <content>
+	      <p style="margin-left:1.12in">the generally accepted effectiveness of each.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p>I do not consider that questions need be asked as to the woman&#8217;s understanding of what bringing up a child would be like in practice; nor any opinion attempted as to how she would be likely to get on; nor whether any child would be likely to be removed from her care.</p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_15">
+	  <num style="font-weight:bold">I.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold">APPLYING THE TEST HERE</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Applying the above test, does Mrs A have capacity to decide whether or not to have contraceptive treatment?  The Official Solicitor says &#8216;yes&#8217;. The Local Authority says &#8216;no&#8217;. Each can pray in aid the differing expert opinions effective at the time that they were stated, Miss O, Mr I and Dr JN being of the affirmative view; Mr M, Dr K and Miss J of the negative view. The competing opinions are, of course, largely informed by the differing test being applied.  Mr O&#8217;Brien relies particularly on Miss O, whose opinion on capacity remained affirmative in the witness-box, when she was aware of the full degree of Mrs A&#8217;s learning difficulties. He submits that the opinions of Mr M and Dr K should not be followed, as they are flawed in the manner discussed in part H above.  I accept those submissions.  I consider that Miss O&#8217;s evidence and approach correlated best with the test which I have found to be the appropriate one. Mr M&#8217;s opinion for example was predicated in part on the proposition that &#8220;&#8230; any future child would almost certainly be subjected to the same type of care proceedings as for the two previous pregnancies &#8230;&#8221;. Although he was not to know this, Miss C has told me that, if Mrs A became pregnant (i) there would be a pre-birth parenting assessment of Mr and Mrs A as a couple and (ii) not even the commencement of Care proceedings is certain.  So any opinion as to Mrs A&#8217;s capacity based in part on an assumption as to what might happen to a child of Mr and Mrs A, must be flawed as to both the test itself and the assumed likely facts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">To say however that capacity as to contraception exists because Mrs A can understand sufficient (as I find she can) about the medical aspects of it, would be to by-pass <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">S.3(1)</ref>(c) of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref>.  There must also be the ability to use or weigh that information.  As to this, only the court has the full picture.  Experts are neither able nor expected to form an overview.  The question is whether the influence of Mr A over Mrs A has been so overpowering as to leave her unable to weigh up the information and take a decision of her free will.  Lord Donaldson put it like this in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re T (Adult: refusal of treatment</span> 1992 Fam 95 at 113 F: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in">&#8220;&#8230; it is wholly acceptable that the patient should have been persuaded by others of the merits of such a decision and have decided accordingly.  It matters not how strong the persuasion was, so long as it did not overbear the independence of the patient&#8217;s decision.  The real question in each such case is &#8216;does the patient really mean what he says or is he merely saying it for a quiet life, to satisfy someone else, or because the advice and persuasion to which he has been subjected is such that he can no longer think and decide for himself ?&#8217; &#8230;&#8221;. </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p>Munby J pointed out in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">A Local Authority v MA, NA and SA</span> 2005 EWLHC 2942 (Fam), that: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in">&#8220;&#8230; where the influence is that of a parent or other close and dominating relative, and where the arguments and persuasions are based upon personal affection, or duty&#8230;powerful social or cultural conventions, or asserted social, familial or domestic obligations, the influence may &#8230;be subtle, insidious, pervasive and powerful&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">There is much evidence about the nature of the relationship between Mr and Mrs A and about the various things which Mrs A has said to different people about having a child.  In addition I have seen and heard both Mr and Mrs A in the witness-box.  The evidence is overwhelming that until around the time of the marriage, Mrs A&#8217;s relationship with the adult social services was friendly and that she had no difficulty in accepting their help and support.  Yet at around the time of the marriage, Mr A began to make it clear in trenchant terms that social services were not welcome at the house and Mrs A became increasingly inaccessible.  Further, he objected to their reasonable efforts to keep an eye on Mrs A&#8217;s welfare via the college or her place of voluntary work.  Mrs A has told both Miss C and Miss MW that she liked going to college and felt she could learn there.  Miss S confirmed how well Mrs A had been doing at college and that she had made friends.  Mrs A has, I find, been unable to continue attending college purely because of the strength of Mr A&#8217;s objections to her doing so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">There are numerous other examples established by evidence which I find on the balance of probabilities entirely acceptable (albeit some is hearsay) that Mrs A has been put under very heavy pressure and conflict through Mr A&#8217;s attitudes and behaviour.  There is, for example her complaining message on 19<span style="vertical-align:super;font-size:smaller">th</span> August 2009 about Miss C and Miss N&#8217;s visit to her place of voluntary work, even though she had been quite happy at the time to go out with them for coffee and a chat (paragraph 28 above).  That message was, I find, purely as a result of Mr A&#8217;s overbearing influence.  There is clear evidence from Miss C and Dr K of Mr A&#8217;s answering questions for Mrs A and of her deferring to him (paragraphs 33, 34 and 48); also evidence from Miss S of his talking to her like a child and seeming to be &#8216;de-skilling&#8217; her (paragraph 17).  There is the ill-fated visit of Dr T and Miss C in November 2009 (paragraph 32), from which the message taken by Mrs A must have been &#8216;it&#8217;s them and us&#8217;.  There are also professionally observed examples of the very unequal dynamic between Mr and Mrs A: by Miss C of Mr A&#8217;s shouting in Mrs A&#8217;s face in November 2009 that she would &#8216;&#8230; know about it if she got him into trouble&#8217; (paragraph 33) and by Miss MW following the loan company&#8217;s call in May 2010 (paragraph 38).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">When Mr A was questioned at this hearing (although on most matters he was calm, compliant and agreeable) there were areas around the involvement of the social services when he came over as inflexible, agitated and near angry. That is in spite of his creditable assurances to me that he would now be willing to cooperate in letting Mrs A see professionals alone about contraception and would participate in meetings for them both.  Further, and whilst taking full account of the fact that Mrs A told me herself (whilst Mr A had agreed to remain outside the courtroom) how much she does want a baby, I cannot overlook the things she has said to other people on many occasions, to the effect that it is really Mr A who wants one, not her: e.g. to Miss C at paragraph 34 above.  Miss S&#8217;s evidence is compelling that in the early part of 2009 Mrs A was scared when she thought she was pregnant and was asking if there was any contraception which she could take without Mr A knowing (paragraph 18 above).  I accept such a conversation took place.  It is significant because it was not in answer to formal questioning, but was a spontaneous remark, woman to woman.  It showed clearly Mrs A&#8217;s true wishes and feelings at that time. MW&#8217;s evidence at paragraph 37 above is to similar effect. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Last on this issue of the relationship dynamic between Mr and Mrs A, it is I think unavoidable that I make a finding on Mrs A&#8217;s allegations against Mr A about domestic violence.  In their oral evidence, both Mr and Mrs A denied this has ever taken place. I have to be cautious in accepting the truth of any of Mrs A&#8217;s allegations (i) because she has &#8216;withdrawn&#8217; them and (ii) because there could be several reasons why they may not have been true. She may, for example, have found she gained attention by making them; or they may have been invented because she was annoyed with Mr A about something at the time; or they may have emerged through leading questions.  There are also in the papers a number of historical references about Mrs A&#8217;s facility to make things up to cause trouble.  It will be remembered too from paragraph 17 above, that Mrs A reported Mr A&#8217;s shooting at children with an air-rifle.  He has denied ever having done so, or ever having owned an air rifle, which denials no-one has challenged.  This implies that what Mrs A says is not necessarily fact-based.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">I have no doubt that the witnesses who report Mrs A&#8217;s making complaints to them about Mr A&#8217;s violent and bullying behaviour are telling the truth and I reject Mrs A&#8217;s suggestion that they are making things up.  The question is then whether Mrs A was reporting to three different categories of witness (college staff, staff at her place of voluntary work, and social workers) violence and bullying which simply had not happened at all.  (I ignore her complaints to her mother, as I have no way of evaluating the dynamic between Mrs A and her mother and I do not think such second-hand reports would necessarily be reliable).  It is difficult to see that Mrs A should have lied, exaggerated or been misinterpreted on every occasion she spoke out, even though that may have happened on some or even many such occasions.  In addition, there are some references to a consistent demeanour: being tearful and distressed, and once crying at college repeatedly.  Mr A&#8217;s ability to be extremely angry was witnessed by Dr T and Miss C on their visit in November 2009 (paragraph 32) which they found very daunting.  It is a matter of record that in April 2009 Mrs A was removed overnight to respite care.  There are also the two professionally observed incidents of a domineering attitude by Mr A to Mrs A just mentioned: the threat shouted in her face and his indifference to her debt.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">Given the conflicted state of the evidence and Mrs A&#8217;s denials of having ever reported domestic violence (which denials I have rejected) I have not found this easy.  I am conscious too of the risk of undoing the good which Mr A has done by agreeing to enable Mrs A to be helped to reach her own decision about contraception.  Nevertheless, there is a thread of consistency in the complaints which Mrs A has made, coupled with some supportive demeanour and observed small bruises.  These features have persuaded me, in spite of Mr and Mrs A&#8217;s denials, that there have been at least some occasions of actual domestic violence (albeit, I suspect, of a relatively minor nature) and I so find.  I regret I cannot be more specific than that.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In view of what I find to be the completely unequal dynamic in the relationship between Mr and Mrs A, I am satisfied that her decision not to continue taking contraception is not the product of her own free will. In this respect, I do accept the opinion of Dr K and fully agree with him that she is unable to weigh up the pros and cons of contraception because of the coercive pressure under which she has been placed both intentionally and unconsciously by Mr A. That is not something for which Mr A should feel himself &#8216;blamed&#8217;. It is a product of a number of factors, including their respective personalities and learning disabilities; Mrs A&#8217;s dependence on him and fear of rejection; her suggestibility and wish to please him; his lack of insight as to the true extent of her difficulties; his rigid views about their status as husband and wife; his own wish to start a family, which is to be fully respected; and the fact that he has never yet felt included the decision.  For these reasons, I am in no doubt that Mrs A presently lacks capacity to take a decision for herself about contraception.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_16">
+	  <num style="font-weight:bold">J.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold">MRS A&#8217;S BEST INTERESTS</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">The Local Authority&#8217;s original application was for force and restraint to be authorised, if necessary, so that contraception could be urgently administered under local or general anaesthetic.  However, this was not wholeheartedly supported by Miss C, who is in the unhappy position of having to figure out how this would actually be done in practice, faced by an unwilling and very oppositional Mr and Mrs A.  They were both adamant in the witness-box that they would not cooperate with anything involving coercion.  In her statement, Miss C said &#8220;&#8230; Mrs A cannot be forced and manhandled to an appointment: if the Court orders that she should be made to receive contraceptive treatment, then I would imagine there would need to be Police involvement.&#8221;  In her oral evidence, she agreed that she would not be comfortable with Mrs A being physically removed from the family home and taken to have contraception under restraint and anaesthesia.  She agreed with me that it is essentially a horrendous prospect.  Dr K said likewise that it would be &#8216;a very traumatic experience&#8217; for Mrs A.  The couple have already demonstrated a &#8216;drawbridge-mentality&#8217; in respect of their home, as shown by Dr T and Miss C&#8217;s visit in November 2009 (paragraph 32 above).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In such a sensitive area, it is difficult if not impossible to envisage any acceptable way forward on these particular facts, other than by an attempt to achieve a capacitated decision from Mrs A, through &#8216;ability-appropriate&#8217; help and discussion without undue contrary pressure from Mr A.  I emphasise that this is not one of those cases where there are felt to be risks to physical or mental health through pregnancy, childbirth, or the removal of a child. There is nothing before me to suggest that Mrs A suffered thus when she had her two children. If she had, then different factors and a different balance of proportionality would be under consideration.  As it is, the issue is one of an essentially elective medical procedure, based on the judgment of those closely involved in the case that it would be &#8216;better&#8217; or &#8216;kinder&#8217; if Mr and Mrs A did not have a child, so as to spare them possible heartache if history were to repeat itself.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">In that respect, I refer to two significant dicta from the large bundle of authorities placed before me.  In the first, <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">R v Broadmoor Special Hospital Authority</span> 2002 1WLR 419, Hale LJ said: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in">&#8220;&#8230;  The wishes and feelings of the incapacitated person will be an important element in determining what is or is not in his best interest.  Where he is actively opposed to a course of action, the benefits which it holds for him will have to be carefully weighed against the disadvantages of going against his wishes, especially if force is required to do this&#8221;.  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p>Then in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Local Authority X &#8211; v &#8211; MM and KM</span> , referring to vulnerable adults, Munby J said: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in">&#8220;&#8230;  The court must be careful to ensure that, in rescuing a vulnerable adult from one type of abuse, it does not expose her to the risk of treatment at the hands of the state which, however well intentioned, can itself end up being abusive of her dignity, her happiness and indeed of her human rights.  That said, the law must always be astute to protect the weak and helpless, not least in circumstances where, as often happens in such cases, the very people they need to be protected from are their own relatives partners or friends &#8230;  The emphasis must be on sensible risk appraisal, not striving to avoid all risk, whatever the price, but instead seeking a proper balance and being willing to tolerate manageable or acceptable risks as the price appropriately to be paid in order to achieve some other good &#8211; in particular to achieve the vital good of the elderly or vulnerable person&#8217;s <span style="font-style:italic">happiness</span>.  What good is it making someone safer, if it merely makes them miserable?&#8221; [emphasis in the original].  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">It is obvious on the facts of this case, that any step towards long-term court imposed contraception by way of physical coercion, with its affinity to enforced sterilisation and shades of social engineering, would raise profound questions about state intervention in private and family life.  Whilst the issue of the use of force has not been argued out at this hearing I cannot, on these facts, presently see how it could be acceptable.  Following my views expressed along these lines during the hearing, the Local Authority has so formulated its claim that for the moment anyway I am only asked to declare that it would be in the interim best interests of Mrs A to have contraception, if she consents.  Mr O&#8217;Brien describes such an order as &#8216;meaningless&#8217; because if Mrs A consents, no order is required; and if she does not, the order achieves nothing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">I need to hark back here to what I said in paragraph 65 above.  It is accepted by the Local Authority, that if Mrs A became pregnant, there would be a pre-birth assessment of her and Mr A, and that (whilst it may be possible to speculate) it is impossible to say now what would emerge.  It might therefore be concluded that they could with much support bring up a child, or perhaps that a child might be able to be kept within the extended family.  Striking a balance of advantage and disadvantage, I do not see that any order at all is justified at this point about contraception.  Such an order could only be made on the basis of a gut-feeling that it would be &#8216;kinder&#8217; to Mr and Mrs A if Mrs A were to use it, which is not in my judgment an acceptable approach.  Even if there were any point in the order sought (and I agree with Mr O&#8217;Brien that in practice there is not) I certainly do not think the court should intervene at a stage when Mr A has not yet been included in any ability-appropriate discussion or help on the contraception issue; when Mr and Mrs A have not yet had any therapeutic input as a couple about it (as recommended by Dr K), nor about their relationship generally; and when they have not yet had the chance to be helped to understand this judgment.  I do not propose therefore to make any order about Mrs A&#8217;s &#8216;best interests&#8217; at this stage.  If she were to become pregnant, so be it: matters would take their course in the way I have described, with a pre-birth assessment of Mr and Mrs A&#8217;s joint parenting abilities and the Local Authority taking such steps on the strength of it as appeared appropriate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_17">
+	  <num style="font-weight:bold">K.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold">AN INJUNCTION IN THE INHERENT JURISDICTION AGAINST MR A?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">It is established on the authorities that, notwithstanding <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>, the inherent jurisdiction is alive and well in circumstances where an individual, even if <span style="font-style:italic">not </span>incapacitated, is &#8220;&#8230; either under constraint, or subject to coercion or undue influence, or for some other reason deprived of the capacity to make the relevant decision, or disabled from making a free choice, or incapacitated or disabled from giving or expressing a real and genuine consent&#8221; per Munby J in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">A</span><span style="text-decoration-line:underline;text-decoration-style:solid"/><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Local Authority v MA NA and SA</span> 2005 EWHC 2942 (Fam) at paragraph 77.  Where such circumstances pertain, as I have held they do here (in fact, I have found Mrs A to be presently incapacitated as regards contraception) the court has a wide inherent jurisdiction to prevent conduct by the dominant party which coerces or unduly influences the vulnerable party from making free decisions.  The purpose, in respect of a capacitated but vulnerable adult, is to create a situation where he or she can receive outside help free of coercion, to enable him or her to weigh things up and decide freely what he or she wishes to do. In respect of an incapacitated adult, I consider the same should apply, except that the aim of providing him or her with relief from the coercion is first to gain capacity and, if achieved, then to enable him or her to reach a free decision.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.5in">As I have said, Mr A expressed his willingness in the witness-box to allow Mrs A to have free contact with those professionals who have the skills to advise her in an ability-appropriate way about contraceptive issues, provided he is not excluded but involved as well, either concurrently or separately.  In her closing submissions Miss Mian confirmed his continued willingness to comply with this assurance.  Both Mr and Mrs A are very much to be encouraged to engage in this process.  I do not therefore consider any injunction against Mr A is presently necessary to oblige him to permit Mrs A to attend meetings and so forth.  It might actually be unhelpful to leave him with a sense that there is continuing &#8216;unnecessary&#8217; outside interference. It seems to me better, in a spirit of cooperation in trying to enable Mrs A to gain contraception capacity, to rely on Mr A to honour his assurances given to the court.  That, in the first instance, is what I propose to do.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,37 @@
+# AILES Legal AI API Dependencies
+# Core ML and AI libraries
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+transformers>=4.35.0
+peft>=0.5.0
+accelerate>=0.20.0
+bitsandbytes>=0.41.0
+
+# API and web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.4.0
+
+# HTTP and networking
+requests>=2.31.0
+httpx>=0.25.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+datasets>=2.14.0
+
+# Utilities
+pyyaml>=6.0
+python-multipart>=0.0.6
+python-json-logger>=2.0.7
+
+# Monitoring and logging
+psutil>=5.9.0
+
+# Development and testing (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.9.0
+flake8>=6.1.0

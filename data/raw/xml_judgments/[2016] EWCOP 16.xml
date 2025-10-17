@@ -1,0 +1,430 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2016/16"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2016/16"/>
+	  <FRBRdate date="2016-03-10" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="16"/>
+	  <FRBRname value="VE, Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2016/16"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2016/16"/>
+	  <FRBRdate date="2016-03-10" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2016/16/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2016/16/data.xml"/>
+	  <FRBRdate date="2024-09-08T22:31:00" name="transform"/>
+	  <FRBRdate date="2024-11-23T04:29:02" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2016-03-10" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewcop" href="https://www.gov.uk/courts-tribunals/court-of-protection" showAs="The Court of Protection"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-mr-justice-charles" href="/judge-mr-justice-charles" showAs="MR JUSTICE CHARLES"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCOP</uk:court>
+	<uk:year>2016</uk:year>
+	<uk:number>16</uk:number>
+	<uk:cite>[2016] EWCOP 16</uk:cite>
+	<uk:parser>0.26.1</uk:parser>
+	<uk:hash>06eb2892ba877fa6cc560ac34b5d5f4d661e1bb32427d4b7d5ee0752fb2cfa81</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Cambria; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2016] EWCOP 16</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-size:10pt">Case Number and initials of P:</span></p>
+      <p style="text-align:right;margin-left:4.5in"><span style="font-weight:bold">12755071 (VE)</span></p>
+      <p><courtType refersTo="#ewcop" style="font-weight:bold">IN THE COURT OF PROTECTION</courtType></p>
+      <p><span style="font-weight:bold">(Sitting in Open Court)</span></p>
+      <p class="CoverText"><span style="text-decoration-line:none">Date:</span><docDate date="2016-03-10" refersTo="#judgment" style="text-decoration-line:none">10 March 2016</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before </span></p>
+      <p style="text-align:center"><judge refersTo="#judge-mr-justice-charles" style="font-weight:bold">MR JUSTICE CHARLES</judge></p>
+      <p style="text-align:center"><docTitle style="font-weight:bold">IN THE MATTER OF THE MENTAL CAPACITY ACT 2005</docTitle></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">RE: VE</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Conrad Hallin</span> (instructed by Blackburn with Darwen Borough Council)</p>
+      <p style="text-align:center"><span style="font-weight:bold">Jason Coppel QC and Rachel Kamm </span>(instructed by the Government Legal Department) for the Secretary of State for Health and the Secretary of State for Justice</p>
+      <p style="text-align:center"><span style="font-weight:bold">Bridget Dolan</span> (instructed by the Official Solicitor) for the Official Solicitor</p>
+      <p style="text-align:center"><span style="font-weight:bold">Stephen Broach </span>(instructed by the Law Society&#8217;s Legal Services Department) for the Law Society of England and Wales (written submissions only)</p>
+      <p style="text-align:center">Hearing dates: 3 and 4 December 2015 and 13 January 2016</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+      <p><span style="font-weight:bold">Charles J :</span></p>
+      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is one of five cases that were listed before me and are the subject of my judgment in <span style="font-style:italic">Re JM &amp; Others (DoL procedural requirements)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2016/15" uk:canonical="[2016] EWCOP 15" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCOP 15</ref>. As explained in that judgment in this case a friend of VE is available for appointment as VE&#8217;s Rule 3A representative and, applying my approach in <span style="font-style:italic">Re NRA &amp; Others </span><ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2015/59" uk:canonical="[2015] EWCOP 59" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCOP 59</ref>, I have decided to so appoint her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">The terms of appointment.</span>  In argument in <span style="font-style:italic">JM </span>the point was raised that the applicant authorities had experience of family members and friends finding it difficult to understand what their role as a Rule 3A representative involved and this made some of them reluctant to take on the role or involved discussion about it.  To ameliorate this problem it was suggested that the role should be better explained in the order or elsewhere.  Gateshead Council helpfully provided me with a standard letter they have prepared to so assist family members and friends.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree that this role should be better explained and suggest that the explanation set out below could be considered by the ad hoc Rules Committee and the Court as a starting point for guidance to be attached to and mentioned in orders.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst the Court and the ad hoc Committee consider this I hope that what I have set out will be of some assistance.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Legal aid.  </span>My judgment in <span style="font-style:italic">JM </span>contains a discussion on the availability of legal aid through legal help.  My conclusion on that is reflected in the explanatory note.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">My suggested explanation is as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="text-align:center;margin-left:0.89in"><span style="font-size:10pt">EXPLANATORY NOTE FOR A FAMILY MEMBER OR FRIEND APPOINTED AS A RULE 3A REPRESENTATIVE</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic;font-size:10pt">General</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">The Supreme Court has decided that the package of care and support provided to P in this case means that P is being deprived of his liberty. If, as is asserted by the applicant authority, P does not have the capacity to give consent to that package of care and support, it needs to be authorised by the Court.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">The Court will consider whether that package of care and support is the least restrictive available option to best promote the best interests of P and the application is made on the basis that the applicant authority is of the view that it is.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">The Court has appointed you as a Rule 3A representative for P because of your relationship with and knowledge of P and because the Court is satisfied that without causing P any or any unnecessary distress you can assist the Court in reaching its decision by examining what is proposed and being done by the applicant authority from the perspective of P&#8217;s best interests (rather than your own or those of others).</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">What you need to do is to consider and decide from that perspective whether P&#8217;s package of care and support is the least restrictive available option that best promotes P&#8217;s best interests and then inform the Court what you have decided and what P&#8217;s wishes and feelings about the package of care and support are</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-weight:bold;font-size:10pt">In short, the Court is asking you, as someone who knows the position on the ground, to consider whether from the perspective of P&#8217;s best interests you agree or do not agree that the Court should authorise P&#8217;s package of care and support.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">This will involve you weighing the pros and cons of that package of care and support, comparing it with other available options and (if appropriate) proposing changes to the applicant authority.  For example, if you consider that some of the restrictions it puts in place are unnecessary or inappropriate and should be changed, you should raise this with the applicant authority and, if they do not agree with what you propose, the Court.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">If you consider that P has capacity to consent to the package of care and support, or parts of it, you should raise this with the applicant authority and the Court.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">In any event, you should inform the Court about what P has said about, and P&#8217;s attitude towards, the package of care and support.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">You should also check from time to time that the package of care and support is being properly implemented and whether it needs to be changed because P&#8217;s condition has changed, or for any other reason.  If you conclude that its implementation or terms should be changed you should raise this with the applicant authority and the Court if the changes are not made.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic;font-size:10pt">The Court Documentation</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">You will receive the application form (COPDOL10) with Annexes A, B and C. These include details of how the package of care and support is said to deprive P of his liberty and details of the consultations that have occurred with P and others about it.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">You will also receive a formal assessment of P&#8217;s mental capacity (COP3), a mental health assessment, a care plan, best interests assessment forms, risk assessments and a placement plan. These set out why the applicant authority has reached the view that the package of care and support is the least restrictive available option to best promote the best interests of P.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic;font-size:10pt">Steps you should take</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">These will include the following:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">examining the Court documentation to check that it is accurate and whether you agree with what it sets out</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">discussing any points that you think need to be clarified or changed with the applicant authority</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">discussing the package of care and support and the application to the Court with P in so far as P is able to understand them. In particular, if you do not know this already, and it will not cause unnecessary distress you should ask P what he thinks about the package of care and support</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">considering whether you support the application and so think that the Court should make the order sought by the applicant authority</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">if you support the application and so think that the Court should make the order sought by the applicant authority the Court could deal with the case without a hearing but you should discuss with P whether P wants to play a direct part in the proceedings (e.g. by attending a court hearing or by communicating directly with the judge) and if P wants to do this you should raise this with the applicant authority and include it in your statement to the Court.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic;font-size:10pt">Section 4(6) of the Mental Capacity Act</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">The order of the Court refers to this section. It provides that a person determining what is in a person&#8217;s best interests must consider so far as is reasonably ascertainable:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-size:10pt">(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.11in"><span style="font-style:italic;font-size:10pt">the person&#8217;s past and present wishes and feelings (and, in particular, any relevant written statement made by him when he had capacity),</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-size:10pt">(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.11in"><span style="font-style:italic;font-size:10pt">the beliefs and values that would be likely to influence his decision if he had capacity, and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-size:10pt">(c)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.11in"><span style="font-style:italic;font-size:10pt">the other factors that he would be likely to consider if he were able to do so</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic;font-size:10pt">Your statement</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">This should be in form COP24 and it can be downloaded from the Courts website (</span><a class="Hyperlink" href="http://hmctsformfinder.justice.gov.uk/courtfinder/forms/cop024-eng.pdf" style="font-size:10pt">http://hmctsformfinder.justice.gov.uk/courtfinder/forms/cop024-eng.pdf</a><span style="font-size:10pt">).</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">You should complete the details on page 1 as follows:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">Statement given by (name of witness) &#8211; [</span><span style="font-weight:bold;font-size:10pt">your name]</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">Statement &#8211; </span><span style="font-weight:bold;font-size:10pt">[tick 1st box]</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">Filed on behalf of (name of party)</span><span style="font-weight:bold;font-size:10pt"> &#8211; [your name (Rule 3A Representative)]</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">Date statement was made &#8211; </span><span style="font-weight:bold;font-size:10pt">[date of completing your witness statement]</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">Case no. &#8211; </span><span style="font-weight:bold;font-size:10pt">[Case number]</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">Full name of person to whom the application relates &#8211; </span><span style="font-weight:bold;font-size:10pt">[P&#8217;s full name]</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">On page 2 you should include your name at (1), occupation at (2) and address at (3).  You should not tick either of the boxes below (3).</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">Your statement begins at (4) and should be formatted in numbered paragraphs. It need not contain long explanations and if you agree with what others have set out in the court documentation you can simply say so.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">Your statement should generally include the following:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">An explanation of who you are i.e. P&#8217;s relation or friend</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">So far as is possible the matters covered in section 4 (6), which is set out above</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">If you do support the application your reasons for doing so</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">Whether an oral hearing may be required because P wishes to see the judge or take a direct part in a hearing; setting out what P wants to happen</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">Whether an oral hearing is required because matters are disputed because, for example, you do not support the arrangements proposed by the applicant authority or they are opposed by P or someone else (such as a friend or a family member); setting out the reasons for that lack of support or opposition</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">Any comments you wish to make on P&#8217;s capacity to make decisions about P&#8217;s care arrangements</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;font-size:10pt;margin-left:0.89in">&#8226;</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0.12in"><span style="font-size:10pt">Any other comments you wish to make and in particular any that are directed to assisting the Court to determine whether P&#8217;s package of care and support is the least restrictive available option that best promote P&#8217;s best interests</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">At the bottom of page four you should sign your statement to confirm that its contents are correct. You should also include your name and the date where indicated.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic;font-size:10pt">Legal advice</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">You may wish to seek independent advice from a solicitor who may be able to provide it to you free of charge under the legal aid regulations relating to &#8220;legal help&#8221;.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">The applicant authority may be able to provide you with a list of solicitors who do this work.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic;font-size:10pt">Queries</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:10pt">The applicant local authority may be able to answer any queries you have and will be able to give you details of how you can contact the Court, if you wish to do so. </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1839 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/1074"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/1074"/>
+	  <FRBRdate date="2023-05-05" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1074"/>
+	  <FRBRname value="EBK v DLO"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/1074"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/1074"/>
+	  <FRBRdate date="2023-05-05" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/1074/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/1074/data.xml"/>
+	  <FRBRdate date="2024-11-09T21:02:03" name="transform"/>
+	  <FRBRdate date="2024-11-13T06:54:06" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-05-05" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ebk" href="" showAs="EBK"/>
+	<TLCPerson eId="dlo" href="" showAs="DLO"/>
+	<TLCPerson eId="chief-constable-of-west-yorkshire-police" href="" showAs="Chief Constable of West Yorkshire Police"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCRole eId="interested-party" href="" showAs="Interested Party"/>
+	<TLCPerson eId="judge-mr-justice-mostyn" href="/judge-mr-justice-mostyn" showAs="Mr Justice Mostyn"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>1074</uk:number>
+	<uk:cite>[2023] EWHC 1074 (Fam)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>e2e9c397b48eced1b2e35dc08930894bcd6bbeaacdf6e2e4ce7e82d65c1cd550</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .paralevel10 { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .legds { }
+#judgment .legchangedelimiter { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .legaddition { }
+#judgment .legsubstitution { }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.5pt;height:75.5pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EWHC 1074 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>HD20P00013</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2023-05-05" refersTo="#judgment">05/05/2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-mostyn" style="text-decoration-line:none">Mr Justice Mostyn</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#ebk" style="font-weight:bold">EBK</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant" style="text-decoration-line:none">Claimant </role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#dlo" style="font-weight:bold">DLO</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"><party as="#interested-party" refersTo="#chief-constable-of-west-yorkshire-police" style="font-weight:bold">Chief Constable of West Yorkshire Police</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant" style="text-decoration-line:none">Defendant </role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#interested-party" style="text-decoration-line:none">Interested Party</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">The Claimant appeared in person with his McKenzie friend</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Melissa Millin</span> (instructed by <span style="font-weight:bold">Watson Ramsbottom</span>) for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Robert Cohen</span> (instructed by <span style="font-weight:bold">in-house legal team</span>) for the <span style="font-weight:bold">Interested Party</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Brian Farmer </span>of PA Media also attended</p>
+      <p style="text-align:center">Hearing date: 25 April 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MR JUSTICE MOSTYN</p>
+      <p style="text-align:justify">This judgment was delivered in public. The judge has made an anonymity order in respect of the claimant, the defendant and their child. All persons, including representatives of the media, must comply with this order. Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Mostyn:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In this judgment:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in">&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>&#8221; is a reference to the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in"> &#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings&#8221; is a reference to proceedings for a child arrangements order applied for under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in">&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.97(2)</ref>&#8221; is a reference to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.97(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in">&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65" uk:canonical="1960 (8 &amp; 9 Eliz. 2) c. 65" uk:origin="TNA" uk:type="legislation">the 1960 Act</ref>&#8221; is a reference to the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65" uk:canonical="1960 (8 &amp; 9 Eliz. 2) c. 65" uk:origin="TNA" uk:type="legislation">Administration of Justice Act 1960</ref>; and </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in">&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>&#8221;, &#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12(1)</ref>&#8221; and &#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12(2)</ref>&#8221; are references to <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12(1)</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 12(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65" uk:canonical="1960 (8 &amp; 9 Eliz. 2) c. 65" uk:origin="TNA" uk:type="legislation">the 1960 Act</ref>. </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is my judgment on the reconstituted application by the claimant dated 5 December 2022 for permission to bring contempt proceedings against the defendant, his former partner and mother of his child, for breach of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref> on 11 August 2020 by showing documents to officers of the Interested Party, the West Yorkshire Police (&#8220;the police&#8221;) which derived from ongoing <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The background</span></heading>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The claimant is 28 years old and he is a serviceman in the Royal Marines. The defendant is 37 years old and is a specialist neurological physiotherapist. The parties began a relationship in early 2016. They have a child together, N, who is 5 years old. The defendant also has two older children from a previous relationship, aged 13 and 12. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The parties separated in November 2017. On 24 November 2017, the defendant applied for an ex parte non-molestation order which was made on the same day, in relation to an incident on 12 November 2017 when she had reported domestic abuse to the police. At the return hearing the order was directed to remain in place until 24 November 2018. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In December 2017, the claimant sought contact with N and made a C100 application for a child arrangements order. A finding of fact hearing took place on 26 and 27 March 2018 before District Judge Barraclough sitting in Huddersfield to determine the defendant&#8217;s allegations of domestic abuse. Judgment was given on 9 April 2018. Out of 17 allegations before the court, 4 were not proven, 3 fell away through the claimant&#8217;s admissions to the court and 10 allegations were found proven. Those proven allegations &#8220;did not necessarily amount to domestic abuse&#8221;; that was as far as the judge was willing to go in his findings. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge concluded that his findings should not stand in the way of the claimant&#8217;s relationship with his child but that the safety of the defendant and child must be assured. The court therefore ordered the claimant to be referred to a Domestic Abuse Perpetrator Programme (&#8220;DAPP&#8221;) and for Cafcass to carry out the referral by 2 May 2018. On 18 September 2018, the claimant was referred to DAPP and on 27 September 2018, the DAPP provider assessed the claimant as unsuitable for DAPP for three reasons: first, that the surrounding circumstances and frequency of the domestic abuse incidents indicated low to medium risk; second, the claimant had passed his employer&#8217;s vetting and psychodynamic risk assessment; and third being on location and deployable with the Armed Forces at extremely short notice, meant that attending a programme of behavioural change that meets weekly would be impossible to sustain. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A Section 7 report dated 21 December 2018 recommended no direct contact between N and the claimant. The report was prepared by a Cafcass officer who had not seen the claimant, nor had she considered the fact-finding judgment of 9 April 2018. On 8 January 2019 District Judge Barraclough ordered an addendum report to be prepared to ensure that the claimant was spoken to by Cafcass. That report recommended that the claimant should have indirect contact with N. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 12 March 2019 the Cafcass officer spoke to a RM officer and made untrue allegations about the claimant which led to the suspension of the claimant&#8217;s training. This led to the claimant intimating a claim against Cafcass for defamation and misuse of private information. Cafcass conceded liability. In a settlement agreement dated 6 March 2020 Cafcass apologised, agreed to pay the claimant&#8217;s costs and the sum of &#163;27,500 in damages. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">District Judge Barraclough in his later judgment dated 8 April 2019 had concerns with the Cafcass officer&#8217;s views, especially that the claimant was a &#8220;particularly dangerous man&#8221; which had clearly been influenced by her discussions with the defendant. The Judge did not accept this and found that the officer had prejudged the matter. He held that he nonetheless needed clear and cogent reasons to depart from Cafcass&#8217; recommendations for contact and directed the appointment of an independent social worker.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 3 December 2019 a final child arrangements order was made for the child to live with the defendant and to have direct overnight contact with the claimant on alternate weekends and midweek, together with periods in the school holidays and on special occasions. However, on 30 January 2020, the defendant began a second set of children proceedings, applying to suspend all contact under the final order. This was refused by Judge Barraclough. The defendant then sought to appeal that refusal. Permission to appeal was refused by Her Honour Judge Lynch on 18 February 2020. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 13 July 2020, the paternal grandmother applied for a child arrangements order to spend time with N. A hearing took place on 26 August 2020. The order made by District Judge Barraclough recorded:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;j)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Court expressed its concern that the [Position Statement dated of the Paternal Grandmother of 24 August 2020] appeared to have the imprint of the Father all over it given that it quoted substantially from the parental proceedings which have not been released into these proceedings.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>k)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Paternal Grandmother indicated that she has prepared the Position Statement but that the Father had provided her with information</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>l)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Court recorded that confidentiality had been breached and technically both the Paternal Grandmother and the Father were in contempt of Court.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 20 August 2020, following a complaint made by the defendant, the police visited the defendant at her home. The defendant had alleged that the claimant was harassing her. At the meeting the defendant disclosed certain documents deriving from the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings to the police. These are the documents which are the subject matter of the application before me.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As a result of the defendant&#8217;s allegations to the police against the claimant, he was arrested on 26 August 2020. The day before, PC Cathryn Harrison sent an email to Warrant Officer Michael Seabrook in the RM human relations department. That email, redacted to preserve anonymities is attached to the judgment of Johnson J of 25 August 2022 (see below). In that judgment Johnson J held that the meaning of the email was:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The claimant has threatened and told blatant lies to his former partner, sending her emails which make threats, drawing on his military background to control her, and causing her to be scared that she is under constant surveillance and affecting her mental health. He has thereby committed an offence of controlling and coercive behaviour against his former partner and an offence against her of harassment. His behaviour is not compatible with service in the armed forces.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The consequences of these events  were that the claimant had restrictions placed on his liberty by virtue of the terms of police bail, including restrictive communication and freedom of movement conditions, as well as having to make frequent 600 mile round trips from Poole to Halifax and back to answer such bail.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The claimant therefore issued defamation and misuse of private information proceedings against the Chief Constable of West Yorkshire police in the Queen&#8217;s Bench Division of the High Court. On 6 June 2022 Master Eastman made an anonymity order prohibiting the disclosure of the identity of the claimant and the child (<span style="font-style:italic">TJM v Chief Constable of West Yorkshire Police</span> (<span style="font-style:italic">anonymity order</span>)<authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"><span/>https://www.judiciary.uk/judgments/tjm-v-chief-constable-of-west-yorkshire-police-anonymity-order/</p>
+		</authorialNote>). On 25 July 2022 Mr Justice Johnson handed down judgment on the trial of  preliminary issues as to, first, the meaning of the email; secondly, whether it was defamatory of the claimant at common law; and thirdly, whether the email conveyed matters of fact or opinion: <span style="font-style:italic">TJM v Chief Constable of West Yorkshire Police</span> [2022] EWHC 2658 (KB). He held that the email had the meaning set out above; that the meaning was defamatory at common law; and that it amounted to statements of fact rather than opinion, save that the last sentence amounted to an expression of opinion. He directed that the pleadings should be amended to reflect his findings and that the matter should be listed for a costs and case management hearing. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 22 December 2022, the police wrote to the claimant&#8217;s solicitors conceding liability. The parties have negotiated a settlement whereby a statement will be made in open court which will say that the Interested Party has agreed to pay substantial damages to the claimant and that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The [Interested Party] acknowledges that the factual allegations about the Claimant are untrue, and that the opinion expressed about him is insupportable. He retracts and withdraws these allegations and that opinion, and he undertakes not to further publish or repeat them. He also accepts that the disclosure of the private correspondence to the Claimant&#8217;s employer was completely wrong, and he apologises for the invasion of privacy caused to the Claimant and his Child. &#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 26 August 2020 the defendant renewed her application to suspend contact, which was refused on 23 September 2020 by District Judge Barraclough who ordered that N should be joined as a party represented by a Guardian and directed Cafcass to appoint a Guardian.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 15 May 2021, the defendant made a report to the police that the claimant had sexually abused the child. The police reported this allegation to the Local Authority Emergency Duty Team. On 21 May 2021 and on 8 June 2021 Police and Children Services undertook a joint visit to the child&#8217;s home and on 16 June 2021 they undertook a visit to the child&#8217;s nursery, after which the local authority reported that the child made no disclosures during their visits.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A case management hearing took place on 24 June 2021 before District Judge Uppal after which on 14 July 2021 an assessment report was filed. The report concluded that there was no evidence that N had experienced sexual harm nor were there any concerns in relation to her behaviour or emotional wellbeing. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 12 January 2022, the claimant went to Halifax police station to retrieve his mobile phone which the police had seized for forensic investigation following the defendant&#8217;s allegations in August 2020. On that day, West Yorkshire Police returned to the claimant his telephone along with, unexpectedly, two physical files, one green, one black. These contained the papers from the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings disclosed by the defendant to the police on 11 August 2020. The claimant took photographs of these files and handed the green file to District Judge Uppal at Huddersfield Family Court at the start of the second final hearing before him on 7 March 2022. The claimant told me at the hearing on 25 April 2023 that he handed the black file to the solicitors representing him in the defamation proceedings, and that subsequently the police collected that file from his solicitors and handed it to the defendant. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In response, Ms Millin on behalf of the defendant stated that the contents of the black file (but not the black file itself) were returned to the defendant on 15 February 2022, who immediately commented that papers were missing. On 31 January 2023 my judicial assistant wrote to District Judge Uppal to request that the file(s) handed to him by the claimant should be sent to the High Court. District Judge Uppal caused the green file to be located in storage and for it to be sent to the Royal Courts of Justice in early February 2023. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The defendant believes that the green file in my possession is not the full and complete original file and that many documents were removed and retained by the claimant. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is the defendant&#8217;s case that at her home she gave the two files to the police in relation to her allegations of coercive and controlling behaviour and harassment against the claimant on 11 August 2020. The documents included personal handwritten notes, her health records and bank statements, as well as documents deriving from the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings. The defendant says that she was unaware that she was not permitted to hand those latter documents to the police; and that her intention was to protect herself and her children from the claimant. In hindsight she accepts that it was not appropriate to disclose those documents to the police and she apologises to the court for this.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The claimant&#8217;s case is that without permission from the court, the defendant committed contempt of court by publishing documents deriving from the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 8</ref> proceedings to West Yorkshire police. He submits that the following documents in the green file were clearly disclosed in breach of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the claimant&#8217;s c100 application dated 1 December 2017;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the report dated 31 December 2020 of the independent social worker Mohammed Sarfraz;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">the claimant&#8217;s position statement dated 18 March 2020;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">emails from Judge Barraclough to the defendant and claimant and solicitor for the defendant in the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 8</ref> proceedings (detailing what took place in private (a) at a hearing on 18 March 2020 and the draft orders which followed and (b) on 8 April 2020 when the hearing was vacated);</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the DAPP assessment report dated 27 September 2018;</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">He further claims that other documents, not in the green file, were, on the defendant&#8217;s own admissions, unlawfully disclosed namely:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Cafcass report dated 21 December 2018</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Cafcass notes</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Court papers not including court orders</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Social services&#8217; notes</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Social services reports</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I ruled that I would only consider the question of permission by reference to the documents in the green file, as it would not be possible to make findings of fact as to whether any other missing documents were wrongfully disclosed by the defendant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 7 March 2022, the second final hearing took place before District Judge Uppal over 3 days. The child was represented by her Guardian Angela Powell. The second final child arrangements order was made on 9 March 2022; it comprised a shared-lives-with order. Additionally, and wisely, District Judge Uppal made a s. 91(14) order to last until March 2026 against both the defendant and the claimant preventing them from making any further application in respect of N without permission. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I understand that there have not been any issues in relation to the shared care of N since that order. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 5 December 2022, the claimant filed the instant contempt application against the defendant at the High Court, Family Division. The application was placed before me as box-work and on 25 January 2023, I listed the application to be heard on 1 February 2023 and gave directions for the claimant to file a skeleton argument setting out why the application should be heard anonymously and exactly which disclosures were said to constitute contempts. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At the hearing on 1 February 2023, the claimant was represented by Ms Scotland and the defendant was unrepresented. Mr Farmer for the Press Association also attended and opposed the application for anonymity. The defendant requested an adjournment to allow her to obtain legal aid so as to obtain legal representation. I ruled at the hearing that the claimant required permission for the contempt application to proceed under FPR 37.3(5) and therefore reconstituted the claimant&#8217;s claim form as an application for permission and listed it and the question of anonymity to be heard on 7 March 2023. I ordered that the Chief Constable of West Yorkshire Police should be given leave to be joined as an interested party. The Chief Constable took up that leave. He requested a short adjournment of the final hearing due to prior professional commitments, which I granted. The hearing therefore took place on 25 April 2023, with the claimant dispensing with Ms Scotland and choosing to be unrepresented, the defendant being represented by Ms Millin and the Chief Constable being represented by Mr Cohen. Mr Farmer also attended.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Issues of law</span></heading>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There are a number of issues of law I must deal with.</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">What are the rules concerning the disclosure of information about <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings to the police? </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Why does this application require permission? What is the test on the permission application?</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The claimant seeks anonymisation of himself, the child and the defendant. Is this possible, and if so, is this appropriate?</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Disclosure of information about s. 8 proceedings: general</span></heading>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Re PP (A Child: Anonymisation)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/330" uk:canonical="[2023] EWHC 330 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWHC 330 (Fam)</ref> at [25] &#8211; [27] I attempted to summarise the historical reasons why, as I put it, it is a canonical principle that identification of the children who are the subject of family proceedings is seriously contrary to their interests and is to be avoided at all costs. I cited Lord Shaw of Dunfermline in <span style="font-style:italic">Scott v Scott </span><ref href="#" uk:canonical="[1913] AC 417" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1913">[1913] AC 417</ref> who described such proceedings as <span style="color:#000000">relating to "truly private" affairs and to transactions which are truly "</span><span style="font-style:italic;color:#000000">intra familiam</span><span style="color:#000000">". It is for these reasons that disclosure of documents which relate to the proceedings, or which are likely to identify the children the subject of such proceedings, is generally proscribed by <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.97(2)</ref>, although, as will be seen, this general proscription is disapplied in many circumstances by rules of considerable complexity. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Section 12 and the exempting rules</span></heading>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I shall first examine the scope of the prohibition under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>. It provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">&#8220;Publication of information relating to proceedings in private.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(1)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The publication of information relating to proceedings before any court sitting in private shall not of itself be contempt of court except in the following cases, that is to say:</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">where the proceedings:</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(i)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">relate to the exercise of the inherent jurisdiction of the High Court with respect to minors;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(ii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">are brought under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> or the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref> ; or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(iii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">otherwise relate wholly or mainly to the maintenance or upbringing of a minor;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Without prejudice to the foregoing subsection, the publication of the text or a summary of the whole or part of an order made by a court sitting in private shall not of itself be contempt of court except where the court (having power to do so) expressly prohibits the publication.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 12</ref> prohibits the publication of &#8220;any information relating to the proceedings&#8221;. There have been a number of cases which have considered the reach of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref> where it applies alone, for example because the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings in question have concluded. I attempted to summarise them in In <span style="font-style:italic">Re PP (A Child: Anonymisation)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/330" uk:canonical="[2023] EWHC 330 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWHC 330 (Fam)</ref> at [8] &#8211; [9], and concluded that in such a scenario, the following may be published:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">what any concluded <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings related to, and if there are proceedings continuing which do not fall within <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.97(2)</ref>, to what they relate;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the name, address or photograph of the child;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">the name, address or photograph of the other parties;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the date, time or place of the next hearing and of all future hearings of the proceedings;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the nature of the dispute in the proceedings;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">anything which has been seen or heard by a person conducting himself lawfully in the public corridor or other public precincts outside the court in which the hearing in private is taking place; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">the text or summary of the whole or part of any order made in the proceedings.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.49in">I shall refer to this list as &#8220;the <span style="font-style:italic">Re PP</span> taxonomy&#8221;.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A person coming cold to the  prohibition in <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 12</ref> of the publication of &#8220;any information relating to the proceedings&#8221; would no doubt be extremely surprised that it allowed not merely the media, but in fact anyone,  to &#8220;publish&#8221; the name, address or photograph of the child as well as a report of the nature of the dispute in the proceedings. This is because there has long been a profound lack of understanding of what <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref> seeks to protect, as Munby J explained in <span style="font-style:italic">Kelly v British Broadcasting Corpn</span> <ref href="#" uk:canonical="[2001] Fam 59" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] Fam 59</ref> at pp 71 &#8211; 72:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;For long it was thought that the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12</ref> was to prevent publication of any information whatever about wardship proceedings. Again it was only in the late 1980s that a true understanding of the limited ambit of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12</ref> emerged &#8230; It suffices for present purposes to say that, in essence, what <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12</ref> protects is the privacy and confidentiality: (i) of the documents on the court file; and (ii) of what has gone on in front of the judge in his courtroom. &#8230; In contrast, <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12</ref> does not operate to prevent publication of the fact that wardship proceedings are on foot, nor does it prevent identification of the parties or even of the ward himself. It does not prevent reporting of the comings and goings of the parties and witnesses, nor of incidents taking place outside the court or indeed within the precincts of the court but outside the room in which the judge is conducting the proceedings. Nor does <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12</ref> prevent public identification and at least some discussion of the issues in the wardship proceedings &#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Therefore the <span style="font-style:italic">actus reus</span> of a contempt under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 12</ref> is disclosure of non-exempt information relating to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings that goes beyond these permitted matters. The<span style="font-style:italic"> mens rea</span> is that the defendant must know that the contents of the disclosed material relate to the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings. It is not necessary to prove that she knew that her conduct had the capacity to interfere with the administration of justice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="color:#000000">The central question in the matter before me is whether the prohibition applies where the disclosure is to a police officer by a party who is seeking protection from harassment for herself and the subject child.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="color:#000000">In </span><span style="font-style:italic;color:#000000">Re B (A Child)</span><span style="color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2004/411" uk:canonical="[2004] EWHC 411 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWHC 411 (Fam)</ref> Munby J considered the inconsistent judgments in </span><span style="font-style:italic;color:#000000">In re M (A Child) (Children and Family Reporter: Disclosure)</span><span style="color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/1199" uk:canonical="[2002] EWCA Civ 1199" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 1199</ref>, <ref href="#" uk:canonical="[2003] Fam 26" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] Fam 26</ref>, and held at [72] &#8211; [73]:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;72.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">In my judgment, and subject only to the exception &#8230; where there is a communication of information by someone to a professional, each acting in furtherance of the protection of children, there is a "publication" for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12</ref> whenever the law of defamation would treat there as being a publication. I recognise that this means that most forms of dissemination, whether oral or written, will constitute a publication, but I do not shrink from that. After all, the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12(1)</ref>(a) is surely to protect what Lord Shaw called "truly private affairs", what Balcombe LJ in <span style="font-style:italic">In re Manda </span><ref href="#" uk:canonical="[1993] Fam 183" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] Fam 183</ref> at p 195 referred to as the "curtain of privacy" imposed by the family court for the protection of the particular child.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>73.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the light of what has happened in the present case I need to emphasise that there is a "publication" for this purpose whether the dissemination of information or documents is to a journalist or to a Member of Parliament, a Minister of the Crown, a Law Officer, the Director of Public Prosecutions, the Crown Prosecution Service, the police (except when exercising child protection functions), the General Medical Council, or any other public body or public official. Specifically, I wish to make it clear that, whatever the position of the police may be when exercising child protection functions, the Minister of State for Children cannot for this purpose be taken as exercising such functions.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Thus, in these obiter comments, Munby J posited that a disclosure to the police by someone acting in furtherance of the protection of children, where the police themselves were exercising child protection functions, would not be a publication for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The response of the government to this judgment was to have Parliament enact <ref href="http://www.legislation.gov.uk/id/ukpga/2004/31/section/62/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 62(1)</ref> and (7) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/31" uk:canonical="2004 c. 31" uk:origin="TNA" uk:type="legislation">Children Act 2004</ref>, which came into force on 12 April 2005. The latter provision inserted <ref href="http://www.legislation.gov.uk/id/ukpga/2003/39/section/76" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 76</ref>(2A) into the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/39" uk:canonical="2003 c. 39" uk:origin="TNA" uk:type="legislation">Courts Act 2003</ref>. This provided:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Family Procedure Rules may, for the purposes of the law relating to contempt of court, authorise the publication in such circumstances as may be specified of information relating to family proceedings held in private.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This power led to the making of the Family Proceedings (Amendment No. 4) Rules 2005 (SI 2005/1976) (&#8220;the 2005 Rules&#8221;) which amended the Family Proceedings Rules 1991 for <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings heard in the High and County Courts, and which came into force on 31 October 2005). Equivalent amendments were made to the rules governing <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings heard by Magistrates.<authorialNote class="footnote" marker="2">
+		  <p class="FootnoteText"><span/>The Family Proceedings Courts (Miscellaneous Amendments) Rules 2005 (SI 2005/1977) amended<span/>the Family Proceedings Courts (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>) Rules 1991 for<span/><ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings heard by Magistrates to the same end.</p>
+		</authorialNote></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The explanatory memorandum stated:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The instruments specify the circumstances in which information may be disclosed in family proceedings heard in private involving children without needing to obtain the express permission of the court.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The idea was to have a set of rules for all courts hearing <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> disputes (as well as disputes about children under the High Court&#8217;s inherent jurisdiction) as to what could be disclosed, and to whom, without fear of breach of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>. It was not, however, a comprehensive set of rules as, of course, in 2005 the <span style="font-style:italic">Re PP </span>taxonomy applied; and it continues to apply.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the purposes of this judgment, I need only refer to the amendments to the Family Proceedings Rules 1991. The 2005 Rules set out the additional  types of disclosures which would not count as contempts for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>. They inserted a new rule 10.20A into the 1991 rules. Certain communications were obviously permitted such as those to another party, to the legal representative of a party, to the welfare officer, to the Legal Aid Agency, and to an authorised expert (r. 10.20A(2)(c)(i) &#8211;(vii)). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Rule 10.20A(2)(c)(viii) permitted disclosure &#8220;to a professional acting in furtherance of the protection of children&#8221;. Rule 10.20A(4) defined such a professional as including a police officer who was exercising powers under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the Act</ref> of 1989 (removal and accommodation of children by police in cases of emergency) or was serving in a child protection unit or a paedophile unit of a police force (&#8220;a specialist police officer&#8221;). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Therefore, a disclosure by a party (or indeed anyone, for that matter) to such a specialist police officer could be made without fear of contempt.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Rule 10.20A(3) contained a table which laid out a variety of permitted disclosures including disclosure by a party of any information relating to the proceedings to a lay adviser, a McKenzie Friend, a spouse, a cohabitant or a close family member. That table allowed the text or summary of the whole or part of a judgment given in the proceedings to be communicated by a party to a police officer for the purposes of a criminal investigation. I remind myself that such a party was already allowed to disclose copies of orders to the police under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s12(2)</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Therefore, this new scheme allowed a party to disclose anything about the proceedings to a specialist police officer but only the text or summary of the whole or part of a judgment given in the proceedings to a non-specialist police officer for the purposes of a criminal investigation. This distinction was unlikely then, and remains unlikely now, to be appreciated by a self-represented litigant. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These 2005 Rules in turn were replaced, largely unaltered, by rules 12.73, 12.75, and PD 12G of the Family Procedure Rules 2010 (&#8220;FPR 2010&#8221;), which came into force on 6 April 2011.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The FPR 2010 altered the 1991 rules, as amended in 2005, to remove the right of a party to reveal any information about a case to a spouse, a cohabitant or a close family member. Instead it allows a party to communicate with any other person (a) to enable that party by confidential discussion, to obtain support, advice or assistance in the conduct of the proceedings, or (b) to engage in non-court dispute resolution, or  to make and pursue a complaint against (c) a person or body concerned in the proceedings or (d) regarding the law, policy or procedure relating to the proceedings (FPR 12.75(1)). However, if a disclosure is made by a party for purpose (a), then no further onward disclosure by the recipient is permitted (FPR 12.75(2)). This was presumably designed to prevent members of a party&#8217;s family acting as disclosure proxies for that party. It is of some relevance in this case where the claimant made disclosure of information about the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings to his own mother which she in turn used to mount her own claim for contact to her grandchildren.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">FPR12.73(1)(a)(viii) read together with the definition provisions in FPR 2.3(1) reproduced identically the previous rules about the right of anyone to make a lawful disclosure of any information relating to the proceedings to a specialist police officer.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">FPR 12.73(1)(c) introduced PD 12G which in turn contained an expanded version of the table provided by the 2005 amendment to the 1991 rules.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As before, that table allowed the text or summary of the whole or part of a judgment given in the proceedings to be communicated by a party to a police officer for the purposes of a criminal investigation. That party was already allowed to disclose copies of orders to the police under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s12(2)</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I<span style="color:#000000">n </span><span style="font-style:italic;color:#000000">S v SP and </span><span style="font-style:italic">Cafcass</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/3673" uk:canonical="[2016] EWHC 3673 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 3673 (Fam)</ref>, Baker J held that disclosure of information by the Cafcass officer in that case to the police did fall within FPR 12.73(1)(a)(viii)<span style="color:#000000">. At [36] he stated:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;A series of public inquiries in this country have identified the need for agencies to work together in order to protect children. That is the context in which the Family Procedure Rules have to be interpreted and applied. Too narrow an interpretation of the rules would, in my view, jeopardise the welfare of children. It is axiomatic that the administration of justice and the protection of children requires disclosure of information between professionals to ensure that children are protected. In this case the police were investigating allegations of abuse between adults in a family and as part of the investigation asked the CAFCASS officer for details of the background. Part of the purpose of the conversation, in my view, was plainly the furtherance of child protection. The dispute between the adults, the history of harassment by S leading to the restraining order and the further allegations by S against the mother plainly raised concerns of professionals about the risk of harm to the children.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">However, that judgment does not refer to the definition in FPR 2.3(1) of a professional working in furtherance of child protection as including a specialist police officer, nor does the judgment give any information about the status of the police officer to whom the disclosure was made. Para 6 merely says &#8220;on 22 January 2016 SP received a telephone call from a police officer and in the course of their conversation disclosed certain information about the proceedings.&#8221; In my opinion this decision does not throw any light on the question I have to answer. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">My conclusion is that the right of a party to disclose to a specialist police officer working in furtherance of child protection any information about the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 8</ref> proceedings, coupled with the right of such a party to disclose to a non-specialist police officer for the purpose of a criminal investigation the text or a summary of the whole or part of a judgment given, or an order made, in the proceedings, defines conclusively the extent of lawful disclosure, not falling within the <span style="font-style:italic">Re PP</span> taxonomy, which may be made to the police without fear of contempt. Disclosure by a party of, say, a s.7 Cafcass report to a non-specialist police officer would fall outside that freedom and be a breach of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>, and thus a contempt, although the seriousness of the breach would be mitigated by the fact that were such a disclosure to have been made by a party to a specialist police officer or by the Cafcass officer to a non-specialist police officer, it would not amount to a breach. It is hard to understand why this aspect of the law of contempt, which, given its nature, ought to be as straight-forward and transparent as possible,  appears to be so arbitrary and bereft of logic. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Section 97(2)</span></heading>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The key question is whether a permitted disclosure to a non-specialist police officer would nonetheless contravene <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.97(2)</ref>. This provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">No person shall publish&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">to the public at large or any section of the public&#160;</span>any material which is intended, or likely, to identify:</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">any child as being involved in any proceedings before&#160;the High Court&#160;or the family court&#160;in which any power under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">this Act</ref>&#160;or the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref>&#160;may be exercised by the court with respect to that or any other child; or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">an address or school as being that of a child involved in any such proceeding.&#8221;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">(Emphasis added)</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This provision only applies while the proceedings are ongoing: <span style="font-style:italic">Clayton v Clayton</span> <ref href="#" uk:canonical="[2006] Fam 83" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] Fam 83</ref>. Contravention of it is a criminal offence: <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.97(6)</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-size:11pt">58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The words I have emphasised and underlined (&#8220;the publication phrase&#8221; <span style="font-weight:bold">) </span>were enacted and inserted by <ref href="http://www.legislation.gov.uk/id/ukpga/2004/31/section/62/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 62(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/31" uk:canonical="2004 c. 31" uk:origin="TNA" uk:type="legislation">Children Act 2004</ref>, again in direct response to the judgment in <span style="font-style:italic">Re B,</span> and came into force on 12 April 2005<span style="font-style:italic">.</span> It is clear that object of the amendment was to cut down the reach of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s97(2)</ref>. In using the concept of &#8220;any section of the public&#8221;, the framer of the phrase clearly contemplates that a lawful disclosure may be made to a body which is not a section of the public. This is confirmed by the explanatory memorandum to the 2005 Rules which stated at para 4.1 that it would not be an offence for a party to make a disclosure to other individuals or bodies, so long as disclosure is not made to the general public or any section of the general public, or to the media.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Doughty, Reed and Magrath in <span style="font-style:italic">Transparency in the Family Courts </span>(Bloomsbury 2018) at para 2.118 state that during the public consultation after <span style="font-style:italic">Re B </span>it had become apparent that there was a risk of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.97(2)</ref> being breached simply by a parent mentioning to any individual that they were involved in a contact dispute.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The explanatory note accompanying the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/31" uk:canonical="2004 c. 31" uk:origin="TNA" uk:type="legislation">Children Act 2004</ref> states:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/62/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 62(1)</ref> amends <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 97</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> to make clear that the publication of material from family proceedings which is intended, or likely, to identify any child as being involved in such proceedings (or the address or school of such a child) is only prohibited in relation to publication of information to the public or any section of the public. This section will make the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 97</ref> less prohibitive by allowing disclosure of such information in certain circumstances. In effect, this means that passing on information identifying, or likely to identify, a child (his school or his address) as being involved in court proceedings to an individual or a number of individuals would not generally be a criminal offence.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-size:11pt">61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Transparency in the Family Courts</span> rightly suggests at para 5.54 that even membership of a closed Facebook group may well amount to a &#8220;section of the public&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 97(2)</ref>, but this does not answer the question whether a police officer, acting in accordance with his or her duties falls into the definition.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="font-size:11pt">62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It seems to me that the language of the amendment is seeking to do more than just to engage in a headcount of the recipients of a disclosure. Fundamentally it is looking at people acting as citizens, rather than in an official capacity. Thus it is logical to conclude that for the purposes of the potential criminal liability in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.97(2)</ref>, the police, acting as police, are not a &#8220;section of the public&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my view, disclosure of all or part of a judgment in current <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings to a non-specialist police officer is  not caught by <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.97(2)</ref>, and disclosure of any other papers derived from such proceedings is probably not caught, for the following reasons.</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The actual language used permits disclosures to bodies, even large bodies, provided that they are not to &#8220;the public&#8221; in whole or in part. It focusses on the public, behaving as the public, and not on people acting in an official capacity.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The passing of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/31/section/62/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 62(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/31" uk:canonical="2004 c. 31" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref>, adding the publication phrase, was in direct response to <span style="font-style:italic">Re B</span> and came into force on 12 April 2005.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><ref href="http://www.legislation.gov.uk/id/ukpga/2004/31/section/62/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 62(7)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/31" uk:canonical="2004 c. 31" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref> was likewise passed in direct response to <span style="font-style:italic">Re B</span> and came into force on that same day of 12 April 2005. This led to the Rule Committee working very quickly to formulate the table of disclosures excluded from the reach of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 12</ref>, which included the disclosure of judgments to a non-specialist police officer. The amendment rules were made only 6 months later on 31 October 2005.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">These two measures were a package. This is borne out by the explanatory memorandum to the 2005 Rules. This stated:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <paragraph>
+		      <num>&#8220;4.2</num>
+		      <content>
+			<p class="Quote" style="margin-left:1in;text-indent:0.5in">Legislative changes have already been made. On 12 April 2005, <ref href="http://www.legislation.gov.uk/id/ukpga/2004/31/section/62" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 62</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/31" uk:canonical="2004 c. 31" uk:origin="TNA" uk:type="legislation">Children Act 2004</ref> came into force. This means that: </p>
+		      </content>
+		    </paragraph>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">It is no longer a criminal offence for a party to family proceedings involving children to disclose orders to other individuals or bodies, so long as disclosure is not made to the general public or any section of the general public, or to the media; and </p>
+		      </content>
+		    </level>
+		    <level>
+		      <content>
+			<p class="Quote" style="margin-left:1in">It will no longer be a contempt of court to disclose information where rules of court authorise circumstances in which specified information relating to family proceedings involving children and held in private could be communicated.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">It would make no sense to allow disclosure of a judgment to the police (which inevitably would be likely to identify the child), but at the same time to criminalise such a disclosure if the proceedings were ongoing.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">My views amount to <span style="font-style:italic">obiter dicta</span> and a definitive decision must await an actual prosecution under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.97(2)</ref>. I shall, however, proceed in this case on the footing that the disclosure made by the defendant to the police on 11 August 2020 did not contravene <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.97(2)</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Therefore, in this routine <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> application, there being no order from the court permitting a wider disclosure, the defendant on 11 August 2020:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">could have disclosed to the police the judgments given on 9 April 2018 and 8 April 2019 without fear of contempt proceedings, but </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">could not, on pain of contempt of court, have handed over (for example) a copy of the Cafcass report to the police officers, unless they were specialist officers.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Requirement of permission</span></heading>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">FPR 37.3(3) provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;A contempt application in relation to alleged interference with the due administration of justice, otherwise than in existing High Court or family court proceedings, is made by an application to the High Court under Part 19.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">FPR 37.3(5) and (6) provide, so far as is material to this case:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(5)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Permission to make a contempt application is required where the application is made in relation to:</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">interference with the due administration of justice, except in relation to existing High Court or family court proceedings;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(6)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">If permission to make the application is needed, the application for permission shall be included in the contempt application, which will proceed to a full hearing only if permission is granted.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Breaches of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s12</ref> are to be seen as acts of interference with the administration of justice. In <span style="font-style:italic">HM Attorney General v Pelling</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2005/414" uk:canonical="[2005] EWHC 414 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWHC 414 (Admin)</ref> at [50] Laws LJ stated:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In our judgment however, with great deference, this species of contempt is in truth an instance of interference with the course of justice. As we have shown that is the rationale of Lord Haldane's reasoning in&#160;<span style="font-style:italic">Scott v Scott</span>, with which Scarman LJ's own earlier observations in&#160;<span style="font-style:italic">In re F</span>, which we have already set out, are wholly consonant. Moreover it is plainly not a condition of contempt by publication that any express order of the court directing a private hearing should have been made.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">See also <span style="font-style:italic">HM Attorney General v Dowie</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2022/25" uk:canonical="[2022] EWFC 25" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWFC 25</ref> at [31] per MacDonald J, to the same end.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If the family proceedings have concluded the application for permission must be made to the High Court under Part 19. This is because family proceedings which have concluded are no longer &#8220;existing&#8221;: <span style="font-style:italic">HM Attorney General v Hartley</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/1876" uk:canonical="[2021] EWHC 1876 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 1876 (Fam)</ref> per Keehan J at [10]:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;It is irrelevant for the purposes of this rule whether the alleged actions which are relied upon in support of the committal application occurred when the family proceedings were in existence (i.e. before a final order was made) or after the proceedings had concluded with a final order. It is the date of the committal application or, as the case may be, the date of the application for permission to bring a committal application which is key in determining whether the family proceedings were existing or had concluded.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In this case it is accepted by all that on 5 December 2022 (the date of the claimant&#8217;s contempt application) the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings in question had been concluded with a final order. Permission from the High Court was therefore required to bring the application. Therefore, by my order of 1 February 2023 I reconstituted the claimant&#8217;s original application of 5 December 2022 as an application for permission and transferred the application to the High Court.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num>72.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The test on an application for permission to pursue contempt proceedings for an interference with the administration of justice was stated by Gloster LJ in <span style="font-style:italic">Tinkler &amp; Anor v Elliott</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/564" uk:canonical="[2014] EWCA Civ 564" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 564</ref> at [44] following a comprehensive review of all the anterior authorities, and was summarised by me in <span style="font-style:italic">Ahmed v Khan</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/1748" uk:canonical="[2022] EWHC 1748 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWHC 1748 (Fam)</ref> at [51]. In each of those cases the alleged contempt was the making of a false statement which had been endorsed with a declaration of truth. Here the alleged contempt is the making of an unauthorised disclosure contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>. The test therefore requires to be modified for such a case. In my judgment, on an application for permission the claimant must demonstrate:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">a strong prima facie case that the defendant knew that (or did not care whether) the disclosed documents related to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings (irrespective of whether those proceedings had concluded);</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in">that the public interest requires the committal proceedings to be brought having regard to:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">the importance of the statutory secrecy (see below),</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">the circumstances in which the disclosure came to be made, </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">its significance, </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">the defendant&#8217;s motive for making the disclosure,</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">e)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">the use to which it was actually put, </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">f)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">its actual impact,</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">g)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">whether the claimant has been guilty of the same conduct,</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">h)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in"> any alternative redress obtained by or available to the claimant; and</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">i)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">whether <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 97(2)</ref> has been contravened.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">that the proposed committal proceedings are proportionate having regard to:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">the strength of the case against the defendant,</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">the sanction that is sought by the claimant against the defendant, </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">such amends and apologies that the defendant has given or proposed, and</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">and the likely costs that will be incurred by each side in pursuing the contempt proceedings; and</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in">that the proposed committal proceedings are in accordance with the overriding objective having regard, inter alia to </p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">the amount of court time likely to be involved in case managing and then hearing the application, and </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">the fairness of the process generally.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num>73.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Cohen submits that there is a substantial public interest in not imposing punitive sanctions on complainants who seek assistance from the authorities. Specifically, he argues that the restriction contained in <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 12</ref> should not be construed to prevent a complainant from speaking to the police and seeking their help. This could, he submits, have the effect of lessening the willingness of another similar person to seek help from the authorities. It would be inimical, he argues, to the public interest to deter such persons from being able to seek help from the police and being discouraged from speaking out.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num>74.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">However, to pursue an alleged breach of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/65/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 12</ref> requires a grant of permission and any action on an alleged breach of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 97(2)</ref> requires an independent decision to prosecute. These filters therefore are of great importance.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num>75.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is a qualitative difference between a misguided unlawful disclosure to the police in furtherance of seeking personal and child protection measures and sending all the papers to a journalist or putting them up on Facebook or Instagram or other social media platforms in order to harm the other party or to denigrate the legal system. That difference is properly to be reflected in the permission decision where that is to be made.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Anonymity </span></heading>
+	  <paragraph eId="para_76">
+	    <num>76.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the defamation proceedings the claimant and the child N have been granted anonymity by an order made by Master Eastman on 6 June 2022<authorialNote class="footnote" marker="3">
+		  <p class="FootnoteText"><span/>See Footnote1</p>
+		</authorialNote>. The order suffers from the familiar defects which I identified in <span style="font-style:italic">R (MNL) v Westminster Magistrates' Court</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2023/587" uk:canonical="[2023] EWHC 587 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWHC 587 (Admin)</ref> namely that it has no end-date or territorial limitation. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num>77.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The grounds relied on by the claimant to obtain this order were twofold. First, he relied on the privacy afforded to the child N in the then ongoing <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings and suggested that discussion of the issues in dispute in the defamation proceedings at an open hearing or in an open judgment would be liable to link the child, the claimant and the defendant to the Family Court proceedings and to undermine the confidentiality ordered by the Family Court in respect of those proceedings. Second, he relied on his past and intended future service as a Royal Marine in the armed forces, to which a high degree of confidentiality attaches. Personally, I consider the first reason, namely that the claimant is a civil litigant and at the same time a party to a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceeding, to be a very doubtful basis for derogating from open justice in a civil suit to be heard publicly. By contrast, the second reason does have validity, and the claimant will be granted anonymity for himself for that reason.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num>78.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, the claimant having issued his contempt application sought an order anonymising himself and the defendant. My order of 1 February 2023 contains a recital which states that an issue to be determined is:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;whether the court can lawfully anonymise the respondent if the court finds that there has been contempt of court (which is what the claimant is seeking) considering whether the absolute bar on anonymising a respondent found to be in contempt as provided for in the Practice Direction of 26/3/15: Committal for Contempt of Court has endured after 1 October 2020 (the Court indicating that this is an important point of law that needs to be resolved)&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num>79.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">My answer to that question is in the negative for the following reasons. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num>80.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Back in the day, RSC O52.r 6(2) provided (from 1 October 1966):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;If the Court hearing an application in private by virtue of paragraph (1) decides to make an order of committal against the person sought to be committed, it shall in open court state:</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the name of that person,</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">in general terms the nature of the contempt of court in respect of which the order of committal is being made, and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">if he is being committed for a fixed period, the length of that period.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num>81.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, a committal application could be heard in private but an actual order of committal could never be made secretly. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num>82.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This provision continued in existence notwithstanding the introduction of the CPR in 1998 until CPR Part 81 was introduced by the Civil Procedure (Amendment No.2) Rules 2012 with effect from 1 October 2012. CPR 81.28 provided:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(5)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">If the court hearing an application in private decides to make a committal order against the respondent, it will in public state:</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the name of the respondent;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">in general terms, the nature of the contempt of court in respect of which the committal order is being made; and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the length of the period of the committal order.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"> (Rule 39.2 contains provisions about hearings in private.)&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, the invariable rule of naming a guilty contemnor was continued.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num>83.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It was reinforced by the <span style="font-style:italic">Practice Guidance (Sen Cts: Committal Proceedings: Open Court)</span> <ref href="#" uk:canonical="[2013] 1 WLR 1316" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 WLR 1316</ref>, which provided:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;1.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">It is a fundamental principle of the administration of justice in England and Wales that applications for committal for contempt should be heard and decided in public, that is, in open court.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>2.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">This principle applies as much to committal applications in the Court of Protection (rule 188(2) of the Court of Protection Rules 2007 (SI 2007/1744)) and in the Family Division (FPR r 33.5(1)) as to committal applications in any other Division of the High Court.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>3.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Court of Protection and, when the application arises out of proceedings relating to a child, the Family Division, is vested with a discretionary power to hear a committal application in private. This discretion should be exercised only in exceptional cases where it is necessary in the interests of justice. The fact that the committal application is being&#160;made in the Court of Protection or in the Family Division in proceedings relating to a child does not of itself justify the application being heard in private. Moreover the fact that the hearing of the committal application may involve the disclosure of material which ought not to be published does not of itself justify hearing the application in private if such publication can be restrained by an appropriate order.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>4.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">If, in an exceptional case, a committal application is heard in private and the court finds that a person has committed a contempt of court it must state in public (rule 188(3) of the Court of Protection Rules 2007; CPR Sch 1, RSC Ord 52, r 6(2)): (a) the name of that person; (b) in general terms the nature of the contempt of court in respect of which the committal order (committal order for this purpose includes a suspended committal order) is being made; and (c) the punishment being imposed. <span style="font-weight:bold">This is mandatory; there are no exceptions</span>. There are never any circumstances in which anyone may be committed to custody without these matters being publicly stated.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>5.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Committal applications in the Court of Protection or the Family Division should at the outset be listed and heard in public. Whenever the court decides to exercise its discretion to sit in private the judge should, before continuing the hearing in private, give a judgment in public setting out the reasons for doing so. At the conclusion of any hearing in private the judge should sit in public to comply with the requirements set out in para 4.&#8221;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.71in;text-indent:0.29in">(Emphasis added)</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num>84.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mandatory character of this provision was highlighted by Males J in <span style="font-style:italic">EWQ v GED </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2013/3231" uk:canonical="[2013] EWHC 3231 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 3231 (QB)</ref>&#160;at [14]:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;14.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The [2013] guidance goes on to say that if in an exceptional case a committal application is heard in private and the court finds that a person has committed a contempt of court, it must state in public the name of that person, in general terms the nature of the contempt of court in respect of which the committal order is being made, and the punishment being imposed. <span style="font-weight:bold">That is a mandatory rule with no exceptions. </span>So even if I order that the hearing of the application will take place in private, if the application is successful and the defendant is committed, at least her name and in general terms the nature of the contempt of court and the punishment imposed, will have to be stated publicly. That provision is now also to be found in&#160;<a href="https://uk.westlaw.com/Document/I2AA16B3107D011E297849BE560E1FB0F/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=3534fec6403f4097ac6e50d780d9b7c5&amp;contextData=(sc.DocLink)">CPR 81.28(5)</a>&#160;.&#8221;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.71in;text-indent:0.29in">(Emphasis added)</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num>85.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A similar course was followed with the FPR. FPR Part 37 was introduced by the Family Procedure (Amendment No. 2) Rules 2014 with effect from 22 April 2014. FPR 37.27(6) was in identical terms to CPR 81.28(5).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num>86.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The next development was the promulgation of the all-important <span style="font-style:italic">Practice Direction (Sen Cts: Committal for Contempt of Court: Open Court)</span> <ref href="#" uk:canonical="[2015] 1 WLR 2195" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 2195</ref>. This states:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;Preamble</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>1.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">This practice direction applies to all proceedings for committal for contempt of court, including contempt in the face of the court, whether arising under any statutory or inherent jurisdiction and, particularly, supplements the provisions relating to contempt of court in the Civil Procedure Rules, the Family Procedure Rules, the Court of Protection Rules 2007 (SI 2007/1744), and the Criminal Procedure Rules and any related practice directions supplementing those various provisions. It applies in all courts in England and Wales, including the Court of Protection, &#8230;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>13.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">(1) In all cases, irrespective of whether the court has conducted the hearing in public or in private, and the court finds that a person has committed a contempt of court, the court shall at the conclusion of that hearing sit in public and state: (i) the name of that person; (ii) in general terms the nature of the contempt of court in respect of which the committal order, which for this purpose includes a suspended committal order, is being made; (iii) the punishment being imposed; and (iv) provide the details required by (i) to (iii) to the national media, via the CopyDirect service, and to the Judicial Office, at judicialwebupdates@judiciary.gsi.gov.uk, for publication on the website of the Judiciary of England and Wales. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">There are no exceptions to these requirements.</span> There are never any circumstances in which any one may be committed to custody or made subject to a suspended committal order without these matters being stated by the court sitting in public.&#8221;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.71in;text-indent:0.29in">(Emphasis added)</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_87">
+	    <num>87.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 1 October 2020 a new CPR Part 81 and a new FPR Part 37 were substituted for the existing versions. On 1 January 2023 a new CoPR Part 21 was substituted for the existing version.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_88">
+	    <num>88.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The new CPR 81.8(6), FPR 37.8(11) and CoPR 21.8(11) are identical. They state:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;At the conclusion of the hearing, whether or not held in private, the court shall sit in public to give a reasoned public judgment stating its findings and any punishment.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num>89.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These rules do not insist on the naming of a guilty defendant. Whether this was intended is debatable. If it was, then it represented a major departure from an ancient principle. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_90">
+	    <num>90.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Support for the view that this change was intended is given by the CPR Practice Direction Amendments which took effect on 1 October 2020 by virtue of the CPR 122<span style="vertical-align:super;font-size:smaller">nd</span> Update. The amendments were made by the Master of the Rolls under the powers delegated to him by the Lord Chief Justice under Schedule 2, Part 1, paragraph 2(2) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/4" uk:canonical="2005 c. 4" uk:origin="TNA" uk:type="legislation">Constitutional Reform Act 2005</ref>, and were approved by the Lord Chancellor. The all-important 2015 Practice Direction was very deliberately amended to exclude from its operation committal proceedings governed by CPR Part 81, but not otherwise. The update stated:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(1)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the preamble &#8211; </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">for &#8220;This&#8221; substitute &#8220;Except in relation to proceedings for contempt of court to which Part 81 of the Civil Procedure Rules 1998 apply, this&#8221;;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">omit &#8220;the Civil Procedure Rules 1998,&#8221;; and </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">for &#8220;It applies&#8221; substitute &#8220;Except to the extent that Part 81 of the Civil Procedure Rules 1998 applies, this Practice Direction applies&#8221;.</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_91">
+	    <num>91.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These amendments appear to reflect a positive intention to remove the mandatory naming of a guilty defendant in committal proceedings under the CPR. The White Book is not so sure. It states at 81.8.3:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Unlike the Committals PD,&#160;<a href="https://uk.westlaw.com/Link/Document/FullText?findType=Y&amp;serNum=0491906911&amp;pubNum=121175&amp;originatingDoc=I915445E0025F11EBBBF3C4D9CD7BB2B0&amp;refType=UL&amp;originationContext=document&amp;transitionType=CommentaryUKLink&amp;ppcid=3b1eb33447be445f939e7798ae7f7003&amp;contextData=(sc.Category)">r.81.8</a>&#160;is silent on the question of anonymisation of the defendant to a committal application. Paragraph 13(1)(i) of the Committals PD required at the conclusion of committal proceedings, where the defendant was subject to a committal order or suspended committal order, to identify them at a public hearing. It is suggested that the approach to be taken to defendant anonymisation under&#160;<a href="https://uk.westlaw.com/Link/Document/FullText?findType=Y&amp;serNum=0491906911&amp;pubNum=121175&amp;originatingDoc=I915445E0025F11EBBBF3C4D9CD7BB2B0&amp;refType=UL&amp;originationContext=document&amp;transitionType=CommentaryUKLink&amp;ppcid=3b1eb33447be445f939e7798ae7f7003&amp;contextData=(sc.Category)">r.81.8</a>&#160;read together with&#160;<a href="https://uk.westlaw.com/Link/Document/FullText?findType=Y&amp;serNum=0111255613&amp;pubNum=121175&amp;originatingDoc=I915445E0025F11EBBBF3C4D9CD7BB2B0&amp;refType=UL&amp;originationContext=document&amp;transitionType=CommentaryUKLink&amp;ppcid=3b1eb33447be445f939e7798ae7f7003&amp;contextData=(sc.Category)">r.39.2(4)</a>&#160;ought to be consistent with the intention underpinning the Committals PD, i.e. that no defendant should be committed to custody for contempt without the reasoned public judgment (<a href="https://uk.westlaw.com/Link/Document/FullText?findType=Y&amp;serNum=0491906911&amp;pubNum=121175&amp;originatingDoc=I915445E0025F11EBBBF3C4D9CD7BB2B0&amp;refType=UL&amp;originationContext=document&amp;transitionType=CommentaryUKLink&amp;ppcid=3b1eb33447be445f939e7798ae7f7003&amp;contextData=(sc.Category)">r.81.8(6)</a>&#160;and&#160;<a href="https://uk.westlaw.com/Link/Document/FullText?findType=Y&amp;serNum=0491906911&amp;pubNum=121175&amp;originatingDoc=I915445E0025F11EBBBF3C4D9CD7BB2B0&amp;refType=UL&amp;originationContext=document&amp;transitionType=CommentaryUKLink&amp;ppcid=3b1eb33447be445f939e7798ae7f7003&amp;contextData=(sc.Category)">(8)</a>) identifying them such that no one is imprisoned anonymously.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_92">
+	    <num>92.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The preamble to the 2015 Practice Direction therefore now reads (showing the amendments):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic">&#8220;Preamble </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">1 <span style="text-decoration-line:line-through">This</span><span/><span style="text-decoration-line:underline;text-decoration-style:solid;color:#FF0000">Except in relation to proceedings for contempt of court to which Part 81 of the Civil Procedure Rules 1998 apply</span>, this practice direction applies to all proceedings for committal for contempt of court, including contempt in the face of the court, whether arising under any statutory or inherent jurisdiction and, particularly, supplements the provisions relating to contempt of court in the <span style="text-decoration-line:line-through">Civil Procedure Rules</span>, the Family Procedure Rules, the Court of Protection Rules 2007 (SI 2007/1744), and the Criminal Procedure Rules and any related practice directions supplementing those various provisions. <span style="text-decoration-line:line-through">It applies</span><span/><span style="text-decoration-line:underline;text-decoration-style:solid;color:#FF0000">Except to the extent that Part 81 of the Civil Procedure Rules 1998 applies</span>, this Practice Direction applies in all courts in England and Wales, including the Court of Protection, &#8230;&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_93">
+	    <num>93.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This makes two things absolutely clear. First, for committal proceedings proceeding under CPR Part 81 the mandatory naming in public of a guilty defendant is no more, whatever the White Book might say. Concomitantly the rule continues in force for committals in all other courts. If there were any doubt about this, it is dispelled by the Notice dated 20 August 2020 on the Judiciary Website<authorialNote class="footnote" marker="4">
+		  <p class="FootnoteText"><span/>https://www.judiciary.uk/guidance-and-resources/practice-direction-on-committal-for-contempt-of-court-open-court/</p>
+		</authorialNote> entitled &#8220;Updated: Practice Direction on Committal for Contempt of Court in Open Court&#8221;. It states: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Except in relation to proceedings for contempt of court to which part 81 of the Civil Procedure Rules 1998 apply, this Practice Direction applies to all proceedings for committal for contempt of court, including contempt in the face of the court, whether arising under any statutory or inherent jurisdiction and, particularly, supplements the provisions relating to contempt of court, the Family Procedure Rules 2010, the Court of Protection Rules 2007, and the Criminal Procedure Rules 2015 and any related Practice Directions supplementing those various provisions.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Except to the extent that Part 81 of the Civil Procedure Rules applies, this Practice Direction&#160;applies in all courts in England and Wales, including the Court of Protection &#8230;&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_94">
+	    <num>94.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 1 October 2020 the Family Procedure Rule Committee issued an updated PD 37A when the new FPR Part 37 was promulgated alongside its CPR twin. But no equivalent amendment was made to the 2015 Practice Direction by that update.<authorialNote class="footnote" marker="5">
+		  <p class="FootnoteText"><span/>https://www.justice.gov.uk/courts/procedure-rules/family/PD-update-october-2020.pdf</p>
+		</authorialNote></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_95">
+	    <num>95.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Similarly, the CoPR Practice Direction update of 1 January 2023 made no equivalent amendment to the 26 March 2015 Practice Direction when promulgating the new CoPR PD 21A.<authorialNote class="footnote" marker="6">
+		  <p class="FootnoteText"><span/>https://www.judiciary.uk/wp-content/uploads/2023/01/PRACTICE-DIRECTION-21Audated-Jan23.pdf</p>
+		  <p class="FootnoteText"/>
+		</authorialNote></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_96">
+	    <num>96.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Therefore, unlike committal proceedings under CPR Part 81, the 2015 Practice Direction remains fully in force for committal proceedings issued under FPR Part 37 or CoPR Part 21. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_97">
+	    <num>97.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is not well known. In the committal case of <span style="font-style:italic">Sunderland City Council v Macpherson</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2023/3" uk:canonical="[2023] EWCOP 3" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCOP 3</ref> Poole J considered CoPR 21.8(5) (which is in identical terms to CPR 39.2(4) and FPR 37.8(5)). This provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The court must order that the identity of any party or witness shall not be disclosed if, and only if, it considers non-disclosure necessary to secure the proper administration of justice and in order to protect the interests of that party or witness.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_98">
+	    <num>98.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">He assumed that this provision could certainly apply to protect the interests of the defendant, but doubted whether it could apply to protect the interests of the protected person: see [38]. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_99">
+	    <num>99.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At [40] he held:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Balancing all the circumstances in this case, the respective Art 8 and Art 10 rights, and bearing in mind <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/12/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 12(4)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">HRA 1998</ref>, and the new COPR Part 21, I have decided that I should allow&#160;the Defendant&#8217;s name to be reported as the defendant to these committal proceedings and I shall amend the Transparency Order accordingly. All parties, including FP through her litigation friend, agree that that is the appropriate course. I shall therefore permit reporting of the defendant&#8217;s identity in these committal proceedings. However, reporting of the identity of FP and the place where she is living and being cared for, currently Placement 3, is not permitted, whether that reporting is in relation to the substantive Court of Protection proceedings or the committal proceedings against&#160;the Defendant.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_100">
+	    <num>100.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree that this is an appropriate and correct approach to adopt for all the stages of the litigation up to a finding that the defendant was guilty of contempt. It must be possible for the court to keep the defendant&#8217;s name under wraps while the committal hearing proceeds and to leave it under wraps if she is acquitted of contempt. However, it is vital to keep in mind that all such discretionary power comes to an abrupt halt once the defendant is found guilty.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_101">
+	    <num>101.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It follows that if a defendant in proceedings governed by FPR Part 37 or CoPR Part 21 is found to have committed a contempt <span style="font-weight:bold">then that defendant must be named in open court </span>and in general terms the court must state what is the nature of the contempt of court and what punishment, if any, has been imposed. Whether the continued existence of the 2015 Practice Direction for such proceedings is the result of happenstance or was deliberately intended I cannot tell, but I am personally satisfied that it is well-justified and that there should never be the possibility of a defendant in any circumstances being found guilty and of, and sentenced for, contempt anonymously.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_102">
+	    <num>102.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The upshot is that the defendant before me faces these proceedings knowing that she will be named in open court if she is found guilty of contempt. She also knows that there are good reasons to anonymise the claimant having regard to his role in the armed forces, and that he will be anonymised. The asymmetric position of the parties will need to be weighed in the permission exercise balance.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The permission factors</span></heading>
+	  <paragraph eId="para_103">
+	    <num>103.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I consider the following matters to be relevant when applying the permission test.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Strength of the case </span></heading>
+	  <paragraph eId="para_104">
+	    <num>104.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">No-one has suggested that the defendant&#8217;s disclosures were to specialist officers. Had they been then she would not have been in contempt. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_105">
+	    <num>105.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The defendant has admitted that she breached <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref> and she has apologised to the claimant and to the court.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_106">
+	    <num>106.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The strength of the case against the defendant is therefore maximal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Public interest</span></heading>
+	  <paragraph eId="para_107">
+	    <num>107.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The public importance in maintaining the secrecy of key documentation in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings is high. All unauthorised disclosures compromise that importance.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_108">
+	    <num>108.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">However, that importance is less compromised where the disclosure is made to the police in furtherance of personal and child protection measures (see above).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_109">
+	    <num>109.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is true that the defendant could have made sufficient lawful disclosure to the police by showing them the two judgments referred to above and that therefore the disclosure that she did make was gratuitous. This could be seen as an aggravating factor.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_110">
+	    <num>110.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">However, that she should be in contempt because she made the disclosure to the wrong type of police officers does point up the arbitrary and technical quality of her misconduct.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_111">
+	    <num>111.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The disclosure having been made to the police, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 97(2)</ref> was not breached.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_112">
+	    <num>112.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The motivation of the defendant in making the disclosures on 11 August 2020 was to seek protection measures for herself and the child. It is possible, although I cannot make a finding to this effect, that this motive was reinforced by an ancillary intention to cause the claimant embarrassment, inconvenience or even worse.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_113">
+	    <num>113.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The unlawful disclosure comprised the DAPP suitability appraisal of 27 September 2018 which contained a good deal of highly critical, and thus prejudicial, material in it about the claimant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_114">
+	    <num>114.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On the other hand it also comprised a copy of the claimant&#8217;s position statement for the FHDRA for 18 March 2020 which by definition was highly partial in his favour.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_115">
+	    <num>115.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is unlikely that the police would have been able to write the defamatory email on 25 August 2020 without a copy of the DAPP document.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_116">
+	    <num>116.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The result of the sending of that letter has been a preliminary issues judgment in the defamation proceedings favourable to the claimant from Johnson J on 25 July 2022 with a consequential acceptance of liability by the police. This will no doubt lead to substantial damages being awarded in the claimant&#8217;s favour.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_117">
+	    <num>117.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The claimant has therefore already received, and will receive, substantial redress for the misuse of this document against him.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_118">
+	    <num>118.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The claimant has himself been found to have breached <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 12</ref> by supplying documents derived from the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 8</ref> proceedings to his own mother.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_12">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Proportionality</span></heading>
+	  <paragraph eId="para_119">
+	    <num>119.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Duplication of issues across different jurisdictions should be avoided. The claimant will vindicate his position and reputation in the defamation proceedings.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_120">
+	    <num>120.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The claimant does not seek a committal, a suspended committal or a fine to be imposed on the defendant by way of sanction. He seeks that she be admonished and that a judgment be issued that deters any such conduct in the future.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_121">
+	    <num>121.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The cost of a full contempt hearing will be high. The two represented parties (the defendant and the police) will be spending public funds on their representation.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_13">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Overriding objective</span></heading>
+	  <paragraph eId="para_122">
+	    <num>122.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If permission were given there will be is a stark asymmetry whereby the claimant will be fully anonymised but the defendant will face full public opprobrium when she is found guilty (as is inevitable were the case allowed to go forward).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_123">
+	    <num>123.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The time spent on a full contempt hearing would be at the expense of other crucial work needed to be done by judges of the Family Division.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_14">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Decision</span></heading>
+	  <paragraph eId="para_124">
+	    <num>124.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have carefully weighed the above factors. I refuse permission for the following main reasons:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the defendant&#8217;s breach of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 12</ref> has technical and arbitrary aspects to it. She would not have been in breach had she made the disclosure to specialist police officers;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">although the defendant has admitted the contempt, the claimant does not seek any sanction against her beyond an admonishment which I can deal with in this judgment;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">although the impact on the claimant of the breach of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref> was serious, he will receive substantial redress by way of compensation, and vindication to his reputation, in the defamation proceedings;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">it is disproportionate for the same issues to be litigated simultaneously in two separate jurisdictions;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the disclosure was made by the defendant when seeking the assistance of the police for herself and the child. The ability of people in the position of the defendant to seek the assistance of the police should not be unduly inhibited by the spectre of facing contempt proceedings;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the time to be spent on contempt proceedings and their costs (falling entirely on public funds) cannot be justified in the circumstances;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">it is not proportionate to allow the claimant to pursue the defendant for breach of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref> where he himself has been guilty of doing the same thing (pots and kettles come to mind); and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">it would not be fair and just for contempt proceedings to go ahead on the footing that, whatever the result, the claimant would not be identified, but that the defendant would, on a formal finding of contempt being made against her, be named in open court. While this asymmetry might be justified in some cases, it is not justifiable in this one.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_125">
+	    <num>125.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The defendant must understand that however harried she may have felt on 11 August 2020, it was absolutely forbidden for her to show the (non-specialist) police officers any documents from those proceedings, other than judgments or orders, or indeed to tell the officers in conversation anything more than the gist allowed by the <span style="font-style:italic">Re PP </span>taxonomy, which was not in those judgments or orders. If she wanted to do that then she needed to obtain an order from the court allowing it. That is what the law says, and that is the law that must be obeyed until and unless it is changed. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_126">
+	    <num>126.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I therefore admonish the defendant for her breach of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_127">
+	    <num>127.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have already decided that the claimant is entitled to anonymity on this application for the reasons set out above. This is a permission application and not a substantive committal application and therefore the mandatory naming of the defendant under the 2015 Practice Direction does not apply. Therefore, in order to give the claimant the full benefit of anonymity, and in order to protect the interests of the child, I further order pursuant to FPR 37.8(5) that the identities of the defendant and the child shall also be anonymised. The anonymity orders shall be subject to the usual <span style="font-style:italic">Babanaft </span>territorial proviso and shall last for two years from the date of this judgment (but an application, supported by clear and cogent evidence, may be made prior to the end-date for their extension).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_128">
+	    <num>128.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Counsel shall agree the terms of the order refusing permission and of the anonymity order.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_15">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Final points</span></heading>
+	  <paragraph eId="para_129">
+	    <num>129.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I respectfully suggest that the Rule Committee needs to take a serious look at these Byzantine rules covering what parties can lawfully disclose to the police. Parties to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> proceedings seem to be forced to walk across a minefield of potential contempts and crimes if they seek the assistance of the police while the proceedings are ongoing. It has taken me many hours to get to the bottom of the exact scope of the rules. It is unacceptable that something so important should be so obscure, impenetrable, arbitrary and illogical.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_130">
+	    <num>130.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The position whereby the 2015 Practice Direction continues in existence in Family Division, Family Court and CoP committal proceedings but not in KBD or County Court committal proceedings is equally obscure and bizarre, and likewise needs to be looked at urgently.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_131">
+	    <num>131.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although this judgment does no more than formally to record a refusal of permission it does not fall within Para 6.1 of the Practice Direction (Citation of Authorities) <ref href="#" uk:canonical="[2001] 1 WLR 1001" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 1 WLR 1001</ref>, and therefore may be cited as a case-law authority.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_132">
+	    <num>132.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I received a request from the claimant for amplification of the judgment distributed in draft pursuant to FPR PD 30A para 4.6. I can confirm that paras 11, 14 and 16 reflect the claimant&#8217;s request.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="text-align:center;margin-left:0.5in">__________________________</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

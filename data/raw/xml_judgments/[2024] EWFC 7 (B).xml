@@ -1,0 +1,934 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2024/7"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2024/7"/>
+	  <FRBRdate date="2024-01-26" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="7"/>
+	  <FRBRname value="O and Y (Parents with Learning Disability: Intermediaries), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2024/7"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2024/7"/>
+	  <FRBRdate date="2024-01-26" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2024/7/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2024/7/data.xml"/>
+	  <FRBRdate date="2024-11-10T05:07:31" name="transform"/>
+	  <FRBRdate date="2024-11-27T20:54:11" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-01-26" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewfc" href="https://www.judiciary.uk/you-and-the-judiciary/going-to-court/family-law-courts/" showAs="The Family Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A Local Authority"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCPerson eId="judge-his-honour-judge-middleton-roy" href="/judge-his-honour-judge-middleton-roy" showAs="His Honour Judge Middleton-Roy"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWFC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>7</uk:number>
+	<uk:cite>[2024] EWFC 7 (B)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>fd9c05b3342366262802b4999426d68a6f56d81c6c5cce1cd0222bde234188a2</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Outlinenumbered { margin-left: 0.39in; font-size: 12pt; }
+#judgment .NoSpacing { }
+#judgment .ACafcassReportNumbering { text-align: justify; margin-left: 0.25in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText2 { margin-left: 0.39in; font-family: Arial; font-size: 12pt; }
+#judgment .Evidencebase { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 12pt; }
+#judgment .Cafcassbullets { text-align: justify; margin-left: 0.7in; font-family: Arial; font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Body { font-family: 'Helvetica Neue'; font-size: 11pt; color: #000000; }
+#judgment .Default { font-family: 'Helvetica Neue'; font-size: 11pt; color: #000000; }
+#judgment .PlainText { font-family: Georgia; font-size: 11pt; }
+#judgment .PLOreportheading { text-align: center; font-weight: bold; font-family: Arial; font-size: 12pt; }
+#judgment .NormalWeb { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .BodyTextIndent2 { margin-left: 0.2in; font-family: Arial; font-size: 12pt; }
+#judgment .ACafcassReportHeading { font-weight: bold; font-family: Arial; font-size: 12pt; }
+#judgment .1CafcassReportNumbered { text-align: justify; margin-left: 0.39in; font-family: Arial; font-size: 12pt; }
+#judgment .ind { font-size: 12pt; }
+#judgment .BodyTextIndent { margin-left: 0.2in; font-size: 12pt; }
+#judgment .xmsonormal { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .NoSpacingChar { }
+#judgment .BodyText2Char { font-family: Arial; font-size: 12pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .None { }
+#judgment .Hyperlink0 { }
+#judgment .Hyperlink1 { }
+#judgment .Hyperlink2 { }
+#judgment .Hyperlink3 { font-weight: bold; color: #34075D; }
+#judgment .Hyperlink4 { font-style: italic; color: #BE381B; }
+#judgment .PlainTextChar { font-family: Georgia; font-size: 11pt; }
+#judgment .Emphasis { font-style: normal; font-weight: bold; }
+#judgment .st1 { }
+#judgment .tgc { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .Strong { font-weight: bold; }
+#judgment .NOTBOLD { font-family: Arial; font-size: 11pt; color: initial; }
+#judgment .s16 { }
+#judgment .legds { }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .BodyTextIndent2Char { font-family: Arial; font-size: 12pt; }
+#judgment .legchangedelimiter { }
+#judgment .legaddition { }
+#judgment .BodyTextIndentChar { font-size: 12pt; }
+#judgment .fontstyle01 { font-style: normal; font-weight: normal; font-family: ArialMT; font-size: 12pt; color: #000000; }
+#judgment .fontstyle21 { font-style: italic; font-weight: normal; font-family: Arial-ItalicMT; font-size: 12pt; color: #000000; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:justify"><span style="font-weight:bold">This judgment was delivered in private. The Judge has given leave for this judgment to be published on condition that the anonymity of the children and members of their family are strictly preserved. All persons, including representatives of the media, must ensure that this condition is strictly complied with. Failure to do so will be a contempt of Court.</span></p>
+      <p class="CoverText" style="text-align:left"><img src="image1.png" style="width:84.2pt;height:66.85pt"/><courtType refersTo="#ewfc"><span style="text-decoration-line:none">IN THE FAMILY COURT </span></courtType></p>
+      <p class="CoverText"><span style="text-decoration-line:none">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:none">[2024] EWFC 7 (B)</neutralCitation></p>
+      <p class="CoverText"><span style="text-decoration-line:none">Case Number: </span><docketNumber style="text-decoration-line:none">WD23C50047</docketNumber></p>
+      <p class="CoverText"><span style="text-decoration-line:none"> &#8216;O&#8217; and &#8216;Y&#8217; (Parents with Learning Disability: Intermediaries), Re</span></p>
+      <p class="CoverText"><span style="text-decoration-line:none">Date: </span><docDate date="2024-01-26" refersTo="#judgment" style="text-decoration-line:none">26 January 2024</docDate></p>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid">Before</span><judge refersTo="#judge-his-honour-judge-middleton-roy"> His Honour Judge Middleton-Roy </judge></p>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid">Between</span>:</p>
+      <table uk:widths="1.23in 3.35in 1.49in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a-local-authority" style="font-weight:bold">A Local Authority  </party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant" style="font-weight:normal">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">The Mother </span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">The Father</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">The Children &#8216;O&#8217; and &#8216;Y&#8217;</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">through their Children&#8217;s Guardian</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><span style="font-weight:normal">1</span><span style="font-weight:normal;vertical-align:super;font-size:smaller">st</span><span style="font-weight:normal"> Respondent</span></p>
+	    <p class="CoverMain" style="text-align:right;margin-right:-0.07in"/>
+	    <p class="CoverMain" style="text-align:right;margin-right:-0.07in"/>
+	    <p class="CoverMain" style="text-align:right"><span style="font-weight:normal">2</span><span style="font-weight:normal;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:normal"> Respondent</span></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><span style="font-weight:normal">3</span><span style="font-weight:normal;vertical-align:super;font-size:smaller">rd</span><span style="font-weight:normal"> and 4</span><span style="font-weight:normal;vertical-align:super;font-size:smaller">th</span><span style="font-weight:normal"> Respondents </span></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><span style="font-weight:normal"/></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p><span style="font-style:italic">Mr Rana</span>, Counsel, instructed by the Local Authority</p>
+      <p><span style="font-style:italic">Miss Cave, </span>Counsel for the First Respondent </p>
+      <p><span style="font-style:italic">Mr Moss, </span>Counsel for the Second Respondent</p>
+      <p><span style="font-style:italic">Mr Wan Daud, </span>Counsel for the Third and Fourth Respondents</p>
+      <p>Hearing date: 23 and 26 January 2024</p>
+      <p style="text-align:center">________________________</p>
+      <p class="CoverDesc"><span style="font-size:12pt">APPROVED JUDGMENT</span></p>
+      <p style="text-align:center">________________________</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="lvl_1">
+	  <content>
+	    <p style="text-align:center">Crown Copyright &#169;</p>
+	    <table uk:widths="1.23in 3.35in 1.49in">
+	      <tr>
+		<td>
+		  <p/>
+		</td>
+		<td>
+		  <p/>
+		</td>
+		<td>
+		  <p class="CoverMain" style="text-align:right"/>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold">His Honour Judge Middleton-Roy:</span></heading>
+	  <paragraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Summary of Reasons</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">This case is about two children. They are both girls. The oldest is 9 years old. The youngest is 7 years old. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The children are living separately in Local Authority placements. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The mother and the father are both vulnerable adults. Both parents have a learning disability. They are both helped today by very experienced specialist barristers and by intermediaries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The Local Authority brings this case because it is worried that the children have suffered a lot of harm. The Local Authority thinks that the children cannot be cared for by their parents without more harm being caused to the children. The Local Authority thinks that the children should live with separate foster carers.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">Both children are helped in this case by their Children's Guardian. The youngest child has her own needs. She has autism. She also has epilepsy. She suffers with seizures. Although she is 7 years old, she functions more like a child of 1 &#189; to 2 years old. She also has difficulties communicating.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The Children's Guardian agrees with the Local Authority that the best thing for the children is for them to stay in foster care, where they can have all their needs met.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">At this Final Hearing, the mother and the father have both taken the very brave and difficult decision not to challenge the Local Authority plan for the children to live in foster care. In making that decision, the parents have put the needs of the children first. Both the mother and the father love their children. They want the best for them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">There has been a lot of involvement with the family from the Local Authority for a long time.  The Local Authority has been worried about domestic abuse. The Local Authority is also worried about the children not being supervised. The Local Authority is worried about the parents not putting the right boundaries in place. The Local Authority&#8217;s worries have been set out in summary in a &#8216;threshold&#8217; document. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The Local Authority&#8217;s concerns are serious enough for the Court to reach the decision that the legal test has been met for making Court Orders for the children. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I need to think about what is in the best interests of both children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I have read a lot of paperwork. I have read a report from Dr Mann, a psychologist. He met with the mother and the father. He prepared a report for each of them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I have read a report from the Local Authority which tells me about the mother&#8217;s and father&#8217;s parenting skills.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I have also read a report about the sisters, a &#8216;sibling assessment&#8217;, which says that it is better for the children to have separate homes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">Looking at all the information, I agree with the Local Authority and with the Children's Guardian. I agree that the best interests of both children mean that they should live in foster care, in separate homes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I think that a Care Order is necessary for both children. I think that a Care Order is the right order that balances all the risks.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I agree with the reasons given by the Social Worker and the reasons given by the Children's Guardian.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">It is very important for the children to spend time with their mother and with their father. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The Local Authority says that the children should spend time with their mother and father once each month for 2 hours. On top of that, there should be special contact another three times each year, during the school holidays at Christmas, Easter and in the summer holidays. I agree that this amount of time the children spend with their parents is right for now. The Local Authority agrees to keep contact under review, every three months. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">On top of the time the children spend with their parents, the children will also see each other three more times each year.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The Guardian agrees with the amount of contact. The parents also agree. I agree that the contact is the right level. This balances the children&#8217;s need to see their mother and father and each other, without it being too upsetting. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I praise the parents for making those difficult decisions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I set out my reasons more fully below.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid">Anonymity</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">In line with the Practice Guidance of the President of the Family Division issued in December 2018, the names of the children and the adult parties in this judgment have been anonymised, having regard to the implications for the children of placing personal details and information in the public domain. The anonymity of the children and members of their family must be strictly preserved. All persons, including representatives of the media, must ensure that this condition is strictly complied with. Failure to do so will be a contempt of Court and may result in a sentence of imprisonment.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Parties, Application and Background</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The Court is concerned with two children aged 9 and 7 years. I will refer to them as &#8216;O&#8217; and &#8216;Y&#8217; to protect their identities. The youngest child, &#8216;Y&#8217; has special learning needs. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">Both parents are vulnerable adults. They each have a level of cognitive functioning within the extremely low range consistent with the bottom first percentile compared to their peers, with scores consistent across all domains including understanding and retention of information, perceptual skills and memory, particularly when under stress. Their cognitive profiles are consistent with a learning disability. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The family has a long history of involvement with the Local Authority since 2014. The children have received Local Authority support in the form of &#8216;early help&#8217;, child in need plans and child protection plans. The Local Authority&#8217;s concerns are that the parents&#8217; own needs negatively impact upon their capacity to parent their children. The mother experiences difficulties with her mental health in addition to her learning disability. The father experiences difficulties with his physical health in addition to his learning disability. Further, the relationship between the parents is reported to have been abusive, with swearing, shouting and violence in the home, witnessed by the children. The children were also reported to swear and to shout. The Local Authority is concerned that, notwithstanding a high level of professional assistance, the parents have not been able to meet the needs of the children, resulting in the children experiencing significant harm in the form of neglect, emotional harm and physical harm in their parents&#8217; care.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The Local Authority began these Court proceedings on 24 May 2023. Having regard to the parents&#8217; vulnerabilities, the Court ensured that judicial continuity was achieved throughout. The parents both have had the enormous benefit of highly experienced, specialist counsel representing them at each hearing. Further, the parents have had essential support from specialist intermediaries to aid the parents&#8217; understanding and communication. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">On 15 June 2023, the children were made the subject of Interim Supervision Orders. The children remained at home together as siblings, living with their parents. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">However, on 4 August 2023, on application of the Local Authority to restore the matter to Court, the Court made Interim Care Orders for both children, following increased professional concern that the children were being exposed to very high levels of emotional harm and a risk of significant physical harm, including exposure to the father&#8217;s aggressive behaviour towards professional support workers who were tasked with supporting the family in the home environment.  The professionals&#8217; concerns included ongoing shouting and swearing, escalating violence from the youngest child and resistance from the parents to professional support.  Unfortunately, at the contested Interim Care Order hearing, the father became highly distressed and collapsed clutching his chest and indicating he was experiencing chest pains. The father is known to have underlying physical health difficulties. He had previously spent time in hospital following a similar incident. The father received immediate assistance from the advocates, the court clerk, court security staff and the court&#8217;s first aid officer, pending the arrival of an ambulance. I am immensely grateful for the extraordinary and instantaneous efforts made by everyone concerned to ensure that the father received urgent assistance prior to him being taken to hospital, where he made a full recovery. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">A ground rules hearing took place as part of the Issues Resolution Hearing. Those ground rules were revisited during the Final Hearing, necessary to assist both parents&#8217; participation in the proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">It is convenient at this point to identify why intermediaries were essential to the fair determination of this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">In this Court&#8217;s judgement, on the specific facts of this case, having regard to both parents&#8217; considerable vulnerabilities, individual cognitive profiles and specific communication needs, the assistance of an intermediary for each parent was a compelling, necessary and wholly essential measure to ensure that each parent could participate fully in the Court process and throughout the Final Hearing in a way that was meaningful and informed, so as to ensure that their Article 6 rights to a fair hearing were protected. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">It is well established that in the Family Court, intermediaries perform an extremely important function in ensuring a fair hearing for highly vulnerable people. Intermediaries are impartial communication specialists, whose primary responsibility is to facilitate and enable complete, coherent and accurate communication between all parties and to ensure the vulnerable person&#8217;s understanding and participation in the proceedings. This includes making an assessment and reporting to the Court, orally, in writing or both, about the communication needs of the vulnerable person and the steps that should be taken to meet those needs. It is well established that intermediaries can be invaluable in giving vulnerable parties a voice in the Family Justice system and in turn, providing them with equality of access to justice. It is important to appreciate that the intermediary is there to assist and advise the Judge. Intermediaries are expected to prevent miscommunication from arising during the hearing and to intervene actively when miscommunication may or is likely to have occurred or to be occurring. During the hearing, it is almost always necessary to allow regular breaks with sufficient time for the intermediary to explain to the vulnerable person what has happened and is about to happen (&#8216;explanation time&#8217;), in addition to time for a proper break (&#8216;rest time&#8217;).  Intermediaries have a discreet and important role and specialism. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">A &#8216;whole trial&#8217; order, as is commonly referred to in the criminal jurisdiction, for assistance by the intermediary throughout this Final Hearing, was necessary in this case to enable the parents to have a full and clear understanding of all the issues at play, the process by which the contested factual and welfare issues were to be resolved and to facilitate the parents&#8217; full and unencumbered participation in the proceedings, in circumstances where the State was proposing to interfere with their right to private and family life in the most fundamental way, by potentially removing their children from their care for the remainder of their childhood. Unlike the adversarial nature of criminal proceedings, the inquisitorial, problem-solving nature of these care proceedings in the Family Court demanded that no form of adaptation to the Court process lesser than a &#8216;whole trial&#8217; intermediary order would suffice in the context of these parents&#8217; vulnerabilities, to ensure that they were not disadvantaged as a result of their cognitive, communication and learning disabilities. Such steps were in furtherance of Family Procedure Rule 1.1 and the overriding objective of enabling the Court to deal with the case justly, having regard to the welfare issues involved, including ensuring that the case was dealt with expeditiously and fairly and ensuring that the parties were on an equal footing. Such order was necessary, in this Court&#8217;s judgement, to uphold the essential principles that <span style="color:#333333">Courts must take all steps possible to ensure that people with a learning disability are able to actively participate in decisions affecting their lives and that the Court must take steps to ensure that there are no barriers to justice within the process itself. </span>On the facts of this case, there could be no proper justification for any alternative order directing the intermediaries to assist for only <span style="font-style:italic">part</span> of the process.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">In this case, the accredited intermediaries undertook thorough, specialist and sophisticated written assessments of both parents&#8217; specific communication needs. The father was assessed as having considerable communication difficulties exacerbated by his inability to read and write. The mother too was assessed as having considerable communication difficulties, exacerbated by her diagnoses of depression and her learning disability. The parents&#8217; combined difficulties in communication included difficulty maintaining attention and concentration, difficulty recalling specific dates and times, limited auditory working memory capacity, difficulty understanding low frequency vocabulary and court-specific terminology, difficulty processing and reliably responding to complex questions, difficulty processing and retaining verbal information, difficulty understanding non-literal language, difficulty providing detailed narratives, difficulty processing written information, consistently processing sentences exceeding three key words, difficulty understanding and responding appropriately to grammatically complex questions including questions containing multiple-parts and tag questions, understanding unfamiliar figurative language, retaining large volumes of verbally presented information, reliably understanding written information and expressing themselves clearly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">During the Final Hearing, t<span style="color:#252526;background-color:#FFFFFF">he intermediaries gave the Court clear and insightful advice at several junctures. They sat next to the mother and the father and checked on their understanding as the hearing unfolded. Their role was specialised and discreet from that of counsel. The combination of the skill of specialist counsel with their experience, knowledge and understanding of the Advocates Gateway and its recommendations in helping vulnerable parties, together with the separate role of the intermediaries was indispensable to ensure a fair determination of the case before the Court such that both parents could fully engage with and understand the Court process for the ultimate benefit of the subject children.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">At Final Hearing, the Court considered a bundle of documents filed comprising 945 pages. At the outset of the Final Hearing, the parties requested further time to engage in discussions. Over the course of the first day, the combined skill of counsel and the intermediaries, the Court checking at appropriate junctures as to the trajectory of those discussions, led to the Court being informed by the afternoon session that the parties had reached agreement on all aspects of the case, including threshold. The Court was informed that the parents did not oppose the making of Care Orders for the children and did not oppose the Local Authority&#8217;s care plans. Agreement was reached in respect of all aspects of contact. The Court was careful to ensure that the parents did not feel pressured into making concessions or reaching agreements relating to their children. The Court is confident in concluding that, with the benefit of counsel and the intermediaries, the parents understood the process and were fully and fairly engaged in that process. By being included in an effective manner in the process by which the Court came to make its decisions, this Court is confident that the prospect of the parents supporting the children&#8217;s future placements is enhanced, which ultimately is in the children&#8217;s best interest. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">At the conclusion of the Final Hearing, the Court announced its decision orally. These written reasons follow, handed down on 26 January 2024, with the opportunity for the parents to spend additional time with their legal teams, further assisted by their intermediaries, to digest the detail of the Court&#8217;s judgment, outside the pressure of the Court environment. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Relevant Law</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="color:#000000">Local Authorities owe a duty in law to safeguard and promote the welfare of all children within their area who are in need. In carrying out that duty in law, the Local Authority must promote the upbringing of children by their families and must provide services appropriate to the needs of children who are children in need.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">In any application for a Care Order the Court must apply <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> to each relevant child.  <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 31(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> provides that a Court may only make a Care Order if it is satisfied that the child concerned is suffering or is likely to suffer significant harm and that the harm or likelihood of harm is attributable to the care given to the child or likely to be given to the child if the order were not made, not being what it would be reasonable to expect a parent to give. These provisions are commonly called the threshold criteria. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 31(9)</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/105" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 105</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> define "<span style="font-style:italic">harm</span>" as meaning ill-treatment or the impairment of health and development including, for example, impairment suffered from seeing or hearing the ill-treatment of another. "<span style="font-style:italic">Development"</span> is defined as meaning physical, intellectual, emotional, social or behavioural development. "<span style="font-style:italic">Health"</span> is defined as meaning physical or mental health. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">Practice Direction 12J at paragraph 3 defines domestic abuse as, "<span style="font-style:italic">any incident or pattern of incidents of controlling, coercive or threatening behaviour, violence or abuse between those aged 16 years or over who are or have been intimate partners or family members regardless of gender or sexuality. This can encompass, but is not limited to, psychological, physical, sexual, financial or emotional abuse</span>." </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">JH v MH (Rev 2)</span> [2020] EWHC 86<span style="font-weight:bold"/>Russell J set out further guidance on the Court&#8217;s approach to addressing domestic abuse by reference to PD12J: <span style="font-style:italic">"Domestic abuse can inflict lasting trauma on victims and their extended families, especially children and young people who either witness the abuse or are aware of it having occurred. Domestic abuse is rarely a one-off incident and it is the cumulative and interlinked physical, psychological, sexual, emotional or financial abuse that has a particularly damaging effect on the victims and those around them.&#8221; </span>This Court is fully cognisant of the relevant guidance and this Court explicitly bears that guidance in mind. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The purpose of the Family Court in proceedings of this nature is not to establish guilt or innocence or to punish or criticise parents but to establish the facts as far as they are relevant to inform welfare decisions about the child. To prove the fact asserted, that fact must be established on the civil standard, that is, on the simple balance of probabilities. (<span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re B</span><span style="text-decoration-line:underline;text-decoration-style:solid"/><a class="Hyperlink" href="https://www.bailii.org/uk/cases/UKHL/2008/35.html" style="color:initial"><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/35" uk:canonical="[2008] UKHL 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 35</ref></a>). There is only one civil standard of proof, namely that the occurrence of the fact in issue must be proved to have been more probable than not. The burden of proof lies upon the person or body that makes the allegations. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">If satisfied that the threshold criteria are made out, the Court must proceed to consider <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. At this second stage, the welfare of the child is the Court's paramount consideration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legds">When considering whether to make a Care Order, the Court shall have regard to the checklist of factors under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s1(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The Court must grapple with all the realistic competing options and give them proper, focussed attention (<span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re B-S (Children) (Adoption Order: Leave to Oppose) </span><a class="Hyperlink" href="https://www.bailii.org/ew/cases/EWCA/Civ/2013/1146.html" style="color:initial"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/1146" uk:canonical="[2013] EWCA Civ 1146" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 1146</ref></a><span style="text-decoration-line:underline;text-decoration-style:solid">.</span> Family ties may only be severed in very exceptional circumstances. Everything must be done to preserve personal relations and, where appropriate, to 'rebuild' the family (<span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">YC v United Kingdom </span><span style="text-decoration-line:underline;text-decoration-style:solid">92120 55 EHRR 967</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">)</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="color:#252526">A core principle of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> is the &#8216;no Order&#8217; principle. This means that the Court must only make an Order for a child if this is better than not making an Order. The principle is predicated upon the view that children are best brought up by their families, unless they are at risk of significant harm. &#160;When drafting the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, the legislators specifically rejected the prospect of removing children from their family whenever it would be better for them than not doing so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="color:#333333">In </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;color:#333333">Y v United Kingdom</span><span style="color:#333333"> <ref href="#" uk:canonical="(2012) 55 EHRR 33" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">(2012) 55 EHRR 33</ref>, <ref href="#" uk:canonical="[2012] 2 FLR 332" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 2 FLR 332</ref> it was held that,</span><span class="Emphasis" style="font-weight:normal;color:#333333">&#160;&#8220;</span><span class="Emphasis" style="font-style:italic;font-weight:normal;color:#333333">family ties may only be severed in very exceptional circumstances and&#8230;everything must be done to preserve personal relations and, where appropriate, to &#8216;rebuild&#8217; the family.&#160; It is not enough to show that a child could be placed in a more beneficial environment for his upbringing.&#160; However, where the maintenance of family ties would harm the child&#8217;s health and development, a parent is not entitled under Article 8 to insist that such ties be maintained.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="color:#333333">In&#160;</span><a href="https://www.judiciary.gov.uk/wp-content/uploads/2016/01/re-d-a-child-3.pdf"><span class="Hyperlink" style="font-style:italic;color:initial">Re D (A Child) (No 3) </span><span class="Hyperlink" style="color:initial">[2016]</span><span class="Hyperlink" style="font-style:italic;color:initial"/><span class="Hyperlink" style="color:initial">EWFC</span><span class="Hyperlink" style="font-style:italic;color:initial"/><span class="Hyperlink" style="color:initial">1</span></a><span>&#160; </span><span style="color:#333333">Munby P set out the key principles to be considered when determining cases involving parents with learning disabilities and particularly so where they parent children who also have a learning disability. The then President of the Family Division emphasised the importance of people with a learning disability being supported to fully engage in and play a role in society, strengthening their ability to exercise their rights and responsibilities.&#160; Courts must take all steps possible to ensure that people with a learning disability are able to participate actively in decisions affecting their lives. Courts should approach such cases with a recognition of the possible barriers to appropriate support being provided to parents with learning disabilities. Parents with learning disabilities can often be &#8216;good enough&#8217; parents when provided with the ongoing emotional and practical support they need.&#160; The concept of &#8216;parenting with support&#8217; must underpin the way in which the courts and professionals approach parents with learning disabilities wherever possible.&#160; The competencies of parents with learning disabilities must not be judged against stricter criteria or harsher standards than other parents. The Court must take steps to ensure that there are no barriers to justice within the process itself.&#160; Parents must have meaningful and informed access to reports, time to discuss the reports and an opportunity to put forward their own views.&#160; The hearing should include special measures, including adequate breaks in sessions.&#160; The Court must be careful to ensure that the supposed inability of parents to change is not in fact due to the inability of the professionals involved to engage with the parents in appropriate terms.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> applies to these proceedings. Under Article 8, everyone has the right to respect for private and family life, home and correspondence. There shall be no interference by a public authority with the exercise of this right except such as is in accordance with the law and is necessary in a democratic society. Each individual family member in this case has that right, including the child, the mother, the father and the wider family. These rights must be balanced. Any interference with the right to private and family life must be a necessary interference and must be proportionate, having regard to the risks.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid">Threshold</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The relevant date for determining the threshold criteria for the children is 24 May 2023, when the Local Authority began these proceedings. The following facts are agreed:  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.24in"><span style="font-style:italic">Physical Harm</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">1.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.63in">The children have presented with injuries caused by the children fighting which has not been properly managed by the parents:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.95in;text-indent:-0.32in">a.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.95in">On or around 12 March 2019 &#8216;O&#8217; went to school with a bruise/bump;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.95in;text-indent:-0.32in">b.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.95in">On at least 8 occasions between 9 March 2021 and 25 October 2022 &#8216;Y&#8217; presented with bruises or scratches that the parents stated had been caused by &#8216;O&#8217;;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.95in;text-indent:-0.32in">c.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.95in">On at least 6 occasions between 28 June 2021 and 15 December 2022 &#8216;O&#8217; presented with scratches or bruises that the parents stated had been caused by &#8216;Y&#8217;.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">2.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.63in">Incidents of domestic violence have taken place between the parents in the presence of the children which place the children at risk of physical harm if caught up in the incidents:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.95in;text-indent:-0.32in">a.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.95in">On or around 25 March 2022 the father smashed the mother&#8217;s phone;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.95in;text-indent:-0.32in">b.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.95in">On 29 March 2022 &#8216;O&#8217; stated that the father has hit the mother;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.95in;text-indent:-0.32in">c.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.95in">On or around 26 January 2023 the father hit the mother in the presence of the children.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.24in;text-indent:0.39in"><span style="font-style:italic">Emotional Harm</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.63in">The parents shout, scream and swear at each other in the presence of the children.  They also call them abusive and offensive names. The children have mirrored this behaviour. Both children have exhibited aggressive and challenging behaviour.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.63in">The children have experienced emotional harm from witnessing incidents of domestic violence as set out at above.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.63in">On or around 18 November 2022 the father was verbally abusive to a teacher in front of &#8216;O&#8217;. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">6.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.63in">The parents have been unable to supervise &#8216;O&#8217; online and keep her from online bullying.  On 13 April 2023 &#8216;O&#8217; was seen to be on an online game and was being called names by others. On 5 May 2023 &#8216;O&#8217; shared with school that she was speaking to strangers online and was subsequently seen to have over 200 people on her online game.  </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.24in;text-indent:0.39in"><span style="font-style:italic">Neglect</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">7.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.63in">The basis care needs of the children have not consistently been met: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.95in;text-indent:-0.32in">a.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.95in">Both children are overweight;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.95in;text-indent:-0.32in">b.</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.95in">The children have missed health appointments, for instance:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.22in;text-indent:-0.28in">i.</num>
+		<content>
+		  <p style="text-align:justify;margin-left:1.22in">&#8216;Y&#8217; was not taken to audiology appointments on 6 April 2022 and 1 June 2022;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.22in;text-indent:-0.28in">ii.</num>
+		<content>
+		  <p style="text-align:justify;margin-left:1.22in">&#8216;Y&#8217; was not taken to ophthalmology appointments on 6 May 2022, 6 June 2022, 13 June 2022, 23 June 2022, 28 June 2022, 29 July 2022, 1 August 2022, 22 September 2022 and 29 September 2022;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.22in;text-indent:-0.28in">iii.</num>
+		<content>
+		  <p style="text-align:justify;margin-left:1.22in;text-indent:0.1in">On 1 March 2023 the parents declined an appointment with the paediatrician at &#8216;Y&#8217;s school as they could not afford to pay for a taxi. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">8.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.63in">&#8216;Y&#8217; has significant learning and health needs, including a diagnosis of epilepsy.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">9.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.63in">Dr Mann undertook a psychological assessment of the parents and concluded as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.95in;text-indent:-0.32in">a.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.95in">The mother was assessed to have a level of cognitive functioning within the extremely low range, consistent with a learning disability in the mild range, and impacts on her ability to understand the concerns raised and to learn and implement relevant skills in her parenting;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.95in;text-indent:-0.32in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.95in">The father was assessed to have a level of cognitive ability ranging between the extremely low and borderline range, in line with significant cognitive impairment and indicative of a learning disability, and likely to cause significant issues with regard to his parenting. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">10.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.63in;text-indent:0.01in">On 12 October 2022 the parents shared that &#8216;Y&#8217; had been having seizures for 4-5 minutes long for the past few weeks but at first failed to inform the medical authorities.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">11.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.63in;text-indent:0.01in">On 12 May 2023 &#8216;Y&#8217; had a seizure during a home visit.  The parents struggled to respond appropriately. After seeking medical advice the mother took &#8216;Y&#8217; shopping on the following day despite the advice of the social worker to allow her to rest at home.  In addition, they did not attend an epilepsy workshop arranged for the following week. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">12.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.63in;text-indent:0.01in">On 12 July 2023 &#8216;Y&#8217; was not adequately supervised by the mother and nearly pulled a pan of boiling water on top of herself. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.63in;text-indent:-0.24in">13.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.63in;text-indent:0.01in">The father has diabetes and was not consistently compliant with his medication. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in">By virtue of the above facts, it is agreed between the parties that the threshold criteria are met. <span style="color:#000000">There are three elements to threshold. The harm must be actual or likely, it must be significant and it must be due to parenting that is not reasonable. The concessions made by the parents, together with the totality of the evidence in the case, leads me to the conclusion that all three of these elements are satisfied.&#160; On the clear evidence before the Court, the facts undoubtedly disclose at the relevant date actual significant harm and a risk of significant harm that cannot sensibly be ignored. The threshold under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> is plainly met.&#160;The Court makes findings in accordance with the agreed threshold statement.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in"><span style="font-weight:bold;color:#000000">&#160;</span><span style="color:#000000">Having made those findings and applying the threshold test to them, the Court proceeds to consider welfare and proportionality evaluations as a separate exercise.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Welfare</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">&#8216;O&#8217; is 9 years old. She is described as a delightful young person and a bright child. She is said to be doing well at school and is making progress academically. Her behaviour is described by the professionals as having rapidly changed since being in her interim foster placement. There are no longer concerns about her being aggressive, shouting and swearing. She has responded well to the boundaries and routines in place and is reported to be happy in her placement. She has asked to remain living there in the future. The Children's Guardian observed positive relationships between &#8216;O&#8217;, her carers and the two other children in the placement. She was observed to be happy and comfortable. She is reported to have stated that she likes her placement because there is no shouting. Each of the professionals concludes that the placement is providing her with stability and consistency and &#8216;O&#8217; is responding well to this. The Guardian concluded that &#8216;O&#8217; would benefit from that safe, stable environment for the rest of her childhood, to ensure she is able to develop into a healthy adult. The Guardian observed that, as the older child at home, &#8216;O&#8217; experienced more difficulties than her sister. She had been exposed to the difficult relationship between her parents, where at times she intervened by shouting and telling her father to stop. She reported being physically harmed by her father but subsequently retracted these allegations. The Guardian concluded that &#8216;O&#8217; needs the space, time and trusting relationships with those around her to allow her to talk about her experiences and explore her feelings about this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">&#8216;Y&#8217; is 7 years old. She has been diagnosed with autism. She has been assessed as functioning at the age of around 18-24 months. She is also echolalic. In her parents&#8217; care, her development was not being supported well, despite encouragement and professional input, including help to progress her to move out of nappies and to stop using a dummy. &#8216;Y&#8217; was not consistently taken to health appointments by her parents to manage her epilepsy in the way she needed. She experienced a number of seizures. Following the making of the Interim Care Order, &#8216;Y&#8217; was placed in a specialist residential placement where she lives with two other children who have additional needs. &#8216;Y&#8217; is reported to have settled well and to have a good relationship with her foster carers and with the other children in the placement, who also have additional needs and have been &#8216;matched&#8217; with each other. More recently, before and after contact with her parents, &#8216;Y&#8217;s behaviour is reported to have escalated, with increased swearing and distress, including scratching people and pulling their hair. She is reported to have said that she does not want to see her parents. However, when she spends time with them during contact, she is reported to be calm and interactive. Since being in her placement, there have been no other reported incidents of physical violence or swearing beyond those recent incidents prior to and after contact with her parents. &#8216;Y&#8217; is reported to be &#8216;doing well&#8217; and progressing with milestones such as toileting. She no longer uses a dummy and she sleeps through the night. She is reported to have experienced only one seizure since moving to foster care. There has also been a significant improvement in her speech and communication skills. She is making good progress in her specialist school provision, which she is reported to enjoy, where she understands her routines. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">The relationship between the siblings was noted to be difficult. There were reported incidents of violence between them. The parents struggled to manage this and few boundaries were put in place. &#8216;O&#8217; was noted to be controlling and manipulative of her parents. There were significant concerns about her use of the internet, which was not being managed by her parents, placing &#8216;O&#8217; at risk.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in">Both children have settled well into their placements. They have both made progress in relation to their developmental needs and emotional wellbeing. Both children&#8217;s health needs are now being met. They are doing well educationally. There have been no concerns about their behaviour in their placements. Neither child has resorted to shouting or swearing. &#8216;Y&#8217;s sexualised behaviour observed in the family home has not been observed in placement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">Expert evidence in the form of cognitive and psychological assessments was obtained in respect of both parents. The assessments concluded that both parents&#8217; full-scale IQ fell in the extremely low range of abilities and their cognitive difficulties impact on their ability to understand the concerns raised and to learn and implement relevant skills in their parenting.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">A psychological assessment by Dr Mann concluded, &#8220;<span style="font-style:italic">These identified difficulties are related to [the mother&#8217;s] cognitive ability as well as her mental health problems in which she admitted that she has greater difficulties in implementing boundaries when low in mood and demotivated. She has been offered high levels of support over time from Early Help, Child in Need and Child Protection and despite this she has not been able to sustain change. Her defensive stance and poor engagement further inhibit her ability to learn and take advice and limits her ability to access the support that she needs in her parenting.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">The mother is noted also to have experienced depression at different times in her life. She has been prescribed medication and is awaiting therapeutic support in the form of Cognitive Behavioural Therapy. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">In respect of the father, Dr Mann concluded<span style="font-style:italic">, &#8220;There are longstanding concerns about the parents&#8217; ability to meet the children&#8217;s needs and [the father&#8217;s] cognitive and physical impairments limit his ability to meet those needs. Even with much support, [the father] has not demonstrated an ability to implement skills and it is likely that he will have continued difficulty in meeting their needs in the future</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">The father also experiences physical ill health. He has diabetes, which is reported to have been poorly managed. He has difficulties with his mobility which in recent months appears to have become worse with him being more unsteady on his feet. He is reported to have some nerve damage in his spine. He is also having health checks completed in respect of his heart. He was noted by the Guardian to be engaging with health support more recently, following a background of previous poor engagement. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">There is unanimity of professional opinion that both children have experienced parenting that has not ensured their safety and met their needs. They have both suffered from significant harm in the form of neglect and emotional harm, which could have a long-lasting impact upon them and their development. In the short period of time they have lived in interim Local Authority care during these proceedings, both children responded extremely well and have made significant progress in respect of their behaviour and development. As the Guardian noted, this demonstrates that with parenting that meets their needs, the children are able to attain their individual potential.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">There have been concerns about the parent&#8217;s engagement with professionals, which has been inconsistent. There have been times where the parents have disengaged from support services. The Guardian expressed the concern that if the children returned to their parents&#8217; care, that pattern of behaviour would continue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">The professionals all agree that, notwithstanding a high level of professional support and intervention, which included daily support workers attending the home during the hours the children were awake, the parents were not able to meet the children&#8217;s needs and keep them safe. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">To their credit, both parents have engaged with assessments during these Court proceedings. Further, they engaged with the Court process even though this was plainly a distressing process for them. Each of the professionals notes that the parents have evidenced their love and commitment to the children and the parents have strived to make sure the children are aware of this. They miss their children dearly. The professionals acknowledge that both parents have been able to demonstrate some strengths in their parenting capacity. Contact between the children and their parents is also reported to be a positive experience generally for the children. To their credit, the parents had always been able to make sure the children attended school. Furthermore, the home conditions were reported always to be clean.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">Regrettably, the Local Authority parenting assessment concluded negatively in that it does not recommend that either or both the children are reunified into their parents&#8217; care. The assessment highlighted that the parents are not able to meet all the needs of their children, even with professional support. Further, the parents have a limited support network outside the professional network. The Local Authority and the Children's Guardian conclude that, despite the parents&#8217; love for their children and their desire to care for them, the children could not return to their care safely, without experiencing further significant harm of the type they have suffered previously. The professionals agree that, if the children returned to their parent&#8217;s care, the children would experience further neglect, significant emotional harm and be at risk of physical harm.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">Under the Local Authority&#8217;s care plan, &#8216;O&#8217; will be able to remain in her current placement on a long-term basis, providing her with consistency and stability, in an area she is familiar with, local to her school. The care plan for &#8216;Y&#8217; is for a specialist foster placement to be found, to provide her with the opportunity of living with a family, rather than in a residential setting, to best nurture and meet her specific needs. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">The Local Authority&#8217;s sibling assessment, completed by the allocated social worker who has a long-standing relationship with the family, does not recommend that the children are placed together. They have lived separately for the past five months, which has allowed them to have their individual needs met. The assessment identifies that neither child has been distressed by living separately from the other and there is little mention from either of them about the other.  The sibling relationship they share is described as difficult. The Guardian&#8217;s observation during contact, consistent with other professional observation, was that neither sister acknowledged each other, they did not greet each other and there was no attempt from them to play with each other. Their sibling relationship was described as complex and difficult, &#8220;characterised by violence and jealousy.&#8221; Nevertheless, the professionals recognise that if the children do not live together, it is important that they spend time together and that professional assistance is provided to help to nurture that relationship. In that regard, regular, structured sibling contact is envisaged to take place. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">The Court acknowledges the parents&#8217; brave, child-focussed decision not to oppose the Local Authority&#8217;s applications and care plan, as amended. Taking an independent view and giving the evidence anxious scrutiny, having regard to all the evidence, the Court finds no reason to depart from the complete consensus amongst all the professionals that safe reunification of either or both children into the care of their mother or father or both parents&#8217; together, even with professional support, is not in the best interests of either child. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">No other family member has been assessed positively to care for the child. The only realistic option for each child is placement outside of the family.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">Having regard to their ages, no party advances a case that either child should be adopted and there is no Placement Order application before the Court. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">Both children are thriving in their interim placements. The advantage for both children of making a Care Order with the plan of long-term foster care is that, given their individual and specific needs and profile, foster care has a strong likelihood of providing them with a stable, safe, nurturing environment throughout their minority where their individual needs can be met. In the case of &#8216;O&#8217;, such placement would also be consistent with her consistently expressed wish. The plain disadvantages of long term foster care include the ongoing involvement of the Local Authority throughout their childhoods and the interference with their private and family life. That interference is mitigated to some extent, with ongoing regular contact between the children and their parents and between the siblings, such that there is no severing of the parental relationship or birth family ties. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in"><span style="color:#252526">The Court respectfully endorses the comprehensive analysis of factors under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s1(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> contained in the Social Worker&#8217;s evidence of 10 October 2023, together with the Social Worker&#8217;s detailed analysis of the strengths and weakness and the advantages and disadvantages of the various realistic placement options for the children. In this Court&#8217;s judgement, the analysis of the Social Worker is unimpeachable.  Further, the Court respectfully endorses the child impact analysis completed by the Children's Guardian in her final written analysis of 14 November 2023.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in"><span style="color:#252526">Parenting is variable. As Hedley J held in</span><span style="font-style:italic;color:#252526">&#160;</span><a href="http://swarb.co.uk/re-l-care-threshold-criteria-fd-2007/"><span class="Hyperlink" style="font-style:italic;color:initial">Re L (Care: Threshold Criteria) </span><span class="Hyperlink" style="color:initial"><ref href="#" uk:canonical="[2007] 1 FLR 2050" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 FLR 2050</ref></span></a><span style="color:#252526">, &#8220;</span><span style="font-style:italic;color:#252526">Society must be willing to tolerate very diverse standards of parenting, including the eccentric, the barely adequate and the inconsistent. It follows too that children will inevitably have both very different experiences of parenting and very unequal consequences flowing from it. It means that some children will experience disadvantage and harm, while others will flourish in atmospheres of loving security and emotional stability. These are the consequences of our fallible humanity and it is not the provenance of the State to spare children all the consequences of defective parenting. In any event, it simply could not be done.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in"><span style="color:#252526">Essentially, the Court will not take children away from their homes when the care afforded to them is &#8216;good enough&#8217;. </span>It is not enough to show that a child could be placed in a more beneficial environment for their upbringing. In deciding issues in respect of the welfare of the children, the Court's task is not to improve on nature or even to secure that every child has a happy and fulfilled life but to be satisfied first that the statutory threshold has been crossed. The best person to bring up a child is the natural parent, provided the child's moral and physical health are not in danger. The State does not take away the children of all the people who suffer from physical or mental ill health. The Court's assessment of the parents' ability to discharge their responsibilities towards the child must take into account the practical assistance and support which the authorities or others would offer. I<span style="color:#252526;background-color:#FFFFFF">t is incumbent on the Court to satisfy itself that there is no practical way of the authorities or others providing the requisite assistance and support before making an Order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">On the specific facts of this case, having independently scrutinised all the evidence, the Court finds no reason to reach a different conclusion to that of each of the professionals. In this Court&#8217;s judgement, the single conclusion reached by the Social Worker and the Children's Guardian is clear and convincing. Sympathetic as this Court is to these parents in the context of their vulnerabilities, it is essential that in reaching this decision the Court maintains focus on the welfare of the children as the Court&#8217;s paramount consideration. In the judgement of this Court, the individual welfare needs of both children demand the remedy of a Care Order, with the care plan of long term foster care. On the specific facts of this case, there is no other suitable course available which is in the best interests of either child, motivated by the overriding requirements pertaining to their welfare. Furthermore, the high degree of justification necessary under Article 8 is established. That interference is necessary and is a proportionate response, having regard to the risks and having regard to the welfare evaluation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">In this Court&#8217;s judgement, having regard to the type of harm that might arise, the likelihood of it arising, the consequences (that is, what would be the likely severity of the harm to the children if it did come to pass), whether there can be adequate risk reduction or mitigation (that is, would the chances of harm happening be reduced or mitigated by the support services that are or could be made available) and the comparative evaluation (that is, in light of all of that, how the welfare advantages and disadvantages of the children growing up with their mother or father compare with those of foster care), for the reasons also given by the Local Authority and the Children's Guardian, this Court is satisfied that a Care Order is necessary for both children, that a Care Order is in both children&#8217;s best interests and that the Orders are proportionate to the risks. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;margin-right:-0.03in">Further, the Court endorses the Local Authority&#8217;s amended care plan in so far as it relates to contact between the children and their parents and contact between the siblings. The Local Authority recognises in its amended care plan that review of those contact arrangements should properly take place every three months to ensure that the needs of the children are best met. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:right;margin-left:0.25in">HHJ Middleton-Roy </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:right;margin-left:0.25in">26 January 2024</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

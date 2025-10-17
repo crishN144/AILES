@@ -1,0 +1,787 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2010/2571"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2010/2571"/>
+	  <FRBRdate date="2010-10-15" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2571"/>
+	  <FRBRname value="Kremen v Agrest"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2010/2571"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2010/2571"/>
+	  <FRBRdate date="2010-10-15" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2010/2571/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2010/2571/data.xml"/>
+	  <FRBRdate date="2024-10-07T01:31:05" name="transform"/>
+	  <FRBRdate date="2024-12-01T04:55:11" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2010-10-15" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="janna-kremen-formerly-agrest" href="" showAs="Janna Kremen (formerly Agrest)"/>
+	<TLCPerson eId="boris-agrest" href="" showAs="Boris Agrest"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-mostyn" href="/judge-the-honourable-mr-justice-mostyn" showAs="THE HONOURABLE MR JUSTICE MOSTYN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2010</uk:year>
+	<uk:number>2571</uk:number>
+	<uk:cite>[2010] EWHC 2571 (Fam)</uk:cite>
+	<uk:parser>0.26.5</uk:parser>
+	<uk:hash>9994d518f8fd955110c499eba095d2d5f9cdfb69329ff4c76ca3c4ec219ec139</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .loose { font-size: 12pt; }
+#judgment .ListBullet { margin-left: 0.25in; font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .bold1 { font-weight: bold; }
+#judgment .italic1 { font-style: italic; }
+#judgment .hit1 { font-weight: bold; color: #CC0033; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2010] EWHC 2571 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD08F01208</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2010-10-15" refersTo="#judgment">15/10/2010</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-mostyn">THE HONOURABLE MR JUSTICE MOSTYN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.45in 3.7in 1.19in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#janna-kremen-formerly-agrest" style="font-weight:bold">Janna Kremen (formerly Agrest)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#boris-agrest" style="font-weight:bold">Boris Agrest</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">1<span style="vertical-align:super;font-size:smaller">st</span> Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">Leonid Fishman</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><span style="font-weight:normal">2</span><span style="font-weight:normal;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:normal"> (formerly 3</span><span style="font-weight:normal;vertical-align:super;font-size:smaller">rd</span><span style="font-weight:normal">) Respondent</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">John Hamilton </span>(instructed by<span style="font-weight:bold"> Anna Wilson of Richardson Smiths</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">James Copley</span> (instructed by <span style="font-weight:bold">James Riby of Charles Russell</span>) for the <span style="font-weight:bold">2</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold"> Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 20 &#8211; 22 September 2010</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Mostyn:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The court is concerned with three applications:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">An application by Janna Kremen (W) that a charge dated 25 January 2008  be set aside and for consequential directions;  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">An application by the second respondent Leonid Fishman (LF) that the funds in court said to be subject to the charge be paid out to him;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">An application by the first respondent Boris Agrest (H) that all the existing proceedings against him be stayed. H has not attended this hearing or been represented. He is a fugitive from English justice. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The background to this case is set out in: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the judgment of Her Honour Judge Hughes QC, dated 16 May 2008; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the judgment of Mr Jonathan Cohen QC, dated 12 February 2009; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">the judgment of Thorpe LJ in the Court of Appeal, dated 16 July 2009; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">my judgment on W&#8217;s judgment summons dated 16 April 2010, whereby I sentenced H to 35 days imprisonment for wilful default on his maintenance obligations.  H&#8217;s appeal against that decision was dismissed on 16 April 2010. He has absconded and there is a warrant out for his arrest.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.49in">In order to avoid unnecessary repetition those judgments should be referred to for the relevant background. This is a case proceeding under Part III <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42" uk:canonical="1984 c. 42" uk:origin="TNA" uk:type="legislation">Matrimonial and Family Proceedings Act 1984</ref>, leave having been granted to W to make her claim by Mr Cohen QC.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the last three judgments reference was made to an EFG memo of May 2008 that constituted a highly important piece of evidence as to H&#8217;s motives in this case. That memo showed H to be set on a course of doing everything he could to defeat W&#8217;s claims. That contributed to a finding by me in my judgment of 16 April 2010 that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">[34]</span>  I have come to the clear conclusion that, as regards his obligations to maintain his wife and his children, the husband is actuated by extreme malice towards the wife.  He has the means to pay but he refuses to do so.  </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That finding has been bolstered by the contents of a record of a conversation that took place between H and W in May 2007. In that conversation, in truth a monologue directed at W, H in abusive and disgusting terms makes it absolutely clear that his intended course was to leave W (and presumably his children) utterly destitute.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Any transaction undertaken by H from the beginning of 2007 onwards must be judged, at least presumptively, to have been effected with the intention, if not the dominant intention, of achieving that stated end.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As I will explain in more detail below the charge in question was in fact a third charge over the former matrimonial home, Whitecliff, St George&#8217;s Hill, Weybridge. Charges No. 1 and No. 2 were in favour of EFG bank, which foreclosed. W and the children were put out of the property which was sold in September 2009; after redemption of the EFG charges there remained &#163;1,053,720 proceeds of sale, which have been paid into court. The charge in question here secures US $5,000,000, a sum greatly in excess of the funds in court. Thus, unless W succeeds, all of the money in court will be paid out to LF. Although H is a rich man, as I have previously found, there are no visibly attachable funds of his in this jurisdiction, or so far as I can see in any jurisdiction where there would be easy enforcement of a financial relief award. So, unless W succeeds, she and the children face the state of destitution that H so brutally threatened back in May 2007. I must not however allow my human feelings for her plight to affect the judgment I must give, which must be determined as between W and LF strictly in accordance with the law as applied to the specific facts of this case.   </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The law </span></heading>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">W seeks that the charge be set aside on alternative grounds:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">s23</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42" uk:canonical="1984 c. 42" uk:origin="TNA" uk:type="legislation">Matrimonial and Family Proceedings Act 1984</ref>; and/or</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">that the transaction is a sham.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">s23 <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42" uk:canonical="1984 c. 42" uk:origin="TNA" uk:type="legislation">Matrimonial and Family Proceedings Act 1984</ref></span></heading>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is the Part III counterpart to the more familiar <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/37" uk:canonical="" uk:origin="TNA" uk:type="legislation">s37</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">MCA 1973</ref>. It is entitled <span style="font-style:italic">&#8220;Avoidance of transactions intended to defeat applications for financial relief&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For W's application to succeed the following has to be demonstrated:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">That the execution of the charge was done by H with the intention of defeating her claim for financial relief. This is presumed against H, and he has to show that he did not bear that intention. See <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/23/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s23(2)</ref>(a), and 23(7). The motive does not have to be the dominant motive in the transaction; if it is a subsidiary (but material) motive then that will suffice: see <span style="font-style:italic">Kemmis v Kemmis Welland and Others Intervening); Lazard Brothers and Co (Jersey) Ltd v Norah Holdings Ltd and Others </span><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?langcountry=GB&amp;linkInfo=F%23GB%23FLR%23sel2%252%25year%251988%25page%25223%25sel1%251988%25vol%252%25&amp;risb=21_T10270822446&amp;bct=A&amp;service=citation&amp;A=0.879133304926223"><ref href="#" uk:canonical="[1988] 2 FLR 223" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1988">[1988] 2 FLR 223</ref></a>, <ref href="#" uk:canonical="[1988] 1 WLR 1307" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1988">[1988] 1 WLR 1307</ref>, CA.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">That the execution of the charge had the consequence of defeating her claim. This means preventing relief being granted, or reducing the amount of any such relief, or frustrating or impeding the enforcement of any order awarding such relief. See 23(1) and <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/23/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s23(2)</ref>(b) </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">That the court should exercise its discretion to set aside the charge. See <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/23/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s23(2)</ref>.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in">However, under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/23/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s23(6)</ref> there is an exception to the general rule that all dispositions are liable to be set aside. The disposition in favour of LF will not be set aside if it can be shown at the time it was made that,</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">it was done for valuable consideration, <span style="text-decoration-line:underline;text-decoration-style:solid">and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">LF acted in relation to it in good faith, <span style="text-decoration-line:underline;text-decoration-style:solid">and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">LF was without notice of any intention on the part of H to defeat W's claim for financial relief. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The knowledge of LF referred to in para 9(iv)(c) above is not confined to actual knowledge but extends to constructive knowledge: see <span style="font-style:italic">Kemmis v Kemmis</span>; <span style="font-style:italic">Sherry v Sherry and Another </span><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?langcountry=GB&amp;linkInfo=F%23GB%23FLR%23sel2%251%25year%251991%25page%25307%25sel1%251991%25vol%251%25&amp;risb=21_T10270822446&amp;bct=A&amp;service=citation&amp;A=0.1342475381450451"><ref href="#" uk:canonical="[1991] 1 FLR 307" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">[1991] 1 FLR 307</ref></a>, CA; <span style="font-style:italic">Le Foe v Le Foe and Woolwich plc; Woolwich plc v Le Foe and Le Foe</span> <ref href="#" uk:canonical="[2001] 2 FLR 970" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 2 FLR 970</ref>.   The test for constructive knowledge is well known and derives from the statement of Farwell J in <span style="font-style:italic">Hunt v Luck </span><ref href="#" uk:canonical="[1901] 1 Ch 45" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1901">[1901] 1 Ch 45</ref>:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Constructive notice is the knowledge which the courts impute to a person upon presumption so strong of the existence of the knowledge that it cannot be allowed to be rebutted, either from his knowing something which ought to have put him to further inquiry or from his wilfully abstaining from inquiry, to avoid notice.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although there is a formal legal burden on W to demonstrate the negative of the matters referred to in para 9(iv) above I take the view that for obvious reasons (having to prove a negative; lack of knowledge) there is an evidential burden shifted to LF to establish this exception. If he does not establish all three limbs of the exception then the defence will not arise. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Sham transaction </span></heading>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The law relating to sham transactions has been conveniently restated by Munby J in <span style="font-style:italic">A v A</span> <ref href="#" uk:canonical="[2007] 2 FLR 467" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 2 FLR 467</ref> from which I quote the following passages:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">[32]</span>&#160;&#160;&#160;&#160; What is a 'sham'? The classic definition was given by Diplock&#160;LJ in <span style="font-style:italic">Snook v London and West Riding Investments Ltd </span><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?langcountry=GB&amp;linkInfo=F%23GB%23QB%23sel2%252%25year%251967%25page%25786%25sel1%251967%25vol%252%25&amp;risb=21_T10181926177&amp;bct=A&amp;service=citation&amp;A=0.8707706697300209"><ref href="#" uk:canonical="[1967] 2 QB 786" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1967">[1967] 2 QB 786</ref></a>, at&#160;802:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">'it means acts done or documents executed by the parties to the 'sham' which are intended by them to give to third parties or to the court the appearance of creating between the parties legal rights and obligations different from the actual legal rights and obligations (if any) which the parties intend to create.'</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">This accords with Lord Wilberforce's description in <span style="font-style:italic">Ramsay</span>, at&#160;323 of a document or transaction as being a sham if 'while professing to be one thing, it is in fact something different'. Diplock&#160;LJ continued with the following passage which is at the heart of the issue in the present case:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">'one thing, I think, is clear in legal principle, morality and the authorities &#8230; that for acts or documents to be a &#8220;sham&#8221;, with whatever legal consequences follow from this, all the parties thereto must have a common intention that the acts or documents are not to create the legal rights and obligations which they give the appearance of creating. No unexpressed intentions of a &#8220;shammer&#8221; affect the rights of a party whom he deceived.'</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Diplock&#160;LJ's statement of the law, which as Mr&#160;Moor points out was cited with approval by Lord Fraser of Tullybelton in <span style="font-style:italic">Ramsay</span>, at&#160;337, has always been treated as canonical.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">[33]</span>&#160;&#160;&#160;&#160; The most recent general analysis of the doctrine of sham was undertaken by Arden&#160;LJ (with whom Sir Martin Nourse and May&#160;LJ agreed) in <span style="font-style:italic">Hitch v Stone (Inspector of Taxes) </span><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?langcountry=GB&amp;linkInfo=F%23GB%23EWCACIV%23year%252001%25page%2563%25sel1%252001%25&amp;risb=21_T10181926177&amp;bct=A&amp;service=citation&amp;A=0.09385464299233215"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2001/63" uk:canonical="[2001] EWCA Civ 63" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWCA Civ 63</ref></a>, <a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?langcountry=GB&amp;linkInfo=F%23GB%23STC%23year%252001%25page%25214%25sel1%252001%25&amp;risb=21_T10181926177&amp;bct=A&amp;service=citation&amp;A=0.7667552048442886"><ref href="#" uk:canonical="[2001] STC 214" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] STC 214</ref></a>. Having referred to <span style="font-style:italic">Snook </span>she continued, at paras&#160;[63]&#8211;[69]:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">'[63] &#8230; It is of the essence of this type of sham transaction that the parties to a transaction intend to create one set of rights and obligations but do acts or enter into documents which they intend should give third parties, in this case the Revenue, or the court, the appearance of creating different rights and obligations. The passage from Diplock&#160;LJ's judgment &#8230; has been applied in many subsequent decisions and treated as encapsulating the legal concept of this type of sham &#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[64] An inquiry as to whether an act or document is a sham requires careful analysis of the facts and the following points emerge from the authorities.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[65] First, in the case of a document, the court is not restricted to examining the four corners of the document. It may examine external evidence. This will include the parties' explanations and circumstantial evidence, such as evidence of the subsequent conduct of the parties.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[66] Second, as the passage from <span style="font-style:italic">Snook </span>makes clear, the test of intention is subjective. The parties must have intended to create different rights and obligations from those appearing from (say) the relevant document, and in addition they must have intended to give a false impression of those rights and obligations to third parties.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[67] Third, the fact that the act or document is uncommercial, or even artificial, does not mean that it is a sham. A distinction is to be drawn between the situation where parties make an agreement which is unfavourable to one of them, or artificial, and a situation where they intend some other arrangement to bind them. In the former situation, they intend the agreement to take effect according to its tenor. In the latter situation, the agreement is not to bind their relationship.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[68] Fourth, the fact that parties subsequently depart from an agreement does not necessarily mean that they never intended the agreement to be effective and binding. The proper conclusion to draw may be that they agreed to vary their agreement and that they have become bound by the agreement as varied &#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[69] Fifth, the intention must be a common intention (see <span style="font-style:italic">Snook</span>).'</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">[50]</span>&#160;&#160;&#160;&#160; There has been some debate in the authorities as to what is required to establish the requisite common <span style="font-style:italic">intention</span>. In <span style="font-style:italic">Midland Bank plc v Wyatt </span><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?langcountry=GB&amp;linkInfo=F%23GB%23FLR%23sel2%251%25year%251995%25page%25696%25sel1%251995%25vol%251%25&amp;risb=21_T10181926177&amp;bct=A&amp;service=citation&amp;A=0.37886390016518234"><ref href="#" uk:canonical="[1995] 1 FLR 696" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 FLR 696</ref></a>, <a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?langcountry=GB&amp;linkInfo=F%23GB%23BPIR%23year%251996%25page%25288%25sel1%251996%25&amp;risb=21_T10181926177&amp;bct=A&amp;service=citation&amp;A=0.6491795126338583">[1996] BPIR 288</a>, the deputy judge, Mr&#160;David&#160;Young&#160;QC, said at&#160;699 that:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">'a sham transaction will still remain a sham transaction even if one of the parties to it merely went along with the &#8220;shammer&#8221; not either knowing or caring about what he or she was signing. Such a person would still be a party to the sham and could not rely on any principle of estoppel such as was the case in <span style="font-style:italic">Snook</span>.'</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Singer&#160;J said much the same thing in <span style="font-style:italic">Minwalla v Minwalla and DM Investments SA, Midfield Management SA and CI Law Trustees Ltd </span><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?langcountry=GB&amp;linkInfo=F%23GB%23EWHCFAM%23year%252004%25page%252823%25sel1%252004%25&amp;risb=21_T10181926177&amp;bct=A&amp;service=citation&amp;A=0.42094722320567535"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2004/2823" uk:canonical="[2004] EWHC 2823 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWHC 2823 (Fam)</ref></a>, <a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?langcountry=GB&amp;linkInfo=F%23GB%23FLR%23sel2%251%25year%252005%25page%25771%25sel1%252005%25vol%251%25&amp;risb=21_T10181926177&amp;bct=A&amp;service=citation&amp;A=0.8222442668618146"><ref href="#" uk:canonical="[2005] 1 FLR 771" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 1 FLR 771</ref></a> (<span style="font-style:italic">Minwalla</span>), adopting at paras&#160;[54]&#8211;[55] the following statement of principle by a commentator:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">'In order for a trust to be found to be a sham, both of the parties to the establishment of the trust (that is to say the settlor and the trustees in the usual case) must intend not to act on the terms of the trust deed. Alternatively in the case where one party intends not to act on the terms of the trust deed, the other party must at least be prepared to go along with the intentions of the shammer neither knowing or caring about what they are signing or the transactions they are carrying out.'</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">[53]</span>&#160;&#160;&#160;&#160; An allegation of sham is a serious matter. As Neuberger&#160;J said in <span style="font-style:italic">National Westminster Bank plc v Jones</span><span/><a href="http://www.lexisnexis.com/uk/legal/search/runRemoteLink.do?langcountry=GB&amp;linkInfo=F%23GB%23BPIR%23year%252000%25page%251092%25sel1%252000%25&amp;risb=21_T10181926177&amp;bct=A&amp;service=citation&amp;A=0.2966124803005916">[2000] BPIR 1092</a>, at para&#160;[59]:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">'there is a very strong presumption indeed that parties intend to be bound by the provisions of agreements into which they enter, and, even more, intend the agreements they enter into to take effect.'</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Moreover, and because as Neuberger&#160;J pointed out (see paras&#160;[40], [46] and&#160;[59]) 'a degree of dishonesty is involved in a sham', it follows (see para&#160;[59]) that:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">'there is a strong and natural presumption against holding a provision or a document a sham.'</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This latter point does not elevate the standard of proof. In civil proceedings it is set at the simple balance of probability in every case: see <span style="font-style:italic">Re B (Care Proceedings: Standard of Proof)</span> <ref href="#" uk:canonical="[2008] 2 FLR 141" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 2 FLR 141</ref>, HL. As explained in that case, the more serious the allegation then the greater the need for evidential clarity. Thus W must prove her case on sham on the simple balance of probability by clear evidence.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Narrative </span></heading>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At the beginning of 1997  H and LF were in business together. They were old friends who went back a long way. Their businesses were diverse and were both within and outside Russia. LF lived in Russia; H had recently moved with W and his then born children to Vienna.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is LF&#8217;s case that at this time discussions took place to separate the businesses and in effect to conclude the commercial relationship between the two men. A number of agreements were signed to this end:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">On 20 January 1997 an agreement, handwritten and unwitnessed, that LF would have the use of all companies registered in H&#8217;s name in Liechtenstein for five years.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">On 21 January 1997, again handwritten and unwitnessed, an agreement that H would pay to LF &#8220;US$500,000 annually within three years (sic) starting from the day of execution of this note&#8221;. This was in respect of LF&#8217;s &#8220;share in profit of the STA Bank Inc., registered in Aiwo, Nauru&#8221;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">On Saturday 1 February 1997,  again handwritten and unwitnessed, an agreement, said to be supersessory of the agreements referred to above,  which provided for:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">Transfer by LF to H all of his (LF&#8217;s) 50% share in all businesses outside Russia  including an Austrian entity called BAST, as well as the Liechtenstein firms and the Nauru bank referred to above.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">A current valuation of LF&#8217;s interests in these businesses of US$2.5m.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">An agreement that H would pay US$5m for LF&#8217;s interests no later that 1 February 2007.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">On Saturday 1 February 1997 an agreement, this time typed up and witnessed by four witnesses namely Messrs Dubinin, Klimashevskiy, Frolov and Sheynin. This agreement relates to the Russian businesses of H and LF. It is basically the same as agreement iii) above. LF was to transfer his 50% share in the Russian businesses to H; that 50% share was valued at $2.5m; but H was given until 1 February 2007 to pay $5m for that 50% share.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It will be immediately apparent that there are a number of oddities about this agreement at 15(iv) above. Why did such a degree of formality suddenly arise? None of the previous agreements had been typed up and witnessed. Why was it necessary to have separate agreements for the Russian and non-Russian agreements? LF told me that this was for reasons of confidentiality concerning the non-Russian assets: they were so secret that not even witnesses could know about them. This struck me as highly implausible.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">LF told me that the handwritten agreement concerning the non-Russian  businesses at 15(iii) above was in fact converted into a formal agreement witnessed by a notary in Vienna on 3 February 1997. I gave him two weeks to track down the formal notarised agreement. On 8 October 2010 LF&#8217;s solicitors produced a small bundle of notarial documents some of which had already been produced in the court bundle. I did not receive any further written submission from counsel for LF elucidating these documents. I could not find within the additional papers any notarial agreement that corresponded to the agreement at 15(iii) above. There is a notarial deed of 3 February 1997 which provides that LF and H shall assign their 250,000 shares in BAST to a Mr Guerassimov and Mrs Kouzamina at a price of one schilling per share, and there is a partners&#8217; resolution of BAST that records that LF and H have been relieved of their duties. These arrangements are hard to reconcile with the purported effect of the agreement at 15(iii) above.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There was no process of valuation or any kind of due diligence undertaken before H agreed to pay a total of $10m in 10 years&#8217; time.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I asked LF what was going to happen if H died in the meantime. He paused, laughed nervously, and stated that that was a very good question. The answer was that he would lose all his money. He did not consider taking out insurance on H&#8217;s life as such things were unknown in the transitional phase of Russia in 1997.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By 1999 the parties had moved here. In September 1999 Whitecliff was purchased in W&#8217;s sole name, mortgage free. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By 2001 the marriage was in deep trouble. In that year an Israeli divorce was obtained. This was accompanied by an agreement dated 15 May 2001 dealing with the finances. This provided, among other things, that all of W&#8217;s interest in any UK real estate held in her name would be &#8220;fully transmitted&#8221; to H. W was to receive in cash the sum of US$1m. The arrangements were not implemented at that time. The parties were reconciled and their third son Maxim was born in March 2004.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By early 2007 the marriage was again in desperate straits. The recording of H&#8217;s abuse of W in May 2007 shows the depths to which things had sunk. On 6 March 2007 LF says that he entered into two agreements with H:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The first confirmed the typed witnessed agreement of 1 February 1997. It provided that H should pay the sum in question ($5m) by 6 March 2009, and that this sum should accrue interest of 8% from 1 February 2007. The agreement went on to say that H would put up Whitecliff as a &#8220;pledge&#8221;. It noted that Whitecliff was in fact owned by W, but provided that H would take the &#8220;necessary measures&#8221; to get a transfer of title in his favour.  This agreement was witnessed by Mr Shcherbakov, Mr Usanov and Mr Abashidze.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The second agreement was handwritten and unwitnessed and confirmed the handwritten and unwitnessed agreement of 1 February 1997.  Specifically it confirmed that H was indebted to LF to the tune of $5m. This was to be paid by H transferring to LF his share in a company called ZAO, with the balance of $1.5m being paid when H recovered a debt in that amount from a Mr O.V. Passek. Meanwhile H would pay interest at 8%. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is an oddity about the first of these agreements comparable to that obtaining to the typed 1997 agreement. What happens if H was unable to persuade W to transfer the house to him? LF accepted that in such circumstances he would not get his charge.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is of some significance that W is described in the first 2007 agreement as the &#8220;ex-wife&#8221; of H. By virtue of this fact alone LF must have been well aware that the relationship between H and W was fractured.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">H did manage to persuade W to transfer Whitecliff to him on (it seems) about 7 September 2007. W has stated to me that this was the product of duress. This argument cannot run, it having been previously advanced to, and rejected by HHJ Hughes QC: see para 21 of her judgment dated 16 May 2008. H paid the $1m provided for under the 2001 Israeli agreement but, as is clearly stated and found by Mr Cohen QC, the sum was more or less immediately lent back to H at his instigation, and has not been returned to W: see paras 21 &#8211; 23 of his judgment dated 12 February 2009. So W gave up for nothing a valuable asset, with a net equity (in the events that unfolded) of &#163;1.053m.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">H and LF set about creating and registering the charge over Whitecliff. On 24 January 2008 a deed of priorities was entered into with EFG which confirmed that the new charge would rank after those in favour of EFG, and on 25 January 2008 the new charge came into existence. This was registered on 1 February 2008. In his affidavit LF says that &#8220;I was generally aware at this time that [H] was in litigation with [W]&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The charge of 25 January 2008 referred to LF having agreed to lend H $5m under &#8220;the Loan Agreement&#8221;, which was defined as &#8220;a loan agreement between [H] and [LF] dated 1 February 1997&#8221;. The reader of that document would not know that there were in fact two agreements of that date each deferring $5m of purchase money; nor would he know to which agreement the charge was referring. But the parties to the agreement would have known full well. It is interesting that the charge refers in an ambiguous way to &#8220;the&#8221; loan agreement of 1 February 1997 (in the singular) but not to the agreement of 6 March 2007 which specifically establishes the entitlement to the charge. It is also interesting that the deed of charge refers to &#8220;the <span style="text-decoration-line:underline;text-decoration-style:solid">loan</span> agreement&#8221; of 1 February 1997. It is stretching language for either agreement of 1 February 1997 to be described as a &#8220;<span style="text-decoration-line:underline;text-decoration-style:solid">loan</span>&#8221; agreement: they were effectively contracts for the sale of business interests, albeit with deferred payment terms.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At some point in 2008 LF decided to sue H in Russia on the handwritten 1997 agreement relating to the non-Russian businesses. On 10 June 2008 an unopposed judgment was given against H in the sum of 131,578,769 roubles. A potent question is why LF did not sue on the type-written agreements concerning the division of the Russian businesses. It is no answer to say that he did not do so because he had the charge, since the charge did not cover anything like $5m. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 12 December 2008 H completed a statement of his means in Form C10A. While it mentioned the Russian Judgment debt of 131,578,769 roubles it did not mention the separate debt of $5m arising from the type-written witnessed agreements of 1 February 1997 and 6 March 2007.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In similar vein is the content of para 20 of H&#8217;s affidavit dated 6 May 2009. There H unambiguously stated that he owed 131,578,769 roubles to LF. This is a reference to the Russian judgment debt and is in turn a reference to the handwritten unwitnessed agreements of 1 February 1997 and 6 March 2007 concerning the division of the non-Russian businesses. H stated that when it was clear by the early part of 2007 he did not have the money to pay LF &#8220;he was happy to accept a charge over my property, but when he learned of the difficulties I was in he decided that he also wanted the protection of obtaining a judgment against me through the Court&#8217;s (sic) in Russia&#8221;. It is notable that H refers only to one agreement of 1 February 1997, reiterated on 6 March 2007. He does not mention the type-written witnessed agreements concerning the Russian businesses or the fact that it was the latter of these than supplied the entitlement for the charge. This passage of H&#8217;s affidavit clearly reads as if these type-written witnessed agreements concerning the division of the Russian businesses either do not exist, or are ineffective. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In his judgment of 12 February 2009 at para 28 Mr Cohen QC pointed to the &#8220;oddity&#8221; of H&#8217;s case explaining that the Russian judgment debt appeared to post-date the date of the charge. He recorded W&#8217;s case that the debt to LF is &#8220;a put up job&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The typewritten witnessed agreement of 1 February 1997 was, I believe, produced for the first time before Mr Cohen QC; that is W&#8217;s clear recollection, and she referred to it in para 23 of her affidavit dated 19 February 2010. The type written agreement of 6 March 2007 only saw the light of day in these proceedings for the first time when it was exhibited to LF&#8217;s affidavit of 6 June 2010.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It was only explained for the very first time in LF&#8217;s affidavit dated 1 June 2010 that the charge on Whitecliff derived from the type-written agreements concerning the Russian businesses and had nothing to do with the agreements concerning the division of the non-Russian businesses which were the subject of the Russian judgment. Thus the exposition by Mr Cohen of the oddity in H&#8217;s case was neatly finessed away. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Conclusions  </span></heading>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">All the elements required for an order setting aside the charge under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">s23</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42" uk:canonical="1984 c. 42" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> as between H and W are in place. The transaction has the effect of defeating W&#8217;s claim; H is presumed to have the requisite bad intention and he has not appeared to rebut it. In fact I would say on the evidence that H&#8217;s bad motive is clearly established, if not dominantly then certainly in a subsidiary way. The only question is whether the exception is <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/23/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s23(6)</ref> has been established.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied on the evidence that LF knew full well that a motive of H in making the type-written agreement of 6 March 2007  and the creation  of the charge itself on 25 January 2008 was, at the very least in a subsidiary way, to defeat W&#8217;s claims. I will deal below with the question whether the agreements are shams, but if the agreement of 6 March 2007 and the charge of 25 January 2008 were indeed authentic then I am sure that LF knew that H was doing it with the intention, if not the dominant intention, of  defeating W&#8217;s claims. If I am wrong about this then LF is certainly, on the evidence, to be fixed with constructive knowledge. And of course the charge has the very effect of defeating W&#8217;s claims totally, at the very least in the sense described in the statute concerning the frustration of enforcement.  It therefore follows that the second and third elements of the exception are not satisfied and it is not available as a defence. (Having reached this conclusion, I do not have to decide whether the first element, namely the presence of valuable consideration, is satisfied. It is bound up with the case on sham. If the agreement of 1 February 1997 and its successor of 6 March 2007 are shams then obviously there will not have been valuable consideration; if they are authentic then there will have been.)</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Accordingly under this head the charge will be set aside.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Strictly speaking, having made this decision, I do not need to decide whether the agreement of 6 March 2007 and the charge of 25 January 2008 are shams in the technical legal sense set out above. I acknowledge Arden LJ&#8217;s warning that just because something looks un-commercial or even artificial that does not of itself signify a sham. A sham must be an act whereby the parties intend the document to do something different to that which it says it does, and broadcast this fact. There are grounds for suspecting that this is the case here. There are very many implausibilities, inconsistencies and oddities in the circumstances surrounding the alleged creation of the type-written witnessed agreements concerning the division of the Russian assets, which I have set out above in the narrative section of this judgment. There are reasons to doubt whether the type-written agreement of 1 February 1997 is authentic. I have my doubts as to whether the three witnesses to that agreement gave me truthful evidence. Equally, there is reason to doubt whether the agreement of 6 March 2007 was signed and witnessed on that day. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That said, the test is a stiff one and there is a requirement of very clear evidence given the seriousness of the allegation. With some misgivings I find that the combination of the suspicions and implausibility that I have set out above do not amount to sufficiently clear evidence to carry me over the threshold of likelihood so as to be able to say that both the agreement of 6 March 2007 and the charge of 25 January 2008 are shams in the strict legal sense I have described.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Disposition</span></heading>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">W&#8217;s application is granted under its first limb. The second limb is refused.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The applications of LF and H are dismissed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I make the following consequential directions:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in">From the funds frozen in court W will be paid:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">The arrears of maintenance.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">The outstanding school fees.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">Sums calculated to cover maintenance and school fees between now and the final hearing in February 2011.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">Costs previously ordered.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.48in;text-indent:-0.49in">e)</num>
+		<content>
+		  <p class="ParaLevel3" style="margin-left:1.48in">Any costs ordered as a consequence of this judgment.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The remaining funds will stay frozen in court until the final hearing.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Any application by LF for judgment against H in respect of the alleged debts or any application by him for a charging order over the frozen funds is to be transferred to the Family Division and listed to be heard at the final hearing in February 2011.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I will hear counsel as to costs and as to the form of the order.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

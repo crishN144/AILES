@@ -1,0 +1,917 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2013/1106"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2013/1106"/>
+	  <FRBRdate date="2013-02-06" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1106"/>
+	  <FRBRname value="PS v LP"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2013/1106"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2013/1106"/>
+	  <FRBRdate date="2013-02-06" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2013/1106/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2013/1106/data.xml"/>
+	  <FRBRdate date="2024-11-06T23:30:51" name="transform"/>
+	  <FRBRdate date="2024-11-26T02:36:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2013-02-06" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewcop" href="https://www.gov.uk/courts-tribunals/court-of-protection" showAs="The Court of Protection"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ps" href="" showAs="PS"/>
+	<TLCPerson eId="lp" href="" showAs="LP"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-cardinal" href="/judge-his-honour-judge-cardinal" showAs="HIS HONOUR JUDGE CARDINAL"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCOP</uk:court>
+	<uk:year>2013</uk:year>
+	<uk:number>1106</uk:number>
+	<uk:cite>[2013] EWCOP 1106</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>459d800329556008adeea76dc5e632bf0eab37f4ea745278456715e2a303e669</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .ListBullet { margin-left: 0.25in; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:right;margin-right:-0.2in"><span style="text-decoration-line:underline;text-decoration-style:solid">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid">11997034</docketNumber></p>
+      <p style="margin-right:-0.2in"><courtType refersTo="#ewcop" style="text-decoration-line:underline;text-decoration-style:solid">COURT OF PROTECTION</courtType></p>
+      <p style="margin-right:-0.2in"><span style="text-decoration-line:underline;text-decoration-style:solid">BIRMINGHAM COUNTY COURT</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Birmingham Civil Justice Centre</span></p>
+      <p style="text-align:right;margin-left:2.91in;text-indent:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Priory Courts</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">33 Bull Street</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Birmingham</span></p>
+      <p style="text-align:right;margin-left:2.91in;text-indent:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid">B4   6DS</span></p>
+      <p class="CoverText">Date: <docDate date="2013-02-06" refersTo="#judgment">6<span style="vertical-align:super;font-size:smaller">th</span> February 2013</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-his-honour-judge-cardinal">HIS HONOUR JUDGE CARDINAL</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.45in 3.7in 1.05in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#ps" style="font-weight:bold">PS</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- v -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#lp" style="font-weight:bold">LP</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Transcribed from the digital recording by Marten Walsh Cherer Ltd.,</p>
+      <p style="text-align:center">1<span style="vertical-align:super;font-size:smaller">st </span>Floor, Quality House, 6-9 Quality Court, Chancery Lane, London WC2A 1HP</p>
+      <p style="text-align:center">Telephone No: 020 7067 2900.  Fax No: 020 7831 6864</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">MR. PATEL of counsel appeared for the Respondent LP (by the Official Solicitor).</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">MS. HEWSON of counsel appeared for the Respondent PS.</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">JUDGE CARDINAL:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is a very tragic and distressing case that has caused me to give it a great deal of anxious thought. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In June 2008, LP, the person with whose welfare I am concerned in this case, left her husband and family in South East London and moved to the Midlands with PP, a man with whom she had had an affair and with whom she decided to cohabit.  She proceeded some days later to go with PP to contact the police and to indicate that she and he felt in danger from LP&#8217;s family who, they were sure, would seek to trace them.  LP alleged a history of abuse and domestic violence at home and did not wish to return or even let her husband and family know where they were.  At the time she left her husband and family she was aged fifty nine and is now sixty four.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I add a little more about the background to the family history.  LP was born on 25<span style="vertical-align:super;font-size:smaller">th</span> November 1948.  Her parents were EH and RH.  She has a brother, R, and half sister, G, by her father&#8217;s first marriage.  BP, her husband, says he and LP were childhood sweethearts.  She left school to marry him on 26<span style="vertical-align:super;font-size:smaller">th</span> March 1966 at the age of seventeen, then being pregnant with PS who is the Applicant in this case.  Both families came from South London and the married couple continued living in South London for the whole of their married life.  They had four children, PS, JP, JR and KR.  PS has four children, N, J, D and D2.  N has a son, B.  PS&#8217;s other siblings each have two children of their own.  So there are, in fact, ten grandchildren in this case.  As Miss Hewson says, this was a typical extended working class London family where everyone lived close to each to other and were in and out of each other&#8217;s homes a great deal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She reminds me too of other matters, including the criminal record of PP.  That is, in my judgment, not relevant to the issues at stake in this case.  I note, however, that when LP left her family BP filed a missing person&#8217;s report with the police, and his granddaughter, N, filed a complaint of alleged sexual assault by PP.  There was said to be some contact thereafter between LP and her parents and her brother, R.  N, LP&#8217;s granddaughter, says that LP telephoned her for her eighteenth birthday, though PP disputes this.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Disaster struck on 25<span style="vertical-align:super;font-size:smaller">th</span> August 2008 when LP suffered a cerebral aneurism which has left her severely disabled. She is gravely impaired. It is, I understand, impossible to obtain from her any indication of her wishes at the present time.  She is said to be in need of twenty four hour care and resides at a nursing home provided for by the relevant PCT and she is fully CHC funded.  It is uncertain whether she knows who or where she is.  There is a possibility of an operation to deal with her hydrocephalus but it is by no means certain that this will improve matters. There is a chance it may improve communication and a little improvement might enable her to show like or dislike of ideas or people but any changes are said to be likely to be small.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Since her illness and subsequent disability she has continued not to see her husband or any of the PS family despite them tracing her.  The local authority and, indeed, the PCT approached the matter understandably on the basis that she did not wish to see them and she wanted a permanent parting of the ways.  To put this aspect of the matter shortly, the family had discovered where she was and is, attended the nursing home and sought to see her.  The local authority ensured that they did not according to what they knew of the express wishes of LP when able to state them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The local authority began Court of Protection proceedings, those which are now before me, to determine a number of issues, including residence and, above all, whom LP should see.  I have generally case managed the matter throughout, though I transferred it to the High Court when a number of difficult case management issues arose.  The matter was dealt with robustly by Hedley J as a result of which the case has now resolved into a dispute over a narrow and difficult issue whether the best interests of LP might be served by a reintroduction of familial relationships.  The only remaining parties, as a result of that, are PS and LP, represented by the Official Solicitor.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What is clear is that I do not have to decide why LP chose to leave the family home.  There is nothing to suggest that in leaving her home and children she lacked capacity so to do or that her will was in some way overborne by PP.  There are a host of possible explanations for what happened but my task is not to investigate them.  As Hedley J said when he looked at the case:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.39in">&#8220;The quest for a rational explanation is likely to be completely futile.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am, therefore, not tasked with an inquiry into the events of June 2008, whether they are explicable or not, or whether or not LP&#8217;s account to the police and others was truthful or accurate.  Moreover, all are agreed that the home where she lives is appropriate and she seems well cared for.  There is no dispute today as to her residence or care plan at the present time, though I suspect that might arise in the future, depending upon my decision today.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The dispute relates simply to contact but I remind myself that Hedley J indicated there was too short a period between June and September 2008 in which the court could be clearly satisfied that the intentions expressed in June were going to persist indefinitely.  I shall, of course, consider the evidence in detail and draw appropriate conclusions. I shall then apply section 4 subsection (6) in particular of the 2005 Mental Capacity Act in determining the best interests of LP and deciding whether or not contact should be resumed in some way.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As the proceedings stand, of course, they are between the Official Solicitor for LP and PS, the daughter of LP, and her husband but my decision of contact has inevitably ramifications for it affects LP&#8217;s husband and the remainder of his children plus the extended family.  This is a case where there are many children and grandchildren involved too and many of the family wish to see her, particularly, of course, BP.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The wishes of LP, though the genuineness of these is in dispute, are apparently to have little to do with her family, save her brother, R, her parents &#8211; I think only her father now remains living &#8211; possibly her granddaughter, N, and possibly her great grandchild, B.  I say this in the light of whom she contacted or referred to after departing because on 27<span style="vertical-align:super;font-size:smaller">th</span> July she apparently signed a document entitled, &#8220;Last wishes should my ex-family find Paul and me,&#8221; and on 28<span style="vertical-align:super;font-size:smaller">th</span> July 2008 she prepared a document entitled, &#8220;Last Will and Testament.&#8221;  The letter of wishes is badly spelt and drafted.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The will is clumsily drawn and is likewise written in poor English. It is rambling in parts but that reflects an ignorance of the law and legal niceties rather than an incapacity in some way in that she leaves any inherited monies &#8220;in trust&#8221; for B, her great grandson, she leaves a necklace to DP, the wife of PP, and everything else to PP, her cohabitee.  There was gift over in the event of PP&#8217;s demise to R.  The will criticises &#8220;my ex-husband and siblings&#8221; &#8220;because of the abuse I received from them.&#8221; It does not mention her children but I suspect that is because she did not appreciate the meaning of the word &#8220;siblings.&#8221;  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The letter of wishes recounts a history of alleged physical and mental abuse from JR, PS, JP, PS&#8217;s son, and grandson, D2.  It refers, in confirming her problems, to Detective Sergeant NL at a police station. It relates how she built up a relationship over the years with PP despite physical and mental abuse from BP.  It says that her parents and her brother, R, were pleased that she had found happiness with PP.  It ends by resuming criticisms of PS, JR, JP, D2, KR and her husband.  There is no doubt that the PS family and BP will have found this letter very upsetting.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The PS family doubt the helpfulness or veracity of these documents.  They say the words used, the feelings expressed and the style of the documents are the work of PP who has exercised improper influence over her.  Those are not the true wishes and feelings of LP.  My task, of course, is not to look so much at the past as to what is in the best interests of LP now.  Should I uphold the alienation of LP from her family?  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I shall, of course, have to look at what LP&#8217;s views were immediately before the catastrophic stroke from which she has suffered. I cannot tell what her views are now for Dr. R., the consultant neuro-psychiatrist, tells me she is unable now to express opinions or choices.  It is important to remember that I must look at the matter dispassionately and that no matter the distress I cannot look at the case from the point of view of the best interests of BP, PS or any of the deserted family.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Official Solicitor has taken the entirely appropriate stance that the evidence should first have been tested and then submissions made in the light of it but his stance is that contact should not take place.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I shall proceed then to look at the evidence.  What standing should the will and letter of wishes have?  I look at them in the context of everything else that has occurred. I also ask myself whether I can conclude that the reintroduction of contact could be beneficial in the best interests of LP and I shall weigh matters up after careful consideration of all the evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So I turn to the evidence that was given.  I, of course, have seen a large number of other written witness statements where the witnesses have not appeared before me but I consider, as apparently Miss Hewson and Mr. Patel have, that it is sufficient in the round to look mainly at the evidence from those from whom I heard orally in court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So I come to PS, the Applicant.  She is one of the daughters of LP and I have seen some four statements from her. In these she has expressed her immense surprise and shock at her mother&#8217;s departure from the family home in 2008 and her conviction that this was due to the influence and direction of PP.  She explained to me how she had attempted to trace her mother and how devastated the family felt at mother&#8217;s disappearance.  She asserted that the last wishes document does not contain her mother&#8217;s own words.  The allegations in it were simply untrue. She was heavily influenced, she felt, by PP, a man with a criminal past.  The language was not hers.  &#8220;I know my mother,&#8221; she said and she doubted she made the documents.  The letter of wishes, she said, was nasty and hurtful and out of character. It could be that PP had pressurised her to break all contact with family for all her family, she said, is a close-knit one.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She had, once these events had taken place, gathered in various pieces of family evidence at the request of the then social worker involved.  She had told him that her mother had had no reason to behave precipitately and that she had never been harmed by any of the family.  The mother&#8217;s departure had been &#8220;completely unexpected.&#8221;  It was only after she left that a letter from her was found but, &#8220;My mum is not that sort of person,&#8221; she said.  She had given no indication of discontent before then and was doting on her new great- grandson, B, whom, of course, she had left behind. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But, of course, there was no contact with her, or her father, or the rest of the family once she had left, not until she had had the stroke and not, of course, thereafter, though, of course, there was contact with LP&#8217;s parents, with her brother and said to be with N. She said that N had been contacted on her eighteenth birthday and had had a &#8217;phone call and likewise there had been calls to LP&#8217;s father in about July of 2008.  No-one else had heard from her at all. It was in November 2012 that she had learnt of a telephone call to the grandfather but she could not explain to me, rather curiously, why it was that in her written statement she made no mention of the telephone call on her eighteenth birthday to N. She was asked about the contact with LP&#8217;s brother, R, and was surprised about that because she said that he was not close to her.  She conceded, however, that it was the case that LP had contacted members of the family on her terms and chosen whom to be in contact with;  N [if she is right about that] her parents and her brother.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I cannot, of course, interpret those episodes of brief contact as signifying any desire to effect a reconciliation with the remainder of the family, rather the opposite. It seems to me LP was only contacting those whom she wished to.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">PS was sure that PP had written the letter of wishes and the will for her mother.  She would not write in that way, the allegations were untrue, he had controlled her.  Was it not the case, she was asked by Mr. Patel, that, really, she does not know her mother well?  She would not accept that because she had spent so much time with her mother and, with respect to her, that did not make sense because her mother kept from her an enormous life changing secret, her plan to leave, and whatever her proximity to her mother in South East London, it is plain that she did not fully understand her mother&#8217;s plans for the future.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">PS alleged her mother did not use certain expressions so the expression &#8220;honeybun&#8221; in referring to PP in the letter of wishes was simply not a word that she would have written but, as Mr. Patel has pointed out, different people use between each other different terms of endearment.  I would not expect PS to know precisely what her mother and the latter&#8217;s lover called each other.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What about the other evidence about her mother complaining at her treatment at home?  The truth was, said PS, her mother was &#8220;spoiled by us and my father.&#8221;  I found that assertion unpersuasive for it seemed to me to be at least an exaggeration.  She did not elaborate about how her mother had been &#8216;spoiled&#8217;.  It was, of course, very upsetting, PS said, that her mother had written that she did not want to have contact.  All the allegations about the family were lies, she said.  She did not explain why it was then that LP had said her parents and R were supportive of her decision to move.  She did not think R bothered with her, as she had said earlier, but it seems to me this is a lady who in her letter of wishes has carefully chosen whom to criticise and complain about.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the will, she was sure it was drafted by PP.  PS thought it was strange that her mother had completed a will at all on 28<span style="vertical-align:super;font-size:smaller">th</span> July 2008.  In it, of course, she had made a trust fund for her great-grandson, B, who had suffered from a hole in the heart. He was only two at the time of the making of the will.  But, of course, that action is consistent with a loving great-grandmother not blaming her great-grandson for the perceived sins of the remainder of the family.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">How would she react if the judge came to the decision that there should be no contact between her mother and her mother did not wish to have such contact?  She did not accept it could be the case.  She told me her mother and father had been together since her mother was fourteen and she simply did not accept that the letter and the will were documents that she really intended to make.  She still thought it was in her mother&#8217;s best interests to see her.  &#8220;I do want to see her,&#8221; she said and I am sure she does.  She did not accept that the documents could possibly have been written for her and she just signed them. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I listened very carefully to the evidence of PS.  Of course, she is plainly upset by the plans of her mother and the desire not to see the family but, of course, I cannot rely on PS&#8217;s wishes alone to see her mother. I must assess what is in the best interests of LP, taking into account the appropriate statutory criteria.  PS could not accept or believe that her mother her taken against them in the way that she had, although it seems to me that her wishes are plain by her actions and her words.  If I were now to uphold PS&#8217;s views, then, of course, I would be completely contradicting the apparent wishes of LP unless I am satisfied that those wishes have been overborne;  in other words, PS did not really in her evidence convince me that I should interfere in the way she suggests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">BP is the husband of LP and has been with her in a relationship of sorts for some forty five years.  I accept his word that the parties got together when LP was only fourteen and they married very young.  He has made a statement and a handwritten statement again and a typed undated one.  I became concerned during the course of his evidence as to his presentation.  He told me he had had two strokes and that seemed to me to be reflected in his inability always to answer the question, his tendency at times to be tangential in his answers and his not always being able to formalise a sentence easily comprehended.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He gave an account of having had extensive holidays over the years with LP.  He thought that PP was dishonest. He told me that he was devoted, nonetheless, to his wife.  He had been kind to PP and had employed him after a criminal conviction.  He was very concerned that, despite his kindness to PP, he had manipulated his wife into leaving as she did and making the allegations that she has.  Like his daughter, PS, he emphasised he simply did not understand why his wife had gone.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She had left a letter behind using language that was not hers.  &#8220;I know her.  We&#8217;ve been together for forty five years,&#8221; he said, but he could not remember precisely what the letter had said and the letter, curiously, had been lost, important though it was and is.  He recalled being very distraught but became very vague when pressed by Mr. Patel for more details about what his wife had said.  He thought the letter did not mention PP.  So why did he conclude straightaway, as he said in his statement, that LP had run off with PP and gone round to see PP&#8217;s wife?  That did not make sense to me.  Why suspect that there was an affair when there were no apparent grounds?  He could not tell me. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He then said he had a second letter from his wife at a time when she was living in Gloucestershire but he had lost that letter too and he appeared to be saying, although I was not quite sure from his answer, that he had thrown both letters from his wife away.  He had showed the second letter to his family -which, of course, conflicts with the evidence of PS who did not admit to any other letter being received from mother. He could not explain why in his written evidence he had not mentioned this second letter from Gloucestershire before and became more confused in his account. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He was adamant, however, that PP and not his wife wrote that letter of wishes.  &#8220;He&#8217;s a clever man and he tells lies,&#8221; he said.  The letter was not the sort that his wife would write.  She could hardly write letters and did not write very well.  She would have been not able to say those unpleasant things.  He did not understand why his wife had left him and never would. He could not get over it.  I conclude, however, that he seemed to me to be genuinely upset at his wife&#8217;s departure and fond of her.  PP had manipulated LP, he said.  He was a hundred per cent sure of that.  He had managed it over a ten year period.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But then he said his grandson, D2, had said that there was something going on to him and he had not believed him, he had been too busy at work. That was a puzzling and strange answer.  If his grandson warned him that there was something going on between LP and PP, why not do something about this?  Why not ask LP? He did not explain that to me and I became a little suspicious that there was more to the case than he was letting on to me.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to LP&#8217;s comments about him, he said, &#8220;I did nothing to my wife.  She was just putting down PP&#8217;s words.&#8221;  Like his daughter he did not seem to understand that his wife could have come to a firm conclusion about the family and, even if those conclusions were irrational, that could be based upon a false understanding. He took the view that there was no reason why she should behave as she did and I found, therefore, his evidence only at times helpful.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">JR is another daughter of LP and BP and had prepared a statement of            9<span style="vertical-align:super;font-size:smaller">th</span> November.  There she emphasised the past closeness of her parents and, again, said the letter of wishes and her mother&#8217;s will were not her writing.  She, too, expressed the wish to see her mother.  Her mother was not intelligent or academic and she thought the words used were simply not hers in the letter of wishes; someone else had written it.  But she agreed her mother over the years had needed help in writing letters but she said she was plainly told what to write.  She would not accept the letter of wishes could possibly express the true wishes and feelings of her mother.  She thought it incomprehensible that her grandsons and great-grandchild had been left behind.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am not quite sure how much further that evidence took me, carefully though I have weighed it. It seems to me none of the family seems to comprehend or want to comprehend that LP could have come to a firm decision not to wish to see them whether or not that decision was wise at the time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">PP is the partner of LP, the man who ran off with her in June 2008 and who has remained loyal to her to this day.  During the course of his evidence his strong feelings for her became very clear and his ardent wish for her to have a further piece of operative treatment which might just improve her condition. He told me he continued to visit her every day, though it seems to me his hopes of a reasonable recovery are somewhat forlorn.  I have read his statement of 11<span style="vertical-align:super;font-size:smaller">th</span> November 2011 and read his responses to the evidence of the experts, to which I shall, come suggesting that he had written and not LP the will and the letter of wishes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The nub of his case is this:  he had come to love LP over the years, particularly since the 1990&#8217;s.  She had been subject to emotional and physical abuse by her husband and by her daughters, PS and JR, and her grandsons.  Others in the family were disrespectful.  By May 2008 LP had decided to leave home and he had made arrangements for them both to take on a home in the Midlands area.  On 2<span style="vertical-align:super;font-size:smaller">nd</span> June 2008 they had left, leaving notes for their respective spouses.  LP remained scared of her family so they left instructions with all the utility companies serving the new house that in no circumstances should their address and identity be disclosed to anyone else.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A few days after they had moved, they had looked at the old mobile 'phone SIM cards that they had and they discovered death threats to LP and, as a result of that, they went to Cannock Police Station and saw Detective Sergeant NL.  He had told them there was a warrant for PP&#8217;s arrest, although the detective sergeant subsequently told me that was not the case.  They made a statement to him of how they came to be together.  He then said it was on a second occasion he had to go back to the police station to discuss an allegation of sexual abuse by him of N, the daughter of PS.  That, too, appears to be inaccurate because there are clear police records that show me that the officer interviewed him that very day for the first time about these allegations, although, of course, he has not been charged.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">PP denied being aware at all of the letter of wishes and the will prepared by LP.  He did not type it or draft it, he said.  It was only after she had her catastrophic stroke that his friend, C, had mentioned matters to him.  He had no part in the will and did not forge it in any way.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He accepted that in moving away from London he and LP had deserted their respective spouses.  He had not, however, been employed by BP, contrary to what BP said.  He had simply assisted him and then taken over part of the estate agency self employed work that he did.  It is not the case that BP had found him his job and he had badly repaid his generosity.  LP&#8217;s family would not be shocked by the departure, merely surprised.  BP had relied on her and kept her under strict control and he did not accept that BP was distressed, though I have to say, for my part, I find that he was.  He accepted others were hurt, however, by the move.  He had not told his wife but had simply left her a note, saying that his love for her had faded over the years largely because he had become a workaholic.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In any event, LP&#8217;s family had sent threats thereafter and there had been death threats but I notice he does not seem to have disclosed death threats to the officer or shown him any threatening texts. It was nine days after their move that they went to Cannock Police Station.  LP had not wanted to take any threats to her any further but he denied being questioned that day about the allegations of abuse by N.  They had gone to the police station that day with a friend, MP, and he had simply been questioned about the alleged abduction of LP.  He had been taken round to the custody suite at the police station and LP had remained in the public area. That part of his account was later confirmed by the detective sergeant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When she was taken ill, LP had first been diagnosed merely with sinus problems. It had been some days afterwards that she had had a stroke but there had been no warning signs of it before she collapsed on 26<span style="vertical-align:super;font-size:smaller">th</span> August 2008.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He maintained his denials of having any part to do with the letter of wishes or the will and he disputed the findings of Professors C and PJ to whom I will come. He had neither typed nor drafted those documents. He did not even know about the will until 2011.  He denied forging either document.  LP was terrified of her family and had made that plain to several people.  The will was hers, he had no part in it.  They had been to see a solicitor, as it happened, about a will but the costs were too much.  He denied that the terms of the will were not in LP&#8217;s language. He used to help her, he agreed, in writing letters but he did not think the drafting was his.  He could not comment on JR&#8217;s assertion that his mother would not write in that way but it was true to say that she would call him honey-bun or teddy bear.  The criticisms of her family were as she had expressed them to him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He had not controlled LP in any way, he had not directed her telephone calls.  LP would say when they were together about once a week, &#8220;Can I &#8217;phone my parents now or my brother, R?&#8221; and he would go outside while she did so. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He was shown two documents that LP had written at D20 and D21 in the bundle.  D20 is part of an old letter, D21 is a postcard. It was put to him that the style of the English was very different from that in the will and the letter and wishes but it seemed to me that the letter was too short to be a compelling example, as was the postcard.  He denied that he had left debts behind for BP to pay.  The time they had been together they had been reliant only on pension credit, he said.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Even when ill, the mention of BP and PS and the rest of the family caused LP to be agitated and he gave me an account that when their names were mentioned she would react in that way, though she was better when her parents were mentioned.  That, I am afraid, does not accord with the report of Dr. R to whom I shall refer briefly later.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have reflected upon the evidence of PP.  I consider that his memory is defective in some parts. I am sure the detective sergeant is more accurate when he said he interviewed him that first day they met about N&#8217;s allegations and that he did not mention death threats then to the officer.  But I have concluded also that he is motivated by a deep love and concern for LP.  There is no doubting his commitment to her in terms of seeing her regularly. He is plainly concerned for her welfare and has remained extremely loyal despite the catastrophic stroke.  His account of LP&#8217;s ill treatment by the family is supported, of course, by the account of KM, to which I now come, and the detective sergeant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">KM was the witness to the will and the letter of wishes to which I have referred. I have read his statements of October 2010 and 2011. He knew PP through the Sealed Knot Society to which they all belong.  In his first statement he refers to taking a photograph of LP and her being concerned to tell him how badly how family had treated her when she was with them.  In the second he explains how he and CP came to sign a document as witnesses and he agreed he had signed as a witness both the will and the letter of wishes, respectively dated 27<span style="vertical-align:super;font-size:smaller">th</span> July and 28<span style="vertical-align:super;font-size:smaller">th</span> July.  It seems that he did not read either document and did not know precisely what they said.  He certainly did not know he was witnessing a will.  He was certain, however, that PP was not present when he witnessed documents. He was not asked to have any part in the drafting of it whilst he was there.  He still visits LP at the nursing home.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If his account is correct, it seems to me that it does not matter who drafted those documents, LP signed them and signed them of her own free will.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Detective Sergeant NL is the police officer concerned with this case based in the Midlands area.  I have seen a statement from him, plus relevant copies of his notebook entries, plus a supplementary statement. He was on duty when PP and LP attended the police station in June 2008.  It appears that PP, in fact, attended twice, once in June 2008 and then later in the year to deal with supplementary allegations as to abuse.  What is clear is he gave an account of interviewing PP as to the allegations of N on the first date.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is clear too from the evidence that PP and LP attended upon him voluntarily on that date and it is not true that they attended because they were required to.  They reported they had fled from their homes in South East London and reported that they were fearful of LP&#8217;s family.  LP gave an account to him of domestic violence and abuse from her husband BP.  It was in the course of the police checks that followed that the missing person report was unearthed and the allegation of sexual abuse.  So it is clear to me that when PP says that he gave no interview as to the alleged sexual assault on 11<span style="vertical-align:super;font-size:smaller">th</span> June he was mistaken and his memory betrays him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have noted very carefully what the detective sergeant says, however, about the nature of his conversations with LP and he says this (page B263 paragraph 7):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;It was clear to me that LP was very clear in her own mind that she was a victim of domestic violence and had a real fear that she would be subject to violence again if her family were to discover her present whereabouts.  At no point during the conversation did I get the impression that PP was getting her to say something which she did not believe or was attempting to direct what she said.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">And he continues on page B265:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">&#8220;I have a clear recollection about the interviews and can confirm that my impression from the words given by PP and LP, the way in which the information was provided to me and the body language used by these two individuals when they were giving me this information is that they were both voluntarily giving me information which they both considered to be true.  It appeared clear to me that LP was happy to speak for herself and was able to explain her own situation.  There was nothing in the interview which suggested to me that she was deferring to PP or giving information to me which he was forcing her to provide.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">And finally:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;In summary, therefore, I confirm there was nothing which arose in the interview I had with LP and PP to suggest that LP lacked capacity or was acting under any form of inappropriate influence from PP or any duress.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He conceded that, when he said in his notebook that PP had <span style="font-style:italic">handed himself in</span> on that date in June, he was inaccurate; it was badly phrased.  They had attended voluntarily and they had not been aware they were to face an allegation that day.  No formal complaint of domestic violence was, however, raised by LP so he had kept no notes of the interview but he could clearly recall it. He appreciated that PP thought the allegation of sexual assault was made on a different date but that was not the case.  PP and LP had thought the allegations made by the family were made only to try and find out where they had gone to.  So, as a result, only basic information was conveyed to the family as to their whereabouts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">His perception of LP was that she was very concerned about her family and feared repercussions.  There was no sign of physical or mental illness he noted.  She was clear she had suffered domestic violence in the past and PP feared violence too.  He was unaware that the relationship between LP and her husband was of forty years duration and did not discuss that with them.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He later filed his fuller statement from which I have already quoted.  He regarded his first statement as merely a memorandum but he had a clear memory on which he based his evidence. He did not recall their friend, MP, being with them at the police station but then added, &#8220;She may have done, I do not recall,&#8221; for he did know her.  He did not recall any reference being made to death threats so PP is clearly wrong about that; he would have taken such information very seriously.  He was satisfied there was absolutely no duress applied to LP.  He is an officer, he told me, very experienced in dealing with vulnerable people, those who have been subjected to rape, domestic violence or honour based violence.  There were no signs of PP putting words in to LP&#8217;s mouth, no sign of telling her what to say.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I was very impressed by the evidence of this detective sergeant.  I am sure he is telling me the truth and that he is accurate in what he says. I accept what he says entirely.  That means that PP has exaggerated when he talked about death threats and was inaccurate when he talked about being interviewed at a later date about N&#8217;s allegations but it also means that LP was absolutely clear and voluntarily gave a clear account of her wishes and feelings in early June 2008.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That deals, of course, with the evidence of the witnesses to the case itself but since then, of course, there have been two expert reports obtained by the solicitors for the PS family in connection with the letter of wishes and the will and I have read reports by Professor C and by Professor PJ. I shall in due course use the terms W1, meaning the letter of wishes, W2, meaning the will, and S1 or S2 for the statements of PP when quoting Mr Patel.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">How did Professor C&#8217;s evidence assist me?  He is the Emeritus Professor of forensic linguistics at Aston University and wrote a report of 4<span style="vertical-align:super;font-size:smaller">th</span> October of last year. I have no doubt about his expertise.  His view was this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;The linguistic evidence is consistent with the hypothesis that the wishes, will and PP&#8217;s text were all typed by the same person.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>But he was also cautious and he added this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">&#8220;There are, however, no distinctive linguistic features to enable me to express an opinion on whether the author of the three texts was the same.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>So he is much more cautious than Professor PJ and Professor PJ&#8217;s evidence, is therefore, the more important.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Professor PJ gave evidence through the court TV video link.  He is an Associate Professor of computer science at Duquesne University, Pittsburgh, USA.  His specialism is the assessment and evaluation of authorship/ attribution of written pieces of work and he is the author of a programme called JGAAP, Java Graphic Authorship Attribution Programme, a computer authorship analysis system funded by the National Science Foundation of the United States.  So his work, to quote Miss Hewson, is &#8220;cutting edge forensic linguistics.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He was asked by those acting for PS to consider the last wishes and the will and the statements of PP.  He reported on 27<span style="vertical-align:super;font-size:smaller">th</span> November to the effect that the letter of wishes and the statements were, in his opinion, written by the same person;  in other words, that PP is the true author of the letter of wishes.  He did not form the view, however, that the will was written by him but that was because it was of a notably different genre; i.e<span style="font-style:italic">.</span> a written will in legalistic phrasing.  But he did not reject the hypothesis that all three could have been written by the same person. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In addition to his first report, I have read questions put to him by the Official Solicitor and read his replies of 4<span style="vertical-align:super;font-size:smaller">th</span> January and I have seen his supplementary report.  I have noted that he accepted that a person is likely to use similar language and phraseology to that of his partner but he took the view they were not likely to be identical.  That supplementary report to which I have referred was filed on 25<span style="vertical-align:super;font-size:smaller">th</span> January. He had prepared that as a result of seeing an additional document of PP.  He ran the same tests as before and noted again that he thought the same person was the author of that second statement. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He maintains his conclusions on this basis:  of sixteen tests that he performed, fourteen, he said, show the authorship was similar in that of the letter of wishes and PP&#8217;s two statements; and he became quite forceful and firm in his conclusion that PP was, indeed, the author of the letter of wishes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have to say the professor&#8217;s written reports and his analyses are not an easy read.  He has examined in his reports the difference between the style and presentation in various documents in the sixteen tests he conducted and come to the conclusions I have set out.  At answer eighteen to the questions raised by the Official Solicitor, he sets out the experiments undertaken as to how he looked at, for example, vocabulary, sentence lengths, word pairs and so on.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am quite unable to assess the validity of this analysis as a discipline. It is new to me and I know of no UK expert, save the related expertise of Professor C, to which I shall again come, but I do not know the quality and reliability of this kind of expert evidence for it is a relatively new specialism.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I turn further to the live evidence of the professor.  He told me that he was 99.99 per cent certain that the author of PP&#8217;s statement was the author of the letter of wishes- a very strongly expressed view.  Yet he had to concede that he had not given evidence in a court before, he had merely been involved in the preparation of work for litigation in the USA.  He accepted, of course, that in the USA experts at times are used as a form of <span style="font-style:italic">hired gun</span> and they are not always wholly independent but he appreciated, he said, his duty to seek justice.  He did not think, however, that his analyses had in any way been one-sided.  He conceded, of course, that he had had to update his computer programme to improve accuracy and, of course, it was not him but the computer that effected his analyses. He simply interpreted them.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He was associated with Professor C at Aston University in England and said he had undertaken this work &#8220;as a favour to a colleague.&#8221;  Professor C had identified the documents and what he had to see to compare and contrast.  He agreed he would need to know what the allegations were before he could effect his analysis and to see what were, indeed, documents had had a common author.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Was there not a risk of bias in him knowing the circumstances and having the instructions from Professor C?  He took the view that there was not. He accepted that in 2008 his computer programme had required some amendment, hence a further grant from the government, but he had written the current programme which he thought was accurate. Indeed, he asserted that system now was second only to DNA testing in its reliability, a very confident claim indeed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So why was it that he was not greatly involved in advising in courts?  He said he had written a number of reports and there are other practitioners who do this sort of thing.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He repeated his view that it was more likely than not that the author of PP&#8217;s statements was also the author of the letter of wishes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was much more difficult, he said, to attribute the authorship of the will to the same author because of its different genre.  The tenses used were different.  Other documents were in the past tense but this was in the future.  It was a much more formal document compared with the letter of wishes.  He did not think, however, that LP might just have picked up the format of PP&#8217;s presentation of language and perhaps copied his style by simply relying on him to learn how to write wills, <span style="font-style:italic">et cetera</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What do I make of the professor&#8217;s evidence?  There are elements of it that cause me some doubt as to its independence so I shall analyse these later.  I bear in mind we are dealing with &#8216;cutting edge technology&#8217; and I shall come to that too but, for reasons I shall come to, I am not persuaded that, even if his evidence is absolutely right, that it would be right to conclude that this evidence should convince me that the documents are PP&#8217;s alone and that this should decide the case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So, having analysed the evidence that I have had before me, I must now analyse the facts that I have heard and the arguments put to me from I have drawn these conclusions about the matter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, I do not doubt the family of LP have shown a considerable degree of care and concern for her in the proceedings before me.  I do not think that BP or PS or anyone else in the family poses a physical risk to LP now, whatever the past history may be about which I make no findings.  The question for me to look at with care is what is in the best interests of LP as to contact.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I note, of course, that the husband and family of LP are unsophisticated.  BP struggled to help me at times during the course of his evidence, although I have sympathy because of his having had two strokes; they have plainly affected his speech, his memory to a degree and his cognitive functioning, but I accept, of course, that his concern for his wife was palpable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Miss Hewson, second, describes that any decision I should make that BP and PS should be &#8220;banned&#8221; (her word) from contact would be &#8220;a draconian level of interference in LP&#8217;s private and family life,&#8221; and she seeks that I should draw that conclusion.  Of course, it would be a breach of Article 8 rights were it the case that LP&#8217;s wishes were not being considered and assiduously weighed up by me and I hope in due course I will come to a careful consideration of the Mental Capacity Act but that Act is compliant with the Human Rights Act and I shall apply, in particular, section 4(6) in due course.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But I remind myself of the decision of the Court of Appeal in the case of <span style="font-style:italic">K v LBX</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/79" uk:canonical="[2012] EWCA Civ 79" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA (Civ) 79</ref>.  In that case the Court of Appeal observed that the right approach under the 2005 Act was to ascertain the best interests of the incapacitated adult on the application of the section 4 checklist.  The judge should then ask whether the resulting conclusion amounts to a violation of Article 8 rights or if that violation is, nonetheless, necessary and proportionate. In that case Black LJ pointed out that: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;Giving priority to family life under Article 8 by way of a starting point or assumption risks deflecting the decision maker&#8217;s attention from one aspect of Article 8, private life, by focusing his attention on another, family life.  There is a danger it contains within it an inherent conflict for elements of private life, such as the right to personal development and the right to establish relationships with other human beings in the outside world, may not always be entirely compatible with the existing family life and particularly not with family life in the sense of continuing to live within the existing family home.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Third, Miss Hewson contends the court should not act as some sort of divorce court.  Well, of course, it should not and I am not, in deciding as I do, decreeing any form of divorce or judicial separation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But, fourth, there is no doubt in my mind that LP&#8217;s wish not to see her family was quite genuine and of her own volition at the time she expressed it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I say this because I accept the account of Detective Sergeant NL who seemed to me to be entirely credible. Moreover, I have noted his own expertise in dealing with the vulnerable and his being used to dealing, for example, with honour based violence so he would be more than aware of the possibility of  a person&#8217;s wishes being overridden by the controlling or threatening behaviour of a member of the family, partner or spouse.  No alarm bells rang for him.  He saw no need at any time to interview LP on her own.  Furthermore, she had the opportunity of saying she was acting under some kind duress when he took PP to the rear of the police station to interview him about the alleged sexual offence and LP said nothing to the desk sergeant or anyone else.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Moreover, I must assume that at the time when she left her family and ran away with PP and at the time she saw the detective sergeant and when she signed the will and letter of wishes she has to be assumed to have capacity to make the decision that she wanted nothing more to do with her family unless the contrary is shown and it has not been.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fifthly, I do not find PP to be a dominating or bullying man.  True he was indignant when Miss Hewson put to him that he had forged the will and the letter of wishes but he showed no sign of being intimidatory or controlling;  rather I noted a man deeply affected by the catastrophic injury to LP and hoping, perhaps futilely, that she would somehow improve and be with him.  He plainly has no financial motive in running away with her.  Not only has she no assets but I understand he has lived on pension credit alone.  This man is not a so called gold digger.  But he is a man whose memory is inaccurate at times. He cannot have been asked about the sexual assault allegations of N in late 2008.  He did not raise with the officer the issue of death threats in June 2008. There was no warrant for his arrest as he claimed. So he has tendency to misunderstand and overstate and his memory is at fault at times.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But, sixthly, for all of that, I am constrained to find that LP signed the will and the letter of wishes and I am so constrained because the signature is similar to the untrained eye, albeit smaller, to the writing on the one postcard and letter of years ago that I have seen.  In addition there is the clear evidence of KM.  He, of course, did not know what he was witnessing but it is quite clear that LP wanted an independent witness and his account is clear and coherent.  He was certain that PP was not there when the documents were signed so there is no obvious evidence of immediate intimidation or improper behaviour.  If LP signed the documents of her own volition, then they must, on the face of it, be found to be what she wanted to say.  In other words, she did not want to see her family, and that includes her husband of many years standing, and that she wanted to say the bitter things about the family that she then did.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Seventh, I do not find that the poor drafting and inelegant expressions to be found in the letter of wishes and the will should immediately lead me to the conclusion that they are of no effect.  Looked at in the round, LP made it quite clear who did she did not wish to see and I do not ignore her wishes simply because they are not expressed very well or elegantly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Eight, did LP really draft the will and the letter of wishes and feelings?  That is a much more difficult question to answer.  I do not see in Professor C&#8217;s written evidence how he could draw the conclusion quoted by me that he did and his conclusions as to the striking similarity between the will, letter of wishes and statement of PP are couched overall with such caution that I am unable to draw a clear and unequivocal conclusion from his evidence alone.  Moreover, there is room for uncertainty, even on Professor PJ&#8217;s evidence, as to the will&#8217;s authorship so I cannot say she did not draft that or have a part in drafting it.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What specifically of the letter of wishes?  Much depends on the credence this court gives to the new discipline in which the professor specialises.  There is no doubt the specialism of forensic linguistics is a developing one.  The professor himself indicated that to me by conceding that his computer programme had been rewritten in part in recent years because, no doubt, of inaccuracies.  I have not been told of any other case in the Court of Protection where this sort of evidence has been used, or, indeed, referred to any other English civil case where this discipline has been found to be of importance in determining the case, or, indeed, of great value or significant assistance.  In fairness, I repeat Miss Hewson referred to my having to deal with &#8216;cutting edge technology&#8217; in the course of the case.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do bear in mind the recent judgment of the President of the Family Division in the children case of <span style="font-style:italic">In the matter of TG (A Child)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/5" uk:canonical="[2013] EWCA Civ 5" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA (Civ) 5</ref>, although, of course, that judgment was issued after I had permitted the expert to be instructed. It seemed to me at the time to be right, however, to admit the investigations of the professor and I acknowledge he has formed a firm view that the author of the letter of wishes is the author of PP&#8217;s statements.  But I bear in mind that even the professor has in various articles cited to me by     Mr. Patel acknowledged difficulties in the technique of authorship attribution.  Moreover, each of the tests that the professor employed on his case has a margin of error of up to twenty per cent.  I am persuaded by Mr. Patel&#8217;s helpful analysis of the documents at paragraph 22E of his final written submission which I now quote:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;Lastly, looking at Professor PJ&#8217;s results, W1 is as similar to W2 as W2 is to S and both pairs are less similar than W1 is to S1.  Professor PJ explained the difference by saying the gap between W2 and S is, in his opinion, due the difference in the genre of the two documents, W2 being notably different. However, that explanation could account for the difference between W1 and W2, rather than it being attributed to a difference in author.  Further, it could also account for why W1 and S are similar to each other as they are documents which are not in a notably different genre.  In the Official Solicitor&#8217;s submission, the failure to explain the matters set out above may have been due to the bias in instructions.  Professor PJ may have been anxious subconsciously to favour an interpretation which supported the positions of the party instructing him and of Professor C for whom he was doing a favour.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">And that leads me, of course, to a slightly worrying aspect of Professor PJ&#8217;s evidence which to an extent affects its standing; that is, the manner in which he had become involved.  In saying this I make no criticism of the solicitor or counsel for PS.  The letter of instructions was perfectly proper.  But in evidence Professor PJ agreed he had accepted instructions as a favour to Professor C, whose conclusions, as I have set out, are somewhat uncertain.  Second, he simply did not seem to comprehend that the basis of accepting instructions might give the appearance of bias.  To say the computer has no friends and does not lie is to avoid the issue and, indeed, does not understand the difficulty.  But he did accept that the account of the background that he had received risked introducing bias.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So I view Professor PJ&#8217;s conclusions with some caution, though I by no means dismiss them on that basis alone. I cannot find that his conclusions were biased even if I have been given some cause for concern.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I consider, however, that, even if PP did have a part in drafting the letter of wishes and has lied about that, it is much more difficult to discern what that part was.  I do not and cannot find that LP&#8217;s will was overborne in drafting the letter so my conclusion is that, when PP insists he had nothing to do with drafting this, that, even if he might have played a part, it is not a matter that determines the issue.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So, ninthly, I ask myself, nonetheless, does it matter if PP drafted or helped to draft the two documents or one of them?  The other evidence is clear enough.  A woman aged fifty nine, not then suffering from any discernible illness or disability at the time, chose to leave her family and her husband with whom she had had a relationship of forty years.  She chose to go with PP.  She chose to go to a police station with him.  She chose only to contact her brother, parents and, if N is to be believed, N.  She chose to leave her estate to PP with a gift over to her brother and a &#8220;trust fund&#8221; to B, the great grandson on whom she doted.  These actions may be unkind, ungrateful and even mean spirited.  These actions may be inexplicable but they were an adult&#8217;s decisions, however justified or unjustified, and not lacking in logical thinking.  Even if she was being inaccurate in what she claimed, that is the point.  I cannot find and have no evidence on which to base a finding that her will was overborne by PP.  This is not a clear case of duress or undue influence.  People take inexplicable decisions, if her decisions were inexplicable.  I cannot look into the mind of a person back in 2008 and say that she was not then capacitous. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Tenthly, does it matter even if PP has lied as to his involvement in drafting the documents?  Assuming for one moment he did, after all, draft them or assist in drafting them, I apply, insofar as they are relevant, the directions in the criminal case of <span style="font-style:italic">Lucas</span>.  I need to determine whether his purported untruths support or undermine his evidence.  A witness may lie for many reasons and those reasons do not necessarily denote an attempted fraud or misleading of the court as to the true nature of the case.  The alleged lie as to the authorship of the letter of wishes or the will may well have been an attempt by him simply to bolster the case.  He is, after all, palpably at odds with the family of LP and wants no contact with them.  More than that, he is plainly fearful of them.  I cannot and do not find that, in having a part in drafting the letter of wishes and of the will, PP would have substituted his views for LP&#8217;s and I cannot and do find, in any event, that the document has been written after LP&#8217;s stroke.  There remains no evidence that PP forged the letter and its contents are entirely consistent with what was said to the detective sergeant by LP.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Eleventh, then, I do not find that Professor PJ&#8217;s evidence takes me to the point at which I must conclude there has been serious misleading of the court by PP.  I do not find him to have forged any documents and I believe the will and letter of wishes, by whomsoever they were drafted, to express the genuine wishes at the time of LP, wishes that remained firm at the time of the aneurism.  It is a very heavy burden on a party to show that PP has been guilty of fraud, forgery or duress of some sort and PS has not surmounted it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Twelfth, Miss Hewson asked me to find that the letter of wishes has no legal effect, given the uncertainty as to its genesis. I cannot find that for the reasons I have set out but I bear in mind that the time since it was signed has elapsed and, of course, in fact we cannot tell what LP would have intended in circumstances like the present.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Does that lead me to say I should look at the matter afresh, despite all that has transpired?  I agree with Mr. Patel, however, that I have no way of knowing whether LP would at some time in the future have changed her mind and sought some form of reconciliation or contact with PS and the remainder of the family.  The court must not speculate, however attractive that approach may be.  I cannot say she would have changed her mind.  Moreover, her letter of wishes contemplates her being found, though, of course, it did not contemplate her lacking capacity or being in the poor state that she is now.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num>100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I turn to the law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num>101.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, both counsel agree that LP suffers from an impairment or disturbance in the functioning of her mind and brain as a result of the terrible aneurism from which she has suffered.  They both agree too that LP is not able to make a decision as to with whom she is to have contact.  So the tests under sections 2 and 3 of the 2005 Act are made out, the so called diagnostic and functional tests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num>102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Second, accordingly, the court is required to take a decision as to contact pursuant to sections 1(5) and 16(3) of the Act and that decision must be made in the best interests of LP.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num>103.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Third, the best interests are defined and described in section 4 of the Act and I have looked at that with care.  I consider it highly unlikely that LP will have capacity in relation to the issue of contact with her family in the future, even if the operative treatment suggested for her is successful.  Sadly, there is no way in which she can participate in the decision making that I must undertake on her behalf. Mr. Patel reminds me that section 4 of the Act provides a determination of best interests. In doing that, the court must consider all relevant circumstances [section4(2)], and must consider so far as is reasonably ascertainable (a) the person&#8217;s past and present wishes and feelings and, in particular, any relevant written statement made by her when she had capacity ,[section 4(6)].  Section 4(11) defines the relevant circumstances as those:  (a) of which the person making the determination is aware, and, (b) which it would be reasonable to regard as relevant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num>104.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have, therefore, looked with especial care at section 4(6) and I have considered the judgment sent to me by Miss Hewson on best interests in <span style="font-style:italic">Re M </span><ref href="#" uk:canonical="[2011] 1 WLR 344" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 WLR 344</ref> and following and in <span style="font-style:italic">Re P</span> (Statutory Will) (Court of Protection) [2010] (Chan) 33 and following.  I note that LP&#8217;s wishes were plain at the time of her stroke and she confirmed them to Detective Sergeant NL and in her will and in her letter of wishes.  She did not wish to see her family.  She expressed similar views about her family to KM.  The beliefs and values that would be likely to influence her were and are that she had been mistreated by her husband and family and would be were she to return and see them again and that motivated her firm decision.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num>105.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whether that perception was or is accurate is not the question I have to decide.  I have heard the emphatic denials of PS and other witnesses. I do not have to determine the point. I believe that such were her strong feelings for PP that she would even now be motivated by a desire to protect him from her family. I consider that the clear expression of wishes by LP is a magnetic factor in this case of the sort referred to in the judgment of Munby J in <span style="font-style:italic">Re L.  </span> That said, I have borne in mind all the relevant circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num>106.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fifthly, I give great weight to the wishes and feelings of LP.  They are, of course, in themselves not determinative but the will and letter of wishes, although not well drafted, are cogent and well thought out.  What is missing, of course, is any sense of belonging to her family and that is the distressing aspect of the case for PS, BP and the others.   Was this simply a time of high emotion that would have diminished or disappeared over time? LP has apparently by her actions indicated a wish for a clean break with the past, no matter how hurtful that wish was and is.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num>107.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The dilemma the court faces, as Miss Hewson points out, is that the court should take care not to conclude that those wishes were permanent, settled or changeable.  Were her views a reflection of a brief infatuation or irrational fancy?  I cannot tell, of course, how long term her wishes were.  Equally, I cannot conclude that she would have changed her views to her family.  So I have dealt with the matter as best I can in the final conclusions I am shortly coming to.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num>108.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Sixthly, I treat the submission that contact is unlikely to cause harm with considerable caution.  I do not think I should test out the reactions of LP, as suggested, and, as I have said, I cannot speculate as to what she might have thought in the present circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num>109.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Seventh, I make one further finding from the written evidence.  Relevant to the wishes and feelings of LP, in his report of 10<span style="vertical-align:super;font-size:smaller">th</span> May, Dr. R, who is a consultant neuro-psychiatrist, notes that LP makes repetitive vocalisations if stimulated.  When asked if she wants to see mum and dad and R, her brother, she started to make those vocalisations and appeared upset.  Yet these are the people with whom she stayed in contact after separating from her immediate family.  When asked if she wanted to see BP, JR and PS, the reaction was the same.  So I really cannot tell her present wishes and feelings.  When PP told me she is agitated when her immediate family are mentioned, that did not give me a complete picture for that is not a reliable indicator of her wishes if Dr. R is right.  But I cannot reintroduce contact, given her clear past wishes and in the absence of any clear indication she wishes to see her family.  Her previous autonomous wishes and feelings were clear.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num>110.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Eighthly, I take I into account, of course, the views of PP and of PS and the family, especially of her husband, as they are all interested in her welfare and I trust my judgment truly reflects I have done that; but, in doing so, I now come to the final value judgments that I must draw.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num>111.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So my final conclusions are these.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num>112.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, not without very careful thought, I take the view I cannot direct that contact be immediately restored to husband or family and particularly PS, the Applicant, terribly sad though that is.  It appears that LP took the decision that her future was with PP and she wished to break with the past.  Accordingly, I declare that at present it is in the best interests of LP not to see her family. I say this with great regret and I hope not without sympathy for the family from whom she was estranged but this is not the time to experiment with contact. Unless things change, her wishes must be respected and the position remains as it is.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num>113.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I find that in coming to that conclusion I have not overridden Article 8 rights but, if I have and to the extent that I have, then that overriding is reasonable and proportionate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num>114.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">And, second, I come to this conclusion.  The time may yet come when it is in the best interests of LP to see her family again but that can, in my judgment, only be when she is capable of expressing a view to that effect.  Despite     Miss Hewson&#8217;s elegantly expressed argument, it is not, in my view, appropriate for there to be a trial period of contact.  That said, it is only right the extended family should be kept informed of developments. I, therefore, invite Mr. Patel, on behalf of the Official Solicitor, to suggest now a means by which after approximately every six months contact can be made with PS and her family whereby the family are told whether LP has developed an ability to express, or, indeed, has expressed a genuine wish to see PS and/or the remainder of her family in which event there will be permission to apply on forty eight hours notice for urgent directions to me and I shall reserve the case to myself when available.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1" style="text-align:center">- - - - - - - - - - -</p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

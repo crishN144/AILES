@@ -1,0 +1,26 @@
+# Exclude everything except what we want
+/*
+
+# Include only these specific directories and files
+!/src/
+!/src/data_processing/
+!/src/training/
+!/src/validation/
+!/src/deployment/
+!/data/
+!/data/raw/
+!/data/raw/xml_judgments/
+!.gitignore
+!LICENSE
+!README.md
+!requirements.txt
+
+# Standard Python excludes
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.env
+.venv/

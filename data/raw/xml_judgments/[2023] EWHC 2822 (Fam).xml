@@ -1,0 +1,991 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/2822"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/2822"/>
+	  <FRBRdate date="2023-11-15" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2822"/>
+	  <FRBRname value="Philip King v Stephen King"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2822"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2822"/>
+	  <FRBRdate date="2023-11-15" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2822/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2822/data.xml"/>
+	  <FRBRdate date="2024-11-10T01:15:05" name="transform"/>
+	  <FRBRdate date="2024-11-27T19:44:56" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-11-15" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="philip-king" href="" showAs="PHILIP KING"/>
+	<TLCPerson eId="stephen-king" href="" showAs="STEPHEN KING"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-david-rees-kc" href="/judge-mr-david-rees-kc" showAs="MR DAVID REES KC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>2822</uk:number>
+	<uk:cite>[2023] EWHC 2822 (Fam)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>45af448af21c53216682a521529ea47d98ad1b33f88b7f8c4e63404dd0548a86</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Level1 { margin-left: 0.5in; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"><span style="font-family:'Times New Roman';font-size:10pt">Judgment approved by the Court for handing down.</span><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:10pt">King v King (Non-Contentious Probate)</span></p>
+    </coverPage>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EWHC 2822 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FA-2023-000196</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">FAMILY DIVISION (NON-CONTENTIOUS PROBATE)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE NEWCASTLE DISTRICT PROBATE REGISTRY</p>
+      <p class="CoverMain"><docTitle>IN THE MATTER OF THE NON-CONTENTIOUS PROBATE RULES 1987</docTitle></p>
+      <p class="CoverMain">AND IN THE MATTER OF THE ESTATE OF ERIC SIDNEY KING DECEASED</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2023-11-15" refersTo="#judgment">15 November 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-mr-david-rees-kc" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">MR DAVID REES KC</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold">(</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sitting as a Deputy Judge of the High Court</span><span style="font-weight:bold">)</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">BETWEEN</span><span style="font-weight:bold">:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#philip-king" style="font-weight:bold">PHILIP KING</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#stephen-king" style="font-weight:bold">STEPHEN KING</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Respondent</role></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">The Appellant </span>appeared in person</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Daniel Thorpe </span>(instructed by Meridian Private Client LLP) for the Respondent</p>
+      <p style="text-align:center">Hearing date: 23 October 2023</p>
+      <p style="text-align:center">I direct no official shorthand note shall be taken of this Judgment and that copies of this Judgment as handed down may be treated as authentic</p>
+      <p style="text-align:center">David Rees KC, Deputy High Court Judge</p>
+      <p><span style="font-weight:bold">Mr David Rees KC:</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">INTRODUCTION</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This is an appeal relating to the estate of Eric Sidney King (&#8220;<span style="font-weight:bold">the Deceased</span>&#8221;) who died on 15 April 2021.  The Deceased died intestate and domiciled in England and Wales.  By an order dated 11 July 2023 a District Probate Registrar in the Newcastle District Probate Registry ordered that letters of administration in the Deceased&#8217;s estate should issue to one of his sons Stephen King (&#8220;<span style="font-weight:bold">Stephen</span>&#8221;). Pursuant to that order a grant of letters of administration in the Deceased&#8217;s estate was issued to Stephen on 7 August 2023.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The District Probate Registrar&#8217;s order is now appealed by another of Mr King&#8217;s sons Philip King (&#8220;<span style="font-weight:bold">Philip</span>&#8221;) who had sought his own appointment as his father&#8217;s administrator.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">THE LAW</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_3">
+	  <num style="font-weight:bold">(1)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold"/><marker name="tab"/><span style="font-weight:bold">Entitlement to a Grant</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Non-contentious probate business is governed by the Non-Contentious Probate Rules 1987 (&#8220;<span style="font-weight:bold">NCPR 1987</span>&#8221;).  Rule 22(1) sets out the order of priority for a grant in case of intestacy as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:1in">Where the deceased died on or after 1st January 1926, wholly intestate, the person or persons having a beneficial interest in the estate shall be entitled to a grant of administration in the following classes in order of priority, namely&#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.5in">the surviving spouse or civil partner;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.5in">the children of the deceased and the issue of any deceased child who died before the deceased&#8230;&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In the present case the Deceased was divorced.  The entitlement to a grant therefore belongs equally to his children and any issue of a deceased child.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Where more than one person of the same degree is entitled to a grant, the court has a discretion as to which of those individuals it should appoint as administrator.  Unless a minority or life interest arises, it may appoint a single member of the class or appoint a number of them (up to the statutory maximum of four) - see <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/114/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.114(1)</ref> (&#8220;<span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">SCA 1981</ref></span>&#8221;).  The procedure governing such disputes can be found at r.27(4)-(8) NCPR 1987 which provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(4)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in">A grant of administration may be made to any person entitled thereto without notice to other persons entitled in the same degree.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in">Unless a district judge or registrar otherwise directs, administration shall be granted to a person of full age entitled thereto in preference to a guardian of a minor, and to a living person entitled thereto in preference to the personal representative of a deceased person.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(6)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in">A dispute between persons entitled to a grant in the same degree shall be brought by summons before a district judge or registrar.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(7)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in">The issue of a summons under this rule in the Principal Registry or a district probate registry shall be notified forthwith to the registry in which the index of pending grant applications is maintained.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(8)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in">If the issue of a summons under this rule is known to the district judge or registrar, he shall not allow any grant to be sealed until such summons is finally disposed of.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">A list of factors that have been taken into account in such disputes is to be found in <span style="font-style:italic">Tristram &amp; Coote&#8217;s Probate Practice </span>(32<span style="vertical-align:super;font-size:smaller">nd</span> ed) at paras <span style="font-style:italic">et seq</span>.  Some of these are now only of historic interest (such as the now extinct practice of preferring a male applicant to a female), and others (such as the circumstances under which the court will select among the deceased&#8217;s creditors) are not relevant to the dispute before me.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">The factors identified by <span style="font-style:italic">Tristram &amp; Coote</span> which appear to me to potentially be of some relevance in the present case are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Objections based upon characteristics of an applicant which render them unsuitable to act as an administrator.  These may include dishonesty, bankruptcy, insolvency or ill health which prevents them from being able to carry out the requisite tasks.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Objections based upon a conflict of interest between the applicant and the estate.  Conflicts may arise in a number of different ways.  <span style="font-style:italic">Tristram &amp; Coote </span>at [14.21] makes reference to the ancient case of <span style="font-style:italic">Budd v Silver </span> (1813) 2 Phillimore 115 where the court refused a grant in circumstances where the deceased&#8217;s estate had a claim against the son of the applicant.  There the court was concerned that the applicant might not assert the estate&#8217;s claim against his son sufficiently strongly.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">There is a general practice that, in cases of dispute, the view of those entitled to the larger share of the estate is preferred.  However, the court is not bound to follow this practice.  In <span style="font-style:italic">Cardale v Harvey</span> (1752) 1 Lee 177 at 179-180 Sir George Lee held:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in;text-indent:-0.5in"><marker name="tab"/>&#8220;though it is a good general rule to grant administration to the largest interest, yet that is only introduced by practice, not by any positive law, and the Court is not obliged to grant it to the largest interest&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">A practice, where there are competing applications and nothing else to enable the court to choose between them, to prefer the first application that has been received.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">This final point does not, in my view, carry any great weight particularly where (as here) the case has been fully argued at an attended hearing.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">Where circumstances exist that plainly demonstrate that an applicant is unsuitable to carry out the role of administrator, or is under a significant conflict of interest, then the task of the Court may be relatively straightforward.  However, where the position is more finely balanced it may be difficult to choose between the competing claims of two applicants.  In my judgment, in such circumstances, the court has two effective options before it:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">It may exercise its discretion to select one of the two applicants before it.  Such discretion is at large and although the factors identified in <span style="font-style:italic">Tristram &amp; Coote</span> may provide some assistance in some cases; in other cases they may not.  Factors such as the views of a majority of the beneficiaries may carry weight on the facts of one case, but may be less important in another.  The selection of the administrator is ultimately a matter for the registrar or judge taking into account the totality of the evidence before them;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Alternatively, it may appoint an independent administrator.  Under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">SCA 1981</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/116" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 116</ref> the court has power to pass over the claims of those entitled to a grant under r.22(1) NCPR 1987.  The section provides as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in;text-indent:-0.5in"><marker name="tab"/>&#8220;If by reason of any special circumstances it appears to the High Court to be necessary or expedient to appoint as administrator some person other than the person who, but for this section, would in accordance with probate rules have been entitled to the grant, the court may in its discretion appoint as administrator such person as it thinks expedient.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:1in;text-indent:-0.5in"><marker name="tab"/>Thus, for the court to exercise its powers under this section, it must be satisfied that there are (a) &#8220;special circumstances&#8221; which (b) render it &#8220;necessary or expedient&#8221; to pass over the person or persons entitled to the grant.  The circumstances under which grants have been made under this section are wide-ranging see <span style="font-style:italic">William Mortimer &amp; Sunnucks &#8211; Executors, Administrators &amp; Probate </span>(22<span style="vertical-align:super;font-size:smaller">nd </span>ed) paras 17-06 and 17-07).  They clearly include circumstances where there is a dispute between rival applicants who are equally entitled to a grant if the appointment of an independent administrator will avoid litigation and delay (see <span style="font-style:italic">Tristram &amp; Coote </span>para [14.21]).</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Ultimately, in making its decision, the overall interests of the beneficiaries of the estate as a whole must be at the forefront of the mind of the registrar or judge.  The estate should be administered properly and in accordance with the law, but equally it should be administered efficiently and at a reasonable cost that is proportionate to the size of the estate.  Administration by an independent professional administrator will inevitably prove more expensive than administration by a lay administrator and this will need to be taken into account.  Not every dispute between rival applicants requires the court to appoint an independent administrator.  Equally though, the imposition by the court of an independent professional to administer the estate may remove a source of contention and enable a more objective approach to be brought to bear.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">What the court should not do is to appoint the two rival applicants to act jointly.  Unless it is clear that they are going to be able to act together, this will prevent the effective administration of the estate (<span style="font-style:italic">Bell v Timiswood</span> (1812) 2 Phillimore 22).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-weight:bold">(2)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold">The Procedure Governing this Appeal</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This appeal is brought under NCPR 1987 r.65.  Appeals such as this are not common and, unusually, the procedure that falls to be applied continues to be governed by the provisions of the Rules of the Supreme Court 1965 (&#8220;<span style="font-weight:bold">RSC 1965</span>&#8221;).  That this should be the case nearly twenty five years after those rules were replaced by the Civil Procedure Rules 1998 (&#8220;<span style="font-weight:bold">CPR 1998</span>&#8221;) is at first blush surprising, and a little background is necessary to explain why this is the case and why an appeal of this nature falls to be heard in the Family Division of the High Court.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The historic reason why certain probate matters are assigned to the Family Division of the High Court were explained by MacDonald J in <span style="font-style:italic">Ali v Taj (Probate: Inventory and Account)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2020/213" uk:canonical="[2020] EWHC 213 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 213 (Fam)</ref> at paragraph [45]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;Prior to 1858, the jurisdiction with respect to the granting or revocation of probate of wills and letters of administration was spread among some three hundred and seventy ecclesiastical or secular courts or persons, in addition to the Prerogative Courts of Canterbury and York. On 11 January 1858 the Court of Probate Act came into force and vested the voluntary and contentious probate jurisdiction in the Court of Probate. The Supreme Court of Judicature Act 1873 resulted in all cases in the province of the Court of Probate being assigned to the Probate, Divorce and Admiralty Division of the High Court, renamed the Family Division by <ref href="http://www.legislation.gov.uk/id/ukpga/1970/31/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1970/31" uk:canonical="1970 c. 31" uk:origin="TNA" uk:type="legislation">Administration of Justice Act 1970</ref> from 1 October 1971. Non-contentious (or 'common form') probate business was assigned to the Family Division. Contentious (or 'solemn form') probate business was assigned to the Chancery Division. With effect from 1 January 1982, <ref href="http://www.legislation.gov.uk/id/ukpga/1970/31/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1970/31" uk:canonical="1970 c. 31" uk:origin="TNA" uk:type="legislation">Administration of Justice Act 1970</ref> was repealed and re-enacted by <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 61</ref> and Sch. 1 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>, which continued to reflect this division in probate business, under the overarching probate jurisdiction provided by <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 25</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">the 1981 Act</ref>.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Thus, the current division of business among the Divisions of the High Court is set out in Sch. 1 SCA.  By Sch 1 para 1(h) of <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">that Act</ref> &#8220;probate business, other than non-contentious or common form business&#8221; is assigned to the Chancery Division of the High Court, whilst Sch 1 para 3(b) assigns to the Family Division &#8220;all causes and matters (whether at first instance or on appeal) relating to &#8230; non-contentious or common form business&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/128" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 128</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">SCA 1981</ref> defines &#8220;non-contentious or common form probate business&#8221; as meaning:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;the business of obtaining probate and administration where there is no contention as to the right thereto, including&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="margin-left:1.5in;text-indent:-0.5in">(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.5in"> the passing of probates and administrations through the High Court in contentious cases where the contest has been terminated,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.5in">all business of a non-contentious nature in matters of testacy and intestacy not being proceedings in any action, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.5in">the business of lodging caveats against the grant of probate or administration;&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Consequently, a dispute over the validity of a will or a dispute as to whether a person has an <span style="text-decoration-line:underline;text-decoration-style:solid">entitlement</span> to a grant of letters of administration (for example where there is a dispute as to whether that person is a child of the deceased &#8211; often referred to as an &#8220;interest action&#8221;) is a matter that will be heard within the Chancery Division.  By contrast, a dispute such as to the one before me, where there is no dispute as to the parties&#8217; <span style="text-decoration-line:underline;text-decoration-style:solid">entitlement</span> to the grant (both parties here accept that the other is a child of the Deceased and are as such equally entitled to a grant), but there is a dispute as to how the court should exercise its discretion to choose between them, falls within the definition of &#8220;non-contentious business&#8221;.  Such disputes are therefore within the jurisdiction of the Family Division of the High Court and are heard in the Principal Registry or a District Probate Registry or, in certain circumstances, before a judge of the Family Division.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">It will be recognised that the name &#8220;non-contentious business&#8221; is therefore something of a misnomer as such cases can be contested and become highly contentious (see the discussion on this point by MacDonald J in <span style="font-style:italic">Ali v Taj</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/213" uk:canonical="[2023] EWHC 213 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWHC 213 (Fam)</ref> at [47] to [49]).  Indeed, when a set of draft rules intended to replace the NCPR 1987 were published for consultation in 2013 the proposal was that they should be renamed &#8220;the Probate Rules 2013&#8221; for precisely this reason.  Unfortunately, nothing came of that consultation and the NCPR 1987 remain in force.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Non-contentious probate business in the Principal Registry, a District Probate Registry or before a judge of the Family Division is therefore governed by the NCPR 1987.   However, the NCPR 1987 is not a complete procedural code and r.3(1) NCPR 1987 provides as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;Subject to the provisions of these rules and to any enactment, the Rules of the Supreme Court 1965 as they were in force immediately before 26th April 1999 shall apply, with any necessary modifications to non-contentious probate matters, and any reference in these rules to those rules shall be construed accordingly.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.39in">That the CPR 1998 do not (in general) apply to non-contentious probate proceedings is made clear by CPR r.2.1.  This rule provides that the CPR 1998 do not apply to non-contentious or common form probate proceedings &#8220;except to the extent that they are applied to those proceedings by another enactment&#8221;.  No such provision has been made in relation to appeals from a Registrar to a Judge<authorialNote class="footnote" marker="1">
+		<p class="FootnoteText" style="margin-left:0.39in;text-indent:-0.39in"><span/><marker name="tab"/>By contrast the CPR 1998 do expressly apply (with certain modifications) to costs in non-contentious probate matters and to appeals in costs assessment proceedings.  NCPR 1987 r 62.</p>
+	      </authorialNote>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The right to appeal a decision of a Registrar to a Judge is set out at r.65(1) NCPR 1987 which provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;An appeal against a decision of a district judge or registrar shall be made on summons to a judge.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.39in">However, beyond the fact that such an appeal is to be brought by summons, the NCPR 1987 are silent on the practice.  For this one has to turn to Ord. 58 RSC 1965.  Ord. 58 r. 1(1) provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;&#8230;an appeal shall lie to a judge in chambers from any judgment, order or decision of a master, the Admiralty Registrar or a registrar of the Family Division.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.39in">Under Ord.58 an appeal lies as of right.  By contrast with the approach taken by the CPR 1998 and the FPR 2010, no permission filter is imposed by the rules.  Moreover, unlike an appeal under the CPR 1998 or FPR 2010, the appeal is not confined to a review of the decision below but takes the form of a rehearing and the judge hearing the appeal is entitled to take the decision under appeal afresh.  I note that this was the basis upon which MacDonald J proceeded in <span style="font-style:italic">Ali v Taj </span>(supra).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The 1999 <span style="font-style:italic">White Book</span> (the last edition to cover the RSC 1965) describes the practice for an appeal from a Master or Registrar to a Judge as follows at para 58/1/3.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;An appeal from the Master or District Judge to the Judge in Chambers is dealt with by way of an actual rehearing of the application which led to the order under appeal, and the Judge treats the matter as though it came before him for the first time, save that the party appealing, even though the original application was not by him but against him, has the right as well as the obligation to open the appeal.  The Judge &#8220;will of course give the weight it deserves to the previous decision of the Master; but he is no way bound by it&#8221; (<span style="font-style:italic">per</span> Lord Atkin in <span style="font-style:italic">Evans v Bartlam</span> <ref href="#" uk:canonical="[1937] AC 473" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1937">[1937] AC 473</ref> at 478).  The Judge in Chambers is in no way fettered by the previous exercise of the Master&#8217;s discretion, and on appeal from the Judge in Chambers, the Court of Appeal will treat the substantial discretion as that of the Judge, and not of the Master.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">On such an appeal the Court has a discretion (but is not obliged) to admit additional evidence that was not before the lower court (<span style="font-style:italic">Krakauer v Katz </span><ref href="#" uk:canonical="[1954] 1 WLR 278" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1954">[1954] 1 WLR 278</ref> per Denning LJ at 279).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">To the eyes of those accustomed to modern litigation, this survival of an old-style appeal by way of rehearing lying to a Judge, as of right, seems extremely surprising; a living legal fossil, to be compared to the coelacanth.  The continued existence of such a right is in my view at odds with the overriding objective that is now to be found at r.3A NCPR 1987.  This provision was inserted in 2020 by the Non-Contentious Probate (Amendment) Rules 2020 (SI 2020/1059) and provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;The overriding objective of these Rules is to enable non-contentious and common form probate business to be dealt with justly and expeditiously by the court and registry&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.39in">To enable a party who is aggrieved by a decision of a registrar to be entitled, as of right, to require the matter to be determined afresh before a judge does not, in my view, promote expedition.  Those responsible for any review of the NCPR 1987 may wish to consider whether the continued existence of an appeal by way of rehearing, as of right, remains appropriate. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">THE DECEASED&#8217;S FAMILY </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Although it is clear that both Stephen and Philip are sons of the Deceased and are entitled to share in his estate and to apply for a grant of administration, there is some dispute as to who else may have a similar entitlement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">It is common ground between Stephen and Philip that the Deceased had been married and that there were three children of that marriage namely, Philip and Stephen themselves and a third son, Eric Kim King (&#8220;<span style="font-weight:bold">Eric</span>&#8221;), who predeceased the Deceased, dying in 2008. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Stephen&#8217;s position (both before the Registrar and on appeal) which he has confirmed in a statement supported by a statement of truth, and on oath before me, is that Eric was survived by three children (all of whom are now adult) namely Tanisha, Rochelle and Curtis King.  For his part Philip told me that he is not in a position to accept that these three individuals are Eric&#8217;s children as he has not seen birth certificates confirming that Eric is their father.  If these individuals are Eric&#8217;s children, they are entitled to share in a stirpal share of the Deceased&#8217;s estate.  They would also be equally entitled (together with their uncles) to apply for a grant of administration under NCPR 1987 r.22. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">There may also be three other individuals entitled to share in the Deceased&#8217;s estate.  On the court file is a letter dated November 2022 from a Kathleen Inniss which asserts that she and her two siblings, Phyllis Laborde and Andrew Duncan, are all also children of the Deceased.  I requested that copies of this letter should be provided to both Stephen and Philip in advance of the appeal.  I am told that neither of them were previously aware of the existence of these three individuals, and cannot say whether or not they are children of the Deceased.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/1987/42/section/21" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 21</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1987/42" uk:canonical="1987 c. 42" uk:origin="TNA" uk:type="legislation">Family Law Reform Act 1987</ref> </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p style="text-align:justify;margin-left:1in;text-indent:-0.5in">&#8220;For the purpose of determining the person or persons who would in accordance with probate rules be entitled to a grant of probate or administration in respect of the estate of a deceased person, the deceased shall be presumed, unless the contrary is shown, not to have been survived&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.5in">by any person related to him whose father and mother were not married to [F37, or civil partners of,] each other at the time of his birth.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This is only an evidential presumption and the evidence required to displace it is not great.   The title of an applicant, confirmed by a statement of truth will be taken as sufficient to rebut any such presumption (see <span style="font-style:italic">Tristam &amp; Coote</span> para 6.180 and Registrar&#8217;s Direction 19 April 1988).  For the purposes of the position before me today, I consider that I am entitled to ignore the claims of Kathleen Inniss and her siblings to a grant as I have only a bare letter asserting their interest.  Further, although Stephen has confirmed on oath his understanding that Tanisha King and her siblings are Eric&#8217;s children, this is disputed by Philip and I do not consider that I need to resolve this point in order to decide the issue before me today.   Any dispute as to the entitlement of any of these individuals to share in the Deceased&#8217;s estate is ultimately something which may have to be resolved by separate proceedings in the Chancery Division of the High Court.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">THE CURRENT PROCEEDINGS</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">The chronology in the current proceedings has been as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">In May 2022 Philip filed a caveat to prevent the issue of a grant in the Deceased&#8217;s estate.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">In August 2022 Stephen applied for a grant of letters of administration.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">On 21 September 2022 Stephen sought to warn off Philip&#8217;s caveat.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">On 24 September 2022 Philip issued a summons for directions in response to the warning and on 25 September 2022 he issued his own application for a grant.  Philip&#8217;s summons for directions made a number of allegations regarding Stephen&#8217;s conduct which are said to render him unsuitable to act as administrator.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">On 18 October 2022 an order was made on the papers by the District Probate Registrar.  This order (a) required a response from Stephen to summons within 21 days; (b) noted that where there is a dispute the court usually favours the first in time and / or the application supported by most number of beneficiaries; (c) noted that Stephen and Philip had provided different details as to the descendants of the Deceased; and (d) explained that the court may resolve any remaining contention by the appointment of a professional neutral administrator under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/116" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 116</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">SCA 1981</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(6)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Stephen did not respond to this order.  A second order was made on the papers by the District Probate Registrar on 12 December 2022.  This order provided Stephen with a further seven days from the date of service of that order upon him to file his statement.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(7)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">In the meantime, on 21 November 2022 Philip had filed further submissions in support of his summons.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(8)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">On 6 January 2023 Stephen filed a four page letter dated 2 January 2023 responding to Philip&#8217;s summons.  This response was not sent to Philip and was not accompanied by a statement of truth.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(9)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">The Court subsequently wrote to Stephen asking him to file a statement of truth confirming the matters set out in his letter and to confirm two additional issues (a) whether he proposed to instruct the firm of Dixon Alderton (who were acting for Stephen in relation to the extraction of the grant) in the administration of the estate as well and (b) whether Eric&#8217;s three children supported this application.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(10)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Stephen responded on 16 February 2023 confirming that Eric&#8217;s three children supported his application.  However, he misunderstood what the Court had requested about a statement of truth.  Following clarification from the Court in a letter dated 27 March 2023 Stephen filed a further letter dated 6 April 2023 supported by a statement of truth, confirming that he wished to instruct Dixon Alderton only for the purposes of extracting the grant and confirming that his application was supported by Eric&#8217;s children.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(11)</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:1in">On 11 July 2023 the District Probate Registrar made an order without holding a hearing (a course of action permitted by r.61(5) NCPR 1987) that a grant of letters of administration in the Deceased&#8217;s estate be issued to Stephen.  This order:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.5in;text-indent:-0.5in">(a)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.5in">Recited that Stephen&#8217;s application was supported by the most beneficiaries and was the first in time and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.5in;text-indent:-0.5in">(b)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.5in">Directed that Dixon Alderton should be retained by Stephen for both the extraction of the grant and the administration of the estate.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(12)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">The grant was issued to Stephen out of the Newcastle District Probate Registry on 7 August 2023.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(13)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">On learning of the order and the issue of the grant Philip immediately sought to appeal the Registrar&#8217;s decision.  He filed a summons for an appeal pursuant to NCPR 1987 r.65.  However, this was not issued by the court, and he subsequently filed a form FP161 Appellant&#8217;s Notice on 14 August 2023.  I pause to note that in <span style="font-style:italic">Ali v Taj</span> (supra) MacDonald J also noted that the court had failed to issue the summons for an appeal.  It is important that these documents are promptly issued by the court.  That such summonses are now unfamiliar to court staff may be a further indication that the rules in this area need to be updated.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(14)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">The appeal was allocated to me, and I made an order on 5 October 2023 listing the matter for directions or disposal on 23 October and directing the parties to each serve upon the other the documents that had been before the Registrar by 16 October 2023.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(15)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">The parties exchanged copies of the statements that had been before the Registrar.  However, Stephen King had not kept a copy of his letters to the Court of 16 February 2023 and 6 April 2023, and these were therefore not exchanged.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(16)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">On 19 October 2023 I obtained a copy of the court file that had been before the Registrar.  This included copies of Stephen&#8217;s letters of 16 February 2023 and 6 April 2023 as well as the letter of Kathleen Inniss.  I directed that copies of all of the statements on the court file should be disclosed to both parties.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(17)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">The matter came before me on 23 October 2023.  Philip was in person; Stephen was represented by Mr Daniel Thorpe of counsel.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(18)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">At the start of the hearing, Philip sought an adjournment to file further evidence.  Given that (a) the appeal is by way of rehearing, and the court is not obliged to accept new evidence and (b) all of the evidence that had been before the Registrar had been provided to the parties in advance of the hearing,  I refused this, as I considered that the main issues had already been ventilated in the statements filed to date and I was unwilling to delay matters further by permitting a further round of evidence.  I held that I would proceed on the basis of the evidence which had been filed to date, but that I would give each party an opportunity to cross-examine the other, and that I would also permit them to expand upon their written evidence in chief.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(19)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Philip denied having previously seen the letters from Stephen of 16 February 2023 and 6 April 2023, further copies of which were provided to him at the hearing.  Given that these had been forwarded to him as part of the documents from the court file, which included the letter from Kathleen Inniss which he accepted having received, I considered this to be unlikely.  In any event these two documents are very short (each is less than a page long) and I considered that there was no injustice in proceeding on the basis outlined above.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(20)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">I therefore heard oral evidence from both Philip and Stephen, and each had the opportunity to cross-examine the other.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(21)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Having reserved judgment, I have since received the following additional documents (a) the final version of Philip&#8217;s position statement (I had received a draft but not the final version prior to the hearing); (b) a letter dated 27 October 2023 from Stephen&#8217;s solicitors identifying their preferred candidate for appointment as independent administrator) and (c) further correspondence from Philip (both to the Court and to Stephen&#8217;s solicitors) dated 30 October 2023.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">THE ISSUES</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Philip&#8217;s summons in support of his appeal raises a number of issues concerning the conduct of the case by the Registrar.  He complains <span style="font-style:italic">inter alia </span>that the lack of a hearing was a breach of his rights under art 6. ECHR; that the Registrar was wrong to permit Stephen additional time to file his statements; that the Registrar was wrong not to direct the service of Stephen&#8217;s statements on Philip; that the Registrar was wrong not to permit Philip to respond to Stephen&#8217;s statements; that the Registrar failed to resolve a factual dispute between the parties as to whether Stepehen had &#8220;disentitled&#8221; himself to a grant by virtue of his conduct and that the Registrar had failed to provide reasons to explain why the views of the majority of beneficiaries should override Stephen&#8217;s conduct.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">However, as I have already explained, this appeal is by way of rehearing, and so I am not concerned with the majority of the complaints made by Philip regarding the procedure adopted by the Registrar.  My task is not to review the decision of the Registrar but is instead to consider the evidence afresh and exercise my discretion in the light of that evidence.  That said, I consider that I should briefly make the following points regarding Philip&#8217;s complaints:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Philip&#8217;s summons identified no fewer than twelve grounds of appeal against the decision of the Registrar.  This was supported by a position statement which, in its final form, made reference to more than thirty separate authorities, covering a wide range of jurisdictions, courts and areas of law.  The relevance of most of these authorities to the issues raised was, at best, very tangential.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Several of Philip&#8217;s complaints relate to the decision of the Registrar to admit Stephen&#8217;s statement of 2 January 2023 despite it being late and not (initially) accompanied by a statement of truth.  My view (had I been required to decide this point) is that the decision of the Registrar to accept this statement (and to take further steps to ensure that Stephen did confirm its contents with a statement of truth) was well within the ambit of her broad case management discretion and is not open to criticism.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I turn then to consider the substantive issue before me; who should be appointed as administrator of the Deceased&#8217;s estate?  Stephen and Philip each seek their own appointment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Philip&#8217;s objections to Stephen&#8217;s appointment are set out in his summons for directions of 24 September 2022 and witness statements dated 26 September and 21 November 2022. In short, the allegations are that Stephen is dishonest, that he has a conflict of interest arising from a number of matters and has misconducted himself such that he is not suitable for appointment as an administrator.   I will consider the more significant of Philip&#8217;s allegations in turn.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-weight:bold">(1)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold"/><marker name="tab"/><span style="font-weight:bold">The IHT 400</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Philip complains that in completing the IHT 400 Account for the Deceased&#8217;s estate, Stephen has overvalued the Deceased&#8217;s freehold property in Luton.  Stephen placed a value for probate on this property of &#163;320,000 despite having received a written valuation for the property from an estate agent of between &#163;280,000 and &#163;290,000.  He was asked about this in his oral evidence and his explanation is that he received a further oral valuation placing a value of &#163;320,000 on the property.  I accept that valuation is an art rather than a science, and there is likely to be a range of acceptable values for a particular property at any given time. However, I was not wholly convinced by Stephen&#8217;s explanation as to why a higher value than the written one provided by an estate agent was substituted in the IHT 400.  I am told that the property is now under offer for a price of &#163;300,000, so it seems that the value of &#163;320,000 included in the IHT 400 was likely to have been an overestimate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The value placed on this property affects the amount of Inheritance Tax (&#8220;IHT&#8221;) payable on the Deceased&#8217;s estate.  The applicable nil rate band in this case is &#163;500,000, so IHT at a rate of 40% will be payable on the balance of the Deceased&#8217;s estate over that amount.  On Stephen&#8217;s calculations the Deceased&#8217;s net estate amounted to &#163;528,366.55 leading to an IHT bill of &#163;11,346.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Philip has also provided an IHT 400.  That places a value on the Deceased&#8217;s net estate of &#163;512,809.11.  Although Philip has adopted a lower figure of &#163;280,000 for the Deceased&#8217;s home, he adopts a much higher figure for the Deceased&#8217;s foreign property, a house in St Vincent (&#163;95,697 as opposed to the &#163;60,000 allowed for by Stephen).  Although Philip told me that on his figures no IHT would have been payable, I do not immediately understand how this would have been the case as on his calculations the chargeable estate also exceeds the available nil rate band.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">However, I note that the difference between the two values given by the parties for the estate is &#163;15,557.44 which translates into a difference in IHT payable of only &#163;6,222.98 between them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I note also that the value placed on the UK property in the IHT400 may not ultimately be determinative of the tax payable.  By reason of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/51/section/191" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 191</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/51" uk:canonical="1984 c. 51" uk:origin="TNA" uk:type="legislation">Inheritance Tax Act 1984</ref>, if the property is sold within four years of the Deceased&#8217;s death for an amount lower than its probate value, the Deceased&#8217;s personal representatives may claim that the sale value (for that property and any other land sold within the same period) should be substituted for the value set out in the IHT 400.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Thus, whilst Stephen does appear to have placed a higher value on the Deceased&#8217;s UK property than might have been warranted, the overall effect of his actions on the IHT payable appears to be relatively small (just over &#163;6,000) and may in any event be capable of adjustment in the future depending upon the sale price actually received.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-weight:bold">39.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Philip, in both his oral and written submissions sought to suggest that Stephen may have overvalued the Deceased&#8217;s property with a view to subsequently directing an IHT repayment into his own personal bank account with a view to dishonestly concealing this from the other beneficiaries.   I do not consider that there is any basis for such an allegation.  Stephen has solicitors instructed in the administration of the estate and if there is any IHT repayment it will be due to the estate and should be accounted for in the estate accounts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_9">
+	  <num style="font-weight:bold">(2)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold">The Use of the Deceased&#8217;s Property</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">Philip also complains about other actions by Stephen in relation to the Deceased&#8217;s UK property.  He complains that Stephen forced entry to the property in June 2021 causing &#8220;unlawful / criminal damage to the door&#8221;, and that Stephen has been living in the property with his son without paying rent.  Philip also complains that Stephen has failed to rent out the property and has failed to improve the property with a view to improving its sale price. As to these complaints:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">The circumstances under which Stephen took possession of the house are unclear.  He accepts entering and changing the locks.  There was some suggestion that in doing so he may have interfered with the rights of other individuals who were at the time living there.  I am not in a position to make any findings in this regard, and it does not appear that any civil or criminal consequences have flowed from any action that Stephen may have taken.  I therefore take the view that the securing of the house was an action consistent with the protection of the Deceased&#8217;s estate.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">In his statement of 2 January, Stephen had stated &#8220;I have no intention of residing in my father&#8217;s house&#8221;.  However, in his oral evidence Stephen accepted that he has been living in the property and had not been paying any occupation rent.   He explained this contradiction in his evidence on the basis that in his statement he had meant that he had no intention of &#8220;residing permanently&#8221;.    This indeed was the thrust of the allegation made by Philip in his statement of 26 September to which Stephen was responding  &#8211; that Stephen&#8217;s occupation would prevent a sale of the property from taking place.  However, Stephen&#8217;s written statement was at best incomplete, and potentially misleading.  Nonetheless, I am satisfied by Stephen&#8217;s actions in placing the property on the market that does not intend to live in the property permanently and will ensure that vacant possession is provided on a sale.  I am not in a position to determine whether the estate is likely to have a claim for an occupation rent against Stephen, or what the quantum of such a claim might be. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">There was also a dispute about the payment of bills.  Stepehen has confirmed that the bills are in his name, and although there are arrears on the electricity bill these will be discharged before the property is sold.  He confirmed also that the property was insured and agreed to provide details of the insurance to Philip.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">I do not consider that there is anything to Philip&#8217;s complaint regarding Stephen&#8217;s failure to let the property.  Until August 2023, neither of them had a grant of letters of administration which would have entitled them to enter into a letting agreement.  Since obtaining his grant Stephen has placed the property on the market with an estate agent with a view to the property being sold.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Nor is there anything to Philip&#8217;s complaint that Stephen should have improved the property to improve the sale price.  Stephen is under no obligation to use his own funds in that regard and until the grant of letters of administration had been obtained, had no access to estate funds to do this.   </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_10">
+	  <num style="font-weight:bold">(3)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold">A Claim against Stephen&#8217;s Son</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Philip also alleges that Stephen is under a conflict of interest because the estate has a claim against another of Stephen&#8217;s sons for having &#8220;fraudulently acquired&#8221; some &#163;5,000 from the Deceased&#8217;s bank account and having &#8220;subsequently fled to Australia&#8221;.    I do not consider this allegation to be relevant to Stephen&#8217;s suitability as administrator.  The claim is denied; the sum involved is small (the costs of establishing liability would be significantly more than the sum in issue) and the claim appears stale as this son has emigrated and been living in Australia for the last seven years.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_11">
+	  <num style="font-weight:bold">(4)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold">Other Allegations</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Extraordinarily, there is even dispute over the whereabouts of Philip&#8217;s old school reports.  These were in the Deceased&#8217;s property and at some point, after the Deceased&#8217;s death Stephen told Philip that he had had a bonfire.  Stephen&#8217;s explanation (which was before the Registrar) was that he had told Philip that he was welcome to collect these documents, but after repeated requests by Philip that he send them to him, Stephen &#8220;joked&#8221; that he had had a bonfire.  I am not convinced that this was in fact intended as humour on Stephen&#8217;s part.  In my view the comment was in fact a symptom of the difficulties that plainly exist between these two brothers.  However, Stephen confirmed to both me and to the Registrar that these documents are safe and remain in the Deceased&#8217;s property.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">There are many other allegations.  Philip has made an unparticularised allegation that Stephen stole cash from the Deceased&#8217;s house (vehemently denied by Stephen).  He has contended that Stephen has caused complete distrust by acting unilaterally and has made &#8220;deeply offensive comments, demonstrated overt animosity and intransigence&#8221;.    For his part Stephen alleges that Philip had been estranged from the Deceased for many years.  His version of events is that Philip has kept demanding Stephen to do exactly as he was told and that Philip is the one who had been unreasonable and difficult through the entire process.  Philip insists upon communication through e-mail and Mr Thorpe (for Stephen) indicated that Philip sends several emails a day in relation to the administration of the estate.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">DISCUSSION</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">There are three options open to me in this case.  I could appoint either Philip or Steven as administrator, or I can pass over the claims of both of them and appoint an independent professional administrator.  That latter course has obvious attraction and at the conclusion of the hearing I asked both parties to provide me with the name of an independent administrator that they would propose for appointment should I decide on that course.  Stephen provided me with the names of two firms of solicitors.  Philip has not provided me with any proposed candidate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I am clear that I should not appoint Philip as administrator.  I do not consider that he is capable of undertaking the task in a proportionate or constructive manner.  The role of personal representative is fiduciary in its nature and requires the individual appointed to act for the benefit of the estate as a whole.  Having regard to the manner in which Philip has conducted these proceedings (both before the Registrar and before me) I have no confidence that Philip would be able to take on this role.  The number and nature of the complaints raised by Philip (both in relation to the substantive issue of Stephen&#8217;s appointment and the manner in which the Registrar took her decision) have demonstrated to me that Philip, although no doubt a clever man, has no ability to discriminate between the important and the unimportant, the relevant and the irrelevant, or between the good point and the bad.  Put bluntly, I do not consider that Philip would be able to separate the wood from the trees and I do not consider it advisable to place him control of the administration of the estate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">As these proceedings have continued various applications of variable merit have been issued by Philip.  Indeed, Philip has indicated a wish to pursue an application for contempt of Court against Stephen in relation to his witness statement.  I have already made clear that I cannot see any basis for such an application and that such applications are serious matters, procedurally complex and, if initiated, could leave Philip with a substantial liability in costs.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Philip&#8217;s inability to identify a proportionate course of action is illustrated by his complaint that Stephen is under a conflict of interest in relation to an alleged claim that the Deceased&#8217;s estate may have against Stephen&#8217;s son.  Yet the alleged quantum of the claim is sufficiently small (no more than &#163;5,000 in the context of an estate worth approximately &#163;500,000) that any litigation over this sum would be entirely disproportionate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Philip has also raised issues about Stephen&#8217;s instruction of Dixon Alderton in the administration of the estate as required by the Registrar&#8217;s order.  He has complained that the fact that Stephen has instructed a different firm of solicitors, Meridian Private Client LLP, to represent him within this litigation is a breach of that order.  It is not.  I am told that Dixon Alderton remain instructed in the administration of the estate.  It seems to me entirely unobjectionable that Stephen in his personal capacity is represented by a different firm of solicitors in this contentious litigation, and the fact that Philip seeks to take such a point merely illustrates his lack of any sense of proportion to this litigation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Mr Thorpe&#8217;s account of Philip sending numerous e-mails every day in relation to the administration of the estate, is at entirely one with the behaviour that I have observed within these proceedings.  Taking matters as a whole I consider that it would be wholly wrong and contrary to the interests of the estate as a whole to appoint Philip as his father&#8217;s administrator.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">That therefore leaves the choice between the options of retaining Stephen or appointing an independent administrator in his place.  There I consider that the balance is more finely struck.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The principal advantage of leaving Stephen in place is that this is a relatively modest estate which may yet need to be divided among a relatively large number of beneficiaries.   The assets in the estate are limited (consisting of money in a UK bank, a property in Luton and a further property in St Vincent) and the steps required to realise and collect in the estate are relatively straightforward.    Since obtaining the grant, the UK property has been placed for sale and is now under offer, subject to contract.  Steps are also being taken to obtain a grant in St Vincent.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Thus Mr Thorpe, for Stephen, makes the points that the appointment of an independent professional will slow down the administration of the estate and will incur substantial professional costs.  I recognise that there is significant force in this argument.  If I appoint an independent professional, then that person will have to familiarise themselves with the estate and duplicate some of the work that has been carried out by Stephen and Dixon Alderton.  The sale of the UK property that has been lined up may be delayed.  Their costs will be likely to exceed those of Dixon Alderton, as they will be acting as personal representative and administering the estate, and I recognise that those costs may be increased by the queries and comments that Philip is likely to continue to raise.  I note also that Stephen&#8217;s appointment has the apparent support of Eric&#8217;s children, although as their title to share in the estate has been questioned, I do not place weight on that point.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The advantage, however, of a professional administrator is that it takes the administration of the estate out of the hands of any one branch of the family.  That the class of beneficiaries potentially entitled to a share of the Deceased&#8217;s estate is not confined to Philip and Stephen, but may also extend to those individuals claiming to be children of Eric or of the Deceased is in my view a relevant factor.  The role of administrator encompasses not just the collecting in of the estate, but also its distribution, an issue which in the present case may be prove contentious.  I consider that the involvement of an independent professional who can objectively assess the claims of the various individuals whose entitlement to share in the Deceased&#8217;s estate may be in dispute is likely to reduce the need for contentious litigation on this issue in the Chancery Division (or at least will assist in focusing the scope of that dispute). It may also reduce the likelihood of other aspects of the administration being challenged in the future, thus avoiding further litigation. The appointment of an independent administrator may provide an opportunity for the value placed by Stephen on the UK property to be reconsidered and it means that independent consideration can be given as to (a) whether the estate has any claim against Stephen in respect of his occupation of the property since the Deceased&#8217;s death or (b) the value of any such claim. I make clear though, that in making this point I have not reached any view as to the merits (or otherwise) of these alleged claims.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Taking all matters into account, I have concluded that in the interests of the estate and the beneficiaries as a whole, this is a case in which special circumstances make it necessary and expedient to pass over the claims of both Stephen and Philip and to appoint an independent professional pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/116" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 116</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Although I have reached a different conclusion to District Probate Registrar, I make no criticism whatsoever of her decision.  She dealt with the case solely on written evidence, at a time when the level of contention in this case was not fully apparent.  It is clear from her order of 18 October 2022 that the option of appointing an independent administrator was one that she had firmly in mind.  I have heard the case afresh and have had the advantage of hearing oral evidence.  It is on that basis that I have reached my decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">As I have already indicated I invited both Stephen and Philip to submit names of independent professional personal representatives.  Only Stephen has responded to that invitation, and he submitted the names of two firms both of whom are willing to act.  Of those firms he has indicated a preference for the firm of Rothley Law Ltd.  Following receipt of the draft of this judgment Stephen has provided a further witness statement from his solicitor confirming that he would wish the grant to issue to Mr Adam Draper of Rothley Law Ltd.  I have been provided with a copy of Mr Draper&#8217;s consent to act and a statement of suitability in relation to him.  In the light of that information I will order that a grant issues to Mr Draper.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">I will therefore make the following orders:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">The appeal is allowed in part and the order of the District Probate Registrar dated 11 July 2023 is set aside.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">The grant of letters of administration to Stephen dated 7 August 2023 is revoked.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Stephen shall by 4pm on 22 November 2023 provide Philip with a copy of the insurance certificate for the Deceased&#8217;s property and a copy of any letter or e-mail confirming the offer that has been made on the property (this reflects an offer to provide such documents that Stephen made in the course of his cross-examination).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Stephen shall by 4pm on 22 November 2023 cause the original grant of letters of administration together with a copy of my order to be sent to the Principal Probate Registry.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">A grant of letters of administration in the estate of the Deceased shall issue to Mr Adam Draper of Rothley Law Ltd pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/116" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 116</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(6)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Forthwith upon a grant issuing, Stephen shall transfer all money and property belonging to the Deceased&#8217;s estate that is within his possession or control to the new administrators.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(7)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Any costs incurred by Stephen in instructing Dixon Alderton in the administration of the Deceased&#8217;s estate, are to be paid out of the estate of the Deceased, to be subject to a detailed assessment on the standard basis if not agreed by the new administrators.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">I will deal with the costs of this appeal on the papers and make the following directions in this regard:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">The parties are by 4pm on 22 November 2023 to serve on each other and file with the court and with my clerk a document not exceeding 4 pages of A4 (12 point 1.5 spacing) setting out their position regarding the costs of this appeal.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">The parties may by 4pm on 29 November 2023 serve on each other and file with the court and with my clerk a document not exceeding 2 pages of A4 (12 point 1.5 spacing) responding to the other side&#8217;s position on costs.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Upon receipt of these documents, I will consider the parties&#8217; submissions and issue an order dealing with costs.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">As to any appeal from my decision, this issue was raised by Philip during the hearing.  I note that the NCPR 1987 do not provide for any further appeal to the Court of Appeal from a decision of a judge.  My view therefore is such an appeal lies wholly outside the scope of the NCPR 1987 and the retained parts of the RSC 1965 and is instead governed by Part 52 of the CPR 1998.  As my decision has itself been made on an appeal, an appeal to the Court of Appeal would be a second appeal.  Under CPR 1998 Part 52.7 permission for a second appeal can only be granted by the Court of Appeal.  Therefore, should either party wish to appeal this decision they will need to seek permission directly from the Court of Appeal.  It should be noted that under CPR 1998 r.52.7 permission will only be granted where (a) the appeal (i) would have real prospects of success and (ii) raise an important point of principle or practice; or (b) there is some other compelling reason for the Court of Appeal to hear it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">That is my judgment.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

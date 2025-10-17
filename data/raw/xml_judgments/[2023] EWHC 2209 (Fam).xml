@@ -1,0 +1,871 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/2209"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/2209"/>
+	  <FRBRdate date="2023-09-06" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2209"/>
+	  <FRBRname value="NM v SM"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2209"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2209"/>
+	  <FRBRdate date="2023-09-06" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2209/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2209/data.xml"/>
+	  <FRBRdate date="2024-11-10T00:31:28" name="transform"/>
+	  <FRBRdate date="2024-11-23T18:18:07" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-09-06" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="nm" href="" showAs="NM"/>
+	<TLCPerson eId="sm" href="" showAs="SM"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-macdonald" href="/judge-the-honourable-mr-justice-macdonald" showAs="THE HONOURABLE MR JUSTICE MACDONALD"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>2209</uk:number>
+	<uk:cite>[2023] EWHC 2209 (Fam)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>1e573b25c7a0327887f328c7e94d2431015bcb570509ba5d4d114ece4383e472</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EWHC 2209 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD23P00205</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2023-09-06" refersTo="#judgment">06/09/2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-macdonald">THE HONOURABLE MR JUSTICE MACDONALD</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#nm" style="font-weight:bold">NM</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#sm" style="font-weight:bold">SM</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Cliona Papazian </span>(instructed by<span style="font-weight:bold"> Hanne &amp; Co LLP</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Mani Singh Basi</span> (instructed by <span style="font-weight:bold">Jai Stern Solicitors</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 30 August 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MR JUSTICE MACDONALD</p>
+      <p style="text-align:justify">This judgment was delivered in private. The Judge has given permission for this anonymised version of the judgment (and any of the facts and matters contained in it) to be published on condition always that the names and the addresses of the parties and the children must not be published.  For the avoidance of doubt, the strict prohibition on publishing the names and addresses of the parties and the children will continue to apply where that information has been obtained by using the contents of this judgment to discover information already in the public domain. All persons, including representatives of the media, must ensure that these conditions are strictly complied with.  Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice MacDonald:</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in">INTRODUCTION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this matter, I am concerned with an application under the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/60" uk:canonical="1985 c. 60" uk:origin="TNA" uk:type="legislation">Child Abduction and Custody Act 1985</ref> for a summary return order under the 1980 Hague Convention. The application concerns C (known as N) born on in December 2018 and now aged 4.  N is a Romanian national, as is his younger sister, R.  The applicant mother, NM, is Romanian. She seeks the summary return of N to the jurisdiction of Romania. The mother attended this hearing by video link and is represented by Ms Cliona Papazian of counsel. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The respondent father, SM, is a Lebanese Citizen. He is represented by Mr Mani Singh Basi of counsel.  The father resists the summary return of N on the grounds that N was habitually resident in England and Wales on the relevant date, and therefore his retention was not wrongful for the purposes of Art 3, that the mother consented to the retention of N from the jurisdiction of Romania for the purposes of Art 13, that N is settled in the jurisdiction of England and Wales for the purposes of Art 12 of the 1989 Hague Convention and that returning N to Romania would expose him to a grave risk of physical or psychological harm or would otherwise place him in an intolerable situation for the purposes of Art 13(b). There is no issue between the parties that the mother was exercising rights of custody in respect of N at the relevant time.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As always in cases under the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/60" uk:canonical="1985 c. 60" uk:origin="TNA" uk:type="legislation">Child Abduction and Custody Act 1985</ref>, I consider it important to note at the outset that the purpose of proceedings under the 1980 Hague Convention is to ensure, subject to a small number of narrow exceptions, the prompt return of the child to the jurisdiction of his or her habitual residence in order that that jurisdiction can determine all disputed questions of welfare. As Mostyn J noted in <span style="font-style:italic">B v B</span> [2014] EWHC 1804, the objective of the Convention is to ensure that a child who has been removed unilaterally from the country of his or her habitual residence in breach of rights of custody is returned forthwith in order that the courts in that country can decide his or her long term future.  In these circumstances, a decision by the court to return a child under the terms of the Convention is, no more and no less, a decision to return the child for a specific purpose and for a limited period of time pending the court of his or her habitual residence deciding the long-term welfare position.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Within the foregoing context, the following issues fall to be determined by the court:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">What is the date of alleged retention in this case?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Was N habitually resident in Romania at the time of the alleged retention?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">If N was habitually resident in Romania at the date of the alleged retention, did the mother consent to that retention?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Was N settled in this jurisdiction for the purposes of Art 12 of the 1980 Convention at the date these proceedings were issued?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Would the return of N to the jurisdiction of Romania expose him to a grave risk of physical or psychological harm or would otherwise place him in an intolerable situation?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">If the court determines that one or more of the exceptions under the 1980 Hague Convention are made out, should the court exercise its discretion to make a return order in any event?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In deciding this matter, I have had the benefit of reading the hearing bundle, including the extensive exhibits provided by the father, and of hearing limited oral evidence from the Cafcass Reporter on the question of settlement and from the mother and the father on the question of habitual residence and consent.  I have also had the benefit of comprehensive submissions from Ms Papazian and Mr Basi.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1">BACKGROUND</p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties were married in London in August 2017. There are two children of the marriage, N aged 4, and R aged 3. Both were born in England and are Romanian citizens.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is common ground that prior to 10 January 2022 N had not left the jurisdiction of England and Wales since his birth on 3 December 2018.  The mother alleges that, during the course of 2021, the parents agreed to relocate to Romania with the intention to live in Romania for a period of time. Whilst the mother contends that the parents left the possibility of returning to the United Kingdom at some future point, she contends that the family had no fixed return date.   The father alleges that the intention was for the mother and the children to travel to Romania only for a holiday following the stresses and limitations of the COVID-19 pandemic.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father did not accompany the children and the mother to Romania on their outward departure on 10 January 2022 due to his then work commitments and an upcoming hearing in the Employment Tribunal.  Upon arrival in Romania, the mother and the children resided with the maternal grandmother in a two bedroom apartment, the mother sharing a room with the children.  The mother states that, in circumstances where they arrived in winter, she and the children spent a lot of time indoors.  The mother asserts that she and the children saw her brother, his wife and their two children aged five and nine several times each week and would see other members of her family.  The mother asserts that N was due to be registered for nursery in Romania in June 2022, with a view to him starting in nursery there in September 2022.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father travelled to Romania to see the mother and the children twice, once in March 2022 and once in April 2022.  The mother asserts that in March 2022 she and the father were still very much in a relationship.  She asserts that during the March visit, the father discussed options for opening a restaurant in Romania with her brother.  In this context, the mother points to the fact that following the father being granted a visa for three months for the March visit, the mother applied to extend that visa to 31 May 2023 in the expectation that the father would be joining the family to work in Romania.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By contrast, the father contends that on 14 February 2022, the mother informed the father that she considered their relationship over and that she wished to remain in Romania with the children.  In this context, the father portrayed his visits to Romania as attempts to salvage the relationship.   He asserts that he believed that these visits were successful and that the relationship had resumed but that the mother then contacted him to request he take N back to England as soon as possible as he was not behaving and because the maternal grandmother felt he looked like his father and that he was not welcome in their house.  The mother concedes that she and the father had an argument at the end of April 2022 over money.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the end of the April visit, the father took N to England.  The father contends that the mother consented to him returning N to England permanently, in circumstances where N&#8217;s behaviour had deteriorated and the maternal grandmother did not want him in her property.  The mother contends that the father asked her to obtain a Romanian passport for N so that he could spend some &#8220;boys time&#8221; with N in England.  The mother did so.  She says she had no suspicion that the father intended to retain N and asserts that she agreed to the father taking N to England for a short period only and expected him to be returned to Romania some two or three weeks following their departure.  It is in that context that the mother says she provided her written consent to the father to leave Romania with N.  The father took N to England on 3 May 2022.  At that point, N had been in Romania with the mother and R for a period of four and a half months.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father now asserts that the mother consented to him removing N from Romania.  On behalf of the father, Mr Basi was forced to concede, rightly, that beyond the assertion of the father and the fact he and N travelled on a one way ticket, the evidence before the court does not demonstrate clear and unequivocal consent on the part of the mother to the removal of N from the jurisdiction of Romania.   The mother contends further that the subsequent communications between the parties on WhatsApp demonstrate that she had given no such consent.  In particular, the mother relies on WhatsApp messages in which she seeks to clarify with the father what date he will be returning N to Romania in the context of the asserted agreement of a two to three week holiday, the first of those messages being sent on 6 May 2022.  The father was not able to dispute that at no point in his replies does the father rely on that which he now asserts, namely that the mother had consented to him removing N from Romania to live with him in England.  Indeed, it is clear from the WhatsApp messages that the father was stating he would be booking a flight, albeit he continued to dissemble as to when.  During the exchange, on 10 May 2022 the mother put to the father that &#8220;You said you&#8217;re bringing N home in 3 weeks. It past one week already&#8221;.  The father&#8217;s reply did not dispute this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The date on which the mother alleges the father should have returned N to the jurisdiction of Romania is of particular significance in this case given the date on which these proceedings were issued on 15 May 2023.  As I have noted, the father contends that at this point N was settled in the United Kingdom for the purposes of Art 12 as, if he was wrongfully retained in England, he had been so for a period of more than one year at the date proceedings were issued.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The mother asserts that at the point at which the father retained N in the jurisdiction of the England and Wales, he was habitually resident in Romania. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following the alleged retention of N in the jurisdiction of England and Wales, both parents commenced litigation in Romania.  The mother issued proceedings in the Romanian court.  Her first application was dated 7 June 2022, by which application she sought the return of N to the jurisdiction of Romania.   On 24 November 2022, the Regional court made an order for R to reside with the mother but refused such an order in respect of N.  The translated transcript of judgment of the Regional Court indicates that the court rejected as not proven the father&#8217;s case that the mother had asked him to take N to England because of his behaviour and the view of the maternal grandmother.  The court further found that, whilst the mother had given her consent for N to travel with his father, the mother continued to intend for him to live with her in Romania.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father also issued proceedings in Romania, by way of an application under the 1980 Hague Convention for the summary return of R to the jurisdiction of England and Wales.  Whilst the Romanian court of first instance granted a return order, the father&#8217;s application under the 1980 Hague Convention was dismissed on appeal on 3 October 2022.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court has a translated copy of the judgment of the Bucharest Court of Appeal of 3 October 2022 in the 1980 Hague Convention proceedings commenced by the father.  The Hague Convention proceedings launched by the father in Romania in respect of R dealt with a number of the issues that fall for determination in, or are relevant to, the proceedings before this court.   In its judgment, the Bucharest Court of Appeal stated that it had considered the following aspects of the Convention:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;&#8230;the Court acknowledges that the Romanian court vested with a request for the return of an underage, on the grounds of the Convention of the Hague of 1980, is summoned to assess the compliance with the following conditions: the habitual residence of the underage is in the state that requests her return; the displacement or the retaining of the underage on the territory of another state occurred by violating an entrustment right, assigned to the applicant by the Law of the state in which the child used to have her habitual residence; at the time of the child displacement or non-return, this right was effectively exercised; the amount of time that passed between the child&#8217;s displacement or non-return and the date of the return application; the exceptions from the return rule recognized by the Convention.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Within this context, in allowing the mother&#8217;s appeal in 1980 Hague Convention proceedings against the return order made in favour of the father in respect of R, I note that the Bucharest Court of Appeal held, as had the lower court, that the mother and father had agreed to relocate the family to and settle in Romania.  The Bucharest Court of Appeal further concluded that, in the context of this agreement, R&#8217;s habitual residence had moved to Romania.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, this court has a translated transcript of the appellate decision overturing the decision of the Regional Court refusing a domestic order providing that N reside with the mother.   On 27 February 2023, allowing the mother&#8217;s appeal on the ground that the judge at first instance had not considered sufficiently or at all the impact on the children of separating the siblings, the appellate court considered the factual aspects of the case dealt with by the Regional Court on 24 November 2022 to have been settled and to be <span style="font-style:italic">res judicata</span>.  Further, with respect to the issue of the habitual residence of N the appellate court, noting the decision of the Bucharest Court of Appeal allowing the mother&#8217;s appeal in the proceedings under the 1980 Hague Convention, held as follows (emphasis in the original):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;Of particular importance are the considerations contained in this decision, which are imposed in this case with <span style="font-style:italic">res judicata</span>.  In solving the case, the court of appeal noted that:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8216;before the [mother] and the minors moved to Romania, <span style="font-weight:bold">the parties agreed to settle in this country&#8230;the [father] consented to the change of residence</span> of the girl minor from Great Britain, in Romania.  This agreement reconfigured the content of the right of custody regulated by art.5 of the Convention.  The attributes of the right of custody became, from the date of the agreement, inextricably linked to the residence in Romania of the child, which was designated as the usual living environment of the minor, by the concordant will of his parents.  Subsequent to this agreement of the parties, the [father] has the freedom to change his mind, however, <span style="font-weight:bold">this new manifestation of will produces effects only if he obtains the [mother&#8217;s] agreement or the consent of the guardianship court</span>.  Therefore, the refusal of the [mother] to return with the child to Great Britain, at the request of the [father], does not affect his right regarding custody, but is legitimised by the existence of the agreement of the parties on the minor&#8217;s new residence, an agreement that cannot be revoked unilaterally.&#8217;</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">Although the previously stated considerations refer only to girl minor, this limit must be placed in the context of the procedural framework, the court not being able to analyse as well the situation of the boy minor because it was not legally invested with regard to his legal situation.  However, the approach of the parties was a unitary one in relation to both children, a fact that requires the conclusion that they had initially decided that the residence of both children should be established in Romania, and the change of residence could only take place on the basis of a court decision or the mutual agreement of the parties.&#8221;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father also issued proceedings in this jurisdiction under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> for a prohibited steps order.  Those proceedings have been stayed by this court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, in addition to consent and settlement, if this court concludes that N was habitually resident in the jurisdiction of Romania at the time the father retained him in England in May 2022, the father contends that to return N to the jurisdiction of Romania would lead to a grave risk of him suffering physical or psychological harm or otherwise being placed in an intolerable situation.  In this regard, he relies on the fact that N does not speak Romanian, that he has lived in England for a significant period of time, that he is in nursery and doing well here. The father asserts that whilst in Romania the maternal grandmother made N feel unwelcome and that this places him at risk of psychological harm.  The father further asserts that a return order would lead to N being placed in an environment he does not know, having been removed from everything he knows in England. The father further alleges the mother would make it difficult for the father to have any meaningful contact with N in circumstances where he cannot work in Romania, cannot speak the language and cannot live there.   Finally, the father alleges that he has been subjected to domestic abuse by the mother. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1">THE LAW</p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Habitual Residence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having regard to the terms of Art 3 of the 1980 Convention, when considering an application for a return order under the 1980 Convention, it is necessary to establish whether N was habitually resident in Romania at the time of his alleged retention.   The father asserts that N was not habitually resident in Romania at the relevant date. The mother contends that he was. Within this context, the following legal principles fall to be applied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For habitual residence to be established the residence of the child must reflect some degree of integration in a social and family environment (&#160;<span style="font-style:italic">Area of Freedom, Security and Justice) </span>(&#160;C-532/01) <ref href="#" uk:canonical="[2009] 2 FLR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 2 FLR 1</ref>&#160;and&#160;<span style="font-style:italic">Re A (Jurisdiction: Return of Child)</span>&#160;<ref href="#" uk:canonical="[2014] 1 AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 AC 1</ref>&#160;). Whether there is some degree of integration by the child in a social and family environment is a question of fact to be determined by the national court, taking into account all the circumstances specific to the individual case.   In the recent case of <span style="font-style:italic">A (A Child)(Habitual Residence: 1996 Hague Convention)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/659" uk:canonical="[2023] EWCA Civ 659" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Civ 659</ref> Moylan LJ made clear that the concept of some degree of integration is simply a description of the approach to be taken, the question of whether a child is habitually resident in a particular jurisdiction falling to be determined on all of the relevant factors.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the circumstances, habitual residence must be established on the basis of all the circumstances specific to the individual case (&#160;<span style="font-style:italic">Case</span><span>&#160;</span><span style="font-style:italic">C-523/07 </span><ref href="#" uk:canonical="[2010] Fam 42" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] Fam 42</ref>). With respect to those circumstances, in&#160; <span style="font-style:italic">Re A (Area of Freedom, Security and Justice)</span>&#160;and&#160;<span style="font-style:italic">Mercredi v Chaffe </span><ref href="#" uk:canonical="[2011] 2 FLR 515" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 2 FLR 515</ref>, the Court of Justice of the European Union identified the following, non-exhaustive, list of circumstances that might be relevant in a given case:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Duration, regularity and conditions for the stay in the country in question.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Reasons for the parents move to and the stay in the jurisdiction in question.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The child's nationality.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The place and conditions of attendance at school.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The child's linguistic knowledge.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The family and social relationships the child has.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Whether possessions were brought, whether there is a right of abode and whether there are durable ties with the country of residence or intended residence.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In a series of decisions, namely&#160;<span style="font-style:italic">Re KL (A Child)</span>&#160;<ref href="#" uk:canonical="[2014] 1 FLR 772" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 FLR 772</ref><span style="font-style:italic">, Re L (A Child) (Custody: Habitual Residence) (Reunite International Child</span><span>&#160;</span><span style="font-style:italic">Abduction Centre intervening) </span><ref href="#" uk:canonical="[2014] 1 FLR 772" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 FLR 772</ref>,&#160;<span style="font-style:italic">Re LC (Children) (Reunite International Child Abduction Centre intervening) </span><ref href="#" uk:canonical="[2014] 1 FLR 1486" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 FLR 1486</ref>,&#160;<span style="font-style:italic">Re R (Children) (Reunite International Child Abduction Centre and others intervening)</span>&#160;<ref href="#" uk:canonical="[2015] 2 FLR 503" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 2 FLR 503</ref>&#160;and&#160;<span style="font-style:italic">Re B (A child) (Habitual Residence: Inherent Jurisdiction) </span><ref href="#" uk:canonical="[2016] 1 FLR 561" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 1 FLR 561</ref>&#160;the Supreme Court has articulated the following further principles of general application with respect to the question of habitual residence:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">It is the child's habitual residence which is in question and hence the child's level of integration in a social and family environment which is under consideration by the court determining the question of habitual residence.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In common with the other rules of jurisdiction, the meaning of habitual residence is shaped in the light of the best interests of the child, in particular on the criterion of proximity. Proximity in this context means the practical connection between the child and the country concerned.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">In assessing whether a child has lost a pre-existing habitual residence and gained a new one, the court must also weigh up the degree of connection which the child had with the state in which he resided before the move.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">It is not necessary for a child to be fully integrated before becoming habitually resident.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">It is the stability of a child's residence as opposed to its permanence which is relevant, though this is qualitative and not quantitative, in the sense that it is the integration of the child into the environment rather than a mere measurement of the time a child spends there.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In circumstances where the social and family environment of an infant or young child is shared with those on whom she is dependent, it is necessary to assess the integration of that person or persons (usually the parent or parents) in the social and family environment of the country concerned.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">In respect of a pre-school child, the circumstances to be considered will include the geographic and family origins of the parents who effected the move.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">The requisite degree of integration can, in certain circumstances, develop quite quickly.  There is no requirement that the child should have been resident in the country in question for a particular period of time. The deeper the child's integration in the old state, probably the less fast his or her achievement of the requisite degree of integration in the new state. Likewise, the greater the amount of adult pre- planning of the move, including pre-arrangements for the child's day-to-day life in the new state, probably the faster his or her achievement of that requisite degree. In circumstances where all of the central members of the child's life in the old state were to have moved with him or her, probably the faster his or her achievement of habitual residence. Conversely, were any of the central family members have remained behind and thus represent for the child a continuing link with the old state, probably the less fast his or her achievement of habitual residence.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A child will usually, but not necessarily, have the same habitual residence as the parent(s) who care for him. The younger the child the more likely that proposition but this is not to eclipse the fact that the investigation is child focused.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Parental intention is relevant to the assessment, but not determinative. There is no requirement that there be an intention on the part of one or both parents to reside in the country in question permanently or indefinitely. Parental intent is only one factor, along with all other relevant factors, that must be taken into account when determining the issue of habitual residence.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In considering the question of habitual residence, it is not necessary for the court to make a searching and microscopic enquiry (<span style="font-style:italic">Re B (Minors)(Abduction)(No 1) </span><ref href="#" uk:canonical="[1993] 1 FLR 988" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] 1 FLR 988</ref>).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Consent </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father also relies on the consent exception in Art 13 of the 1980 Hague Convention.  In&#160;<span style="font-style:italic">Re P-J (Abduction: Habitual Residence: Consent) </span><ref href="#" uk:canonical="[2009] 2 FLR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 2 FLR 1</ref>051 the Court of Appeal made clear that consent to the removal of the child must be given in&#160;clear and unequivocal terms.  The Court of Appeal made clear in&#160;<span style="font-style:italic">Re P-J</span>&#160;that consent, or the lack of it, must be viewed in the context of the realities of family life, or more precisely, in the context of the realities of the disintegration of family life. It is not to be viewed in the context of, nor governed by, the law of contract. The burden of proving the consent rests on him or her who asserts it and, in this respect, the inquiry is inevitably fact specific and the facts and circumstances will vary infinitely from case to case. The ultimate question is a simple one, even if a multitude of facts bear upon the answer, namely, has the other parent clearly and unequivocally consented to the removal?</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Settlement</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father further contends in any event that, at the time proceedings were issued on 15 May 2023, N was settled in this jurisdiction for the purposes of Art 12 of the 1980 Hague Convention.  With respect to settlement, Art 12 of the 1980 Hague Convention provides as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;<span style="font-weight:bold">Article 12</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">Where a child has been wrongfully removed or retained in terms of Article 3 and, at the date of the commencement of the proceedings before the judicial or administrative authority of the Contracting State where the child is, a period of less than one year has elapsed from the date of the wrongful removal or retention, the authority concerned shall order the return of the child forthwith.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">The judicial or administrative authority, even where the proceedings have been commenced after the expiration of the period of one year referred to in the preceding paragraph, shall also order the return of the child, unless it is demonstrated that the child is now settled in its new environment.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">Where the judicial or administrative authority in the requested State has reason to believe that the child has been taken to another State, it may stay the proceedings or dismiss the application for the return of the child.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On behalf of the father, Mr Basi sought to suggest that when seeking to establish the date of retention in this case for the purposes of Art 12, in the absence of a specific date stipulated by the mother to the father for N&#8217;s return, the court should instead base its decision as to whether &#8220;a period of less than one year has elapsed from the date of the wrongful removal or retention&#8221; on the <span style="font-style:italic">month</span> that N was due to be returned to Romania.   In seeking support for this bold submission, Mr Basi relies on the decision of Mostyn J in <span style="font-style:italic">JM v RM</span> EWHC 315 (Fam) [2021] in which Mostyn J commented:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;[31] It seems to me that a wrongful act of retention, whether anticipatory/repudiatory (i.e. happening before the due date for return), or actual (i.e. happening after the due date of return), requires there to be, as a matter of fact, a clearly agreed due date of return. I believe that every reported case about retention has involved a finite period away with a due date of return. In my opinion it is implicit in the concept of wrongful retention, as referred to in Articles 1, 3, 12, 13, 14, 15 and 16, that the wrongful act must take place within, or immediately following, an agreed finite period of care by the retaining parent&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">And the decision in Z v Z <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/1673" uk:canonical="[2023] EWHC 1673 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWHC 1673 (Fam)</ref> in which Peel J stated at [15]: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;Mostyn J in <span style="font-style:italic">JM v RM</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/315" uk:canonical="[2021] EWHC 315 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 315 (Fam)</ref> referred to the need for &#8220;an agreed due date for return&#8221;. I do not read him as stating that there must in every case be fixed calendar dates. Each case must be judged on its specific facts. Thus, for example, rather than a specified calendar date, the agreed or anticipated date for return may be referable to an agreed crystallising or triggering event, the precise date of which is unknown to the parties at the time of departure. In this case the due date for return was at the conclusion of the treatment, the precise timing of which was unknown when they flew to England and, in the event, has not yet come to pass. But it seems to me that there must be some ingredient to indicate that the departure from one country to another is intended to be temporary rather than permanent or potentially permanent, even if the precise date of return is not fixed. Thus, it is hard to conceive of a wrongful retention where the departure from the outward country is agreed to be open ended with no determining or triggering event; I endorse the observations of Mostyn J at para 32. In each case, the court will have to do the best it can on the available information to determine the relevant date&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I cannot accept Mr Basi&#8217;s submission that in the absence of a specific date stipulated by the mother to the father for N&#8217;s return, the court should instead base its decision as to whether &#8220;a period of less than one year has elapsed from the date of the wrongful removal or retention&#8221; on the month that N was due to be returned to Romania.  The decisions of Mostyn J in <span style="font-style:italic">JM v RM</span> and Peel J in <span style="font-style:italic">Z v Z</span> are plainly not authority for that proposition.  More fundamentally, the approach advocated by Mr Basi is not compatible with the terms of Art 12, which require the court to determine whether, on the date of issue, a period of <span style="font-style:italic">less</span> than one year has passed since the date of removal or retention.  Self evidently, this must be calculated by reference to the number of days that have passed.  In these circumstances, and as Peel J recognised in <span style="font-style:italic">Z v Z</span>, where the parents have agreed a finite period that does not involve a precise date of return, in this case a period of two to three weeks, the court will have to do the best it can to determine, as a matter of fact, what the relevant date of retention is for the purposes of Art 12 of the 1980 Hague Convention.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Harm</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father further relies on the harm exception set out in Art 13b of the 1980 Convention. The law in respect of the defence of harm or intolerability under Art 13(b) was examined and clarified by the Supreme Court in&#160;<span style="font-style:italic">Re E (Children)(Abduction: Custody Appeal) </span><ref href="#" uk:canonical="[2012] 1 AC 144" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 AC 144</ref>. The applicable principles may be summarised as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is no need for Art 13(b) to be narrowly construed. By its very terms it is of restricted application. The words of Art 13 are quite plain and need no further elaboration or gloss.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The burden lies on the person (or institution or other body) opposing return. It is for them to produce evidence to substantiate one of the exceptions. The standard of proof is the ordinary balance of probabilities but in evaluating the evidence the court will be mindful of the limitations involved in the summary nature of the Convention process.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The risk to the child must be 'grave'. It is not enough for the risk to be 'real'. It must have reached such a level of seriousness that it can be characterised as 'grave'. Although 'grave' characterises the risk rather than the harm, there is in ordinary language a link between the two.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The words 'physical or psychological harm' are not qualified but do gain colour from the alternative 'or otherwise' placed 'in an intolerable situation'. 'Intolerable' is a strong word, but when applied to a child must mean 'a situation which this particular child in these particular circumstances should not be expected to tolerate'.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Art 13(b) looks to the future: the situation as it would be if the child were returned forthwith to his or her home country. The situation which the child will face on return depends crucially on the protective measures which can be put in place to ensure that the child will not be called upon to face an intolerable situation when he or she gets home. Where the risk is serious enough the court will be concerned not only with the child's immediate future because the need for protection may persist.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Where the defence under Art 13(b) is said to be based on the anxieties of a respondent mother about a return with the child which are not based upon objective risk to her but are nevertheless of such intensity as to be likely, in the event of a return, to destabilise her parenting of the child to a point where the child's situation would become intolerable, in principle, such anxieties can found the defence under Art 13(b).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In&#160;<span style="font-style:italic">Re E</span>&#160;, the Supreme Court made clear that in examining whether the exception in Art 13(b) has been made out, the court is required to evaluate the evidence against the civil standard of proof, namely the ordinary balance of probabilities whilst being mindful of the limitations involved in the summary nature of the Convention process. Within the context of this tension between the need to evaluate the evidence against the civil standard of proof and the summary nature of the proceedings, the Supreme Court further made clear that the approach to be adopted in respect of the harm defence is not one that demands the court engage in a fact-finding exercise to determine the veracity of the matters alleged as grounding the defence under Art 13(b).&#160;Rather, the court should assume the risk of harm at its highest and then, if that risk meets the test in Art 13(b), go on to consider whether protective measures sufficient to mitigate harm can be identified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The methodology articulated in&#160;<span style="font-style:italic">Re E</span>&#160;forms part of the court's general process of reasoning in its appraisal of the exception under Art 13(b) (see&#160;<span style="font-style:italic">Re S (A Child)(Abduction: Rights of Custody) </span><ref href="#" uk:canonical="[2012] 2 WLR 721" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 2 WLR 721</ref>), and this process will include evaluation of the evidence before the court in a manner commensurate with the summary nature of the proceedings. Within this context, the assumptions made with respect to the maximum level of risk must be reasoned and reasonable assumptions based on an evaluation that includes consideration of the relevant admissible evidence that is before the court, albeit an evaluation that is undertaken in a manner consistent with the summary nature of proceedings under the 1980 Hague Convention.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Previous Findings by Foreign Court</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this matter, as set out above, the decisions of the Romanian courts in the applications made in that jurisdiction by the mother, and in the proceedings under the 1980 Hague Convention issued by the father, examined and made findings in respect of issues that are relevant to and/or fall for determination in these proceedings. In particular, the nature of the parent&#8217;s initial period in Romania and extent to which the subject child, in that case R, was habitually resident in Romania as at the date the father alleged in his proceedings under the 1980 Convention that the mother had wrongfully retained R in the jurisdiction of Romania.  In circumstances where the mother seeks to rely on the findings made by the Romanian court in respect of these matters and where the father continues to dispute them, the question arises to what status those findings have in these proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Thompson v Thompson</span> <ref href="#" uk:canonical="[1957] P 19" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1957">[1957] P 19</ref>, a case in which allegations of cruelty had been raised and determined in one set of proceedings and where then raised again in a second set of proceedings between the same parties, Lord Denning observed that the court was concerned with the question of whether the parties should &#8220;be allowed to fight the battle all over again&#8221;.  Holding that the principle of <span style="font-style:italic">res judicata</span> applied in the Divorce Court but subject to the important qualification that no doctrine of estoppel by <span style="font-style:italic">res judicata</span> could abrogate the duty of the court to enquire as to the truth of the divorce petition, Lord Denning observed:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;The full proposition is that, once an issue of a matrimonial offence has been litigated between the parties and decided by a competent court, neither party can claim as of right to reopen the issue and litigate it all over again if the other party objects (that is what is meant by saying that estoppels bind the parties): but the divorce court has the right, and indeed the duty in a proper case, to reopen the issue, or to allow either party to reopen it, despite the objection of the other party (that is what is meant by saying that estoppels do not bind the court). Whether the divorce court should reopen the issue depends on the circumstances. If the court is satisfied that there has already been a full and proper inquiry in the previous litigation, it will often hold that it is not necessary to hold another inquiry all over again: but if the court is not so satisfied, it has a right and a duty to inquire into it afresh. If the court does decide to reopen the matter, then there is no longer any estoppel on either party. Each can go into the matter afresh.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The decision in <span style="font-style:italic">Thompson v Thompson</span> is distinguished from this case in that in <span style="font-style:italic">Thompson</span> the same issue was raised in two sets of domestic proceedings, whereas in these proceedings the issues being relitigated have previously been considered in foreign proceedings.  In this context, in considering the status of the findings made by the Romanian courts, in my judgment it is important to have regard to the principles governing the extent to which a decision of a foreign court can lead to an issue estoppel, including the need to apply those principles with caution given the uncertainties inherent in differences of procedure in foreign jurisdictions.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The <span style="color:#212529;background-color:#FFFFFF">following principles govern the extent to which the judgment of a foreign court may create an issue estoppel (see </span><span style="font-style:italic;color:#212529;background-color:#FFFFFF">Carl Zeiss v Rayner</span><span style="color:#212529;background-color:#FFFFFF"> (1967) 1 AC 853 and </span><span style="font-style:italic;color:#212529;background-color:#FFFFFF">The Sennar</span><span style="color:#212529;background-color:#FFFFFF"> (No.2) <ref href="#" uk:canonical="[1985] 1 WLR 490" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">(1985) 1 WLR 490</ref>):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The foreign judgment is by a court of competent jurisdiction.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The judgment is final, conclusive and on the merits.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The parties or their privies are the same in both sets of proceedings.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There must be clear determination of the issue by the judgment &#8211; it must not be merely collateral or obiter comment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The issue in the later action must be the same as the issue decided by the foreign judgment.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Looking at the foregoing factors, with respect to the proceedings in Romania under the 1980 Hague Convention it is plain that those proceedings were before a judge of competent jurisdiction, that the refusal on appeal of a return order was a final, conclusive decision on the merits, that the parties in those proceedings are the same as the parties in these proceedings and that the judgement in the Romanian Hague Convention proceedings comes to a clear determination of the issue of whether the parents agreed to relocate to Romania and with respect to R&#8217;s habitual residence.  Within that context, the former issue is the same as the issue that falls to be decided in this case.  The latter issue is, of course, not.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1">DISCUSSION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this matter, having regard to the evidence before the court and the submissions of counsel, I am satisfied that the date of the father retaining N was 24 May 2022.  I am further satisfied that, as at the date of his retention, N was habitually resident in the jurisdiction of Romania and hence that the retention was wrongful for the purposes of Art 3 of the 1980 Convention.  I am not satisfied that the mother consented to the retention of N in this jurisdiction.  Further, in circumstances where the date of wrongful retention was 24 May 2022, I am satisfied that Art 12 is not engaged in this case.  I am not satisfied that returning N to the jurisdiction of Romania would expose him to a grave risk of physical or psychological harm or would otherwise place him in an intolerable situation for the purposes of Art 13(b).  In the circumstances, the court is required to make a return order in respect of N.  My reasons for so deciding are as follows.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Date of Retention</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I will come to, I am satisfied that the mother did not consent to the father removing N from the jurisdiction of Romania in May 2022 for the purposes of Art 13(a) of the 1980 Hague Convention.  Rather, I am satisfied that the evidence demonstrates that the mother agreed to the father taking N to England for a temporary period. Having regard to the totality of the evidence before the court, I am satisfied that the date by which the father was due to return N was 24 May 2022.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The evidence demonstrates that the mother agreed to the father taking N to the United Kingdom for up to three weeks in May 2022.  As I have noted above, during the WhatsApp exchange on 10 May 2022 the mother put to the father that &#8220;You said you&#8217;re bringing N home in 3 weeks. It past one week already&#8221; and the father&#8217;s reply did not dispute the mother&#8217;s contention.  The documents from the Romanian proceedings also indicate that the mother has been consistent since N&#8217;s removal from Romania in asserting the period agreed was two or three weeks.  The figure referred to in those Romanian documents is most often three weeks.  The mother has likewise been largely consistent in these proceedings that the latest date for return was three weeks from the father&#8217;s departure from Romania.  Whilst the father challenges this, he has at no point sought to suggest an alternate date by which N was due to be returned to the jurisdiction of Romania.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having regard to this evidence, and to the need for the court to do the best it can to determine the date of removal or retention, I am satisfied that the date by which the father was due to return N to Romania was 24 May 2022.  I pause to note that, with respect to the question of the application of Art 12 of the 1980 Convention, the earlier date consequent upon the agreement for the father to travel with N to England temporarily for a period of two or three weeks, namely 17 May 2022, still results in these proceedings having been issued less than one year from the date of the alleged wrongful retention.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Habitual Residence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that as at 24 May 2022 N was habitually resident in the jurisdiction of Romania.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Parental intention is relevant to the determination of habitual residence, although it is not determinative.  In the circumstances, it is necessary to consider the competing cases of the parents with respect to the reason for the mother and children travelling to Romania in January 2022.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is an issue that has already been extensively litigated in two sets of proceedings in Romania, including the father&#8217;s application under the 1980 Hague Convention.  In circumstances where the proceedings in Romania under the 1980 Hague Convention, were before a judge of competent jurisdiction, the refusal on appeal of a return order was a final, conclusive decision on the merits, the parties in those proceedings are the same as the parties in these proceedings, the judgement in the Romanian Hague Convention proceedings comes to a clear determination of the issue of whether the parents agreed to relocate to Romania and that issue is the same as the issue that falls to be decided in this case, the issue is, arguably, <span style="font-style:italic">res judicata</span>.  Both the court of first instance and the Bucharest Court of Appeal came to a clear finding that the mother and the minors moved to Romania upon the parties having agreed to settle in that country.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In any event, I am satisfied that the evidence before this court would lead to the same conclusion reached by the Romanian court on this issue. The mother&#8217;s assertion that the parents decided to relocate for a period of time to Romania due to financial difficulties the family were having in this jurisdiction is supported by the father&#8217;s concession that he was at that point the subject of an IVA with respect of a debt of between &#163;26,000 and &#163;28,000 and involved in ongoing proceedings before the Employment Tribunal for unfair dismissal.  I acknowledge that the father had secured alternative employment in November 2021 but that is not inconsistent with the mother&#8217;s evidence that it was intended that the father would join the family at a later date given the ongoing proceedings before the Employment Tribunal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Beyond this, there is further evidence, not seriously disputed by the father, which supports the mother&#8217;s version of events.  The mother points to the fact that flights booked for her and the children were one way, that she and the children booked the maximum luggage allowance with the airline, travelling with 96 kg of goods and four additional bags.  That luggage included the children&#8217;s NHS Red Books and their main toys.  In evidence also not disputed by the father, <span style="font-style:italic">prior</span> to departing for Romania the mother purchased in Romania a bed for R and a tumble dryer.  Once in Romania, the mother enrolled in driving lessons for a period of four months.  On arrival in Romania, following discussions between the parents, the children were registered as Romanian citizens to enable to access health care and attend school in Romania.  The children were registered as Romanian Citizens on 14 February 2022. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is the case that following the mother&#8217;s departure for Romania with the children the mother continued to claim Universal Credit in England and that the tenancy on the family home was not cancelled.  However, as I have noted the plan agreed between the parents was that the father would remain in England for a period before joining the family in Romania.  In cross examination, the mother candidly admitted that the Universal Credit claim was maintained as the family needed the money.  I also note the disputed evidence concerning whether the mother emailed a nursery in November 2022 regarding a nursery placement for N in January 2022.  The mother denies sending that email.  In any event, even on the father&#8217;s case the parents agreed that they would be in Romania in January 2022.  With respect to a separate email in which the mother invites a nursery to retain a place for N (whilst making clear the family may not be returning to this jurisdiction for a period) the mother states that she did not close the door completely as she was not certain how things would work out in Romania.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the circumstances, whilst the reason for the mother and children travelling to Romania in January 2022 is arguably <span style="font-style:italic">res judicata</span>, the evidence before this court in any event leads to the same conclusion, namely that the parents had agreed to relocate the family to Romania for a period of time.  Whilst it is plain that there was no clear plan for how long the family would remain in that jurisdiction, in considering the relevance of parental intention, there is no requirement that there be an intention on the part of one or both parents to reside in the country in question permanently or indefinitely. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The relevance of these matters is that N travelled Romania with his mother and sister in January 2022 with the intention that he reside there.  The environment in which he subsequently lived for a period of four months was thus one in which the expectation was that he would be settling in that country.  In these circumstances, I am satisfied that the strong links I acknowledge N had with the jurisdiction of England and Wales would have subsided more quickly than they might have done absent an intention on the part of his parents that the family would be relocating to Romania.  This is particularly the case in circumstances where, whilst he had lived in England since birth, at the time he was taken to Romania<span style="font-style:italic"/>he was 3 years old.  He therefore remained highly dependent on the adults caring for him, an in particular his mother, who is a Romanian citizen.  N had always lived with his parents and younger sister and his mother had always been his primary carer.   Whilst the father did not accompany the family, I am satisfied that that was the intention.  Whilst it is contended that N had a nursery place in England commencing in April 2022, N&#8217;s reality was that he had not attended nursery prior to move to Romania.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Upon arrival in Romania, N resided with his mother and sister and with his maternal grandmother.  The father did not dispute the evidence of the mother that upon arrival and due to the weather the family spent time a lot of time at home living as a family with the maternal grandmother.  N had with him his main toys as part of the extensive luggage that I am satisfied accompanied the mother and children.  N, along with R, was registered as a Romanian citizen on 14 February 2022 so he could access health care and education.  During the four months he spent in Romania prior to his retention in England by his father, N had regular contact with his cousins and wider maternal family and friends.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that these arrangements constituted a stable family life for N with his mother and his sister in Romania for the four and a half months he spent in that jurisdiction in the context of, as I have found, N having travelled to Romania with his mother and sister in January 2022 with the intention that he reside there.  In this context, in circumstances where N was three years old, I also have regard to the fact that his mother, on whom he was dependent, is Romanian and was herself well integrated into the social and family environment in Romania. The mother had herself taken further steps to integrate in Romania, in particular by taking driving lessons in that jurisdiction.  The mother also continued to work whilst in Romania (although she paid any profits into an English bank account).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having regard to all of the foregoing matters, including what I am satisfied was the intention of both parents with respect to the relocation of the family to Romania, I am satisfied that at the date N was retained by his father in England on 24 May 2022 he was habitually resident in the jurisdiction of Romania for the purposes of Art 3 of the 1980 Hague Convention.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Consent</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am not satisfied on the evidence before the court that the mother consented to the father retaining N from the jurisdiction of Romania for the purposes of Art 13(a) of the 1980 Convention.  There is simply no evidence before the court that establishes real, clear and unequivocal consent by the mother to the retention by the father of N outside the jurisdiction of Romania.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In so far as the father gives evidence otherwise, that evidence is not consistent with the exchanges that took place over WhatsApp following the departure of the father and N on 3 May 2022.  Those exchanges make it clear that the mother expected the father to return N to the jurisdiction of Romania.  Further, and importantly, at no point does the father respond to the mother&#8217;s enquiries regarding the booking of flights and the precise date of return by asserting that the mother consented to him retaining N in England.  At no point when mother is seeking return of N does the father make what would be the obvious reply that the mother had consented to him remaining in England.  Whilst not required in order to reach the decision I have on consent, I also note that the first instance court in Romania which awarded residence of N to the father found that the Father had not established consent to permanent removal, that the Mother had only agreed to a temporary removal and that the Father had unilaterally changed N&#8217;s residence to England.   In overturning the decision of the first instance court, the appellate court maintained this finding having reviewed the evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the circumstances, I am satisfied that the mother did not consent to the retention of N in the jurisdiction of England and Wales for the purposes of Art 13(a) of the 1980 Hague Convention.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Settlement</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having regard to the finding I have made above with respect to the date of retention, it is not open to the father to rely on Art 12 of the 1980 Convention in this case.    Art 12 is engaged where, at the time proceedings are issued a period of one year or more has elapsed from the date of the wrongful removal or retention.  That is not the case here. These proceedings were issued on 15 May 2023.   I have found, for the reasons set out above, that the date of wrongful retention was 24 May 2022.  In the circumstances, the settlement exception is not available.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Grave Risk of Harm</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am likewise satisfied on the evidence before the court that it cannot be said that the return of N to the jurisdiction of Romania would expose him to a grave risk of physical or psychological harm or would otherwise place him in an intolerable situation.  The burden of proving that assertion rests on the Father.   The matters relied on by the father come nowhere near meeting the terms of Art 13(b).   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that harm of the extent contemplated by Art 13(b) will not arise solely by reason of the impact on N of being separated from his father as the result of the order for return (the father indicating in any event that he would seek to accompany N to Romania).  I reach the same conclusion with respect to the fact that N does not speak Romanian and the assertion that a return order would lead to N being placed in an environment he does not know (this not in fact being the case given the implementation of the parents&#8217; decision to relocate the family to Romania), and being removed from what he knows in England.  There is no evidence to support the contention that the maternal grandmother made N feel unwelcome.  The father&#8217;s assertion that the current war in Ukraine would create a grave risk of harm were N to be returned to Romania is <span style="font-style:italic">entirely</span> specious. The other matters relied on by the father, namely that the mother would make it difficult for the father to have any meaningful contact with N in circumstances where he cannot work in Romania, again do not come close to satisfying the terms of Art 13(b).   Whilst the father exhibits to his statement a photograph of him with a nosebleed, there is no cogent evidence before the court that he is the victim of domestic abuse. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the circumstances where I am satisfied that the matters relied on by the father do not raise even a <span style="font-style:italic">prima facie</span> case of a grave risk of physical or psychological harm or would otherwise intolerable situation for the purposes of Art 13(b), it is not necessary for the court to go on to consider the question of protective measures.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1">CONCLUSION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the circumstances set out above, the court is required to make a return order in respect of N requiring him to be returned forthwith to the jurisdiction of Romania and I do so.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With respect to the implementation of that return order, I accept that the father will require time to obtain a visa to enable him to accompany N, the mother having undertaken to issue to the father the necessary invitation to enable that visa to be granted.  In circumstances where the father and mother have utilised that well established process on a number of occassions, I am satisfied that it is appropriate to require N to be returned to the jurisdiction of Romania within 28 days, namely by 29 September 2023.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Self evidently, it will not be in N&#8217;s best interests to commence school in this jurisdiction in circumstances where this court has made an order requiring him to be returned to the jurisdiction of Romania.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I will invite counsel to agree and submit a draft order accordingly.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

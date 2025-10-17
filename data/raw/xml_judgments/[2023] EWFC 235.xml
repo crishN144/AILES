@@ -1,0 +1,706 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2023/235"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2023/235"/>
+	  <FRBRdate date="2023-12-07" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="235"/>
+	  <FRBRname value="H v GH"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/235"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/235"/>
+	  <FRBRdate date="2023-12-07" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/235/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/235/data.xml"/>
+	  <FRBRdate date="2024-06-10T09:12:17" name="transform"/>
+	  <FRBRdate date="2024-06-10T09:21:15" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-12-07" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewfc" href="https://www.judiciary.uk/you-and-the-judiciary/going-to-court/family-law-courts/" showAs="The Family Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="h" href="" showAs="H"/>
+	<TLCPerson eId="gh" href="" showAs="GH"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-simon-colton-kc" href="/judge-simon-colton-kc" showAs="SIMON COLTON KC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWFC</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>235</uk:number>
+	<uk:cite>[2023] EWFC 235</uk:cite>
+	<uk:parser>0.24.4</uk:parser>
+	<uk:hash>af382643a70f49adce4ca5591ec834bd8557d155d4a1920801cb4203cb3fda63</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading2 { font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading3 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4 { text-align: justify; font-style: italic; font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .BodyText { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .BodyTextnonum { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Citations { text-align: justify; margin-left: 0.79in; margin-right: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .DocumentMap { font-family: Tahoma; font-size: 8pt; }
+#judgment .Footer { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TOC1 { text-align: center; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TOC2 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TOC3 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TOC4 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaHeading { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.79in; margin-right: 0.6in; font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #404040; }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+#judgment .BodyTextChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: Arial; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: Arial; font-size: 10pt; }
+#judgment .DocumentMapChar { font-family: Tahoma; font-size: 8pt; }
+#judgment .FooterChar { font-family: Arial; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { font-family: Arial; font-size: 10pt; }
+#judgment .HeaderChar { font-family: Arial; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading2Char { font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading3Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4Char { font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .mandelbrotrefrag { }
+#judgment .outputecliaff { }
+#judgment .PageNumber { }
+#judgment .searchword { }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .QuoteChar { font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #404040; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <table class="TableGrid" uk:widths="6.24in">
+	<tr>
+	  <td style="border:2.25pt solid">
+	    <p class="CoverText" style="text-align:justify"><span style="text-decoration-line:none">This judgment was delivered in private. The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved. All persons, including representatives of the media, must ensure that this condition is strictly complied with. Failure to do so will be a contempt of court.</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><img src="image1.png" style="width:76.15pt;height:75.4pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EWFC 235</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>BV17D08211</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewfc">IN THE FAMILY COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText"><docDate date="2023-12-07" refersTo="#judgment">7 December 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-simon-colton-kc">SIMON COLTON KC</judge> SITTING AS A DEPUTY HIGH COURT JUDGE</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#h" style="font-weight:bold">H</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="margin-left:0.39in;text-indent:-0.39in"/>
+	    <p style="text-align:center;margin-left:0.39in;text-indent:-0.39in"><party as="#respondent" refersTo="#gh" style="font-weight:bold">GH</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ken Collins </span>(instructed by<span style="font-weight:bold"> Pinder Reaux &amp; Associates Ltd</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Tom Harvey </span>(instructed by<span style="font-weight:bold"> Withers LLP</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 7 December 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Simon Colton KC: </span></p>
+	    <p class="Heading1">Introduction</p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">This is an application (the &#8216;<span style="font-weight:bold">Variation Application</span>&#8217;) for an order varying the date for payment of a lump sum of &#163;1.1 million (the &#8216;<span style="font-weight:bold">Lump Sum</span>&#8217;). The Lump Sum is currently due for payment by the applicant (to whom I shall refer as &#8216;the Husband&#8217;) on 19 June 2023, pursuant to an order made, by consent, by Roberts J on 10 December 2018 (the &#8216;<span style="font-weight:bold">Roberts J order</span>&#8217;). The Roberts J order was a final order made following financial proceedings under <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">Matrimonial Causes Act 1973</ref> (the &#8216;<span style="font-weight:bold">1973 Act</span>&#8217;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">When first issued on 3 October 2023, the Variation Application sought to vary the date for payment of the Lump Sum to 30 June 2024. Subsequently, the Variation Application was amended, to seek an extension of the date for payment of the Lump Sum to 30 June 2025.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">Under the Roberts J order, payment of the Lump Sum was secured by a mortgage over a flat (&#8216;<span style="font-weight:bold">Flat 5A</span>&#8217;) which is the Husband&#8217;s home. Following non-payment of the Lump Sum by the due date of 19 June 2023, there was correspondence between the parties, and then on 15 August 2023 the respondent (to whom I shall refer as &#8216;the Wife&#8217;) issued a claim for possession of Flat 5A, in reliance on the mortgage. On 6 October 2023, DJ Sterlini sitting at the County Court at Clerkenwell and Shoreditch, ordered the Husband to give the Wife possession of Flat 5A on or before 20 October 2023, and gave judgment in the sum of &#163;1.1 million (the &#8216;<span style="font-weight:bold">DJ Sterlini order</span>&#8217;). The Husband has sought permission to appeal from the DJ Sterlini order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <intro>
+	    <p class="BodyText" style="margin-left:0.39in">On 22 November 2023, the Wife issued a cross-application to strike out the Variation Application. Following a directions hearing on 27 November 2023, the Wife confirmed that this application (the &#8216;<span style="font-weight:bold">Strike Out Application</span>&#8217;) was pursued on two grounds only, namely that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">i)</num>
+	    <content>
+	      <p class="BodyText" style="margin-left:0.79in">The court lacks jurisdiction to extend the time for payment of a lump sum for a period of 2 years; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">ii)</num>
+	    <content>
+	      <p class="BodyText" style="margin-left:0.79in">The Variation Application is a collateral attack on the DJ Sterlini order.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">Today&#8217;s hearing has been a &#8216;rolled-up&#8217; hearing, considering the Strike Out Application alongside the Variation Application. At the end of the hearing I struck out the Variation Application on the basis of a lack of jurisdiction, while indicating that I would, in any event, have dismissed the Variation Application on the merits. I gave brief oral reasons, while indicating that I would give more detailed reasons in writing. I set out below those detailed reasons.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">In addition, a number of points arose in relation to costs. I again gave brief oral reasons, and I set out my more detailed reasons below on that issue too.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Heading1">The Strike Out Application</p>
+	    <p class="Heading2">The jurisdiction issue</p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">FPR 4.4(1) provides, so far as presently relevant:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;Except in proceedings to which Parts 12 to 14 apply, the court may strike out a statement of case if it appears to the court &#8211; (a) that the statement of case discloses no reasonable grounds for bringing or defending the application; (b) that the statement of case is an abuse of the court's process or is otherwise likely to obstruct the just disposal of the proceedings&#8230;&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">&#8216;Statement of case&#8217; means the whole or part of an application form or answer: FPR 4.1(1).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">FPR 4.4 does not give the court a power to grant summary judgment: <span style="font-style:italic">Wyatt v Vince</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/14" uk:canonical="[2015] UKSC 14" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 14</ref>, <ref href="#" uk:canonical="[2015] 1 WLR 1228" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 1228</ref>. Rather, examples of cases which fall within the rule are given in Practice Direction 4A, and include &#8220;<span style="font-style:italic">those which contain a coherent set of facts but those facts, even if true, do not disclose any legally recognisable application against the respondent</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">By the first limb of the Strike Out Application, the Wife argues that the Variation Application should be struck out under FPR 4.4(1)(a), on the basis that the court lacks jurisdiction to make the order sought.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/23/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 23(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">the 1973 Act</ref> provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;On making a divorce, nullity of marriage or judicial separation order or at any time after making such an order (whether, in the case of a divorce or nullity of marriage order, before or after the order is made final), the court may make any one or more of the following orders, that is to say &#8211;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;color:#404040">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">an order that either party to the marriage shall pay to the other such lump sum or sums as may be so specified;...&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 31</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">the 1973 Act</ref> provides for the variation, discharge, suspension or revival of certain orders:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;color:#404040">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Where the court has made an order to which this section applies, then, subject to the provisions of this section and of section 28(1A) above, the court shall have power to vary or discharge the order or to suspend any provision thereof temporarily and to revive the operation of any provision so suspended.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;color:#404040">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">This section applies to the following orders, that is to say &#8211;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;color:#404040">(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">any order made by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/23/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23(3)</ref>(c) or 27(7)(b) above (provision for payment of a lump sum by instalments);</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">(dd) any deferred order made by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/23/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23(1)</ref>(c) (lump sums) which includes provision made by virtue of &#8211;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;color:#404040">(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">section 25B(4),</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;color:#404040">(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">section 25C, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;color:#404040">(iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">section 25F(2),</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">(provision in respect of pension rights or pension compensation rights);</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8230;.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The application notice for the Variation Application identified no source for the court&#8217;s jurisdiction to grant the Variation Application, other than that it was said to be &#8220;<span style="font-style:italic">pursuant to paragraph 40 of the [Roberts J] Order, stating that the parties shall have liberty to [apply to] the court concerning the implementation and timing of the terms of this order</span>&#8221;. However, at the directions hearing on 27 November 2023, previous Counsel for the Husband, after accepting that <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">the 1973 Act</ref> did not apply to the order for the Lump Sum, submitted: &#8220;<span style="font-style:italic">There remains a power to extend the time for payment of a lump sum which is part of a series of lump sums. Established by CA in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Masefield v Alexander</span><span style="font-style:italic"> <ref href="#" uk:canonical="[1995] 1 FLR 100" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 FLR 100</ref> and approved in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Hamilton v Hamilton</span><span style="font-style:italic">&#8230;</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Notwithstanding the concession made by his predecessor, Mr Ken Collins, Counsel now instructed for the Husband, submitted that the order for the Lump Sum in the present case fell within the scope of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/26/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(2)</ref>(dd), and thus the court had a statutory jurisdiction to vary it. I consider that argument to be plainly wrong. <ref href="http://www.legislation.gov.uk/id/ukpga/1995/26/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 31(2)</ref>(dd) was introduced by the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/26" uk:canonical="1995 c. 26" uk:origin="TNA" uk:type="legislation">Pensions Act 1995</ref>, and amended by the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/30" uk:canonical="2008 c. 30" uk:origin="TNA" uk:type="legislation">Pensions Act 2008</ref>. It does not apply to all lump sums, but only to those lump sums which include provision in respect of pension rights or pension compensation rights under one of the three identified sections of <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">the 1973 Act</ref>. Contrary to Mr Collins&#8217; submission, I do not agree that the language &#8220;<span style="font-style:italic">which includes provision&#8230;</span>&#8221; is intended merely to provide examples illustrating the breadth of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/26/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(2)</ref>(dd); on the contrary, I regard the language as limiting, restricting the application of that section to those lump sum order which make such provision. To hold otherwise, and to find, as Mr Collins argues, that <ref href="http://www.legislation.gov.uk/id/ukpga/1995/26/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(2)</ref>(dd) applies to all lump sum orders, would be inconsistent with both the Court of Appeal in <span style="font-style:italic">Hamilton v Hamilton</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/12" uk:canonical="[2013] EWCA Civ 12" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 12</ref>, <ref href="#" uk:canonical="[2013] Fam 292" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] Fam 292</ref> at [39], and with the Supreme Court in <span style="font-style:italic">Birch v Birch</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/53" uk:canonical="[2017] UKSC 53" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 53</ref>, <ref href="#" uk:canonical="[2017] 1 WLR 2959" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 1 WLR 2959</ref> at [26].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">As Mr Collins accepted, the order for payment of the Lump Sum was not in respect of pension rights or pension compensation rights. It follows, in my judgment, that there is no statutory power in the court to extend the time for payment of the Lump Sum.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in">Turning to the court&#8217;s inherent jurisdiction, in <span style="font-style:italic">Masefield v Alexander</span> <ref href="#" uk:canonical="[1995] 1 FLR 100" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 FLR 100</ref> (CA) the husband had been ordered to pay a lump sum of &#163;100,000 on or before 1 January 1994; in case of default, the marital home would be sold, with proceeds split in pre-determined percentages; on 31 December 1993, the husband sought an extension which was refused; and when, on 3 February 1994, he tendered the sum payable, it was rejected. The Court of Appeal held that the power exists to extend the time for payment of a lump sum ordered pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/23/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23(1)</ref>(c) of <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">the 1973 Act</ref>.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">i)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">Butler-Sloss LJ held, based on earlier decisions, that it was <span style="font-style:italic">"necessary to look at the purpose and effect of the application to extend time to see whether in truth it is intended to strike at the heart of the lump sum order or whether it is a slight extension&#8230; of no great importance, which does not go to the main or substantive part of the order</span>".</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">Butler-Sloss LJ noted that &#8220;<span style="font-style:italic">It has long been recognised that the courts have the right to regulate their own proceedings</span>&#8221;, citing Lord Denning in <span style="font-style:italic">R v Bloomsbury &amp; Marylebone County Court, ex parte Villerwest Ltd </span><ref href="#" uk:canonical="[1976] 1 WLR 362" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1976">[1976] 1 WLR 362</ref> where he spoke of the &#8220;<span style="font-style:italic">very wide inherent jurisdiction&#8230; to enlarge any time which a judge has ordered</span>&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in">As Butler-Sloss LJ also held:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in">"It is a matter for the discretion of the court. It is not, however, an invitation for spouses to delay payment of lump sums or avoid compliance with strict timetables. In the majority of cases it would not be right for the court to intervene, particularly in the case of a consent order freely entered into by the parties".</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">Turning to the facts of the case, she continued:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in">&#8220;Whether it is right to extend time is a matter of the exercise of the court&#8217;s discretion, but the application to extend time does not, in my view, go to the substance of the order, and therefore does not contravene either the statutory prohibition or the spirit of the legislation. The purpose of the omission of lump sums from <ref href="http://www.legislation.gov.uk/id/ukpga/1995/26/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 31</ref> is to prevent two bites of the cherry, and to provide for certainty and a determination of the issues between the parties. To extend time for a month or so when the money is available within a reasonable time on the facts of this case does not in itself affect those considerations, although the objections of the wife have in themselves created considerable additional litigation which cannot be entirely laid at the door of the husband in making the original application.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In <span style="font-style:italic">Hamilton v Hamilton</span>, Baron J in the Court of Appeal at [31]-[33] approved as a statement of the law that if there was no power to vary under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/26/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref>, then the court could not extend the time for payment of a lump sum under <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/23/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23(1)</ref>(c) by <span style="font-style:italic">&#8220;any significant period'</span>".</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Supreme Court confirmed the existence of this jurisdiction in <span style="font-style:italic">Birch v Birch</span> at [26]. Lord Wilson JSC there described the inherent jurisdiction &#8220;<span style="font-style:italic">to direct a modest extension of the time</span>&#8221; for payment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In <span style="font-style:italic">BT v CU</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2021/81" uk:canonical="[2021] EWFC 81" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWFC 81</ref>, <ref href="#" uk:canonical="[2022] 1 WLR 1349" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] 1 WLR 1349</ref>, Mostyn J at [37] cited the language of Butler-Sloss LJ in <span style="font-style:italic">Masefield v Alexander</span>, holding,</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">"Clearly an application for a modest extension of time to pay an individual lump sum would not strike at the heart of the order and would be, if granted, of no great importance, particularly if compensatory tapering periodical payments are being made in the meantime".</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In the present case, the Roberts J order was made in December 2018, for the Lump Sum to be paid in June 2023. The Variation Application seeks an order that the date for payment of the Lump Sum be extended to June 2025. The question which arises is whether a 2 year extension falls within the period &#8211; variously described as &#8220;<span style="font-style:italic">modest</span>&#8221;, &#8220;<span style="font-style:italic">not&#8230; significant</span>&#8221;, &#8220;<span style="font-style:italic">of no great importance</span>&#8221;, &#8220;<span style="font-style:italic">slight</span>&#8221; and not striking at the &#8220;<span style="font-style:italic">heart</span>&#8221; of the order &#8211; which the court has jurisdiction to grant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Mr Collins, on behalf of the Husband, submitted that the court&#8217;s jurisdiction extends as far as its discretion: if the court considered it would be inequitable not to extend the time for payment of a lump sum, even for (say) a 10 year period, then the court would have jurisdiction to grant such an order. In the present case, a two year extension, as sought by the Husband, was a modest extension.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Mr Tom Harvey, Counsel for the Wife submitted that, while it was not possible to draw any fixed lines, a &#8216;modest&#8217; extension would be one measured in weeks, not years. He noted that there are only four reported decisions in which <span style="font-style:italic">Masefield v Alexander</span> has been cited in the judgment, in none of which was an extension granted pursuant to the court&#8217;s inherent jurisdiction. In <span style="font-style:italic">Masefield v Alexander</span> itself, the period was of five weeks.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">It is discomfiting that something as basic as whether the court has jurisdiction to grant an order &#8211; and not merely whether the court considers that the order should, in its discretion, be granted &#8211; depends on the question whether an extension is to be regarded as &#8220;<span style="font-style:italic">modest</span>&#8221; or &#8220;<span style="font-style:italic">slight</span>&#8221; or &#8220;<span style="font-style:italic">no great importance</span>&#8221;. However, it seems to me that these descriptions find their meaning in their context.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Here, the context is that Parliament made a choice that some orders should be variable under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/26/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref>, and others should not. Parliament chose that lump sum orders, other than those payable by instalment or in respect of pension rights or pension compensation rights, should not be variable. As Baron J held in <span style="font-style:italic">Hamilton v Hamilton</span> at [39]: &#8220;<span style="font-style:italic">The reason is obvious in that there must be a mechanism whereby parties can agree or the court can effect a clean break. This analysis has the manifest advantage that it enables finality in the litigation</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">It is argued here that, in the context of a lump sum that was to be paid 4&#189; years after the Roberts J order, an extension of two years does not go to the heart of the order, and is therefore only &#8220;<span style="font-style:italic">slight</span>&#8221; or &#8220;<span style="font-style:italic">modest</span>&#8221; &#8211; particularly since the Roberts J order provides for ongoing periodical payments pending payment of the Lump Sum. However, in my judgment, the order that is sought by the Husband goes beyond any &#8220;<span style="font-style:italic">slight</span>&#8221; or &#8220;<span style="font-style:italic">modest</span>&#8221; extension. A delay of two years is not &#8220;<span style="font-style:italic">slight</span>&#8221; or &#8220;<span style="font-style:italic">modest</span>&#8221;. To grant such a delay so undermines the principle of finality, that it does go to the heart of the Roberts J order &#8211; irrespective of whether or not the Wife is receiving periodical payments in the meantime, and irrespective of whether or not the Wife has any immediate need for the unpaid Lump Sum. The Lump Sum is not the last of the payments due under the Roberts J order (there remains, for example, ongoing payments for the benefit of the child of the marriage, until she completes full-time tertiary education), but nonetheless the Variation Application, if successful, would significantly hinder the Wife&#8217;s ability to put the dispute behind her, both financially and emotionally.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">For these reasons, I conclude that I lack jurisdiction to grant the Variation Application, and so I strike out the Variation Application.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Heading2">The collateral attack issue</p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">In light of my decision on the first limb of the Strike Out Application, I can state my views on the second limb of the Strike Out Application quite shortly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">I would not have struck out the Variation Application on the second limb.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <intro>
+	    <p class="BodyText" style="margin-left:0.39in">In <span style="font-style:italic">Veluppillai v The Chief Land Registrar</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/1693" uk:canonical="[2017] EWHC 1693 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 1693 (Fam)</ref>, Mostyn J struck out claims in reliance on CPR 3.4(2)(b) which, as he noted, is in identical terms to FPR 4.4(1)(b). Mostyn J cited the decision of Teare J in <span style="font-style:italic">JSC BTA Bank v Ablyazov (No. 6)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2011/1136" uk:canonical="[2011] EWHC 1136 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 1136 (Comm)</ref>, <ref href="#" uk:canonical="[2011] 1 WLR 2996" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 WLR 2996</ref> as summarising the authorities concerning improper collateral attacks. For the purposes of the present case, I note that that summary included:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">i)</num>
+	    <content>
+	      <p class="BodyText" style="margin-left:0.79in">There are two recognised types of abuse of process based upon collateral purpose. The first limb is seeking collateral advantage beyond the proper scope of the action. The second limb is conducting the proceedings themselves not so as to vindicate a right, but rather in a manner designed to cause the defendant problems of expense, harassment, commercial prejudice or the like beyond those ordinarily encountered in the course of properly conducted litigation. But, these are not exhaustive: the courts will always have the power to control their own proceedings and prevent abuse. See: [22(i)], referring to [10].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">ii)</num>
+	    <content>
+	      <p class="BodyText" style="margin-left:0.79in">No object which a claimant may seek to obtain can be condemned as a collateral advantage if it is reasonably related to the provision of some form of redress for that grievance: [22(ii)].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">iii)</num>
+	    <content>
+	      <p class="BodyText" style="margin-left:0.79in;text-indent:0.11in">Where a claimant has two purposes for commencing proceedings, one legitimate and the other sufficiently collateral as to be illegitimate, the claimant should in principle be entitled to proceed with their claim, if the legitimate purpose alone would have led the claimant to commence proceedings in any event: [8], [22(iv)]. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">I do not consider that it is the purpose of the Husband in making the Variation Application to obtain some illegitimate collateral advantage. At the risk of over-simplifying the Husband&#8217;s argument, he is hoping to extend the date for payment of the Lump Sum, so that he can contend in the County Court that the debt secured by the mortgage is not yet due. He says that, as a matter of contractual interpretation, the obligation under the mortgage to pay &#163;1.1 million is to be construed as an obligation to pay the Lump Sum on the date in the Roberts J order &#8211; such that, if the date for payment in the Roberts J order were extended, the obligation under the mortgage would be extended to like extent. I express no view whatsoever on the merits of such an argument, which is a matter for the County Court where the possession proceedings are being heard. But I do not consider that it is improper for the Husband to seek an extension of time to pay the Lump Sum in the hope of enabling such an argument to be run.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Heading1">The Variation Application</p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">In case I am wrong in my conclusion that I lack jurisdiction to grant an extension of two years to make payment of the Lump Sum, I consider below whether, if I do have such jurisdiction, I would grant the Variation Application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">In short, I would not do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">There was some disagreement between Counsel as to the legal test to be applied. Counsel for the Husband formulated the test as being whether it would be inequitable, in all the circumstances, to grant the extension sought. Counsel for the Wife, on the other hand, submitted that specific conditions were to be derived from the authorities, including: (i) that the extension is modest; (ii) that the timing is not a substantive part of the order; (iii) that the applicant&#8217;s present inability to make payment is not his fault; and (iv) that the applicant can show that the money to make payment will be available by the end of the extended period, if the extension is granted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">In my judgment, the formulation proposed by Counsel for the Husband is to be preferred. While the considerations identified by Counsel for the Wife may well be relevant in particular cases, there is no warrant in the authorities for setting up a series of specific pre-conditions to the order which is sought.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">I do not consider it would be inequitable to refuse to grant the Husband the extension he seeks.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">The Husband&#8217;s evidence for why he was unable to pay the Lump Sum by the due date is that his funds are currently being held by Lloyd&#8217;s of London via the Special Reserve Fund, and he cannot extract those funds. The Husband is (or, was until 2020) a Name at Lloyd&#8217;s and, as explained in two letters from his Members&#8217; Agent, one of the syndicates of which he is a member has been unable to close its year of account, due to potential exposure to COVID claims subject to court proceedings. Until the syndicate in question can close its 2020 year of account &#8211; which will at earliest be June 2024, but may be later &#8211; the Husband cannot withdraw the sums held there, which are currently worth approximately &#163;1.06 million, a little less than the Lump Sum.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">However, the Husband has known since December 2018 that his obligation to pay the Lump Sum would fall due in June 2023. Since then, the Husband has, as he explains in his evidence, taken commercial risks, including lending significant sums (in excess of the amount of the Lump Sum) to companies of which he is the 100% shareholder pursuant to loan agreements of July 2020, May 2021 and June 2021. In submissions, it was argued that this was not &#8216;new&#8217; money, just an agreement not to call in existing loans, but that too seems to me to be a decision involving commercial risk. It was also argued that the Husband was bound to risk this money, in order to meet his obligations under the Roberts J order, but I do not accept that submission: this was a choice the Husband made, preferring to take the risk over other options available to him (including, indeed, marketing Flat 5A for sale). Further, although the Husband&#8217;s evidence is that he ceased underwriting in 2020 &#8220;<span style="font-style:italic">in readiness to be able to have funds released to be able to make payment</span>&#8221; to the Wife, the Husband took a commercial risk in not ceasing underwriting earlier: it is not unknown for Lloyd&#8217;s syndicates to make losses, or for underwriting years to remain open for longer than the expected three years, and if, as he says, the Husband decided to cease underwriting in 2020 so as to release funds to pay the Lump Sum, he necessarily took a risk that such losses or delays would occur in the present case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">Mr Collins submits that &#8220;<span style="font-style:italic">it is inconceivable that the parties anticipated that [the Husband] should lose his home if there was any delay in payment</span>&#8221;. I disagree: under the Roberts J order, by consent, the Lump Sum was secured by a mortgage, and the parties, who both had the benefit of legal advice, would have understood the implications of this. In any event, Mr Collins also submits that if Flat 5A were to be sold then &#8211; after payment of the Lump Sum and other commercial debts charged on the property, plus litigation costs, interest, and costs of sale &#8211; the Husband would be left with a housing fund of around &#163;2.5 million. While that would no doubt leave the Husband in a property which is less desirable than Flat 5A, that is not the same as homelessness and is, as I have observed, the consequence of his own commercial decisions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">The Husband argues that the Wife does not need the money, and so would not be prejudiced by an extension of time. However, in circumstances where the Husband will not himself be left impecunious, that seems to me to be beside the point. A lack of finality, at some ongoing legal and emotional cost, constitutes prejudice, whether or not the Wife has an immediate need for the money that is due to her. I also consider it relevant this regard that the ongoing uncertainty visited on the Wife would not even have the silver lining that June 2025 would certainly be the end of the matter. The reason the Husband is unable to withdraw money from his Lloyd&#8217;s account is precisely because the money there may be needed to meet claims. So, when the year of account does close, there may be less &#8211; perhaps, significantly less &#8211; available to pay the Lump Sum than there is now.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">In considering the merits of the application, I also bear in mind that the Husband is in arrears on the periodical payments he owes, and has not paid any part &#8211; even a small part &#8211; of the Lump Sum, nearly five months after it fell due. At the hearing this morning, the Husband made an open offer to pay &#163;1.1 million to the Wife in February 2024, in full and final settlement, but I do not consider that this offer (which was refused) assists his application: if anything, it begs the question why the Husband did not take steps sooner to engage with his obligations under the Roberts J order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">Overall, it seems to me that in the commercial steps that the Husband has taken since the Roberts J order was made, he has run the risk that he would lack the funds to make payment to the Wife of the Lump Sum when it fell due. He alone should bear the consequences of that action, not the Wife who bears no responsibility for the Husband&#8217;s present situation.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Heading1">Costs</p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">The first costs issue I had to consider was the relevant FPR to apply in the present case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">FPR 28.1 provides that &#8220;<span style="font-style:italic">The court may at any time make such order as to costs as it thinks just</span>&#8221;. FPR 28.2 provides that, subject to certain modifications which are not relevant here, &#8220;<span style="font-style:italic">Subject to rule 28.3, Parts 44 (except rules 44.2(2) and (3) and 44.10(2) and (3), 46 and 47 and rule 45.8 of the CPR apply to costs in proceedings&#8230;</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">FPR 28.3 sets out a particular regime &#8220;<span style="font-style:italic">in relation to financial remedy proceedings</span>&#8221;. &#8216;Financial remedy proceedings&#8217; mean proceedings for &#8220;<span style="font-style:italic">a financial order</span>&#8221;, subject to certain exceptions. A &#8216;financial order&#8217; is defined in FPR 2.3 as including, relevantly for present purposes, &#8220;<span style="font-style:italic">a variation order</span>&#8221;. A &#8216;variation order&#8217; is defined in FPR 9.3 as: &#8220;<span style="font-style:italic">in proceedings under <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">the 1973 Act</ref>, an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2008/30" uk:canonical="2008 c. 30" uk:origin="TNA" uk:type="legislation">that Act</ref></span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">In the present case, I considered that although Mr Collins sought, on his feet, to treat the Variation Application as an application under <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(2)</ref>(dd) of <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">the 1973 Act</ref>, and relied on the inherent jurisdiction only in the alternative, the Variation Application was not under <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">the 1973 Act</ref>, and so was not a &#8216;financial remedy proceeding&#8217;. Nor, of course, was the Strike Out Application. Accordingly, FPR 28.3 does not apply, and I approached the question of liability for costs in accordance with FPR 28.2.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">For reasons I gave orally, I ordered costs to be paid by the Husband on the standard basis. I proceeded summarily to assess these costs, in accordance with paragraph 9.2(a) of Practice Direction supplementing Part 44 of the CPR.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">In the course of this assessment, I raised the question as to the relevance, or not, in the Family Court, of the guideline hourly rates published as part of the &#8216;Guide to the Summary Assessment of Costs&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">In <span style="font-style:italic">Samsung Electronics Co Ltd v LG Display Ltd (Costs)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/466" uk:canonical="[2022] EWCA Civ 466" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 466</ref>, <ref href="#" uk:canonical="[2022] Costs LR 627" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] Costs LR 627</ref> Males LJ (with whom Snowden and Lewison LJJ agreed) held at [6]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;If a rate in excess of the guideline rate is to be charged to the paying party, a clear and compelling justification must be provided. It is not enough to say that the case is a commercial case, or a competition case, or that it has an international element, unless there is something about these factors in the case in question which justifies exceeding the guideline rate.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="BodyText" style="margin-left:0.39in">In <span style="font-style:italic">Athena Capital Fund SICAV-FIS S.C.A. v Secretariat of State for the Holy See</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/1061" uk:canonical="[2022] EWCA Civ 1061" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 1061</ref>, <ref href="#" uk:canonical="[2022] Costs LR 1119" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] Costs LR 1119</ref>, Males LJ (with whom Birss and Peter Jackson LJJ agreed) held:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;color:#404040">&#8220;6.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">This court has recently held that, in the case of solicitors' fees, if a rate in excess of the guideline rate is to be charged to the paying party, a clear and compelling justification must be provided: <span style="text-decoration-line:underline;text-decoration-style:solid">Samsung Electronics Co Ltd v LG Display Co Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/466" uk:canonical="[2022] EWCA Civ 466" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 466</ref>. No such justification has been advanced in this case.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;color:#404040">7.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Counsel's fees are not subject to guideline rates in the same way that solicitors' fees are, but it is nevertheless important to stress that, whatever clients may be prepared to pay their own counsel, only a reasonable and proportionate fee may be recovered from the other side&#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In May 2023, the Civil Justice Council published a report on costs, which considered (among other matters) the question of guideline hourly rates. It recorded that the majority of the respondents took the view that guideline hourly rates had a useful role as a starting point for both summary and detailed assessment, and in indicating to the market generally the rates that would be considered reasonable by the courts. Commercial Court judges considered that the use of these rates also send a helpful message to court users that expenditure must be proportionate. There was no real appetite among respondents to abandon guideline hourly rates. On 1 December 2023, it was announced that the Master of the Rolls has accepted the recommendations of the Civil Justice Council, and revised hourly rates, uplifted for inflation, will apply from 1 January 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Counsel were unable to assist me with the question whether these guideline hourly rates apply in family proceedings, although I think their consensus view was that they did not, and they had never heard of the rates being applied in family proceedings. It seems to me that, strictly speaking, the guideline rates do not apply in the Family Court: the &#8216;Guide to the Summary Assessment of Costs&#8217; is promulgated by the Master of the Rolls, and does not form part of those Civil Procedure Rules which, by FPR 28.2, apply to family proceedings, nor part of the Practice Directions supplementing those rules. Nonetheless, it would be a very odd result if hourly rates which, in civil proceedings, could not be recovered absent a &#8220;<span style="font-style:italic">clear and compelling justification</span>&#8221;, can readily be recovered in family proceedings. It is also undesirable that the benefits of guideline hourly rates (consistency, proportionality, and predictability) should be lost in the assessment of costs in family proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">For these reasons, I conducted the summary assessment of costs on the basis that, while I was not bound by the guideline hourly rates, the level of those rates provide a good indicator of what costs were proportionate for the receiving party (the Wife) to recover, in the absence of some clear or compelling justification why those rates should be exceeded.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

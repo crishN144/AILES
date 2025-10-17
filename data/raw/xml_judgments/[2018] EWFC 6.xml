@@ -1,0 +1,570 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2018/6"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2018/6"/>
+	  <FRBRdate date="2018-01-30" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="6"/>
+	  <FRBRname value="GM v KZ (No 2)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2018/6"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2018/6"/>
+	  <FRBRdate date="2018-01-30" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2018/6/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2018/6/data.xml"/>
+	  <FRBRdate date="2024-10-11T19:30:46" name="transform"/>
+	  <FRBRdate date="2024-11-27T08:26:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2018-01-30" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="gm" href="" showAs="GM"/>
+	<TLCPerson eId="kz" href="" showAs="KZ"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-mostyn" href="/judge-the-honourable-mr-justice-mostyn" showAs="THE HONOURABLE MR JUSTICE MOSTYN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2018</uk:year>
+	<uk:number>6</uk:number>
+	<uk:cite>[2018] EWFC 6</uk:cite>
+	<uk:parser>0.26.8</uk:parser>
+	<uk:hash>789606f84ebbd42aecb59c46c31646a393a2807642ffeffd4b02846fdcef2d42</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.76in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #808080; background-color: initial; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">MR JUSTICE MOSTYN</span></p>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Approved Judgment</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"><span style="font-family:'Times New Roman';font-size:8pt">GM v KZ (No. 2)</span></p>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2018] EWFC 6</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>SD16P00646</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewfc">IN THE FAMILY COURT </courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2018-01-30" refersTo="#judgment">30/1/2018</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-mostyn">THE HONOURABLE MR JUSTICE MOSTYN</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold">Sitting in private</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#gm" style="font-weight:bold">GM</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#kz" style="font-weight:bold">KZ</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Kristina Hopper </span>(instructed by Goodlaw Solicitors) for <span style="font-weight:bold">the Applicant </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mark Jarman </span>(instructed by Brethertons Solicitors) for <span style="font-weight:bold">the Respondent </span></p>
+      <p style="text-align:center">Hearing date: 22 January 2018</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment Approved</p>
+      <p style="text-align:justify"><span style="color:#FF0000">This judgment was given in private.  The Judge gives permission for it to be reported in this anonymised form only </span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Mostyn:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This judgment follows on from my earlier judgment in this case given on 14 November 2017 (<span style="font-style:italic">GM v KZ&#160;</span><ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2017/73" uk:canonical="[2017] EWFC 73" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWFC 73</ref>). I would suggest that anyone reading this judgment should first read the earlier one.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following delivery of the earlier judgment the mother, acting in person, sent an email the following day, 15 November 2017, asking that it should be suspended or revoked. On that day I made an order in which I recorded that I treated the mother&#8217;s email as an application under FPR 27.5 for a set-aside in circumstances where she had not attended the hearing before me. I ordered that I would hear her application on 22 November 2017. I allowed, as a concession, the mother to attend the hearing via video-link or by telephone. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 21 November 2017 I received a letter from the Consular Section of the Embassy of the Republic of Poland dated 18 August 2015 (sic) but in fact emailed on 21 November 2017 which asserted that a request to take direct evidence from the mother had to be made via the Polish Central Authority pursuant to Article 17 of Council Regulation (EC) No. 1206/2001 (&#8220;the Service Regulation&#8221;) and that because this process had not been adopted the mother&#8217;s deemed application under FPR 27.5 should be adjourned to allow this process to happen. I had also received emails from the mother dated 21 and 22 November to the same effect and asking that she be granted legal aid.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 22 November 2017 I delivered a ruling which stated, inter alia:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">FPR 27.3 required the mother to attend this hearing in person unless the court otherwise ordered.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">By its order of 15 November 2017 (para 5) the court had allowed, as a concession, the mother to attend the hearing via video-link or by telephone. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">By virtue of FPR 22.2(1)(b) at the hearing any facts would be proved by evidence in writing.   Therefore, there would be no oral evidence and so Article 17 of the Service Regulation did not apply, and was of no relevance. The sole purpose of para 5 of the order of 15 November 2017 was to allow the mother, as a matter of convenience to her, to participate in the hearing remotely. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The mother had been given full details of the numbers to dial for establishing a video or telephone link but had been unwilling or unable to make any kind of connection, not even a telephone connection.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">As a matter of final indulgence, I would adjourn the matter for a further week to Wednesday 29 November 2017 at 10:00. However, in the light of the continued meritless obstacles generated by the mother to remote participation in any form I revoked para 5 of the order of 15 November 2017. Therefore, pursuant to FPR 27.3 the mother must attend the next hearing in person. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"> The court was not empowered to grant legal aid.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 29 November 2017 the mother had re-engaged her solicitors and instructed counsel. The father attended in person. A detailed skeleton argument was lodged on behalf of the mother. There was insufficient time to deal with the application, and I was of the view that the father should be given the opportunity to consult counsel. I therefore directed that the mother&#8217;s set-aside application be adjourned to 22 January 2018, when the mother was represented by Ms Hopper and the father by Mr Jarman. I am grateful for their meticulously careful advocacy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Pursuant to directions given by me on 29 November 2017 the mother made her formal set-aside application on 4 December 2017. She did not confine her application to FPR 27.5. She also sought a set-aside under FPR 4.1(6) and <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref>F(6) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42" uk:canonical="1984 c. 42" uk:origin="TNA" uk:type="legislation">Matrimonial and Family Proceedings Act 1984</ref>. As this case is proceeding in the family court there is no question but that <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref>F(6) of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42" uk:canonical="1984 c. 42" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> is available to set aside my order. I do not therefore have to engage further in the debate as to whether rule 4.1(6) allows a set-aside of a final order made in children proceedings in the High Court. I will only say, almost in passing, that I do not agree with Macdonald J&#8217;s view in para 74(iii) of <span style="font-style:italic">N v J (Power to Set Aside Return Order)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2752" uk:canonical="[2017] EWHC 2752 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 2752 (Fam)</ref> that the power under rule 4.1(6) is confined to procedural and interlocutory orders. Powerful dicta from the Court of Appeal in both the civil and family spheres have made it clear that the rule (and its CPR counterpart) is not confined to such orders but extends to final orders (see, respectively, <span style="font-style:italic">Norman v Norman</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/120" uk:canonical="[2017] EWCA Civ 120" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 120</ref> at [49] and <span style="font-style:italic">Roult v North West Strategic Health Authority </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/444" uk:canonical="[2009] EWCA Civ 444" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 444</ref> at [15]). Above all, I take the realistic, as opposed to formalistic, view that it would be the height of absurdity if the family court, an inferior court, had the power to set aside a final order, but the High Court did not. It would bring the administration of justice into disrepute if, in order to set aside a final order, the High Court had to transfer a case down to the family court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The minimum criteria for a successful set-aside under rule 27.5 are that the applicant must have:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">acted promptly on finding out that the court had exercised its power to enter judgment or make an order against the applicant;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">had a good reason for not attending the hearing or directions appointment; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">had a reasonable prospect of success at the hearing or directions appointment. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These three conditions should be looked at together rather than sequentially: <span class="Emphasis" style="color:#000000">Blake-Coulter &amp; Ors v Anne Alexander Hotels</span><span style="color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2016/1457" uk:canonical="[2016] EWHC 1457 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 1457 (QB)</ref>. The court should not in general adopt too rigorous an approach to the question whether a good reason had been shown for the non-attendance. Rather, it should have regard, when applying that second condition, to the need to give effect to the overriding objective of dealing with cases justly, and to the applicant&#8217;s right to a fair trial under Article 6 of the ECHR.&#160;This was particularly important where the applicant had a reasonable prospect of success at the trial because if the application failed he or she would have been deprived of all opportunity to have an adjudication on the merits: </span><span class="Emphasis" style="color:#000000">Mohun-Smith v TBO Investments Ltd</span><span style="color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/403" uk:canonical="[2016] EWCA Civ 403" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 403</ref>, <ref href="#" uk:canonical="[2016] 1 WLR 2919" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 1 WLR 2919</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In order to succeed on an application under rule 4.1(6) or <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref>F(6) the applicant must have acted promptly and must show either:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">that there had been a material change of circumstances since the order was made; or</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">that facts on which the original decision was made had been misstated; or </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">that there had been a manifest mistake on the part of the judge in formulating the order.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.49in">See <span style="font-style:italic">Tibbles v SIG Plc</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/518" uk:canonical="[2012] EWCA Civ 518" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 518</ref> at [39] and <span style="font-style:italic">Mitchell v News Group Newspapers Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/1537" uk:canonical="[2013] EWCA Civ 1537" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 1537</ref> at [44].</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would add a further condition, which I shall call the due diligence requirement. The applicant must show that the evidence in support could not have been made available with due diligence at the original hearing. In <span class="Emphasis" style="color:#000000">Takhar v Gracefield Developments Ltd &amp; Ors</span><span style="color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/147" uk:canonical="[2017] EWCA Civ 147" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 147</ref> it was held by Patten LJ at [37] that in a civil action to set aside an earlier judgment on the ground that it had been obtained by fraud it is necessary for the party seeking that relief to demonstrate that the evidence upon which the allegation of fraud is based could not have been obtained with reasonable diligence and made available in the original trial. This was, he held, the essential ratio of the House of Lords in </span><span class="Emphasis" style="color:#000000">Hunter v Chief Constable of West Midlands</span><span style="color:#000000"> <ref href="#" uk:canonical="[1982] AC 529" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1982">[1982] AC 529</ref>. See also </span><span class="Emphasis" style="color:#000000">Ackerman v Thornhill &amp; Ors</span><span style="color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2017/99" uk:canonical="[2017] EWHC 99 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 99 (Ch)</ref> at [68] to [80] where the principle was affirmed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If this principle applies to an application to set aside a judgment on the ground that it was procured by fraud, then, a fortiori, it applies where the ground relied on is less dramatic. The normal rule is that fraud unravels everything, but even that iconic precept does not apply if the evidence of fraud could have been made available at the original trial. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment a successful application under rule 4.1(6) or <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref>F(6) has to surmount a  higher bar than one under rule 27.5. In particular, under rule 27.5 there is no due diligence requirement in relation to any evidence adduced. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is not disputed that the applicant acted promptly in seeking that the order be set aside.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although authority suggests that I should consider the second and third conditions together it is convenient for me to consider the third alone at this stage. If I am not satisfied that the applicant has a reasonable prospect of success then it will not be necessary to consider in depth the second condition.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fundamentally the applicant argues, relying on fresh expert evidence, that I was wrong in concluding in para 30 of my original judgment that on 14 July 2016 this court became first seised, and gained legal priority, when Judge Rzeznik dismissed the mother&#8217;s application of 2 June 2016. I held that the application under article 395(2) of the Civil Procure Code made on 2 (sic, recto 1) August 2016 was to be characterised as a fresh application relying on fresh evidence and not one that related back to, and restored to life, the application of 2 June 2016 which had been dismissed for want of jurisdiction on 14 June 2016.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The application of 1 August 2016 when carefully analysed is clearly a fresh application based on fresh evidence. Thus, on page 3 of the application it states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"> &#8220;Considering the fact the children are currently residing in Poland and the child psychiatrist opinion, paediatric neurologist specialist, [name redacted], of 1 August 2016 clearly indicates the minors attachment to Poland as the main centre of life, e.g. the centre of existence &#8230; The necessity to approve, and most of all, take of this evidence has been established at this stage of the proceedings as a result of the children residing in Poland since 30 July 2016 after their unlawful abduction by the participant.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus, there is explicit reliance on fresh evidence to demonstrate that the children have been permanently resident in Poland since 30 July 2016. This is of course just before the application of 1 August 2016, and well after the institution of proceedings in England on 4 July 2016..</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On page 4 of the application it states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;One cannot agree with the ruling by the court of the first instance that in the present proceedings the residence of the minors [names redacted] on the day of the application filed was not &#8220;permanent&#8221; or &#8220;habitual&#8221;. As it was stated, among others, in an application by the applicant of 5 July 2016 the children of the parties on the date the application was filed met the above requirements.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">And on page 10 it was stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;On the day the application was filed on 2 June 2016, the children were living with their mother in Poland intending to remain there permanently before they were abducted from Poland and retained by the father in Hungary and United Kingdom.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It can be seen that the evidential basis for the assertion that the children were permanently resident in Poland on 2 July 2016 was the contents of the supplemental pleading filed by the applicant mother on 5 July 2016. But as I explained in my previous judgment at para 20, that supplemental pleading unambiguously stated that &#8220;up to now the parties have resided in England&#8221;. Moreover, the decision of Judge Rzeznik given on 7 December 2016 refusing the father&#8217;s application under the Hague Convention does not state that the children were habitually resident in Poland on 2 July 2016. Although it relies the father&#8217;s alleged agreement to live in Poland at some point in June 2016 it is completely unclear from the judgment when it was found that habitual residence had been established in Poland. All one can tell from the passage in the court bundle at E78 is that the judge was satisfied that by 30 July 2016 when the mother took the children unilaterally to Poland by train, habitual residence had been established, somehow, in Poland.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The researches of counsel have not revealed a single case, whether here or in Europe, either under the Brussels 2 regulation, or under its civil and commercial counterpart, remotely similar to this one. There is no case that decides that a successful set aside application of a decision refusing jurisdiction restores seisin ab initio. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Question 5 to the experts authorised by Mr Justice Hayden was:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Given that the Polish court dismissed the mother&#8217;s application dated 2 and 6 June 2016 for want of jurisdiction on 14 July 2016, and the mother did not appeal the decision until 3 (sic) August 2016:</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">What is the date that the Polish Court was first seised with an application regarding matters of parental responsibility?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Was the English court first seised with an application regarding matters of parental responsibility given that an application was issued on 4 July 2016?&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant replies on the opinion of Hanna Gaszcz-Krupowczyk who states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The court of first instance may respond favourably to the complaint and there is no need for court of second instance to hear the matter. As a result of this the decision under appeal is set aside. Hence, in this case your application was not dismissed; once your complaint to the decision regarding dismissal of the application on the grounds of no jurisdiction by the Polish court was accepted, it was still being proceeded, not from the outset as a new case. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">There is no doubt that the Polish court was conducting the case since 2/6/16 and on 6/6/16 an application to secure the claim was filed &#8230; I would like to stress once again that the Polish court had every right to hear an application to secure the claim of 6/6/16 to establish the place of the children residence with their mother without serving the copy of the application to the father of the children.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">In stating the procedural rules I am confident that the English court was not the first to acquire jurisdiction in this case. The father of the children initiated the proceedings before the English court on 4/7/16 and the case concluded on 18/7/16. It should be noted that the mother successfully submitted an application on 2/6/16 (and application to secure the claim on 6/6/16) registered under file signature VIII Nsm 610/16. Although originally, on 14/7/16 the District Court [in Lodz] dismissed the application on the grounds of no jurisdiction, but once the complaint was filed by the mother it was accepted pursuant to article 395(2) of Civil Procedure Code followed by a judgment on security for claims on 5/8/16 it was within these proceedings (which cannot be considered as new proceedings once a complaint was filed accepted by the court). From a purely formal approach it has to be noted that the case was still being dealt under the same file signature.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">(The reference to &#8220;securing the claim&#8221; is to be understood as an application for interim custody or residence, which can be awarded ex parte.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father relies on the opinion of Rafat Podbielski who states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Polish court was not seised until this date [i.e. 1 August 2016] in the place of residence case. The application of 2 June 2016 as well as the other documents filed in this case have never been delivered to the father &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Yes, the English court was first seised with an application regarding matters of parental responsibility, given that an application was issued on 4 July 2016 and that later an order was given out on the 18 July 2016 after having heard both parties.&#8221; </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have to say that neither expert helps me to decide the essential character of the application made on 1 August 2016. The strongest point of the mother&#8217;s expert seems to me to be that the application on 1 August 2016 had the same case number (&#8220;file signature&#8221;) as the earlier application, but this is a very lightweight factor. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree with Mr Jarman that comparison with our own procedure would strongly suggest that the application of 1 August 2016 is to be characterised as a fresh application. If your application for a child arrangements order is dismissed for want of jurisdiction and you later get better evidence to support a claim that jurisdiction in fact existed then you would make a fresh application, and not an application to set aside the dismissal order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have considered the evidence and arguments very carefully and have reached the conclusion that my decision in para 30 of my original decision is correct. The application of 1 August 2016 was a fresh application. With the dismissal on 14 June 2016 of the mother&#8217;s initial Polish application of 2 June 2016, the father&#8217;s English application of 4 July 2016 took priority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am equally, if not more, satisfied that my decision on the service point in paras 31 &#8211; 33 of my original judgment is correct. Question 1 for the experts stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Please explain in detail what the relevant legislative provisions are in Poland governing the steps that must be taken regarding service in accordance with article 16 of BIIR for the Polish court to be seised with an application in respect of matters regarding parental responsibility. In particular, what are the respective obligations upon (a) the court and (b) the applicant regarding service of the application and any supporting documents upon the respondent.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Rafat Podbielski stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Therefore, according to provisions of the Polish law, it is the court that serves the writ of summons, but only after all the formal requirements are met by the applicant. The moment the writ of summons is delivered upon the defendant is the moment the court is seised&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He cites article 206(1) of the Code of Civil Procedure as requiring this in a case such as this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Hanna Gaszcz-Krupowczyk does not agree. She states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;the court seised (submission of the application) (sic) is the date the letter was filed in court (deposited at the post office), not the date the copy was received by the other party.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I find the opinion of Rafat Podbielski far more persuasive, and it accords with common sense. Obviously, an application by the mother for residence of the children needed to be served on their father. It is common ground that the application of 2 June 2016 was never served on the father. The fact that on 22 July 2016 the father&#8217;s lawyers gained access to the court file and took copies of documents is neither here nor there. There was a mandatory requirement of service on him of the process and that never happened. Therefore, the condition defeasant as referred to by Lord Clarke in <span style="font-style:italic">Re I (A Child) </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2009/10" uk:canonical="[2009] UKSC 10" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] UKSC 10</ref> <ref href="#" uk:canonical="[2010] 1 AC 319" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 1 AC 319</ref> at [87] operated and the Polish court lost priority in favour of the English proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am therefore satisfied that the mother has no reasonable prospects of success of disturbing my finding that on 4 July 2016, with the issue of proceedings in Brighton, and certainly by 14 July 2016 with the dismissal in Poland of the mother&#8217;s application of 2 June 2016, the English court had priority under articles 16 and 19 of BIIR. It therefore follows that she had no reasonable prospects of success in relation to this issue at the original hearing before me had she chosen to attend.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am also satisfied that the mother had no good reason for failing to attend the hearing before me. I make this decision conscious of the latitude that the authorities say should be afforded in this regard. The mother inexplicably chose not to attend the hearing before Mr Justice Hayden on 12 June 2017 when the agenda was set. On receipt of the order she took no steps to challenge, either by application to Mr Justice Hayden, or by way of appeal, the issues that he defined. Prior to the hearing before me on 31 October and 1 November 2017 the mother failed to take steps to arrange a video link as the order of Mr Justice Hayden had required. The mother emailed the court on 26 June, 3 July, 19 October and 1 November 2017. The latter email arrived on the morning of the second day of the hearing. Although the mother in these emails explained that her responsibilities the children prevented her from attending she said nothing explaining why she could not arrange representation, as she did for this latest hearing before me.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For these reasons the mother&#8217;s application under rule 27.5 is dismissed. I am satisfied additionally, that the new evidence and the arguments advanced by the mother do not come close to meeting the standards, set out above, required by rule 4.1(6) or <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref>F(6) for a set-aside.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Miss Hopper politely drew my attention to articles 24 and 26 of BIIR which respectively prohibit a review of jurisdiction of the court of origin and a review of the substance of a judgment and suggested that passages in my original judgment offended these prohibitions. I agree that in para 23, the final sentence of para 30, para 36 and para 37 I have respectfully disagreed with the steps taken by the court in Poland but those remarks were observational in nature and did not amount to a direct review of the legitimacy of those steps. At the end of the day, my decision was no more than to declare that the English court had become first seised by 14 July 2016 at the latest and that it therefore had jurisdiction over these children who were habitually resident here when the proceedings were begun on 4 July 2016. My observations were not a necessary component of my decision. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Miss Hopper argues that my return order is of a welfare nature and that I did not have sufficient evidence to justify making that order. I disagree. My order provided that the return would be one month after the date of my judgment giving the mother &#8220;ample time before her return to this jurisdiction to instruct solicitors to make an application to the Family Court at Brighton, supported by full evidence, for protective orders to be in place upon her return&#8221; (see para 44). Plainly the best interests of these children is that they are in the place of their prior habitual residence and having regular contact with both of their parents.  A one-month delay is sufficient time for the mother, if so advised, to approach the family court for protective measures to be in place before her return.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I reset the return date to 27 February 2018, that is four weeks after this judgment is handed down on 30 January 2018.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Miss Hopper has pointed out that the Annex IV certificate attached to my order of 14 November 2017 (see para 46 of my original judgment) is impermissible as the decision of the Polish court dated 7 December 2016 in the Hague proceedings was not only under Article 13b but under Article 3 as well. I agree, and that certificate is therefore revoked. The Annex II certificate will stand, and will be amended to provide in para 11.2 to refer to the new return date of 27 February 2018.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I direct that this judgment shall (a) be made available to the Head of International Family Justice and (b) be translated into the Polish language at public expense and made available to the Polish courts. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That concludes this judgment.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:center;margin-left:0.5in">______________</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

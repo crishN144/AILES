@@ -1,0 +1,805 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2015/64"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2015/64"/>
+	  <FRBRdate date="2015-07-13" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="64"/>
+	  <FRBRname value="North Yorkshire County Council v MAG &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2015/64"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2015/64"/>
+	  <FRBRdate date="2015-07-13" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2015/64/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2015/64/data.xml"/>
+	  <FRBRdate date="2024-10-11T00:31:19" name="transform"/>
+	  <FRBRdate date="2024-11-27T22:58:03" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2015-07-13" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewcop" href="https://www.gov.uk/courts-tribunals/court-of-protection" showAs="The Court of Protection"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="north-yorkshire-county-council" href="" showAs="NORTH YORKSHIRE COUNTY COUNCIL"/>
+	<TLCPerson eId="mag" href="" showAs="MAG"/>
+	<TLCPerson eId="gc" href="" showAs="GC"/>
+	<TLCPerson eId="a-clinical-commissioning-group" href="" showAs="A CLINICAL COMMISSIONING GROUP"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-district-judge-glentworth" href="/judge-district-judge-glentworth" showAs="District Judge Glentworth"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCOP</uk:court>
+	<uk:year>2015</uk:year>
+	<uk:number>64</uk:number>
+	<uk:cite>[2015] EWCOP 64</uk:cite>
+	<uk:parser>0.26.8</uk:parser>
+	<uk:hash>76654d7482123d0ff6258b84311015d1b00519332573b36aee48828bd5f5c83a</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BodyText { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Lucida Grande'; font-size: 9pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .PageNumber { }
+#judgment .BodyTextChar { font-size: 12pt; }
+#judgment .BalloonTextChar { font-family: 'Lucida Grande'; font-size: 9pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:justify"><span style="font-weight:bold;font-size:10pt">This judgment was delivered in private. The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the incapacitated person and members of their family must be strictly preserved. All persons, including representatives of the media, must ensure that this condition is strictly complied with. Failure to do so will be a contempt of court.</span></p>
+      <p class="CoverText">Case No: <docketNumber>12044280</docketNumber></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Neutral Citation Number: </span><neutralCitation style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">[2015] EWCOP 64</neutralCitation></p>
+      <p><courtType refersTo="#ewcop">IN THE COURT OF PROTECTION</courtType></p>
+      <p class="CoverText">Sitting at Leeds Combined Court Centre</p>
+      <p class="CoverText">Oxford Row</p>
+      <p class="CoverText">Leeds LS1 3BG</p>
+      <p class="CoverText">Date: <docDate date="2015-07-13" refersTo="#judgment">13 July 2015</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-district-judge-glentworth">District Judge Glentworth</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.45in 3.7in 1.13in 0.05in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#north-yorkshire-county-council" style="font-weight:bold">NORTH YORKSHIRE COUNTY COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant </role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#mag" style="font-weight:bold">MAG</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">First Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#gc" style="font-weight:bold">GC</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Second  Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td colspan="2">
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a-clinical-commissioning-group" style="font-weight:bold">A CLINICAL COMMISSIONING GROUP</party></p>
+	  </td>
+	  <td colspan="2">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Third Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Jacqui Thomas </span>(instructed by<span style="font-weight:bold"> North Yorkshire County Council</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Neil Allen</span> (instructed by <span style="font-weight:bold">Switalskis on behalf of the Official Solicitor</span>) for the <span style="font-weight:bold">First Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">No attendance on the part of</span> the <span style="font-weight:bold">Second Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Duncan Maxwell-Stewart</span> (instructed by <span style="font-weight:bold">the CCG</span>) for the <span style="font-weight:bold">Third Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 6 March &amp; 13 July 2015</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">MAG is a young man who was born on 2 November 1980 and is 34 years of age.  As a result of perinatal trauma he suffers from autism, ataxic cerebral palsy, hearing and visual impairments and a learning disability.  These proceedings were issued by North Yorkshire County Council (NYCC) on 7 September 2011 for declarations that MAG lacks capacity to:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:1in">decide where he should reside;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:1in">enter into a tenancy agreement;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:1in">make decisions about his care needs; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="BodyText" style="text-align:justify;text-indent:0.25in">and that it is in his best interests:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="BodyText" style="text-align:justify;margin-left:1in">to be deprived of his liberty and reside in his current placement;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="BodyText" style="text-align:justify;margin-left:1in">for the Corporate Director of Health and Adult services to enter into a tenancy agreement on his behalf in relation to &#8220;the Tenancy&#8221; (his current placement).</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The other parties to the proceedings are MAG&#8217;s mother, GC and the Clinical Commissioning Group (CCG) responsible for MAG&#8217;s care.  GC has been involved and consulted throughout the proceedings and filed a statement.  She has not attended any of the hearings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The question of capacity is central to the court&#8217;s jurisdiction.  <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> (MCA) provides that &#8220;a person must be assumed to have capacity unless it is established that he lacks capacity&#8221;. The burden of proof lies on the party asserting that a person does not have capacity, in this case NYCC. A person lacks capacity in relation to a matter if at the material time he is &#8220;unable to make a decision for himself in relation to the matter because of an impairment of, or a disturbance in the functioning of, the mind or brain&#8221; (section 2(1) MCA).  A person is unable to make a decision for himself if he is unable:</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_1">
+	  <num>(a)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.75in">to understand the information relevant to the decision,</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num>(b)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.75in">to retain that information,</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num>(c)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.75in">to use or weigh that information as part of the process of making the decision, </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num>(d)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.75in">to communicate his decision (section 3(1) MCA)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">MAG&#8217;s capacity in relation to those issues was addressed first in an assessment by Ms FC, his Community Care Manager and then by Ms AE, SALT, who considered his capacity to decide whether or not he should be accommodated in a hospital or care home to be given care or treatment.  The conclusion of both assessments was that MAG lacks capacity in the relevant areas.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">On the joint instruction of the parties (with the exception of GC), a report was prepared by Dr Lisa Rippon, psychiatrist, dated 13 June 2012, also to address capacity.  She confirmed MAG&#8217;s diagnosis of severe learning disability and provided recommendations for his support plan and care package.  There is no dispute that MAG lacks capacity to conduct these proceedings and make the decisions in question and final declarations to that effect have already been made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">MAG has been in his current accommodation since 2006.  NYCC is the Local Authority responsible for his welfare.  His care package is jointly funded with 75% of the cost being met by the CCG, the balance coming from NYCC.  In August 2013 NYCC accepted that it is responsible for meeting MAG&#8217;s accommodation needs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">MAG cannot stand independently and when he is at home in his ground-floor flat he mobilises by crawling and pulling himself along the floor and up on to chairs and his bed.  He uses a wheelchair outdoors and is secured when in it by the use of a Crelling (Houdini) harness which serves as a protection for him and others.  He is unable to use his wheelchair indoors because there is insufficient room to enable him to manoeuvre it.  He has 1:1 support at all times and 2:1 support in the community save for those times when an experienced and willing member of his care team takes him out in his wheelchair.  Since December 2011 he has received 35 hours of 2:1 support each week (increased from 28 hours).  At all other times he remains in his flat.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">MAG has lived at his current property at the Tenancy since 2006.  It is GC&#8217;s position that this was only ever intended to be a short term measure.  Although she has not attended court and given evidence she has filed a statement in which she makes this assertion.  This is disputed by NYCC.  MAG had been evicted from privately rented accommodation in 2003 due to damage caused to the property.  He then experienced a number of short term moves until he moved to a property known as SM in September 2005.  That was unsuitable for his long term occupation because of the stairs.  NYCC refers to the contact sheet at D254 which records that on 9 August 2006 GC contacted NYCC to request that MAG be moved.  There was then a meeting with the Housing Provider, the major housing provider for the area, on 29 August 2006 to discuss MAG&#8217;s needs.  On 25 September 2006 GC contacted NYCC to say that MAG had accepted a property through the Housing Provider.  It is NYCC&#8217;s position that GC had taken the lead in working with the Housing Provider in obtaining the property and that there is no reference to this being a temporary solution.  However it was NYCC and not GC which was responsible for addressing MAG&#8217;s housing needs and ensuring that any property chosen was suitable to meet those needs.  MAG lacked the capacity to make that decision for himself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">MAG moved into the property at the Tenancy in October 2006.  The property is a one bedroomed ground floor flat which is too small to accommodate the use of a wheelchair.  MAG has a support team of 11 workers and up to 4 workers are involved in his care each day.  He is able to access the community on a daily basis but there is no outside space which he can use at the property.  It is NYCC&#8217;s position that the evidence of his carers confirms that MAG mobilises on his hands and knees whilst in the property and has shown no interest in using his wheelchair indoors.  It is said that he appears to associate use of the wheelchair with going out of the property.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The property has only one bedroom and there is no scope for sleeping night staff.  NYCC accepts that the use of sleeping night staff means that there would be less intrusion into MAG&#8217;s private life than using waking carers.  However, NYCC&#8217;s position is that the key social worker, FC, Ms B and the autism specialist, Ms T assessed MAG as needing waking night staff.  A less interventionist approach has been trialled but it is said that it was unsuccessful because it led to MAG becoming distressed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The fact that the property has no outside space means that when MAG is not taken out he is confined to his flat.  NYCC&#8217;s position is that whilst it accepts that the amenity of a garden would be desirable it should not be a factor in determining whether or not the deprivation of liberty in this case is necessary and proportionate.  The desirability of an outside space has to be balanced against the agreed need for MAG to remain in the town centre in a property where he can &#8216;people watch&#8217; from his window which is something he clearly gains enjoyment from.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">NYCC says that this case has been before the court for four years during which time it has been required by the Official Solicitor to identify alternative options which it says its search has proved are simply not available.  On that basis, NYCC seeks final declarations.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="BodyText" style="text-align:justify"><span style="font-weight:bold">The issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">There is no dispute between the parties that by <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/6/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s6(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> (HRA) it is unlawful for a public authority to act in a way which is incompatible with a Convention right.  It is agreed that MAG is deprived of his liberty for the purposes of Article 5(1) ECHR.  That deprivation of liberty is only lawful if authorised by the court under ss4A and 16(2) MCA and without that authority, there will be a breach of Article 5.  The decision in <span style="font-style:italic">Re X</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2014/25" uk:canonical="[2014] EWCOP 25" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCOP 25</ref> para 14 confirmed that compliance with the three requirements set out in <span style="font-style:italic">Winterwerp v. Netherlands</span> <ref href="#" uk:canonical="(1979) 2 EHRR 387" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1979">(1979) 2 EHRR 387</ref> (the <span style="font-style:italic">Winterwerp</span> requirements) is essential to ensure compliance with Article 5 and mean:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-1.25in">(i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.62in">that there must be medical evidence establishing unsoundness of mind;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-1.25in">(ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.62in">of a kind which warrants the proposed measures; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-1.25in">(iii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.62in">which is persisting at the time when the decision is taken.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.25in">Where a person is deprived of his liberty Article 5(4) means that periodic reviews at reasonable intervals of not more than a year are appropriate, unless the circumstances require a shorter period before a review.  There is also a right to request a speedy review at an oral hearing. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">The issues for the court to consider at this hearing are </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:0.75in">whether the elements of the care package which involve a deprivation of liberty are lawful; and, if so,</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:0.75in">whether that deprivation of liberty should be authorised by the court; and, if it is,</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(iii)</num>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:0.75in;text-indent:0.12in">the nature and frequency of the necessary ongoing reviews of the care arrangements by the court.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="BodyText" style="text-align:justify"><span style="font-weight:bold">The proceedings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">These proceedings commenced in September 2011.  The history of the litigation is set out in the statement of the Official Solicitor dated 4 March 2015 and I do not intend to repeat it here.  At the hearing in August 2013 the court recorded that NYCC accepted that it is the statutory body responsible for meeting MAG&#8217;s present and future accommodation needs.  The Official Solicitor submitted on MAG&#8217;s behalf that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">MAG&#8217;s unsoundness of mind did not warrant the restrictiveness of his current care arrangements; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">it was in his best interests to move from his current placement as soon as an alternative, less restrictive property becomes available</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:0.25in">NYCC and the CCG took the position that the current placement meets MAG&#8217;s needs and that it is in his best interests to remain there.  However, NYCC agreed to use its best endeavours to update MAG&#8217;s representatives as to the progress made in identifying suitable alternative accommodation.  That was done in the form of a witness statement from Ms FC dated 17 February 2015.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">In terms of future accommodation it is accepted that it is in MAG&#8217;s best interests to move to a less restrictive property which meets the following criteria.  It should:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-1.25in">(i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.62in">be on the ground floor with one or two bedrooms;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-1.25in">(ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.62in">have outside space either communal or enclosed;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-1.25in">(iii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.62in">have passages wide enough to enable use of the wheelchair indoors;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-1.25in">(iv)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.62in">have windows to watch what is happening outside;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-1.25in">(v)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.62in">be close to amenities in the community</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.25in">At present, there is no available alternative which meets those criteria.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The evidence concluded on 6 March 2015 at which point there was insufficient time to hear closing submissions and, in any event, it was accepted that it would be desirable to delay those until after the handing down of the decision of the Court of Appeal in <span style="font-style:italic">Re MN (Adult) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/411" uk:canonical="[2015] EWCA Civ 411" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 411</ref>.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="BodyText" style="text-align:justify"><span style="font-weight:bold">Expert evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">As well as dealing with the question of capacity, in her report Dr Lisa Rippon addressed the use of restraints, including the need for 1:1 support at home 24 hours a day and the need for the harness in the community to prevent P lunging at others and to keep him safe.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">Reports were also prepared by Christine Hutchinson, Registered Nurse Learning Disability who is a best interests assessor under the MCA.  She has prepared four reports in all, the most recent being dated 15 February 2015, and I heard her give evidence.  She identified the way MAG&#8217;s mobilisation affects his perception of the world and how it affects staff perception of him which in turn affects the manner in which he is cared for.  She made a clear recommendation that a search for a new property is necessary and should continue.  In her latest report she records that the support for MAG is now less restrictive than that observed when she was first instructed.  She makes positive comments about the approach taken by the care providers.  She is clear that the one aspect which remains unresolved is MAG&#8217;s accommodation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The problem is that MAG&#8217;s flat, at which I visited him on 20 February 2015, is so small that his wheelchair cannot be used indoors.  The corridor leading from the bedroom to the lounge and kitchen is too narrow to move a wheelchair into those rooms.  He moves around the flat on his bottom and using his hands and knees.  This has resulted in him sustaining painful bursitis in both knees and he has calluses to his knees and ankles.  Ms Hutchinson advised that MAG&#8217;s current property does not meet his needs and that he should be able to live in a property which ensures he can live a life with dignity and comfort and which does not cause him physical or emotional harm.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">MAG lives in a supported living environment which is not covered by the provisions of Schedule A1 of the MCA.  Authorisation of the deprivation of his liberty must be by court order.  There are the following restrictions on his liberty as identified by the Official Solicitor:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(i)</num>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:0.25in;text-indent:0.25in">the front door is locked and MAG has no means to open it; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(ii)</num>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:0.79in">MAG cannot go outside on his own because of the restrictions imposed to keep him safe.  There is no safe, suitable outside space at his current property;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(iv)</num>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:0.75in">he has 1:1 staffing at all times because of the risk he poses to himself;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(v)</num>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:0.75in">he has 2:1 support when accessing the community;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(vi)</num>
+	    <content>
+	      <p class="BodyText" style="text-align:justify;margin-left:0.75in">a Crelling harness and lap strap are used to keep him in his wheelchair when he is out in it.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">The position of the NYCC</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">NYCC accepts that the current placement involves a deprivation of liberty and that there is no immediate alternative residential option.  It seeks the authorisation of the court for MAG&#8217;s continued deprivation of liberty on the basis that it is justified as a result of his condition which renders the restrictions proportionate and necessary.  NYCC says that the issues raised by the expert, Christine Hutchinson, and the Official Solicitor relate to whether the outcome could be achieved in a less restrictive manner but that there are no less restrictive options available.  Where it has been possible to make adjustments to achieve a less restrictive outcome, such as time spent in the community, this has been done.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">NYCC says that on the basis that the position is clear and the court does not have the jurisdiction to require it to find another property which would not ordinarily be available to MAG, all steps that he could take if he did not lack capacity, have been taken by it.  The accommodation at the Tenancy and his care package which mean that he is not permitted to leave unaccompanied and is under continuous supervision and control, have the effect of depriving MAG of his liberty.  The outcome cannot be achieved in a less restrictive way and the restrictions in place are necessary and proportionate.  On that basis the deprivation of liberty should be authorised by the court.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">The position of the CCG</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">The CCG has a limited role in the proceedings because it has no duty or expertise in relation to, or control over, MAG&#8217;s housing.  It submits that the relevant principles to be derived from the judgment in <span style="font-style:italic">Re MN </span>are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">The court can only choose from the available options put before it: a best interests trial of a hypothetical option is not permitted;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">The court can invite a Local Authority to reconsider its plan;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(iii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">The court can direct a Local Authority to file a further plan to include detail of available services;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(iv)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">The limit of the court&#8217;s powers to scrutinise the plan cannot be concretely defined but: &#8216;Rigorous probing, searching questions and persuasion are permissible; pressure is not&#8217;; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(v)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">The CoP has jurisdiction to determine a human rights claim brought under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.7</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">HRA 1998</ref> but it must be clearly identified and properly pleaded.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">The CCG refers to the fact that at the outset of the hearing it was said on behalf of MAG that the Official Solicitor is seeking findings to found the basis of a potential future claim and makes the point that this runs counter to what is said in <span style="font-style:italic">Re MN</span>.  The factual areas of dispute identified by the CCG are whether NYCC:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-1.25in">(i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.62in">used its best endeavours to find an alternative;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-1.25in">(ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.62in">whether it acted in a timely fashion in its search;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.25in">It is argued that NYCC has clearly satisfied both of these requirements.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The Housing Provider has assessed MAG as adequately housed and it is argued that the court should not seek to contradict that assessment without clear evidence to the contrary given that the Housing Provider has a responsibility to all its existing and potential tenants.  It is submitted that if the deprivation of liberty at MAG&#8217;s current placement is not authorised as being in his best interests this raises the question of where that leaves MAG.  To refuse to authorise the deprivation of liberty, given that there is no alternative, would require clear evidence that the placement is breaching MAG&#8217;s Article 5 rights and requires something more than evidence simply of an imperfect placement.  It is submitted that when looking at the bigger picture, including MAG&#8217;s current staff and the wider community there is not the evidence to support the allegation advanced by the Official Solicitor that the current placement breaches MAG&#8217;s Article 5 rights. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">The position of the Official Solicitor</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">I accept the submission put forward on behalf of MAG that these proceedings will remain ongoing to the extent that the law as it stands requires the deprivation of MAG&#8217;s liberty to be authorised by the court on at least an annual basis.  The effect is that, although I am being urged to make final orders by both NYCC and the CCG, in a case such as this the matter will remain before the court because of the need for reviews.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The Official Solicitor makes the point that the reference in <span style="font-style:italic">Re MN</span> to the ability of the Court of Protection to explore the care plan put forward by a public authority and the inability of the Court to compel a public authority to agree to a care plan which it is not willing to implement does not apply when the issue is the right to liberty under Article 5.  I accept that analysis.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The Official Solicitor points to the fact that a finding is sought that the property meets MAG&#8217;s needs.  However, it is pointed out that his support plan dated 23 February 2015 states that, &#8216;Whilst the court proceedings have recommended a move the Commissioners have reconsidered and agree that a move for [MAG] is in his best interest and will be less restrictive&#8230;.&#8221;.   In her evidence, Ms FC, who was the author of that plan said that she was not sure when the reconsideration by the Commissioners had taken place but believed it would have been in 2013, when the person centred plan was compiled.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">Ms FC confirmed when giving evidence that the occupational therapy assessment to identify MAG&#8217;s housing needs was undertaken in 2006.  The document is in the bundle and at E15 those needs are identified as:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">having space inside and outside to be on his own in a safe environment and which would need to be large enough to enable him to enjoy freedom of movement;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-1.38in">(ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.62in">a room of his own of a substantial size to allow him freedom of movement;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(iii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">a good sized bathroom to facilitate access from either a shower chair or a wheelchair with space for a wall mounted changing bench;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(iv)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">an area within the property to accommodate sensory equipment;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(v)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">an accessible kitchen, big enough to eat in;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(vi)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">a living room of sufficient size for him both to relax and pursue other activities;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.25in">It is quite clear that the Tenancy does not meet those needs.  There is no outside space and the space within the property is limited such that he cannot use his wheelchair indoors should he wish to do so.  The fact that he has no alternative but to mobilise by dragging himself around on his hands and knees has led to Bursitis in both knees and calluses to his knees and ankles resulting from friction with the floor.  I note that when MAG was at the residential care home whilst his property was refurbished he mobilised within the care home using his wheelchair.  I am not satisfied that, if he had the option of using his wheelchair within his home, he would choose not to use it.  In his present accommodation he is deprived even of that option.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The Official Solicitor makes the point that it is only as a result of the Court granting his application for permission to instruct experts that the care regime has become less restrictive with a corresponding reduction in MAG&#8217;s challenging behaviour.  This has been as a result of the recommendations made by Ms Hutchinson which the care provider have implemented.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">I accept the submission of the Official Solicitor that when considering whether deprivation of MAG&#8217;s liberty is warranted I must take into account that what it means to be deprived of liberty is the same for everyone, whether or not they have physical or mental disabilities and that there is a duty to make reasonable accommodation to cater for the special needs of those with disabilities.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">It is of concern that MAG has no alternative but to mobilise in the way he does because his current accommodation does not enable the use of his wheelchair indoors and that he was prevented from going out during the period that there was a problem with his wheelchair.  It is submitted on his behalf that liberty can be restricted by the physical environment in which care is delivered and that the narrow corridors, lack of outdoor space, lack of privacy and lack of a wheelchair (when his needed repair and no replacement was made available) amount to a disproportionate deprivation of liberty in this case.  The evidence relating to each of those issues is set out in the Official Solicitor&#8217;s Closing Submissions and I do not intend to repeat it here.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">It is also of concern that MAG did not have a care manager from 2008 to 2010.  Ms FC in her oral evidence said that without a care manager MAG&#8217;s file would only be picked up by a duty worker as the need arose because he was considered to have a settled package of care with no issues.  The reality was that there were issues in relation to his accommodation given the assessment of MAG&#8217;s needs by the occupational therapist in 2006 and the fact that his accommodation was not suitable to meet those needs.  In her witness statement dated 19 February 2015 Ms B said that, &#8216;&#8230; until December 2014 [MAG] was not a priority for re-housing with the Housing Provider which limited the possibilities with them&#8217;.  I accept the submission that it was only as a result of the pressure put on by the Official Solicitor that MAG&#8217;s housing status was reclassified from Bronze to Gold.  NYCC left the question of MAG&#8217;s housing to the Housing Provider and did not accept its responsibility until 2 August 2013, almost two years after these proceedings were commenced and considerably longer after the date of the occupational therapist&#8217;s assessment.  It would appear however that the Housing Provider were not in possession of all the relevant material.  I have seen the letter dated 19 July 2013 which says that they had not had the benefit of, &#8216;&#8230; the professional reports appertaining to [MAG&#8217;s] accommodation needs not any medical reports for consideration under the Allocations Policy&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">I accept the Official Solicitor&#8217;s submission that the authorities in this case were not willing to initiate a search for alternative accommodation unless and until the Court decided that it was in MAG&#8217;s best interests to move in spite of the fact that the Commissioners had decided in 2013 that it was in his best interests to move to a less restrictive environment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">I accept that there was culpable delay on the part of NYCC in finding a less restrictive property for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">it took almost two years from the commencement of proceedings before the local authority finally accepted that it was responsible for meeting MAG&#8217;s accommodation needs;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">the local authority sought to abrogate its responsibility by expecting the care provider to search for an alternative;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(iii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">I accept the conclusion of Christine Hutchinson at paragraph 4.1.2 of her report of 16 March 2014 that NYCC, &#8216;&#8230; missed an important step in the process of best interests which is to determine whether alternative accommodation should be sought or not&#8217;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(iv)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">a lengthy and detailed piece of work was necessary to consider a range of options for the nature and location of a long term accommodation move but there was a failure to approach the task with energy and imagination;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(v)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">The Housing Provider were not provided with all the material relevant to their decision making;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(vi)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in">the property search criteria were unnecessarily restricted because no consideration was given to shared outdoor areas.  GC identified a property which was discounted on the basis that it had a communal area rather than a self-contained garden;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(vii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">no alternative was ever likely to be found whilst MAG remained in the Bronze category of housing need.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">On behalf of MAG the Official Solicitor outlines the decision I have to make as being whether the interim authorisation ought to be continued in light of what he characterises as the overly restrictive intensity of MAG&#8217;s deprivation of liberty.  NYCC and the CCG require the authority of the Court lawfully to deprive MAG of his liberty in order to act compatibly with Article 5.  There is no dispute that there is a deprivation of liberty in this case.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">I accept the Official Solicitor&#8217;s submission that the central issue is not whether MAG&#8217;s confinement is properly justified by the fact that no alternative accommodation is available.  It is whether, as set out in the closing submissions on behalf of MAG, &#8216;&#8230;the persistence of his unsoundness of mind justifies the validity of his continued deprivation of liberty: <span style="font-style:italic">Re X </span><ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2014/25" uk:canonical="[2014] EWCOP 25" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCOP 25</ref>, para 14; <span style="font-style:italic">KC v Poland </span>(Application no. 31199/12), para 70. In this regard it is crucial to note the Strasbourg Court&#8217;s view in <span style="font-style:italic">Stanev v Bulgaria</span> <ref href="#" uk:canonical="(2012) 55 EHRR 22" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">(2012) 55 EHRR 22</ref> para 153:&#8220;&#8230; the objective need for accommodation and social assistance must not automatically lead to the imposition of measures involving deprivation of liberty.&#8221;&#8217;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">I accept the submission on behalf of MAG that it is the authority&#8217;s failure in its attitude towards the search for less restrictive accommodation which has caused significant delay and lengthened these proceedings.  I am urged by the Official Solicitor not to authorise this deprivation of liberty because it is unwarranted because the intensity of the measures and in particular those which result from the environmental features of the property are not justified and proportionate.  MAG has remained at the Tenancy for nine years and been subject to a deprivation of liberty there.  He has no choice but to mobilise on his hands and knees which has caused physical problems including Bursitis and a recurring fungal infection in his thigh.  He does not have access to suitable outdoor space and sleeping night support is not possible in the absence of a second bedroom.  The only private space he has is his own bedroom.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">On behalf of the CCG I am urged not to refuse the authorisation on the basis that if I do so there will be a lack of clarity about MAG&#8217;s position and that of NYCC in relation to its property search.  In response it is argued on behalf of MAG that not to continue the interim authorisation will result in a substantive breach of Article 5 which will ensure that proactive steps are taken by the statutory authorities to locate a less restrictive living environment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">I have considered the submissions of the parties and in this case I have the benefit of having seen MAG at the Tenancy.  As I have indicated already, I accept the submissions of the Official Solicitor in relation to the issues with the current accommodation and on that basis I consider that I cannot endorse a care regime which risks breaching MAG&#8217;s right to liberty.  This may be all that is available at present but I am not satisfied that NYCC has taken the steps necessary to ensure that there is no breach of its obligations.  I am aware of the steps which have been taken recently.  However, MAG&#8217;s needs were identified by the assessment in 2006.  It is clear that the Tenancy does not meet those needs and that should have been clear when the property was identified by GC in 2006.  In 2013 the Commissioners accepted a move would be in MAG&#8217;s best interests and would be less restrictive.  This is a question of MAG&#8217;s liberty and I do not accept that I can authorise the deprivation of that liberty on the basis that nothing else is available.  He has been in this unsatisfactory situation for a prolonged period.  NYCC has been extremely slow to accept its responsibilities in relation to rehousing him.  These proceedings started in 2011 and it was not until 2 August 2013 that it accepted it owed a duty in this respect.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">Refusing the authorisation sought means that NYCC must take the steps necessary to ensure that there is no breach.  In all the circumstances, I am not satisfied that I should make the declaration sought by the local authority and I will not authorise the deprivation of liberty in its current form. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

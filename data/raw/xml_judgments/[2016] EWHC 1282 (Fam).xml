@@ -1,0 +1,408 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2016/1282"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2016/1282"/>
+	  <FRBRdate date="2016-05-20" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1282"/>
+	  <FRBRname value="DM v KM"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/1282"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/1282"/>
+	  <FRBRdate date="2016-05-20" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/1282/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/1282/data.xml"/>
+	  <FRBRdate date="2024-10-27T07:32:58" name="transform"/>
+	  <FRBRdate date="2024-11-16T21:37:58" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2016-05-20" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="dm" href="" showAs="DM"/>
+	<TLCPerson eId="km" href="" showAs="KM"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2016</uk:year>
+	<uk:number>1282</uk:number>
+	<uk:cite>[2016] EWHC 1282 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>51d92f38021195788e01bf517c21501c91ff8ec1d6f6f4e2f9f5ef7d3cc64ad7</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Cambria; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-family: Cambria; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Cambria; font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Cambria; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .PageNumber { }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Approved Judgment</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"><span style="font-family:'Times New Roman';font-size:8pt">Re K, L &amp; M (Children) (Child arrangements orders: Restrictions on contact and further applications)</span></p>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2016] EWHC 1282 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber style="font-weight:bold">FD16P00125</docketNumber></p>
+      <p class="CoverMain">IN THE FAMILY COURT AT THE ROYAL COURTS OF JUSTICE </p>
+      <p class="CoverMain"><docTitle>IN THE MATTER OF J (A BOY: DOB: [a date in] 2010) AND D (A BOY: [a date in] 2011).</docTitle></p>
+      <p class="CoverMain"><docTitle>IN THE MATTER OF THE CHILD ABDUCTION &amp; CUSTODY ACT 1985 INCORPORATING THE 1980 HAGUE CONVENTION UNDER CIVIL ASPECTS OF INTERNATIONAL CHILD ABDUCTION</docTitle></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2016-05-20" refersTo="#judgment">20/05/2016</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center">MS JUSTICE RUSSELL</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#dm" style="font-weight:bold">DM</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#km" style="font-weight:bold">KM</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Hassan Khan (</span>instructed by<span style="font-weight:bold"> International Family Law Group</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Julie Slater</span> (instructed by <span style="font-weight:bold">David Milne, Enoch Evans Solicitors</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 19<span style="vertical-align:super;font-size:smaller">th</span> &amp; 20<span style="vertical-align:super;font-size:smaller">th</span> May 2016</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment Approved</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+      <p class="ParaHeading"><span style="font-weight:bold">The Honourable Ms Justice Russell DBE:</span></p>
+      <p class="ParaHeading"><span style="font-weight:bold">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This case concerns two boys aged 5 and 4 J (born [a date in] 2010) and D (born [a date in] 2011). This case is as a result of an application brought by their father (DM) through the Central Authority for the summary return to the USA of these two children who were brought to the UK by their mother (the respondent KM) for a holiday on 22<span style="vertical-align:super;font-size:smaller">nd</span> January 2016. They were due to return on the 19<span style="vertical-align:super;font-size:smaller">th</span> February 2016 but they have remained in England with the respondent. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">While at the outset of these proceedings the respondent had previously raised defences under Article 13 (a) as well as Article 13(b), by the time the case came before me at 2pm on the 19<span style="vertical-align:super;font-size:smaller">th</span> May 2016 she no longer pursued the Article 13 (a) defence having accepted that when she travelled to the UK in January it was &#8220;<span style="font-style:italic">for the purpose of a holiday and to allow the boys to meet my mother. Return flights were booked for 19 February 2016</span>&#8221;. There were numerous electronic messages exchanged between the parties after she did not return to the United States (some of which could be read as the applicant acquiescing to the children and their mother remaining in the UK). However, taken as a whole, the evidence of acquiescence is equivocal at its highest. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The application for summary return to New Jersey is dated 14th March 2016. Both parties have filed statements and the children were both seen by Angela Adams of the Cafcass High Court team following allegations that the boys had suffered physical abuse and been present during incidents of domestic abuse. Ms Adams has provided a report dated 11<span style="vertical-align:super;font-size:smaller">th</span> May 2016.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As the defence under Article 13 (a) was not pursued, both parties agreed that there was no reason for me to hear any oral evidence. Neither party required the attendance of Ms Adams to give evidence as the Art 13(a) defence was not pursued. The remaining defence under Article 13(b) was dealt with by way of commendably succinct oral submission by counsel for both the applicant and the respondent, who also provided the court with some further written submissions. In respect of Article 13b &#8220;grave risk of harm&#8221; KM relied on disputed allegations of domestic abuse, including sexual violence against her, violence used against the children and frequent physical and emotional abuse by the applicant. As a result of the abuse, the Applicant has been arrested by the police and admitted to the ER for a psychiatric assessment. It is alleged that he has threatened to take his own life in the presence of the children. I shall return to the allegations below having considered the law to be applied in this case.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As Mr Khan (counsel for the applicant) set out in his position statement, the law to be applied is set out in the Supreme Court <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re E (Children) (Abduction: Custody Appeal</span><span style="font-style:italic">) </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/27" uk:canonical="[2011] UKSC 27" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKSC 27</ref>; in paragraphs [32] to [37] (quoted by Mr Khan) Lady Hale and Lord Wilson laid out some of the principles to be applied the first being that the burden lies with the respondent in this case as the person attempting to engage Article 13 (b).</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in;margin-right:0.25in"><span style="font-weight:bold">[32]</span><span>&#160;</span><span style="font-style:italic">First, it is clear that the burden of proof lies with the &#8216;person, institution or other body' which opposes the child's return. It is for them to produce evidence to substantiate one of the exceptions. There is nothing to indicate that the standard of proof is other than the ordinary balance of probabilities. But in evaluating the evidence the court will, of course, be mindful of the limitations involved in the summary nature of the Hague Convention process. It will rarely be appropriate to hear oral evidence of the allegations made under Art 13(b) and so neither those allegations nor their rebuttal are usually tested in cross-examination.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in;margin-right:0.25in"><span style="font-style:italic;font-weight:bold">[33]</span><span style="font-style:italic">&#160;Second, the risk to the child must be &#8216;grave'. It is not enough, as it is in other contexts such as asylum, that the risk be &#8216;real'. It must have reached such a level of seriousness as to be characterised as &#8216;grave'. Although &#8216;grave' characterises the risk rather than the harm, there is in ordinary language a link between the two. Thus a relatively low risk of death or really serious injury might properly be qualified as &#8216;grave' while a higher level of risk might be required for other less serious forms of harm.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in;margin-right:0.25in"><span style="font-style:italic;font-weight:bold">[34]</span><span style="font-style:italic">&#160;Third, the words &#8216;physical or psychological harm' are not qualified. However, they do gain colour from the alternative &#8216;or otherwise' placed &#8216;in an intolerable situation' (emphasis supplied). As was said in Re D, at para [52], &#8216;&#8220;Intolerable&#8221; is a strong word, but when applied to a child must mean &#8220;a situation which this particular child in these particular circumstances should not be expected to tolerate&#8221;'. Those words were carefully considered and can be applied just as sensibly to physical or psychological harm as to any other situation. Every child has to put up with a certain amount of rough and tumble, discomfort and distress. It is part of growing up. But there are some things which it is not reasonable to expect a child to tolerate. Among these, of course, are physical or psychological abuse or neglect of the child herself. Among these also, we now understand, can be exposure to the harmful effects of seeing and hearing the physical or psychological abuse of her own parent. Mr Turner accepts that, if there is such a risk, the source of it is irrelevant: e.g., where a mother's subjective perception of events leads to a mental illness which could have intolerable consequences for the child.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in;margin-right:0.25in"><span style="font-style:italic;font-weight:bold">[35]</span><span style="font-style:italic">&#160;Fourth, Art 13(b) is looking to the future: the situation as it would be if the child were to be returned forthwith to her home country. As has often been pointed out, this is not necessarily the same as being returned to the person, institution or other body who has requested her return, although, of course, it may be so if that person has the right so to demand. More importantly, the situation which the child will face on return depends crucially on the protective measures which can be put in place to secure that the child will not be called upon to face an intolerable situation when she gets home. Mr Turner accepts that if the risk is serious enough to fall within Art 13(b) the court is not only concerned with the child's immediate future, because the need for effective protection may persist.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in;margin-right:0.25in"><span style="font-style:italic;font-weight:bold">[36]</span><span style="font-style:italic">&#160;There is obviously a tension between the inability of the court to resolve factual disputes between the parties and the risks that the child will face if the allegations are in fact true. Mr Turner submits that there is a sensible and pragmatic solution. Where allegations of domestic abuse are made, the court should first ask whether, if they are true, there would be a grave risk that the child would be exposed to physical or psychological harm or otherwise placed in an intolerable situation. If so, the court must then ask how the child can be protected against the risk. The appropriate protective measures and their efficacy will obviously vary from case to case and from country to country. This is where arrangements for international co-operation between liaison judges are so helpful. Without such protective measures, the court may have no option but to do the best it can to resolve the disputed issues.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in;margin-right:0.25in"><span style="font-style:italic;font-weight:bold">[37]</span><span style="font-style:italic">&#160;To this Mr Setright would add that it would be even more helpful if there were machinery in place for recognising and enforcing protective orders (and, between common law countries at least, undertakings given to the courts) made in the Requested State in order to protect the children on their return to the Requesting State at least until the courts of the Requesting State are seized of the case (if they ever are). The Brussels II revised Regulation clearly contemplates that adequate measures actually be in force and without some such machinery this may not always be possible. We, therefore, take this opportunity to urge the Hague Conference to consider whether machinery can be put in place whereby, when the courts of the Requested State identify specific protective measures as necessary if the Art 13(b) exception is to be rejected, then those measures can become enforceable in the Requesting State, for a temporary period at least, before the child is returned.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">To this I add that part of the import of the decision in the case of <span style="font-style:italic">Re A </span>was to confirm that the European case law had not suggested any change to the principle of a summary process and that the conduct of this case, agreed by both parties is in keeping with that procedure. Article 13 (b) read that the person opposing the return of the children must establish that &#8220;<span style="font-style:italic">there is a grave risk that his or her return would expose the child to physical or psychological harm or otherwise place the child in an intolerable situation.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have reminded myself that the court should apply a two tier test when considering Article 13 (b) namely to establish whether a prima facie case is made out and, if so, to then consider whether or not to order the children&#8217;s return. The Article 13 threshold is to be strictly applied and it is only in exceptional circumstances that the court will consider not returning the children. In this I have to consider the case law as contained in <span style="font-style:italic">Re S (A Child) (Abduction: Rights of Custody) </span><ref href="#" uk:canonical="[2012] 2 FLR 442" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 2 FLR 442</ref>, and <span style="font-style:italic">Re M (Abduction: Child&#8217;s Objections) </span><ref href="#" uk:canonical="[2007] 2 FLR 72" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 2 FLR 72</ref>; although the latter case concerned the child&#8217;s objections these where cases where due to the exceptional welfare considerations Hague Convention considerations were outweighed by welfare.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was expressly accepted before me, on behalf of the applicant that I should approach this case on the basis of the respondents allegations put at their highest, despite the fact that they were not all accepted. Indeed the case put on behalf of the applicant was not to deny there had been domestic abuse, but to say that the abuse was mutual and that it had been caused by sexual jealously as both he and the respondent had been involved in extra-marital affairs. The applicant accepted that the children had been present during those incidents; he accepted that the police had been called; and, he accepted that he had been taken to ER for a psychiatric assessment at the suggestion of the police.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties met and married in Germany. DM is a US national and was serving in the US army. KM is a German national. The children are of dual heritage and have lived in the USA with their parents (although for some time with their mother alone) since 2010; D was born there. They are habitually resident in the USA. There are no current proceedings regarding these children in the US.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the evidence of both parties it is clear that there have been serious difficulties in their relationship and other people have been involved, including a period of time when the applicant had his pregnant girlfriend living in the family home; he claims that this was a m&#233;nage &#224; trois. The respondent alleges that the domestic abuse had started in 2010 but became worse after the birth of their second child in 2011 and persisted thereafter. She says that DM has assaulted both the children, giving as examples J when he was 1 year old being hit on his legs and D when he was a baby of two months being hit on his mouth. She said in her statement that she was regularly assaulted; she was slapped, had her hair pulled and twisted and that she was choked. She says that during these incidents the children were present. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">KM says that in 2014 the violence escalated and she was sexually assaulted by DM who attempted to rape her. She considers that his behaviour is due, in part, to his suffering PTSD which was caused as a result of his experiences when serving in the military. DM accepts that he has suffered PTSD and has received treatment for it, but, as described to the Cafcass officer who had direct email contact with DM, he says it is a minor difficulty which has no effect on his behaviour in the home.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">KM described in her statement an incident in 2015, which took place in their apartment when the children were present, when DM had seen pictures of her with another man and had held a knife to his own throat threatening to kill himself. Their landlord had intervened as a result of her screams and told DM to leave the apartment. She says that, in October 2015, DM assaulted her, he tried to destroy her belongings and attempted to rape her. Again, this took place in front of the children. The police were called by the landlord and DM was taken by police for psychiatric assessment; there is a hospital record to that effect dated 8<span style="vertical-align:super;font-size:smaller">th</span> October 2015 exhibited to his own statement.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">During the time the children were in England in January and February 2016, DM was evicted from the apartment they had been living in. He has subsequently moved to another apartment which he says he will vacate so that the respondent and the children can return to live there. There is a dispute about the lease and tenure of this apartment and the court has seen three tenancy agreements, signed this year (2016) which have variously been in the name of DM, in the name of the woman who had been pregnant with his child and in both their names which would suggest they were still in a relationship two months ago. They were not all for the same address but it does call into question whether there is in fact secure accommodation at the applicant&#8217;s disposal.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Cafcass report </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I ordered that the children should be seen by a Cafcass officer because of the very serious nature of the allegations, including violence against them. The children were seen by the Cafcass officer, Ms Adams, who according to her report found them both to be well able to communicate with her. She found J, who will be six in four months&#8217; time, to have a good sense of humour and that his range of vocabulary and ability to express himself was on a par with most children of his age, if not a little more advanced. He showed some understanding of the relationship between his parents and why he thought they had come to England. This, she thought, showed some emotional maturity for a five year old, although he had some difficulty in verbalising his own feelings or those of others which perhaps suggested less emotional maturity. He appeared to think that he was now living permanently in England; and that his awareness of being in England as a result of his father hurting his mother might make it emotionally difficult for him to return to the USA, fearing that they will be unsafe if they go back. Ms Adams felt that his presentation might suggest he was conflicted and needed a strategy to keep safe, which he sees as staying in England, alongside missing the rest of his family, his home (which is not available to him in any case) and his school in America.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">D is four and a half and Ms Adams said he was as cognitively and emotionally mature as most children of his age. They are close in age and emerging from infancy and so their emotional needs are closely intertwined with their main caregiver, their mother, and need to be with her to feel safe. Both had experienced family conflict, which, in this case is at the most serious end of any scale.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">J told Ms Adams &#8220;my daddy kept hurting my mom and that was pretty much why we came here&#8221;. He was uncomfortable and avoidant about talking about the USA. He unhesitatingly told Ms Adams that the word he chose to describe his father was &#8220;angry&#8221;. Ms Adams asked him how he knew his father was angry and he said that &#8220;he shouts and hurts my mum&#8221;. J told her that his mother had once had a black eye and described how her eye was black all around it. He said he did not know how he felt when his mother got hurt but replied &#8220;no&#8221; when asked if it made him frightened. He told Ms Adams that he knew his father had hurt his mother&#8217;s eye, because &#8220;he is rough&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When J was asked if there were things that made his father happy he said &#8220;when my mum stops talking he does not have to yell anymore.&#8221; On the face of it this is indicative of a five year old learning to blame the victim for the abuser&#8217;s actions and would have long term consequences for his emotional and social development were it to continue. When asked what word he would use to describe his mother he said she was &#8220;nicer&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">J told Ms Adams he thought he was going to live here (in the UK) forever and physically avoided responding to how he might see his father by hiding behind the curtain of a toy puppet show, and not answering. He used a puppet to reply to further questions. He said that he did not know which country a boy who had lived in both countries (here and the USA) might choose &#8211; it was hard to choose. He was glad he did not have to go to his American school any more.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I considered the Cafcass report to be careful and measured, and that the questions that J was asked were open; leaving it up to him how he chose to respond. He was, as the Cafcass officer said, guarded in his responses about where he should live and aware, too aware, of the conflict he had witnessed. J did not ask to see his father and had, in Ms Adams&#8217; view, negative memories of him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Adams was concerned about J and D being exposed to further domestic abuse and instability. As she observed (and I agreed with this observation) that while DM denied allegations of harm, J disclosed that he had witnessed violence perpetrated by his father. She went on to say that the violent behaviour (sexual violence and attempted choking) described by KM were &#8220;high risk&#8221; on application of the Safe-lives DASH tool and indicators of serious physical and psychological injury. Further, as she observed, the PTSD which DM suffers can lead to irritability and angry outbursts (amongst other symptoms) which must be considered to be likely to raise the level of risk.  No doubt because of this, Ms Adams said in her report that to ensure the safety of the children, she would want there to be a referral to the American Child Protection Services and for there to be a full welfare assessment of the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Adams was concerned that the three bedroomed apartment which DM currently lives in would only be available for a short time (until the first inter-partes hearing) and this would subject the children to yet further instability. Lack of secure accommodation is not of itself a situation that can be considered to be intolerable but I remind myself that in considering domestic abuse and its effects on the children, I must also consider the provision of safe accommodation as part of the children&#8217;s situation as a whole, along with the likely effects of any financial abuse.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the USA as DM does not have sufficient income to house himself and the respondent and children separately, it places the children in a situation where they and their mother are financially vulnerable. The Cafcass report makes more than one reference to this and, specifically, alludes to the need for the court to consider the children&#8217;s stability in America in terms of financial support. The applicant says he will live with his mother &#8220;temporarily&#8221; with no indication of the length of time that this option is available to him; his mother is not obliged to house him indefinitely. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the risk to the children of financial as well as physical abuse, the apartment the applicant offers is in his name with no security of tenure for the respondent, he has not made an offer or taken any steps to secure it for her, and she and the children will be entirely dependent on his good-will. Moreover there is a dispute about KM&#8217;s ability to gain employment and support herself which raises the risk of financial exploitation or abuse and increases the overall vulnerability of the children&#8217;s situation. Although KM does have a green card which means that she could work, she has two young children to look after which will curtail her working hours and or require her to earn a sufficient income to provide child care and as a German national, it is not clear whether she would qualify for any welfare payments.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Adams&#8217; view, underlined by the CAFCASS safe contact indicator, is that it would not presently be in the children&#8217;s best interests for them to have unsupervised contact with DM and that if in America, that was a matter that she considered should be decided by child protection services <span style="font-style:italic">after </span>an assessment. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It falls to me to consider the particular situation of these particular children, and whether they are at grave risk of harm or otherwise being placed in an intolerable situation. The evidence before me in this particular case includes the Cafcass report, as well as the complaints made by KM, which while being disputed by DM have also, in part, been expressly accepted by him in his own evidence; such as the involvement of the police; his admission to a hospital for psychiatric evaluation at the suggestion of the police; the children having witnessed some of the incidents of domestic violence; and, that he suffers from PTSD.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am acutely aware that case law has not treated domestic violence and abuse as sufficient to form a defence to the convention. In this case there have been complaints of the very serious and grave domestic abuse which are at the severe end of any scale, and which, if true, would constitute high risk indicators. While by the complaints themselves, may not, however serious, constitute a defence, and not only because the facts are contested, in this case there is substantial and compelling evidence that the children have not only witnessed the violence but have been affected by it (J in particular) and that it has begun to influence their emotional development. This is evidence contained in the Cafcass officer&#8217;s report. The harm caused by witnessing domestic abuse is recognised to be substantial and can have long-term effects on the welfare and development of children; the beginnings of which were observed in J by Ms Adams. The gravity of that risk of harm is likely to be increased by the effects of the PTSD which DM suffers from; what he says the effects of PTSD are on him is not something he has addressed in his statement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The situation that the children were in was an intolerable one; they were exposed to frequent domestic abuse and to the emotional volatility and anger of their father who had frequently assaulted their mother in their presence, affecting them and affecting their emotional well-being and, in all likelihood, affecting their emotional development; J told the Cafcass Officer his father kept hurting his mother. DM denies assaulting the children and, although he told Ms Adams that KM had hit the children, this was not an allegation that he repeated in his written evidence or in his submissions to the court. I am not in a position to make any findings but these allegations by KM (of DM&#8217;s assaults on the children), if true, would constitute serious assaults on very young children which could only be considered to be wholly intolerable. The recommendation by Cafcass that there should only be supervised contact is one that must be taken seriously at this stage and would have to continue until the children&#8217;s safety could first be assessed and ensured. DM has made no suggestion of how it could be done, still less taken no steps for it to be put in place.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I cannot conclude that there is compelling evidence that there is a grave risk that to return the children would expose them to physical harm; but I can and I do conclude that to return them would expose them to a grave risk of emotional harm and that they would be placed in an intolerable situation in respect to their safety and that of their mother and the concomitant high risk of emotional and psychological harm to the children themselves should they continue to witness it. The risk of direct physical harm to the children remains to be adequately assessed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I now turn to the situation to which they would be returned, and start by saying that I do not question the provision of legal safeguards or protective measures for women and children in the USA. In this case, however, I have to consider what protective measures can be put in place for these particular children in their particular situation. They cannot be returned to their father on the basis of the evidence before me. Protective measures need to be in place not only for the short term or immediate future, but for some time to come (as alluded to above in the judgement in <span style="font-style:italic">Re E)</span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is not just a question of whether the New Jersey Courts would enforce the undertakings given to this court as suggested by the applicant; and there is no guarantee that they would. Or of how long that process would take; and there is no indication of how long that would be other than it would depend on the procedure followed. It could be, I am told, as little as a week or as long as four weeks or longer. As there are no proceedings extant it could be some time, DM has taken no steps to put the protective orders in place and any application to the court in New Jersey would have to be funded by him and he has emphasised his financial limitations. Mr Khan said in his oral submissions to me that the police should be the first port of call, but this is hardly a protective measure and no guarantee of any protection in place for when the children return.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The accommodation that is offered is an apartment which currently seems to be in the sole name of the applicant. There is no reason to believe he would give up his tenancy indefinitely and nothing to stop him from return at any time; he has taken no steps to secure the accommodation for KM and economically provide accommodation for her and the children and for himself. If the children moved there with their mother both they and she would be financially very vulnerable and exposed to further serious domestic abuse. They could be asked to leave at any time and would be living there without any protective orders or measures being in place. The measures that DM suggests should be put in place amount to no more than vague and ephemeral assurances and do not amount to protective measures at all sufficient to meet the needs and circumstances of the children in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When one adds to this the fact that KM has very limited financial resources herself, if any, and no support (most of her family live in Germany and some in the UK) this level of financial vulnerability in a case such as this, directly affects the children, and adds to the risk of harm and to the intolerability of the children&#8217;s situation. I do not consider that any or sufficient protective measures are in place, nor have sufficient steps been taken to put them in place and so these children would return to a situation where they would be at grave risk of emotional harm and returned to an intolerable situation and therefore I do not consider that I am bound by the provisions of the treaty to order their return and do not do so.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

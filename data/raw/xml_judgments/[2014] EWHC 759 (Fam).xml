@@ -1,0 +1,568 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/759"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/759"/>
+	  <FRBRdate date="2014-03-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="759"/>
+	  <FRBRname value="FB v IB"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/759"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/759"/>
+	  <FRBRdate date="2014-03-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/759/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/759/data.xml"/>
+	  <FRBRdate date="2024-10-27T21:03:47" name="transform"/>
+	  <FRBRdate date="2024-11-28T16:08:06" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2014-03-12" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="fb" href="" showAs="FB"/>
+	<TLCPerson eId="ib" href="" showAs="IB"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2014</uk:year>
+	<uk:number>759</uk:number>
+	<uk:cite>[2014] EWHC 759 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>7506e633a051e323d6db4b52dcbc9711d9f98b8d0ed00f03fe0cc9784b382c2d</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Cambria; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2014] EWHC 759 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: FD13 P01754</p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p><docTitle style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE MATTER OF M &amp; S (Children)</docTitle></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">THE CHILD ABDUCTION &amp; CUSTODY ACT 1985</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">AND THE SENIOR COURTS ACT 1981</span></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2014-03-12" refersTo="#judgment">12/03/2014</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center">THE HON.MRS JUSTICE RUSSELL DBE</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#fb" style="font-weight:bold">FB</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#ib" style="font-weight:bold">IB</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Cliona Papazian </span>(instructed by<span style="font-weight:bold"> Jones Myers</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mehvish Chaudhry </span>(instructed by <span style="font-weight:bold">Dawson Cornwell</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 10<span style="vertical-align:super;font-size:smaller">th</span>, 11<span style="vertical-align:super;font-size:smaller">th  </span> &amp; 12<span style="vertical-align:super;font-size:smaller">th</span> March 2014</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">The Hon. Mrs Justice Russell:</span></p>
+	    <p class="ParaHeading"><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These proceedings are brought pursuant to the 1980 Hague Convention  on Civil Aspects of Child Abduction (the Hague Convention) by the Applicant F who is the father of two children M (born on [a date in] 2005) now eight and three quarters, and S (born on [a date in] 2006) now seven and a half. M and S have been resident with their mother, B, in the UK since 20<span style="vertical-align:super;font-size:smaller">th</span> July 2011. It is her case that the children are habitually resident in England. It is not agreed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">F lives in New York, USA and the children have visited their father in New York in February 2012 (on return tickets). It is the Applicant/father&#8217;s case that he did not consent to the permanent relocation to the UK; it is the Respondent&#8217;s case that he did so and that the consent was notarised. The Applicant says that the children should have returned to New York on 17th August 2013 and when they did not he issued Hague Convention proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If the court does not accept that the children were habitually resident in the UK on the 17<span style="vertical-align:super;font-size:smaller">th</span> August 2013 the Respondent/mother argues defences under Articles 12 (settlement), 13(a) (consent) and the child&#8217;s objections under Art 13. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Background to the application</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The children and their mother (B) are living in Bedford where they have been since late summer 2011. The Applicant (F) lives at 41 Gunther Avenue, Yonkers in New York City. I am not clear when he moved there or who he has lived there with; there is a dispute about whether he has lived there with a partner and mother of his child, S who is 18 months old. It has never been the children&#8217;s home.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">F was born on 4 May 1976 in Pakistan and is 37 years old; he is an US national. B was born on 16 March 1983 in the United Kingdom and is 30 years old; she is a British national and holds a Green card.  She travelled, alone, to the US to renew it in February 2013.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties met online. They entered into Islamic marriage (nikah) in April 2003. Their marriage was registered on 3 July 2003 in New York, USA. M was born on 29 June 2005 and S was born on 30 September 2006. Both children were born in New York and have dual British and American nationality. During the marriage F had a relationship which resulted in the birth of M (born in March 2006) so he is of an age with S (who was born in June 2006). There is a dispute about when B became aware of this, F says that B has always welcomed other women into their relationship, but I see no evidence to support his contention; rather he seems to believe that he is right to conduct multiple sexual liaisons and father children. I doubt that he would accept that the women with whom he has those relationships could behave in a similar manner. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B was clearly unhappy with his relationship with M&#8217;s mother and describes the difficulties in their relationship which led to her travelling to England in May 2009 with the children. She complains of abusive behaviour from F; and says that the purpose of the trip was to get some distance from a relationship that was deteriorating and under a great deal of strain. Both parties&#8217; families were involved in this decision and agreed with it. But, not withstanding the involvement of the family elders, F issued Hague Convention Proceedings for the return of the children to New York as a result of which, and on advice, the children and mother returned to New York in September 2009 voluntarily. There were no contested hearings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On their return to America and on the basis of reassurances offered by F the B resumed their relationship and they lived together as a family. The difficulties in their relationship soon resurfaced with B calling the police and with restraining orders being put in place by the courts. They lived apart for some of the time that B and the children were in New York between September 2009 and July 2011. The length of time of separation is in dispute. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 19 March 2010 a hearing took place in the Family Court of the State of New York County of Westchester that resulted in an order for joint legal and physical custody between both parents; it also prohibited either party from moving more than 15 miles from the other parent&#8217;s address without a court order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B alleges around March 2010 F had another affair this time with AE. There was an argument and F assaulted B. Following this B obtained non-molestation orders against F on 3 December 2010, 10 December 2010 and 22 June 2011. The orders indicate F was present and issued personally with the orders. F denies all knowledge of AE and says there were no grounds for the protection orders being granted.  It is accepted that following this incident B separated from the father and moved into her own property with the children in New York. She has attached facebook messages from AE to her second statement which would seem to demonstrate that she existed and had an affair F. It is B&#8217;s case that following the parties&#8217; separation she raised the question of relocating with the children to England with F on several of occasions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2011, following their separation F decided that he wanted to open a restaurant business as one had become available. It is his case that B was to be a partner in the business. It is her case that as she was needed to sign the lease she would use his business plans to get agreement to move to the UK. She signed the lease in May or June of 2011. It is agreed that B signed the liquor license for the business in February 2012. It was clear that as to the practical arrangements for the children if F were to open a restaurant business he would no longer be available to collect the children after school or see them in the evenings. B tried to get his agreement for relocating to the UK but no such agreement was reached.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In any case they entered a consent order at the Family Court of the State of New York County of Westchester which varied the previous custody order and permitted the parents to relocate with written consent of the other. The court record shows that both parties were represented and had agreed that it was in the best interests of the previous children that the custody order be modified. F accepts that this was a consent order but does not accept that it the modified order was entered into for the purpose of allowing B and the children to relocate. But that such a prospect was contemplated is evidenced by the terms of the order. And shortly thereafter, around late May or early June 2011 B signed the lease for F&#8217;s restaurant. She says that this was part of an agreement between the parties that F would provided his unequivocal consent to the children&#8217;s permanent relocation to England with B. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">June 2011 B says that she resigned from her job at Macey&#8217;s, gave notice to her landlord and informed the children&#8217;s schools that the children would not be returning to school in the new school year. If, as F says, they were again co-habiting he must have been aware of what she was doing unless he took no interest in the arrangements for the family. It would have had an impact on his accommodation; although he said in his oral evidence that he remained in the apartment for a further eight months after B and the children left this evidence was not in his statements or put to B. Following her resignation from her job B looked after the children full time whilst F was busy with setting up his restaurant. This is not disputed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is B&#8217;s case that on the 23 June 2011 she and F drafted a letter of consent from F to B and the children relocating to England. This letter, she says was drafted by both parties together at her home. B exhibited it to her statement. She says that she emailed the draft letter document to herself because she did not have a printer - the email with a &#8220;letter.docx&#8221; attachment is dated 23 June 2011. The letter included a proviso that should B remarry or curtail F&#8217;s communication with the children he would go to the UK and retrieve his children. F denies all knowledge of this document.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The following day, on 24 June 2011, B visited her friend G (it was her daughter&#8217;s birthday party) and during that occasion B told G that F had agreed to consent to the children&#8217;s permanent relocation to England. I heard evidence from G by video-link. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Shortly afterwards, on 2<span style="vertical-align:super;font-size:smaller">nd</span> July 2011 B says there was an incident during which that two men entered her property and threatened her with a gun. B reported this to the police and there is a police record of it being reported. It is B&#8217;s case that this incident was a shock to both and contributed to the agreement that she and the children should permanently relocate to the UK within a few weeks. F does not accept that any such agreement was reached and now, in hindsight, questions whether any such an incident took place. In his oral evidence F said that at the time when he got to the apartment he found B to be shocked and very upset and at the time he believed her. He maintains that B told him her father was ill and it was for this reason that F agreed that the mother and children should visit England. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B says that on the 11<span style="vertical-align:super;font-size:smaller">th</span> July 2011 they both went to the office of Ms R, a public notary B had identified through a Google search. F did not have evidence of his identity with him so they could not get the document notarised. They returned on 14<span style="vertical-align:super;font-size:smaller">th</span> July 2011 the parties attended the office again and the notarized agreement was signed. F does not accept that he has ever seen or signed such a document. The following day, on 15 July 2011, B showed the notarised letter to her friend G when she visited with the children who were using G&#8217;s swimming pool.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms R, the public notary who signed and witnesses the letter of consent, has filed and served a statement within these proceedings confirming that the document exhibited by B contains both her signature and stamp. She confirmed that she follows the National Notary Association Guidelines which include: &#8220;the notary shall require the presence of each signer and oath-taker in order to carefully screen for identity and willingness...&#8221; and will not notarise an agreement without the individual being present in front with valid ID. Ms R has said in her statement that she has never, in her six years as a notary, had a problem with any of her signatures. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B said, in written and oral evidence, that she attempted to email the letter she and F had drafted to Ms R but that it would not go through as a result of which Ms R typed up the letter herself. B had not been happy with the clause about her re-marrying so when F did not bring it up she did not remind him. In her second statement (dated 28<span style="vertical-align:super;font-size:smaller">th</span> January 2014) B gave additional details for the 14<span style="vertical-align:super;font-size:smaller">th</span> July visit to the office of Ms R. The timing of the second statement of B has been the subject of comment (her first statement exhibiting the letter of consent was dated the 10<span style="vertical-align:super;font-size:smaller">th</span> October 2013) I shall return to this later.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">F does not accept that he consented to the children relocating or that he ever attended the office of the public notary; he submits that the signature is a forgery. He filed a very short statement which accepts that he was in New York 14 July 2011 but says he cannot recall his whereabouts. In support of the assertion that the signature is a forgery F sought to rely on the handwriting report of Margaret Webb. Ms Webb provided three reports to the court and her conclusion that there is a &#8220;strong evidence to support the view that the questioned, disputed signature, on the balance of probabilities is not from the hand of F&#8221; unsurprisingly led him to rely on her evidence. However that was prior to her reading the evidence of B which further set out the circumstances in which she said the signatures had been written. In addition B produced three further samples of F&#8217;s signatures, as they were on court orders he had signed in court they were not disputed. Ms Webb attended this hearing and I heard from her directly. I shall return to her evidence below. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 20 July 2011 F took B and the children to the airport. F accepts that open &#8211;ended tickets were brought for the children which would suggest at the very least he did not know when they would return. He also accepts that B&#8217;s father bought the tickets. B says they were one way tickets and F knew that. They were not intended to return. Once in the UK B and the children stayed with the maternal grandparents for a short time then they moved into their own accommodation at in Bedford. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is F&#8217;s case, as put on his behalf by Ms Papazian, is that he then gave a &#8220;rolling consent&#8221; for the family to remain in the UK for over two years for various different reasons principally to do with the maternal grandfather&#8217;s ill health. B denies this as she says, and this is not disputed, that he was not diagnosed with angina until 2012. F did not at any point during the two years come to visit the children although there was a regular video contact. F did not consistently mark the children&#8217;s birthdays or Christmas (which the children celebrate).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In February 2012 B travelled to the America, with the children, for ten days holiday. B and children then all travelled back to the UK together on return tickets which F brought. When M spoke to the CAFCASS Officer about this visit she said that her father had shouted at her and threatened her during this visit. She described being frightened of her father. This trip in February 2012 was the only time the children saw their father until he came to the UK for his case to be heard.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B travelled to America, without the children, in February 2013 for five days. There is a dispute about what happened during this trip. F says that they resumed their sexual relationship and reached an agreement that B would return to New York with the children in the summer of 2013. B denies any such agreement was reached. She has sets out in detail in her statement the discussions that took place between them. B agrees that she talked to F about a possible return to New York but that she would have to see a significant number of significant changes in his behaviour, commitment and stability before she would contemplate coming back. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There were obviously some discussions but no concrete steps were taken to put in place a relocation for the children to New York. There was nowhere for them to live (their previous home was gone), there was no place at school for either child, there was no regular income to support them all. F&#8217;s suggestion that they all move into his one bedroom apartment is unrealistic and is not something that B would agree to; in short there was no realistic plan put in place for their return.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The evidence from the children&#8217;s school is that the school were aware that this was a matter under discussion, but that the children remained on the school roll at C Primary School for September 2013. Moreover the F&#8217;s evidence on this point indicates that he understood that a move back would require B&#8217;s consent which is at odds with his case that she was only in the UK temporarily and did not have his consent to remain.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Text and Whatsapp messages from 11 August 2013 attached to B&#8217;s statement support B's case that she did not agree to relocate to New York. F was threatening and abusive towards B and threatened to take her to court. F accepted the messages were from him in his written evidence, but in the witness box he changed his story and said that they were not and that he did not recall them. Whenever they were sent they seem to suggest that F was asking that B and the children travel to New York for a vacation, offered to buy return tickets, and that he wanted B to travel in order to change a cheque He also accepted that there was a $5000 cheque which could not be deposited unless the mother was present in New York. Although that evidence, too, seemed to change in his oral evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">F booked flights for the mother and children to return to New York on 17 August 2013. There is no evidence of when this was done and his evidence about the time of purchase has varied considerably from &#8220;early 2013&#8221; to March to May and to June. It is F&#8217;s case that the children were wrongfully retained after that date. It is B&#8217;s case that she did not agree that she or the children should return to America. She does not accept that there was an unlawful retention. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The children have told the CAFCASS officer that their father has called them less since December 2013 which seems to accord with B&#8217;s description of him going missing for three weeks over Christmas. The Cafcass Officer was not required to give evidence by the parties, by agreement. Ms Brooks had seen the children on the 13<span style="vertical-align:super;font-size:smaller">th</span> January 2014 and contacted their school. When giving oral evidence on the second day of this trial F suddenly started to dispute the contents of the report (obviously to the surprise of his counsel and solicitor) and said that the children had, on questioning by him, said that what the Cafcass officer said was not true, that their mother had told them to lie to the Cafcass Officer and that their mother had told them to lie to him about seeing the Cafcass officer. I shall return to this part of his evidence below.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Hague Convention Proceedings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These proceedings were commenced by an application made to the Central Authority in the USA on the 24<span style="vertical-align:super;font-size:smaller">th</span> August 2013; the application was issued here on 17<span style="vertical-align:super;font-size:smaller">th</span> September 2013 when orders were made by Deborah Eaton QC, sitting as a Deputy High Court Judge) and listed for review on 25<span style="vertical-align:super;font-size:smaller">th</span> September 2013 when it came before Mr Justice Holman. B was ordered to file a statement and Answer by 9<span style="vertical-align:super;font-size:smaller">th</span> October 2013.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">F was to file his reply by the 23<span style="vertical-align:super;font-size:smaller">rd</span> October. He did not file a statement until that dated the 15<span style="vertical-align:super;font-size:smaller">th</span> January 2014 which consisted of two paragraphs denying his attendance at Ms R&#8217;s office to sign the consent. There is another statement dated the 5<span style="vertical-align:super;font-size:smaller">th</span> February 2014 (prepared in October) and a third dated the 5<span style="vertical-align:super;font-size:smaller">th</span> February 2014.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B filed her statement exhibiting the letter of consent. F filed a position statement, dated the 1<span style="vertical-align:super;font-size:smaller">st</span> November 2013 confirming that he denied signing the consent; this was pursuant to the order of His Honour Judge Clive Heaton QC, sitting as a Deputy High Court Judge of the 31<span style="vertical-align:super;font-size:smaller">st</span> October 2013, that F address whether he wants to pursue his application for the summary return of the children. The matter returned before Clive Heaton QC, HHJ on the 5<span style="vertical-align:super;font-size:smaller">th</span> November 2013 at which time the court ordered the instruction of a hand-writing expert, Ms Webb. F agreed to be bound by her opinion. Ms Webb&#8217;s report was filed dated the 12<span style="vertical-align:super;font-size:smaller">th</span> November 2013.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The case came before His Honour Judge Lord Meston QC on the 10<span style="vertical-align:super;font-size:smaller">th</span> December, directions were given including permission for B to file a further statement by the 17<span style="vertical-align:super;font-size:smaller">th</span> January and F to file two statements; one by the 13<span style="vertical-align:super;font-size:smaller">th</span> December in respect of his alleged attendance at Ms R&#8217;s office and a 2<span style="vertical-align:super;font-size:smaller">nd</span> in detailing his case and setting out the protective measures he would put in place by the 24<span style="vertical-align:super;font-size:smaller">th</span> January. He complied with neither order. B filed a statement dated the 28<span style="vertical-align:super;font-size:smaller">th</span> January. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The case was listed for final hearing on the 5<span style="vertical-align:super;font-size:smaller">th</span> February and for pre-trial review on the 29<span style="vertical-align:super;font-size:smaller">th</span> January 2014. The late filing of B&#8217;s statement and that of G did cause some difficulties to F. Nonetheless he had failed to file statements himself. The Cafcass Officer had by then seen the children and filed her report, dated the 15<span style="vertical-align:super;font-size:smaller">th</span> January 2014 it was filed with the court on the 21<span style="vertical-align:super;font-size:smaller">st</span> January. The hearing on 5<span style="vertical-align:super;font-size:smaller">th</span> and 6<span style="vertical-align:super;font-size:smaller">th</span> February did not go ahead as Ms Webb did not attend it came before me on the 10<span style="vertical-align:super;font-size:smaller">th</span> March.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before I turn to the evidence I should say that I entirely reject any criticism of B filing further details of the visit to the public notary&#8217;s office, nor do I accept that it is case building or that she sought to meet the evidence of Ms Webb inappropriately. I do so because she was given permission to file a statement after Ms Webb&#8217;s report was filed which would include her response to that evidence and although filed late it was a matter of 11 days after it should have been filed by court order. If B is telling the truth she would not have expected F to deny that he had signed the consent document and could not have anticipated the contents of the expert&#8217;s report. She was entitled to respond and did so as provided for by the court, albeit 11 days after she should have done.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I hear the oral evidence of both F and B regarding the consent and other matters surrounding the move to England and what happened after that move in July 2013. I also heard the evidence of G by video link and of Ms Webb the hand writing expert. I shall deal with her evidence first but before I do I turn to the evidence about the children. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">They live with their mother in their own home. It is near their maternal grandparents and extended family. They attend the local primary school and are doing well and are happy there. They are well integrated into their home, their family, their school and their society. The older child M feels settled and has said so; she has also said that she does not want to go back to New York. S is younger and more ambivalent, but he cannot actually remember much about New York. S spent most of his time with the Cafcass officer talking about his favourite computer games and talking to his half-brother about them on facetime. Both children miss their half-brother and would like to see him. They have never lived with him and would not do so should they return to New York. They would like to see more of their father. Their father, F, accepted in his evidence that they are safe, happy, well cared for and secure here with their mother and her family. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">The Law, habitual residence and consent</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Were it not for the orders of the New York Court their could be little real argument that the children have acquired an habitual residence in Bedford and England as a matter of fact and applying the decisions of the Supreme Court in <span style="font-style:italic">A v A and Anor (Children: Habitual Residence) </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/60" uk:canonical="[2013] UKSC 60" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 60</ref> and <span style="font-style:italic">In the matter of KL </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/75" uk:canonical="[2013] UKSC 75" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 75</ref> to which I have been referred by both counsel. The reasons for the removal of the children and parental intention are both matters that I must factor into when considering the question of habitual residence and their father&#8217;s agreement to them remaining here for over two years, even if for a more limited purpose, has had a direct effect on the facts of these children&#8217;s lives, where and with whom they live.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Chaudhry on behalf of B submits that because the children had lived in the UK for more than two years with the father&#8217;s consent, what ever the basis of that consent, he should not be allowed to bring proceedings under the Hague Convention which was put in place to bring about the speedy return of children who have been unlawfully removed or retained. F claims that the date of wrongful retention is 17<span style="vertical-align:super;font-size:smaller">th</span> August 2013 and so hopes to avoid any defence of settlement under Art 12. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If F consented as B alleges then there is no unlawful retention. To decide whether F consented I have to consider the evidence of both parents and conclude which is the more credible. The burden is on B to prove on the balance of probabilities that what she says took place; as the burden was on her I heard from her first.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Webb gave her evidence before the parties. She was careful and considered in her evidence and conceded that hers was not an exact science but was an expertise acquired through years of considering handwriting and signatures. She had moved from her original opinion (as set out in paragraph 20 above) that there was strong evidence that the signature was <span style="font-style:italic">not </span>that of F on the balance of probabilities to saying that the evidence was inconclusive. This was after she read the 2<span style="vertical-align:super;font-size:smaller">nd</span> statement of B which set out the circumstances in which the consent was witnessed by the notary. Namely that it was written directly on a narrow wooden window-counter; Ms Webb described both her own personal experience of writing her signature in similar circumstances and the one other case where such circumstances had been described to her. In both scenarios she said that it would have affected the signature. As would the state of mind of the person writing their signature, so if B was right and F was annoyed and impatient that would have affected his ability to reproduce his usual signature. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But what is his usual signature? Of the eight or more samples submitted in evidence there were wide variations; that is a matter of fact.  Ms Webb said that the differences in all the signatures made her even less sure of that the signature on the consent was not the signature of F. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B gave her evidence which was interposed by the video-link evidence of G from New York. I found B to give her evidence in a calm and non-avoidant manner. She answered the questions put to her clearly and without prevarication. More over her evidence of the circumstances leading to the move to England were consistent and the detail she gave was compelling; such as the arrangements for the notarisation of the consent and how she identified Ms R because her office was near to a Bank of America branch in Yonkers in which she used to work so she knew they could park there.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I found the evidence about the change to the typed document that was signed from that which B said they drafted together believable; as she said she did not want any clause about her re-marrying. If she is lying it would mean that she carefully constructed the original (email) draft prior to visiting Ms R so as to meet questions in a future hearing. I do not think it at all likely that she did so. Ms R has confirmed that she witnessed the document though, entirely understandably, she cannot remember any details of the specific act of witnessing the signatures on the document. If F did not sign it who did? It seems most unlikely that Ms R would have allowed B to sign on behalf of another person; it would undermine her business entirely.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The description of negotiating with F for his consent to move to the UK by agreeing to sign the lease for F&#8217;s new business venture is consistent with what was happening at the time. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The evidence of B was corroborated by the evidence of G. I have considered that G is a good friend of B and that she would want to help her; but I do not accept that would reduce the weight I give her evidence to any great extent; there is a marked difference between supporting a friend and going to the lengths of making a statement and giving oral evidence. I found her a credible witness who gave direct answers. Moreover she did not always coincide with B&#8217;s case; she described the parties as living together before the move to England, something B denies. G knew about F agreeing to give his consent, she saw the document itself and remembers both because of surrounding events, her daughter&#8217;s birthday party and a visit by B and the children to use her swimming pool. The latter stayed in her mind as she recalled taking pictures of the children playing together and thinking it would probably be for the last time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B says that she did not at anytime agree to return to the USA permanently with the children. She considered it but would have required greater commitment for F, financial and social stability. B says that F was anxious for her to return as his business was failing and he needed her to be there to sort out aspects of his business which she had signed for prior to her move. That the business failed is not disputed. But F would have the court believe that there was no financial imperative for B&#8217;s return and that he is unaware of his own credit rating then, or at present.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">F&#8217;s evidence was inconsistent, evasive, combative and avoidant. He gave evidence about matter that were neither in his written evidence nor put on instruction to the Respondent. These included a claim that he continued to live in B&#8217;s apartment for 8 months after she left; that the Cafcass officer was lying; that he had long conversations with his daughter during which she had told him that her mother instructed about her what to say to the Cafcass officer and to lie. F spontaneously described in colourful and minute detail his total recall of these conversations while in the witness box. None of what he said had been put to B. This evidence was not credible. F says that the children volunteered this information; I do not accept this. As I did not find his evidence believable and I reject it, because of  the way it emerged and because of the detailed recall of an extensive conversation with both children which had the distinct flavour of evidence being manufactured in the witness box. It gives rise for concern about his conduct with the children on welfare grounds.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Furthermore I do not accept that he is ignorant of his credit rating. Instead I find that it is more likely than not that he is seeking to hide it as it would undermine his case. I do not accept that he agreed to the children coming to the UK because their grandfather was ill. There is no evidence in support of his claim that he was sympathetic and solicitous about his father-in-law&#8217;s health; no correspondence, no email traffic; no offers of assistance or enquiries about his health. Instead the evidence points to his preoccupation with his business venture and I find that it is more likely than not that he agreed to relinquish control over this family (he has two others) in order to get the signature of B on documents which he could not sign because he did not have a good financial record. I do not accept that he allowed her to sign because she was his wife; such behaviour is totally at odds with his attitude to, and relationship with, the mothers of his children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I find that he signed the consent and that it was notarised. There was no unlawful retention and he knew it so F manufactured a &#8220;retention&#8221; by claiming to buy tickets for a return flight that was never agreed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Even if I had not so found on applying the formulation of European Law as set out in the case of  <span style="font-style:italic">A v A </span>at [54] by Lady Hale<span style="font-family:Garamond">: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:1.25in;text-indent:-0.5in">i)</num>
+	    <content>
+	      <p class="Default" style="text-align:justify;margin-left:1.25in"><span style="font-style:italic;font-family:Garamond;font-size:9.5pt;color:initial">&#8220;</span><span style="font-style:italic;font-family:Garamond;color:initial">All are agreed that habitual residence is a question of fact and not a legal concept such as domicile. There is no legal rule akin to that whereby a child automatically takes the domicile of his parents. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:1.25in;text-indent:-0.5in">ii)</num>
+	    <content>
+	      <p class="Default" style="text-align:justify;margin-left:1.25in"><span style="font-style:italic;font-family:Garamond;color:initial">It was the purpose of the 1986 Act to adopt a concept which was the same as that adopted in the Hague and European Conventions. The Regulation must also be interpreted consistently with those Conventions. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:1.25in;text-indent:-0.5in">iii)</num>
+	    <content>
+	      <p class="Default" style="text-align:justify;margin-left:1.25in"><span style="font-style:italic;font-family:Garamond;color:initial">The test adopted by the European Court is &#8220;the place which reflects some degree of integration by the child in a social and family environment&#8221; in the country concerned. This depends upon numerous factors, including the reasons for the family&#8217;s stay in the country in question. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:1.25in;text-indent:-0.5in">iv)</num>
+	    <content>
+	      <p class="Default" style="text-align:justify;margin-left:1.25in"><span style="font-style:italic;font-family:Garamond;color:initial">It is now unlikely that that test would produce any different results from that hitherto adopted in the English courts under the 1986 Act and the Hague Child Abduction Convention. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:1.25in;text-indent:-0.5in">v)</num>
+	    <content>
+	      <p class="Default" style="text-align:justify;margin-left:1.25in"><span style="font-style:italic;font-family:Garamond;color:initial">In my view, the test adopted by the European Court is preferable to that earlier adopted by the English courts, being focussed on the situation of the child, with the purposes and intentions of the parents being merely one of the relevant factors. The test derived from R v Barnet London Borough Council, ex p Shah should be abandoned when deciding the habitual residence of a child. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:1.25in;text-indent:-0.5in">vi)</num>
+	    <content>
+	      <p class="Default" style="text-align:justify;margin-left:1.25in"><span style="font-style:italic;font-family:Garamond;color:initial">The social and family environment of an infant or young child is shared with those (whether parents or others) upon whom he is dependent. Hence it is necessary to assess the integration of that person or persons in the social and family environment of the country concerned. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:1.25in;text-indent:-0.5in">vii)</num>
+	    <content>
+	      <p class="Default" style="text-align:justify;margin-left:1.25in"><span style="font-style:italic;font-family:Garamond;color:initial">The essentially factual and individual nature of the inquiry should not be glossed with legal concepts which would produce a different result from that which the factual inquiry would produce.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is likely that I would have concluded that the children were habitually resident in the UK in August last year. There is a considerable degree of integration by the children in a social and family environment. If one includes the reasons for the family&#8217;s stay that must include the alleged &#8220;rolling consent&#8221; of F and his absence from the children&#8217;s lives. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would be surprised if incremental consents of this nature, which can be withdrawn at any time on a whim or through caprice could be considered to be congruent with the aims, purpose and spirit of the Hague Convention, or with the niceties of the laws of comity. In this case the necessities for a stable, happy and secure life for the children were in place here in the UK; there was no home, school or social network in place for the children to return to or waiting for them; there still is not as F has always been well aware. He allowed the children to become more settled here, he chose to remain distant from their lives seeing them only once when they visited New York. He allowed them to return to the UK after a short visit in February 2012, even on his own case. He permitted the reality of their lives and their existence to change. He divested himself of the responsibility for their upbringing, financial security and sense of community.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I decline to exercise my discretion to order that the children return to New York. I have considered the case of <span style="font-style:italic">Re M (Abduction: Zimbabwe) </span><ref href="#" uk:canonical="[2008] 1 FLR 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 FLR 251</ref>. At paragraph [47] Baroness Hale speaks of settlement cases which have the closest parallel to this case; it cannot be assumed that the US is better forum for the resolution of parental dispute. Here there is the countervailing factor of the children&#8217;s integration into their community, and their family, in England and were the Convention to apply I would not consider it to serve the best interests of these children to order their return. As it does not as F consented to their move to this country any argument for their return diminishes to one which largely serves his interests and would be disproportionate when considering the children themselves their needs and the reality of their lives and those upon whom they depend for their security and well-being.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the avoidance of doubt I decline to exercise the inherent jurisdiction as it would not be in the interests of the children&#8217;s welfare to return them to New York, as must be obvious from the content of my judgement, paragraphs 25, 37, 51 and 52.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The orders that I make following this judgement are on the basis that counsel for F submits that she had insufficient time to take his instructions on the orders sought by B in particular an application for a residence order and undertakings to be given by F to take appropriate steps to ensure that if the children travel to New York they will be returned to the UK. F did not attend court until the afternoon as he had contact with the children and he is returning to the USA within 24 hours. He had requested that the court sit in the afternoon to allow contact to take place.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have made a residence order in respect of both children in favour of their mother, B, as it is a legal expression of the reality of the children&#8217;s lives. Ms Papazian objected to this order being made; despite being unable to offer any alternative which would safeguard the stability of their current home and reduce the likelihood of further litigation. The latter is highly unlikely to be in the children&#8217;s best interests. F had both accepted that the children were happy, settled and well looked after within their mother&#8217;s family and had chosen to divest himself of any responsibility for in their lives for over two years. The fact that he was unwilling or unable to discuss undertakings, or to put in place protective or  other measures means that it will be difficult for the children to travel to the USA. Knowledge of this may have formed part of his reluctance to enter into any negotiations in respect of the children&#8217;s future. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Papazian said that if the court made residence orders she would seek permission to appeal. I take that application as made. As I made the orders in the best interests of the children, as set out above, permission to appeal is refused. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

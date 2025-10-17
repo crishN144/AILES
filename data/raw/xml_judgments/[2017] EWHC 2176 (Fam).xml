@@ -1,0 +1,568 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2017/2176"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2017/2176"/>
+	  <FRBRdate date="2017-08-23" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2176"/>
+	  <FRBRname value="M v F &amp; SM (Human Fertilisation and Embryology Act 2008)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2176"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2176"/>
+	  <FRBRdate date="2017-08-23" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2176/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2176/data.xml"/>
+	  <FRBRdate date="2024-10-27T05:31:15" name="transform"/>
+	  <FRBRdate date="2024-11-20T19:24:03" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2017-08-23" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="m" href="" showAs="M"/>
+	<TLCPerson eId="f" href="" showAs="F"/>
+	<TLCPerson eId="sm" href="" showAs="SM"/>
+	<TLCPerson eId="a-by-his-guardian" href="" showAs="A (BY HIS GUARDIAN)"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-keehan" href="/judge-mr-justice-keehan" showAs="MR. JUSTICE KEEHAN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2017</uk:year>
+	<uk:number>2176</uk:number>
+	<uk:cite>[2017] EWHC 2176 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>809eff5e103ee5b558a5d32649abafe00a4c695b7830a1fe95eeb992ba8626ae</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2017] EWHC 2176 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>LE17P00251</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Birmingham Civil Justice Centre</p>
+      <p class="CoverText">B4 6DS</p>
+      <p class="CoverText">Date: <docDate date="2017-08-23" refersTo="#judgment">23/08/2017</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-keehan">MR. JUSTICE KEEHAN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="0.15in 1.94in 1.21in">
+	<tr>
+	  <td style="background-color:initial">
+	    <p class="CoverMain"/>
+	  </td>
+	  <td style="background-color:initial">
+	    <p class="CoverMain" style="text-align:center"><party as="#applicant" refersTo="#m" style="text-decoration-line:none"> M </party></p>
+	  </td>
+	  <td style="background-color:initial">
+	    <p class="CoverMain"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="background-color:initial">
+	    <p class="CoverMain"/>
+	  </td>
+	  <td style="background-color:initial">
+	    <p class="CoverMain" style="text-align:center"><span style="font-weight:normal;text-decoration-line:none">- </span><span style="text-decoration-line:none">and</span><span style="font-weight:normal;text-decoration-line:none"> -</span></p>
+	  </td>
+	  <td style="background-color:initial">
+	    <p class="CoverMain"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="background-color:initial">
+	    <p/>
+	  </td>
+	  <td style="background-color:initial">
+	    <p style="text-align:center"><party as="#respondent" refersTo="#f" style="font-weight:bold"> F </party></p>
+	  </td>
+	  <td style="background-color:initial">
+	    <p><role refersTo="#respondent"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">1</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid"> Respondent</span></role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="background-color:initial">
+	    <p/>
+	  </td>
+	  <td style="background-color:initial">
+	    <p style="text-align:center"><party as="#respondent" refersTo="#sm" style="font-weight:bold">SM</party></p>
+	  </td>
+	  <td style="background-color:initial">
+	    <p><role refersTo="#respondent"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">2</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid"> Respondent</span></role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="background-color:initial">
+	    <p/>
+	  </td>
+	  <td style="background-color:initial">
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td style="background-color:initial">
+	    <p/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="background-color:initial">
+	    <p class="CoverMain"/>
+	  </td>
+	  <td style="background-color:initial">
+	    <p class="CoverMain" style="text-align:center"><party as="#respondent" refersTo="#a-by-his-guardian" style="text-decoration-line:none">A  (BY HIS GUARDIAN)</party></p>
+	  </td>
+	  <td style="background-color:initial">
+	    <p class="CoverMain"><role refersTo="#respondent">3<span style="vertical-align:super;font-size:smaller">rd</span> Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Andrew Powell</span> (instructed by <span style="font-weight:bold">JMW Solicitors LLP</span>) for the <span style="font-weight:bold">The Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The 1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> Respondent </span>did not attend and was not represented</p>
+      <p style="text-align:center"><span style="font-weight:bold">Katherine Duncan</span> (instructed by <span style="font-weight:bold">Mills &amp; Reeve</span>) for the <span style="font-weight:bold">The 2nd Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Martin Kingerley </span>(instructed by<span style="font-weight:bold"> CAFCASS</span>) for the <span style="font-weight:bold">The 3rd Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 4th July 2017</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment Approved</p>
+      <p style="text-align:center">MR. JUSTICE KEEHAN</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+      <p><span style="font-weight:bold">Mr. Justice Keehan :</span></p>
+      <p class="ParaHeading">INTRODUCTION</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In early 2017 A was born. His biological parents are the applicant, M and the first respondent, F. His legal parents are, however, the second respondent, SM and F, although he does not have parental responsibility for the child.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A was born as a result of a gestational surrogacy arrangement between the applicant and the first respondent. Their gametes were used to create an embryo that was then implanted in the second respondent on 29 May 2016. Immediately upon his birth the second respondent surrendered care of A to the applicant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">During the course of the second respondent&#8217;s pregnancy, the relationship between the applicant and the first respondent ended. Unless the law is changed to permit applications for parental orders by a single applicant, the applicant will not be entitled to obtain this transformative order to become A&#8217;s legal as well as biological parent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In order to provide stability for the child and some legal status for the applicant, the court made A a Ward of Court on 28 February 2017, granted care and control of him to the applicant and prohibited the first respondent from removing the child from her care. The order contained the following recital:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;And Upon the court reading the letter of the first respondent dated 24 February 2017, in which the first respondent indicates that he has taken the decision not to be involved in these proceedings or the child&#8217;s upbringing.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The matter was then listed before me for directions on 12 April 2017 and further on 4 July when the parties invited me to give this judgment. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading">BACKGROUND</p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the purposes of this judgment I can set out the background to this case very briefly. The applicant and the first respondent began a relationship in 2011. They wished to have children but for medical reasons the applicant was unable to conceive. A cycle of IVF treatment, funded by the NHS, was unsuccessful and the couple could not afford to pay privately for further IVF treatment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant and first respondent then considered surrogacy and were delighted when the friend of a family member volunteered to be a surrogate for them. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2015 they engaged a fertility clinic to assist them. Once all the necessary formalities had been completed an embryo was created using the applicant&#8217;s and first respondent&#8217;s gametes. The second respondent was implanted with the embryo on 29 May 2016. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">During the course of the pregnancy the relationship between the applicant and the first respondent deteriorated and finally they separated before A&#8217;s birth. I do not propose to include in this judgment how or why they separated. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Since A&#8217;s birth the second respondent has surrendered his care to the applicant. She has no wish to be involved in the upbringing of A and would be content for a parental order to be made in favour of the applicant if that route was in law available to her. She would support A remaining in the care of the applicant and any orders which would terminate her parental responsibility for him or prohibit her from exercising her parental responsibility. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first respondent has played no role whatsoever in A&#8217;s life. He has not seen him. As noted above he does not wish to be involved in his child&#8217;s upbringing. He is, of course, the only biological and legal parent that A has, as matters stand. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant is in the process of issuing an application for a parental order within six months of A&#8217;s birth. She recognises that the application will be stayed pending a change in the law following on from the President&#8217;s declaration of incompatibility in <span style="font-style:italic">Re Z (A Child) (No.2)</span>: see below. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading">THE LAW</p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A parental order made pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.54</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">Human Fertilisation and Embryology Act 2008</ref> (&#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">the 2008 Act</ref>&#8217;) provides for the child to be treated in law as the child of the applicants. The order may be made if the conditions set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.54</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">the 2008 Act</ref> are satisfied. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The act provides that: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">On an application made by two people (&#8220;the applicants&#8221;), the court may make an order providing for a child to be treated in law as the child of the applicants if&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the child has been carried by a woman who is not one of the applicants, as a result of the placing in her of an embryo or sperm and eggs or her artificial insemination,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the gametes of at least one of the applicants were used to bring about the creation of the embryo, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the conditions in subsections (2) to (8) are satisfied.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">(2)The applicants must be&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">husband and wife,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">civil partners of each other, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">two persons who are living as partners in an enduring family relationship and are not within prohibited degrees of relationship in relation to each other.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Except in a case falling within subsection (11), the applicants must apply for the order during the period of 6 months beginning with the day on which the child is born.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">At the time of the application and the making of the order&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the child's home must be with the applicants, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">either or both of the applicants must be domiciled in the United Kingdom or in the Channel Islands or the Isle of Man.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">At the time of the making of the order both the applicants must have attained the age of 18.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(6)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The court must be satisfied that both&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the woman who carried the child, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">any other person who is a parent of the child but is not one of the applicants (including any man who is the father by virtue of section 35 or 36 or any woman who is a parent by virtue of section 42 or 43),</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">have freely, and with full understanding of what is involved, agreed unconditionally to the making of the order.</p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num>(7)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subsection (6) does not require the agreement of a person who cannot be found or is incapable of giving agreement; and the agreement of the woman who carried the child is ineffective for the purpose of that subsection if given by her less than six weeks after the child's birth.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(8)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The court must be satisfied that no money or other benefit (other than for expenses reasonably incurred) has been given or received by either of the applicants for or in consideration of&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the making of the order,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">any agreement required by subsection (6),</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the handing over of the child to the applicants, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the making of arrangements with a view to the making of the order,</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">unless authorised by the court.</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the purposes of this judgment the relevant statutory provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.54</ref> are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.54(1)</ref> which requires the application to be made by two people; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.54(2)</ref> which requires the applicants to be either husband and wife, or civil partners or persons who are living as partners in an enduring family relationship; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.54(4)</ref>(a) which requires that the child&#8217;s home must be with the applicants. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Re Z (A Child: Human Fertilisation and Embryology Act: Parental Order)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2015/73" uk:canonical="[2015] EWFC 73" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWFC 73</ref> the President declined to read down the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.54</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">the 2008 Act</ref> to permit an application for a parental order by a single applicant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Re Z (A Child) (No.2)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/1191" uk:canonical="[2016] EWHC 1191 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 1191 (Fam)</ref>, <ref href="#" uk:canonical="[2016] 2 FLR 327" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 2 FLR 327</ref>, the President made a declaration of incompatibility in respect of <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.54</ref> in the following terms at paragraph 17 &#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 54(1)</ref> and (2) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">Human Fertilisation and Embryology Act 2008</ref> are incompatible with the rights of the Applicant and the Second Respondent under Article 14 ECHR taken in conjunction with Article 8 insofar as they prevent the Applicant form obtaining a parental order on the sole ground of his status as a single person as opposed to being part of a couple.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The transformative legal effect of a parental order cannot be overstated. The only alternatives are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">An adoption order, but, on the facts, it would be inappropriate for the biological mother to become in law the adoptive mother of her own child in order to gain the status of being the child&#8217;s legal parent; or</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Making the child a ward of court, granting and control of the child to the applicant and making such ancillary orders as to minimise the number of occasions the applicant would have to apply to the court: see <span style="font-style:italic">Re Z (A Child) (No. 2)</span> above and the judgment of the President at paragraph 7. But these collections of orders do not make the applicant the legal parent of the child. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Re X (A Child)</span> (Surrogacy: Time Limit) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/3135" uk:canonical="[2014] EWHC 3135 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 3135 (Fam)</ref> the President said at paragraph 54</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>54.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 54</ref> goes to the most fundamental aspects of status and, transcending even status, to the very identity of the child as a human being: who he is and who his parents are. It is central to his being, whether as an individual or as a member of his family. As Ms Isaacs correctly puts it, this case is fundamentally about Xs identity and his relationship with the commissioning parents. Fundamental as these matters must be to commissioning parents they are, if anything, even more fundamental to the child. A parental order has, to adopt Theis J's powerful expression, a transformative effect, not just in its effect on the child's legal relationships with the surrogate and commissioning parents but also, to adopt the guardian's words in the present case, in relation to the practical and psychological realities of X's identity. A parental order, like an adoption order, has an effect extending far beyond the merely legal. It has the most profound personal, emotional, psychological, social and, it may be in some cases, cultural and religious, consequences. It creates what Thorpe LJ in <span style="font-style:italic">Re J (Adoption: Non-Patrial)</span> [1998] INLR 424, 429, referred to as "the psychological relationship of parent and child with all its far-reaching manifestations and consequences." Moreover, these consequences are lifelong and, for all practical purposes, irreversible: see <span style="font-style:italic">G v G (Parental Order: Revocation) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/1979" uk:canonical="[2012] EWHC 1979 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 1979 (Fam)</ref>, <ref href="#" uk:canonical="[2013] 1 FLR 286" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 FLR 286</ref>, to which I have already referred. And the court considering an application for a parental order is required to treat the child's welfare <span style="font-style:italic">throughout his life </span>as paramount: see in <span style="font-style:italic">In re L (A Child) (Parental Order: Foreign Surrogacy) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2010/3146" uk:canonical="[2010] EWHC 3146 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWHC 3146 (Fam)</ref>, <ref href="#" uk:canonical="[2011] Fam 106" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] Fam 106</ref>, <ref href="#" uk:canonical="[2011] 1 FLR 1143" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 FLR 1143</ref>. X was born in December 2011, so his expectation of life must extend well beyond the next 75 years. Parliament has therefore required the judge considering an application for a parental order to look into a distant future.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I respectfully agree. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading">DISCUSSION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following the President&#8217;s declaration of incompatibility in Re Z (A Child) (No. 2) above, the Government is actively considering the terms of a remedial order to address the incompatibility identified in that case: see paragraph 17 above. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicant earnestly hopes that that the terms of the remedial order will be such that she will be able to apply for a parental order. This &#8216;transformative&#8217; order would enable her to be a legal parent of A. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the meantime I am satisfied that it is in A&#8217;s welfare best interests for the court to approve the continuation of the wardship and the grant of care and control in respect of him to the applicant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In giving this judgment I have well in mind the words of the President in <span style="font-style:italic">Re Z (A child) (No. 2)</span> where at paragraph 26-28 and 30 he said </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>26.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">They submit that the use of the remedial power under section 10 is "appropriate and necessary in this case because it would ensure that [the father] could apply for a parental order with minimum delay, and would prevent Z &#8230; remaining in a legally vulnerable position for any longer than is absolutely necessary." </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>27.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Going even further, they invite me to "pass comment (by way of <span style="font-style:italic">obiter dicta</span>) about the merits of Parliamentary review of the scheme of <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref>" and to "express any view as to the desirability or necessity for future reform as may be considered appropriate.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>28.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">I absolutely decline to do any of this.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>29.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">On behalf of the Secretary of State, Miss Broadfoot and Miss Gartland understandably counsel great caution. First, they point out &#8211; correctly as it seems to me &#8211; that there are various different ways in which the discriminatory effect of the present legislation could be cured. Secondly, they observe that this is an area of social policy in relation to a matter &#8211; surrogacy &#8211; which is controversial. Thirdly, they submit, and I agree, that it is constitutionally a matter for the legislature to determine its response. Fourthly, they submit, and again I agree, that it is entirely a matter for the government to decide whether or not to utilise the Ministerial power under section 10. It is important to note the language of section 10(2). It is a matter for "a Minister", therefore not for a judge, to "consider" whether there are "compelling reasons." Moreover, as they point out, the court can be in no position to know whether such compelling reasons exist, as this may depend upon a number of factors of which the court can have no knowledge or in respect of which it may be lacking in relevant expertise. Fifthly, and finally, they caution that any observations I might be tempted to make may have unintended implications and unforeseen consequences.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Once again, I respectfully agree. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

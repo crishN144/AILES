@@ -1,0 +1,906 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2022/54"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2022/54"/>
+	  <FRBRdate date="2022-12-07" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="54"/>
+	  <FRBRname value="A Local Authority v MF &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2022/54"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2022/54"/>
+	  <FRBRdate date="2022-12-07" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2022/54/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2022/54/data.xml"/>
+	  <FRBRdate date="2024-11-09T07:31:33" name="transform"/>
+	  <FRBRdate date="2024-11-30T22:39:59" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-12-07" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewcop" href="https://www.gov.uk/courts-tribunals/court-of-protection" showAs="The Court of Protection"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A Local Authority"/>
+	<TLCPerson eId="mf" href="" showAs="MF"/>
+	<TLCPerson eId="gf" href="" showAs="GF"/>
+	<TLCPerson eId="vm" href="" showAs="VM"/>
+	<TLCPerson eId="ta" href="" showAs="TA"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-sir-jonathan-cohen" href="/judge-sir-jonathan-cohen" showAs="SIR JONATHAN COHEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCOP</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>54</uk:number>
+	<uk:cite>[2022] EWCOP 54</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>1b30358f7f2f505e5f91848e345e4767af9e8d6cd554cc027ab634c5938307a6</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2022] EWCOP 54</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>1370936</docketNumber></p>
+      <p><courtType refersTo="#ewcop" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">COURT OF PROTECTION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2022-12-07" refersTo="#judgment">07/12/2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-sir-jonathan-cohen">SIR JONATHAN COHEN</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a-local-authority" style="font-family:Arial">A Local Authority</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <blockContainer>
+	      <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#mf" style="font-family:Arial">MF</party></p>
+	    </blockContainer>
+	    <p style="text-align:center"><span style="font-family:Arial">(by his litigation friend the Official Solicitor)</span></p>
+	    <p style="text-align:center"/>
+	    <blockContainer>
+	      <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#gf" style="font-family:Arial">GF</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(3)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#vm" style="font-family:Arial">VM</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(4)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#ta" style="font-family:Arial">TA</party></p>
+	    </blockContainer>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-weight:bold">Ms U Burnham </span>(instructed by<span style="font-weight:bold"> the Local Authority</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms A Hearnden</span> (instructed by <span style="font-weight:bold">EDS Law</span>) for the <span style="font-weight:bold">First Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Second, Third and Fourth</span><span/><span style="font-weight:bold">Respondents appeared in person</span></p>
+      <p style="text-align:center">Hearing dates: 5-7 December 2022</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">SIR JONATHAN COHEN</p>
+      <p style="text-align:justify">The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the incapacitated person and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.  Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Sir Jonathan Cohen :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This case concerns MF a man aged 40. I shall refer to him by his first name, M. He currently lives at home with his mother, GF, who I will call the mother. Other important people in the case are VM, referred to as his sister, and Dr A, his sister&#8217;s partner, who acts as the family spokesperson.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am dealing with an application by the local authority to remove M from his home to supported living, to gain skills to maximise his potential and hopefully to move towards independent living.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is strongly opposed by the family, as I shall compendiously refer to his mother, sister and Dr A.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have taken the background from the chronology and references within it and from the report of Dr Camden-Smith, the independent court appointed Consultant Psychiatrist. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M was brought up and lives in N. London.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is a long history of non-engagement with services by M&#8217;s family on his behalf.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 1994, when aged 11, M was referred to educational psychology because of concerns regarding &#8220;bizarre behaviour&#8221; and difficulties with numeracy and mathematics. It was noted he displayed an odd mix of &#8220;maturity and immaturity&#8221; and sometimes tangential speech.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In February 1997, M&#8217;s father reported M was unable to attend school due to ill health. It was said he was restless and could not undertake daily tasks. When seen, M&#8217;s condition was reported to have deteriorated. He was confused with communication difficulties. A psychiatric appointment in June 1997 was cancelled by the family.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M expressed a wish to go back to school but he never attended school after February 1997. His father was reported as making clear that he wanted no assistance from health or education departments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In May 1998, it is recorded that M&#8217;s father had not contacted special needs services about home education.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In December 1998, M had two attendances at A&amp;E for self-harm. Appointments were made for him with the disability and psychiatric teams but M did not attend either. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M did attend two appointments with his GP. His father indicated he did not want any hospital intervention for his son. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In March 2001, M&#8217;s behaviour deteriorated once more. It was noted this episode of agitated and bizarre behaviour continued for some months and M was given antipsychotic medications by his GP despite no formal diagnosis.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In September 2001, M&#8217;s father again refused a referral for psychiatric assessment</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In October 2001, a police referral was made to the emergency duty team after a neighbour reported M was being tied to a radiator by his father. A mental health assessment was completed but M was not detained. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Between 2001 and 2006, only 1 GP contact was reported, in January 2004, where he was said to be &#8220;stable&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In March 2006, a team meeting was held after concerns were raised by neighbours regarding M being tied to radiators. The landlord raised concerns of 14 incidents of radiators being broken at the home. M was offered a meeting with the learning disability team but he did not attend. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The local authority evidence refers to healing scratch marks being seen on M&#8217;s face and neck in March 2006 which his father said was due to self-harm.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In May 2006, there was a letter from the local authority stating the allegations of physical abuse were not pursued due to lack of evidence and lack of support from M&#8217;s father with the investigation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In March 2008, M was seen for a mental health review and presented as withdrawn.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In November 2009, M was picked up by police running down the street in his t-shirt and underpants with no shoes. He was admitted to hospital informally and noted to be malodorous and unkempt, with his thoughts disordered. M&#8217;s father agreed to take him home and reengage with the community mental health services. The community mental health services then contacted M&#8217;s father but he said that he did not want them involved. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There was no further involvement from statutory services after 2009 until March 2016, when M&#8217;s father died suddenly at home. The police were called and when they arrived they heard noises from behind a locked door that his family were reluctant to open. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The police found M naked from the waist down, covered in faeces, with buckets of urine and a dirty mattress in the room. The room was in darkness as there were no light fittings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M was initially taken to hospital, where he exhibited disordered thinking and talking to himself. He was able to feed himself but dropped most of the food on the floor, and did not know how to use the toilet.  He had scratches on his arm and chest and evidence of an old wound on his arm that had been sutured. He was minimally verbal and only able to use one or two words. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">After a period in hospital, he was placed at a home called PH, a residential home that takes in damaged and unstable individuals who have very real difficulties, such as M was exhibiting in 2016. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Records say that M&#8217;s sister and mother were unhappy about M&#8217;s absence from the family home.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is clear that between 2016 and 2020, M made good progress at PH. On arrival, he was doubly incontinent; as time went on, this was cured. He became able to feed himself properly, was properly dressed and was able to leave the home to attend day centres and go out with carers. He was restored to functional capacity, was able to converse properly with others and care for his own hygiene.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By around 2019/2020, it appeared that M found the regime of PH oppressive. My impression was he had &#8220;outgrown&#8221; the need for it, in that his development made the restrictions in place at PH unnecessary. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 7 March 2020, when he went on a visit to the family home, he was in effect sprung from PH and never returned. I am in little doubt that this was engineered by Dr A, who appeared on the scene in 2019, albeit he had the full support of M&#8217;s mother and sister.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When seen at home immediately after his return, M was presentable and engaging with professionals who attended. The local authority agreed a protection plan for M, including weekly visits by social workers, bereavement therapy, and visits by carers 7 days a week to administer M&#8217;s medication and to engage him in activities inside and outside the home. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In August 2020, the family stopped bereavement therapy and stopped visits from carers.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">After negotiation, carers were allowed back by the family to visit 4 times per week. Dr K, who had been M&#8217;s treating psychiatrist since 2019, quickly reinforced the need for daily morning and evening visits for medication to prevent relapse and for independent oversight of the provision of medication. The presence of carers has been problematic throughout and I will return to this later.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning now to M&#8217;s diagnosis, for a long time M has been diagnosed with a moderate learning disability, sometimes referred to as a moderate intellectual disability. According to Dr Camden-Smith, that puts him in the bottom 0.1% of the population. Having met him, I am surprised that he falls into quite such a low bracket. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He also suffers from schizoaffective disorder, symptoms of which can be treated by medication.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The medical regime is set out in the letter from Dr K, dated 20 January 2021, and includes the prescription of Epilim (mood stabiliser) every night and Olanzapine (antipsychotic) with a small dose in the morning and a larger dose in the evening and a range of other medication including Melatonin (to help with sleep), and a different form of mood stabiliser (PRN) to be taken when necessary. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is important in this context to note the dosages of Epilim and Olanzapine are significantly larger at night than in the morning.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I look at what happened in March 2021, it is appropriate to say something about the family. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M lives with his mother, a widow who I believe to be in her 70&#8217;s (although I do not know her exact age). They live in the same two bed flat where M was found in 2016 in such appalling circumstances. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">His mother provides family care in terms of making M&#8217;s meals and providing him with activities. His sister said that, and I think this is right, their mother needs him as much as he needs her. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Their weekly life is as follows: Monday, Friday and Saturday are spent at home. On Tuesday, M and his mother attend MENCAP for singing and poetry and then choir practice, which I presume happens later in the day in church. On Wednesday, M and his mother attend exercise classes at the community centre. On Thursday, they shop. On Sunday, the family attend church.  Some of these activities take place with just M and his mother. Others involve his sister and her son. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have no doubt M and his mother love each other. Either his mother believes M is having a fulfilling life in the arrangement described, or she knows he is not but cannot or will not do anything about it. I am not sure which one it is. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M&#8217;s family all think and act alike. They are all anxious to limit the involvement of outside agencies not chosen by them to a minimum. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When social workers go to the house and ring the bell; they describe a wait of up to 30 mins before the door is opened. Increasingly, they have found M placed &#8220;in the kitchen with food and forced to eat even though he was clearly not hungry&#8221;. They surmised that the purpose was to enable M&#8217;s family to say &#8220;M cannot speak, he has to eat his lunch&#8221; and when they left some time for him to do this and re-entered the room, there was always something else on his plate. I am sure this is an attempt by the family to limit meaningful access to M by social workers.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M&#8217;s mother said relatively little in the hearing, leaving the advocacy to her daughter and Dr A. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M&#8217;s sister, is aged 53 and lives nearby with her son J, who suffers from autism. For the first two days of the hearing, J was in court as he had nowhere else to be. I am sure that his mother would agree that it was not appropriate for J to be in the back of court and he unsurprisingly found it impossible to sit still, making windmill motions with his arms. He was not disruptive, but this enabled me to see the very real challenges that he must impose on his mother as his carer. M&#8217;s sister is united in her opposition to the local authority&#8217;s plans. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr A is 56 and although he is M&#8217;s sister&#8217;s partner, he lives independently to other members of the family. He told me he qualified as a doctor in Pakistan and worked there and in Saudi Arabia. He came to England in 1992 but has never been registered as a doctor nor has ever worked here. He last worked as a doctor in Saudi Arabia in 2003. He met M&#8217;s sister in 2018 and they started a relationship, which continues. He first met M in 2019. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr A speaks at great length, and at times can be excitable and difficult to understand. He was most excited by finances and for reasons that defeat me, he refused to access the benefits due to M, and would not accept the pre-paid card he was offered despite very clear guidance from Newton J at the hearing in March 2022. As a result, the local authority were appointed to manage M&#8217;s finances. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">During the course of evidence, Dr A went on what I can only describe as a rant about M&#8217;s finances. He would not be deflected or answer questions on other topics. He became so loud that I had to rise to give him time to calm down. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For a qualified doctor, aspects of his evidence were extraordinary. He does not accept that M suffers any intellectual disability or has any special needs. He does not accept he suffers from a schizoaffective disorder. He says M only needs medicine to help him sleep and to calm down when needed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When given an opportunity to put questions to Dr Camden-Smith, some questions were remarkable. Questions 1 and 2 read: &#8220;If given medication, could M return to a normal life?&#8221; and &#8220;Do you agree that as a doctor, your role is to support M and yet you are supporting the local authority instead?&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He declined to accept evidence of the circumstances in which M was found in 2016 or his life before 2019 as he had &#8220;seen no proof of it&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In some ways his evidence went further than other family members. He told me that M goes out on his own to cross the road and go to the local shop. No one else agreed with that and M himself told me that was not the case. It would be far too dangerous.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He gave an account of a statement presented by M at a meeting in February 2022 in the form of a long letter. It contained words that M would never have been able to use and write, such as &#8220;incontinence&#8221;, &#8220;psychiatry&#8221; and &#8220;conversation&#8221;. He said the statement was written entirely by M, on his own, and all Dr A did was to have it typed up. M told me that the statement was written for him by Dr A and he copied it and added a few of his own words. M&#8217;s response to me was plainly a truthful account. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr A had been told very clearly by Newton J that the family objection to Ms Mannering (the Official Solicitor&#8217;s representative) and the applications made to remove her were totally without merit and had been dismissed. He was warned not to bring any further applications. Instead, he simply obtained a COP9 form and had M sign it, and presented it to the court seeking Ms Mannering&#8217;s removal, a blatant breach of the court order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In making these criticisms, I do not suggest that any part of the family do not think they are doing the right thing for M, but they are unable to see the woods for the trees. I am in no doubt they have attempted to limit the access of professionals. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr A, with the support of the other family members, has cancelled large numbers of carers&#8217; appointments, nearly always evening appointments, which are the more important ones for medication for M. 8 visits were cancelled in May 2022, 9 in June 2022, 3 at the start of July 2022. I do not have a complete record over the summer but 11 were cancelled in October 2022. They were cancelled by Dr A and the explanation given was that M was out and they would have to come later. Dr A must have been fully aware that professionals cannot adjust their timetable to suit him. The result was that the medication would have had to be given by M&#8217;s mother. There is no evidence that M&#8217;s mother did not give it to him, but there is simply no record.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The hostility of the family to Ms Mannering is extraordinary. Their objection is that they felt she was doing what the local authority wanted. I can see no basis for them thinking that at any time. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is worth going through the court orders to see the family&#8217;s attitude to both Ms Mannering and the presence of carers, and the likely response to further orders in the future. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I begin with the order of 27 May 2021 made by Mostyn J. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This started with a penal notice telling the family that if they did not comply with paragraph 3 they may be subject to contempt proceedings. Paragraph 3 reads as follows, and I recite it in full as it appears in all subsequent orders:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;3.</num>
+		  <content>
+		    <p class="ParaNoNumber" style="margin-left:0.5in;text-indent:0.5in">GF, VM and TA shall:</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ParaNoNumber" style="margin-left:0.5in;text-indent:0.5in">Facilitate the access of all care professionals engaged by the applicant or the court to visit/assess MF whilst he resides at GF&#8217;s home;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ParaNoNumber" style="margin-left:0.5in;text-indent:0.5in">Cooperate with reasonable requests made by care professionals to interview, assess, visit places and or undertake activities with MF in the absence of members of the family;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="ParaNoNumber" style="margin-left:0.5in;text-indent:0.5in">Not take any steps to interfere with the work of care professionals referred to at paragraph (b) above, to restrict their access to MF or insist on being present during any of the activities referred to; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="ParaNoNumber" style="margin-left:0.5in;text-indent:0.5in">Not take any steps to influence MF&#8217;s responses to care professionals undertaking assessments for example by way of attempting to persuade him to give specific answers to questions asked.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The matter was next substantively before the court on 8 March 2022 before Newton J. It recites that at a round table meeting shortly before the hearing, Dr A speaking on behalf of the family disputed Dr Camden-Smith&#8217;s report and conclusions and maintained that M has capacity in all relevant domains, including to make decisions about finances. The order recites that Dr A requested the replacement of the solicitor instructed on behalf of M for &#8220;harassing&#8221; M and the family. The court reminded Dr A that M was entitled to his benefit money and that the local authority needed to know for what M needed money to make sure appropriate funds were on the card. Dr A declined to sign on M&#8217;s behalf to receive the payment card. The court confirmed the previous penal notice and considered the applications by Dr A to replace M&#8217;s legal team and to remove the local authority as appointee. The court dismissed both applications as totally without merit and said if there were further applications it would consider making a civil restraint order against Dr A. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The matter first came before me on 13 October 2022. I repeated the penal order made by Mostyn J which I have already referred to and had to deal with three more COP9 applications taken out on 2 May 2022, 22 August 2022 and 2 October 2022 seeking a variety of orders in respect of M&#8217;s state benefits and to remove Ms Mannering as the appointed solicitor. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I directed that Ms Mannering must be permitted to have access to M to ascertain his wishes and feelings before the next hearing and I ordered that the family must allow M to be taken to the Local Authority offices on 27 November 2022 for an opportunity to speak to Ms Mannering without the family present. Suffice to say that interview never happened, and the family reported that M did not want to go.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M is rightly described by professionals as very compliant and a quiet young man and I have no doubt he would have attended if not dissuaded by the family.  This was yet another attempt by the family to limit professional access to M.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Carers have been unable to take M out of the home since July 2022, and instead thereafter they have always had to see him in the house. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are many more reports in the same vein that I have already mentioned and I am going to refer to just three more. On 10 November 2021, an independent advocate (IA) went to the home to try and gain an independent view of M&#8217;s wishes and feelings. When the IA attended, Dr A insisted on sitting with M in the room. Dr A told the IA that he didn&#8217;t trust him, but would leave and would be replaced by M&#8217;s mother and sister. M said of Dr A that he is &#8220;like a bodyguard, he drives me to appointments, he understands me, he is like part of the family&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the end of his report, the IA says this under the heading &#8220;Note of Concern&#8221;: &#8220;Whilst M was talking, Dr A walked into room stating &#8220;now finished&#8221; and ended the meeting. The IA tried to ask M if he felt the same but Dr A would not let M speak. The IA told Dr A he would raise a concern and Dr A replied &#8220;I do not care&#8221;. As a result, he could not say if M&#8217;s views were those held exclusively by M. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 11 October 2022, Dr K reviewed M and reported in a letter dated 30 October 2022. During the course of his appointment, M was very articulate, he expressed his wish to engage in more activities and integrate more with the community. He was unhappy he was not doing more out of the home. This appeared to annoy Dr A who continuously interrupted him and discounted his account of the current situation and argued he went out of the home more than M was saying. Dr A would not listen, nor validate M&#8217;s wishes. When M&#8217;s mother was bought in, she agreed with M. However, when Dr K said she would ask social services to look into more activities, Dr A said he did not want them involved and told M he would not be able to attend MENCAP anymore, with which M&#8217;s mother agreed. This confused M as he wanted to attend MENCAP. Dr K said the dynamics were controlling, hostile and coercive and it felt like M was reprimanded for voicing wishes and feelings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, the local authority recently arranged for M to go to a performance by the Royal Philharmonic Orchestra as they thought it would be a good experience for M as he has a great interest in music. This did not happen as it was banned by the family.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading"><span style="text-decoration-line:underline;text-decoration-style:solid">Capacity</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I turn now to the question of capacity as best interests do not come into play if M has capacity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The evidence comes from Dr Camden-Smith and Dr K, but it is not necessary to do more than refer to Dr Camden-Smith.  The issues were dealt with under the appropriate headings which are adopted. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to capacity to conduct proceedings, she reports that M did not understand the legal basis for decisions to be made or the local authority case. He did not understand the concept of capacity or that the court was making decisions in his best interests or the decisions the court could make. He did not think he could tell the solicitors what to do and did not understand what the role of the Official Solicitor was, but he was content for them to act in his best interests. She found that, and I agree, M lacks capacity to conduct proceedings due to his inability to understand the relevant information.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As in all other respects, M will not regain capacity as his disability is lifelong and immutable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to his capacity to make decisions in relation to residence, M was not able to understand that by staying at home, his opportunities will be limited and his family will have control over his life. He did not understand his conditions at home previously or that there was a risk of something similar happening again. He did not understand he would be unlikely to attend the day centre in practice due to his mother&#8217;s opposition. It is stated, and I agree, that he lacks capacity to make decisions in relation to his residence due to his inability to understand the relevant information. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to M&#8217;s capacity to make decision on care and support, he did not understand why support workers came or the risks of him not receiving medication in the future. He did not understand his intangible needs or that he was particularly vulnerable to abuse or that he needed to be protected from this. He did not understand that people might not act in his best interests. I agree that M lacks capacity to make decisions about care and support due to his inability to understand the relevant information. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to contact with others, he could not understand the risks of social isolation. M lacks capacity to make decisions about contact with others due to his inability to understand relevant information. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He also clearly lacks capacity to make decisions about finances, about which she records that he knew very little. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to ability to express his wishes or feelings, it is noted that M expresses himself well. He was able to clearly and consistently express his thoughts, wishes and feelings. M expressed himself verbally with a high level of confidence; however his voice is completely drowned out by his family and Dr A. He has the ability but not the opportunity to express his wishes and feelings.  Any opinion he has expressed is because he has been influenced to do so. This is not necessarily to indicate malign intent, but there is clear and consistent evidence over many years the family have not always been able to identify and prioritise M&#8217;s needs. Dr K comes to the same conclusion. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that in all respects M lacks capacity. I therefore need to make a decision in M&#8217;s best interests.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading"><span style="text-decoration-line:underline;text-decoration-style:solid">Best interests</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The view of the social work team, which I share, is that M is someone with real, unrealised, potential. I spoke to M for about 30 minutes in the presence only of the Official Solicitor&#8217;s representatives. A full record of the meeting was kept and the relevant matters were disclosed to the other parties. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I formed the view that M is a charming person, quietly spoken, plainly lacking in self-confidence and I readily accept the evidence that if he gets interrupted he loses confidence. He had no difficulty in following and contributing to our discussion.  He was enthusiastic and wants to better himself. He is an accomplished artist, using pencil and pen, a drawer rather than a painter. He is a keen musician and plays the guitar. He teaches himself and loves tinkering with machines, not to a very advanced level, but he likes screwing/unscrewing, and turning switches on and off. These are hobbies that he has picked up from his father. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He told Dr K that he wants to do more and not be at home so much. He told me that he would be keen to go on courses to help with art and with music. He was anxious that he might be slightly out of his depth and some people would be better than him, but thought he could manage. He would like to work in a local garage; although this may not be achieved, it is what he would like to do. He wants to get better at his various activities. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He was clear to me, as he has been throughout to others, that he wants to live at home. I accept that those are his views. It may be that they have been &#8220;helped&#8221; in some way by the family. But I am satisfied they are his genuine views. In a sense this is not surprising, as he has known nothing else other than this flat and PH, which has unhappy memories for him from his time there when he became disenchanted by the rules and regimentation that were in place and required by those who had recovered less well than he had. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I should have said earlier that because of the refusal of the family to permit M to see Ms Mannering, I made arrangements at the hearing I conducted most recently on 18 November 2022 for counsel for the Official Solicitor to go with a different representative from the Official Solicitor to see M at home, she kindly having offered so to do. This did take place and she saw him at home for a little over an hour. I have read the attendance note with care and it chimes exactly with what I have just described. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The view of the professionals is that M has the capacity, given help, to move from supported care to, in time, independent living, with warden assistance. M is now 40, he left school at 14 and there is a lot of missed learning to make up, socially as well as educationally. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Everyone who has come into this case as a professional in recent times has started at the same place with M. Ms J started her work in February 2022, as did Dr Camden-Smith. Both began by hoping that it might be possible to keep M at home and to give M the opportunity to embrace new opportunities and accept more support. Dr Camden-Smith said in February that moving M from his family home by force would be damaging and detrimental to his mental health, that he was happy and settled at home and takes pride in supporting his mother. However, she shared concerns with the local authority about safety in the family home if not supervised. It was crucial that paid support workers and professionals continue to provide daily supervision and medication and that M would benefit enormously from attending a day centre. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms S, social worker, started her work hoping to be able to recommend that improvements in M&#8217;s life and functioning could take place with him at home. My approach has been the same.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M is an engaging and sociable man, who has missed out on key developmental stages. It is crucial for his development that he is supported to form friendships with people his own age outside the family. M thrives on activity and engagement. He loves learning and missed out on crucial education. He would benefit from learning new skills, including numeracy, literacy and an introduction to other activities he may enjoy. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The local authority proposal is for M to move to EL, a supported living house, with 6 rooms, and a minimum of 2 staff on duty at all times. Other occupants are not disruptive and it is much less regimented than PH. It is an 18 minute walk from the family home and considerably less on the bus. The local authority has a reserve alternative if M, on visiting EL, found staff there that he had an aversion to from PH. No one would want M to be faced with a staff member with whom he was uncomfortable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This still leaves a very difficult situation. Moving M from the care of his mother will undoubtedly cause emotional upset. This could be limited if the family support him, but I cannot assume that will be forthcoming.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M has an opportunity to develop and achieve needed skills for the future. He should be able to learn in a way that he could not at home, because his family have shown themselves unwilling to accept outside help. M can do so much more than he is now doing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have tried very hard to see if there is a way to avoid having M moved. Unfortunately. his family are not open to him having the opportunities that living elsewhere would provide to him. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M knows nothing other than his home and PH and he is quite right in not wanting to go back to PH. However, he saw a different supported living home, similar to EL, in 2021.  He liked it but was worried that his mother and the family would be upset that he was taken to visit the home. I believe they were told about it in advance but perhaps did not realise the visit was to happen on that day. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">During the course of their evidence, the family were asked if they would visit EL, to look at it but they refused. That was not helpful. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Sections 4(6) and 4(7) of the Mental Capacity Act require me to give weight and thought to M&#8217;s wishes and I give them considerable weight. I give much less weight to the views of other members of the family in the circumstances of this case for the reasons given. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before closing submissions, I suggested that I was faced with two alternatives, either the removal of M or his staying at home with injunctive orders requiring attendance at college and free and unfettered access of professionals. The local authority opposed option 2 and they gave a number of reasons, all of which had validity: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The family have shown that they will not comply with court orders;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The family are convinced they know best;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The family repeatedly turn away carers and have put obstacles in the way of social workers having uninterrupted meetings with M;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">M feels disempowered, his views are dictated by his family;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The family are stuck in their views, with no insight into M&#8217;s condition;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">This is the only chance for M to reach his potential and he should not be denied it.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Official Solicitor in her position statement at the start of the case said that it was finely balanced. By the end, her view was it was no longer finely balanced. There was simply no workable way of M reaching his potential and improving his abilities if he remained at home. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that it is in M&#8217;s best interests to take the opportunity available to him, to provide him with life skills and to move into supported living.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading"><span style="text-decoration-line:underline;text-decoration-style:solid">Transition Plan</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I turn now to the transition plan. It had been the local authority&#8217;s wish to move M before Christmas. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num>100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The local authority have rightly retreated from the plan to move M before Christmas. M is due to perform in a Christmas concert on 13 December 2022 and he is looking forward to that and to Christmas at home. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num>101.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is a disadvantage in this delay as it gives the opportunity for the new placement to be undermined, but it also gives the opportunity for M to enjoy Christmas in familiar surroundings and to visit EL in preparation. I shall order that the move shall not take place before 28 December 2022. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num>102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I shall also order that before then, the family must permit M to be taken to see EL, or another unit if it transpires that EL has workers there that M does not wish to see, on at least 2 visits.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num>103.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When M does move, M&#8217;s mother must make M available and Dr A and VM are not to be present at the flat on that day. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num>104.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not regard it as the court&#8217;s responsibility to micromanage the details of the transition plan, but I would want contact, particularly with M&#8217;s mother, to start quickly. I would hope she would agree to visit, supervised, by no later than the seventh day of M&#8217;s stay. Before then, there should be video contact, for his mother and soon after for other members of the family.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num>105.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> I recognise that the next couple of months are somewhat of a trial period. I would like to know how M settles and see how he gets on. The case is to come back for a day in either late March or April and the arrangements to be reviewed then. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num>106.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have to consider the issue of a civil restraint order and the applications dated 22 August 2022 and 14 November 2022. The local authority has confirmed that they will provide the necessary letter to enable M to have an eye test as soon as possible and then be provided with the necessary glasses, the 22 August 2022 application should be dismissed. The other application is dealt with by the substance of this judgment and that application plainly ought to be dismissed, both being totally without merit. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num>107.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my experience of civil restraint orders, they seem often to be more trouble than they are worth. If any further applications are made by the family they will be dealt with at the next hearing. The issue of the civil restraint order can be put over to the next hearing in March or April. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num>108.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is a right to ask for permission to appeal which the family have indicated they will exercise. I refuse permission, so the family will have to apply directly to the Court of Appeal. Theoretically, an applicant has 21 days to do this but I will reduce it, because if they intend to do it, the quicker the better. If they wish to apply for permission to appeal, they must apply for permission and lodge the application before 16 December 2022, so that the matter can be considered before the Christmas break.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

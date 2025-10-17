@@ -1,0 +1,402 @@
+#!/usr/bin/env python3
+"""
+AILES Unified Legal AI Training Script
+Train single model for all tasks using AIRE HPC
+"""
+
+import torch
+from transformers import (
+    AutoTokenizer, 
+    AutoModelForCausalLM, 
+    Trainer, 
+    TrainingArguments,
+    DataCollatorForLanguageModeling,
+    BitsAndBytesConfig,
+    EarlyStoppingCallback
+)
+from datasets import Dataset, DatasetDict
+from peft import LoraConfig, get_peft_model, TaskType, prepare_model_for_kbit_training
+import json
+import os
+import yaml
+import logging
+import argparse
+import time
+from pathlib import Path
+from typing import Dict, List, Any
+import sys
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+class UnifiedLegalAITrainer:
+    def __init__(self, config_path: str):
+        self.config = self._load_config(config_path)
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        
+        # Memory optimization
+        os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:512"
+        os.environ["TOKENIZERS_PARALLELISM"] = "false"
+        
+        logger.info(f"🚀 Initializing UNIFIED Legal AI trainer")
+        logger.info(f"💻 Device: {self.device}")
+        if torch.cuda.is_available():
+            logger.info(f"🎯 GPU: {torch.cuda.get_device_name()}")
+            logger.info(f"💾 GPU Memory: {torch.cuda.get_device_properties(0).total_memory/1e9:.1f}GB")
+
+    def _load_config(self, config_path: str) -> Dict[str, Any]:
+        """Load training configuration"""
+        with open(config_path, 'r') as f:
+            return yaml.safe_load(f)
+
+    def setup_model_and_tokenizer(self):
+        """Setup model and tokenizer for unified training"""
+        model_path = self.config['model']['base_model']
+        
+        logger.info(f"📚 Loading tokenizer from: {model_path}")
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            model_path,
+            local_files_only=self.config['model'].get('local_files_only', True),
+            trust_remote_code=True,
+            use_fast=True,
+            padding_side="right"
+        )
+        
+        if self.tokenizer.pad_token is None:
+            self.tokenizer.pad_token = self.tokenizer.eos_token
+            self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
+        
+        logger.info(f"✅ Tokenizer loaded - Vocab size: {len(self.tokenizer)}")
+        
+        # Enhanced quantization for unified model
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.bfloat16,
+            llm_int8_enable_fp32_cpu_offload=False
+        )
+        
+        logger.info(f"🤖 Loading unified model from: {model_path}")
+        torch.cuda.empty_cache()
+        
+        self.model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            local_files_only=self.config['model'].get('local_files_only', True),
+            quantization_config=bnb_config,
+            device_map="auto",
+            torch_dtype=torch.bfloat16,
+            trust_remote_code=True,
+            use_cache=False,
+            attn_implementation="eager",
+            low_cpu_mem_usage=True
+        )
+        
+        # Prepare for k-bit training
+        self.model = prepare_model_for_kbit_training(self.model)
+        
+        # Enhanced LoRA config for unified model
+        lora_config = LoraConfig(
+            task_type=TaskType.CAUSAL_LM,
+            r=self.config['lora']['r'],
+            lora_alpha=self.config['lora']['lora_alpha'],
+            lora_dropout=self.config['lora']['lora_dropout'],
+            target_modules=self.config['lora']['target_modules'],
+            bias="none",
+            inference_mode=False
+        )
+        
+        self.model = get_peft_model(self.model, lora_config)
+        self.model.print_trainable_parameters()
+        
+        # Enable gradient checkpointing
+        if hasattr(self.model, 'gradient_checkpointing_enable'):
+            self.model.gradient_checkpointing_enable()
+        
+        logger.info("✅ Unified model setup complete")
+
+    def load_unified_training_data(self, data_path: str) -> DatasetDict:
+        """Load unified training data with task variety validation"""
+        logger.info(f"📊 Loading unified training data from {data_path}")
+        
+        examples = []
+        task_counts = {"qualification": 0, "judgment": 0, "explanatory": 0, "summary": 0}
+        
+        with open(data_path, 'r', encoding='utf-8') as f:
+            for line_num, line in enumerate(f, 1):
+                if line.strip():
+                    try:
+                        example = json.loads(line.strip())
+                        
+                        # Validate required fields
+                        if all(field in example for field in ['instruction', 'input', 'output']):
+                            examples.append(example)
+                            
+                            # Count task types
+                            instruction = example['instruction'].lower()
+                            if 'qualification' in instruction:
+                                task_counts["qualification"] += 1
+                            elif 'judgment report' in instruction:
+                                task_counts["judgment"] += 1
+                            elif 'explanatory' in instruction:
+                                task_counts["explanatory"] += 1
+                            elif 'summarizing' in instruction:
+                                task_counts["summary"] += 1
+                        
+                    except json.JSONDecodeError as e:
+                        logger.warning(f"⚠️ Line {line_num}: Invalid JSON")
+        
+        logger.info(f"📈 Loaded {len(examples)} unified examples")
+        logger.info(f"📊 Task distribution: {task_counts}")
+        
+        # Validate we have diverse tasks
+        if len([count for count in task_counts.values() if count > 0]) < 3:
+            logger.warning("⚠️ Limited task diversity - ensure all task types are represented")
+        
+        # Format for training
+        formatted_examples = []
+        for example in examples:
+            try:
+                formatted_text = self._format_unified_example(example)
+                if formatted_text:
+                    formatted_examples.append({"text": formatted_text})
+            except Exception as e:
+                logger.warning(f"⚠️ Failed to format example: {e}")
+        
+        # Create train/val split
+        dataset = Dataset.from_list(formatted_examples)
+        train_size = max(1, int(len(dataset) * self.config['data']['train_split']))
+        val_size = len(dataset) - train_size
+        
+        if val_size < 1:
+            val_size = 1
+            train_size = len(dataset) - 1
+        
+        train_dataset = dataset.select(range(train_size))
+        val_dataset = dataset.select(range(train_size, train_size + val_size))
+        
+        logger.info(f"🎯 Training: {len(train_dataset)}, Validation: {len(val_dataset)}")
+        
+        return DatasetDict({
+            'train': train_dataset,
+            'validation': val_dataset
+        })
+
+    def _format_unified_example(self, example: Dict[str, Any]) -> str:
+        """Format unified example for Llama-3.2"""
+        instruction = str(example['instruction']).strip()
+        input_text = str(example['input']).strip()
+        output_text = str(example['output']).strip()
+        
+        if not all([instruction, input_text, output_text]):
+            raise ValueError("Empty fields after cleaning")
+        
+        # Enhanced formatting for longer contexts
+        formatted = (
+            f"<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n"
+            f"{instruction}<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
+            f"{input_text}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"
+            f"{output_text}<|eot_id|>"
+        )
+        
+        return formatted
+
+    def tokenize_dataset(self, dataset: DatasetDict) -> DatasetDict:
+        """Tokenize with longer sequence support"""
+        logger.info("🔄 Tokenizing unified dataset...")
+        
+        def tokenize_function(examples):
+            tokenized = self.tokenizer(
+                examples["text"],
+                truncation=True,
+                padding="max_length",
+                max_length=self.config['data']['max_seq_length'],
+                return_tensors=None,
+                add_special_tokens=False
+            )
+            tokenized["labels"] = tokenized["input_ids"].copy()
+            return tokenized
+        
+        tokenized_dataset = dataset.map(
+            tokenize_function,
+            batched=True,
+            num_proc=1,
+            remove_columns=dataset["train"].column_names,
+            desc="Tokenizing unified dataset",
+            load_from_cache_file=False
+        )
+        
+        logger.info("✅ Unified tokenization complete")
+        return tokenized_dataset
+
+    def setup_training_arguments(self) -> TrainingArguments:
+        """Setup training arguments for unified model"""
+        output_dir = Path(self.config['training']['output_dir']) / "unified_legal_ai"
+        output_dir.mkdir(parents=True, exist_ok=True)
+        
+        logs_dir = output_dir / "logs"
+        logs_dir.mkdir(exist_ok=True)
+        
+        return TrainingArguments(
+            output_dir=str(output_dir),
+            num_train_epochs=self.config['training']['num_train_epochs'],
+            max_steps=self.config['training']['max_steps'],
+            per_device_train_batch_size=self.config['training']['per_device_train_batch_size'],
+            per_device_eval_batch_size=self.config['training']['per_device_train_batch_size'],
+            gradient_accumulation_steps=self.config['training']['gradient_accumulation_steps'],
+            learning_rate=self.config['training']['learning_rate'],
+            weight_decay=self.config['training']['weight_decay'],
+            warmup_steps=self.config['training']['warmup_steps'],
+            logging_steps=self.config['training']['logging_steps'],
+            save_steps=self.config['training']['save_steps'],
+            eval_steps=self.config['training']['eval_steps'],
+            eval_strategy=self.config['training']['eval_strategy'],
+            save_strategy=self.config['training']['save_strategy'],
+            load_best_model_at_end=self.config['training']['load_best_model_at_end'],
+            metric_for_best_model=self.config['training']['metric_for_best_model'],
+            greater_is_better=self.config['training']['greater_is_better'],
+            bf16=self.config['hardware']['bf16'],
+            fp16=self.config['hardware']['fp16'],
+            dataloader_num_workers=self.config['hardware']['dataloader_num_workers'],
+            remove_unused_columns=self.config['hardware']['remove_unused_columns'],
+            gradient_checkpointing=self.config['hardware']['gradient_checkpointing'],
+            dataloader_pin_memory=self.config['hardware'].get('dataloader_pin_memory', False),
+            report_to=None,
+            run_name=f"ailes-unified-{self._get_timestamp()}",
+            push_to_hub=False,
+            save_total_limit=self.config['training']['save_total_limit'],
+            save_safetensors=self.config['training']['save_safetensors'],
+            ddp_find_unused_parameters=False,
+            logging_dir=str(logs_dir),
+            max_grad_norm=self.config.get('memory', {}).get('gradient_clipping', 1.0),
+            prediction_loss_only=True,
+        )
+
+    def train(self, data_path: str):
+        """Train unified model"""
+        start_time = time.time()
+        logger.info(f"🚀 Starting UNIFIED model training")
+        
+        try:
+            # Setup
+            self.setup_model_and_tokenizer()
+            dataset = self.load_unified_training_data(data_path)
+            tokenized_dataset = self.tokenize_dataset(dataset)
+            training_args = self.setup_training_arguments()
+            
+            # Data collator
+            data_collator = DataCollatorForLanguageModeling(
+                tokenizer=self.tokenizer,
+                mlm=False,
+                pad_to_multiple_of=8,
+                return_tensors="pt"
+            )
+            
+            # Callbacks
+            callbacks = []
+            if self.config.get('early_stopping'):
+                callbacks.append(EarlyStoppingCallback(
+                    early_stopping_patience=self.config['early_stopping']['patience'],
+                    early_stopping_threshold=self.config['early_stopping']['threshold']
+                ))
+            
+            # Trainer
+            trainer = Trainer(
+                model=self.model,
+                args=training_args,
+                train_dataset=tokenized_dataset["train"],
+                eval_dataset=tokenized_dataset["validation"],
+                data_collator=data_collator,
+                callbacks=callbacks,
+                tokenizer=self.tokenizer,
+            )
+            
+            # Train
+            torch.cuda.empty_cache()
+            logger.info("🔥 Beginning unified training...")
+            train_result = trainer.train()
+            
+            # Save
+            final_model_path = Path(training_args.output_dir) / "final_model"
+            trainer.save_model(str(final_model_path))
+            self.tokenizer.save_pretrained(str(final_model_path))
+            
+            training_time = time.time() - start_time
+            logger.info(f"✅ UNIFIED training completed in {training_time/60:.1f} minutes")
+            logger.info(f"💾 Model saved to {final_model_path}")
+            
+            # Save metrics
+            self._save_training_metrics(trainer, training_args.output_dir, training_time, train_result)
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"❌ Unified training failed: {e}")
+            raise
+
+    def _save_training_metrics(self, trainer, output_dir: str, training_time: float, train_result):
+        """Save training metrics"""
+        metrics_file = Path(output_dir) / "unified_training_metrics.json"
+        
+        log_history = trainer.state.log_history
+        final_train_loss = None
+        final_eval_loss = None
+        
+        for log in reversed(log_history):
+            if final_train_loss is None and "train_loss" in log:
+                final_train_loss = log["train_loss"]
+            if final_eval_loss is None and "eval_loss" in log:
+                final_eval_loss = log["eval_loss"]
+            if final_train_loss and final_eval_loss:
+                break
+        
+        metrics = {
+            "model_type": "unified_legal_ai",
+            "base_model": "llama-3.2-3b-instruct",
+            "final_train_loss": final_train_loss,
+            "final_eval_loss": final_eval_loss,
+            "training_time_minutes": training_time / 60,
+            "total_steps": trainer.state.global_step,
+            "examples_processed": len(trainer.train_dataset),
+            "config": self.config,
+            "timestamp": self._get_timestamp(),
+            "success": True
+        }
+        
+        with open(metrics_file, 'w') as f:
+            json.dump(metrics, f, indent=2)
+        
+        logger.info(f"📊 Metrics saved: Train loss={final_train_loss:.4f}, Eval loss={final_eval_loss:.4f}")
+
+    def _get_timestamp(self) -> str:
+        from datetime import datetime
+        return datetime.now().strftime("%Y%m%d_%H%M%S")
+
+def main():
+    parser = argparse.ArgumentParser(description="Train AILES Unified Legal AI Model")
+    parser.add_argument("--config", default="configs/unified_training_config.yaml")
+    parser.add_argument("--data", required=True, help="Path to unified training data JSONL")
+    
+    args = parser.parse_args()
+    
+    logger.info(f"🎯 Training UNIFIED Legal AI model")
+    logger.info(f"⚙️ Config: {args.config}")
+    logger.info(f"📊 Data: {args.data}")
+    
+    try:
+        trainer = UnifiedLegalAITrainer(args.config)
+        success = trainer.train(args.data)
+        
+        if success:
+            logger.info("🎉 UNIFIED model training completed successfully!")
+            sys.exit(0)
+        else:
+            logger.error("❌ UNIFIED training failed!")
+            sys.exit(1)
+            
+    except Exception as e:
+        logger.error(f"❌ Training failed: {e}")
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()

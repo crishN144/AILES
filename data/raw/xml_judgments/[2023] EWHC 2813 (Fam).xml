@@ -1,0 +1,939 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/2813"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/2813"/>
+	  <FRBRdate date="2023-11-09" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2813"/>
+	  <FRBRname value="C (Change of Forename: Child in Care), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2813"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2813"/>
+	  <FRBRdate date="2023-11-09" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2813/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2813/data.xml"/>
+	  <FRBRdate date="2024-11-10T00:26:47" name="transform"/>
+	  <FRBRdate date="2024-11-28T00:27:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-11-09" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="m-local-authority" href="" showAs="M LOCAL AUTHORITY"/>
+	<TLCPerson eId="a-mother" href="" showAs="A (MOTHER)"/>
+	<TLCPerson eId="b-father" href="" showAs="B (FATHER)"/>
+	<TLCPerson eId="c-child" href="" showAs="C (CHILD)"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-cobb" href="/judge-the-honourable-mr-justice-cobb" showAs="THE HONOURABLE MR JUSTICE COBB"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>2813</uk:number>
+	<uk:cite>[2023] EWHC 2813 (Fam)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>7e6300e0db1022012e39d2b12e59666476e431fa6cccde1c415329501f9d5095</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Arial; font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .cofootnotenode { }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">THE HONOURABLE MR JUSTICE COBB</span></p>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Approved Judgment</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"><span style="font-family:'Times New Roman';font-size:8pt">Re C (Change of Forename: Child in Care)</span></p>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left"><span style="font-family:'Times New Roman'">Neutral Citation Number: </span><neutralCitation style="font-family:'Times New Roman'">[2023] EWHC 2813 (Fam)</neutralCitation></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman'">Case No:  </span><docketNumber style="font-family:'Times New Roman'">LS23C50158</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family" style="font-family:'Times New Roman'">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">FAMILY DIVISION</courtType></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman'">FAMILY COURT</span></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman'">WESTGATE</span></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman'">LEEDS</span></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman'">Date: </span><docDate date="2023-11-09" refersTo="#judgment" style="font-family:'Times New Roman'">09/11/2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Before</span><span style="font-family:'Times New Roman'"> :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-cobb" style="font-family:'Times New Roman'">THE HONOURABLE MR JUSTICE COBB</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#m-local-authority" style="font-weight:bold;font-family:'Times New Roman'">M LOCAL AUTHORITY</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant" style="font-family:'Times New Roman'">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a-mother" style="font-weight:bold;font-family:'Times New Roman'">A (MOTHER)</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#b-father" style="font-weight:bold;font-family:'Times New Roman'">B (FATHER)</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#c-child" style="font-weight:bold;font-family:'Times New Roman'">C (CHILD)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-family:'Times New Roman'">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Re C (Change of Forename: Child in Care)</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Tonicha Allen </span><span style="font-family:'Times New Roman'">(instructed by</span><span style="font-weight:bold;font-family:'Times New Roman'"> Local Authority Solicitor</span><span style="font-family:'Times New Roman'">) for the Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Harriet Jones </span><span style="font-family:'Times New Roman'">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman'">Simpson Millar</span><span style="font-family:'Times New Roman'">) for the Mother</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Chloe Branton</span><span style="font-family:'Times New Roman'"> (instructed by </span><span style="font-weight:bold;font-family:'Times New Roman'">Ridley and Hall Solicitors</span><span style="font-family:'Times New Roman'">) for the Father</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Lisa Phillips</span><span style="font-family:'Times New Roman'"> (instructed by </span><span style="font-weight:bold;font-family:'Times New Roman'">Ward Hadaway</span><span style="font-family:'Times New Roman'">) for the Child, by his Children&#8217;s Guardian</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">Hearing dates: 2 November 2023</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 9 November 2023 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">THE HONOURABLE MR JUSTICE COBB</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman'">The Honourable Mr Justice Cobb :</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The application before the court concerns a baby boy who is 8 months old; as the issue before the court is his choice of forename, I shall refer to him in this judgment neutrally as &#8216;C&#8217;.  He is currently looked after by a local authority (&#8220;the Local Authority&#8221;) and is subject to an interim care order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/38" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 38</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (&#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>&#8217;).  The application for a final care order is imminently to be listed for an Issues Resolution Hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">By its application, dated 13 July 2023, the Local Authority seeks the permission of the court to change C&#8217;s registered forename.  The mother has given him the forename of &#8216;Mia&#8217;, and that is the forename by which he is registered under section 2 of the </span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF"><ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/1-2/20" uk:canonical="1953 (1 &amp; 2 Eliz. 2) c. 20" uk:origin="TNA" uk:type="legislation">Births and Deaths Registration Act 1953</ref></span><span style="font-family:'Times New Roman'">.  The Local Authority&#8217;s case (per the application) is that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;Mia &#8230; is likely to suffer significant emotional harm, as a result of him having been given a name that is predominantly considered to be a female name, when he is male. It is submitted on behalf of the local authority that such a name may attract ridicule or teasing and by consequence is capable of having a negative impact on his self-esteem as he grows up.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Local Authority wishes the court&#8217;s permission to change his forename to &#8216;T2&#8217;</span><authorialNote class="footnote" marker="1">
+		<p class="FootnoteText" style="text-align:justify"><span style="font-family:'Times New Roman'"> It is necessary, for a proper understanding of this judgment, that I reference the name &#8216;Mia&#8217;</span><span style="font-family:'Times New Roman'"> as C&#8217;s given name</span><span style="font-family:'Times New Roman'">; however, I have anonymised </span><span style="font-family:'Times New Roman'">all other </span><span style="font-family:'Times New Roman'">fore</span><span style="font-family:'Times New Roman'">names in this </span><span style="font-family:'Times New Roman'">judgment</span><span style="font-family:'Times New Roman'">, in order to protect his identity</span><span style="font-family:'Times New Roman'">.</span></p>
+	      </authorialNote><span style="font-family:'Times New Roman'">, which was the forename given to him by the mother for a few weeks following his birth, and which is a forename ordinarily associated with someone who is male.  This was, itself the second name which the mother had given C; for a brief time immediately after his birth, the mother had called him &#8216;T1&#8217; (also a name ordinarily associated with someone who is male).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I have had access to the care proceedings bundle, and have read the core evidence; I have received submissions from counsel for all parties in writing and orally.  The Local Authority&#8217;s application is supported by the father, the paternal grandmother (into whose care C is soon likely to be placed for the long-term, see below) and (for different reasons from the other parties) the Children&#8217;s Guardian.  The application for the change of C&#8217;s forename is opposed by the mother.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In spite of her wish to withdraw from the Part IV proceedings (see &#167;17 below), the mother attended the hearing before me.  Her counsel advised me at the end of the hearing that the mother did not wish to know the outcome of the application for forename-change, and (if there is to be a change of forename) did not want to know the name chosen for her son.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Local Authority require the court&#8217;s leave to bring this application (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/100/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 100(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>); I indicated at the hearing that I would be likely to grant such leave given the issues involved.  I reserved judgment.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The relevant background can be summarised relatively briefly.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">C is the fourth child born to the mother.  He is of mixed heritage &#8211; his mother is British / Barbadian and his father is British / Zimbabwean.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The mother&#8217;s three older children have previously been removed into the care of the Local Authority, and are placed permanently with extended family members under a range of orders under Part II and Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>.  At the heart of this sad history is the mother&#8217;s poor mental health, her extensive offending history (including offences of extreme violence including to police officers and hospital staff), her volatility, her difficulty in managing her emotions in stressful situations, substance misuse, poor engagement with professionals, and chaotic lifestyle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">When C was born, an interim care order was made under Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>, and he was removed into foster care directly from the maternity ward.  Initially the mother chose to call her son T1, which was the forename of her own late father.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">When T1 was about 6 weeks old, the mother changed his forename to T2.  This name was apparently suggested to her by a former friend.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Just before registering C&#8217;s birth a little over one month later, the mother changed his forename once again, and gave him (and registered him with) the forenames &#8216;Mia Adonis&#8217;. The mother says that her idol was and is Mia Mottley, the prime minister of Barbados.  The mother further said that she wanted his names in combination to reflect the phrase &#8220;my beautiful boy&#8221;.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The mother did not formally register the second respondent as C&#8217;s father; there is a dispute of fact, which I am unable to resolve, as to whether the father knew that the mother was registering C&#8217;s birth.  The mother states that she made contact with the father on the day before she registered C&#8217;s birth but: &#8220;I was met with abusive behaviour and he told me not to contact him again and that he didn&#8217;t want to see me&#8221;.  The father denies that he was told when the mother was planning to register C&#8217;s birth, and therefore did not attend.  DNA testing undertaken within the care proceedings has confirmed C&#8217;s paternity; a declaration of parentage was made on 6 July 2023 and an application for parental responsibility is, I am told, in draft and awaiting issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The mother and father did not have a significant relationship.  During the hearing before me, the mother occasionally shouted from the back of the court that the father had raped her (I infer leading to C&#8217;s birth), an allegation which she has made elsewhere, including to friends of the father and on social media. The father denies this allegation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The documents filed by the Local Authority within the care proceedings are worryingly inconsistent in how they refer to C; some documents refer to him as Mia, and others as T2.  This inconsistency suggests that there is already a degree of confusion around C and his forename. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Within the current substantive Part IV <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> proceedings, the mother has been assessed by Dr Vandenabeele (psychiatrist) and Dr Mosher (psychologist).  In summary, it is said that the mother suffers complex PTSD; she struggles to regulate her emotions and can present as violent and aggressive to others. Dr Vandenabeele indicates that the mother would present a risk to any child in her care and, for example, in times of stress, would be unable to prioritise the needs of a child.  Dr Mosher opined that the mother&#8217;s mistrust of professionals is such that she would struggle to engage openly and honestly with them and that the identified issues require further intensive work; nonetheless he offered some hope in his conclusion (which I reproduce in full, given its significance to the overall picture):</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;I am more optimistic about the mother&#8217;s abilities than are some other professionals. She clearly has her issues, and it is evident that workers are going to need to expect ongoing conflict and frustration.  However, [the mother] has the intellect, the broad insight, and sufficient psychological stability overall to make changes and to be a good enough mother. It is clear that things like environmental stability will be necessary, as will effective engagement with workers. If these things are maintained, the ability to implement and sustain improvement is, in my view, there.  Mia&#8217;s timeframe is limited given his age, but I have optimism that the mother can change. There is no psychological reason why she could not change if she is willing to genuinely try.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">On 21 September 2023 the mother applied for an independent social work assessment and/or for assessment in a mother and baby unit.  This was refused.  On 10 October, the mother indicated to the court that she wished to withdraw from the care proceedings altogether, and be discharged as a party.  Her position statement recorded:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;&#8230; she feels she has no power within her role as a mother and that her involvement in proceedings has no value. &#8230; She feels that she has never been given a chance to succeed.  &#8230; the mother feels she must withdraw due to the impact on her mental health. She has lost all hope of her son being returned to her care. She wishes to remove herself from the court process and move on with her life to look after her mental health&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Her application for leave to withdraw from the proceedings was considered by HHJ Hayes KC on 20 October; he, understandably in my view, refused her application, particularly given the conclusions of Dr Mosher referenced above in </span>&#167;<span style="font-family:'Times New Roman'">16.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The current care plan is for C to be placed for the long-term with his paternal grandmother, in her home in which his father and the father&#8217;s half-siblings also currently reside.  The court has not yet considered, let alone formally approved, this plan but it has the support of the Children&#8217;s Guardian.  The mother&#8217;s position has been (and I believe remains) that if she cannot care for C, then she would prefer that he is fostered for the long-term, or adopted (</span><span style="font-style:italic;font-family:'Times New Roman'">not</span><span style="font-family:'Times New Roman'"> by the paternal family).  I was told that the mother has not had any form of contact with C since August 2023.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Jurisdiction to make the order sought.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The judgment of King LJ in </span><span style="font-style:italic;font-family:'Times New Roman'">Re C </span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/374" uk:canonical="[2016] EWCA Civ 374" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 374</ref></span><span style="font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF">, <ref href="#" uk:canonical="[2017] 1 FLR 487" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 1 FLR 487</ref>, <ref href="#" uk:canonical="[2016] 3 WLR 1557" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 3 WLR 1557</ref></span><span style="font-family:'Times New Roman'"> (&#8216;</span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'">&#8217;)</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">has rightly been firmly in focus in the arguments marshalled by the parties in this application.  Because the circumstances of that case (where the court was considering whether it could prevent a parent with parental responsibility from registering a child in care with the forename(s) of her choice &#8211; i.e., the court&#8217;s intervention was sought </span><span style="font-style:italic;font-family:'Times New Roman'">before</span><span style="font-family:'Times New Roman'"> registration) and the circumstances of this case (where I am considering changing the forename(s) of a child in care </span><span style="font-style:italic;font-family:'Times New Roman'">following </span><span style="font-family:'Times New Roman'">registration) are different, I have carefully reflected whether the route to judicial intervention is the same.  I have concluded that it is.  I can take this relatively shortly.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The starting point in this case, as in </span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'">,</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">is <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 33</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 33(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> provides that parental responsibility shall be vested with a local authority in respect of a child in respect of whom it has a care order or interim care order</span><authorialNote class="footnote" marker="2">
+		<p class="FootnoteText"><span style="font-family:'Times New Roman'"> Section 3</span><span style="font-family:'Times New Roman'">1</span><span style="font-family:'Times New Roman'">(11)</span><span style="font-family:'Times New Roman'"> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref></span></p>
+	      </authorialNote><span style="font-family:'Times New Roman'">, and gives it the power to determine the extent to which a parent may exercise parental responsibility for him (the local authority thus acquires &#8216;senior&#8217; parental responsibility). <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 33(7)</ref>(a) <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> prohibits anyone from causing the child to be known by a new </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">surname</span><span style="font-family:'Times New Roman'"> without the permission of the court or the consent of every person with parental responsibility.  <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 33(7)</ref> does not deal with </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">forenames</span><span style="font-family:'Times New Roman'">.  Thus, were it not for the arguments about article 8 European Convention on Human Rights (&#8216;ECHR&#8217;):</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;&#8230; the law gives the local authority the power to exercise its parental responsibility under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 33(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> in order to prevent the mother from giving her twins the forenames of her choice&#8221; (King LJ in </span><span style="font-style:italic;font-family:'Times New Roman'">Re C </span><span style="font-family:'Times New Roman'">at [65]).</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">However, as King LJ later observed:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;&#8230; the use by a local authority of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 33</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> in relation to the registration or change of a child&#8217;s forename has at least two significant problems&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C </span><span style="font-family:'Times New Roman'">[76]).</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Those two problems are these.  First, if the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 33</ref> prevail, then a local authority would be able to make a decision to prevent a mother from registering a forename, or indeed changing a forename, thus comprehensively &#8216;invading&#8217; the mother&#8217;s article 8 ECHR rights, without recourse to the court.  Secondly, that there is no route to court via <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 33</ref> in relation to a change of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">forename</span><span style="font-family:'Times New Roman'">, and:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;&#8230; the seriousness of the interference with the Art 8 European Convention rights of the mother consequent upon the local authority exercising that power, demands that the course of action they propose be brought before and approved by the court&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'"> at [77]).</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In </span><span style="font-style:italic;font-family:'Times New Roman'">Re C </span><span style="font-family:'Times New Roman'">the local authority had unsuccessfully sought at first instance to invoke <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/100" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 100</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> in order to achieve its remedy.  <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/100" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 100</ref> provides the mechanism for the court to exercise its inherent jurisdiction, and sets out the restrictions on the circumstances in which the jurisdiction can be exercised.  <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/100/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 100(3)</ref> provides that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;No application for any exercise of the court's inherent jurisdiction with respect to children may be made by a local authority unless the authority have obtained the leave of the court&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Importantly, for present purposes, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/100/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 100(4)</ref>(b) provides that the court can only grant leave (for an application to be made) if the court is satisfied that there is no other statutory route to outcome, and:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;&#8230; there is reasonable cause to believe that if the court's inherent jurisdiction is not exercised with respect to the child he is likely to suffer significant harm&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The term &#8216;significant harm&#8217; here is of course a term of art.  It is defined in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>; <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(9)</ref> provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;harm&#8221;&#160;</span><span style="font-family:'Times New Roman'">&#160;means ill-treatment or the impairment of health or development</span><span class="cofootnotenode" style="font-family:'Times New Roman';color:#3D3D3D"/><span style="font-family:'Times New Roman'">including, for example, impairment suffered from seeing or hearing the ill-treatment of another;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;development&#8221;&#160;</span><span style="font-family:'Times New Roman'">&#160;means physical, intellectual, emotional, social or behavioural development;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;health&#8221;&#160;</span><span style="font-family:'Times New Roman'">&#160;means physical or mental health; and</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;ill-treatment&#8221;&#160;</span><span style="font-family:'Times New Roman'">&#160;includes sexual abuse and forms of ill-treatment which are not physical&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/31/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 31(10)</ref>&#160;importantly goes on to state:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;Where the question of whether harm suffered by a child is significant turns on the child's health or development, his health or development shall be compared with that which could reasonably be expected of a similar child&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The conclusion reached in </span><span style="font-style:italic;font-family:'Times New Roman'">Re C </span><span style="font-family:'Times New Roman'">(which reflected the approach of Butler Sloss LJ in </span><span style="font-style:italic;font-family:'Times New Roman'">Re D, L and LA </span><span style="font-family:'Times New Roman'">at p.347), and which is of equivalent application on these facts, is this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel2" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;[104] &#8230; there is a small category of cases where, notwithstanding the local authority&#8217;s powers under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/33/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 33(3)</ref>(b) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>, the consequences of the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">exercise of a particular act of parental responsibility are so profound</span><span style="font-family:'Times New Roman'"> and have such an impact on either the child his or herself, and/or the Art 8 European Convention rights of those other parties who share parental responsibility with a local authority, that </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">the matter must come before the court for its consideration and determination</span><span style="font-family:'Times New Roman'">&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel2" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">[105] &#8230; there may be rare cases, where a local authority believes that the forename chosen by a parent, and by which he or she intends to register a child, </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">goes beyond the unusual, bizarre, extreme or plain foolish</span><span style="font-family:'Times New Roman'">, and instead gives the local authority reasonable cause to believe that by calling him or her that name </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">he or she is likely to be caused significant harm</span><span style="font-family:'Times New Roman'">. In those highly unusual circumstances, </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">the proper route by which the local authority seek to ensure that the course they propose is necessary and in the child&#8217;s interests is</span><span style="font-family:'Times New Roman'"> (as was held by Butler-Sloss LJ in Re D, L, and LA supra) </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">by putting the matter before the High Court by way of an application to invoke its inherent jurisdiction</span><span style="font-family:'Times New Roman'">&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C </span><span style="font-family:'Times New Roman'">at [104] / [105]). (Emphasis by underlining added).</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Case law and the approach to the issue</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In resolving this issue, the following authorities have been drawn to my attention:  </span><span style="font-style:italic;font-family:'Times New Roman'">Dawson v Wearmouth</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1999] 1 FLR 1167" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 1 FLR 1167</ref>; </span><span style="font-style:italic;font-family:'Times New Roman'">Re W, Re A, Re B (Change of Name)</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1999] 2 FLR 930" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 2 FLR 930</ref>; </span><span class="Emphasis" style="font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF">Re M, T, P, K and B (Care: Change of Name)</span><span style="font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF">&#160;<ref href="#" uk:canonical="[2000] 2 FLR 645" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 2 FLR 645</ref>; </span><span style="font-style:italic;font-family:'Times New Roman'">Re H (Child&#8217;s Name: First Name)</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/190" uk:canonical="[2002] EWCA Civ 190" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 190</ref>, <ref href="#" uk:canonical="[2002] 1 FLR 973" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 FLR 973</ref> (CA); </span><span style="font-style:italic;font-family:'Times New Roman'">Re D, L and LA (Care: Change of Forename)</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2003] 1 FLR 339" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 1 FLR 339</ref>; </span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF"> (citation above);</span><span class="Emphasis" style="font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF"/><span class="Emphasis" style="font-style:normal;font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF">and </span><span class="Emphasis" style="font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF">Re B &amp; C (Change of Names: Parental Responsibility; Evidence)</span><span class="Emphasis" style="font-style:normal;font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/3250" uk:canonical="[2017] EWHC 3250 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 3250 (Fam)</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">From these authorities, the following principles emerge of relevance to the facts in this case (i.e., where the Local Authority seeks the court&#8217;s approval to change the forename of a child in care):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic;font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF">When will the court intervene under the inherent jurisdiction in respect of a forename change to a child in care?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF">This is likely to happen only rarely.  Indeed, only in a &#8220;most extreme&#8221; case should the court exercise its power to prevent a parent from registering a child with the name chosen by that parent for the child (</span><span style="font-style:italic;font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF">Re C</span><span style="font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF"> at [3]);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The issue of whether there is a power within the inherent jurisdiction to prevent a parent with parental responsibility from naming their child with a particular name is dependent on whether the court is satisfied that to allow such a name to be used would likely cause that child significant harm (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'"> at [108-109]);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman'">Although &#8220;it will only rarely be the case&#8221;, nonetheless &#8220;the giving of a particular name to a child [i.e., like &#8216;Cyanide&#8217; in </span><span style="font-style:italic;font-family:'Times New Roman'">Re </span><span style="font-family:'Times New Roman'">C for instance] can give a court reasonable cause to believe that, absent its intervention, the child in question is likely to suffer significant emotional harm&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'"> at [102]);</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic;font-family:'Times New Roman'">Welfare decision</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF">The changing of a name (surname or forename) is a matter of importance, and in determining whether or not a change should take place the court must first and foremost have regard to the welfare of the child; <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(1)</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> therefore apply;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman';color:#2A2A2A;background-color:#FFFFFF">The decision (on an application to change a forename) is highly fact-specific;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic;font-family:'Times New Roman'">Registration of names at birth</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">Registration of a particular name is always a relevant and an important consideration, but it is not in itself decisive. The weight to be given to it by the court will depend upon the other relevant factors or valid countervailing reasons which may tip the balance the other way (</span><span style="font-style:italic;font-family:'Times New Roman'">Re W, A, B</span><span style="font-family:'Times New Roman'">);</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic;font-family:'Times New Roman'">Surname / forename</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman'">The principles to be applied to change of name cases are the same regardless of whether a proposed name change relates to a </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">forename</span><span style="font-family:'Times New Roman'"> or a </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">surname</span><span style="font-family:'Times New Roman'"> (</span><span style="font-style:italic;font-family:'Times New Roman'">Re D, L and LA (Care: Change of Forename)</span><span style="font-family:'Times New Roman'">, in this regard challenging the earlier view of Thorpe LJ in </span><span style="font-style:italic;font-family:'Times New Roman'">Re H (Child&#8217;s Name: First Name)</span><span style="font-family:'Times New Roman'">:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8216;To change a child&#8217;s name is to take a significant step in a child&#8217;s life. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Forename or surname, it seems to me, the principles are the same, in general</span><span style="font-family:'Times New Roman'">. A child has roots. A child has names given to him or her by parents. The child has a right to those names and retains that right, as indeed, the parents have rights to retention of the name of the child which they chose. Those rights should not be set to one side, other than for good reasons&#8230;. </span><span style="font-family:'Times New Roman';color:#000000">Having said that, one has to recognise, in reality, that names do change. Children acquire nicknames and even nicknames sometimes take over from the name that they were given as their chosen name. Children do have diminutives and they may themselves, as they get older, prefer their third name to their first name and choose to be called by it.</span><span style="font-family:'Times New Roman'">&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re D, L and LA</span><span style="font-family:'Times New Roman'">) (Emphasis by underlining added).</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in"><span style="font-family:'Times New Roman'">Put another way, forenames hold the same importance as surnames and the same principles should apply in considering and resolving any issue relating to a forename and surname:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;&#8230; forenames are used almost exclusively for all purposes, social and business, often, it would seem, entirely in the absence of surnames. Further the increase in blended families means that it is by no longer the universal norm for a family living all together to share the same surname&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'"> at [50]);</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;&#8230;forename is now every bit as important to that child, and his or her identity, as is his or her surname&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'"> at [51]).</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic;font-family:'Times New Roman'">Parental attitudes and attitudes of others</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The attitude and views of the individual parents and/or proposed carers are only relevant as far as they may affect the conduct of those persons and therefore indirectly affect the welfare of the child (</span><span style="font-style:italic;font-family:'Times New Roman'">Dawson v Wearmouth</span><span style="font-family:'Times New Roman'">);</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic;font-family:'Times New Roman'">Link to the past</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman';color:#000000">&#8220;The sharing of a forename with a parent or grandparent or bearing a forename which readily identifies a child as belonging to his or her particular religious or cultural background, can be a source of great pride to a child and give him or her an important sense of 'belonging' which will be invaluable throughout his or her life.&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Re C</span><span style="font-family:'Times New Roman';color:#000000"> at [40]);</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic;font-family:'Times New Roman'">Article 8</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">Article 8 ECHR is engaged.  It would be &#8220;a significant interference in the ECHR, Art 8 rights of a parent right in play &#8211; a right to private and family life to prevent them from giving the child the name of their choice&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'"> at [21]).  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In the review of the authorities cited above (see &#167;26), counsel referenced my comments in </span><span style="font-style:italic;font-family:'Times New Roman'">Re B and C</span><span style="font-family:'Times New Roman'"> in which I had said at [33]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman';color:#000000">&#8220;A person's forename invariably identifies gender, and often personifies culture, religion, ethnicity, class, social or political ideology.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">On reflection, I am now not sure that I was right to use the phrase &#8216;</span><span style="font-style:italic;font-family:'Times New Roman'">invariably</span><span style="font-family:'Times New Roman'"> identifies gender&#8217; six years ago.  Even recognising the swift pace of societal change, there are &#8211; and have been for some time &#8211; many gender neutral forenames which patently do not identify gender at all.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">The arguments</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Miss Allen, for the Local Authority, submits that there are reasonable grounds for believing that C would be likely to suffer significant harm by teasing, bullying and ridicule if he were to retain the forename Mia, a name which is &#8220;ordinarily attributed&#8221; to the female gender.  Ms Allen relies on the passage from </span><span style="font-style:italic;font-family:'Times New Roman'">Re C </span><span style="font-family:'Times New Roman'">at [42]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;&#8230;people, and particularly children, are capable of great unkindness and often are not accepting of the unusual or bizarre. It does not need expert evidence or academic research to appreciate that </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">a name which attracts ridicule, teasing, bullying or embarrassment will have a deleterious effect on a child&#8217;s self-esteem and self-confidence with potentially long term consequences for him</span><span style="font-family:'Times New Roman'">. The burden of such a name can also cause that child to feel considerable resentment towards the parent who inflicted it upon him&#8221; (Emphasis by underlining added).</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Local Authority raises the likelihood that C will experience unwanted negative attention from his peers as a result of his forename, and that this is more likely because he will not be living in a &#8216;traditional&#8217; home with his mother and father, but in all probability with his paternal grandmother.  It was suggested in the course of the submissions in the north of England there are likely to be strong views, in school and in the community, about which names are attributed to which gender.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Local Authority submits that the court&#8217;s exercise of its power under the inherent jurisdiction to change C&#8217;s forename, or more accurately to add a new forename, would constitute a proportionate interference with the mother&#8217;s and C&#8217;s right to family life under article 8 of the ECHR. The interference could be justified in that it is done with the express intention of seeking to prevent the child from experiencing significant emotional harm as a result of being known by a forename ordinarily given to a child of the opposite gender.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Local Authority proposes that C&#8217;s full names be &#8216;[T2] Mia Adonis [Surname]&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The father opposes his son being called Mia at all, but in all other respects he supports the arguments of the Local Authority. Ms Branton referenced the risk of cyber-bullying of a male young person with an ordinarily female forename, given that online it is a forename which is the primary identifying characteristic.  She further submitted that having a forename such as Mia may affect his employment prospects.  It was also said that being a &#8216;looked after&#8217; child (as that phrase is understood in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 22</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>) in itself raised the risk of bullying, even though the plan for him is to live with his grandmother and father.  It is said that: &#8220;the father considers that Mia should not be burdened with a name that does not match his gender identity&#8221;.  I was told that the father is opposed to the retention of &#8216;Mia&#8217; even as a middle name, also because of the risk of bullying.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The father proposes that C&#8217;s full names be &#8216;[T2] Jacob Adonis [surname]&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The paternal grandmother was born and raised in Zimbabwe, but has lived in the UK for more than 20 years.  She has played no part in the hearing but has filed a short witness statement; she is firmly opposed to her grandson carrying the forename Mia. It is she who has proposed &#8216;Jacob&#8217; as one of C&#8217;s middle names: she says that &#8220;[t]he name Jacob is a Biblical name which is a native name which symbolizes the community's love for nature and gods in the Zimbabwean community&#8221;.  She strongly believes that it is &#8220;unfair&#8221; to give a boy &#8220;a lady&#8217;s name&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The mother wishes her choice of name to remain undisturbed. She filed a witness statement in which she said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;Tradition is not the same as it used to be, and Mia can be whoever or whatever he wants to be. Mia Adonis means &#8216;my beautiful boy&#8217; and I want this name to remain his registered name&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Ms Jones argued that it is highly speculative to contend that the forename &#8216;Mia&#8217; would attract ridicule or teasing, and by consequence be capable of having a negative impact on C&#8217;s self-esteem as he grows up.  In contemporary society children have a very wide variety of first names from different languages and cultures; there is no reason to think that the forename Mia is any more likely to attract adverse comment and jibes, as suggested, than many others.  There is every reason to doubt that </span><span style="font-family:'Times New Roman';color:#202122;background-color:#FFFFFF">C would suffer from such ridicule and harassment that he would be likely to suffer significant harm.  It is contended on the mother&#8217;s behalf that the change of forename sought by the Local Authority is a disproportionate interference in balancing the right to family life under Article 8 of the ECHR, and should be refused.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="color:#202122;background-color:#FFFFFF">Ms Phillips for the Children&#8217;s Guardian challenged the Local Authority&#8217;s contention that there are reasonable grounds for believing that C would be likely to suffer significant harm if he had the forename </span>Mia, even though acknowledging that it is ordinarily a female forename.  <span style="font-family:'Times New Roman'">However, the Guardian considered that if Mia is placed with carers who are wholly opposed to its use for him, then this has the potential to be significantly harmful in his day to day life, and could be contrary to his welfare needs; she supported the Local Authority&#8217;s application for this reason.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Conclusion </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I have separated out my conclusions into two parts, reflected by the following questions:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">Are there reasonable grounds for believing that C (born male) will suffer significant harm in the school and community in which he is raised (through teasing, ridicule or otherwise), if he has the forename Mia &#8211; a name currently ordinarily associated with a female?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">Are there reasonable grounds for believing that C will suffer significant harm (by intra-family conflict, and/or confusion) if he is placed with his paternal family who are all opposed to him having the name Mia (unilaterally chosen by the mother), where the placement is vulnerable to disruption from the mother?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-weight:bold">(i)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">School and Community</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#212121;background-color:#FFFFFF">I have considered the arguments of the Local Authority, father and paternal grandmother carefully, but find myself </span><span style="font-family:'Times New Roman'">unpersuaded that there are reasonable grounds for believing that C will suffer significant emotional harm in the school and community in which he will live simply by having the forename of Mia &#8211; a name which is currently ordinarily associated with the female gender.  In so concluding I have been particularly influenced by the following points:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">There is a vast range of forenames used in today&#8217;s multi-cultural and diverse society.  </span><span style="font-family:'Times New Roman';color:#323132;background-color:#FFFFFF">Popular culture continues to influence parents' baby name choices year by year.  There are many forenames in common currency now which would not have been thought of 5 or 10 or so years ago;  there is every reason to believe that in 5 or 10 years time, many new names will be in common currency.  In this regard, I accept the mother&#8217;s argument (&#167;35 above) that &#8220;</span><span style="font-family:'Times New Roman'">[t]radition is not the same as it used to be, and Mia can be whoever or whatever he wants to be&#8221;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman';color:#323132;background-color:#FFFFFF">Abbreviated names, diminutives, and blended names are commonplace and add materially to the ever-expanding lexicon of forenames in daily usage.  I accept that currently </span><span style="font-family:'Times New Roman'">Mia is a forename ordinarily given to, and/or used by, a female; it is also an abbreviation of other female forenames such as Maria and its variants (Miriam, Maryam, Mary), and of Amelia/Emilia.  But Mia could of course be an abbreviation of Jeremiah, and perhaps convincingly so if Mia is pronounced with a long-&#8216;i&#8217;; the Children&#8217;s Guardian pointed out that the name Mia is sometimes used as a shortened version of other boys&#8217; names including Miguel in Spain, or Domiano in Italy;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman'">There are many African and Caribbean boys&#8217; names which are popular and special to those regions of the world, but would not be typical choices for White British parents. While there is no evidence that Mia is a typical male forename for African or Caribbean boys, it is not unheard of; the African award-winning writer, Mia Couto</span><authorialNote class="footnote" marker="3">
+		  <p class="FootnoteText"><span style="font-family:'Times New Roman'"/><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">His given name was in fact Ant&#243;nio Em&#237;lio Leite Couto.  </span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">He is from Mozambique</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">, East Africa</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">.</span></p>
+		</authorialNote><span style="font-family:'Times New Roman'">, is one example.  With C&#8217;s strong and rich African / Caribbean heritage, there is every reason to believe that he may well not attract curiosity or attention by reason of his forename;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The immediate area in which the paternal grandmother lives is described as having &#8220;quite a good ethnic mix &#8230; with other Black African and African Caribbean families, and families from Southeast Asia, and northern Europe&#8221;</span><authorialNote class="footnote" marker="4">
+		  <p class="FootnoteText"><span/><span style="font-family:'Times New Roman'">R</span><span style="font-family:'Times New Roman'">eference: Kinship Assessment of the paternal grandmother</span></p>
+		</authorialNote><span style="font-family:'Times New Roman'">; within that ethnic mix it is reasonable to assume that there will be some from the Bangladeshi community where Miah is a name commonly associated with males as it generally denotes &#8216;mister&#8217; or &#8216;gentleman&#8217;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">I was struck by, and respectfully adopt, a passage from the judgment of HHJ Sharpe (at first instance) in </span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'"> (this passage was not disapproved by the Court of Appeal) in which he had referred to how taste and perception can change; a name which is considered by a child to be an embarrassment at one age on account of it being different or unusual may well, as they get older and begin to assert their individuality, become a badge of pride for those very same reasons (see </span><span style="font-style:italic;font-family:'Times New Roman'">Re C </span><span style="font-family:'Times New Roman'">at [44]);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">Societal views on gender are evolving at some pace.  There is not the same fixed notion of binary female / male in society as there was even a decade ago; there is much greater awareness of the indefiniteness of gender, and many people in our society today </span><span style="font-family:'Times New Roman';color:#202124;background-color:#FFFFFF">will not indeed classify others within that binary (male or female; masculine or feminine). In reflecting the society it serves, </span><span style="font-family:'Times New Roman'">the courts should apply a broad perspective to the understanding of </span><span style="font-family:'Times New Roman';color:#1B1B1B;background-color:#F8F8F8">gender identity and/or gender expression (in this context through the assessment of choice of forename for a child), and to </span><span style="font-family:'Times New Roman';color:#333333;background-color:#FFFFFF">question what may be thought of as &#8216;traditional&#8217; views of gender and identity</span><span style="font-family:'Times New Roman'">.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I am conscious that it should only be in the &#8220;most extreme&#8221; case that the court is likely to interfere with parental choice of forename for a child in care (see the quote in &#167;25 above), and only then when the choice of name goes &#8220;beyond the unusual, bizarre, extreme or plain foolish&#8221; (see again the quote in &#167;25 above).  Thus, it is noted that while in </span><span style="font-style:italic;font-family:'Times New Roman'">Re C </span><span style="font-family:'Times New Roman'">the court considered that the forename &#8216;Cyanide&#8217; was likely to cause the child significant harm, the same conclusion was not reached in relation to the forename &#8216;Preacher&#8217; (although the order was made in relation to him on other grounds: see</span><span style="font-style:italic;font-family:'Times New Roman'"> Re C</span><span style="font-family:'Times New Roman'"> at [115]).  Crucially, I do not regard the mother&#8217;s choice of forename, Mia, for her son is sufficiently &#8220;unusual, bizarre, extreme or &#8230; foolish&#8221; as to justify court intervention.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I am also of the view that it is important that I respect the mother&#8217;s choice; her choice of forename represents one of the few ways in which she will have had the chance to exercise her parental responsibility for her son (though whether she would have done so in this way had the father been present at registration is a moot point).  I bear very much in mind the article 8 ECHR rights of the mother, albeit these must of course be weighed against the article 8 rights of C.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#222526;background-color:#FFFFFF">I wish to make clear that I no more want C to suffer teasing, bullying, ridicule or harassment than any family member or professional involved in these proceedings.  But I am unpersuaded that by being called Mia this would be reasonably likely to occur.  And if it did occur, I am unpersuaded that it would cause him </span><span style="font-style:italic;font-family:'Times New Roman';color:#222526;background-color:#FFFFFF">significant</span><span style="font-family:'Times New Roman';color:#222526;background-color:#FFFFFF"> harm as that phrase is understood in the context of Part IV proceedings. </span><span style="font-family:'Times New Roman'">I agree with King LJ when she observed that &#8220;teasing and ridicule are a natural part of childhood, and, in moderation, help to develop resilience&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'"> at [108](ii)).  The case where the jurisdiction would be properly exercised is where the name &#8220;exposes the [child] to treatment which goes far beyond acceptable teasing&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C </span><span style="font-family:'Times New Roman'">at [108](ii)).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#222526;background-color:#FFFFFF">I accept that there is a risk of gender confusion for those who may see C&#8217;s forename (Mia) on a school list or register but do not know him; that is not in my judgment likely to cause him significant harm.  This must frankly happen often with young people who have gender-neutral forenames.  I am unimpressed by the argument (</span><span style="color:#222526;background-color:#FFFFFF">&#167;</span><span style="font-family:'Times New Roman';color:#222526;background-color:#FFFFFF">32 above) that C&#8217;s employment prospects would be adversely affected by having the forename Mia.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">For the reasons set out above (&#167;39 &#8211; </span>&#167;<span style="font-family:'Times New Roman'">43) I can confirm that I am not satisfied that giving C the forename Mia establishes a reasonable cause to believe that, absent court intervention, C is likely to suffer significant harm.  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-weight:bold">(ii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Placement with paternal family.  The risk of intra-family conflict and confusion.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Different considerations apply, however, when considering the argument advanced by the Children&#8217;s Guardian.  In short, I am persuaded that if I do not make an order changing C&#8217;s forename to T2 at this stage, then there is reasonable cause to believe that C would be exposed to harmful intra-family conflict and confusion over the next few years such as to cause him to suffer significant harm.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In so concluding I have had particular regard to the following points in combination:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The risk of intra-family conflict:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The forename &#8216;Mia&#8217; is strongly disliked by the paternal family; the father and paternal grandmother wish it to be expunged from the birth register altogether; it may be unrealistic, and possibly unfair, to require the paternal grandmother and the father to call C by the forename Mia for the rest of his life.  To leave C with the forename of Mia now would be to expose him to an avoidable source of potential future conflict in this family;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The point made in (i) above is underlined by the fact that the mother is deeply opposed to the placement of C for the long-term with his paternal family.  I note that it was said in the kinship assessment of the paternal grandmother that:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;[The mother] is very unhappy with the ongoing care proceedings and has not only been physically threatening with some professionals but is also </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">making increasingly serious allegations against [the father] in order to discredit his application to care for [C]. The Social Worker shared the fact that [the mother] is keen to do all that she can to ensure that [C] is not able to be cared for within the family</span><span style="font-family:'Times New Roman'">&#8221;. (Emphasis by underlining added);</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman'">It will be apparent from what I said above (see </span>&#167;<span style="font-family:'Times New Roman'">13 above) that the circumstances in which C was registered with the forename Mia are highly contentious.  The father is aggrieved by the circumstances in which he was excluded from his son&#8217;s naming and asserts that he was denied an opportunity to participate in the registration; he adds that had he been present he would have opposed the naming of his son Mia. The mother disputes this and says that he rejected her offer to be present at the registration. There is a benefit to C in the court taking the decision on his forename away from both his parents in order to spare him from this dispute;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is a real risk that if I do not formally permit C&#8217;s name change to T2 now the paternal family will simply unilaterally call C by a forename other than Mia, and if they were to do this, they may use a name other than T2 (which has the value of having been one of the mother&#8217;s original choices).  This could generate considerable conflict.  For the avoidance of doubt, I reject outright any introduction of the name Jacob, suggested by the paternal grandmother who does not yet even care for C, into C&#8217;s collection of forenames;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The mother has a poor record of containing her emotions when provoked; her history of volatility, violence, and mental ill-health adds to the concerns outlined in (i) &#8211; (iv) above.  I note that the early social work statement contains the following passage:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel2" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;It is likely that baby [C] would be at risk of physical and emotional harm were he to witness or become involved in any violent incidents involving his mother.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;margin-right:0.06in"><span style="font-family:'Times New Roman'">This further brings to mind Dr Vandenabeele&#8217;s view (see &#167;16 above) that in times of stress, the mother would be unable to prioritise the needs of a child.  This all elevates the risk posed to C if he were caught in the conflict.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic">Confusion:</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is already a degree of confusion in how C is referred to; it is a considerable concern to me that the Local Authority has not been consistent in how it has referred to C in its filed documents in these proceedings (Mia in some, T2 in others);  I am told that in the foster home, he is referred to as Mia by his foster parents, but an abbreviation of T2 by the other child in placement;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The paternal family could faithfully call C &#8216;Mia&#8217; for the time being, and wait until they can properly apply to replace the public law (care) order with a private law (section 8 &#8216;live with&#8217; order, or section 14A &#8216;special guardianship order&#8217;); at that stage, they themselves could make an application for forename change (to T2 or something else) under either section 13 or section 8.  However, any application in the future may well be met by the argument that it is too late to change his forename and it would be too confusing to C to do so. As Butler Sloss LJ said in <span style="font-style:italic">Re D, L and LA</span> at p.346:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;You would not, for instance, be likely to change the forename of a child of 7, 8 or 9, I suggest even, 5, 6 or 7, because by that time the child has made that name part of his or her identity and very young children know what their names are&#8221;.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.07in"><span style="font-family:'Times New Roman'">I bear in mind that if the plan had been for C to be imminently placed for adoption to secure his long-term future, his adopters would have had the inalienable right to change his forename.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I am conscious that in </span><span style="font-style:italic;font-family:'Times New Roman'">Re D, L, and LA</span><span style="font-family:'Times New Roman'">, the Court of Appeal pragmatically (albeit I sense reluctantly) approved the change of forename introduced by the child&#8217;s long-term foster carers (who had unilaterally and without local authority approval called the child by their middle name and not their forename which they did not like) because they would be &#8220;very upset&#8221; if they were required to change the name back to their given name.  Butler Sloss LJ observed:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;&#8230; bearing in mind the considerable burden that this child cannot but be upon them, it would be very important that no step was taken by a court, at this stage, by making their life in any way more difficult or indeed making them unhappy.&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re D, L, and LA</span><span style="font-family:'Times New Roman'"> at p.343).</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I repeat in this regard what I said at </span>&#167;<span style="font-family:'Times New Roman'">41 above, mindful that C&#8217;s forename, Mia, is &#8220;a critical part of his &#8230; evolving identity&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C </span><span style="font-family:'Times New Roman'">at [40]) and that the names &#8216;Mia Adonis&#8217; were his mother&#8217;s choices for him.  I also recognise that the names may provide C with an &#8220;important sense of 'belonging' which will be invaluable throughout his &#8230; life&#8221; (also at [40]).   The names &#8216;Mia Adonis&#8217; are among &#8220;the only lasting gift [he has] from her&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'"> at [41]).  I further respect the fact that in this country parents have a significant freedom of choice in naming their children, and their choices may flow from any number of influences. There are few prescriptions imposed on this exercise by law, unlike for instance in I</span><span style="font-family:'Times New Roman';color:#222526;background-color:#FFFFFF">celand, where I understand that the registrar will only accept forenames chosen from a pre-agreed list [National Register of Persons] which is issued by the government.  Generally and rightly, authorities &#8211; and specifically the court &#8211; will only intervene when (as I have mentioned above) parents are thinking of choosing or have chosen names which go &#8220;</span><span style="font-family:'Times New Roman'">beyond the unusual, bizarre, extreme or plain foolish&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman'">Re C</span><span style="font-family:'Times New Roman'"> at [105])</span><span style="font-family:'Times New Roman';color:#222526;background-color:#FFFFFF">.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I must, to spare C the risk of significant harm and to promote his best interests, provide clarity for him; it is incumbent on me to remove, or at least limit, as far as I am able, the risk of confusion and conflict. It is for this reason alone that I approve the forename change, by the addition of the forename T2.  However, I am clear that the mother&#8217;s choice of names (Mia Adonis) should </span><span style="font-style:italic;font-family:'Times New Roman'">not</span><span style="font-family:'Times New Roman'"> be expunged from the register as the paternal family would wish; those names should remain available for C should he wish to use them in the future.  This in my judgment reflects the proportionate interference with the article 8 rights of the individual members of this family.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">If I had felt that the mother was capable of, and indeed would be, playing a bigger part in C&#8217;s life going forward, I may have been more tempted to hold the line on her choice.  However, the professionals do not support her wish to care for him, and she has effectively abandoned any aspiration in that regard; she wishes now to withdraw from the care proceedings, and effectively therefore from the important decision-making about his future care even though she is opposed to her son&#8217;s placement with his paternal grandmother and father.  The fact that she does not want to know the outcome of the name-change application suggests that she may be envisaging no, or no meaningful, relationship with him by contact either in the future.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Order</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">It is plainly right, having regard to the foregoing, that I grant leave to the Local Authority to make this application under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/100" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 100</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">My order on this application for a change of forename in the end is contingent upon the ultimate outcome of the Local Authority&#8217;s application for a care order under Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">If the care plan for C </span><span style="font-style:italic;font-family:'Times New Roman';color:initial;background-color:#FFFFFF">is</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF"> approved by the court, and a care order is made on that basis (with C moving to live with the paternal grandmother and father), the Local Authority&#8217;s application for a change of forename succeeds.  In those circumstances, I direct that he will have the forename which I have referenced in this judgment as T2, and his full names will be &#8216;[T2] Mia Adonis [Surname]&#8217;. As a result, the Local Authority will have permission to apply to register the forename T2 accordingly, and I shall give the appropriate direction to the registrar </span><span style="font-family:'Times New Roman';color:#222526;background-color:#FFFFFF">or superintendent registrar having the custody of the register in which the birth was registered, upon delivery of a certificate in the prescribed form, to amend the register to include the forename which I have referenced as T2.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">If the care plan for placement with the paternal grandmother and father is</span><span style="font-style:italic;font-family:'Times New Roman';color:initial;background-color:#FFFFFF"> not</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF"> approved at the final hearing of the Part IV application, and C is not to be placed within his paternal family, then there is in my judgment no proper basis for the court&#8217;s intervention; the arguments and reasoning set out in </span><span style="color:initial;background-color:#FFFFFF">&#167;</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">45 to </span><span style="color:initial;background-color:#FFFFFF">&#167;</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">49 above would not apply to the same extent or at all to a different placement.  In those circumstances, the Local Authority does </span><span style="font-style:italic;font-family:'Times New Roman';color:initial;background-color:#FFFFFF">not</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF"> have leave to change C&#8217;s forename.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">[End]</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

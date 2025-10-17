@@ -1,0 +1,901 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2016/3118"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2016/3118"/>
+	  <FRBRdate date="2016-12-02" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3118"/>
+	  <FRBRname value="W (Adoption: Contact), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/3118"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/3118"/>
+	  <FRBRdate date="2016-12-02" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/3118/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/3118/data.xml"/>
+	  <FRBRdate date="2024-10-27T06:32:37" name="transform"/>
+	  <FRBRdate date="2024-11-17T09:21:05" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2016-12-02" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-cobb" href="/judge-the-honourable-mr-justice-cobb" showAs="THE HONOURABLE MR JUSTICE COBB"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2016</uk:year>
+	<uk:number>3118</uk:number>
+	<uk:cite>[2016] EWHC 3118 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>10b6bbad0b666026251d9891ad7c6e30b47b7352b086072bc67bf12ebbd1e2fa</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+      <p class="CoverText">Case No: <docketNumber>NE86/15</docketNumber> &amp; <docketNumber>NE15P01527</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2016] EWHC 3118 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">NEWCASTLE-UPON-TYNE DISTRICT REGISTRY</span></p>
+      <p class="CoverText">Law Courts</p>
+      <p class="CoverText">Quayside</p>
+      <p class="CoverText">Newcastle-Upon-Tyne</p>
+      <p class="CoverText">Date: <docDate date="2016-12-02" refersTo="#judgment">02/12/2016</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-cobb">THE HONOURABLE MR JUSTICE COBB</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Re W (Adoption: Contact)</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Frank Feehan QC &amp; Martin Todd </span>(instructed by<span style="font-weight:bold"> Carr &amp; Co</span>) for the Prospective Adopters</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ravinder Randhawa</span> (instructed by <span style="font-weight:bold">Local Authority solicitor</span>) for the Local Authority </p>
+      <p style="text-align:center"><span style="font-weight:bold">Emily Ward</span> (instructed by <span style="font-weight:bold">Swinburne Maddison</span>) for the Paternal Grandparents</p>
+      <p style="text-align:center"><span style="font-weight:bold">Stephen Ainsley</span> (instructed by <span style="font-weight:bold">Mortons</span>) for the Children&#8217;s Guardian</p>
+      <p style="text-align:center">Hearing dates: 28, 29, 30 November, 2 December</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">The Honourable Mr Justice Cobb:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This case is, I suggest, as difficult as any which comes before the Family Court.  At its heart is a young girl, A, who was born in May 2014, and is therefore aged 2&#189;.  Over the four days of hearing, the courtroom has been divided in half, with screens erected down the middle; only I could see all of the parties, with their legal teams assembled around them.  On each side of the partition has been a set of parents who yearn profoundly for the chance to raise A throughout her childhood and into adulthood; both sets of parents have laudable and legitimate claims.  One the one side are prospective adopters of A with whom she was placed, from foster care, in December 2014 and with whom she has lived for the last two years; on the other side are A&#8217;s paternal grandparents by birth, who care for A&#8217;s younger brother, J, now aged 17 months.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A&#8217;s birth parents have played no part in these proceedings, or in A&#8217;s life.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The cross-applications before the court are (a) an application by the adopters for an adoption order (the application was issued with a confidential serial number on 1 April 2015), and (b) an application by A&#8217;s paternal grandparents, for a Special Guardianship Order (pursuant to permission granted on 21 December 2015).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These applications were first considered by Bodey J in April/May 2016; his judgment is published as <span style="font-style:italic">Re W</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/2437" uk:canonical="[2016] EWHC 2437 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 2437 (Fam)</ref>. At the conclusion of a contested hearing, Bodey J made a Special Guardianship Order in favour of the paternal grandparents.  The prospective adopters successfully appealed Bodey J&#8217;s order to the Court of Appeal (Jackson, McFarlane and Lindblom LJJ: see <span style="font-style:italic">Re W (A child)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/793" uk:canonical="[2016] EWCA Civ 793" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 793</ref>). In July 2016 the Court of Appeal remitted the case for re-hearing.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 27 July 2016 I gave case management directions.  At that time, I authorised:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The instruction of an expert to advise the court on issues of attachment between A and her carers, and the likely emotional and psychological consequences of ending such an attachment; this was specifically, and rightly in my view, considered by the appeal court to be an essential requirement in a case such as this (per <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/793" uk:canonical="[2016] EWCA Civ 793" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 793</ref> at [66]); I authorised the instruction of Dr. Helen Young, a Chartered Clinical Psychologist with considerable experience in the field;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The instruction of an Independent Social Worker (ISW) Mrs. Deborah Gaskin in substitution for the ISW who had given evidence before Bodey J (Mrs. Pauline Fairbairn); the focus of her enquiry was directed to considering the functioning of the paternal grandparents&#8217; household;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The appointment of a Children&#8217;s Guardian (Ms. Janice Jolley) in substitution for the Children&#8217;s Guardian whose written report, oral evidence and overall contribution to the litigation had attracted strong criticism in the appeal.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I heard evidence over three days.  Mr. and Mrs. X (the prospective adopters) wished to play a direct part in the hearing, and as I have indicated above, sat in court, screened from the other parties; Mr. X gave oral evidence.  I heard from the professionals whom I have listed in the paragraph above, but did not hear from, nor did I see the reports of, the previously instructed professionals. Additionally, I heard evidence from Paul Richardson (adoption support worker for the Local Authority), Paula Gibbons (service manager for the fostering and adoption team of the Local Authority), the paternal grandmother, and the Children&#8217;s Guardian. I also read the filed statements and reports, including the report of Beth Miller, the Special Guardianship reporter.  I have been greatly assisted by counsel, and am grateful to them for their help; particular thanks are extended to Miss Ward who has for some time represented the grandparents <span style="font-style:italic">pro bono</span>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I wish to emphasise that this has been a hearing afresh of the issues in the case; I have of course read the judgment of Bodey J, but have considered it no further.  That said, I am aware from what I have read that the complexion of this case has changed since the hearing before him earlier this year, in a number of material respects:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Both of the independently instructed professionals (Dr. Young and Mrs. Deborah Gaskin), together with the newly appointed Children&#8217;s Guardian, support the application for an adoption order, to ensure the continued placement of A with the prospective adopters; the formerly instructed ISW and Guardian had favoured placement with the birth family;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">As I have indicated above, Mr. X and Mrs. X have played a direct part in the proceedings, and provided direct written and oral evidence; in this way, I was able to make my own assessment of them; they are of course the only two people who know A very well (see [81] of <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/793" uk:canonical="[2016] EWCA Civ 793" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 793</ref>)); although Bodey J had a statement from them he had, by contrast, not seen or heard from the Xs; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">I have seen many photographs of A, I have read and heard a great deal about her, her characteristics, her routines, and her relationships; I am satisfied that she has been &#8220;centre stage&#8221; of this process in a way which was apparently absent from the previous first-instance hearing (see [84] of <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/793" uk:canonical="[2016] EWCA Civ 793" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 793</ref>);</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Mr. and Mrs. X have recently indicated their willingness to facilitate direct contact between A and her brothers, the paternal grandparents and the wider paternal family, in the event that an adoption order is made. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel2"><span style="font-style:italic">Background</span></heading>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although the background history to this case is set out in the earlier judgments to which I have referred (see for instance [3]-[13] of <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/793" uk:canonical="[2016] EWCA Civ 793" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 793</ref>), I summarise the key features arising from the evidence before me for ease of reference.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A was born in May 2014.  Her parents are unmarried; I do not believe that the father has ever acquired parental responsibility for A.  Both parents have learning difficulties affecting all levels of their functioning; their relationship has been assessed to be chaotic, their lifestyle transient.  The father was observed at times to be controlling and abusive towards the mother; there is a history of drug abuse.  Neither parent co-operated with any ante-natal assessments, and their parenting capacity was never truly assessed, given their low level of commitment to any of their children.  They are believed now to have separated.  Shortly after A&#8217;s birth, the Local Authority applied for and obtained an interim care order, and A was moved to live with short-term foster carers.  A&#8217;s parents saw A three times over her first week, but have not seen her since; they established a very low level of engagement with children&#8217;s services of the Local Authority.  In October 2014, the court made a care and placement order in respect of A; this was supported by A&#8217;s court-appointed Children&#8217;s Guardian and not meaningfully opposed by the parents, neither of whom attended the hearing.  The parents had not identified, or assisted the Local Authority in locating, any possible alternative carers within the family; accordingly, the order specifically recorded that &#8220;neither the mother nor the father have put forward any alternative family member to be considered as a carer for [A]&#8221;.  In December 2014, A was placed for adoption with Mr. and Mrs. X.  The handover was planned and careful; it was described in this hearing as a &#8220;textbook&#8221; handover.  The move nonetheless caused A some upset in the early weeks and months of her current placement; it took time for her to settle, with much reassurance required.  It is appropriate that I should note here Dr. Young&#8217;s opinion that placing a child for permanency at around the age of 6 months is optimal: &#8220;as this is the age when the infant begins to form clear-cut attachment to a discriminated parental figure, in other words, they begin to identify their &#8216;secure base&#8217;&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In June 2015, the parents had another child, J, following a concealed pregnancy; they were then living in a different local authority area.  In the search of a family placement for J, this second local authority traced the paternal grandparents and identified them as potential carers.  It was in this process that the second local authority revealed to the paternal grandparents the existence of A, and her imminent adoption; the grandparents immediately expressed an interest in caring not only for J but also for A.  The grandparents have been consistent in maintaining that they would have put themselves forward to care for A had they known about A&#8217;s existence when she was born. Importantly, no party really disputes before me that had the paternal grandparents been located in May or June 2014, at the time of A&#8217;s birth, they would in all probability have been positively assessed to care for A.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The paternal grandmother is 58, the paternal grandfather 60; they have had minimal contact with their son (the father to the children) over the last 15 or so years, and have never met the children&#8217;s mother.  J was placed with them shortly after his birth, and he remains living there.   In October 2015, the paternal grandparents were successful in their application for a Special Guardianship Order in relation to J.  In April 2016, a third child, K, was born to the parents, and placed with a paternal aunt.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the meantime, in April 2015 Mr. and Mrs. X made their application to adopt A.  In July 2015, the paternal grandmother attended a directions hearing, and indicated her wish to care for A.  In December 2015, HHJ Simon Wood granted the paternal grandparents leave to issue an application for a Special Guardianship Order in relation to A.  The cross-applications were heard by Bodey J in April 2016; his order, granting the Special Guardianship Order to the paternal grandparents, was successfully appealed in July.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A has made good developmental progress in the care of Mr. and Mrs. X; every professional who has seen A in her family home and has reported to me, has commented on this, and indeed has spoken in superlatives about the quality of the care which A is receiving.  A is a bright, sociable, vocal child, who is reported by the ISW to be &#8220;particularly engaging in her presentation&#8221;; she is &#8220;very active &#8230; with high levels of energy &#8230; boundless energy and enjoys the outdoors&#8221; (ibid); she is &#8211; as is entirely consistent with her age and stage of development &#8211; highly dependent on her carers, plainly giving them and their wider family much joy. Mr. X works full time, Mrs. X part-time; both prospective adopters have given up work for a period to care for A, to afford her the highest level of care, and to address any possible inherited deficit in her learning abilities of which they fully accepted the possibility.   On days when they are both working, A spends time with one or other of the prospective adopters&#8217; parents, who A plainly views as her grandparents.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">J had a very difficult start in life with a range of medical complexities which threatened his life; he was discharged from hospital only after major surgery and has thrived in the care of his paternal grandparents, and continues to make good developmental progress.  The paternal grandmother has a number of health issues, but these do not seem currently to be affecting her ability to offer a high standard of care for her infant grandson.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The law</span></heading>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These applications raise a number of issues of law; I address only those which are relevant to my determination.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The essential principle by which these applications must be determined is that set out in <span style="font-style:italic">section 1(1)</span> of the <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref></span> and <span style="font-style:italic">section 1(2) </span>of the <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref>)</span>, specifically what is in A&#8217;s best interests <span style="font-style:italic">throughout her life</span>.  I emphasise these last three words, given the attention in this case on the short-term and long-term implications of the competing outcomes contended for. Given the adoption application, I give precedence to the checklist in the <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref></span> in which I am enjoined to consider the factors set out in <span style="font-style:italic">section 1(4)</span>. I have done so with care.  Of those factors those which stand out for special consideration on these facts are <span style="font-style:italic">sections 1(4)(c)-(f)</span>:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(c)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:0.32in">the likely effect on the child (throughout his life) of having ceased to be a member of the original family and become an adopted person;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:0.32in">the child's age, sex, background and any of the child's characteristics which the court or agency considers relevant;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(e)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:0.32in">any harm (within the meaning of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (c. 41)) which the child has suffered or is at risk of suffering;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(f)</num>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:0.32in">the relationship which the child has with relatives, and with any other person in relation to whom the court or agency considers the relationship to be relevant, including&#8212;</p>
+		    </intro>
+		    <subparagraph>
+		      <num>(i)</num>
+		      <content>
+			<p style="text-align:justify;margin-left:1.58in;margin-right:1.05in;text-indent:0.42in">the likelihood of any such relationship continuing and the value to the child of its doing so,</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(ii)</num>
+		      <content>
+			<p style="text-align:justify;margin-left:1.58in;margin-right:1.05in;text-indent:0.42in">the ability and willingness of any of the child's relatives, or of any such person, to provide the child with a secure environment in which the child can develop, and otherwise to meet the child's needs,</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(iii)</num>
+		      <content>
+			<p style="text-align:justify;margin-left:1.58in;margin-right:1.05in;text-indent:0.42in">the wishes and feelings of any of the child's relatives, or of any such person, regarding the child&#8221;.</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Section 1(4)(c) </span>gives statutory profile to one of the acute tensions in this case, given the adopters&#8217; claim for A to remain with them under an adoption order, with the consequence that she would thereby cease to be a member of a natural family which is willing, and ostensibly able, to care for her; this point is given yet sharper prominence by the fact that A has full siblings, of proximate ages, who are placed securely within that family.  <span style="font-style:italic">Section 1(4)(d)</span> requires me to consider with care A&#8217;s age and stage of development; her background reflects a life-experience of care outside of her natural family predominately with Mr. and Mrs. X.  The relationships which A has, or potentially has, with the natural family must self-evidently be considered within <span style="font-style:italic">section 1(4)(f)</span> but so too must the relationships of A with her prospective adopters (see <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/793" uk:canonical="[2016] EWCA Civ 793" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 793</ref> at [40]: &#8220;a prospective adopter with whom a child has been placed under a placement for adoption order will automatically be "any other person" within the context of <span style="font-style:italic">s 1(4)(f)</span>&#8221;).  Significantly, the &#8220;value&#8221; to the child of her continuing relationships, and the ability of relatives and prospective adopters to providing a secure relationship, fall also to be considered.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is no presumption in this case one way or the other; the fulcrum is positioned dead centre.  I apply a straight welfare test.  Significantly, I note that there is no right or presumption in favour of a placement of A within her natural family; at [71] of <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/793" uk:canonical="[2016] EWCA Civ 793" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 793</ref> McFarlane LJ said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;The only 'right' is for the arrangements for the child to be determined by affording paramount consideration to her welfare throughout her life (in an adoption case) in a manner which is proportionate and compatible with the need to respect any ECHR Art 8 rights which are engaged.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;margin-right:0.06in">He added at [73] that the phrase &#8220;nothing else will do&#8221; (from <span style="font-style:italic">Re B</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/33" uk:canonical="[2013] UKSC 33" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 33</ref>):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;&#8230; does not establish a presumption or right in favour of the natural family; what it does do, most importantly, is to require the welfare balance for the child to be undertaken, after considering the pros and cons of each of the realistic options, in such a manner that adoption is only chosen as the route for the child if that outcome is necessary to meet the child's welfare needs and it is proportionate to those welfare needs&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Equally, there is no presumption in favour of a &#8216;status quo&#8217;, notwithstanding the powerful words of Ormrod LJ in <span style="font-style:italic">D v M (Minor: Custody Appeal)</span> <ref href="#" uk:canonical="[1982] 3 All ER 897" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1982">[1982] 3 All ER 897</ref>, recently cited in <span style="font-style:italic">Re M'P-P</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/584" uk:canonical="[2015] EWCA Civ 584" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 584</ref> at [67].  That said, important in the welfare evaluation is the fact that A has been in her prospective adoptive home for approximately 4/5<span style="vertical-align:super;font-size:smaller">ths </span>of her life.  As the Court of Appeal said at [65] (<ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/793" uk:canonical="[2016] EWCA Civ 793" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 793</ref>), the welfare balance to be struck must inevitably reflect these particular circumstances, which of course are different from the circumstances when the placement order was made.  The balance at the placement stage naturally would have tilted towards a family placement if relatives had been assessed, as these grandparents would probably have been, as being able to provide good, long term care for a child within their family.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr. Feehan QC and Mr. Todd, on behalf of the adopters, have invited me to consider the case through the lens of the Convention (ECHR) rights of A and of the parties.  They strongly assert that Mr. and Mrs. X and A have acquired mutually interlocking <span style="font-style:italic">Article 8</span> rights to a family life together; they emphasise that these are living and practical rights, actually exercised by those who hold them.  They refer to Baroness Hale&#8217;s categorisation of &#8216;parent&#8217; in <span style="font-style:italic">Re G</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2006/43" uk:canonical="[2006] UKHL 43" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] UKHL 43</ref>, specifically drawing attention to her inclusion of &#8216;psychological parent&#8217; (including an adoptive parent) as one of the three forms of &#8216;natural parent&#8217; of a child.  This submission has the explicit endorsement of McFarlane LJ, who observed in his judgment following the appeal in this case at [79] that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;It must be beyond question, as a matter of fact, that the relationship that now exists between Mr. and Mrs. X and A is sufficient to establish family life rights that justify respect under <span style="font-style:italic">Article 8</span> in relation to all three of them.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr. Feehan draws a distinction between these established rights, exercised in practice, and those which might be claimed by the paternal grandparents; he argues that while the grandparents have biological and blood ties to A, they have no recognised Convention rights; he supports this argument with a reference to <span style="font-style:italic">Lebbink v Netherlands</span> (ECtHR) <ref href="#" uk:canonical="[2004] 2 FLR 463" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 2 FLR 463</ref> at [37]. McFarlane LJ leaves this question to some extent open, tentatively formulating (again at [79]/[80]) that no such &#8216;family&#8217; rights have arisen for the paternal grandparents as:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;&#8230; [t]hey have never met her. She does not know of their existence. They have no relationship whatsoever. Their son, A's father, has never had parental responsibility for A. The same is likely to be the case with respect to family life rights of A with respect to her grandparents. It may well be, however, that A has some "private life" rights with respect to her natural family&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr. Feehan further advances a case, though not as vigorously, that A has rights under <span style="font-style:italic">Article 3</span> to be protected from inhuman treatment; he contends that the evidence supports the contention that an abrupt removal of A from the care of the prospective adopters (for that, on the evidence, is what it would be likely to be) would be cruel and/or inhumane and thus violate this right, which is claimed independently of that asserted under <span style="font-style:italic">Article 8</span>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">An adoption order can, of course, only be made if one of the requirements of <span style="font-style:italic">section 47(2)</span> of the <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref></span> is satisfied; in this case, it is necessary for me to consider dispensation of the consent of the mother, though not formally the father (see <span style="font-style:italic">section 47(2)(c)</span> and <span style="font-style:italic">section 52(6)</span>).  In that respect, I am required to determine whether adoption is in the best interests of A, and then whether A&#8217;s welfare requires the dispensation of consent (see <span style="font-style:italic">section 52(1)(b)</span> and <span style="font-style:italic">Re P (Placement Orders: parental consent)</span> <ref href="#" uk:canonical="[2008] 2 FLR 625" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 2 FLR 625</ref>). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On an application for an adoption order, I am further required &#8211; per <span style="font-style:italic">section 46(6)</span> &#8211; to consider:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;&#8230; whether there should be arrangements for allowing any person contact with the child; and for that purpose the court must consider any existing or proposed arrangements and obtain any views of the parties to the proceedings&#8221;.  </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On this issue of contact, I have also been referred to <span style="font-style:italic">section 51A</span> of <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref></span>, which provides that when making an adoption order or at any time afterwards I may make an order:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;&#8230; requiring the person in whose favour the adoption order is or has been made to allow the child to visit or stay with the person named in the order under this section, or for the person named in that order and the child otherwise to have contact with each other&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;margin-right:0.06in">Such an order could on these facts be made in favour of the paternal grandparents (as they are related to A by blood) (<span style="font-style:italic">section 51A(3)(a)</span>); they would need to make an application for leave to apply for such an order (<span style="font-style:italic">section 51A(4)</span>), though I have been directed to no provision in the <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref></span> or in <span style="font-style:italic">rule 14 FPR 2010</span> which requires the application to be in writing.  I can say at once that I am satisfied that the grounds in <span style="font-style:italic">section 51A(5)</span> are established in this case to justify the grant to the paternal grandparents of leave to make such an application, notwithstanding the absence of a formal written application in this regard.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The evidence</span></heading>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The evidence led at this hearing focused on a number of key issues, which I discuss below in turn:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">A&#8217;s current attachments;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The potential for short-term and long-term harm to A from the decision in this case;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Capabilities of the adults; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Transition of care;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Direct and indirect contact.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">A&#8217;s current attachments</span>.  The evidence clearly demonstrates that A has settled with, and become fully integrated into the lives of, Mr. and Mrs. X and their extended families.  Mr. X told me that it was &#8220;love at first sight&#8221; when they saw A; it is common ground that the prospective adopters adore A &#8220;and it is evident&#8221; according to the Annex A reporter (not challenged) &#8220;that [A] is cherished by the adopters and their immediate families&#8221;.  A has been observed by many to be &#8220;the centre of Mr. and Mrs. X&#8217;s life, their decisions and plans always have her at the centre and in all ways they have provided her with the best care possible&#8221; (Annex A).  Dr. Young remarked from her observations within the home that A demonstrated &#8220;secure base&#8221; behaviour (see [9] above), frequently &#8220;checking in&#8221; with the prospective adopters as she initiated interactions with the visiting expert; she identifies with Mr. and Mrs. X as her parents, and in Dr. Young&#8217;s view, A demonstrates a &#8220;secure attachment&#8221; to them.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is often said that if a child has been able to forge secure attachments with carers, this provides a sound base (what Dr. Young described as &#8220;an internalised blueprint&#8221;) for the child to take into future relationships; it is suggested in this case on behalf of the grandparents that A&#8217;s secure attachments with the Xs would augur well for her ability to transfer those attachments to new carers.  In this case, Dr Young considered that well-recognised principle to be of limited application; she considered that there was no doubt that A would suffer the loss of her attachments to Mr. and Mrs. X traumatically, which would equally undoubtedly impact on her attachment security in the short term: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;[A]ttachment security forms the bedrock of child development and socialisation and I would expect some regression in terms of her developmental progress in the early stages of any such move. Whether this will have longer term effects on her ability to form security of attachment is not possible to clearly determine, but there is certainly a possibility this could be so.&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.49in">Mrs. Gaskin agreed with this view; she opined:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;I am concerned that such adversity and trauma could impact on her ability to recreate such a relationship in the future with a sense of safety and security to assist in her future development. If this were to be so, the trauma of such a move would be enduring and impact on her not only in the short term but also the medium and long-term. If her ability to form a secure attachment with the paternal grandparents was compromised to such an extent, I worry about the long term emotional impact of the same on A&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Local Authority adoption social worker confirmed that he too agreed with these analyses.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">The potential for short-term and long-term harm to A from the decision in this case</span>.  There is professional consensus that A would suffer trauma, distress, confusion and emotional harm if she were to be uprooted from the home of the prospective adopters and placed with other carers. The more difficult question is whether that short-term (which Dr. Young measures as being likely to last for between 6 and 12 months) distress and harm to her attachment security would be followed by longer-term damage in those domains, and specifically in her ability to form new secure relationships.  This possibility has further to be weighed with the risk of long-term harm to A by remaining in her adoptive home when her siblings are within the paternal family, bringing with it feelings of rejection.  There are many unknowns in all these various scenarios; the professionals reminded me that it is no-one&#8217;s practice to remove children from situations where they are receiving care to a very high standard (as here), to place them permanently elsewhere; there is therefore unsurprisingly little if any data (illustrative or otherwise) on which they can usefully draw.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The predictable certainty of short-term emotional harm and trauma would be likely to develop into long-term harm if A fails to establish secure attachments with her grandparents and/or the wider paternal family.  This risk is not quantifiable, but is nonetheless regarded by Dr. Young as a serious possibility that cannot sensibly be ignored.  The evidence suggests to me that her failure to attach may derive from her broken trust in the adult world, profound confusion, and/or the emotional or practical unavailability of a new carer; most likely it would be a combination of these and other factors.  Her distress at the move would be likely to play out (certainly in the early days) as marked challenging behaviour, but this may convert into remote and introvert behaviour as she resigns herself to her new situation. Mrs. Gaskin was concerned that the paternal grandparents may struggle to manage challenging behaviour; Dr Young reminded me that withdrawn behaviour, often subtle but no less significant as an indicator of distress, is often missed by a carer.  Damage to her emotional security in the short-term, certainly if it becomes long-term, could affect her ability to access schooling; at this stage of her life every day, every week, every month is crucial in terms of her emotional development; it can be hard for a child to catch up later in relation to emotional steps missed now.  Dr Young was of the view that one would not really be able to see for 12 months or so what the likely impact of a move had been on A.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The risk of potential long-term harm to A by her remaining in an adoptive home arises when, as an adolescent, she begins to explore her identity more intensely, considers possible issues of rejection, and challenges her adoptive parents about her situation (per Dr. Young).  The paternal grandparents expressed in their own terms their concern that if she is not permitted to live within the birth family, A: &#8220;may feel abandoned by us or feel that she should have been permitted to live with us&#8221;.  Dr. Young was of the view that this risk of harm would be materially moderated by her having contact with her birth family throughout her life: &#8220;if she has some links with her birth family, this can address some of the trauma experienced in adolescence&#8221; (evidence in chief).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">While the paternal grandparents recognise the potential for harm to A if she is moved to live with them (an important consideration in offering a degree of protection to A), Mrs. Gaskin was nonetheless of the view that they: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;&#8230;perhaps underestimate the amount of distress and trauma which will be felt by A if she were to be removed from her family at this age and stage of development. I am concerned that the distress might conceivably last longer than suggested in previous reports, and if enduring in nature how this would impact upon A&#8217;s ability to have confidence in her new world and the adults on whom she relies to keep her safe and provide her with predictable care. I am concerned for A about the understandably compromised ability of Mr. and Mrs. X to support her in a move from their care to that of the paternal grandparents, and that this will add to the trauma she will experience as a result of their sudden disappearance from her life, along with everything which is familiar and reassuring to her&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The independently instructed professionals, together with the Children&#8217;s Guardian, expressed the real concern of A losing her ability to trust adults, and her experiencing high levels of confusion by the disappearance of her parents who have met her needs to a high standard.  Significant doubt was expressed about the ability of the paternal grandparents to repair the damage caused by such a move (without criticism of them as parents more generally), and if so the likelihood that A would regress emotionally and developmentally as a result of the impact of the move.  Mrs. Gaskin considers that the paternal grandparents will require more significant professional support than they anticipate.  She adds:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;&#8230; in the event that A was unable to form a secure attachment to the paternal grandparents, I worry about the short, medium and long-term emotional impact on her.  I would also worry about the impact on her birth family, particularly [the paternal grandmother] with the high emotional demands that this will make on her.  I fear that [the paternal grandmother] might be overwhelmed, and her own health compromised, and as such A and J's stability of placement undermined&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Capability of the adults. </span> Mr. and Mrs. X, both in their 30s, have been shown to offer a high quality of care to A.  They present to all the professionals, and indeed to me, as loving and thoughtful parents who are focused on A&#8217;s needs.  They have responded to the evolving picture over the last months, and have been able to re-cast their views about A&#8217;s future, describing themselves as being &#8216;on a journey&#8217; in relation to their thinking around adoption for A.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The paternal grandparents (aged 58 and 60) have been married for over 40 years, have raised five children of their own, and currently care for their 17-month old grandson, J.   They were assessed by Mrs. Gaskin to demonstrate a good understanding of a child&#8217;s basic needs and a positive capacity to parent. They appear to share the caring tasks of their grandson equally, and have many strengths as parents. They are highly motivated to care for A, of that I am certain, and take the view strongly that A should be brought up within her birth family, which is in her best interests throughout her life.  They accept that the prospective adopters have cared well for, and love A, but understandably regard the care available within a natural family as &#8220;irreplaceable&#8221;. They are described as a &#8220;very warm and welcoming couple&#8230; It is very evident that their family is the most important thing in their lives, and it would appear that [they] are at the centre of the family&#8221; (Beth Miller: SGO assessment report). My own assessment of the paternal grandparents entirely accords with that view.  There is no dispute that had the paternal grandparents been identified as potential carers back in May or June 2014, they are likely to have been positively assessed to care for A, though how that would have impacted on their ability to accept subsequently the placement of J in their care is less clear.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The paternal grandmother told me in her oral evidence:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;I have never met [A].  But I have thought about her every day&#8230; it broke my heart to think that she went into care; no one knows the stress and the anguish; she is my flesh and blood.  We came forward as soon as we knew about her existence.  I would give her all the love she needs.  We would have done the same for A as we did for J; we would have been there in a heartbeat&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mrs. Gaskin was concerned about a level of, perhaps unsurprising, naivety in the paternal grandparents&#8217; responses to the projected distress and trauma which would inevitably be caused for A in the event of her being placed in their care, and identified a number of additional &#8216;weaknesses&#8217; in their proposal for A to be in their full-time care.  The paternal grandmother told me in her oral evidence that &#8220;I did not want to come across as na&#239;ve.  We would give her all the love and attention she needed.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The paternal grandmother has suffered from depression for over 35 years, and continues to take anti-depressants; she feels that her mental health is well managed by medication, and considers that the arrival of J in her home has alleviated symptoms.  She suffers from osteoarthritis and has further experienced some chronic difficulties with her knees, foot and back, which can affect her mobility. None of these health-related issues have influenced the views of the professionals in the case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The paternal grandparents occupy a central place in a large extended family who live locally; it is evident that they offer each other good practical and emotional support day-by-day, as and when required, in the care of J and the other grandchildren; this I am sure would continue, indeed would probably increase, in the event of A joining the paternal grandparents&#8217; household.  If for any reason the paternal grandparents found themselves unable to care for A and/or A and J, there is little doubt that they would be scooped up by another member of the family; this would however, inevitably mean further loss and displacement for A (the Guardian referred to this as further &#8220;emotional trauma&#8221;), which would be increasingly difficult for A to manage.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Children&#8217;s Guardian and ISW expressed their concerns about the impact upon J, and the stability of his placement with his grandparents, in the event that A was placed with them; they both identified the risk that he would challenge the newcomer, and that the paternal grandparents may become overwhelmed by the task of integrating A into the established family household.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the avoidance of doubt, I should record that the paternal grandparents express anger at the Local Authority for failing to take the relevant steps to trace them when the public law proceedings were on foot in relation to A in 2014.  They feel, understandably, that things could have been so different had rudimentary steps been taken.  That said, I am satisfied that they will be able to put this anger to one side, and that it would be unlikely to interfere with their ability and/or willingness to work with the Local Authority under future plans for A.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Transition of care</span>:  As I mentioned above (see [9] above), the optimal age at which transition of care and attachments can be achieved is around six months.  We are now well past that stage.  I was advised by Mr. Richardson (as had Bodey J) of the three options by which A&#8217;s care could be transferred from the Xs to the paternal grandparents (see <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/793" uk:canonical="[2016] EWCA Civ 793" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 793</ref> at [56]).  Option 1 contemplates a transition over approximately 4 days, and requires Mr. and/or Mrs. X to participate, a task which Mrs. X has indicated her inability to perform; although Mr. X is more persuadable, he is perhaps not convinced of his ability: &#8220;I would have to put my own heartache on one side&#8221;.  Option 2 contemplates a swift overnight move without any preparation for A; Option 3 contemplates the removal of A from the Xs initially to a bridging foster placement for three to six months before moving on to the paternal grandparents.  Dr. Young and Mr. Richardson advised me that none of these options is in A&#8217;s best interests; it would be necessary therefore to choose the least bad alternative.  Mr. Richardson rather poignantly asked rhetorically &#8220;how can an <span style="font-style:italic">adult</span> say&#8221; which of these options would be the least harmful for a child such as A.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Quite apart from the difficulties of formulating an appropriate transition plan (which has, frankly, defeated all of the professionals who have contemplated it), it is apparent from the evidence of Dr Young and Ms Gaskin that there is no language, there are no words, available which could be deployed to offer A adequate comfort or explanation for what would have happened to her. It would be impossible for the paternal grandparents as much as for the experts to provide reassurance to A in her state of fear, trauma and/or &#8220;enormous distress&#8221; (Mrs. Gaskin) in a situation which she would experience as incomprehensible.  Mrs. Gaskin told me that she felt that A would &#8220;feel it (i.e. a move from Mr. and Mrs. X) as cruelty; it would be somewhat inhumane&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The further difficulty for A in the transition would be from being the only child in placement, and the apple of her parents&#8217; eye, to having to vie for attention with a younger sibling who will be equally if not more demanding and competitive for the attention of the adults.  The Children&#8217;s Guardian is of the same mind: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.95in">&#8220;[A] would potentially be struggling on two fronts, becoming accustomed to new primary carers and a younger more demanding sibling. In addition, J could be struggling with having to share attention because of [A]&#8217;s competing needs, and this could have a marked effect on his emotional development&#8221;.  </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;margin-right:0.06in">A yet further difficulty, or potential difficulty, is the fact that K retains a relationship with his (and A&#8217;s) natural father; this would need to be managed very carefully and thoughtfully for A, in order to avert possible rivalries. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally, the impact on a child of radical change is sometimes mitigated, to some extent at least, by being able to maintain a degree of contact with those from whom they have moved; in this case, there is no realistic prospect of this.  If A is placed with the paternal grandparents, she would be unlikely to retain any relationship with Mr. and Mrs. X by contact or otherwise; the Xs would find the situation intolerably painful, and they would find it too hard to see A, coupled with their concern about confusion for her. In this respect, the outcome for A is &#8220;all or nothing&#8221; (per Children&#8217;s Guardian). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Direct and indirect contact</span>: When they first made their application, Mr. and Mrs X had agreed to indirect contact taking place between A and the birth parents once per year, albeit not to include photographs, gifts or celebration cards. This stance was, at least in part, attributed to the standard preparatory pre-adoption training which they had received, where this is described (according to Mrs. Gaskin) as the &#8216;norm&#8217;. Over the course of this protracted litigation, and particularly recently, their position has changed in significant respects. They told the adoption social worker:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.95in">&#8220;When we first thought about the adoption process, we did not envisage direct contact with any birth family. However, with circumstances as they are, we see the advantages of contact with siblings. We think the challenges are the emotional aspect but in time [this] will get easier&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:1in;margin-right:0.95in;text-indent:-0.5in">And more recently still in their written evidence:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.95in">&#8220;We are also very aware of the importance of [A] having some knowledge of her birth family and importantly some relationship with her siblings. Whilst we have acknowledged to the experts our commitment to some level of direct contact if that is felt in the best interests of [A], we do not wish such contact to be disruptive to her continued placement with us, or confusing to her in her development and security. The purpose of the direct contact needs to be carefully considered and the contact tailored to that end&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:1in;margin-right:0.06in;text-indent:-0.5in">Mr. X augmented this in his oral evidence, speaking for himself and his wife:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.95in">&#8220;We would like A to have contact with the [birth] family if possible&#8230; We do genuinely understand the pain&#8230; If the chance of contact is available, then this needs to be explored for us and for A so that she can have the right to know her birth family and have a good life.&#8230; It&#8217;s not about the adults, it is about the children. We have to put her needs first. Happy to do the contact; it would be great for A and her brothers; hopefully we can have a bond (with the paternal grandparents); we can ask them for advice and go to birthday parties&#8230;&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I was quite particular in my attempts to establish whether Mr. and Mrs. X felt pressurised by their rather vulnerable situation to agree an arrangement with which they did not feel entirely comfortable; having listened to Mr. X in his oral evidence, and having read and heard the evidence of those with whom they have spoken frankly about this issue away from the court room, I was satisfied that he and his wife genuinely had come to appreciate the benefit to A in there being direct contact between A and her birth family.  Mrs. Gaskin spoke of them as people with integrity (see below); from all that I could see and read of them, I concur.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr. Young and Mrs. Gibbons were of the view that the contact should commence at a relatively low level of twice a year; Dr Young was clear that it is always easier to increase successful contact than to reduce it if it is unsuccessful.  Mr. and Mrs. X contemplate contact twice per year as the &#8220;starting point&#8221;, adding &#8220;if things progress as we hope that they would, things will change and increase, rather than stay the same for the future.&#8221;  The Xs are prepared to consider indirect contact at a higher frequency between the direct visits. Mrs. Gaskin was of the view that contact at a frequency of four times per year would be suitable.  She discussed this issue with the Xs, and reported:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.95in">&#8220;Mr. and Mrs. X have suggested that initially they feel they could cope with four times per year, rising to six times in the light of positive progress. Of course in time, Mr. and Mrs. X would be the final arbiters of the frequency and duration of contact, and they would make this decision on the basis of [A]&#8217;s needs.  I am of the view that they are people of integrity and truly want what is best for [A]. They are very clear that they believe that [A] should have a relationship with her birth family and this is something that they have always considered to be the case&#8230; They believe that it is important for [A]&#8217;s emotional well-being in the long term that she has a relationship with her brothers and paternal family.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For their part, the paternal grandparents are clear that they would respect the court&#8217;s decision if it was that A should remain with the prospective adopters, and would seek to cooperate with any contact that can be agreed or ordered as being in A&#8217;s best interests. The paternal grandmother told me that she did not consider that twice yearly contact would be sufficient. That said, even if they felt that the frequency was insufficient, the Children&#8217;s Guardian was of the view that the paternal grandparents:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.45in">&#8220;are highly motivated to keep in contact with [A] if she cannot be placed with them&#8230; I am confident that [the paternal grandparents] have a sensitive and child-centred approach with children that would help them to manage contact well for [A]. I think it unlikely that they would overwhelm her with their own needs and it is more likely that they would allow her to get to know them at a pace she is comfortable with&#8221;. (Children&#8217;s Guardian).</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Local Authority proposes that the first contact should take place in March 2017 and then again in September 2017, and on a regular six monthly basis thereafter. They have offered regular support to the prospective adopters whilst the initial planning of direct contact is undertaken, and also offer a pre- and post-contact briefing around each direct contact session. Additional therapeutic support has also been offered to the prospective adopters.  The Local Authority rationalises the proposal for direct contact as enabling A to develop knowledge, understanding and an ongoing relationship with her birth siblings from an early age, so that her separation from her family is accepted by her as a part of her life.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Consistent with, and integral to, the establishment of a contact regime if an adoption order is made, Dr. Young is of the view that it would be most helpful if the prospective adopters could meet with the paternal grandparents so that they can start to share information about A, and to consider how the contact might work; she felt that this should take place soon after the conclusion of the hearing while there is still some momentum arising from the proceedings.  She told me that the relationship between all of the adults is key to the success of future contact; the adults have to be comfortable with the arrangement.  She has offered to contribute to the setting up, and early stages, of the contact.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Discussion and Conclusion</span></heading>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">No one can doubt the colossal pressure which this litigation has heaped on the prospective adopters and the paternal grandparents over a sustained period of time, and through two rounds of litigation; while commendably uncomplaining about the legal process, it is reasonable to conclude that they have found the repeated forensic scrutiny of their lives unacceptably intrusive, and the uncertainty as to the outcome unbearable.  Doubtless each of them has had to develop strategies of self-preservation to protect themselves from the outcome that A is not ultimately to be in their care. All the adults will have found it hard to be assessed and reassessed, but I sensed that each recognised why this needed to happen; to their great credit, and I believe A&#8217;s ultimate benefit, they have all engaged fully.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have listened with great care to the evidence.  I was impressed by the ability of Mr. X and the paternal grandmother to reflect generously and sincerely their concern for the other in these difficult circumstances; they all strike me as people of integrity with a deep respect for family.  I have been struck by the thoughtfulness of those professionals who have endeavoured to chart these very uncertain waters.  I was greatly assisted by the high quality of professional expertise in this case, in a way which, it is clear, Bodey J was not.  Mrs. Gaskin described how she had &#8220;agonised&#8221; over the assessment &#8211; &#8220;this has been one of the most difficult cases I have had to deal with&#8221;.  Dr. Young offered appropriate and helpful expert advice; the Children&#8217;s Guardian&#8217;s report was one of the best of its kind I have seen.  She for her part observed that &#8220;this has been one of the most testing and difficult cases that I have been asked to report on in my 29 years of practice as a Social Worker&#8230;&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A is, and has been, at the centre of my decision-making.  I do not propose to repeat my description of her set out above; it is sufficient for me to record at this point that she has in my judgment had her global needs met in a safe and secure way for the whole of her life thus far; her security and her attachments have enabled her to explore, socialise, and master developmental stages confidently and appropriately. A has attached to Mr. and Mrs. X whom, according to Dr. Young, she identifies as her secure attachment figures. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that both sets of applicants have something genuine and valuable to offer A now and throughout her life.  I am of course influenced in reaching my conclusion by the fact that A is securely attached to Mr. and Mrs. X, whom she regards as her parents, and is embedded in their family whom she has come to know as her natural relations.  She will have little knowledge or recollection of any life which is different; the continuity and high level of care which she has received has nurtured a strong sense of security with these primary attachment figures.  I am influenced too by the knowledge that the paternal grandparents, rightly described by the Guardian as &#8220;child-centred people&#8221;, are currently raising their grandson with evident love and skill; that they would &#8211; I accept &#8211; have been more than likely to have been favourably assessed to care for A had they been considered over two years ago, and had that been so, then A would be living with them now.  Their belief that A would be best placed in their care is both sincere and passionately held.  If A is placed with the grandparents, she would have the considerable additional benefit of being raised in a household with one of her siblings, and in close proximity to the other.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I am equally satisfied that risks are attached to each outcome for A.  In evaluating the respective cases, it has been necessary to make some informed predictions about the future, conscious of my obligations to consider the issues by reference to A&#8217;s whole future life.  In the home of the Xs, there is a clear and identifiable risk that A will feel, perhaps strongly, a sense of rejection when she comes in due course to realise that her brothers are cared for within the birth family, and she is not.  This may have significant implications for her sense of identity and self-esteem.  This risk, if it materialises, will not arise for a number of years.  If it does, it is likely to be moderated by a number of factors, including:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">That A and the Xs have developed a secure attachment over the last 24 months, which it is reasonable to expect will continue to grow and consolidate; this will operate as an inherent protective defence against disruption of placement;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in">The ability and willingness of the Xs to be open with A about her adoptive status as she is growing up; Dr Young believed that the &#8220;key&#8221; is in how Mr. and Mrs. X support A to make sense of her status, and advocated adoption &#8216;talk&#8217; with her from an early age;</p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ParaLevel2" style="margin-left:0.98in">and</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The introduction and maintenance of a direct relationship between A and her birth family, namely siblings and other relatives, through contact.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The risks of medium-term or long-term damage to A by her making her primary home with the paternal grandparents flow directly from the consequences of a move.  No question is raised about short-term harm; it is assessed as being inevitable.  The professionals spoke of the serious possibility of medium-term and long-term emotional and psychological damage to A by the traumatic severing of the secure attachments which she has formed with the Xs, with the consequent risk of disruption to her placement if these risks materialise and are not adequately addressed.  Dr. Young opined that &#8220;a significant move such as this at this stage of her development <span style="text-decoration-line:underline;text-decoration-style:solid">will have</span> a significant detrimental impact on her, of which the long term consequences would be uncertain, and thus any decision must proceed with this knowledge in mind&#8221; (emphasis by underlining added).  While I am satisfied that there would be no shortage of love, and willingness on the part of the paternal grandparents to assuage the evident hurt for A in the event of a move, which may help A to some extent, the ability (or inability) of the adults around A to address the risk of deeper damage would be affected by a combination of the following factors:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">A real possibility that A simply does not forge attachments, let alone secure attachments, with new carers, having suffered the traumatic severance of secure attachments with the Xs;  there is limited optimism that she will be able to deploy her &#8220;an internalised blueprint&#8221; (see [27] above);</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Helplessness on the part of any of the adults around her to explain, in language which a 2&#189; year old will understand, why this change has been foisted upon her;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The lack of experience on the part of the paternal grandparents to deal with the sophisticated and complex challenges facing A in these circumstances, and the evidence, which I accept, that they somewhat underestimate those challenges; </p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ParaLevel2" style="margin-left:0.98in">and</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">A possible adverse reaction by J to the arrival into the family home of A, and by A who would no longer be an only child in placement, and the risk that the grandparents may be overwhelmed by having to cope with challenging behaviour from A and/or J, or that A will become withdrawn and this will not be detected.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.49in">The risks of long-term damage are likely to be exacerbated (though in what ways, and to what extent it is difficult to assess confidently) by the fact that none of the transition plans are deemed by the experts to be in A&#8217;s best interests.  The least bad alternative, which the experts reluctantly favoured among them, would involve summary (and so far as A is concerned unplanned) removal from the Xs care.  It is hard to imagine, as Mr. Richardson emphasised, how an infant will react to having lost all her emotional and practical reference points overnight.  </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I should say at this stage, that I was extremely impressed with the way in which the Xs have already displayed many of the qualities which the professionals would advocate in order to mitigate the risk of harm if A were to remain with them; they have prepared a thoughtful, child-friendly, life-story book for A which I have seen, which identifies honestly and in age-appropriate terms who are the key people in her life &#8211; birth parents, foster parents and prospective adopters all featuring with explanations of their roles and importance to A.  They have maintained contact with the foster carers who looked after A for her first seven months, allowing A to develop a real appreciation of her life-journey; I felt that this ability to embrace wider aspects of A&#8217;s life would be likely to carry through into an ability to involve the birth family in A&#8217;s life. They have developed in their own adoption &#8216;journey&#8217; to a position of accepting direct contact between A and her birth family.  The risk that A may develop a sense of rejection may be further mitigated by it being explained to her as she grows older &#8211; when the language <span style="font-style:italic">would then be available</span> to explain what has happened to her in a way which an adolescent will understand &#8211; that the difference between her situation and her brothers is not about <span style="font-style:italic">her</span>, but about the context and circumstances in which they each respectively began their lives. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I did detect a degree of naivety on the part of the grandparents, which I alluded to in [57(iii)] above; I do not intend that as a criticism, for it is difficult for any of us truly to estimate the impact on A of what is proposed.  But the grandmother&#8217;s optimism (&#8220;I accept there would be <span style="text-decoration-line:underline;text-decoration-style:solid">a degree of disruption</span> to [A] but she is so young that I do not think that this would cause any <span style="text-decoration-line:underline;text-decoration-style:solid">lasting damage</span>&#8221; my emphasis by underlining) seemed inadequate to confront the enormity of what is feared.   She herself recognised that she would feel unable to explain to A what had happened to her, and told me that she would turn to the experts for advice; but as I have indicated above, the experts found themselves unable to offer any real comfort, let alone solution, to this considerable challenge.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It has been helpful to consider the issues in this case also by reference to the Convention rights (ECHR) of these parties.  Had the outcome been more finely balanced in my judgment, then the rights engaged may have been of more significance to my decision; I would in those circumstances have been likely to conclude that the rights to family life actually enjoyed by A and the Xs would have tilted the balance in their favour.  Indeed, I would have felt myself unable to attribute to the grandparents any <span style="font-style:italic">Article 8</span> rights as such, given that &#8211; although linked by consanguinity &#8211; they have no actual relationship with, indeed they have of course never even met, A.  For completeness, I add that I do not consider that A&#8217;s <span style="font-style:italic">Article 3</span> rights are properly engaged on these facts; as my conclusion on this is of no significance to the outcome, I do not descend further into discussion of the argument.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The obligation on me to consider &#8220;whether there should be arrangements for allowing any person contact with the child&#8221; (<span style="font-style:italic">section 46(6)</span> of <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref></span>) is accentuated in this case by the real prospect (accepted by the prospective adopters, as in A&#8217;s interests) of direct contact between A and her birth family post-adoption.  This indeed adds a new and important dimension to this difficult case.  The proposal to <span style="font-style:italic">introduce</span> a relationship between an adopted child and her birth family <span style="font-style:italic">after</span> adoption by way of direct contact is in my own experience unique.  I was not at all surprised to hear from the adoption team manager that it was unprecedented in this authority&#8217;s experience, and in the experience of Barnardo&#8217;s (with their wealth of adoption knowledge) whom they consulted on the issue.  This proposal reflects the resourcefulness of all those involved &#8211; coupled with the creativity of the professionals, and the selflessness of the proposed adopters &#8211; to divine an outcome for A which best meets her needs.   As I have indicated above, if contact were to happen in the way proposed, it would be likely to play a highly material part in neutralising A&#8217;s possible sense of rejection by her birth family, while remaining in the Xs care, at the stage of her development when she is considering more maturely the difficult issues around her identity.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The viability of direct contact depends additionally and crucially on the ability of the paternal grandparents, and any member of the paternal family with whom A is to have contact, to accept the decision I make, and to support without reservation the outcome for A to reside with Mr. and Mrs. X.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The professionals and the parties have addressed me on the issue of the right frequency of any such contact; there is a dispute about this (as I have indicated at [46]-[48] above), and in resolving that dispute, I regard it as necessary to return to first principles, and consider the purpose and context of any contact.  Its purpose would be principally to forge a link between A and her birth family, and between the families more widely, and to dispel for A any sense that she has been abandoned or unwanted by her birth family.  In these respects, it would hopefully enhance and clarify her identity.  The context is equally important: at present A is only aware in a rather notional sense of the existence of a birth family, her awareness deriving from the photographs and limited narrative in the life-story book prepared by the adopters; she has no current relationship whatsoever with any member of that family.  Those considerations each individually, but certainly collectively, drive me to the conclusion that direct contact would most appropriately be set at a low frequency (i.e. initially of twice per year), on the basis that it could be increased if shown to be successful.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In reviewing the competing options for A I have of course considered the proportionality of the outcomes proposed, particularly where one outcome, namely adoption, involves the creation of a new legal identity for A, and the court&#8217;s affirmation of a permanent, enduring relationship between her and a couple with whom she has no blood ties.  Drawing all of these powerful factors together, I have reached the clear conclusion that it is in A&#8217;s best interests that she should live with Mr. and Mrs. X, where she has established solid, loving, and secure emotional foundations; from that &#8216;secure base&#8217; she will be able in a wider and more general sense (as she did in a more limited and specific sense when Dr. Young visited her home earlier this year) to explore the world, and importantly with confidence explore and embrace new relationships, including those with her birth family.  This outcome is the one which, looked at in the round, is most likely to contain and mitigate the risk of harm which is feared (<span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref>(e)</span>), and permit A to preserve and enjoy all of the important relationships in her life, including those with the people who she has come to know as her parents, and her birth grandparents and siblings.  This outcome most faithfully promotes &#8220;the likelihood of&#8221; the continuation of important relationships for A and the &#8220;value to [A] of [them] doing so&#8221; (<span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref>(f)(i) <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref></span>).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The long delay in reaching a conclusion to this litigation concerning A will undoubtedly have exposed her to the prejudice to her welfare which statute (<span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(3)</ref></span> of the <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref></span>) requires me to avoid. Given the extraordinary length of time since the Xs made their application, there is a pressing need for resolution now.  A cannot afford any further delay in, let alone challenge to, the court&#8217;s endorsement of her placement.  Her best interests, and her place within the Xs home, in my judgment must now be secured by the making of an adoption order in their favour, and it follows that the consent of the mother to that order must (and I use that verb to connote the imperative: <span style="font-style:italic">Re P</span> above) therefore be dispensed with, and I do so. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have considered carefully whether there should be an order for contact between A and her birth family.  The Children&#8217;s Guardian initially advocated that there should be such an order; she rowed back from that in her oral evidence:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in">&#8220;When I was writing the report, I felt that I should form a position, but I was not sure; I am entirely of the view that it is for the court to decide whether it is better to make an order.  My view is that the parties should take this forward as a matter of trust.  I know that the paternal grandparents would like to feel that they would need an order.  I would rather it was by agreement; the frequency of twice per year could be a starting point; it could develop if it was necessary; &#8230; the best scenario would be that the adopters and the grandparents should reach an agreement between them.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Of course, statute forbids me from making an order unless I consider &#8220;that making the order would be better for the child than not doing so&#8221; (<span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(6)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref></span>).  I am of the view that there should be some recorded acknowledgement on the face of the order:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">of the open position of the Xs that they regard contact as in A&#8217;s best interests;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">that they are agreeable to direct contact initially at a frequency of at least twice per year, interspersed with indirect contact;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">that the paternal grandparents have indicated their preparedness to accept the outcome of this litigation, and do nothing to undermine the security of A&#8217;s placement with the Xs;</p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ParaLevel2" style="margin-left:0.98in">and</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">that the Xs and the paternal grandparents welcome the involvement of Dr. Young in the facilitation of that contact initially, to be initiated by a meeting between the adults within the next few weeks. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.49in">On the basis of such a recording, I cannot conclude that it would be better for A that I make an order.  Indeed, it would be better for A to know that her adoptive parents were able to agree wholeheartedly with the proposal for contact without the need for court intervention.   I am further concerned that a court order may prove to be inflexible &#8211; however it be worded &#8211; to meet the demands of a rather uncertain arrangement. I have regard to what was said by Dame Elizabeth Butler Sloss P in <span style="font-style:italic">Re T (Adoption: Contact)</span> <ref href="#" uk:canonical="[1995] 2 FLR 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 2 FLR 251</ref>:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="ParaLevel2" style="margin-left:1.18in;margin-right:1.05in">&#8220;[first] it is for the benefit of the child that the adoptive parents should have the feeling that they are not under constraint in doing what they have already said they would do and everybody trusts them to do, but secondly, that if the circumstances change, they should have the flexibility to change with the circumstances and not to be tied to an order&#8221;.</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.49in">In many ways, as Jackson LJ inferred at [95] of the judgment at <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/793" uk:canonical="[2016] EWCA Civ 793" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 793</ref>, the facilitation of contact for A with her birth family, while maintaining the security of a placement in her adoptive family, has leant itself well to supporting the outcome which is likely in my judgment to serve A&#8217;s emotional needs best now and in the future. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Inevitably, as much as this outcome will provide great joy to the Xs, it will generate profound disappointment to the paternal grandparents and their family, exacerbated doubtless by the fact that in the earlier litigation they secured the outcome for which they contended.  They have plainly done all they can to advance their claim to care for and raise their granddaughter; this is significantly to A&#8217;s advantage as their important role, and the role of their family, will now be reflected in the establishing of a relationship with A through contact, from which I trust all will mutually benefit.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That is my judgment.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

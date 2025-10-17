@@ -1,0 +1,998 @@
+<akomaNtoso xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/311"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/311"/>
+	  <FRBRdate date="2022-02-09" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="311"/>
+	  <FRBRname value="RS v AM"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/311"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/311"/>
+	  <FRBRdate date="2022-02-09" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/311/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/311/data.xml"/>
+	  <FRBRdate date="2022-03-16T16:34:40" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-02-09" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" showAs="The Family Division of the High Court" shortForm="The Family Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="rs" href="" showAs="RS"/>
+	<TLCPerson eId="am" href="" showAs="AM"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-cobb" href="/judge-the-honourable-mr-justice-cobb" showAs="THE HONOURABLE MR JUSTICE COBB"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>311</uk:number>
+	<uk:cite>[2022] EWHC 311 (Fam)</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>6a29833e7b53253f0e7961c83aff1dbe423458a8fe8351be5dc78d560cca46d0</uk:hash>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.50in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1.00in; margin-right: 1.00in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 11pt; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .NormalWeb { font-family: Times; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .para2text1 { color: #666666; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .ListParagraphChar { font-family: Calibri, sans-serif; font-size: 11pt; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p style="text-align:center">
+        <img src="image1.png" style="width:1.0625in;height:1.0520833333333333in;"/>
+      </p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2022] EWHC 311 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD20C00698</docketNumber></p>
+      <p class="CoverMain">
+        <courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType>
+      </p>
+      <p>
+        <courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType>
+      </p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2022-02-09" refersTo="#judgment">9/02/2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center">
+        <judge refersTo="#judge-the-honourable-mr-justice-cobb">THE HONOURABLE MR JUSTICE COBB</judge>
+      </p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">
+        <span style="font-weight:bold">Between :</span>
+      </p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">
+              <party refersTo="#rs" as="#applicant" style="font-weight:bold">RS</party>
+            </p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right">
+              <role refersTo="#applicant">Applicant</role>
+            </p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">
+              <span style="font-weight:bold">- and -</span>
+            </p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">
+              <party refersTo="#am" as="#respondent" style="font-weight:bold">AM</party>
+            </p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right">
+              <role refersTo="#respondent">Respondent</role>
+            </p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">
+        <span style="font-weight:bold">Re C (Abduction: Article 13(b) &amp; Child&#8217;s Objections)</span>
+      </p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Christopher Hames QC and James Holmes </span>(instructed by<span style="font-weight:bold"> </span><span style="font-weight:bold;color:#000000">&#160;Eskinazi &amp; Co Solicitors)</span>) for the Applicant Father</p>
+      <p style="text-align:center"><span style="font-weight:bold">Henry Setright QC and Jonathan Evans</span> (instructed by <span style="font-weight:bold;color:#000000">Henry Hyams Solicitors</span>) for the Respondent Mother</p>
+      <p style="text-align:center">Hearing dates: 7-9 February 2022</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">THE HONOURABLE MR JUSTICE COBB</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level>
+	  <content>
+	    <p>
+ <span style="font-weight:bold">The Honourable Mr Justice Cobb :</span>
+ </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">
+ <span style="font-style:italic">The application</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The application before the court, dated 29 October 2020, has been brought by RS, a father (&#8220;the father&#8221;) under the <span style="font-style:italic"><ref href="https://www.legislation.gov.uk/ukpga/1985/60" canonical="1985 c. 60" type="legislation">Child Abduction and Custody Act 1985</ref></span> (incorporating the <span style="font-style:italic">1980 Hague Convention on the Civil Aspects of the International Child Abduction </span>(&#8220;<span style="font-style:italic">Hague Convention 1980</span>&#8221;)). The application concerns his younger child who I shall refer to as C; she is 9y 5m old. He seeks the return of C to Poland. The application is opposed by C&#8217;s mother, AM (&#8220;the mother&#8221;). This is a rehearing of the father&#8217;s application, following his successful appeal to the Court of Appeal (<span style="font-style:italic">Re C (A Child)(Abduction: Article 13(b)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1354" isNeutral="true" canonical="[2021] EWCA Civ 1354" court="EWCA-Civil" year="2021" jurisdiction="GB" type="case">[2021] EWCA Civ 1354</ref>).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Given the litigation history (which I outline in brief below), this application for summary return under the <span style="font-style:italic">Hague Convention 1980</span> is regrettably and unusually being determined some seventeen months after the mother and C arrived in England from Poland, following what she accepts was a wrongful removal from that country. I suspect that this must be one of the last abduction cases before the court in England and Wales to which the provisions of <span style="font-style:italic">Council Regulation 2201/2003</span> (&#8216;<span style="font-style:italic">BIIA</span>&#8217;) applies; <span style="font-style:italic">BIIA</span> provides an additional overlay to the <span style="font-style:italic">Hague Convention 1980</span> in this case to which I return briefly at the conclusion of this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">For the purposes of this hearing, I heard brief oral evidence from Ms Lynn Magson, the experienced Cafcass officer; I received customarily able written and oral submissions from leading and junior counsel for both parties. I had the benefit of a number of written statements from each of the parties, and further associated and supporting documents.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">
+ <span style="font-style:italic">Background</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The background can be summarised briefly as follows. The applicant father is 42 years old and is a Polish national. The respondent mother is 33 years old, and also a Polish national. The parties were married in 2009 in Poland. Some three and a half years after the parties&#8217; marriage, C was born. The father had previously had a relationship with the mother&#8217;s mother, by whom he has a daughter, D, who is now aged 23. D is therefore a maternal half-sister to the mother. D is both a paternal half-sister and maternal aunt to C. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The parents&#8217; relationship appears to have run into particular difficulties in the autumn of 2019, and it was then that the mother issued divorce proceedings in Poland, alleging adultery on the part of the father. In fact, the parties remained in a relationship of sorts for a further 12 months. The mother alleges that the relationship was significantly blighted by physical, emotional, and sexual domestic abuse, perpetrated in a home environment characterised by controlling and coercive behaviour by the father. She alleges that during the marriage (and since) the father abused alcohol and suffered from mental ill-health. I return to these allegations at &#167;34-36 below.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 17 September 2020, the mother removed C from the family home, together with the family&#8217;s pet dog. It is apparent that she had planned this for some weeks. She travelled to England to be united with a man with whom she had apparently formed a relationship, who I shall refer to as Mr E; they currently live together in the North of England. The mother had not informed the father of her intention to remove C from Poland in this way, or at all; indeed, she had misled him into believing that they were going to visit an aunt in Pomerania, some 275 miles away. The mother took money from a joint bank account. The father alleges that, some days after the mother&#8217;s disappearance Mr E contacted him and, using foul and threatening language, told the father to leave the mother alone.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Within less than a fortnight, the father discovered that the mother had removed C to England; during a telephone call, C told her father that she had made a long journey, and showed him the uniform for the English school which she was going to attend. The father entirely appropriately contacted the Polish Central Authority, and through the ordinary formal channels he was enabled to issue this application in the English High Court by the end of October 2020.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The application proceeded through a number of case management hearings to a final hearing before Arbuthnot J in April 2021. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Materially, on 9 November 2020, at a hearing before Mr Gupta QC sitting as a Deputy High Court Judge the father formally agreed that &#8220;he would not denigrate or criticise the mother to C or discuss the case with her during the contact period&#8221;; the mother gave a similar assurance.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Following C&#8217;s move to England, she had contact with the father by facetime or phone; the mother recorded a number of those conversations, and transcripts of two of those conversations have been placed before this Court. The mother relies upon these transcripts as evidence of the father&#8217;s inability or unwillingness to adhere to formally recorded agreements and/or court orders regulating his behaviour. To set a context, the father had filed sworn evidence in these proceedings in March 2021 describing the indirect contact as going well, describing how C &#8220;has been expressing longing for me more and more&#8221;. The reality (from these transcriptions at least) is rather different. In the first transcribed call, I note that the father told C about the imminent court hearing, advising her to &#8220;pack her bags&#8230; your days in England are numbered&#8221;. C not unnaturally became distressed and told her father that she did not wish to speak with him; the father replied with a threat:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">&#8220;&#8230; now it&#8217;s time for me and no matter how hard it hurts, you have this half hour to bear with me daughter&#8221;.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">&#8220;Daddy has the right to contact you and I will contact you, my daughter. I told you this would all backfire on you, darling. Not on Daddy&#8221;&#8230; &#8220;your mum is not able to spite me. She&#8217;s too small to spite me. She is too weak in the ears&#8221;.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In the second conversation (which took place, significantly, on 18 April 2021, <span style="font-style:italic">after</span> the father knew that the first conversation had been recorded and submitted to the Court), the father and C argued over whether she would be required to return to Poland at the hearing scheduled for the following day (19.4.21). The father followed this argument with a plain threat to the mother:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">F: &#8220;you have nothing to say baby girl, you&#8217;ll see tomorrow&#8221; [referring to the final hearing];</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">C: &#8220;&#8230; what you have done to me, what, how you have done to me and what you have done to me and where from I&#8217;ve got those wellings&#8230;and bruises, bruises and stuff&#8230;and who always hit me, you, not me&#8221;;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">F: &#8220;&#8230; just wait I will, I will repay her [the mother], she will end up where she ought to, I promised myself, she will end up there where she should end up&#8230;for that, she is trying to make a fool of you and me &#8211; daddy will make a fool of her, no I don&#8217;t have to do it, she already is. I promised this to her just as I promised myself that I would bring you to Poland I will prove it to you tomorrow&#8230;and likewise, I will prove to her that she will end up where she should end up&#8221;.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">F: &#8220;I said it I will bend over backwards and I will stick her in there&#8230;for that she was trying to make fool out of me and she is making fool out of you she made a fool out of the whole family&#8230;I will show her where her place is and that you don&#8217;t mess around with dad. She got it wrong because she hit upon the worst [of his family] and [his family] don&#8217;t give up&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">F: &#8220;I&#8217;m your father and your place&#8230;and your place is with me &#8230; I will show mum where her place is, and your place is at home&#8221;. </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">C: &#8220;my place is by mum&#8230;&#8221; </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">F: &#8220;not true&#8221;.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr Hames QC accepts, on the father&#8217;s instructions, that these conversations were &#8220;not acceptable&#8221;, and that they would inevitably have caused C &#8220;concern and distress&#8221;. I was told that the father &#8220;regrets&#8221; his actions, particularly as he had formally agreed in the face of the Court that he would not conduct himself in this way.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Further, at or about the same time (March 2021), the father sent a lengthy SMS message to the mother which included the following:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">&#8220;&#8230; you're going to land yourself in prison &#8230; I will destroy you in courts you will pay me back for all those years of my life that I spent living with a whore because who would do such a thing and if God forbids anything happens to the child than I will f*** both of you up. You no longer exist for me, you whore, but God forbids anything happens to [C] then I will find you even if it's at the other side of the world &#8230; don't be going back to [her or the father&#8217;s home address] because that's where whores get stoned to death.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">The father does not deny that he sent this, and other, abusive messages to the mother: &#8220;The foul language in some messages was caused by my distress and a sense of helplessness in response to the present situation of separation from my daughter and my wife&#8221;.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Arbuthnot J did not hear any evidence, and delivered judgement on the father&#8217;s application in May 2021; she refused the father&#8217;s application for summary return of C to Poland. The father appealed that decision; the appeal was heard on 29 July 2021, and judgement was delivered &#8211; allowing the appeal &#8211; on 10 September 2021. Further directions were given for setting up this hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">It is important to note that since the autumn of 2019, child welfare proceedings have been ongoing in Poland on the applications of both parents; these are linked to the divorce petition issued in October 2019 and apparently served on the father in early 2020. The Polish court has dismissed applications by each parent for substantive orders in relation to interim child arrangements. In those proceedings a report from a multi-disciplinary psychological/social work team (known as OZSS<authorialNote class="footnote" marker="1">
+		<p class="FootnoteText"> OZSS stands for<span> </span>Opiniodawczy Zesp&#243;&#322; S&#261;dowych Specjalist&#243;w</p>
+	      </authorialNote>) has been filed<authorialNote class="footnote" marker="2">
+		<p class="FootnoteText" style="text-align:justify"> Interestingly the father described the function of OZSS (prior to the preparation of the report) as follows: &#8220;It has a has a similar function to Cafcass, but also includes other experts such as psychologists and psychiatrists. Assessments are carried out on the basis of in-depth interviews and observations and recommendations for residence, contact and any therapy are made in reports to the court.&#8221; After the preparation of the report, he described it as: &#8220;&#8230; a biased, one sided, superficial, highly speculative and wholly inadequate piece of work which lacks analysis and balance and fails to include any interviews with the mother and child nor any observation of contact or family relationships.&#8221;</p>
+	      </authorialNote>; this report has been based very largely on interviews conducted in May 2021 with the father. This report is unfavourable to the father, but he has &#8211; through lawyers &#8211; formally challenged it, questioning in the main its methodology. This report was not available to Arbuthnot J nor to the Court of Appeal; I return to this later (see &#167;36). </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The mother has also reported her allegations of abuse to the police; slow progress has been made with the criminal investigation, and for a period (from May 2021 until January 2022) the investigation was suspended altogether. A number of witnesses have been interviewed. The investigation has now been revived; as things stand, the father has not been charged with any criminal offence in Poland and is being treated, currently, as a &#8216;witness&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The father&#8217;s contact with C has failed to take place since the beginning of the year; he complains that the mother has not &#8220;logged in&#8221; to the Facebook messenger site at the appropriate time to receive his call. The mother disputes this. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Finally, the father has informed the Court that he has formed a new relationship, though has not introduced his new partner to C.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">
+ <span style="font-style:italic">The issues</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The following points are not in issue in this case:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">that the father had rights of custody (<span style="font-style:italic">Article 3 Hague Convention 1980</span>) in respect of C in Poland, and that at the time of the removal, he was actually exercising them;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">immediately before the time of the removal, C was habitually resident in Poland;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">that the removal of C from Poland in September 2020 was wrongful under <span style="font-style:italic">Article 3</span> Hague Convention;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">In the circumstances I am obliged to &#8220;order the return of the child forthwith&#8221; (<span style="font-style:italic">Article 12</span>) unless one of the exceptions in <span style="font-style:italic">Article 13</span> applies. If I order C&#8217;s return, the mother has indicated that she will accompany her daughter.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The following issues are raised for determination:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">That <span class="para2text1" style="color:initial">there is a grave risk that the return of C to Poland would expose her to physical or psychological harm or otherwise place the child in an intolerable situation;</span></p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.49in">
+ <span class="para2text1" style="color:initial">And </span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">that C objects to returning to Poland, and that she is of an age and maturity at which it would be appropriate to take account of her views.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:-0.49in">In the event that I were to find in favour of the mother on either of the issues set out in this paragraph above, I would need to go on to consider whether, in my discretion, I should order C&#8217;s return.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Relevant to the determination of the issue in &#167;20(i) above is, crucially, whether protective measures can be put in place in Poland so as to ameliorate or mitigate any risk identified. The burden is on the mother to demonstrate that this exception of &#8220;restricted application&#8221;<authorialNote class="footnote" marker="3">
+		<p class="FootnoteText" style="text-align:justify"><span> </span><span style="font-style:italic">Re E</span><span style="font-style:italic"> (Children)(Abduction: Custody Appeal</span>) <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/27" isNeutral="false" canonical="[2012] 1 AC 144" reportSeries="elr" court="uksc" neutral="[2011] UKSC 27" year="2012" jurisdiction="GB" type="case">[2012] 1 AC 144</ref> at [31]</p>
+	      </authorialNote> applies, and to produce evidence to substantiate the same. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">
+ <span style="font-style:italic">Article 13(b)</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">The mother&#8217;s case</span>: The mother alleges that there is a grave risk that the return of C to Poland would expose C to physical or psychological harm or otherwise place her in an intolerable situation. She asserts that for most of the parents&#8217; adult relationship<authorialNote class="footnote" marker="4">
+		<p class="FootnoteText" style="text-align:justify"> She of course had known the father since she was a child, given that he was in a relationship with her own mother.</p>
+	      </authorialNote> she has been subjected to serious domestic abuse in multiple ways. More recently, she complains that the father has threatened her (through his conversations with C), and she alleges that he has attempted to blackmail the mother by means of &#8216;revenge porn&#8217;. The mother further alleges that C has been witness to many of the incidents of domestic abuse, and has herself been subjected to repeated physical and emotional abuse. She alleges that the father suffers from untreated mental ill-health, and abuses alcohol. The allegations of domestic abuse appear to be supported by others within her family, and to some extent by C herself. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">It is the mother&#8217;s case that there are no protective measures &#8211; taken individually or cumulatively &#8211; which would be <span style="font-style:italic">effective</span> to ameliorate or mitigate the grave risk of harm to C. Specifically, she argues that the father cannot be relied upon to adhere to any strictures placed upon his behaviour, as evidenced by the content of the recorded conversations with his daughter which I have described above.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">The father&#8217;s case</span>: Mr Hames acknowledges that the evidence of alleged domestic and child abuse filed by the mother, and more generally, raises a <span style="font-style:italic">prima facie</span> case that C would be exposed to a grave risk of physical or psychological harm were she to return to Poland. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">That said, the father is anxious to emphasise that, while he accepts that there were arguments between the parties, he denies the allegations of abuse of the mother and/or of C. He points out, and I acknowledge, that when the mother issued divorce proceedings in Poland in October 2019, she made no allegations of abuse either of the seriousness of those now laid out before this court, or at all. The father observes that the mother and C remained living with him for many months after that divorce petition was issued; for the brief period when the parents were in fact separated, the mother facilitated daily and weekend staying contact for C with the father. It is said on the father&#8217;s behalf that this is all inconsistent with the mother&#8217;s asserted case in these proceedings. The father accepts that in communications with the mother he referenced having &#8220;intimate videos&#8221; of the mother, but denies that he was threatening to use them against her.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The father maintains that protective measures <span style="font-style:italic">would</span> be effective to address the alleged risk of harm; he points out that on nobody&#8217;s case would the family be expected to resume life under the same roof back in Poland. He asks me to accept his solemn promise to abide by the protective measures proposed, and therefore asks me to reject the mother&#8217;s case under <span style="font-style:italic">article 13(b)</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The mother seeks a range of protective measures should I order C&#8217;s return to Poland; the father has offered others. Together they are comprehensive, and cover the following areas: </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">an order to ensure that the father cannot attend within 100m of any address which he knows C and the mother to be residing and/or C&#8217;s school;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">any address of where the mother and C are staying to be kept confidential;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">the father be restrained from contacting the mother directly (through any form of communication);</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">an order to ensure that the father cannot remove C from the mother&#8217;s care or take her from any school;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:1.00in;text-indent:-0.49in">v)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:1.00in">the mother proposes to live in a new area as far away from the father as possible with support in place for both C and herself through a social worker or an alternative authority in Poland;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:1.00in;text-indent:-0.49in">vi)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:1.00in">there be no contact between C and her father until appropriate welfare checks have been completed in Poland;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">extensive financial support.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">undertaking or order not to seek to separate the mother and C, pending the first <span style="font-style:italic">inter partes</span> hearing in a Family Court in Poland;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">undertaking or order not to attend at the airport to which C and the mother will return;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">x)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">undertaking or offer not to harass, molest, pester, use, or threaten to use violence against the mother (on a without admissions basis), pending the first hearing in a Family Court in Poland;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">not to make any applications without notice to the mother, pending the first <span style="font-style:italic">inter partes</span> hearing in a Family Court in Poland.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">The legal principles engaged</span>: The legal principles engaged have been extensively rehearsed in the Court of Appeal&#8217;s judgment in the instant case (see &#167;47 onwards). They were more extensively reviewed in <span style="font-style:italic">Re A (Children) (Abduction: Article 13b)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/939" isNeutral="true" canonical="[2021] EWCA Civ 939" court="EWCA-Civil" year="2021" jurisdiction="GB" type="case">[2021] EWCA Civ 939</ref>, (&#8220;<span style="font-style:italic">Re A</span>&#8221;) in which Moylan LJ drew from the Supreme Court decisions of <span style="font-style:italic">In re E (Children) (Abduction Custody Appeal)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/27" isNeutral="true" canonical="[2011] UKSC 27" court="uksc" year="2011" jurisdiction="GB" type="case">[2011] UKSC 27</ref>, <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/27" isNeutral="false" canonical="[2012] 1 AC 144" reportSeries="elr" court="uksc" neutral="[2011] UKSC 27" year="2012" jurisdiction="GB" type="case">[2012] 1 AC 144</ref> (&#8220;<span style="font-style:italic">Re E</span>&#8221;) and <span style="font-style:italic">Re S (Abduction: Article 13(b) Defence)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2012/10" isNeutral="false" canonical="[2012] 2 AC 257" reportSeries="elr" court="uksc" neutral="[2012] UKSC 10" year="2012" jurisdiction="GB" type="case">[2012] 2 AC 257</ref>. I have also found particularly useful the judgment of King LJ in <span style="font-style:italic">Re IG (Child Abduction: Habitual Residence: Article 13(b))</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1123" isNeutral="true" canonical="[2021] EWCA Civ 1123" court="EWCA-Civil" year="2021" jurisdiction="GB" type="case">[2021] EWCA Civ 1123</ref></p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="color:#000000">The following principles emerge from </span><span style="font-style:italic">Re E (Children) (Abduction: Custody Appeal)</span> (the paragraph (&#167;) numbers in [square brackets] below are from this judgment) and additional observations are collected from <span style="font-style:italic">Re IG (Child Abduction: Habitual Residence: Article 13(b))</span>:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic">Article 13(b)</span> is, by its very terms, of restricted application: [&#167;31]; the defence has a high threshold;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">The focus must be on the child, and the risk to the child in the event of a return;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">
+ <span style="color:#000000">The burden of proof lies with the person, institution or other body which opposes the child&#8217;s return. The standard of proof is the ordinary balance of probabilities, subject to the summary nature of the Hague Convention process: [&#167;32]; </span>
+ </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">
+ <span style="color:#000000">The risk to the child must be &#8220;grave&#8221; and, although that characterises the risk rather than the harm, &#8220;there is in ordinary language a link between the two&#8221;: [&#167;33]; </span>
+ </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">
+ <span style="color:#000000">&#8220;Intolerable&#8221; is a strong word, but when applied to a child must mean a situation which this particular child in these particular circumstances should not be expected to tolerate. Amongst these are physical or psychological abuse or neglect of the child: [&#167;34]; </span>
+ </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">
+ <span style="font-style:italic;color:#000000">Article 13(b)</span>
+ <span style="color:#000000"> is looking to the future, namely the situation as it would be if the child were to be returned forthwith to his home country: [&#167;35]. </span>
+ </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">
+ <span style="color:#000000">In a case where allegations of domestic abuse are made </span>
+ </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.49in">
+ <span style="color:#000000">&#8220;&#8230; the court should first ask whether, </span>
+ <span style="font-style:italic;color:#000000">if they are true</span>
+ <span style="color:#000000">, there would be a grave risk that the child would be exposed to physical or psychological harm or otherwise placed in an intolerable situation. If so, the court must then ask how the child can be protected against the risk. The appropriate protective measures and their efficacy will obviously vary from case to case and from country to country. This is where arrangements for international co-operation between liaison Judges are so helpful.&#8221; [&#167;36] (Emphasis by italics added).</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">The court must examine in concrete terms the situation in which the child would be on a return. In analysing whether the allegations are of sufficient detail and substance to give rise to the grave risk, the judge will have to consider whether the evidence enables him or her confidently to discount the possibility that they do;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">The situation which the child will face on return depends crucially on the protective measures which can be put in place to ensure that the child will not be called upon to face an intolerable situation when he or she gets home. Thus:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.49in">
+ <span style="color:#000000">&#8220;&#8230; the clearer the need for protection, the more effective the measures will have to be&#8221; [&#167;52]</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In this case, Moylan LJ emphasised that the risk to the child must be a <span style="font-style:italic">future</span> risk (&#167;49-50). He cited from the Good Practice Guide to emphasise that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">
+ <span style="color:#000000">&#8220;&#8230; forward-looking does not mean that past behaviours and incidents cannot be relevant to the assessment of a grave risk upon the return of the child to the State of habitual residence. For example, past incidents of domestic or family violence may, depending on the particular circumstances, be probative on the issue of whether such a grave risk exists. That said, past behaviours and incidents are not per se determinative of the fact that effective protective measures are not available to protect the child from the grave risk&#8221;. (&#167;50)</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Thus, an assessment needs to be made of the </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">
+ <span style="color:#000000">&#8220;&#8230; circumstances as they would be if the child were to be returned forthwith. The examination of the grave risk exception should then also include, if considered necessary and appropriate, consideration of the availability of adequate and effective measures of protection in the State of habitual residence&#8221; (&#167;50).</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I am clear that my role is not to engage in a fact-finding exercise, but as Moylan LJ went on to observe:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in"><span style="color:#000000">&#8220;&#8230; unless the court properly analyses the nature and severity of the potential risk which it is said will arise if the child is returned to the requesting State, the court will not be in a position properly to assess whether the available protective measures will sufficiently address or ameliorate </span><span style="font-style:italic;color:#000000">that</span><span style="color:#000000"> risk such that the grave risk required by Article 13(b) will not have been established. As set out in </span><span style="font-style:italic;color:#000000">Re E</span><span style="color:#000000">, at [36], the question the court is considering is "how the child can be protected against </span><span style="font-style:italic;color:#000000">the</span><span style="color:#000000"> risk" (my emphasis). The whole analysis is contextual and forms part of the court's process of reasoning, as referred to by me in </span><span style="font-style:italic;color:#000000">Re A</span><span style="color:#000000">, at [97], adopting this expression from </span><span style="font-style:italic;color:#000000">Re S (A Child) (Abduction: Rights of Custody)</span><span style="color:#000000"> </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2012/10" isNeutral="false" canonical="[2012] 2 AC 257" reportSeries="elr" court="uksc" neutral="[2012] UKSC 10" year="2012" jurisdiction="GB" type="case">[2012] 2 AC 257</ref><span style="color:#000000">, at [22]&#8221;. (&#167;58)</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In his judgment, Moylan LJ took the opportunity to emphasise that protective measures include not only those offered by the left-behind parent but also those available ordinarily in the state of habitual residence and their adequacy and effectiveness (&#167;60).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">The evidence</span>: The mother&#8217;s allegations of domestic abuse have been vividly laid out in her statements of evidence, and in the witness statements obtained by the police as part of its investigation. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">To some extent the allegations appear to be supported by C herself who described to Ms Magson an incident (described by the mother at length in her statement, said to have occurred in the late spring 2020) in which the father handled a knife and threatened to use it on himself; the father does not dispute that an incident occurred involving a knife though disputes the detail, but, as I mentioned above at &#167;24 Mr Hames concedes that the evidence overall raises a <span style="font-style:italic">prima facie</span> case.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The mother&#8217;s allegations superficially appear to attract some further support from the conclusions of the OZSS report. That said, I have treated the report with a degree of care, in part because the authors appear to have reached a range of conclusions of fact and I am not at all sure for a number of reasons that they were entitled to do so (quite apart from any other consideration, they only heard the father&#8217;s account); secondly, because they appear to have based their assessment (or at least sought to confirm or validate their assessment) on a number of findings of Arbuthnot J &#8211; findings which the Court of Appeal, in allowing the appeal, have expressly disavowed; and thirdly because the father has formally indicated that he disputes the methodology and conclusions of the said report and seeks to have the report rejected from the Polish proceedings. What is to some degree of more interest to me in this report is the authors&#8217; description of the father&#8217;s defensiveness, his lack of ownership of any of the problems in his relationship with the mother, and his lack of insight into his alleged behaviour. These assessments are of relevance to me because they were ostensibly collected from their face-to-face interview (described by the father as an &#8220;in depth interview and observation&#8221;) with the father directly:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">&#8220;The actual emotional ties of the defendant [father] with the minor are, contrary to the defendant's declarations, very shallow, because the needs of the minor are not actually taken into consideration and in the relationship with the minor, <span style="font-style:italic">the defendant's focus on pursuing his own goals prevails, even at an expense of the minor</span>. There was a violation of the child's welfare by the participation of the minor in a situation where the defendant used threats towards the mother &#8211; when a knife was used &#8211; which, considering the minor&#8217;s age, exposed her to a traumatic experience (the minor already understands the meaning of such situations). Also, the <span style="font-style:italic">defendant's failure to adapt to the needs of the minor in telephone conversations indicates that the welfare of the minor was not taken into account</span>. The defendant is fixated on showing his own influence on the plaintiff, which is what the contact with the minor is used for.&#8221; (Emphasis by italics added)</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">Conclusion on Article 13(b)</span>: The mother has filed what I regard as powerful substantive evidence in support of her case that she has been subjected to multiple forms of domestic abuse; her evidence is detailed, and is buttressed and corroborated by the evidence of third-party witnesses including the father&#8217;s older (adult) daughter (with whom the father maintains that he has a &#8220;good relationship&#8221;), by C herself, and to a lesser extent by the authors of the independent OZSS report. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The alleged abuse takes multiple forms; it is said that the father has violated the mother physically, sexually, and emotionally in a relationship characterised by his controlling behaviour. It is the mother&#8217;s case that C has been exposed to this domestic abuse, and adversely affected by it. If the allegations of abuse are true, or even largely true<span style="color:#000000">, I am satisfied that there would be a grave risk that C would be exposed to physical or psychological harm or otherwise placed in an intolerable situation in the event of her return to Poland. To be clear, in this regard, I have drawn particularly on the evidence (albeit unproven) that C has been directly involved in incidents of domestic abuse (as she herself has alleged), and has further allegedly been the victim of direct harm herself; a photograph has been produced of an injury to C&#8217;s head (said to be dated April 2020), allegedly caused by the father, although I know he maintains that this was accidentally caused by his granddaughter. In light of this, I have asked myself how C could be protected against that assessed risk, and have accordingly reviewed with care the proposed protective measures in &#167;27 above.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I can derive little comfort from the evidence of the lawyer instructed by the parties to advise on the effectiveness of the proposed protective measures. While I recognise that ordinarily Polish authorities should be regarded as capable of protecting victims of domestic abuse, the unchallenged evidence in this case is somewhat at variance, as follows: </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">&#8220;&#8230; although the court ruling on the basis of the Hague Convention on the return of the minor [C] to Poland may apply the protective measures proposed by the defendant, not all of them in the event of a hypothetical breach by the applicant will result in a particular reaction from Polish courts or other authorities&#8221;. </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">&#8220;&#8230;the restraining order against the applicant prohibiting from approaching the defendant and keeping her address confidential from him should be considered impossible to enforce in the light of the Polish law&#8221;&#8230; </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">&#8220;the prohibition of the applicant from contacting the defendant and the prohibition of approaching her at a certain distance could not result in sanctions against the applicant in the event of failure to comply with them by the applicant, because according to Polish regulations they may only be imposed by a prosecutor or a criminal court on the basis of a criminal procedure and not a civil matter&#8221;.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I am no more reassured by the actions of the prosecuting authorities in Poland who are said to be investigating the allegations of abuse; progress of the investigation is slow. For a period of time, indeed, it was suspended. The prosecutor&#8217;s investigation is still ongoing some two years after the initial complaint</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="color:#000000">More significant than both these concerns, I am extremely disturbed by the threats made by the father to his daughter C (directly to her and indirectly to the mother) during his telephone conversations with her last year; the extracts quoted above will be sufficient to illustrate the menacing tone and nature of his warnings directed to the mother (including but not limited to: &#8220;</span>she will end up where she ought to, I promised myself, she will end up there where she should end up&#8230;for that, she is trying to make a fool of you and me&#8221;). These threats were of a piece with text messages sent to the mother in which he <span style="color:#000000">expressly declares his intention to track her down and &#8220;destroy&#8221; her. It is revealing that even after those threats were exposed during the first hearing of this application in April 2021, the father continued to present to the OZSS assessors (whom he saw in early May 2021) as gripped by the need for revenge. While I am conscious of the shortcomings of the OZSS report (as previously acknowledged: see &#167;36 above), the authors&#8217; expert assessment of the father himself, based on direct interviews with him, remains of some evidential value to me. This evidence, taken as a whole, and seen in the context of his own evidence which in some respects left me questioning his emotional stability</span><authorialNote class="footnote" marker="5">
+		<p class="FootnoteText" style="text-align:justify"> I have in mind &#167;17, &#167;29, &#167;30, &#167;31, &#167;37 of the father&#8217;s December 2020 statement, and given the personal nature of the same are not reproduced here in the published judgment. Later he referred to a psychiatric diagnosis of an &#8220;adjustment disorder&#8221;</p>
+	      </authorialNote><span style="color:#000000">, leaves me unable to repose any trust in the father to comply with restrictions placed on his behaviour.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In conclusion, I have been left far from satisfied that the protective measures proposed by the father would be sufficient to protect C <span style="font-style:italic">effectively</span> or <span style="font-style:italic">adequately</span> from the grave risk of psychological or physical harm were she to return to Poland with her mother, pending the engagement of the Polish court and/or further active steps taken by the police. It follows that, unusually, I find the <span style="font-style:italic">article 13(b)</span> exception has been made out in this case.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">
+ <span style="font-style:italic">Child&#8217;s Objections</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">The mother&#8217;s case</span>: It is the mother&#8217;s case that C genuinely objects to returning to Poland, and has attained an age and degree of maturity at which it is appropriate to take account of her views. In this regard, she places heavy reliance on the written and oral evidence of Ms Magson (see below).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">The father&#8217;s case</span>: While not formally conceding that an <span style="font-style:italic">article 13</span> exception is made out in this regard in this case, Mr Hames accepted that there is &#8220;considerable [evidential] material on which the court could make a finding&#8221; that C objects to returning to Poland. He accepts on the father&#8217;s behalf that C was objecting to a return from soon after her arrival here in 2020, and that in the intervening 17 months her position has hardened which, he acknowledges, &#8220;makes it easier&#8221; for the court to make the requisite finding. Mr Hames confirms that the father takes no point in relation to C&#8217;s maturity for the <span style="font-style:italic">article 13 </span>exception, but reserves submissions on this aspect to the next discretionary stage.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">The law</span>: Counsel have cited to me the leading case on child&#8217;s objections, namely the judgment of Black LJ (as she then was) in <span style="font-style:italic">Re M (Republic of Ireland) (Child's Objections) (Joinder of Children as Parties to Appeal)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/26" isNeutral="true" canonical="[2015] EWCA Civ 26" court="EWCA-Civil" year="2015" jurisdiction="GB" type="case">[2015] EWCA Civ 26</ref>, endorsed by the Court of Appeal in <span style="font-style:italic">Re F (Child's Objections)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/1022" isNeutral="true" canonical="[2015] EWCA Civ 1022" court="EWCA-Civil" year="2015" jurisdiction="GB" type="case">[2015] EWCA Civ 1022</ref>. This was summarised by Williams J in <span style="font-style:italic">Re Q and V (1980 Hague Convention and Inherent Jurisdiction Summary Return) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2019/490" isNeutral="true" canonical="[2019] EWHC 490 (Fam)" court="EWHC-Family" year="2019" jurisdiction="GB" type="case">[2019] EWHC 490 (Fam)</ref> as follows [at para 50]:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:1.05in">
+ <span style="font-family:'Times New Roman';font-size:12pt">&#8220;(i) The gateway stage should be confined to a straightforward and fairly robust examination of whether the simple terms of the Convention are satisfied in that the child objects to being returned and has attained an age and degree of maturity at which it is appropriate to take account of his or her views.</span>
+ </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:1.05in">
+ <span style="font-family:'Times New Roman';font-size:12pt">ii) Whether a child objects is a question of fact. The child's views have to amount to an objection before </span>
+ <span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Article 13</span>
+ <span style="font-family:'Times New Roman';font-size:12pt"> will be satisfied. An objection in this context is to be contrasted with a preference or wish.</span>
+ </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:1.05in">
+ <span style="font-family:'Times New Roman';font-size:12pt">iii) The objections of the child are not determinative of the outcome but rather give rise to a discretion. Once that discretion arises, the discretion is at large. The child's views are one factor to take into account at the discretion stage.</span>
+ </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:1.05in">
+ <span style="font-family:'Times New Roman';font-size:12pt">iv) There is a relatively low threshold requirement in relation to the objections defence, the obligation on the court is to 'take account' of the child's views, nothing more.</span>
+ </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:1.05in">
+ <span style="font-family:'Times New Roman';font-size:12pt">v) At the discretion stage there is no exhaustive list of factors to be considered. The court should have regard to welfare considerations, in so far as it is possible to take a view about them on the limited evidence available. The court must give weight to Convention considerations and at all times bear in mind that the Convention only works if, in general, children who have been wrongfully retained or removed from their country of habitual residence are returned, and returned promptly.</span>
+ </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:1.05in">
+ <span style="font-family:'Times New Roman';font-size:12pt">vi) Once the discretion comes into play, the court may have to consider the nature and strength of the child's objections, the extent to which they are authentically the child's own or the product of the influence of the abducting parent, the extent to which they coincide or at odds with other considerations which are relevant to the child's welfare, as well as the general Convention considerations (</span>
+ <span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Re M</span>
+ <span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2006/51" isNeutral="false" canonical="[2007] 1 AC 619" reportSeries="elr" court="ukhl" neutral="[2006] UKHL 51" year="2007" jurisdiction="GB" type="case">[2007] 1 AC 619</ref>).</span>
+ </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:1.05in">
+ <span style="font-family:'Times New Roman';font-size:12pt">I also note that in some cases an objection to a return to one parent may be indistinguishable from a return to a country&#8221;.</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">The evidence</span>: The Cafcass officer, Ms Lynn Magson, prepared two reports, including (materially) an updated report in January 2022, following a further conversation with C in October 2021.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In the first report (prepared in December 2020), Ms Magson reported that C had described Poland in positive terms: &#8220;a beautiful country, very interesting, has big shops and beautiful beaches&#8221;. C spoke of missing family members who continue to live in Poland, however even then C was clear and &#8220;firm&#8221; that she did not wish to return to Poland: &#8220;she expressed with some force that she wished to remain in England, also making positive comments regarding Poland and spoke of missing her family members.&#8221; In the first interview in December 2020, C was able to recount to Ms Magson descriptions of incidents of domestic abuse, including her father threatening the mother and herself, and on an occasion pushing a knife at his own chest, an incident which she described as frightening. She described how the father had hit her many times. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Following her second interview, about 10 months later, Ms Magson confirmed that C remained of the &#8216;firm&#8217; view that she wished to remain living in England, and did not want to return to Poland. C was described by her teachers as being &#8220;happy and settled&#8221; at school in England with a large friendship group, and &#8220;does not seem out of place in the class&#8221;. In oral evidence, Ms Magson confirmed that over the period since she has been in England C has become &#8220;firmer&#8221; in her resolve not to want to return to Poland.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Ms Magson reported as follows:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">&#8220;Exploring [C]&#8217;s views should her return to Poland be ordered, I observed [C] to shake her head and looked upset, wiping at her eyes and she stood and moved around the room. [C], whilst not wishing to write to the Judge said, &#8220;the Judge should choose for me to stay here&#8221;; and &#8220;I would break down and cry a lot and be very upset if I had to go back&#8221;.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">Of this part of her enquiry, Ms Magson in her oral evidence added that this was &#8220;a vivid example&#8221; of the strength of C&#8217;s feelings about not returning &#8211; &#8220;she was expressing herself with some force ... she was not crying a lot but was plainly looking upset&#8221;. She reflected that there was &#8220;a physical change in [C]&#8221; at that point, and her views were &#8220;said with more emotion and distress and more forcefully&#8221;, which Ms Magson thought were &#8220;genuine&#8221;. She added:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">&#8220;I felt that the change in her body language, that she looked upset and distressed, and this was at odds with how she had been at other times&#8221;.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Ms Magson confirmed that in October 2021 C remained &#8220;firmly&#8221; of the view that she did not wish to return to Poland; she thought (she told me in her oral evidence) that C&#8217;s views were &#8220;authentic&#8221; and her own, not those of her mother. Equally &#8220;authentic&#8221; were C&#8217;s recollections of the relationship between her father and her mother, and her memory of abusive incidents. She added (in her report):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:-0.50in">&#8220;She has been living in the UK for approaching 18 months and reports from her school are that she presents as happy and settled. Whilst [C] described being happy living in England, she further expressed concern that if returned to live in Poland she was &#8220;worried&#8221; to meet with her father and her expressed views regarding her father appeared to be intrinsically linked with her opposition to her return&#8221;.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Ms Magson was of the view, expressed in the first report and confirmed in the second, that C&#8217;s &#8220;maturity [is] consistent with her chronological age&#8221;. In December 2020, Ms Magson commented that C was unlikely to have a full appreciation of the matters to be considered and balanced, including the loss to her of not being raised in her birth country alongside her natural wider family. In her second report she confirmed that the school considered that &#8220;she presented with a mature attitude&#8221;; Ms Magson confirmed that &#8220;as before, I would consider her maturity to be consistent with her chronological age&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><span style="font-style:italic">Conclusion on child&#8217;s objections</span>: I am satisfied on the evidence placed before the court that C genuinely, and authentically, objects to a return to Poland, and that she has attained an age and degree of maturity that I should take account of her views. The objection is rooted, it seems to me, in a genuine fear that she will be brought into close contact with her father either in an arranged or in an unsolicited way; she appears genuinely to perceive that he poses a serious threat to her and to her mother. I am wholly satisfied that C currently wishes to avoid any risk of physical contact with him. Her objection is also doubtless fashioned to some extent by the fact that she has now been living in England for 18 months, and is (as the school reflects) happy and settled here. I am quite sure that C will have been exposed to the negative views held by the mother about the father and his family; I am also conscious that C has started to call her stepfather &#8220;dad&#8221; and her father by his first name &#8211; illustrative of her shifting sense of affection, loyalty and/or family alignment. However, I am satisfied (reliant on Ms Magson&#8217;s assessment) that C is expressing her <span style="font-style:italic">own</span> views about a return to Poland, and is not merely parroting the views of her mother, even though &#8211; I acknowledge &#8211; their views coincide.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">
+ <span style="font-style:italic">Discretion</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Given my conclusion that there is a grave risk that the return of C to Poland would expose her to physical or psychological harm or otherwise place her in an intolerable situation, it is rightly acknowledged by counsel that there is no meaningful discretion to be exercised on the question of whether C should be returned. My finding on <span style="font-style:italic">article 13(b)</span> (i.e., that there is grave risk of physical or psychological harm in the event of a return, and no effective mitigating protective measures) effectively disposes of the application.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I nonetheless thought it appropriate, given the detailed arguments I have heard about C&#8217;s objection and the consequences of a finding in relation to this, to consider how I would have exercised my discretion had this been the only applicable route to discretion. It is acknowledged that the exercise of discretion in these circumstances is a wide one, involving welfare considerations, and requires a broad review of a range of relevant factors. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr Hames argued that the factors point firmly in favour of ordering a return of C to Poland, correspondent with the policy of the <span style="font-style:italic">1980 Hague Convention</span> and consistent with her overall welfare. Mr Setright QC argues that the factors point firmly the other way.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">It is of course widely recognised that the essential purpose of the <span style="font-style:italic">1980 Hague Convention</span> is to effect the swift and summary return of children wrongfully removed from their country of habitual residence. I recognise that C is a Polish child born to Polish parents; prior to September 2020 she was indisputably habitually resident in Poland, and that her first language remains Polish. I accept Mr Hames&#8217; submission that the family had very little association or connection with this country until the mother and C travelled here in September 2020 ostensibly so that the mother could establish or develop a relationship with Mr E. However, in this unusual case, the moment at which a swift return could be effected has long since passed; C has settled in England, and has been in school here now for 16 months. Although (as Mr Hames argues) a return order would appropriately send her back to her home country, in reality it is likely that C would move to a new home (or indeed a refuge), possibly in a different part of the country, effectively in hiding from the father, unable to reconnect with those aspects of life in Poland which she left behind (her family, friends and school) all because of the mother&#8217;s enduring fear of the father. It would be, as Mr Setright argues and I accept, a very artificial environment to which she would return and a wholly different life to the one she left in September 2020.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr Hames argued that as the Polish Court is seised of family proceedings it would be more convenient for C to be resident in Poland, readily accessible to those responsible for undertaking court-based assessments. That said, there is little prejudice to the Polish court process for the mother and child to take part remotely, and if the Polish Court formed the view that they wished C to return, they could so order her.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Mr Hames argued that if C is allowed to remain in this country, she is all the more likely to lose forever her relationship with her father and paternal family; he acknowledged that the relationship &#8220;is not in a good place at the moment&#8221; and argued that it is important for the &#8216;repair&#8217; and &#8216;restoration&#8217; of the relationship for C to be physically available to see her father. He accepted that the restoration of the relationship will need to proceed cautiously and gradually, probably with an element of professional supervision &#8211; all much easier to achieve if the father and C are living in the same country. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">As it happens, I consider that it is more likely that if C is compelled to return to Poland by court order, in line with her father&#8217;s strongly articulated wishes, this will be counter-productive to the resumption of their relationship; it is likely to aggravate C&#8217;s currently hostile views of him, providing further reason (i.e., in being forced to leave England where she is objectively assessed to be settled) for her to be resentful at, and angry with, him. I accept Mr Setright&#8217;s argument that the route to restoring the relationship between C and her father is one which requires caution and diplomacy; paradoxically her forced return to Poland by court order would only be likely to cause her to reject more vigorously the approaches of her father. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Had I been exercising a broad discretion in this case, I would have borne in mind that C has expressed a clear and authentic objection to returning to Poland, and that she has reached a level of maturity at which it is appropriate to take account of her view. The fact that she has, now, a reasonable understanding of the Hague process, and is maturely progressing at school lend weight to this aspect of the case. Her objection is rooted in her experience of life in Poland before September 2020 living in a climate of fear as she experienced it; an order for return would be likely irreparably to damage her trust in the authorities which are purporting to act in her best interests. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I further find that it is likely that, in view of what the mother has alleged &#8211; whether true or not &#8211; the mother would be extremely fearful of retribution from the father. I am satisfied that he has threatened the mother directly, and indirectly in his conversation with C, and his threats would be likely to cause the mother considerable upset and anxiety. This would be likely to have an adverse impact on her ability to care for C. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Thus, had the route to discretion in this case been charted only by reference to my satisfaction of C&#8217;s objection to a return to Poland, I would still have resolved not to order that outcome.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">
+ <span style="font-style:italic">Conclusion</span>
+ </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The father&#8217;s application dated 29 October 2020 will accordingly be refused. At this stage, I acknowledge that it will be a matter for the Polish Court to determine the welfare issues; of course, if the court there resolves that C should return to Poland in fulfilment of a welfare-based order, that order would, under <span style="font-style:italic">BIIA</span>, potentially be enforceable here in England.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I will make all the necessary ancillary orders, dismissing the range of injunctive orders made at interlocutory stages of these proceedings; I shall make provision for this judgment to be translated into Polish so that it is available to the judge exercising the welfare jurisdiction in Poland. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">That is my judgment. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

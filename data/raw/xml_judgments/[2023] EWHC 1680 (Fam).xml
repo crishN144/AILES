@@ -1,0 +1,951 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/1680"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/1680"/>
+	  <FRBRdate date="2023-07-04" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1680"/>
+	  <FRBRname value="A v B &amp; Ors (Wardship; Parental Order; s10(9) Leave Application)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/1680"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/1680"/>
+	  <FRBRdate date="2023-07-04" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/1680/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/1680/data.xml"/>
+	  <FRBRdate date="2024-11-09T20:46:18" name="transform"/>
+	  <FRBRdate date="2024-11-11T18:10:44" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-07-04" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a" href="" showAs="A"/>
+	<TLCPerson eId="b" href="" showAs="B"/>
+	<TLCPerson eId="y-by-his-childrens-guardian" href="" showAs="Y (By his Children&#8217;s Guardian)"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis-dbe" href="/judge-mrs-justice-theis-dbe" showAs="MRS JUSTICE THEIS DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>1680</uk:number>
+	<uk:cite>[2023] EWHC 1680 (Fam)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>b1639972a8a2d5bcbe9a52e1f79c9d8443775631045e91d1d39d9a7c809e624a</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BodyText { font-size: 11pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.39in; margin-right: 0.1in; font-size: 11pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .BodyTextChar { font-size: 11pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EWHC 1680 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD23P00557</docketNumber> / <docketNumber>FD23P00194</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2023-07-04" refersTo="#judgment">04/07/2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis-dbe">MRS JUSTICE THEIS DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p><span style="font-weight:bold">                                                                   Between :</span></p>
+      <table uk:widths="1.47in 3.59in 1.77in">
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a" style="font-weight:bold">A</party></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><party as="#respondent" refersTo="#b" style="font-weight:bold">B</party></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">1<span style="vertical-align:super;font-size:smaller">st</span> Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><span style="font-weight:bold">- and-</span></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><span style="font-weight:bold">Mr and Mrs G</span></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right">2<span style="vertical-align:super;font-size:smaller">nd</span> &amp; 3<span style="vertical-align:super;font-size:smaller">rd</span> Respondents </p>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><span style="font-weight:bold">- and - </span></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><party as="#respondent" refersTo="#y-by-his-childrens-guardian" style="font-weight:bold">Y (By his Children&#8217;s Guardian)</party></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">4<span style="vertical-align:super;font-size:smaller">th</span> Respondent </role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Richard Harrison K.C and Ms Samantha Ridley </span>(instructed by<span style="font-weight:bold"> Kelly Family Law Solicitors</span>) for the <span style="font-weight:bold">Applicant </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Deirdre Fottrell K.C and Mr Tom Wilson</span> (instructed by instructed by<span style="font-weight:bold"> Farrer &amp; Co LLP </span>) for the <span style="font-weight:bold">1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Sharon  Segal (</span>instructed by <span style="font-weight:bold">Goodman Ray</span>) for the<span style="font-weight:bold"> 2</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold"> &amp; 3</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">rd</span><span style="font-weight:bold"> Respondents  </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Maria Stanley (</span>instructed by<span style="font-weight:bold"> Cafcass) </span>for the<span style="font-weight:bold"> 4</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> Respondent </span></p>
+      <p style="text-align:center">Hearing date: 29<span style="vertical-align:super;font-size:smaller">th</span> June 2023 </p>
+      <p style="text-align:center">Judgment: 4 July 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MRS JUSTICE THEIS</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published. The anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Mrs Justice Theis DBE :</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This hearing is to consider two main issues:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">A&#8217;s application for permission to withdraw her application for wardship dated 3 April 2023 and her application for a parental order dated 2 June 2023.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">A&#8217;s application for leave under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10(9)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> [<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>] to make an application for a child arrangements order in relation to Y, now aged 4 months.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A is the applicant and B, Mr and Mrs G and Y, through his Children&#8217;s Guardian, are the respondents. Y was born as a result of a surrogacy arrangement in the US between B and Mr and Mrs G. Mrs G was the gestational surrogate and Mr G is her husband. Y has been in the full time care of B since his birth.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst there is no dispute between the parties that A should be given leave to withdraw her applications, there is an issue about the basis of those applications being withdrawn, in particular the application for a parental order. A seeks permission for it to be withdrawn on the limited basis that Mr and Mrs G do not consent, the other parties seek the court to consider other criteria under <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">Human Fertilisation and Embryology Act 2008</ref> [<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref>] which, they submit, A simply could not meet in the particular circumstances of this case, and Y&#8217;s welfare requires that wider canvas to be considered.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A&#8217;s application for leave under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">s10(9)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> is opposed by all the other parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have had the opportunity to read the bundles and consider the detailed skeleton arguments submitted by the parties, supplemented by oral submissions at the hearing on 29 June 2023. I am very grateful for the written and oral submissions made on behalf of all parties, they have been of great assistance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">My focus at this hearing has been on the relevant legal framework regarding the applications the court is considering. There can be little doubt that the last few years have been a difficult time for A and B, for the reasons they each set out in some detail in their respective statements. Whilst conscious of that background, the focus of this judgment is on the relevant legal structure.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Relevant background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A and B met in 2017 and decided to have a child together, even though they were not in an intimate relationship. They both shared a wish to co-parent. The initial plan was for the child to be carried by A, following IVF treatment using both their gametes. Two rounds of IVF treatment proved that not to be possible and they went to the US in 2019, selected an egg donor and embryos were created using B&#8217;s gametes and the donor eggs. Eight embryos were created and it was agreed that one would be transferred to A. The letter to the clinic in the US dated 27 July 2019 from B makes clear the embryos are under B&#8217;s <span style="font-style:italic">&#8216;legal care&#8217;</span> and it gives his consent to the transfer of one of the embryos to A with them being parents to any resulting child, making it clear the remaining embryos remain outside the scope of the letter. The letter makes clear B sought legal advice. B sent a draft of this letter to A before it was sent to the clinic. In her written evidence A states she did not have legal advice at that time, although does refer to legal advice when the parties were engaged with a clinic in this jurisdiction at an earlier stage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The legal position, for which there is no dispute, is that B had sole legal control of the embryos. The embryo transfer to A was successful and she gave birth to X, who is now 3 years. A and B are X&#8217;s parents. X lives between their respective households, each 14 days spending 5 days with B and 9 days with A.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A and B had considered having a second child in their communications during 2020. In August 2020 A wrote asking B to consider having a second child together stating <span style="font-style:italic">&#8216;If you say no, then it is no and I am fine with that but I need to know so I can move forward&#8217;. </span>In that letter she acknowledged B may decide to have a child later with someone else continuing <span style="font-style:italic">&#8216;all of which I am aware of and had agreed to before embarking on this part of our journey&#8230;they are your embryos to do with as you please&#8217;.</span> B responded in October 2020 suggesting mediation to discuss that and other issues between them. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties engaged in mediation from November 2020. Their relationship became difficult when in January 2021 B sent a communication to A that he states he had not intended to. By April 2021 the parties&#8217; communication had completely broken down, B wrote to A accepting that they would have no further children together. He wrote  <span style="font-style:italic">&#8216;I am also heartbroken that the opportunities we may have had to talk about having a second child together have been lost. It was more than a hope of mine that we could work out our issues through talking and maybe see if that was possible. I understand by the way you reacted when I mentioned the subject that you have ruled out having a second child with me and I have come to accept this.&#8217;</span> According to B it was after that he began the process of conceiving a second child as a sole parent. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">According to his statement between May &#8211; October 2021 B had fertility tests, found a new egg donor, underwent psychological evaluation in the US and was authorised as a single parent under US law for surrogacy. Embryos were created with the new egg donor and Mrs G signed a consent to undergo medical testing for surrogacy. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In November 2021<span style="font-weight:bold"/>A issued an application in relation to X, seeking a child arrangements order permitting her to relocate to another part of the country.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In January 2022 there was an embryo transfer to Mrs G. In February 2022 Mrs G miscarried.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 8 March 2022 B cross applied for a child arrangements order in relation to X and a FHDRA took place on 18 March 2022. Directions included a report by an Independent Social Worker (&#8216;ISW&#8217;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties filed statements in the X proceedings. In B&#8217;s statement dated 14 April 2022, he stated <span style="font-style:italic">&#8216;As [A] knows, I always hoped to have more than one child. [A] and I spoke about trying to do so together. [A] made it clear to me that she did not want to and on 15 April 2021 I wrote to [A] and said that I was very sad but I accepted this. She never replied. Since then, I have given serious consideration about having another child, and especially the impact on [A] of having a sibling. After much thought, I decided some time ago that I would like to try to do so. If and when this hope becomes a likelihood, I will of course let [A] know, and we will need to discuss and agree in due course what we say to [A] about any future sibling&#8230;&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her statement in response dated 29 April 2022 regarding this part of B&#8217;s statement, A said <span style="font-style:italic;font-size:11pt">&#8216;I think this is fantastic and I couldn&#8217;t be more supportive. I would like to try and do the same, but by way of fostering&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 5 July 2022 an embryo was successfully transferred to Ms G from those created in 2019. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A found out about the surrogacy arrangement between B and Mr and Mrs G in early August 2022, when she was mistakenly copied into an email from the clinic in the US to B. B contacted A immediately after that, apologising for the way she found out and there were communications between the parties in late 2022/early 2023 as to what should be said to X about the arrival of Y, they jointly took advice in relation to that, and wider issues regarding X.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her discussions with the ISW, instructed within the X proceedings in September 2022, A was asked what would be most helpful for X in terms of the expected arrival of his paternal sibling. A responded that expert advice as to how to explain the relationships to X stating X <span style="font-style:italic">&#8216;will have to understand how his sibling doesn&#8217;t have a mummy but is born in the same way&#8217;.</span> It is clear from the report that it was known the forthcoming child was going to be a full genetic sibling to X.  At the end of her report the ISW states about the forthcoming arrival of Y &#8216;<span style="font-style:italic">The child will live full time with their father in the UK. The narrative regarding [X&#8217;s] birth and life and that of his expected sibling will need to be agreed by both [X&#8217;s] parents.&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There was hearing in the X proceedings on 12 October 2022, following receipt of the ISW report dated 4 October 2022. That report did not support A&#8217;s planned relocation and recommended an equal division of time for X as between A and B. At that hearing the parties agreed to attend family therapy to discuss what would be said to X about the forthcoming birth and how to arrange the introduction of the children to each other. A was represented by leading counsel and no reference was made in the position statement or at the hearing on behalf of A that she would have or expected any parental role in relation to Y.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 18 October 2022 A wrote to B stating:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8216;I think it is wonderful for [X] to have a sibling, and I am happy to hear your pregnancy is progressing especially after the miscarriage in February which must have been incredibly difficult for all. As you can imagine there is an enormous amount to unpick on this for me and I have given the news of the birth considerable thought on the impact it will have on [X]. I am also exploring, with the experts I have been recommended, some ideas of the right timing and suggestions of the right messaging for [X] on this and I am happy to discuss this with the counsellor we have agreed in our separate sessions so we can be in accord&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8230;I think it's positive that you are taking all these steps for advice and, as [the ISW] suggested, I would welcome the opportunity to discuss this as well as many other important matters relating to [X] in mediation.&#8217; </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties attended the therapy/counselling sessions as agreed and on 27 January 2023 A wrote to B stating</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8216;&#8230;I think it&#8217;s wonderful that we met with [mediator] yesterday and we were able to agree what to say to [X] about his baby brother. I was very worried about how we would explain this very complex situation to him, especially as we have not had an opportunity to talk about this until now&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8230;I wanted to recap what we agreed on. We agreed to say to [X] that we are going to be welcoming a new baby into our family - his brother and that he was going to be a special baby just like him. How exciting and how very lucky we all are.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">We agreed that we wouldn&#8217;t expand upon that messaging and to keep it very simple. As such no mention of the surrogate.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">We also agreed that we would communicate to each other how he reacted to this news and the questions he asked with each other by phone. I feel that this is very important. We need to make sure [X&#8217;s] wellbeing is a priority. </span><span style="font-style:italic;font-family:TimesNewRomanPS-BoldItalicMT">As discussed in our session with [the mediator], it is a difficult situation where [X] will have a brother with the same father as him, but his brother will not have a mother whereas [X] has a mother.</span><span style="font-style:italic;font-weight:bold;font-family:TimesNewRomanPS-BoldItalicMT"/><span style="font-style:italic">It is highly unusual family situation&#8230;&#8217; </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 1<span style="vertical-align:super;font-size:smaller">st</span> February 2023 A&#8217;s solicitors wrote to B&#8217;s solicitors setting out A&#8217;s proposals for X&#8217;s arrangements over March and April 2023, when Y was expected to be born. Within that letter, they stated that:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.69in;margin-right:0.37in"><span style="font-style:italic;font-size:11pt">&#8216;[A] also expects that [B] will be focussed on </span><span style="font-style:italic;font-family:TimesNewRomanPS-BoldItalicMT;font-size:11pt">his newborn</span><span style="font-style:italic;font-size:11pt">, who will require around the clock care, and even though you have pointed out that [B] has employed someone to assist with the baby, </span><span style="font-style:italic;font-family:TimesNewRomanPS-BoldItalicMT;font-size:11pt">as </span><span style="font-style:italic;font-weight:bold;font-family:TimesNewRomanPS-BoldItalicMT;font-size:11pt">the baby&#8217;s only parent</span><span style="font-style:italic;font-size:11pt">, [B] will need to be on hand to care for and bond with the baby at this important time.&#8217;(emphasis added)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 2<span style="vertical-align:super;font-size:smaller">nd</span> February 2023 A&#8217;s solicitors wrote to B&#8217;s solicitor explaining that A wished to book <span style="font-style:italic">&#8216;a holiday abroad with [X] from 27th March - 7th April (while [B] is in California)&#8217;</span>. B agreed, through solicitors, on 9<span style="vertical-align:super;font-size:smaller">th</span> February 2023.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Correspondence continued between the solicitors regarding the arrangements for X.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 13 March 2023, shortly before Y&#8217;s birth, A&#8217;s solicitors wrote to B&#8217;s solicitors stating that she wanted to work with B and <span style="font-style:italic">&#8216;to agree to her having a full relationship with the new baby as his mother. She is prepared to work with [B] on an effective co-parenting relationship from which both [X and Y] will benefit.&#8217;</span> The letter continues setting out how she could fly out with X for the birth of Y and work with B <span style="font-style:italic">&#8216;on arrangements for the baby to spend time with each parent</span><span style="font-style:italic;font-weight:bold"/><span style="font-style:italic">once [B] and the baby return to the UK. If [B] does not agree  to this, upon the birth of the second child, we are instructed to seek appropriate orders, including interim child arrangements orders, to secure [A&#8217;s] position as </span><span style="font-style:italic;font-weight:bold">mother to the new baby</span><span style="font-style:italic"> and so that [A] and [X] can spend time with him&#8217;.(emphasis added)</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">B&#8217;s solicitors responded on 22 March 2023, stating that A&#8217;s desire to step forward as a parent to Y had no basis as a matter of law as A does not fit within the framework of either the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>) or the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref>. The letter continued: A is not entitled to parental responsibility under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s4</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>, is not a person entitled to apply for orders under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s8</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>, any application to apply for leave under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">s10(9)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> would be strongly disputed and A does not meet the criteria under <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref>. On 23 March 2023 A&#8217;s solicitors responded seeking an assurance from B that he would take no irrevocable steps in respect of Y without notice to A and her consent being obtained.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A issued wardship proceedings by way of a C66 application on 3 April 2023 and stated in the application that she wanted <span style="font-style:italic">&#8216;to make the child a ward of court pending full consideration of arrangements for the child&#8217;.</span> In her reasons for making the application, A set out the background to the circumstances of X&#8217;s birth and then continued that during the proceedings concerning X &#8216;<span style="font-style:italic">in 2021/2022 the first respondent secretly arranged with a surrogate in California to commission a further pregnancy using one of the embryos developed in 2019 (and thus a full sibling to our son [X])&#8230;.I wish to have a full role in [Y&#8217;s] life as a mother to ensure that [Y] has a full loving relationship with two parents, just as [X] does.&#8217;</span> A filed a statement in support of the application where she states her intention to make applications that will enable her to be a <span style="font-style:italic">&#8216;full parent to [Y] in the same was as she is to [X]&#8217;</span> and made the application for wardship due to the failure of B to give the assurances A sought.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 5 April 2023 B made an application for a parental order as a single parent, with Mr and Mrs G respondents to that application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 3 May 2023 this court considered the wardship application and B&#8217;s application for a parental order. The detailed position statement filed on behalf of B and Mr and Mrs G set out the basis upon which they considered the application for wardship and the potential application under <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s54</ref> lacked legal foundation. The transcript of that hearing sets out the interchanges between the court and counsel for all parties about the legal issues raised by the applications already made, as well as the prospective applications.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The order made that day, within the wardship proceedings, included a direction for Y to be joined as a party and for A to file a skeleton argument by 5 June 2023 that addressed the following matters:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Whether the wardship should continue;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The orders that the applicant invites the Court to make under the Wardship, the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, or the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Whether the conditions under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10(9)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> are met and whether she should be granted leave to make applications under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The basis upon which the applicant can seek an order under <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref>;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Any application for joinder to, or disclosure from, the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref> proceedings;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Any Part 25 applications;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Interim contact.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Directions were made for A and B to file further evidence, the hearing on 29 June 2023<span style="font-weight:bold"/>was listed<span style="font-weight:bold"/>to determine the issues set out above. In addition, directions were made for a hearing on 11 May 2023 to determine A&#8217;s application for legal funding from B. At that hearing, which both B and A were present at, the following was stated by Mr Ewins K.C., counsel for B, at the end of his oral submissions </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-style:italic">&#8216;Just to finish, [A] is always going to be [X&#8217;s] mother.&#160; She is always going to be the mother of [Y&#8217;s] brother.&#160; There will always be a relationship in that context.&#160; That cannot be disputed.&#160; It is a matter of fact.&#160; That is who she is.&#160; In due course, it must be likely that [X] and [Y] spend time together in her presence because that is who she is.&#160; What she is wanting to do is push that ambitiously to somewhere where it is certainly not clear at this stage that there is a legal route to take her.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A made an application seeking leave under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">s10(9)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> on 15 May 2023, with a statement in support. In that statement she set out the orders she was seeking, if leave was given. She confirmed she wanted Y to remain a ward of court <span style="font-style:italic">&#8216;pending long-term decisions about his welfare&#8217;</span> and if the court discharges the wardship A sought leave to make an application for a child arrangements order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s8</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>. She states '<span style="font-style:italic">I have made these applications because I firmly believe that it is in the interests of [Y] and [X] that I should have a significant caring role in both their lives, as a mother&#8230;I make clear that I have not made this application lightly, or for my own personal benefit but for [X] and [Y], so that the children can benefit from growing up with two loving parents&#8217;.</span> A comments that B <span style="font-style:italic">&#8216;has never once explained why he does not consider my application to be in [Y](and [X])&#8217;s best interests&#8217;</span>. In the part of her statement headed &#8216;<span style="font-style:italic">My Intended application under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s8</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>&#8217;</span> A states she seeks &#8216;<span style="font-style:italic">a shared &#8216;lives with&#8217; order in respect of [Y]. I understand that such an order will also grant me parental responsibility for [Y], which will allow me to make decision regarding his upbringing with [B], as I do now for [X]. I want [Y] to share his time between [B] and I, as [X] does and I would hope to discuss with [B] how this would progress.&#8217;</span> She does refer to the range of orders the court could make and then continues <span style="font-style:italic">&#8216;Over and above a &#8216;live with&#8217; order, I would like to be [Y&#8217;s] mother, which is one of the reasons I have applied under the wardship jurisdiction. I would like the court to consider how best to give me that role in [Y&#8217;s] life&#8217;.</span> In the section of the statement that considers the merits of her application A states &#8216;<span style="font-style:italic">I want [Y] to share the lovely life and experiences [X] and I have. I want [X] and [Y] to grow up with two loving, supportive parents&#8230;.In my view, it would be a shame for [Y] to lose the opportunity to have a mother figure in his life when his full sibling does&#8230;.the issue between us is not whether I should spend time with [Y]; it is how and when, and in what status&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 2 June 2023 A issued a C51 application seeking a parental order under <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref>. In that application she includes B&#8217;s details, although he had already issued his own application for a parental order as a single applicant in April 2023. The application is only signed by A and it refers to B having previously filed an application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 15 June 2023 A&#8217;s solicitors informed the parties that A considers the welfare of X and Y should be looked at together and the arrival of Y <span style="font-style:italic">&#8216;has dramatically altered the landscape for this family. [A&#8217;s] priority is to establish a close relationship with him and to secure both boys&#8217; best interests. With that in mind, she recognises that it is not viable to relocate&#8230;at the present time and she shall not be pursuing her relocation application&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 26 June 2023 A&#8217;s solicitors notified the parties as follows that A <span style="font-style:italic">&#8216;accepts that as a matter of law it is not possible for the court to make a parental order in circumstances where [Mr and Mrs G] do not consent. It is clear from their position statement that they are opposed to the making of a parental order and that there is no realistic prospect of them coming to a different view following a process of investigation. In the circumstances, [A] will not pursue this application. [A] has also instructed us that, having regard to the views expressed on behalf of the guardian in particular, she will not pursue the wardship proceedings. She would also like to make it clear that she does not oppose the making of a parental order in [B&#8217;s] favour.&#8217;</span> The letter continues<span style="font-style:italic"> &#8216;[A&#8217;s] motivation is and always has been promoting the best interest of [Y] and [X]. She does not seek to undermine [B&#8217;s] relationship with either child and promotes a positive image of [B] to [X]. [A] does consider that she has an important role to play in [Y&#8217;s] life and that issues surrounding this are not straightforward&#8217;</span> . The letter confirms she seeks to pursue the application under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">s10(9)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There was a directions hearing on 6 June 2023 within the X proceedings, the matter is now allocated to HHJ Roberts, a further directions hearing is listed on 7 July 2023 and a three day hearing on 6 November 2023.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Relevant Legal Framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst it is recognised that the High Court is able to invoke the inherent jurisdiction in circumstances where a statutory framework is available, that should be exceptional. The introductory paragraph to Family Procedure Rules 2010 (FPR 2010) Practice Direction 12 D makes that clear, as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8216;The court may in exercising its inherent jurisdiction make any order or determine any issue in respect of a child unless limited by case law or statute. Case law establishes that such proceedings should only be commenced exceptionally where it is clear that the issues concerning the child should not be resolved under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, for example, for reasons of urgency, of complexity or of the need for particular judicial expertise in the determination of a cross-border issue.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This accords with the decision of the Supreme Court in <span style="font-style:italic">Re NY (A Child)</span> <ref href="#" uk:canonical="[2019] 2 FLR 1247" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 2 FLR 1247</ref> at [44] Lord Wilson stated &#8216;<span style="font-style:italic">At the first hearing for directions the judge will need to be persuaded that, exceptionally, it was reasonable for the applicant to attempt to invoke the inherent jurisdiction. It may be that, for example, for reasons of urgency, of complexity or of the need for particular judicial expertise in the determination of a cross-border issue, the judge may be persuaded that the attempted invocation of the inherent jurisdiction was reasonable and that the application should proceed. Sometimes, however, she or he will decline to hear the application on the basis that the issue could satisfactorily be determined under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref></span>.&#8217;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As MacDonald J observed in <span style="font-style:italic">Tameside MBC v AM</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/20121/2472" uk:canonical="[20121] EWHC 2472 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="20121">[20121] EWHC 2472 (Fam)</ref> at [56] <span style="font-style:italic">&#8216;&#8230;where Parliament has spelt out in considerable detail what must be done in a particular class of case it is not open to the court to disregard those provisions and apply a different jurisprudence from that which the statutory scheme prescribed by Parliament provides&#8230;&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For  a parental order to be made the court needs to be satisfied that the relevant criteria in <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref> are met and that making the parental order will meet the lifelong welfare needs of the children as set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="color:#000000">Under <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref>A has similar provisions in the case of a single applicant) <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref> the criteria are as follows in relation to an application made by two people (the intended parents):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="color:#000000">The child has been conceived artificially and is genetically related to one of the intended parents (sub<ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref>)</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="color:#000000">The intended parents are married, in a civil partnership or living as partners in an enduring family relationship (ss. 2).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="color:#000000">The intended parents have applied within 6 months of the child's birth (ss. 3).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="color:#000000">The child is living with the intended parents and at least one of them is domiciled in the UK (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss.4</ref>).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(5)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="color:#000000">The intended parents are over 18 years old (ss.5).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(6)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="color:#000000">The surrogate (and her husband/civil partner) has consented freely and with full understanding agreed unconditionally to the making of the order (ss6). There is provision under ss7 for the court to determine that the surrogate cannot be found or is incapable of giving consent. The consent of the surrogate is ineffective unless given more than 6 weeks after the child&#8217;s birth.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(7)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="color:#000000">The surrogate has been paid no more than reasonable expenses, unless authorised by the court (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss.8</ref>).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In a number of cases the court has read down some of the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s54</ref> criteria in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">HRA 1998</ref>) in circumstances where a Convention Right is engaged, usually Article 8. Article 8 requires the State to respect the family life of individuals. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is a question of fact as to whether a Convention Right is engaged. In the case of Article 8 it is a &#8216;<span style="font-style:italic">&#8230;question of fact depending upon the real existence in practice of close family ties&#8217; </span>(see <span style="font-style:italic">K and T v Finland </span><ref href="#" uk:canonical="[2000] 2 FLR 79" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 2 FLR 79</ref> at [150]. Any relationship constituting &#8216;family life&#8217; must have <span style="font-style:italic">&#8216;sufficient constancy and substance to create de facto &#8216;family ties&#8217;</span><span style="font-style:italic;font-weight:bold"/>(see <span style="font-style:italic">Lebbink v The Netherlands </span><ref href="#" uk:canonical="[2004] 2 FLR 463" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 2 FLR 463</ref> [37]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">To be able to read down under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">HRA 1998</ref> it is necessary to establish that a Convention right is engaged and if the words of the statute, when considered in accordance with the relevant principles of statutory interpretation, are incompatible with that Convention right.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Ghaidan v Godin-Mendoza </span><ref href="#" uk:canonical="[2004] 2 AC 557" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 2 AC 557</ref> sets out the guiding principles in these circumstances in the following way, per Lord Nicholls [33]</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8216;Parliament, however, cannot have intended that in the discharge of this extended interpretative function the courts should adopt a meaning inconsistent with a fundamental feature of legislation &#8230; Parliament has retained the right to enact legislation in terms which are not Convention-compliant. The meaning imported by application of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref> must be compatible with the underlying thrust of the legislation being construed. Words implied must, in the phrase of my noble and learned friend, Lord Rodger of Earlsferry, &#8220;go with the grain of the legislation&#8221;. Nor can Parliament have intended that <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref> should require courts to make decisions for which they are not equipped.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These are the principles that have been carefully followed by this court in a number of cases, for example <span style="font-style:italic">Re X (Parental Order; Death of Intended parent Prior to Birth) </span><ref href="#" uk:canonical="[2020] 2 FLR 1326" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 2 FLR 1326</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In considering an application for leave to make an application under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">s10(9)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> the court has a wide discretion and is directed to have regard to the nature of the proposed application, the applicant&#8217;s connection with the child and any risk there might be of the proposed application disrupting the child&#8217;s life to such an extent that he would be harmed by it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Black LJ (as she then was) in <span style="font-style:italic">Re B (A Child) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/737" uk:canonical="[2012] EWCA Civ 737" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 737</ref> set out a comprehensive review of the relevant principles from [34] &#8211; [48], making it clear at [48] that there is not any limit on the factors for the court to take into account as they <span style="font-style:italic">&#8216;will vary infinitely from case to case&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following the letter from A&#8217;s solicitors dated 26 June 2023 A seeks leave to withdraw the application for wardship and a parental order. FPR 2010 r29.4 provides that when considering such an application the court needs to consider the welfare of the child (see <span style="font-style:italic">Ciccone v Ritchie (No 2)</span> <ref href="#" uk:canonical="[2017] 1 FLR 812" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 1 FLR 812</ref> [49] &#8211; [52]).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his careful written and oral submissions, Mr Harrison K.C. focuses on the background to these applications, in particular the joint way A and B embarked on the journey to have children and the enormous difficulties they encountered. He focussed on the very difficult matters A has had to come to terms with regarding her own fertility and the difficulties she says she has encountered in her relationship with B. Mr Harrison carefully took the court through the evidence in the court bundle of the psychological support A has received and how that fitted into the relevant chronology of events.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He stressed the circumstances when the letter was written by B to the clinic in July 2019 A did not have legal advice and was at, what he described as, a particularly vulnerable time. Mr Harrison stressed and drew out the evidential references to how good X&#8217;s relationship is with B and the part A has played in supporting that, despite the difficulties in the adult relationship.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the application to withdraw the wardship and parental order applications he resists the court considering it on any other basis than consent not being given by Mr and Mrs G, and submits there is no need for the court to consider the position any wider. It was not necessary for the court to go any wider, to do so in circumstances where the court has not heard any oral evidence or further argument is not justified in the circumstances of this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As regards the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">s10(9)</ref> application the evidence remains that A seeks a shared care arrangement, as set out in her statement, although Mr Harrison made the point that the court could limit the leave to an application to spend time with in the same way that Baker J (as he then was) did in <span style="font-style:italic">Re G; Re Z </span><ref href="#" uk:canonical="[2013] 1 FLR 1334" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 FLR 1334</ref> at [122] &#8211; [126].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his written submissions he set out that A&#8217;s connection with Y is <span style="font-style:italic">&#8216;strong and obvious&#8217;</span> she was <span style="font-style:italic">&#8216;involved in Y&#8217;s conception; she is an important part of his life story&#8217;</span>, is Y&#8217;s full genetic brother&#8217;s mother who lives with his mother and she is &#8216;<span style="font-style:italic">[Y&#8217;s] father&#8217;s co-parent&#8217;.</span> He submits by not granting her leave risks Y&#8217;s life story being inaccurate as B sets out in his statement that A has had no part in Y&#8217;s conception, A is part of Y&#8217;s background and the role A played should not be denied to him. As regards any risk, he submits &#8216;<span style="font-style:italic">there is no risk that [Y] will be harmed&#8217;</span> by A&#8217;s application as he would be completely unaware of it and the parties are already involved in proceedings. It is in the interests of both children to be considered holistically. Mr Harrison also relies on B&#8217;s refusal to engage in mediation, although there is an issue about that.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Harrison submits A&#8217;s application for the orders she seeks leave to make are not only arguable, they have prima facie <span style="font-style:italic">&#8216;significant merit&#8217;. </span>The delay in making the application he submits is understandable in the circumstances of this case. B&#8217;s response to A&#8217;s 13 March 2023 letter is described as taking an &#8216;<span style="font-style:italic">adult-centric approach, focussing on the legal ownership of the embryos and threatening [A] with costs if she made her application&#8230;.he has not provided any cogent reason why it would not benefit [Y] (or indeed [X]) for [A] to be involved in his life&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the point made that Y&#8217;s family structure and identity should be respected Mr Harrison submits <span style="font-style:italic">&#8216;This approach ignores the circumstances of [Y&#8217;s] creation and the role [A] played in it&#8217;. </span>When B sets out in his statement that Y was conceived by MrsG and B <span style="font-style:italic">&#8216;with the intention of me being his only parent&#8217;,</span> Mr Harrison submits this is factually wrong as Y <span style="font-style:italic">&#8216;was conceived with [A&#8217;s] full involvement as one of eight embryos, two of which were intended to become the children of both of them&#8217;.</span> For example, he relies upon the reference in the consent letter in July 2019 from B to the clinic where B refers to B and A moving forward to have &#8216;<span style="font-style:italic">our first child together&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On behalf of B, Ms Fottrell K.C. set out, as she did in her position statement for the hearing on 3 May 2023, the lack of any solid legal foundation to the application for a parental order or the application for wardship.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the wardship she submits there was no justification for such an application being issued, the relevant legislative framework is clear as set out in the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the application for a parental order she flagged up a number of insurmountable hurdles to the application being able to proceed, leaving to one side the issue of consent, and powerfully submits the court needs to take the wider view when considering the application for leave to withdraw the application. It should not be limited to consent, as that does not meet Y&#8217;s welfare needs because it leaves open the question whether, but for the issue of consent, the application could have been maintained. Ms Fottrell says it could not for the following reasons.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, A cannot make an application on her own as she does not have a biological connection and B objects to her joining his application, as she seeks to do.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Second, there is very real doubt the criteria in <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 54 (2)</ref> of B and A establishing that they are two persons living as partners in an enduring family relationship can be met in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Third, Y did not have his home with A at the time that her or B&#8217;s application was made. Y has not met A yet.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Fottrell robustly rejects any suggestion on behalf of A that the relevant provisions could be read down under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 3</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">HRA 1998</ref>. She submits the skeleton argument on behalf of A simply does not engage with the relevant principles in <span style="font-style:italic">Ghaidan v Godin-Mendoza (ibid)</span>, how that fits into the policy considerations that underpin the legislation and the basis upon which any Convention rights are engaged. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In addition, she makes the following points about the common features of cases where the court has read down these provisions:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">It has always been with the consent of all parties, which is not the case here.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The suggestion on behalf of A that welfare considerations would justify a broad interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">the Act</ref> is unprincipled and wrong.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On behalf of B she submits the court needs to carefully consider the integrity of the scheme in the circumstances in this case. Mrs G entered into a surrogacy arrangement with B, that was done properly and in accordance with the relevant legal framework. They agreed and expected to secure a parental order with the consequences that Mrs G would relinquish her legal parentage to B alone. It would be <span style="font-style:italic">&#8216;wrong for the court to assign that legal parentage to another person who was not a party to that agreement and contrary to the wishes of [Mrs G]&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Fottrell reminds the court of the significance of a parental order, its transformative effect, it secures parental status on a lifelong basis. It is because of this Ms Fottrell submits<span style="font-size:11pt"> this is the &#8216;</span><span style="font-style:italic;font-size:11pt">reason that Parliament has created a statutory framework which carefully and precisely sets out the circumstances in which a non-genetic parent is able to obtain the legal status of parenthood. Similarly, it is why the authorities in respect of the acquisition of legal parenthood make clear the importance of legal certainty.&#8217;</span><span style="font-size:11pt"> She continues &#8216;</span><span style="font-style:italic;font-size:11pt">The consequences of [A&#8217;s] proposed interpretation would be to introduce uncertainty into the statutory scheme. It would potentially enable any person with an established family relationship, whatever that relationship might be, to obtain the status of a parent. It would leave a genetic parent applying for a parental order at risk of having shared parenthood imposed upon them, contrary to their intentions when conceiving the child&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">To permit any lingering doubt as to whether A could establish herself as a legal parent of Y would, she submits, be inimical to his welfare and it is therefore necessary for the court to set out the position wider than any lack of consent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Segal, on behalf of Mr and Mrs G, focussed her submissions on the risks to Y&#8217;s welfare if the court only considered consent as the reason to permit the withdrawal of the application for a parental order. That approach would risk, she submits, the narrative about Y&#8217;s background becoming distorted as it could be said that but for Mr and Mrs G&#8217;s consent a parental order could be made. As she set out in her oral submissions there would be a risk of harm to Y as it risked maintaining a fiction that A could be a mother to Y, attaches blame to Mr and Mrs G, has the potential to create doubt in Y regarding Mr and Mrs G&#8217;s character in circumstances where they have maintained a warm and continuing relationship with B, maintain contact with Y and, finally, risks distorting the narrative regarding the surrogacy arrangement and creates confusion. Otherwise she aligns herself with the wider legal arguments advanced on behalf of B.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Stanley, in her written submissions of behalf of Y&#8217;s Children&#8217;s Guardian, highlights the distinct circumstances of each child&#8217;s conception, namely X was carried by A and at the point of the embryo transfer the joint intention of A and B was to create and parent X together. In contrast, whilst X and Y&#8217;s embryos were created at the same time and it is agreed they are full-genetic siblings, A was not involved in the decision to proceed with the surrogacy arrangement with Mr and Mrs G and at the point of the embryo transfer that resulted in Y&#8217;s birth there was not any intention for A and B to create and parent Y together.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Stanley recognises the very regrettable way A found out about Y&#8217;s conception, her understandable distress as to the way she found out and the emotional impact on her bearing in mind the background. Whilst acknowledging that, she makes the following points. First, A had written to B in August 2020 acknowledging that the embryos were his and that he planned to have a second child with someone else. The letter set out her position if she and B were to have a second child together. Second, the parties continued their discussions and in January 2021 it appears those discussions came to an end. B wrote to A on 15 April 2021 stating <span style="font-style:italic">&#8216;I understand from the way you reacted when I mentioned the subject that you have ruled out having a second child with me and I have come to accept this&#8217;.</span> Third, when the ISW discussed the forthcoming child with A she focussed on the need to seek expert advice as to how to explain the arrival of the new baby to X. Fourth, on 1 February 2023 A wrote via her solicitors noting that A and B had been able to discuss the expected arrival of X&#8217;s baby brother and refers to B being the new baby&#8217;s only parent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Stanley makes the point that up until the letter on 13 March 2023, A had not suggested at any stage that she was a parent to Y and explicitly acknowledged, with the benefit of legal advice, that B was the new baby&#8217;s only parent. Whilst A&#8217;s focus more recently has been playing a role as a parent in Y&#8217;s life it is clear from the chronology, she submits, that B did not enter into the surrogacy arrangement jointly with Mr and Mrs G and A. A does not have a genetic link to Y. Whilst it is recognised A and B were not in an intimate relationship she submits it is difficult to see how they could be held to be in an enduring family relationship when they are not living as partners, did not enter into the surrogacy together and their link as a family is a child born as a result of their previous relationship. Ms Stanley submits that to include the circumstances in this case within the definition would impact on the ability for family lives to change and develop on separation and second families to be formed. It would instead leave the prospect of a substantial role for previous partners to play in subsequent second families on the basis of a sibling relationship alone and provide the potential for individuals to be classed as parents in relation to children who they did not have any role in the decision to embark on a further pregnancy or surrogacy arrangement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Stanley supports the application for leave to withdraw the wardship application in the light of the application under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">s10(9)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the application for leave to apply for an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> Ms Stanley joins with the submissions on behalf of B regarding the nature of the proposed application and A&#8217;s connection with Y. A maintains her application for shared care, which Mr Stanley submits seeks to circumnavigate any decision relating to the parental order application. Ms Stanley submits A&#8217;s connection with Y are all connected through X&#8217;s role as Y&#8217;s brother other than conception. She submits the distinction between X and Y&#8217;s conceptions is that X was carried by A and X&#8217;s embryo implantation was in the knowledge that A would be X&#8217;s mother. This supports what Ms Stanley submits is the significance in the statutory regime that the relevant point for considering parenthood is the time of the embryo transfer, not when the embryo was created, as A seeks to do. As regards any risks of the application disrupting the child&#8217;s life to an extent that he would be harmed by it, Ms Stanley considers that is present in this case due to the delay in determining any issues if leave was given, the impact on the relationship between A and B as X&#8217;s parents and the Children&#8217;s Guardian&#8217;s view of the impact of the proceedings to date on B, who is responsible for caring for such a young child. Ms Stanley submits the prospects of success of a shared care arrangement is remote and the need for a child arrangement order for A to spend time with Y is questioned in circumstances where X and Y already spend time together. Ms Stanley submits these issues are best considered through mediation and/or family therapy.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Discussion and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The circumstances surrounding the conception of X are clear. It was a joint arrangement between A and B for the embryo that had been created using B&#8217;s gametes and a donor egg was transferred to A with B&#8217;s express consent and a common understanding that they would both be parents of X.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The circumstances surrounding Y&#8217;s conception were very different. Whilst it had been discussed in general terms there was no joint arrangement at the time of Y&#8217;s conception for A and B to parent Y. A was not part of any of the arrangements, she recognised with the benefit of legal advice prior to and in February 2023 that B was the sole parent of Y. In her discussions before then with B and the ISW the focus was on seeking advice to manage how to inform X of Y&#8217;s arrival, with no suggestion that she was part of the arrangements regarding the birth of a second child.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his oral submissions Mr Harrison carefully laid out the very real distress A had felt during this process, the support she had needed from a psychiatrist in 2020, as outlined in the letter dated 8 October 2020, and a psychotherapist, as outlined in the letter dated 28 April 2022. This was to assist and support her come to terms with the situation she found herself in, in particular the reality regarding the loss of her own fertility and the impact on her of the document mistakenly sent to her by B in January 2021. As Mr Harrison observed, the journey to parenthood for both A and B has been <span style="font-style:italic">&#8216;lengthy and emotionally painful&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He stressed the evidence in the papers that despite the difficulties in their relationship, A had supported X&#8217;s relationship with B which is corroborated by the evidence of the strength of the relationship between B and X. A&#8217;s role in this is acknowledged by B in his statement in the X proceedings. Also, to A&#8217;s credit, there had been no suggestion of A acting unilaterally regarding the issues between her and B regarding Y. He also set out the basis upon which he submitted A had been realistic about the evidence as it developed. On 15 June 2023 she had communicated to the parties in the X proceedings that she was not proceeding with her internal relocation application and on 26 June 2023 informed the parties in these proceedings, she was seeking leave to withdraw her application for a parental order and wardship. He submitted this compared with the lack of frankness by B in his statement in the X proceedings on 14 April 2022, when he confirmed his intention to have a second child and would inform A when it becomes a likelihood. In fact, he submitted, B had already embarked on the process for that to happen.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst there can be little doubt the journey to parenthood has been difficult for both parties, it is clear the parental route for both these children is factually and legally different, as outlined above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This hearing was fixed with the specific purpose of the court considering the basis upon which A founded her application in law to be a parent for Y. The written submissions on her behalf list the cases where the court has read down the provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 54</ref> asserting &#8216;<span style="font-style:italic">[A&#8217;s] case is that the court can and should make a parental order in her favour if it considers such an order to be in [Y&#8217;s] best interests. She has lodged an application and on her case [A] and [B] fall to be considered as joint applicants by the court. Her position and that of [X] must be fully considered in relation to [B&#8217;s] application in any event&#8217;.</span> The written submissions continue &#8216;<span style="font-style:italic">There are various routes that could be used to create a position of parentage for [A] if the court considered that to be in [Y&#8217;s] best interests, including by way of a parental order. The matter should not be summarily decided. The court&#8217;s approach when faced with parental order applications that do not fall squarely within the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref> requirements has been to read down the statute in a purposive way a) to give effect to parliament&#8217;s intention and b) to ensure that it is read down compatibly with the ECHR in accordance with the obligation under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s3(1)</ref>&#8230;.[B], [A], [Y] and [X&#8217;s] Art 6, 8 and 14 rights are engaged and the HFEA <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s54</ref> criteria must be interpreted accordingly.&#8217;</span> The written submissions then list a number of cases where the court has read down provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s54</ref> and then continues <span style="font-style:italic">&#8216;It is submitted that the authorities support the notion that [A] has a good arguable case in relation to a parental order being made if the court considers it to be in [Y&#8217;s] best interests&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no analysis on behalf of A as to the following:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">How it is proposed A&#8217;s application for a parental order in relation to Y would be imposed on B, who did not consent to this course and in any event already has his own application for a parental order that accords with the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref> as a single applicant. The suggestion in her skeleton argument that she should be joined as a party to B&#8217;s sole application &#8216;<span style="font-style:italic">aside from her own application&#8217;</span> based on the welfare checklist in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 1 (4)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref> lacks any foundation, as does the assertion on her behalf that <span style="font-style:italic">&#8216;even if [A] is unsuccessful in obtaining a parental order, it does not necessarily follow that a parental order should be conferred on [B]&#8217;</span> which makes no sense in the light of her acknowledgment that he is a parent to Y.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">How the intention of Parliament in the circumstances of this case meets the careful analysis required by the principles set out in in <span style="font-style:italic">Ghaidin v Godin-Mendoza (ibid).</span> That case is simply not mentioned.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">How the Convention rights, in particular Article 8, are engaged in the circumstances of this case when there is no biological link, A was not his gestational mother, A was not involved in the planning of Y&#8217;s conception, which could only be done with B&#8217;s consent, in circumstances where it is accepted it was not given in respect of Y as it was in relation to X and A has not yet met Y. Following A becoming aware of  Y&#8217;s conception in August 2022 A acted in a way, when she had the benefit of legal advice, that she did not consider herself to be y&#8217;s parent, including in February 2023 when, with the benefit of legal advice, she recognised that B was Y&#8217;s sole parent. In his submissions, Mr Harrison asserts the Article 8 position as follows, A and B <span style="font-style:italic">&#8216;jointly chose to create a family together and elected to become co-parenting partners for life. That will remain the reality for the rest of the parties&#8217; lives and the decision reached in that regard, prior to the creation of both [X] and [Y&#8217;s] embryos, cannot be erased so as to mean that they are not engaged in an enduring family relationship&#8217;. </span> As Ms Fottrell submits, even taking A&#8217;s case at its highest, it is insufficient evidence of <span style="font-style:italic">&#8216;genuine personal ties&#8217;</span> with Y in circumstances where as long ago as August 2020 A recognised B could use the embryos to conceive another child, alone or with a partner, and since being made aware of T&#8217;s conception in August 2022 until 13 March 2023 at no stage asserted she had the status of parent in relation to Y.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst the simplicity of A&#8217;s position (bearing in mind the recent decision <span style="font-style:italic">Re C (Surrogacy: Consent) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/16" uk:canonical="[2023] EWCA Civ 16" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Civ 16</ref></span>) that in the light of the lack of consent by Mr and Mrs G, she is going to withdraw her application for a parental order meets Y&#8217;s welfare needs, in my judgment it only does so in part. I agree with Ms Segal that from Y&#8217;s perspective and his identity needs there should be clarity now of the very considerable hurdles A faces in proceeding with her parental order application, irrespective of the issue of consent. The welfare issues she outlined, as summarised in paragraph 69 above, are both powerful and compelling.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, A&#8217;s application for a parental order lacks merit, as on the facts that were not in dispute, and taking her case at its highest, she has not demonstrated how she would meet the key <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">s54</ref> criteria (in particular, <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s54 (1)</ref>, (2) and (4(a)) or properly set out how any reading down of those provisions that she seeks accords with parliamentary intention, meets the criteria in <span style="font-style:italic">Ghaidin v Godin-Mendoza (ibid)</span> and that the Convention rights that seek to be protected are actually engaged in accordance with the authorities. The case is put on the basis that the court can and should make a parental order in her favour as it is in <span style="font-style:italic">Y&#8217;s &#8216;best interests&#8217;.</span> That is not the test for reading down, as is made clear in <span style="font-style:italic">Ghaidin v Godin-Mendoza (ibid).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In those circumstances, irrespective of the issue of consent, the application for a parental order on the facts of this case lacked both merit and legal foundation in key respects and I am satisfied that Y&#8217;s welfare needs are met by A being given leave to withdraw that application on this wider basis, not just limited to the issue of consent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is also clear that Y&#8217;s welfare needs are met by the application for him to be a ward of court being withdrawn. The statutory framework provides a clear structure for any application to be made by A, there is no exceptional rationale being advanced for the inherent jurisdiction to remain.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning to the application for leave under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10(9)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> to make an application for an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s8</ref>, A has maintained her position regarding the nature of the application she seeks, as set out in her statement dated 15 May 2023, namely shared care, including the ability to exercise parental responsibility in relation to Y. Whilst A does in that statement acknowledge the range of powers the court has in relation to child arrangement orders she maintains her primary position regarding the order she seeks, setting it out in some detail, as summarised by Ms Segal in paragraph 15 of her Addendum Position Statement, underpinning A&#8217;s wish to be treated as a mother for Y, to be one of Y&#8217;s parents, as she is for X, and allow her to make decisions regarding Y&#8217;s upbringing with B. A&#8217;s connection with Y is through being a parent with B to Y&#8217;s sibling, X. Her direct connection with Y is that the embryos were created at a time when A and B were planning to be co-parents, which they were in relation to X but A was not part of the arrangements regarding Y&#8217;s conception in the arrangement between B and Mr and Mrs G that resulted in Y&#8217;s birth. If A is given leave it will inevitably mean there is further delay which, in my judgment, does carry with it the risk of harm indirectly to Y in circumstances where there is evidence from the Children&#8217;s Guardian of the impact on B as Y&#8217;s full time carer, of the continuing litigation regarding Y. Against that it could be said that any delay would be manageable due to the known timeframe in the X proceedings which, if leave was given, the application regarding Y could be part of and B is already a party in those proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having stood back, viewed the wide canvas and considered A&#8217;s application under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">s10(9)</ref> I have reached the conclusion that leave should not be given. In reality A seeks to maintain her position to be treated as Y&#8217;s mother for the reasons she sets out her statement in support. There is limited, if any, recognition by her of the different circumstances and consequences of the conception of X and Y. It is, in my judgment, a wholly unrealistic application that fails to have any regard for the reality of the position, any recognition of the difference in the circumstances of conception between the two children and their different legal status as between A and B. There is no issue that A is X&#8217;s parent and that X is a full genetic sibling to A. Bearing in mind the circumstances of the litigation to date, there is a real risk that if leave is given, even if it sought to limit the issues, there will be disruption to Y&#8217;s life through the continued pressure and impact on B as Y&#8217;s main carer as outlined by the Children&#8217;s Guardian, in circumstances where there remains, despite the position being made clear on behalf of B since 23 March 2023, Mr and Mrs G in their Position Statements and the Children&#8217;s Guardian in their Position Statement, little or no understanding by A of the different legal structures that exist for each X and Y.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree with Ms Stanley, the issues raised are better dealt with by way of mediation and therapy, in the context of this decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst I have refused the application now, that does not mean that circumstances may not change and the position may need to be looked at again. I make it clear that is not said with any encouragement for any application to be made. It will very much depend on the circumstances that exist at that time. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The current position was succinctly summarised by Mr Ewins at the hearing on 11 May 2023<span style="font-style:italic"> &#8216;&#8230; [A] is always going to be [X&#8217;s] mother.&#160; She is always going to be the mother of [Y&#8217;s] brother.&#160; There will always be a relationship in that context.&#160; That cannot be disputed.&#160; It is a matter of fact.&#160; That is who she is.&#160; In due course, it must be likely that [X] and [Y] spend time together in her presence because that is who she is.&#160; What she is wanting to do is push that ambitiously to somewhere where it is certainly not clear at this stage that there is a legal route to take her.&#8217;</span> This judgment has now made that position clear.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons set out above, leave is given for A to withdraw her application for wardship and a parental order and her application for leave under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/10/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">s10(9)</ref> is refused.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I hope now this decision has been made, the parties can focus on resolving the outstanding issues between them.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

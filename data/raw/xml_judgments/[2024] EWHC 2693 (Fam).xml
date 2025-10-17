@@ -1,0 +1,782 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/2693"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/2693"/>
+	  <FRBRdate date="2024-10-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2693"/>
+	  <FRBRname value="BB v CC"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/2693"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/2693"/>
+	  <FRBRdate date="2024-10-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/2693/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/2693/data.xml"/>
+	  <FRBRdate date="2024-10-25T11:52:55" name="transform"/>
+	  <FRBRdate date="2024-10-25T12:07:49" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-10-24" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="bb" href="" showAs="BB"/>
+	<TLCPerson eId="cc" href="" showAs="CC"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-arbuthnot" href="/judge-mrs-justice-arbuthnot" showAs="Mrs Justice Arbuthnot"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>2693</uk:number>
+	<uk:cite>[2024] EWHC 2693 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>57ef58e04621df08da82d66fd8b7e1ff6aebec1fcc4c4dc9dccb3f4abd13f6f5</uk:hash>
+	<uk:tna-enrichment-engine>6.0.1</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Default { font-family: 'Times New Roman'; font-size: 13pt; color: #000000; }
+#judgment .NoSpacing { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:center"><img src="image1.png" style="width:84.2pt;height:83.59pt"/></p>
+      <p class="CoverText" style="text-align:left"><span style="font-family:'Times New Roman'">Neutral Citation Number: </span><neutralCitation style="font-family:'Times New Roman'">[2024] EWHC 2693 (Fam)</neutralCitation></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman'">Case No: </span><docketNumber style="font-family:'Times New Roman'">LU22P00404</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family" style="font-family:'Times New Roman'">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">FAMILY DIVISION</courtType></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman'">Royal Courts of Justice</span></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman'">Strand, London, WC2A 2LL</span></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman'">Date: </span><docDate date="2024-10-24" refersTo="#judgment"><span style="font-family:'Times New Roman'">24</span><span style="vertical-align:super;font-size:smaller;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman'"> October 2024</span></docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Before</span><span style="font-family:'Times New Roman'"> :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-arbuthnot" style="font-family:'Times New Roman'">Mrs Justice Arbuthnot</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#bb" style="font-weight:bold;font-family:'Times New Roman'">BB</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant" style="font-family:'Times New Roman'">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#cc" style="font-weight:bold;font-family:'Times New Roman'">CC</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-family:'Times New Roman'">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold;font-family:'Times New Roman'">BB </span><span style="font-family:'Times New Roman'">(litigant in person) </span><span style="font-weight:bold;font-family:'Times New Roman'">Applicant  </span></p>
+      <p style="text-align:center;margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold;font-family:'Times New Roman'">Tatiana Rocha </span><span style="font-family:'Times New Roman'">(instructed by Clayton Stoke) for the </span><span style="font-weight:bold;font-family:'Times New Roman'">Respondent</span></p>
+      <p style="text-align:center;margin-left:0.5in;text-indent:-0.5in"><span style="font-family:'Times New Roman'">Hearing dates: 8</span><span style="vertical-align:super;font-size:smaller;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman'"> - 9</span><span style="vertical-align:super;font-size:smaller;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman'"> May 2024</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p class="CoverDesc"><span style="font-family:'Times New Roman';font-size:14pt">Ex Tempore Judgment (&#8216;The Imaginary Jamie Gwenstefani&#8217;)</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">This judgment was given in court at 3.30pm on 9</span><span style="vertical-align:super;font-size:smaller;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman'"> May 2024 </span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">The corrected judgment was handed down in Norwich on 24</span><span style="vertical-align:super;font-size:smaller;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman'"> October 2024.</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">.............................</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman'">This judgment was delivered in private. The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media and legal bloggers, must ensure that this condition is strictly complied with.   Failure to do so may be a contempt of court.</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify;text-indent:-0.47in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Mrs Justice Arbuthnot:</span></heading>
+	  <paragraph>
+	    <intro>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman'">Application</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> These proceedings concern L who is now just under 2 years old.  The applicant is the father of the child.  He is a litigant in person.  The respondent is the mother. L lives with her mother.  She is represented by Ms Rocha instructed by Clayton Stoke Solicitors.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The matter was transferred to the High Court after the father had made a number of complaints about the court staff at the County Court, the Judge and the mother&#8217;s legal representatives.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother has made various allegations which have been set out in a schedule of findings sought.  The father had made various counter allegations which he withdrew at the pre trial review.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I have had the assistance of a QLR Mr Ijewere whose job it was to question the mother.  I am very grateful for his assistance.  He had the difficult job of taking instructions, absorbing a fairly large bundle and ensuring he asked relevant questions.  He carried out his role admirably.  This ensured that the mother, a vulnerable witness was not cross examined by the father.  The mother gave evidence remotely at her request and could not be seen or see the father during the hearing.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In terms of the background to these proceedings, the parties had a relationship that lasted about two years between 2021 and 2022.  The parties separated in November 2022.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Three months after the birth the father made an application for contact with L. </span><span style="font-family:'Times New Roman';font-size:14pt"/><span style="font-family:'Times New Roman';font-size:12pt">At a FHDRA in January 2023, supervised contact was ordered to take place at a contact centre.  One contact session took place, but was stopped almost immediately when the contact supervisor had concerns.   Conflicting accounts have been given as to why contact was stopped that day.  There has been no contact between the father and his daughter since then.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On various occasions, the father (or another) has withdrawn his applications or sought to withdraw them.  He has also sought for his parental responsibility to be removed on three occasions. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Over the course of a few months ending in December 2023, the mother, the mother&#8217;s solicitors and some of her family have received abusive and seriously threatening communications ostensibly from the father.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The father said in a statement that the correspondence came from a Mr Gwenstefani who was a legal professional.  The father&#8217;s case as explained in his evidence is that Mr Gwenstefani took over his correspondence and email addresses and he had no knowledge of what Mr Gwenstefani was doing.  He apologised to the court in his evidence for the communication which took place and took responsibility for it but said it was someone else&#8217;s doing.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At a directions hearing in March 2024, in front of me, the father was opposed to a fact finding hearing being held but I decided it was necessary and proportionate to hold one.  At that hearing, the father confirmed he would not be pursuing any allegations he had made against the mother.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman'">Law</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The father is a litigant in person so I will explain to him the approach a court takes to any allegations made by a party in a family case.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At an earlier hearing I limited the allegations to what was said to have happened between the parties as and after they had separated.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The following is a distillation of the principles which the Court will apply: </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The burden of proof is on the mother who makes the allegations in this case.  The mother must prove that the events set out in the schedule of allegations took place.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The father does not have to prove that he did not threaten the mother, her family or her solicitors.  He does not have to prove that Jamie Gwenstefani or Mario were real people.  He does not have to prove an alternative case to the one put forward by the mother. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The standard of proof is on the balance of probabilities.  If the mother does not prove on the balance of probabilities that she, various family members and her solicitors were threatened by the father in the ways alleged, then the court will disregard those allegations in the future. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">d.</num>
+	      <intro>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Findings must be based on evidence placed in the context of all the evidence.  This is particularly apt in this case, where the mother relies on handwritten evidence which she identifies as being that of the father and which she links to the threats sent by email.    Findings cannot be based on anything less than that.  Inferences may be drawn from the evidence, but speculation, suspicion, surmise or assertion are not proof.   </span><span style="font-family:'Times New Roman';color:#000000">The approach to the assessment of evidence was outlined by Butler-Sloss P in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Re T</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000"/><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">[</span><span style="font-family:'Times New Roman';color:#000000">2004] 2 FLR 838 at paragraph 33 when she said:</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="Default" style="text-align:justify;margin-left:0.71in;margin-right:0.36in;text-indent:-0.04in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">"Evidence cannot be evaluated and assessed in separate compartments.  A Judge in these difficult cases has to have regard to the relevance of each piece of evidence to the other evidence and to exercise an overview of the totality of the evidence in order to come to a conclusion whether the case put forward [by the Local Authority] has been made out to the appropriate standard of proof"</span><span style="text-transform:uppercase;font-family:'Times New Roman';font-size:12pt">.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">e.</num>
+	      <intro>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Findings can be drawn from the account and demeanour of a party or a witness or an assessment of the family circumstances, but the court should bear in mind that memories fade and change with time, sometimes matters are remembered that were not remembered initially but the court should be careful that it is not imagination that is becoming more active or memory being affected by strong emotion or mental health challenges.  </span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I must bear in mind that a witness may come to honestly believe something happened when it bears either no or little relation to the events that occurred at the time.  </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">I am reminded that in assessing and weighing the impression which the Court forms of all the witnesses, the Court must also keep in mind the observations of Macur LJ in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Re M Children</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000"/><span style="font-family:'Times New Roman';color:#000000">[2013]</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000"/><span style="font-family:'Times New Roman';color:#000000">EWCA Civ 1147 at paragraphs 11 and 12: </span></p>
+		  <block name="embeddedStructure"><embeddedStructure>
+		      <level>
+			<content>
+			  <p style="text-align:justify;margin-left:0.71in;margin-right:0.36in;text-indent:-0.04in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;Any judge appraising witnesses in the emotionally charged atmosphere of a contested family dispute should warn themselves to guard against an assessment solely by virtue of their behaviour in the witness box, and to expressly indicate that they have done so&#8221; </span></p>
+			</content>
+		      </level>
+		    </embeddedStructure></block>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">f.</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Hearsay evidence is admissible but the weight to be given to that evidence is a matter for the Court.  The court will look to see for example if it is receiving multiple hearsay or whether the evidence is contemporaneous with the events it describes, whether there was a motive for the witness to falsify their evidence or whether from other evidence it is clear that the hearsay is or may be wrong or mistaken.    </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph>
+	    <intro>
+	      <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Lies</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The guidance in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">R v Lucas </span><span style="font-family:'Times New Roman';color:#000000"><ref href="#" uk:canonical="[1982] QB 720" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1982">[1982] QB 720</ref> and </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">R v Middleton</span><span style="font-family:'Times New Roman';color:#000000"> [2000] TLR 293 is that a conclusion that a person is lying or telling the truth about point (a) does not mean that he is lying about or telling the truth about point (b).   There are many reasons why a person might lie including (as examples given by Lord Lane in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Lucas</span><span style="font-family:'Times New Roman';color:#000000">) an attempt to bolster up a just cause; shame or an attempt to conceal disgraceful behaviour from their family. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	      <intro>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">As to the application of the </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Lucas</span><span style="font-family:'Times New Roman';color:#000000"> direction in family proceedings, the Court of Appeal has been explicit that the Court must go beyond reminding itself of the principle and McFarlane LJ (as he then was) has set out in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Re H -C (Children)</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000"/><span style="font-family:'Times New Roman';color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/139" uk:canonical="[2016] EWCA Civ 139" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 139</ref></span><span style="font-style:italic;font-family:'Times New Roman';color:#000000"/><span style="font-family:'Times New Roman';color:#000000">and in particular at paragraph 100 onwards the way in which the Court must properly apply the principles in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Lucas</span><span style="font-family:'Times New Roman';color:#000000">.  In </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Wakefield Metropolitan District Council v R &amp; Others </span><span style="font-family:'Times New Roman';color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2019/3581" uk:canonical="[2019] EWHC 3581 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 3581 (Fam)</ref> at paragraph 109 Lieven J summarised the approach to be taken as follows:</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="Default" style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;The Court should first determine if the alleged perpetrator has deliberately lied. Then, if such a finding is made, consider why the party lied. The Court should caution itself that the mere fact an alleged perpetrator tells a lie is not evidence that they are culpable of the incident alleged. The Court should remind itself that a person may lie for many reasons, including &#8216;innocent&#8217; explanations in the sense that they do not denote culpability of the incident alleged.&#8217;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The court must bear in mind that lies told by a witness can be told for a number of reasons.  A witness may lie about one matter and be telling the truth about another.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">This is a particularly apt direction in this case which I have borne in mind at all times when considering the evidence, I have read and heard.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The parties&#8217; evidence was the following as developed in a number of statements and in their evidence:</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother said that the father&#8217;s mental health had led to the deterioration of their short relationship.  He had self-harmed by banging his head against a wall when she was pregnant.  She made it clear that if he did that in front of L that would be the end of their relationship.  On 17</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> November 2022, he self-harmed by hitting himself with the tube of a hoover.  She was changing L at the time and although she tried to, she was unable to calm him down.  </span><span style="font-family:'Times New Roman'">She then left.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The father&#8217;s evidence was that the mother had hit him with a hoover but I noted that he had decided not to proceed with any allegations against her.  He said she had assaulted him but he accepted that after attempting to take an overdose of tablets, the police came and he went into hospital for assessment but was released a few hours later.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There was a falsified email thought to have been sent by the father to the mother&#8217;s solicitors apparently saying he should withdraw from the proceedings.  This was not exhibited.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Between August and September 2023, the mother said the father was using two aliases, the first was Jamie Gwenstefani and the second Mario.  Amongst the messages sent was the bizarre one saying that the father had died in a car crash in Germany. There were messages from both Mr Gwenstefani and Mario asking where to send presents to L for her birthday.   This was after the mother had blocked the father from contacting her.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There was a hearing on 14</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> August 2023 which the father did not attend , when a non-molestation order was made of the court&#8217;s own volition.  Although the father was informed about the terms of the order the same day, the sealed order was only served on or about 19</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> September 2023.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">After the order on 14</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> August 2023, the mother said a series of threatening communications were triggered.  These included threatening handwritten letters sent to the mother and members of her family including to a blind 14 year old first cousin who, on 12</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> December 2023, was sent pins in an envelope along with death threats.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The father&#8217;s account to the court was that he met Mr Gwenstefani via his mosque, he then attended the father&#8217;s home and offered help to him and said he had experience of family law or of family proceedings.  Mr Gwenstefani then offered the father work at his garage which he accepted.  He said he would take over the case for him and deal with it.  The father let Mr Gwenstefani do that and the latter got possession of his passwords to his various email accounts, which explained why it was that some of the threatening messages were sent by email. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The father denied it was his handwriting on the envelopes containing the handwritten threats.  He blamed Mr Gwenstefani who also took the name Mario on occasion.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I noted that in an email of 24</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> September 2023, the father was still saying he had been in an accident and his email accounts had been taken over by Mr Gwenstefani.  The father in evidence told me he was never involved in an accident as set out.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph>
+	    <intro>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman'">The mother&#8217;s allegations and the father&#8217;s responses</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I set out the six allegations made on behalf of the mother below.  The father&#8217;s response is in italics.</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;margin-left:0.75in;text-indent:-0.25in">1)</num>
+		<intro>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman';font-size:12pt">17 November 2022: The father self-harmed in front of L and her mother, by hitting himself with a hoover pipe when the mother attempted to flee the family home with L.</span></p>
+		</intro>
+		<subparagraph>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The father said at one point that he denied the allegation as he did not recall this incident and therefore was unable to comment other than to say it was untrue. He said today to this court, and also in his submissions, that</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">the mother had assaulted him, not the other way around.</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman';font-size:12pt">19 May 2023: The father sent the mother&#8217;s solicitors a falsified email claiming to be her and requesting him to withdraw from proceedings. Unfortunately, there was no exhibit and I have not made the finding as a result.  </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+		<intro>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman';font-size:12pt">3 August 2023 &#8211; 23 September 2023: The father through an alias &#8216;Mr Gwenstefani&#8217; and &#8216;Mario&#8217; made contact regarding the proceedings:</span></p>
+		</intro>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">a.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">&#8216;Jamie Gwenstefani&#8217; sent the mother&#8217;s legal representatives an email notifying them that the father had died in a car accident;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">b.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the mother&#8217;s solicitors sought further information about the alleged death of the father and received responses of a threatening nature;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">c.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">&#8216;Mario&#8217; sent text messages to the mother asking where presents to L could be sent;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">d.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">&#8216;Jamie Gwenstefani&#8217; sent the mother an email asking her where to send birthday presents for L, and stating he had her old address and uncle&#8217;s address.</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">e.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">an unknown number sent the mother a text message asking if the father could send presents for L&#8217;s birthday;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">f.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">following the sealed Order from the Court and upon serving this on the father, &#8216;Jamie Gwenstefani&#8217; sent a disturbing and threatening email to the mother&#8217;s solicitors;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">g.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the mother&#8217;s solicitors received an email from &#8216;Jamie Gwenstefani&#8217; with a screenshot of the mother&#8217;s dating profile, along with a threatening message.</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;font-family:'Times New Roman'">The father&#8217;s evidence was that he apologised for what Mr Gwenstefani had done but he did not know about it at the time.  He said to the court he had been shocked to discover the type of emails and communications which were sent to the mother and others.  </span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.75in;text-indent:-0.25in">4)</num>
+		<intro>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman';font-size:12pt">12 August 2023 &#8211; 13 December 2023: the father sent threatening and abusive correspondence to the mother, and her family members:</span></p>
+		</intro>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">a.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the father sent the mother an abusive message, referring to her as &#8216;the [area] bike&#8217;;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">b.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the father sent handwritten death threats to the mother and her uncle stating horrid things that he wished to do to the mother&#8217;s family members (including threats to rape and kill);</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">c.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the father sent the mother&#8217;s younger cousin, who is blind, a threatening handwritten letter and put sharp pins in the envelope;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">d.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the father sent further threatening letters addressed to the mother&#8217;s father and cousins, threatening them if they made statements to the Court;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">e.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the father wrote a similar note to the mother&#8217;s sister in December 2023.</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;font-family:'Times New Roman'">The father repeated his explanation as set out above.  He did not know about these communications and he found it shocking that these emails and letters had been sent.</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.75in;text-indent:-0.25in">5)</num>
+		<intro>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman';font-size:12pt">9 August 2023 &#8211; 12 December 2023: the father sent threatening correspondence to the mother&#8217;s legal representatives:</span></p>
+		</intro>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">a.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the father emailed the Court stating he wished to remove his PR and threatened repercussions if his wish was not acceded to;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">b.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the mother&#8217;s solicitors served the sealed Order on the father and he responded with a threatening message, stating he had identified the legal representatives online;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">c.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">following the mother&#8217;s solicitors serving the Order on the father, the following day, the mother&#8217;s solicitors received several calls from an anonymous number &#8211; the caller did not say anything but stayed on the line and heavy breathing could be heard;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">d.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the father claimed that he was not behind any threatening correspondence in an email sent to the Court and to the mother&#8217;s solicitors but sent abuse again in the same email;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">e.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the mother&#8217;s solicitors received a letter in the post, similar to the handwritten letters sent to the mother and her family.</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;font-family:'Times New Roman'">The father stated he knew nothing about this at the time.  He did not make the telephone calls as alleged and did not send out any threatening emails or correspondence.  The father alleged in evidence that Jamie Gwenstefani had told him that the mother&#8217;s solicitor had paid him to do what he did.  </span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman'">I will say immediately, there is absolutely no truth in that assertion.  </span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.75in;text-indent:-0.25in">6)</num>
+		<intro>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman';font-size:12pt">19 September 2023, 9 October 2023 and 18 November 2023: the father falsely claimed that &#8216;Jamie Gwenstefani&#8217; had taken conduct over his matter and was responsible for threatening correspondence:</span></p>
+		</intro>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">a.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the father emailed the mother&#8217;s solicitors stating that his friend &#8216;Jamie&#8217; had taken conduct of the matter and there had been &#8216;a breakdown of this relationship&#8217;.</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">b.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.25in"><span style="font-family:'Times New Roman';font-size:12pt">the father falsely claimed that &#8216;Jamie Gwenstefani&#8217; had gained access to his emails and was responsible for the threatening correspondence.</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;font-family:'Times New Roman'">The father explained that Mr Gwenstefani&#8217;s real name was Eamon Kong.  He was aggressive and threatening and this led to the father having to leave the area and move to a different area.  Mr Kong had threatened him and his family but the father did not want to inform the police as he was too frightened.  The father relied on three threats he said he received where the writer called him a &#8220;stupid Fuck&#8221; and made comments about his having had a baby with a &#8216;muslim girl&#8217;.  He was then given seven days to leave the area or the father would be kidnapped, raped then murdered.  </span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph>
+	    <intro>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman'">Discussion</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother&#8217;s evidence was credible.  She did not come over as someone who was making up allegations and, in terms, said there was no physical violence used against her.  She was not exaggerating what the father had done to her.  The issue for her was the father&#8217;s mental health problems and his fluctuating behaviour.  I was struck by the fact that she was determined to protect L from the father&#8217;s behaviour at the end of the relationship.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I accepted her evidence that he had self-harmed once before that date when she had made it clear to him that he should never do that in front of L.  When his behaviour seriously alarmed her, she was placed in a dilemma as she was in the middle of changing L and she was not able to calm the father down.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother identified the father&#8217;s handwriting in the letters that had been received by others, including her 14 year old blind cousin.  She was asked about this identification.  She said she had lived with the father for two years.  She knew his writing from labels he had put on plastic folders used for correspondence and from notes. She had shown the labels to the police who may have taken them as evidence.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I am conscious that I had no handwriting expert and had not seen the labels.  The mother identified the writing and it seemed clear that whoever had addressed the envelope and written the letters, whether they were written in small letters or large, was the same person in each case.  I say that because the writing, to a non-expert anyway, looked similar and the place of the addressee&#8217;s details was always the top left hand corner of the envelope.  The father agreed in his evidence that the writing on each letter looked similar.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It was clear too that the three letters the father said were sent to him were also from the same person who sent the threats to the mother and others.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Each letter contained a similar level of threat.  These were serious threats: to kidnap, rape, murder and dissolve bodies in acid.  There were threats to persuade the reader of the letter to leave the area. They were abusive, calling people Shaitans (an evil spirit in Islam).  They made threats that the uncle and his family should not make statements to the court.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It is from the combination of the evidence that I can find they were written by the same person.  What is shown by the evidence is that there was a campaign involving serious threats of injury &#8211; it was extreme intimidation, aimed at the mother and others associated with the mother, including her solicitors.  The mother and her solicitors found the threats frightening, as confirmed by the witness Ms Nijher (the solicitor acting for the mother) who was called in relation to the threats sent to the solicitors.  Having read the threats set out in the letters, I am not surprised that they caused fear.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The father&#8217;s case is that they were written by his misguided friend Mr Jamie Gwenstefani.  He had seen him in the mosque, then he came around to his home and said he could support him as he had experience of family cases.  He then offered him a job working at his garage.  The man was aggressive and threatening and, to begin with, the father in his evidence to the court said he would not give his real name.  Eventually he said that Mr Gwenstefani was a man called Eamon Kong.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Gwenstefani took over his correspondence and email accounts from early 2023 and had stopped on or about 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> or 19</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> November 2023.  The father was asked about the threats that were sent out after that date and did not have an answer to why they continued after Mr Gwenstefani was no longer involved.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The father apologised for the messages and letters that Mr Gwenstefani had sent.  He said he took responsibility for them although he was clear in his evidence that he did not know what Mr Gwenstefani was doing at the time.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Looking at this explanation, it is hard to understand why someone other than the father would have such strong views about the mother, those representing her and her family.  It was difficult to understand why Mr Gwenstefani would put himself at risk of arrest when he had no other involvement in the case.  According to the father, they hardly knew each other before he started corresponding on the father&#8217;s behalf.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It seemed to me that these were graphic threats, made by someone with an axe to grind.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Whoever made the threats would have had much information about the mother&#8217;s family.  The sender would have had to have known not just the uncle and the cousin&#8217;s address but also that he was blind.  There would have been no point in sending pin tacks to a sighted 14 year old. A blind one, assuming he had been given the envelope, could have hurt himself on these.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Whereas it was not suggested that Mr Gwenstefani ever attended court, the father did on two occasions in 2023.  If Mr Gwenstefani was a real person, the father must have been giving him the information about family and them being asked to give statements to the court.  The father must have told him the family&#8217;s addresses and the names of the mother&#8217;s solicitors.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The father has not traced Mr Gwenstefani and he has not given evidence.  Of course, that might be because he realises that he may have committed criminal offences and he does not want to be traced.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There was no reason, though, for Mr Gwenstefani to make such violent threats.  I noted significantly that the threats continued after 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> November 2023, when the father said the other man was no longer involved with his case.  In one of his statements, the father said that he had had trouble contacting Mr Gwenstefani whilst in his evidence to me today he said that he worked for him until 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> or 19</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> November 2023.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Having considered the above in conjunction with the mother&#8217;s identification of the father&#8217;s writing,  I do not accept the father&#8217;s explanation that these threats came from Mr Jamie Gwenstefani.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I bear in mind that it is not for the father to prove that he was not responsible for the threats.  The mother has persuaded me that Mr Gwenstefani is a figment of the father&#8217;s imagination.  It was the father who sent the threats and abuse to the mother and the others.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">My conclusion on the handwritten material has a bearing on the emails/WhatsApps and other communication sent to the mother and others.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I note that they all come from the father&#8217;s email addresses or ones that are associated with him.  The father has said that Mr Gwenstefani took over his accounts and then changed his passwords. He had no idea what was going on and was not responsible for the threats and abuse sent to various individuals.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Again, it is not for him to prove anything but I bear in mind that I accepted the mother&#8217;s evidence that she recognised his handwriting in the threats which came through the post.  I have found above that Mr Gwenstefani is a figment of the father&#8217;s imagination.  I do not find that the similar threats sent from email addresses were from &#8216;Mr Gwenstefani&#8217; either.  In the circumstances, I find that the father was responsible for those too.  The level of abuse is more of the same.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I have given myself a Lucas direction, but this is not a case where the father has admitted to lying about the threats I have found he sent.  He lied when he said there was a separate person by the name of Jamie Gwenstefani.  There can be no other reason for his lie other than to put distance between himself and the threats sent in 2023.  It seemed to me that this was partly out of shame and regret, and partly out of concern that he might be prosecuted.  I noted that he had apologised for the threats that were sent but has not accepted any personal responsibility for them.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph>
+	    <intro>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman'">The Court&#8217;s Findings</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Turning to the Scott schedule:</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Using the numbering on the schedule (and referred to above), I find proved on the balance of probabilities: 1, the entirety of 3, the entirety of 4,  the entirety of 5.  I find that the anonymous calls were likely to have come from the father because they were received by the solicitors the day after the court orders had been served on the father.  I have heard too that he had made prank type calls to the mother and others during their relationship.  I have found the father to be Jamie Gwenstefani and therefore the mother has proved allegation number 6.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The threats came to a halt.  So far as I can tell the last threat was the one made to the mother&#8217;s solicitors in December 2023, after that the father was arrested and bailed by the police.  </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph>
+	    <intro>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman'">Conclusion</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Having made the findings set out above, what do they amount to?  Where do they fit within the definition of domestic abuse found in Practice Direction 12J?  Certainly, the father would threaten to self-harm if ever the mother said she was going to leave.  He has mental health issues which until recently had not been sufficiently regulated.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The father might be said to be controlling in the sense that his actions resulted from not getting contact in the way he wanted because the mother was concerned about L&#8217;s safety.  There was a clear pattern of intimidatory behaviour, but it is difficult to see to what end.  It seems to me more likely that the father was taking revenge on anyone associated with the mother due to his anger and his feelings of rejection at the end of the relationship and his concern that he would not see L.  He was not getting his own way and decided to threaten and intimidate the ones he thought were preventing this.  The threats were to punish the mother and others.  It amounted to coercive behaviour.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The court makes the findings set out above.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This is the judgment of the court.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.25in"><span style="font-family:'Times New Roman'">Postscript &#8211; after I gave this ex tempore judgment, the father admitted that Mr Gwenstefani did not exist.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

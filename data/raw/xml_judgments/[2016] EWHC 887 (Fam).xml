@@ -1,0 +1,906 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2016/887"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2016/887"/>
+	  <FRBRdate date="2015-03-23" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="887"/>
+	  <FRBRname value="Cardiff County Council v BI &amp; Ors [2016 EWHC 887 (Fam) (23 March 2015)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/887"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/887"/>
+	  <FRBRdate date="2015-03-23" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/887/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2016/887/data.xml"/>
+	  <FRBRdate date="2024-10-27T06:05:51" name="transform"/>
+	  <FRBRdate date="2024-11-30T11:27:02" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2015-03-23" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="cardiff-county-council" href="" showAs="Cardiff County Council"/>
+	<TLCPerson eId="bi" href="" showAs="BI"/>
+	<TLCPerson eId="sl" href="" showAs="SL"/>
+	<TLCPerson eId="eb-by-his-guardian-laura-scale" href="" showAs="EB (by his Guardian, Laura Scale)"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-moor" href="/judge-mr-justice-moor" showAs="Mr Justice Moor"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2016</uk:year>
+	<uk:number>887</uk:number>
+	<uk:cite>[2016] EWHC 887 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>4083ee6a6ffdeef6eec778e74a38ed5f5409b0237af86bd80c78f2350458c7cd</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Judgment Approved by the court for handing down</span></p>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">(subject to editorial corrections)</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2016 EWHC 887 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CF15C01415</docketNumber><span/></p>
+      <p class="CoverMain"><courtType refersTo="#ewfc">IN THE FAMILY COURT</courtType></p>
+      <p class="CoverText">Cardiff Civil Justice Centre</p>
+      <p class="CoverText">Date: <docDate date="2015-03-23" refersTo="#judgment">23<span style="vertical-align:super;font-size:smaller">rd</span> March 2015</docDate><span/></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-moor">Mr Justice Moor</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.45in 3.7in 1.19in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#cardiff-county-council" style="font-weight:bold"> Cardiff County Council</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant </role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#bi" style="font-weight:bold">BI</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">First Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#sl" style="font-weight:bold">SL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Second Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#eb-by-his-guardian-laura-scale" style="font-weight:bold">EB (by his Guardian, Laura Scale)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Third Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Ms Michelle Withers for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center">Mr Jeremy Weston QC for the <span style="font-weight:bold">First Respondent </span></p>
+      <p style="text-align:center">The <span style="font-weight:bold">Second Respondent </span>did not appear and was not represented but he gave oral evidence pursuant to a witness summons </p>
+      <p style="text-align:center">Mr Rhys Evans for the <span style="font-weight:bold">Third Respondent </span></p>
+      <p style="text-align:center">Hearing dates:  21<span style="vertical-align:super;font-size:smaller">st</span> to 23<span style="vertical-align:super;font-size:smaller">rd</span> March 2015  </p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-size:14pt">MR JUSTICE MOOR:-</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">This is an application made by the Cardiff County Council for a care order and for a placement order in relation to a child, EB, who is six months old.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The First Respondent, BI, is EB&#8217;s mother.  I will refer to her hereafter as &#8220;the Mother&#8221; for the sake of convenience.  The second Respondent, SL, initially claimed to be EB&#8217;s father although he abandoned that claim early in the proceedings.  Subsequent DNA testing confirmed that he was not the father.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The Mother now says that EB&#8217;s father is Mr V.  He lives in Zamora in Spain.  I am satisfied that he has twice been served with notification of these proceedings but he has not taken any steps to become involved or be represented.  In consequence, it has been impossible to undertake DNA tests to prove his paternity, although there was some suggestion that DNA testing was done in Spain.  He clearly believes he is EB&#8217;s father.  He certainly appears to have been living with the Mother at the time she became pregnant.  I am satisfied he made complaint to the Spanish Police when she disappeared with EB in September 2015.  On the balance of probabilities, I find that he is EB&#8217;s father.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="text-decoration-line:underline;text-decoration-style:solid">The history of the case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The Second Respondent is 26.  He is of Spanish origin but resides with his partner, Ms M, who is also Spanish.   He is a waiter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The Mother is very nearly twenty years of age.  She is of Roma Gypsy background.  It is clear that her mother abandoned her when she was approximately eight months old.  Her mother moved to Spain.  The Mother was therefore brought up by her maternal grandmother and had no contact to her mother form the age of eight months until she was aged six.  She had no contact to her father until she was approximately fourteen years old.  I accept that all of this must have had a profound effect upon her. There were undoubtedly difficulties, including an apparent attempt to traffic her to Germany by an adult she met when she was aged about thirteen.  She says she was threatened with a gun before being rescued by the Police.  I make it quite clear that none of this was her fault in any way.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">At the age of fourteen to fifteen, she moved to live in Spain with her mother but this was clearly not a success.  I have been told that she does not now speak to her mother.  The one mystery is that I have also been told that the maternal grandmother is now a doctor.  I do not know if that is true but her irresponsibility in relation to her own family does not sit easily with her responsibilities as a doctor.  In 2012, when the Mother was approximately sixteen, she commenced a relationship with a Mr N, who was also of Romanian origin.  He was then around twenty four.  She moved in with him within a week of meeting him.  The move involved a seven hour car journey from Salamanca to Valencia, undertaken without her mother&#8217;s knowledge.  The Mother says that there were two incidents in which he was violent to her.  She also accuses him of taking illegal recreational drugs, including cocaine, cannabis and &#8220;meth&#8221;.  The Mother became pregnant by Mr N but the relationship then broke down.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">She then moved in with a Mr A, who was some 17 years older than her.  She met him at the bar he owned.  She says she commenced a relationship with him approximately two weeks after meeting him.  After she moved in with him, she became aware of his criminal lifestyle.  She alleges that he was living off immoral earnings and that he got the Mother to collect the money from the homes of the prostitutes who were working for him.  She told Mr Travis Whittaker, the Local Authority social worker, that she progressed into &#8220;entertaining and escorting clients&#8221;. Initially, she said no but was intimidated into complying with his wishes.  In her oral evidence, she denied engaging in prostitution.  Although a serious matter, I see no need to make findings as to this.  Again, she says that Mr A was involved in taking cocaine, cannabis/marijuana and crystal meth.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">In April 2014, the Mother gave birth to her first child, M.  She is now very nearly aged 2.  Her father is Mr N.  The Mother says that, towards the end of 2014, M went into foster care for between one and two months.  She told me this was as a result of threats made to her by Mr A on the breakdown of their relationship but later indicated that it was only whilst she was living with her next partner, Mr V.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">In approximately December 2014, the Mother met EB&#8217;s putative father, Mr V.  He is younger than her and is aged 19.  He is of Bulgarian Roma descent.  She moved into live with him and his family in Zamora in Spain, approximately a week after they met.  She fell pregnant with EB around a month into their relationship.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">Again, it is her case that putative father was very controlling and possessive.  She says that, on one occasion, he threatened her with a knife.  He also abused drugs including speed, marijuana and cocaine.  He has a criminal record.  She says that he did not want to know after he discovered she was pregnant and she moved out in February 2015.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">She then commenced a relationship with Mr V and they moved in together in April 2015.  There is a dispute as to whether or not M lived with them which I will have to resolve if I can.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The Mother says she first had contact over the internet with the Second Respondent and Ms M in June 2015.  In July 2015, she says that Mr N began for the first time to have contact to M and that M went to live with him in Valencia at the end of August 2015 whilst she concentrated on the birth of EB.   She has not seen M in person since although she says she has had Skype contact to her.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">On 1<span style="vertical-align:super;font-size:smaller">st</span> July 2015, the Public Prosecutor in Zamora issued an indictment against the Mother and three other adults in relation to a charge of extortion/aggravated burglary in relation to a Mr J.  It is suggested that he was also a former partner of the Mother and that he was enticed by her to a flat where attempts were made to extort &#8364;30,000 from him by a number of men.  The Local Authority says the Spanish Police have said that the Mother has been found guilty in her absence and sentenced to a year in prison.  The Mother denies this but has indicated an intention to enter a guilty plea.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">As already indicated, the Mother gave birth to EB on 2nd September 2015.  On 17th September 2015, she flew to this country and met up, for the first time, with the Second Respondent and Ms M.  She stayed with them at the home they then had in Cardiff for six days before the Mother returned to Spain on 23rd September 2015, leaving EB in their care.  She says she went back to sort out M, with the intention of bringing her to Wales as well but, according to her evidence to me, she did not see M whilst she was in Spain.  It is her case that she intended to return to Wales on 17<span style="vertical-align:super;font-size:smaller">th</span> October 2015 to find work/care for EB.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The Second Respondent and Ms M did not, of course, have parental responsibility for EB.  On 6th October 2015, the Second Respondent travelled to Spain to register himself falsely as EB&#8217;s father.  It is alleged that the Mother had told both Mr I and EB&#8217;s actual Father that EB had died in the United Kingdom following an operation here.  It appears that the Father made a complaint to the Spanish Police, who asked the Mother if it was true.  She denied it and got the Police to telephone the Second Respondent and Ms M.  The Police heard EB crying in the background.  The Mother said that the only way to extricate herself from the mess was for the Second Respondent to pretend to be the father, although it appears that this was always the intention as he had already booked a flight.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The Spanish Police contacted South Wales Police on 7th October 2015.  At the time, it was alleged that the Second Respondent and Ms M had purchased EB from the Mother and that this was a trafficking/surrogacy arrangement.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">On 7<span style="vertical-align:super;font-size:smaller">th</span> October 2015 EB was removed from the care of the Second Respondent and Ms M pursuant to Police powers of protection.  He was placed in foster care.  The following day, 8<span style="vertical-align:super;font-size:smaller">th</span> October 2015, the Mother arrived in Bristol, having been summoned by the Second Respondent and Ms M.  The Second Respondent and Ms M were both arrested on 7<span style="vertical-align:super;font-size:smaller">th</span> October on suspicion of EB&#8217;s kidnapping.  The Mother was arrested the following day.  Regrettably, all three lied to the Police.  They all said that the Second Respondent was EB&#8217;s father.  It was said that the Second Respondent had travelled to Spain in January 2015 as part of a stag party and that EB was conceived as a result of a &#8220;one-night stand&#8221; between the Second Respondent and the Mother.  This was all completely untrue.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">On 9<span style="vertical-align:super;font-size:smaller">th</span> October 2015, the Local Authority issued care proceedings.  An interim care order was made by Regan DJ on 9th October 2015 to continue until the conclusion of the proceedings.  The case was transferred to me due to the seriousness of the allegations being made.  Contact was ordered three times per week for one hour between EB and the Mother although it did not get under way until her paternity was confirmed by DNA testing.    </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The matter came before me on 12<span style="vertical-align:super;font-size:smaller">th</span> October 2015.  The Second Respondent told the truth to his lawyers, namely that he was not EB&#8217;s father.  The lawyers informed the other parties and the court.  This was subsequently confirmed by DNA testing.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">HHJ Parry heard a further case management hearing on 26<span style="vertical-align:super;font-size:smaller">th</span> October 2015.  She directed that the Local Authority should notify both the Romanian and the Spanish authorities about the proceedings.  I make it clear that neither has sought an order for transfer of these proceedings to their jurisdictions pursuant to Article 15 of Brussels II Revised.  I therefore accept that I have jurisdiction and that I must deal with the case.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">HHJ Parry further directed personal service on putative father Mr V.   He was first personally served with notice of the proceedings on 9<span style="vertical-align:super;font-size:smaller">th</span> November 2015.  I have seen a copy of the report of the process server translated into English.  The Father was advised to instruct a lawyer and undertake DNA testing, being told the legal advice would be free.  The Father&#8217;s reaction was to ask if it was &#8220;compulsory&#8221; for him to come forward and seemed concerned about the financial implications saying that &#8220;neither of us was in a position to be able to have a child&#8221; and that &#8220;if it turns out that EB is mine, that person will be after me for the rest of my life&#8221;.  He also mentioned that another man, presumably the Second Respondent, had been named as the father.   It is quite clear to me that the Father has deliberately decided to take no part in these proceedings and has abrogated his responsibility for EB.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The case came back before me on 4<span style="vertical-align:super;font-size:smaller">th</span> December 2015.  I directed that viability assessments be prepared on Mr I and the Second Respondent/Ms M as potential alternative carers.   The order makes it clear that the final hearing was to take place before me from 21<span style="vertical-align:super;font-size:smaller">st</span> to 23<span style="vertical-align:super;font-size:smaller">rd</span> March 2016.  This order was personally served on putative Father on 16<span style="vertical-align:super;font-size:smaller">th</span> December 2015.  I am therefore satisfied that he has had every opportunity to take part in the case but has decided not to do so.  It is therefore necessary to proceed in his absence.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">A schedule of findings sought by the Local Authority in satisfaction of the threshold criteria was filed on 4<span style="vertical-align:super;font-size:smaller">th</span> February 2016.  It alleges there to be a risk of neglect, physical and emotional harm as a result of EB being a victim of EB trafficking or purchase by the Second Respondent and Ms M or an informal surrogacy agreement or illegal adoption.   It relies, amongst other things, on the Mother leaving EB with them six days after meeting them for the first time; the false declaration of paternity; lies during formal interviews to the Police; and the Mother&#8217;s involvement in criminal activities in Spain, including the accusation that money was extorted from Mr V.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The Local Authority social worker, Travis Whittaker, completed a parenting assessment of the Mother on 10<span style="vertical-align:super;font-size:smaller">th</span> February 2016.  It was negative.  It refers to her chaotic lifestyle and relationship history as well as an alleged inability to prioritise EB&#8217;s needs.  At the time, she had only attended 28 out of 44 arranged contact sessions.  Her relationship with the Second Respondent and Ms M had broken down, such that she had moved out of their property and into a hostel.  M lives with her father in Spain following the involvement of the Spanish equivalent of the Local Authority.  It indicated that the Local Authority plan was for adoption.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">Mr Whittaker&#8217;s second statement is dated 15<span style="vertical-align:super;font-size:smaller">th</span> February 2016.  It confirmed that the viability assessments of the Second Respondent and Ms M and Mr I were also both negative.  He said that the Second Respondent and Ms M did not fully engage in the assessment.  Mr I implied he would only care for EB if he was in a relationship with the Mother.  These negative assessments have not been challenged by those concerned.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The Mother responded to threshold on 18<span style="vertical-align:super;font-size:smaller">th</span> February 2016.  Although accepting some of the factual matrix behind the document, she does not accept that threshold is crossed and denies the allegation that EB was a victim of child trafficking whether for money or as part of an illegal surrogacy/adoption arrangement.  She denies extorting money from Mr V.  In her statement, she said she was forced to entice him to her home and said that, as it would be her first offence, she was unlikely to get a custodial sentence even if convicted.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">Her second statement is dated 22<span style="vertical-align:super;font-size:smaller">nd</span> February 2016.  She seeks the return of EB to her care with the intention of taking him back to Spain to live with Mr I and M. She says no money was involved in the arrangements with the Second Respondent and Ms M.  She wanted to bring both her children to the United Kingdom for a better life and to escape from Mr V.  She missed contact due to a lack of money that prevented her getting there and due to illness.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The Cafcass Officer, Laura Scale, reported on 24<span style="vertical-align:super;font-size:smaller">th</span> February 2016.  She stated that EB is very settled with his foster carer.  Mr V has made no effort to be involved.  The Second Respondent and Ms M are not intending to proceed with any application.  The Mother has led an extremely nomadic lifestyle.  She is impulsive.  She is capable of meeting EB&#8217;s needs during contact.  There is a warm and relaxed rapport between them but the Cafcass Officer is concerned as to a whole host of issues.  For example, M has had fragmented care and has now been left with her father even though he has alleged criminal convictions, has been violent to the Mother and been engaged in drug misuse.  The Cafcass Officer has grave concerns about the Mother returning to Spain with EB, not just because of the possibility of a 12 months&#8217; custodial sentence but also because of the Mother&#8217;s inability to work in an open and honest way with professionals.  She recommends adoption.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The application by the Local Authority for a placement order for adoption is dated 7<span style="vertical-align:super;font-size:smaller">th</span> March 2016 as is the Statement of Facts.  The Mother opposes the application so, if it is to be granted, it would be necessary to dispense with her consent.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The Cafcass Officer reported on the application in a document dated 21<span style="vertical-align:super;font-size:smaller">st</span> March 2016.  She considers the various factors in the check-list to be found in the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref> and concludes that EB&#8217;s needs can only be met, throughout his life, with a permanent substitute family through adoption.  No other option will serve his best interests or provide him with adequate safeguards.  She therefore supports the application notwithstanding the draconian nature of such an order.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">On 18<span style="vertical-align:super;font-size:smaller">th</span> March 2016, the Mother, the Second Respondent and Ms M answered their Police bail and were informed that they were to face no criminal charges here in relation to EB.  Whilst I am sure that was a welcome relief to all of them, I am not exactly sure as to the position in Spain.  I assume their travel documents were returned to them at this point.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">On the first day of the hearing, the Local Authority made a number of applications to adduce further evidence.  The Guardian supported the Local Authority.  With one exception, I refused all the applications.  I had warned the Local Authority that this was likely to be the case at the IRH.  I have to ensure that the Mother has a fair trial and that her Article 6 rights are protected.  I was not satisfied that this would be the case if I allowed significant evidence to be adduced at such a late stage when it could have been adduced earlier.  Whilst I could, of course, have granted the Mother an adjournment to deal with such evidence, I was clear that an adjournment would not be in EB&#8217;s interests given his age and the need to complete the proceedings, in accordance with the law, within 26 weeks.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The one area where I did allow further evidence to be adduced related to Facebook posts of both the Mother and a Mr C. It was argued that these posts showed that the Mother had been in a relationship with Mr C since January 2016.  The Local Authority alleged that this cast doubt on her purported intention to return to live in Spain with Mr I.  I allowed this evidence because it had only recently come to the attention of the Local Authority.  Moreover, I was clear that the Mother would be able to deal with this matter without the need for an adjournment such that it did not affect her Article 6 rights.   </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">The hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">I heard oral evidence from five witnesses.  The first was the Social Worker, Mr Whittaker.  I heard from both the Second Respondent and Ms M pursuant to witness summonses I had issued to ensure their attendance.   I heard from the Mother and from the Cafcass Guardian, Laura Scale.  All three represented parties made detailed oral submissions.  Nothing more could have been said on behalf of any of the parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">Threshold is, of course, in issue and I will have to make findings as to that.  If I find that threshold is proved, I will go on to consider what orders to make in the so-called welfare phase of the case.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">The Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">Before turning to my findings and my welfare conclusions, I will deal with the law I must apply.  To establish the threshold criteria, I need to be satisfied that EB is suffering or is likely to suffer significant harm and that the harm or likelihood of harm is attributable to the care given to him, or likely to be given to him if the order is not made, not being what it would be reasonable to expect a parent to give [<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(2)</ref>].  Assuming I am so satisfied, it does not automatically lead to a care order.  I will then have to go on to consider his welfare.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">The burden and standard of proof</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The burden of proof is on the Local Authority.  It is for the Local Authority to satisfy me that it has made out its case in relation to disputed facts.  The Mother does not have to prove anything.   I accept Mr Jeremy Weston QC&#8217;s submission, on behalf of the Mother, that I must guard against reversing the burden of proof.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The standard of proof is the civil standard, namely the balance of probabilities (see <span style="text-decoration-line:underline;text-decoration-style:solid">Re B (Care Proceedings: Standard of Proof)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/35" uk:canonical="[2008] UKHL 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 35</ref>; <ref href="#" uk:canonical="[2008] 2 FLR 141" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 2 FLR 141</ref> and <span style="text-decoration-line:underline;text-decoration-style:solid">Re S-B (Children)</span> <ref href="#" uk:canonical="[2010] 1 FLR 1161" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 1 FLR 1161</ref>).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The seriousness of an allegation makes no difference to the standard of proof to be applied in determining the truth of the allegation.  The inherent probabilities are simply something to be taken into account, where relevant, in deciding where the truth lies (<span style="text-decoration-line:underline;text-decoration-style:solid">Re B (Children)(FC)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/35" uk:canonical="[2008] UKHL 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 35</ref>; <ref href="#" uk:canonical="[2008] 2 FLR 141" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 2 FLR 141</ref>). </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">Darlington Borough Council v A</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">40.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.88in">Mr Weston has quite properly drawn to my attention the decision of the President in <span style="text-decoration-line:underline;text-decoration-style:solid">Darlington Borough Council v A</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2015/11" uk:canonical="[2015] EWFC 11" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWFC 11</ref> in which he makes two fundamentally important points:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.29in;text-indent:-0.54in">(a)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.29in">First, findings of fact must be based on evidence (including inferences that can properly be drawn from the evidence) and not on suspicion or speculation.  Where issue is taken with allegations made, the Local Authority must identify primary evidence on which to base findings of fact.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.29in;text-indent:-0.54in">(b)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.29in">Second, it is necessary to demonstrate why the facts found justify the conclusion that a EB has suffered or is at risk of suffering significant harm. In particular, in a case, as here, where it is asserted that a parent has lied, it is necessary to analyse why the particular lies created the likelihood of significant harm to EB and what weight should reasonably be afforded to the fact of her deceit in the overall balance.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">Lies</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">There are issues in the case as to the extent to which a number of the witnesses have lied about various issues.  First, I must decide whether or not a witness has deliberately told lies.  If I find that they have, I have to ask myself why they lied.  The mere fact that a person tells a lie in relation to one matter does not in itself mean that the person concerned has lied about another matter.  An individual may lie for many reasons.  Some of them may be &#8220;innocent&#8221; ones.  For example, they may be lies to bolster a true case; or to protect someone else; or to conceal some other disreputable conduct or out of shame, panic, distress or confusion. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">It follows that, if I find that an individual has lied, I must assess whether or not there is an &#8220;<span style="font-style:italic">innocent</span>&#8221; explanation for those lies.  However, if I am satisfied that there is no such explanation, I can take the lies into account in my assessment of the overall truthfulness of the individual and the relevance to the main allegations made in the case.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="text-decoration-line:underline;text-decoration-style:solid">The welfare determination if threshold is established</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The first application is for a full care order in relation to EB.  If I find that <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref> of the Children Act is made out, I must then consider the welfare checklist in section 1 of Children Act, reminding myself that EB&#8217;s welfare during his minority is my paramount consideration.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The second application is for a placement order for adoption pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/21" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 21</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref>.  I can only do so if EB is subject to a care order or I am satisfied that the conditions in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(2)</ref> of Children Act as to threshold are met.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">A court will only make a placement order if it is justified having given paramount consideration to EB&#8217;s welfare &#8220;<span style="font-style:italic">throughout his or her life</span>&#8221; (<ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>).  I must have regard to the checklist set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">the Act</ref>.  <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1(6)</ref> provides that the court must always consider the whole range of powers available to it (whether under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> or <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>) but must not make any order under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> unless it considers that making the order would be better for EB than not doing so. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/21/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 21(3)</ref> provides that, in the absence of parental consent, I can only make a placement order if I am satisfied that parental consent should be dispensed with.  Pursuant to section 52(1), I need to be satisfied that the welfare of EB requires the consent to be dispensed with.  This is to be done in the light of the current circumstances (see McFarlane LJ in <span style="text-decoration-line:underline;text-decoration-style:solid">Re B-S</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/813" uk:canonical="[2013] EWCA Civ 813" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 813</ref> at Paragraph [13]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">In relation to dispensing with consent, Wall LJ said in <span style="text-decoration-line:underline;text-decoration-style:solid">Re P (Placement Orders: Parental Consent)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/535" uk:canonical="[2008] EWCA Civ 535" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Civ 535</ref>, <ref href="#" uk:canonical="[2008] 2 FLR 625" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 2 FLR 625</ref> at Paragraph 126:-</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in">&#8220;<span style="font-style:italic">Section 52(1) is concerned with adoption &#8211; the making of either a placement order or an adoption order &#8211; and what therefore has to be shown is that the child&#8217;s welfare &#8220;requires&#8221; adoption as opposed to something short of adoption.  A child&#8217;s circumstances may &#8220;require&#8221; statutory intervention, perhaps may even &#8220;require&#8221; the indefinite or long-term removal of a child from the family and his or her placement with strangers but that is not to say that the same circumstances will necessarily &#8220;require&#8221; that a child be adopted.  They may or they may not. The question, at the end of the day, is whether what is &#8220;required&#8221; is adoption.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">The case goes on to set out that &#8220;<span style="font-style:italic">required&#8221;</span> in this context means the connotation of the imperative.  It is what is demanded rather than what is merely optional or reasonable or desirable.  It is a stringent and demanding test.  The court should begin with a preference for the less interventionist rather than the more interventionist approach.  This should be considered to be in the better interests of a child unless there are cogent reasons to the contrary (<span style="text-decoration-line:underline;text-decoration-style:solid">Re O (Care or Supervision Order)</span> <ref href="#" uk:canonical="[1996] 2 FLR 755" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] 2 FLR 755</ref> at 760.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">Adopting a child is a draconian order.  It is an extreme order, only to be made as a last resort when there is no other order compatible with a child&#8217;s long term welfare (<span style="text-decoration-line:underline;text-decoration-style:solid">Re B</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/33" uk:canonical="[2013] UKSC 33" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 33</ref>).  In short, nothing else will do (per Lady Hale at paragraph [198]).  I entirely accept that this is because the interests of a child self-evidently require his or her relationship with his or her natural parents to be maintained unless no other course is possible in the child&#8217;s interest (Lord Neuberger at Paragraphs [76] to [77]).  Cutting off all contact and the relationship between a child and his or her family is only justified by the overriding necessity of the interests of the child (Lady Hale at Paragraph [198]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">The Court of Appeal considered the application of <span style="text-decoration-line:underline;text-decoration-style:solid">Re B</span> in <span style="text-decoration-line:underline;text-decoration-style:solid">Re B-S (Children)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/965" uk:canonical="[2013] EWCA Civ 965" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 965</ref> and re-emphasised the stringency of the welfare test when considering whether to dispense with parental consent. The President, Sir James Munby, said that there is a necessity for a &#8220;<span style="font-style:italic">holistic</span>&#8221; and rigorous evaluation of all placement options before coming to a decision.  I remind myself that Article 8 of the ECHR is engaged.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">The President stated that the Court of Appeal had real concerns about the recurrent inadequacy of the analysis and reasoning put forward in support of the case for  adoption both in the materials put before the court by both local authorities and guardians and in too many judgments.  He said it was time to &#8220;<span style="font-style:italic">call a halt</span>&#8221;.  The evidence placed before the court must address all the options which are realistically possible and must contain an analysis of the arguments for and against each option and, in particular, the nature and extent of the risk of harm involved in each of the options (Paragraph [34]).  The need for analysis of the pros and cons and a full reasoned recommendation was essential if the exacting test set out in <span style="text-decoration-line:underline;text-decoration-style:solid">Re B</span> and the requirements of Articles 6 and 8 of the Convention are to be met (Paragraph [36]).  There must be adequately reasoned judgments (Paragraph [43]).  The court rejected a linear approach whereby each option other than the most draconian is considered and rejected in isolation.  Instead, a balancing exercise is required in which each option is evaluated to the degree of detail necessary to analyse and weigh its own internal positives and negatives.  Each option should then be compared, side by side, against the competing option or options (Paragraphs [49] &#8211; [50]).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">It is not sufficient merely to pay lip service to adoption being the most draconian order without engaging with the detail of the option as to do so would be nothing more than &#8220;<span style="font-style:italic">formulaic window dressing</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">It is also right to remember that an adopted child is treated in law as if he or she had been born as a child of the adopters (<ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/67" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>).  The parental responsibility of the birth parents is extinguished (section 46).  An adoption order is irrevocable except in exceptional circumstances.   </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The witnesses</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">I found Mr Whittaker to be a conscientious social worker doing his best to assist the court.  He told me that since his earlier statement, there had been a further ten missed contact visits.  One was cancelled by the Mother and one by the foster carer.  The Mother has to telephone by 0930 on the morning of each contact to confirm she is attending.  He said that there were two weeks&#8217; of missed contact in February 2016.  He believed this was when Mr C was in Wales seeing the Mother.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">He did accept a number of points put to him by Mr Weston on behalf of the Mother.  For example, he confirmed he should have attempted to contact the Father and Mr N.  I accept he should have done so, although I consider it would have achieved nothing in relation to the Father.  So far as Mr N was concerned, he confirmed to Mr Evans, for the Guardian, that the Mother had not asked him to assess Mr N.  The Mother had told him that she felt he was capable of looking after M but not EB.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">Mr Whittaker accepted that EB did not, in fact, suffer any physical harm when left with the Second Respondent and Ms M by the mother although he was still of the view that it was quite wrong of her to leave him with virtual strangers.  He reminded the court of the importance of very young babies attaching to their primary carers at a very young age.  He accepted that he did not mention M at all in his consideration of adoption.  He pointed out, however, that M has had virtually no relationship with EB to date.  He said that he had referred to the loss of a relationship with the birth family when considering the placement application, although acknowledged the importance of the Article 8 right to family life.  Finally, he said that he understood that the Mother intended to plead guilty to the charges against her in Spain relating to Mr V.  The Mother had given him a confused account, saying she was innocent but involved and that she was under duress but had asked Mr V to attend the property.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Second Respondent</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">The second witness was the Second Respondent.  I have reminded myself that he originally lied about his paternity of EB but he was the first to give the court the truth. He was extremely polite and gave the clear impression that he was doing his best to tell me the truth in his oral evidence.  However, I find that he was wary of criticising the Mother.  It may be that he remains concerned about possible criminal prosecution in Spain.  There is no doubt that he gave contradictory evidence about what was intended as to the long term care of EB.  He told Ms Withers for the Local Authority that he and Ms M were going to look after the baby in the long term as &#8220;legal guardians.&#8221;  The Mother was going to bring M over as well and live here with M but she would be able to see EB whenever she wanted but she was not going to live with EB.  He gave contradictory evidence when cross-examined by Mr Weston for the Mother.  He told me then that he and Ms M were going to help her look after the baby whilst the Mother was looking for a job and a house but that they did not speak in detail about the arrangements thereafter.  I reject this second account as I will explain later when I turn to my findings.  I simply do not accept that they did not talk about what would happen thereafter.  I equally accept that neither he nor Ms M would have gone to all this trouble if they were only going to be glorified babysitters in the long term.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">He also showed great reluctance to explain the reasons that he and Ms M had fallen out with the Mother.  I find that this was not because he did not have evidence to give but rather that he did not wish to give it.  For example, he eventually accepted that he was concerned as to the Mother&#8217;s commitment to EB but he only gave one example, namely that she once went out the night before a contact visit so that she did not have any money to go and see EB the next day.  He said she asked if he could take her in his car but he could not as he had to go to work.  His friend could not take her either and she was annoyed.  I do not consider, however, that I was being given the complete picture.  I do, though, accept his denials that he paid the Mother for EB.  I accept his evidence that all they did was pay for the flight to bring the Mother here; bought some items such as a cot and a pushchair for EB and loaned the Mother &#163;100 for an Ipad to be given as a present to Mr I.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">Ms M</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">Ms M was a very complex witness.  Again, I remind myself of her initial lies about paternity.  In the early part of her oral evidence, she came over as terrified of the court process and, it soon emerged, of the Mother.  When cross-examined by Ms Withers, she was quiet, nervous and reluctant to say very much, although even then she was far more critical of the Mother than the Second Respondent. When Ms Withers finished, I allowed a short adjournment.  As there was only one competent interpreter in court, I had to ask the Mother&#8217;s interpreter to act as interpreter for all witnesses.  Mr Weston wished to take instructions from his client in Spanish so I rose for a short period to enable him to do so. Immediately that I left court, Ms M broke down and displayed great emotion.  She said she was distressed by the presence of the Mother in court, although I make it absolutely clear that I make no findings at all that the Mother did anything improper.  I therefore arranged for a screen to be installed but it became clear that Ms M did not want the screen so it was removed.  Thereafter, she became very considerably emboldened.  In essence, she went onto the attack as to her view of the Mother&#8217;s failings.  I consider her subsequent evidence to far better reflect her true feelings as to the Mother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.88in">In answer to Ms Withers, she had told me that she and the Second Respondent were going to be EB&#8217;s &#8220;legal guardians.&#8221; He was going to be brought up in their family because they were unable to have children of their own.  He would live with them.  The Mother would not do so.  She was going to go back to work but could see EB when she wished.  I find that this was exactly what was agreed.   Later, she told me that she found the Mother intimidating and that she was scared to say anything the Mother did not like or thought should not be said.  She told me she did not approve of the Mother&#8217;s lifestyle when in her house.   She did not share the Mother&#8217;s approach.   I accept Ms M&#8217;s evidence in that regard.  She is a very different personality to the Mother.  She is homely and not a party person.  The Mother is outgoing and brash.  Ms M was shocked by what she discovered about the Mother&#8217;s lifestyle and wanted nothing to do with it.  It was inevitable that they would fall out badly and that is what happened.  She has an unblemished past but considers the Mother had dragged her into disreputable conduct, including lying to the authorities.  I find that she bitterly regretted doing so and deeply resented the Mother for, in her eyes, making her do so.  I am sure that she has been extremely distressed by the whole affair.  She is clearly desperate for a child, having suffered multiple miscarriages.  She thought she had found a baby to look after but had it taken away from her in what must have seemed to her to be extremely cruel circumstances.  I do not in any way underestimate the effect on the Mother of having EB taken into care but I consider the effect on Ms M to have been profound as well. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">The Mother</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">The Mother was a very different witness.  I have to remind myself that she is still young.  She has had a very disturbed and unsatisfactory upbringing.  She had virtually no contact to either of her parents during her early years.  They clearly did not put their child first.  Her early experiences were not in any way her fault but they have scarred her badly.  She is, however, a strong personality.  Perhaps she has had to be.  She has undoubtedly made disastrous choice after disastrous choice.  She has had a chaotic lifestyle and her children have both suffered as a result.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I regret to say that I did not find her evidence at all impressive.  I find that she lied to me on numerous occasions.  In essence, wherever there is conflict between her and the other witnesses, I prefer the evidence of the other witnesses.  I cannot rely on what she said to me.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">She has chosen inappropriate and violent partners, most of whom abuse drugs and commit criminal offences.  She has cohabited with them within a very short period of meeting them without any real idea of their suitability or safety either for her or, more recently, her children.  In most cases, they most definitely were not safe.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I do, of course, accept that she loves her children very much.  Indeed, she has stayed in Wales for a long period in an attempt to get EB returned to her care.  I recognise that it has been difficult for her in Wales.  For a considerable period, she has been unable to work due to the Police retaining her identity documentation.  Nevertheless, she has, however, continued to behave irresponsibly in a number of important respects.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">There were a number of areas where her evidence is not accepted by the other parties.  First, in relation to her alleged relationship with Mr C, she says that he is just a close friend of hers.  She says that Mr C split up from his girlfriend and was distressed to see pictures of the girlfriend with another man on her Facebook page.  The Mother therefore agreed to post pictures of her and Mr C &#8220;in a relationship&#8221; to make Mr C&#8217;s girlfriend jealous.  If true, it was immature and stupid.  But it is clearly not true.  I reject this explanation.  It is absurd.  Both their Facebook pages said they have been in a relationship since January 2016.  There were intimate pictures of them kissing, including one in which they appear to be in bed, albeit clothed.  Mr C came over to see the Mother in Wales during February.  During that period, the Mother did not have contact to EB.  I find that she put her new relationship with Mr C ahead of EB.  When confronted by this by the Local Authority, she did not admit the position.  She deleted the entries and got Mr C to do so as well.  I reject her account that this was just coincidence and she removed the entries before seeing Mr Whittaker&#8217;s statement because Mr C was back with his old girlfriend.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">The Local Authority alleges that she had a one night stand with a man called S who was another tenant in the Second Respondent/M&#8217;s household.  In one sense, her private life is irrelevant as this court is not a court of morals.  The issue of lies, however, and whether she can be trusted to work openly and honestly with professionals is relevant.  It is clear to me that she told both the Second Respondent and Ms M that she had slept with S and this caused added friction in the house.  I find that she did do so.  She lied to me.  This adds yet further doubt to the status of her relationship with Mr I.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">She told me that she had not seen Mr I since October 2015.  That is a remarkable state of affairs if she is really in a relationship with him.  Why did he not visit her in Wales given that Mr C was able to do so?  Her relationship with Mr C, combined with her not seeing Mr I for over five months leads me to reject her case that she is going to live with him when she returns to Spain.  On the balance of probabilities, I find that she cannot remain out of a relationship for any length of time.  Moreover, her relationships are built on sand not on sure foundations and therefore they fail quickly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">The next issue surrounded M.  She told me she had not seen M since August 2015.  I simply do not understand why she did not see her in September/October 2015 when she returned to Spain, ostensibly to secure M&#8217;s move to Wales.  If she was not seeing M then, what was she doing in Spain?  I accept that she placed M in voluntary care when she commenced her relationship with Mr V.  At the time, M was only aged eight months.  This is an odd thing to do unless there is very good reason.  One possibility may be that she recognised that the relationship with Mr V might well be abusive and not conducive to M&#8217;s needs.   It might be said that this shows insight but it equally shows an inability to put M first.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">The Local Authority postulates that M remained in care throughout 2015 until she moved to live with Mr N.  Reliance is placed on Mr I saying that he had a limited relationship with M but assisted the Mother &#8220;in travelling to meet her&#8221;.  I am unable to make a finding as to this as the ground work was not properly undertaken by the Local Authority in sufficient time.  I am, however, entitled to question why it is that M has ended up being cared for by a man who was violent to the Mother and, according to her, was a habitual user of hard drugs.   Moreover, if I accept her case, he had no contact to M until July 2015 but she then allowed him to be placed in his full-time care the following month.  She has not seen M since.  I recognise entirely the difficulties for the Mother of being in Wales with very limited resources and without travel documentation but she is responsible for the actions she has taken.  It cannot be said that she has put M first.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">There is significant conflict between the Mother and the Second Respondent and Ms M over the arrangements intended for EB.  I have no doubt that she is not telling me the truth when she says she did not tell either Mr V or Mr I that EB had died in an operation in the United Kingdom.  I am satisfied she did do so.  Although I have not heard from either gentleman, both say she did and I cannot see that they would both make this up independently if it was not true.  Whatever Mr V&#8217;s faults, it was very wrong to say that to him about his son.  I am equally satisfied she initially told a woman police officer that he had died.  Later, she was constrained to admit he was alive and well in Cardiff but then came up with the idea that she would say that the Second Respondent was the father.  It was equally wrong to involve the Second respondent in lies.  A criminal offence was committed in Spain when he falsely registered himself as the father.  I am clear that this was the Mother&#8217;s idea, albeit that the plot was hatched before the Police got involved.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I am equally clear that the Mother has not told me the truth about her intentions so far as EB was concerned.  I find that she seriously considered allowing EB to be adopted whilst she was pregnant with him.  She went onto the Saludisima website and found a &#8220;surrogacy&#8221; type forum.  She made contact with a woman called D and it seems clear she promised D that she could have EB, possibly by way of adoption.  D then commenced fertility treatment and so put the Mother in touch with Ms M.  I find that it is quite inconceivable that the second Respondent and Ms M agreed on a mere babysitting arrangement.  The agreement was that they would care for EB permanently. They would bring him up and educate him but it would not be adoption and the Mother could retain contact with him.  If they were experts on English and Welsh law, they would have been asking for a Special Guardianship order.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I find this had many attractions for the Mother.  She clearly was concerned about Mr V.  In addition, she had found it difficult to cope with M.  She was still very young.  She intended to allow EB to become part of the Second Respondent and Ms M family on terms that she could see him but have no responsibility for him.  She hoped that she would be able to care for M, which I find she considered was the maximum she felt she could manage.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I accept that Mr V&#8217;s rejection of EB may have influenced her to consider that she could now safely return to Spain with EB although I do not find that such a move would be safe for EB.  I am completely unclear who she would be residing with if she returned to Spain now.  In the past, she has even said she should not return to Spain due to racism there against those with her cultural heritage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I am equally clear that the Mother fell out badly with the Second Respondent and Ms M.  I accept that she had limited money but she imposed on them and they began to resent it particularly as EB was no longer with them.   I find that they did not approve of her lifestyle and her choices. They blamed her for getting them into trouble with the Police.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">There is one dispute on which I have decided to accept her evidence and that relates to the &#8220;attempted suicide&#8221; on 15<span style="vertical-align:super;font-size:smaller">th</span> October.  I consider this to have been a cry for help rather than a serious attempt to take her own life. I do recognise that Ms M was sufficiently concerned to dial 999 and someone told the ambulance driver that she had taken 18 or 19 tablets but she did not have her stomach pumped so it seems more likely she took fewer tablets.  It appears she told the doctor she took ten.  Moreover, Ms M said there were tablets all over the floor.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">Contact is, however, another area where I reject her evidence. I have been very troubled by this aspect.  On the one hand, I recognise the Mother&#8217;s lack of money but I consider her contact record does not show her putting EB first.  She had no contact with EB from September 2015 until 4<span style="vertical-align:super;font-size:smaller">th</span> November 2015.  She managed to attend on 4<span style="vertical-align:super;font-size:smaller">th</span> November but then missed the next two contacts.  I find this staggering.  Even accepting her financial and language difficulties, I find it amazing she did not find a way to get there.  She then visited on 11<span style="vertical-align:super;font-size:smaller">th</span> November before missing the next two visits.  Thus began a disturbing pattern.  Of the first 44 visits, she missed 16 which is over one-third.  She has since missed a further ten.  I accept she was ill at times but she has not regularly telephoned to say she is not going.  In February 2016, she missed two whole weeks of contact.  Since 4<span style="vertical-align:super;font-size:smaller">th</span> February 2016, she has failed to ring in on nine occasions.  She has cancelled once when she had an appointment with the Police and I accept she could not attend on the day of the IRH although many parents ask for the time to be moved to accommodate such hearings.  Once, contact was cancelled by the foster mother.  A young baby requires consistency. This history does not show consistency.  Three times per week for an hour is not a huge commitment.  It has worried me considerably that she has not been able to maintain even that level of contact. Mr Evans described it as the acid-test.  I accept that submission.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Guardian</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_77">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">The final witness was the Guardian, Laura Scale.  She supports the Local Authority care plan and the proposal for adoption.  I am quite satisfied that she has given this case anxious consideration.  Indeed, she has identified a number of significant gaps in the Local Authority case, particularly in relation to the failure to establish paternity; to contact the paternal family; to contact the maternal grandmother until very late in the day; and to speak to Mr N.  All of these are genuine causes for complaint but I am satisfied that it would not be proportionate or in EB&#8217;s interests to require further investigations now.  That was the Guardian&#8217;s position.  She told me that, if she felt there was any other person who was a possible option, she would be asking me to adjourn to explore that.  For her, there wasn&#8217;t.  I agree.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I am satisfied that the paternal family has no intention of becoming involved.  I acknowledge that the omission of contacting the maternal grandmother is the most serious deficiency but she is now aware of the proceedings.  She has not applied to become involved.  I accept that she did not put herself forward to care for M.  Whilst I recognise that her relationship with her daughter has broken down, there is clear evidence that she did not parent the Mother responsibly.  The Mother did not put Mr N forward for assessment.  Given that he is not EB&#8217;s father and the evidence I have about him does him no credit, other than his recent care for M, I cannot see any significant advantage in adjourning to contact him.  I can, on the other hand, see very significant disadvantages to EB, particularly in terms of delay, in doing so. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">The Guardian confirmed that the Mother loves EB very much.  I accept that is the case.  She reminded me that, for part of the history outlined above, the Mother was a vulnerable child.  She felt that the Mother&#8217;s experience of bad parenting whilst she was a child has had an impact on her ability to parent herself.  She acknowledged that the extremely difficult experiences the Mother has had are partly cultural and that she self-reported many of the matters that have highlighted risk. She told me it is not just the Mother&#8217;s nomadic lifestyle that is relevant to her ability to protect EB but the very nature of the way EB came to Wales is a huge cause for concern. It shows a complete lack of understanding by the Mother of the needs of such a young baby and highlights the dangers for his ongoing safety.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">Turning to the placement application, she acknowledged that the social worker, in his analysis should have used the correct checklist from <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> although she reminded me that the placement order had not been applied for at the time.  I accept that criticism but I will apply the correct checklist in coming to my decision.  Mr Weston asked her in particular about the loss of a relationship between EB and M if I make a placement order. She accepted that sibling relationships are important and such attachments are one of the most enduring but she reminded me that they do not know each other and, it appears, have not even met each other.  There is therefore no attachment at present.   </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Threshold </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_81">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I now turn to consider my findings as to threshold.  The Mother does not accept that threshold is crossed.  With considerable regret, I disagree.  I have made a significant number of findings of fact adverse to the Mother.  I accept that EB was not sold to the Second Respondent and Ms M.  It was not a surrogacy arrangement in the sense that this is known to English and Welsh law.  It was not an illegal adoption but it was a plan that placed EB at risk of very significant harm.  The Mother has chosen disastrously with nearly all her relationships.  She was, in fact, lucky that the Second Respondent was not cut from the same cloth as Mr N, Mr A and Mr V.  I do not accept that the Mother could have ascertained this in six days.  She had failed to do so in relation to the other three over a slightly longer period.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">She left her three week old son with virtually total strangers.  Within a couple of days of meeting them, she was happy for them to care for EB overnight.  She was intending to leave him there for twenty four days without her.  I am equally satisfied that she had agreed to pass over &#8220;residence&#8221; of her three week old baby to them on a permanent basis.  This was not responsible and it was not EB focussed.  In fact, it is quite remarkable.  It is extremely unusual even in the Family Court that sees all sorts of poor behaviour.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I am absolutely clear that this placement was always going to end in bitterness and rancour even on the basis that the Second Respondent and Ms M were responsible people, as I find them to be.  The Mother would have returned to the UK which would, sooner rather than later, have led to a complete falling out between her and them as indeed happened.  The Mother placed EB in a position that was bound to lead to conflict, litigation and dispute.  It might have been far worse.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">When I combine this with her chaotic lifestyle; her extremely poor choice of partner; my finding as to her need for a relationship regardless of the suitability of the men for her children; the way in which she has dealt with M; her apparent criminal activities; her continuing lies such that professionals cannot trust her; and her approach to contact, I have no doubt whatsoever that threshold is well and truly crossed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">What order should I then make?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_85">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I recognise I must consider all the options.  Moreover, I cannot make a placement order unless &#8220;nothing else will do&#8221;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">It is clear that I cannot make &#8220;no order&#8221; as EB&#8217;s future needs to be regulated.  Can I return him to his Mother safely?  If I cannot do so now, is there any prospect that I could do so in the foreseeable future after work has been done with the Mother within EB&#8217;s timescales?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in;border-bottom-width:0.5pt;border-bottom-style:solid;border-bottom-color:initial">I accept that the Mother is young.  She has had very poor experiences.  She has lied to professionals and she continues to lie to them.  I recognise that it might be possible to work with her to enable &#8220;safe enough parenting&#8221; at some point, probably after she has matured considerably and come to recognise her failings and the need to be truthful at all times.  But we are nowhere near that point. At best, we have one admission in cross-examination by Mr Evans that her record on contact was not in EB&#8217;s interests.  The Local Authority cannot work with someone who says she is going to live with Mr I whilst carrying on a relationship with Mr C.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in;border-bottom-width:0.5pt;border-bottom-style:solid;border-bottom-color:initial">I am quite satisfied that any changes to the Mother&#8217;s behaviour, to enable her to make safe choices for EB and to give him a secure and stable home environment, rather than one where her partner changes every few months and is more likely than not to be violent, or involved in drugs, or crime, will take a long time. It is completely outside EB&#8217;s timescales.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in;border-bottom-width:0.5pt;border-bottom-style:solid;border-bottom-color:initial">She would have to recognise that a young baby requires the sort of commitment that is very difficult for many parents.  It does not involve attending your EB some of the time.  It does not mean not bothering to telephone to cancel arrangements.  I reject her explanation that she had insufficient credit on her telephone but, if it was true, she should have brought this to the attention of the Local Authority and sorted it out. That is what responsible parents do.  They do not leave their three week old baby for three weeks in a different country.  They ensure they are there every time for contact unless they really are ill, in which case they report it every time. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in;border-bottom-width:0.5pt;border-bottom-style:solid;border-bottom-color:initial">I have to put EB first.  I cannot make an order in the hope that the Mother will see sense at some point.  I cannot ignore her frankly woeful evidence to me as to many of these issues.  I cannot leave EB in limbo or require him to put his future on hold in case the Mother can begin to get it right.  Indeed, there is nothing significant at present on which I can base an assessment of real change on her behalf. I therefore make a final care order. I do so with regret.  A court never wants to do so in relation to a baby but I have no alternative in this case.  I have found that the Mother is not capable of adequately protecting him, giving him stability and security and promoting his welfare.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The placement application</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_91">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">Having concluded that I must make a final care order and that a return to the Mother&#8217;s care in the foreseeable future is out of the question, I have to decide whether or not to make a placement order.  I can only do so if nothing else will do.  I must not of course merely pay lip service to this requirement.  I recognise that, if I do not make a placement order, EB could remain in long term fostering.  I recognise that this would not extinguish his links with the Mother and his birth family.  That would be an advantage.  However, I cannot see that contact with the Mother could be anything more than identity contact to ensure he is stable and secure in his long term placement.  It would be complicated further if the Mother was to return to Spain. I recognise that, at least in theory, he could have contact to M but that would be fraught with difficulties given her residence in Spain with Mr N and the fact that children have never even met.  So far as other family members are concerned, Mr V has washed his hands of EB as have his parents, given the observations of the Process Server.  The maternal grandparents have nothing to do with the Mother let alone her Children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">Placement for adoption, however, will give him a chance of permanency with a new family.  I recognise that adoption is not without risks but I consider them to be far lower than the risks to EB of drifting in the care system for effectively eighteen years, with all the problems that this brings.  I have to consider his ascertainable wishes and feelings regarding the decision considered in the light of his age and understanding.  He is far too young to be able to express any such wishes and feelings.  I accept of course that he would wish to be brought up by his Mother or a birth family member if that was possible but that is not possible.  In such circumstances, he would want to be given the best chance of stability and security in the long term with an alternative family before it is too late.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">His particular needs cry out for such stability and security.  I accept that such a placement should promote his cultural identity. I recognise that it may be difficult to do so given the complex mix of Spanish and Roma heritage but I am confident it can be done at least in part, if necessary, by the careful use of life story work.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I have to consider the likely effect on him throughout his life of having ceased to be a member of his original family and becoming an adopted person.   I recognise that adoption permanently removes him from his birth family.  Article 8 rights are engaged to all involved.  Nevertheless, he is entitled to a secure and stable life with a family of which he is a permanent member forever.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">The next consideration is his age, sex, background and any of his characteristics which are relevant, including his religious persuasion, racial origin and cultural and linguistic background.  The overriding consideration here is his young age with all the challenges that brings as a Looked After Child.  I have already referred to his heritage and I entirely accept that an adoptive placement needs to give proper consideration to his heritage and cultural background.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I have dealt in detail with any harm that he has suffered or is at risk of suffering.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">Finally, I must consider the relationship which he has with relatives and any other relevant person, including the likelihood of any such relationship continuing and the value to EB of it doing so; the ability and willingness of any of his relatives to provide EB with a secure environment in which he can develop and otherwise meet his needs; and the wishes and feelings of his relatives, or of any such person regarding EB.  It is a sad fact that, with the exception of the Mother, he has no relationship with any of his relatives.  That is in part caused by the Mother&#8217;s disastrous decision to bring him to Wales.  Having said that, other than the Mother, no other relative has come forward. Regrettably, they have shown complete indifference. I have already noted how difficult it will be for him to have a meaningful relationship with M.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in">I have therefore come to the clear and overwhelming conclusion that I must make a placement order in his best interests.  I have already found that he cannot be brought up by his Mother.  I have to consider his welfare throughout his life.  He is entitled to security, stability and permanence.  He should not languish in the care system for all eighteen years of his minority, with the uncertainty and difficulties that this would inevitably bring.  I have come to the clear conclusion that he is entitled to better than that. I find that his Mother would recognise that if she was able to consider this objectively.  I further find that his half-sister would do so as well.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="margin-left:0.88in;text-indent:-0.25in">99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.88in"> I therefore accept the analysis of both the Local Authority and the Guardian.  EB needs permanency for the rest of his life.  Nothing else will do, notwithstanding the loss of the chance of any relationship with his Mother and his half-sister.  It follows that I dispense with parental consent as that is what his welfare requires.  I accept the proposals in relation to the Mother&#8217;s future contact.  I approve the care plan, although I accept Mr Weston&#8217;s submission that it should be amended to correct what I accept was an error as to developmental delay.  EB does not show any developmental delay whatsoever.  </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

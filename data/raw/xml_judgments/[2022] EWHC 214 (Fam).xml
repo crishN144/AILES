@@ -1,0 +1,1023 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/214"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/214"/>
+	  <FRBRdate date="2022-02-01" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="214"/>
+	  <FRBRname value="M v F"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/214"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/214"/>
+	  <FRBRdate date="2022-02-01" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/214/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/214/data.xml"/>
+	  <FRBRdate date="2022-03-16T16:30:35" name="transform"/>
+	  <FRBRdate date="2024-01-20T20:36:36" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-02-01" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="m" href="" showAs="M"/>
+	<TLCPerson eId="f" href="" showAs="F"/>
+	<TLCPerson eId="u" href="" showAs="U"/>
+	<TLCPerson eId="a" href="" showAs="A"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-peel" href="/judge-mr-justice-peel" showAs="MR JUSTICE PEEL"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>214</uk:number>
+	<uk:cite>[2022] EWHC 214 (Fam)</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>55123a87139856e9f9b4a8faef21d1ec35f31780fa600f046c24a7bd106d86e0</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.50in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1.00in; margin-right: 1.00in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 11pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p class="CoverText" style="text-align:center"><img src="image1.png" style="width:1.0625in;height:1.0486111111111112in;"/></p>
+      <p style="text-align:justify"><span style="color:#FF0000">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</span></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2022] EWHC 214 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD21P00445</docketNumber> &amp; <docketNumber>FD21P00447</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p><docTitle style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE MATTER OF THE CHILD ABDUCTION AND CUSTODY ACT 1985</docTitle></p>
+      <p><docTitle style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE MATTER OF THE SENIOR COURTS ACT 1981</docTitle></p>
+      <p><docTitle style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE MATTER OF S (a boy, born on 04.09.2020)</docTitle></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2022-02-01" refersTo="#judgment">1 February 2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-peel">MR JUSTICE PEEL</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#m" style="font-weight:bold">M</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#f" style="font-weight:bold">F</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#u" style="font-weight:bold">U</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a" style="font-weight:bold">A</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">1<span style="vertical-align:super;font-size:smaller">st</span> Respondent</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">2<span style="vertical-align:super;font-size:smaller">nd</span> Respondent</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">3<span style="vertical-align:super;font-size:smaller">rd</span> Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Edward Bennett </span>(instructed by<span style="font-weight:bold"> Dawson Cornwell</span>) for the Applicant</p>
+      <p style="text-align:center"><span style="font-weight:bold">The 1st, 2</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold"> and 3</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">rd</span><span style="font-weight:bold"> Respondents</span> appeared in person</p>
+      <p style="text-align:center">Hearing dates: 26-28 January 2022</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level>
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Peel :</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Before me are applications in respect of S, who is 16 months old, brought by his mother (&#8220;M&#8221;) against his father (&#8220;F&#8221;) and paternal uncle and aunt (&#8220;U&#8221; and &#8220;A&#8221;), who have been joined as second and third respondents. Since 28 September 2021, S has been a ward of court. He is a Portuguese national of Pakistani origin. The applications, issued on 6 July 2021, are:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Under the 1980 Hague Convention and the inherent jurisdiction for return of S to Portugal. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Alternatively, under the inherent jurisdiction, for S to be placed in M&#8217;s care in Pakistan (although it could equally have been framed as an application for a s.8 order:<span style="font-weight:bold"> Re N (A Child)(Abduction: Children Act or Hague Convention Proceedings) <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2020/35" uk:canonical="[2020] EWFC 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWFC 35</ref>; <ref href="#" uk:canonical="[2020] 2 FLR 575" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 2 FLR 575</ref></span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The applications arise out of: (i) the removal of S by F from Portugal, and out of the care of M, to be placed with U and A in Manchester on 22 November 2020 when he was less than 3 months old, after which F immediately returned to Portugal; and (ii) M&#8217;s departure from Portugal to Pakistan the very next day, accompanied by F&#8217;s brother and wife.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The current circumstances are:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">S has lived with, and been cared for by, U and A in Manchester since November 2020. U and A have an 8-year-old son of their own. Neither U nor A holds parental responsibility for S. They have rights to remain in the United Kingdom, although S&#8217;s residency status is unclear. There is no dispute that their quality of care for S, at least on a physical level, is good. U and A intend that they should continue to look after S permanently, and propose to seek adoption orders in their favour.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">F lives in Portugal. He has a very severe kidney disorder and attends hospital 3 times per week for dialysis treatment. He is awaiting a kidney transplant. He does not put himself forward as being able to care for S, and intends that S should continue to live with U and A.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">M is in Pakistan, where she has been since November 2020, living with her parents. She seeks the return of S to her care.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">S has had no direct contact with M since their separation in November 2020, although videocall contact has taken place pursuant to court orders since July 2021 every other day. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">S has seen F some 4-5 times since November 2020 when F (who works for a mobile phone accessory company) has been in England on business. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">M&#8217;s primary case is that S should be returned to Portugal pursuant to the 1980 Hague Convention. However, as things presently stand, and despite repeated attempts to secure an appropriate visa, she has no right to enter and remain in Portugal. Her secondary case is that, if she continues to be restricted from entering Portugal, orders should be made under the inherent jurisdiction for S to be placed with her in Pakistan. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The essential factual issues are:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Whether S was removed from Portugal, and placed with U and A in Manchester, without the consent of M.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Whether M was persuaded to travel to Pakistan under a false representation from F and his family that if she did so, S would be returned to her care</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Whether M was left stranded in Pakistan by the actions of F and his family.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Whether M has been subjected to abusive, controlling, and coercive behaviour by F, with the complicity of his family.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Both applications have been case managed such that the hearing before me, as identified in previous court orders, &#8220;shall be a hearing to determine the circumstances in which the child came to be physically present in this jurisdiction, including whether the Mother was stranded in Pakistan as she alleges, and whether the Mother consented to the child being brought to England and Wales as the Father alleges, and any Hague Convention order&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">At the Pre-Trial Review/Ground Rules hearing before me on 12 January 2022, when I first became involved with the case, I formed the clear view that:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">As foreshadowed in case management orders, the final hearing should consider the factual circumstances surrounding S travelling to England, and M to Pakistan.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">The facts as found by me would inform whether a return order to Portugal under the 1980 Hague Convention should be made, bearing in mind that M is currently unable to travel to Portugal. I expressed the view that if I considered a return order to be appropriate, I could stay the order pending further attempts by M to secure appropriate permission to enter Portugal. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">I would not be in a position to consider substantively M&#8217;s alternative proposal, that S should be placed in her care in Pakistan. That would require a welfare enquiry for which this hearing had not been set up. Thus, by way of example, there was relatively limited written evidence (particularly from M) about proposed long-term welfare arrangements, and no Cafcass report. I provisionally expressed the view that, if I did not make a Hague Convention return order to Portugal, or alternatively I stayed such an order because it could not in practice be implemented, it would be appropriate to give directions at this hearing as to the competing welfare proposals whereby M&#8217;s case is that (absent return to Portugal) S should live with her in Pakistan, and the case of F, U and A is that S should remain living with U and A in Manchester. Counsel agreed with this analysis at the Pre-Trial Review, and again at this hearing.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Representation and Ground Rules </span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">M was represented by counsel. She has obtained a 6-month visa to enter the United Kingdom and therefore was present in person at the hearing. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">For most of the proceedings, all three respondents have been legally represented. At what was intended to be the final hearing on 1 December 2021, all the respondents appeared in person, having dispensed with the services of their solicitors shortly beforehand. The final hearing was adjourned to take place before me, with a PTR listed to consider practical issues, including Ground Rules, in the light of them acting in person. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">At this hearing, M, F and U attended in person. A attended by video link. All required the assistance of an interpreter.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">PD12J and PD3AA are engaged. In <span style="font-weight:bold">Re A (Children: Fact-Finding: Appeal) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/74" uk:canonical="[2019] EWCA Civ 74" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 74</ref>; <ref href="#" uk:canonical="[2019] 1 FLR 1175" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 1 FLR 1175</ref></span> Moylan LJ said this:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-size:10pt;margin-left:0.84in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p style="margin-left:0.84in"><span style="font-size:10pt;color:#000000">&#8220;Transnational Marriage Abandonment:</span></p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p style="margin-left:0.84in"><span style="font-size:10pt;color:#000000">The expression "transnational marriage abandonment" appears in Practice Direction 12J of the Family Proceedings Rules 2010 which deals with "Domestic Abuse and Harm". It states:</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.89in"><span style="font-size:10pt;color:#000000">"3. For the purposes of this Practice Direction -</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.89in"><span style="font-size:10pt;color:#000000">"domestic abuse" includes any incident or pattern of incidents of controlling, coercive or threatening behaviour, violence or abuse between those aged 16 or over who are or have been intimate partners or family members regardless of gender or sexuality. This can encompass, but is not limited to, psychological, physical, sexual, financial, or emotional abuse. Domestic abuse also includes culturally specific forms of abuse including, but not limited to, forced marriage, honour-based violence, dowry-related abuse and transnational marriage abandonment.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.89in"><span style="font-size:10pt;color:#000000">"abandonment" refers to the practice whereby a husband, in England and Wales, deliberately abandons or "strands" his foreign national wife abroad, usually without financial resources, in order to prevent her from asserting matrimonial and/or residence rights in England and Wales. It may involve children who are either abandoned with, or separated from, their mother".</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.89in"><span style="font-size:10pt;color:#000000">It is clear from the Practice Direction that the words abandonment and stranding are not terms of art and that they are not intended to be applied in a formulaic manner. This is because there are a number of ways in which a spouse might be said to have been abandoned or stranded abroad or in which the other spouse might have sought to achieve this. I would agree with Mr Gration when he submitted that cases can include many differing elements which militates against their being placed in distinct categories.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-size:10pt;margin-left:0.84in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p style="margin-left:0.84in"><span style="font-size:10pt;color:#000000">The core feature of the concept of stranding or abandonment is the exploitation or the attempted exploitation by one spouse of the other's vulnerability or weakness to seek to ensure that they are not able to come to or return to the UK. As Peter Jackson J (as he then was) said in </span><span style="font-style:italic;font-size:10pt;color:#000000">ZM v AM</span><span style="font-size:10pt;color:#000000"/><a href="https://www.bailii.org/ew/cases/EWHC/Fam/2014/2110.html" title="Link to BAILII version"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:10pt;color:#0000FF">[2014] </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:10pt;color:#0000FF">EWHC</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:10pt;color:#0000FF"> 2110 (Fam)</span></a><span style="font-size:10pt;color:#000000">, at [1], it can be the "opportunity" the secure immigration status of one spouse and the insecure immigration status of the other gives "the former to exploit the latter's weakness". However, as PD12J makes clear, it is based more generally on "controlling, coercive or threatening behaviour, violence or abuse".</span></p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.79in;text-indent:-0.29in"><span style="font-size:10pt;color:#000000"> 78.</span><marker name="tab"/><span style="font-size:10pt;color:#000000">As set out above, stranding is a broad concept and can include any action taken by a spouse which puts obstacles in the way of the other spouse being able to return to the UK. In some respects, it matters not whether the attempt is successful or not. Even if not successful it could still support a conclusion of controlling or coercive behaviour as referred to in PD 12J.&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">At the PTR/Ground Rules hearing I made provision for (i) questions to be put to M in writing in advance by F, U and A, which I would then ask, and (ii) a screen to be made available for M so that she could not see or be seen by F or U. I bear in mind that the questions put to M, via me, were prepared by lay persons and lacked the forensic acuity of questions prepared by counsel. However, they were reasonably detailed, and the broad thrust of their case was clearly put to M. I am satisfied that the respondents, who gave written and oral evidence, have not been disadvantaged in this respect. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Hague Convention defences</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">By order dated 7 July 2021, all three respondents, at a time when they were legally represented, were directed to file their Answers to the Hague Convention application, although it does seem to me that, in the circumstances of this case, it is in reality F&#8217;s responsibility to meet the application for a return order under the Hague Convention. A document titled &#8220;Answer&#8221; dated 25 July 2021 is lengthy and perhaps not as focussed as it might have been. However, it is reasonably clear (as recorded by me at the PTR), that they rely on:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Article 13(a), namely that M consented to the removal from Portugal to England; and/or</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Article 13(b), namely that there is a grave risk that to return S to Portugal would expose him to physical or psychological harm or otherwise place him in an intolerable situation.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I note that there is no suggestion: (i) that S was not habitually resident in Portugal at the time of removal; or (ii) that the removal was not in breach of M&#8217;s rights of custody.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The burden of proving the defences under Article 13(a) and (b) rests on the respondents.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The law: Hague Convention</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The Article 13(a) defence of consent has recently been considered by the Court of Appeal in<span style="font-weight:bold"> Re G (Children) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/139" uk:canonical="[2021] EWCA Civ 139" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 139</ref>; <ref href="#" uk:canonical="[2021] 2 WLR 1013" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 2 WLR 1013</ref>; <ref href="#" uk:canonical="[2021] 2 FLR 972" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 2 FLR 972</ref>, </span>per Peter Jackson LJ:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.00in;text-indent:-0.50in"><span style="font-size:10pt">&#8220;23. Article 13 of the Convention provides exceptions to the obligation under Article 12 to</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.00in;text-indent:-0.21in"><span style="font-size:10pt">order the return forthwith of a child who has been wrongfully removed from the place of </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:1.00in;text-indent:-0.21in"><span style="font-size:10pt">his or her habitual residence. One exception is consent:</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:1.00in"><span style="font-size:10pt;color:#000000">"Notwithstanding the provisions of the preceding Article, the judicial or administrative authority of the requested State is not bound to order the return of the child if the person, institution or other body which opposes its return establishes that</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:1.00in"><span style="font-size:10pt;color:#000000">a) the person, institution or other body having the care of the person of the child&#8230; had consented to or subsequently acquiesced in the removal or retention; &#8230;"</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.49in"><span style="font-size:10pt">24. Consent is an exception that is infrequently pleaded and still less frequently proved. The </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.39in;text-indent:0.39in"><span style="font-size:10pt">applicable principles were considered by this court in </span><span style="font-style:italic;font-size:10pt">Re P-J (Children) (Abduction: </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.20in"><span style="font-style:italic;font-size:10pt">Consent)</span><span style="font-size:10pt"/><a href="https://www.bailii.org/ew/cases/EWCA/Civ/2009/588.html"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:10pt;color:#0000FF"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/588" uk:canonical="[2009] EWCA Civ 588" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 588</ref></span></a><span style="font-size:10pt"/><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/ew/cases/EWCA/Civ/2009/588.html"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:10pt;color:#0000FF"><ref href="#" uk:canonical="[2010] 1 WLR 1237" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 1 WLR 1237</ref></span></a><span style="font-size:10pt">, drawing on the decisions in </span><span style="font-style:italic;font-size:10pt">Re </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.20in"><span style="font-style:italic;font-size:10pt">M </span><span style="font-size:10pt">(</span><span style="font-style:italic;font-size:10pt">Abduction</span><span style="font-size:10pt">) (</span><span style="font-style:italic;font-size:10pt">Consent: Acquiescence</span><span style="font-size:10pt">) [1999] 1 FLR. 174 (Wall J); </span><span style="font-style:italic;font-size:10pt">In re C (Abduction: </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.20in"><span style="font-style:italic;font-size:10pt">Consent) </span><span style="font-size:10pt"><ref href="#" uk:canonical="[1996] 1 FLR 414" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] 1 FLR 414</ref> (Holman J); </span><span style="font-style:italic;font-size:10pt">In re K (Abduction: Consent) </span><span style="font-size:10pt"><ref href="#" uk:canonical="[1997] 2 FLR 212" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] 2 FLR 212</ref></span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.20in"><span style="font-size:10pt">(Hale J); and </span><span style="font-style:italic;font-size:10pt">Re L (Abduction: Future Consent) </span><span style="font-size:10pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/2181" uk:canonical="[2007] EWHC 2181 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 2181 (Fam)</ref>; [2008] 1 </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.20in"><span style="font-size:10pt">FLR 914 (Bodey J). Other decisions of note are </span><span style="font-style:italic;font-size:10pt">C v H (Abduction: Consent)</span><span style="font-size:10pt"> [2009] </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.20in"><span style="font-size:10pt">EWHC 2660 (Fam); <ref href="#" uk:canonical="[2010] 1 FLR 225" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 1 FLR 225</ref> (Munby J); and </span><span style="font-style:italic;font-size:10pt">A v T </span><a href="https://www.bailii.org/ew/cases/EWHC/Fam/2011/3882.html"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:10pt;color:#0000FF"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/3882" uk:canonical="[2011] EWHC 3882 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 3882 (Fam)</ref></span></a><span style="font-size:10pt">; </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.20in"><span style="font-size:10pt"><ref href="#" uk:canonical="[2012] 2 FLR 1333" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 2 FLR 1333</ref> (Baker J).</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:-0.49in"><span style="font-size:10pt">25. </span><span style="font-size:10pt;color:#000000">The position can be summarised in this way:</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.98in"><span style="font-size:10pt;color:#000000">(1) The removing parent must prove consent to the civil standard. The inquiry is fact-specific and the ultimate question is: had the remaining parent clearly and unequivocally consented to the removal?</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.98in"><span style="font-size:10pt;color:#000000">(2) The presence or absence of consent must be viewed in the context of the common sense realities of family life and family breakdown, and not in the context of the law of contract. The court will focus on the reality of the family's situation and consider all the circumstances in making its assessment. A primary focus is likely to be on the words and actions of the remaining parent. The words and actions of the removing parent may also be a significant indicator of whether that parent genuinely believed that consent had been given, and consequently an indicator of whether consent had in fact been given.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.98in"><span style="font-size:10pt;color:#000000">(3) Consent must be clear and unequivocal but it does not have to be given in writing or in any particular terms. It may be manifested by words and/or inferred from conduct.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.98in"><span style="font-size:10pt;color:#000000">(4) A person may consent with the gravest reservations, but that does not render the consent invalid if the evidence is otherwise sufficient to establish it.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.98in"><span style="font-size:10pt;color:#000000">(5) Consent must be real in the sense that it relates to a removal in circumstances that are broadly within the contemplation of both parties.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.98in"><span style="font-size:10pt;color:#000000">(6) Consent that would not have been given but for some material deception or misrepresentation on the part of the removing parent will not be valid.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.98in"><span style="font-size:10pt;color:#000000">(7) Consent must be given before removal. Advance consent may be given to removal at some future but unspecified time or upon the happening of an event that can be objectively verified by both parties. To be valid, such consent must still be operative at the time of the removal.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.98in"><span style="font-size:10pt;color:#000000">(8) Consent can be withdrawn at any time before the actual removal. The question will be whether, in the light of the words and/or conduct of the remaining parent, the previous consent remained operative or not.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.98in"><span style="font-size:10pt;color:#000000">(9) The giving or withdrawing of consent by a remaining parent must have been made known by words and/or conduct to the removing parent. A consent or withdrawal of consent of which a removing parent is unaware cannot be effective.</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;margin-left:0.50in;text-indent:-0.50in">17.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.50in">As to the application of Article 13(b), there have been a number of recent Court of Appeal authorities. That said, the leading authority on the principles to be applied to this area of jurisprudence remains <span style="font-weight:bold">Re E (Children) (Abduction: Custody Appeal) <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/2" uk:canonical="[2011] UKSC 2" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKSC 2</ref>; <ref href="#" uk:canonical="[2011] 2 FLR 758" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 2 FLR 758</ref></span>, per Baroness Hale:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p style="margin-left:0.50in"><span style="font-size:10pt">&#8220;29. Article 12 of the Hague Convention requires a requested state to return a child forthwith to her country of habitual residence if she has been wrongfully removed in breach of rights of custody. There is an exception for children who have been settled in the requested state for 12 months or more. Article 13 provides three further exceptions. We are concerned with the second: </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.79in;margin-right:0.33in"><span style="font-size:10pt">". . . the requested state is not bound to order the return of the child if the person, institution or other body which opposes its return establishes that - (a) . . . ; or (b) there is a grave risk that his or her return would expose the child to physical or psychological harm or otherwise place the child in an intolerable situation. . . . In considering the circumstances referred to in this Article, the judicial and administrative authorities shall take into account the information relating to the social background of the child provided by the Central Authority or other competent authority of the child's habitual residence." (emphasis supplied) </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.50in"><span style="font-size:10pt">30. As was pointed out in a unanimous House of Lords decision in </span><span style="font-style:italic;font-size:10pt">Re D</span><span style="font-size:10pt">, para 51, and quoted by Thorpe LJ in this case: </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.79in;margin-right:0.33in"><span style="font-size:10pt">"It is obvious, as Professor P&#233;rez-Vera points out, that these limitations on the duty to return must be restrictively applied if the object of the Convention is not to be defeated: [Explanatory Report to the Hague Convention] para 34. The authorities of the requested state are not to conduct their own investigation and evaluation of what will be best for the child. There is a particular risk that an expansive application of article 13b, which focuses on the situation of the child, could lead to this result. Nevertheless, there must be circumstances in which a summary return would be so inimical to the interests of the particular child that it would also be contrary to the object of the Convention to require it. A restrictive application of article 13 does not mean that it should never be applied at all." </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.50in"><span style="font-size:10pt">31. Both Professor P&#233;rez-Vera and the House of Lords referred to the application, rather than the interpretation, of article 13. We share the view expressed in the High Court of Australia in </span><span style="font-style:italic;font-size:10pt">DP v Commonwealth Central Authority</span><span style="font-size:10pt">[2001] HCA 39, (2001) 206 CLR 401, paras 9, 44, that there is no need for the article to be "narrowly construed". By its very terms, it is of restricted application. The words of article 13 are quite plain and need no further elaboration or "gloss".</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.50in"><span style="font-size:10pt">32. First, it is clear that the burden of proof lies with the "person, institution or other body" which opposes the child's return. It is for them to produce evidence to substantiate one of the exceptions. There is nothing to indicate that the standard of proof is other than the ordinary balance of probabilities. But in evaluating the evidence the court will of course be mindful of the limitations involved in the summary nature of the Hague Convention process. It will rarely be appropriate to hear oral evidence of the allegations made under article 13b and so neither those allegations nor their rebuttal are usually tested in cross-examination.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.50in"><span style="font-size:10pt">33. Second, the risk to the child must be "grave". It is not enough, as it is in other contexts such as asylum, that the risk be "real". It must have reached such a level of seriousness as to be characterised as "grave". Although "grave" characterises the risk rather than the harm, there is in ordinary language a link between the two. Thus a relatively low risk of death or really serious injury might properly be qualified as "grave" while a higher level of risk might be required for other less serious forms of harm.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.50in"><span style="font-size:10pt">34. Third, the words "physical or psychological harm" are not qualified. However, they do gain colour from the alternative "or otherwise" placed "in an intolerable situation" (emphasis supplied). As was said in </span><span style="font-style:italic;font-size:10pt">Re D</span><span style="font-size:10pt">, at para 52, "'Intolerable' is a strong word, but when applied to a child must mean 'a situation which this particular child in these particular circumstances should not be expected to tolerate'". Those words were carefully considered and can be applied just as sensibly to physical or psychological harm as to any other situation. Every child has to put up with a certain amount of rough and tumble, discomfort and distress. It is part of growing up. But there are some things which it is not reasonable to expect a child to tolerate. Among these, of course, are physical or psychological abuse or neglect of the child herself. Among these also, we now understand, can be exposure to the harmful effects of seeing and hearing the physical or psychological abuse of her own parent. Mr Turner accepts that, if there is such a risk, the source of it is irrelevant: e.g., where a mother's subjective perception of events leads to a mental illness which could have intolerable consequences for the child.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.50in"><span style="font-size:10pt">35. Fourth, article 13b is looking to the future: the situation as it would be if the child were to be returned forthwith to her home country. As has often been pointed out, this is not necessarily the same as being returned to the person, institution or other body who has requested her return, although of course it may be so if that person has the right so to demand. More importantly, the situation which the child will face on return depends crucially on the protective measures which can be put in place to secure that the child will not be called upon to face an intolerable situation when she gets home. </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p style="margin-left:0.50in"><span style="font-size:10pt;color:#000000">36. There is obviously a tension between the inability of the court to resolve factual disputes between the parties and the risks that the child will face if the allegations are in fact true. Mr Turner submits that there is a sensible and pragmatic solution. Where allegations of domestic abuse are made, the court should first ask whether, if they are true, there would be a grave risk that the child would be exposed to physical or psychological harm or otherwise placed in an intolerable situation. If so, the court must then ask how the child can be protected against the risk. The appropriate protective measures and their efficacy will obviously vary from case to case and from country to country. This is where arrangements for international co-operation between liaison judges are so helpful. Without such protective measures, the court may have no option but to do the best it can to resolve the disputed issues.&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The court must consider the concrete situation on the ground that a child would face on a return, see <span style="font-weight:bold">Re P (A Child) (Abduction: Consideration of Evidence) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/1677" uk:canonical="[2017] EWCA Civ 1677" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 1677</ref>; <ref href="#" uk:canonical="[2018] 4 WLR 16" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] 4 WLR 16</ref></span>at para 61 per Henderson LJ, who went on to observe at para 63 that, if the court has insufficient evidence to gain a clear picture of that concrete situation, it is open to the court to adjourn proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">If one or both defences are made out, the court retains the residual discretion to order a return, as to which I remind myself of <span style="font-weight:bold">Re M (Abduction: Zimbabwe) <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2007/55" uk:canonical="[2007] UKHL 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] UKHL 55</ref>; <ref href="#" uk:canonical="[2008] 1 FLR 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 FLR 251</ref></span>and in particular the following paragraphs:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.50in"><span style="font-family:'Times New Roman';color:#000000">&#8220;40. On the other hand, I have no doubt at all that it is wrong to import any test of exceptionality into the exercise of discretion under the Hague Convention. The circumstances in which return may be refused are themselves exceptions to the general rule. That in itself is sufficient exceptionality. It is neither necessary nor desirable to import an additional gloss into the Convention. </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.50in"><span style="font-family:'Times New Roman';color:#000000">41. But there remains a distinction between the exercise of discretion under the Hague Convention and the exercise of discretion in wrongful removal or retention cases falling outside the Convention. In non-Convention cases the child's welfare may well be better served by a prompt return to the country from which she was wrongly removed; but that will be because of the particular circumstances of her case, understood in the light of the general understanding of the harm which wrongful removal can do, summed up in the well-known words of Buckley LJ in Re L (Minors) (Wardship: Jurisdiction) <ref href="#" uk:canonical="[1974] 1 WLR 250" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1974">[1974] 1 WLR 250</ref>, at 264:</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.33in"><span style="font-family:'Times New Roman';color:#000000">"To take a child from his native land, to remove him to another country where, maybe, his native tongue is not spoken, to divorce him from the social customs and contacts to which he has been accustomed, to interrupt his education...are all acts...which are likely to be psychologically disturbing to the child, particularly at a time when his family life is also disrupted."</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.50in"><span style="font-family:'Times New Roman';color:#000000">42. In Convention cases, however, there are general policy considerations which may be weighed against the interests of the child in the individual case. These policy considerations include, not only the swift return of abducted children, but also comity between the Contracting States and respect for one another's judicial processes. Furthermore, the Convention is there, not only to secure the prompt return f abducted children, but also to deter abduction in the first place. The message should go out to potential abductors that there are no safe havens among the Contracting States. </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.50in"><span style="font-family:'Times New Roman';color:#000000">43. My Lords, in cases where a discretion arises from the terms of the Convention itself, it seems to me that the discretion is at large. The court is entitled to take into account the various aspects of the Convention policy, alongside the circumstances which gave the court a discretion in the first place and the wider considerations of the child's rights and welfare. I would, therefore, respectfully agree with Thorpe LJ in the passage quoted in para 32 above, save for the word "overriding" if it suggests that the Convention objectives should always be given more weight than the other considerations. Sometimes they should and sometimes they should not.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.50in"><span style="font-family:'Times New Roman';color:#000000">44. That, it seems to me, is the furthest one should go in seeking to put a gloss on the simple terms of the Convention. As is clear from the earlier discussion, the Convention was the product of prolonged discussions in which some careful balances were struck and fine distinctions drawn. The underlying purpose is to protect the interests of children by securing the swift return of those who have been wrongfully removed or retained. The Convention itself has defined when a child must be returned and when she need not be. Thereafter the weight to be given to Convention considerations and to the interests of the child will vary enormously. The extent to which it will be appropriate to investigate those welfare considerations will also vary. But the further away one gets from the speedy return envisaged by the Convention, the less weighty those general Convention considerations must be. </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.50in"><span style="font-family:'Times New Roman';color:#000000">45. By way of illustration only, as this House pointed out in Re D (Abduction: Rights of Custody) <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2006/51" uk:canonical="[2006] UKHL 51" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] UKHL 51</ref>; <ref href="#" uk:canonical="[2007] 1 AC 619" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 AC 619</ref>, para 55, "it is inconceivable that a court which reached the conclusion that there was a grave risk that the child's return would expose him to physical or psychological harm or otherwise place him in an intolerable situation would nevertheless return him to face that fate." It was not the policy of the Convention that children should be put at serious risk of harm or placed in intolerable situations. In consent or acquiescence cases, on the other hand, general considerations of comity and confidence, particular considerations relating to the speed of legal proceedings and approach to relocation in the home country, and individual considerations relating to the particular child might point to a speedy return so that her future can be decided in her home country. </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.50in"><span style="font-family:'Times New Roman';color:#000000">46. In child's objections cases, the range of considerations may be even wider than those in the other exceptions. The exception itself is brought into play when only two conditions are met: first, that the child herself objects to being returned and second, that she has attained an age and degree of maturity at which it is appropriate to take account of her views. These days, and especially in the light of article 12 of the United Nations Convention on the Rights of the Child, courts increasingly consider it appropriate to take account of a child's views. Taking account does not mean that those views are always determinative or even presumptively so. Once the discretion comes into play, the court may have to consider the nature and strength of the child's objections, the extent to which they are "authentically her own" or the product of the influence of the abducting parent, the extent to which they coincide or are at odds with other considerations which are relevant to her welfare, as well as the general Convention considerations referred to earlier. The older the child, the greater the weight that her objections are likely to carry. But that is far from saying that the child's objections should only prevail in the most exceptional circumstances. </span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.50in"><span style="font-family:'Times New Roman';color:#000000">47. In settlement cases, it must be borne in mind that the major objective of the Convention cannot be achieved. These are no longer "hot pursuit" cases. By definition, for whatever reason, the pursuit did not begin until long after the trail had gone cold. The object of securing a swift return to the country of origin cannot be met. It cannot any longer be assumed that that country is the better forum for the resolution of the parental dispute. So the policy of the Convention would not necessarily point towards a return in such cases, quite apart from the comparative strength of the countervailing factors, which may well, as here, include the child's objections as well as her integration in her new community.&#8221;</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The evidence before me</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Because of the centrality of the events of November 2020, I have heard oral evidence from all parties, notwithstanding that these are, at least in part, Hague Convention proceedings. I considered it important to reach clear findings, which would inform the Hague Convention decision and any future welfare decision-making under the inherent jurisdiction. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In reaching my conclusions, I have considered the totality of the evidence, written and oral. It seems to me that I must, as I do, take into account all the evidence, considering each piece of evidence in the context of all the other evidence, and look at the overall canvas. <span style="color:#000000">As Dame Elizabeth Butler-Sloss P observed (albeit stated in public law fact-finding proceedings, her dicta resonate in the case before me which is at its heart a fact-finding exercise) in </span><span style="font-weight:bold">Re T </span><a href="https://www.bailii.org/ew/cases/EWCA/Civ/2004/558.html"><span style="font-weight:bold"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/558" uk:canonical="[2004] EWCA Civ 558" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 558</ref></span></a><span style="font-weight:bold">; </span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/ew/cases/EWCA/Civ/2004/558.html"><span style="font-weight:bold"><ref href="#" uk:canonical="[2004] 2 FLR 838" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 2 FLR 838</ref></span></a> at 33:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p style="margin-left:0.50in"><span style="font-size:10pt;color:#000000">"Evidence cannot be evaluated and assessed in separate compartments. A judge in these difficult cases must have regard to the relevance of each piece of evidence to other evidence and to exercise an overview of the totality of the evidence in order to come to the conclusion whether the case put forward by the local authority has been made out to the appropriate standard of proof."</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Oral evidence</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I received oral evidence from M, F, U and A There were a number of witness statements in the bundle from family members on both sides, which I have read, but in the event, none were called to give oral evidence. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Acknowledging as I do that M was not subject to the full rigours of cross examination by counsel, I nevertheless am wholly satisfied that she told me the truth. She was clear, composed, and consistent in her oral evidence. She was, I thought, devastated at being separated from her son, saying pithily &#8220;He is my child. He should be returned to me&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">As for F, he was a rather less satisfactory witness. He seemed to me to have essentially abandoned S. He has placed S in the care of A and U and only seen him 4 to 5 times since. He has made little or no attempt to promote contact between S and M, save by court order. He told me, without foundation, that M has serious mental health problems; in his written questions for M, he repeatedly described her as &#8220;psycho&#8221;. I will refer to some of the matters where I found him unreliable when setting out my chronological findings. He was adamant that S should live with A and U, with not a scintilla of thought given to him living with his mother. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">U and A were united in their belief that S should remain permanently in their care. They plan to adopt S. A said to me that &#8220;I request M not to ask to take S from me, and to give him to me&#8221;. They could not countenance the idea of S being placed with M or, for that matter, with F. They were not particularly enthusiastic about M developing a relationship with S, although U suggested that if they were to go on holiday to Pakistan, they &#8220;might&#8221; take S to see her. They both seemed to me to be highly possessive of S, and both said how deep an impact it would have on them of S were removed, which suggested to me a self-centred approach to his needs. U told me orally that in November 2020 M had confirmed her willingness for S to live with them, an account which I doubted since (i) he made no mention of this important evidence in either of his written statements and (ii) it was not raised in the questions put to M. U also told me that they were not aware of S coming to live with them until about 20 November 2020, which seemed to me to be improbable. They must have been well aware of the arrangements. It is inconceivable that this child was permanently placed with them by U&#8217;s brother upon no more than a day or two&#8217;s notice. Nor have they at any time questioned the removal of S from M, despite being well aware for a long time that she seeks the return of S. Of course, the longer S is in their care, the more they point to his bond with them which is, in one sense, a self-fulfilling statement as they have resolutely refused to contemplate any alteration to the arrangements since S was placed with them.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The facts and my findings</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I propose to incorporate within this section of my judgment the chronology and the facts as I have found them to be, so far as relevant to those decisions which I must make.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">M is 23 years old; F is 26. On 9 December 2016, they entered into an arranged marriage in Pakistan by a Nikah ceremony, conducted by videocall with M and members of the F&#8217;s extended family present, but not F himself who was living with his parents in Portugal and did not attend. F is a dual Portuguese-Pakistani national. So far as I understand, all members of his extended family to whom reference has been made are Portuguese nationals, of Pakistani heritage. M is a Pakistani national. Upon marriage, M lived with her parents in Pakistan, while F remained in Portugal. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In May 2018, nearly 18 months after the marriage ceremony, M travelled with F&#8217;s mother and F&#8217;s two sisters to Portugal under a spousal visa (granted to her in April 2018). There she lived with F and other members of F&#8217;s family in Lisbon. Initially they resided at the house of F&#8217;s cousin, D, for 6 months. After a period of time, they moved to the home of F&#8217;s uncle, E, in Lisbon. During this period, M also spent 5 &#189; months with F&#8217;s parents in England at F&#8217;s insistence; he took her there and simply left her before returning to take her back to Pakistan, whilst occasionally travelling to England for business. She had no real say in the matter. To my mind, this was indicative of the control exercised over M by F once she had moved to Portugal. In July 2020, F and M moved within Lisbon to the home of another of F&#8217;s uncles, G. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">There are a number of allegations by M against F, and F against M, of physical and verbal abuse. Having heard both parties, and having reached the broad conclusion that M has told me the truth, unlike F, I am satisfied that F, during the relationship, regularly punched M, slapped her and pulled her hair. I am quite sure that the relationship was unhappy, not least because of M&#8217;s lack of autonomy. She lived throughout her time in Portugal, and England, with F&#8217;s extended family. She had no bank account of her own, no job or income, and no independent means. Her computer memory stick was (I accept, although denied by F) removed from her by F. She was financially maintained, and thereby dependent upon F and his family. True, she had access to F&#8217;s credit card, but that enabled F to monitor her spending in a way that might not have been possible had she been the sole name on a bank account. I am satisfied that M was, throughout the marriage, and particularly after the move to Portugal in 2018, subject to the control of F and F&#8217;s family (notably the male members thereof), and was in practical terms unable to lead an independent life.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">There are cross allegations of serious abuse by M against F&#8217;s uncles with whom she stayed in Pakistan, and by them against her. However, as the uncles are not parties and did not give evidence, the case has not been listed for an inquiry into such matters, and M does not pursue them for the purposes of these applications, I have not inquired into the disputed allegations and make no findings.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 4 September 2020, S was born in Lisbon. Thereafter, until his removal to England, S was primarily cared for by M. I reject F&#8217;s case that M did not want the baby, had no love for him, had considered an abortion and did not intend to care for him. I further reject F&#8217;s case that M insisted upon a divorce; M was adamant in her oral evidence, which I accept, that she did not want to divorce F, and she took no steps herself in this regard. On the contrary, I am satisfied that M was told by F and his family that S would be removed to live with U and A in Manchester. F had decided to bring the marriage to an end and, with the express or implied approval of his family, took steps to ensure that (i) the marriage would be dissolved by him and on his terms, (ii) M would be removed to Pakistan, where she would experience the shame of being a single mother deemed to have abandoned her child, and stranded with no job or financial means, and (iii) M would be cut off from S, who would be brought up in England exclusively by F&#8217;s family, with no maternal involvement.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In November 2020 M attended a medical appointment and told hospital staff that she was afraid S would be removed from her care. I acknowledge that there is no medical note to confirm this, but I have no reason to doubt M&#8217;s evidence to this effect.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">F relies heavily upon a typed document dated 21 November 2020, just before S&#8217;s departure from Portugal, written in imperfect English, and purportedly signed by M, which says (to extract part thereof):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">&#8220;&#8230;Now my husband want to go to UK, Manchester with our son. And I will reach there soon. As I have some urgent works here in Portugal, so I can not travel with them. I gives authority to my husband so that he can take my son with him and go to Manchester with my permission&#8221;.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">To my mind, there are, to put it mildly, major question marks about this document:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">It is typed in English, yet M does not read, write, or speak English.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">F claimed that it was written by his uncle E at his house in Portugal, in the presence of M and F. According to him, M did a google translate of the contents, and then signed it. Curiously, E in a statement attached to F&#8217;s written evidence makes no mention of the Authority Letter or his involvement in its preparation. F did not give this explanation in his written evidence as to how the document came into being. Nor is there an explanation as to why it was not written in Urdu, and then translated into English.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">It states M&#8217;s intention to travel to England to join F and S (&#8220;I will reach there soon&#8221;), yet this is wholly contradictory on either case. There is no suggestion from M or F that M had ever evinced an intention to travel to England.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">It states that M was intending to stay in Portugal to do &#8220;urgent works&#8221;, which similarly bears no relation to the evidence before me that M has never had a job. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">It says nothing about S living with U and A, which, according to F, was the basis of the move to England.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">A forensic handwriting report dated 16 November 2021 says that the evidence as to the authenticity of the signature is &#8220;inconclusive&#8221;. It points out that &#8220;the simple nature of the signature could be an attempt by another person to copy a normal signature&#8221;. The report also states that the impressions on the document show that it was written on at least one other document underneath, which might have had M&#8217;s signature on it; the suggestion being that this process enabled easy copying of the signature. F told me that the document was signed directly on the dining room table, not on any other document, evidence which directly conflicted with the unchallenged report of the expert. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">M denied having signed the document, or seeing it until much later. It seems to me to be likely, and I so find, that the document was prepared by F or a member of his family in order to give a veneer of lawfulness to the planned removal of S from Portugal. It also seems likely to me that M&#8217;s signature was forged by F or a family member. Even if she did indeed sign it, she cannot have done so with any understanding or appreciation of what she was signing. Either way, in my judgment this was a deliberate contrivance by F and his family to facilitate the removal of S against M&#8217;s will, no doubt intending that it could be used to show relevant to authorities in Portugal and England should any questions be asked. To my mind, far from supporting F&#8217;s case, this document forms part of the overall landscape of evidence portraying a picture of control, coercion, artifice, and ruse, all designed to erase M from the marriage and S&#8217;s life.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 22 November 2020, the paternal grandfather arrived at the house in Portugal, having travelled from England, and told M that that he had purchased tickets for S to travel to England, and M to Pakistan. M told me, and I am quite satisfied of her veracity, that she did not agree, whereupon S was removed from her. F told M, falsely, that if she returned to Pakistan, S would be brought to her in that country. F took S to the airport, and they flew to England where S was placed in the care of U and A in Manchester. F returned to Portugal immediately afterwards.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 23 November 2020 (the day after S had been wrongfully taken to England), M flew from Portugal to Pakistan, accompanied by F&#8217;s uncle, G, and his wife H. I am quite sure that members of F&#8217;s family had to accompany her to ensure that she travelled; it is highly improbable that she would have done so otherwise. They carried M&#8217;s travel documents which had been given to them by F. In Pakistan, she was taken to their home and then told to leave. M made her way to her parents&#8217; home with nothing except a few possessions. Eventually, travel documents were returned but the chip in her Portuguese ID card had been destroyed with a hole punch.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Soon after arrival in Pakistan, M started taking steps designed to try and draw attention to her plight and the removal of S. In November 2020, she contacted the Portuguese Embassy in Pakistan to attempt to secure travel documents so as to return to Portugal. In December 2020, with the assistance of her brother V, she sent letters of complaint to the Overseas Pakistani Foundation and to the local Pakistani police, and in January 2021 Umar sent a letter to the Federal Investigation Agency in Pakistan. During 2021 further pleas for help were transmitted by M to other organisations in Pakistan. In December 2020 (as is clear from the records), M contacted both the UK police and NSPCC to give an account of the circumstances of her departure to Pakistan, and S&#8217;s to England. F could not explain why M made so many referrals both in Pakistan and England shortly after S was removed from her care. In my judgment, there is no plausible explanation for these communications other than to affirm M&#8217;s case that the events of which she complained had in fact happened. If she had left Portugal in the manner alleged by F, why would she have made so many referrals to authorities in Pakistan and England? The truth is obvious; these near contemporaneous communications were not contrived, but genuine, and corroborative of M's account. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 8 December 2020 M received a divorce deed from F, dated 23 November 2020, and stamped on 24 November 2020 at the Pakistani embassy in Portugal where F had taken it for formal execution. F suggested to me that she must have received it earlier, as he claimed to have sent it to her by Facebook Messenger. When asked to produce a copy of the message, he told me he could not because his account had been hacked, although it transpired that the hack took place in December 2021, long after these proceedings started, and long after he had filed evidence within which he could have produced a copy of the message. I did not believe F.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The timing of the divorce document, immediately after S&#8217;s removal to England, and the same day as M&#8217;s departure to Pakistan, in my judgment is consistent with determined intent on the part of F to render M as impotent and isolated as possible. At that point, the truth must have become abundantly clear to M, namely that she was being cut off from F, his family and S. The document, with its prejudicial social connotations in Pakistan, was posted on Facebook by F&#8217;s family for a number of days. The deed states that S &#8220;is currently in the custody of [F], will be in his custody forever&#8221;. M had no forewarning of this dissolution document, and I do not accept F&#8217;s case that it was instituted by him at M&#8217;s request. Weighing up the divorce deed in the context of the other evidence, I am quite satisfied that it was pre-planned, and executed at the time of M&#8217;s departure from Portugal, so that (i) her spousal visa would no longer be valid, thereby disentitling her from travelling to Portugal or England and (ii) to cement the intended arrangements (in the minds of F and his family) whereby M would play no part in S&#8217;s upbringing and (iii) to bring any ongoing relationship between M and F to an immediate end. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Since S&#8217;s departure from Portugal, M has not seen S other than for one minute on a videocall shortly after her arrival in Pakistan (F denied that such contact took place, but I preferred M&#8217;s evidence on this, and U told me that it had indeed occurred), and subsequently on videocalls ordered by the court. Throughout, it has been the written case of F, U and A (in their &#8220;Answer&#8221; and in narrative statements) that there should be no contact of any nature between S and M, albeit in oral evidence that position was slightly softened. To my mind, this approach to contact has been indicative of a continuing resistance to M playing any role in S&#8217;s life, or in any way interfering in F&#8217;s extended family. It is part of a set of deep-seated, controlling, and manipulative instincts whereby M is to be airbrushed out of S&#8217;s life. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 10 March 2021 information was received by M from the Portuguese Family Court that welfare proceedings were taking place in Portugal, possibly instituted by the court although the position is not entirely clear. What <span style="text-decoration-line:underline;text-decoration-style:solid">is </span>now clear is that on 1 July 2021, F made an application for some form of child arrangements order in his favour in Portugal which I note (i) on the face of it, contradicts his case throughout in this jurisdiction that S should live with U and A, and (ii) belies his stated assertions to Arbuthnot J on 28 September 2021, as recorded on the face of the order, that he had &#8220;no knowledge of the Portuguese proceedings&#8221; despite, as we now know, having issued them in July and having had lawyers on the record in Portugal. I consider this to be another example of disingenuous presentation by F.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 19 July 2021, Manchester City Council, responding to a referral by M, prepared a Child and Family assessment. The report says, and I accept, that there are no issues with the daily care given to S by U and A. S is well looked after and there are no safeguarding concerns. It is important to note that this report addresses principally the meeting of physical needs and does not address, in any detail, the emotional needs of S. Understandably, the report does no more than note the disputed circumstances of S&#8217;s removal from Portugal, without seeking to resolve the dispute. In other words, although it is gratifying to record that S is properly cared for in a day-to-day sense, the report is inevitably somewhat superficial in respect of the emotional and psychological needs of a child separated shortly after birth from his mother. Of some significance, in my view, is the section of the report which records &#8220;&#8230;.the family advise that the long-term plan is that [S] will be formally adopted by his maternal uncle and aunt&#8230;&#8221;, thus severing all links with M, a proposed course of action which is entirely of a piece with the extended family&#8217;s overall pattern of behaviour M.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">F&#8217;s case in written evidence that M has deliberately destroyed her own travel documents is wholly implausible. The suggestion that she did so in order to avoid being sent by her family from Pakistan to Portugal makes no sense, and in any event conflicts with his written evidence elsewhere that these proceedings are brought by M for the purpose of enabling her to regain residency rights in Portugal. All of this is fanciful. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">My conclusions on the factual disputes</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The chronology above is set out, inevitably, in linear manner. It is, however, to be read as an overall assessment and evaluation of all the interlocking evidence, drawn from oral and written material. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In summary I find that: </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">S was forcibly removed from M&#8217;s care in Portugal and taken to England without M&#8217;s consent.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">M was taken to Pakistan against her will, and stranded there.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">F, with the complicity of extended family members, has exerted a powerfully controlling and coercive pull over M&#8217;s life, undermining her to the extent that she had minimal autonomy. His, and his family&#8217;s intention, has been to write M&#8217;s existence out of his life, and that of S. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">F during the relationship was guilty of physical abuse perpetrated upon M. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">F and his family have no intention of returning S to the care of M, or permitting her to be involved in S&#8217;s life in any meaningful way. That has been their resolute intention throughout. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-family:'Times New Roman';font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">F and his family have, in my judgment, perpetrated unspeakable cruelty upon both M and S.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Hague Convention</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I am satisfied that (i) S was habitually resident in Portugal at the time of removal and (ii) by reason of Article 1901 of the Portuguese Civil Code both parents exercised parental responsibility at that time as they were married when S was born. This was, therefore, a wrongful removal and the respondents (who have been legally represented until recently) have not argued otherwise, either in written or oral presentation.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">It will be abundantly clear from my findings that M did not consent to the removal of S from Portugal.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">As to the Article 13(b) defence, F has not provided me with any basis on which to find that the defence is made out, certainly in the event that M is able to enter and reside in Portugal. Portugal was the country of habitual residence of M, F and S. M would be able to live with a relative. F continues to live there. F is a Portuguese national as are his extended family, and as is S. F has made some unsupported allegations about M&#8217;s mental health, but with no specificity or evidential basis. In any event, I am quite satisfied that the Portuguese authorities are well able to deal with such matters, and the courts are seised. F cannot care for S (albeit his case in Portugal appears to be different), but M can; there is nothing entitling this court to conclude that M is in some way incapacitated from looking after S in Portugal, until the courts there reach final welfare determinations.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">If, however, M is unable to return to Portugal, then in my judgment the defence is made out, albeit not for the reasons advanced. S would be returned to a country where his father is unable or unwilling to care for him, and is, on my findings, guilty of domestic abuse of very grave proportions. He would be parted from U and A who, I accept, have provided good care, to a country where there is no obvious carer and a state placement (e.g in foster care) might be the only viable alternative. I regard that as an intolerable state of affairs for this child. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Although the aim of the Convention is to procure a prompt return, where any raised defences do not succeed, it has been acknowledged that returns can, in certain circumstances, be managed over a sustained period of time; <span style="font-weight:bold">R v K (Abduction: Return Order) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2009/132" uk:canonical="[2009] EWHC 132 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWHC 132 (Fam)</ref>; <ref href="#" uk:canonical="[2010] 1 FLR 1456" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 1 FLR 1456</ref></span>. The court has the power to impose conditions on a return (<span style="font-weight:bold">Walley v Walley <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2005/910" uk:canonical="[2005] EWCA Civ 910" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWCA Civ 910</ref>; [2005] 3 FCR 35</span>and <span style="font-weight:bold">Re W (Children) (Abduction: Intolerable Situation) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/664" uk:canonical="[2018] EWCA Civ 664" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 664</ref>; <ref href="#" uk:canonical="[2018] 2 FLR 748" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] 2 FLR 748</ref>)</span>, or to adjourn the proceedings (<span style="font-weight:bold">Re P: supra) </span>or to suspend an order, albeit in exceptional circumstances (<span style="font-weight:bold">Re E (A Child) (Abduction: Article 13B: Deferred Return Order <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2019/256" uk:canonical="[2019] EWHC 256 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 256 (Fam)</ref>; <ref href="#" uk:canonical="[2019] 2 FLR 615" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 2 FLR 615</ref>)</span>. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">My order: Hague Convention</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I propose to make an order for return, suspended pending M obtaining a visa to re-enter Portugal.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">My order: inherent jurisdiction and interim arrangements</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I cannot ignore the possibility that M will not be able to secure entry to return to Portugal, and she will therefore be required to Pakistan upon expiry of her visa here. The court must therefore deal with her application for a child arrangements order enabling her to take S to Pakistan. M is entitled to stay in this country for 6 months and in my judgment this application should be addressed as swiftly as possible </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I do not accept that, as suggested on behalf of M, I should here and now order S to be placed in M&#8217;s care in England, albeit after a managed transition. That pre-judges a welfare analysis which I have not conducted, and was expressly not part of the list of matters to be considered at this hearing. I have, for example, very little information about M&#8217;s living arrangements in England for the next 6 months, and how her proposed daily care of S would operate in practice. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I consider that this is a case where a Guardian for S should be appointed. The parties should file statements as to proposed welfare arrangements both here and in Pakistan, by 4pm on 14 February 2022. The statements should also contain their views of the progress of interim contact which I will provide for. I will list a remote directions hearing on 18 February 2022 to consider case management towards a final hearing, and review the interim contact. If, of course, in the meantime M obtains the right to enter Portugal, the proceedings under the inherent jurisdiction will come to an end. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">F, U and A did not object in principle to some contact on an interim basis, but entirely supervised by U or A. I must weigh up the competing factors, having at the forefront of my mind S&#8217;s welfare. S has been in the care of U and A for most of his life, and it might be unsettling, at least in the short term, to be reintroduced to M. On the other hand, indirect contact has taken place and M is, after all, his mother form whom he was wrongfully, and disgracefully, removed. In my judgment, there is no obvious reason why S should not spend time with her. I propose to order (as I told the parties before sending out this judgment) that unsupervised contact shall take place on Tuesdays, Thursdays, and Saturdays, from 1pm-4pm, unsupervised, with M to collect S from the house of U and A and return him there at the end of contact. I anticipate that this should progress fairly swiftly and will review the position at the hearing on 18 February 2022. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-weight:bold">Other</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The Local Authority, to whom this judgment can be disclosed, should be invited to provide assistance. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The judgment may also be sent to the appropriate authorities in Portugal. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

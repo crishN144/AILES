@@ -1,0 +1,1429 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2023/1620"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2023/1620"/>
+	  <FRBRdate date="2023-05-18" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value=""/>
+	  <FRBRname value="LKM v NPM"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/1620"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/1620"/>
+	  <FRBRdate date="2023-05-18" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/1620/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2023/1620/data.xml"/>
+	  <FRBRdate date="2024-01-23T13:07:27" name="transform"/>
+	  <FRBRdate date="2024-12-16T12:05:23" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-05-18" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewfc" href="https://www.judiciary.uk/you-and-the-judiciary/going-to-court/family-law-courts/" showAs="The Family Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="lkm" href="" showAs="LKM"/>
+	<TLCPerson eId="npm" href="" showAs="NPM"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWFC</uk:court>
+	<uk:parser>0.20.0</uk:parser>
+	<uk:hash>ff0fcd5afdcc35a098acc08fd681a292bc216e5626e0a0aafcddca416d84d3d2</uk:hash>
+	<uk:cite>[2023] EWFC 1620</uk:cite>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Verdana; color: #000000; }
+#judgment .lc { margin-right: 0.19in; font-family: Arial; font-size: 9pt; color: #666666; }
+#judgment .pf0 { font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .cf01 { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .endnote1 { font-size: 1pt; }
+#judgment .para2num1 { color: #666666; }
+#judgment .endnote2 { font-size: 1pt; }
+#judgment .para2text1 { color: #666666; }
+#judgment .endnote3 { font-size: 1pt; }
+#judgment .endnote4 { font-size: 1pt; }
+#judgment .endnote5 { font-size: 1pt; }
+#judgment .endnote6 { font-size: 1pt; }
+#judgment .endnote7 { font-size: 1pt; }
+#judgment .Hyperlink0 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; color: #0000FF; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left"><span style="font-weight:bold;text-decoration-line:none;font-family:Arial;font-size:10pt;color:#000000;background-color:#F8F8F8">&#160;</span><span style="font-weight:bold;font-family:Arial;font-size:10pt;color:#000000;background-color:#F8F8F8">[2023] EWFC</span><span style="font-weight:bold;text-decoration-line:none;font-family:Arial;font-size:10pt;color:#000000;background-color:#F8F8F8"/><span style="font-weight:bold;font-family:Arial;font-size:10pt;color:#000000;background-color:#F8F8F8">1620</span><span style="font-weight:bold;text-decoration-line:none;font-family:Arial;font-size:10pt;color:#000000;background-color:#F8F8F8"/>Case No: RG21P00555</p>
+      <p><courtType refersTo="#ewfc">IN THE FAMILY COURT SITTING AT GUILDFORD</courtType></p>
+      <p class="CoverText">Guildford County Court</p>
+      <p class="CoverText">The Law Courts, Mary Road, Guildford, GU1 4PS</p>
+      <p class="CoverText">Date: <docDate date="2023-05-18" refersTo="#judgment">18/05/2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center">Mr Justice Williams</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#lkm" style="font-weight:bold">LKM</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#npm" style="font-weight:bold">NPM</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Ruth Kirby KC </span><span style="font-size:11pt">(instructed by</span><span style="font-weight:bold;font-size:11pt"> JMW Solicitors LLP</span><span style="font-size:11pt">) for the Father</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Alex Verdan KC and Frankie Shama </span><span style="font-size:11pt">(instructed by </span><span style="font-weight:bold;font-size:11pt">Penningtons Manches Cooper</span><span style="font-size:11pt">) for the Mother</span></p>
+      <p style="text-align:center">Hearing dates: 15 &#8211; 18 May 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">APPROVED JUDGMENT</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on [18/05/23] by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center"><span style="font-weight:bold">MR JUSTICE WILLIAMS </span></p>
+      <p>This judgment was delivered in private.   The judge has<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid"/>given leave for this version of the judgment to be published. The judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level>
+	  <content>
+	    <p><span style="font-weight:bold">Williams J:</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Introduction</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Children</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I continue to be concerned with twins LLA and LL who were born on the 23<span style="vertical-align:super;font-size:smaller">rd</span> of October 2014, and who are thus now 8-years-old. The father is LKM who is represented by Ms Kirby KC and JMW Solicitors.  Their mother is NPM who is represented by Mr Verdan KC, Mr Shama and Penningtons Manches Cooper. The principal application before me is the father&#8217;<span style="font-size:11pt">s C100 for a child arrangements order dated 21 October 2021. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That application was case managed by the Justices and DJ Hammond to a fact-finding hearing, which I undertook in July 2022. I am now considering the welfare outcome for the children; whether a shared lives with order should be made, what time the boys should spend with each parent and whether supervision remains necessary in respect of the father&#8217;s time with the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Background</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">4.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In July 2022 at the fact-finding hearing, I made serious and extensive findings of abusive behaviour by the father, which were summarised as:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic">The nature of the relationship between the mother and the father was permeated by emotional abuse of the mother and children arising from the father&#8217;s obsessive, anxious and rigid behaviour where his needs dominated the household. This extended into other areas of the father&#8217;s behaviour towards the mother which included lack of respect for her personal autonomy, misleading her over what he would do to remedy his personal failings at the time of the reconciliation, selfishness and insensitivity in their personal relations at times, and has continued with his unjustified denigration of her after the relationship ended. Financial control was not a significant feature of this; the examples are more demonstrations of the father&#8217;s lack of respect for the mother&#8217;s feelings. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic">The father behaved at times in a physically and emotionally abusive way towards the boys by his dictatorial behaviour, his shouting at them and his occasional use of excessive physical force as a result of him losing his temper with them.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-style:italic">At least one incident (the mock kiss) where the father used physical force on the mother.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">The father has much to reflect on. He is clearly capable of providing good parenting to the boys and loves them dearly. However, in my assessment he has a flaw in his character which until it is addressed means he poses a risk of losing his temper with them, of imposing unreasonable rules on them and poses a risk of emotional and physical harm (limited at present) outside the confines of supervised or supported contact. Until he addresses that flaw that risk seems likely to remain. Given he has said he would address it in the past and has not seen it through either because he never really accepted the full nature of the issues, or because he found it too hard or became demotivated, presents a challenge going forwards. How will a psychotherapist truly know if he is engaging or is paying lip-service?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">6.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following that hearing I case managed the application by the following steps taken to progress to this welfare hearing:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The father to file response to the fact-finding hearing judgment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A psychiatrist to be instructed undertake evaluation of the father (not a holistic family assessment as the father&#8217;s position statement suggests was ordered).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">A report by an independent social worker (ISW) (Cafcass reporting times were too long).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Statements from the parties (which with some minor deviations by and large complied with the directions).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Statement from Mr RF, which again caused material subsidiary arguments as it was served late and stretched the limits of my direction. I admitted it after preliminary argument.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The litigation has been as hotly contested as private law litigation can be. The total costs expended over the two years (although it includes some financial remedy litigation) are said to amount to something close to &#163;1 million. Given this is not a significantly wealthy family this represents a huge proportion of the marital assets; to the extent that there is said to be a real issue over whether the family can now afford to keep their two boys in private education. The approach taken by the parties and their respective legal teams has been to skirmish up hill and down dale in their journey towards the set piece battle which this hearing represents. It has been conducted in writing and in advocacy in highly adversarial terms for what is supposed to be an inquisitorial child focused process. This plainly reflects the underlying conflict between the parents which at times appears to be easing, but at others erupts into fierce forensic conflict. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">8.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Over the course of these four days, I have heard evidence from:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Dr Judith Freedman, the Psychiatrist;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="text-align:left;margin-left:0.98in">Elena Sandrini, the ISW;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="text-align:left;margin-left:0.98in;text-indent:0.01in">The Father; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="text-align:left;margin-left:0.98in">The Mother.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="text-align:left;margin-left:0.49in">I limited the time for each witness to half a day each and &#189; day for submissions leaving me &#189; day to read the documentation (Core Bundle 516 pages, Supplementary Bundle 129 pages, Skeleton Arguments 26 pages (exceeding PD27A limits) + 20 pages, Transcript of experts&#8217; meeting 23 pages, and the statement of Mr RF 58 pages, C2 application relating to schooling 10 pages) and 1 day for preparation and delivery of judgment and consequential directions. Ms Kirby objected to the allocation of time that I permitted her in relation to Dr Freedman&#8217;s cross-examination (1.5 hours) on the basis that it would not enable her to put her client&#8217;s case fairly, and, although I pointed out that the timetable did not permit Dr Freedman to give evidence for more than 2-2.5 hours and if she required longer she would need to identify other time which could be surrendered to make way for a longer cross-examination of Dr Freedman, she was unable to do so, and so her time allocation for Dr Freedman remained at 1.5 hours. No application had been made in advance of the 4-day hearing to extend it or to adjourn it on the basis that there was insufficient time, and indeed the time estimate was given when Dr Freedman&#8217;s report was available. The father&#8217;s Skeleton Argument contemplated the evidence of Dr Freedman possibly running into Day 2 and, for reasons I do not follow, envisaged there not being sufficient time for a judgment to be given within the 4-days. It ought not need saying again but a 4-day trial includes ALL steps required to complete the trial including delivery of the judgment and time allocations for witnesses, and other aspects of the trial must be settled on the basis that they will enable the case to conclude in the time allotted to it. Of course, in some cases matters arise which make completion impossible, but nothing in this case had occurred which altered the basis on which 4-days were allotted to it. In the event the witnesses took their full allocations of time (indeed the court day was extended to ensure they were completed).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The section of this Judgment headed <span style="font-weight:bold">Evaluation</span> contains the essential reasons for the decision with my conclusions on the Evidence contributing to that.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Legal Framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">10.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Decisions about LL and LLA&#8217;s future must be made with their welfare as the paramount consideration. I have well in mind the statutory presumption of parental involvement, the no order principle and the welfare checklist set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(3)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">In the circumstances mentioned in subsection (4), a court shall have regard in particular to &#8211;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-style:italic">&#160;(a)the ascertainable wishes and feelings of the child concerned (considered in the light of his age and understanding);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-style:italic">(b)his physical, emotional and educational needs;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-style:italic">&#160;(c)the likely effect on him of any change in his circumstances;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-style:italic">&#160;&#160;(d)his age, sex, background and any characteristics of his which the court considers relevant;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-style:italic">&#160;(e)any harm which he has suffered or is at risk of suffering;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-style:italic">&#160;(f)how capable each of his parents, and any other person in relation to whom the court considers the question to be relevant, is of meeting his needs;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-style:italic">(g)the range of powers available to the court under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">this Act</ref> in the proceedings in question. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">11.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellate courts have considered the circumstances in which shared residence orders or other shared lives with orders may be made in a number of cases over the years:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">C (A Child) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2006/235" uk:canonical="[2006] EWCA Civ 235" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] EWCA Civ 235</ref>;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Re K (Shared Residence Order) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/526" uk:canonical="[2008] EWCA Civ 526" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Civ 526</ref>;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Re A (A Child: Joint Residence/Parental Responsibility) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/867" uk:canonical="[2008] EWCA Civ 867" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Civ 867</ref>;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Re W (Shared Residence Order) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/370" uk:canonical="[2009] EWCA Civ 370" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 370</ref>;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Re G (Shared Residence Order: Biological Mother of Donor Egg) <ref href="#" uk:canonical="[2014] 2 FLR 897" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 2 FLR 897</ref>;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">L-v-F (Permission to relocate: Appeal) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/2121" uk:canonical="[2017] EWCA Civ 2121" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 2121</ref>.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">12.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is unsurprising that the courts have emphasised that the only authentic principle guiding the making of shared lives with (residence) orders is the paramount welfare of the child. However, the courts have made observations which inform the evaluation of paramount welfare. These indicate that shared lives with orders: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Emphasise the fact that both parents are equal in the eyes of the law and can have the advantage of conveying a message that neither parent is in control, and that the court expects parents to co-operate with each other;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Require circumstances positively indicating that the child&#8217;s welfare would be served by one;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">May be appropriate where it provides legal confirmation of the factual reality of a child&#8217;s life;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">May be appropriate because it is psychologically beneficial in terms of the equality of their position and responsibilities;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Do not require exceptional or unusual circumstances;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Do not require the child to be spending their time evenly or more or less evenly in the two homes;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The inability of parents to work in harmony was not a reason for declining to make such an order, but nor is such inability by itself a reason for making such an order;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Might be justified by the deliberate and sustained marginalisation of one parent by the other;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">May be appropriate even where the parents live in different countries.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These indicators reflect the broad range of factual circumstances in which courts have considered to be in a child&#8217;s best interests for a shared lives with order to be made. Ultimately the question is what will best promote the child&#8217;s welfare.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">PD12J and the learning on domestic abuse is relevant and incorporated into my thinking. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Parties Positions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties&#8217; arguments amount in writing to nearly 50 pages of close text. Their closing submissions were given over &#189; a day. This summary does not purport to cover anything approaching all the numerous, interesting, relevant points they make. My intention is to capture the essential limbs, and to explore them within the evidence and evaluation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the ather, his position was at the commencement, and remained, this:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">He challenged root and branch the conclusion of Dr Freedman that he had disturbed personality traits which required psychoanalytic psychotherapy in order to effect a change which would alter the risk which he presented to the children of physical and emotional abuse. This included the submission that Dr Freedman was wrong in identifying personality traits as a diagnosis, that her conclusion was inconsistent with DSM-V criteria, had signally failed to take account of all of the evidence available, that her evidence was internally inconsistent with itself, and that in its totality the report demonstrated a breach of proper professional standards and her duties to the court.</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She did not carry out a fair or full assessment of the father as directed and as expected of her as a single joint expert.  There are multiple and fundamental breaches of her duties under <span style="font-weight:bold">FPR r.25.14 and PD25B</span>;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She purports to make a diagnosis based on the mere existence of personality traits without explaining where the evidence of them being problematical is, and without considering what evidence contradicts any suggestion of them being so; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She purports to conclude that certain personality traits are present and problematical without looking at whether any one of them is pervasive (which she later accepts is a requirement for finding a trait to be pathologically significant). She overly relied on the fact-finding element of the judgment that was adverse to the father, and treated it as being a full picture of the father as a person. She did not look at other aspects of his life, other intimate relationships in his life or interpersonal skills outside of the unsuitable match between the father and the mother. At the same time, she believed all that the mother said despite the findings about the mother&#8217;s reliability as set out below, and then relies on those faulty premises to conclude in her risk assessment that the father poses a risk of physical and emotional harm to the boys now [experts p.15];</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She failed to take any, or any sufficient, account of other professionals&#8217; views about the children&#8217;s relationship with the father whilst herself failing to see F with the children; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">e)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She failed adequately or at all to give weight to evidence such as reviews of him as a doctor, the written evidence of colleagues and a former partner that the traits were not pervasive;  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">f)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She adopted a biased approach towards the father in her assessment of him, favouring the mother&#8217;s narrative. This included adopting the mother&#8217;s narrative entirely and without testing, and later expressing her view that, if there is a disagreement between the parents on any issue, that the mother should have an absolute right to decide all issues including where her view is at odds with what the children say they would like;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">g)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She points out that, when asked, the mother was also unable to identify what risk or what harm might come from unsupervised contact [experts p14];</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">h)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">There is no rational foundation for her suggested further delay of three months, given that the father has already engaged in a range of training and therapeutic intervention, and the family cannot financially afford a further six months of supervised contact as well as the agreed independent monitor of contact progression;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Having surveyed 800 hours of contact notes, she took only concerns from them and did not balance the concerns with the positives. She also failed to address any of the concerns noted about the likely exposure of the children to adult issues when in the mother&#8217;s care and to negative expressions about the father that they repeated during contact;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">j)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Her conclusion that there was no family work that can be done was wrong and unhelpful.  </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">He submitted that the agreement reached by Dr Freedman and Ms Sandrini rested upon the foundation of the father having a diagnosis of narcissistic personality traits which required treatment. If that conclusion of Dr Freedman (which Ms Sandrini deferred to) was unsustainable, then one would have to revert back to Ms Sandrini&#8217;s initial recommendations of a staged progress along these lines:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Stage I: with immediate effect Tuesday and Thursday after school contact to be without supervision and Sunday contact to be unsupervised for six hours and supervised for two hours.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Stage II: from the beginning of the summer holiday - week one - the children to spend three full days with the father; week two - three full days with the father, two to be consecutive and include one overnight; week three - as week two; week four &#8211; four days with the father, three days to be consecutive including two overnights; week five as week four. All of this to be unsupervised.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Stage III: from the beginning of autumn term to the end of term; two consecutive school days a week with father to include one overnight stay and weekends to remain shared. All unsupervised.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Each stage to be independently reviewed, and if no concerns arise on review a shared care arrangement to be considered to start in 2024 on the basis that each stage is dependent on the success of the previous stage.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">e)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The parents should agree a joint narrative; agree a professional to undertake the reviews; decide whether the stage process is to take place inside or outside the court process; consider engaging with a parenting coach or mediator to assist their communication; consider the future education of children; consider the children having therapy; the parents are to address and agree boundaries for discipline issues and support each other in delivering that which they agree.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">He submitted that the totality of the other evidence available was such that if Dr Freedman&#8217;s report was set aside that the court would not be obligated to rewind the clock to July 2022 and seek a further expert assessment to [identify] the sources of the abusive behaviours which are the subject of the findings. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">He accepted almost in their entirety the recommendations made by the independent social worker Ms Sandrini, and relied in particular on:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The two boys have a very strong relationship with both parents and are very happy and very relaxed with both parents;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The boys are saying that they want to be able to spend as much time with their dad as with their mum;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">If there is a difference in the relationship between the boys and the father between separation and when she assessed the relationship, this could be due to a number of factors including passage of time; more time spent with the father, especially time without the mother who was their primary carer when a family unit; the father being more relaxed, and the father taking on board suggestions that were made to him and learning;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She can see how the father would have made an appalling witness because he presented as defended and defensive, intense and tense at first, but was better on a one-to-one basis; he needed time to internalise questions and to reflect.  She found him to be quite genuine and truthful and not merely paying lip service to achieve a desired outcome;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">e)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She was reassured that he would continue to seek help with parenting including when the boys reach puberty and adolescence;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">f)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Supervision of contact is not sustainable and will not be good for the children on an ongoing basis as she does not think that it allows the children to have a spontaneous and natural relationship with their father.  This is because the boys need to learn to trust their father;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">g)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She asked Dr Freedman whether supervision was necessary, justifiable and sustainable. Ms Sandrini had adequately addressed the findings of the court and had concluded the father had learnt and changed as a result of all the work he had done in courses, all he had learned from supervision, and the changed living circumstances;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">h)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She does not see the point in delaying the start of unsupervised contact and thinks supervision should be reduced immediately and then stopped. The supervision notes disclose no incidents of concern and support the conclusion that the father is a good parent who can now manage challenging behaviour;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She queries the purpose of Dr Freedman&#8217;s recent proposal that unsupervised contact could start once the father produces proof that he has <span style="font-style:italic">attended</span> three months of therapy and how progress as a result of that attendance would be measured;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">j)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She disagrees with Dr Freedman&#8217;s suggestion that, if there is a dispute about issues relating to the children &#8211; whether fundamental or minor &#8211; the mother should have a casting/deciding vote. The parents are equals and should have a similar say in the decisions over the children;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">k)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She disagrees with Dr Freedman&#8217;s assessment that the father presents any more of a risk to the boys than any other father in the same circumstances. She bases this on her own assessment and on the overall evidence as it now stands;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">l)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She believes that whilst supervision is gradually removed, it should be monitored by an independent person; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">m)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She supports the father&#8217;s position that he will engage with any third party including a therapist or anyone to help him improve his parenting, but he will not engage with anyone of any discipline on the basis of Dr Freedman&#8217;s purported diagnosis of problematical personality traits close to narcissistic personality disorder (NPD); </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">n)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">She had conversations with the father in which he expressed what Ms Sandrini considered to be genuine contrition for some of his past behaviours;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.48in;text-indent:-0.49in">o)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Having listened to Dr Freedman (especially her assertion that merely having personality traits was a diagnosis), Ms Sandrini&#8217;s final position was that they both agreed that unsupervised contact was a short-term goal for these children. Ms Sandrini surmised that, if the father agreed to Dr Freedman&#8217;s proposal for therapy as a prerequisite to unsupervised contact, there would <span style="font-style:italic">then have to be a proposal which is realistic and manageable. It&#8217;s probably going to be based on a fair degree of compromise and discussion</span>.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">He remained concerned that the mother could not support the boys&#8217; relationship with him, and that the evidence including her oral evidence made clear she continued to be obstructive of contact and to expose the boys to her negative feelings about him. The mother&#8217;s evidence demonstrated she could never see any good in him and would never accept he could change and be a good father. She has no reason to take this position as there is nothing since the findings to support a continued mistrust. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The father seeks a staged increase in his time with the children in accordance with Ms Sandrini&#8217;s report.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The father sought a specific issue order to enable the children to be registered in state schools in case it emerged that private schooling was unaffordable.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">17.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On behalf of the mother, her position at the commencement of the hearing was:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The mother reluctantly sees that a further hearing will be required as the relationship between the parents is so mistrustful that they will not be able to agree moving forward. As long a period of time as possible should be covered by any order. The mother&#8217;s distrust of the father is wholly justified by the findings and Dr Freedman. The father&#8217;s distrust of her is not so supported. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The findings made are serious, the father seeks to go behind them by contextualising them to Ms Sandrini and the court; there is no real acceptance although in evidence (but not to the experts) he expressed some acceptance and contrition; the cause of the abusive behaviour remains unaddressed, and the behaviour continues in different ways in the form of undermining and intimidating the mother. The father is driven by bitterness.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The report of Dr Freedman is consistent with the findings made but also with the report of Dr Oppedijk. She is an agreed and respected expert. Her methodology is sound. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The mother has significant concerns about Ms Sandrini&#8217;s report which does not seem to accept the findings of the court. It does contain other useful material though about the children and the family. Ms Sandrini, misunderstood the effect of Dr Freedman&#8217;s report. It was only in the experts&#8217; meeting that Ms Sandrini came to understand it and so the experts&#8217; meeting modifies Ms Sandrini&#8217;s conclusions very dramatically.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The mother agrees with the professionals&#8217; recommendation that a progression to unsupervised contact should be dependent upon the father engaging with psychotherapy, twice a week for a period of 3 months. She agrees if there is such a commitment from the father, and an engagement with the same, that the supervision element of after school contact should fall away, leaving contact only to be supervised on weekends.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The risks identified have to be looked at in context. They include the repetition of abusive behaviour as found, but also the risk of the children&#8217;s relationship with the father ending, and the risk of them being split with one going to father and one with mother. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The mother further agrees that an independent professional should be employed by the parties to fulfil a role in managing any further progression of contact beyond this point. It is submitted that it is not appropriate to outline such progression today within the order, given much depends upon: (i) the father&#8217;s continuing commitment to the therapeutic plan; (ii) the children&#8217;s response to progression away from supervision, and (iii) the father&#8217;s behaviour towards her and the children going forwards. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">In the context of the court&#8217;s findings in respect of the father&#8217;s desire to equalise his position against the mother, his continued denial and qualification of the findings, and his dismissal of engaging with any therapeutic work so far, the mother does not regard it in the children&#8217;s interests for a shared care arrangement to be put in place, even as an envisaged end point with no date attached. Whilst it may be appropriate in the future, there are too many variables currently, and the court must be mindful in light of its previous findings of the father&#8217;s motivation in seeking such an order, and the potential undermining of the mother&#8217;s parenting going forwards. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The mother agrees that the children should undertake therapeutic work to provide them with a space to voice any concerns they may have.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">x)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The father&#8217;s evidence justifies the court continuing to have concern about his credibility and his continuing conduct. The mother continues to have numerous concerns with the father&#8217;s behaviour towards her and her family. This needs to stop. It is outlined in her statement in detail, and there will need to be evidence regarding the same. She also remains concerned by the father&#8217;s continued attempts to make numerous false allegations against her; this has included to social services, the ISW, and within his most recent statement.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The mother agrees that she will also investigate therapeutic support for herself in managing the father&#8217;s behaviour towards her going forwards if this should persist. She would also be willing to engage in any parenting work which the father engages with going forwards.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">It is the mother&#8217;s firm belief that the children should remain at their current school as this is in their welfare interests. She regards the father&#8217;s reduction in his earnings as tactical in order to exert pressure within the financial remedy proceedings, and further evidence of his inability to place the children&#8217;s interests above his desire to punish her. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">18.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The experts met to discuss their reports and identify areas of agreement and disagreement. The transcript of their meeting resulted in an agreement of the matters set out below. However, the evidence of both of the experts in essence expressed a degree of reservation about the agreement, and I gained the impression that both had compromised for the sake of agreement which they felt stretched their personal opinions close to the boundaries of acceptability.  The main areas of agreement and disagreement were as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">They had different instructions and come at the situation from different disciplines and ways of working, albeit primarily concerned about the wellbeing of children.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Dr Freedman concluded there is a risk of a breakdown in the father&#8217;s behaviour as set out in the judgement including areas of emotional and physical abuse. Ms Sandrini considered there was less risk, and that it would be restricted to areas of emotional risk. It is one of the things the independent monitor would need to keep in mind.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">It was agreed that the father needed to start psychotherapy at least twice per week with a qualified psychotherapist for a three-month period, although not limited to that. The therapist would report about attendance and if that was achieved and the therapy was going to be ongoing the afterschool contact should become unsupervised. Independent monitoring needed to be in place by that point. Ms Sandrini deferred to Dr Freedman on therapy.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Dr Freedman did not agree with shared care whilst Ms Sandrini thought shared care during term time would be complicated. Shared care would be a destination but would not be a starting place. Both agreed they would start with shared care during holidays. This would be one of the stages that the independent monitor would help them to move forward with.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Both agreed that, if possible, the boys should see that decision-making is shared between the parents and that this was important. Dr Freedman wanted to anticipate the possibility when a decision needed to be made and the parents remained in conflict. Dr Freedman thought the mother should have the ultimate decision-making then.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Both agreed on the importance of the boys having an independent space with a therapist in which they can talk about what is happening for them; that would be a play therapist or a qualified child psychotherapist.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Both agreed the mother might benefit from her own therapy.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">Both agreed that childcare advice should be shared between the parents to help them to work together and aid their decision-making progress.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Independent monitoring is crucial and to ensure the mother has someone to listen to her.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel2"><span style="font-weight:bold">Dr Freedman</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">19.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Freedman is a psychiatrist and psychotherapist of long experience both in clinical practice and as acting as an expert. She was jointly instructed by the parties, albeit I think by the father&#8217;s former solicitors rather than his current solicitors pursuant to my order. The remit of her instructions was limited to an assessment of the father&#8217;s mental health, including whether he had any identifiable mental health personality or other disorder; in the event that one was identified what impact this had on his parenting abilities and whether any risk could be ameliorated through support; whether any risk to the mother in a co-parenting relationship could be managed or ameliorated; if therapeutic work, the likelihood of the father engaging, the timescales, the risk of relapse, and the risk to the children and the mother whilst work was underway, and signposting to appropriate resources. Following the receipt of the report on 3 February 2023, and my refusal of the father&#8217;s application to instruct another psychiatrist, the father&#8217;s new team, I assume purportedly in accordance with FPR 25.10(2), sent a list of 35 numbered questions (although given the number of sub -questions the total was significantly more) accompanied by 20 odd pages of personal references to Dr Freedman. Given that FPR 25 questions must be proportionate and only for the purpose of clarification of the report these can only be regarded as compliant by applying the most generous interpretation to proportionate and clarification. The sending of 20 pages of personal references cannot be regarded as within Part 25, even on the most generous interpretation. Dr Freedman answered the questions across a further 14 pages of detailed narrative. The questions amounted to cross-examination by written question. Her report numbered 49 pages (plus appendices), and so with her supplementary answers some 65 pages of detailed analysis. A summary of the material of her report and conclusions, adjusted to take account of the further answers, experts&#8217; meeting, and oral evidence may be as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is no evidence of the father having a history of mental health difficulties and his account of his childhood, working life and relationships did not disclose anything of particular concern. His relationship with the mother prior to the arrival of the children was that &#8216;they got on reasonably well&#8217;. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The conclusions of the fact-finding judgment, the mother&#8217;s account and the father&#8217;s account shows that the father suffers from a high degree of anxiety and had been prescribed anti-anxiety medication after the marital breakdown but said it did not help him.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">From meeting with the father twice, once with the mother and the benefit of the fact-finding judgment, her opinion was that the father had narcissistic personality traits. The instructions were to identify any disorder. In her evidence, Dr Freedman accepted that this was not a mental illness and did not fall within the Diagnostic and Statistical Manual of Mental Disorders 5<span style="vertical-align:super;font-size:smaller">th</span> Edition (DSM-V) criteria for NPD and so was not a Disorder. However, she was clear that disturbed personality traits amounted to a diagnosis. These include his manipulative tendencies in relationships as seen in his interactions with the mother and the children; the lack of empathy as described by the court in his deceptive attempt to convince the mother that he was obtaining meaningful treatment; inability to handle criticism as described by the mother throughout their relationship; lack of intimacy as suggested by mother; a sense of entitlement as displayed by sitting on the bench near the family home. She considered that manipulative tendencies were a form of exploitation of others, and she stood by her conclusions that he demonstrated a lack of empathy, sense of entitlement, and inability to handle criticism. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">She said that the most important components in her reaching her conclusions were the judgment and her interviews with the father and the mother and that all of the other information does not equate in importance with what was said in interviews, and what was found by the court; they were of different orders of importance. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">She explained that the personality trait as defined by the APA dictionary of psychology is &#8220;a relatively stable, consistent, and enduring internal characteristic that is inferred from a pattern of behaviours, attitudes, feelings and habits in the individual&#8221;. DSM-V says &#8220;personality traits are enduring patterns of perceiving, relating to and thinking about the environment and oneself that are exhibited in a wide range of social and personal contexts. Only when personality traits are inflexible and maladaptive and cause significant functional impairment or subject distress do they constitute personality disorders&#8221;. She accepted all individuals have personality traits and indeed they make up our personalities; that they manifest themselves differently in different environments; they may be subject to conscious or unconscious control by the individual, that they may be more apparent during a stressful situation and are most likely to be observed in a dysfunctional way in intimate (close) relationships, and not observed in work or other family relationships. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">This is not a full set of the criteria required by DSM-V to diagnose a full narcissistic personality disorder. This is not surprising as people with a disturbance in this aspect of their personality tend not to be open about themselves. She suspected, over time, if the father were in a therapeutic relationship, that he might reveal more about other symptoms such as the possibility of grandiosity, craving admiration, feelings of depression, and envy. In her oral evidence she accepted there was limited if any evidence to support these other aspects of the DSM-V criteria, and that she was not working on the basis that there was a personality disorder but rather that this was a possibility that she contemplated based on her clinical experience. It was clear that the diagnosis of a personality disorder was not a simple tick box exercise of identifying a trait, adding them together and making the diagnosis, but that the process required a broader and more nuanced evaluation of presence, longevity and influence on domains of life.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The existence of a number of disturbed traits as identified is sufficient to have caused the father significant difficulties in his life within his family. It was the impact of his traits on his functioning in his relationship with the mother and children, the risk of recurrence if unaltered, and susceptibility to treatment which it seemed to lead Dr Freedman to characterise it as a diagnosis.  In her report she said that his working life was possibly affected as well, but in oral evidence she appeared to acknowledge that the evidence from colleagues (albeit not necessarily from patients) did not disclose this, and she said that it was often the case that traits did not manifest themselves in dysfunctional ways in other domains of an individual&#8217;s life but were most likely to be seen in a dysfunctional way in intimate relationships. She explained that intimate relationships were not limited to sexual, but rather those where an individual was at their most open, which could include partners or children.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">Obsessive-compulsive disorder (OCD) symptoms (obsessional character traits as per Dr Oppedijk) which the children found so difficult are found together with narcissistic personality difficulties. Those who suffer from OCD only direct those behaviours to themselves rather than seeking to control others, which is in contrast to the conclusions of the fact-finding judgment and descriptions of the father&#8217;s behaviour in this case. The children had themselves noted the father had dropped his compulsive concern about muddy shoes in contact. T<span class="cf01" style="font-family:'Times New Roman';font-size:12pt">his would suggest that something has changed which means he is not driven to require them to do this. The absence of any concern noted in contact would suggest that it was not to do just with the presence of supervision but rather the fact of muddy shoes not triggering the father to identify it is a problem with the risk of over-reaction. This supports Dr Freedman&#8217;s conclusion that to a degree how the traits manifest themselves in harmful ways is influenced by other external factors.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">It is clear that the boys were affected by the father&#8217;s loss of temper and ensuing physical and emotional abuse. It is likely that they find it confusing now that his behaviour has changed. Dr Freedman suspected that the fact that he saw them for limited periods always in the company of supervisors or family members helps to contain these impulses. Given he does not accept the findings she thought he remains at risk for imposing abusive behaviours on the boys again if he were to have unsupervised contact with them. People can be helped to recognise and better manage narcissistic trends in their personality through long-term therapy with sessions 2 to 3 times per week for a minimum of two years. At present, the father does not accept he has such difficulties or that he needs this degree of psychotherapeutic work. In discussions with Ms Sandrini, Dr Freedman accepted that the commencement of a process of therapy (perhaps twice per week) and its maintenance for three months would itself be sufficient to justify all the removal of supervision for short periods of time. In her oral evidence, she said that for the therapist to say the father was engaging would not in her view breach the sanctity of the therapeutic relationship. The risks in relation to the narcissistic personality traits is not about relapse but about exacerbations in his personality difficulties. These are likely to become more prominent when he suffers losses and setbacks. He will remain a risk to the children and the mother until he has learned enough about his difficulties to better manage himself. It is difficult to predict how long that therapy might take him.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">x)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In her oral evidence, Dr Freedman said that we generally believe people are better at managing risk if they acknowledge that they have done something before, but that is not always the case. Sometimes people do not acknowledge that they have done something wrong, but some other event such as a judgment or conviction leads them to internally acknowledge the problem, and to say that they want to change which is then more likely to minimise the risk in the future. She did not think the work the father has done so far with parenting courses or with Mr Hewlett was focussed on addressing the dysfunctional personality traits but was rather aimed at making him a better parent. I<span class="cf01" style="font-family:'Times New Roman';font-size:12pt">t seemed to me that this was - in the context of this case in particular - an artificial distinction as the dysfunctional traits were directly related to his parenting of the boys. Although there were aspects of his behaviour which were more directly related to the mother (insensitivity and selfishness in his attitude to her autonomy, correspondence, sexually, etc.) the main area of behaviour which was abusive was in relation to his parenting of the boys, and so improvements to his understanding of parenting would be liable to influence how his personality traits manifested themselves (shaping the traits themselves) or the risk of them manifesting themselves in a harmful way (raising the threshold at which they came to the surface in a harmful way).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">It is likely that the father will continue to try to manipulate, control and even punish the mother. Her best protection will be in the form of strict guidelines set out by the court relating to the amount of contact, the need for supervision to protect the boys, and the exercise of parental responsibility. It is likely that the father will seek to subvert these guidelines. Dr Freedman contemplated the possibility of an independent third party trusted by both parents as a vehicle for regulating their relationship, and the possible benefits of the parents undertaking some joint therapy. She did not recommend family-oriented interventions at present as she thought they would fail given the father&#8217;s personality difficulties. She thought that the mother and boys would be able to engage together in family interventions to provide them with a place to talk about what had happened in their family life. She thought that the mother would benefit from support herself to withstand the difficulties she might continue to face with dealing with the father.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Kirby launched an all-out attack upon on Dr Freedman&#8217;s conclusions and her evidence both in her Skeleton Argument and in her cross-examination. In her closing submissions, her core argument was that Dr Freedman&#8217;s evidence should be discounted in its entirety because her approach to the diagnosis of narcissistic personality traits was not consistent either with the DSM-V diagnostic criteria for narcissistic personality disorders, but nor did she apply a consistent approach across the report, answers to the questions, and her oral evidence. Ms Kirby&#8217;s argument is fully articulated in her Skeleton Argument, in particular paragraph 5, and a central feature of it is that Dr Freedman identifies narcissistic personality traits as interchangeable with the nine &#8216;criteria&#8217; identified in DSM-V - a minimum of five of which must be present for the diagnosis of a narcissistic personality disorder. The argument goes on that given that DSM-V requires the criteria to be pervasive, persistent and longstanding, and that Dr Freedman accepted that a personality trait must meet those tests (see [464 in particular]) her conclusion that the father met those tests was not consistent with the totality of the evidence. Moreover, it is argued that her evidence on this changed when she said that the presence of those traits only in the intimate context of the relationships with the mother and children was not consistent with narcissistic personality traits having to be pervasive across a number of areas of a person&#8217;s life.  The manner in which these were explored in Dr Freedman&#8217;s oral evidence generated a very considerable degree of heat but only a limited amount of light. The Skeleton Argument which was provided to Dr Freedman in advance amounted to the forensic equivalent of a WWI artillery barrage giving plenty of notice of the full frontal infantry assault which followed in cross-examination, taking the form (as presaged in the Skeleton, the Table which accompanied it, and the 25 written questions of Dr Freedman) of an exploration of the DSM-V criteria for the diagnosis of narcissistic personality disorder, and how the father did not fit those criteria; how she had failed to properly approach personality traits; how Dr Freedman had failed to take account of all the other evidence in the case. Wave upon wave of criticism was launched from the father&#8217;s trenches, made their way across no man&#8217;s land and then became caught in the wire of Dr Freedman saying she had not diagnosed a narcissistic personality disorder under DSM-V, but rather narcissistic personality traits, was mown down by Dr Freedman saying the facts found by the judgment and the father&#8217;s own account was far more important than other evidence. There were occasional and limited breakthroughs with Dr Freedman having misunderstood some aspects of the judgment and not having grappled more fully with the situational element relating to risk assessment. Whilst the approach was obviously a deliberate one and based upon the father&#8217;s response to Dr Freedman&#8217;s report including the second opinion, he had got from a forensic psychiatrist Medical School friend, it was a less productive approach than it might have been. Dr Freedman inevitably was more defensive than I have seen her in giving evidence in other contexts, and thus was more circumspect, and the blunt nature of the approach limited the opportunity for exploration of the areas of her report where there was more nuance and scope for thoughtful reflection. Although Ms Kirby considered that she needed far more time for the cross-examination of Dr Freedman to bear fruit, I am satisfied that the cross-examination by paper together with the highly adversarial cross-examination in court was more than adequate to demonstrate that Dr Freedman was not going to retreat from her primary position, and that any advances would be of limited effect and harder to discern than might have been the case and resulted in more limited in-roads into her analysis than may have resulted from a more inquisitorial and  probing approach than the obviously aggressive frontal critique. Having said that &#8211; I do not make this as a criticism of Ms Kirby&#8217;s advocacy &#8211; her approach was determined by that of the father which, as he made plain in evidence, was fundamental disagreement with Dr Freedman&#8217;s methodology, evaluation, and conclusion from the perspective of a medical practitioner himself and based on his discussions with his forensic psychiatrist colleague. As a medical practitioner himself, the father was prepared to place it at the level of unprofessional. Ms Kirby submitted that it was in breach of Dr Freedman&#8217;s obligations as a court expert under FPR25 PD25B. That reflected the overall level of conflict in the case where the parties&#8217; positions have been at the extreme end of the spectrums in their approach to the litigation itself, the substance of their evidence, and the positions they have adopted in consequence; that applies to the father in particular, but also to the mother.  That said the limited advances did highlight for me some important points. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">21.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, a fundamental difficulty that the critique of Dr Freedman&#8217;s methodology, evaluation and conclusions is that they are highly consistent, not only with my own findings as to the father&#8217;s behaviour during the marriage, but also with the father&#8217;s own account of his personality and the conclusions of Dr Oppedijk, which I concluded in the fact-finding judgment represented a true account by the father at that time of these difficulties. In her answers to the written questions Dr Freedman notes:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.3in"><span style="font-style:italic">DSM-5 specifies that a personality disorder is an enduring pattern of inner experience and behaviour that deviates markedly from the expectations of the individual&#8217;s culture&#8230;is inflexible and pervasive across a broad range of personal and social situations&#8230;leads to clinically significant distress or impairment in social, occupational, or other important areas of functioning&#8230;the pattern is stable and of long duration, and the onset can be traced back at least to adolescence or early adulthood&#8230;is not better explained as a manifestation or consequence of another mental disorder&#8230;is not attributable to the physiological effects of a  substance&#8230;or another medical condition&#8221;. (DSM-5, pages 646-647)</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.3in;margin-right:0.76in"><span style="font-style:italic">A personality trait, as defined by the American Psychological Association Dictionary of Psychology is &#8220;a relatively stable, consistent, and enduring internal characteristic that is inferred from a pattern of behaviors, attitudes, feelings, and habits in the individual.&#8221; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p style="margin-left:0.3in;margin-right:0.37in"><span style="font-style:italic">In other words, personality traits are pervasive, persistent, and longstanding. The difference between a personality trait and a personality disorder diagnosis is that the personality disorder diagnosis is based on the presence of a sufficient number of diagnostic criteria, which are specified to describe the impact on a person&#8217;s functioning and mental state. DSM-5 says, &#8220;Personality traits are enduring patterns of perceiving, relating to, and thinking about the environment and oneself that are exhibited in a wide range of social and personal contexts.  Only when personality traits are inflexible and maladaptive and cause significant functional impairment or subject distress do they constitute personality disorders.&#8221; (page 647) </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in">One has to read these in the context of Dr Freedman&#8217;s evidence in its totality, but these illustrate, along with her oral evidence that the issue of personality traits generally (they make up every individual&#8217;s personality), and what amount to disturbed personality traits as opposed to a frank disorder, is not a straightforward area of medical or psychological practice. Not only is there a degree of difference as between the medical or other bodies who describe the features (Dr Freedman identified ICD-11 as another approach to the subject), but it is evident that diagnosing both a disorder or traits involves a subjective assessment by the practitioner rather than being susceptible to some scientific test which delivers a binary outcome as many areas of physiological medicine might.  Even within the domain of a personality disorder one has to look at many factors including how long-standing the features are, how they impact on functioning in one or more domains, and whether disturbed functioning is better explained by something else including another disorder or medical condition. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The critique of Dr Freedman&#8217;s methodology thus appears to me to be too formulaic in its approach and subjects the totality of her evidence to a too narrow textual analysis, which in effect asserts that, as she had at one point said to be a trait it must satisfy one of the nine DSM-V criteria, and as she said at one point to satisfy that it had to be pervasive across a number of domains of life, the later assertion that it is enough to identify a dysfunctional way of acting in the relationship with the mother means the whole of the edifice crumbles. This seems to me to ignore the totality of the evidence. Thus, the existence of abnormal, disturbed (however one should properly describe them) traits in the father&#8217;s personality is well-founded in the totality of the evidence but in particular in my judgment, Dr Freedman&#8217;s interviews with the father, and the previous accurate psychiatric assessment of him. In particular, the abusive behaviour and the broader issue of his functioning over at least the period 2017 &#8211; 2021 is not explained otherwise. As I identified in the fact-finding judgment, the behaviour seemed to me then linked to or arising from aspects of the father&#8217;s psychological functioning as opposed to, for instance, being deliberate. Referring back to what Dr Freedman noted from the DSM-V description, is the behaviour better explained by some other disorder, condition or, for instance, substance misuse. The answer to those is no. The father&#8217;s discussions with his forensic psychiatrist colleague do not produce some alternative formulation for his behaviour save it was a product of a marriage under strain or failing, the pressure he was being placed under by the mother to work more than he wished, the strains of the arrival of children, the pressures of the arrival of Covid lockdown, and financial strain. Those sorts of features are present in very many cases that the courts see (Covid is a more recent dimension), and I do not see them as coming close to an overall explanation for the totality of the father&#8217;s behaviours which are most apparent in the period of 2017-2021, but which were also present to some degree prior to that (the parties separated in 2018 as a result of the mother&#8217;s growing concerns over at least a year prior to that and the father confirmed his dysfunctional behaviour to Dr Oppedijk who saw it as obsessive character traits requiring psychotherapy), and also since the separation (examples being his bitterness and sense of being wronged by the mother, his denial of proven abuse, his inability to accept responsibility or own his actions, and his remarkable evidence during the fact finding). There is much more to the father&#8217;s behaviours than a product of anxiety and stress. That anxiety and stress and situational factors play a part in this psychological functioning, in particular his dysfunctional behaviours, is undoubtedly true. As Dr Freedman identifies anxiety, stress, other situational factors are relevant to how personality traits manifest themselves. The father is made up (as we all are) of a host of personality traits (I use the term loosely). The father clearly has many personality traits which are normal across all domains, where even the most intense stress and anxiety will not result in them causing disturbed, abnormal, or functional impairment or distress. However, the best explanation for the father&#8217;s abnormal or dysfunctional behaviours which led to the abusive behaviours I found is that there are aspects of his personality (traits) which whilst they operate within normal parameters in many domains in most circumstances, within his intimate relationships they can become dysfunctional, in particular when he is anxious, or subjectively under stress, but also when his needs, for other reasons, are somehow not being met. Thus, for instance his trait that seeks order and organisation becomes dysfunctional and obsessive in the domestic environment over mud and sticky fingers. His sense of inadequacy or not being good enough which causes him to strive to do better becomes dysfunctional, and he is unable to tolerate challenges to what he sees as being the &#8216;right&#8217; thing to be done. I do not seek to be exhaustive &#8211; these issues are far more in the domain of the psychiatric/psychology professional than the legal, and one should look at the substance of his behaviour and seek to understand what is the underlying trait that generates the dysfunctional behaviour and thus abusive actions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not think that focusing on labels is of much assistance and tends to detract from the substance of the concern, as was clearly evident in the cross-examination of Dr Freedman and to an extent in the father&#8217;s own evidence. Focussing on the word narcissism generates a great deal of heat &#8211; asking why it is that the father&#8217;s trait of order and organisation becomes obsessive and dysfunctional; why he loses his ability to act with empathy and to take account of his wife or children&#8217;s feelings, and why he tends to become focussed on satisfying his needs to the near exclusion of theirs and to behave abusively (losing his temper and otherwise) when he is unable to, is, it seems to me, at the heart of what needs addressing. This is as opposed to asking whether he falls within some of the criteria for DSM-V narcissistic personality disorder such that he has narcissistic personality traits. That may, from a clinician&#8217;s perspective, be a useful guide, and it certainly helps to categorise for me how the father&#8217;s psychological functioning is explained within the field of psychiatry or psychology, but if it becomes an obstacle to understanding the behaviours and seeking to assess risk and effect change it is a distraction. I am satisfied that the underlying fact and the core conclusion of Dr Freedman is correct, within the framework of her report and which fits with the much bigger evidential picture that lies before me that the father has personality traits which can manifest themselves in some situations which are dysfunctional or disturbed. As Dr Freedman said, they are most likely to be seen in the most intimate relationships as they can be managed or controlled or suppressed in many other contexts, and as with most individuals the effects of anxiety and situational stress are most likely to emerge in the relationship context. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The allegations commence when the boys are little, in 2017, although the parties had been together for 7 years by then. Although the mother&#8217;s statement says he became increasingly domineering and she felt controlled her statement links the start of the behaviour with when the boys were very young and became messy [M2 #4, 9, 10] and deteriorating until the end of the marriage in March 2021 &#8211; which incorporates a year of lockdown and pandemic stresses. She says he coped reasonably well when the children were babies. Father told Dr Oppedijk they had fundamentally different parenting styles &#8211; she laid back, he strict. He was anxious and stressed which exacerbated his obsessive traits &#8211; they drifted apart. Dr Oppedijk thought he was candid and had insight into the relational dynamics. Individual psychotherapy and marital therapy was warranted. In his texts in 2018 the father accepted change was needed and saw a therapist who spoke with the mother as well. It appeared that some effective work was being undertaken &#8211; this was not sustained though when they reconciled. All this goes to bolster the conclusion that Dr Freedman is right, and that there is an underlying personality or character trait issue. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are areas where it seems to me that Dr Freedman&#8217;s analysis is probably too narrow in its compass. One of the (nearly appropriate) questions asked under FPR 25.10 is ranges of opinion. Whilst an expert is not required to give a range of opinions (this is only required where there is a range) it would have been useful to have had more about her conclusion that &#8220;<span style="font-style:italic">personality traits are enduring, so whilst they may be more apparent during a stressful situation that does not invalidate their presence as part of the person&#8217;s emotional make up</span>&#8221;, in particular the extent to which in this case the personality traits manifested themselves in dysfunctional ways as a result of external stressors, and how that might have been relevant to the future.  It is also right that Dr Freedman appears to have misunderstood one aspect of my judgment; namely whether the father had manipulated Dr Oppedijk and the mother. Dr Freedman clearly works on the basis that I concluded he had manipulated them whereas, in fact, I concluded on fine balance that he had been honest with Dr Oppedijk but was now giving a different account (#51 of my judgment). Thus, her identifying manipulative behaviour based on this, and bringing this within the criteria of exploitative behaviour in DSM-V terms is erroneous. Having said that there are other examples of his being manipulative to a far lesser degree, but this central feature is inaccurate and so Ms Kirby&#8217;s criticism in this regard is accurate, and there is some basis therefore for her criticism that my reference to this being narcissistic (if it had occurred) has played some part in leading Dr Freedman into the territory of narcissistic personality traits. This, to some degree, leads me to question where on the spectrum of seriousness the father&#8217;s disturbed personality traits may lie, and what level of intervention is required to address them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Where I think Ms Kirby&#8217; critique has some force which is relevant to risk assessment is that Dr Freedman&#8217;s assessment of the traits they give rise to focuses very heavily on my conclusions and her assessment. Whilst it is true that in her evidence she identifies the fact that these traits have not been noted to be present in other domains of the father&#8217;s life, and says that this is not uncommon with disturbed personality traits (or I think with personality disorder), because individuals can maintain a degree of control in other settings which they feel is unnecessary (or does not arise) in intimate relationship settings, I did not think that how she followed this through in terms of risks was complete. In answer to Q.3 [465] she herself identified that traits would be more apparent in a stressful situation, and clearly the situation of the father parenting alone, not living in a failing relationship, perhaps less stressed with work would potentially be relevant to whether the personality traits were likely to become apparent in a dysfunctional and harmful way, and thus the level of risk that arose. Thus, her analysis did not focus in on the circumstances in which the disturbed personality traits came to the surface, and to generate the behaviours which underpinned the abuse. Although the father and the mother have been in an intimate relationship (in all senses) since 2010, the problematic personality traits emerged in only after the twins arrived and had become toddlers. Dr Oppedijk&#8217;s interview with the father and his conclusions identify some situational/stress factors which would appear to be relevant in bringing them to the fore, both in terms of the dynamic between the parents but also the behaviours of the toddlers. It is of course right to bring into account that Dr Oppedijk also identified character (personality?) traits which merited psychotherapy which the father to some degree pursued in the aftermath of that report, but did not see it through to an end, and this no doubt played some (perhaps a very considerable) part in the re-emergence of the dysfunctional and abusive behaviour over 2019 &#8211; 2021.  Thus, in terms of the mother&#8217;s account the father&#8217;s traits became problematic six odd years after their relationship commenced. It seems to me that the context in which his personality traits became problematic within the relationship, and the fact that his personality traits have not been noted in any other domain in his life (work, family, friendships, social) needs to be taken into account when looking at the risks which may exist for the children and the mother in their involvement with the father. That also needs to be noted for the purposes of the therapy which the father undertakes. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Freedman was clear that the existence of untreated disturbed personality traits means that there are ongoing risks to the children and the mother in particular of a repeat of the abusive behaviours of which I found as facts, but also in other areas. A repeat of the confrontations with the boys in relation to their behaviour carries with it risks both of higher levels of physical or emotional harm as they grow older, but also emotional risks of them choosing no relationship with the father rather than being exposed to scary outbursts of anger and physicality. In relation to the children, the development to unsupervised and staying contact would carry with it risks relating to children being exposed to the father&#8217;s criticism of the mother; his need to be seen at least as an equal (his focus on him being the principal role model for boys of this age suggests that he now sees himself as more important than their mother, which is concerning) and his minimisation of previous abuse carries with it a risk of the children becoming more aligned to one or other of the parents (LL to the mother and LLA to the father), and of them being conflicted if their own memories come into conflict with a different narrative while in the father&#8217;s care. Interestingly Ms Sandrini already noted that LLA expresses a different recollection now of his life with his mum and dad to that which he did in 2021, whilst LL recalls his father&#8217;s behaviour but feels he has changed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> Both Dr Freedman and Ms Sandrini discussed risks in a generic way rather than focusing in on the formulation of risk in particular scenarios. It seems clear to me that the nature of the risks, and the magnitude of such arising depends on the nature of the time that the boys would spend with the father. There are clearly risks to the boys even within the existing framework; risks of the boys developing different perspectives on their father and the past, risks of their relationship with the father being unable to evolve organically due to the presence of supervisors, risks of them being exposed to the parents&#8217; own negative views of the other parent (more of this later), risks of remaining caught between two warring parents where they need to align themselves with the mother when in her care and with the father whilst in his care. Thus, even the existing situation carries risk of harm. A move away from the current situation into unsupervised time with the father, or a move to overnight contact and extended periods of time with the father, or a move towards a shared care arrangement carries with it increasing and to a degree differing risks. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the basis of the overall effect of Dr Freedman&#8217;s evidence I conclude there is more scope for exploration of the circumstances in which those disturbed personality traits are likely to manifest themselves to their fullest extent, and thus to generate the behaviour and future risks of harm, what form that might take, and how it might be ameliorated. Into this, it seems to me, that there is also a need to explore the extent to which events since March 2021 shaped those traits or the father&#8217;s capacity to manage them. Dr Freedman identified that the most effective way to address those disturbed personality traits was in the form of psychoanalytic psychotherapy of an extensive nature (2-3 times per week over 2 years) and that through this vehicle the risks to the children could be reduced. Hence the agreement that unsupervised contact could become unsupervised after three months of therapy. She said that in most circumstances an acceptance of the problem, and a willingness to explore it and to change was a key part of the likely success of psychotherapy. However, Dr Freedman also gave evidence that the mere fact of a denial of findings did not necessarily mean that the risks of repeat remained unchanged. Her evidence was that events in life might cause changes in behaviours (she referred to judgments or convictions) even though the individual continued to deny the existence of a problem. This seems to me to be entirely logical. An individual may be unable to openly accept abusive behaviour, findings, disturbed personality traits etc. but be able to have acknowledged internally or to have altered their thinking patterns (either of their own motion or through other forms of support) in a way which affects change. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Notwithstanding that possibility (indeed actual limited change of which more below), finding as I do that the father does indeed have personality traits which are dysfunctional, certainly in the domain of intimate relationships in particular when anxious or stressed, the best way of addressing those and affecting the risks they carry would clearly be in psychotherapy with a psychiatrist. The role that anxiety, for instance, plays in personality traits become dysfunctional, and the high intelligence of the father and his medical background all point to the need for the psychotherapist to be at this level in order to have the best chance of the therapeutic process delivering results. An effective therapeutic process is clearly the best way to address the ongoing risks which arise from those personality traits and their propensity to become dysfunctional and abusive. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ms Sandrini</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">31.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Sandrini is an ISW who was instructed to carry out a welfare report in relation to the family. She is a very experienced social worker and expert. She undertook the assessment in a situation of some pressure where the ISWs originally proposed had not been available, and consistent with the rest of the litigation, a dispute had arisen over how that should be managed. She participated in the experts&#8217; meeting and gave oral evidence. She had clearly substantially altered her initial conclusions as a result of the experts&#8217; discussion as she had not considered Dr Freedman&#8217;s report to have contained a &#8216;diagnosis&#8217; which required addressing in therapy.  Some of the most important points which I derive from her evidence are set out below:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">She carried out an extensive enquiry speaking with the parents and the children observing them in their homes, speaking with family, speaking with friends and speaking with the school and contact supervisors. This gives her a more extensive and rounded picture of the family, particularly as it is now.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">She considered both parents love their children and have a genuine desire to provide parenting to the children. She considered in particular that the father was genuine in his attitude to the children and was primarily driven by a desire to parent them. This would contrast with the mother&#8217;s doubts about the balance is what drives the father; she perceives the father&#8217;s desire to secure revenge, or justice, as perhaps being a more dominant motive than genuine desire to be their father. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Her formulation of the circumstances in which the marriage broke down and her approach to my findings of fact demonstrate that she had not fully taken on board the very serious concerns about the father&#8217;s abusive behaviour arising from the serious findings are made.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1.18in"><span style="font-style:italic">The sequence of events that lead to the breakdown of the marriage illustrated the difficulties between the mother and the father, their different expectations about what family life should look like, exposed the differences between them as a couple and as parents. The ongoing litigation and protracted court involvement, created a further wedge between the mother and the father who are deeply suspicious about each other&#8217;s motives and have become increasingly less able to communicate with  each other, save through their legal representatives. </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">That suggests a neutrality over the marriage breakdown and why each might be mistrustful of the other, which simply does not reflect the impact of the findings. In her oral evidence, Ms Sandrini accepted that the findings were the foundation of her assessment, and it was not open to her to approach the parents and the case as a blank canvas. Her observations that the mother was unable to identify specific risks to the children other than those identified by my judgment and Dr Freedman, and her oral evidence to the same effect, suggested there was a lack of substance in the mother&#8217;s concerns which is wholly misplaced &#8211; the heart of the mother&#8217;s concerns were reflected by the findings I made.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The mother accepted that the children enjoy spending time with their father, and they wanted to stay overnight with him. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The mother and father saw the benefits of the boys remaining at their current school but had concerns over its affordability.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Both boys consistently said they want to spend more time with their father. Although they are articulate and intelligent, they do not have the maturity to understand the consequences of a change. They have a significant relationship with their father based on her observations and the contact notes. The boys do not perceive the father as a risk. The contact notes suggest they are not scared of their father, nor are they hesitant about disagreeing with their father or saying challenging things to him.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">In her conversations with the father, he did not attempt to deny the incidents which took place, but she said he gave her &#8216;<span style="font-style:italic">cogent&#8217; </span>explanations. In exploration in the experts&#8217; meeting and in oral evidence it emerged fairly clearly that what the father had said to Ms Sandrini was not an acceptance of the findings I had made but was a somewhat modified version of his original position. In the father&#8217;s evidence to me about the pulling off the car incident, he clearly did not accept my finding and maintained in broad terms his initial account with some modest concessions relating to his grabbing the shoulder/neck and leaving a mark, but this was very far from the highly charged, angry and uncontrolled nature of the finding I made. His account to Ms Sandrini seems broadly to have followed this template of minor adjustment reflecting some acceptance, but a far from full acknowledgment of the facts and his responsibility. He said that the mother had exaggerated and / or embellished the incidents. Whilst it is the case that in my judgment, I had identified a tendency of the mother to hyperbole and use florid descriptions, ultimately, I accepted the core truth of her account allowing a modest discount in some respects but very far removed from how the father asserted she had exaggerated and embellished. It was clear that Ms Sandrini had accepted the father&#8217;s cogent explanations rather than regarding those facts as established by the judgment and the father&#8217;s account as a rejection of established fact and denial of the truth and his responsibility. This affected quite significant aspects of her report, including issues relating to her evaluation of the father&#8217;s account of his anger, and his position in relation to hurting his sons. It is clear from my findings that what he did was not deliberate but arose from a loss of self-control, and this is not acknowledged by the father or really reflected by Ms Sandrini&#8217;s report. Her conclusion [1.38] that the father had reflected well on his parenting at the end of his marriage was not built on solid foundations.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">He expressed contrition about exposing the children to information about the court process but thought the mother had been equally responsible.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">x)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">She considered that the evidence from the contact notes and discussions with the father and observations of him supported the conclusion that he had learnt and changed to some degree over the last two years from the courses he had attended, from reflecting on events. She considered that he was open to attending additional courses and to therapy in some shape or form, and to seeking to work with Bill Hewlett with or without the mother. She concluded that the risk of the father being physically rough with the children had lessened. The father&#8217;s evidence itself did demonstrate some change, and Ms Sandrini&#8217;s conclusions here would seem to have some foundation, although shakier (given his denial of the facts) than she believed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Part of his insight was that parenting alone would be easier than parenting in the marriage because the mother&#8217;s different style of parenting and because the stress of their dysfunctional relationship was now removed. However, he emphasised the need for he and the mother to coparent and Ms Sandrini endorsed the importance of co-parenting. Her report, the experts&#8217; meeting and her evidence did not appear to me to acknowledge and take into account the very real and ongoing conflict between the parties, the very real and justified mistrust that the mother has in the father given the findings made, how far the parents are from the ideal model of co-parenting, and the risk that seeking to introduce a model of co-parenting has for the mother and boys in the light of the findings made, unless the father has made very substantial progress in amending his behaviours. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The conclusion [1.39] that the father was unlikely to be an ongoing risk to LLA and LL (physically and emotionally) was subject to some considerable revision in the course of the experts&#8217; meeting and during her oral evidence. She accepted that the findings of fact and the father&#8217;s minimisation of them meant there was an on-going risk and that her misunderstanding of the effect of Dr Freedman&#8217;s diagnosis of disturbed personality traits and the need for psychotherapy to effect change also required her to accept there was an on-going risk until the traits were addressed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xiii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">Her recommendation for a phased extension of time including the immediate removal of supervision was thus very substantially modified in the experts&#8217; meeting and confirmed in her evidence where she endorsed the need for 3 months of therapy before supervision was removed. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xiv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">She met LLA and LL on their own and observed them with each parent, at their parents&#8217; respective homes, that of the paternal and maternal grandparents, and in the community. She considered they were delightful, healthy, energetic, happy, intelligent, confident and competent. She considered that they had important affectionate relationships with both their father and mother, and they were content and secure in the care of each. The boys were seen by her, their parents, and the school to be different in their characters. LLA is more physical, confident and robust; LL more sensitive and empathetic. LLA expressed a clear desire to spend more time with his father without supervision, wanting to spend as much time with his father as his mother and to stay overnight. One referred to fairness and that over the past two years his father had changed a lot and learned to be calmer, was no longer dangerous as when they all lived together. He said he felt safe with his father but was not sure what life would be like if no one else was present, but thought it was important to try. The contrast between LL and LLA is quite interesting &#8211; LL being much more insightful than LLA. That LL is said to be more like his mother and more aligned to his mother would support this &#8211; she is clearly more insightful than the father. He wanted to spend more time with his father to include overnights, and he saw supervision as being an impediment to being able to do all that they wanted to with their father.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Both boys have a healthy strong attachment with both parents in spite of being conflicted about the inevitable mixed loyalties experienced as a consequence of being acutely aware of the differences between their parents, and the fact that their mother and father do not talk to each other and do not trust each other. Both children feel a need to please their parents. Whilst both appear balanced and content, each express behaviours which may be attributable to being caught in the conflict and themselves feeling conflicted.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xvi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The children are happy, settled and doing well academically at their school. Recently LL&#8217;s behaviour has deteriorated; the school perceive it as being linked to LLA&#8217;s success in a poetry competition. The school felt it important that they should remain at the school to provide stability, particularly if there were to be a change of home or other change in their living arrangements. They consider aspects of the boys&#8217; personalities meant to move into the state school system would pose challenges for them.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xvii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">The copious contact notes have not given rise to any concerns about the father&#8217;s behaviour towards either child or comments about the other parent. They praise his patience and interaction with LLA and LL. Ms Sandrini&#8217;s observations of the father and the contact notes depict a different person to the depiction of the father in the judgment and the mother&#8217;s description of him.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xviii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.26in">In terms of managing risk, their relationship with the school, their emotional literacy support assistant and the ability of the school to monitor their response to changes in contact &#8211; particularly after school contacts - represent a way of monitoring prescription would be valuable but lost if the children change schools. This is another good reason for seeking to maintain their placement at their current school.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">There are some positive indications of the parents being able to work together in their liaison over spending pocket money. However, in her oral evidence she acknowledged that this was modest compared to the high level of conflict and mistrust the rest of the evidence depicts.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xx)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">She considered that the parents have different styles of parenting commensurate with their personalities. The mother is warm, relaxed and an excellent communicator with an easy relaxed approach to parenting which makes it look easy and almost effortless. The father is as loving with the children which contrasts with his initial presentation to her tense defensive, defended and intense. He responded appropriately to the children&#8217;s needs and dealt well with LL&#8217;s disappointment and frustration.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xxi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The evidence which she gleaned from friends, family, work colleagues, and contact supervisors in general provided positive material about both parents&#8217; ability to parent the boys. Each side of the family were aligned to some degree with their child&#8217;s position, including their friends who tended to support that parent&#8217;s position. There was no-one neutral, who was not aligned, and who might be able to represent a bridge between them and assist going forwards. The maternal grandparents had had a good relationship with the father prior to the marriage breakdown. The paternal grandparents described the father as an easier child to raise than his older sister. The father&#8217;s sister was strongly critical of the mother, going so far as to say she wished the father had reported the mother to the police, and believing the mother had &#8216;<span style="font-style:italic">plotted&#8217; </span>to divorce the father since 2017. The father&#8217;s sister&#8217;s <span class="cf01" style="font-family:'Times New Roman';font-size:12pt">very strongly hostile position would support the conclusion that she could share negative comments about the mother with the children when in contact last summer.</span> Contact supervisors including Mr RF, the nanny and the current team described the children as being happy to see the father, but all noted incidents where the boys were mean to him in things they said. All noted that the father ensured boundaries were kept in appropriate ways. Mr RF recounted how his relationship with the mother had deteriorated from a good start. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xxii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">The contact notes provided by a number of different social workers and the comments of the nanny, (not a social worker but a woman with significant, relevant experience), provide consistently positive feedback about the important relationship between LLA and LL and their father and illustrate the father&#8217;s ability to act upon advice and illustrate his ability to manage the needs of the children in situations that are a far cry from normality. The notes also provide information about the father&#8217;s ability to manage the children&#8217;s distress, frustration, tantrums and unkind and rude comments, with calm and reason. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It emerged clearly from her evidence that Ms Sandrini&#8217;s assessment had been substantially predicated on the understanding that the father did not have a &#8216;diagnosis&#8217;, and that the fact-finding judgment was relevant more as historic record than of highly relevant to current concern. This seems to have been because in her own extensive enquiries Ms Sandrini had not read of or observed any behaviour of the father&#8217;s that gave rise to a current concern in her own mind. This however was in effect to set aside the consequences of the fact-finding conclusions and the report of Dr Freedman, as if they were part of the background rather than central to her assessment of any risk the father represented. As with Dr Freedman, Ms Sandrini considered risk more as a generic issue rather than looking in more detail at the contexts in which the risk would have to be evaluated. My conclusion from the totality of her evidence was that this was primarily driven by her conclusion that her assessment did not lead her to identify any risky behaviour of the father in her current assessment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The overall effect of Ms Sandrini&#8217;s evidence was to provide valuable information about the current situation of the family, some insight into the father&#8217;s parenting of the boys and his character, and a useful application of the welfare checklist, but where her conclusions in terms of risk assessment (risk and capability) and thus the way forward were very substantially undermined by her approach to the findings of fact, the father&#8217;s response to them and her interpretation of Dr Freedman&#8217;s report. The change in her position contained within the experts&#8217; meeting was maintained in her oral evidence.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The Father</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given my conclusions about his evidence and its delivery at the fact-finding hearing it was a pleasant surprise to see the father present himself very differently at this hearing. He had clearly reflected on his performance in July 2022, and said as much in his statements and to Dr Freedman and Ms Sandrini. He was much more composed, prepared to listen, able to acknowledge some level of abusive and harmful behaviour, and to express contrition. This indicates progress. Inevitably the question arose as to whether this was from coaching or reflected a genuine change in position. I conclude it is a mix of identifying the harm he had caused to his own case by his presentation and the need to present himself differently and better to me, but also reflects a degree of movement. He ascribed his previous performance as being the product of great anxiety and over-preparation, which I accept was a part of it. The fact that he blamed his previous legal team for over-preparing was a continuation of the trait I noted on the last occasion of avoiding responsibility for his own behaviour and blaming them on external factors (his lawyers, the mother, anxiety) rather than identifying his own responsibility &#8211; for instance his absolute insistence in July 2022 that he had done nothing wrong, and his vigorous rejection of a case I found to be largely proved. However, given what Dr Freedman said about the role that anxiety might play in bringing out the dysfunctional range of a personality trait, I think that his performance in July 2022 is likely to be an example of just that where his anxiety converted his need to be in control and for events to conform to his version into a highly dysfunctional interaction with the court and counsel. This thus tends to confirm Dr Freedman&#8217;s formulation, in addition to all the other features which support the existence of dysfunctional personality traits. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father was able to accept some aspects of my conclusions from the fact-finding hearing and to express what I thought was some genuine insight and sincere regret over his actions, and the impact this had on the boys, although far less so in respect of the impact on the mother. However, whilst this was positive, it only went so far. Upon exploration of the car roof incident, it was clear that he did not accept my finding to anything close to its reality. He continued to minimise his behaviour. This was also true in relation to his loss of control in terms of shouting where, in effect, he described the mother and he both behaving in an equally unrestrained way which is also far from my conclusions. He did accept that Dr Oppedijk may have been right in identifying obsessive characteristics in him, although he did not accept that he really needed psychotherapy in relation to them. He wholeheartedly and vigorously rejected Dr Freedman&#8217;s assessment of him, and preferred that of his med school colleague to that of an eminent consultant psychiatrist who had assessed him and had access to all the material, or to that of the psychiatrist who he himself sought out in 2018 (he continues to assert that he misled Dr Oppedijk and the mother in a highly manipulative way, rather than accept he had been honest at the time), despite the congruence of their two sets of findings and their mutual recommendation that he undertakes psychotherapy. He continued to avoid answering the question in many instances, focusing on giving his own narrative &#8211; another example of his need to control the narrative rather than being able to accept direction from the advocate. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He spoke with warmth and affection about his time with the children and his aspiration to develop that relationship. Although there remains an element of bitterness about the imposition of supervision and a sense of unfairness and injustice at his situation, and thus a need to right the wrong of the imbalance in his relationship with the boys compared to the mother&#8217;s, there is also undoubtedly a very significant component which is a genuine wish to parent his sons because of his love for them, and his desire to be a role model for them, to shape their characters, and to imbue them with the characteristics he sees as beneficial. There were passages where he spoke with warmth and insight into how things are different now to 2019-2021 and this, I thought, showed a genuine development in his thinking. Although he loves both, he clearly identifies to a more obvious extent with LLA with their shared love of physical activity, their more black and white view of the world, and their shared sense of humour. This is consistent with both his and the mother&#8217;s sense that LLA is more like him and more aligned to his position, and that LL is more like his mother and more aligned with her position. Those also come across from Ms Sandrini&#8217;s discussions with them and her assessment of them. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although he maintained that the mother is a very good mother and that he did all he could to promote her, there remains a simmering sense of injustice which arises from his obviously continued belief that the findings are not the truth but the product of an exaggerated and embellished account given by the mother. He continues to believe that she denigrates him to the boys, that she places obstacles in the way of contact, and that she makes further wholly unwarranted accusations against him.  The contact notes do support the fact that the father is not openly critical of the mother to the boys and that indeed he is positive about her in contact, and so his evidence to me about her qualities is both sincere and backed up by his words to the boys. However, that is only a part of the picture of how he feels about her &#8211; albeit an important one in terms of how he portrays her to the boys &#8211; as there is self-evidently a component which is strongly hostile to her, highly distrustful of her motives, and a desire to re-occupy the position of equal parent. Indeed, perhaps given his perception that for boys of this age the father is the more important role model, he may now see himself as more important to the boys than the mother. Thus, there is a positive which is that he can promote the mother to the boys in contact. There is likely to be some element in this of awareness that if he was critical it would be recorded and held against him, and so supervision has played its role of protecting the boys from the risks it was put in place to protect from but it seems to me there is also some recognition, perhaps as a product of the process of supervision and what he has learned from supervisors like Mr RF, of the importance to the boys for their emotional well-being of promoting a positive view about their mother and the benefits to him of the boys hearing positive statements from him about the mother. That what he says to the boys is not a reflection of wholesale approval of the mother and support her parenting for more nuanced. However, it has, I think, become such a part of the contact landscape that out of habit, self-interest, recognition that it is good parenting, it is unlikely to go into reverse if supervision is to be lifted. It would be so confusing for the boys now to do that - it would likely rebound on him in the boys rejecting him and would almost certainly be reported to the mother and school - that denigration of the mother is far less of a risk. That is not to say that the children would not be exposed to an atmosphere in his household and family in which the hostility that exists between the father and his side of the family towards the mother would not be apparent to the boys. It seems from what the parents both say in terms of how the boys align themselves with the other whilst with them, and from what Ms Sandrini says, that this a feature of their existence. The father&#8217;s response to the mother&#8217;s schedule of critical comments being made by the boys was I thought less convincing.  Clearly those comments are not made in supervised contact, the majority arose when family members were supervising contact, and given what the father&#8217;s sister said to the independent social worker, it seems more likely than not that during that period of time, things were said within that family, and discussions were held between family members including the father in which the boys heard and picked up on negative comments being made. On balance I think the father is too intelligent to have sought directly or deliberately to criticise the mother; he would however remain capable in a moment of frustration or irritation of making an unguarded, sarcastic or snide observation as he tended to in his evidence at the fact-finding hearing. It is also more likely than not that his sister would be capable of being overtly critical of the mother. To feel that the mother had plotted for four years over the divorce is a quite extreme view to hold. The mother is very detailed in her account of the email that was read out in the car with the father, but  read  by the father&#8217;s sister in front of the boys&#8217;  and with comments being made about its unfairness. This rings true and is sufficiently detailed and consistent with the mother&#8217;s prior approach to record keeping and evidence giving that I accept that an event of that sort occurred. The father&#8217;s inability to recall fortifies my conclusion that it occurred.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The evidence in relation to the ongoing dynamic between himself and the mother was also a mixed picture. Their ability to attend school events together without incident, their working together over the triathlon, and their productive discussion over football cards and pocket money were good news. That each of them were able to manage this is a small spark of hope in an otherwise unremittingly dark and hostile dynamic between the two. The mother&#8217;s evidence of the father &#8216;intimidating&#8217; her by hanging around the barber&#8217;s shop, hanging around in traffic, and using a bench he had been asked to avoid was dismissed as either untrue, coincidence or trivial. Given the mother&#8217;s general reliability on these events and her recall of detail, and the father&#8217;s general credibility and inability to recall detail, it seems more likely that the mother&#8217;s careful factual account is right, albeit what she infers from it is maybe a different matter. Although seemingly trivial, the father sitting on a bench which he was aware he had previously agreed not to use (as it might upset the mother as she was obliged to drive past it on their journey to and from her home) seems to me to be less an example of the father seeking to intimidate the mother, but rather an example of him asserting his right to do as he chose. However, he quickly drew himself back again when it was raised. It would seem to be an example of pushing a boundary to assert his rights. I also found his evidence in relation to rubbing the mother&#8217;s back to be less convincing than the mother&#8217;s very detailed account, and I am satisfied that it was an act of inappropriate behaviour in the context of their dynamic. Whilst it might be innocuous in many parental relationships even after separation, in this parental relationship it was clearly inappropriate and would be obviously unwanted. Why it occurred is less clear &#8211; was it a deliberate pushing of boundaries to see how she would react, or was it a spontaneous but ill-thought-out act? On fine balance, given the context the mother describes, I think it more probably the father was unable to control a spontaneous action. Whether that is more alarming than a deliberately provocative act is debateable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father&#8217;s attitude to therapy and the proposal formulated in the experts&#8217; meeting was a trenchant rejection of therapy on Dr Freedman&#8217;s terms. He was open to therapy effectively on his terms albeit those terms might also be my terms if they were either acceptable to him or he was left with no alternative to achieve his desired goal. His evidence that he would consider appealing my decision if he did not agree with it was refreshingly frank but is a further indication that what the father really seeks is an outcome on his terms rather than a willingness to accept that someone else with an objective and independent viewpoint and, if I say so myself, expertise in these sorts of matters might know better than he. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="cf01" style="font-family:'Times New Roman';font-size:12pt">The father remains driven by a sense of unfairness and injustice - no supervision was ever necessary; the court case and the costs were used to punish him by the mother. In fact, it seems a distinct possibility that the mother&#8217;s willingness to continue with contact, initially supervised by her mother and then by paid professionals has probably ensured that the father has as positive a relationship with the boys as he does. Had unsupervised contact taken place as sought by the father in the immediate post March 2021 environment, it seems highly likely that the traits which caused the abusive behaviour between 2019-2021 would have continued to some extent, perhaps at a lesser level given the dynamic between the mother and father would have been less present, but when he was extremely bitter, stressed at work and home and anxious. Repeat examples of his abusive behaviour then might have sounded a death-knell for his relationship with the boys or at least led to a significant interruption in their relationship. As it is the boys have experienced their dad in an almost exclusively positive way, undertaking fun activities and seeing his best side. LL still remembers his mean dad but considers he has changed. That indicates a considerable degree of maturity on his part in comparison to his more black and white brother, who only sees his dad as he has been over the past two years and has blanked out or genuinely forgotten the bad times. The father&#8217;s willingness to continue to push boundaries in court with his questions, his documents (formatted to comply superficially but in fact in breach of the rules) and in his interaction with the mother (touching her back and staring intently at her during his evidence until he realised I was looking at him) all indicate he continues to feel unjustly treated by her and the system, and although he professes no bitterness now or when I concluded he was, it seems clear that this is still a significant component of his thinking. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The overall effect of the father&#8217;s evidence was a mixed picture. A huge improvement when compared to his July 2022 evidence in delivery and content, but given the depths to which he mined in that evidence he is only just poking his head above the ground now and is far from the sunlit uplands which he seeks. Of importance to the eventual outcome is that there has been a change in his approach, presentation and the substance of his evidence which provides a foundation upon which we may build.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr RF&#8217;s evidence covers a number of subjects; the relationship between the father and the boys; handovers; awareness of adult issues; safeguarding concerns; his impartiality, and provision of the statement. The mother believes he has become too close to and not biased towards the father. She described conversations, and I have no reason to disbelieve her, in which Mr RF questioned the wisdom of a fact-finding process and how relevant the allegations might be. Given the findings I subsequently made, this in retrospect plainly looks ill-advised, as did his recommendation that supervision be lifted. However, hindsight is a marvellous thing and Mr RF was advising on what he saw in front of him and so although he might have led with his chin. I do not think he was biased. His observation that the mother [being] pleasant and friendly to the father at handovers and encouraging face-to-face meetings as being good for the boys, was incongruent with her allegations tends to  undermine her putting the childrens interests above their own but I do not think that is justified given my findings which would for many parents have caused them to insist on an independent person dealing with all handovers which she did not.  In the main his observations chime with other contact supervisors which supports the conclusion that his observations are by and large factual and objective. I accept his evidence about the positive nature of the relationship between the father and the boys and how keen they are to see him and see more of him. I also accept that at times the boys are challenging, rude and occasionally physically aggressive, and that he has managed this well. The origins of their awareness of adult issues, which are evidenced in the contact notes and Mr RF statement are it seems likely a product of the children&#8217;s experience and memories of the father (certainly in the earlier days of contact) together with a degree of atmospheric contamination from the mother and her household. It is not likely that the mother is actively denigrating the father to the children, that is both contrary to her nature and would be a self-inflicted wound, but is consistent with her being relatively open with the boys if they raise the issues, and it is also seems to me within her capacity to make unguarded comments about how suspicious and distrustful and perhaps fearful she is of the father and how he can behave. The making of safeguarding referrals was clearly his decision and the Social Services notes of the father&#8217;s position make clear he did not consider the mother responsible, albeit he took the opportunity to have a dig at her family. Given that he knew, as I have been told, of the findings I had made and my conclusions in relation to the mother&#8217;s high level of care for the boys and the father&#8217;s abusive behaviour, it seems a little surprising, but Mr RF was no doubt acting in accordance with what he sincerely believed to be his professional obligations rather than for any other motive. Thus overall, Mr RF&#8217;s evidence is of assistance in supporting the picture of the father as being capable, loving and appropriate during contact and of the boys having a strong bond with him.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Mother</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The mother&#8217;s evidence was given in much the same way as July 2022. She remained composed, focused on answering the questions, able to provide a high level of detail even down to the precise times of e-mails (I assume she has kept further diaries, albeit she never referred to them and they were not produced) and was able to give spontaneous additional detail about, for instance, the rubbing of the back, the reading of her email in the car, and the reconciliation agreement which did not sound rehearsed but was from recall. My confidence in relying on eye-witness accounts of events remains therefore intact with the caveats I identified on the last occasion. Her self-belief that she has an almost video like memory of events is maintained without acknowledging the possibility of memory creep or misperception. She remains prone to a degree of floridity or hyperbole &#8211; the father &#8216;intimidated&#8217; her by being on the bench or by hanging around the barbers. She finds it almost impossible to acknowledge any positive change or action of the father; struggling to really accept that the boys not only enjoy contact but actually now have a good relationship with their father. Of course, given my findings about her experiences with the father in his failure to abide by the reconciliation terms and addressing his problems in psychotherapy to a conclusion, his subsequent abusive behaviour and his response since 2021 in denial, counter-allegation and hugely stressful and expensive litigation, it is hardly surprising she is distrustful of him, and that she finds it difficult to be objective. The text exchange in recent days arising out of the boys questioning why their contact with the father would start late on day two of this trial and how the mother assumed that the father had been discussing the forthcoming case with the boys was a clear example of this. To the objective bystander, the likelihood of the father in professionally supervised contact initiating a conversation about the forthcoming court case is of course unlikely. A person with different experiences might have contacted the contact supervisor to ascertain what had occurred. But the mother has experienced what she experienced and so her default position is to assume the worst. This, of course, is by large what each of them do in respect of actions of the others which might have either a benign or a malign motive behind it; each assumes malign until proven otherwise. The mother accepted as much. She says she is taking beta-blockers to deal with stress, is off work for a while, and that she finds dealing with the father very difficult and stressful. She says matters had not really improved. But she finds it very stressful; who wouldn&#8217;t after her experiences in the father&#8217;s general approach over the last few years? I accept that she needs therapy to cope with the stress and pressure of interaction with the father to help her deal with the events of the last few years. Such therapy would hopefully give her better coping mechanisms, be able to gain greater perspective on the current situation, and thus be more objective going forward than she is currently able to be. That can only have benefits for her and the boys. The fact that she was prepared to do face-to-face handovers in the early days for the sake of the children (as narrated by Mr RF) shows her willingness to put the boys&#8217; interests over her own. In retrospect it was probably unwise from her own perspective and perhaps in an unexpected way was harder for the children given the very high level of conflict they had previously witnessed between their parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She was able to identify some ways in which she might be at fault, but only to a limited degree, and placed the lion&#8217;s share of the blame for the marriage failing on the father. This is largely justified, although her approach to the father&#8217;s recent changes of working practice could not really process the idea that he might legitimately have come to the conclusion that he ought to strike a better work life balance and that money was not all. Nor did she really seem able to acknowledge the huge stress that the father may have been under, in particular from spring 2020 when his private income plummeted as a result of lockdown and his medical practice had to take place under very stringent conditions, which given his obsession with cleanliness and order must have been even more challenging for him than many. Although the mother is by and large empathetic in nature and is particularly attuned to the boys, I think she has now (and -probably then) had developed a blind-spot in relation to the stress and anxiety that the father might be experiencing and how that was impacting on his behaviours which clearly were at their worst in 2020-2021. This distrustfulness and subjectivity has an effect on her ability to see any progress or beneficial change in the father. She now sees the marriage and the relationship very much through the lens of that traumatic period of time, and this clearly affects her views of any qualities the father may have. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She was quite insightful still about the risks although she sees them very much in terms of how they presented in 2019 to 2021; dirty shoes, mealtimes and suchlike although she was also quite astute in recognising the risk to the boys in a reformulation of the boys thinking about their lived experiences. She also was insightful about how the boys think, accurately predicting that were a worrying event to occur during unsupervised contact, LLA would be inclined to cover it up whereas LL would tell her. Although critical of the father, the mother did not take the opportunity to add to this. When questioned about the father&#8217;s personality traits, had she wished to target further criticism at him and to promote the thought that he might have a narcissistic personality disorder she might have taken the opportunity to describe other aspects of the DSM-V [criteria], however she did not.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have indicated earlier, I accept that the mother is capable of reinforcing some negative perceptions in the children about the father because she is unable to detach herself from those events and so if they come up she will be unable to deflect. It also seems that the intensity of the litigation, the emotional and temporal resources it takes up must at times lead to an atmosphere in the house where the negativity about the father will be palpable and will be imbibed by the children which leads to them being challenging to the father or referring to things they have heard which are critical of him. I do not accept this is deliberate. The mother remains adherent to the contact arrangements, accepts they must take place, accepts on some level they are of benefit to the boys and does not actively undermine them. To the extent the boys are influenced it is inadvertent. They would not be as positive as they are if their primary carer was not actively supporting their relationship with their father. That she can contemplate LLA being closer to the father is the ultimate illustration of this. Of course, the nature of their relationship with their father and his behaviour plays a role, but inevitably where the children live the very significant majority of the time with their mother it is in significant measure down to her too that they are enabled to have a good relationship with the father. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Evaluation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">47.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So where does this analysis of the evidence lead to in terms of the paramount welfare of the children taking into account the welfare checklist? I reject the father&#8217;s case that one can and should ignore Dr Freedman&#8217;s assessment for the reasons I have explained. That said, nor do I think the mother&#8217;s approach or the joint experts&#8217; meeting approach is necessarily correct. I consider her report, as a result of the limitations or flaws I have identified, tends to place the father&#8217;s level of dysfunction and risk further along the spectrum than I think it justifies. He is a significant risk, but not to the extent that Dr Freedman identifies, particularly when one takes into account the broader picture available to me from my knowledge of the case and the parties and the additional information I draw from Ms Sandrini and the rest of the evidence. If I were driven to conclude that Dr Freedman&#8217;s report was worthless I would find myself back in the position I was after the fact-finding where the father&#8217;s behaviours were not explicable by deliberate abuse, where the risk of repetition was not addressed by the passage of time and the other limited progress he has made, and where there would remain an unexplained underlying psychological issue relating to his character or personality which needed further exploration by an expert. Happily, the additional delay that would involve does not come into play. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span class="para2text1" style="text-decoration-line:underline;text-decoration-style:solid;color:initial">The ascertainable wishes and feelings of the child concerned (considered in the light of his age and understanding).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is clear that the children wish to spend more time with their father, considerably more time in LLA&#8217;s case in particular. They wish to spend overnights with him, and they wish to see the removal of supervision to enable them to do more things together. These views are to a very considerable degree authentic, derived from their own enjoyment of their relationship with their father. There is an element with LLA perhaps of adopting a position of the father in terms of fairness although this may to some extent be his own personal view too; children have a fairly acute sense of justice. LLA&#8217;s position seems to be without reservation because he has, it seems, reshaped this memory of life with his mum and dad so as to erase the negative. After the breakdown of the marriage, he was less enthusiastic about seeing his father as a result of the abusive experiences that had occurred. Whether he has now genuinely forgotten seems unlikely given LL&#8217;s memories and the fact that references back to unhappy times occur periodically. Thus, it seems more likely for LLA that makes life simpler for him to push to one side negative memories and focus on the positive. LL more clearly recalls the past, and either as a result of a level of maturity or again adopting to some degree a position he is aware the father adopts, thinks they should give unsupervised contact a try. The views of both boys deserve some weight, but they are the views of 8 &#189;-year-olds, and they are to be viewed in the context of the matters recorded above which lessen their weight, and more importantly they must be placed alongside the other important considerations, in particular risk and capability. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span class="para2text1" style="text-decoration-line:underline;text-decoration-style:solid;color:initial">Their physical, emotional and educational needs.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;color:initial;margin-left:0.5in;text-indent:-0.5in">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Both boys have a standard range of the usual needs. They are likely to have a vulnerability emotionally given their <span class="para2text1" style="color:initial">exposure to physically and emotionally abusive behaviour and this needs to be taken into account. Both Dr Freedman and Ms Sandrini support the need for child-centred therapy in order to address the consequences of their exposure to abuse but also their exposure to continuing parental disharmony and conflict. They have an emotional need to maintain their strong attachment to their mother and to build on their attachment to their father if that can be done safely. Although both boys are bright and do not have significant educational needs LL is thought to perhaps be dyslexic, but in terms of their educational needs these are unexceptional save that they are currently in a private school in which they are thriving, and which provides a safe and secure and nurturing environment for them. In particular, they have the support of ELSA which is a very important component moving forwards. Developing a relationship of trust with an individual at school such that they can and do talk about their feelings each fortnight is likely to be a useful and valuable form of support, both currently but also particularly going forward in the event of changes to their arrangements. I therefore consider that they have a very particular educational need to remain at their current private school and that would be highly material to how one could structure changes to their arrangements going forwards.</span></p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span class="endnote4" style="text-decoration-line:underline;text-decoration-style:solid">his</span><span class="para2text1" style="text-decoration-line:underline;text-decoration-style:solid;color:initial">The likely effect on him of any change in his circumstances.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The effect on the children of changes in their circumstances will of course be directly related to the nature of the change. A change in terms of the removal of supervision on weekday afternoons is likely to be welcome to them and, subject to the question of risk below, not to be accompanied by negative effects. LL might experience some concern over what will happen without the supervisor, but on the basis of his current expressed views it is likely to be a modest impact. A change to remove supervision on the weekend is also likely to be welcomed by both. LL might feel more than a twinge of concern about how his father might be on issues surrounding misbehaviour or other previous triggers of scary behaviour by their father. Although LLA seems to have compartmentalised his memories it is conceivable that even for him the removal of supervision may cause a flutter and open the window into the compartment of concern that I think exists in his memory. However, these are not likely, again subject to there being no repeat of the father&#8217;s abusive behaviours to be of more than passing concern to the children. More significant changes including the introduction of overnight contact are likely to raise that level of concern in the children&#8217;s minds. They will not rapidly be returning to their mother&#8217;s care; they are not sufficiently old enough to look after themselves or to really manage their father and a move to overnight contact would require a significant period of time in which their confidence in their father&#8217;s parenting had been established where he had gained their trust that scary dad was not going to re-emerge overnight. Extensions to overnight contact to include consecutive nights would logically follow from this. I do not think that they would be ready for this at the moment, and they are very very far from being ready to spend significant periods of time living with their father and being away from their mother.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span class="para2text1" style="text-decoration-line:underline;text-decoration-style:solid;color:initial">Their age, sex, background and any characteristics of his which the court considers relevant.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given their ages, the role modelling their father can provide is potentially of considerable benefit to the boys - if he is able to provide good quality parenting without repeats of the behaviours found, and without seeking to bring the children on side and distance them from their mother. . Their background of exposure to abuse is also highly relevant too, as is their background of exposure to conflict and separation of the two halves of their family with each mutually distrustful and hostile to the other parent and possibly the family. No bridge exists.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span class="para2text1" style="text-decoration-line:underline;text-decoration-style:solid;color:initial">Any harm which he has suffered or is at risk of suffering.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_52">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given my findings of the harm the boys have suffered as a consequence of their father&#8217;s emotionally and physically abusive behaviour, they are at risk of suffering future harm if that behaviour were to be repeated. There are new and additional risks related to the possibility of them rejecting their father were such behaviours to be repeated. Conversely there are risks that if the father were to undermine the mother in an attempt to become the primary role model that the boys might be split with LLA being more likely to align himself with his father, and LL to align himself with his mother, both because he has a greater awareness of his father&#8217;s scary side but also because he feels protected by his mother and perhaps protective of her. How these risks might manifest themselves will depend on many factors. This includes how much time they are spending with the father; the presence or not of supervision; the extent to which he has changed since 2021; the extent to which he changes in the future as a result of therapy (which may be expected to lead to more rapid change) or from the passage of time and experience (a much more gradual possibly static process); the extent to which they are vulnerable; the extent to which they can be supported in developing resilience and in being able to deal with any worrying behaviour in terms of reporting it, and the ability of the mother and father to insulate them from or indeed to address that hostility to reduce its level.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At present I accept that the risk the father poses in general terms has abated in some modest way since 2021. He has done many courses on parenting and anger management. He has had much support and input from contact supervisors. He has had the benefit of a supervised environment in which to test new skills in a safe setting and he has set the passage of time in which his parenting and the relationship it has with the boys has developed, and new ways of interacting have been created and bedded in. The contact supervisors have included experienced social workers; the father has been observed by Ms Sandrini and their feedback would support the conclusion that the father is now a better parent than he was. That has also thought to recognise that his parenting has been conducted in the safe confines of supervised contact. I accept Ms Sandrini&#8217;s point that the supervision has been so extensive and has become so familiar that it is unlikely that the father&#8217;s abilities have all been the product of his awareness of being under observation, and that if the risks were very close to the surface that there would have been some observed dysfunctional or abusive behaviour which there has not been. That would support the conclusion that the environment has helped, and that the father has made some improvements, but that given the absence of psychotherapy to address the underlying traits which can become dysfunctional they will remain and will remain susceptible to being triggered in particular in times of stress, anxiety, challenge. Psychotherapy remains the best way of addressing those sources of risk. The passage of time alone might demonstrate the father had learned, but the risks inherent in &#8216;giving it a try&#8217; would be very considerable compared to a progression based on the secure foundations of the father addressing the behaviour found by me in therapy. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span class="para2text1" style="text-decoration-line:underline;text-decoration-style:solid;color:initial">How capable each of his parents, and any other person in relation to whom the court considers the question to be relevant, is of meeting his needs.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;color:initial;margin-left:0.5in;text-indent:-0.5in">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="para2num1" style="color:initial">The mother remains an essentially capable mother, child centred, attuned, calm and protective. She can meet near all of their physical, educational and emotional needs. She has difficulty in relation to their emotional need for a positive relationship with their father as a consequence of her experiences of abusive behaviour, and the effect of this litigation and the further distrust and stress that it has caused her. This could be ameliorated to some extent in therapy but of course the main cause for change would be her having a lived experience where the father had himself changed, and demonstrably so in his interactions with her, in his parenting of the boys, and in his response to challenges in the parenting of the boys. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;color:initial;margin-left:0.5in;text-indent:-0.5in">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="para2num1" style="color:initial">The father self-evidently has a more fractured and complex capability. He is certainly capable of meeting the boys&#8217; physical and educational needs; indeed, in relation to some aspects of their physical needs he may be more capable than the mother particularly in relation to LLA. However, he has a very significant flaw in his capability of meeting their emotional needs which arises from the underlying dysfunctional personality or character traits which underpinned his abusive behaviour to the mother and boys within the marriage. He loves his children, and when his disturbed personality or character traits lie dormant, he can be loving, supportive, fun, inculcate security and provide good role modelling of hard work, active and healthy lifestyle and much beside. However, it the wrong situation, where a trigger or combination of triggers lead to the eruption of a dysfunctional expression of a personality or character trait, he could remain abusive in the sense of a risk of physical aggression and aggressive and frightening verbalisation to the children. He also remains vulnerable to seeking to diminish the mother, to promoting his own interests over hers and the boys, and to generating anxiety and stress in the mother which impacts on her ability to provide her best parenting to the children.</span></p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1"><span class="para2text1" style="text-decoration-line:underline;text-decoration-style:solid;color:initial">The range of powers available to the court under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">this Act</ref> in the proceedings in question.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_56">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no prospect of the parents co-operating at this point in time to manage the boys in a collaborative way. They are mutually distrustful of each other and assume the worst which means that negotiation and discussion to seek an agreed way forward in respect of any matter relating to the boys is inconceivable at the present time and for the foreseeable future. A veritable sea change in their attitudes to each other would be required, and I do not see this happening absent obvious changes in the father&#8217;s behaviour arising probably from therapy which would enable the mother&#8217;s level of suspicion to abate, and which would, as a by-product of the therapy, mean the father&#8217;s own perceptions of the mother would shift. This means that a highly defined order will be required dealing not only with the living and spending time with arrangements but also the exercise of parental responsibility in relation to day-to-day matters. A Re A schedule will be needed.  Exercise of parental responsibility on big-ticket items such as which school the children will go to, medical treatment, will I anticipate need application to the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is essential that the children remain at their current school so that changes in the spending time arrangements can be supported and monitored. <span class="cf01" style="font-family:'Times New Roman';font-size:12pt">Registration at alternatives ought to be uncontroversial but of course was not. Clearly, they ought to be registered in case the funds cannot be found to enable them to continue &#8211; whether from the marital assets, the father&#8217;s income, or from the maternal family. I am going to work on the assumption for this order that the funds will be forthcoming from some source, including the maternal grandparents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that drawing all of the above matters together allows a modest change to the current arrangements, such that dropping supervision of weekday contact to occur immediately. The risks are modest, the boys wish it, the effect on them is likely to be good overall, and the father&#8217;s capability suggests he will manage it. However, the risks and effects of change in relation to full-day contacts are different.  Supervision will need to continue for full-day contacts until the father has been in therapy with a psychiatrist psychotherapist for a three-month period, and it can end when that therapist confirms he has been attending and is engaged. Absent such engagement, a much longer period of successful unsupervised weekday contacts and supervised weekend contacts would be required to illustrate that the risks had ameliorated to the extent that supervision could be lifted. Six months seems to me to be too short, and one year too long; albeit somewhat arbitrary I would place that &#8216;no therapy&#8217; move to weekend unsupervised at nine months.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If weekend &#8216;time with&#8217; becomes unsupervised at three months, the therapy is continuing, and the father is engaged over the ensuing three months, the time could be extended to overnight at the weekend; thus after six months of engagement with therapy and no incidents of concern, a move to one overnight at the weekend; alternating Friday from school to Saturday evening or Sunday morning to Monday morning at school. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Three months after that &#8211; and so about a year from now (allowing for several weeks to get the psychotherapist on board) the matter can be listed for review before me to consider the way forward then. In the event the father rejects the therapeutic route, the review at one year will still be appropriate to see how the change to unsupervised (at 9 months) has then gone and whether it can move beyond that. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That framework does not envisage the boys living with the father but living with the mother and spending time with the father. That both reflects the reality &#8211; they do not and, absent significant progress with the father, will not live with him &#8211; but I also consider the father&#8217;s position currently where he seeks to equalise or prioritise his position over the mother requires that the mother has a sole lives with order, and the associated Re A schedule to minimise the issues they need to liaise over and to enable her to make the day to day decisions without worrying about communications with the father. I will make those orders accordingly, and the orders will need an accompanying schedule identifying who may do what in their time with the boys. The mother can remove the children from the jurisdiction by reason of that order for periods of up to one month. Any time lost should be made up with the father which may mean that the father might have several consecutive full days with the boys if the mother is away for more than a fortnight &#8211; they will not include overnights beyond the one night I provide for above. School holidays can involve extension of the Tuesday and Thursdays to full days with family supervision, but one session each week whilst supervision remains in place must be with a professional.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Along with the father seeking therapy for himself the mother should seek it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I think it is agreed, but if it is not a specific issue order can be made that the children should be referred to a play/art therapist.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I see no point at this stage in appointing a third party to assist the parties to make progress for the reasons set out above. The supervisor can advise, and the school will provide a forum for the children&#8217;s response to be independently monitored (although no obligation is on the school).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If the father makes progress in therapy, it may open a window to the parents exploring some coparenting work or family therapy but their relationship, the state of distrust and the relative lack of progress of the father so far makes that a distant prospect now.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not expect further applications to vary the arrangements set out save for the most pressing reason. Unjustified applications may of course result in section 91(14) orders. The parties and children need to move away from the court arena for as long as possible, and to implement this decision and live their lives.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I will prepare a Narrative to go to the boys. It might be sensible for Dr Freedman and Ms Sandrini to have the opportunity to consider whether it is suitable for these 8-year-old boys.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That is my judgment.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

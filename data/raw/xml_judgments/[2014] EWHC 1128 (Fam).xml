@@ -1,0 +1,730 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/1128"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/1128"/>
+	  <FRBRdate date="2014-03-21" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1128"/>
+	  <FRBRname value="A &amp; B v P Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1128"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1128"/>
+	  <FRBRdate date="2014-03-21" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1128/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1128/data.xml"/>
+	  <FRBRdate date="2024-10-27T23:31:35" name="transform"/>
+	  <FRBRdate date="2024-12-06T19:30:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2014-03-21" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-&amp;-b" href="" showAs="A &amp; B"/>
+	<TLCPerson eId="p-council" href="" showAs="P Council"/>
+	<TLCPerson eId="m-a-child-by-his-childrens-guardian" href="" showAs="M (A Child by his Children&#8217;s Guardian)"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis-dbe" href="/judge-mrs-justice-theis-dbe" showAs="MRS JUSTICE THEIS DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2014</uk:year>
+	<uk:number>1128</uk:number>
+	<uk:cite>[2014] EWHC 1128 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>c28b06d224d5f07e6a2218f7c6bb8b5c1f16159cb344d0bb7376225025d73310</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><span style="font-size:11pt">This judgment was delivered in private. The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved. All persons, including representatives of the media, must ensure that this condition is strictly complied with. Failure to do so will be a contempt of court.</span></p>
+      <p class="CoverText">Case No: 29/2013.</p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2014] EWHC 1128 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2014-03-21" refersTo="#judgment">21/03/2014</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis-dbe">MRS JUSTICE THEIS DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.68in 1.53in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a-&amp;-b" style="font-weight:bold">A &amp; B</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicants</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#p-council" style="font-weight:bold">P Council</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">1st Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#m-a-child-by-his-childrens-guardian" style="font-weight:bold">M (A Child by his Children&#8217;s Guardian)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">2nd Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">A and B </span>Appeared in Person</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr T Solicitor-Advocate </span>(P Council) for the <span style="font-weight:bold">1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Lee Arnot</span> (instructed by W solicitors) for the <span style="font-weight:bold">Guardian</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Ruth Cabeza </span>(instructed by Cafcass Legal) </p>
+      <p style="text-align:center">Hearing date: 6th March 2014</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Judgment</p>
+      <p><span style="font-weight:bold">Mrs Justice Theis DBE:</span></p>
+      <p><span style="font-weight:bold">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">This case concerns M now 9 years old. He was born in Thailand. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">His step father, B, has applied to adopt M. His mother consents to the application. The preliminary issue I have to determine is whether his father should be notified of the adoption application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">His mother is A now 41 years old. She was born in Thailand, now holds dual British/Thai nationality having received a naturalisation certificate as a British Citizen on 21 November 2013. Prior to that she held Thai nationality alone. She was given a settlement visa by the British Embassy in Bangkok on 2 January 2007 and granted indefinite leave to remain in the UK by the UKBA on 18 December 2008.  She has been habitually resident here since 15 January 2007.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">M&#8217;s birth father is X now age 45 years. He is a national of a third country which is neither in the EU nor a party to the 1996 Hague Convention and his current address is not known. He has not seen or had any contact with M since just after his birth in 2005, save for one brief visit to the maternal family home in Thailand in late 2007/early 2008.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">M&#8217;s step-father is B now age 54 years. He was born in Malta and has been a British national since birth. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">The mother and step-father were married in Thailand on 29 December 2006 and came to live here on 15 January 2007. They have lived in the UK since then, save for short trips back to Thailand. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">M was issued with a tourist visa by the British Embassy in Bangkok on 28 February 2008; he travelled to the UK on 19 March 2008. The original intention was for him to return to Thailand but he soon became part of the family here and the decision was made to apply for a settlement visa. M returned to Thailand on 24 August 2008, he was granted a settlement visa on 3 September 2008, returned to the UK on 25 October 2008 and was granted indefinite leave to remain in the UK with the mother on 19 December 2008.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">The mother and step father have had two children together, F aged 7 years and G aged 4 years. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">The mother has an older child from an earlier relationship, H, aged 21 years.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother and step father applied jointly to adopt M, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/46" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 46</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">  Adoption and Children Act 2002</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref>). Although they received some initial legal advice they have acted in person.  It is accepted that only the step father needs to make the application and they will need to amend the application. Their application dated 12 September 2013 was issued on 29 October 2013. In the application they state the father does not have parental responsibility and they seek to dispense with his consent as he cannot be found and/or M&#8217;s welfare requires it.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The application was supported by a letter from the mother and step-father dated 10 October 2013. In that letter they requested the court to dispense with the requirement to contact the father due to alleged previous violent and threatening behaviour by him to the mother and her family. They state they do not believe the father has parental responsibility; the father has shown no interest in M since 2005, has had no contact with the mother, maternal family or M since then save for two isolated contacts once in 2006 and then once in late 2007/early 2008; he has never provided any financial support for M and his current whereabouts are not known.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 31 October 2013 the court directed Cafcass to appoint a Children&#8217;s Guardian for the child, to consider, in particular, whether notice of the application to the natural father should be dispensed with, directed the Local Authority to file its Annex A report within six weeks and listed the matter for directions on 24 January 2014. Ms  B was appointed the Children&#8217;s Guardian.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Local Authority filed the Adoption Report dated 21 January 2014. It is prepared by DL, adoption social worker, and supports the adoption application. The report records that </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;the father is recorded on the birth certificate but according to the mother in Thai legislation that does not give parental responsibility to the father&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt">. The Local Authority did not propose taking any further steps to notify the father of the application or obtaining any further information from him in respect of the proposed adoption. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Children&#8217;s Guardian filed her report dated 22 January 2014 together with the mother&#8217;s written consent to the application. The Guardian supports the father not being notified and recommends an adoption order is made.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 24 January 2014 the matter was transferred to the High Court and M was joined as a party to the proceedings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The matter came before me on 29 January 2014 when I made directed the applicant step father and the mother to file a statement and skeleton arguments to be lodged by all parties and the Local Authority. Cafcass Legal consented to a direction to provide a skeleton argument to assist the court. The matter was fixed for hearing on 6 March 2014.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The court is enormously grateful to all parties, the Local Authority and Cafcass Legal for the written skeleton arguments submitted by them. They are all of the highest standard, particularly that submitted by Ms Cabeza on behalf of Cafcass Legal who has the immeasurable benefit of considering the issues from a neutral standpoint. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The Issue</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The central issue I have to determine is whether the father should be given notice of these proceedings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There was some uncertainty as to whether the father holds parental responsibility in relation to Thai law, although the mother and step-father do not believe he does as they have made clear from the start, not only in their application but since in their discussions with Ms L and Ms B. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At the invitation of Mr Arnot, on behalf of the Children&#8217;s Guardian, at the directions hearing on 29 January I included a recital to my order as set out below. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic">AND UPON it being recorded that the Court will proceed on the basis that the birth father, X, holds parental responsibility for the child under the law of the Kingdom of Thailand which subsists in accordance with Article 16 of the 1996 Hague Convention following the child becoming habitually resident in England and Wales.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I did not make any determination whether the father had parental responsibility under Thai law. That recital was made before the court had the benefit of the detailed legal submissions it now has available to it.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The Relevant Legal Framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There is a measure of agreement between the parties, the Local Authority and Cafcass Legal regarding the relevant legal framework for this application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">A parent with parental responsibility is an automatic party to the proceedings under rule 14.1 Family Procedure Rules 2010 (FPR 2010). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">A parent who does not have parental responsibility may be given notice of the proceedings and that person may apply to the court for party status (rule 14.3 FPR 2010).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It is agreed that if the father did hold parental responsibility under Thai law, that is not recognised in England and Wales for the purposes of English adoption law. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This is due to the operation of Article 4 of the Convention on Jurisdiction, Applicable Law, Recognition, Enforcement and Co-Operation in respect of Parental Responsibility and Measures for the Protection of Children (Concluded 19 October 1996) (hereafter referred to as the 1996 Convention). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Under Article 16 of the 1996 Convention parental responsibility which exists under the law of the State of the child&#8217;s habitual residence subsists after a change of that habitual residence to another State. This is even if the State of habitual residence is a non-contracting State (Article 20). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Under Article 17 the exercise of parental responsibility is governed by the law of the State of the child&#8217;s habitual residence and if the child&#8217;s habitual residence changes, it is governed by the law of the State of the new habitual residence. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">However, when considering the scope of the 1996 Convention, Article 4 makes clear it does not apply to the establishment or contesting of a parent-child relationship, decisions on adoption, measures preparatory to adoption, or the annulment or revocation of adoption or the name or forenames of the child. The combination of the Explanatory Report on the 1996 Hague Convention by Paul Lagarde (in particular paragraph 28), the revised draft practical handbook on the 1996 Convention (May 2011) (in particular paragraph 3.37) and the Practice Guide on the 1996 Convention published by the Ministry of Justice (February 2013) (in particular page 6) make clear Article 4 is to be interpreted widely and includes all aspects of the adoption process, including the placement of children for adoption.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It is therefore agreed by the parties that even if the father did hold parental responsibility pursuant to the operation of Article 16, by operation of Article 4 he would not be treated as a parent within the context of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/52/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 52(6)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref>. Within that context the father is not treated as a father who holds parental responsibility unless he has acquired it under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 2</ref> or 4 <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>), which this father did not.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The consequence is that the father in this case does not hold parental responsibility for M within the meaning of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref>, his consent to the adoption under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/47/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 47(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref> is not necessary and would not be required to be dispensed with under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/52" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 52</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref>. He is therefore not an automatic party to the adoption application under rule 14.1 FPR 2010.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">However, notwithstanding that an unmarried father with &#8216;foreign parental responsibility&#8217; is not a father with parental responsibility for the purposes of English adoption law the provisions of rule 14.4 FPR 2010 provide as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.62in"><span style="font-style:italic">Notice of proceedings to person with foreign parental responsibility</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">14.4</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.62in;text-indent:0.38in"/>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.62in;text-indent:0.38in"><span style="font-style:italic">This rule applies where a child is subject to proceedings to which this Part </span><marker name="tab"/><span style="font-style:italic">applies </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.62in"><span style="font-style:italic">and &#8211;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic">(a)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-style:italic">a parent of the child holds or is believed to hold parental responsibility for the </span><marker name="tab"/><span style="font-style:italic">child under the law of another State which subsists in accordance with Article 16 </span><marker name="tab"/><span style="font-style:italic">of the 1996 Hague Convention following the child becoming habitually resident </span><marker name="tab"/><span style="font-style:italic">in a territorial unit of the United Kingdom; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">(b)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-style:italic">that parent is not otherwise required to be joined as a respondent under rule </span><marker name="tab"/><span style="font-style:italic">14.3.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.62in;text-indent:0.38in"><span style="font-style:italic">The applicant shall give notice of the proceedings to any parent to whom the </span><marker name="tab"/><span style="font-style:italic">applicant believes paragraph (1) applies in any case in which a person who was </span><marker name="tab"/><span style="font-style:italic">a parent with parental responsibility under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> would be a respondent </span><marker name="tab"/><span style="font-style:italic">to the proceedings in accordance with rule 14.3.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.62in;text-indent:0.38in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The applicant and every respondent to the proceedings shall provide such </span><marker name="tab"/><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">details as they possess as to the identity and whereabouts of any parent they </span><marker name="tab"/><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">believe to hold parental responsibility for the child in accordance with paragraph </span><marker name="tab"/><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">(1) to the court officer, upon making, or responding to the application as </span><marker name="tab"/><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">appropriate.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.62in;text-indent:0.38in"><span style="font-style:italic">Where the existence of such a parent only becomes apparent to a party at a later </span><marker name="tab"/><span style="font-style:italic">date during the proceedings, that party must notify the court officer of those </span><marker name="tab"/><span style="font-style:italic">details at the earliest opportunity.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.62in;text-indent:0.38in"><span style="font-style:italic">Where a parent to whom paragraph (1) applies receives notice of proceedings, </span><marker name="tab"/><span style="font-style:italic">that parent may apply to the court to be joined as a party using the Part 18 </span><marker name="tab"/><span style="font-style:italic">procedure.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Discussion </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Although the recital recorded in the order dated 29 January stated that the court would proceed on the basis the father has parental responsibility under Thai law which subsists in accordance with Article 16 the mother and step father do not believe the father has parental responsibility, or its equivalent, under Thai law.  As mentioned, this was their position in the adoption application form and in their discussions with Ms L and Ms B.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother and step father have formed that belief for a number of reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.87in;text-indent:-0.12in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.87in;text-indent:0.26in"><span style="font-family:'Times New Roman';font-size:12pt">Whilst they accept the father&#8217;s name is on M&#8217;s birth certificate they do </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">not understand that to confer parental responsibility. The mother describes </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">in her statement the social stigma in Thailand of not being able to name the </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">father on the birth certificate. The mother said the father did not go with her </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">to register the birth, but he allowed her to take his passport to enable her to </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">do so.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.18in;text-indent:-0.39in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt">When M was born his birth was recorded in the name M Y. At the bottom of M&#8217;s birth certificate there is a </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">note that reads as follows </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;at the mother&#8217;s request M&#8217;s&#8217; family name was changed from Y  to Z (request number nnn) entered into the register on 15 February 2008&#8217;.</span><span style="font-family:'Times New Roman';font-size:12pt"> The mother states when she made this change via the Amphur (the equivalent of the local </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">authority in Thailand) and the relevant official made enquiries and was </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">satisfied that she and the father had not married, M&#8217;s birth had not been legitimised and she was entitled to change M&#8217;s name without consulting the father.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.87in;text-indent:-0.12in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.87in;text-indent:0.26in"><span style="font-family:'Times New Roman';font-size:12pt">They have made enquiries about the legal position and refer in their </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">position statement to the provisions of section 1546 of the Thai Civil and </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">Commercial Code which provides when a child is born and the mother is </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">not married to the father, the mother is the sole person who exercises </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">parental powers over the child to the exclusion of the father.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.87in;text-indent:-0.12in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.87in;text-indent:0.26in"><span style="font-family:'Times New Roman';font-size:12pt">Section 1547 of the Code provides the following exceptions &#8211; if there is a </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">subsequent marriage between the parents, if there is registration made at the </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">Amphur or there is a judgment of the court. As already mentioned above, </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">the Amphur is described by the mother as the equivalent of a local authority </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">here. The registration requires both parents to agree in writing that the </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">father is the legitimate father and the child needs to have reached the age of </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">7 or 8 years to understand and accept what is happening. In this case none </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">of these exceptions apply.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.18in;text-indent:-0.43in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt">On 27 August 2008 the mother obtained a certificate from her Amphur confirming that the father had had no involvement in M&#8217;s life, the mother had raised M on her own and the father had not legitimised M&#8217;s birth. This certificate is supported by a contemporaneous record of the meeting of the local community where the mother lived, held on 5 </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">February 2008 and presented to the Amphur that underpins the certificate.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.87in;text-indent:-0.12in">(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.87in;text-indent:0.26in"><span style="font-family:'Times New Roman';font-size:12pt">The mother states the Thai authorities will not grant a passport to a minor </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">unless it can be shown that all those with parental responsibility have </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">agreed the passport should be issued. The record of the meeting of the local </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">community was accepted as sufficient evidence by the Thai Ministry of </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">Foreign Affairs when M was granted his first passport on 19 February </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">2008. The Amphur certificate dated 27 August 2008 was relied upon by the </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">Royal Thai Embassy, London, when M renewed his passport on 10 </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">January 2013. Each agency accepted that only the mother was required to </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">consent to the issue of these passports.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.18in;text-indent:-0.43in">(7)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt">This certificate was relied upon by the British Embassy in Bangkok when M was granted a settlement visa in September 2008, by the UKBA in December 2008 when M was granted indefinite leave to remain and by the French Embassy in London when he was given a visa to visit France in July 2009. All these agencies accepted this certificate as evidence that the father had no parental rights and no agency required any further enquiries to be made as to the father&#8217;s position.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.87in;text-indent:-0.12in">(8)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.87in;text-indent:0.26in"><span style="font-family:'Times New Roman';font-size:12pt">The mother and step-father entered into a parental responsibility agreement </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">which was registered with the Principal Registry of the Family Division on </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">13 March 2013. In registering that agreement the explanations and </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">documents set out above were relied upon and were accepted.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Although the mother gave brief oral evidence to confirm her statement and give more information about an email address she has had since 2005 no party cross examined her. No party has sought to suggest that either she or the step father have given anything other than a credible account regarding the background circumstances. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I am satisfied the mother and step-father do not believe the father has parental responsibility under Thai law and there is a rational foundation for their belief for the reasons set out in the previous paragraphs. That belief is derived from a number of different sources and there is no suggestion that the mother and step father have done other than comply with all the relevant authorities both in Thailand and here.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In the light of that I do not consider the mandatory requirement for notice of these proceedings to the father applies as, in accordance the provisions of rule 14.4 (1) and (2) the applicant (in this case the step-father) does not believe the father holds &#8216;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">parental responsibility for the child under the law of another State which subsists in accordance with Article 16 of the 1996 Hague Convention following the child becoming habitually resident in a territorial unit of the United Kingdom&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Even if the father does not hold foreign parental responsibility the court is still required to consider whether the father should be given notice of the application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In addition, even if the applicant is wrong and the father does hold foreign parental responsibility the court retains a power under its inherent jurisdiction to grant exception from the requirements of the FPR 2010 where it is necessary to achieve justice in a case. Although none of the previous authorities have considered the position in the context of a father with foreign parental responsibility there is no reason, in principle, why the power should not be available in such a case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Miss Cabeza submits that when considering the court&#8217;s approach in earlier cases the position is complicated by the fact that an unmarried father with foreign parental responsibility would appear to have a slightly different status for the purposes of adoption than the fathers in the earlier cases, due to the mandatory requirement for notice in rule 14.4 (2) FPR 2010. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">She submits there is a distinction in the approach in previous cases depending on whether the court is being asked whether or not to give notice of an adoption application to a father without parental responsibility or where the court has been asked to exercise its power to grant exception from the rules requiring a father with parental responsibility to be given notice of the proceedings. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In the former case it has long been recognised that in applications for adoption the position of the natural father who did not have parental responsibility had to be considered and a decision taken in each case whether, or not, to give him notice of the proceedings. Whether to do so should be considered on the facts of each case.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Re H (a child)(adoption: disclosure), Re G(a child)(adoption: disclosure) [2001] 1 FCR 726 </span><span style="font-family:'Times New Roman';font-size:12pt">set out that as a matter of general practice, directions should be given to inform natural fathers of such proceedings unless for good reasons the court decided it was not appropriate to do so. The issue of whether or not the father had a right to respect for family life under Article 8  of the European Convention for the Protection of Human Rights and Fundamental Freedoms 1950 as set out in Part 1 of Schedule 1 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> was important to establish. If he did then generally Article 6(1) of the Convention is engaged and there would need to be strong countervailing factors to outweigh the father&#8217;s Article 6 rights in favour of the mother&#8217;s right to private family life. Such countervailing factors may include serious domestic violence that placed the mother at serious physical risk. As the then President, Dame Elizabeth Butler Sloss, observed in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Re H (ibid)</span><span style="font-family:'Times New Roman';font-size:12pt"> at para 48 </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;There may well be other situations in which a father should not be informed of the proceedings and my examples are, of course, not exhaustive&#8217;.</span><span style="font-family:'Times New Roman';font-size:12pt"> If the father does not have any Article 8 rights the provisions of Article 6 are not engaged and notice does not need to be given, unless there is a real possibility that he might make an application under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> which the court ought to entertain. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In the cases where the court is being asked to exercise its power to grant exception from the rules which require a father to be given notice the previous cases establish this power should only to be exercised in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;highly exceptional circumstances&#8217; </span><span style="font-family:'Times New Roman';font-size:12pt">(per Thorpe LJ </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Re AB (Care Proceedings: Service on Husband Ignorant of Child&#8217;s Existence) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/1842" uk:canonical="[2003] EWCA Civ 1842" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 1842</ref> para 3) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"/><span style="font-family:'Times New Roman';font-size:12pt">or a </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;high degree of exceptionality is required&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt"> (</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">per Longmore LJ M v F <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/273" uk:canonical="[2011] EWCA Civ 273" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 273</ref> para 25).</span><span style="font-family:'Times New Roman';font-size:12pt"> This will depend on the court&#8217;s assessment of the risk of future harm. In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">M v F (ibid)</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt"/><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">para 3 </span><span style="font-family:'Times New Roman';font-size:12pt">Thorpe LJ stated </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;When evaluating the risk of future harm there can be no minimum requirement. The court&#8217;s first task is to identify the nature and extent of the harm in contemplation. The greater the harm the smaller need be the risk. Obviously, the risk of death may be very small, whereas the risk of turbulence in family relationships would need to be much higher.&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt"> In assessing the likelihood of harm arising from notice of the proceedings the test to be applied is the test in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Re H (minors)(Sexual Abuse: Standard of Proof) <ref href="#" uk:canonical="[1996] AC 563" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] AC 563</ref> </span><span style="font-family:'Times New Roman';font-size:12pt">namely </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;in the sense of a real possibility, a possibility that cannot sensibly be ignored having regard to the nature and gravity of the feared harm in the particular case&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There may, in reality, be little difference in the principles between these two strands of cases as a critical starting point is to establish whether or not the father has any right to family life pursuant to Article 8. It is agreed this is a question of fact and there are a number of matters for the court to consider. It has been said that the threshold for establishing family life has been set at a fairly modest level.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The facts that would support a finding that he does have them are the mother and father cohabited in the period up to M&#8217;s birth, for a very short period after he was born and the father is recorded as the father on the birth certificate. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Against such a finding is the evidence which demonstrates that the father has not sought to continue his relationship with M when he could have done so, as the maternal family in Thailand have not moved and he knows where they are. Apart from a brief visit in late 2007/early 2008 there has been no meaningful contact or any interest expressed by the father in M since March 2005. Mr Arnot submits he has, at the very least, acquiesced in a situation where there has been no de facto family life since, at the latest, very shortly after M&#8217;s birth over 8 years ago. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Having considered the evidence in this case I am satisfied, on the particular facts of this case, that there was nothing to show the father had a right to respect for his family life with M pursuant to Article 8. He has not taken any meaningful steps in the last 8 years to retain contact with M, when he could have done so. The mother and father were only together for barely a week and a day after M&#8217;s birth in what were clearly difficult circumstances and whilst his name was on the birth certificate it is more likely than not for the reasons described by the mother, not because that was what the father wished. In those circumstances, in my judgment, Article 6 is not engaged.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother and step father submit the court should not notify the father of the proceedings due to their fears about the fathers violent and threatening behaviour in the past to the mother, her older son, her cousin and her mother. They invite the court to exercise its discretion not to do so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In her statement the mother gives a detailed account of a number of extremely violent assaults on her by the father prior to her pregnancy, during her pregnancy and afterwards. Some events are supported by contemporaneous records from the police and others by statements from her neighbour, her mother and her eldest son. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">According to the mother&#8217;s statement her relationship with the father started in about October 2003. She suffered a number of very violent assaults from the father between April 2004 and March 2005. He drank to excess and his behaviour was very unpredictable. On some of these occasions she called the police and has produced documentation to support them attending. During this time she describes the father assaulting the maternal grandmother and her son H.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">After M was born they lived together for one week before there was a further violent assault when the father attempted to throw the mother out of the window of their 8</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> floor flat. With the assistance of a neighbour the mother was able to flee with M and return to her mother&#8217;s home. The father attended the mother&#8217;s home in early March 2005, apologised and promised not to be violent again. The mother decided to give the father another chance. On the second day of the reconciliation the father assaulted her again, forcibly evicting the mother from the flat but keeping M with him. The father left M alone in the flat and the mother, with the assistance of the police, managed to gain entry. She returned to her mother&#8217;s home with M. The father came to collect some belongings a few days later, was aggressive and drunk and showed no interest in M.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The next contact with the father was in February 2006, some two years later. He attended where the mother worked and harassed her resulting in the police being called. This is supported by a report from the police of their attendance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The father&#8217;s final contact was when he visited the maternal family home once between September 2007 and January 2008 when the mother was in England. An account of this visit is given by the mother&#8217;s sister. She said the father was drunk and aggressive, he said he had just got out of prison and after about 2 hours the police moved him on. M was present and the father displayed little, if any, interest in M.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Since then there has been no further contact from the father other than some abusive phone calls to the maternal home in Thailand in early 2008, resulting in them changing their number. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother&#8217;s family still remain in the same home. The mother still has the same email address, which she confirmed in oral evidence was set up by the father and is still operational. The father has made no attempt to contact the mother, her family or M for the last four years.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Although the mother confirmed her statement in oral evidence no party sought to cross examine her. All parties have submitted that the account she gives is credible. This is on the basis of the extensive enquiries that have been undertaken by the Local Authority. The social worker, Ms L, who completed the detailed Adoption report, visited the family on about 10 occasions over a period of about seven months. The Children&#8217;s Guardian visited twice and also obtained independent translations of the documents translated by the mother. Both Ms L and the Children&#8217;s Guardian accept the account given by the mother.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In her statement the mother describes the fear she has for the safety of her, M and her family if the father has notice of the proceedings. This is based on her experience of his behaviour in the past. She considers there is a real risk he will be threatening and violent to her and her family. She does not consider any objection he may have to the adoption will be out of any genuine desire to re-enter M&#8217;s life, as she says he has taken no steps to do so for so long.  Her view is supported by the step-father.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Having considered the evidence I am satisfied that there is a real possibility that cannot be sensibly ignored that this father, if informed of the existence of these proceedings, would be threatening and violent to this mother and her family, both here and in Thailand. It is a possibility that cannot be ignored having regard to the extent of the father&#8217;s alleged violent and unpredictable behaviour towards the mother and her wider family in the past and is in the context where the maternal family remain living in the same home in Thailand which is known to the father.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I have very carefully considered the important competing considerations in this case and I am very mindful of the general practice to inform natural fathers of applications such as this which fundamentally affect the status of a child. I have considered this aspect of the case in the context of rule 14.4 and, for the purposes of this analysis assumed this father does have foreign parental responsibility. So there is a mandatory requirement under the rules for him to be given notice of the proceedings. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I am considering this issue in the context of my finding that the father, for the reasons I have already explained, does not have any existing Article 8 rights. He is someone who has not sought to maintain his ties with M. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The wish of the mother and step-father for confidentiality is, in my judgment, an exceptional circumstance, on the facts of this case, justifying the court exercising its power to grant exception from the rules requiring the father to be given notice. The evidence based fears expressed by the mother regarding the father&#8217;s behaviour is founded on the father&#8217;s previous violent behaviour to her, M and her wider family which is supported by corroborative evidence. In my judgment there is a real possibility that if the father is informed of this application he could physically harm or threaten the mother or the wider maternal family. It is a possibility that cannot be ignored having regard to the extent of the father&#8217;s alleged violent behaviour towards the mother and her wider family in the past, in the context where the maternal family remain in the same home which is known to the father. On the particular facts of this case the balance, in my judgment, comes down in favour of the father not being notified about these proceedings, even if he could be located. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Although not part of the submissions of any party I have carefully considered whether not serving the father is storing up trouble for later, as there is a risk he may find out if he at some point in the future sought to make contact with M. Whilst it is a consideration it is outweighed by the risk of harm identified above. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">During the course of the hearing submissions were made regarding the duties of the Local Authority regarding the father. Mr T, on behalf of the Local Authority, accepts that in applications such as this the Local Authority are not acting as an adoption agency and this is a &#8216;non-agency adoption&#8217;. The proposed adopter(s) must give notice of intention to adopt within the requisite period to the appropriate local authority in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/44" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 44</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref>.</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"/><span style="font-family:'Times New Roman';font-size:12pt">This imposes an obligation on the local authority to investigate the matter and report under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/44/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 44 (5)</ref>. Under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/44/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 44 (6)</ref> their investigation must </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;..so far as practicable, include the suitability of the proposed adopters and any other matters relevant to the operation of section 1 in relation to the application&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt">. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Rule 14.11 FPR 2010 requires the local authority to file a report and that it should cover the matters specified in Practice Direction 14C. The matters to be covered are specified in Annex A to the Practice Direction, which includes information about the natural father. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Miss Cabeza submits that when compiling a report under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/44/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 44(5)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref> the requirements of the Practice Direction do not appear to oblige a local authority to speak to a birth father or notify him of the adoption proceedings. However, as much information as can be obtained about him should be included in the report and the local authority are obliged to set out if in its view any person not a party should be joined. As part of its investigation the local authority is required to obtain the views of both parents with regard to the adoption and contact post adoption, which imports an expectation that the local authority will speak to both parents irrespective of whether the father has parental responsibility. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr T, on behalf of the Local Authority, submits that pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/44/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 44 (6)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref> the local authority must investigate &#8216;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">..any other matters relevant to the operation of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> in relation to the application&#8217; </span><span style="font-family:'Times New Roman';font-size:12pt">which includes family relationships (<ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1 (4)</ref> ( c ) and (f) <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">ACA 2002</ref>). He invites the court to direct that the Local Authority is not required to make any further enquiries regarding the father. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I am satisfied the Local Authority in this case does not need to take any further steps regarding the father for the reasons outlined above.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I should also record there was a debate during the hearing as to whether I should adjourn the proceedings to seek expert evidence on the issue of whether the father had parental responsibility under Thai law. No party sought a direction. In the end I considered it was not considered </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;necessary&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt"> in the light of the recital set out in the order dated 29 January. In the event it would not have made any difference to the court&#8217;s decision and would have resulted in further delay and considerable expense.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In the light of my decision the matter can now be listed for the court to determine the adoption application on its merits.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

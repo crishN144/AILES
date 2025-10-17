@@ -1,0 +1,1330 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2021/2931"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2021/2931"/>
+	  <FRBRdate date="2021-11-03" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2931"/>
+	  <FRBRname value="Derby City Council v BA"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/2931"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/2931"/>
+	  <FRBRdate date="2021-11-03" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/2931/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/2931/data.xml"/>
+	  <FRBRdate date="2022-03-16T15:50:39" name="transform"/>
+	  <FRBRdate date="2024-01-19T06:27:00" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2021-11-03" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="derby-city-council" href="" showAs="Derby City Council"/>
+	<TLCPerson eId="the-council-of-the-city-of-york" href="" showAs="The Council of the City of York"/>
+	<TLCPerson eId="plymouth-city-council" href="" showAs="Plymouth City Council"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-macdonald" href="/judge-the-honourable-mr-justice-macdonald" showAs="THE HONOURABLE MR JUSTICE MACDONALD"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2021</uk:year>
+	<uk:number>2931</uk:number>
+	<uk:cite>[2021] EWHC 2931 (Fam)</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>91f6a65670dec5867ca2af72230c8263b95d0fde74932b66f1d68a19faca8a9d</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.50in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1.00in; margin-right: 1.00in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-size: 11pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:1.0597222222222222in;height:1.05in;"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2021] EWHC 2931 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD21P00578</docketNumber>, FD21P00627 and FD21P00653</p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2021-11-03" refersTo="#judgment">03/11/2021</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-macdonald">THE HONOURABLE MR JUSTICE MACDONALD</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <p><span style="font-weight:bold">Case No. FD21P00578</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#derby-city-council" style="font-weight:bold">Derby City Council</party></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"><role refersTo="#applicant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">BA</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">OM</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">CK</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">The Secretary of State for Education</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">Ofsted</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">First Respondent</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Second Respondent</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Third Respondent</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">First Intervener</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Second Intervener</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p><span style="font-weight:bold">Case No. FD21P00627</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#the-council-of-the-city-of-york" style="font-weight:bold">The Council of the City of York</party></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"><role refersTo="#applicant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">TJ</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">VJ</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">FJ</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">The Secretary of State for Education</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">Ofsted</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">First</span></p>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Respondent</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Second Respondent</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Third Respondent</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">First Intervenor</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Second Intervenor</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p><span style="font-weight:bold">Case No. FD21P00653</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#plymouth-city-council" style="font-weight:bold">Plymouth City Council</party></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"><role refersTo="#applicant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">TV</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">MJ</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">QV</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">The Secretary of State for Education</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">Ofsted</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">First Respondent</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Second Respondent</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Third Respondent</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">First Intervener</span></p>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Second Intervener</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Case No. FD21P00578</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Lorraine Cavanagh QC and Mr Shaun Spencer </span>(instructed by <span style="font-weight:bold">Derby City Council</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Richard Drabble QC and Mr Christopher Barnes </span>(instructed by <span style="font-weight:bold">Bhatia Best</span>)<span style="font-weight:bold"> appeared for the First Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Second Respondent did not appear and was not represented</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Brendan Roche QC and Ms Kathleen Hayter </span>(instructed by <span style="font-weight:bold">Kieran Clarke Green Solicitors</span>) for the<span style="font-weight:bold"> Third Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Jonathan Auburn QC  </span>(instructed by <span style="font-weight:bold">Government Legal Department</span>) for the<span style="font-weight:bold"> First Intervenor</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Joanne Clement </span>(instructed by <span style="font-weight:bold">Ofsted</span>) for the<span style="font-weight:bold"> Second Intervener</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Case No. FD21P00627</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Lorraine Cavanagh QC and Mr Shaun Spencer </span>(instructed by <span style="font-weight:bold">The Council of the City of York</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Julia Cheetham QC and Mr Stephen Thornton </span>(instructed by <span style="font-weight:bold">Newtons</span>)<span style="font-weight:bold"> appeared for the First Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Second Respondent did not appear and was not represented</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Nageena Khalique QC and Ms Eleanor Morrison </span>(instructed by <span style="font-weight:bold">Freeman Johnson</span>) for the<span style="font-weight:bold"> Third Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Jonathan Auburn QC  </span>(instructed by <span style="font-weight:bold">Government Legal Department</span>) for the<span style="font-weight:bold"> First Intervenor</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Joanne Clement </span>(instructed by <span style="font-weight:bold">Ofsted</span>) for the<span style="font-weight:bold"> Second Intervener</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Case No. FD21P00653</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Martin Westgate QC and Mr Chris Cuddihee </span>(instructed by <span style="font-weight:bold">Plymouth City Council</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The First and Second Respondent did not appear and were not represented</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Sarah Morgan QC and Mr Patrick Paisley </span>(instructed by<span style="font-weight:bold"> The Family Law Co.</span>) for the<span style="font-weight:bold"> Third Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Jonathan Auburn QC  </span>(instructed by <span style="font-weight:bold">Government Legal Department</span>) for the<span style="font-weight:bold"> First Intervenor</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Joanne Clement </span>(instructed by <span style="font-weight:bold">Ofsted</span>) for the<span style="font-weight:bold"> Second Intervener</span></p>
+      <p style="text-align:center">Hearing dates: 18 and 19 October 2021</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic. Covid-19 Protocol: This judgment was handed down remotely by circulation to the parties' representatives by email.  The date and time for hand-down is deemed to be at 12 noon on 3 November 2021.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level>
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice MacDonald:</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">INTRODUCTION</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 8 September 2021 I handed down judgment in four cases heard together (MA21P01965, FD21P00578, FD21P00472 and MA21P02001) one of which, FD21P00578, is again before the court. In that judgment, I decided that it remains open to the High Court to authorise, under its inherent jurisdiction, the deprivation of liberty of a child under the age of 16 where the placement in which the restrictions that are the subject of that authorisation will be applied is prohibited by the terms of the statutory scheme (as amended from 9 September 2021 by the Care Planning, Placement and Case Review (England) (Amendment) Regulations 2021), subject always to the rigorous application of the President&#8217;s Guidance of November 2019 entitled <span style="font-style:italic">Practice Guidance: Placements in unregistered children&#8217;s homes in England or unregistered care home services in Wales </span>(hereafter, &#8216;the Practice Guidance&#8217;) and the addendum thereto dated December 2020. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The judgment in that first cohort of cases was published as <span style="font-style:italic">Tameside MBC v AM &amp; Ors (DOL Orders for Children Under 16</span>) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/2472" uk:canonical="[2021] EWHC 2472 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 2472 (Fam)</ref>. Following that judgment, I listed each of the four cases in the cohort before me separately to deal with the merits and, applying the principles set out in the judgment, made orders in each case. Within this context, on 9 September 2021 I made an order in case FD21P00578 authorising the deprivation of liberty of the subject child in those proceedings, CK. On 7 October 2021, I granted permission to appeal against the order made in case FD21P00578 on the application of the first respondent mother in those proceedings. That appeal is listed to be heard by the Court of Appeal on 16 and 17 November 2021. In circumstances where that appeal remains to be determined, the first respondent mother in case FD21P00578 has proceeded on the basis that it remains open to the High Court to authorise, under its inherent jurisdiction, the deprivation of liberty of a child under the age of 16 in a placement prohibited by the terms of the statutory scheme, without prejudice to arguments that she may advance on appeal disputing that proposition.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">This judgment concerns a further question that has now arisen in three cases, including FD21P00578, concerning the range of circumstances in which the jurisdiction I found subsists may be applied. Namely, whether, given the central role accorded to the President&#8217;s Guidance by the Supreme Court in <span style="font-style:italic">Re T</span> and by this court in <span style="font-style:italic">Tameside MBC v AM &amp; Ors (DOL Orders for Children Under 16</span>), it remains open to the court to exercise its inherent jurisdiction in cases where a placement either will not or cannot comply with the Practice Guidance. The spectrum of the submissions made to the court on this question has been bracketed at one end by the submission of each of the local authorities that the answer to this question is &#8220;yes&#8221;, and at the other by the submissions of the Secretary of State for Education and Ofsted that the answer to this question is &#8220;no&#8221;. Whilst each of the cases before the court concerns a child under the age of 16, the answer to the question posed in this case is applicable to all cases in which the Practice Guidance applies.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The court is grateful to the Secretary of State for Education and to Ofsted for again accepting the invitation to intervene and I have once again had the benefit of written and oral submissions on behalf of the Secretary of State from Mr Jonathan Auburn of Queen&#8217;s Counsel, and on behalf of Ofsted by Ms Joanne Clement of counsel. I am further grateful to all leading and junior counsel for the parties, who I shall identify below, for their written and oral submissions in this matter. I address the substance of the submissions made on behalf of the parties and the intervenors, where necessary to do so, during the course of the judgment.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">BACKGROUND </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The background to the three cases with which the court is concerned can be stated relatively shortly for the purposes of determining the legal question before the court. There was no substantive dispute regarding the matters of fact summarised below in respect of each case.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">FD21P00578</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Derby City Council is represented by Ms Lorraine Cavanagh of Queen&#8217;s Counsel and Mr Shaun Spencer of counsel, applies for permission to apply for an order under the inherent jurisdiction of the High Court and an order under the inherent jurisdiction authorising the deprivation of the liberty of CK. The application was issued on 25 August 2021. CK was born in 2006 and is now aged 15 years old. CK is represented through her Children&#8217;s Guardian by Mr Brendan Roche of Queen&#8217;s Counsel and Ms Kathleen Hayter of counsel. CK&#8217;s mother, BA is represented at this hearing by Mr Richard Drabble of Queen&#8217;s Counsel and Mr Christopher Barnes of counsel. CK&#8217;s father, OM, does not appear before the court and is not represented.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The background to case number FD21P00578 is set out in my previous judgment, which should be read with this judgment. On 12 November 2019, the local authority issued care proceedings in respect of CK under Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> on the grounds that she was beyond parental control for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 31(2)</ref>(b)(ii) of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>. This followed a period during which CK was frequently excluded from school, physically assaulted her sibling and exhibited behaviour that was difficult to manage, including assaults on the police and her mother and physical aggression against property frequent absconding, arrest by the police, self-harm and attempted suicide. Between April 2019 and December 2019 CK had over 100 missing episodes and 6 incidents leading to her involvement with the police as a result of her criminal activity. On occasion, CK has stated that she has a voice in her head that she is unable to get rid of. CK regularly used drugs and alcohol to the extent of requiring medical attention. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 21 May 2020 the local authority applied for a secure accommodation order in respect of CK pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.25</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. A secure accommodation order was granted on 22 May 2020 for a period of 12 weeks and CK was placed in an approved secure placement in Scotland. CK was made the subject of a final care order on 29 May 2020. The secure accommodation order was extended by the court on 21 August 2020 for a further 24 weeks, on 18 February 2021 for a further 12 weeks and on 11 May 2021 for a further 12 weeks. On 28 June CK&#8217;s approved secure placement gave notice on the basis they could no longer meet her needs. CK&#8217;s needs continue to exceed the ability of the secure estate to keep her safe. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 28 July 2021 CK was detained under the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref>. By the time of CK&#8217;s discharge from detention under the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref>, the local authority had not, despite an extensive search, been able to locate a registered placement for her to take the place of CK&#8217;s approved secure placement. In the circumstances, CK was placed in unregistered provision with externally commissioned staff. On 25 August 2021 Newton J authorised a deprivation of CK&#8217;s liberty in the unregistered provision until 1 September 2021. On 8 September 2021 I further extended that authorisation following the handing down of judgment in <span style="font-style:italic">Tameside MBC v AM &amp; Ors (DOL Orders for Children Under 16)</span>. As I have noted, On 7 October 2021, I granted permission to appeal against the order made in case FD21P00578 on the application of the first respondent mother in those proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Staff at the current unregistered placement continue to struggle to provide CK with the support she requires. The placement ascribes the difficulties in this regard in part to disruption caused by contact between CK and her family. CK is the subject of 3:1 supervision in placement, locked doors, the confiscation of items that could do CK harm, an escort when outside the placement, the use of reasonable and proportionate measures to ensure she does not leave the placement and to restrain her when she is distressed, visual checks on her bedroom twice each day and night time checks every 20 minutes. Her food and liquid intake is monitored.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The placement provider for CK continues to undertake the work necessary to make an application for registration under the statutory regulatory regime. However, at the present time the timescale for completion of registration remains to be confirmed. Unfortunately, the placement provider has now given notice. Whilst the local authority remains confident that CK&#8217;s physical placement can be maintained by seeking an alternative staffing provider there remains no timescale for achieving registration and no clear evidence that registration is achievable.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">FD21P00627</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The Council of the City of York is also represented by Ms Lorraine Cavanagh of Queen&#8217;s Counsel and Mr Shaun Spencer of counsel. York applies for permission to apply for an order under the inherent jurisdiction of the High Court and an order under the inherent jurisdiction authorising the deprivation of the liberty of FJ. The application was issued on 9 March 2021. FJ was born in 2006 and is now aged 15 years old. FJ&#8217;s Children&#8217;s Guardian is Ms Andrea Parkinson. FJ is an intelligent and articulate young woman who is competent to conduct proceedings and shows a keen interest in the case. Within this context, FJ is separately represented by Ms Nageena Khalique of Queen&#8217;s Counsel and Ms Eleanor Morrison of counsel. FJ&#8217;s mother, TJ is represented at this hearing by Ms Julia Cheetham of Queen&#8217;s Counsel and Mr Stephen Thornton of counsel. FJ&#8217;s father, VJ, does not appear before the court and is not represented.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">FJ has an autistic spectrum disorder and has engaged in absconding, self harm and has made meaningful efforts to commit suicide. These behaviours increased in intensity and severity over time notwithstanding the intervention of children&#8217;s services and CAMHS, leading to the application in March 2021. The court has before it a statement from the allocated social worker containing a detailed chronology of the difficulties experienced by FJ that led to the involvement of York.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On 1 December 2020 FJ&#8217;s parents agreed to her being accommodated pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. That placement broke down on 3 March 2021 following a suicide attempt by FJ. No placement could be identified for FJ despite York approaching two hundred and twenty five placements. In the circumstances, FJ was placed in a holiday cottage with two to one supervision and on 9 March 2021, the Council of the City of York issued an application for permission to invoke the inherent jurisdiction and for an order authorising the deprivation of FJ&#8217;s liberty. On 30 March 2021 York made an application for a secure accommodation order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.25</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. A secure accommodation order was granted on 7 April 2021 to expire on 17 September 2021. On 8 September 2021 the court extended the secure accommodation order for a further short period until 14 September 2021 and on 9 September 2021, York issued a further application for permission to invoke the inherent jurisdiction and for an order authorising the deprivation of FJ&#8217;s liberty at an unregistered placement. That order was granted by Poole J on 14 September 2021.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">FJ is currently placed in an unregistered placement. A further placement, also presently unregistered, has been identified for FJ that better meets her needs geographically. Within this context, York sought to implement a plan whereby registration for both placements would be applied for under one manager. York contends that Ofsted&#8217;s Regulatory Inspection Manager indicated on 23 September 2021 that an application in this format would be considered. This plan has not yet, however, come to fruition due to difficulties in recruiting a manager and, on 15 October 2021, York contends that it applied for registration for FJ&#8217;s current placement only. During the course of the hearing however, there was some doubt as to whether this application had been received by Ofsted.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">As at the date of this hearing FJ&#8217;s placement remains unregistered and the timescales for completion of registration remain opaque. It remains the intention of York to seek a manager who can manage both placements. York contends that it will be in a position to make a further application to Ofsted for registration in this context in 8 weeks time, following which FJ will move to the further placement. However, this timescale is inchoate in circumstances where it is subject to both the identification of a successful candidate for manager and to whatever notice period that successful candidate is subject.<span style="color:#000000"/>Both placements were first identified by the local authority in the statement of the social worker dated 26 March 2021, some six months ago.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">FD21P00653</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Plymouth City Council is represented by Mr Martin Westgate of Queen&#8217;s Counsel and Mr Chris Cuddihee of counsel. Plymouth applies for permission to apply for an order under the inherent jurisdiction of the High Court and an order under the inherent jurisdiction authorising the deprivation of the liberty of QV. The application was issued on 16 September 2021. QV was born in 2008 and is now aged 14 years old. QV is represented through his Children&#8217;s Guardian by Ms Sarah Morgan of Queen&#8217;s Counsel and Mr Patrick Paisley of counsel. QV&#8217;s mother, TV, and father, MJ, do not appear before the court and are not represented.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">QV has a diagnosis of autism spectrum disorder (ASD), attention deficit hyperactivity disorder (ADHD) and Tourette&#8217;s Syndrome. QV was made the subject of a care order and a placement order on 26 April 2012. The placement order was discharged and the care order reinstated on 22 April 2014, following an extensive and unsuccessful search for prospective adopters. QV lacks any awareness of risk and is extremely vulnerable to abuse and exploitation. A secure accommodation order was made on 5 November 2019 and again on 6 August 2020. QV has exhibited violent behaviour on occasion when in a secure placement, caused criminal damage and has discussed how to make a bomb. QV was moved to a residential placement following his discharge from secure accommodation. QV&#8217;s behaviour again deteriorated in June 2021. Following an incident on 5 September 2021 where QV gained access to the roof of the placement and began throwing items onto the street below, QV was moved to an unregistered placement as no registered provision could be identified that would accept him. On 16 September 2021 Plymouth sought an order authorising the deprivation of QV&#8217;s liberty in the unregistered placement. That order was granted by Poole J on 17 September 2021. The order was varied by Peel J on 24 September 2021 after it became apparent that a further placement move was required for QV to his current unregistered placement. This placement is a lodge in a holiday park where QV is provided with 2:1 supervision at all times. QV reports feeling isolated and is refusing to attend his education provision. A further holiday lodge has been identified, to which QV will move on 22 October 2021.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Whilst Plymouth wish to place QV in a secure unit under the auspices of a secure accommodation order, it has not been able to identify such a placement despite daily searches for the same. As of 14 October 2021, there were 58 live referrals for children requiring secure accommodation and only 6 projected beds. Plymouth is also searching for a long term private rental property in a rural location that would be suitable for QV&#8217;s needs and which the local authority could seek to register with Ofsted but this search has not been successful to date. Within this context, Plymouth contends that it has no choice but to attempt to keep QV safe in an unregistered placement with an order authorising the deprivation of QV&#8217;s liberty. Plymouth does not believe that QV&#8217;s current unregistered placement will consent to an application being made for registration with Ofsted. This will also be the position in respect of the placement to which QV is to move on 22 October 2021.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">THE LAW</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">The Statutory Regulatory Scheme</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Before turning to the terms of the President&#8217;s Guidance entitled <span style="font-style:italic">Placements in unregistered children&#8217;s homes in England or unregistered care home services in Wales</span>, and the addendum thereto dated December 2020, it is necessary to examine the regulatory scheme to which the President&#8217;s Guidance makes reference, and certain other related regulatory schemes. Four elements of the regulatory framework fall to be considered when determining the question before the court:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">The regulatory scheme governing registration of persons carrying on children&#8217;s homes as provided by the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> (Registration)(England) Regulations 2010.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">The regulatory scheme governing children&#8217;s homes as provided for by the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> and the Children&#8217;s Homes (England) Regulations 2015.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The regulatory regime applicable to the administration of medication under the relevant provisions of Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">The statutory regulatory regime applicable to secure accommodation as provided for by the Children (Secure Accommodation) Regulations 1991 and the Children (Secure Accommodation) (No. 2) Regulations 1991.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 22(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> places on local authorities a duty to safeguard and promote the welfare of any child looked after by the local authority. <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 22(1)</ref> defines a child who is looked after by the local authority as a child in the care of the local authority or a child provided with accommodation by the local authority in the exercise of any of its functions, save from those under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/17" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss. 17</ref>, 23B and 24 B of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>. Within this context, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> places a duty on local authorities to provide accommodation to a child in need who appears to it to require accommodation and <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 22</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> places a duty on the local authority to provide children in care with accommodation. Within this context, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 22</ref>G of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>, local authorities are subject to an overarching duty to ensure sufficient accommodation is available to accommodate children with different needs. This is otherwise known as the &#8220;sufficiency duty&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In meeting its duty under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref> or <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.22</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> to provide children who are looked after with accommodation, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.22</ref>C(5) and <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.22</ref>C(6) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> the local authority may, <span style="font-style:italic">inter alia</span>, place the child in a placement in a children's home in respect of which a person is registered under Part 2 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> (or, in Wales, Part one of the Regulation and Inspection of Social Care (Wales) Act 2016), or in a placement in accordance with other arrangements which comply with any regulations made for the purposes <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.22</ref>C of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Dealing first with placements in a children&#8217;s home, the term &#8220;children&#8217;s home&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.22</ref>C(6)(c) of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> is defined in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/105/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.105(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> as having the same meaning as in the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref>. The <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 1(2)</ref> defines &#8220;children&#8217;s home&#8221; widely, providing that an establishment in England is a children&#8217;s home if it provides care and accommodation wholly or mainly for children. The term &#8216;care and accommodation&#8217; is not defined in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The power accorded to a local authority pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.22</ref>C(6)(c) to place a child in a children's home as defined above is qualified by the requirement that the children&#8217;s home in question must be one in respect of which a person is registered under Part 2 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> (or, in Wales, Part 1 of the Regulation and Inspection of Social Care (Wales) Act 2016). Such placements are accordingly referred to as registered placements. The key aspects of the regulatory regime as it applies in England are as follows.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> lays down the requirement of registration for children&#8217;s homes. The process of application for registration is governed by the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> (Registration)(England) Regulations 2010 SI 2010/2130. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/12/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 12(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> provides that in order to become registered the person seeking to be registered shall make an application to the registration authority, in England that authority being Ofsted. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">The 2000 Act</ref> sets out the key requirements of an application for registration. Pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">the Act</ref>, the person applying for registration must give the prescribed information about prescribed matters; give any other information which the registration authority reasonably requires the applicant to give; and pay the prescribed fee. Pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/12/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12(3)</ref> the person who applies for registration as the manager of an establishment or agency must be an individual. Pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/12/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12(4)</ref> a person may carry on or manage more than one establishment, but such person must make a separate application in respect of each.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/16/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 16(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> provides that regulations may make provisions about the registration of persons in respect of establishment, including the making of application for registration As I have noted, in England those regulations comprise the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> (Registration)(England) Regulations 2010. Those regulations make detailed provision in respect of the information to be provided to Ofsted as part of the application for registration, covering details of the children to be accommodated; the organisational structure of the children&#8217;s home; the facilities to be provided; the arrangements for protecting and promoting health; fire precautions and safety procedures; arrangements for religious observance; arrangements for contact with family; procedures for dealing with unauthorised absence; complaints procedures; arrangements for providing education; arrangements for review of placement plans; and details of behaviour management policies. Pursuant to r.4 of the 2010 Regulations, when requested by Ofsted, the applicant for registration must attend for interview for the purpose of enabling the registration authority to determine whether they are fit to carry on or manage a children's home. Ofsted has published extensive online guidance concerning the registration process, including guidance dealing with priority applications, entitled <span style="font-style:italic">Registering children&#8217;s homes in an emergency: priority applications</span> and guidance entitled <span style="font-style:italic">Applying to register a children&#8217;s home: top tips</span> that seeks to dispel common misconceptions regarding the registration process.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Once an application has been made under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 12</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/13/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 13(2)</ref> mandates that the registration authority shall grant the application where it is satisfied that the relevant regulatory requirements for registration are being and will continue to be complied with. Pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/13/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.13(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>, Ofsted has no discretion to grant an application for registration where the regulatory requirements are not being or will not continue to be met. Pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/13/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.13(3)</ref>, where the application for registration is granted, Ofsted may grant the application unconditionally or subject to conditions as the authority thinks fit, which conditions may thereafter be varied, removed or supplemented pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/13/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.13(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/11/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11(5)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref>, it is a summary offence for a person to carry on or manage a children&#8217;s home without being registered. This applies to providers of the children&#8217;s home and not to a local authority making an arrangement with such a setting. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In addition to the foregoing regulatory provisions concerning registration, <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/22/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.22(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> provides that regulations may impose in relation to establishments any requirement that the appropriate Minister thinks fit. By <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 22</ref>(1A) of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> regulations may prescribe objectives and standards which must be met in relation to establishments for which Ofsted is the registration authority. Within this context, the Children&#8217;s Homes (England) Regulations 2015 prescribe objective standards which must be met in relation to a children&#8217;s home. Those objective standards comprise the nine &#8220;quality standards&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.22</ref>(1A) of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>, namely the standards concerning quality and purpose of care; children&#8217;s views wishes and feelings; education; enjoyment and achievement; health and well-being; positive relationships; child protection; leadership and management; and care planning. Pursuant to r.5 of the 2015 Regulations, specific requirements are placed on the registered person, including the requirement to challenge the placing authority to seek to ensure that each child's needs are met in accordance with the child's relevant plans.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In addition to the foregoing matters, Chapter 2 of Part 2 of the Children&#8217;s Homes (England) Regulations 2015 sets out the matters and duties related to achieving the foregoing quality standards. Within this context, detailed provision is made for statements of purpose; placement plans; behaviour management, discipline and restraint; privacy, access and surveillance; contact; and safety precautions. Part 3 of the 2015 Regulations sets out detailed requirements that must be met by the persons carrying on, managing or employed by the children&#8217;s home and the duties of those persons. The Regulations make detailed provision in respect of registered persons and staffing. Part 5 of the 2015 Regulations makes detailed regulatory provision in respect of policies, records, complaints and notifications, including the procedure to be followed in the event of an allegation of abuse or neglect and the contents of the missing child policy. Finally, Part 6 of the 2015 Regulations makes provision for the monitoring and review of children&#8217;s homes.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Within the foregoing context, before leaving the regulatory regime in respect of registration and children&#8217; homes and as highlighted in the submission of Mr Drabble and Mr Barnes, it is important to reiterate a point of terminology. As I noted in <span style="font-style:italic">Tameside MBC v AM &amp; Ors (DOL Orders for Children Under 16)</span> at [39], in contrast to a registered placement, an &#8220;unregulated&#8221; placement appears intended to refer to a placement that is not required to register with Ofsted under the relevant provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> (Registration) (England) Regulations 2010, which make provision for the registration and regulation of children&#8217;s homes, because it does not come within the definition of a children&#8217;s home and is hence not liable to regulation. Within this context, it is important to restate the difference between &#8216;registered&#8217;, &#8216;unregistered&#8217; and &#8216;unregulated&#8217; placements, as these terms continue to be used interchangeably. The three distinct situations are properly described as follows:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">a &#8220;registered&#8221; placement is a placement that (a) is within an establishment that is a children&#8217;s home for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> which (b) has been registered in accordance with the requirements of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">an &#8220;unregistered&#8221; placement is a placement that (a) is within an establishment that constitutes a children&#8217;s home for the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> but which (b) has not been registered in accordance with the requirements of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>; </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">an &#8220;unregulated&#8221; placement is a placement in another establishment that (a) is not a children&#8217;s home for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> and (b) therefore does not currently require to be registered under the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">There remains a question as to whether the term &#8220;other arrangements&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 22</ref>C(6)(d) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> encompasses only unregulated placements, or encompasses both unregulated <span style="font-style:italic">and </span>unregistered placements. Within this context, as I noted in <span style="font-style:italic">Tameside MBC v AM &amp; Ors (DOL Orders for Children Under 16) </span>unregulated placements will include independent and semi-independent settings for older children, such as supported accommodation, supported lodgings or independent accommodation and the Explanatory Memorandum to the Care Planning, Placement and Case Review (England) (Amendment) Regulations 2021 (hereafter &#8220;the Explanatory Memorandum&#8221;) makes clear that the Government took the view that the term &#8220;other arrangements&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 22</ref>C(6)(d) of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> was intended to refer mainly to independent and semi-independent settings for older children<span style="font-style:italic">. </span>Within that context, in <span style="font-style:italic">Tameside MBC v AM &amp; Ors (DOL Orders for Children Under 16)</span> the Secretary of State suggested that &#8220;other arrangements&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.22</ref>C(6)(d) will encompass only unregulated placements. That suggestion is disputed by Mr Drabble and Mr Barnes on behalf of the mother in case FD21P00578. However, in the same way it was not necessary to determine that issue in the <span style="font-style:italic">Tameside </span>case, it is not necessary for the purposes of this judgment to determine the scope of the placements that fall within the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.22</ref>C(6)(d) of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> and the court did not hear submissions on that question.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Within the foregoing context, and as in <span style="font-style:italic">Tameside MBC v AM &amp; Ors (DOL Orders for Children Under 16)</span>, both the Secretary of State for Education and Ofsted again submit that, in line with the President&#8217;s Guidance at [3] and the observations of the Supreme Court in <span style="font-style:italic">Re T</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/35" uk:canonical="[2021] UKSC 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 35</ref> at [129], a child who is the subject of a declaration made pursuant to the inherent jurisdiction of the High Court authorising the deprivation of his or her liberty is likely to be receiving care with accommodation for the purposes of meeting the definition of a &#8216;children&#8217;s home&#8217; contained in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> (see also Ofsted&#8217;s <span style="font-style:italic">Introduction to Children&#8217;s Homes, updated 1 October 2021: indicators for supported accommodation </span>and Care Inspectorate Wales&#8217;s registration guidance <span style="font-style:italic">Regulation and Inspection of Social Care (Wales) Act 2016 - Registration Guidance</span> Annex 1 p. 32). Within this context, the President&#8217;s Guidance states that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[3] Where application is made to the High Court under its inherent jurisdiction to authorise the deprivation of liberty of a child, it is highly likely the place at which the child is to be accommodated will meet the definition of a children&#8217;s home or, in Wales, a care home service.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In these circumstances, where the court is dealing with an application for an order authorising the deprivation of a child&#8217;s liberty in a placement that has not been registered, the court will, ordinarily but not exclusively, be dealing with the question of whether to authorise deprivation of liberty in an &#8216;unregistered&#8217; placement rather than in an &#8216;unregulated&#8217; placement.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">During the course of oral submissions, a further feature of a limited number of orders authorising the deprivation of a child&#8217;s liberty under the inherent jurisdiction was highlighted, namely the authorisation under the inherent jurisdiction of the administration of medication to a child by way of so called &#8216;chemical restraint&#8217; within the context of the deprivation of the child&#8217;s liberty. Within this context, it is also important to examine briefly the statutory regulatory regime that ordinarily governs such a course of action.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref> makes detailed provision for the administration of medication to persons who are detained under the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">the 1983 Act</ref>. Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref> concerns consent to treatment, including to the administration of medication and applies to any patient liable to be detained under <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref>. Pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/63" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.63</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">the 1983 Act</ref>, an approved clinician may give or direct the administration of medication not specified by regulation to treat the patient&#8217;s mental suffering for up to three months, even if the patient does not consent to the medication. However, pursuant to s.58(3) a patient may not be given medication specified by regulation, or be administered any other medication for a period longer than three months, unless they consent or an appointed registered medical practitioner not in charge of the treatment has certified in writing that they are not capable of understanding the nature, purpose and likely effects of that treatment or they are capable but have not consented and it is appropriate for the treatment to be given. Subject to strict safeguards, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/62" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.62</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref>, the foregoing provisions may be overridden in the case of an emergency.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Where a patient is administered medication under <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/58" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 58</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">the 1983 Act</ref>, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/61/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 61(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">the Act</ref> a report on the treatment and the patient's condition must be given by the approved clinician in charge of treatment to the regulatory authority on the next occasion on which they furnish a report for renewal of authority for detention and at any other time if so required by the regulatory authority. <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20/section/61/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 61(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref> provides that the regulatory authority may at any time give notice to the approved clinician in charge of the treatment directing that, except in cases of urgent treatment, a certificate relating to the plan of treatment in respect of a patient does not apply to treatment given to them.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Finally, in circumstances where what is being asked of the court in certain of applications of this nature is to authorise the deprivation of a child&#8217;s liberty in a children&#8217;s home because no secure accommodation placement is available, it is important also to note the following central elements of the statutory regulatory scheme that applies to secure accommodation orders granted pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 25</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> as contained in the Children (Secure Accommodation) Regulations 1991:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Pursuant to r.3, accommodation in a children&#8217;s home cannot be used as secure accommodation unless it has been approved by the Secretary of State for that use.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Pursuant to r.4, a child under the age of 13 cannot be placed in secure accommodation in a children&#8217;s home without the prior approval of the Secretary of State of that placement.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Pursuant to r.15, each local authority looking after a child in secure accommodation in a children&#8217;s home must appoint at least three persons to review the keeping of the child in the secure accommodation to secure the child&#8217;s welfare. At least one of these three persons must not be a member or an officer of the local authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Pursuant to r.16, the persons appointed to review the placement must satisfy themselves, having regard to the welfare of the child, as to whether a) the criteria for keeping the child in secure accommodation continue to apply; b) the placement in secure accommodation in a children's home continues to be necessary; and c) any other accommodation would be appropriate for the child. In undertaking the review, the persons must, if practicable, ascertain and take into account the wishes and feelings of the child; any parent; any person with parental responsibility for the child; any person who has had the care of the child and whose views the persons appointed considers that they should be taken into account; the child&#8217;s independent visitor if one has been appointed; and the person, organisation or local authority managing the secure accommodation if that accommodation is not managed by the authority which is looking after the child. The local authority must, if practicable, inform all those whose views must be considered of the outcome of the review and what action, if any, the authority proposes to take in relation to the child in light of the review, including the reasons for taking or not taking such action. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Pursuant to r.17, whenever a child is placed in secure accommodation in a children's home, the person who or organisation or local authority which manages that accommodation must ensure that a record is kept of, <span style="font-style:italic">inter alia</span>, the child&#8217;s details, the legal status of the child, the reasons for the placement in secure accommodation, those to whom information is to be provided, the reviews undertaken in respect of the child, any episodes of the child being locked in his or her room and the name of the person authorising such action and their reasons, and the date of discharge. The Secretary of State may require copies of these records at any time. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">The President&#8217;s Practice Guidance</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The President&#8217;s Practice Guidance entitled <span style="font-style:italic">Practice Guidance: Placements in unregistered children&#8217;s homes in England or unregistered care home services in Wales</span> was introduced on 12 November 2019. The following explanation is set out in the introduction of the Guidance:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[1] This Practice Guidance is being issued to explain the registration and regulation structure applicable in England and, separately, in Wales for residential care facilities for children and young people. The number of applications made for a court in family proceedings to authorise a residential placement of a young person in circumstances where their liberty may be restricted has increased markedly in recent times. Often the court is invited to exercise its inherent jurisdiction to approve a particular placement at an &#8216;urgent&#8217; hearing. Where a residential unit is registered as a &#8216;children&#8217;s home&#8217; in England, or a &#8216;care home service&#8217; in Wales, the placement will be regulated and inspected by Ofsted (England) or the Care Inspectorate Wales. The primary focus of this Guidance is to ensure that, where a court authorises placement in an unregistered unit, steps are immediately taken by those operating the unit to apply for registration (if the unit requires registration) so that the placement will become regulated within the statutory scheme as soon as possible. The Guidance requires the court to monitor the progress of the application for registration and, if registration is not achieved, to review its continued approval of the child&#8217;s placement in an unregistered unit.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Within this context, the Practice Guidance contains the following principles of &#8220;Best practice&#8221;:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">The applicant local authority should make the court explicitly aware of the registration status of those providing or seeking to provide the care and accommodation for the child (whilst the Practice Guidance suggests ways in which this information might be ascertained, including the option of contact with Ofsted or CIW, Lord Stephens suggests in <span style="font-style:italic">Re T</span> at [170] that contact with Ofsted or CIW is mandatory in this regard);</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">If those providing, carrying on and managing the service are not registered, this must be made clear to the court. The Court should be made aware of the reasons why registration is not required or the reasons for the delay in seeking registration.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">When a child is to be provided with care and accommodation in an unregistered children&#8217;s home or unregistered care home service, the court will need to ascertain (a) that steps are being taken to apply for the necessary registration; (b) that the provider of the service has confirmed that it can meet the needs of the child; and (c) from the local authority the steps the local authority is taking in the meantime to assure itself that the premises, those working at the premises and the care being given are safe and suitable for the accommodated child.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Where an application for registration has been submitted to Ofsted or CIW, the court should be made aware of the exact status of that application.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">If an order is granted and no application for registration has been made, then the court order should provide that the application for registration should be submitted to Ofsted or CIW within 7 working days from the date of the order. The provider must ensure that application to Ofsted or CIW for registration is complete (during the course of submissions each local authority before the court suggested that this timescale is untenable in most cases of an urgently secured unregistered placement).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">The court will need to be advised by the local authority within 10 working days of the order being made that the application for registration has been received by Ofsted or CIW, confirmed as complete, the necessary fee paid where applicable and is capable of determination by Ofsted or CIW.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">If the court has not received confirmation from the local authority within 10 working days of the initial order that a complete application for registration has been received by Ofsted or CIW, the court should list the matter for a further immediate hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">Once the court is satisfied that a complete application has been received by Ofsted or CIW, the court will review the situation regarding the registration status of those carrying on and managing the children&#8217;s home or care home service in a further 12 weeks. Such review (which may be on paper) will be in addition to any review the court requires to ascertain whether the deprivation of liberty should continue.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">If registration is refused or the applications for registration are withdrawn, the local authority should advise the court of this as a matter of urgency. The court will take this into account when deciding whether the placement of the child in the unregistered children&#8217;s home or unregistered care home service continues to be in the child&#8217;s best interests.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On the 1 December 2020 the President issued an addendum to the Practice Guidance entitled <span style="font-style:italic">Addendum to Practice Guidance: Placements in unregistered children&#8217;s homes in England or unregistered care home services in Wales</span>. Pursuant to the addendum to the Practice Guidance, the court must include in any order approving the placement of a child in an unregistered placement, a requirement that the local authority should immediately notify OFSTED or CIW and provide them with a copy of that order and the judgement of the court.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">The Status of the President&#8217;s Practice Guidance</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Pursuant to the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/39" uk:canonical="2003 c. 39" uk:origin="TNA" uk:type="legislation">Courts Act 2003</ref> Act, as amended by the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/4" uk:canonical="2005 c. 4" uk:origin="TNA" uk:type="legislation">Constitutional Reform Act 2005</ref>, Practice Directions may be made by the President of the Family Division with concurrence of the Lord Chief Justice and, in certain circumstances, the Lord Chancellor. In the context of family proceedings, the process giving rise to a Practice Direction was described as follows by the Court of Appeal in <span style="font-style:italic">In Re P-S (Children)</span><ref href="#" uk:canonical="[2018] 4 WLR 99" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] 4 WLR 99</ref> at [46]:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[46] Practice Directions may also be a source of invaluable guidance. They do not have the force of statute, are not scrutinised or approved by Parliament and cannot change the law but they are used to describe good practice. By convention, they go through an elaborate process of scrutiny by Rules Committees although there is no power in those committees to prescribe their content. They are the responsibility of the delegated judicial office holder and the Minister concerned. The power to issue Practice Directions includes that of the Lord Chief Justice with the agreement of the Lord Chancellor to give designated directions under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/4/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13</ref> of and Schedule 2 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/4" uk:canonical="2005 c. 4" uk:origin="TNA" uk:type="legislation">Constitutional Reform Act 2005</ref> (which is delegated by the Lord Chief Justice to the President as Head of Family Justice) and the power in the President under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/39/section/81" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 81</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/39" uk:canonical="2003 c. 39" uk:origin="TNA" uk:type="legislation">Courts Act 2003</ref>. Under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/39/section/81/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 81(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/39" uk:canonical="2003 c. 39" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> the agreement of the Lord Chancellor is not needed if the guidance concerns the interpretation of the law or the making of judicial decisions.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The President of the Family Division, like other Heads of Divisions, also has the power to issue non-statutory practice guidance under the court&#8217;s inherent jurisdiction to regulate its own procedure (see <span style="font-style:italic">Bovale Ltd v Secretary of State for Communities and Local Government</span><ref href="#" uk:canonical="[2009] 1 WLR 2274" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 WLR 2274</ref> at [10] and <span style="font-style:italic">In re C (Legal Aid: Preparation of Bill of Costs)</span> <ref href="#" uk:canonical="[2001] 1 FLR 602" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 1 FLR 602</ref> at [18]). In the context of family proceedings, the process giving rise to non-statutory practice guidance was described as follows by the Court of Appeal in <span style="font-style:italic">In Re P-S (Children)</span><ref href="#" uk:canonical="[2018] 4 WLR 99" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] 4 WLR 99</ref> at [47]:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[47] For many years the family courts have also had the benefit of non-statutory practice guidance issued by the President of the Family Division or with the President&#8217;s agreement by bodies such as the Family Justice Council, the Children Act Advisory Committee and the President&#8217;s Inter-Disciplinary Committee. Typically, guidance of this kind reflects a transparent process of inter-disciplinary working supported by evidence based research, a report of a working party or council that is scrutinised by the body concerned and then the adoption of recommendations by the judiciary, professional bodies and practitioners and/or Government. Guidance of this kind can always be challenged in court.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Where one of the Heads of Division in the High Court gives practice guidance in the format with which this court is concerned, the same does not constitute a Practice Direction made pursuant to the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/39" uk:canonical="2003 c. 39" uk:origin="TNA" uk:type="legislation">Courts Act 2003</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2003/39/section/81/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 81(1)</ref> as amended (some guidance states this in clear terms, for example <span style="font-style:italic">Practice Guidance (Interim Non-Disclosure Orders) dated 1 August 2011</span><ref href="#" uk:canonical="[2012] 1 WLR 1003" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 WLR 1003</ref> per Lord Neuberger MR). Rather, as explained in <span style="font-style:italic">Bovale Ltd v Secretary of State for Communities and Local Government</span><ref href="#" uk:canonical="[2009] 1 WLR 2274" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 WLR 2274</ref> at [36], a case concerning the Civil Procedure Rules:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[36] There is, in our view, a distinction between directions and guidance as to the way in which rules and practice directions will be interpreted. We accept that one object of the practice directions which supplement the CPR is to provide guidance to litigants but they also contain directions as to the procedure that should be followed. The nature of the guides is, or should be, different. They do not, or should not, contain directions; they do, or should, explain, inter alia, how practice directions apply and are interpreted. Guidance as to how a court interprets and applies practice directions and rules are not in our view themselves practice directions and have rightly not been treated as such.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Accordingly, where a Head of a Division gives guidance, that guidance does not have the status of law or create a legal requirement, nor does it give rise to cause of action of if not followed (see <span style="font-style:italic">Williams &amp; Ors v London Borough of Hackney</span><ref href="#" uk:canonical="[2019] AC 421" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] AC 421</ref> at [36]). Within this context, the Practice Guidance with which the court is concerned is plainly not capable by itself of ousting the inherent jurisdiction of the High Court to grant a declaration authorising the deprivation of a child&#8217;s liberty where there has been a failure to comply with it. As Lieven J noted in <span style="font-style:italic">Birmingham City Council v R &amp; Ors </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/2556" uk:canonical="[2021] EWHC 2556 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 2556 (Fam)</ref> Lieven J at [19]:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;It is important to note that the President's Guidance is guidance not law. Therefore a local authority and the court is under an obligation to take it into account and would err in law if it failed to do so, but the President cannot create law in that Guidance. It is also important to note that the Guidance and its addendum do not suggest that placing a child in an unregistered placement would make that placement unlawful or that it cannot be done.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">On behalf of the Secretary of State, Mr Auburn submits that the extent to which it remains open to the court to exercise the inherent jurisdiction in cases in which the Practice Guidance has not been complied with must also be evaluated in the context of that Practice Guidance now not being simply a statement of the President&#8217;s understanding of the manner in which the Family Division exercises its powers compatibly with Art 5 but, following the treatment of the Practice Guidance by the Supreme Court in <span style="font-style:italic">Re T</span>, a statement of the position at common law. That position being that in order for a declaration authorising the deprivation of liberty of a child to be compliant with Art 5, and consistent with the overall legislative scheme that local authorities must comply with, there must be compliance with the Practice Guidance.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Within this context, Mr Auburn submits that the Supreme Court was in <span style="font-style:italic">Re T</span> prepared to countenance only a very tightly constrained exception to the requirement that a children&#8217;s home be registered in accordance with the statutory regime, the boundaries to that tightly constrained exception being set by the Practice Guidance. On behalf of Ofsted, Ms Clement (who appeared in <span style="font-style:italic">Re T</span> on behalf of the Secretary of State for Education) submits that it is clear from the judgments in <span style="font-style:italic">Re T</span> that the Supreme Court intended to set clear, categorical limits on the exercise of the inherent jurisdiction to authorise the deprivation of liberty of children in unregistered placements, one of those limits being &#8220;strict compliance&#8221; with the Practice Guidance. In this context, both Mr Auburn on behalf of the Secretary of State and Ms Clement on behalf of Ofsted contend that the requirement stipulated in <span style="font-style:italic">Re T</span> for strict compliance with the Practice Guidance before the inherent jurisdiction can be exercised forms part of the <span style="font-style:italic">ratio decidendi</span> of that decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Against these submissions, the local authorities before the court submit that the comments made by the Supreme Court with respect to the need for &#8220;strict compliance&#8221; with the Practice Guidance do not form part of the <span style="font-style:italic">ratio decidendi</span> of its decision, the <span style="font-style:italic">ratio</span> of the decision being that the inherent jurisdiction remains available to authorise a local to deprive a child of his or her liberty in placements in unregistered children&#8217;s homes and registered children&#8217;s homes not approved as secure accommodation by the Secretary of State. Rather, the local authorities submit that statements in <span style="font-style:italic">Re T</span> regarding the Practice Guidance were merely <span style="font-style:italic">obiter dicta </span>statements (albeit <span style="font-style:italic">obiter dicta</span> of the highest order) on the subsequent question of how, <span style="font-style:italic">if</span> the inherent jurisdiction remains available, the proceedings are to be managed so as to safeguard the position of the children who may be subject to arrangements depriving them of their liberty. Thus, the local authorities submit, the common law does not require compliance with the Practice&#8217;s Guidance as any form of condition precedent to the exercise of the inherent jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Within the context of these submissions, the following passages from the judgments in <span style="font-style:italic">Re T</span> are relevant to the courts determination of the issue now before it.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In defining the scope of the question before the Supreme Court, Lady Black noted at [15] that the first of the overriding questions before the court was whether it is a permissible exercise of the High Court&#8217;s inherent jurisdiction to make an order authorising a local authority to deprive a child of his or her liberty in the type of case with which the court was concerned. In articulating the scope of the latter, Lady Black further observed as follows at [17]:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[17] It is important to note that the focus of the present appeal is upon a relatively narrow group of cases. The Court of Appeal said (para 84 of the judgment of Sir Andrew McFarlane P, with whom the other two members of the court agreed) that the case did &#8220;not concern the placement of children in other than the equivalent of secure accommodation&#8221;, and that &#8220;[d]ifferent considerations will apply when an application is directed towards, and only directed towards, a deprivation of liberty&#8221;. Matters cannot, perhaps, be quite so simply stated now, given the evolution of the proceedings since the Court of Appeal hearing, but the focus of the appeal is still confined. In essence, it is concerned with children who the local authority consider require to be deprived of their liberty, and in relation to whom the statutory criteria for the making of a secure accommodation order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 25</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> are satisfied, but who the local authority propose to place elsewhere than in a secure children&#8217;s home which is approved for that purpose. There could be said to be two distinct categories of children within the group: (1) children who would be placed in a secure children&#8217;s home but there is no place available for them, and (2) children whose needs would, in the local authority&#8217;s assessment, be better met in an alternative placement. There will also be children who fall entirely outside the group because they are unlikely to satisfy the statutory criteria in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 25</ref>, although they do need to be deprived of their liberty to keep them safe.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Within this context, it is clear that the Supreme Court was concerned with whether the inherent jurisdiction is available to authorise a local authority to deprive a child of his or her liberty in an unregistered children&#8217;s home (the first placement provided to T in <span style="font-style:italic">Re T</span>) and a registered children&#8217;s home not approved as secure accommodation by the Secretary of State (the second placement provided to T in <span style="font-style:italic">Re T</span>). </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">As to the role played by the Practice Guidance, and within the foregoing context, I further note the following passages in <span style="font-style:italic">Re T</span> from the judgment of Lord Stephens, beginning at [171]:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;&#8230;Accordingly, the courts, in the exercise of the inherent jurisdiction, must only authorise such a placement where there are &#8220;imperative considerations of necessity&#8221; and where there has been strict compliance with the matters contained in the Guidance issued by the President of the Family Division on 12 November 2019 in relation to placing a child in an unregistered children&#8217;s home (&#8220;the Guidance&#8221;) (see para 147 above) and with the addendum dated 1 December 2020 to the Guidance. Furthermore, if a placement is authorised in an unregistered children&#8217;s home then the court must monitor the progress of the application for registration in accordance with the Guidance and, if registration is not achieved, the court must rigorously review its continued approval of the child&#8217;s placement in an unregistered home.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">And at [171]:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;I set out below the matters which must be considered in compliance with the Guidance and the addendum prior to a court authorising a placement in an unregistered children&#8217;s home. I do so to emphasise the importance of those matters, in addition to any other matters which are relevant on the particular facts of an individual case. The information made available to the court is to be seen in the context of the parties&#8217; obligation to bring all matters of relevance to the welfare of children to the attention of the court to enable the court to decide the issues on an adversarial basis, or to direct further evidence or enquiries in accordance with its inquisitorial role.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Further, at [172], whilst expressly recognising that one of the outcomes that may follow the application of the Practice Guidance is that the placement will be refused registration, Lord Stephens expressly reiterates the need to follow the Practice Guidance, notwithstanding that this is the possible outcome of doing so:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[172] &#8230; It is unnecessary to envisage all the sorts of factual situations that might arise which would still call for an order authorising a placement where the children&#8217;s home remains unregistered except to say that the test of necessity should be applied all the more strictly and that there will be a heightened level of anxious enquiry and scrutiny. In any event, the Guidance primarily envisages that the children&#8217;s home will become registered so that a criminal offence is no longer being committed by others. The Guidance must be followed so that, in practice, within a short period of time the children&#8217;s home is registered. This process of registration should continue to be energetically and pro-actively monitored by the courts.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">At [193], Lady Arden likewise addresses the manner in which the inherent jurisdiction identified as subsisting by the Supreme Court is to be exercised:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[193] It is always going to be a case of the court being satisfied that the unregistered home will meet the child&#8217;s needs and that there is no realistic alternative to the placement and imposing the strict conditions set out in the President&#8217;s Guidance, with which all concerned are familiar.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Finally, and within this context, I remind myself that in <span style="font-style:italic">Tameside MBC v AM &amp; Ors (DOL Orders for Children Under 16)</span> I made clear at [88] and [91] that the Practice Guidance, and the addendum thereto must be applied rigorously in all cases to which it applies.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">Article 5</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In considering the approach of the Supreme Court to the Practice Guidance in <span style="font-style:italic">Re T</span>, it is important to consider the provisions of Art 5 of the ECHR. Art 5 ECHR provides in so far as is relevant:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;<span style="font-weight:bold">Right to liberty and security</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">(1) Everyone has the right to liberty and security of person. No one shall be deprived of his liberty save in the following cases and in accordance with a procedure prescribed by law</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8230;/</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.39in;text-indent:-0.50in">(d) the detention of a minor by lawful order for the purpose of educational supervision or his lawful detention for the purpose of bringing him before the competent legal authority; &#8230;/</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">(4) Everyone who is deprived of his liberty by arrest or detention shall be entitled to take proceedings by which the lawfulness of his detention shall be decided speedily by a court and his release ordered if the detention is not lawful.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In <span style="font-style:italic">Re T</span> Lady Black commented as follows at [90] and [91] with respect to the role performed by Art 5 of the ECHR:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[90] Article 5 imposes an obligation to conform to the substantive and procedural rules of national law. Accordingly, the detention must have a legal basis in domestic law, and the law must be of a quality which is compatible with the rule of law. This means that where the domestic law authorises deprivation of liberty, it must be sufficiently accessible, precise and foreseeable in its application to avoid the risk of arbitrariness. It must be attended by fair and proper procedures. An individual who is deprived of their liberty is entitled to have the lawfulness of that detention reviewed by a court. </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">[91] There is nothing in article 5, or in the case law of the European Court of Human Rights, that requires that the domestic law and procedure should be set out in statute and/or regulations, rather than being common law based.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Further, and within the foregoing context, at [153] Lady Black noted when addressing the appellants submission that the use of the inherent jurisdiction to authorise the deprivation of liberty falls foul of Art 5, that the Practice Guidance forms part of the proper safeguards in the procedure for the making and determination of applications the inherent jurisdiction for declarations authorising deprivation of liberty:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[153] There are appropriate procedural safeguards built into the application process, broadly mirroring those applicable to a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 25</ref> application. There is provision for the child to be made a party to the process, for example, and for the appointment of a guardian, as well as for reviews of the continuing confinement. By requiring that the structure imposed by <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 25</ref> should also be observed in an application to place a child in the equivalent of secure accommodation, the President has ensured that proper procedural protection is built in for the child. The matter is also dealt with in considerable detail by Wall J in <span style="font-style:italic">In re C (Detention: Medical Treatment)</span> and Sir James Munby P in <span style="font-style:italic">In re A (Children) (Care Proceedings: Deprivation of Liberty)</span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/138" uk:canonical="[2018] EWHC 138 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWHC 138 (Fam)</ref>; <ref href="#" uk:canonical="[2019] Fam 45" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] Fam 45</ref>. In addition, the President&#8217;s Practice Guidance (see above) makes a contribution to the procedural protection for the child.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in"><span style="font-style:italic">The Inherent Jurisdiction</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Finally, in relation to the applicable legal principles, I dealt extensively with the history and nature of the inherent jurisdiction generally in my judgment in <span style="font-style:italic">Tameside MBC v AM &amp; Ors (DOL Orders for Children Under 16</span>) at [47] to [57], and with the operation of the inherent jurisdiction in relation to declarations authorising deprivation of liberty at [58] to [67]. It is not necessary to repeat that exegesis here.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Within the context of the principles articulated in my previous judgment, I further noted in <span style="font-style:italic">Tameside MBC v AM &amp; Ors (DOL Orders for Children Under 16</span>) the Supreme Court in <span style="font-style:italic">Re T</span> was at pains to emphasise the seminal importance of the existence of the inherent jurisdiction of the High Court as a protective bulwark for children where no other option is available. As Lady Black noted at [113]:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;In considering this argument, the restrictions placed by section 100 upon the use of the inherent jurisdiction should be put carefully into context. This court should not, in my view, be led into an interpretation of them which focuses so intently on the detail of the legal theory underpinning the words that the intended sense of the provision as a whole is lost, with consequent damage to the ability of the High Court to react when the assistance of the inherent jurisdiction is truly required. I recorded earlier the time-honoured role that the inherent jurisdiction plays in protecting children whose welfare requires it (see paras 64 and following).&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">And [141]:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;Cases such as those to which I have alluded earlier in this judgment demonstrate, it seems to me, that it is unthinkable that the High Court, with its long-established role in protecting children, should have no means to keep these unfortunate children (and others who may be at risk from them) safe from extreme harm, in some cases death. If the local authority cannot apply for an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 25</ref> because there is no <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 25</ref> compliant secure accommodation available, I would accept that the inherent jurisdiction can, and will have to be, used to fill that gap, without clashing impermissibly with the statutory scheme.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">And as Lady Arden pointed up at [192]: </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;The inherent jurisdiction plays an essential role in meeting the need as a matter of public policy for children to be properly safeguarded. As this case demonstrates, it provides an important means of securing children&#8217;s interests when other solutions are not available.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">At [168] in <span style="font-style:italic">Re T</span>, Lord Stephens described the inherent jurisdiction of the High Court in relation to children as the ultimate safety net. </p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">DISCUSSION</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Having regard to the comprehensive submissions made by leading and junior counsel, and the legal provisions set out above, I am satisfied that an unwillingness or inability to comply with the terms of the President&#8217;s Practice Guidance does not act <span style="font-style:italic">per se</span> to oust the inherent jurisdiction of the High Court to authorise the deprivation of a child&#8217;s liberty in an unregistered placement confirmed in <span style="font-style:italic">Re T</span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">However, I am equally satisfied that compliance with the Practice Guidance is central to the safe deployment of that jurisdiction and to its deployment in a manner consistent with the imperatives of Art 5. Within this context, whilst accepting that an unwillingness or inability on the part of a placement to comply with the terms of the President&#8217;s Practice Guidance is a factor that informs the overall best interests evaluation on an application under the inherent jurisdiction, and that each case will turn on its own facts, I am satisfied that the court should not <span style="font-style:italic">ordinarily</span> countenance the exercise the inherent jurisdiction where an unregistered placement makes clear that it will not or cannot comply with the requirement of the Practice Guidance to apply for registration. My reasons for deciding are as follows.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The first point that the court must acknowledge at the outset is that there remains no entirely satisfactory child-centred answer to the question before the court in the absence of a concerted effort by those responsible to remedy the current acute shortage of clinical provision for placement of children and adolescents requiring assessment and treatment for mental health issues within a restrictive clinical environment, of secure placements and of registered placements. The Practice Guidance was promulgated by the President of the Family Division to assist in addressing an urgent and acute problem borne of this lack of resources. On the one hand, failure to follow the Practice Guidance will deprive children of the regulatory protection Parliament has deemed they should benefit from. But, in the context of the continuing and acute shortage of appropriate resources, following the Practice Guidance can risk a vulnerable looked after child having nowhere to go. The dilemma is eloquently described in the written submissions of Ms Morgan and Mr Paisley on behalf of QV:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[37]<marker name="tab"/>There is a circularity which is, for the guardian as she contemplates the position for QV in this case and similarly placed young people in others, problematic. It is a circle which is impossible to square: the Guardian all things being equal would make the submission that the solution at which the Court should arrive if it concludes that the relevant body &#8216;won&#8217;t&#8217; apply to register or is failing to comply or is dragging its corporate feet in relation to the President&#8217;s Guidance or is quite simply making use of the jurisdiction because it remains available to it and is the path of least resistance would be for the Court to say in effect &#8216;thus far and no further&#8217; and to bring it to an end. That would be in all likelihood, a way in which the difficulties (which to return to the beginning are difficulties of resource above all else) move from the arena of the court where they should not be and into the province of others. Such an approach however comes at a cost; and the cost is paid by the cohort of vulnerable children and young people for whom there is then nothing in the way of a protective jurisdiction at all. So it is that the Guardian steps away from the otherwise obvious submission that the Court should stand firm; should pursue the reasoning at [62] in <span style="font-style:italic">Wigan BC v Y</span> to its logical conclusion; should refuse to sanction the jurisdiction. The welfare of this or another subject child is nowhere in that approach never mind paramount or primary.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The second point that must be emphasised at the outset is that a provider who is operating or managing a placement that falls within the definition of a children&#8217;s home is <span style="font-style:italic">required</span> to apply for registration. Before one gets to the question of the Practice Guidance, the statute <span style="font-style:italic">mandates</span> this course of action. Pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/11/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11(5)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref>, it is a summary offence for a person to carry on or manage a children&#8217;s home without being registered. In these circumstances, it is not open to providers or local authorities to decline to be constrained by the statutory requirement of registration. Parliament has enacted the statutory scheme, of which <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 22</ref>C(6)(c) of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> is an important part, on the basis that vulnerable children are best protected and safeguarded by their placement in a registered children&#8217;s home. It is not for local authorities and providers to choose when they consider it appropriate to act in accordance with this legislative scheme. They are required to do so. The Practice Guidance simply requires providers and local authorities to comply in a timely fashion with a pre-existing, and mandatory, legal obligation. Within this context, it is again important to note that a child who is the subject of a declaration made pursuant to the inherent jurisdiction of the High Court authorising the deprivation of his or her liberty is highly likely to be receiving care with accommodation for the purposes of meeting the definition of a &#8216;children&#8217;s home&#8217; contained in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref>, thereby engaging the obligation to apply for registration.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Compliance or non-compliance with Practice Guidance is not determinative of the <span style="font-style:italic">existence</span> of the court&#8217;s substantive jurisdiction. This is, I am satisfied, the plain position as a matter of law. The President&#8217;s Practice Guidance is non-statutory guidance. The Practice Guidance is not a Practice Direction, and even if it were, the authorities are clear that a Practice Direction cannot change the law. Further, as Lieven J made clear in <span style="font-style:italic">Birmingham City Council v R &amp; Ors</span> at [19], the President cannot create law by way of issuing guidance. Within this context, I am satisfied that failure to comply with judicial practice guidance cannot oust the inherent jurisdiction of the High Court. The <span style="font-style:italic">existence</span> of the protective jurisdiction of the court does turn on conformity with a procedural requirement or requirements set out in practice guidance. The question for the court in such circumstances is whether that jurisdiction <span style="font-style:italic">should</span> be exercised where there has been non-compliance with the Practice Guidance.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">It is important at this point to reiterate, as Mr Auburn sought to remind the court at a number of points during the course of his submissions on behalf of the Secretary of State, the question that is before the court. Namely, whether it remains open to the court to exercise its inherent jurisdiction in cases where a placement either <span style="font-style:italic">will not or cannot comply </span>with the Practice Guidance. As I have already noted, I am satisfied for the following reasons that, <span style="font-style:italic">ordinarily</span>,<span style="font-style:italic"/>the answer to this question should be &#8216;no&#8217;. There is of course a further question of what is meant by &#8216;will not or cannot&#8217;. I deal with that question in more detail below.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I accept that, as the Supreme Court made clear in <span style="font-style:italic">Re T</span>,<span style="font-style:italic"/>the inherent jurisdiction of the High Court in relation to children is a paramountcy jurisdiction deployed as the &#8220;ultimate safety net&#8221; to secure children&#8217;s welfare, provided it is not prohibited by case-law or statute. As Lady Black made clear at [113], the court should not be led into an interpretation of the relevant legal instruments which focuses so intently on the detail of the legal theory that it damages the ability of the High Court to react when the assistance of the inherent jurisdiction is truly required. However, this by itself is not an answer to the question before the court. The deployment of the inherent jurisdiction in respect of children is only effective if it safeguards and promotes their welfare. Where an unregistered placement makes clear that it will not or cannot comply with the Practice Guidance, and in particular the requirement to issue an expeditious registration application, a number of factors militate against the deprivation of the child&#8217;s liberty in such a placement being in the child&#8217;s best interests that are not, in any sense, a mere matter of legal theory.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">An order authorising the deprivation of a child&#8217;s liberty is a truly draconian order that has a profound impact on the subject child. Further, that order is made within a legal framework that has been hastily adapted by the High Court in circumstances of necessity, without public consultation or Parliamentary debate, to address a growing shortfall in secure placements and placements providing assessment and treatment for mental health issues within a restrictive clinical environment for the most vulnerable looked after children. Orders authorising the deprivation of a child&#8217;s liberty can confine a child to a specified location behind locked doors and windows, prevent a child from having contact with family members, deprive the child of the use of a telephone or access to the Internet and, in extreme cases, permit the chemical restraint of the child by way of administration of medication without consent and without the protective regime afforded by Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref>. In this context, the Supreme Court in <span style="font-style:italic">Re T</span> emphasised that the continued use of the inherent jurisdiction in these circumstances is &#8220;a temporary solution, developed by the courts <span style="font-style:italic">in extremis</span>&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Parliament has created statutory schemes governing the secure accommodation of children and the placement of looked after children by local authorities. As set out above, the statutory scheme governing the secure accommodation of children contains detailed regulatory provisions designed to ensure that the subject child&#8217;s welfare is protected and safeguarded. As also set out above, the statutory scheme governing the placement of looked after children by local authorities likewise contains a detailed regulatory scheme, including specific reference to a placement in a registered children&#8217;s home, which are themselves subject to the regulatory regime designed to safeguard and protect the subject child. These regulatory regimes were designed by Parliament to lay down quality standards that are necessary to secure the welfare of the child who is placed in secure accommodation or in a registered children&#8217;s home. The importance of the regulatory regime is <span style="font-style:italic">expressly </span>recognised in the Practice Guidance at [11]:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[11] Registration under both the CSA and RISCA ensures registered persons and service providers are fit to carry on, or manage, the provision, both in terms of their suitability to work with children and the ability to provide care to the required legal standards. In addition, and very importantly, it ensures provision is inspected by Ofsted or Care Inspectorate Wales (&#8220;CIW&#8221;) and action can be taken to respond to shortfalls in the provision of services to children accommodated in the children&#8217;s home or, in the case of Wales, the care home service.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Within the foregoing context, where the court exercises its inherent jurisdiction to authorise the deprivation of the child&#8217;s liberty in an unregistered placement that has indicated that it will not or cannot comply with the requirement in the Practice Guidance to apply for registration, the child is placed for the <span style="font-style:italic">duration</span> of that placement <span style="font-style:italic">wholly </span>outside the relevant statutory regulatory regimes, and in certain cases outside the statutory regime for administration of medication without consent contained in the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/20" uk:canonical="1983 c. 20" uk:origin="TNA" uk:type="legislation">Mental Health Act 1983</ref>, described above. The consequence is that, in circumstance where most applications for orders authorising the deprivation of a child&#8217;s liberty will concern placements that meet the definition of a &#8220;children&#8217;s home&#8221;, the subject child is deprived, again for the duration of that placement, of the protection of the regulatory provisions deemed necessary by Parliament. As noted by Lady Black in Re T at [143]:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[143] It has to be recognised that when the local authority applies under the inherent jurisdiction for the court to authorise a secure placement which is either not in a registered children&#8217;s home or is in a children&#8217;s home that has not been approved for secure accommodation, those placements will not satisfy all the requirements of the regulatory framework. If the placement is in an unregistered children&#8217;s home, a criminal offence will be committed by any person who carries on or manages the home. The important safeguards that come with registration will be absent. If the placement is in an unregulated setting, it will equally escape these safeguards, and it is noted that the Children&#8217;s Commissioner expresses particular concern about children being deprived of their liberty in unregulated placements, to the point of questioning whether such placements, for example in caravans and outward bound centres, could ever be classed as sufficiently appropriate for article 5 purposes.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Within this context, if the court authorises the deprivation of child&#8217;s liberty at an unregistered placement that contrary to the Practice Guidance will not or cannot apply for registration, that child will not be subject to the regulatory regime or regimes, contained in the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> (Registration)(England) Regulations 2010 and the Children&#8217;s Homes (England) Regulations 2015 that regulate the following cardinal matters:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Child protection, behaviour management, discipline and restraint and missing children.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Care planning.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Complaints and notifications, including the procedure to be followed in the event of an allegation of abuse or neglect.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">The wishes and feelings of the child.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">v)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Education, enjoyment and achievement, health and well-being and positive relationships.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Religious observance.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Contact with family.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">Privacy, access and surveillance.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Safety procedures.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">x)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Regular review of placement and placement plans.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:12pt;margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.98in">Leadership, management and organisational structures.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Further, for those children who require secure accommodation, it must be remembered that registered placements supplemented by an order under the inherent jurisdiction authorising the deprivation of liberty of the child have begun to be utilised to restrict the liberty of children due to an acute shortage of secure accommodation placements. Accordingly, the regulatory regime provided by registration at present performs the task of safeguarding and protecting the detained child in the place of the comprehensive regulatory regime under the Children (Secure Accommodation) Regulations 1991 as summarised above. Within this context, the placement of a child in an unregistered placement supplemented by an order under the inherent jurisdiction authorising the deprivation of liberty of the child deprives the child both of the regulatory protection afforded by the Children (Secure Accommodation) Regulations 1991 <span style="font-style:italic">and</span> of the regulatory regime under the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> (Registration)(England) Regulations 2010 that stands in for it where no secure accommodation is available. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In my judgment, and within the foregoing context, it is not a sufficient answer to say that the court is able to maintain oversight of the unregistered placement, particularly where the placement has indicated that it will not or cannot apply for registration and thus the placement will continue to be outside the statutory regulatory regime for its duration. The function of the court, as recognised in <span style="font-style:italic">Re T</span> at [23], is to determine issues that have arisen between the parties to litigation. The High Court is not a regulatory body and nor is it equipped to perform the role of one. It cannot, for example, deploy inspectors to inspect the placement in question nor does the court have the institutional expertise of an independent regulator. Whilst it can direct evidence from the local authority, that evidence will be from a party who has an interest in maintaining the placement in question. In short, the court is simply not in a position to replicate the scope and rigour of the regulatory regime that applies to registered placements. Parliament has further made clear that the task of regulatory oversight falls to an independent regulator and not to the court. As Lady Black noted in <span style="font-style:italic">Re T</span> at [44]:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[144] The courts have put in place such safeguards as they can to overcome the shortcomings of the present arrangements, and I will come to these in due course. But whatever the courts devise cannot replicate the official safety net that the regulatory framework provides when it is applicable. To take an obvious example, the court is not able to carry out the sort of inspections and checks that Ofsted and the Care Inspectorate Wales are obliged to carry out.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">And as the Practice Guidance notes at [12]:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[12] Ofsted and CIW each has powers under the CSA and RISCA respectively to enter and inspect any premises which are used, or which they have reasonable cause to believe are being used as a children&#8217;s home, or care home service. Where Ofsted or CIW find that an unregistered children&#8217;s home or care home service is being carried on and managed without the necessary registration, they have the power to prosecute.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Within this context, it is important to note that the role of the Practice Guidance promulgated by the President is <span style="font-style:italic">not</span> designed itself to be a regulatory framework. Rather, for the reasons summarised above, the Practice Guidance seeks to ensure that cases that are outside the regulatory regime are, as a matter of best practice, brought back within that statutory regulatory regime as a matter of urgency. The whole tenor of the guidance is to ensures that the child is placed back within the arms of the regulatory regime provided for by Parliament, the guidance making clear in it opening paragraph that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;[1] &#8230; The primary focus of this Guidance is to ensure that, where a court authorises placement in an unregistered unit, steps are immediately taken by those operating the unit to apply for registration (if the unit requires registration) so that the placement will become regulated within the statutory scheme as soon as possible. The Guidance requires the court to monitor the progress of the application for registration and, if registration is not achieved, to review its continued approval of the child&#8217;s placement in an unregistered unit.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">As made clear at [17] in the Practice Guidance, due to the vulnerability of the children likely to be subject to an order authorising a deprivation of their liberty, the need to ensure that their placement is registered is essential to ensuring that they are properly cared for. Within the foregoing context, the effect of a placement stating that it will not or cannot comply with the requirement in the Practice Guidance to immediately take steps to apply for registration will be to leave the subject without the regulatory protection deemed by Parliament to be required to safeguard and promote his or her welfare <span style="font-style:italic">and</span> without any steps being taken to move the subject child back within that regulatory framework, leaving the child&#8217;s placement to be regulated by a body, the court, not properly equipped to undertake a regulatory function. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">It is in this stark context that the Supreme Court in <span style="font-style:italic">Re T</span> makes clear that compliance with the Practice Guidance promulgated by the President of the Family Division is <span style="font-style:italic">central </span>to safe exercise of the inherent jurisdiction to authorise the deprivation of a child&#8217;s liberty in a placement that is not approved as secure accommodation or that is a children&#8217;s home. Within the context of the matters set out above, the Supreme Court was prepared to countenance only a <span style="font-style:italic">very </span>tightly constrained exception to the requirement that the children&#8217;s home is registered, namely that provided by the terms of President&#8217;s Guidance. This approach is entirely explicable having regard to the matters summarised in the foregoing paragraphs, as is the view taken by both Lady Black and Lord Stephens that a condition for the use of the inherent jurisdiction to authorise the deprivation of a child&#8217;s liberty in an unregistered placement is the need to take steps immediately, in accordance with the Practice Guidance, to bring the placement back within the regulatory regime by requiring strict compliance with that guidance. In doing so, the Supreme Court was not elevating the Practice Guidance to the status of a regulatory regime, but simply recognising the imperative need for children who are deprived of their liberty to be the subject of the regulatory regime put in place by Parliament for their protection by the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref>, the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/14" uk:canonical="2000 c. 14" uk:origin="TNA" uk:type="legislation">Care Standards Act 2000</ref> (Registration)(England) Regulations 2010, the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> and the Children&#8217;s Homes (England) Regulations 2015. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In so far as it is necessary to decide the point, I am satisfied that the position articulated in <span style="font-style:italic">Re T</span> regarding the role of the Practice Guidance forms part of the <span style="font-style:italic">ratio decidendi</span> of the decision. Whilst the Supreme Court treated the question of the management of the proceedings under the inherent jurisdiction, including the role of the Practice Guidance, as ancillary to the central question of the existence of the jurisdiction in the specific circumstances with which the Supreme Court was concerned, it cannot be said that the statements made by the Court regarding the need for strict compliance with the Practice Guidance in this context were <span style="font-style:italic">obiter</span>. Those statements were central to the Supreme Court&#8217;s rationale in determining that the inherent jurisdiction remains available to authorise the deprivation of a child&#8217;s liberty in a placement that is not approved as secure accommodation or that is a children&#8217;s home. The statements concerned a point of basic principle and were not confined to the facts of the case (albeit the court did not have before it findings of fact to inform the point ultimately argued before it) or distinguished by reference to the types of placement with which the court was concerned. The statements cannot be said to have been made in passing or as being inessential to the decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">The conclusion that the Supreme Court&#8217;s stipulation that there must be strict compliance with the terms of the Practice Guidance is central to the decision in <span style="font-style:italic">Re T</span> is also supported by the statements of the court regarding the importance of the Practice Guidance in complying with the imperatives of Art 5. As noted above, at [153] Lady Black concluded that the President&#8217;s Practice Guidance makes a contribution to the procedural protection for the child in that context. Within this context, compliance with the Practice Guidance forms <span style="font-style:italic">part</span> of the necessary procedural structure for purposes of Art 5 with respect to both lawfulness and protection against arbitrary detention. In circumstances where the Practice Guidance seeks to bring the subject child back within the regulatory framework governing his or her situation, compliance with that guidance guards against the risk of the arbitrariness, and the lack of certainty in the law, that arises from the deployment of an <span style="font-style:italic">ad hoc</span> scheme existing outside the statutory framework. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">An unwillingness or inability to apply for registration in accordance with the Practice Guidance does not act to extinguish the court&#8217;s inherent jurisdiction. Rather, it borders and curtails the circumstances in which that jurisdiction can be deployed. Within this context, and having regard to the judgment of the Supreme Court in <span style="font-style:italic">Re T</span> and the matters to which I have referred above, I am satisfied that whilst an unwillingness or inability on the part of a placement to comply with the terms of the President&#8217;s Practice Guidance is a factor that informs the overall best interests evaluation on an application under the inherent jurisdiction, and that each case will turn on its own facts, the court should not <span style="font-style:italic">ordinarily</span> countenance the exercise of the inherent jurisdiction where an unregistered placement makes clear that it will not or cannot comply with the requirement of the Practice Guidance to apply expeditiously for registration.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">As noted above, my conclusion invites the question what does &#8220;cannot or will not&#8221; mean in this context? It is not helpful or appropriate in my judgment to set out an exhaustive list of cases that will fall into one or other of these categories. Each case will turn on its own facts. However, some general observations can be made.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">A provider that will not apply for registration, in the sense of refusing to do so, notwithstanding the terms of the Practice Guidance is unlikely to be a viable option for meeting the subject child&#8217;s best interests. Such a refusal by a provider is, in reality, a statement of intent not to comply with the law put in place by Parliament to safeguard and promote the welfare of the subject child through the imposition of a comprehensive and wide ranging regulatory regime. Given the burden placed on providers by an application for registration, such a position on the part of the provider <span style="font-style:italic">may</span> be understandable if the provider does not ordinarily make such provision, for example a private landlord, the owner of a holiday park or other venue not ordinarily involved in social care. However, it is placements in this category that are most likely to result in a wholly unsuitable placement for obvious reasons. Within this context, a refusal by a provider to apply for registration immediately following a placement deprives the child for the duration of that placement of regulatory oversight where it is arguably <span style="font-style:italic">most</span> needed. In the context of the cases before the court, the local authority considers that the placement for QV, a holiday park, will not consent to an application being made to Ofsted for registration.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">In the circumstances, and whilst each case falls to be considered on its own facts, it is unlikely in the context of a refusal by a provider to apply for registration that the court will conclude that the exercise of the inherent jurisdiction to authorise the deprivation of the liberty of a child with that provider is in the child&#8217;s best interests. In such circumstances, the court may be required to make a very short order (measured in hours or days and not weeks) to hold the ring whilst alternative arrangements are put in place. This will particularly be the case where a placement is required immediately in order to meet the operational duties under Art 2 of Art 3 of the ECHR by keeping the child safe and the unregistered placement is the only means of achieving this (referred to as &#8216;in the moment cases&#8217; in by Fordham J in <span style="font-style:italic">R (on the application of Matthew Richards) v Environment Agency and Walleys Quarry Limited</span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2021/2501" uk:canonical="[2021] EWHC 2501 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 2501 (Admin)</ref> at [50]). The operational duty of the court in such circumstances is to keep the child safe, however any authorisation given for a deprivation of liberty in that situation should be for the least time possible and a timetable for the identification of a placement that is registered or willing to apply for registration set by the court, registration of the placement being essential to ensuring that the child is kept safe in the medium and long term.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I accept that the Practice Guidance contemplates at [21] that registration may be refused following an application being made or that an application for registration may be withdrawn, and that the Guidance does not expressly prohibit the continuation of an unregistered placement in such circumstances. However, in my judgment, this does not detract from my overall conclusion that the court should not <span style="font-style:italic">ordinarily</span> countenance the exercise the inherent jurisdiction where an unregistered placement makes clear that it will not comply with the requirement of the Practice Guidance to apply for registration. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">A person carrying on or managing a children&#8217;s home must apply for registration as a matter of law. Within this context, there is in my judgment a stark difference between a provider who makes an application and fails in the first instance (the chances of which can be significantly reduced by working in partnership with and taking advice from Ofsted once the application has been submitted) and the provider who refuses to apply or cannot apply. In the former situation, an attempt has been made to bring the child back within the regulatory regime mandated by Parliament, albeit that attempt has been unsuccessful. In such circumstances, the regulator has had a chance to consider the placement and the court must factor in the result when determining for the purposes of the Practice Guidance whether the placement of the child in the unregistered children&#8217;s home or unregistered care home service continues to be in the child&#8217;s best interests, and in particular whether, on the advice of the regulator, changes can be made to ensure a successful registration application in due course. In the latter situation, there has not even been an <span style="font-style:italic">attempt</span> to bring the child within the statutory regulatory regime, notwithstanding that that is what the law requires, with no opportunity for the independent regulator to consider the placement (because no application is made) and with the result that the child remains outside the statutory regulatory regime for the duration of the placement.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I also accept that, in light of the acute resource issues that have been the subject of other judgments handed down by this court and by other judges of the Family Division, cases may arise where an unregistered placement will not comply with the Practice Guidance with respect to an application for registration but no alternative placement is immediately available. Again, I am satisfied that this does not detract from my overall conclusion that the court should not <span style="font-style:italic">ordinarily</span> countenance the exercise the inherent jurisdiction where an unregistered placement makes clear that it will not comply with the requirement of the Practice Guidance to apply for registration under the statutory regime. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Again, it is important to remember that a person carrying on or managing a children&#8217;s home <span style="font-style:italic">must</span> apply for registration as a matter of law. In such circumstances, not to insist on compliance with the Practice Guidance would be to permit the providers who are unwilling to comply with the law to benefit from the lack of resources. Further, a child&#8217;s best interests falls to be evaluated taking into account all relevant circumstances. Whilst the absence of a placement may place the child at risk, the court must also take account of the fact that it is likely to be antithetic to a child&#8217;s best interests to be deprived of the protections of the statutory regulatory regime mandated by Parliament. Within this context, in the experience of this court, the providers that are unwilling to apply for registration of those offering placements that are the most problematic for vulnerable children in respect of which the court most regularly encounters a refusal to apply for registration, examples including holiday parks, private Air B&amp;B properties, caravans and canal boats. These expose the child to a double deficit in the form of a sub-optimal placement that is also outwith the statutory regulatory regime designed to safeguard him or her. In such circumstances, for the court to acquiesce in the face of a refusal of a provider even to seek registration is to heighten significantly the risk to the highly vulnerable subject child. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Again, whilst each case turns on its own facts, it is unlikely in such circumstances that the court will conclude that the exercise of the inherent jurisdiction to authorise the deprivation of the liberty of a child in that placement is in the child&#8217;s best interests. Rather, in such cases and accepting the difficulties created by resource issues, after hearing the matter the court is likely to indicate its intention to refuse the application for authorisation and invite the local authority to present alternative proposals (as this court did in<span style="font-style:italic;font-family:'Cambria Math'"/><span style="font-style:italic">Wigan MBC v W, N &amp; Y</span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/1982" uk:canonical="[2021] EWHC 1982 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 1982 (Fam)</ref>). Again, in such circumstances, the court may be required to make a very short order (measured in days and not weeks) to hold the ring whilst alternative arrangements are put in place. Again, this will particularly be the case where a placement is required immediately in order to meet the operational duties under Art 2 of Art 3 of the ECHR by keeping the child safe and the unregistered placement is the only means of achieving this in an &#8216;in the moment&#8217; case. Again, any authorisation given for a deprivation of liberty in that situation should be for the least time possible and a timetable for the identification of a placement that is registered or willing to apply for registration set by the court, registration of the placement being essential to ensuring that the child is kept safe in the medium and long term.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">With respect to providers that &#8220;cannot&#8221; apply for registration, on behalf of Ofsted Ms Clement submitted that Ofsted does not recognise such a category, any person carrying on or managing a children&#8217;s home being required to apply for registration and any other placement not requiring registration because it is not a children&#8217;s home. Within this context, Ofsted contend that there is no such category of placements that &#8220;cannot&#8221; apply for registration. There is considerable force in that submission. However, in so far as a provider determines not to apply for registration because it could, for example, never meet the requirements to successfully apply, the court will be left in a similar position to that it finds itself in in respect of providers that will not apply. Once again, the child would be left outside the statutory regulatory regime for the duration of the placement as an application to Ofsted would never be made. Once again, this is not likely to be in the subject child&#8217;s best interests for the reasons set out above. If there are no steps being taken to regularise the position by applying for registration contrary to the Practice Guidance, the placement cannot be brought back at any point within the regulatory regime that Parliament has determined is required to meet the child&#8217;s needs. The inherent jurisdiction should not be used in circumstances which lead to the perpetuation of such an outcome. Again, the court may be required to make a very short order (measured in days and not weeks) to hold the ring whilst alternative arrangements are put in place, particularly where a placement is required immediately in order to meet the operational duties under Art 2 of Art 3 of the ECHR by keeping the child safe.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Providers who are in the process of an application obviously fall into a different category. The Practice Guidance makes clear that it accommodates the process of seeking registration and the possibility that registration may be refused or the application withdrawn. But where there is a continued failure to prosecute an application for registration despite a stated intent to do so, once again the court may find itself in a position where it cannot extend the authorisation depriving the child of his or her liberty in circumstances where the placement continues to be outside the regulatory regime. That the Practice Guidance sets out timescales in respect of the application for registration (which timescales I shall return to in more detail below) indicates that the effort to secure registration, and thus an order authorising under the inherent jurisdiction the deprivation of the child&#8217;s liberty in an unregistered placement, cannot be open ended. The requirement to make an application for registration and the timescale for doing so serves to ensure that deployment of the inherent jurisdiction in association with unregistered placements departs from the statutory scheme&#8217;s requirement of a registration to the minimal extent necessary. Within this context, the greater the delay beyond the timescales set by the Practice Guidance the greater the risk that the statutory scheme ensuring the welfare of vulnerable child is undermined. With respect to the cases before the court, the two placements for FJ were first identified by York in a statement of the social worker dated 26 March 2021, some six months ago. With respect to CK, Derby has no definitive timescale for achieving registration and as yet no clear evidence that registration is achievable. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Where there is a continued failure to prosecute an application for registration despite a stated intent to do so it is difficult to see how court could continue, indefinitely, to use its inherent jurisdiction to authorise the deprivation of liberty in such a setting, as this would leave the subject child outside the protection of the statutory regime and would be contrary to the legislative intent underpinning the statutory regime. It is plainly unsatisfactory for a child to be in an unregistered placement very for months after it was known that he or she has been placed there. Such an approach increases the risk that a child will be moved into an unregistered placement and then moved again before the application to register is made, the completion of the registration process always lagging behind the child. This is not consistent with strict compliance with the Practice Guidance. Further, as Ms Clement points out, the granting of a declaration authorising the deprivation of the child&#8217;s liberty does not act to abrogate the continuing duty of the local authority under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> to safeguard and promote the child&#8217;s welfare under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 22(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>, and to provide the child with accommodation which meets the child&#8217;s needs in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 22</ref>C of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>. Where that accommodation is in a placement operated as a children&#8217;s home, it must be the subject of an application for registration. Whilst there is delay in applying for registration there is no independent review of placement or care of child or qualifications or training. Within the foregoing context, if a provider fails to apply for registration in a timely manner, and if a local authority fails to require that they do so, they must expect at some point that the court will refuse to continue authorising the deprivation of liberty of very vulnerable outside of the regulatory regime carefully designed by Parliament to protect and safeguard them.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">I accept the general proposition that cases in which a child has been placed in an unregistered placement for a significant period of time by reason of delay in securing registration, and is making sustained progress in such a placement, will raise more difficult welfare questions in circumstances where moving the child by reason of an unacceptable delay in securing registration may conflict with the child&#8217;s wider welfare needs. However, such a situation is avoided by strict compliance with the Practice Guidance. The timely application for registration required by the Practice Guidance should avoid the situation arising where a child has settled in an unregistered placement such that to move him or her is not in his or her best interests and avoid the court being required to choose between ensuring the child is brought within the statutory regulatory regime and potentially prejudicing the child&#8217;s welfare in other respects. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Finally, within the context of the matters set out above, the local authorities invite the court to make comment about how realistic the timescales set out in the Practice Guidance are. The timescales contained in the guidance are a matter for the President of the Family Division. However, it is important to remember that Practice Guidance is just that. For the reasons set out above, the expectation is that the guidance will be strictly complied with to ensure that the child is brought expeditiously within the statutory regulatory regime. However, that does not exclude flexibility in an appropriate case. For example, it is inconceivable that a child would be left without the protection afforded by an authorisation under the inherent jurisdiction of the High Court because an application for registration cannot be submitted within 7 days of the first hearing in a case where there are good reasons for this, where the provider and the local authority are working to a defined plan checked by Ofsted, where the provider and the local authority are engaging in a dialogue with Ofsted, are being transparent about each step and any hurdles faced, are meeting the planned objectives, have provided the court with detailed plans and evidence of review, monitoring, support to ensure that the standards inside the placement are high, and where the local authority, providers and Ofsted are <span style="font-style:italic">ad idem</span> on the approach being taken. Whilst, for the reasons I have given, the court should not ordinarily countenance the exercise of the inherent jurisdiction in respect of a placement that will not or cannot apply for registration as required by law, it is equally the case that where a provider and a local authority working with Ofsted to achieve that end, the court will not seek to frustrate that approach by the overzealous enforcement of timescales contained in non-statutory Practice Guidance.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in;text-indent:-0.50in">CONCLUSION</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">For all the reasons I have given, whilst accepting that an unwillingness or inability on the part of a placement to comply with the terms of the President&#8217;s Practice Guidance is a factor that informs the overall best interests evaluation on an application under the inherent jurisdiction, and that each case will turn on its own facts, I am satisfied that that the court should not <span style="font-style:italic">ordinarily</span> countenance the exercise the inherent jurisdiction where an unregistered placement makes clear that it will not or cannot comply with the requirement of the Practice Guidance to apply expeditiously for registration as mandated by law. </p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Lest it be thought that this issue comprises an arid legal debate, it should be remembered at all times that these issues have a direct impact on vulnerable children and young people. FJ is an insightful and intelligent young person. It is clear that she worries about the question of registration and lawfulness and that this has a concrete impact upon her mental health. She been waiting since September 2021 for an answer as to whether the two placements identified for her will be registered. CK has no definitive timescale regarding the registration of her placement. QV is accommodated in a holiday park.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">As in each of the cases that has come before this court, the issue at the heart of the legal questions that arise regularly for determination this context is an ongoing lack of resources. Within this context, on behalf of the Secretary of State, Mr Auburn contends that this speaks of local authorities failing to fulfil their sufficiency duty under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 22</ref>G of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. In turn, the local authorities before the court charge the Secretary of State with failing to provide them with the resources required to fulfil the sufficiency duty. The court did not hear detailed submissions regarding where responsibility for the manifest lack of suitable provision for vulnerable children lies, and I accept the submission of Mr Auburn that it is no part of the function of this court to arbitrate the respective financial responsibilities of central and local government. Within this context however, I do note that in <span style="font-style:italic">Boumar v Belgium</span><ref href="#" uk:canonical="(1989) 11 EHRR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1989">(1989) 11 EHRR 1</ref>, the ECtHR held that where a State choses a system of educational supervision with a view to carrying out its policy on juvenile delinquency the State is under an obligation to put in place appropriate institutional facilities which meet the demands of security and the educational objectives of the policy in order to be able to satisfy the requirements of Art5(1)(d) of the Convention.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Wherever the responsibility lies for the current paucity of clinical provision for placement of children and adolescents requiring assessment and treatment for mental health issues within a restrictive clinical environment, of secure placements and of registered placements, the net result is the litany of cases coming before the courts in which no suitable placement can be located for the child. Within the context of the cohort of cases before this court, the situation is demonstrated starkly by the position Plymouth finds itself in when seeking to ascertain the suitability of a <span style="font-style:italic">holiday park</span> as a safe placement for a highly vulnerable child with a diagnosis of ASD, ADHD and Tourette&#8217;s Syndrome who displays violent and destructive behaviour with complex and acute emotional needs, as summarised in the statement of the social worker:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:-0.50in">&#8220;As was the case for the lodge at [location given], it will not be possible to access the specific lodge until check in. However the site will be contacted by telephone to complete a Property Risk Assessment on Monday 17th October 2021 once the specific lodge has been allocated to the booking. This will be updated if required when QV moves on Friday 22nd October 2021. The property is a holiday rental property for short term rentals, so the property does not have safeguards you would expect in a formal children&#8217;s home residential setting however [the holiday company] have confirmed that all properties have relevant holiday accommodation safety standards.&#8221; </p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Thus, part of the risk assessment in respect of a placement for a highly vulnerable child with a diagnosis of ASD, ADHD and Tourette&#8217;s Syndrome who displays violent and destructive behaviour with complex and acute emotional needs is dependent on the check in provisions applicable to holiday makers. Thus, the current state of provision for children and adolescents requiring assessment and treatment for mental health issues within a restrictive clinical environment in this jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">Each of the three cases with which the court has been concerned will be listed before me individually later this week for determination of those applications on the merits, having regard to the court&#8217;s foregoing conclusions regarding the preliminary question that has been before the court at this hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.50in;text-indent:-0.50in">100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.50in">That is my judgment.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1422 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/2730"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/2730"/>
+	  <FRBRdate date="2023-10-30" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2730"/>
+	  <FRBRname value="P v F"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2730"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2730"/>
+	  <FRBRdate date="2023-10-30" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2730/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/2730/data.xml"/>
+	  <FRBRdate date="2024-11-10T01:15:23" name="transform"/>
+	  <FRBRdate date="2024-11-16T06:19:16" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-10-30" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="p" href="" showAs="P"/>
+	<TLCPerson eId="f" href="" showAs="F"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-macdonald" href="/judge-the-honourable-mr-justice-macdonald" showAs="THE HONOURABLE MR JUSTICE MACDONALD"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>2730</uk:number>
+	<uk:cite>[2023] EWHC 2730 (Fam)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>50956edfb420b4e6d6a1eab15f4c1de590a98eb0047d4b511a370a7a86a05236</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 13pt; color: #2F5496; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Heading2Char { font-size: 13pt; color: #2F5496; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left"><span style="text-decoration-line:none">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:none">[2023] EWHC 2730 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FA-2023-000127</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2023-10-30" refersTo="#judgment">30/10/2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-macdonald">THE HONOURABLE MR JUSTICE MACDONALD</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#p" style="font-weight:bold">P</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#f" style="font-weight:bold">F</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">The Appellant appeared in person</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Respondent did not appear and was not represented</span></p>
+      <p style="text-align:center">Hearing date: 5 September 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice MacDonald:</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in">INTRODUCTION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is an appeal by the appellant father, P, against an order made by His Honour Judge Tolson KC dated 21 March 2023 (hereafter, &#8216;the judge&#8217;), by which the judge made child arrangement orders at a Dispute Resolution Hearing providing for indirect contact only between the father and the children and an order pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, prohibiting the father from making further applications in respect of the children for a period of 2 years.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 18 July 2023 the President of the Family Division granted the father permission to appeal out of time.  The President declined to grant permission on the grounds of appeal pleaded by the father but, instead, granted permission on the following grounds:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The judge was in error in making a final Child Arrangements Order at a Dispute Resolution Hearing when the applicant was clearly not consenting to a final order for no direct contact being made;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In circumstances where the applicant did not agree to a &#8216;no direct contact&#8217; order and challenged the CAFCASS report, the hearing was conducted in breach of his right to a fair trial under the European Convention on Human Rights, Art6.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The imposition of an order under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 91(14)</ref>, preventing further applications, was wrong in circumstances where none of the procedural requirements necessary to establish a fair process with respect to a litigant in person were followed (see <span style="font-style:italic">Re C</span> <ref href="#" uk:canonical="[2009] 2 FLR 1461" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 2 FLR 1461</ref>) and the judge gave no judgment in support of making the order.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At this appeal hearing the father represents himself.  The respondent mother, F, was provided with notice of the appeal hearing but has not attended and is not represented.  In determining the appeal, I have had the benefit of an appeal bundle containing the Cafcass s.7 report, the order made by the judge on 21 March 2023, at transcript of the Dispute Resolution Hearing on that date, the father&#8217;s Notice of Appeal and original grounds of appeal and the order made by the President granting permission to appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the conclusion of the hearing I announced that the appeal would be allowed with reasons to follow.  I now set out my reasons for allowing the appeal on each of the grounds set out above.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1">BACKGROUND</p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The background can be stated shortly.  The children who are the subject of the substantive proceedings are twins, L and C, born on 24 October 2011 and now aged nearly 12.  They live with the mother and her partner and a younger maternal sibling at a confidential location.  This is the third set of proceedings between the parents under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> in respect of L and C.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This court has only very limited information concerning the difficulties in the parents&#8217; relationship that lead to the instigation of proceedings under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> and the orders that were made in those proceedings.  However, its apparent that in May 2021 a child arrangements order was made in favour of the father, providing for the children to spend time with him for one night on alternate weekends and time during the school holidays.  In circumstances where the father had not seen the children since May 2022, in October 2022 he made an application to enforce the child arrangements order.  In those enforcement proceedings, the court directed a report from Cafcass.  That report was completed on 24 February 2023 and filed on 8 March 2023.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her report, the Cafcass Family Court Reporter detailed that the father had been very difficult to work with due to the high levels of communication by the father, in which he was both abusive and threatening.  The Cafcass report relates that the father has historic convictions and that a restraining order was made by the Magistrates court on 8 December 2020, to expire on 7 June 2023, that prevented the father from contacting the mother and her partner and from entering the road on which she then lived.  It would appear that the father was also arrested on 28 April 2022 on suspicion of battery and threatening and abusive behaviour, but that no charges were ultimately brought.  When speaking to the Family Court Reporter, the mother alleged ongoing abusive behaviours by the father, which included allegations of harassment and stalking, incidents of physical harm, damage to property, name calling and verbal abuse.  The Cafcass report further relates an incident, disputed by the father, during which the police had to be called to the children&#8217;s school to manage the father&#8217;s behaviour and that, on one occasion again disputed by the father, the children had to be taken home from school by the police to ensure their safety.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Cafcass report details the children&#8217;s wishes and feelings in respect of contact.  Both children were &#8220;immediately clear&#8221; that they did not want to see their father.  Both children stated that their father would place them under pressure by accusing them of not loving him, that he would get angry for no reason, and that he would shout at them.  Both children informed the Family Court Reporter that the father would get drunk &#8220;loads&#8221; and each reported their dislike of the father swearing, as they described it, in every sentence and &#8220;randomly and for no reason&#8221;.  Both children reported an incident of them seeing the father physically hurt their mother.  Asked about direct contact, both L and C were clear that &#8220;it should be the children's decision, and this should be no contact&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father informed the Family Court Reporter that, with respect to the views being expressed by the children, he believed that the mother had &#8220;brainwashed&#8221; the children into believing that he is dangerous.  He informed the Family Court Reporter that there were no issues when he spent time with the children, who he said enjoyed their time with him and never indicated that they were afraid of him.  The father told the Family Court Reporter that, ideally, he would like to spend time with the children on alternate weekends and for half of the school holidays.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Family Court Reporter considered that the father lacked insight into the impact of his behaviour on the children, citing the statement by the father during her discussions with him regarding the views of the children that &#8220;They are being manipulated and abused, she&#8217;s a fucking shit mother.  She needs putting down.  She is a manipulating twat.  She wants me out of their lives.&#8221;  When the Family Court Reporter sought to explore with the father options for seeking support from others with respect to contact with the children, he told her that &#8220;I haven&#8217;t seen my fucking parents for years because basically they are cunts.  My mate hung himself last year, I didn&#8217;t go to his funeral cos he was a cunt&#8221;.  Within this context, the Family Court Reporter concluded as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;[The father]&#8217;s thought processes are fixed and rigid. He cannot be persuaded that an alternative narrative to his own exists and when confronted by this, for example with the wishes and feelings of his own children, he dismisses them outright and lays the blame firmly with [the mother]. He is unable to make a link between his own behaviour and presentation with how his children feel about spending time with him.  I do not doubt [the father] loves his children, but he is not able to filter his own views, thoughts, opinions or language.  His children have been, and would continue to be, exposed to his negative and derogatory view of their mother and authority if contact were to resume.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Family Court Reporter further considered that, applying the Cafcass Child Impact Assessment Framework, there was no evidence that the mother was influencing the children against the father, concluding that her position was that of a protective parent who is genuinely fearful of exposing the children to further harm and who remains justifiably fearful of being exposed to further domestic abuse herself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the foregoing circumstances, the Cafcass recommended that the children continue to live with the mother in accordance with the child arrangements order, that the existing child arrangements order be varied to provide for indirect contact only between the father and the children in line with their wishes and feelings, that there be indirect contact by way of Christmas and birthday cards and presents, that the mother provide written updates on the children&#8217;s health, education and wellbeing to the father every three months, that consideration be given to the making of a prohibited steps order preventing the removal of the children from their parental grandparents during visits to them and an order pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> preventing the father from making further applications to the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This court has the benefit of a transcript of the Dispute Resolution Appointment that took place on 21 March 2023 following the receipt of the Cafcass report.  In considering the grounds of appeal relied on by the father, I have found the following exchanges between the judge and the father during the hearing to be the most relevant.  At the outset of the hearing, the judge addressed the father and explained the purposes of a Dispute Resolution Appointment in the following exchange:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;JUDGE:  Well, I do not know if you both knew, but this is called a dispute resolution appointment.  It is not a final hearing.  So, what I have to try and do is resolve the dispute if I can.  If I cannot, you go to a final hearing, which in this case would be before another judge.  Right? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Mmm hmm. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  And what I have to try and do is see if there is any middle ground, so I would not worry too much about lack of a solicitor for today.  If you proceed with your application because you want whatever it is you want to ask me in a minute.  You will have plenty of chance to get a lawyer for that.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  I haven&#8217;t got any money for anything, so. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Well that is a different issue.  With that I cannot help you I am afraid.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  I will have to represent myself, yeah.  I was hoping today would just be let&#8217;s get this resolved and because it&#8217;s gone on for too long now, because I haven&#8217;t seen my children since May, obviously you&#8217;ve seen on the report.  Due to their wellbeing, safety, mental health, and myself, I think it needs to get resolved sooner than later.  In this case obviously there&#8217;s loads of flaws in the report as well, so false allegations obviously you&#8217;ve seen.  When I went to the court, I got a not guilty for everything, so she&#8217;s trying to use that to say I&#8217;m a bad person, but I&#8217;m nowhere near a bad person.  And obviously it&#8217;s already proven in a legal court that I&#8217;m not guilty for all the things what have been said.&#8221;   </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following this exchange, the judge proceeded to outline to the father what the judge considered to be the key issue in the case, namely the firm wishes and feelings expressed by the children as set out in the Cafcass report.  In this context, the following exchange took place:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;JUDGE:  You will I am sure appreciate that there is simply no way I can make an order in your favour, reading a Cafcass report like this.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  There&#8217;s no evidence saying that I&#8217;m this person or anything that resembles it.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  It is a combination of what the children are saying and the Cafcass view that they are not in any way being coached to say it.  This is what at the moment they think and feel.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Yeah. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  And they have changed their minds.  Cafcass think they have changed their minds because they have been exposed to the way you have gone about things.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Because obviously I&#8217;m --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Now, as I say, I cannot in your case today --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  But you can understand where my frustration&#8217;s coming from, can&#8217;t you?  Obviously.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  --- and I would not want to, and you will appreciate it will not be me, so I can say more than I normally do.  The trouble is that, you know, I think you have to change your approach before you have any chance here. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Well I haven&#8217;t made any approach.  This is what I&#8217;m irritated about and this is why Cafcass obviously haven&#8217;t fulfilled their duties basically.  This is what I&#8217;m trying to say.  Yeah they got 20 years, 30 years, 50 years&#8217; experience, but speaking to my children for 20 minutes at 11 years old, it doesn&#8217;t explain how they&#8217;re basically trying to tell me how they know my children better than I do.  I&#8217;m like I&#8217;m a 35 year old.  I&#8217;m just a normal person.  I&#8217;ve never been in trouble before.  I&#8217;m just normal and I just want this stuff over and done with to be fair.  I&#8217;ve had enough now.  It&#8217;s been a long time, so I need it over and done with.  They suffer more, I suffer more.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The exchange between the judge and the father then moved on to the question of whether the proceedings should conclude at the Dispute Resolution Appointment (the father having earlier expressed a hope the proceedings could be concluded at the hearing) or proceed to a final hearing:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;JUDGE:  Well the only way I could end it today would be with no order in your favour.  If you want me to do that, I will, but I would not deny you your chance in court if that is what you want.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  What does that mean, sorry sir? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Well, if I make a final order today, which I can do --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Yes please. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  --- it can only be along the lines of what Cafcass are suggesting, which is no time with the children, and indeed Cafcass are saying make an order which stops you bringing any future application for a couple of years.  That is what they mean by a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref>.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  That&#8217;s not --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Now I cannot do that just sitting here talking to you.  A judge would have to hear evidence, hear submissions, hear from the Cafcass officer and make a decision.  That is not the purpose of this hearing.  It is a dispute resolution appointment. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Appointment? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  The only way I can resolve it is by agreement and that would be to make the final order that Cafcass recommends.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At this point the father asked the judge to speak to the mother to see if a resolution could be reached.  The mother made clear to the court that she considered that the correct outcome was that recommended by the Family Court Reporter based on the children&#8217;s wishes and feelings.  Following a further debate between the judge and the father concerning the recommendations for indirect contact contained within the Cafcass report, the following exchange took place:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;JUDGE:  I am genuinely sorry for you here.  There is nothing that I can offer you and I suspect that there is nothing at court that a final hearing could offer you.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  I can&#8217;t see how we&#8217;re going to resolve this then.  She&#8217;s won, hasn&#8217;t she?  Women win.  She&#8217;s won.  I&#8217;ve lost my kids.  That&#8217;s the bottom line, isn&#8217;t it? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  The bottom line today, the only order I could make would be no order except Christmas presents, cards, through your parents and the report from [the mother] once every three months on the progress. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Well we can&#8217;t make an order then, unfortunately.  I don&#8217;t know what we&#8217;re going to do.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Well I will just put it forward for a final hearing, get a statement from each of you as to what you want to happen and why.  You send that in a week before the hearing.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  I&#8217;ve already made --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  I mean would there be any witnesses you want to call to support your case? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  I don&#8217;t know how you can have witnesses on this.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Well I think that is probably right, yes.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  But when I come in today, I made to myself that it has to be resolved today, there&#8217;s no final hearing, there&#8217;s no adjourning, there&#8217;s none of this rubbish.  Due to their welfare, and the kids, and the whatever, it just needs to be resolved.  I don&#8217;t know why [the mother] can&#8217;t just say it and we just get back to how it was.&#8221;  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A further exchange then took place regarding the father&#8217;s view of the validity of the Cafcass report and the question of whether the children&#8217;s views had been influenced by their mother, the judge making clear to the father his view that there was no evidence of such manipulation.  At the conclusion of that exchange, and having at the father&#8217;s request again addressed the mother to see whether she would agree to direct contact, the judge pressed the father as to how the father wished to proceed in the following extended exchange:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;JUDGE:  No, look, I am going to put to you your options.  Final order or trial, which do you want? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  What could trial do? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Sorry? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  What&#8217;s a trial? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Well, at a trial, you would give evidence.  [The mother] would give evidence.  If you wanted to call a witness to support your case that would be fine.  You would tell me who the witness would be and what they would tell the judge.  You get a chance to ask questions of the Cafcass officer and then the judge would reach a decision.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  And a final hearing is basically --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  It will not be me. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Yeah.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  As I am leaving this court centre. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  OK. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE TOLSON:  But that allows me to say more than I would normally say on these occasions and that is I cannot at the moment see any other outcome but the one that Cafcass suggest.  Now, the things that you said to me about wanting to end today and so forth --</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  End what sorry?  I really struggle with my hearing.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  The things you have said today about wanting the case to end. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  The case to end, yeah, and just get it over and done with and just let me see my kids again.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Well I know, and if that is what you want, that is fine, but it will be an order in line with the Cafcass recommendation.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Well it&#8217;s just me not to see my children again.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  But if you want me to put it off to a trial, I will do that.  You have got a choice, but it is the only choice I can offer you. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  But before it&#8217;s always been final hearings, so what&#8217;s best?  We go for the final hearing.  I can&#8217;t see how a trial is going to do anything, because of a witness.  What witness?  There&#8217;s no witnesses. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  I do not know.  You know, it is up to you.  I really do feel sorry for you.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The pattern of the father seeking to articulate his ambition for the mother to offer more contact in line with previous arrangements, and the judge responding by seeking to demonstrate to the father the reasons this ambition was unrealistic having regard to the contents of the Cafcass report and pressing the father to indicate whether he sought a final hearing, continued.  Within that context, the following further exchanges took place regarding whether there should be a final hearing: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;APPLICANT:  I just can&#8217;t believe how it&#8217;s ending.  It&#8217;s not how it should end, and [the mother] knows as well, it shouldn&#8217;t end like this.  I might as well just give up.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  What do you want me to do? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  I give up. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  OK.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  There&#8217;s nothing I can do now, is there?   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Well, I am sorry, but I will then make a final order in line with the Cafcass recommendation.  All right. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  So the final order is me not to see my children ever again? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  I will not say that. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Well that&#8217;s what the Cafcass report says.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  It is pretty grim, yes. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  So what&#8217;s the reasons why I can&#8217;t see my children?  There&#8217;s no actual reason.  There&#8217;s no reasons at all why I can&#8217;t see my children.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  The reasons are they do not want to see you, first; and secondly --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Like I&#8217;ve already explained --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  --- there is no evidence that that is the fault of anything that their mother has done.  There is good evidence that it is the product of their --- </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  I don&#8217;t think you understand, sir.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  --- being exposed to a frightening side of you, which you need to think about.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">And</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;JUDGE:  Well I am sorry, but what I am going to do is I am going to end the hearing now with you telling me you want a final order and not a trial.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Do you think that&#8217;s the best option? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  I do, yes, but it is not for me to advise you. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Well if that&#8217;s what you think is the best option, then we&#8217;ll go for that then. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Yes, but I look at things from the point of view of the children.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  The point of what sorry? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  I also suspect it is probably best for you, because I cannot see another outcome.  I think you would come back here in 2 months&#8217; time, and you would find it very frustrating because you would not have a case, is what I think.  But it is up to you.  As you say, you are in your thirties now.  You make the decision.  I do not make the decision as to whether you want a trial or not.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  What do you think I should do, a trial or a hearing?  I haven&#8217;t got a solicitor, so I need some other advice, don&#8217;t I? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  That might be good for you, yes. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Yeah, but I&#8217;ve spent 11, 12 grand on court.  I haven&#8217;t got no money left. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  OK.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  I don&#8217;t know what to say.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Well I am going to have to ask you for a decision.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  A trial is exactly the same as a final hearing isn&#8217;t it, technically? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Yes. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  So we&#8217;ll just go for a final hearing.  It&#8217;s exactly the same thing, isn&#8217;t it? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Yes. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  OK, we&#8217;ll just go for whatever&#8217;s next then, the next thing to do in line.  Can I speed it up?  Speed it.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  No, I could not get you in.  The lists are really crowded, lots of other cases.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thereafter, the final exchange between the judge and the father prior to the conclusion of the hearing was as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;APPLICANT:  Well it&#8217;s a bit of a pointless thing, isn&#8217;t it?  Yeah, so what happens now then?  That&#8217;s it? </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  That is it if I make a final order, yes, which I think is what you are asking me to do. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  I think that&#8217;s the next thing, isn&#8217;t it?  To do a final, make a final order so I can see my kids. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Yes. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  Yeah.  I want to see them, yeah. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Thank you.  Well then, I am going to conclude this hearing.  All right.  I am going to ask you to leave, if you would be so kind.  Thank you. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">APPLICANT:  All right, yeah.  I&#8217;ll have to wear my hearing aid next time I come in, because I can&#8217;t hear a word you&#8217;re saying sometimes.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">JUDGE:  Oh sorry.  Thank you.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the conclusion of the hearing on 21 March 2023, the judge made an order which contained recitals in the in the following terms:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;1.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The father has applied to enforce stipulations in an order made on 7 May 20221 under PE20P00104.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>2.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Cafcass has reported under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the Act</ref>.  The conclusion of the Cafcass officer is adverse to the father, recommending no direct &#8216;time with&#8217; arrangements and only the barest arrangements for indirect contact.  A full reading of the report is necessary to understand such a bleak outcome.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The father vacillated, but ultimately elected not to proceed to trial, understanding that any final order made without a trial would have to be in accordance with the Cafcass recommendations.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The substantive order made by the judge on the 21 March 2023 was in the following terms:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;4.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Child Arrangements. The Child Arrangements Order made on 7 May 2021 under PE20P00104 is discharged.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>5.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The children shall live with their mother.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>6.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">There is no order for the children to spend time with their father.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>7.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The father may send Christmas and Birthday presents and cards to the children.  He must so do via the paternal grandparents or some other third party to whom the mother has given express permission in writing to carry out this role.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>8.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The mother shall send directly to the father or via either a parenting app such as www.appclose.com/co-parenting or the paternal grandparents an appropriately redacted report as to the children&#8217;s progress.  She shall do so at least once every three months.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>9.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The mother shall facilitate to the best of her ability any wish expressed by either child to communicate with their father.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 91(14)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>.  No application for an order under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> in respect of these children shall be made by the father without the leave of the court for a period of 2 years.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>11.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">This is a final order concluding these proceedings.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father filed his Appellant&#8217;s notice on 30 May 2023.  As I have noted, the President of the Family Division declined to grant permission on the grounds of appeal pleaded by the father but granted permission on the grounds set out above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In making representations to this court, the father restated his assertion that he had not consented to a final order for no direct contact being made at the Dispute Resolution Hearing or an order pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> and, at the conclusion of the hearing, had thought that the matter was going off for a final hearing to examine whether he could see the children notwithstanding the recommendation of the Cafcass report and the position taken by the mother in that context.  He told this court that he had tried to make clear to the judge that he did not agree with what the Cafcass report either as to the weight it attached to the views of the children or the its recommendation for no direct contact between himself and the children.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1">THE LAW</p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">FPR Practice Direction 12B &#8211; Child arrangements Programme provides at paragraph 19 for a  Dispute Resolution Appointment (hereafter &#8220;DRA&#8221;) to be listed.  Paragraph 19 of FPR PD 12B reads as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;<span style="font-weight:bold">Dispute Resolution Appointment (DRA)</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>19.1</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The Court shall list the application for a Dispute Resolution Appointment (&#8216;DRA&#8217;) to follow the preparation of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> or other expert report, or Separated Parenting Information Programme (SPIP) (or WT4C in Wales), if this is considered likely to be helpful in the interests of the child.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>19.2</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The author of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> report will only attend this hearing if directed to do so by the Court.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>19.3</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">At the DRA the Court will &#8211;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Identify the key issue(s) (if any) to be determined and the extent to which those issues can be resolved or narrowed at the DRA;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Consider whether the DRA can be used as a final hearing;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Resolve or narrow the issues by hearing evidence;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Identify the evidence to be heard on the issues which remain to be resolved at the final hearing;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Give final case management directions including:</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.39in;text-indent:0.02in">Filing of further evidence;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.39in;text-indent:0.02in">Filing of a statement of facts/issues remaining to be determined;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.39in;text-indent:0.02in">Filing of a witness template and / or skeleton arguments;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.39in;text-indent:0.02in">Ensuring Compliance with Practice Direction 27A (the Bundles Practice Direction);</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(e)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.39in;text-indent:0.02in">Listing the Final Hearing.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">FPR Practice Direction 12B at paragraph 11.2 requires the court and the parties to have regard in particular to, inter alia, the Overriding Objective in Part 1 of the FPR 2010, including the need to ensure the case is dealt with expeditiously and fairly and to ensure that the parties are on an equal footing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Art 6 of the European Convention on Human Rights and Fundamental Freedoms 1950 (hereafter ECHR) provides as follows with respect to the right to a fair trial:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;<span style="font-weight:bold">Article 6</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">Right to a fair trial</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>1.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">In the determination of his civil rights and obligations or of any criminal charge against him, everyone is entitled to a fair and public hearing within a reasonable time by an independent and impartial tribunal established by law. Judgment shall be pronounced publicly but the press and public may be excluded from all or part of the trial in the interest of morals, public order or national security in a democratic society, where the interests of juveniles or the protection of the private life of the parties so require, or to the extent strictly necessary in the opinion of the court in special circumstances where publicity would prejudice the interests of justice.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>2.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Everyone charged with a criminal offence shall be presumed innocent until proved guilty according to law.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Everyone charged with a criminal offence has the following minimum rights:</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">to be informed promptly, in a language which he understands and in detail, of the nature and cause of the accusation against him;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">to have adequate time and facilities for the preparation of his defence;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">to defend himself in person or through legal assistance of his own choosing or, if he has not sufficient means to pay for legal assistance, to be given it free when the interests of justice so require;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">to examine or have examined witnesses against him and to obtain the attendance and examination of witnesses on his behalf under the same conditions as witnesses against him;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(e)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">to have the free assistance of an interpreter if he cannot understand or speak the language used in court.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Art 6 of the ECHR is concerned with procedural fairness and is to be given a broad and purposive interpretation, having regard to the prominent place in a democratic society held by the fair administration of justice.  Art 6(1) will be engaged in respect of proceedings between private individuals, the result of which is decisive for civil rights and obligations.   In determining whether there has been a breach of the right to a fair hearing, the court must ascertain whether the proceedings considered as a whole, including the way in which the evidence was taken, were fair, as well as individual deficiencies in the process (see <span style="font-style:italic">Mantovanelli v France</span> <ref href="#" uk:canonical="(1997) 24 EHRR 370" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">(1997) 24 EHRR 370</ref> at [34]).  The question for the court is whether the person complaining of a breach has been deprived overall of their right under Art 6 to a fair trail.   Within this context, a procedure whereby civil rights are determined without hearing the parties submissions will not be compatible with Art 6(1) (see <span style="font-style:italic">Karakais v Greece</span> <ref href="#" uk:canonical="(2003) 36 EHRR 507" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">(2003) 36 EHRR 507</ref> at [26]).  An element of a fair hearing is the right to comment on all evidence adduced or observations filed with a view to influencing the court's decision (<span style="font-style:italic">Mantovanelli v France</span> (1997) at [33]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Art 8 of the ECHR provides as follows with respect to the right to respect for private and family life:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;<span style="font-weight:bold">Article 8</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">Right to respect for private and family life</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>1.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Everyone has the right to respect for his private and family life, his home and his correspondence.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>2.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">There shall be no interference by a public authority with the exercise of this right except such as is in accordance with the law and is necessary in a democratic society in the interests of national security, public safety or the economic well-being of the country, for the prevention of disorder or crime, for the protection of health or morals, or for the protection of the rights and freedoms of others.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In proceedings in which a party&#8217;s Art 8 rights are engaged, whilst Art 8 contains no explicit procedural requirements, the decision-making process leading to measures of interference in the right to respect for private and family life must be fair and such as to afford due respect to the interests safeguarded by Art 8 (see <span style="font-style:italic">McMichael v United Kingdom</span> <ref href="#" uk:canonical="(1995) 20 EHRR 205" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">(1995) 20 EHRR 205</ref> at [87]).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 91(14)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> provides as follows with respect to the making of orders:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;91.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in"><span style="font-weight:bold">Effect and duration of orders etc</span>.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8230;/</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(14)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">On disposing of any application for an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">this Act</ref>, the court may (whether or not it makes any other order in response to the application) order that no application for an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">this Act</ref> of any specified kind may be made with respect to the child concerned by any person named in the order without leave of the court.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">For further provision about orders under this subsection, see <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91</ref>A (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> orders: further provision).</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8230;/<span style="font-weight:bold">&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> has been amended by the <ref href="http://www.legislation.gov.uk/id/ukpga/2021/17" uk:canonical="2021 c. 17" uk:origin="TNA" uk:type="legislation">Domestic Abuse Act 2021</ref>, which by <ref href="http://www.legislation.gov.uk/id/ukpga/2021/17/section/67/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.67(3)</ref> inserted <ref href="http://www.legislation.gov.uk/id/ukpga/2021/17/section/91" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91</ref>A into the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;<span style="font-weight:bold">91A. <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 91(14)</ref> orders: further provision</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">This section makes further provision about orders under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> (referred to in this section as &#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> orders&#8221;).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">The circumstances in which the court may make a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> order include, among others, where the court is satisfied that the making of an application for an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">this Act</ref> of a specified kind by any person who is to be named in the <ref href="http://www.legislation.gov.uk/id/ukpga/2021/17/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> order would put&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.39in;text-indent:0.02in">the child concerned, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.39in;text-indent:0.02in">another individual (&#8220;the relevant individual&#8221;),</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">at risk of harm.</p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">In the case of a child or other individual who has reached the age of eighteen, the reference in subsection (2) to &#8220;harm&#8221; is to be read as a reference to ill-treatment or the impairment of physical or mental health.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Where a person who is named in a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> order applies for leave to make an application of a specified kind, the court must, in determining whether to grant leave, consider whether there has been a material change of circumstances since the order was made.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">A <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> order may be made by the court&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.39in;text-indent:0.02in">on an application made&#8212;</p>
+		    </intro>
+		    <subparagraph>
+		      <num>(i)</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.39in;text-indent:0.32in">by the relevant individual;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(ii)</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.39in;text-indent:0.32in">by or on behalf of the child concerned;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(iii)</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.39in;text-indent:0.32in">by any other person who is a party to the application being disposed of by the court;</p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.39in;text-indent:0.02in">of its own motion.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(6)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">In this section, &#8220;the child concerned&#8221; means the child referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref>.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">FPR 2010 PD12B and PD12Q contain guidance on the application of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>.  The Practice Directions point up that orders under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> are available to prevent a person from making future applications under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">that Act</ref> without leave of the court and that <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> leaves a discretion to the court to determine the circumstances in which an order should be made.  The Practice Directions highlight that the circumstances in which such an order may be made are many and varied.&#160;&#160;Those circumstances include where an application would put the child concerned, or another individual, at risk of harm as provided in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91</ref>A. In exercising the court&#8217;s discretion, the Practice Directions make clear that the welfare of the child is paramount.  With respect to the type of conduct that may justify an order, paragraph 13A.2 of PD12B (and paragraphs 2.3 and 2.4 of PD12Q) provide as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">13A.2&#160;These circumstances can also include where one party has made repeated and unreasonable applications; where a period of respite is needed following litigation; where a period of time is needed for certain actions to be taken for the protection of the child or other person; or where a person&#8217;s conduct overall is such that an order is merited to protect the welfare of the child directly, or indirectly due to damaging effects on a parent carer. Such conduct could include harassment, or other oppressive or distressing behaviour beyond or within the proceedings including via social media and e-mail, and via third parties. Such conduct might also constitute domestic abuse. A future application could also be part of a pattern of coercive or controlling behaviour or other domestic abuse toward the victim, such that a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> order is also merited due to the risk of harm to the child or other individual.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With respect to the procedure to be adopted when the court is considering making an order pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, Part 3 of PD 12Q states as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;3.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in"><span style="font-weight:bold">Procedure</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.1</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91</ref>A, a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> order may be made by the court of its own motion. If at any stage of the proceedings the court is considering making such an order of its own motion, it should record this fact in an order, together with any related directions (see, for example, paragraph 3.5).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.2</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">An application for such an order may also be made by an individual who alleges a risk of harm from a future application, or by or on behalf of the child to whom the application would relate, or by another party to the application being disposed of.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.3</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">If an application is made, the Part 18 procedure should be used. The application may be made in writing using Form C2, or orally during the hearing.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.4</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref>, an order may only be made when disposing of another application under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the Act</ref>, but <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> is silent on when an application for such an order may be made. In proceedings in which risk of harm is alleged or proven, including but not limited to domestic abuse, the court should therefore give early and ongoing consideration to the question of whether a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> order might be appropriate on disposal of the application, and to whether any particular findings of fact will be needed to determine the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> application.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.5</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">If an application is made, or the court is considering making an order of its own motion, the court should also consider what opportunity for representations should be provided to the parties. Courts should look to case law for further guidance and principles.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.6</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">If the court decides to make a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91(14)</ref> order, the court should give consideration as to the following matters:</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>a.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">the duration of the order (see section 4);</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>b.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">whether the order should cover all or only certain types of application under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>c.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">whether service of any subsequent application for leave should be prohibited until the court has made an initial determination of the merits of such an application (see section 6). Such an order delaying service would help to ensure that the very harm or other protective function that the order is intended to address, is not undermined; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>d.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">whether upon any subsequent application for leave, the court should make an initial determination of the merits of the application without an oral hearing (see section 6).&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">PD12Q paragraph 2.8 makes clear that in determining whether to exercise its discretion to make an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, the court should consider case law for further guidance and relevant principles, bearing in mind Parliament&#8217;s insertion via <ref href="http://www.legislation.gov.uk/id/ukpga/2021/17" uk:canonical="2021 c. 17" uk:origin="TNA" uk:type="legislation">the 2021 Act</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2021/17/section/91" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 91</ref>A into <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>.   As set out above, PD12Q paragraph 3.5 provides that in considering what opportunity for representations should be provided to the parties, courts should look to case law for further guidance and principles.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The case law contains extensive guidance concerning the application of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>, most recently in <span style="font-style:italic">Re A (Supervised Contact)(<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s91(14)</ref>)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1749" uk:canonical="[2021] EWCA Civ 1749" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 1749</ref>.  For the purposes of this appeal, the following principles are relevant.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A court may impose an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> of its own motion.  However, this is subject to the rules of natural justice (see <span style="font-style:italic">Re P (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 91(14)</ref> Guidelines)(Resident and Religious Heritage)</span> <ref href="#" uk:canonical="[1999] 2 FLR 573" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 2 FLR 573</ref>).  In this regard, before making an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref>, the court must be satisfied that the parties affected (i) are fully aware that the court is siesed of an application and is considering making such an order, (ii) understand the meaning and effect of such an order, (iii) have full knowledge of the evidential basis on which the order is sought, and (iv) have had proper opportunity to make representations in relation to the making of the order (see <span style="font-style:italic">Re T (A Child)(Suspension of Contact)(<ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s91(14)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">ChA 1989</ref>)</span> <ref href="#" uk:canonical="[2016] 1 FLR 916" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 1 FLR 916</ref>).  In this regard, in <span style="font-style:italic">Re C (Litigant in Person: <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 91(14)</ref> Order) </span><ref href="#" uk:canonical="[2009] 2 FLR 1461" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 2 FLR 1461</ref> at [13] the Court of Appeal noted that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;Where the parties are both or all in person, there is a powerful obligation on any court minded to make a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 91(14)</ref> order to explain to them the course the court is minded to take. This will involve the court telling the parties in ordinary language what a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 91(14)</ref> order is; and what effect it has, together with the duration of the order which the court has in mind to impose. Above all, unrepresented parties must be given the opportunity to make any submissions they wish about the making of such an order, and if there is a substantive objection on which a litigant wishes to seek legal advice the court should either normally not make an order; alternatively it can make an order and give the recipient permission to apply to set it aside within a specified time.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1">DISCUSSION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having considered the transcript of the Dispute Resolution Hearing before the judge and the representations made by the father, I am satisfied that the father&#8217;s appeal must be allowed.  My reasons for so deciding are a follows.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Taking the first two grounds of appeal together, I am satisfied that the judge was wrong to make a final Child Arrangements Order at a Dispute Resolution Hearing when the father was clearly not consenting to a final order for no direct contact being made and that, in circumstances where the applicant did not agree to an order providing for no direct contact and challenged the CAFCASS report, the hearing was conducted in breach of his right to a fair trial under Art 6(1) of the ECHR and the procedural protections afforded by Art 8 of the ECHR.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This court, of course, has the considerable benefit not only of a transcript of the Dispute Resolution Hearing, but the benefit of time to consider carefully, and with mature reflection, the content and evolution of the discussion between the Judge and the father.  By contrast, the Judge had to deal in the moment with a difficult and developing discussion with a litigant in person in what was, no doubt, a busy court list.  Nonetheless, I am satisfied that it is clear that at no point during the exchanges between the judge and the father did the father indicate he consented to a final order for no contact being made, such that the judge was in a position making a final order for no direct contact at the Dispute Resolution Hearing.  Indeed, whilst I accept that the exchanges with the father were at times confused and confusing, it is clear that the father sought both to dispute the contents of the Cafcass report and sought the opportunity to advance at a final hearing his case that there should be direct contact between himself and the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge made clear to the father at the outset of the hearing that if the dispute could not be resolved at the Dispute Resolution Appointment then &#8220;you go to a final hearing&#8221;.  The father made clear in turn that he did not accept the report of the Family Court Reporter, which he described having &#8220;loads of flaws&#8221;, nor what he described as the &#8220;false allegations&#8221; concerning his behaviour.  Whilst it is the case that at one point the father states that &#8220;I give up&#8221; and, later, that he would accept the view of the judge that a final order is a better option than a trial, it is clear that these statements took place in the context of the father being confused about whether a trial and a final hearing are the same thing.  More fundamentally, it is further clear that throughout the exchanges the father continued to seek direct contact with the children.  The penultimate exchange indicates that, in that context, the father was still seeking a final hearing when he says &#8220;So we&#8217;ll just go for a final hearing.  It&#8217;s exactly the same thing, isn&#8217;t it?&#8221; and &#8220;OK, we&#8217;ll just go for whatever&#8217;s next then, the next thing to do in line.  Can I speed it up?  Speed it.&#8221;  During the final exchange, it is clear that the father and the judge were by then speaking at cross purposes.  The judge was talking about a final order. The father, however, was still talking about a process that would enable him to see the children, the father stating &#8220;I think that&#8217;s the next thing, isn&#8217;t it?  To do a final, make a final order so I can see my kids&#8221; and &#8220;I&#8217;ll have to wear my hearing aid next time I come in, because I can&#8217;t hear a word you&#8217;re saying sometimes&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In these circumstances, the judge made a final order providing for no contact between the father and the children at the Dispute Resolution Appointment even though the father had at no point indicated in clear terms that he consented to such a course and, moreover, had indicated that he did not accept the report of the Family Court Reporter, on whose recommendations the terms of the final order made by the judge were based, nor the allegations concerning his behaviour.  Whilst a judge undertaking a Dispute Resolution Appointment is required to consider the extent to which the remaining issues between the parties can be resolved at that hearing, and to assist the parties to do so with a frank evaluation of the evidence, this cannot extend to making final orders where it is clear that a party continues to contest the matter and to seek a different outcome.  Where a party continues to dispute the outcome of the proceedings at the Dispute Resolution Hearing, PD12B provides a clear way forward, either in the form of hearing evidence at the Dispute Resolution Appointment in order to resolve or further narrow the issues or in the form of final case management directions towards a final hearing.   Given the contents of the Cafcass report in this case, the judge was entitled to express the views he did regarding the difficulties faced by father on his case.  However, in circumstances where it was apparent that the father disputed the recommendations of the Cafcass report, continued to seek direct contact with the children and, albeit in somewhat opaque terms, sought a final hearing, the proper course was to make tight case management directions to a short final hearing, in particular identifying and specifying the key issues to be determined at that final hearing and on which the court would wish to hear limited evidence.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In circumstances where the judge made a final order at the Dispute Resolution Hearing without the father having the opportunity to dispute the contents of the Cafcass report and to place before the court his arguments for direct contact with the children, I am further satisfied that the Dispute Resolution Hearing was conducted in breach of his right to a fair trial under Art 6(1) of the ECHR and the procedural protections afforded by Art 8 of the ECHR.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">PD12B makes clear that at a Dispute Resolution Appointment the task of the court is to resolve or narrow the issues between the parties in proceedings under Part II of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> concerning orders with respect to children in family proceedings, in this case the arrangements for contact between the father and the children.   In the circumstances, a Dispute Resolution Appointment is plainly a hearing at which a parent&#8217;s civil rights may be determined, and in particular their right to respect for private and family life under Art 8 of the ECHR.  In the circumstances, it is equally plain that a party&#8217;s Art 6(1) right to a fair trial and the procedural protections afforded by Art 8 will be engaged at a Dispute Resolution Appointment.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the Dispute Resolution Appointment, for the reasons I have set out, the father indicated to the judge that he disputed the contents and conclusions of the Cafcass report, made clear that he continued to seek direct contact with the children and at no point indicated that he consented to a final order for no contact.  Notwithstanding this position, the judge proceeded to make an order providing for no contact.  This deprived the father of the opportunity to present his evidence and argument with respect to the content of the Cafcass report, which the judge had repeatedly indicated during the course of the Dispute Resolution Hearing provided the evidential foundation on which he based the final order made.  In the circumstances, the father was deprived of the proper opportunity to comment on the key piece of evidence on which the court based its decision and to make submissions on the proper outcome of the proceedings more widely. In these circumstances, and considering the course of the Dispute Resolution Hearing as a whole, including the outcome of that hearing, I am satisfied that the process was not a fair one having regard to the demands of Art 6(1) of the ECHR.  I also conclude that, in circumstances where the Dispute Resolution Hearing would have led, and did lead, to measures of interference in the father&#8217;s right to respect for private and family life, the approach adopted also contravened the procedural protections afforded by Art 8.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The third ground of appeal can be taken shortly.  I am satisfied that the judge&#8217;s imposition of an order under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 91(14)</ref>, preventing further applications, was wrong in circumstances where none of the procedural requirements necessary to establish a fair process with respect to a litigant in person were followed and the judge gave no judgment in support of making the order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">During the course of the hearing, the judge made reference to an order pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 91(14)</ref> only once, when he made passing reference to the recommendation in the Cafcass report that such an order be made.  Thereafter, the subject of an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> did not form any part of the exchanges between the judge and the father.  In particular, at no point did the judge inform the father that he was considering making an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> or seek to explore with him whether the father understood the meaning and effect of such an order.  There was no discussion as to the evidential basis for an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> and the father was not given any opportunity to make representations with respect to the question of whether such an order should be made.   The judge provided no reasons explaining why he had chosen to exercise his discretion to make an order prohibiting the father from making any application for an order under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> in respect of the children without the leave of the court for a period of 2 years.  In all the circumstances, the procedure adopted by the judge failed to follow that stipulated by FPR PD12B and PD12Q and the principles set out in the authorities. In short, none of the procedural requirements necessary to establish a fair process with respect to a litigant in person where an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/91/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.91(14)</ref> is contemplated were followed at the Dispute Resolution Hearing.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1">CONCLUSION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons I have given, I am satisfied that the appeal must be allowed on each of the three grounds on which permission to appeal was granted.  The matter will be remitted to a different Circuit Judge at the Family Court for hearing.  </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

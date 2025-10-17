@@ -1,0 +1,593 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2015/2832"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2015/2832"/>
+	  <FRBRdate date="2015-10-07" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2832"/>
+	  <FRBRname value="JM (A Child), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2015/2832"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2015/2832"/>
+	  <FRBRdate date="2015-10-07" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2015/2832/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2015/2832/data.xml"/>
+	  <FRBRdate date="2024-10-27T20:00:46" name="transform"/>
+	  <FRBRdate date="2024-11-28T21:02:15" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2015-10-07" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-nhs-trust" href="" showAs="A NHS Trust"/>
+	<TLCPerson eId="m" href="" showAs="M"/>
+	<TLCPerson eId="jm-a-child-by-his-guardian" href="" showAs="JM (A Child) (By his Guardian)"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A local authority"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-mostyn" href="/judge-mr-justice-mostyn" showAs="MR JUSTICE MOSTYN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2015</uk:year>
+	<uk:number>2832</uk:number>
+	<uk:cite>[2015] EWHC 2832 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>7ea982d21f3944e7431e6aaf6265b211b366971d899d3b3c942e569ce5866e3d</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .lcdtext { font-size: 12pt; }
+#judgment .lcpginfo { font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .PageNumber { }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+      <p class="CoverText">Case No: <docketNumber>FD15P00444</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2015] EWHC 2832 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2015-10-07" refersTo="#judgment">07/10/2015</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-mostyn">MR JUSTICE MOSTYN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:14pt;color:#FF0000">Re JM (A Child)</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a-nhs-trust" style="font-weight:bold">A NHS Trust</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#m" style="font-weight:bold">Mr M</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">1<span style="vertical-align:super;font-size:smaller">st</span> Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#m" style="font-weight:bold">Mrs M</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">2<span style="vertical-align:super;font-size:smaller">nd</span> Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#jm-a-child-by-his-guardian" style="font-weight:bold">JM (A Child) (By his Guardian)</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a-local-authority" style="font-weight:bold">A local authority</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">3<span style="vertical-align:super;font-size:smaller">rd</span> Respondent</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">4<span style="vertical-align:super;font-size:smaller">th</span> Respondent </role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">John McKendrick </span>(instructed by<span style="font-weight:bold"/>Hempsons) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mike Hinchliffe</span> (instructed by Cafcass Legal) for the <span style="font-weight:bold">3rd Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The 2</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold"> and 3</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">rd</span><span style="font-weight:bold"> Respondents neither appeared nor were represented  </span></p>
+      <p style="text-align:center">Hearing dates: 25 September 2015 &amp; 1 October 2015</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Mostyn:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is my judgment on an application made by a NHS trust seeking permission to perform urgent surgery of a serious nature on J. By an order made by Holman J a Cafcass High Court team Guardian has been appointed to represent J. J's parents have not appeared before me or otherwise engaged in the proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">J is 10 years old. He comes from Poland but has lived here with his parents and siblings for two years. He has a very rare aggressive cancer in his right jawbone. Its medical name is a craniofacial osteosarcoma. It is about 4 inches long and 1&#189; inches wide. The unambiguous medical evidence given to me in writing and orally by a distinguished paediatric oncologist, Dr X, is that if it is not removed very soon then in 6 months to a year J will die a brutal and agonising death. She has spelt this out in remorseless and unflinching detail. J will not slip peacefully away. The cancer will likely invade his nerve system affecting basic functions such as speaking, breathing and eating. His head will swell up grotesquely. His eyes may become closed by swelling. A tracheostomy may be needed to allow breathing. Above all, the pain will likely be excruciating. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The matter is critically urgent. There is a risk that the cancer may soon destroy the tissue plane between the tumour and the skull base.  Dr X said to me: "if we leave it too long, that plane will disappear and an operation is no longer appropriate".</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The cancer was first spotted by a dentist in the summer of 2014 and J was first seen by Dr X in September 2014. Between October 2014 and May 2015 he has undergone six cycles of chemotherapy, some as an in-patient. At the end of the sixth cycle it appeared that the tumour had stopped growing and was "relatively stable". So, one might ask, why is it necessary to proceed to surgery? The answer was given by Dr X in an exchange with me:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">"Q I think the word I read was &#8220;stable&#8221;, was it not?</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">A<marker name="tab"/>That is a radiological term that the MRI sizing is roughly the same as before, but for a radiologist to say that it is increasing in size it has to have increased by a large proportion.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Q<marker name="tab"/>I see.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">A<marker name="tab"/>So stable is a radiology term, it is not a clinical term and both myself and ----</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Q<marker name="tab"/>And you do not know, as somebody said, it could be metastasising, could it not?</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">A<marker name="tab"/>Yes, of course, it can.  Yes. That tends to be a late----</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Q<marker name="tab"/>If it decides to go on the move again - it is not &#8220;if&#8221;, it is when it decides to go on the move again----</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">A<marker name="tab"/>Exactly."</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The operation would be lengthy, lasting up to 12 hours. There is a 2% risk of mortality or morbidity in the operation. It would involve harvesting skin and bone from his leg in order to rebuild the removed jaw bone. The result would be that J may be affected by lameness in future. He would need false teeth inserted in the lower right quadrant of his mouth. As he grows his face may develop a lop-sided appearance. He may suffer from chewing problems and need to be on a softish diet in the long term. Above all of this is the estimate that he has a 55% &#8211; 65% chance of survival for 5 years. Therefore there is a 35% to 45% chance of a fatal cancer re-emerging in that period. This might be at the same site or elsewhere in the body, most likely the lungs. All of these statistics are based on adult patients. It is not known whether they are equally applicable to children as the incidence of this disease in children is so rare that there is insufficient data on which to found empirical conclusions and predictions. There are only a handful of children in this country with this cancer. Dr X has treated five or six in 16 years of practice. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have seen photographs of a child who underwent this surgery. The facial swelling before the operation is very pronounced indeed. It is huge. At present J's swelling is about a third of that size. The photographs post-operation show extensive skin grafts under the jaw. J may be able to escape skin grafts. The child in the photographs does not appear greatly disfigured, although the result of the operation is clearly noticeable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no doubt that the proposed surgery carries serious risks. However in the very clear opinion of Dr X they are risks which should be taken given the awful alternative. In her oral evidence she stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">"I would be hopeful of a young boy growing into a very able teenager.  So far he has not had major organ toxicity and, depending on his engagement and motivation, I would have an expectation that he will be walking, running - Mr. Z has put in his statement not playing football, but I think that he means competitively.  I mean, he will be able to kick a ball around.  So I would expect, externally, that he will look and feel like most teenagers.  He will have a scarred face and there is a worry that there will be asymmetry of his face as he grows older.  He will be engaged with my team and the surgical team as he grows up, so he still will be medicalised, because he will be caught up in routine surveillance, which goes on for years; so we check out his lungs and do a clinical assessment every two months for the first year, every three months for the next year, every four months for the next year, every six months after that, and then annually, so he will be engaged in his medical outcome, so that makes him different, perhaps, from some of his peers, but, going back to my general clinics of those who survive, then some people find this whole process, actually, is a constructive outcome rather than a destructive one.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Now, there are outliers of that.  There are people who are very challenged by their cancer experience, who find it difficult to re-engage with their peers and who have ongoing psychological problems, but I would counter that with - so that may happen with other traumas in other walks of life.  The only benefit to J, though, is that he will be in a very medicalised system that would hope to be able to support and manage problems that he brings to our attention.  I would be very hopeful, if he survives, that his outlook is reasonable." </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">J's parents do not consent to the operation. Neither does J. He has written to me to say "I don't want the operation and there is not 100% [chance] to survive after the operation".  To Dr X he put it more graphically. He screamed out: "I don't want to have it, because I don't want to have a foot in my mouth".</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">J's parents prefer to seek to treat him with Chinese medicine. The practitioner has not treated a cancer like this before and his technique is to treat the whole body to seek to promote overall wellness. The evidence before me is that even in China, where the use of Chinese medicine is widespread, surgery is the standard treatment for a cancer of this kind. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">J's parents have explained to Dr X why they do not consent to the operation. She told me:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">"They are very frightened and fearful of what their son will blame them for when he grows up, that they worry that he will be so disfigured that he will blame them for allowing the operation to go ahead.  That is one of their stated words.  But they have not heard that the prospect of him growing up is completely remote, completely impossible, if they do not have surgery. &#8230;It is not that I have not tried to say that, and I have been very explicit, but there is a difference between hearing the words and processing the words. &#8230;That is one of their issues.  I think that they have struggled with the consent process."  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parents have sent a "Notice" to the court. In it they said that they would not be present at the original hearing fixed for this application on 25 September 2015. I therefore adjourned the hearing to 1 October and made an order in recitals where I urged the parents to attend. Those recitals stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">"AND UPON the court expressing its real concern that Mr and Mrs M have not attended the hearing of this application, that the court wishes the consideration of the application to be a collaborative exercise.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">AND UPON the court making clear that it is most anxious to hear the views of Mr and Mrs M"</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Between 25 and 30 September repeated attempts were made to effect actual service of my order and other important documents on the parents. On 30 September the courier was told that the parents no longer lived at their address.  It appears that J last attended school on 21 September. On 29 September 2015 J's father left a message on the school's answer-phone that the family were going to Poland to obtain a second medical opinion. It appears that on 6 October J's father left this country by ferry for France; the suggestion is that J and his mother left two weeks ago. The local authority has become very concerned. Plainly J is at risk of serious harm, a risk that grows with every day that passes. At a hastily arranged hearing on 6 October 2015 I acceded to the local authority's application that it be joined as a party to these proceedings. At that hearing the NHS trust, the guardian and the local authority were all agreed that a location order was needed to see if J and his parents were still here. I granted that order. Its point is to try seek to establish J's whereabouts and what treatment plans, beyond Chinese medicine, his parents now have for him. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is very unfortunate that J's parents have not engaged with these proceedings and therefore have not contributed to the discussion about J's future. The collaboration of the parents with the proposed surgery is essential. There will be much post-operative physiotherapy and possibly psychotherapy needed. There will need to be periodical clinical and radiological assessments. The treatment plan states "overall this will be a highly intense surgical period requiring substantial family and social support". For this reason my order on 25 September 2015 contained a recital which stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">"AND UPON the applicant&#8217;s clinical team emphasising to the court and the parties the proposed treatment to remove the third respondent&#8217;s craniofacial bone sarcoma requires the support and co-operation of the first to third respondents and should this support and co-operation not be forthcoming the applicant will require to return to court to seek further relief."</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The draft final order proposed by Mr McKendrick contains the same recital. I very much hope that J's parents when they read this judgment, as well as the transcript of the oral evidence of Dr X, will actively support the decision that I have to make. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So far as the substantive law is concerned the first point to make is that by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1969/46/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1969/46" uk:canonical="1969 c. 46" uk:origin="TNA" uk:type="legislation">Family Law Reform Act 1969</ref> a child has to be 16 before he or she can validly consent to a surgical procedure.  In <span style="font-style:italic">Re W (A Minor) (Consent to Medical Treatment)</span> <ref href="#" uk:canonical="[1993] 1 FLR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] 1 FLR 1</ref> Lord Donaldson MR stated at pages 14-15:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">"<ref href="http://www.legislation.gov.uk/id/ukpga/1969/46/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 8</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1969/46" uk:canonical="1969 c. 46" uk:origin="TNA" uk:type="legislation">Family Law Reform Act 1969</ref> gives minors who have attained the age of 16 a right to consent to surgical, medical or dental treatment. Such consent cannot be overridden by those with parental responsibility for the minor. It can, however, be overridden by the court. This statutory right does not extend to consent to the donation of blood or organs.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">A minor of any age who is '<span class="Emphasis">Gillick</span>-competent' in the context of particular treatments has a right to consent to that treatment which again cannot be overridden by those with parental responsibility, but can be overridden by the court. Unlike the statutory right this common law right extends to the donation of blood or organs.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">No minor of whatever age has power by refusing consent to treatment to override a consent to treatment by someone who has parental responsibility for the minor and a fortiori a consent by the court. Nevertheless, such a refusal is a very important consideration in making clinical judgments and for parents and the court in deciding whether themselves to give consent. Its importance increases with the age and maturity of the minor." </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this case J, aged 10, is not '<span class="Emphasis">Gillick</span>-competent'.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">How should the court exercise its powers when faced with an application to override the parental consent? The answer can be shortly stated. It is by reference to the principle that the welfare of the child is paramount, no more, no less. But that short answer deserves a fuller explication. To my mind it is never necessary to look further than the 10 propositions of Holman J in what is surely the seminal judgment in this field, namely <span style="font-style:italic">The NHS Trust v A (a child) &amp; Ors </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/1696" uk:canonical="[2007] EWHC 1696 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 1696 (Fam)</ref> <ref href="#" uk:canonical="[2008] 1 FLR 70" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 FLR 70</ref>. At para 40 he set them out as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>"i.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">As a dispute has arisen between the treating doctors and the parents, and one &#8230;. [party has] asked the court to make a decision, it is the role and duty of the court to do so and to exercise its own independent and objective judgment.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>ii.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The right and power of the court to do so only arises because the patient, in this case because [she] is a child, lacks the capacity to make a decision for [herself].</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>iii.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">I am <span style="text-decoration-line:underline;text-decoration-style:solid">not</span> deciding what decision I might make for myself if I was, hypothetically, in the situation of the patient; nor for a child of my own if in that situation; nor whether the respective decisions of the doctors on the one hand or the parents on the other are reasonable decisions.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>iv.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The matter must be decided by the application of an objective approach or test.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>v.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">That test is the best interests of the patient. Best interests are used in the widest sense and include every kind of consideration capable of impacting on the decision. These include, non-exhaustively, medical, emotional, sensory (pleasure, pain and suffering) and instinctive (the human instinct to survive) considerations.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>vi.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It is impossible to weigh such considerations mathematically, but the court must do the best it can to balance all the conflicting considerations in a particular case and see where the final balance of the best interests lies.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>vii.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Considerable weight (Lord Donaldson of Lymington MR referred to "a very strong presumption") must be attached to the prolongation of life because the individual human instinct and desire to survive is strong and must be presumed to be strong in the patient. But it is not absolute, nor necessarily decisive; and may be outweighed if the pleasures and the quality of life are sufficiently small and the pain and suffering or other burdens of living are sufficiently great.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>viii.</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">These considerations remain well expressed in the words as relatively long ago now as 1991 of Lord Donaldson of Lymington in <span style="font-style:italic">Re J (A minor) (wardship: medical treatment) </span><ref href="#" uk:canonical="[1991] Fam 33" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">[1991] Fam 33</ref> at page 46 where he said:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">"There is without doubt a very strong presumption in favour of a course of action which will prolong life, but &#8230; it is not irrebuttable &#8230; Account has to be taken of the pain and suffering and quality of life which the child will experience if life is prolonged. Account has also to be taken of the pain and suffering involved in the proposed treatment&#8230; We know that the instinct and desire for survival is very strong. We all believe in and assert the sanctity of human life &#8230;. Even very severely handicapped people find a quality of life rewarding which to the unhandicapped may seem manifestly intolerable. People have an amazing adaptability. But in the end there will be cases in which the answer must be that it is not in the interests of the child to subject it to treatment which will cause it increased suffering and produce no commensurate benefit, giving the fullest possible weight to the child's, and mankind's desire to survive."</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>ix.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">All these cases are very fact specific, i.e. they depend entirely on the facts of the individual case.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>x.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The views and opinions of both the doctors <span style="text-decoration-line:underline;text-decoration-style:solid">and</span> the parents must be carefully considered. Where, as in this case, the parents spend a great deal of time with their child, their views may have particular value because they know the patient and how he reacts so well; although the court needs to be mindful that the views of any parents may, very understandably, be coloured by their own emotion or sentiment. It is important to stress that the reference is to the views and opinions of the parents. Their own wishes, however understandable in human terms, are wholly irrelevant to consideration of the objective best interests of the child save to the extent in any given case that they may illuminate the quality and value <span style="text-decoration-line:underline;text-decoration-style:solid">to the child</span> of the child/parent relationship."</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this case I have no doubt at all that the proposed procedure is in J's interest. I reach this conclusion bringing into the judicial evaluation exercise all of the matters I have mentioned above, as well as every detail of the written and oral evidence of Dr X. I give full weight to the wishes of J as well as those of his parents. It is a strong thing for me, a stranger, to disagree with and override the wishes of J and his parents. But I have absolutely no doubt that J must be given the chance, a very good chance, of a long and fulfilling life rather than suffering, quite soon, a ghastly, agonising, death. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is possible that J is now in Poland. On 17 September 2015 when these proceedings were commenced J was habitually resident here in England. Therefore under Article 8(1) of <span style="font-style:italic">Council Regulation (EC) No 2201/2003 of 27 November 2003 concerning jurisdiction and the recognition and enforcement of judgments in matrimonial matters and the matters of parental responsibility</span> this court had jurisdiction over him at that time in relation to the matter of parental responsibility then in controversy namely his medical treatment. Since then it is possible (but unlikely) that with joint parental authority his habitual residence has changed to Poland. If so, it may be that courts here do not have jurisdiction to determine where or with whom he should live. As things stand at present however the evidence is that J remains habitually resident in this jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, there is no doubt that this court is seised of the specific issue of J's medical treatment. Therefore under Article 19 the Polish court must decline jurisdiction in relation to this matter in favour of this court. I have explained that implementation of my primary decision will require a further hearing before me. If J is now permanently in Poland it may be that it would be appropriate for that aspect to be remitted for decision by the Polish court under Article 15. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">My primary decision is however that it is in J's best interests for the procedure to take place. My order will provide that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">"The NHS trust has permission to provide and administer all treatment to J (notwithstanding that his parents do not consent to such treatment on behalf of J) in accordance with the treatment plan supplied to the court and appended to this order, such treatment to include the complete removal of J's tumour (a craniofacial osteosarcoma) bearing area to include the entire right mandible from the midline of his jaw back to the temporomandibular joint, with soft adjoining structure; and to receive treatment to reconstruct the jaw by way of the harvesting from the right leg of a fibula bone to be fashioned and inserted into the remaining jaw space with repair of the facial planes; to include all necessary ancillary treatment to include amongst other treatment and care: anaesthesia; temporary tracheostomy; and PEG feeding."</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I hope that J and his parents will read very carefully this judgment and the witness statement and transcript of the oral evidence of Dr X and conclude that there really is no alternative to this procedure taking place and in them all fully cooperating with it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, I should touch briefly on the question of procedure. This application, brought by the local NHS Trust on 17 September 2015 was issued in the High Court and framed under the inherent jurisdiction. I took the view on 25 September 2015 that the issue before the court was "a question that had arisen in connection with an aspect of parental responsibility for a child" and that therefore the relief that should have been sought was for a specific issue order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. I therefore treated the application as seeking such an order and gave the Trust leave to seek it under section 10(2)(b). In so doing I followed the clear view of Booth J in <span style="font-style:italic">Re R (A Minor) (Blood Transfusion)</span> <ref href="#" uk:canonical="[1993] 2 FLR 757" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] 2 FLR 757</ref> a case concerning a 10 month old girl whose parents, Jehovah's Witnesses, were refusing a very necessary blood transfusion. Booth J considered the earlier decision of Johnson J in&#160;<span class="Emphasis">Re O (A Minor) (Medical Treatment)</span>&#160;<ref href="#" uk:canonical="[1993] 2 FLR 149" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] 2 FLR 149</ref> where an order for blood transfusion in similar circumstances had been made under the inherent jurisdiction. She stated at 759-760:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">"I am in complete agreement with the essential premise of the conclusions reached by Johnson J. Such issues are of the utmost gravity and are of particular anxiety since the decision of the court may run counter to the most profound and sincerely held beliefs of the parents. For these reasons the most strenuous efforts should always be made to achieve an inter partes hearing. Such issues should also be determined, wherever possible, by a High Court judge and this is of particular importance in those exceptional circumstances where an application must be made ex parte so that the parents cannot be heard. But in my judgment these prerequisites can be as well met by an application for a specific issue order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s8</ref> as by an application for the exercise of the court's inherent jurisdiction. A <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s8</ref> application can, and in circumstances such as these undoubtedly should, be made to the High Court. When leave to make it is sought by a local authority, or other appropriate body or person, the district judge, as in this case, can give all necessary directions for a speedy hearing. It will then be heard by a High Court judge. Although there is yet no reported decision as to whether or not a specific issue order can be made ex parte, I should be very surprised if the words of the statute had to be interpreted so narrowly as to deny the court power to give such relief where it was otherwise justified and the circumstances compelled an ex parte hearing. But if such an issue were to come before a judge of the Family Division who was constrained to find the court's jurisdiction to be so limited, the power to invoke the exercise of the inherent jurisdiction of the court would be immediately available and appropriate.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#160;In the present case I am in no doubt that the application is well-founded under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s8</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the Act</ref>. The result which the local authority wishes to achieve, namely, the court's authorisation for the use of blood products, can clearly be achieved by the means of such an order. There is no need for the court otherwise to intervene to safeguard the little girl, so that I am satisfied that it is unnecessary and inappropriate for the court to exercise its inherent jurisdiction."</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0in">I also note that six months earlier in <span style="font-style:italic">Re HG (Specific Issue Order: Sterilisation)</span> <ref href="#" uk:canonical="[1993] 1 FLR 587" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] 1 FLR 587</ref>, Mr Peter Singer QC, as he then was, ordered a sterilisation of a 17 year old girl as a specific issue order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref>. However, in the 2015 Family Court Practice at page 1762 it states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">"<span style="font-weight:bold">Medical treatment</span><span/><span style="font-weight:bold">-</span> It is only in cases concerning children or a vulnerable adult (i.e. those with capacity) that the High Court's inherent jurisdiction can be invoked. When dealing with such cases the court will apply the &#8216;patient's best interests' principle and will have to be satisfied that the proposed treatment is necessary (<span style="font-style:italic">Re TM (Medical Treatment)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/4103" uk:canonical="[2013] EWHC 4103 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 4103 (Fam)</ref>;  <span style="font-style:italic">Portsmouth NHS Trust v Wyatt</span> <ref href="#" uk:canonical="[2006] 1 FLR 652" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 1 FLR 652</ref>;  <span style="font-style:italic">Re Wyatt</span> <ref href="#" uk:canonical="[2006] 2 FLR 111" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 2 FLR 111</ref>; <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 4</ref> ). Where there are serious medical issues such as surgery for a serious medical condition, initially it is for the parents who have parental responsibility for the child to seek to resolve the issue with the hospital. Although medical professionals can act on the consent of either parent with parental responsibility, if the matter is very serious and the parents cannot agree to accept the advice offered by the medical team and when the matter cannot be resolved by agreement with the parents, it will become appropriate to invoke the inherent jurisdiction, provided that the issue is properly formulated (see <span style="font-style:italic">An NHS Trust v SR (Radiotherapy and Chemotherapy)</span> <ref href="#" uk:canonical="[2013] 1 FLR 1297" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 FLR 1297</ref>). In such cases, the hospital should be invited to intervene. <span style="text-decoration-line:underline;text-decoration-style:solid">It is inappropriate to seek to resolve such issues within care proceedings or by seeking permission to apply for a specific issue order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 8</ref></span> (<span style="font-style:italic">A Local Authority v SB, AB &amp; MB </span><ref href="#" uk:canonical="[2010] 2 FLR 1203" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 2 FLR 1203</ref>)." (underlining added)</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The problem with this commentary is that not only does it ignore <span style="font-style:italic">Re R (A Minor) (Blood Transfusion)</span> <ref href="#" uk:canonical="[1993] 2 FLR 757" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] 2 FLR 757</ref> (which it cites uncritically earlier in the book at page 522) but that <span style="font-style:italic">A Local Authority v SB, AB &amp; MB </span><ref href="#" uk:canonical="[2010] 2 FLR 1203" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 2 FLR 1203</ref> simply does not say that it is inappropriate to seek to resolve medical issues by seeking permission to apply for a specific issue order. In that case the question was whether care proceedings were an appropriate medium in which to decide a medical issue. Sir Nicholas Wall P cited <span style="font-style:italic">Re R (A Minor) (Blood Transfusion) </span>approvingly.  He did not say that it was an "inappropriate" procedure. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Where Parliament has enacted specific legislation to deal with a particular matter it is contrary to principle to invoke for that matter general legislation or common law powers. This is the principle <span style="font-style:italic">generalia specialibus non derogant</span>, which Lord Cooke described in <span style="font-style:italic">Effort Shipping Co Ltd v Linden Management SA </span><ref href="#" uk:canonical="[1998] AC 605" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">[1998] AC 605</ref> as no more than "simple common sense and ordinary usage". The most striking example of the application of the principle in the Family Law field is the decision of the House of Lords in <span style="font-style:italic">Richards v Richards</span> <ref href="#" uk:canonical="[1984] AC 174" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] AC 174</ref> where Lord Hailsham LC at 199 condemned the use of the inherent jurisdiction to bypass a special Act. He stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">"Nevertheless, and whilst [the inherent jurisdiction] is still there in reserve in cases where the special legislation to which I will be referring does not apply, in my opinion, where, as here, Parliament has spelt out in considerable detail what must be done in a particular class  of case it is not open to litigants to bypass the special Act, nor to the courts to disregard its provisions by resorting to the earlier procedure, and thus choose to apply a different jurisprudence from that which <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">the Act</ref> prescribes."</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the other hand, it is perfectly proper to use the common law (in this case the inherent jurisdiction) to fill gaps in, or to supplement, a statutory scheme: see <span style="font-style:italic">Re F (Mental Patient: Sterilisation)</span> <ref href="#" uk:canonical="[1990] 2 AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1990">[1990] 2 AC 1</ref> per Lord Donaldson MR at 13.  There is an interesting discussion about this in <span style="font-style:italic">DL v A Local Authority &amp; Ors</span> <ref href="#" uk:canonical="[2013] Fam 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] Fam 1</ref>, where the Court of Appeal confirmed the survival of the inherent jurisdiction of the High Court to decide cases about vulnerable adults who were not caught by the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In principle it seems clear from the literal words of the legislation that the relief that is sought in this case fall squarely within the definition of a specific issue in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref>. It determines a specific question that has arisen concerning an aspect of parental responsibility. Furthermore, section 9(7) allows the court to make a specific issue order in respect of a 16 or 17 year old where the circumstances of the case are exceptional (which would of course be the case in a situation such as this). However, as I have explained, young people aged 16 and 17 are empowered to give consent to medical procedures on themselves and so it is hard to see how such an issue could be described as a question concerning an aspect of parental responsibility. 16 and 17 year olds occupy a murky legal domain. They are adults for some purposes but not for others. In my opinion a question of whether a medical procedure should be forced on a 16 or 17 year old should be sought solely under the High Court's inherent jurisdiction, and not under the Children Act<authorialNote class="footnote" marker="1">
+		<p class="FootnoteText"><span/>It is for this reason I think that Ian McEwan's excellent novel <span style="font-style:italic">The Children Act</span> (Jonathan Cape 2014), which is about a 17 year old Jehovah's Witness refusing a blood transfusion, is in fact incorrectly titled.</p>
+	      </authorialNote>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the other hand, it seems to me that the architects of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref> and 10(2)(b) did not really have in mind the situation I have here where a NHS trust, an organ of the state, is seeking to impose really serious medical treatment on a child contrary to the wishes of his parents. Rather, it seems to me that it was addressing issues that arise in a "horizontal" setting, that is to say where, for example, a relative of a child and his parents are in dispute about something rather less momentous than serious medical treatment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If the application has to be made as a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref> application then it must be issued in the Family Court. It cannot be issued in the High Court. By virtue of the Family Court (Composition and Distribution of Business) Rules 2014 (S.I. 2014/840) rule 14 any judge of the Family Court could hear the application, even a lay justice. Neither Schedule 1 nor 2 to those rules mandate that the application is allocated to a High Court Judge (although in practice that would invariably happen). Furthermore, it is questionable whether the Family Court has the power to grant final declaratory relief, which may well be the principal relief (or a component of such relief) which is sought. This because CPR rule 40.20, whereby the court is given explicit power to make 'binding declarations whether or not any other remedy is claimed' is not replicated in the FPR (although, strangely, there is a power in FPR rule 20.2(10(b) to make an interim declaration). In a serious medical case the declaratory relief sought may concern the authorisation of a deprivation of liberty. That cannot be ordered within a specific issue direction. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Therefore it seems to me that if the relief sought includes final binding declarations (which will normally be the case) then the application should be framed as a combination of an application for a specific issue order (seeking the necessary leave under section 10(2)(b)) and an application for declaratory relief under the inherent jurisdiction. This will allow the application to be issued directly in the High Court where it will be listed by the Clerk of the Rules before a full time High Court Judge. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">An incidental benefit of proceeding in this way is that the respondents will be in a better position to claim legal aid. Para 9 of Part 1 of Schedule 1 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10" uk:canonical="2012 c. 10" uk:origin="TNA" uk:type="legislation">Legal Aid, Sentencing and Punishment of Offenders Act 2012</ref> states that civil legal aid will be available where the case concerns the exercise of the inherent jurisdiction of the High Court in relation to children and vulnerable adults. In contrast a case about a specific issue direction alone is now outside the reach of civil legal aid. It is hard to imagine a kind of case where legal aid (subject to means) is more necessary or deserving than this. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my opinion the application should be heard in private under FPR rule 27.10 but the press should be encouraged to attend under rule 27.11 and an order should be made allowing them to see the core documents under rule 29.12(1). <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 97(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> will prevent the child being identified and this may be bolstered by making a reporting restriction order (as I did in this case on 25 September 2015).</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

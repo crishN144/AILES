@@ -1,0 +1,602 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2011/3181"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2011/3181"/>
+	  <FRBRdate date="2011-12-02" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3181"/>
+	  <FRBRname value="Z &amp; Anor v C &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/3181"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/3181"/>
+	  <FRBRdate date="2011-12-02" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/3181/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/3181/data.xml"/>
+	  <FRBRdate date="2024-10-28T02:32:27" name="transform"/>
+	  <FRBRdate date="2024-11-26T08:46:37" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2011-12-02" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="z" href="" showAs="Z"/>
+	<TLCPerson eId="b" href="" showAs="B"/>
+	<TLCPerson eId="c" href="" showAs="C"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis-dbe" href="/judge-mrs-justice-theis-dbe" showAs="MRS JUSTICE THEIS DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2011</uk:year>
+	<uk:number>3181</uk:number>
+	<uk:cite>[2011] EWHC 3181 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>8fd8ef406096f986a446c4498d4d173b1abe9bb76cd8b33ed227f09e32f6c40d</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; color: #000000; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center">This judgment is being handed down in private on 2<span style="vertical-align:super;font-size:smaller">nd</span> December 2011. It consists of 9 pages and has been signed and dated by the judge.  The judge hereby gives leave for it to be reported.</p>
+      <p style="text-align:center">The judgment is being distributed on the strict understanding that in any report no person other than the advocates or the solicitors instructing them (and other persons identified by name in the judgment itself) may be identified by name or location and that in particular the anonymity of the children and the adult members of their family must be strictly preserved.</p>
+      <p class="CoverText">Case No: <docketNumber>IL11P00154</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number:<neutralCitation>[2011] EWHC 3181 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2011-12-02" refersTo="#judgment">02/12/2011</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis-dbe">MRS JUSTICE THEIS DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#z" style="font-weight:bold">Z</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">1<span style="vertical-align:super;font-size:smaller">st</span> Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#b" style="font-weight:bold">B</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">2<span style="vertical-align:super;font-size:smaller">nd</span> Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#c" style="font-weight:bold">C</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">Cafcass Legal as Advocate to the Court</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Kathryn Cronin </span>(instructed by<span style="font-weight:bold"> Fisher Meredith Solicitors</span>) for the <span style="font-weight:bold">Applicants</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Penny Logan (</span>Cafcass Legal)</p>
+      <p style="text-align:center">Hearing date: 18<span style="vertical-align:super;font-size:smaller">th</span> November 2011</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Judgment</p>
+      <p><span style="font-weight:bold">Mrs Justice Theis DBE:</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in">This case illustrates, once again, the complex legal consequences of entering <marker name="tab"/>into international surrogacy arrangements.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in">The application concerns two young children, twins, born in November 2010. They were conceived as a result of a surrogacy agreement between the applicants and a clinic in India, arranged through a surrogacy agency based in Israel. The surrogate mother is Indian, one of the applicants is the biological father and the egg donor originated from South Africa.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in">The applicants, Z and B, applied for a parental order under <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">Human Fertilisation and Embryology Act 2008</ref> (&#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref>&#8217;). The preliminary issue I have to determine is whether one of the applicants was domiciled in England and Wales at the time the application for a parental order was made. If they are not, their application for a parental order fails as this is one of the mandatory gateway requirements that gives the court jurisdiction (<ref href="http://www.legislation.gov.uk/id/ukpga/2008/22/section/54/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.54 (4)</ref> (b) <ref href="http://www.legislation.gov.uk/id/ukpga/2008/22" uk:canonical="2008 c. 22" uk:origin="TNA" uk:type="legislation">HFEA 2008</ref>, which provides<span style="font-style:italic">, &#8220;At the time of the application and the making of the order either or both of the applicants must be domiciled in the United Kingdom or in the Channel Islands or the Isle of Man.&#8221;</span>). I directed that the question of domicile was determined as a preliminary issue. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in">The Respondent surrogate mother has taken no active part in these proceedings. I joined the children as parties at an early stage. In order that the court could have full argument on this preliminary issue I directed that the children cease to be parties and Cafcass Legal were appointed advocates to the court. I have had the benefit of detailed written and oral argument from Ms Cronin, on behalf of the applicants, and Ms Logan, as advocate to the court, which have been of great assistance. As well as reading the court bundle I also heard oral evidence from Z.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in;text-indent:-0.38in"><span style="font-weight:bold">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in">The applicants are a same sex couple who are both of Israeli origin. They were born to Israeli parents. They had their previous home there, and their surviving parents and siblings remain living there. They still own a flat there which they are in the process of selling.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in">The applicants re-located to the United Kingdom in January 2008, and have resided continuously in the UK since then. Their evidence is that this was a planned permanent re-location. They broke their ties with Israel and intended to make their permanent home in the UK. Z entered the UK as a highly skilled migrant, consistent with and as a requirement of obtaining that visa he declared that he intended to make the UK his principal home. The leave to remain is renewable and can be varied to indefinite leave to remain when they have had five years continuous residence in the UK.  Both applicants are habitually resident in the UK.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in">The applicants&#8217; statements describe their reasons for relocating to the UK. Z&#8217;s statement describes his strong family links with the UK, his father and his family were British subjects by birth and nationality. He remained close to his uncles and cousins who lived in the UK. Z&#8217;s family asked him to leave the family home in Israel when they became aware of his sexuality. Following the commencement of his relationship with B, they experienced difficulties with their respective families accepting their relationship. In addition, they describe the social prejudice they experienced about their relationship, as Z said in his statement <span style="font-style:italic">&#8216;Although in law our partnership is recognised, on a day to day basis it is quite difficult to live in an openly gay relationship, whether it is opening a bank account or going together to a work place event.&#8217;</span> He experienced great difficulties whilst doing his military service and requested early release, which was granted; he said <span style="font-style:italic">&#8216;the taunting and humiliations [during his military service] were relentless and very destructive&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in">As the applicants&#8217; relationship became more serious they planned to emigrate and discussed their joint wish to become parents. They entered into a joint cohabitation and parenting agreement in August 2007, to formalise their intentions. At the time they were living in Israel and were planning, but had not arranged, their entry to the UK. They had no knowledge of English family laws. They confirmed in the parental agreement their intention to share and have equal parental responsibility for their children, via applications under Israeli adoption or guardianship laws. The agreements provided evidence of their durable relationship which was required if they were to re-locate as a couple. The agreements were largely drawn up from a template which their Israeli lawyer had prepared for same sex couples. Paragraph 32 of the parenting agreement does implicitly refer to their intention to re-locate, as it gives jurisdiction to adjudicate on matters arising from the agreement in the family courts in the area of their last joint residence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in">Z describes in his statement the applicants&#8217; joint decision to leave Israel permanently before they became parents. They did not want their children to grow up with a sense of fear or danger or to have a lifelong expectation and strict requirement to serve in the military. There was no issue that they would relocate to England. Z had obtained a degree from a British university (that had a branch in Israel), and as a result qualified for a highly skilled migrant visa.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.38in;text-indent:-0.5in">10.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.38in">As soon as Z&#8217;s visa had been obtained, and B granted one as his partner, they made the necessary arrangements to implement the move:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in">They both resigned from their jobs and informed the relevant tax authorities they were leaving the country permanently. This meant they were registered as leavers for the purposes of national insurance.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.5in">They planned to sell their flat in Israel, but due to falling prices in the UK and rising prices in Israel they decided to rent out the flat to enable them to take some time before deciding where they were going to buy in England.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.62in">They purchased all their furniture when they arrived in the UK, as they knew this was to be a permanent move.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.5in">They set up their own business following their arrival in the UK and have expanded its operations.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(v)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in">They made the necessary arrangements to bring their dog to the UK, which required making arrangements for her to be looked after for 6 months in Belgium before she could join them in the UK.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(vi)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.5in">Soon after their arrival in the UK they made enquiries with surrogate agencies in the UK and registered with COTS. After a year they were introduced to a surrogate, but following a number of unsuccessful attempts at conception that arrangement was brought to an end. After a two year wait they were informed about a surrogacy agency in Israel. It was through this agency that the arrangements were made that resulted in the birth of the children in this case.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">11.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">Once the children were placed in the care of the applicants in India they took the necessary steps to enable the children to be issued with Israeli passports. Once that was done they took them to Israel to apply for entry clearance to the UK, as the applicant&#8217;s dependants. The application was made in the alternative under the UKBA&#8217;s surrogacy policy and the Immigration Rules. Their applications were refused. The Immigration Judge who heard their appeal against this decision allowed their appeal on Article 8 grounds. The Immigration Judge&#8217;s decision was challenged by the Secretary of State and this further appeal was determined by the Upper Tribunal of the Asylum and Immigration Chamber on 10 November 2011, a few days prior to the hearing before me. The appeal was dismissed and whilst the detailed decision has not been received, directions were made by the Tribunal for the children to be given entry clearance for one year and to expedite the granting of such clearance. Ms Cronin informed the court that it is hoped they will arrive before the end of the year. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in;text-indent:-0.5in"><span style="font-weight:bold">     The Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in">There is no dispute between the parties as to the relevant legal principles.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.38in">The general principles of domiciliary law (described in the Dicey text as &#8216;rules&#8217;) are set down in Dicey Morris and Collins, <span style="font-style:italic">On The Conflict of Laws</span> 14th edition 2006 (&#8220;Dicey&#8221;). In the bankruptcy case <span style="font-style:italic">Barlow Clowes International Ltd (In Liquidation) &amp; Ors v Henwood</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/577" uk:canonical="[2008] EWCA Civ 577" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Civ 577</ref>, the Court summarised a number of the Dicey principles of law on domicile as uncontentious (paragraph [8] per Arden LJ). Relevant to the domicile of choice issues raised in this case the uncontentious principles include:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in;text-indent:0.12in">A person is, in general, domiciled in the country in which he is considered by English law to have his permanent home. A person may sometimes be domiciled in a country although he does not have his permanent home in it.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in;text-indent:0.12in">No person can be without a domicile.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in;text-indent:0.12in">No person can at the same time for the same purpose have more than one domicile.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in;text-indent:0.12in">An existing domicile is presumed to continue until it is proved that a new domicile has been acquired. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in;text-indent:0.12in">Every person receives at birth a domicile of origin. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(6)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in;text-indent:0.12in">Every independent person can acquire a domicile of choice by the combination of residence and an intention of permanent or indefinite residence, but not otherwise.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(7)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in;text-indent:0.12in">Any circumstance that is evidence of a person's residence, or of his intention to reside permanently or indefinitely in a country, must be considered in determining whether he has acquired a domicile of choice. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(8)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in;text-indent:0.12in">In determining whether a person intends to reside permanently or indefinitely, the court may have regard to the motive for which residence was taken up, the fact that residence was not freely chosen, and the fact that residence was precarious.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(9)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in;text-indent:0.12in">A person abandons a domicile of choice in a country by ceasing to reside there and by ceasing to intend to reside there permanently, or indefinitely, and not otherwise. A person who has formed the intention of leaving a country does not cease to have his home in it until he acts according to that intention.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(10)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in;text-indent:0.12in">When a domicile of choice is abandoned, a new domicile of choice may be acquired, but if it is not acquired, the domicile of origin revives.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.38in">In <span style="font-style:italic">Mark v Mark</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2005/42" uk:canonical="[2005] UKHL 42" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] UKHL 42</ref><span style="font-style:italic"/>Baroness Hale referred to a further principle concerning the ascertainment of domicile at paragraph 47 &#8211; namely that: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.58in"><span style="font-style:italic">&#8216;English law requires only that the intention [of the person claiming to be domiciled by reason of their intention to reside permanently in the UK] be bona fide, in the sense of being genuine and not pretended for some other purpose, such as getting a divorce to which one would not be entitled by the law of the true domicile.</span>  " </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in">She noted at paragraph 44:  </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.58in">&#8220;<span style="font-style:italic">The object of the rules determining domicile is to discover the system of law with which the propositus is most closely connected for the range of [family and other status] purposes &#8230;. Sometimes that connection will be an advantage to him. Sometimes it will not. As Hughes J put it, at para 73:</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.58in"><span style="font-style:italic">"the concept of domicile is not that of a benefit to the propositus. Rather, it is a neutral rule of law for determining that system of personal law with which the individual has the appropriate connection, so that it shall govern his personal status and questions relating to him and his affairs. &#8230;&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.37in">The burden of proving the abandonment of a domicile of origin and the acquisition of a domicile of choice is upon the person asserting the change. The standard of proof is the balance of probability (see <span style="font-style:italic">Barlow Clowes International Ltd (In Liquidation) &amp; Ors v Henwood <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/577" uk:canonical="[2008] EWCA Civ 577" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Civ 577</ref> </span>per Arden LJ at paragraphs 85-88). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.38in">Dicey notes that the intention required for the acquisition of a domicile is the intention to reside permanently or for an unlimited time in a country (Dicey paragraph 6-039). The authors note that it is rare for the <span style="font-style:italic">animus manendi</span> to exist in this explicit, positive form, more frequently a person simply resides in a country without any intention of leaving it and such a state of mind may suffice for the acquisition of a domicile of choice. If the person has in mind the vague possibility of a return to his domicile of origin, this might not negate the acquisition of a domicile of choice where there has been a long residence in the country of chosen domicile, but if there is a &#8216;clearly foreseen and reasonably anticipated contingency&#8217; upon which it is intended to return to the home domicile, this may prevent the acquisition of a domicile of choice. (Dicey paragraph 6-040)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.38in;text-indent:-0.37in">17.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.38in">In this case, Z must satisfy the court not only that he resides in the UK as his permanent home, but also that he has a fixed intention to remain here indefinitely. </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NormalWeb" style="text-align:justify;margin-left:0.58in"><span style="font-style:italic">&#8220;Residence [is] fixed not for a limited period or particular purpose, but general and indefinite in its future contemplation&#8221;</span> (<span style="font-style:italic">Udny v Udny</span> (1869) LR 1 Sc &amp; D 441, page 458).  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.38in"><span style="font-style:italic">In IRC </span>v <span style="font-style:italic">Bullock </span>(1976) All E.R. 353 at p.357, Buckley L.J. (with whom Roskill L.J. and Scarman L.J. agreed) said at p.359:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.62in"><span style="font-style:italic">"....I do not think that it is necessary to show that the intention to make a home in the new country is irrevocable [in order to show the person has a new domicile of choice]. In my judgment, the true test is whether he intends to make his home in the new country until the end of his days unless and until something happens to make him change his mind."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;text-indent:-0.5in"><span style="font-weight:bold">      Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">19.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The advocate to the court rightly raised a number of issues in the skilful skeleton argument submitted by Ms Logan.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">20.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">Firstly, what weight should be given to the fact that the applicants entered into an Israeli joint parenting agreement in 2007, only months before they came to the UK? On one view the signing of that document connected them to a system of law in their domicile of origin, as it stated their intention, if they had children, to proceed with an application for an Israeli adoption order by the party who was the non-biological father. In his written and oral evidence Z stated that at the time they signed this document in August 2007 they had not applied for or been granted their visa to relocate. This agreement indicated their intention to share and have equal rights for their non-existent children. Z confirmed in both his written and oral evidence that this agreement was largely drawn up from a template their Israeli lawyer had. I am entirely satisfied on the evidence I have read and heard the signing of this parenting agreement was not inconsistent with Z&#8217;s intention to permanently move to this country. It was done before he had applied for his visa, it was very much a &#8216;template&#8217; rather than an individually drawn up document, it was consistent with the applicant&#8217;s wish to parent equally and paragraph 32 of the agreement alluded to the move to another jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">21.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">Secondly, should the court draw any inference from the failure of the applicants to enter into a civil partnership on their arrival in England? In Z&#8217;s written evidence, he said they wished to do this after they had become parents. In oral evidence Z said they had made enquiries about doing this when they arrived in the UK, but were told that it could take up to 6 months to arrange because of the procedural requirements needed to obtain approval for such a ceremony from UKBA.<span style="font-weight:bold"/>This delay contributed to their decision to postpone it until they become parents. In a joint document submitted by Ms Cronin and Ms Logan, it is agreed the procedure in place at the time the applicants came to England, in January 2008, did result in such delays. The certificate of approval scheme was implemented in 2005 to prevent and deter marriages of convenience (<ref href="http://www.legislation.gov.uk/id/ukpga/2004/19" uk:canonical="2004 c. 19" uk:origin="TNA" uk:type="legislation">Asylum and Immigration (Treatment of Claimants) Act 2004</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19/section/19/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss19(1)</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/2004/33" uk:canonical="2004 c. 33" uk:origin="TNA" uk:type="legislation">Civil Partnership Act 2004</ref> Sch 23). <ref href="http://www.legislation.gov.uk/id/ukpga/2004/19" uk:canonical="2004 c. 19" uk:origin="TNA" uk:type="legislation">The 2004 Act</ref> provision and the guidance was the subject of an incompatibility challenge under the Human Rights Act. In <span style="font-style:italic">Baiai &amp; Ors, R (On The Application of) v Secretary of State For The Home Department</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/53" uk:canonical="[2008] UKHL 53" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 53</ref> (30 July 2008) the House of Lords unanimously agreed to amend the declaration of incompatibility order made in the courts below. The Committee upheld the declaration of incompatibility solely on discrimination grounds. Following the decision in <span style="font-style:italic">Baiai</span> the Secretary of State modified the certificate of approval arrangements. On 26 July 2010 the UKBA announced on its website that the Coalition government intended to abolish the 'certificate of approval' scheme and that to this end a Remedial Order under the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> had been laid before Parliament. On 4 April 2011 Parliament approved the Remedial Order that abolished the certificate of approval scheme. The scheme ended on 9 May 2011. The processing times for certificates of approval varied over the life of the scheme. There were extensive processing delays (8 months and more) while the <span style="font-style:italic">Baiai </span>litigation was pending. Therefore, in the circumstances of this case, I entirely accept the reasons given by Z for not entering into a civil partnership.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">22.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">Thirdly, should the court place any significance on the fact that (given their estrangement from their families) the applicants and the children went from India to Israel, and did not come straight to the UK? In his written evidence, Z said that the surrogacy agency informed them the children would get Israeli passports. The applicants assumed as they were living in the UK they would be granted visas to enter as their children, and that as they would have Israeli passports they would have to do that from Israel. Z said in his evidence the advice they received on the telephone from the UKBA was that the children must make their application for entry clearance from their country of nationality, rather than India, their country of birth<span style="font-weight:bold">.</span> In their joint written document Ms Cronin and Ms Logan note that this advice was probably incorrect, but understandable in the unusual circumstances presented to the telephone adviser. Z explained why he and B wanted their family in Israel to see the children, even though they were estranged. He gave compelling oral evidence of his desire for his grandmother, in particular, to meet the children in person, even though she had difficulty in acknowledging Z&#8217;s position as a parent. I entirely accept Z&#8217;s evidence about the advice he was given about the immigration position (at that stage he was unaware of the legal complexity of the situation in this country) and the reasons for wanting his family to see the children. These steps were in the circumstances of this case not inconsistent with the relocation plans to the UK.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">23.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">In my judgment the statements filed by the applicants describe their reasons for making the move to the UK in January 2008 and are supported by evidence and/or conduct relevant to Z&#8217;s intention to make the UK his permanent home:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in">His reasons for wishing to emigrate from Israel; the bullying in the military; the social difficulties encountered living as a gay couple or those envisaged as gay parents and the wish to shield their children from this environment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in">The estrangement from his family in Israel due to his sexuality and the close connection maintained with his extended English family.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in">The plans made in readiness for the permanent departure; obtaining an English degree, their registration as &#8216;leavers&#8217; for Israeli national insurance and taking the complex steps necessary to move the family pet.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in">The steps taken on arrival, which included purchasing all the furniture here.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in">The link between their emigration and planned parenthood, as well as the English names chosen for their children.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in">Steps taken to integrate since their arrival in the UK; setting up their own business; attempts to arrange surrogacy in this country first.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(7)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in">The type of visa obtained by Z and the declaration that had to be signed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.5in">(8)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in">Z is domiciled here for tax purposes.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">24.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The evaluation of domicile can involve &#8216;complex and intricate issues of fact&#8217;. As Dicey notes often trivial acts (such as here the naming of the children and the relocation of the family dog) are enlightening (Dicey paragraph 6-048).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">25.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.25in">Because the relocation to the UK was planned and intended to be permanent, it is submitted by Ms Cronin, Z acquired an English domicile upon establishing residence in the UK. This was and is their only home. The authors in Dicey note:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.58in"><span style="font-style:italic">&#8216;It is not, as a matter of law, necessary that the residence should be long in point of time: residence for a few days &#8230; is enough. Indeed an immigrant can acquire a domicile immediately upon his arrival in the country in which he intends to settle. The length of the residence is not important in itself: it is only important as evidence of animus manendi&#8217;. (</span>Dicey paragraph 6.036) </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">26.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">I am entirely satisfied that Z&#8217;s assertion of an English domicile is genuine, is not a misuse of proceedings or contrived for any immigration purpose.  UKBA has a policy permitting entry to surrogate born children including those whose &#8216;parents&#8217; intend making a parental order application and appear to satisfy the requirements for a parental order in the UK. It is therefore accepted that the making of a parental order (and the associated assertion of domicile) can provide the applicants&#8217; children with an immigration benefit. However, the parental order application (and assertion of the UK domicile) is genuine and not contrived or constructed to seek such immigration advantage otherwise not available to the parties. The applicants raised the issue of their domicile to the entry clearance officer; it was not otherwise advanced as a reason for the children&#8217;s refusal.  In advance of any finding on domicile by this Court, the applicants have advanced their children&#8217;s entry clearance application on the alternative premise that they may be taken to have retained their domicile of origin or have acquired an English domicile of choice. The applicants advanced their case by reference to both arguments, leaving the choice as to the proper basis for the children&#8217;s entry to the Immigration Judge. As stated the judge allowed the appeal on Article 8 grounds permitting their entry to await the outcome of this parental order application, and leaving the &#8216;definite resolution&#8217; of the issue of domicile to this Court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in">In addition to<span style="color:#000000"> Z&#8217;s evidence and actions in this case another court has had the benefit of hearing oral evidence from both applicants. Immigration Judge Sharp (Judge of the First-tier Tribunal) accepted in her written decision:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;color:#000000">&#8220;the integrity and honesty of both the parents&#8221; </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;color:#000000">&#8220;I accept the parties as honest and sincere and that they wish and intend to be the devoted parents to their twin children and bring them up in a family unit in this country which is where they decided to settle having both come as Tier 1 Migrants, for which it is required to have the intention to settle on a long-term basis in the country&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="margin-left:0.5in;text-indent:-0.5in">         This assessment is not determinative, but is clearly persuasive.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">28.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">The principle, as advanced by Baroness Hale in <span style="font-style:italic">Mark, </span>does not require that the <span style="font-style:italic">propositus</span> show he has obtained no advantage from the assertion of an English domicile, but that it is not a false assertion or a misuse of proceedings. As the quotation in paragraph 14 above makes clear, the domicile connection may bring advantages to the <span style="font-style:italic">propositus</span>. Further, the Courts have made adoption orders where a child obtains some immigration advantage (the conferral of nationality) from the making of the order (<span style="font-style:italic">Re B (adoption order: nationality) Re B (adoption order: nationality) <ref href="#" uk:canonical="[1999] 2 AC 136" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 2 AC 136</ref>, HL</span>) and this principle can apply in surrogacy cases. In this case the children do not obtain British nationality from the parental order, simply a capacity to be treated as the children of their parents in immigration law and to be granted leave to remain in line with their parents.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="margin-left:-0.25in"><span style="font-weight:bold">Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-style:italic;margin-left:0.25in;text-indent:-0.5in">29.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">It is clear on the evidence in this case that Z abandoned his domicile of origin when he came to the UK in January 2008. I accept Z&#8217;s evidence about his break with Israel and his reasons for that. As set out at paragraph 23 his conduct leading up to that, and since, all evidence his intention to have their family home in the UK. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">30.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">It is equally clear that Z&#8217;s assertion that he acquired an English domicile of choice in January 2008 is established. That assertion is congruent with and proved on the balance of probability on the evidence. All of Z&#8217;s actions are consistent with his intention to make England his permanent home. He established residence and business here. The applicants have conducted themselves with candour and good faith in all their dealings with authorities in this case; this stance lends force to the statements they have made concerning their intention to make England their home. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.25in;text-indent:-0.5in">31.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in">I therefore find that Z had an English domicile on arrival here in January 2008, consequently he was domiciled here at the time the application for a parental order was issued and this court has jurisdiction.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

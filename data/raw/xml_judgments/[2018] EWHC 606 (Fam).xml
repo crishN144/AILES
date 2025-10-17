@@ -1,0 +1,409 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2018/606"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2018/606"/>
+	  <FRBRdate date="2018-03-23" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="606"/>
+	  <FRBRname value="SR v HR &amp; Ors (Rev 1)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/606"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/606"/>
+	  <FRBRdate date="2018-03-23" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/606/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/606/data.xml"/>
+	  <FRBRdate date="2024-10-27T02:31:59" name="transform"/>
+	  <FRBRdate date="2024-12-05T13:47:05" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2018-03-23" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="sr" href="" showAs="SR"/>
+	<TLCPerson eId="hr" href="" showAs="HR"/>
+	<TLCPerson eId="sc" href="" showAs="SC"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="intervener" href="" showAs="Intervener"/>
+	<TLCPerson eId="judge-mr-justice-mostyn" href="/judge-mr-justice-mostyn" showAs="MR JUSTICE MOSTYN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2018</uk:year>
+	<uk:number>606</uk:number>
+	<uk:cite>[2018] EWHC 606 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>5f0e279feefa78f62394e01f01e7f912330a909a9c0b7b7529a43e069ce0d044</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><span style="color:#FF0000">This judgment was delivered in private.   The judge has given leave for this anonymised version of the judgment to be published. The identities of the parties must not be disclosed. Breach of this condition will amount to a contempt of court.</span></p>
+      <p class="CoverText">Case No: <docketNumber>2017/0173</docketNumber></p>
+      <p>Neutral Citation Number: <neutralCitation>[2018] EWHC 606 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p>(<span style="text-decoration-line:underline;text-decoration-style:solid">On appeal from HH Judge Sharpe</span></p>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid">Sitting in the Family Court at Swansea</span></p>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid">CX11D00057)</span></p>
+      <p class="CoverMain"><docTitle style="text-decoration-line:none">IN THE MATTER OF THE MATRIMONIAL CAUSES ACT 1973</docTitle></p>
+      <p class="CoverMain"><span style="text-decoration-line:none">AND IN THE MATTER OF THE INSOLVENCY ACT 1986</span></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2018-03-23" refersTo="#judgment">23/03/2018</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-mostyn">MR JUSTICE MOSTYN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#sr" style="font-weight:bold">SR</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#hr" style="font-weight:bold">HR</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#intervener" refersTo="#sc" style="font-weight:bold">SC</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(as Trustee in Bankruptcy of SR)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#intervener">Intervener</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">The Appellant appeared in person</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Respondent appeared in person</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Paul French</span> (instructed by <span style="font-weight:bold">Morgan Rostron Solicitors</span>) for the <span style="font-weight:bold">Intervener</span></p>
+      <p style="text-align:center">Hearing date: 20 March 2018</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Mostyn:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 24 May 2012 Deputy District Judge Parsons made property adjustment orders by consent in respect of three properties in Carmarthen. On 7 October 2013, by consent, he rearranged certain aspects of his orders but without altering their underlying proprietary or economic effect. I shall refer to these orders as the substantive orders. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The substantive orders were not implemented for wearily familiar reasons. There were disputes, among other things, about the sale process and about the selling agents. This led to implementation litigation. In June 2016 the wife (as I shall call her) appealed an implementation order. It came before Judge Sharpe. He granted permission to appeal. He may well have granted permission to appeal the 2012 and 2013 substantive orders as well. As the order of 1 June 2016 is not available no-one can tell me what was the scope of the grant of permission to appeal. If it was against the 2012 and 2013 orders then it must be regarded as being of doubtful legitimacy given that it was years out of time and that neither party had previously sought to appeal them. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Judge Sharpe had the case before him on 18 August and 4 September 2017. He resolved to deal with the case anew. In his judgment, issued on 12 December 2017 he clearly explained that he was not exercising appeal powers in order to do so. Rather, as the substantive orders remained executory, and given that they were &#8220;at the very edge, if not already beyond, any effective period of implementation in [their] terms&#8221; he considered that he could discharge the substantive orders and replace them with a new order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The new order was made on 4 October 2017, two months before the judgment emerged (for reasons which do not need to be explained). The order explicitly replaces the 2012 and 2013 orders. It was amended on 20 October 2017 to correct an error and to clarify an ambiguity. However, on 22 September 2017, that is before the order of 4 October 2017, the husband (as I will call him) had been made bankrupt.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The new order significantly altered the economic impact of the substantive orders of 2012 and 2013. I calculate that about &#163;46,000 of value was taken from the husband and given to the wife. I set out my calculations later in this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The husband appeals the new order of Judge Sharpe dated 22 October 2017. I have granted his trustee in bankruptcy leave to intervene in the appeal. She is represented by Mr French of counsel, who supports the husband&#8217;s appeal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I now set out some principles of law, which are in my judgment decisive of the outcome of this appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 1970 Parliament enacted the new ancillary relief powers. These were consolidated in the <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">Matrimonial Causes Act 1973</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 31</ref> contains the powers of variation and discharge. Parliament was very careful to keep these powers tightly confined. Ignoring some very rare outliers, the only capital award that could be varied was a lump sum payable by instalments. An order for sale under section 24A could be varied but not the underlying capital award to which it attached.  The power to vary an order for sale is a real power which can be invoked to keep a party out of his money for an appreciable period: see <span style="font-style:italic">Birch v Birch</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/53" uk:canonical="[2017] UKSC 53" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 53</ref> at paras 14, 15, 27 and 29<authorialNote class="footnote" marker="1">
+		<p class="FootnoteText" style="text-align:justify"> An order under section 24A can only be made when making an award for capital provision; it cannot be made as an interim measure. There is a regrettable difference of opinion between Cobb J and myself as to whether an interim order for sale can be made under FPR 20.2(1)(c)(v): see<span style="font-style:italic"> BR v VT</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2015/2727" uk:canonical="[2015] EWHC 2727 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWHC 2727 (Fam)</ref> and <span style="font-style:italic;color:#000000">WS v HS</span><span style="color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2018/11" uk:canonical="[2018] EWFC 11" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWFC 11</ref>. I firmly and respectfully maintain my view. </span><span style="color:#000000">An order for the sale of property is essentially procedural; of itself it does not alter prop</span><span style="color:#000000">rietary </span><span style="color:#000000">rights</span><span style="color:#000000">. </span><span style="color:#000000"/><span style="color:#000000">I cannot see that words should be read into the rule to the effect that </span><span style="color:#000000">to make such an order</span><span style="color:#000000"/><span style="color:#000000">an underlying </span><span style="color:#000000">statutory </span><span style="color:#000000">power must be identified. </span><span style="color:#000000">In my opinion to provide </span><span style="color:#000000">in the rules the</span><span style="color:#000000"/><span style="color:#000000">independent </span><span style="color:#000000">power to order an interim sale is not ultra vires the parent statute (<ref href="http://www.legislation.gov.uk/id/ukpga/2003/39/section/75" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 75</ref> and 76 <ref href="http://www.legislation.gov.uk/id/ukpga/2003/39" uk:canonical="2003 c. 39" uk:origin="TNA" uk:type="legislation">Courts Act 2003</ref>).  </span><span style="color:#000000">However, until the matter can be resolved by a higher court I suggest that applications for an interim sale are made under section 17 </span><span style="color:#000000">of the Married Women&#8217;s Property Act </span><span style="color:#000000">1882. Such an application </span><span style="color:#000000">is to </span><span style="color:#000000">be made in short form under the Part 18 procedure within the financial remedy proceedings: see FPR 8.13 and 8.14.  </span></p>
+	      </authorialNote>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, it is an iron rule that aside from a lump sum payable by instalments, and aside from a set aside on traditional grounds as discussed below, a capital award cannot be varied, or, a fortiori, discharged, by a court of first instance.  That an order has, in the usual way, a &#8220;liberty to apply&#8221; clause certainly does not entitle a court to rewrite non-variable capital awards and to make different ones. Equally, the fact that a dismissal clause does not take effect until there has been full compliance with certain transfers and payments plainly does not entitle a court to replace an executory order with a new one. The judge referred to the decision of <span style="font-style:italic">Thwaite v Thwaite</span> <ref href="#" uk:canonical="[1982] Fam 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1982">[1982] Fam 1</ref>. In a recital to an order made on 13 July 2016 he stated: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In accordance with the authority of <span style="font-style:italic">Thwaite v Thwaite</span> the court may consider the order and refuse to enforce the order if it is inequitable to do so. Where such an outcome is determined it is open to the court to determine the matter afresh&#8221;  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have to say that I do not agree with this. In <span style="font-style:italic">Thwaite</span>, at page 9, Ormrod LJ stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Where the order is still executory, as in the present case, and one of the parties applies to the court to enforce the order, the court may refuse if, in the circumstances prevailing at the time of the application, it would be inequitable to do so: <span style="font-style:italic">Mullins v. Howell</span> (1879) <ref href="#" uk:canonical="11 Ch D 763" uk:isNeutral="false" uk:origin="TNA" uk:type="case">11 Ch D 763</ref> and<span style="font-style:italic"> Purcell v. F. C. Trigell Ltd</span>. <ref href="#" uk:canonical="[1971] 1 QB 358" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1971">[1971] 1 QB 358</ref>, 366, 367. Where the consent order derives its legal effect from the contract, this is equivalent to refusing a decree of specific performance; where the legal effect derives from the order itself the court has jurisdiction over its own orders: per Sir George Jessel M.R. in <span style="font-style:italic">Mullins v. Howell</span> (1879) <ref href="#" uk:canonical="11 Ch D 763" uk:isNeutral="false" uk:origin="TNA" uk:type="case">11 Ch D 763</ref>, 766.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Mullins v. Howell</span> concerned an undertaking to remove some buttresses projecting from an archway mistakenly given by counsel at an interlocutory hearing. Sir George Jessell MR stated: &#8220;I have no doubt that the Court has jurisdiction to discharge an order made on motion by consent when it is proved to have been made under a mistake, though that mistake was on one side only, the Court having a sort of general control over orders made on interlocutory applications.&#8221; That is a far cry from rewriting a final order anew.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Purcell v. F. C. Trigell Ltd </span>concerned a personal injury action where a defence had been struck out for failure to comply with a consent order which required a full reply to interrogatories. That strike-out was upheld in the Court of Appeal. Lord Denning MR stated, almost in passing, at page 364:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;But there is no ground here so far as I can see for setting aside this consent order. It was deliberately made, with full knowledge, with the full agreement of the solicitors on both sides. It cannot be set aside. But, even though the order cannot be set aside, there is still a question whether it should be enforced. The court has always a control over interlocutory orders. It may, in its discretion, vary or alter them even though made originally by consent.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Again, this gives no support to the notion that if the court, exercising its equitable jurisdiction, refuses to enforce an order it gains the power to make a completely new one.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have to say that <span style="font-style:italic">Mullins v. Howell </span>and <span style="font-style:italic">Purcell v. F. C. Trigell Ltd </span>provide scant support for a loophole to the prohibition of the discharge of a non-variable final capital order. Both cases concerned the court&#8217;s power to &#8220;control&#8221; interlocutory orders. The first case involved an undertaking where there was full power to discharge it anyway. In the second case the court refused to discharge the earlier interlocutory order requiring answers to interrogatories. Therefore, I think that any application under the principle in <span style="font-style:italic">Thwaite</span> should be approached extremely cautiously and conservatively.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have pondered whether in this case the court could engage in a form of barter with the wife akin to that described by Lord Wilson in <span style="font-style:italic">Birch </span>in relation to the &#8220;variation&#8221; of an undertaking. At para 5 he stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;An undertaking is a solemn promise which a litigant volunteers to the court. A court has no power to impose any variation of the terms of a voluntary promise. A litigant who wishes to cease to be bound by her (or his) undertaking should apply for &#8220;release&#8221; from it (or &#8220;discharge&#8221; of it); and often she will accompany her application for release with an offer of a further undertaking in different terms. The court may decide to accept the further undertaking and, in the light of it, to grant the application for release. Equally the court may indicate that it will grant the application for release only on condition that she is willing to give a further undertaking or one in terms different from those of a further undertaking currently on offer. In either event the court&#8217;s power is only to grant or refuse the application for release; and, although exercise of its power may result in something which looks like a variation of an undertaking, it is the product of a different process of reasoning.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As will be seen (see paras 18(2) and 19 below), the original substantive orders required the wife to pay 70% of a property in Haulfryn to the husband. Judge Sharpe replaced the share of 70% with one of 20%. Instead of making a direct replacement could Judge Sharpe have said to the wife: I will, pursuant to <span style="font-style:italic">Thwaite</span>, decline to enforce your obligation to pay the husband 70% of the equity in the Haulfryn property provided that you agree to pay him 20% instead? In my judgment that would be quite unacceptable. It would amount to a blatant circumvention of the statutory prohibition on variation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court has always had power to set aside an order on the grounds of fraud, mistake or a supervening event (the <span style="font-style:italic">Barder</span> jurisdiction). After years of controversy about the correct procedure for invoking these grounds (did it require a fresh action? did it require an appeal?) the matter has been resolved finally by the introduction of the new rule 9.9A and PD9A para 13, with effect from 3 October 2016. This provides that <span style="color:#000000">an application to set aside all or part of a financial remedy order or judgment must be made to the first instance court, to be initiated by an application made within the existing proceedings in accordance with the Part 18 procedure. Para 13.5 of PD9A provides: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;An application to set aside a financial remedy order should only be made where no error of the court is alleged. If an error of the court is alleged, an application for permission to appeal under Part 30 should be considered. The grounds on which a financial remedy order may be set aside are and will remain a matter for decisions by judges. The grounds include (i) fraud; (ii) material non-disclosure; (iii) certain limited types of mistake; (iv) a subsequent event, unforeseen and unforeseeable at the time the order was made, which invalidates the basis on which the order was made.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although the framers of this paragraph have theoretically left the door open to expansion of the classes of cases where a set aside may be sought, it is difficult to conceive of any.  Certainly, mere delay in implementing a routine property adjustment order could never amount to a ground for a set aside under rule 9.9A.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For these reasons I conclude that the appeal must be allowed and that the new orders made by Judge Sharpe on 4 October 2017, as reissued in amended form on 20 October 2017, must be set aside as being made without jurisdiction. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is an additional reason why these orders must be set aside. As Mr French correctly points out, at the time they were made the husband was bankrupt. At the moment of the making of the bankruptcy order all of the husband&#8217;s property vested in the trustee in bankruptcy. Therefore, when Judge Sharpe made his orders the husband in fact did not have &#163;46,500 worth of property capable of being taken from him and given to the wife.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The result is that the substantive order of 24 May 2012, as rearranged in certain respects on 7 October 2013, revives. The result is as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The property at Picton Place has been sold and the proceeds of sale after payment of the first mortgage and the costs of sale were &#163;93,716. Of this &#163;46,810 has been distributed to the wife; &#163;11,778 is held to satisfy a charging order in respect of a debt of the husband in favour of MNBA; and &#163;35,128 is held pending my decision, but under the orders is payable to the wife. Thus, under this subparagraph the wife has received, or will receive, &#163;81,938.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The property at Haulfryn is worth around &#163;95,000 (the husband says &#163;105,000; the wife says &#163;85,000). There is no mortgage. After costs of sale it has the net value of some &#163;92,150. Under the orders the husband receives 70% of this value but must give credit for the &#163;11,778 MNBA debt effectively paid on his behalf by the wife and a debt charged on the property of &#163;3,300 in favour of the Child Support Agency. Thus, the husband (or, rather, his trustee in bankruptcy) will receive under this subparagraph: &#163;92,150 x 70% - &#163;11,778 - &#163;3,300 = &#163;49,427. The wife will receive: &#163;92,150 - &#163;3,300 - &#163;49,427 = &#163;39,423. The total of these two sums is &#163;88,850 which equates correctly to the net proceeds of sale after deduction of costs of sale and the CSA charge. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Under the two preceding subparagraphs the wife receives a total of &#163;121,361 while the husband receives &#163;49,427.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The property at Abergwili Road goes to the husband. However, this property is &#8220;under water&#8221; in that its mortgage exceeds its value by about &#163;12,000. The husband will be liable for this shortfall. In addition, the intervener has tabulated further debts of the husband of &#163;41,162. When the costs of the bankruptcy are taken into account it can be seen that it is most unlikely that the husband will receive any surplus from the &#163;49,427.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The effect of the judge&#8217;s orders was to replace the 70% share of the Haulfryn property with a share of 20%. That would have left the husband with only around &#163;3,000 from that property &#8211; a difference of about &#163;46,000. Quite apart from the question of jurisdiction it is hard to see why it would be just for the husband&#8217;s unsecured creditors (mainly HMRC) to go away virtually empty handed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For these reasons the appeal is allowed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Since this judgment was distributed in draft I have received written submissions on costs from the husband, the wife and the intervener.  The wife&#8217;s submissions are a reiteration of her grievances concerning the making of the substantive orders and the subsequent difficulties in their implementation. They do not address the very limited consequential issues with which I now must deal.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The husband seeks payment of &#163;866 in disbursements incurred as a litigant in person pursuant to CPR 46.5 and CPR PD 46 para 3.4. Under these provisions disbursements may be allowed in full. I agree that the sums claimed are reasonable. As the appeal has been allowed the normal rule applies and they will be awarded in full. They are to be paid to the husband from the retained sum of &#163;35,128 referred to in para 18(i) above. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The intervener has incurred cost of &#163;10,000 (inclusive of VAT) in supporting the husband&#8217;s appeal. For the reasons explained in para 18(iv) above she has had a greater interest in securing a successful appeal than the husband himself. On 8 March 2018 her solicitors wrote to the wife setting out their argument as to why the order made by Judge Sharpe was void. It would have been possible for the wife to have agreed, thereby avoiding the costs subsequently incurred. In my judgment, the wife should pay these costs. I assess them in the sum of &#163;10,000 (inclusive of VAT) and they are also to be paid from the retained sum of &#163;35,128 referred to in para 18(i) above. I further formally order, in the usual way, that the intervener&#8217;s costs should be paid as an expense of the bankruptcy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The husband seeks further directions as to the sale of the Haulfryn property. That is not within the remit of the appeal court. If an orderly sale cannot be agreed robust directions for sale will need to be given by the Family Court. I would expect any unreasonable conduct to be penalised in costs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I heard this case in private pursuant to FPR 27.10 which applies fully to this appeal. Therefore, the published report of the judgment will anonymise the parties&#8217; names. I do not, however, consider it necessary to redact the locations of the properties.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

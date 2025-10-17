@@ -1,0 +1,619 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2011/1267"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2011/1267"/>
+	  <FRBRdate date="2011-05-18" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1267"/>
+	  <FRBRname value="X, Y, Z (Minors), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/1267"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/1267"/>
+	  <FRBRdate date="2011-05-18" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/1267/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/1267/data.xml"/>
+	  <FRBRdate date="2024-10-28T03:02:03" name="transform"/>
+	  <FRBRdate date="2024-11-11T21:00:38" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2011-05-18" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="kent-county-council" href="" showAs="KENT COUNTY COUNCIL"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-baker" href="/judge-the-honourable-mr-justice-baker" showAs="THE HONOURABLE MR JUSTICE BAKER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2011</uk:year>
+	<uk:number>1267</uk:number>
+	<uk:cite>[2011] EWHC 1267 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>d1cfaf01533813a197500e991a29ea118abcaedca2811b613bf8dacff64f7c6d</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .DocumentMap { font-family: Tahoma; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .PageNumber { }
+#judgment .DocumentMapChar { font-family: 'Segoe UI'; font-size: 8pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: [2011] EWHC 1267(Fam)</p>
+      <p class="CoverText">Case No: <docketNumber>ME09C00100</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2011-05-18" refersTo="#judgment">18/05/2011</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-baker">THE HONOURABLE MR JUSTICE BAKER</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.45in 3.7in 1.13in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#kent-county-council" style="font-weight:bold">KENT COUNTY COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">A MOTHER</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">-and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">F</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">X, Y, Z (Minors)</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">IR</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right">1st Respondent  </p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right">2nd Respondent</p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right">3rd - 5th Respondents </p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right">Intervenor</p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Anthony Kirk QC and Brenda Morris </span>(instructed by<span style="font-weight:bold"> Kent County Council Legal and Democratic Services</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Sandria Murkin</span> (instructed by <span style="font-weight:bold">Gill Turner Tucker</span>) for the <span style="font-weight:bold">1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Isabelle Watson </span>(instructed by <span style="font-weight:bold">Clarke Keirnan</span>)  for the <span style="font-weight:bold">2</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Alison Ball QC and Margo Boye </span>(instructed by <span style="font-weight:bold">Davis Simmonds and Donaghey</span>) for the <span style="font-weight:bold">3rd Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Jo Delahunty QC and Christopher Poole </span>(instructed by <span style="font-weight:bold">Messrs  Reeves &amp; Co)</span> for the <span style="font-weight:bold">Intervenor</span></p>
+      <p style="text-align:center">Hearing dates: 8th April 2011 </p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify">This judgment is being handed down in private on 18 May 2011. It consists of 15 pages and has been signed and dated by the judge.  The judge hereby gives leave for it to be reported.</p>
+	    <p style="text-align:justify"> The judgment is being distributed on the strict understanding that in any report no person other than the advocates or the solicitors instructing them (and other persons identified by name in the judgment itself) may be identified by name or location and that in particular the anonymity of the children and the adult members of their family must be strictly preserved.</p>
+	    <p><span style="font-weight:bold">MR. JUSTICE BAKER  :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following my judgment delivered on 3rd March 2011 at the conclusion of the fact-finding hearing in these care proceedings concerning three children X, Y and Z, applications were made on behalf of the five Respondents &#8211; namely, (1) the mother as First Respondent, (2) F, the father of Z and Second Respondent, and (3) the three children themselves through their guardian &#8211; and the Intervenor, the mother&#8217;s current partner IR, for an order for costs against the local authority, Kent County Council. I directed that this issue should be argued before me at a further hearing listed for half a day, preceded by the submission of written skeleton arguments and supporting documentation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The hearing took place on the afternoon of 8th April 2011. The documentation submitted consisted of (1) a joint skeleton argument on behalf of the five Respondents; (2) a further document filed on behalf of the Respondents entitled &#8220;Appendix 1 &#8211; Impact on Costs of Local Authority&#8217;s Failures&#8221;, supported by a further joint document entitled &#8220;Appendix A &#8211; Chronology Chart&#8221;; (3) a document filed on behalf of the mother entitled &#8220;Appendix 2 &#8211; Chronology/Summary Outline&#8221;, with 91 pages of supporting documents; (4) separate costs schedules filed by the Respondents&#8217; three respective legal teams; (5) a document headed &#8220;The Application&#8221; (in reality, a full written argument) prepared on behalf of the Intervenor IR; (6) a document entitled &#8220;Schedules of Net Costs Claimed by [IR]&#8221;; (7) a bundle of authorities compiled by counsel for IR, and (8) submissions on matters of costs filed on behalf of the local authority. The further documentation exceeded four hundred pages in total.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is unnecessary to set out again the background to the case, or the long and complex history of the proceedings, which are recorded in full detail in the judgment delivered on 3rd March and reported under the neutral citation number <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2011/402" uk:canonical="[2011] EWHC 402 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 402 (Fam)</ref>. This decision as to costs follows on from that judgment and, if reported, should, insofar as possible, be printed immediately after it. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify">THE LAW AS TO COSTS IN CARE PROCEEDINGS</p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The rules governing costs in family proceedings , as defined by <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42/section/32" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.32</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/42" uk:canonical="1984 c. 42" uk:origin="TNA" uk:type="legislation">Matrimonial and Family Proceedings Act 1984</ref> so as to include proceedings under Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> such as these, are, since 6th April 2011, found in Part 28 of the Family Procedure Rules 2010. These substantially replicate the old provisions in rule 10.27 of the Family Proceedings Rules 1991, save that (a) all rules now have to be applied having regard to the overriding objective set out in Part 1 of the 2010 Rules, and (b) rule 28.1 contains an express provision that &#8220;the court may at any time make such order as to costs as it thinks just&#8221;. For my part, I do not consider that these additions represent any significant change. The substance of the new Part 28, as of the old rule 10.27, is to apply the costs provisions in Parts 43, 44, 47 and 48 of the Civil Procedure Rules 1998 with certain exceptions. Of these, the most important is the exclusion of rule 44.3(2) which provides that &#8220;if the court decides to make an order about costs, (a) the general rule is that the unsuccessful party will be ordered to pay the costs of the successful party, but (b) the court may make a different order&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus, in the vast majority of cases under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, the court elects to make no order as to costs. The rationale for this has been explained in a number of decided authorities, notably in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Sutton London Borough Council v Davis </span><ref href="#" uk:canonical="[1994] 2 FLR 569" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] 2 FLR 569</ref> by Wilson J. (as he then was) at p570H: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in">&#8220;Where the debate surrounds the future of a child, the proceedings are partly inquisitorial and the aspiration is that in their outcome the child is the winner and indeed the only winner. The court does not wish the spectre of an order for costs to discourage those with a proper interest in the child from participating in the debate. Nor does it wish to reduce the chance of their co-operation around the future life of the child by casting one as the successful party entitled to his costs and another as the unsuccessful party obliged to pay them. The proposition applies in its fullest form to proceedings between parents and other relations; but it also applies to proceedings to which a local authority is a party &#8230;. But the proposition is not applied where, for example, the conduct of a party has been reprehensible or the party&#8217;s stance has been beyond the band of what is reasonable.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is therefore well established that costs orders may be made in children cases when the conduct of a party has been reprehensible or unreasonable. There are a number of reported decisions in which costs have been awarded against a local authority where its conduct has been held to fall outside the band of what is reasonable. The most oft-cited, in which a local authority&#8217;s unreasonable failure to comply with its obligations as to disclosure led to an order for costs, is <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re R (Care: Disclosure: Nature of Proceedings)</span> <ref href="#" uk:canonical="[2002] 1 FLR 770" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 FLR 770</ref>. A more recent example is the decision of HH Judge Clifford Bellamy (sitting as a judge of the Family Division) in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re X, Y and Z (Children) </span>[2010] EWHC 812. It is important to emphasise, however, that these are exceptional cases to the general proposition in children&#8217;s cases that there should ordinarily be no order as to costs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re J (Costs of Fact Finding Hearing)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/1350" uk:canonical="[2009] EWCA Civ 1350" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 1350</ref>, <ref href="#" uk:canonical="[2010] 1 FLR 1893" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 1 FLR 1893</ref>, the Court of Appeal (Ward and Wilson LJJ) suggested that the proposition identified in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Sutton</span> case did not apply to the costs of a fact-finding hearing. <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re J</span> concerned a contact application in which the mother had raised allegations of domestic violence which were considered and substantially upheld at a preliminary fact-finding hearing. The Court of Appeal allowed the mother&#8217;s appeal against the district judge&#8217;s dismissal of her application for costs, and in delivering the judgment of the Court, Wilson LJ said (at paragraph 17):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in">&#8220;The order for a bespoke fact-finding hearing was surely to consign the determination of the mother&#8217;s allegations into a separate compartment of the court&#8217;s determination of the father&#8217;s application for an order for contact &#8230;. [T]he effect of the direction for a separate fact-finding hearing was that the costs incurred by the mother in relation to that hearing can confidently be seen to be wholly referable to her allegations against the father. There was, in that sense, a ring fence around that hearing and thus around the costs referable to it. Those costs did not relate to the paradigm situation to which the general proposition in favour of no order as to costs applies.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At paragraph 19 of his judgment, however, Wilson LJ added:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in">&#8220;I am well aware that, in most disputed cases in relation to children, whether in private or in public law, parties justify their proposals for the future arrangements for the child by reference, at any rate in part, to past events, of which another party or other parties will often present a different version. Thus, to a greater or lesser extent, issues of historical fact arise, in probably the majority of these proceedings, I would be concerned if our exercise of discretion in relation to the mother&#8217;s costs in this case today were to be taken as an indication that it was appropriate in the vast run of these cases to make an order for costs in whole or in part by reference to the court&#8217;s determination of issues of historical fact.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re T (A Child)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/1585" uk:canonical="[2010] EWCA Civ 1585" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Civ 1585</ref>, however, the Court of Appeal (Wilson and Munby LJJ and Coleridge J) took a step further. That case concerned lengthy care proceedings involving allegations of cross-generational sexual abuse to which the paternal grandparents of the subject children were joined as alleged perpetrators. As they did not qualify for public funding, the grandparents were obliged to borrow over &#163;50,000 to pay for legal representation. At the conclusion of the fact-finding hearing, in which they were completely exonerated, their application for an order for costs against the local authority was refused and they appealed to the Court of Appeal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In giving the lead judgment, Wilson LJ noted (at paragraph 8) that</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in">&#8220;[i]t was and is common ground that it was appropriate for the local authority to invite the court to determine the allegations against the grandparents, and that &#8230; the way in which the local authority conducted themselves during that hearing cannot be criticised.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.5in">However, he concluded that the judge had erred because he had purported to apply the general proposition in favour of no order as to costs. He explained (at paragraph 18):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in">&#8220;&#8230; where in care proceedings a local authority raises, however, appropriately, very serious factual allegations against a parent or other party, and at the end of a fact-finding hearing the judge concludes that they have not established them, the general proposition is not in play. Neither of the reasons for the proposition which I ventured in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Sutton</span> case fits such a situation.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.75in;text-indent:-0.25in">He then added (at paragraph 19):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in">&#8220;It does not, however, follow that the judge should automatically have ordered the local authority to pay the costs of the grandparents. The general rule that costs should follow the event did not apply. Nor however did the general proposition that there should be no order for costs in proceedings relating to children. In truth the judge should have started with a clean sheet&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.5in">But then he quoted from another judgment in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Baker v Rowe </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/1162" uk:canonical="[2009] EWCA Civ 1162" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 1162</ref>, [2010] 1 FCR 413 in which he had observed:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in">&#8220;Even where the judge starts with a clean sheet, the fact that one party has been unsuccessful, and must therefore usually be regarded as responsible for the generation of the successful party&#8217;s costs, will often properly count as the decisive factor in the exercise of the judge&#8217;s discretion.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.75in;text-indent:-0.25in">On the facts of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re T,</span> Wilson LJ concluded:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in">&#8220;In my view, the facts that the grandparents were faced with allegations of the utmost severity, that accordingly it had been reasonable for them to stretch their economy to the utmost in order to secure for themselves a professional defence against them and that, in the event, the result was an exoneration, were all matters which should have been of great, indeed in my view of decisive importance to a judge who was about to write on a clean sheet.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With those principles in mind, I turn to consider the applications made in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applications for costs made in these proceedings fall into two categories.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(1)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">An application by the five Respondents &#8211; the mother, F, and X, Y and Z through their guardian &#8211; for an order that the local authority should pay a proportion of their costs occasioned by the failure of the local authority to comply with its duties of disclosure, and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(2)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">An application by IR for an order that the local authority should pay all or part of his costs on the grounds, inter alia, that he (unlike the mother and F) has been completely exonerated of all allegations made against him.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1">THE APPLICATION BY THE FIVE RESPONDENTS</p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The five Respondents, through their three sets of lawyers, make common cause on their application, with a joint skeleton argument and appendices, supplemented by separate schedules setting out the detailed figures of the costs incurred on behalf of each Respondent.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In their joint skeleton arguments, they refer to the criticisms of the local authority&#8217;s performance of its duties as to disclosure set out in detail in my earlier judgment at paragraphs 61 to 62 and 153 to 158.  In particular, they refer to my description of the local authority&#8217;s approach to disclosure as having been undertaken in &#8220;a wholly unsatisfactory, piecemeal and haphazard fashion&#8221;.  In the event, as described in paragraph 61 to 62 of the judgment, much of the task of reading through the local authority documents to identify relevant material was actually (and unprecedently, in my experience) carried out not by the local authority but, rather, by the Respondents&#8217; counsel working late into the night and at weekends in the course of the hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Developing these points in their joint skeleton argument, the Respondents&#8217; counsel submit that the local authority refused and/or failed to comply with reasonable requests on behalf of the mother and the children for disclosure before, during and after the fact finding hearing, and failed to comply with court orders as to disclosure.  As a result, it is said that work had to be undertaken by those representing the Respondents which should have been undertaken by the local authority, namely a sifting operation of a huge volume of papers and consideration of what further evidence was required and of the consequences of the material identified for the proceedings overall.  In addition, it is pointed out that this unorthodox disclosure led to additional advocates&#8217; meetings, which had to be arranged to manage the disclosure problems, and further hearings at which the issue of disclosure could be considered.  The Respondents further submit in appendix 1 to the skeleton argument that one important consequence of the local authority&#8217;s failure as to disclosure was that it was not in a position to make a fully-informed judgment as to the findings that should be sought in the proceedings.  The Respondents submit that, if full and timely disclosure had been provided, either the local authority or the other parties or the court would have realised at the time of the pre-hearing review in September that serious findings of fact needed to be investigated against IR and F.  The Respondents submit that, had that occurred, the issue concerning W&#8217;s evidence would have taken a different course.  They submit that the court would have set up a hearing for her evidence to be heard prior to, or at the commencement of, the main hearing in October and, upon reaching the conclusion that the allegations could not be sustained against IR due to W&#8217;s unreliability, it is likely that IR would have dropped out of the case altogether.  It is submitted that all the additional work and costs caused in the wake of the adjournment on 29 October would thus have been avoided.  The Respondents further submit that additional waste of time and cost was caused by the local authority&#8217;s failure or unwillingness to disclose other evidence, not least, they say, the circumstances in which W came to be placed with David Mason.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In all the circumstances, the Respondents submit that the local authority&#8217;s conduct of its obligations as to disclosure fell outside the band of what can be described as &#8220;reasonable conduct&#8221;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In an effort to demonstrate the consequences of the local authority&#8217;s failures as to its disclosure obligations, and the impact of those failures on the volume and cost of the work thereby required of the Respondents&#8217; representatives, a chronological chart and other documents have been filed identifying the work done on each day and the time and costs allegedly wasted.  The work involved is said to have included additional advocates&#8217; meetings, further reading, additional directions hearings, including applications for disclosure, and wasted court days.  The detailed claim for costs falls into two categories.  First, the Respondents apply on the instructions of the Legal Services Commission for a costs order in respect of work carried out within the ambit of the Respondents&#8217; respective public funding certificates.  In the various documents and schedules provided by the Respondents, they have endeavoured to identify dates on which they submit that all or part of the work carried out under the certificates was attributable to the local authority&#8217;s unreasonable conduct and in their respective schedules they give details of the specific costs incurred on those dates.  Secondly, pursuant to section 22(2) of the Access to Justice Act 2002, with the express authority of the Legal Services Commission, the Respondents invite the court to award costs for work undertaken by their legal representatives that fall outside the scope of the public funding certificates.  Specifically, the Respondents&#8217; counsel have given details of the work not covered by their respective certificates that they performed on the 20 October, 24 October (a Sunday), 26 October and 11 January 2011.  In addition, counsel for the guardian, Miss Ball QC and Miss Boye, submit that a substantial proportion of the work expended in the preparation of their final submissions addressed the so-called &#8220;wider issues&#8221; at the request of the court was not covered by their public funding certificate but was rather required to address the several failures of the local authority as analysed in the second part of the judgment delivered on 3 March 2011.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In reply, Mr Kirk QC, on behalf of the local authority, accepts that neither of the parties nor their legal advisors nor the court should expect to be confronted with large quantities of records and documents late in the day, some of which may be relevant to the issues in the case.  He qualifies this, however, by observing that, had all the parties clarified at an earlier stage in the proceedings the issues that they sought to raise at trial, &#8220;this scenario might well have been avoided&#8221;.  In other words, Mr Kirk asserts that responsibility for failing to identify the relevant issues in respect of which disclosure of documents will be required as explained by Charles J in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re R (Care: Disclosure: Nature of Proceedings)</span> (supra) as quoted at paragraph 154(6) of my earlier judgment, lay on all parties and was therefore not a matter for which the local authority should be penalised in costs.  Specifically, he submits that the local authority does not accept that the deficiencies in its disclosure created any additional work or any additional meetings for anyone that would not otherwise have taken place had the allegations against IR been investigated at an earlier stage.  The Respondents have asserted on a number of occasions that the local authority have failed to comply with requests for disclosure.  Mr Kirk&#8217;s rejoinder is that the local authority cannot trace any refusal to comply with a reasonable request for disclosure by the mother or the guardian.  He acknowledges that there were two failures to respond timeously to court orders, but submits that no prejudice resulted from these failures.  He criticises the mother and her representatives to what he describes as their &#8220;(seeming) inability to present a case against [F] until the first day of the hearing&#8221; and avers that the guardian embarked upon the investigation of the &#8220;wider issues&#8221;, with little prior indication.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The local authority through Mr Kirk contest the Respondents&#8217; submission that earlier disclosure of the material eventually produced in  court as bundle BB would have led to a realisation that allegations against IR needed to be investigated.  On the contrary, Mr Kirk submits that the local authority did not believe that the information concerning IR disclosed in bundle BB bolstered a case against either IR or the mother, nor did it believe that the allegations could be substantiated.  He points out that the local authority resisted pressure to amend its findings of fact document when the material in bundle BB was discovered and only did so after the court, on the application of counsel for F, indicated in its interim judgment that it wished those matters to be investigated at the hearing.  In other words, the local authority does not accept that, had the case against IR, based on W&#8217;s evidence, been set up for hearing at the outset, the matter would have been resolved in the simple manner suggested by the Respondents.  Mr Kirk further points out that the time estimates for a number of witnesses was exceeded, in particular the mother.  As mentioned above, the Respondents in their documents seek to identify individual days when they say time was wasted and or lost.  In his reply, Mr Kirk meticulously responds to each point.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In short, Mr Kirk on behalf of the local authority invites the court to reject the first part of the claim advanced on behalf of the five Respondents, namely that the local authority should pay part of the costs incurred under the public funding certificates.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I read Mr Kirk&#8217;s written submissions prior to the oral hearing, it was not clear to me (and the fault was doubtless mine) exactly how he was addressing the second part of the Respondents&#8217; claim, that is to say, the claim for payment of costs for work done outside the public funding certificates.  In his oral submissions, however, he made it crystal clear that the local authority accepted that it should meet the costs for work done by the Respondents&#8217; representatives in identifying relevant material from the local authority files served on them on 20 October, 24 October and 26 October 2010.  He took issue, however, with the claim for work done by the Respondents on 11 January 2011 (which has acquired the soubriquet of &#8220;junior sift&#8221;) on the grounds that it was not work done <span style="text-decoration-line:underline;text-decoration-style:solid">on behalf of</span> the local authority but rather <span style="text-decoration-line:underline;text-decoration-style:solid">in response to</span> the local authority&#8217;s own inspection and disclosure procedures.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In their written submissions, the local authority did not accept liability for any additional costs incurred by the guardian&#8217;s representatives in their extensive written submissions covering the &#8220;wider issues&#8221;, but in his oral submissions Mr Kirk fairly conceded that at least part of the cost of those submissions was necessitated by the local authority&#8217;s failings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the first part of the Respondents&#8217; claim, I am entirely satisfied, as explained in my earlier judgment, that the principal responsibility for failing to identify and disclose the relevant documents in this case rests with the local authority and was attributable, to a considerable extent, to the chaotic and disorganised way in which its records were kept.  The documents produced halfway through the hearing and inserted in bundle BB included material that was obviously highly relevant, for the reasons identified in my interim judgment and summarised at paragraph 63 of the judgment of 3 March 2011.  The documents in bundle BB were not documents whose relevance was triggered only by the Respondents&#8217; case.  They were documents whose significance should have been obvious to the local authority from the outset of the proceedings.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Secondly, I find that the local authority&#8217;s failure to disclose the documents in bundle BB was manifestly unreasonable.    </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thirdly, I am satisfied beyond any doubt that these failings by the local authority extended the length of the hearing, and that it is right, applying the test in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Sutton</span> case, for the local authority to bear the cost thereby incurred by the Respondents under their public funding certificates. I acknowledge that, after Mr. Kirk was instructed on 29th October, the tenth day of the hearing, the local authority under his guidance commendably carried out an exhaustive and comprehensive review of its records. But by that stage, the damage had already been done.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fourthly, however, I accept that the court must be careful to ensure that the costs penalty imposed on the local authority is fair.  The Respondents have endeavoured to identify specific days and items of extra work that were attributable to the local authority&#8217;s failures as to disclosure.  Mr Kirk responds by asserting that most of this work would have been required in any event, even if the documents had been disclosed as they should have been.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Constructing a counterfactual history of litigation is, of course, a difficult exercise.  It is impossible to predict with precision what would have happened if the local authority had complied with its obligations as to disclosure.  I propose to adopt a simple, but not, I hope, simplistic, approach to identifying the appropriate level of cost to be borne by the local authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The original time estimate given by the parties in the early stages of the proceedings for the final hearing was fifteen days.  When the local authority amended its threshold document in May 2010, so as to exclude any findings in respect of IR, that time estimate was reduced by the court to ten days.  In my judgment, if the local authority had complied with its duties of disclosure, the time estimate would not have been reduced, and either the father or the local authority, or the court of its own motion, would have concluded that the allegations concerning IR would have to be investigated for the reasons explained in paragraph 63 of my earlier judgment.  IR would then have been joined as a party, arrangements would have been made to call W at an early stage of the proceedings, and the case would have been remained in the list in October for 15 days.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the event, the hearing took twenty-two days.  In my judgment, it would be wrong to attribute the whole of the overrun to the local authority&#8217;s misconduct as to disclosure.  On balance, I think it more likely than not, that the hearing would have exceeded fifteen days in any event.  I reach that decision for a number of reasons.  Some delay was attributable due to the late instruction of leading counsel on behalf of the mother.  I make no criticism of any of the mother&#8217;s representatives in respect of this, but on the other hand it would be clearly wrong to penalise the local authority for any delay attributable to this factor.  In addition, all parties and the court, underestimated the length of time it took for the mother to give her evidence.  Furthermore, the overall complexity of these proceedings was of a degree that may well have led to the time estimate being exceeded.  As a result, not all of the overrun of the hearing can be blamed on the local authority.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having made these allowances, however, I am sure that part of the additional time was due to the local authority&#8217;s failure to carry out its disclosure duties.  In my judgment, at least three of the additional court days, and at least one of the extra advocates&#8217; meetings, were attributable to the local authority&#8217;s failure to disclose documents in accordance with its duties.  It may be that more time was in fact attributable to these failings, but in my judgment, bearing in mind that all costs are being borne by the public purse, it would be disproportionate to embark upon a more detailed assessment process.  I therefore order that the local authority should pay the publicly-funded costs of all the Respondents&#8217; leading and junior counsel for three days of the hearing and one advocates&#8217; meeting.  The contract between the advocates and the Legal Services Commission provides for counsel&#8217;s remuneration to be paid on the so-called &#8220;events basis&#8221; at the rate of &#163;2310 per day for leading counsel, plus &#163;1320 per day for junior counsel.  (It should be noted in passing that these daily rates are designed to cover a very substantial amount of preparation time as well as the court hearing.)  So far as solicitors&#8217; costs are concerned, those representing the mother and the guardian also claim on an events basis for each court day at the rate of &#163;1230 and I therefore direct the local authority should pay the costs for the three extra court days which I have concluded were attributable to the local authority&#8217;s disclosure failings.   No claim is made by the solicitors in respect of the advocates&#8217; meetings.  The schedule of costs claim by the father&#8217;s solicitors is calculated on an entirely different basis and the overall claim is much lower.  On the information given to me, I conclude that the local authority should pay the sum of &#163;500 towards the father&#8217;s solicitor&#8217;s costs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The total sum therefore payable to the Respondents under this part of their claim is therefore (a) for counsel, &#163;2310 + &#163;1320 = &#163;3630 x 3  &#163;10,890 x 4 = &#163;43,560 and (b) for the solicitors, &#163;1230 x 2 = &#163;2460 x 3 = &#163;7380 + &#163;500 = &#163;7880, a total of &#163;51,440.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning to the second part of the Respondents&#8217; claim, Mr Kirk&#8217;s concession on behalf of the local authority was, in my view, entirely proper.  It was wholly inappropriate for the local authority to delegate the task of reading through its documents to the Respondents&#8217; counsel.  That was work done outside the Respondents&#8217; public funding certificates, and counsel are entitled to be remunerated.  I therefore rule that the local authority should pay for the work done outside the certificates by junior counsel for the mother and father and leading and junior counsel for the guardian, on 20 October, 24 October and 26 October 2010.  On balance, I accept Mr Kirk&#8217;s submissions that the work done on 11 January 2011, was in response to, and not in lieu of, the local authority disclosure, and I make no order in respect of any work done by the Respondents&#8217; counsel on that date.  But I do accept Miss Ball&#8217;s argument that a significant proportion of the written submissions on behalf of the guardian was occasioned by the local authority&#8217;s failings and that it is therefore right that the local authority should meet these costs, falling as they do, outside the public funding certificate.  In my judgment, that proportion is not less than fifty per cent of the time spent on the written submissions, namely 18.5 hours in the case of leading counsel and 17 hours for junior counsel. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In each case under this second limb of their claim, the Respondents contend for a rate of &#163;250 for leading counsel and &#163;150 for junior counsel. Using the figures provided  in Miss Ball&#8217;s documents, I calculate that the sums to be paid to each barrister by the local authority for the work done outside the public funding certificate to be as follows: (a) junior counsel for the mother &#8211; 16 hours at &#163;150 per hour = &#163;2400; (b) junior counsel for the father &#8211; 13 hours at &#163;150 per hour = &#163;1950; (c) leading counsel for the guardian &#8211; 45.5 hours at &#163;250 per hour = &#163;11,375 and (d) junior counsel for the guardian &#8211; 44 hours at &#163;150 per hour = &#163;6600.   The total liability of the local authority under the second part of the Respondents&#8217; claim is therefore &#163;22,325.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1">IR&#8217;s APPLICATION FOR COSTS</p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">IR&#8217;s application is presented in thorough written submissions prepared by Miss Delahunty QC.  In essence, her argument can be distilled into three points, which I find it convenient to set out in the following order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, Miss Delahunty submits that, as IR has been completely exonerated at a fact-finding hearing, following the decisions of the Court of Appeal in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re J</span> (supra) and <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re T</span> (supra), the general proposition of no order as to costs in family proceedings does not apply, and, in exercising its discretion, this court should now order the local authority to pay the whole of IR&#8217;s costs incurred to date.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Secondly, Miss Delahunty submits that the failings of the local authority in performing its duties of case preparation and disclosure have had a particular impact on her client which warrants the making of a costs order. She develops these arguments by tracing the history of the local authority case back to the inception of the proceedings, and seeks to demonstrate that the local authority was selective in its presentation of the evidence concerning IR.  She submits that this was not wholly attributable to inadequacy in the local authority record keeping and approach to its disclosure obligations, but rather contends that in some respects the local authority failed in the early stages of the proceedings to present evidence of which it was aware and which would, if disclosed, have assisted those representing IR, had he been a party at that stage.  Miss Delahunty further submits that, &#8220;as a direct result of these systemic and case specific failings by the local authority, IR&#8217;s rights under article 6 were not respected&#8221; and &#8220;the anxiety generated by these proceedings and IR&#8217;s lack of full and proper participation and protection within them cannot be underestimated&#8221;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her third point, Miss Delahunty, in effect, makes common cause with the five Respondents and argues that a costs order should be made in favour of her client to compensate the Legal Services Commission for costs incurred under the public funding certificate that would not have been incurred but for the local authority&#8217;s failings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In reply, Mr Kirk accepts that IR has been completely exonerated, but points to the fact that the application to seek findings against him following the disclosure of the material in bundle BB was not in fact made by the local authority but rather by counsel representing F.  He develops this point by observing: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;the judgment of 29 October 2010 placed the local authority and its legal advisors in a quandary.  Either the local authority held out and stuck to its findings of fact document dated 21 May 2010, or it respected the court&#8217;s assessment that the new material was (potentially) manifestly relevant to the issues and should be properly investigated.  It adopted the latter course, and we submit, should not be criticised, still less condemned in costs, for its decision.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1"><marker name="tab"/>Mr Kirk proceeds to remind me that</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;whilst W was called by the local authority, it was made plain to all by leading counsel on its behalf that it had absolutely no idea as to what she would ultimately say or whether any reliance could be placed upon what she was about to say.  She was, most certainly, <span style="text-decoration-line:underline;text-decoration-style:solid">not</span> called as a &#8216;witness of truth&#8217; on behalf of the local authority&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When it became clear that W&#8217;s evidence was unreliable, the court asked the local authority again to reconsider and subsequently endorsed the local authority&#8217;s position to revert to its earlier fact finding document.  Mr Kirk therefore makes the strong submission:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;that IR was only properly a party from 28 October 2010 when he was joined as a further respondent until 6 January 2011 when he <span style="text-decoration-line:underline;text-decoration-style:solid">should</span> have been discharged from the proceedings.  His representation thereafter by leading and junior counsel was deemed by the court to be warranted, but there is no reason why the local authority should be condemned in <span style="text-decoration-line:underline;text-decoration-style:solid">any</span> of his costs after that date&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr. Kirk accepts that the local authority has failed to comply with its obligations as to disclosure, but challenges Miss Delahunty&#8217;s assertion that this amounted to conduct that warranted a costs order in favour of IR. He further contends that, in IR&#8217;s case, as a matter of fact no extra costs were incurred as a result of the local authority&#8217;s misconduct, and that in those circumstances, it is inappropriate for any costs order to be made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I accept that serious allegations were made against IR at a fact-finding hearing in respect of which he has now been completely exonerated.  Accordingly, following <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re J</span> and <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re T</span>, the court starts with a &#8220;clean sheet&#8221; on the question of costs.  When considering what should be written on that clean sheet, however, I reach a different conclusion on the facts of this case from that arrived at by the Court of Appeal in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re T</span>.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I accept Mr Kirk&#8217;s submission that it was not the local authority, but rather F, who sought findings against IR after the disclosure of the material in bundle BB on 28 October.  The local authority initially adhered to its position not to seek findings against IR, having formed a view as to the reliability of W as a witness.  When the court decided that these matters should be investigated, the local authority very properly took the lead in calling the evidence, and amended its findings document to provide a framework in which the allegations against the IR could be considered.  But the impetus for taking this course came from the court on the application of the father, not from the local authority.  I do not resile from the decision I made that the allegations concerning IR had to be investigated by the court for the reasons set out in paragraph 63 in the earlier judgment, namely that, if true, they would not only lead to a finding that X, Y and Z would be at risk of harm if they returned home to a household that included IR, but would also affect the findings as to the mother&#8217;s capacity to protect the children.  But the decision to investigate those allegations was made by the court on the application of the father, not the local authority.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, it would therefore not be right to order the local authority to pay the costs of IR following his exoneration of those allegations.  On the contrary, I commend the local authority&#8217;s action, following the court&#8217;s interim judgment, in taking over responsibility for calling W and facilitating the investigation of the allegations against IR directed by the court.  To adopt and adapt the words of Wilson J (as he then was) in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Sutton</span> case, this local authority was in that respect participating in the court process as one would expect of a local authority with a proper interest in the children who were the subject of the proceedings.  I therefore conclude that at least one of the reasons advanced by Wilson J in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Sutton</span> case for the general proposition that there should be no order as to costs in family cases does apply in this case, in contrast to the view arrived at by the Court of Appeal on the facts of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re T.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Furthermore, the decision that IR should remain a party after the court indicated that he would be exonerated was again taken by the court and it would be wrong for the local authority to bear any costs consequent upon that decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In reaching these conclusions, I remind myself again of Wilson LJ&#8217;s expression of concern that the order for costs made in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re J</span> should not be taken as an indication that it would be appropriate in the vast majority of children&#8217;s cases to make an order for costs by reference to the court&#8217;s determination of issues of historical fact.  I respectfully endorse that observation and add this comment. It is sometimes said that, at the fact-finding stage of applications for care orders, the proceedings are essentially adversarial, in contrast to the second stage when, once it is established that the threshold under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> has been crossed, the court adopts an inquisitorial or quasi-inquisitorial process to determine what orders should be made to meet the child&#8217;s welfare.  In fact, as this case has demonstrated, that analysis is simplistic and often inaccurate.  For in many cases, particularly in the county court and High Court, the court will take a proactive approach to identify the issues to be investigated at the fact-finding stage.  Indeed, the trend in public law cases in recent years, under the Public Law Outline, is to encourage courts to adopt such a proactive approach, and all the indications are that this trend will be endorsed and extended following the Family Justice Review.  Where the court takes the lead in identifying the issues to be litigated at a fact-finding hearing, it will generally be inappropriate to depart from the general proposition of no order as to costs in family cases.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I therefore reject the application made on behalf of IR that he should recover all or part of his costs from the local authority as a result of his exoneration on the allegations made against him.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also reject what I have categorised as Miss Delahunty&#8217;s second argument &#8211; that the local authority&#8217;s overall preparation of this case amounted to unreasonable and reprehensible misconduct that warrants a costs order in favour of her client. In my earlier judgment, I made a number of criticisms of the local authority. Looking at the history of the litigation overall, however, I do not regard the authority&#8217;s behaviour towards IR as amounting to the sort of reprehensible conduct identified in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Sutton</span> case as justifying a costs order in his favour. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The third point made by Miss Delahunty is that her client is entitled to all or part of his costs as a result of the local authority&#8217;s failure to comply with its disclosure obligations. This is the same point as made on behalf of the five Respondents, but in my view the position of IR is significantly different. In assessing this submission by Miss Delahunty, it is instructive to consider what would have happened if the local authority had disclosed the material now found in bundle BB at an earlier point in the proceedings.  Whilst it is impossible to be certain, I think, as already stated, that IR would have been joined as a party at an early stage.  Assuming W had given evidence early on in the hearing, IR would probably have been exonerated after her evidence at an earlier stage in the hearing but would, in my judgment, probably have remained a party, not least because he continues to put himself forward as the mother&#8217;s partner and therefore to play a part in the care of X, Y and Z if they are returned to her care.  If that course had been followed, the costs incurred on IR&#8217;s public funding certificate would have extended to cover the fifteen days plus of the hearing, in addition to further events such as advocates&#8217; meetings.  In the event, however, the number of events for which a claim has been made on IR&#8217;s public funding certificate since the start of the fact-finding hearing (excluding the costs hearing itself), number nineteen, which, fortuitously perhaps for the local authority, is, in my judgment, no more than would have been claimed if proper disclosure had been given by the local authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Further or alternatively, Miss Delahunty seeks an order that the local authority should pay the costs of IR&#8217;s representation at the several directions hearings at which, to use Miss Delahunty&#8217;s words, he was &#8220;kept out of the court process by the local authority&#8217;s vacillation and miscalculation of the evidence within their possession and knowledge&#8221;.  In my judgment, however, if IR had been joined at the first directions hearing, as in all probability he would have been if the local authority had given proper disclosure, the ensuing directions hearings would have taken place to address other preparatory issues and IR would have of course been represented at those hearings.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In those circumstances, I do not see how it can be said that the costs of those hearings incurred on his behalf were attributable to the local authority&#8217;s misconduct.  Accordingly, therefore, in my judgment, no extra cost has been incurred in respect of IR&#8217;s publicly funded costs as a result of the local authority&#8217;s failure to comply with its disclosure obligations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I therefore dismiss the application for costs on behalf of IR.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1">CONCLUSION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The net effect of the order outlined above is therefore that the local authority would be required to pay &#163;73,765 towards the Respondents&#8217; costs.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As a final step, I ask myself whether such an order is in accordance with the overriding objectives set out in part 11 of the 2010 Family Procedure Rules 2010, and the express requirement in rule 28.1 that I should make a &#8220;just order&#8221; as to costs.  I recognise that, for a local authority to bear a sum of this magnitude on top of its own very substantial legal costs will be a significant burden, particularly in the current economic climate.  Bearing in mind the serious failings of the local authority identified in my earlier judgment, and the fact that the sum of &#163;73,765 is but a small fraction of the overall costs incurred by the Respondents in these proceedings, I do consider such an order to be just and I shall accordingly make an order to that effect, such sum to be paid as appropriate to the Legal Services Commission or the Respondents&#8217; lawyers by 15th June 2011. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have said nothing about the costs of the costs hearing itself in this judgment. If any party wishes to make an application in respect of those costs, I shall consider it at the next review hearing in the care proceedings. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

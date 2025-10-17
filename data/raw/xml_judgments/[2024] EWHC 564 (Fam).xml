@@ -1,0 +1,579 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/564"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/564"/>
+	  <FRBRdate date="2024-03-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="564"/>
+	  <FRBRname value="JR (Deprivation of Liberty; Principles of Care), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/564"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/564"/>
+	  <FRBRdate date="2024-03-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/564/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2024/564/data.xml"/>
+	  <FRBRdate date="2024-11-25T03:30:47" name="transform"/>
+	  <FRBRdate date="2024-11-29T20:08:01" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-03-12" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="warwickshire-county-council" href="" showAs="WARWICKSHIRE COUNTY COUNCIL"/>
+	<TLCPerson eId="mother" href="" showAs="MOTHER"/>
+	<TLCPerson eId="father" href="" showAs="FATHER"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-lieven" href="/judge-mrs-justice-lieven" showAs="MRS JUSTICE LIEVEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>564</uk:number>
+	<uk:cite>[2024] EWHC 564 (Fam)</uk:cite>
+	<uk:parser>0.26.14</uk:parser>
+	<uk:hash>aea14a5eef5e02de6dc19b18a63e393d0f98b3b93e15ff8b9fd6c8190de230ea</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2024] EWHC 564 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD23P04468</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-03-12" refersTo="#judgment">12/03/2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-lieven">MRS JUSTICE LIEVEN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <p style="text-align:center"><party as="#applicant" refersTo="#warwickshire-county-council" style="font-weight:bold">WARWICKSHIRE COUNTY COUNCIL</party></p>
+      <p style="text-align:right"><role refersTo="#applicant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Applicant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#mother" style="font-weight:bold">MOTHER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">First Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#father" style="font-weight:bold">FATHER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Second Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">JR</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">(a child, through the Children&#8217;s Guardian)</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Third Respondent</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Ann Hume </span>(instructed by<span style="font-weight:bold"> Warwickshire County Council</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Stephen Crispin</span> (instructed by <span style="font-weight:bold">Alsters Kelley</span>) for the <span style="font-weight:bold">First and Second Respondents</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Nick Flatt</span> (instructed by <span style="font-weight:bold">Sills &amp; Betteridge</span>) for the <span style="font-weight:bold">Third Respondent</span></p>
+      <p style="text-align:center">Hearing dates: <span style="font-weight:bold">1 March 2024</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 12 March 2024 by circulation to the parties or their representatives by e-mail and by release to the National Archives</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MRS JUSTICE LIEVEN</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify">This judgment was delivered in private. The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media and legal bloggers, must ensure that this condition is strictly complied with.   Failure to do so may be a contempt of court.</p>
+	    <p><span style="font-weight:bold">Mrs Justice Lieven DBE :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This case concerns JR, a 16 year old boy. The issues before me are, firstly, whether to make a Care Order and, secondly, the terms of a Deprivation of Liberty Order (&#8220;DoLs order&#8221;). The Local Authority (&#8220;LA&#8221;) wishes to withdraw its application for a Care Order, but that is strongly opposed by the Guardian. All parties agree that there should be a DoLs order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The LA were represented by Ann Hume, the First and Second Respondent parents were represented by Stephen Crispin and the Children&#8217;s Guardian was represented by Nick Flatt.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The case was listed before me, as the Family Presider for the Midlands, because there are lessons to be learnt from JR&#8217;s case about the way children subject to DoLs orders are assessed and their needs met. These are amongst the most complex and traumatised children within the Care and Family Justice systems, yet the care they receive is often, although not always, extremely poor. This is for a host of reasons, many well outside the scope of this judgment, or indeed the role of a judge. However, there are lessons that can be applied more generally, in particular those set out in the Nuffield Family Justice Observatory <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Principles of Care for children with complex needs and circumstances; Principles of Care Framework</span> 2023 (&#8220;NFJO Report&#8221;), which I refer to below. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">JR experienced a traumatic early life and was adopted by his parents, the Second and Third Respondents, when he was four years old. There is no question that his early life experience had a significant impact on JR and in particular on his emotional wellbeing and development. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In March 2021 the parents raised concerns that JR, then aged 13, was beyond parental control by reason of his physically aggressive and sexually inappropriate behaviours that were placing them and other members of the household at risk. I note from the chronology of criminal justice involvement that even by this early stage there had been a number of occasions when the police were called because of JR&#8217;s behaviour. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">JR was accommodated by the LA at a residential school in April 2021 under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (&#8220;CA&#8221;) and has continued to be accommodated under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref> since then. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The placement at this residential school initially went relatively well, but on 7 October 2022 this placement gave immediate notice on the grounds that JR was trying to cause fires and was verbally abusive and aggressive. JR was returned to Warwickshire and there was then a period of significant disruption in his care. JR was cared for by residential staff at an Airbnb, then in another property with different care providers. This provider then gave notice and JR was moved to a short breaks provider, who also gave notice. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">JR was then moved to an unregistered placement, with X Provider providing the care support. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 12 May 2023 the LA applied for a DoLs order, the parents agreed, and the order was made on that day.  There was then a lengthy period where the providers were unwilling to impose the restrictions permitted by the DoLs order.  JR frequently absconded from the placement and placed himself and others at risk of harm. It was certainly the view of the Guardian that X Provider were incapable of controlling JR or meeting his needs, and the objective evidence entirely supports this analysis. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The matter came before me on 15 September 2023, having been referred by HHJ Walker sitting as a Deputy High Court Judge, because of the level of concern about the LA having a DoLs order but there being no care proceedings and no holistic view of JR&#8217;s welfare needs. HHJ Walker, the Guardian, and then I, were all concerned that because there were no care proceedings it was not possible to properly consider JR&#8217;s wider welfare interests and to obtain a psychological assessment of his needs. We were also concerned that despite the palpable unsuitability of his placement with X Provider, not least because of their inability to prevent his absconding and putting himself at risk, no progress had been made in finding another placement. Although I fully accept the difficulty of finding suitable placements for children as challenging as JR, it was the clear view of HHJ Walker, the Guardian and myself, that the LA were tolerating an inappropriate and unsafe placement for far longer than should have been the case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 9 October 2023 the LA issued public law proceedings although did not seek an Interim Care Order.  I continued the DoLs order and the matter returned to HHJ Walker. The parents remained in their view that care proceedings were unnecessary and that <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref> CA consent was sufficient to meet JR&#8217;s interests. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The social work statements record that throughout October &#8211; November 2023 JR was regularly absconding from the placement with the DoLs not being imposed in any meaningful way. In reality, reading those statements, JR was simply doing as he pleased, including threatening staff, abusing them and there are various reports of him carrying a knife. It was entirely clear that the staff were incapable of controlling JR. There were also a series of racially aggravated incidents, both in the property and in public places. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In early November JR transitioned to a new school, but after a short positive period he was suspended for being racially abusive to staff. There was also a report of JR sharing images of his genitals with a 15 year old girl and of him being involved in a sex act with an older man. This raised concerns about whether JR was being sexually exploited.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In early December a new placement was identified for JR at Z Provider. This is a registered placement and offers the prospect of being a proper therapeutic placement for JR. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In December the Father proposed taking JR on a skiing holiday in January 2024. The LA conducted a risk assessment and determined that the risks were too great given the trauma JR had been through in the previous months. It was felt that, given the need for a DoLs order, the risk of the Father being on his own with JR and unable to control him were too great to be acceptable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parents did not agree with this assessment and wished for JR to go on the holiday. Given that he was accommodated under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref> agreement rather than a Care Order, it was not open to the LA to prevent the holiday. They therefore made an application to HHJ Walker for an order preventing the parents from removing JR from the jurisdiction. She granted the order sought on 15 January 2024, finding that he would be at risk of significant harm if allowed to go. The parents had told JR about the planned holiday, and then told him that the Judge had refused to allow him to go. Perhaps unsurprisingly this made JR even more dysregulated. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the light of the sexual images which had been seen and the concern that during his frequent periods of absconding JR was being sexually exploited, the LA convened a s.47 meeting. The representative from the education provider noted the high level of concern around JR&#8217;s harmful sexual behaviour. I note that in the minutes there is reference to the Police saying there were 70 investigations on their system concerning JR. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Bryn Williams, psychologist, was appointed to undergo a psychological assessment of JR and he produced his report on 15 January 2024. That report is a remarkably useful document, both in respect of its analysis and recommendations in respect of JR, but also because it gives some insight into the problems faced by many children and young people subject to a DoLs order. I therefore quote from it extensively below.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 29 January JR moved to his current placement at Z Provider. The intention is that JR will remain there until he transitions to independence at the age of 18. So far JR has settled fairly well, with only one absconding incident, one restraint by staff and one incident with an Amazon firestick. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The LA&#8217;s position, as set out in the final Care Plan, details that he will remain accommodated by the LA for the rest of his childhood. It is notable, however, that the LA does not seek a Care Order and therefore does not seek to share parental responsibility with the parents. The proposal is to work with the parents through the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref> agreement. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parents support the LA and say that a Care Order is not necessary and therefore the No Order principle applies. Mr Crispin submits that a Care Order gives no greater access to services from the LA and no greater legal oversight. The LA&#8217;s care planning duties set out in The Care Planning, Placement and Case Review (England) Regulations 2010 apply regardless of whether the LA accommodate JR under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref> or a Care Order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He relies on <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re JW (Child At Home Under Care Order)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/944" uk:canonical="[2023] EWCA Civ 944" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Civ 944</ref> which gives guidance on the use of Care Orders as opposed to less intrusive provisions when a child is placed at home. In that context it was made clear (para 28) that <span style="font-style:italic">&#8220;it is wrong to make a care order in order to impose duties on a local authority or use it to encourage them to perform the duties that they have to a child in need.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He submits that during the long history of concerns around JR, the parents have worked well with the LA and the only point when the Court was needed to adjudicate was in relation to the skiing holiday. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Guardian&#8217;s position is that JR should be made subject to a Care Order and not merely be accommodated by agreement under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref>. She accepts that the parents are fully committed to achieving the best possible outcomes for JR in respect of living arrangements, education and getting therapy. Her view is that since the first residential placement broke down in October 2022 there has been little safe and consistent parenting of JR. The LA failed to provide him with therapy and left him in a palpably inappropriate placement. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The history of the case suggests that without a Care Order, problems may arise between the parents and the LA, and the lines of responsibility become confused. She feels that it is of great importance that there is absolute clarity as to who is responsible for JR&#8217;s care, and ultimately for the decisions that are made. One slight irony of this case is that the parents have frequently been the ones pressing for the LA to take further action, yet they strenuously oppose the making of a Care Order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Guardian is concerned to ensure, or at least ensure so far as possible, that the support and therapy Dr Williams sets out is provided. In terms of education, JR has been out of formal education for a period of two years. There was a plan for him to be provided with education through an educational provider. However, that quickly failed, as set out above, and he was in effect excluded. A face to face tutor was appointed but that did not get off the ground because of safety concerns. The Guardian is very concerned, as are the parents, that JR only has a fairly short period before he becomes an adult, and it is essential to get him more formal education. The Guardian suggests that the Care Plan should be amended to make more specific proposals for formal education. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Guardian is also concerned about the level of support that is being provided to JR and the information that is being given to him. JR is plainly an intelligent young person, albeit, as Dr Williams explains, he at times becomes very dysregulated. The Guardian is concerned that more time needs to be put into explaining to him what is being proposed and engaging with him in a positive way. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parents are worried that if a Care Order is made that would further undermine their relationship with JR and make him feel that they were less committed to him. They believe that a Care Order will negatively impact on their relationship with JR.  However, the Guardian&#8217;s evidence was that when she spoke to JR he was largely unconcerned about whether a Care Order was made or not. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Dr Bryn Williams&#8217; report</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Williams has produced a careful and thoughtful report about the difficulties JR faces and what he needs. I will set out some of the key paragraphs of that report because much of it resonates in many cases concerning children and young people subject to DoLs order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">JR has a diagnosis of Autism Spectrum Disorder and Attention Deficit Disorder. Dr Williams accepts these diagnoses but says he also considers that JR has Non Verbal Learning Disability (&#8220;NVLD&#8221;). He says:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;3.19.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">Young people with NVLD often present as socially able but with many other features consistent with autism, and the issues, behaviours and experiences of a child with NVLD often manifest in the same way as more typical autism. Some in the UK, including the National Autistic Society, see NVLD as a subtype under the autistic umbrella.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">3.20.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">I have little doubt that ASD, ADHD, Sensory Integration difficulties, anxiety, conduct disorder are all entirely appropriate, and I am somewhat reluctant to bring another player onto the field. However, in my clinical experience, particularly in the field of neurodevelopmental work with adopted children, we fail a young person is we do not link their problems back to probable cause. Whilst developmental trauma is likely to have played an incremental role in the development of [JR&#8217;s] difficulties, neither can we ignore where we started. A highly probable exposure to drugs and particularly alcohol during the pre-natal stages of his development. I would argue that the conditions set out in the first sentence of this paragraph are symptoms of his underlying neurodevelopmental presentation.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">3.22.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">We have to understand much of [JR&#8217;s] problems within the context of anxiety that results from experiencing the world in this way can be crippling, and this may explain why [JR] struggles so much with anxiety. &#8230;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">3.23.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">As well as identifying [JR&#8217;s] non-verbal learning disability, the assessment highlighted that verbal parts of the brain are stronger than the non-verbal parts, as we see clearly in his cognitive assessment. He may appear bright and able, but because of anxiety, non-verbal weaknesses, inattention, sensory integration (and in some cases, social and behaviour problems) problem solving and thinking through the consequence of actions with teachers, carers parents and peers alike is chaotic and fragmented.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">3.24.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">One of [JR&#8217;s] greatest strengths is that he is a warm and engaging young person, but his difficulties nevertheless have a hugely negative impact on his day-to-day coping. Rourke, who first described non-verbal difficulties, recognised that extreme psychological problems was a key feature of the children he was describing. From clinical experience, this is not anxiety that many of us would recognise. The metaphor of the glass elevator from Charlie and the Chocolate Factory comes to mind when helping a child with NVLD cope with anxiety &#8211; it does not just go up, it bursts through the roof in a completely irrational and uncontrollable way, and it remains paralyzing unless we intervene. His behaviour is functional insofar as it enables him to cope, the problem is that it is so destructive to both him, his family and, at times, his carers. [JR] externalises his difficulties.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">3.26.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">In the context of this assessment there is another emerging concern that appears to be increasing in clinical cases coming into clinical practice and in particular from the Family Courts. It is my own family law experience that children with DOLs commonly present with neurodiversity. I trust the Court will forgive me setting out a psychological position that may be of some assistance in understanding [JR&#8217;s] presentation. At [JR&#8217;s] age it is common for there to be an interruption in the normal development of &#8216;identity&#8217; at this sensitive time of life, as described by Erikson many years ago.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">3.34.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">I would much prefer at present to focus on what I believe is likely to have been the cause of his poor regulation, namely something that compromised his neurodevelopment. It may have been substance misuse, but this remains equivocal. The NVLD is self-evident, not only in terms of cognitive strengths and weaknesses, but the social, sensory, attentional, rigidity of thinking, anxiety and communication strengths and difficulties. It is this that I believe needs to be placed at the centre of his identity formation, working out who [JR] is, not what he is.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This analysis of JR&#8217;s characteristics and issues have a very strong resonance with anyone who has dealt with a large number of DoLs applications. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning to JR&#8217;s needs, Dr Williams emphasises the need to help JR find his own identity and build on his strengths:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;3.46.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.75in;margin-right:0.59in;text-indent:0.25in"><span style="font-style:italic">In general, across all environments there needs to be a strategic Approach &#8211; First and foremost, young people with non-verbal weaknesses have strengths and the most important recommendation is to find those strengths, to build on them, use them, cherish and celebrate them. Finding a place for [JR] in the world has to be a long-term priority and using his strengths will help him achieve this to the best of his ability. It is so normal for us to focus on what is going wrong, but we are more likely to succeed if we focus on what is good and right. For example, quite often [JR&#8217;s] left brain is working far more efficiently than his right brain, so be creative, verbal, and use his strengths to master any weaknesses. I observed him talking to himself frequently during the assessment. This is a key marker for everyone that he needs to talk about everything to be able to process and problem solve those things that are expected of him. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">3.47.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.75in;margin-right:0.59in;text-indent:0.25in"><span style="font-style:italic">Managing [JR&#8217;s] Anxiety &#8211; Perhaps the greatest challenge for [JR] is coping with his anxiety, which has grown to such an extent he sometimes feels quite self-destructive. Engaging [JR] in psychological therapies to manage anxiety is likely to be necessary, and the most effective approach from clinical experience appears to be helping him to maintain a close, stable and reliable relationship with a therapist who he can revisit when necessary, supported by attuned parenting and a special person at school. Short-term, one-off interventions are less helpful unless they are augmented by repeated intervention and a solid therapeutic relationship. He will struggle to retain what he has learned, but do not give up.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Williams then sets out under a series of headings, JR&#8217;s needs and the support and services that he requires. These cover managing his anxiety; consistency and clarity; supporting social interaction; helping him to overcome barriers to new learning; visual spatial strategies; motor co-ordination and sensory integration; and helping him to manage new and complex situations. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although this report is specific to JR, there are many elements which apply to many of the children who are subject to DoLs orders. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Nuffield Family Justice Observatory Report on Principles of Care</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The approach that Dr Williams sets out in his report also relates very closely to the Principles of Care applicable in DoLs cases in the NFJO Report. The Report argues that there need to be changes to the ways of working, and the type and availability of services to better meet the needs of children with complex needs and circumstances, including those subject to DoLs orders. The introductory paragraph says:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">&#8220;</span><span style="font-style:italic;font-weight:bold">What do we mean by &#8216;complex needs and circumstances&#8217;?</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">We use the phrase &#8216;children with complex needs and circumstances&#8217; to refer to children with multiple, overlapping difficulties that are not being met by the services and systems collectively responsible for their care and safety. This includes the many children who are deprived of their liberty due to concerns about their well-being, and who are placed in unregulated settings because there is nowhere else for them to go. These children have multiple emotional and behavioural needs that are often associated with experiences of early and ongoing childhood adversity (such as abuse and neglect, but also poverty and racism) and complex trauma. There may have been repeated failures by children&#8217;s services, mental health services and education services to provide them with effective help. The children&#8217;s behaviour may cause significant risk to others (e.g. physical aggression) and to themselves (e.g. self-harm), which is very challenging to manage at home and in residential settings. They often have overlapping difficulties with mental health, emotion regulation, neurodevelopmental conditions (e.g. autism and ADHD), risk of exploitation, and missing education. It is often the combined impact of these multiple, intersecting (and mutually synergistic) needs &#8211; rather than the impact or &#8216;severity&#8217; of any individual risk factor &#8211; that increases a child&#8217;s vulnerability, and that systems struggle to effectively respond to.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is then a list of principles of care that children need, transposed against what they currently have. The summary sheet of that Report sets out:</p>
+	    <table class="TableGrid" uk:widths="2.72in 2.54in">
+	      <tr>
+		<td>
+		  <p class="ListParagraph" style="margin-left:0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">5 Principles of Care</span></p>
+		</td>
+		<td>
+		  <p class="ListParagraph" style="margin-left:0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">What children currently experience</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p><span style="font-family:'Times New Roman'">1. All children need valued, trusted relationships. They should be actively supported to maintain relationships with people that are important to them.</span></p>
+		  <p/>
+		</td>
+		<td>
+		  <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman';font-size:12pt">Perpetually disrupted, often temporary, non-robust relationships with insufficient attention paid to the relationships that children identify as important to them.</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman';font-size:12pt">2. Every child should have a holistic, multidimensional, high-quality assessment of their mental health, social care, education, and well-being needs. This should be followed by a detailed formulation and plan of&#160;the interventions and support required to address the child&#8217;s short, medium,&#160;and long-term needs. This should be co-produced with the child and their&#160;family.</span></p>
+		  <p class="ListParagraph" style="margin-left:0in"/>
+		</td>
+		<td>
+		  <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman';font-size:12pt">Repeat assessments that are siloed. No holistic care. Undiagnosed and unmet treatable mental health needs.</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman';font-size:12pt">3. Long-term support that is tailored to the child&#8217;s needs: Services and professionals working with the child should be flexible and dynamic, and able to respond to changing circumstances. All decisions about a child&#8217;s care should explicitly consider their short, medium, and long-term needs.</span></p>
+		  <p class="ListParagraph" style="margin-left:0in"/>
+		</td>
+		<td>
+		  <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman';font-size:12pt">Short term crisis interventions, focused on managing risk rather than supporting healthy development. Services unable to flex to changing circumstances.</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman';font-size:12pt">4. Children should be&#160;supported by experienced staff within multidisciplinary teams who are&#160;highly attuned to their needs. Staff with such skills should be the most&#160;highly trained, rewarded and valued in the children&#8217;s sector.&#160;</span></p>
+		  <p class="ListParagraph" style="margin-left:0in"/>
+		</td>
+		<td>
+		  <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman';font-size:12pt">Poorly paid and undervalued staff, often inexperienced. Services in dispute over who has responsibility for a child.</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman';font-size:12pt">5. Children should be able to express a view&#160;about&#160;what happens to them and be listened to. Decisions should be&#160;clearly&#160;communicated to them and (if safe to do so) their family.</span></p>
+		  <p class="ListParagraph" style="margin-left:0in"/>
+		</td>
+		<td>
+		  <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman';font-size:12pt">Children have limited agency in their day-to-day lives and decisions made about them.</span></p>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These principles of care are what every child subject to a DoLs needs, and against which any proposed provision for these children should, in my view, be tested. It would be unrealistic to suggest that placements could simply be rejected because they do not meet these principles. It is extremely well known, and recorded in numerous judgments, that there is a dire shortage of suitable placements for children with complex needs who are subject to DoLs restrictions. However, the Principles of Care are important because they set out the benchmarks against which all provisions should be tested, and which all those involved in these cases should be trying to meet. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">JR is now in a placement which it is hoped will be able to meet his needs to an appropriate standard and the LA say that it is now committed to ensuring he receives the therapy he requires, if necessary through the LA paying for private provision. It is however important to note that he has in the recent past suffered from many of the problems set out in the NFJO Report. It is of the utmost importance for JR&#8217;s future that the Principles of Care, and the specific recommendations set out in Dr Williams&#8217; report, are now met. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The contentious issue in this case is whether or not I make a Care Order. The starting point is the &#8220;No Order&#8221; principle contained in s.1(5) CA, that I should only make a Care Order if it is better for the child to do so than not do so. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are two reasons why I consider it is necessary and proportionate that a Care Order is made. Firstly, it would give certainty as to how decisions will be made about JR&#8217;s care, including where he lives and where he goes to school. The parents plainly care deeply about JR and want what is best for him. However, there have been situations where they and the LA have not agreed, in particular over the skiing holiday when HHJ Walker had to make an order preventing the parents from taking JR away. As long as JR remains accommodated under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref>, the prospect of that type of problem arising continues to exist.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have no wish to criticise the parents, but I note that when they were not allowed to take JR on the holiday, they then informed him that the Judge had forbade him from going, which was plainly inappropriate, and unhelpful in persuading him to engage and co-operate with assistance being offered. In my view it is perfectly possible that such differences will arise again.  One of the Guardian&#8217;s reasons for strongly supporting the making of a Care Order is that she feels JR needs the absolutely clear message that the LA is a corporate parent to him and ultimately, if there is a disagreement, will be making the decisions about his care. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Once JR is 17, if he is not subject to a Care Order, then the LA will have no ability to resolve disputes in respect of his welfare. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Hume submits that the LA would prefer to discuss and negotiate with the parents, and are confident that they will be able to do so. However, the recent past suggests that may not be correct. Given the criticality of JR receiving consistent care, and being supported to engage in a consistent manner, I think it is important that the LA share parental responsibility.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Secondly, although I accept that the LA has committed to a Care Plan which appropriately meets JR&#8217;s needs, whether he is subject to a Care Order or not, I have little doubt that there would be a greater level of oversight if JR was under a Care Order than if he is accommodated under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref>. The reality is that the level of oversight of JR was significantly increased when HHJ Walker and I became involved. My judgement is that in practical terms, rather than necessarily legal theory, a Care Order will give greater confidence in the LA taking responsibility for his care.  Although the Independent Reviewing Officer is involved even if JR is only accommodated under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref>, it appears that there is more likely to be liaison with Cafcass if there is a Care Order in place. However I accept that the likelihood of this happening is actually very slight. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although the services would probably be the same whether or not there is a Care Order, I am confident that the practical level of involvement and oversight will be greater. This is particularly important in a case such as JR&#8217;s, where his needs are complex and difficult to meet, and he is approaching his 17th birthday. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In reaching this conclusion I am influenced by the fact that without the intervention of the Court and the Guardian, it seems quite possible that JR would have been left in inappropriate placements with a lack of attention to his holistic needs. Whatever the legal position may be, the reality is that the LA had a prolonged period when they did not focus on JR&#8217;s needs. Without the LA holding parental responsibility I am very concerned that disagreements with the parents may again lead to delays in the provision of the necessary support. I appreciate the LA and the parents dispute this, but I am inclined to accept the Guardian&#8217;s position on this. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parents are concerned that if JR is subject to a Care Order he will feel that shows a lack of commitment from them. They are worried about the messaging that will be received by JR. However, the Guardian discussed this with JR and her perception was that he was not concerned either way. To the degree that there is any strength in this concern, the important point to be communicated to JR is that the decision to make a Care Order is that of the Judge, and certainly not that of the parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Applying the welfare checklist in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, I take the view that it is in JR&#8217;s best interests for a Care Order to be made, and such an order is necessary and proportionate in the circumstances. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

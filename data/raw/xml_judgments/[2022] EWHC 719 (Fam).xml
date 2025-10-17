@@ -1,0 +1,619 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/719"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2022/719"/>
+	  <FRBRdate date="2022-03-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="719"/>
+	  <FRBRname value="An NHS Trust v ST &amp; Ors."/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/719"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/719"/>
+	  <FRBRdate date="2022-03-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/719/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/719/data.xml"/>
+	  <FRBRdate date="2024-08-07T23:30:39" name="transform"/>
+	  <FRBRdate date="2024-11-21T04:21:11" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-03-24" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="an-nhs-trust" href="" showAs="An NHS Trust"/>
+	<TLCPerson eId="ht" href="" showAs="HT"/>
+	<TLCPerson eId="nt" href="" showAs="NT"/>
+	<TLCPerson eId="manchester-city-council" href="" showAs="Manchester City Council"/>
+	<TLCPerson eId="st" href="" showAs="ST"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-macdonald" href="/judge-the-honourable-mr-justice-macdonald" showAs="THE HONOURABLE MR JUSTICE MACDONALD"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>719</uk:number>
+	<uk:cite>[2022] EWHC 719 (Fam)</uk:cite>
+	<uk:parser>0.25.6</uk:parser>
+	<uk:hash>701c8b7b5276ecef08c4ed3fbaf8964de22dde364ee882a599692d681e8139b1</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2022] EWHC 719 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>MA22P00661</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Manchester Civil Justice Centre</p>
+      <p class="CoverText">Bridge Street</p>
+      <p class="CoverText">Manchester, </p>
+      <p class="CoverText">M60 9DJ</p>
+      <p class="CoverText">Date: <docDate date="2022-03-24" refersTo="#judgment">24/03/2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-macdonald">THE HONOURABLE MR JUSTICE MACDONALD</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#an-nhs-trust" style="font-weight:bold">An NHS Trust</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#ht" style="font-weight:bold">HT</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#nt" style="font-weight:bold">NT</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#manchester-city-council" style="font-weight:bold">Manchester City Council</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#st" style="font-weight:bold">ST</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(A Child By Her Children&#8217;s Guardian)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">First Respondent</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Second Respondent</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Third Respondent</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Fourth Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Hearing Date: 24 March 2022</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Lucinda Leeming </span>(instructed by<span style="font-weight:bold"> Hill Dickinson LLP</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The First Respondent appeared in person</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Second Respondent appeared in person</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Jane Walker</span> (instructed by <span style="font-weight:bold">Children and Families (Legal) Group</span>) for the <span style="font-weight:bold">Third Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Richard Jones (instructed by Butcher &amp; Barlow LLP) for the Fourth Respondent</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice MacDonald:</span></p>
+	    <p class="ParaLevel1">INTRODUCTION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As has been made clear in previous judgments, this court is regularly faced with applications under the inherent jurisdiction for declarations authorising the deprivation of liberty of children and young people in circumstances where there is an acute shortage of suitable residential therapeutic placements to meet their needs.  A number of those cases have involved children who have been placed, entirely inappropriately, in hospitals for want of any other placement provision.  Within this context, the court is used to dealing with situations that are sub-optimal for the child and with having to consider the extent to which deprivation of liberty in such sub-optimal situations can be said to be in the subject child&#8217;s best interests, at least for a short period whilst more suitable provision is identified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Used as this court is to dealing with the plight of vulnerable children and young people caught up in the foregoing circumstances, it is difficult to describe the case that comes before the court this morning as anything other than shocking.  It is all the more so because it concerns a 14 year child, ST, who has been known to the local authority, Manchester City Council, for an extended period and, moreover, a child who <span style="font-style:italic">currently</span> has an allocated social worker.  ST is known to the local authority in the context of her diagnosis of Autistic Spectrum Disorder, moderate learning disability and challenging behaviours which include physical violence and damaging property.  She is, on any estimation, an <span style="font-style:italic">acutely</span> vulnerable child with <span style="font-style:italic">highly</span> complex needs.  ST&#8217;s father appears before the court at this hearing in person and her mother appeared before the court in person this afternoon.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The abject situation that has been allowed to arise in this case is perhaps signposted from the outset by the fact that the application for a declaration under the inherent jurisdiction of the High Court authorising the deprivation of ST&#8217;s liberty is made not by the local authority that has allocated a social worker to her, and is charged with safeguarding and promoting her welfare, but rather by the NHS Trust responsible for the hospital ward where ST is currently placed.  The Trust is represented by Ms Lucinda Leeming of counsel.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The abject situation in this case is further highlighted by the fact that, despite her characteristically diligent efforts, senior junior counsel appearing on behalf of Manchester City Council, Ms Jane Walker, has been unable, until the matter returned to court this afternoon, to obtain any coherent instructions as to the actions that have been taken by the local authority in respect of ST to date, on ST&#8217;s precise situation or as to the detail of the placement options available for ST moving forward.  As Mr Jones noted on behalf of ST, in the absence of any concrete information, the mantra of Manchester City Council at this hearing in respect of ST has been &#8220;it is understood that&#8221;.  I note that the allocated social worker is on holiday but it was clear, from the difficulties that Ms Walker laboured under in receiving anything like cogent instructions, that the Team Manager who attended the hearing had, at best, only a superficial understanding of ST&#8217;s case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">ST is represented before the court through her Children&#8217;s Guardian, Mr Dale Unwin, represented by Mr Richard Jones of counsel.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1">BACKGROUND</p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is important to note that in reciting the background for the purposes of this <span style="font-style:italic">ex tempore</span> judgment at an interim hearing, and notwithstanding the extensive involvement of Manchester City Council in this case, there is a paucity of primary evidence before the court to establish the matters that are set out in the various documents prepared by counsel that are likewise before the court.  However, for the purposes of this interim hearing, I am satisfied that it is appropriate to proceed on the basis of the following account of ST&#8217;s current situation in circumstances where no party has sought substantially to dispute the central aspects of that account.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Prior to her admission to hospital, ST lived with her parents and two younger siblings. Within the context of ST&#8217;s complex needs, her parents found it increasingly difficult to manage her challenging behaviours, which have escalated over recent months. ST&#8217;s episodes of dysregulation at the family home led to her siblings locking themselves in their bedrooms for safety and have had a significant impact on her mother&#8217;s mental health.  It unclear at this point what, if any, response was mounted by Manchester City Council in order to support the family during this period.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is clear however, that Manchester City Council were aware that, in respect of ST&#8217;s education, her behaviour had recently caused her school placement to be terminated by reason of the extent of her challenging behaviours. This notwithstanding the presence of an Education and Health Care Plan (hereafter EHCP) which provided for 6:1 support from staff whilst at school. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It has also apparently been plain to Manchester City Council in circumstances where, again, ST has an allocated social worker, that in addition to ST&#8217;s violent conduct when dysregulated, she is particularly vulnerable in the community and her absconding behaviour gives rise to grave concerns as to her safety in that context. ST makes regular and determined efforts to run away.  At home ST is reported to have made concerted attempts to find keys, sometimes resorting to using screwdrivers, to try to unlock doors and windows in order to abscond, and running away from her family on walks.  ST is said to lack any road sense or stranger danger and was previously found to have entered a stranger&#8217;s house and was found hiding in the bed.  The amended ECHP notes as follows in this context:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;ST is demonstrating escalating behaviours and is struggling to self-regulate. She poses a high risk to her own and others safety. ST can present with complex and extreme behaviour &#8211; despite working with a range of agencies, no clear trigger has been identified. This makes planning to manage her safely very difficult. ST&#8217;s behaviour can change very suddenly without any warning &#8211; there can also be big periods of time with no challenging behaviour. When she does become dysregulated there are not obvious external triggers.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Within this context, the parents increasingly struggled to care for ST at home.  This much was clear from the palpable distress of the mother when she sought to address the court on ST&#8217;s current situation.  Whilst it is at present unclear what input the allocated social worker had with respect to the family by way of support, information provided by the Trust indicates that ST is supported in the community by the Clinical Service for Children with Disabilities (CSCD) and her prescribed medication is reviewed through the Children and Adult Mental Health Services (CAMHS) by Dr S, Consultant Child and Adolescent Psychiatrist. In the community ST is prescribed Risperidone for her challenging behaviours, which she tolerates well. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Within the foregoing context, ST&#8217;s behaviour has led to her family presenting her to hospital on at least one occasion prior to her current admission.  On 21st January 2022, following a previous attempt by the family to present ST to the hospital, Dr S advised that ST should not be admitted to hospital unless there was a medical need as &#8220;there is clear risk of harm to her and others if she is admitted and this is not an appropriate place of safety in a crisis&#8221;.  This is entirely unsurprising given ST&#8217;s level of need and the fact that that level of need could not be met even within a school environment involving 6:1 supervision. Notwithstanding this advice, ST was admitted to hospital on 15 February 2022.  On behalf of the NHS Trust, Ms Leeming submits that whilst the Trust was aware of and understood the advice of Dr S, the refusal by the family to take ST home left the Trust with no choice but to admit her to the ward as a place of safety.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">ST was presented at hospital by her father, who reported an inability to care for her at the family home following an escalation in behaviour. Such had been the extent of ST&#8217;s behaviours that her parents had resorted to locking her in the dining room. ST&#8217;s father was noted to be tearful and refused to return ST to the family home.  Once again, it is at present unclear what support was being offered to the family by Manchester City Council and the allocated social worker at this point of obvious crisis for the family.  In particular, the local authority will no doubt explain in due course why it decided at this point <span style="font-style:italic">not</span> to make an application for an interim care order in the circumstances where there were reasonable grounds for believing that ST was suffering, or was likely to suffer, significant harm and that the harm, or likelihood of harm, was attributable to ST being beyond parental control.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Within the foregoing context, in the early hours of the morning of 16 February 2022 ST was admitted to a general paediatric ward as a place of safety. It is important to make clear that ST was admitted to the paediatric ward <span style="font-style:italic">solely</span> as a place of safety.  There was, and is, no psychical or psychiatric need for medical treatment for ST, on a paediatric ward of otherwise.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is plain on the information currently before the court that ST was subject to a deprivation of her liberty from the point of being admitted to hospital, and no party seeks seriously to dispute that proposition.  Indeed, following her admission the local authority employed a private company to provide two security guards and two carers in order to supervise ST on a 4:1 basis.  As I will come to, for reasons that will require further investigation, Manchester City Council engaged this company on a five day rolling contract.    The upshot of that approach is that there has been a high turnover of staff supervising ST, resulting in her waking up to unfamiliar adults and being scared by that change, further adversely impacting on her behaviour and wellbeing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Within the foregoing context, ST has been since her admission under continuous supervision and control and is prevented from leaving the ward, which has a locked door.  The information before the court indicates that if ST were to leave the ward but remain on the premises she would be returned to the ward, if safe to do so. If ST were to leave the premises the relevant authorities would be contacted including the police to ensure ST&#8217;s safe return. The lock has been removed from ST&#8217;s ensuite bathroom door and it must be kept ajar when she is using it, including when going to the toilet. Following her admission to hospital, Dr S has prescribed an increase in the dose of Risperidone as a temporary measure to help ST manage her anxiety in the hospital setting. Until the escalation in behaviour in recent days this medication had been considered effective in reducing ST&#8217;s anxiety. The use of physical and oral chemical restraint has been used as a last resort.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The foregoing, rather anodyne, description of the regime to which ST is has been subject since her admission belies the evidence the court has before it of a litany of incidents in which ST&#8217;s welfare was fundamentally compromised by the actions forced on those purporting to care for her by the fact that her placement is manifestly inappropriate having regard to her needs.  Further investigation will be required as to the precise circumstances of each incident but the following represents what is currently recorded.  Once again, it must be remembered that the regime I have outlined as in place since her admission, and each of the incidents set out below that took place prior to 18 March 2022, occurred without <span style="font-style:italic">any </span>declaration in place authorising the deprivation of ST&#8217;s liberty.  In the circumstances, each of the deprivations of ST&#8217;s liberty that occurred on a <span style="font-style:italic">paediatric ward</span> prior to that date were likely unlawful:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On 17th March 2022, ST was held down by security guards and a support worker.  Nurses witnessed the security guards on top of ST&#8217;s legs and holding down her arms while she was laying upset in her bed, there was also a male support worker holding her head from above pressing her head into the mattress with fingers coming over her forehead. ST was screaming very loudly and sounded very scared.  Nursing staff advised that restraint of the head was not appropriate.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On 18 March 2022, two security guards attempted to force ST back into her room, during which incident ST slapped and kicked both guards.  ST was tranquilised with Lorazepam in circumstances I will set out in more detail below.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">On 18 March 2022, ST was placed in a hold and was thrashing and kicking out. She was thereafter held as she was taken back to her room and placed on in a hold on the bed. ST was again tranquilised with Lorazepam.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On 19 March 2022, ST was subjected to what are described in the hospital records as &#8220;multiple assisted walks and minimal safe holds&#8221;.  She was again tranquilised with Lorazepam.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On 20 March 2022, ST was subject to three restraints and was required to walk around the ward in a restraint hold by two security guards.  ST was also placed in a hold on the ward floor on three occasions.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On 21 March 2022, ST was placed in restraint involving two security guards and two carers.  Again, her head was restrained.  She was also later held in a restraint on the floor of the ward twice.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">On 22 March 2022, ST became distressed whilst restrained when walking and fell to the floor kicking and screaming.  This was witnessed by other patients and parents on the ward becoming upset and scared. ST was subjected to a restraint hold by five people comprising four security guards and a mental health support worker. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">On 22 March 2022 ST had to be further restrained twice by 11am and had received two doses of chemical restraint by 1pm.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On 23 March 2022 ST was the subject of restraint and escort back to her room after she hit a District Nurse.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On 23 March 2022 ST was the subject of further restraint by two security guards and two carers after she had refused to co-operate and urinated on the floor.  A further restraint hold was later required.  ST was tranquilised with Promethazine.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On 24 March 2022 (i.e. today) ST was placed in a hold by two security guards and two carers and then held on the floor of the ward.  ST was tranquilised with Promethazine.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">On one occasion ST managed to break into a treatment room in which a dying infant was receiving palliative care and had to be restrained in that room by three security guards.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have noted, as ST&#8217;s behaviour has deteriorated, there have been occasions when ST has been administered oral chemical restraint in order to tranquilise her.  This is administered in accordance with internal NHS guidance entitled &#8220;<span style="font-style:italic">Rapid Tranquilisation: Guidance for use of medication to manage disturbed behaviour in PAEDIATRIC patients due to potential for aggression, severe agitation and violent outbursts</span>&#8221;.  The aim of that guidance is said to be to safeguard equally both staff and patients by helping prevent violent situations and manage them safely when they do occur through the use of medication for short-term management of violence, aggression and severe agitation. Whether the existence of the guidance acts to prevent the use of chemical restraint in these circumstances being a deprivation of liberty for the purposes of Art 5 of the ECHR, such as to require authorisation, would need further consideration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Within the foregoing context, the Trust had, at the outset of the hearing, also sought an authorisation for the use of intra-muscular injections on ST as a means of controlling her behaviour otherwise than by the oral administration of chemical restraint.  That application is no longer pursued in circumstances where there is no medical evidence before the court to support such an application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have noted, notwithstanding that ST has been in a placement that plainly constitutes a deprivation of her liberty for the purposes of Art 5 since 15 February 2022, with the full knowledge of the NHS Trust and Manchester City Council, no application for a declaration to authorise the deprivation of her liberty was made by either organisation until 17 March 2022.  The matter came before Mrs Justice Arbuthnot on Friday 18 March 2022 at the Royal Courts of Justice.  Within the context of the situation I have outlined above, Arbuthnot J granted a declaration authorising the deprivation of liberty as being in ST&#8217;s best interests and returned the case to Manchester.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have already outlined, notwithstanding that it had ample notice of this hearing, Manchester City Council had been able to provide its counsel with no cogent instructions regarding the steps taken by the allocated social worker to support ST and her family prior to her admission to hospital, the steps it has taken since her admission to hospital to ensure authorisation was secured for the obvious deprivation of her liberty or the steps it has taken to locate a placement that is better able to meet ST&#8217;s acute and complex needs, of which Manchester City Council has been aware for an extended period.  Likewise, Manchester City Council was unable to offer any explanation as to why it had itself failed to make an application to the court for statutory orders under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> in the circumstances that I have outlined in this judgment.  When this hearing reconvened after the short adjournment however, Ms Walker was finally able to inform the court that she had instructions to the effect that Manchester City Council had now decided to issue care proceedings in respect of ST under Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>.  Ms Walker also assisted the court with details of further possible placements for ST, albeit each would be subject to the outcome of an assessment of ST, and therefore not available to her for at least some weeks.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1">LAW</p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The law in these cases is now well established and well known. I summarised the legal principles governing the determination of an application for an order authorising the deprivation of a child&#8217;s liberty under the inherent jurisdiction of the High Court in <span style="font-style:italic">Salford CC v M (Deprivation of Liberty in Scotland)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2019/1510" uk:canonical="[2019] EWHC 1510 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 1510 (Fam)</ref>.  For the purposes of the present judgment, I can deal with the applicable principles shortly. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is a <span style="font-style:italic">fundamental </span>principle of a democratic society that the State must adhere to the rule of law when interfering with a person&#8217;s right to liberty and security of person (see <span style="font-style:italic">Brogan v United Kingdom</span> <ref href="#" uk:canonical="(1988) 11 EHRR 117" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1988">(1988) 11 EHRR 117</ref> at [58]).  On the face of it, both the NHS Trust and Manchester City Council have failed in this case to adhere to this cardinal imperative.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court may grant an order under its inherent jurisdiction authorising the deprivation of a child&#8217;s liberty if it is satisfied that the circumstances of the placement in question constitute a deprivation of liberty for the purposes of Art 5 of the ECHR <span style="font-style:italic">and</span> if it considers such an order to be in the subject child&#8217;s best interests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With respect to the question of whether ST&#8217;s current situation amounts to a deprivation of her liberty, no party seeks to suggest it does not. With respect to the question of whether the arrangements in the placement amount to a deprivation of liberty for the purposes of Art 5, in <span style="font-style:italic">Storck v Germany</span> <ref href="#" uk:canonical="(2006) 43 EHRR 6" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">(2006) 43 EHRR 6</ref> the European Court of Human Rights established three broad elements comprising a deprivation of liberty for the purposes of Art 5(1) of the ECHR, namely (a) an objective element of confinement to a certain limited place for a not negligible period of time, (b) a subjective element of absence of consent to that confinement and (c) the confinement imputable to the State. Only where all three components are present is there a deprivation of liberty which engages Art 5 of the ECHR. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Within this context, in <span style="font-style:italic">Cheshire West and Chester v P</span> <ref href="#" uk:canonical="[2014] AC 896" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] AC 896</ref> the Supreme Court articulated an &#8216;acid test&#8217; of whether a person who lacks capacity is deprived of their liberty, namely (a) the person is unable to consent to the deprivation of their liberty, (b) the person is subject to continuous supervision and control and (c) the person is not free to leave.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With respect to the first element of the acid test, on 23 March 2022 the Specialist Learning Disability Nurse undertook an assessment to determine whether or not ST is Gillick competent. While ST was able to understand simple information about taking medicine, staying on the ward and taking a walk on the ward, she was considered<span style="font-style:italic"> unable</span> to retain the information or use and weight it, in order to make a relevant decision. The SLDN in conjunction with the Service Lead Consultant Psychiatrist, concluded that ST is not Gillick competent.  As I have noted, there is no dispute that the second and third limbs of the acid test are likewise made out in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With respect to the question of whether the deprivation of liberty identified is in her best interests, ST&#8217;s welfare is my paramount consideration when answering that question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I noted in <span style="font-style:italic">Lancashire CC v G (Unavailability of Secure Accommodation)</span> [2020] EWHC 2828 the following difficulty arises in respect of the best interests test in the context of cases of the type currently before the court:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;[61] In particular, the shortage of appropriate resources increases the risk that the decisions regarding the welfare of children will be driven primarily by expediency, with the welfare principle relegated to a poor second place.  Within the context of secure accommodation, the local authority and the court must each consider whether the proposed placement would safeguard and promote the child's welfare (see <span style="font-style:italic">Re B (Secure Accommodation Order)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/2025" uk:canonical="[2019] EWCA Civ 2025" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 2025</ref>).  When considering whether to grant an order authorising the deprivation of a child&#8217;s liberty the court must treat the child&#8217;s best interests as its paramount consideration.  Where a local authority or a court is placed in a position of having to approve a placement because it is the only option available it is obvious that these cardinal principles will be at risk of being undermined.  Yet this is the situation that local authorities and courts are forced to grapple with everyday up and down the country by the continuing shortage of appropriate resources and as highlighted repeatedly in the authorities that I have referred to above and more widely by the Children&#8217;s Commissioner for England.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The question that inevitably flows from this analysis is what happens if the court concludes that it cannot authorise the deprivation of liberty as being in the child&#8217;s best interests.  As I observed in the similar case of <span style="font-style:italic">Wigan BC v Y (Refusal to Authorise Deprivation of Liberty) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/1982" uk:canonical="[2021] EWHC 1982 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 1982 (Fam)</ref> at [61] and [62]:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;[61] The foregoing conclusions of course lead inexorably to a stark question. What will now happen to Y? The answer is that local authority simply must find him an alternative placement. Y is the subject of an interim care order and therefore a looked after child. Within this context, the local authority has a statutory duty to under Part III of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> to provide accommodation for Y and to safeguard and promote his welfare whilst he is in its care. More widely, and again as made clear by Sir James Munby in <span style="font-style:italic">in Re X (No 3) (A Child)</span> [2017] EWHC 2036 at [36], Arts 2, 3 and 8 of the ECHR impose positive obligations on the State, in the form of both the local authority and the State itself. Art 2 contains a positive obligation on the State to take appropriate steps to safeguard the lives of those within its jurisdiction where the authorities know or ought to know of the existence of a real and immediate risk to life. Art 3 enshrines a positive obligation on the State to take steps to prevent treatment that is inhuman or degrading. Art 8 embodies a positive obligation on the State to adopt measures designed to secure respect for private and family life. Pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.6</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref>, and within the foregoing context, it is unlawful for a public authority to act in a way which is incompatible with a Convention right.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">[62] Within this context, the court has discharged its duty, applying the principles the law requires of it, to give its considered answer on the two questions that fall for determination on the local authority application. That answer is that it is not in Y' best interests to authorise his continued deprivation of liberty on a paediatric ward. The court having discharged its duty, the obligation now falls on other arms of the State to take the steps required consequent upon the courts' decision, having regard to mandatory duties imposed on the State by statute and by the international treaties to which the State is a contracting party.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In like manner, in <span style="font-style:italic">Nottinghamshire County Council v LH and Ors</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/2584" uk:canonical="[2021] EWHC 2584 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 2584 (Fam)</ref>, Poole J observed as follows having refused to authorise the deprivation of liberty of a child on a hospital ward that was not capable of meeting her needs:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;Naturally, the court is acutely concerned for LT and what will happen to her now. It is deeply uncomfortable to refuse authorisation and to contemplate future uncertainties. However, LT is a looked after child and the local authority must find her an alternative placement &#8211; it has a statutory duty to provide accommodation for her and to safeguard and promote her welfare whilst in its care, under Part III of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. The state has obligations under Arts 2, 3 and 8 of the European Convention on Human Rights (see Sir James Munby in <span style="font-style:italic">Re X (No. 3) (A child)</span> [2017] EWHC 2036 at [36]). I do not doubt that the local authority has striven to find alternative accommodation but that the national shortage of resources has led to the current position. Nevertheless, authorisation of the deprivation of LT&#8217;s liberty in a psychiatric unit which is harmful to her and contrary to her best interests would only serve to protect the local authority from acting unlawfully, it would not protect this highly vulnerable child.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1">DISCUSSION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have noted, there is no dispute in this case that ST&#8217;s current placement constitutes a deprivation of her liberty for the purposes of Art 5 of the ECHR.  The question for the court thus becomes one of whether it is ST&#8217;s best interests to authorise that deprivation of liberty.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have decided that I cannot, in all good conscious, conclude that it is in ST&#8217;s best interests to authorise the deprivation of her liberty constituted by the regime that is being applied to her on the hospital ward.  I cannot, in good conscience, conclude that it is in the best interest of a 14 year old child with a diagnosis of Autistic Spectrum Disorder and moderate learning disability to be subject to a regime that includes regular physical restraint by multiple adults, the identity of whom changes from day to day under a rolling commercial contract.  I cannot, in all good conscience, conclude that it is in ST&#8217;s best interests for the distress and fear consequent upon her current regime to be played out in view of members of the public, doctors, nurses and others.  I cannot, in good conscience, conclude that it is in ST&#8217;s best interests to be subject to a regime whose only benefit is to provide her with a place to be, beyond which none of her considerable and complex needs are being met to any extent and which is, moreover, positively harmful to her.  My reasons for so deciding are as follows.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst I accept that the placement options that have now been mooted by Manchester City Council will not be immediately available, I am satisfied that the current circumstances are <span style="font-style:italic">so</span> antithetic to ST&#8217;s best interests that it would be manifestly wrong to grant the relief sought.  This conclusion is further reinforced by the fact that such placement options that have been mentioned will not be available for some weeks in any event. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I stated during the course of the hearing that the combination of ST&#8217;s needs and the attempts of the Trust, in good faith, to meet those needs in a placement that is entirely unsuited to that task, has resulted in a situation that is a brutal and abusive one for ST.  I do not resile from that statement.  Within this context, I am satisfied that not even the necessity of keeping ST safe in circumstances where no alternative placement is available can justify such authorisation, because it simply cannot be said on the evidence before the court that the placement she is in currently <span style="font-style:italic">is</span> keeping her safe.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Trust itself rightly concedes that ST&#8217;s needs are not being met on the ward.  Within the context of ST&#8217;s particular and acute needs arising out of her Autistic Spectrum Disorder and her learning disability they were never going to be. Her current placement is a general paediatric ward.  It is not equipped to manage the behaviours exhibited by ST and was never designed to do so.  It is not equipped to provide ST with the support she requires nor with the privacy she is entitled to whilst being cared for.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Within this context, in due course I will require a detailed explanation from the Trust and the local authority as to why the advice of CAMHS given on 21 January 2022, that that ST should not be admitted to hospital unless there was a medical need as &#8216;there is clear risk of harm to her and others if she is admitted and this is not an appropriate place of safety in a crisis&#8217;, was not followed.  In light of ST&#8217;s diagnosed Autistic Spectrum Disorder and learning disability, that advice was self-evidently correct and redundant of argument.  It does not take expert evidence for the court to understand the adverse impact of the current regime, with its uncertainty, its concentration on physical contact and its location in a loud and unfamiliar environment, on a child who is autistic and learning disabled.  What this must be like for ST is hard to contemplate.  Within this context, the failure of Trust and / or the local authority to follow the advice of CAMHS requires an explanation with a greater level of detail than Ms Leeming has been in a position to provide the court with today.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Further, and as I noted in <span style="font-style:italic">Wigan BC v Y (Refusal to Authorise Deprivation of Liberty)</span>, the fact that the hospital ward is a wholly inappropriate venue for the deprivation of ST&#8217;s liberty forces medical staff to step outside the normal safeguards that are put in place in that environment. ST is being prescribed tranquilising medicine orally for the purposes of chemical restraint.  The hospital takes the view that without this chemical sedation ST&#8217;s behaviour would now be unmanageable.   Whilst it is said that this tranquilising medication is being administered in accordance with internal guidance provided by the relevant internal medication protocol, I remain to be convinced that this is an appropriate course of action without authorisation of the court in circumstances where the purpose of the medication is plainly one of restraint, and hence, arguably, the deprivation of ST&#8217;s liberty.  I likewise remain to be convinced that this is not the position simply because the regime of chemical restraint has been in place for only a short period following a deterioration in ST&#8217;s behaviour.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, beyond the hospital ward providing ST with a place to be accommodated, the evidence before the court identifies not a <span style="font-style:italic">single </span>positive for her flowing from her present circumstances.  There is no evidence that her behaviour is being improved by the current regime, no evidence that her educational needs are being appropriately met and no evidence as that there an exit plan being worked towards to minimise the period of time ST must be subjected to this regime.  Within this context, once again, I cannot see how the court can possibly conclude that the authorisation sought by the Trust can, in any sense, be said to be in ST&#8217;s best interests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having regard to the matters I have set out above, the only possible reasoned conclusion the court can reach on the evidence is that it is manifestly <span style="font-style:italic">not</span> in ST&#8217;s best interests to authorise her deprivation of liberty on the paediatric ward.  In the circumstances, no party seeks seriously to dispute that her current situation constitutes a breach of her rights under Art 5 of the ECHR.  As I have observed in other cases, judgments given by a court should be sober and measured.  Superlatives should be avoided and it is prudent that a judge carefully police a judgment for the presence of adjectives.  However, in the circumstances of this case, I am satisfied that it is not an exaggeration to say that to grant the relief sought by the Trust in this case would be to <span style="font-style:italic">grossly</span> pervert the application of best interests principle.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am further satisfied, Manchester City Council having now belatedly indicated that it intends to apply for an interim care order in respect of ST, that it is appropriate to grant such an order today on the undertaking of the local authority to issue that application forthwith.  The interim threshold criteria pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/38/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.38(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> are plainly made out and I am satisfied that it is in ST&#8217;s best interests to make such an order at this hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In circumstances where ST therefore becomes a looked after child, the local authority has a clear statutory duty to under Part III of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> to provide accommodation for ST that can meet her complex needs and to safeguard and promote her welfare whilst she is in its care.  This is in addition to the wider obligation on the local authority under the rights secured by the ECHR to take appropriate steps to safeguard the lives of those within its jurisdiction where the authorities know or ought to know of the existence of a real and immediate risk to life, to take steps to prevent treatment that is inhuman or degrading and adopt measures designed to secure respect for private and family life. Pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.6</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref>, and within the foregoing context, it is unlawful for a public authority, including Manchester City Council, to act in a way which is incompatible with any of those Convention rights.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, that ST&#8217;s case has reached this situation is alarming.  ST has had an allocated social worker from Manchester City Council for an extended period that encompasses her latest admission to hospital.  Ms Walker urged me not to reach definitive conclusions on the conduct of Manchester City Council until there has been an opportunity for the local authority to provide a more detailed explanation of its conduct in respect of this case.  However, I am satisfied that the information presently before the court allows the court to make certain observations at this stage of the proceedings in circumstances where certain of the omissions of Manchester City Council, and indeed of the NHS Trust, are beyond serious dispute.  Ms Walker likewise suggested that it might be appropriate to delay the publication of this judgment, again until Manchester City Council had had the opportunity to further explain its conduct in this case.  In the same context, Ms Walker was instructed to invite the court to anonymise the identity of the local authority.  I am likewise satisfied that it would not be appropriate to delay publication of this judgment or to anonymise the identity of Manchester City Council in circumstances where, again, the omissions that have caused the court immediate concern cannot be the subject of serious dispute.  Subject to the redaction of the identity of the child and the family and the location of her current placement, (which requires, at least for the time being, the anonymisation of the applicant NHS Trust), it would be entirely wrong in my judgment to keep those matters from the public domain.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Manchester City Council has been aware <span style="font-style:italic">at least </span>since 24 February 2022 that ST is in a placement that is manifestly ill equipped to meet her needs <span style="font-style:italic">and </span>which is depriving her of her liberty for the purposes of Art 5 of the ECHR.  Further, the NHS Trust acknowledges that ST has been deprived of her liberty in extremely challenging situations for over a month before the matter was brought before this court.  On the face of the evidence before the court, neither Manchester City Council or the NHS Trust has taken any steps to seek to bring the matter before the court in a timely manner to seek authorisation for the consequent breach of ST&#8217;s Art 5 rights.  With respect to that omission, it is simply not an answer to say that there have been &#8220;multiple meetings&#8221;.  It is likewise not an answer to say that there is a shortage of suitable placements and that &#8220;searches have been ongoing&#8221;.  The bottom line is that ST has, on the evidence currently available to the court, been deprived of her liberty without authorisation in a manifestly unsuitable placement for over a month prior to 18 March 2022, due to the apparent inaction of Manchester City Council and the NHS Trust.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It will be for another hearing to investigate in detail how it has come to pass that ST has, on the current evidence before the court, been so comprehensively failed in this case.  However, in the context of the foregoing matters, it is beyond serious dispute that Manchester City Council has failed to discharge properly its duties towards ST following her admission to hospital, notwithstanding the subsisting allocation of a social worker to her.  Likewise, it is beyond serious dispute that the Trust has, at best, been guilty of unacceptable delay in seeking authorisation for the deprivation of ST&#8217;s liberty.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court will, of course, provide both the NHS Trust and Manchester City Council with the opportunity to provide a detailed  explanation for these omissions.  I anticipate that those omissions will also be the subject of examination within the context of a claim in damages under the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> on behalf of ST in due course.  Within this context, I intend to direct that statements are provided by the following to explain to this court how ST was allowed to arrive in and remain in her current parlous situation:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A statement of evidence from the director of Children&#8217;s Services for Manchester City Council.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A statement of evidence from the director of Legal Services for Manchester City Council.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">A statement of evidence from the appropriate senior member of staff at the NHS Trust.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court will in due course determine whether the attendance of those witnesses at court is necessary to assist in explaining how a 14 year old child with an autistic spectrum disorder and a learning disability was unlawfully deprived of her liberty in a manifestly unsuitable placement supervised by a private company on a five day rolling contract without any application being made to the court for a declaration authorising such circumstances.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1">CONCLUSION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons I have given, I dismiss the application of the NHS Trust.  I make an interim care order placing ST in the care of Manchester City Council .  There shall be no order as to costs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As Poole J observed in <span style="font-style:italic">A County Council v LH and Ors</span>, it is deeply uncomfortable to refuse authorisation and to contemplate future uncertainties that will now pertain for ST. However, ST is now a looked after child and the local authority must find her an alternative placement pursuant to its statutory duty to provide accommodation for her and to safeguard and promote her welfare whilst in its care, under Part III of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>.  It is the court&#8217;s expectation that Manchester City Council will do far better by ST than it appears to have done to date.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That is my judgment.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1">POSTSCRIPT</p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Over the course of the weekend following the hearing, the local authority identified a bespoke, short-term placement for ST and has now applied itself for a declaration authorising ST&#8217;s deprivation of liberty in that placement.  The Local Authority continues to search for a residential educational placement for ST. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

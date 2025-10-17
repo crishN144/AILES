@@ -1,0 +1,789 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/399"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2023/399"/>
+	  <FRBRdate date="2023-02-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="399"/>
+	  <FRBRname value="Warwickshire County Council v The Mother &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/399"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/399"/>
+	  <FRBRdate date="2023-02-24" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/399/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2023/399/data.xml"/>
+	  <FRBRdate date="2024-11-09T06:48:23" name="transform"/>
+	  <FRBRdate date="2024-11-25T22:13:07" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-02-24" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="warwickshire-county-council" href="" showAs="WARWICKSHIRE COUNTY COUNCIL"/>
+	<TLCPerson eId="the-mother" href="" showAs="THE MOTHER"/>
+	<TLCPerson eId="the-father" href="" showAs="THE FATHER"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-lieven" href="/judge-mrs-justice-lieven" showAs="MRS JUSTICE LIEVEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>399</uk:number>
+	<uk:cite>[2023] EWHC 399 (Fam)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>7fe39905704ea881734b5ce4e3163586c4dcbfded7ce3d7c04b0043af7359ad9</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EWHC 399 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CV22C50070</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2023-02-24" refersTo="#judgment">24/02/2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-lieven">MRS JUSTICE LIEVEN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <p style="text-align:center"><party as="#applicant" refersTo="#warwickshire-county-council" style="font-weight:bold">WARWICKSHIRE COUNTY COUNCIL</party></p>
+      <p style="text-align:right"><role refersTo="#applicant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Applicant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-mother" style="font-weight:bold">THE MOTHER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">First Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-father" style="font-weight:bold">THE FATHER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Second Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">X</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">[a child, through her Children&#8217;s Guardian]</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Third Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Z</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">[a minor separately represented]</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Fourth Respondent</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Claire Hodnett </span>(instructed by<span style="font-weight:bold"> Warwickshire County Council</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mrs Margaret Styles</span> (instructed by <span style="font-weight:bold">Jackson West</span>) for the <span style="font-weight:bold">First Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Sarah Tyler</span> (instructed by <span style="font-weight:bold">Venters</span>) for the <span style="font-weight:bold">Second Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Jenna Allen</span> (instructed by <span style="font-weight:bold">Wilson Browne Solicitors</span>) for the <span style="font-weight:bold">Third Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr</span><span/><span style="font-weight:bold">Eufron van Besouw</span> (instructed by <span style="font-weight:bold">Penmans Solicitors LLP</span>) for the <span style="font-weight:bold">Fourth Respondent</span></p>
+      <p style="text-align:center">Hearing dates: <span style="font-weight:bold">13-15 February 2023</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 24 February 2023 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MRS JUSTICE LIEVEN</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Mrs Justice Lieven DBE :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is the final hearing in a case upon which I gave an interlocutory judgment on 8 August 2022, [2022] EWHC  2146 (Fam). I therefore do not need to set out the detailed background to the matter. The case concerns alleged &#8220;parental alienation&#8221; and in the August decision I ordered that Z, the older child, should return to the care of her mother, the First Respondent. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The representation is Ms Hodnett for the Local Authority (&#8220;LA&#8221;), Mrs Styles for the Mother, Ms Tyler for the Father, Ms Allen for the Guardian on behalf of X and Mr van Besouw on behalf of Z. Z had been found to be <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gillick</span> competent (<span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gillick v West Norfolk and Wisbech Area Health Authority</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/1985/7" uk:canonical="[1985] UKHL 7" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="1985">[1985] UKHL 7</ref>) in June 2022 and has been separately represented since that time. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By the end of the 3 day hearing, the orders that I should make were entirely agreed. This was in part because the parents had listened to each other&#8217;s evidence, and to the evidence of Ms Rayworth the Social Worker, and Ms Geraghty the Guardian, as well as the interventions of the Court. However, given the unfortunate history of this case, the need for some level of clarity going forward, and the possibility that some lessons might be learnt by what has gone wrong in this case, I decided to give a full reserved judgment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The case concerns two girls, Z now aged 13, and X aged 11. They were both made subjects of Interim Care Orders (&#8220;ICO&#8221;) on 19 May 2022 on the grounds of risk of psychological harm to the children. The underlying issue is what is known in the family justice system as &#8220;parental alienation&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parents had separated in December 2016 after 8 years of marriage. Both parents formed new relationships. The Mother&#8217;s wife, B, has two children, S and T, who Z and X have become very close to and treat as sisters. The Father&#8217;s partner, A, has one child Y. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There were various issues with contact and the first court application was made by the Father on 10 June 2019, i.e. 3 and a half years ago. There were then numerous applications and hearings, which culminated in a fact finding hearing in February 2022 before HHJ Watson. The detail of those earlier events, is set out in my August judgment.  The Judge made no findings against the Father, but made findings of parental alienation against the Mother. The Judge ordered a 90 day &#8220;Reunification Plan&#8221;, by which the children were to move to live with Father, together with the Independent Social Worker (&#8220;ISW&#8221;) Ms Barry-Relph, who would stay in the Father&#8217;s property. It can only be said this Plan went extremely badly with the children smashing property in the Father&#8217;s home, absconding, being moved to foster care with police involvement, and Z remaining in foster care whilst X returned to her Father&#8217;s care. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is the clear view of the LA and Ms Geraghty that the Reunification Plan was misguided and the role of Ms Barry-Relph unhelpful. I note that neither the social worker, Ms Rayworth, nor Ms Geraghty were involved at the time when the Reunification Plan was put in place and enforced. It also must be acknowledged that hindsight is always a wonderful thing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">My August judgment sets out the details of what happened next, including Z absconding from foster care on more than one occasion and putting herself at very significant risk. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As is set out in that judgment I decided in August 2022 that Z should go back to live with her Mother. She has remained there since that date. However, her younger sister, X, continued to live with her Father. Although X consistently said she wished to return home to live with her Mother and Z, she did in practice appear to be happy and reasonably settled with the Father. She went on holiday with the Father, his partner and his partner&#8217;s son to Florida, and that was a successful trip which X enjoyed. I note that the Reunification Plan was supposed to last three months, but X remained with her Father for 9 months despite her clearly expressed view that she wanted to return to her Mother. It was the LA&#8217;s care plan until 6 January that X would remain with her Father. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">From August through to January 2023, X was having very limited contact with the Mother and Z, seeing them once per week for 2 hours, with professional supervision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, on 6 January X absconded from school and went to her Mother&#8217;s house, which is fairly close to her school. It seems likely, although I cannot be certain, that this action was not planned, and X spotted the opportunity after school when there was no one at the school gate. Ms Tyler points to some evidence that X at least had planned the move, but is neither necessary or appropriate for me to investigate this further. When X got to the Mother&#8217;s house, she was rapidly followed within a very few minutes by two teachers. As soon as she appeared, the Mother&#8217;s friend rang the police on 111. The police attended shortly thereafter. After a discussion between the police, X, and the LA, it was decided that rather than return X to her Father, she should stay over the weekend with B&#8217;s parents, Mr and Mrs H.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Father, through his Counsel, strongly criticised the Mother for not immediately seeking to persuade X to return to the Father and not pointing out to the police that the allegations X and Z were making about their Father were historic allegations which had already been dismissed by HHJ Watson. I think this criticism is somewhat unfair. The Mother explained, and this does not seem to be in dispute, that the police went into a separate room with X and spoke to her without the Mother being present. I also think Ms Tyler does not fully take into account the heightened emotions and difficult situation that occurred when X arrived at the Mother&#8217;s home. Z was present, as were B&#8217;s two daughters and another child. It was hardly the moment for a calm conversation with X about the rights and wrongs of the situation. I accept the Mother&#8217;s account that she believed the correct thing to do was to leave the police and the LA to decide what should happen next. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">X spent the weekend at Mr and Mrs H&#8217;s house. She went to school on Monday 9<span style="vertical-align:super;font-size:smaller">th</span> January. On that day in the afternoon Z attended at the school and tried to speak to X. She was highly dysregulated and upset. Ms Rayworth, the Social Worker, and the Father were at the school. Ms Rayworth tried to persuade X to go home, but she refused. Ms Rayworth spoke to X for about 1.5 hours and she was adamant that she did not want to go back to the Father&#8217;s house. X then spoke to her Father for about 30 minutes. Ms Tyler was critical of Ms Rayworth for not allowing the Father to speak to X for longer and that they should have &#8220;stayed there until it was done&#8221;. Again, I think this criticism was misplaced. This is an 11 year old child who was plainly very upset. There came a point when the Social Worker was quite right to say that the adults had said enough and a decision had to be made there and then as to where X was going to stay.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Since that date X has remained living with the Hs and has refused to have any contact with her Father. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The parties&#8217; positions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have set out above, the parents&#8217; positions shifted considerably during the hearing. By the end of the hearing all parties agreed the following:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>a.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.17in;margin-right:0.59in">Z should be subject to no order and have a Child in Need plan.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>b.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.17in;margin-right:0.59in">X should be subject to a care order with her living with the Hs;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>c.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.17in;margin-right:0.59in">X&#8217;s contact with Z should be increased in line with a document agreed with the LA, and that contact should include contact with S &amp; T. The Hs can act as supervisors in a fairly light touch way. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>d.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.17in;margin-right:0.59in">A plan is to be worked up for contact between X and her father to be started as soon as possible. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>e.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.17in;margin-right:0.59in">Both parents are to engage in a Parenting Apart Programme (&#8220;PAP&#8221;) supported by the LA.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>f.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.17in;margin-right:0.59in">There are to be therapeutic interventions offered to the family.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This was in essence the LA and the Guardian&#8217;s position throughout the hearing, although the proposals for contact developed during the hearing. The Mother&#8217;s position at the start of the hearing had been that X should return to her care. The Father&#8217;s position at the start of the hearing had been for X to be returned to his care under a care order, and that Z be subject to a supervision order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Z supports no order. She sought greater contact with X. Mr van Besouw said in closing that although Z would like further and speedier increase in contact, she would be pleased with the general direction of travel. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the commencement of the hearing Ms Tyler sought an adjournment so that the Hs could be subject to a Connected Persons Assessment (&#8220;CPA&#8221;) and, if that application was refused, she asked for an order that Mr H should attend for cross examination. I rejected that application in a short separate judgment. In essence, I considered that the benefits of delaying the hearing for a CPA were outweighed by the disbenefit to the children, and indeed the parents, of further delay of between 4-6 months. This family has been subject to court proceedings for 3.5 years, and public law proceedings for almost a year. The strain on all concerned, and the effect of uncertainty on the children has been devastating. I am not convinced that a CPA would tell me very much that is likely to change the outcomes of the case. I understand the LA do intend to do a CPA after the hearing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In respect of Mr H giving evidence, although there might be some forensic benefit, given the relatively sparse level of information about Mr and Mrs H, the impact of him being cross examined might well be highly detrimental both to any future relationship with the Father and potentially to the placement of X with the Hs. Overall, I determined that it could be highly detrimental to X to insist that Mr H gives oral evidence and is cross examined.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is to the credit of both of the parents that their positions moved so far during the course of the hearing. This gives some optimism that the parents are capable of listening and making decisions that are focused on the best interests of the children. I very much hope that this progress is maintained. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The law in this case is not controversial. In deciding whether or not to make a care order I must apply <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.31(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (&#8220;CA&#8221;). The parties agree that the threshold criteria for making such an order are made out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The most recent decision of the Court of Appeal is <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re S [Parental Alienation]</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/568" uk:canonical="[2020] EWCA Civ 568" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 568</ref>. I set this out at length in the earlier judgment, but it is worth doing so again:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;7.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">At the outset, it must be acknowledged that, whether a family is united or divided, it is not uncommon for there to be difficulties in a parent-child relationship that cannot fairly be laid at the door of the other parent. Children have their own feelings and needs and where their parents are polarised they are bound to feel the effects. Situations of this kind, where the concerned parent is being no more than properly supportive, must obviously be distinguished from those where an emotionally abusive process is taking place. For that reason, the value of early fact-finding has repeatedly been emphasised.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">8.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">As to alienation, we do not intend to add to the debate about labels. We agree with Sir Andrew McFarlane (see [2018] Fam Law 988) that where behaviour is abusive, protective action must be considered whether or not the behaviour arises from a syndrome or diagnosed condition. It is nevertheless necessary to identify in broad terms what we are speaking about. For working purposes, the CAFCASS definition of alienation is sufficient:</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">"When a child's resistance/hostility towards one parent is not justified and is the result of psychological manipulation by the other parent."</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">To that may be added that the manipulation of the child by the other parent need not be malicious or even deliberate. It is the process that matters, not the motive.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">9.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">Where a child's relationship with one parent is not working for no apparent good reason, signs of alienation may be found on the part of the other parent. These may include portraying the other parent in an unduly negative light to the child, suggesting that the other parent does not love the child, providing unnecessary reassurance to the child about time with the other parent, contacting the child excessively when with the other parent, and making unfounded allegations or insinuations, particularly of sexual abuse.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">10.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">Where a process of alienation is found to exist, there is a spectrum of severity and the remedy will depend upon an assessment of all aspects of the child's welfare, and not merely those that concern the relationship that may be under threat. The court's first inclination will be to reason with parents and seek to persuade them to take the right course for their child's sake, and it will only make orders when it is better than not to do so. Once orders are required, the court's powers include those provided by <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 11</ref>A to 11O of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> , and extend to consideration of a more fundamental revision of the arrangements for the child. We agree that whilst a change in the child's main home is a highly significant alteration in that child's circumstances, such a change is not regarded as "a last resort": Re L (A Child) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2019/867" uk:canonical="[2019] EWHC 867 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 867 (Fam)</ref> at [53] to [59] per Sir Andrew McFarlane P. The judge must consider all the circumstances and choose the best welfare solution.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">11.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">Cases at the upper end of the spectrum of alienation place exceptional demands on the court. It will recognise that the more distant the relationship with the unfavoured parent becomes, the more limited its powers become. It must take a medium to long term view and not accord excessive weight to short-term problems: Re O (Contact: Imposition of Conditions) <ref href="#" uk:canonical="[1995] 2 FLR 124" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 2 FLR 124</ref> per Sir Thomas Bingham MR at 129. It must, in short, take action when and where it can do so to the child's advantage. As McFarlane LJ said in Re A (Intractable Contact Dispute: Human Rights Violations) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/1104" uk:canonical="[2013] EWCA Civ 1104" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 1104</ref>; <ref href="#" uk:canonical="[2014] 1 FLR 1185" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 FLR 1185</ref> at 53:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">"53.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">The conduct of human relationships, particularly following the breakdown in the relationship between the parents of a child, are not readily conducive to organisation and dictat by court order; nor are they the responsibility of the courts or the judges. But, courts and judges do have a responsibility to utilise such substantive and procedural resources as are available to them to determine issues relating to children in a manner which affords paramount consideration to the welfare of those children and to do so in a manner, within the limits of the court's powers, which is likely to be effective as opposed to ineffective."&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are a number of cases concerning alleged &#8220;parental alienation&#8221;. This is a highly fact specific scenario in which labels and generalisations are not in my view helpful. In a very large number of cases that appear before the Family Courts, particularly concerning private law, the parents have some degree of animosity towards each other and whether consciously or unconsciously may influence the views of the children about the other parent. It must however be remembered that children are autonomous human beings who have their own feelings and their own perceptions. That becomes particularly true as they become older and begin to wish to assert their own personalities separately from parental control. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It needs to be accepted, and carefully considered, that the &#8220;muscularity&#8221; of Court intervention suggested at [13] of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re S</span> may be in considerable tension with the wishes and feelings of the children. As the children get older, and more weight would be accorded to their wishes and feelings, the Court has to consider very carefully the degree to which a very significant interference in their Article 8 European Convention on Human Rights (&#8220;EHCR&#8221;) rights against their wishes, is justified and proportionate. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my view the Court should also bear closely in mind in these difficult cases, that there may be no &#8220;good&#8221; solution. The Court cannot rewrite the past and only has a limited influence on the future. It is often not possible to cure the wrongs that have happened, and it is particularly hard to change a mindset or narrative that has been firmly adopted. It may be, although I am only considering the facts of this particular case, that these comments are particularly apt in respect of slightly older children, who are less open to being told what to do by adults, whether for good or ill. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The assessments</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">An Independent Social Worker (&#8220;ISW&#8221;), Ms Marston, was appointed to undertake a parenting assessment of the Mother and B. This is a long, careful and detailed piece of work, which is not easily amenable to summary. She opines that the Mother continues to believe herself the victim of domestic abuse and that is &#8220;embedded in her reality&#8221;. That continued belief is likely to impact on the Mother&#8217;s functioning as a parent. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She also refers to both parents adopting a defensive position that if that continues is likely to further polarise positions and create further barriers. She (and Dr Parker) refer to the &#8220;grave level of concern&#8221; for X and Z&#8217;s long term welfare and well-being. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She refers to the long term impacts of parental alienation and says:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">&#8220;For [Z] and [X] it is imperative that there is some form of resolution and that their parents&#8217; take responsibility in supporting both of the children to heal. [Z] and [X&#8217;s] childhood cannot be recaptured; I am of the view action toward change is required now and without further delay.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She refers to the need for the parents to develop a coherent narrative which can be given to the children to allow the family to move on and to recover from the harm caused. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> Her recommendation is that the Mother needs to undertake further work.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Parker, an experienced psychologist, carried out a psychological assessment of the family. Again, this is extremely difficult to summarise. I asked the parties to prepare notes setting out what passages they thought were key, and Ms Tyler&#8217;s document alone ran to three pages and well over 40 references. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Parker felt that the Mother downplayed the significance of the conflicts in the family and the impact on the children. I have to say that I do not think this was the case during the Mother&#8217;s oral evidence, although I entirely accept that the history suggests that the Mother has sought to minimise these concerns in the past. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She felt that during the incident on 6 January 2023 the Mother had repeated the pattern of endorsing X&#8217;s anxieties rather than taking the lead in persuading her to return to the Father. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She was critical of the Mother for not more actively intervening in making the children have contact with their Father, and in not telling X to go back to the Father on 6 January 2023.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Parker&#8217;s view was that many of the problems stemmed from the Mother&#8217;s complex attachment processes. At paragraph 14.3 of the first report Dr Parker said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-style:italic">&#8220;She seems to fluctuate between patterns of trying to stick to the rules and doing what she is being told, for fear of being sanctioned harshly and a sense of feigned helplessness or abdicating responsibility and blaming others&#8221;. </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The following passage rang true to me in terms of both the Mother&#8217;s oral evidence, and the history of this matter:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;15.17.2.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-style:italic">I have described [the Mother&#8217;s] adult attachment style as complex, and one that is likely to cause difficulties for a child in terms of their attachment with her. Their experience of her is likely to be that she is loving and comforting but also inconsistent, unpredictable and often treats them as though they are equal or perhaps even more powerful than her. During proceedings in particular and maybe since the separation from [the Father], there has been a pervasive sense of threat which she has made known to them and has involved them in protecting the new &#8220;family unit&#8221; from. Being triangulated into the parents relationship is a confusing experience for children, leading to difficulties for them learning the link between events and their responses, as well as their actions and the outcomes.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Her view was that X was best placed with the Father. However, now that X is living with the Hs, she considered that indirect contact should be supported and facilitated by Mr and Mrs H. It is hoped that this might result in a resumption of direct contact. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Rayworth was the children&#8217;s Social Worker between May 2022 and 30 January 2023 when she moved to a different team. Given her long involvement with the family it was decided that it was appropriate for her to give evidence, rather than the very recently allocated social worker, Ms Inskip. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Rayworth was a careful and thoughtful witness who plainly had a good understanding of the family, and a generally good relationship with X. It was noteworthy that she spoke with compassion and empathy about both parents and the terrible situation that this family had got into.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She said that she could see some &#8220;green shoots&#8221; in the case as both parents were willing to engage with PAP and to work with the LA. It needs to be noted that the Father had always been willing to engage in such programmes, so the green shoots in that regard really relate to a shift in position by the Mother. The LA&#8217;s aim is that X returns to live with one of her parents&#8217; rather than remains with the Hs long term. In the light of X&#8217;s strongly expressed wishes, it is more likely that she will live with the Mother, but the LA do not rule out her living with the Father. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She felt that the Mother was less likely to undermine X living with the Hs, as X was living with family members.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She was asked a number of questions by Ms Tyler about the events of 6 January, but I note that Ms Rayworth was not at the Mother&#8217;s house that day and has no direct knowledge of what happened.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was also put to her that Z was placing great pressure on X to say she didn&#8217;t want to live with the Father. Ms Rayworth accepted this to some extent. But she said X had been absolutely consistent throughout that she wanted to go back to live with her Mother. She felt that X had acted as she did on 6 January because the opportunity had arisen to leave the school and go back to the Mother&#8217;s house, and she took it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Tyler heavily criticised the LA for effectively giving in by not returning X to her father. Ms Rayworth said they had to weigh the risk of X further absconding and putting herself at greater risk, and the fear that if they forced X back to Father it might further fracture the relationship. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Rayworth accepted that there had been a history of the LA making recommendations and the Mother&#8217;s engagement with them being very limited. Therefore, there needed to be some caution in accepting the Mother&#8217;s commitment to engage in the future.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">X has not seen her father since 6 January and the Hs have not forced/persuaded her to do so. Ms Tyler was again critical of the LA in this regard. Ms Rayworth said that from her conversations with the Hs, she does not think they are opposed to contact but that Mr H was worried about confrontation and saying the wrong thing before the final court hearing.  He is very aware of how contentious matters have been. Ms Rayworth considered that the Hs would support contact with the Father, but that they needed extra support both to understand how the family had got to this situation and in supporting X going forward. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr H had said he had not had time to read the key documents. Ms Rayworth accepted that this was unfortunate but did not think it reflected any lack of commitment or preconceptions. She believed that Mr H was in full support of the children having a relationship with both their parents and in agreement with facilitating contact. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Mother</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Mother seemed exhausted and ground down by the litigation and the events of the last year. She said on frequent occasions that the current situation could not continue. She accepted that she had made mistakes and must change. She spoke positively about the benefits of the therapy she has been having with Dr Choudhry and felt that had made a real difference to her understanding of her behaviour. She wanted to learn to avoid falling into the traps she had fallen into in the past.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She emphasised how horrible the last year had been, saying that the girls being removed had been the most horrific thing. I think that she spoke honestly about the impact this had had on her and how keen she was for the future to be different. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She spoke about engaging with the PAP and trying to learn from it and move towards parallel parenting. Although she would love for X to come straight home, she accepted that she had work to do before this would happen. She also spoke about encouraging the girls to have contact with the Father.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She accepted that she had let her anxiety get to her, and that this had transferred to the children. She also accepted that she had not handled the situation in the past when the girls called her from contact and complained about the Father.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She strongly felt that what happened in March 2022 and the Reunification Plan was the wrong way to handle the problems that had arisen and that the relationship with the FSW, Rose, should have been allowed to develop to re-establish contact. She did at times in her evidence seek to go back to those earlier disputes, but in the main she focused on what could be done going forward. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the events of 6th January, she said that she had done what she believed was right, which was to leave the Social Worker and the police to manage the situation and for them to decide what should happen. She did not feel it was appropriate for her to intervene and to urge X to return to her father. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She said that she would support X staying with the Hs and that she would obey the rules and believed that Z would do the same. She said that Z was so keen for X not to have to go back to the Father, and to have more contact with her, that she could not undermine X&#8217;s view of her Father.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Tyler put to the Mother Dr Parker&#8217;s view that she found it hard to work with professionals that she did not agree with. The Mother said she had worked with professionals such as Ms Rayworth and fully engaged with Dr Parker and Ms Marston. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have no doubt that the removal of the girls in March 2022 was a terrible shock and I accept that it was largely from that point onwards that she realised that she had to change. I think the Mother was trying to be honest with the Court and genuinely intends to engage with the PAP and with encouraging the girls to have contact with the Father going forward. I am not wholly optimistic as to how that will go. I accept Dr Parker&#8217;s analysis set out above, that the Mother&#8217;s anxieties can easily deflect her from persuading or pressurising the girls to do something they do not want. I can see that the Mother&#8217;s will to do the right thing could quite easily be overborne by Z&#8217;s very strong personality and sense of grievance, as well as the Mother&#8217;s worries about Z&#8217;s risk of self harm and suicidal ideation.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Father </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have no doubt the Father loves the children enormously, and in his mind wants to do what he believes to be best for them. It was obvious that he had been deeply traumatised by the events of the last few years and was very emotional about the effects of what had happened. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do think that he found it very difficult to put himself in the position of the girls, or understand their perspective and the impacts that his actions and choices had had on them. His focus was remorselessly on creating or preserving their relationship with him. He put that relationship above their relationship with each other, or with their mother, and justified this by suggesting that the situation was the Mother&#8217;s fault for not engaging properly at earlier stages. The Father sought to justify his decision making on the basis that it had been supported by professionals, such as Ms Barry-Relph. Although I understand the Father&#8217;s viewpoint, it is essential that he takes responsibility for his own decision making and the impact it has on his children. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He was adamant that X had been happy when living with him between March 2022 and 6 January 2023 and could not understand why she had absconded back to her Mother. He was plainly suspicious that the Mother and/or Z had been instrumental in X&#8217;s decision. He said she had been entirely normal on the Thursday night and Friday morning.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He felt the LA had been too slow to act, and if X had been forced/persuaded to come home to him then that would have been the best option. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He said that he was opposed to X living with her mother because &#8220;X might not be strong enough to hold the line that she wanted to see me, A [Father&#8217;s partner] and [A&#8217;s son]&#8221;. He pointed to the fact that in the relatively short time X has been with the Hs she has said she would rather die than go back to the Father&#8217;s house, and she has said she no longer wishes to use the Father&#8217;s surname. This is all in strong contrast to the fact that she seemed happy and settled when in his care. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He also felt that the Hs had done nothing to promote contact with X and he was plainly concerned that they were not acting neutrally between the parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mrs Styles asked the Father what mistakes he thought he had made. He said he had always followed professional advice and could only say that he thought he had been a bit dismissive of the children&#8217;s worries. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Meeting with Z</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I met with Z before the proceedings commenced. What she said is of course not evidence. However, it was clear that she was an articulate and intelligent child, very much with thoughts of her own. She has her own very clear perceptions of the rights and wrongs of what has happened to her and X. However, distorted some of Z&#8217;s narrative may be, it is very strongly embedded.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The children in this case have been badly served both by their parents and in my view by the family justice system. Although doubtless everyone involved has acted with the best of intentions, believing they were acting in the children&#8217;s best interests, in practice the last year has been devastating for the entire family.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given that this hearing is unlikely to be end of this unfortunate saga, and the ongoing dispute about contact, it is appropriate that I set out my reasoning for making the orders that are now agreed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I fully accept Judge Watson&#8217;s judgment and the facts that she found. I also accept that I have the immense benefit of hindsight.  However, I do not think that the label of parental alienation is at all helpful, indeed in this case it has been thoroughly unhelpful, by embedding conflict and a sense that one parent is right and justified, and the other parent wrong and has acted inappropriately. This case is an example of how the adversarial process of litigation, particularly when combined with lengthy delays, serves to entrench positions and produce poor outcomes for the children. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was clear from the Mother&#8217;s oral evidence that she allowed her anxieties and her own issues with the Father to influence the children. I can imagine that she found it extremely difficult to hide her worries from the children and that probably unintentionally she had put the children in a position where they felt they had to support her, and reject their father, in order to be loyal to her. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is also clear that she was quick to abdicate responsibility, whether to professionals or the children themselves, and not to actively seek to persuade the children to have contact with the Father.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although I think she has learnt some of the relevant lessons, both from the trauma of the last year and from her work with Dr Chaudhry, I remain very worried that she may slip back into allowing Z in particular to dictate the terms of engagement. I fully support her continuing the sessions with Dr Choudhry and the PAP programme. It is essential that she learns strategies going forward for more actively, and perhaps at times more forcefully, parenting the children. It is not sufficient for the children to talk to her and feel supported, there are times as a parent when it is necessary to lead and to tell children to do things they don&#8217;t want to do.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, these faults in parenting are by no means unusual or unique. There were many stages of the evidence when I felt that the Mother was being judged by unfair and unrealistic standards. The Mother may be somewhat passive and over anxious, but for these faults to lead to her not seeing her children, save in the most limited extent, for months on end, was in my view disproportionate and ultimately counter-productive. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Some of the criticism of the Mother&#8217;s conduct was not merely unfair it bordered on the inhumane. The Mother was denied any contact with her children between March and July 2022. When she was told in June that X was at the school fence very much wanting to see her mother she went and gave X a hug. She was criticised in cross examination for acting inappropriately by breaking &#8220;the rules&#8221;. I consider that the Mother acted as any loving parent in her situation would have done. Somewhere in the history of this case we have lost our humanity. Ms Tyler submits that this paragraph may be taken to justify parents breaching safe contact arrangements. That the Mother breached an order may be clear, but the failure to understand why she did so, and judge it with some humanity is what has been lacking in this case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The children&#8217;s relationship with their Father is undoubtedly very important. All children have, save in the most exceptional circumstances, a right to know their parents and it is important for their long-term psychological wellbeing that that they should do so.  But on the facts of this case that objective has been pursued in a way that is likely to be counterproductive and ultimately destructive of the children&#8217;s wellbeing and quite possibly their long-term relationship with their father. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Father undoubtedly loves the children and wants to do the best for them, but I fear that he became so fixated on preserving or re-creating his relationship with them that he has lost proper insight into the impact of his decisions and actions upon them. The fact that he was at some points supported by the LA and the Guardian does not abrogate the need for him to adopt a genuinely child-centred approach. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He was asked what mistakes he had made, and he struggled for an answer. He could not see that there are a series of choices he has made over the last 12 months which have served to antagonise the children, without apparently him having had any consciousness of the impacts. He pursued  the Reunification Plan which had the aim of &#8220;providing space for the children to rebuild their relationship with their father&#8221;, but in practice  forced the children to leave their Mother in the most traumatic of circumstances; he supported Z being put into foster care where she was isolated from her entire family; in June 2022 he applied for X to change school against her wishes and when it would result in her losing her friendship group; he pursued Z being subject to an ICO at the Interim Resolutions Hearing although this would have had no possible benefit and was strongly against Z&#8217;s wishes. Even at this hearing he continued for the first part of the hearing to want Z to be made subject to a supervision order even though she desperately wants to be free of any order and of proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As far as I could ascertain, the Father had failed to consider the impact of these choices on the children, and in each case he was driven by his desire for a continued relationship with the children, rather than their wishes or the importance of them having a relationship with each other. I can accept his belief of the great importance of them having a relationship with their Father. I find it much more difficult to accept the degree to which he has prioritised that relationship over their sibling relationship and over their strongly expressed wishes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Tyler argues that without the Reunification Plan the Father&#8217;s relationship with X would not have been re-established, and that X has been happy for the most part with the Father during the 9 months she lived with him and his partner. It is not possible to be confident about what would have happened without the orders made in March 2022. I accept X did appear to be reasonably content, and at times had a good time, with her Father through that period. However, she was consistently saying she wanted to live with her mother and sister. X must have felt that her voice was being ignored, and her compliant behaviour not rewarded. This is an example of a case where by March 2022 there were no good options. However, the option that was chosen has not had a good outcome, albeit this is with the great benefit of hindsight. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In deciding what orders to make in this case it is important to return to first principles. The paramount issue for me is the child&#8217;s best interests. In determining that issue I must have regard to the welfare checklist. The family justice system makes frequent reference to the wishes and feelings of the children, and the need to listen to the voice of the child. However, in this case the voice of the children has in my view been lost. Both children have been completely clear and consistent that they want to live with their Mother and that they want full contact with each other, and also with S &amp; T. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Father places much weight on the fact that X lived with him for 9 months apparently happily and having a good time. He is baffled by her actions on 6 January. However, X had been completely consistent throughout this time that she wanted to return to her Mother and be with Z. I have no doubt that X loves her Father. X was prepared to stay with him. However, her actions entirely accord with what Ms Rayworth said. She believed she was placed with her Father for 3 months, then this was extended and by January with the hearing approaching she saw an opportunity to go back to her Mother and she took it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She is an incredibly conflicted child who has been put in a horrible situation by adults who should have known better, but she has been clear by her actions and her words that she wants to live with her Mother and not her Father. I very much hope when these proceedings end, and the various pieces of work are undertaken, she will be prepared to see her Father and to resume a relationship which she undoubtedly enjoyed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parents and children in this case need a break from proceedings; the parents need time to undertake work by which both of them can learn to parent together in a way that helps their children; and the parents and children need to undertake relevant therapy to try to help them reconstruct relationships. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no question but that Z should remain with her mother. There is little benefit to her being subject to any public law order, and she is understandably adamantly opposed to any such order. I therefore make no order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> In relation to X, I find that threshold is met and a Care Order is made. I accept that it is sensible that whilst at least the first stage of this happens she should live with the Hs. I have no reason to believe the Hs will not promote contact between X and the Father once this hearing is finished and the dust has slightly settled. Ms Rayworth was confident that was the case, and I believe both the Mother and B will encourage the Hs to support contact.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But whilst X is living with the Hs I am clear that she should have much more extensive contact with Z and with S &amp; T. The LA&#8217;s plan going forward makes provision for this level of contact and I hope moving towards more natural contact with the Mother and B. However, the details of how this will be achieved and the gradual increase in contact is a matter for the LA. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

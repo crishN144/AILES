@@ -1,0 +1,986 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2007/1902"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2007/1902"/>
+	  <FRBRdate date="2007-08-01" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1902"/>
+	  <FRBRname value="LM, Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/1902"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/1902"/>
+	  <FRBRdate date="2007-08-01" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/1902/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/1902/data.xml"/>
+	  <FRBRdate date="2024-10-28T05:31:54" name="transform"/>
+	  <FRBRdate date="2024-11-13T09:11:44" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2007-08-01" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-sir-mark-potter" href="/judge-sir-mark-potter" showAs="SIR MARK POTTER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2007</uk:year>
+	<uk:number>1902</uk:number>
+	<uk:cite>[2007] EWHC 1902 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>5ac3a3ec511d4b5c3b4f25fcb02fe18a5026c51c1067bfba26b0cf088bf303ba</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">SIR MARK POTTER THE PRESIDENT OF THE FAMILY DIVISION</span></p>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Approved Judgment</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"><span style="font-family:'Times New Roman';font-size:8pt">LM</span></p>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2007] EWHC 1902 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>HB04C00060</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2007-08-01" refersTo="#judgment">01/08/2007</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-sir-mark-potter">SIR MARK POTTER</judge></p>
+      <p class="CoverMain" style="text-align:center">THE PRESIDENT OF THE FAMILY DIVISION</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <table uk:widths="1.45in 3.7in 1.19in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">Re: LM</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(Reporting Restrictions; Coroner&#8217;s Inquest)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mary Lazarus </span>(instructed by<span style="font-weight:bold"> Legal Department</span>) for the <span style="font-weight:bold">A Local Authority</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Alison Ball QC and Aviva Le Prevost </span>(instructed by<span style="font-weight:bold"> Harney &amp; Co</span>) for the <span style="font-weight:bold">First Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Paul Storey QC and Rebecca Brown </span>(instructed by<span style="font-weight:bold"> Holden &amp; Co</span>) for the <span style="font-weight:bold">Second Respondent</span></p>
+      <p style="text-align:center">Malcolm Chisholm (instructed by <span style="font-weight:bold">Stephen Rimmer &amp; Co</span>) for the<span style="font-weight:bold"> Guardian</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Damian Woodward-Carlton </span>(instructed by) for the <span style="font-weight:bold">HM Coroner</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Guy Vassall-Adams </span>(instructed by<span style="font-weight:bold"> Times Newspapers Limited and the BBC</span>) for the The Media</p>
+      <p style="text-align:center">Hearing date: 16 May 2007</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:center">SIR MARK POTTER THE PRESIDENT OF THE FAMILY DIVISION</p>
+	    <p style="text-align:justify">This judgment is being handed down on 1 August 2007.  It consists of 24 pages and has been signed and dated by the judge.  The judge hereby gives leave for it to be reported.</p>
+	    <p style="text-align:justify"> The judgment is being distributed on the strict understanding that in any report no person other than the advocates or the solicitors instructing them (and other persons identified by name in the judgment itself) may be identified by name or location and that in particular the anonymity of the children and the adult members of their family must be strictly preserved.</p>
+	    <p>Sir Mark Potter, P : </p>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These proceedings concern LM, a small girl born on 3 September 2001 and now aged 5 years 11 months who is presently living in foster care with a view to adoption.  She is, for reasons which will appear, a troubled and traumatised child.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the beginning of 2004, LM, aged 2&#189; was living, together with her older sister L aged 3 years 9 months in the care of her mother.  Her younger brother H had died at the age of 7 months in August 2003.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 2 February 2004, L was found dead in suspicious circumstances.  LM was immediately removed and placed in care for a brief period with a foster family, being returned to the care of her father (now living separately from the mother) under an interim care order on 5 May 2004.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fact-finding hearings in relation to L&#8217;s death were conducted by Charles J in the Family Division between 22 November and 2 December 2004 and 24 January and 28 January 2005.  In the course of those hearings the circumstances surrounding the earlier death of H were examined, but the cause of his death was not ascertained.  However, in his judgment dated 8 March 2005 Charles J concluded that, according to the civil standard of proof applicable in care proceedings, the mother had caused the death of L through physical ill-treatment.  That judgment is reported as <span style="font-style:italic">A Local Authority v K, D and L</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2005/144" uk:canonical="[2005] EWHC 144 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWHC 144 (Fam)</ref>, [2005] 1FLR 851.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the beginning of September 2005, LM was removed from her father&#8217;s care and put into the care of foster carers with whom she has remained to this day.  The reason for her return to foster care was that her father, despite undertaking not to do so, had allowed the mother to have frequent and unsupervised contact with LM in his home.  He stated that he wished to resume living with the mother and would no longer contest LM being placed for adoption.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Charles J made a final care order in respect of LM in March 2006.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The position of both parents now is that they accept that it is in LM&#8217;s interests to be the subject of adoption or long-term fostering and they do not seek further contact with her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 26 February 2004, prior to the hearing before Charles J, HM Coroner opened an inquest into the death of L, which was adjourned.  On 23 January 2006, Charles J made an order permitting the local authority to disclose to the Coroner and the police various documents from the care proceedings, including his anonymised judgment and the reports of experts as to the causation of L&#8217;s injuries.  The purpose of that order was to enable the Coroner to continue his enquires and specifically to decide whether to make a referral to the Director of Public Prosecutions.  The Guardian requested in correspondence that the Coroner should, before taking any steps that might lead to the identity of LM becoming known in the public domain, return the matter to this court.  The recital to the order of 23 January 2006 records the agreement of the Coroner to this course.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Coroner is now minded to resume the inquest and has sought directions from this court to enable the inquest to proceed.  He has filed a witness statement dated 24 July 2006 in which he sets out the obligation upon him to conclude the inquest as quickly as possible by a full hearing, no charge of homicide having been brought against the mother to date: see S.16 <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/13" uk:canonical="1988 c. 13" uk:origin="TNA" uk:type="legislation">Coroners Act 1988</ref></span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The position is that the current restriction in the order of 23 January 2006 effectively prevents the Coroner from proceeding, since it appears inevitable that whether or not LM&#8217;s name is mentioned, that of her dead sister and parents, whose surname is distinctive, will be mentioned and publicised, in turn leading to the possible or probable identification of LM as a member of that  family which may adversely affect her welfare for the reasons set out below.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That being so, LM&#8217;s Guardian, supported by the local authority and the parents of LM, seeks a reporting restriction order to protect LM from such identification.  Upon their case, that requires an order preventing the press and other media from reporting the names and addresses not only of LM but also of both parents and H and L, or of particulars otherwise leading to their identification.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is considerable media interest in the pending inquest.  Times Newspapers Limited (TNL) and the British Broadcasting Corporation (BBC) (&#8220;the media&#8221;) oppose the reporting restrictions sought, in so far as they relate to the mother, father, H and L.  They recognise the delicacy of the situation so far as LM&#8217;s welfare is concerned and do not oppose any reporting restrictions relating to LM which prevent reference to her or mention of her existence in press or media reports of the inquest or otherwise.  However, in relation to her deceased siblings and her parents, they submit that no such restriction is justified.  In relation to the principles involved and the approach which they submit that this court ought properly to adopt, they rely upon the decision of the House of Lords in <span style="font-style:italic">Re S (A Child) (Identification: Restrictions on Publication)</span> [2005] 1AC 593 which laid down the principles to be applied in relation to the liberty of the press freely to report criminal proceedings for homicide in circumstances not dissimilar from those arising in this case.  They submit that there are no reasons why the same principles should not be applied to inquest proceedings, concerned as they are with the public examination of circumstances surrounding the death of an individual in circumstances calling for inquiry.  In this case, of course, there are strong factual similarities with <span style="font-style:italic">Re S</span> in that the application for restrictions is being made on behalf of a child whose sibling was killed by his/her mother; the focus of the forthcoming proceedings and any publicity surrounding them is upon the mother (and it may be the father) and the deceased child; the surviving sibling on whose behalf the application for reporting restrictions is made is a child who has been taken into care.  The principal difference is that the proceedings concerned are an inquest into the death of the child rather than a criminal trial. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The present position of LM</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As indicated above, LM has been placed with the same devoted foster carers ever since September 2005, under an approved care plan to seek adoptive parents who will become her new family and will care for her throughout her subsequent childhood.  As already observed she is a traumatised child.  At the age of only 3 she was alone in the house with her mother and L when L&#8217;s death occurred and, in the opinion of the experienced child psychologist, Mrs S, who has examined and reported on her, it is likely that she witnessed some of the events at the time.  Some months later, as already noted, she was left alone on frequent occasions in the care of the mother.  She has been diagnosed as having post-traumatic stress disorder (PTSD) and she is a child who presents worrying behaviour.  On one fairly recent occasion she appeared to attempt to strangle a younger child in her present foster family with the result that she now has to have adult supervision whenever she and the younger child are together.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although LM is doing well at school, she has become somewhat disruptive and has required checking on several occasions.  She is increasingly showing signs of distress and crying at school, having learned that she will at some stage have to move from her present carers to whom she is attached.  Because of the risks posed to their younger child as a result of the recent incident, a bridging placement with new foster parents was considered for LM while an adoptive placement was sought.  However, the proposed new foster family withdrew on learning of the complexity of LM&#8217;s situation and the difficulties which her care presented, and because they felt her to be happy with her present carers and did not wish to be responsible for moving her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">LM is currently the subject of a nationwide search for adoptive parents by the local authority, the local authority having failed to find within their locality an adoptive family able to or prepared to cope with the problems which beset LM.  It is important to note, however, that the unwillingness of potential adopters to adopt LM has centred upon those problems and not upon any potential issue of publicity.  That is possibly because, in the process of initial contacts being made and information given, the local authority had not yet reached the stage of acquainting the potential adopters with the detailed circumstances out of which LM&#8217;s complex difficulties arise and they were thus not yet aware of the possibility of publicity arising in relation to the proposed inquest or any future criminal proceedings against the mother, should they eventuate. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">LM&#8217;s current position is that her present foster carers are looking after her and co-operating with the local authority&#8217;s scheme for her permanent placement by adoption.  They are not putting themselves forward as adopters, but are willing to continue as foster parents until adoption is arranged.  They are deeply understanding of LM&#8217;s problems and co-operate with the therapeutic treatment she has been receiving from Mrs S, a highly qualified and experienced Chartered Psychologist who is retained by the local authority and has been seeing LM monthly for that purpose.  Mrs S will continue to do so and will assist in any eventual move to adoption, which will have to be carefully planned and managed between the proposed adopters, the foster carers and Mrs S as LM&#8217;s therapist. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It appears from the detailed psychological reports of Mrs S which are before me, supported by the statement of KL, LM&#8217;s current social worker, and from the evidence of the Guardian that the problems of LM and her situation are both short-term and long-term in relation to the possible effects of publicity, should her connection with her mother become widely known.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the short-term, there are a number of problems to be tackled in relation to LM&#8217;s care.  So far as her management and therapy are concerned, her behaviour at school has recently become more disruptive and she has required checking on several occasions.  She is becoming avoidant of assemblies of children and has been crying frequently.  At school she disclosed that she felt angry with an (unnamed) child because she had been called &#8216;horrible&#8217; by that child and, on further probing, revealed that it was because the child had said &#8216;she murders people&#8217;.  It seems likely, though it is by no means clear, that this was a reference to something said to her not at school but by one of her foster siblings, following the incident of attempted strangulation to which I have referred.  However, her reaction is indicative of the likelihood of increased feelings of shame and self-blame, should she become aware (whether directly or through the medium of other children as a result of parental gossip) of her situation, namely that she is, and is known to others as, the child of a mother who killed another of her children.  As already indicated, LM is undergoing therapy from Mrs S who is gradually working towards informing and reconciling her to her history and circumstances, with appropriate therapeutic safeguards.  However, the stage has not yet been reached of acquainting her with the fact that her mother has been found to have killed L.  Given that the difficulty will have to be faced at some stage, the immediate concern is the likelihood that a potential adopter, otherwise willing to take on LM in the face of her behavioural difficulties, will nonetheless shy away from adopting her, either for fear of exacerbation of LM&#8217;s situation by the widespread publicity which the inquest is likely to create, or because of the unwelcome attention such publicity may bring to the adopting family.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The position is summed up by the Guardian in his report of 11 May 2007.  As to LM&#8217;s short term position he puts the matter in this way:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;8.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">LM&#8217;s history is a complex and difficult one.  It will be very hard for any potential adopters to understand and work with the highly unusual and traumatic history of this child.  They will need a great deal of support at every stage, they will require support throughout LM&#8217;s childhood, as issues emerge which are related to LM&#8217;s history.  However, there is a limit to the effectiveness of support and all carers have a point beyond which they are unlikely to go.  Being pushed beyond this is likely to result in placement breakdown.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>9.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">In my view, if publicity about LM&#8217;s history is permitted, the task ahead of any potential carers will be made considerably more difficult. [They] will have to consider LM&#8217;s needs and difficulties.  It is very likely that many people would not wish to proceed when they  appreciate the challenges which LM&#8217;s history and needs present.  If there is publicity in addition to these needs, which would be likely to further [impact] on their family life, it is very possible that adopters would either not initially proceed, or that there would be a potential breakdown of her adoptive placement, if she were placed with them.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">There are particularly sensitive points in any placement a child of potential adopters, especially in the early stages; one of these is the period of introductions.  It is invariably an anxious time for foster carers, adopters and the child.  If there were to be the impact of publicity at this stage, the successful completion of introductions would be impeded, or maybe abandoned altogether.  This would have devastating consequences for LM, for her sense of worth and well-being and for the adoptive process itself.  It would be very difficult to attempt another set of introductions to other carers after such a failure.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the longer term position the Guardian states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>11.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">One of the difficulties of publicity is that it cannot be easily contained or managed, so there will always be a potential threat of LM being identified and targeted as the surviving child of her birth family.  This threat over the family life of LM and her potential carers, would have the effect of the family having to be constantly vigilant.  This would place an enormous strain on any possible carers, and it would be a strain without an end in sight, as presumably public attention would re-focus on LM and her family at any time, without warning.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Guardian concludes:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>12.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">In my view, the task of finding a family for LM is undoubtedly going to be difficult.  Despite enquiries,  there are no guarantees that potential adopters will come forward, especially when they are told about LM and her history.  If there is the further issue of the threat of media interest in this child and her birth family, the family finding task will inevitably be made considerably harder, if not impossible, with the result that LM will remain a child waiting for a &#8216;forever family&#8217;.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>13.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">It is sadly the reality that potential adopters are less interested in an older child.  LM is already 5.  As weeks, months, years progress, there will therefore be a decreasing possibility of LM finding a permanent family.  This will result with her remaining in the care system, not necessary with her present carers, as they are already under pressure due to the strangulation incident.  If LM remains in the care system, her sense of worth, security and identity would undoubtedly be further damaged.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>14.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">It is therefore essential for LM, and for her chance of having a family life, that every support is given to finding an appropriate family for her, and to sustaining that family in caring for LM into the long-term.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>15.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">In my view, publicity will only serve to hamper and hinder this important task for LM&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So far as LM&#8217;s longer term welfare is concerned, it is made clear by Mrs S in her reports that the effects of publicity are not necessarily limited to the short-term.  The uncertainty of whether and when publicity may re-occur is a continuing phenomenon and, in traumatised children such as LM, creates continuing anxiety which persists in adolescence.  If, some years later, there is indeed further re-reporting or public discussion of a case which, like this, is likely to receive considerable publicity and public interest, it can have very adverse effects.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is put by Mrs S in her report dated 4 May 2007 in this way:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;3.2.2</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">[The release of the information] is likely to be re-traumatising for her; not only at the time of the release that might be somewhat contained and controlled as discussed in my previous reports; but later on, as she progresses through childhood and adolescence when it will not be so contained&#8230;.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.2.3</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">The problem being that at any time something similar comes up or where a precedent has been set, old related information is also publicised&#8230;. Just the name may be enough to provoke re-traumatisation in a vulnerable child.  In LM&#8217;s case she is already sensitised through her sibling&#8217;s name and to the names of her parents.  Furthermore it has not been possible to identify all the situational traumatic reminders for her yet.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.2.4</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">In my clinical experience of working with other children who are making good progress [and who were not as severely traumatised, as young or as vulnerable as LM], some have been re-traumatised as a result of information related to their cases being re-published some time after the event, or even just similar cases being publicised.  This resulted in problems at school and in some cases their placements even broke down&#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.2.6</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">One of the reasons it is particularly devastating is because they did not know it was going to happen; and then, where or when, it could or would happen again, some were alone at the time&#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.2.7</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">The uncertainty of when it may re-occur again after that, in my clinical experience, can also persist and create anxiety, which then affects any healing process.  This is because for the individual the trauma is not over, but it is still present and persisting into the future in a tortuous way.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.2.9</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">LM is still very young and has only her young child&#8217;s understanding of what has happened.  As she grows up she is going to have many questions and need many answers to understand what has happened.  She needs to be given the factual information in a safe environment from a trusted adult in a gentle way, titrated to her level of development and emotional needs at the time she asks them.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her oral evidence before me, Mrs S made it clear that LM is suffering from post-traumatic stress disorder and attachment disorder as the result of her experiences.  Her behaviour suggests that she has witnessed abuse.  A pen picture is that she has lost trust in adults in her world; she relates to and has accepted her foster carers and the teachers at her school; but she treats the outside world with extreme vigilance and suspicion.  She does not speak of her mother in the course of therapy if she can avoid it and says little about her father.  Her position is analogous to that of a traumatised refugee child who does not wish to go back and needs undisturbed development in the present.  There are a number of triggers which occasion fearful or difficult behaviour on her part and can cause her either to hide, or to engage in attention-seeking behaviour.  If she vomits, makes a mess, drops things or hears screaming, she will react with fear or hysteria, sometimes &#8220;freezing&#8221; or seeking to hide, sometimes acting aggressively, and sometimes panicking.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is plain that she has considerable fear of her mother and loved her sister; reminder of either is painful to her.  The full nature of her problems, and the discovery of the reasons for the triggers to her erratic behaviour which are necessary to endow her with the self-knowledge to overcome them, require therapy over a prolonged period, in a controlled manner, and without interruption by outside influences with which she cannot cope.  Those problems require to be explored within the confines of a new family, protected at school by teachers aware of her problem; there is real danger of serious upset and setback from the effect of any uncontrolled publicity; exposure to curiosity from outside the family circle would be particularly upsetting, whether by way of remarks in the playground before an audience of other children, or by hearing or seeing on radio, television or in the paper, reference to her family name or photographs of her mother and father.  Any taunting or bullying by children as a result of publicity or parental gossip would be particularly harmful and likely to trigger further aggressive and attention-seeking behaviour.  It is of particular importance that, introduced as LM will have to be, to the fact that a judge found that her mother had killed her sister, it should come, not as a surprise via outside agencies, but in the course of exploring and thinking about her life in conversation with a therapist.  Imparting knowledge of that fact will have to be planned in advance with LM&#8217;s carers who will need to be emotionally available to her to cope with that knowledge.  That time has not yet been reached and it is the hope and intention of Mrs S to delay it until about a year after LM is settled in her adoptive or long-term placement.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The applicable law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is accepted between the parties that the decision of the court in an application of this kind is not one simply based on the welfare interests of the child.  Hitherto made under the inherent jurisdiction of the court, it is now best regarded as an exercise in balancing the rights of the media under Article 10 of the European Convention on Human Rights (&#8216;the Convention&#8217;) and the Article 8 rights of the child on whose behalf the application is made  (See per Lord Steyn at para [60]).  That is the exercise which must be performed in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So far as that exercise is concerned, its elements have been thus described:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;First, neither article has as such precedence over the other.  Secondly, whenever values under the two articles are in conflict, an intense focus on the comparative importance of the specific rights being claimed in the individual case is necessary.  Thirdly, the justifications for interfering with or restricting each right must be taken into account.  Finally, the proportionality test must be applied to each.  For convenience I will call this the ultimate balancing test.  This is how I will approach the present case.&#8221;  (See para [17] of <span style="font-style:italic">Re S</span>)</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">A Local Authority v W and others</span>[2006] 1 FLR1, I described the balancing exercise in the following terms:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The exercise is one of parallel analysis in which the starting point is one of presumptive parity, in that neither Article has precedence over or &#8216;trumps&#8217; the other.  The exercise of parallel analysis requires the court to examine the justification for interfering with each right and the issue of proportionality is to be considered in respect of each.  It is not a mechanical exercise to be decided on the basis of rival generalities.  An intense focus on the comparative importance of the specific rights being claimed in the individual cases is necessary before the ultimate balancing test in terms of proportionality is carried out.  Having so stated, Lord Steyn strongly emphasised the interest in open justice as a factor to be accorded great weight in both the parallel analysis and the ultimate balancing exercise and stated that, at first instance, the judge had rightly so treated it.&#8221;  (Para [53] at p.19)</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The emphasis on the importance of maintaining the principle of open justice has been repeatedly emphasised since the seminal exposition in <span style="font-style:italic">Scott v Scott</span> <ref href="#" uk:canonical="[1913] AC 417" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1913">[1913] AC 417</ref>; and periodically restated in judgments such as those of Lord Diplock in <span style="font-style:italic">A-G v Leveller</span> <ref href="#" uk:canonical="[1979] AC 440" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1979">[1979] AC 440</ref> at 449- 450, Lord Woolf MR in <span style="font-style:italic">Ex p Kaim Todner</span> <ref href="#" uk:canonical="[1999] QB 966" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] QB 966</ref> at 977 and Dame Elizabeth Butler-Sloss P in <span style="font-style:italic">Clibbery v Allan</span> <ref href="#" uk:canonical="[2002] Fam 261" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] Fam 261</ref> at para 16.  This principle extends to the right of the media freely to report the identity of the defendant and witnesses in criminal proceedings despite the adverse effects on the Article 8 rights of  a child who was not so involved, which was the question under consideration in <span style="font-style:italic">Re S</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At paragraph [30] of that decision, Lord Steyn referred to the judgment of Hale LJ (as she then was) in the Court of Appeal in which she drew a distinction between imposing a fetter upon the press in the form of restricting publication prior to conviction and doing so afterwards, on the ground that there was &#8216;a much greater public interest in knowing the names of the persons convicted of serious crime than those who are merely suspected or charged&#8217;.  Lord Steyn stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[30]&#8230;I cannot accept these observations without substantial qualification.  A criminal trial is a public event.  The principle of open justice puts, as has often been said, the judge and all who participate in the trial under intense scrutiny. The glare of contemporaneous publicity ensures that trials are properly conducted.  It is a valuable check on the criminal process.  Moreover the public interest may be as much involved in the circumstances of a remarkable acquittal as in a surprising conviction.  Informed public debate is necessary about all such matters.  Full contemporaneous reporting of criminal trials in progress promotes public confidence in the administration of justice. It promotes the values of the rule of law.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">[31] For these reasons I would, therefore, attribute greater importance to the freedom of the press to report the progress of the criminal trial without any restraint than Hale LJ did.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The right of the press to report such proceedings is an important aspect of the right to freedom of expression contained in Article 10 of the Convention.  The European Court of Human Rights has emphasised &#8216;the interests of a democratic society in enabling the press to exercise its vital role of &#8216;public watchdog&#8217; by imparting information of serious public concern&#8230;&#8217; and that emphasis finds expression in s.12 of the <span style="font-style:italic">Human Rights Act</span> 1998 which provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">This section applies if the court is considering whether to grant any relief which, if granted, might affect the exercise of the Convention right to freedom of expression.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in;text-indent:-0.57in">&#8230;&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(4)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1.57in">The court must have particular regard to the importance of the Convention right to freedom of expression and, where the proceedings relate to the material which the respondent claims, or which appears to the court to be journalistic&#8230;. material (or  to conduct connected with such material),<marker name="tab"/> to &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.57in;text-indent:0.43in">the extent to which &#8211;</p>
+		      <block name="embeddedStructure"><embeddedStructure>
+			  <paragraph>
+			    <num>(i)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.97in;text-indent:0.04in">the material has, or is about to become available to the public; or</p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num>(ii)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.97in;text-indent:0.04in">it is, or would be, in the public interest for the material to be published;</p>
+			    </content>
+			  </paragraph>
+			</embeddedStructure></block>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.39in;text-indent:0.29in">any relevant privacy code.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst recognising the &#8216;fact sensitive&#8217; nature of the balancing exercise to be performed by the court on any application based solely upon Article 8 of the Convention, the decision in <span style="font-style:italic">Re S</span> emphatically underlined the weight to be accorded to the Article 10 rights of the media in respect of court proceedings and in particular in criminal trials.  In this connection it was regarded as important that s.39 of the <span style="font-style:italic">Children and Young Persons Act</span> 1933 represented a legislative choice by Parliament to restrict the right of the court to impose reporting restrictions to identification &#8216;of any child or young person concerned in [any] proceedings [in any court], <span style="font-style:italic">either as being the person by or against or in respect of whom the proceedings are taken, or as being a witness therein&#8217;</span>.<span style="font-style:italic"/>Any application based on a free-standing breach of the Article 8 rights of a child otherwise affected by court proceedings has to be approached in that light.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Subject to the question whether there is room for a difference of approach as between the reporting of a criminal trial and inquest proceedings, the features which emerge from <span style="font-style:italic">Re S</span>  which are relevant to this case appear to me to be as follows.</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in;text-indent:0.5in">The ordinary rule is that the press, as watchdog of the public, may report everything which takes place in a criminal court.  As an aspect of the principle of open justice it acts as a check on the judicial process, stimulates informed public debate and promotes public confidence in the administration of justice.  It is a strong rule which can only be displaced by unusual or exceptional circumstances where justice so requires.  (See in particular paragraphs [18] and [26] of <span style="font-style:italic">Re S</span>).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in;text-indent:0.5in">In relation to a child not concerned in criminal proceedings as a defendant or witness, there has been a legislative choice not to extend to them the right to restrain publicity which might lead to their identification.  This is a factor which cannot be ignored.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in;text-indent:0.5in">The interference with the Article 8 rights of a child in such circumstances, however distressing for the child, is not to be regarded as of the same order when compared with cases of juveniles who are directly involved in criminal trials (paragraph 27).  However, in this connection, it is to be noted that in <span style="font-style:italic">A Local Authority v W and others</span> [2006] 1 FLR1 it was observed at paragraph [60] that if it is clear from the evidence that real and substantial damage to a child&#8217;s Article 8 rights is likely to result if the injunction sought is not granted, which damage would otherwise not occur, the distinction between the involvement and non-involvement of that child in criminal proceedings does not go to the core of the balancing exercise to be performed by the court.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in;text-indent:0.5in">The reporting of a trial without the name of the defendant (or, as it is submitted, an inquest without the name of a person whose actions are likely to give rise to a finding of unlawful killing) renders the proceedings a &#8216;disembodied&#8217; affair of less interest to editors and readers to the detriment of informed debate about criminal justice or the implications of a particular case  (Paragraph 34).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(5)</num>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.5in;text-indent:0.5in">The need for the media to resist applications for injunctions by parties not directly involved in court proceedings of a sensational or serious nature has a negative effect on contemporary reporting and, particularly in the case of local newspapers, a &#8216;chilling effect&#8217; by reason of the high cost of such proceedings.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">All that said, it was acknowledged in <span style="font-style:italic">Re S</span> at paragraph [17] and emphasised in <span style="font-style:italic">A Local Authority v W and others</span> at paragraphs [53] and [59] that each case must be carefully examined on its merits, with the effect that in the latter case, an injunction was indeed granted to prevent the likelihood of the false long-term attachment of the personal attribution of HIV infection to the children concerned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I now turn to the question of whether it is appropriate to proceed on the basis that any different principle or emphasis is called for in the court&#8217;s approach in this case on the ground that it is here dealing with an application in relation to inquest proceedings rather than a criminal trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In that respect I have been referred to judicial observations made in two decisions concerning anonymity granted to witnesses at inquests in both of which police officers who had caused or been involved in the death being investigated sought and were granted anonymity in cases where, if publicity were given to their identity, they reasonably feared for their personal safety and that of their families.  The first decision, that of Burton J in <span style="font-style:italic">R v Bedfordshire Coroner Ex P Local Sunday Newspapers Limited</span> (1999) 164 JP 283 was decided prior to the coming into force of the <span style="font-style:italic">Human Rights Act</span> 1998 in October 2000 and appears to have been decided without reference to the Convention or <ref href="http://www.legislation.gov.uk/id/ukpga/1988/13/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.12</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/13" uk:canonical="1988 c. 13" uk:origin="TNA" uk:type="legislation">that Act</ref>.  However, both that decision and the decision in the second case, <span style="font-style:italic">Family of Derek Bennett v Officers &#8216;A&#8217; and &#8216;B&#8217; and others</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/1439" uk:canonical="[2004] EWCA Civ 1439" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 1439</ref> (CA) were concerned with a situation in which the balancing exercise involved in the decision was that between open justice (Article 10) considerations on the one hand, and right to life (Article 2) considerations on the part of the applicant witnesses concerned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the <span style="font-style:italic">Bedfordshire Coroner</span> case, Burton J stated, and proceeded upon the basis, that it was common ground between the parties that</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">The fundamental principle at stake is one of open justice.  It is important that justice both in the courts and in the courts of record, such as the Coroner&#8217;s courts, be done in public thus not only that the public have access to the court but they have access to the information given in court unless an exception to that rule is established to be necessary.  This principle was originally laid down, and has often been repeated thereafter, in <span style="font-style:italic">Scott v Scott</span> <ref href="#" uk:canonical="[1913] AC 417" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1913">[1913] AC 417</ref>.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>2.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.57in">Departure from that general rule must be an exception and such exception must be regarded strictly &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">It is plain from what followed that Burton J proceeded on the basis of essentially the same domestic jurisprudence as that referred to by Lord Steyn in <span style="font-style:italic">Re: S</span>. Having held that there was an objectively justifiable fear by the officer concerned for his personal safety and that of his family, Burton J held that the Coroner had been right to impose reporting restrictions as to his identity.  In the course of his reasoning, Burton J observed at 288F that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The nature of the hearing must be relevant.  It is likely to be more difficult for there to be such restrictions imposed in a criminal trial, where, for example, an accused&#8217;s lawyers may or will need as much information as they can about a witness in order to be able to challenge credibility, than an inquest or inquiry where, as here, the Coroner in any event knew the identity of the witnesses.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the case of <span style="font-style:italic">Derek Bennett</span> in which the Court of Appeal in judicial review proceedings upheld a Coroner&#8217;s decision to grant anonymity to police witnesses, the matter was debated expressly in the context of Article 10 and Article 2 rights.  In stating his conclusion that anonymity should be granted to the two officers at least until the conclusion of the inquest Gage LJ observed:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Once Article 2 is engaged in my opinion it is also inevitable that the application of the third test would result in the order made by the judge.  Put simply there are no countervailing considerations of sufficient weight to tip the balance in favour of an order for anonymity being refused.  It is relevant to note that the respondents will still have to give evidence before a jury.  Their evidence will be given by video-link and will be subject to cross-examination.  <span style="font-style:italic">This is not a case where the court is concerned with the trial of a defendant.  It is a fact-finding exercise conducted by the Coroner and the jury.  The appellant&#8217;s interest in the proceedings, although very important and significant, is not in the same category as the interest of a defendant in a criminal trial</span>.  When the verdict has been reached by the jury the Coroner will be able to reconsider the issue of anonymity in the light of the jury&#8217;s verdict and further submissions made to her.&#8221;  (emphasis added)</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not think it necessary or desirable for the purposes of this case to reach any general conclusion or to state any general principle in respect of the circumstances in which it may be appropriate to make an order protecting the identity of a witness in an inquest where no such protection would be afforded in criminal proceedings.  In my view the state of the jurisprudence and the principles stated in <span style="font-style:italic">Re S</span> are broadly those applicable to all courts of record where an application is made by a party who is <span style="font-style:italic">not</span> involved directly in those proceedings, either as the object of the inquiry or as a witness, but seeks an order on the basis of an interference with his or her Convention rights.  I can well see, however, that while the balancing exercise which the court will have to perform will be the same, the outcome may well be different where the Convention rights with which the court is concerned arise under Article 2 rather than Article 8.  Thus, in dealing with this case, I derive no real assistance from the observations of Burton J and Gage LJ to which I have been referred.  More importantly to me, as it seems, is the fact that the starting point in both decisions was, and must be, the principle of open justice with a strong emphasis on the Article 10 rights of the press, as adumbrated in <span style="font-style:italic">Re S</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Albeit, if the inquest proceeds, it will be likely to do so subject to the considerations and limitations set out in <span style="font-style:italic">R v HM Coroner for North Humberside and Scunthorpe, Ex parte Jamieson</span> <ref href="#" uk:canonical="[1995] QB 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] QB 1</ref>, and thus the Coroner or jury will not be concerned to determine the question of the criminal liability of the mother or to appear to do so, it will nonetheless be concerned thoroughly to investigate a situation in which, in civil proceedings already conducted, in the High Court, a Judge has found as a fact that the mother was responsible for her child&#8217;s death. The issue is whether or not, in such circumstances, the protection of anonymity provided to the mother in relation to those proceedings should extend also to the public consideration at an inquest of the circumstances, in which a finding of unlawful killing will be under active consideration.  If it be, as suggested by the judgment of Charles J and the opinion expressed by  Mrs S giving evidence in this case, that the mother continues to pose a danger to any child in her care, then there seems to me positive reason why her identification is in the public interest.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Against that background the submissions of the parties are as follows.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Coroner</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Coroner advances no submissions separate from those of the other parties to this application as to the need or otherwise for reporting restrictions.  His position is simply to have matters resolved so that he is able to conduct the inquest without further ado.  He envisages resuming the inquest either in late August or in September, the precise date depending upon the availability of medical witnesses.  Having received and considered that evidence, he will decide how further to proceed.  He has the ability to hold inquests in a number of towns in the area covered by his appointment as Coroner and he indicates a willingness to explore moving the venue for the inquest to a town as far as practicable from that in which LM lives with her foster carers.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Guardian and Local Authority</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The submissions of the Guardian and the Local Authority, who make common cause, may best be summarised in this way.  They accept the principles of law to be applied as I have stated them above, and that the burden of proving LM&#8217;s entitlement to an injunction in the terms sought is a heavy one.  However, they emphasise the &#8216;fact specific&#8217; nature of the court&#8217;s task in balancing the Article 10 and Article 8 rights involved; and in this connection they submit that the essentially unchallenged risk of harmful disruption to LM&#8217;s therapeutic progress and the consequent likely effect upon her prospects of placement for adoption (a) place LM in the &#8216;unusual and exceptional&#8217; category recognised in <span style="font-style:italic">Re S</span> as rendering a protective injunction potentially available and (b) justify the restriction sought to be placed upon the right of the press freely to report proceedings  as a measure proportionate to what is at stake in respect of LM&#8217;s Article 8 rights if no such order is made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So far as the likelihood of extensive publicity is concerned, the Guardian and Local Authority submit that the inquest is not only likely to be treated as major local news but is also likely to be subject to extensive national coverage, already being firmly on the radar of media news organisations, not least the Times Newspaper Limited  and the BBC who oppose the making of the order in the terms sought.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That being so, the risk of the publicity adversely affecting LM&#8217;s Article 8 rights to private and family life is likely to manifest itself in three particular ways:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.5in;text-indent:0.5in">Directly, through LM hearing or seeing on radio or television mention of the proceedings, in particular the name of her mother and dead sister which are likely to cause her distress and act as traumatic triggers to her disturbed behaviour in the manner already described.  It will also adversely affect her feelings of safety with her current carers and is likely adversely to interfere with, and exacerbate the need for, therapy which could otherwise proceed in a measured manner suited to her needs.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.5in;text-indent:0.5in">Indirectly, through connection by others of LM to the family name, by which she is known at school and the locality.  The most obvious risk is from loose or spiteful remarks made by a schoolchild whose parent has made an association between LM and her mother or her father or L and H.  While it is acknowledged that the school can put in place strategies to guard against bullying, it is submitted that no school can give guarantees against bullying or against careless or hurtful remarks.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="ParaNoNumber" style="margin-left:0.5in;margin-right:0.4in;text-indent:0.5in">Indirectly, through delay in, or defeat of, the adoption process by reasons of the matters set out in the Guardian&#8217;s report quoted at paragraph 21 above.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Upon the basis that there is a strong likelihood that, if the injunction is not granted, the proceedings will adversely affect LM in one or all of the ways described, it is submitted that the case is properly comparable with the decision in <span style="font-style:italic">A Local Authority v W and others</span>, in which a restrictive injunction was granted, rather than being comparable with <span style="font-style:italic">Re S</span> which concerned a less vulnerable child living in a settled situation with his father and who did not face the trauma, disruption and uncertain future of LM.  It is submitted that LM is at risk of being stigmatised as a disturbed child and of becoming an actual perpetrator of harm herself, which risks will be increased if she is exposed to the distressing triggers of her mother&#8217;s or sister&#8217;s name or picture appearing in connection with the inquest.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Father</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father has supported the Guardian&#8217;s application and the submissions made on behalf of the Guardian and Local Authority.  On the question of proportionality, Mr Paul Storey QC emphasises the distinction between the prosecution of an individual by the adversarial process in the criminal courts in respect of which overwhelming weight is given to the unrestricted right of the press to report proceedings, including the identity of the perpetrator and the victim (see <span style="font-style:italic">Re S</span>) and proceedings in the Coroners Court where the process is inquisitorial, the verdicts which can be reached are heavily circumscribed and the liberty of the subject is not directly at risk.  He submits that, so far as proportionality is concerned, it is a relatively small restriction of press freedom under Article 10 to place an embargo on the reporting of names and photographs in the face of the high risk of resulting harm to a highly vulnerable LM.  In this connection he submits that, if a verdict of unlawful killing is returned at the inquest, accompanied by photographs of both parents, this could cause LM to understand that her father was a killer of one of her siblings when that is not the case.      </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Mother</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The mother similarly supports the position of the Guardian and Local Authority.  Miss Alison Ball QC, who appears for the mother, also emphasises that, in relation to the question of proportionality, the intensity of focus should not simply be directed to the asserted Article 8 rights of the child involved but also upon the Article 10 right claimed.  She makes detailed submissions to the effect that the limitations on publicity sought in the present case, namely an embargo on publishing the names and photographs of the deceased or the parental witnesses would not undermine the openness of the proceedings or impoverish public debate in relation to the issues arising out of them.  She too emphasises that an inquest does not involve an &#8216;accused&#8217;.  She submits that the public have an interest in knowing the answer to the question of how the child died; however the question of the identity of the person responsible is not part of the Coroner&#8217;s remit and therefore not a matter about which the public at large is necessarily entitled to know.  She submits that the interference with the Article 10 rights sought by the Guardian is of marginal importance in comparison to the risks to LM as previously set out.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Media</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For Times Newspapers Limited and the BBC, Mr. Vassall&#8211;Adams puts his case fairly and squarely upon the principles and considerations expounded by Lord Steyn in <span style="font-style:italic">Re S</span>, with all its emphasis upon the importance of non-interference with the right of the press fully to report proceedings as an aspect of open justice.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Vassall-Adams submissions, however, open with a concession, namely that he does not oppose any reporting restriction relating to the name or existence of LM which will not, or certainly need not, play any part in the inquest or the investigation of L&#8217;s death.  In acknowledgment of that fact, Mr Vassall&#8211;Adams concedes the propriety, if the court thinks fit, of strengthening the restrictions relating to LM's existence and right to protection from interference with LM&#8217;s private and family life as a result of any mention in the inquest proceedings or her association with her parents or siblings.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is the reporting restrictions relating to the mother, father, H and L which Mr. Vassall&#8211;Adams opposes, as amounting to an unnecessary and disproportionate interference with the Article 10 rights of the media.  He submits that the circumstances of the case are neither so exceptional nor so compelling that LM&#8217;s Article 8 rights take precedence.  He prays in aid the factual similarity to the case of <span style="font-style:italic">Re S </span>and the detailed exposition by Lord Steyn of the undesirability of imposing restrictions upon reporting which &#8216;disembody&#8217; the proceedings reported and have a chilling effect upon the breadth of press and public interest into what (in the absence of criminal proceedings) will be the only public enquiry into the circumstances of LM's death.  He also places emphasis upon the &#8220;essentially indirect&#8221; impact of any publicity from the trial in the sense adumbrated by Lord Steyn.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Vassall&#8211;Adams accepts that, by way of a preliminary to the &#8216;balancing act&#8217; to be performed in the case, the court is to first assess the likelihood of LM being identified as the result of press reports which refer to the identity of the mother and father and LM's siblings and, second, identify the likelihood and extent of harm occurring as a result of that press publicity if the injunctions are not granted.  However, he emphasises that those matters go only to the extent of the engagement of LM&#8217;s Article 8 rights and are not in themselves resolutive of the question whether they amount to circumstances so exceptional or compelling as to justify interference with the media&#8217;s Article 10 rights, in which respect he submits that the speculative and indirect nature of any harm likely to be caused to LM is insufficient to tip the balance. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Overall Approach</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In approaching this difficult case, I consider that I should apply the principles laid down in <span style="font-style:italic">Re S</span>, save to the extent conceded by Mr. Vassall-Adams, which will in my view go a long way to protect LM from any intrusion into her private and family life with minimal impact (if any) on the right of the press freely to report the inquest proceedings (see paragraph 50 above).  I do not think that in this case the principles recited in <span style="font-style:italic">Re S</span> require modification or qualification in light of the fact that the relevant proceedings will be inquest proceedings as opposed to criminal proceedings.  Inquest proceedings are court proceedings similarly subject to the principles of open justice and the remedies contained and limitations implicit in S.39 of the <span style="font-style:italic">Children and Young Persons Act</span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are obvious differences between proceedings at an inquest and the criminal process, most notably that the task of the Coroner and jury is to determine the manner of the death of the deceased and does not extend to determining questions of criminal guilt.  In various cases that has been held to be a matter of weight in respect of witnesses seeking to protect their own personal safety.  However, in this case, the inquest to be held is into the killing of a child, L, in the situation where a High Court Judge has already found as a matter of fact that the mother was responsible for L&#8217;s death and the application is made because harm is indirectly apprehended to a child who is a stranger to the investigative process.  It is presently uncertain whether criminal proceedings will in fact be taken against the mother.  If so, and the Coroner is so informed, then no doubt he will further adjourn the matter pursuant to s.16.  of the <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/13" uk:canonical="1988 c. 13" uk:origin="TNA" uk:type="legislation">Coroners Act 1988</ref></span>.  If that is done, then the question of publicity and reporting restrictions in those proceedings will fall four square within the principles propounded in <span style="font-style:italic">Re S</span>.  If not, and if, as seems likely, the mother continues to pose a danger to any child in her care, then, if continued, the reporting restrictions in the care proceedings would prevent that fact from reaching the public domain, despite its clear public interest and importance.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In sum, therefore, I conclude as follows so far as the reporting of the inquest is concerned.  It is clear that it would be a substantial, and in principle undesirable, interference with the Article 10 rights of the media fully to report the proceedings and the circumstances surrounding the inquest if they were precluded from identifying the mother, father, L and H.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I exclude from this conclusion the embargo which I propose to place in accordance with the concession of Mr Vassall-Adams upon reporting any reference to the identity or existence of LM, or her school or carers or publishing any photographs or other information relating to LM likely to lead to her identification.  It is clear that were such an order not to be made and LM&#8217;s existence reported, she and her carers would be likely to be the subject not only of identification within her circle but the subject of considerable media attention as the sole surviving child of the family.  Thus an order protecting her identity in those terms is proportionate and necessary to protect her Article 8 rights.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the main issue, namely the question whether I should go further, and hold that the potential interference with LM&#8217;s Article 8 rights is sufficient to justify the substantial interference represented by an embargo on identifying the parents, L and H, I have carefully considered and balanced the submissions of the parties and the position seems to be as follows in respect of LM&#8217;s Article 8 rights.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By reason of LM&#8217;s relatively unusual family name, there is a substantial possibility that, those who know LM in her new home and school surroundings may make a connection or raise questions as to her relationship with the mother, sparked by publicity in respect of what I am satisfied will be locally, and probably nationally, highly publicised inquest proceedings.  Although it appears that the inquest will be able to be held in a town some distance away from where LM is located, that may well prove insufficient to prevent the likelihood of a connection being made.  If it is so made, however, it is by no means inevitable that LM will be made aware that such a connection has been made.  She may well avoid all such knowledge.  It seems to me most unlikely that any adult who made the connection between LM and the inquest would broach the topic with her, or, indeed, would be likely to discuss the inquest with their own children in the case of those who have children with LM or within her relatively narrow circle.  I have no doubt that, during the course of the inquest, her foster parents will be astute to see that she does not watch or hear news reports on the television or look at photographs in the papers.  It is clear that she has a loving and supportive foster family with whom she is likely to stay until a long-term home has been identified, and they will no doubt ensure that protective measures are put into place to minimise the likelihood of inadvertent exposure to the story.  It seems to me that the most realistic possibility that LM may be exposed to and associated with the inquest is that of inadvertent disclosure as the result of a child overhearing an adult conversation or inquiry and relaying that second-hand information to LM.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If such exposure does occur, I recognise that it is highly likely to give rise to difficulties of the kind spoken to by Mrs S and the Guardian.  However, this has to be put into context.  LM is a child who is going to have to be told of, and come to terms with, her unhappy background in any event and that process is already in its early stages.  So far as the short-term is concerned, LM has a supportive and protective school with teachers whom she trusts.  She also has the support of a therapist who helps her to manage the triggers for trauma that she experiences on a daily basis.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her first report dated 21 January 2007 Mrs. S stated at paragraph 2.4:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Publicising death may well bring more triggers to the surface inadvertently, but in a stable trusted environment the damaging effects of these, in my opinion, could be managed as they appear, as current situational triggers are already being managed as they appear.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">It is right to say that in a subsequent report dated 4 May 2007 (made in circumstances to which I shall refer further below) Mrs S sought to distance herself from that view.  However, it does seem clear to me that the possibility of adverse interference with LM&#8217;s therapeutic regime and progress within it will be significantly mitigated by LM&#8217;s very supportive family, school, and therapeutic environment.  I acknowledge that LM&#8217;s situation is delicate and there is need so far as practicable for progress in her treatment to be conducted at her own pace.  However, it is clear from the evidence that Mrs S is already working towards the situation where LM will be introduced to and confronted with the fact that her mother killed her sister and, indeed, at one point in her evidence, Mrs S expressed the view that if LM found out that her mother killed her sister ahead of time, as it were, it probably would not come as a great surprise to her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In those circumstances, it may be that a sensible course would be to advance somewhat the therapeutic revelation so as to ensure that LM is introduced to it in the bosom of her supportive foster family and school environment and, if potential adopters can be found, before the carefully managed and extended process of &#8216;hand over&#8217; which I was told in evidence will be required and implemented in any event.  However that is a matter for Mrs S to decide.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So far as the spectre of the impact of long-term publicity is concerned, contrary to the submission of the Guardian and Local Authority, it does not seem to me that the circumstances of the death of L are a news story with the potential to raise its head repeatedly in the future, once any publicity surrounding an inquest or criminal proceedings (if belatedly decided on) has subsided.  It is not comparable to other sensational cases which have continued to attract the attention of the tabloid press over the years.  Nor is it one which appears to raise wider general issues relating to the evidence of experts or the like.  In reality, as it seems to me, once contemporary publicity has subsided, the circumstances of L&#8217;s death are unlikely to be the focus of long-term press attention, nor will her mother remain a tabloid hate figure in the future.  So far as LM is concerned, she is obviously herself a victim worthy of sympathy in the sense of one who has suffered as a result of her mother&#8217;s conduct.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the argument that press publicity may adversely affect the chances of LM&#8217;s adoption, on the basis that a prospective adopter will not wish to &#8216;buy in&#8217; to the extra problems raised in relation to LM, it is clear to me on the evidence before me that such fears are entirely speculative.  It is apparent that what has discouraged potential adopters so far is the general nature of LM&#8217;s problems and the difficulties in care which they will present in any event.  It is accepted that those who have so far been introduced to the case of LM but have declined to proceed have done so on the basis of these overall problems and not at a stage when they had any appreciation of the likelihood of such problems being further contributed to by the possibility of publicity in respect of her former family.  There are plainly major limitations on the type of family likely to be willing or suitable to adopt LM because of her special circumstances.  Looked at in context, the realistic prospects of LM being adopted are not good.  However, if a willing and appropriate family were to emerge and were prepared to take on LM with all her problems, I think it very unlikely that they would be put off by the fact that publicity attendant on the inquest or criminal proceedings might be a further factor amongst the many in respect of which LM needs understanding and protection.  It also seems to me unlikely that such a factor would be determinative, given the fact that the form of order conceded to be appropriate will prevent publicity from the proceedings or the attentions of the media impinging in any direct way on LM or her carers.  The concession that it would be appropriate not to refer to LM, her carers or her school in press reports means that any potential adopter would enjoy the reassurance that the link between LM and her parents and siblings will not become widely known outside her immediate circle.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the circumstances, I am not satisfied that the Article 10 rights of the media in this case are outweighed by the Article 8 considerations relating to LM&#8217;s unhappy position.  In a situation where a child has suffered from a homicide within the family, there are inevitable difficulties which require to be faced in respect of the disturbance to that child&#8217;s life and the issues which he or she must face and overcome.  In the light of the weight generally to be attributed to the rights of a free press and the interests of open justice (see <span style="font-style:italic">Re S</span>) the question whether the circumstances are sufficiently unusual or exceptional to justify a restriction on those rights must be viewed in that context.  If I were satisfied that publicising the mother&#8217;s and L&#8217;s identity would indeed operate as a barrier to LM&#8217;s future adoption or were it established that such publicity would result in a long-term stigma equivalent to that of the child in <span style="font-style:italic">A Local Authority v W and Others</span>, my view might be different.  However, I am not so satisfied.  I do not consider that the undoubted possibility of  additional, but uncertain, difficulties with LM&#8217;s therapy establish sufficient likelihood of lasting harm referable to the publicity as distinct from the general background and the underlying circumstances which give rise to LM&#8217;s troubled state.  In those circumstances, I am not prepared to grant an injunction in the terms sought by the Guardian or Local Authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The form of the injunction which I am prepared to grant is that set out in the draft initialled by me subject to any further submissions of counsel following the delivery of this judgment.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Footnote</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">One aspect of the presentation of the case has caused me some concern and calls for comment.  The original report of Mrs S made for the purpose of these proceedings was dated 21 January 2007.  It was made pursuant to a direction of the court on 27 November 2006 that she report upon LM and &#8216;the impact upon her of any potential publication&#8217;.  Her report addressed that issue in impeccable fashion.  One of the questions addressed was: &#8216;What would be the potential effect upon LM of publicity surrounding the death of her sister?  Given LM&#8217;s traumatic childhood experiences do you consider she would be particularly vulnerable to subsequent publicity?&#8217;.  Mrs S stated at 4.2.4 that</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Publicising L&#8217;s death may well bring more triggers to the surface inadvertently, but in a stable trusted environment the damaging effects of these, in my opinion, could be managed sensitively as current situational triggers are already being managed as they appear&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At 4.2.5 she observed </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;However, radio chat shows and other adults gossiping could easily occur and to overhear information in this way would be distressing for L and is likely to bring up traumatic memories in an unpredictable way.  She remains a very vulnerable child&#8230;The fact that she is in a foster home with people that she knows and trusts and are attuned to her will go someway to mitigating the effects this may have on her as she has formed a healthy attachment to them&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Mrs S went on to make the point that the principal difficulty in relation to LM was likely to arise if, as was anticipated, the Local Authority were shortly to move LM from her current foster carers to new foster carers because of the risk she might pose in her current foster placement to her foster sibling following the &#8216;strangling&#8217; incident in September 2006.  She observed at 4.2.7 that</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Were the publicity to occur while this difficult transition between her current foster carers to her new carers was underway and before she was fully settled in her new home and school, then in my opinion, the consequences for L would be far greater as she would be with new carers with whom she would not have built a sense of trust and security and who would themselves be disadvantaged by their lack of intimate knowledge and attunement to her emotional needs and behaviours, no matter how caring or sensitive they are&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In response to the question whether the fact that LM was now of school age she would be the more vulnerable to the impact of publicity than a pre-school child and, if so, what that impact might be, Mrs S noted that</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;L is now mixing in a wider social group of children, but they and their families know her well and accept her in her current school as she also attended the school&#8217;s nursery class.  The school also understand her situation and the likely response within a context which is already established (as she is also embedded in a family the school have close relationships with and know well because of the older foster child) is probably going to be very protective, supportive, and sympathetic.  It is likely to be less devastating within the context of a new school who will not have a historical relationship with her and in which she will have to learn to trust and in which they will have to learn to understand her.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the impact of publicity upon the placement with her carers, Mrs S gave as her opinion that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;..  it&#8217;s likely that neither set of carers will be comfortable about the publicity but I have no doubt that both will act in a protective and supportive way to L.  They will need to be clearly briefed in advance of any press releases or other such reporting so that they can plan effectively how to protect L and their own children in the event of any potential difficulties&#8230;.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">However she recommended that the Local Authority reconsider the impact of moving LM from her current placement leaving her to</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230; remain in her current placement with additional support until her adoptive placement is achieved.  If no adoptive placement can be found for her then it is my opinion that L should remain within her current foster family in the longer term and that the local authority should consider how best to support this with additional resources in her best interests&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">The advice of Mrs S that a short-term change of foster carer was undesirable was subsequently taken by the Local Authority and the position, as I have earlier stated, is that LM will remain in the care of her present foster carers unless or until arrangements are made for her adoption.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following that report, a further updating report was required from Mrs S.  It should have been requested by a letter of instruction jointly agreed between the parties.  However, for reasons which are not entirely clear, Mrs S was requested to report in a letter from the Guardian&#8217;s solicitors which was not seen or agreed by the other parties.  In the letter she was requested to answer a number of questions which were tendentious in form and the content of which encroached to a substantial degree on questions which it was appropriate for the court, rather than Mrs S, to answer.  In particular, a substantial section of the report was addressed to the request:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;To review my previous report and consider in the light of the current circumstances of LM whether you would support the view that the circumstances of LM are so particular and exceptional that the court should find that the balancing exercise falls in favour of LM&#8217;s right to family life.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the event, while most of the matter in that section of the report was properly admissible and consisted of updated information leading to a legitimate change of view on the part of Mrs S, the section concluded as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;3.1.13</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It is my firm opinion that the circumstances of LM are so particular and exceptional that I recommend that the court should find the balancing exercise falls in favour of LM&#8217;s right to family life.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The next section of her report was written in response to the request:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Please indicate in your report why if you support the protection of LM&#8217;s family life in these circumstances, LM particularly requires that support by the making of a court order in this case in relation to the proposed inquest.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">There then appeared a mixture of fact and argument ending as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;3.3.4</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">She is one of the most vulnerable and helpless individuals in our society.  It needs to be remembered that once information is released into the public domain about LM&#8217;s family it is irreversible.  We have a duty and responsibility to protect her.  The court has the power to make an order in this case  in relation to the proposed inquest that can and will protect her right to normal family life and privacy.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having been asked to report in response to the questions which I have set out, I do not attach blame to Mrs S for accepting the invitation there imposed.  However, the posing of the questions was regrettable, as the Guardian&#8217;s solicitors have acknowledged.  Unsurprisingly, it led Mr Vassall-Adams to invite the court to examine critically the views put forward by Mrs S and whether they had been prompted to harden by the terms of her instructions.  I was in the event impressed by the genuineness of Mrs S&#8217; views and concerns in relation to LM, which were in large measure unchallenged and my recitation of the facts in paragraphs 17,18 and 22 to 25 above is, based upon  my acceptance of those views.  Nonetheless, the matters I have set out merit the reminder that when experts report in cases of this kind they should restrict themselves to questions of fact, diagnosis and opinion, refraining from  argument or the expression of views which appear to usurp the function of the court.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

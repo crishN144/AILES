@@ -1,0 +1,1147 @@
+#!/usr/bin/env python3
+"""
+AILES Legal AI - Hybrid Speed-Quality XML Parser
+Combines speed optimizations with advanced content analysis
+Target: Process 9,833 files in 1-2 hours with high-quality output
+"""
+
+import xml.etree.ElementTree as ET
+import json
+import re
+import argparse
+from pathlib import Path
+from typing import Dict, List, Any, Optional, Tuple, Set
+from concurrent.futures import ProcessPoolExecutor, as_completed
+import logging
+import sys
+import time
+import threading
+from datetime import datetime
+from collections import Counter, defaultdict
+import random
+import hashlib
+
+# Efficient logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler(sys.stdout)]
+)
+logger = logging.getLogger(__name__)
+
+class ThreadSafeWriter:
+    """Thread-safe file writing"""
+    def __init__(self):
+        self._locks = defaultdict(threading.Lock)
+    
+    def write_examples(self, examples: List[Dict], batch_id: int, output_dir: Path) -> Dict[str, int]:
+        component_counts = defaultdict(int)
+        
+        for example in examples:
+            component = example.pop('component', 'unknown')
+            batch_file = output_dir / f"{component}_batch_{batch_id:04d}.jsonl"
+            
+            with self._locks[str(batch_file)]:
+                try:
+                    with open(batch_file, 'a', encoding='utf-8') as f:
+                        f.write(json.dumps(example, ensure_ascii=False) + '\n')
+                    component_counts[component] += 1
+                except Exception as e:
+                    logger.debug(f"Error writing to {batch_file}: {e}")
+        
+        return dict(component_counts)
+
+class HybridXMLProcessor:
+    """Hybrid processor combining speed with quality features"""
+    
+    def __init__(self):
+        # Advanced namespace patterns from Document 3
+        self.namespace_patterns = [
+            {'akn': 'http://docs.oasis-open.org/legaldocml/ns/akn/3.0'},
+            {'html': 'http://www.w3.org/1999/xhtml'},
+            {'uk': 'https://caselaw.nationalarchives.gov.uk/akn'},
+            {}  # No namespace fallback
+        ]
+        
+        # Enhanced financial patterns from Document 3
+        self.financial_patterns = {
+            'amounts': r'£\s*(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)\s*(?:million|thousand|k|m|per\s+(?:annum|year|month|week)|annually|monthly|weekly)?',
+            'property': r'(?:property|house|home|residence)(?:\s+(?:valued?|worth))?(?:\s+at)?\s*£\s*(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)',
+            'maintenance': r'(?:maintenance|support|periodical\s+payments?).*?£\s*(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)',
+            'lump_sum': r'(?:lump\s+sum|capital).*?£\s*(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)'
+        }
+        
+        # Comprehensive case classification from Document 3
+        self.case_patterns = {
+            'inheritance_family': {
+                'keywords': ['inheritance act', 'family provision', 'reasonable provision', 'estate', 'will', 'testamentary', 'deceased', 'beneficiary'],
+                'legal_refs': ['inheritance.*act', 'family.*provision']
+            },
+            'child_arrangements': {
+                'keywords': ['child arrangements', 'contact', 'residence', 'custody', 'children act', 'parental responsibility', 'welfare', 'best interests'],
+                'legal_refs': ['children.*act.*1989', 'children.*act.*2004']
+            },
+            'financial_remedy': {
+                'keywords': ['financial remedy', 'ancillary relief', 'matrimonial causes', 'maintenance', 'periodical payments', 'lump sum', 'pension'],
+                'legal_refs': ['matrimonial.*causes.*act', 'divorce.*act']
+            },
+            'mental_capacity': {
+                'keywords': ['mental capacity', 'court of protection', 'best interests', 'capacity act', 'lacking capacity', 'deputy'],
+                'legal_refs': ['mental.*capacity.*act', 'mental.*health.*act']
+            },
+            'adoption_fostering': {
+                'keywords': ['adoption', 'placement order', 'special guardianship', 'foster', 'birth parent', 'adoptive parent'],
+                'legal_refs': ['adoption.*act.*1976', 'adoption.*act.*2002']
+            },
+            'care_proceedings': {
+                'keywords': ['care order', 'supervision order', 'emergency protection', 'children act 1989', 'threshold criteria', 'local authority'],
+                'legal_refs': ['children.*act.*1989']
+            },
+            'divorce_dissolution': {
+                'keywords': ['divorce', 'dissolution', 'decree nisi', 'decree absolute', 'irretrievable breakdown', 'matrimonial'],
+                'legal_refs': ['matrimonial.*causes.*act']
+            },
+            'domestic_violence': {
+                'keywords': ['domestic violence', 'non-molestation order', 'occupation order', 'family law act 1996', 'harassment'],
+                'legal_refs': ['family.*law.*act.*1996']
+            },
+            'international_family': {
+                'keywords': ['hague convention', 'international child abduction', 'jurisdiction', 'foreign divorce', 'brussels regulation'],
+                'legal_refs': ['hague.*convention']
+            },
+            'cohabitation': {
+                'keywords': ['cohabitation', 'unmarried couples', 'civil partnership', 'schedule 1', 'property disputes'],
+                'legal_refs': ['civil.*partnership.*act']
+            }
+        }
+        
+        # Complexity weights from Document 3
+        self.complexity_weights = {
+            'children': 0.3,
+            'financial': 0.25,
+            'property': 0.2,
+            'international': 0.4,
+            'business': 0.2,
+            'violence': 0.35
+        }
+        
+        # Enhanced scenario templates with variations
+        self.scenario_templates = {
+            'inheritance_family': [
+                "My {relative} died {time_period} and I wasn't mentioned in the will, but I was financially dependent on them.",
+                "I believe my {relative}'s will doesn't make reasonable provision for me. I was their {relationship} for years.",
+                "My {relative} died without a will and the estate isn't being distributed fairly among family members."
+            ],
+            'child_arrangements': [
+                "My ex-partner won't let me see our {age} child despite our court arrangement.",
+                "We're separating and can't agree on where our {number} children should live primarily.",
+                "I'm concerned about my child's safety and wellbeing when they're with their other parent."
+            ],
+            'financial_remedy': [
+                "We're divorcing and my spouse earns £{amount} more than me - what am I entitled to?",
+                "I need help dividing our property and assets, including our £{amount} family home.",
+                "My ex-spouse has stopped paying the £{amount} monthly maintenance that was agreed."
+            ],
+            'mental_capacity': [
+                "I'm concerned about my {relative}'s ability to make financial decisions about their £{amount} estate.",
+                "The Court of Protection is involved in my {relative}'s case - what does this mean for the family?",
+                "My {relative} lacks capacity but we disagree about what's in their best interests."
+            ],
+            'adoption_fostering': [
+                "We want to adopt our foster child who has been with us for {duration}.",
+                "I'm a birth parent and I'm reconsidering my decision to place my baby for adoption.",
+                "Our adoption agency has concerns about our suitability - what can we do?"
+            ],
+            'care_proceedings': [
+                "Social services are involved with my family - what does this mean?",
+                "The local authority wants to take my children into care.",
+                "I'm worried about my child's safety with their other parent."
+            ],
+            'divorce_dissolution': [
+                "I want to get divorced but don't know where to start.",
+                "My spouse wants a divorce but I don't - what are my rights?",
+                "We're separated and considering making it official with divorce."
+            ],
+            'domestic_violence': [
+                "My partner is abusive and I need protection for me and my children.",
+                "I need to get my ex removed from our home for safety reasons.",
+                "I have a restraining order but my ex keeps contacting me."
+            ],
+            'international_family': [
+                "My ex has taken our children abroad without my permission.",
+                "We're from different countries and getting divorced - which law applies?",
+                "My children are being held in another country by my ex-partner."
+            ],
+            'cohabitation': [
+                "We're not married but have been together for years - what are my rights?",
+                "My unmarried partner and I own a house together and we're splitting up.",
+                "We have children together but were never married - what happens now?"
+            ],
+            'default': [
+                "I think I need legal advice about my family law situation but I'm not sure what type of case this is.",
+                "I'm not sure what my legal rights are in this family matter.",
+                "This is a complex family situation and I need professional guidance."
+            ]
+        }
+
+    def fast_validate(self, xml_file: Path) -> bool:
+        """Quick validation with basic checks"""
+        try:
+            if xml_file.stat().st_size > 20 * 1024 * 1024 or xml_file.stat().st_size < 1024:
+                return False
+            
+            tree = ET.parse(xml_file)
+            root = tree.getroot()
+            
+            # Quick legal document check
+            root_tag = root.tag.lower()
+            if any(indicator in root_tag for indicator in ['akomantoso', 'judgment', 'decision', 'case']):
+                return True
+            
+            # Check first few child elements
+            for child in list(root)[:3]:
+                if any(indicator in child.tag.lower() for indicator in ['judgment', 'decision', 'case']):
+                    return True
+            
+            return False
+            
+        except Exception:
+            return False
+
+    def extract_judgment_data_hybrid(self, xml_file: Path) -> Optional[Dict[str, Any]]:
+        """Hybrid extraction - structured when possible, fast fallback"""
+        try:
+            tree = ET.parse(xml_file)
+            root = tree.getroot()
+            
+            judgment_data = {
+                'file_name': xml_file.name,
+                'case_citation': '',
+                'court': '',
+                'judge': '',
+                'case_facts': '',
+                'legal_reasoning': '',
+                'decision': '',
+                'financial_info': {},
+                'complexity_indicators': [],
+                'main_issues': [],
+                'case_type': '',
+                'classification_confidence': 0.0,
+                'document_length': 0,
+                'has_financial_elements': False,
+                'complexity_score': 0.0
+            }
+            
+            # Enhanced metadata extraction
+            self._extract_metadata_fast(root, judgment_data)
+            
+            # Smart content extraction - try structured first, fallback to fast
+            if not self._extract_structured_content_fast(root, judgment_data):
+                self._extract_heuristic_content_fast(root, judgment_data)
+            
+            if judgment_data['document_length'] < 200:
+                return None
+            
+            # Enhanced classification
+            self._classify_case_type_advanced(judgment_data, root)
+            
+            # Enhanced financial extraction
+            self._extract_financial_data_advanced(judgment_data)
+            
+            # Complexity assessment
+            self._assess_complexity_advanced(judgment_data)
+            
+            return judgment_data
+            
+        except Exception as e:
+            logger.debug(f"Error processing {xml_file}: {e}")
+            return None
+
+    def _extract_metadata_fast(self, root, judgment_data):
+        """Fast metadata extraction with multiple patterns"""
+        try:
+            # Citation patterns - try most common first
+            citation_patterns = [
+                ('.//akn:FRBRthis', 'value'),
+                ('.//*[@value]', 'value'),
+                ('.//*[contains(text(),"[")]', 'text')
+            ]
+            
+            for pattern, attr_type in citation_patterns:
+                for ns_dict in self.namespace_patterns:
+                    try:
+                        elem = root.find(pattern, ns_dict if ':' in pattern else None)
+                        if elem is not None:
+                            citation = elem.get('value') if attr_type == 'value' else elem.text
+                            if citation and ('[' in citation or 'EWHC' in citation or 'EWCA' in citation):
+                                judgment_data['case_citation'] = citation.strip()
+                                return  # Found citation, move on
+                    except:
+                        continue
+            
+            # Judge extraction - simplified
+            judge_patterns = [
+                ('.//*[contains(text(),"JUSTICE")]', 'text'),
+                ('.//*[contains(text(),"Judge")]', 'text')
+            ]
+            
+            for pattern, attr_type in judge_patterns:
+                try:
+                    elem = root.find(pattern)
+                    if elem is not None and elem.text:
+                        judge = elem.text
+                        if 'JUSTICE' in judge.upper() or 'JUDGE' in judge.upper():
+                            judgment_data['judge'] = judge.strip()[:100]  # Limit length
+                            break
+                except:
+                    continue
+                    
+        except Exception:
+            pass
+
+    def _extract_structured_content_fast(self, root, judgment_data) -> bool:
+        """Fast structured content extraction"""
+        try:
+            # Look for judgment body first
+            for ns_dict in self.namespace_patterns:
+                body = root.find('.//judgmentBody', ns_dict) or root.find('.//judgment', ns_dict) or root.find('.//body', ns_dict)
+                if body is not None:
+                    sections = body.findall('.//level', ns_dict) or body.findall('.//section', ns_dict) or body.findall('.//p', ns_dict)
+                    
+                    if len(sections) >= 3:
+                        facts_sections = []
+                        reasoning_sections = []
+                        decision_sections = []
+                        
+                        for i, section in enumerate(sections):
+                            section_text = self._extract_text_fast(section)
+                            if len(section_text) < 30:
+                                continue
+                            
+                            position_ratio = i / len(sections)
+                            section_lower = section_text.lower()
+                            
+                            # Smart classification based on content and position
+                            if any(phrase in section_lower for phrase in ['i order', 'i direct', 'i find', 'i conclude']) or position_ratio > 0.8:
+                                decision_sections.append(section_text)
+                            elif any(phrase in section_lower for phrase in ['the law', 'the principle', 'the court must']) and position_ratio > 0.3:
+                                reasoning_sections.append(section_text)
+                            elif position_ratio < 0.4:
+                                facts_sections.append(section_text)
+                            else:
+                                reasoning_sections.append(section_text)
+                        
+                        # Assign content
+                        judgment_data['case_facts'] = ' '.join(facts_sections)
+                        judgment_data['legal_reasoning'] = ' '.join(reasoning_sections)
+                        judgment_data['decision'] = ' '.join(decision_sections)
+                        
+                        total_text = judgment_data['case_facts'] + judgment_data['legal_reasoning'] + judgment_data['decision']
+                        judgment_data['document_length'] = len(total_text.split())
+                        
+                        return judgment_data['document_length'] > 200
+            
+            return False
+            
+        except Exception:
+            return False
+
+    def _extract_heuristic_content_fast(self, root, judgment_data):
+        """Fast heuristic content extraction"""
+        try:
+            # Get all text efficiently
+            all_text = ' '.join(root.itertext())
+            
+            if len(all_text) < 1000:
+                return False
+            
+            # Split into paragraphs
+            paragraphs = [p.strip() for p in all_text.split('\n') if len(p.strip()) > 50]
+            
+            if len(paragraphs) < 5:
+                return False
+            
+            # Enhanced heuristic splitting
+            facts_paras = []
+            reasoning_paras = []
+            decision_paras = []
+            
+            for i, para in enumerate(paragraphs):
+                para_lower = para.lower()
+                position_ratio = i / len(paragraphs)
+                
+                # Decision indicators
+                if any(phrase in para_lower for phrase in ['i order', 'i direct', 'i find', 'i conclude', 'for these reasons']):
+                    decision_paras.append(para)
+                # Facts indicators
+                elif any(phrase in para_lower for phrase in ['the applicant', 'the respondent', 'the parties']) and position_ratio < 0.6:
+                    facts_paras.append(para)
+                # Legal reasoning indicators
+                elif any(phrase in para_lower for phrase in ['the law', 'the principle', 'the court must']) and position_ratio > 0.2:
+                    reasoning_paras.append(para)
+                # Position-based fallback
+                elif position_ratio < 0.35:
+                    facts_paras.append(para)
+                elif position_ratio < 0.75:
+                    reasoning_paras.append(para)
+                else:
+                    decision_paras.append(para)
+            
+            # Ensure content distribution
+            if not decision_paras and reasoning_paras:
+                decision_paras = reasoning_paras[-1:]
+                reasoning_paras = reasoning_paras[:-1]
+            
+            judgment_data['case_facts'] = ' '.join(facts_paras)
+            judgment_data['legal_reasoning'] = ' '.join(reasoning_paras)
+            judgment_data['decision'] = ' '.join(decision_paras)
+            
+            total_text = judgment_data['case_facts'] + judgment_data['legal_reasoning'] + judgment_data['decision']
+            judgment_data['document_length'] = len(total_text.split())
+            
+            return True
+            
+        except Exception:
+            return False
+
+    def _extract_text_fast(self, element, max_depth: int = 10, current_depth: int = 0) -> str:
+        """Fast text extraction with depth limit"""
+        if current_depth > max_depth:
+            return ""
+        
+        try:
+            text_parts = []
+            if element.text:
+                text_parts.append(element.text.strip())
+            
+            for child in element:
+                child_text = self._extract_text_fast(child, max_depth, current_depth + 1)
+                if child_text:
+                    text_parts.append(child_text)
+                if child.tail:
+                    text_parts.append(child.tail.strip())
+            
+            return ' '.join(text_parts)
+        except Exception:
+            return ""
+
+    def _classify_case_type_advanced(self, judgment_data, root):
+        """Advanced case classification with confidence scoring"""
+        full_text = (
+            judgment_data.get('case_facts', '') + ' ' + 
+            judgment_data.get('legal_reasoning', '') + ' ' +
+            judgment_data.get('decision', '')
+        ).lower()
+        
+        # Extract legal references quickly
+        legal_refs = []
+        try:
+            refs = root.findall('.//*[contains(text(),"Act")]')[:5]  # Limit for speed
+            for ref in refs:
+                if ref.text and len(ref.text) < 100:
+                    legal_refs.append(ref.text.lower())
+        except:
+            pass
+        
+        legal_ref_text = ' '.join(legal_refs)
+        
+        # Score each case type
+        scores = {}
+        for case_type, patterns in self.case_patterns.items():
+            score = 0
+            
+            # Keyword scoring
+            keyword_matches = sum(1 for keyword in patterns['keywords'] if keyword in full_text)
+            score += keyword_matches * 2
+            
+            # Legal reference scoring
+            if legal_refs:
+                ref_matches = sum(1 for pattern in patterns['legal_refs'] if re.search(pattern, legal_ref_text))
+                score += ref_matches * 5
+            
+            # Normalize score
+            max_possible = len(patterns['keywords']) * 2 + len(patterns['legal_refs']) * 5
+            scores[case_type] = score / max_possible if max_possible > 0 else 0
+        
+        # Get best classification
+        if scores:
+            best_type = max(scores, key=scores.get)
+            confidence = scores[best_type]
+            
+            if confidence >= 0.05 or best_type != 'unclassified':  # Even more lenient
+                judgment_data['case_type'] = best_type
+                judgment_data['classification_confidence'] = confidence
+            else:
+                judgment_data['case_type'] = 'financial_remedy'  # Default fallback
+                judgment_data['classification_confidence'] = 0.1
+        else:
+            judgment_data['case_type'] = 'unclassified'
+            judgment_data['classification_confidence'] = 0.0
+
+    def _extract_financial_data_advanced(self, judgment_data):
+        """Advanced financial data extraction"""
+        full_text = (
+            judgment_data.get('case_facts', '') + ' ' + 
+            judgment_data.get('legal_reasoning', '') + ' ' + 
+            judgment_data.get('decision', '')
+        )
+        
+        financial_info = {'has_financial_data': False, 'amounts_found': []}
+        
+        for pattern_type, pattern in self.financial_patterns.items():
+            matches = []
+            
+            for match in re.finditer(pattern, full_text, re.IGNORECASE):
+                amount_str = match.group(1) if match.groups() else match.group(0)
+                
+                try:
+                    amount = float(amount_str.replace(',', ''))
+                    if amount >= 100:  # Minimum threshold
+                        matches.append({
+                            'amount': amount,
+                            'text': amount_str
+                        })
+                except ValueError:
+                    continue
+            
+            if matches:
+                financial_info[f'{pattern_type}_matches'] = matches[:2]  # Limit for speed
+                financial_info['has_financial_data'] = True
+                financial_info['amounts_found'].extend([m['amount'] for m in matches])
+        
+        judgment_data['has_financial_elements'] = financial_info['has_financial_data']
+        judgment_data['financial_info'] = financial_info
+
+    def _assess_complexity_advanced(self, judgment_data):
+        """Advanced complexity assessment"""
+        full_text = (
+            judgment_data.get('case_facts', '') + ' ' + 
+            judgment_data.get('legal_reasoning', '')
+        ).lower()
+        
+        complexity_indicators = []
+        complexity_scores = {}
+        
+        complexity_keywords = {
+            'children': ['child', 'children', 'minor', 'custody', 'contact', 'welfare'],
+            'financial': ['income', 'assets', 'property', 'pension', 'maintenance'],
+            'property': ['house', 'home', 'property', 'real estate', 'mortgage'],
+            'international': ['international', 'foreign', 'hague', 'jurisdiction'],
+            'business': ['business', 'company', 'partnership', 'commercial'],
+            'violence': ['violence', 'abuse', 'harassment', 'protection']
+        }
+        
+        for category, keywords in complexity_keywords.items():
+            matches = sum(1 for keyword in keywords if keyword in full_text)
+            if matches > 0:
+                complexity_indicators.append(category)
+                weight = self.complexity_weights.get(category, 0.2)
+                complexity_scores[category] = min(1.0, (matches / len(keywords)) * weight * 2)
+        
+        # Document length complexity
+        doc_length = judgment_data.get('document_length', 0)
+        if doc_length > 3000:
+            complexity_scores['length'] = 0.3
+        elif doc_length > 1500:
+            complexity_scores['length'] = 0.2
+        
+        # Financial complexity
+        if judgment_data.get('has_financial_elements', False):
+            complexity_scores['financial_complexity'] = 0.2
+        
+        # Calculate overall complexity
+        overall_complexity = sum(complexity_scores.values()) / max(1, len(complexity_scores))
+        overall_complexity = min(1.0, overall_complexity)
+        
+        # Map to main issues
+        issue_mapping = {
+            'children': 'Child arrangements and welfare',
+            'financial': 'Financial provision and assets',
+            'property': 'Property division and valuation',
+            'international': 'International jurisdiction and enforcement',
+            'business': 'Business interests and commercial assets',
+            'violence': 'Domestic violence and protection measures'
+        }
+        
+        main_issues = [issue_mapping[indicator] for indicator in complexity_indicators if indicator in issue_mapping]
+        
+        judgment_data['complexity_indicators'] = complexity_indicators
+        judgment_data['complexity_score'] = overall_complexity
+        judgment_data['main_issues'] = list(set(main_issues))
+
+    def create_training_examples_enhanced(self, judgment_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """Enhanced training example creation"""
+        examples = []
+        
+        # Quality check
+        if judgment_data['document_length'] < 100:  # More lenient
+            return examples
+        
+        # Create enhanced chatbot examples
+        chatbot_examples = self._create_chatbot_examples_enhanced(judgment_data)
+        examples.extend(chatbot_examples)
+        
+        # Create predictor examples for financial/complex cases
+        if (judgment_data['has_financial_elements'] or 
+            judgment_data['case_type'] in ['inheritance_family', 'financial_remedy', 'mental_capacity'] or
+            judgment_data['complexity_score'] > 0.2):
+            predictor_examples = self._create_predictor_examples_enhanced(judgment_data)
+            examples.extend(predictor_examples)
+        
+        # Create explainer examples for substantial cases
+        if (len(judgment_data.get('legal_reasoning', '')) > 400 or
+            judgment_data['complexity_score'] > 0.3):
+            explainer_examples = self._create_explainer_examples_enhanced(judgment_data)
+            examples.extend(explainer_examples)
+        
+        return examples
+
+    def _create_chatbot_examples_enhanced(self, judgment_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """Enhanced chatbot examples with context awareness"""
+        examples = []
+        case_type = judgment_data['case_type']
+        
+        if case_type == 'unclassified':
+            return examples
+        
+        # Smart qualification logic
+        complexity_score = judgment_data['complexity_score']
+        
+        if case_type in ['inheritance_family', 'mental_capacity', 'international_family'] or complexity_score >= 0.5:
+            qualification = "QUALIFY_CASE"
+        elif complexity_score >= 0.2:
+            qualification = "QUALIFY_ADVISOR"
+        else:
+            qualification = "NEED_MORE_INFO"
+        
+        # Enhanced scenarios with variations
+        base_scenarios = self.scenario_templates.get(case_type, self.scenario_templates['default'])
+        
+        variations = {
+            'relative': ['father', 'mother', 'husband', 'wife', 'partner', 'parent'],
+            'time_period': ['last month', 'six months ago', 'recently', 'last year'],
+            'relationship': ['main carer', 'only child', 'dependent', 'primary supporter'],
+            'age': ['5-year-old', '8-year-old', 'teenage', 'young'],
+            'number': ['two', 'three', 'four'],
+            'amount': ['50,000', '200,000', '100,000', '75,000', '1,000', '2,000'],
+            'duration': ['18 months', '2 years', '3 years']
+        }
+        
+        for i, scenario_template in enumerate(base_scenarios[:2]):  # Max 2 per case
+            # Apply variations
+            varied_scenario = scenario_template
+            for placeholder, options in variations.items():
+                if f'{{{placeholder}}}' in varied_scenario:
+                    varied_scenario = varied_scenario.replace(
+                        f'{{{placeholder}}}', 
+                        options[hash(judgment_data['file_name'] + str(i)) % len(options)]
+                    )
+            
+            # Generate contextual response
+            response = self._generate_contextual_response(qualification, case_type, judgment_data)
+            
+            example = {
+                "instruction": "You are a family law AI assistant. Determine if user needs case assessment, advisor consultation, or more information based on their query.",
+                "input": varied_scenario,
+                "output": json.dumps({
+                    "response": response,
+                    "qualification": qualification,
+                    "confidence": min(0.95, 0.65 + (complexity_score * 0.25)),
+                    "next_action": "form_submission" if qualification == "QUALIFY_CASE" else "advisor_selection" if qualification == "QUALIFY_ADVISOR" else "continue_conversation",
+                    "case_type_detected": case_type,
+                    "complexity_level": "high" if complexity_score > 0.5 else "medium" if complexity_score > 0.2 else "standard"
+                }, ensure_ascii=False),
+                "component": "chatbot"
+            }
+            examples.append(example)
+        
+        return examples
+
+    def _generate_contextual_response(self, qualification: str, case_type: str, judgment_data: Dict[str, Any]) -> str:
+        """Generate contextual responses based on case analysis"""
+        case_display = case_type.replace('_', ' ')
+        main_issues = judgment_data.get('main_issues', [])
+        
+        if qualification == "QUALIFY_CASE":
+            if main_issues:
+                return f"This sounds like a complex {case_display} matter involving {', '.join(main_issues[:2]).lower()}. I'd recommend completing our detailed case assessment to provide you with accurate, personalized guidance for your situation."
+            else:
+                return f"This appears to be a {case_display} case that would benefit from comprehensive legal assessment. Our detailed evaluation process will help identify the best approach for your specific circumstances."
+        elif qualification == "QUALIFY_ADVISOR":
+            if main_issues:
+                return f"Your situation involves {case_display} issues, particularly {', '.join(main_issues[:2]).lower()}. Direct consultation with one of our experienced family law advisors would be valuable for your case."
+            else:
+                return f"Based on what you've described, this {case_display} matter would benefit from professional legal guidance. I can connect you with a qualified family law advisor who specializes in these cases."
+        else:
+            return "I'd like to help you better understand your situation and your legal options. Could you tell me more about the specific circumstances and what outcome you're hoping to achieve?"
+
+    def _create_predictor_examples_enhanced(self, judgment_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """Enhanced predictor examples"""
+        case_type = judgment_data['case_type']
+        
+        predictor_input = {
+            "case_type": case_type.replace('_', ' ').title(),
+            "main_issues": judgment_data['main_issues'][:3],
+            "complexity_score": round(judgment_data['complexity_score'], 2),
+            "has_financial_elements": judgment_data['has_financial_elements'],
+            "complexity_indicators": judgment_data['complexity_indicators']
+        }
+        
+        # Enhanced outcome templates
+        outcome_templates = {
+            'inheritance_family': "Assessment under Inheritance (Provision for Family and Dependants) Act 1975 considering reasonable financial provision",
+            'financial_remedy': "Financial settlement considering statutory factors under Matrimonial Causes Act 1973",
+            'child_arrangements': "Child arrangements order under Children Act 1989 prioritizing child welfare",
+            'mental_capacity': "Best interests decision under Mental Capacity Act 2005",
+            'adoption_fostering': "Assessment of suitability and welfare considerations under Adoption and Children Act 2002",
+            'care_proceedings': "Assessment under Children Act 1989 threshold criteria",
+            'divorce_dissolution': "Decree and financial arrangements under Matrimonial Causes Act",
+            'domestic_violence': "Protection orders under Family Law Act 1996",
+            'international_family': "Jurisdiction and enforcement under Hague Convention",
+            'cohabitation': "Property rights assessment under TOLATA 1996"
+        }
+        
+        base_outcome = outcome_templates.get(case_type, "Court order addressing the identified legal issues")
+        
+        complexity_score = judgment_data['complexity_score']
+        if complexity_score > 0.5:
+            outcome_modifier = " - complex case requiring detailed court consideration"
+        elif complexity_score > 0.2:
+            outcome_modifier = " - case involves multiple factors requiring careful assessment"
+        else:
+            outcome_modifier = " - straightforward application of legal principles"
+            
+        predicted_outcome = base_outcome + outcome_modifier
+        
+        prediction_output = {
+            "predicted_outcome": predicted_outcome,
+            "confidence": min(0.9, 0.6 + (judgment_data['classification_confidence'] * 0.3)),
+            "key_factors": judgment_data['main_issues'][:3],
+            "complexity_assessment": {
+                "level": "high" if complexity_score > 0.5 else "medium" if complexity_score > 0.2 else "standard",
+                "score": complexity_score,
+                "indicators": judgment_data['complexity_indicators']
+            },
+            "legal_framework": f"{case_type.replace('_', ' ').title()} law and relevant statutory provisions"
+        }
+        
+        example = {
+            "instruction": "Based on the family law case information provided, predict the likely court outcome and provide detailed analysis.",
+            "input": json.dumps(predictor_input, ensure_ascii=False),
+            "output": json.dumps(prediction_output, ensure_ascii=False),
+            "component": "predictor"
+        }
+        
+        return [example]
+
+    def _create_explainer_examples_enhanced(self, judgment_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """Enhanced explainer examples"""
+        case_type = judgment_data['case_type']
+        reasoning = judgment_data.get('legal_reasoning', '')
+        
+        # Efficient truncation
+        if len(reasoning) > 800:
+            analysis = reasoning[:800] + "... [Analysis continues - see full judgment for complete reasoning]"
+        else:
+            analysis = reasoning
+        
+        explainer_input = {
+            "case_summary": judgment_data.get('case_facts', '')[:400],
+            "main_issues": judgment_data['main_issues'],
+            "case_type": case_type,
+            "complexity_indicators": judgment_data['complexity_indicators'],
+            "has_financial_elements": judgment_data['has_financial_elements']
+        }
+        
+        # Generate legal principles based on case type
+        legal_principles = self._get_legal_principles_by_case_type(case_type)
+        statutory_framework = self._get_statutory_framework_by_case_type(case_type)
+        
+        explainer_output = {
+            "detailed_legal_analysis": analysis,
+            "key_legal_principles": legal_principles,
+            "statutory_framework": statutory_framework,
+            "complexity_analysis": {
+                "overall_score": judgment_data['complexity_score'],
+                "key_complexity_factors": judgment_data['complexity_indicators'],
+                "assessment": "High complexity case requiring specialist expertise" if judgment_data['complexity_score'] > 0.5 
+                           else "Moderate complexity with standard legal principles" if judgment_data['complexity_score'] > 0.2
+                           else "Standard case with established legal framework"
+            },
+            "professional_recommendations": self._get_recommendations_by_case_type(case_type, judgment_data['complexity_score'])
+        }
+        
+        example = {
+            "instruction": f"Provide comprehensive legal analysis for professional advisors reviewing this {case_type.replace('_', ' ')} case.",
+            "input": json.dumps(explainer_input, ensure_ascii=False),
+            "output": json.dumps(explainer_output, ensure_ascii=False),
+            "component": "explainer"
+        }
+        
+        return [example]
+
+    def _get_legal_principles_by_case_type(self, case_type: str) -> List[str]:
+        """Get legal principles by case type"""
+        principles = {
+            'child_arrangements': ["Child's welfare is paramount", "Meaningful relationship with both parents"],
+            'financial_remedy': ["Fair division considering all circumstances", "Clean break where appropriate"],
+            'inheritance_family': ["Reasonable financial provision", "Moral obligation to dependants"],
+            'mental_capacity': ["Best interests decision-making", "Least restrictive intervention"],
+            'adoption_fostering': ["Child's welfare throughout life", "Lifelong commitment required"],
+            'care_proceedings': ["Threshold criteria must be met", "Welfare checklist applies"],
+            'divorce_dissolution': ["Irretrievable breakdown", "Clean break preferable"],
+            'domestic_violence': ["Safety is paramount", "Protective measures necessary"],
+            'international_family': ["Child's habitual residence", "Best interests across borders"],
+            'cohabitation': ["Property rights limited", "Constructive trust principles"]
+        }
+        return principles.get(case_type, ["Established legal precedents apply", "Statutory factors must be considered"])
+
+    def _get_statutory_framework_by_case_type(self, case_type: str) -> List[str]:
+        """Get statutory framework by case type"""
+        frameworks = {
+            'child_arrangements': ["Children Act 1989", "Children and Families Act 2014"],
+            'financial_remedy': ["Matrimonial Causes Act 1973", "Civil Partnership Act 2004"],
+            'inheritance_family': ["Inheritance (Provision for Family and Dependants) Act 1975"],
+            'mental_capacity': ["Mental Capacity Act 2005", "Mental Health Act 1983"],
+            'adoption_fostering': ["Adoption and Children Act 2002", "Children Act 1989"],
+            'care_proceedings': ["Children Act 1989", "Children and Social Work Act 2017"],
+            'divorce_dissolution': ["Matrimonial Causes Act 1973", "Divorce, Dissolution and Separation Act 2020"],
+            'domestic_violence': ["Family Law Act 1996", "Domestic Abuse Act 2021"],
+            'international_family': ["Hague Convention 1980", "Brussels II Revised"],
+            'cohabitation': ["Trusts of Land and Appointment of Trustees Act 1996", "Civil Partnership Act 2004"]
+        }
+        return frameworks.get(case_type, ["Relevant family law legislation", "Human Rights Act 1998"])
+
+    def _get_recommendations_by_case_type(self, case_type: str, complexity_score: float) -> List[str]:
+        """Get recommendations by case type"""
+        base_recommendations = ["Thorough case review and documentation"]
+        
+        if complexity_score > 0.5:
+            base_recommendations.extend([
+                "Consider specialist counsel opinion",
+                "Expert witness requirements assessment"
+            ])
+        
+        case_specific = {
+            'inheritance_family': "Estate accounts and valuations review",
+            'child_arrangements': "Child impact assessment consideration",
+            'financial_remedy': "Pension sharing implications review",
+            'mental_capacity': "Capacity assessment planning",
+            'adoption_fostering': "Matching and support services coordination"
+        }
+        
+        if case_type in case_specific:
+            base_recommendations.append(case_specific[case_type])
+            
+        return base_recommendations[:4]
+
+# Global thread-safe writer
+file_writer = ThreadSafeWriter()
+
+def process_batch_hybrid(batch_info: Tuple[List[Path], int]) -> Tuple[Dict, int, List[Dict]]:
+    """Hybrid batch processing"""
+    file_paths, batch_id = batch_info
+    processor = HybridXMLProcessor()
+    
+    stats = {
+        'total_files': len(file_paths),
+        'processed_files': 0,
+        'failed_files': 0,
+        'quality_scores': []
+    }
+    
+    all_examples = []
+    
+    for xml_file in file_paths:
+        try:
+            # Fast validation
+            if not processor.fast_validate(xml_file):
+                stats['failed_files'] += 1
+                continue
+            
+            # Hybrid extraction
+            judgment_data = processor.extract_judgment_data_hybrid(xml_file)
+            
+            if judgment_data is None:
+                stats['failed_files'] += 1
+                continue
+            
+            # Enhanced example creation
+            examples = processor.create_training_examples_enhanced(judgment_data)
+            
+            if examples:
+                all_examples.extend(examples)
+                stats['processed_files'] += 1
+                stats['quality_scores'].append(judgment_data.get('classification_confidence', 0))
+            else:
+                stats['failed_files'] += 1
+                
+        except Exception:
+            stats['failed_files'] += 1
+            continue
+    
+    return stats, batch_id, all_examples
+
+def merge_batch_files_fast(output_dir: Path, components: List[str]):
+    """Fast batch file merging"""
+    logger.info("Merging batch files...")
+    
+    for component in components:
+        batch_files = sorted(output_dir.glob(f"{component}_batch_*.jsonl"))
+        if not batch_files:
+            continue
+        
+        final_file = output_dir / f"{component}_training_data.jsonl"
+        seen_examples = set()
+        valid_count = 0
+        duplicate_count = 0
+        
+        try:
+            with open(final_file, 'w', encoding='utf-8') as outf:
+                for batch_file in batch_files:
+                    try:
+                        with open(batch_file, 'r', encoding='utf-8') as inf:
+                            for line in inf:
+                                line = line.strip()
+                                if not line:
+                                    continue
+                                
+                                try:
+                                    example = json.loads(line)
+                                    example_hash = hash(example['input'] + example['output'])
+                                    
+                                    if example_hash in seen_examples:
+                                        duplicate_count += 1
+                                        continue
+                                    
+                                    seen_examples.add(example_hash)
+                                    outf.write(line + '\n')
+                                    valid_count += 1
+                                    
+                                except (json.JSONDecodeError, KeyError):
+                                    continue
+                        
+                        batch_file.unlink()
+                        
+                    except Exception:
+                        continue
+            
+            logger.info(f"Created {final_file}: {valid_count} examples ({duplicate_count} duplicates removed)")
+            
+        except Exception as e:
+            logger.error(f"Error creating final file {final_file}: {e}")
+
+def save_progress(processed_files: Set[str], checkpoint_file: Path):
+    """Save progress for resumability"""
+    try:
+        with open(checkpoint_file, 'w') as f:
+            json.dump(list(processed_files), f)
+    except Exception:
+        pass
+
+def load_progress(checkpoint_file: Path) -> Set[str]:
+    """Load previous progress"""
+    try:
+        if checkpoint_file.exists():
+            with open(checkpoint_file, 'r') as f:
+                return set(json.load(f))
+    except Exception:
+        pass
+    return set()
+
+def main():
+    parser = argparse.ArgumentParser(description="Hybrid Speed-Quality XML processor for AILES Legal AI")
+    parser.add_argument("--input_dir", default="data/raw/xml_judgments", help="Input directory containing XML files")
+    parser.add_argument("--output_dir", default="data/processed", help="Output directory")
+    parser.add_argument("--max_files", type=int, help="Maximum files to process (for testing)")
+    parser.add_argument("--workers", type=int, default=10, help="Number of parallel workers")
+    parser.add_argument("--batch_size", type=int, default=150, help="Files per batch")
+    parser.add_argument("--resume", action="store_true", help="Resume from previous progress")
+    parser.add_argument("--sample_rate", type=float, default=1.0, help="Sample rate for testing (0.0-1.0)")
+    
+    args = parser.parse_args()
+    
+    # Setup paths
+    input_dir = Path(args.input_dir)
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    if not input_dir.exists():
+        logger.error(f"Input directory does not exist: {input_dir}")
+        return
+    
+    logger.info("🚀 HYBRID SPEED-QUALITY AILES Legal AI XML Processor")
+    logger.info(f"📂 Input directory: {input_dir}")
+    logger.info(f"📁 Output directory: {output_dir}")
+    logger.info(f"⚡ Workers: {args.workers}, Batch size: {args.batch_size}")
+    
+    checkpoint_file = output_dir / "progress.json"
+    
+    # Load progress if resuming
+    processed_files = load_progress(checkpoint_file) if args.resume else set()
+    
+    # Find XML files
+    xml_files = list(input_dir.glob("**/*.xml"))
+    logger.info(f"📊 Found {len(xml_files)} XML files")
+    
+    # Apply sampling for testing
+    if args.sample_rate < 1.0:
+        sample_size = int(len(xml_files) * args.sample_rate)
+        xml_files = random.sample(xml_files, sample_size)
+        logger.info(f"🎯 Sampling {len(xml_files)} files ({args.sample_rate:.1%})")
+    
+    # Apply max files limit
+    if args.max_files:
+        xml_files = xml_files[:args.max_files]
+        logger.info(f"🔢 Limited to {len(xml_files)} files for testing")
+    
+    # Filter out already processed files
+    if processed_files:
+        xml_files = [f for f in xml_files if f.name not in processed_files]
+        logger.info(f"♻️ After filtering processed files: {len(xml_files)} remaining")
+    
+    if not xml_files:
+        logger.info("ℹ️ No files to process")
+        return
+    
+    # Create batches
+    batches = []
+    for i in range(0, len(xml_files), args.batch_size):
+        batch_files = xml_files[i:i + args.batch_size]
+        batch_id = i // args.batch_size
+        batches.append((batch_files, batch_id))
+    
+    logger.info(f"📦 Created {len(batches)} batches for processing")
+    
+    # Process batches
+    total_stats = {
+        'total_files': len(xml_files),
+        'processed_files': 0,
+        'failed_files': 0,
+        'chatbot_examples': 0,
+        'predictor_examples': 0,
+        'explainer_examples': 0,
+        'quality_scores': [],
+        'case_type_distribution': Counter()
+    }
+    
+    start_time = time.time()
+    
+    try:
+        with ProcessPoolExecutor(max_workers=args.workers) as executor:
+            # Submit all batches
+            future_to_batch = {
+                executor.submit(process_batch_hybrid, batch): batch[1] 
+                for batch in batches
+            }
+            
+            completed_batches = 0
+            
+            # Process results as they complete
+            for future in as_completed(future_to_batch):
+                batch_id = future_to_batch[future]
+                
+                try:
+                    batch_stats, returned_batch_id, examples = future.result(timeout=300)
+                    
+                    # Write examples immediately using thread-safe writer
+                    if examples:
+                        component_counts = file_writer.write_examples(examples, batch_id, output_dir)
+                        total_stats['chatbot_examples'] += component_counts.get('chatbot', 0)
+                        total_stats['predictor_examples'] += component_counts.get('predictor', 0)
+                        total_stats['explainer_examples'] += component_counts.get('explainer', 0)
+                    
+                    # Update total statistics
+                    total_stats['processed_files'] += batch_stats['processed_files']
+                    total_stats['failed_files'] += batch_stats['failed_files']
+                    total_stats['quality_scores'].extend(batch_stats.get('quality_scores', []))
+                    
+                    # Update progress
+                    batch_files = batches[batch_id][0]
+                    processed_files.update(f.name for f in batch_files)
+                    
+                    # Save progress every 10 batches
+                    if completed_batches % 10 == 0:
+                        save_progress(processed_files, checkpoint_file)
+                    
+                    completed_batches += 1
+                    progress_percent = (completed_batches / len(batches)) * 100
+                    
+                    # Show progress every 5%
+                    if completed_batches % max(1, len(batches) // 20) == 0:
+                        logger.info(f"📈 Progress: {completed_batches}/{len(batches)} batches ({progress_percent:.0f}%) - "
+                                  f"Processed: {total_stats['processed_files']:,} files")
+                    
+                except Exception as e:
+                    logger.error(f"❌ Batch {batch_id} failed: {e}")
+                    continue
+    
+    except KeyboardInterrupt:
+        logger.info("🛑 Processing interrupted by user")
+        save_progress(processed_files, checkpoint_file)
+        return
+    except Exception as e:
+        logger.error(f"💥 Processing failed: {e}")
+        return
+    
+    # Merge all batch files
+    components = ['chatbot', 'predictor', 'explainer']
+    merge_batch_files_fast(output_dir, components)
+    
+    # Calculate final statistics
+    end_time = time.time()
+    processing_time = end_time - start_time
+    
+    total_stats.update({
+        'processing_time_seconds': processing_time,
+        'processing_time_minutes': processing_time / 60,
+        'success_rate': total_stats['processed_files'] / total_stats['total_files'] if total_stats['total_files'] > 0 else 0,
+        'files_per_second': total_stats['processed_files'] / processing_time if processing_time > 0 else 0,
+        'total_examples': total_stats['chatbot_examples'] + total_stats['predictor_examples'] + total_stats['explainer_examples'],
+        'examples_per_file': (total_stats['chatbot_examples'] + total_stats['predictor_examples'] + total_stats['explainer_examples']) / max(1, total_stats['processed_files']),
+        'timestamp': datetime.now().isoformat()
+    })
+    
+    # Clean up checkpoint file
+    try:
+        checkpoint_file.unlink(missing_ok=True)
+    except:
+        pass
+    
+    # Print final summary
+    logger.info("=" * 80)
+    logger.info("🎉 HYBRID PROCESSING COMPLETE!")
+    logger.info(f"⏱️ Processing time: {total_stats['processing_time_minutes']:.1f} minutes")
+    logger.info(f"📊 Files processed: {total_stats['processed_files']:,}/{total_stats['total_files']:,}")
+    logger.info(f"📈 Success rate: {total_stats['success_rate']:.1%}")
+    logger.info(f"⚡ Processing speed: {total_stats['files_per_second']:.1f} files/second")
+    logger.info("")
+    logger.info("📝 Training Examples Generated:")
+    logger.info(f"   💬 Chatbot: {total_stats['chatbot_examples']:,}")
+    logger.info(f"   🔮 Predictor: {total_stats['predictor_examples']:,}")
+    logger.info(f"   📖 Explainer: {total_stats['explainer_examples']:,}")
+    logger.info(f"   📊 Total: {total_stats['total_examples']:,}")
+    logger.info(f"   📈 Average per file: {total_stats['examples_per_file']:.1f}")
+    
+    if total_stats['quality_scores']:
+        avg_quality = sum(total_stats['quality_scores']) / len(total_stats['quality_scores'])
+        logger.info(f"⭐ Average quality score: {avg_quality:.3f}")
+    
+    logger.info("=" * 80)
+    logger.info(f"📁 Output files saved to: {output_dir}")
+    
+    # List generated files
+    output_files = list(output_dir.glob("*.jsonl"))
+    for file in output_files:
+        try:
+            with open(file, 'r') as f:
+                line_count = sum(1 for _ in f)
+            file_size = file.stat().st_size / (1024 * 1024)  # MB
+            logger.info(f"   📄 {file.name}: {line_count:,} examples ({file_size:.1f} MB)")
+        except:
+            logger.info(f"   📄 {file.name}: created")
+    
+    logger.info("🎯 Ready for AI training!")
+
+if __name__ == "__main__":
+    main()

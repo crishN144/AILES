@@ -1,0 +1,946 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2024/21"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewcop/2024/21"/>
+	  <FRBRdate date="2024-04-12" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="21"/>
+	  <FRBRname value="ZZ (Capacity), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2024/21"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2024/21"/>
+	  <FRBRdate date="2024-04-12" name="judgment"/>
+	  <FRBRauthor href="#ewcop"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcop/2024/21/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcop/2024/21/data.xml"/>
+	  <FRBRdate date="2024-11-25T23:30:39" name="transform"/>
+	  <FRBRdate date="2024-11-28T10:26:01" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-04-12" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewcop" href="https://www.gov.uk/courts-tribunals/court-of-protection" showAs="The Court of Protection"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="local-authority-a" href="" showAs="Local Authority A"/>
+	<TLCPerson eId="zz-by-his-litigation-friend-the-official-solicitor" href="" showAs="ZZ (By His Litigation Friend the Official Solicitor)"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis" href="/judge-mrs-justice-theis" showAs="MRS JUSTICE THEIS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCOP</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>21</uk:number>
+	<uk:cite>[2024] EWCOP 21</uk:cite>
+	<uk:parser>0.26.14</uk:parser>
+	<uk:hash>7a03b90bb41a8fb1275c28543629a86ad2efdf55e652fa6abeceb9a9a339ddd2</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .paralevel10 { font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">MRS JUSTICE THEIS</span></p>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Approved Judgment</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"><span style="font-family:'Times New Roman';font-size:8pt">ZZ (Capacity)</span></p>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2024] EWCOP 21</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>COP13919068</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewcop">IN THE COURT OF PROTECTION </courtType></p>
+      <p class="CoverMain">ON AN APPEAL FROM HHJ BURROWS </p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-04-12" refersTo="#judgment">12/04/2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis">MRS JUSTICE THEIS</judge></p>
+      <p class="CoverMain" style="text-align:center">Vice President of the Court of Protection</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><party as="#appellant" refersTo="#local-authority-a" style="font-weight:bold">Local Authority A</party></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border:0.5pt solid">
+	    <p/>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p style="text-align:center"><party as="#respondent" refersTo="#zz-by-his-litigation-friend-the-official-solicitor" style="font-weight:bold">ZZ (By His Litigation Friend the Official Solicitor)</party></p>
+	  </td>
+	  <td style="border:0.5pt solid">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Mr Joseph O&#8217;Brien KC and Ms Lucinda France-Hayhurst (instructed by<span style="font-weight:bold"> Local Authority A</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center">Ms Sophia Roper KC and Dr Oliver Lewis (instructed by <span style="font-weight:bold">Peter Edwards Law</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 19<span style="vertical-align:super;font-size:smaller">th</span> March 2024</p>
+      <p style="text-align:center">Judgment: 12<span style="vertical-align:super;font-size:smaller">th</span> April 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 12<span style="vertical-align:super;font-size:smaller">th</span> April 2024 by circulation to the parties or their representatives by e-mail.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MRS JUSTICE THEIS</p>
+      <p style="text-align:justify">This judgment was delivered in public but a Transparency Order dated 8 June 2023 is in force.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the parties must be strictly preserved.   All persons, including representatives of the media and legal bloggers, must ensure that this condition is strictly complied with.   Failure to do so may be a contempt of court. </p>
+      <p><span style="font-weight:bold">Mrs Justice Theis DBE :</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is an appeal by the local authority from the decision of HHJ Burrows on 1 August 2023 (A Local Authority v ZZ <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2023/61" uk:canonical="[2023] EWCOP 61" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCOP 61</ref>) that ZZ has capacity to make decisions about residence, engage in sexual relations and marriage. The appeal is opposed by ZZ, through his litigation friend the Official Solicitor.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following the Judge&#8217;s refusal of permission to appeal on 16 August 2023, Judd J ordered a stay on 1 September 2023. I gave permission to appeal on 14 December 2023 and made directions for the listing of this hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court is very grateful for the comprehensive written skeleton arguments by Mr O&#8217;Brien KC and Ms Lucinda France-Hayhurst, on behalf of the local authority, and Ms Roper KC and Mr Oliver Lewis, on behalf of the Official Solicitor.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appeal hearing took place on 19 March 2024, judgment was reserved until today.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="margin-left:0.1in;text-indent:-0.1in"><span style="font-weight:bold">Relevant background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">ZZ is a 20 year old man with a diagnosis of mild learning disability (&#8216;LD&#8217;), attention deficit hyperactivity disorder (&#8216;ADHD&#8217;) and possible obsessive compulsive disorder (&#8216;OCD&#8217;). He suffered sexual abuse as a child and has himself been convicted of sexual assault on a 5 year old family member, resulting in an Intensive Referral Order for 12 months and a Sexual Harm Prevention Order (&#8216;SHPO&#8217;), which expires in October 2024. It is a condition of the SHPO that ZZ does not live or sleep in any premises where there is also a child under the age of 18 years unless approved by the local authority and does not have unsupervised contact with a child.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">ZZ became a looked after child pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>) in November 2019. He was placed at a residential and educational setting that is able to work with children displaying sexually harmful behaviours.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Within that placement ZZ continued to exhibit difficult and challenging sexualised behaviours.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As ZZ approached adulthood, he moved to a supported living placement in a self-contained flat in October 2021.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The local authority applied on 24 March 2022 to authorize ZZ&#8217;s deprivation of liberty at his current placement. The application was transferred to the welfare pathway in July 2022 due to a material change in ZZ&#8217;s circumstances, namely that he wished to enter into a relationship and engage in sexual relations with his girlfriend, TD.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">ZZ had been assessed in July 2021 by a Consultant Clinical Neuropsychiatrist to<span style="font-weight:bold"/><span style="font-style:italic">&#8216;pose a very high risk of committing harmful sexual acts towards others&#8217;</span> by virtue of his <span style="font-style:italic">&#8216;intrusive [sexual] thoughts&#8217;</span> which were deemed obsessional in nature.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">ZZ has repeatedly made clear his wish to live with his girlfriend, TD, and her mother were he able to make that decision himself, has repeatedly expressed a wish to live without restrictions (of all kinds) and is deemed at high risk of absconding.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In October 2022 the court permitted the instruction of Dr Lisa Rippon to assess ZZ&#8217;s capacity. Dr Rippon initially concluded in February 2023 that ZZ lacked capacity in the following matters - conducting proceedings, care and support, internet and social media use and contact with others, but had capacity to engage in sexual relations, to marry, to use contraception and to enter into/terminate a tenancy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In a further report in March 2023, Dr Rippon reconsidered her conclusions, having been asked to what extent ZZ&#8217;s urges and impulsivity interact with his appreciation of another&#8217;s consent to engage in sexual relations. Dr Rippon&#8217;s revised conclusions regarding sexual relations and marriage were summarised by Mr O&#8217;Brien as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">ZZ lacks insight into his ability to control his behaviour and stop himself from engaging in behaviour that he knows is wrong;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">This prevents ZZ from using and weighing information with regards to engaging in sexual activity and he therefore lacks capacity in this area;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">ZZ does not have any insight into his own vulnerabilities and may potentially behave in public in a way which places him at significant risk of both sexual exploitation by others but also aggressive behaviour and potential reprisals;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Based on his lack of capacity in relation to engaging in sexual relations, he lacks capacity to marry.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Between January and April 2023 ZZ had threatened to reoffend, attempted to evade supervision and abscond from his placement by counting staff&#8217;s steps on the stairs and taking steps to bypass the door alarm on the entrance to his flat. He did reoffend in April 2023 by unscrewing his window in order to exhibit masturbation to a member of the public from his bedroom, which is the subject of ongoing criminal proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the hearing on 12 and 13 June 2023 Dr Rippon gave oral evidence over two days. On the 12 June 2023 the Judge had a separate meeting with ZZ, who then remained present in the hearing during Dr Rippon&#8217;s evidence. The Judge considered the written submissions from the parties and in his judgment dated 1 August 2023 he made the following findings about ZZ&#8217;s capacity: that he had capacity to make decisions about residence; engage in sexual relations; contraception, and to marry. It was agreed ZZ lacked capacity to conduct proceedings; make decisions about care and support and internet and social media use. The Judge determined he lacked capacity to make decisions about contact with others.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">According to the local authority they thereafter endeavoured to draw up a <span style="font-style:italic">Re TZ</span> compliant contact plan but state ZZ&#8217;s placement are going to serve notice, due to what they consider is the serious risk he poses, if its staff are expected to put into operation a plan for ZZ to have sexual contact with his girlfriend, on or off the premises.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Prior to this hearing the local authority provided further updated information from the allocated social worker, reporting that although ZZ remained in a relationship with TD he also expressed a desire to engage in sexual relations with other female students at his college. The placement also report that ZZ&#8217;s risky and impulsive behaviour is increasingly difficult to anticipate and manage. ZZ&#8217;s multi-disciplinary team continue to meet regularly and the minutes report heightened concern about ZZ&#8217;s anxiety, impulsivity, fixations, comments and deviant behaviour. Mr O&#8217;Brien submits this provides further evidence of the connection identified by Dr Rippon between ZZ&#8217;s complex conditions and his obsessive behaviour, with the result that there is a collective concern that ZZ is at high risk of reoffending sexually due to the anxiety and stress which he is experiencing. Ms Roper submits the court should disregard this evidence in this hearing, which is an appeal against the order on 1 August 2023 on the basis of the evidence available to the court at that time. I agree with Ms Roper. For the purposes of this appeal hearing I have not taken into account the recent updating information.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Legal framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> (&#8216;MCA&#8217;) sets out the legal framework for making determinations about mental capacity. It is complemented by a Code of Practice (issued by the Lord Chancellor under section 42 of the MCA) that gives guidance on the application of the MCA. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 1 sets out the general principles of the MCA. It provides, among other things, that a person is presumed to have capacity unless it is established that he or she lacks capacity (section 1(2)); that he or she is not to be treated as unable to make a decision unless all practicable steps to help him or her to do so have been taken without success (section 1(3)); and that he or she is not to be treated as lacking capacity merely because his or her decision is unwise (section 1(4)). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Sections 2 and 3 together define the circumstances in which a person lacks capacity. Section 2(1) provides that: "<span style="font-style:italic">For the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref>, a person lacks capacity in relation to a matter if at the material time he is unable to make a decision for himself in relation to the matter because of an impairment of, or a disturbance in the functioning of, the mind or brain."</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, questions of capacity arise if and only if a person suffers from some impairment in the functioning of the mind or brain as a consequence of which they are unable to make a decision. Capacity determinations are specific to particular matters that arise for decision at the time a determination is required to be made about a person's capacity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 2(4) requires that questions as to lack of capacity are to be resolved on the balance of probabilities. The effect of this, read with section 1(2), is that the burden is on whoever alleges that a person lacks capacity to prove to that civil standard that the person does not have capacity in relation to the matter at issue. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 3(1) provides that a person is unable to make a decision in relation to some matter if he or she is unable to understand, retain or use or weigh the information relevant to that decision, or is unable to communicate the decision. Section 3(2) provides that the information relevant to the decision is required to be presented to the person in a way that is appropriate to his or her circumstances. Section 3(3) provides that the fact that the person may be able to retain the information for a short time only does not prevent a finding of capacity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What is the relevant information will depend on the particular decision to be made, but includes the reasonably foreseeable consequences of the decision or failure to make a decision (section 3(4)). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Where decisions are taken for a person lacking mental capacity by someone else, those decisions must be in the person's best interests. Section 4 MCA requires that all relevant circumstances be taken into account. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 15 empowers the court to make declarations as to whether a person has capacity to make a particular decision. The enquiry as to capacity is fact sensitive (<span style="font-style:italic">London Borough of Tower Hamlets v PB </span><ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2020/34" uk:canonical="[2020] EWCOP 34" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCOP 34</ref>). The bar must not be set too high. The MCA must not be interpreted so as to make care and treatment for P practically impossible and regard should be had to the overlap between different decisions, rather than treating them as if they are in self-contained silos (<span style="font-style:italic">B (by her Litigation Friend, the Official Solicitor) v A Local Authority</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/913" uk:canonical="[2019] EWCA Civ 913" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 913</ref>, [2019] COPLR 347). In <span style="font-style:italic">B</span> the Court of Appeal noted at [35] "<span style="font-style:italic">Cases, like the present, which concern whether or not a person has the mental capacity to make the decision which the person would like to make involve two broad principles of social policy which, depending on the facts, may not always be easy to reconcile. On the one hand, there is a recognition of the right of every individual to dignity and self-determination and, on the other hand, there is a need to protect individuals and safeguard their interests where their individual qualities or situation place them in a potentially vulnerable situation</span>.&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">A Local Authority v JB</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/35" uk:canonical="[2021] UKSC 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 35</ref> Lord Stephens at [65]-[75] emphasised the provisions in section 2(1) MCA, describing it as the <span style="font-style:italic">&#8216;core determinative provision&#8217;</span> regarding capacity. The first question is whether P is unable to make a decision for himself in relation to the matter. Where the matter relates to sexual relations it will ordinarily be formulated in a non-specific way, although he recognised that there can be situations where the matter for decision can properly be described as person-specific. In those circumstances the information relevant to the decision may be different. At [74] Lord Stephens stated <span style="font-style:italic">&#8220;The importance of P's ability under section 3(1)(a) MCA to understand information relevant to a decision is also specifically affected by whether there could be "serious grave consequences" flowing from the decision. Paragraph 4.19 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> Code of Practice provides: "If a decision could have serious or grave consequences, it is even more important that a person understands the information relevant to that decision." This again illustrates the importance of "the specific factual context of the case." In this case, for instance, there would be "serious or grave consequences" for JB's mental health if he was incarcerated, see para 40 above. Other potential "serious or grave consequences" for JB would include anxiety, depression, self- harm and retaliatory harm requiring hospitalisation, see paras 10, 17, 38 and 40 above. There could also be "serious or grave consequences" for others if they were the victims of sexual assaults or of rapes perpetrated by JB. These "serious or grave consequences" make it "even more important [in this case] that [ JB] understands the information relevant to" the decision to engage in or consent to sexual relations.&#8221;</span> Although making it clear in [75] there should be a practical limit as <span style="font-style:italic">&#8216;To require a potentially incapacitous person to be capable of envisaging more consequences than persons of full capacity would derogate from personal autonomy.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Guidance as to the relevant information to which the court may have regard in deciding a person&#8217;s capacity to decide where to live was provided in <span style="font-style:italic">LBX v K, L, M </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/3230" uk:canonical="[2013] EWHC 3230 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 3230 (Fam)</ref> at [43]: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">what the two options are, including information about what they are, what sort of property they are and what sort of facilities they have; </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(2)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">in broad terms, what sort of area the properties are in (and any specific known risks beyond the usual risks faced by people living in an area if any such specific risks exist); </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the difference between living somewhere and visiting it; </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(4)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">what activities L would be able to do if he lived in each place; </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(5)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">whether and how he would be able to see his family and friends if he lived in each place; </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(6)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">in relation to the proposed placement, that he would need to pay money to live there, which would be dealt with by his appointee, that he would need to pay bills, which would be dealt with by his appointee, and that there is an agreement that he has to comply with the relevant lists of "do"s and "don't"s, otherwise he will not be able to remain living at the placement; </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(7)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">who he would be living with at each placement; </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(8)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">what sort of care he would receive in each placement in broad terms, in other words, that he would receive similar support in the proposed placement to the support he currently receives, and any differences if he were to live at home; and </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(9)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the risk that his father might not want to see him if L chooses to live in the new placement.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> As was confirmed by the Supreme Court in <span style="font-style:italic">Re JB</span>, the information relevant to making a decision to engage in sexual relations may include: </p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">the sexual nature and character of the act of sexual intercourse, including the mechanics of the act; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">the fact that the other person must have the capacity to consent to the sexual activity and must in fact consent before and throughout the sexual activity; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">the fact that P can say yes or no to having sexual relations and is able to decide whether to give or withhold consent; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">that a reasonably foreseeable consequence of sexual intercourse between a man and woman is that the woman will become pregnant; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">that there are health risks involved, particularly the acquisition of sexually transmitted and transmissible infections, and that the risk of sexually transmitted infection can be reduced by the taking of precautions such as the use of a condom. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Hull CC v KF</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2022/33" uk:canonical="[2022] EWCOP 33" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCOP 33</ref> at [24] &#8211; [27] Poole J considered the potential implications where a person may lack capacity to have contact with a particular person but, at the same time, has the capacity to engage in sexual contact with that person. As he observed at [24 iii)] <span style="font-style:italic">&#8216;Decisions about capacity must be coherent and allow those responsible for caring for and safeguarding KF to make practical arrangements&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Poole J considered these issues further in <span style="font-style:italic">PN (Capacity: Sexual Relations and Disclosure)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2023/44" uk:canonical="[2023] EWCOP 44" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCOP 44</ref>, providing a timely reminder at [11] of the need to avoid application of the &#8216;protection imperative&#8217; stating that <span style="font-style:italic">&#8216;&#8230;the Court of Protection must not allow the desire to protect others unduly to influence a clear-eyed assessment of P&#8217;s capacity. The unpalatable truth is that some capacitous individuals commit sexual assault, even rape, but also have consensual sexual relations. An individual with learning disability, ASDF, or other impairment, may act in the same way, but it is only if they lack capacity to make decisions about engaging in sexual relations that the Court of Protection may interfere&#8217;.</span> In that case the expert evidence, which Poole J accepted, concluded that PN surrenders to his impulse because of his character and outlook, not because of his impairment. His impairments did not cause him to lose his control in other fields of activity, or his sexual control in other settings. His sexual impulsivity was not a manifestation of his ASD and/or learning disability. As Poole J  stated at [16] &#8220;<span style="font-style:italic">There is no pattern of impulsivity due to his impairments of which his sexual offending is a part. When with his brother or others whose disapprobation he might want to avoid, he controls any impulses to sexually touch women. He disregards the need for consent but he is able to use the information he retains, namely that the consent of the other person is necessary&#8217;.</span> In that case, on its particular facts, Poole J considered there was no inconsistency in the court finding PN lacks capacity to have contact with others but does have capacity to engage in sexual relations, as he accepted the expert evidence that PN understands sexual boundaries but he does not understand social boundaries. Poole J continued at [28] PN <span style="font-style:italic">&#8220;</span><span/><span style="font-style:italic">sometimes stares at other people and he stares at women&#8217;s breasts. He knows, as I have found, that he</span><span/><span style="font-style:italic">ought not to touch them without their consent. He retains that understanding, and can weigh or use the information even when the urge takes him to touch the other person. However, he does not have the same understanding in relation to staring at or speaking to others. He does not understand the foreseeable consequences of speaking offensively to others, but he does understand the foreseeable consequences of touching them without consent. His lack of understanding in relation to non-sexual contact with others is because of his impairments. That was the conclusion of Dr Ince. Mr Curran&#8217;s evidence is consistent with that conclusion. Sexual boundaries are perhaps clearer and so more easily understood by PN even with his impairments, whereas social boundaries are less clear to him and are not understood by him because of his impairments.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning to capacity to marry in the case of<span style="font-style:italic"> London Borough of Southwark v KA &amp; Ors </span><ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2016/20" uk:canonical="[2016] EWCOP 20" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCOP 20</ref>, Parker J had explained the principles in these terms: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8220;[76] The test for capacity to marry is also a simple one: </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Marriage is status specific not person specific. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">The wisdom of the marriage is irrelevant. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(c)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">P must understand the broad nature of the marriage contract. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(d)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">P must understand the duties and responsibilities that normally attach to marriage, including that there may be financial consequences and that spouses have a particular status and connection with regard to each other. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(e)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">The essence of marriage is for two people to live together and to love one another. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(f)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">P must not lack capacity to enter into sexual relations. </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">[77] The decision is about capacity and not welfare. Thus I do not take into account aspects of his decision making which affect the consequence of his decision making, so long as they do not affect the decision making process in itself.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mostyn J examined the caselaw in <span style="font-style:italic">NB v. MI</span><span/><a class="Hyperlink" href="https://www.bailii.org/ew/cases/EWHC/Fam/2021/224.html" style="font-family:'Calisto MT'"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2021/224" uk:canonical="[2021] EWHC 224 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 224 (Fam)</ref></a> and expressly disagreed with the approach that Parker J took in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Southwark v. KA (Capacity to Marry)</span>. Mostyn J said at [14], that: &#8220;<span style="font-style:italic">Munby J was careful not to formulate this proposition in absolute terms. I respectfully agree that he was right not to do so. The authorities have set the standard for capacity to choose to engage in sexual relations at an equivalently low level to that for capacity to marry: see for example&#160;D Borough Council v AB&#160;[2011] EWHC 101 [COP];&#160;</span><a class="Hyperlink" href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/ew/cases/EWCOP/2011/101.html" style="font-style:italic;font-family:'Calisto MT'"><ref href="#" uk:canonical="[2011] 2 FLR 72" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 2 FLR 72</ref></a><span style="font-style:italic">, at [21]. If someone has the capacity to consent to marry then, as a matter of empirical experience, he or she is likely to have the capacity to choose to engage in sexual relations. However, because capacity is always issue-specific, capacity to marry, and capacity to choose to engage in sexual relations, are legally distinct. They may not necessarily produce the same answer, although typically they will.&#8221;</span> Mostyn J held at [15] that <span style="font-style:italic">&#8220;[i]t therefore does not follow that there is a rule that capacity to marry requires as a pre-condition capacity to choose to engage in sexual relations&#8221;</span>.&#160; He cited Munby J <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">in X City Council v MB, NM and MAB</span> at [62] (above) and said: <span style="font-style:italic">&#8220;Needless to say, these are all perfectly valid marriages.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The grounds of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The grounds of appeal are that the Judge was wrong to find that ZZ has capacity to make decisions (i) about residence; (ii) to engage in sexual relations; (iii) to marry.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his submissions Mr O&#8217;Brien tracked through the history of the reports from Dr Rippon, leading to the conclusions in her report in February 2023 regarding the diagnostic test under section 2 MCA, that as well as LD and ADHD she considered ZZ presented with executive functioning difficulties which she described as a <span style="font-style:italic">&#8216;term used for a range of cognitive, emotional and behavioural difficulties and include impairments with planning and organisation, flexible thinking, monitoring performance, multi-tasking, solving unusual problems, self-awareness, learning rules, social behaviour, making decisions, motivation, initiating appropriate behaviour, inhibiting inappropriate behaviour, controlling of emotions and concentration and processing information. This particularly impacts on [ZZ&#8217;] sequential thinking and ability to estimate risks of his behaviour&#8217;.</span> Dr Rippon considered any diagnosis of OCD should be kept under review, noted that ZZ had limited victim empathy and has a tendency to blame other people for his behaviour. Dr Rippon reported that due to his LD and ADHD, ZZ lacked capacity to conduct proceedings, to make decisions about his care and support, use of the internet and social media, his contact with others, manage his property and financial affairs, about sharing his offending information and regarding his residence but ZZ had capacity to engage in sexual relations, enter into or terminate a tenancy agreement, enter into marriage and contraception.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In answer to the question whether ZZ is able cognitively to discern the difference between a person who is old enough to consent to sex and a person who is not, Dr Rippon said she did not believe that <span style="font-style:italic">&#8216;it is his inability to assess age that is a risk factor, but rather the strength of his sexual urges, his limited ability to refrain from acting upon them, impulsivity and lack of empathy&#8217;.</span> In relation to updating an assessment of ZZ&#8217;s risk, Dr Rippon notes that she did not believe ZZ understood the potential that he will display further sexually harmful behaviour in the future. In her opinion ZZ <span style="font-style:italic">&#8216;over-estimates his ability to resist the compulsive urges which he presents with at times&#8217;.</span> She considered he remains at risk of displaying sexually harmful behaviour towards others, particularly children and vulnerable adults. In relation to girlfriends Dr Rippon considered ZZ&#8217;s risk would depend upon their own characteristics, and given his sexual behaviour, whilst he understands that a girlfriend has to consent before having sex she believed ZZ could be quite coercive towards more vulnerable females. In relation to members of the public, ZZ could be <span style="font-style:italic">&#8216;opportunistic and, if he was experiencing urges and compulsions around sex, he may target others if he is given an opportunity to do so&#8217;. </span>Dr Rippon regards ZZ&#8217;s level of risk is most apparent when he is unsupervised and she considers he can evade supervision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her March 2023 report Dr Rippon reflected on her views regarding ZZ&#8217;s capacity to have sexual relations and decided that ZZ was not able to use and weigh the relevant information as he lacks insight into his ability to control his behaviour which he knows is wrong. Dr Rippon also concluded that ZZ lacked capacity to marry.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her oral evidence Dr Rippon explained and expanded on her conclusions. They remained the same save that she considered that ZZ had capacity to engage in sexual relations with TD if TD knows about ZZ&#8217;s offending history. Dr Rippon said <span style="font-style:italic">&#8216;ZZ needs to understand that TD understands his difficulties, so that&#8212;and she is consenting to have sex with him, knowing that he might struggle to hold back some of his urges.&#8217;</span> She was asked whether that position went wider and covered any other proposed sexual partner who had been informed about ZZ&#8217;s history. Dr Rippon considered <span style="font-style:italic">&#8216;&#8230;that would be one aspect, but I think it is also about ZZ&#8217;s relationship with his proposed partner, how long that that has been, what his feelings are towards her, how invested he is in that relationship, that that would be I think a factor that could help him not act on these urges that he has&#8217;.</span> She went on to explain that what she considers would prevent ZZ from acting on his compulsions or obsessions would be the adverse consequences regarding his relationship with TD, for example her ending the relationship. In those circumstances it was suggested to Dr Rippon the urges may not be irresistible, which she acknowledged.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Rippon recognised that the vast majority of people have sexual urges but that when ZZ&#8217;s background is considered <span style="font-style:italic">&#8216;&#8230;the history of quite obsessional sexual thoughts and sexual urges, I was concerned that this&#8212;that there was a degree of compulsion linked to his desires to have sexual relationships with others.&#8217;</span> At little later she said <span style="font-style:italic">&#8216;&#8230;given ZZ&#8217;s background history and evidence of him acting inappropriately, I think there is evidence that even though he knows something is wrong, he finds it difficult to stop himself from doing that.&#8217;</span> Dr Rippon then related it to his mental impairment by stating <span style="font-style:italic">&#8216;&#8230;there is evidence that ZZ does have compulsive and obsessional behaviours, which I believe is a disorder of&#8212;(inaudible) disorder of the mind, the brain, and I think it is that that drives behaviour, and makes it difficult for him to stop himself from doing something that he knows is wrong and inappropriate.&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Rippon was asked about sexual urges for someone the same age as ZZ which she agreed was very normal but continued <span style="font-style:italic">&#8216;But if you look at ZZ&#8217;s background history&#8230;he does struggle to&#8230;and does display inappropriate behaviours. I believe it is the combination of his executive functioning problems, his obsess&#8212;tendency for obsessive compulsive thoughts that are documented, that I think would make it difficult for him to not act&#8230;if he was put in a situation, for example, where TD said, &#8220;No, I don&#8217;t want this, ZZ, I want this to stop&#8221;, I think that, because of his obsessional thoughts about sex, and,&#8230;great desire to have sex, it might be difficult for him to stop at that point. And I think that ZZ lacks understanding that he has that particular difficulty.&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to contraception Dr Rippon accepted that &#8216;<span style="font-style:italic">it&#8217;s the overwhelming urge to have sex that would prevent him from using a condom rather than necessarily a disturbance of the mind and brain&#8230;I think there is evidence though that ZZ in his history has (inaudible) compulsions and obsessions and sexual urges that go above and beyond a normal 19 year old&#8217;</span> and he needs to have insight into that in order to have capacity to consent to sex.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning to capacity to marry, Dr Rippon accepted she had changed her mind following her change in relation to capacity to engage in sexual relations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As regards contact with TD, Dr Rippon accepted that the decision regarding contact with his mother whereby it is supervised if he sees her alone and if it is with his step-father it does not require supervision does show ZZ has a degree of insight, but in the context of a situation known to him. Dr Rippon accepted that this could be transferred to his relationship with TD if similar circumstances arose, consequently Dr Rippon accepted that ZZ did have capacity regarding contact with TD.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">More generally, Dr Rippon considered that ZZ was unable to demonstrate empathy due to both his learning disability and the impact of his executive dysfunction <span style="font-style:italic">&#8216;he struggles to understand other people&#8217;s emotions, and how his actions will impact on them&#8230;It is a combination of factors with ZZ, I think it is his early life experiences, it&#8217;s his learning disability, it&#8217;s his ability to think through the consequences of his actions&#8230;he struggled to put himself into somebody else&#8217;s shoes and &#8230;think about how his behaviour impacted on them.&#8217;</span> Dr Rippon considered this impacted on ZZ&#8217;s capacity regarding sexual relations in the <span style="font-style:italic">&#8216;grey areas&#8217;</span> relating to consent, for example where someone was not clear about whether they were consenting or not and his ability to use and weigh that information in the moment. Dr Rippon agreed with the Judge that irrespective of who ZZ had contact with the essence of his incapacity to have sexual relations is ZZ&#8217;s inability to understand the risk he&#8217;s placed at because of his sexual impulsiveness, and that this is more of a bar to him making decisions about meeting people rather than having sex with them.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The judgment</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his judgment the Judge set out the relevant history and background, including the various assessments that have been undertaken. He noted the conclusions reached by Dr M, a Consultant Clinical Neuropsychiatrist, in July 2021 who observed that ZZ appeared friendly, manipulative and <span style="font-style:italic">&#8216;extremely preoccupied with sex&#8217;</span> and, Dr M considered, posed a very high risk of committing harmful sexual acts towards others.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the decisions under scrutiny the Judge dealt with residence at [35] &#8211; [37] where, having referred to the matters listed in <span style="font-style:italic">LBX, </span>he then posed the question whether ZZ understood that care is an important aspect of the place where he would have to live. He accepted the submissions on behalf of the Official Solicitor that care is not part of the relevant information in ZZ&#8217;s case, as what the local authority submit brings into the mix another placement that ZZ has to consider, namely one without the proper level of support, and that simply is not an option at the present time, so the Judge concluded <span style="font-style:italic">&#8216;If one removes the &#8216;care&#8217; point from the LBX list as it applies to this case, there is no doubt ZZ has the capacity to decide on residence&#8217;</span> [36]<span style="font-style:italic">.</span> The Judge continues that he has reached that conclusion as ZZ <span style="font-style:italic">&#8216;does not actually have a decision to make over whether he lives in a care setting&#8217;</span> [37] although he recognises the situation could change and if it did, ZZ&#8217;s capacity would need to be re-assessed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to capacity to engage in sexual relations he referred to the test in <span style="font-style:italic">JB</span><span style="font-style:italic;font-weight:bold"/>and the fact specific nature of any decision. He referred to Dr Rippon&#8217;s evidence on the relevant matters and noted that Dr Rippon&#8217;s evidence on the issue of consent has vacillated, her focus is on ZZ&#8217;s insight into his ability to control his behaviour and stop himself from engaging in behaviour he knows is wrong and situations where ZZ may find himself in where he may find it difficult to stop himself because of his sexual urges. The Judge stated at [46] &#8220;<span style="font-style:italic">Clearly, urges are, by their very nature, difficult to control, and it would be setting the bar too high if capacity to consent to sexual relations were to be ruled out because a person was unable to control an urge (for instance) to carry on with the sexual act. Having said that, ZZ is a sexual offender who is unable to control his urges to engage in very harmful and criminal sexual behaviour, as I have already found.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He then set out his conclusion at [47] as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8216;All that being said, I agree with the Official Solicitor's submissions on this. I do not accept that a sixth factor or limb ought to be introduced into the&#160;</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">JB</span><span style="font-style:italic">&#160;test, namely, to have insight into and the ability to control one's urges. I also agree the conclusion I have reached, namely that Peter has capacity in this area, fits in with Cobb J's statement in&#160;</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re Z</span><span style="font-style:italic">&#160;</span><a class="Hyperlink" href="https://www.bailii.org/ew/cases/EWCOP/2016/4.html" style="font-style:italic;font-family:Garamond;font-size:13.5pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2016/4" uk:canonical="[2016] EWCOP 4" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCOP 4</ref></a><span style="font-style:italic">, namely that ordinary risk taking, which may be unwise does not render the decision incapacitous. I would go further. A person can have the capacity to engage in sexual relations, understanding that his partner may withdraw her consent at any moment, and that with that he must stop the sexual act. If, however, when that withdrawal of consent happens the person is unable to overcome his urges, that is nothing to do with capacity to consent to sexual relations.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning, finally, to the issue of marriage he concluded in [50] that in the light of his conclusion regarding sexual relations ZZ has capacity to enter into a marriage.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr O&#8217;Brien submits the analysis undertaken by Dr Rippon regarding the <span style="font-style:italic">JB </span>test required considered and careful analysis by the Judge due to the nature of the evidence that had been heard about sexual urges and the duty the court has to others as well as P. Consequently the test regarding consent to sexual activity are a central plank of the <span style="font-style:italic">JB </span>decision. The evidence of Dr Rippon was that both before and/or during sexual activity ZZ may not be able to use and weigh the relevant information that a person can in the immediate throes of sexual activity say &#8216;no&#8217;. ZZ could understand that but what he couldn&#8217;t do, Dr Rippon said, was use or weigh it because of the impairment in functioning of mind or brain. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Further, Mr O&#8217;Brien submits, the Judge failed to properly analyse the evidence of Dr Rippon in paragraphs 21 &#8211; 25 of his judgment. This is particularly bearing in mind the serious grave consequences in this case, as referred to by the Supreme Court in <span style="font-style:italic">JB </span>[74].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The analysis as to residence at paragraphs 35 &#8211; 37 of the judgment was, submits Mr O&#8217;Brien, considered separately from the issue of care with no analysis of what was said in <span style="font-style:italic">B</span> and other cases about the need for decisions about capacity to be coherent and allow those responsible for caring for and safeguarding ZZ to make practical arrangements. The issue of residence should not have been considered in a silo. He rejects any suggestion that what he is seeking to do is conflate residence with care, as it is directly relevant to the question of residence in the particular circumstances of this case. The evidence was that ZZ does not accept he is someone who needs support. In this case the care element cannot be separated out as not being relevant information for ZZ to consider.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There was no proper consideration in the judgment of ZZ saying about where he wanted to live, namely with TD and her mother. Mr O&#8217;Brien rejected the suggestion that it was a pipedream as ZZ was found to have capacity to marry and has expressed a clear and consistent wish to marry TD, which was going to present great difficulties for the local authority to manage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr O&#8217;Brien rejects any suggestion that there are no issues in relation to the deprivation of liberty as ZZ has capacity about residence. ZZ is not free to leave where he lives due to the care and support plan, yet through a wider lens he has the capacity to go and live elsewhere, so the free to leave test is not met. The Judge failed to properly analyse this essential feature of the care plan, that ZZ is not free to leave.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr O&#8217;Brien submits that there was no reference of how the finding on lack of capacity in relation to care and support and where he lives impacted on the deprivation of liberty. The judgment was silent about that. It did not address these complexities including that ZZ had no ability to use and weigh the risks he posed and how they were managed in a residential placement that deprived him of his liberty. By ignoring ZZ&#8217;s wish to live with TD the Judge failed to properly balance what sort of care he would receive in each placement and any differences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to capacity to enter into sexual relations, contraception and marriage Mr O&#8217;Brien submits the Judge failed to properly deal with two matters: (i) the evidence of Dr Rippon regarding ZZ&#8217;s urges and inability to stop in the event the other person says &#8216;no&#8217;; this enters the realms of serious consequences for ZZ, and (ii) Dr Rippon&#8217;s evidence that the reason why ZZ carries on is because he can&#8217;t use and weigh the information due to a combination of his LD, ADHD, OCD and his executive functioning. The Judge&#8217;s conclusion at the end of paragraph 47 that &#8216;<span style="font-style:italic">If, however, when that withdrawal of consent happens the person is unable to overcome his urges, that is nothing to do with capacity to consent to sexual relations&#8217;</span> is, Mr O&#8217;Brien submits, wrong in the light of Dr Rippon&#8217;s evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr O&#8217;Brien submits the Judge wrongly characterised in [47] the issue in relation to having insight into the ability to control urges as being a sixth factor to add to the <span style="font-style:italic">JB </span>list. Mr O&#8217;Brien submits it clearly comes within either the second or third factor in <span style="font-style:italic">JB.</span> The Judge&#8217;s reliance on the decision in <span style="font-style:italic">Re Z</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2016/4" uk:canonical="[2016] EWCOP 4" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCOP 4</ref> was wrong as it was a totally different set of circumstances. In <span style="font-style:italic">Re Z</span> the issue was between separating out risk taking from lack of capacity, whereas in this case the analogy is about serious grave consequences (see [74] <span style="font-style:italic">JB</span>) and the Judge failing to deal with the link made by Dr Rippon with ZZ&#8217;s mental impairment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In addition, the Judge failed to properly engage with the interrelation between contact and capacity to engage in sexual relations. The conundrum faced by the courts in these situations was articulated by Poole J in <span style="font-style:italic">Hull v KF</span> at [24 iii)].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the finding regarding capacity to marry, Mr O&#8217;Brien submits that marriage does involve engaging in sexual relations. On the facts of this case that was relevant information, as the evidence demonstrates that ZZ has remained consistent in his wish to marry TD, and an integral part of that is because he wishes to have a family.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Roper KC submits that within the capacity framework outlined in <span style="font-style:italic">JB</span> and the relevant considerations listed in <span style="font-style:italic">LBX</span> each case is fact specific. Here in relation to residence there was no decision for ZZ to make. ZZ resides in his current placement and there is no active discussion regarding an alternative placement he could go to. As she submitted, there is no viable alternative option. In those circumstances, the Judge was right to conclude at [37] there was no decision to be made regarding residence. If ZZ was unhappy at his current placement it is open to him to go to an alternative placement, if it is available, and in that scenario an assessment would be made factoring in the presumption of capacity and the relevant Article 8 balancing exercise. That, she submits, is not the situation now; there is no specific decision to be made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Roper recognised that it may have been better if the order had expressed that ZZ had capacity to make decisions as to residence provided each option included appropriate care, as she accepted that the level of care available was a relevant consideration regarding any choice as to residence that ZZ would be likely to make in future.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning to the issue of deprivation of liberty Ms Roper makes a number of points, summarised in an agreed document submitted after the conclusion of the hearing. The issue of deprivation of liberty was raised for the first time in the closing written submissions of the Official Solicitor in the court below. It was not referred to the in the closing submissions from the local authority or in the judgment. The agreed order following the judgment made provision for the deprivation of liberty. In seeking permission to appeal below, and in this court, it was not raised as an issue, or a ground of appeal by the local authority. It was first raised by Mr O&#8217;Brien outside court prior to the commencement of this hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Roper relies on what was submitted in the court below. HHJ Hilder stated in <span style="font-style:italic">Tower Hamlets v A </span>[2020] COPLR 609<span style="font-weight:bold"/>at [79] that A lacked capacity to make decisions about her care but that <span style="font-style:italic">&#8216;where there is a choice between alternative places in which to receive appropriate care, A has capacity to make that choice&#8217;.</span> The Judge, Ms Roper submits, was correct to adopt, in approving the order, the same approach in ZZ&#8217;s supported living placement, which falls outside the ambit of the Sch A1 framework. Where ZZ is determined to lack capacity to make decisions about his care a further determination that ZZ lacks capacity to decide where to live is not an invariable requirement for the court to authorise a deprivation of liberty in the community. The accommodation is the vehicle for care and treatment. In principle, she submits, there should be no difference whether the placement is in the community or in a care home. In this case the issue of deprivation of liberty was agreed between the parties after the Judge had given the judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning to the decision relating to capacity to enter into sexual relations, Ms Roper agrees the question of sexual urges and impairment are the key issues. Like in <span style="font-style:italic">JB, </span>each case is fact specific. ZZ was only contemplating sexual relations with TD. Ms Roper agrees that this issue could fall within the second factor in <span style="font-style:italic">JB</span> if in the way that ZZ presented meant that he ceased to be able to understand, use or weigh the fact that the other person has to consent throughout any sexual activity. Ms Roper emphasises the importance, as has been stated in many cases, of not setting the bar too high and lays emphasis on the presumption of capacity and the need for the court to be satisfied on the balance of probabilities that the presumption is displaced.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Roper submits that although the evidence was at times confusing, on a careful analysis of the evidence Dr Rippon did not say that ZZ would not be able to carry on, the term she used was &#8216;might&#8217; and she was clear that the risk reduced in relation to TD because of the importance of the relationship to ZZ. She submits there was no evidence that it was more difficult for ZZ than anyone else.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Rippon&#8217;s evidence was that ZZ understood consent, he knew if that changed he would have to stop and if he didn&#8217;t he knew that would be wrong. The issue in relation to ZZ is not whether he has the urges but what he understands about them and to what extent he has any insight. Dr Rippon accepted she did not ask ZZ about his insight in relation to his urges. Ms Roper submits whilst there is no dispute ZZ does lack insight, it is quite a leap to say he lacks insight into every part of his behaviour.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Roper submits for the evidence to rebut the presumption, it would need to be clear about a number of matters:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The degree to which there was an unusual degree of difficulty or inability of ZZ to prevent himself from carrying on if consent was withdrawn was not in the evidence, and<span style="font-family:'Calisto MT'">, </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman'">ZZ&#8217;&#8217;s inability to understand, retain, use and weigh that degree of difficulty when embarking on a sexual encounter.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In any event, she submits Dr Rippon accepted she did not discuss with ZZ his degree of insight in this context. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the absence of the evidence that directly dealt with this, Ms Roper submits, the presumption of capacity was not rebutted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Roper submitted another confusing aspect of Dr Rippon&#8217;s evidence were her answers that if TD knew about ZZ&#8217;s offending history that would be sufficient to establish capacity to engage with sexual relations with TD. As she submits, logically that would apply to anyone else if they had knowledge of ZZ&#8217;s past history.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As regards the Judge&#8217;s conclusions about contact, as set out in [43] of the judgment, that was in line with the evidence given by Dr Rippon. The Judge stated [43] <span style="font-style:italic">&#8220;Dr Rippon did consider that [ZZ] was able to make decisions about contact with [TD] because he knows her so well and has a strong emotional attachment to her. Her concerns about [TD] were about [ZZ&#8217;s] sexual impulsivity and what she considered to be his lack of insight into that aspect of his thinking. That impulsivity equally applies to strangers as it does to [TD], it seems to me. That is because [ZZ], whilst recognising that he is liable to be sexually disinhibited, is unable to do anything about it. That is the essence of the risk that makes him lack capacity when deciding whether to have contact with the world in general. I am unable to see how that situation is any different when it comes to contact with [TD]. Since [ZZ] lacks capacity to make decisions about his contact with people in general because of his inability to understand the risks he poses to others, and his inability, therefore, to mitigate those risks, I am persuaded that he lacks the capacity to make decisions about contact with his mother and [TD].&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Roper reminded the court that it should be wary of falling into the trap of the protection imperative. In the exchanges between the Judge and Dr Rippon, Dr Rippon accepted she may be setting the bar too high and the court should be careful about what Dr Rippon&#8217;s evidence was, what she did and did not discuss with ZZ and not speculate in the context of other aspects of ZZ&#8217;s behaviour.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Roper rejects any suggestion by the local authority that the conclusions reached lacked coherence in terms of planning, as there are many cases where the local authority have to draw up a <span style="font-style:italic">TZ</span> plan in similar circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning to capacity to marry Ms Roper submits this should not be dependent on capacity in relation to sexual relations. There was no analysis in Dr Rippon&#8217;s evidence about this and Ms Roper puts down a marker that they are not in every situation inextricably linked.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Discussion and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is an appeal and the court must remain focussed on the relevant framework under the Court of Protection Rules 2017 rule 20.14(4)(a), namely the court should only allow an appeal where the decision of the first instance judge was wrong. Rightly, no party has suggested that the hearing below was unjust due to any procedural irregularity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Judge below had the benefit of hearing the evidence, in particular from Dr Rippon, and this court recognises that the test is not whether this court would have reached the same conclusion, or a different one. The question is whether the Judge was able to reach the conclusions he did on the evidence he had, within the relevant legal framework.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Roper was right to remind the court of the importance of the presumption of capacity, it is an important principle that underpins the MCA. Also, that the court needs to consider whether it is satisfied on the balance of probabilities that that presumption is rebutted. In relation to capacity to engage in sexual relations, cases such as <span style="font-style:italic">JB </span>have reiterated that the bar must not be set too high. Further, that the court should guard against the protection imperative.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">Equally, Mr O&#8217;Brien was right to emphasise the need for the court to consider the serious grave consequences for ZZ and others, as referred to in <span style="font-style:italic">JB </span>at [74], the need for the Court of Protection to guard against approaching questions of capacity in silos (see <span style="font-style:italic">Hull CC v KF</span> at [24]) and to have in mind the overlap between different decisions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">I agree with Ms Roper that Dr Rippon&#8217;s evidence was, at times, confused and confusing. Even with the benefit of a transcript of her evidence it was not easy trying to track through her conclusions. This perhaps reflected the complexities in this case, but also made the task facing this experienced Judge much more difficult.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">The decision reached by the Judge regarding residence was founded on his conclusion that the care ZZ received was not a relevant matter for him to consider and weigh up when making current decisions about where he should live. The Judge stated at [36] &#8211; [37] &#8216;<span style="font-style:italic">&#8230;he has capacity to make a decision about residence where care is not an issue, because the only option is a placement with care provided. This is a difficult and common point. I have concluded that ZZ has the capacity to make the decision he has to make over residence, and that is because he does not actually have a decision to make over whether he lives in a care setting.&#8217;</span>  He then went on to outline that in the event that ZZ were to want to move to a place without an adequate level of care, support and supervision the matter would have to be revisited.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In reaching that conclusion he did not expressly grapple with the issue as to whether ZZ&#8217;s wish to live with TD and her mother was a pipedream or not. The evidence refers to this being a consistent feature of ZZ&#8217;s wishes and feelings that he has communicated to his solicitor, Dr Rippon and the social worker. The information about what support he would need, with whom he could live and how he would have contact with family and friends are all relevant to the question of whether ZZ understands and can weigh up whether he would be able to live with TD. These were issues explored with him by Dr Rippon. In connection with that he was clear to Dr Rippon that he did not need support from staff.  When asked about this in oral evidence Dr Rippon stated that <span style="font-style:italic">&#8216;It was mainly in relation to care, the care aspect of any residence that I thought that he lacked capacity in&#8230;if there was an alternative placement available for him, I think he could compare and contrast two placements with the same level of care.&#8217;</span> She considered in her discussions with ZZ what he said about living with TD was more than a pipedream as <span style="font-style:italic">&#8216;&#8230;during the course of both interviews that was what he wanted, that&#8217;s where he wanted to live, that was his&#8230;the place that, you know, that they&#8217;d identified as where he did want to live.&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In her submissions, Ms Roper acknowledged that the care element was a part of the relevant information regarding residence, as she accepted there should be specific reference to that in the declaration regarding residence, even though in his judgment the Judge had concluded in [35] it was not relevant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.49in">In my judgment the Judge was wrong in reaching his conclusion that ZZ had capacity in relation to residence in a number of respects:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.3in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.08in">He did not properly analyse the evidence regarding whether ZZ&#8217;s wish to live with TD and her mother was a pipedream or not, as had been asserted by the Official Solicitor on ZZ&#8217;s behalf. In her oral evidence Dr Rippon considered it was more than that and gave her reasons for saying that. In addition, this was the view ZZ had expressed over a period of time to a number of people.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.3in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.08in">On the particular facts of this case, the Judge fell into error by not properly considering that the requisite care needed was relevant information to the issue of residence. In my judgment arguably it was. Ms Roper accepted that the declaration made by the Judge would have been more accurate if it stated that the declaration about residence was in the context of the care being provided. To do that would have required the Judge to analyse ZZ&#8217;s ability to understand relevant information about the need for the care and support and use or weigh it in reaching a decision. That would include considering, in the context of residence, the evidence that ZZ did not consider he required the care and support that was being provided.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.3in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.08in">The risk in the Judge&#8217;s approach to this issue is that it has been considered in a silo, with implications for the local authority in being able to coherently manage a care plan for ZZ in the light of the declarations made which, although referred to at [48], was not properly addressed by the Judge.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning to the conclusion reached about capacity to engage in sexual relations, the local authority contend that the Judge has fallen into a similar situation  highlighted by Poole J in <span style="font-style:italic">Hull CC v KF </span>namely, ZZ lacks capacity to have contact with TD but has capacity to engage in sexual relations with her. The local authority acknowledges that the bar must not be set too high but they submit the Judge fell into error by wrongly classifying what was being said as an additional <span style="font-style:italic">JB </span>factor. It clearly came into the existing factors the court should consider as set out in <span style="font-style:italic">JB</span>, and the Judge failed properly to deal with the evidence from Dr Rippon about the link between his urges and mental impairment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Roper submits the conclusions the Judge reached were entirely justified on the evidence as Dr Rippon made clear that in relation to ZZ&#8217;s urges the highest her evidence went was that he &#8216;<span style="font-style:italic">might&#8217;</span> not be able to stop in the circumstances described. In those circumstances the Judge&#8217;s conclusion about not setting the bar too high was justified. Whilst Ms Roper agrees this was not a new <span style="font-style:italic">JB</span> factor, as it readily came within the second <span style="font-style:italic">JB </span>factor, on the evidence the Judge&#8217;s conclusion was soundly based.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have found this aspect of the case particularly difficult, as did the Judge. Not without some hesitation, I have reached the conclusion that the Judge&#8217;s declaration regarding capacity to engage in sexual relations cannot stand. I have done so for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The Judge did not properly deal with various aspects of Dr Rippon&#8217;s evidence in particular (a) whether ZZ was able to use or weigh information about consent in the context of ZZ&#8217;s sexual impulsivity and the complexity of the causes of that, including his mental impairment; (b) that ZZ&#8217;s disinhibited sexual behaviour was due to a combination of his mental impairment, which included his cognitive functioning and executive functioning and gave disproportionate weight to the significance of ZZ&#8217;s ordinary sexual urges/desire.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The Judge wrongly equated ZZ&#8217;s sexual disinhibition with the usual risk-taking of a person of commensurate maturity (as Cobb J did in <span style="font-style:italic">Re Z).</span> The Judge failed to properly weigh in the balance the evidence that ZZ has a record of sex offending and has been assessed as manipulative and presenting a very high risk. His sexually disinhibited behaviour falls into a different category than that envisaged by Cobb J in <span style="font-style:italic">Re Z,</span> with the result that the  ability to use or weigh the question of consent needs to be considered in that context.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">  The Judge erred in not following the approach set out in <span style="font-style:italic">JB </span>by asking himself first is the person unable to decide the matter for himself by reference to the matter and the relevant information, second is there a clear nexus between his inability to make a decision in relation to the matter and an impairment of, or disturbance in the mind or brain. If he had taken that structure it would have directed him to the relevant parts of Dr Rippon&#8217;s evidence.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning, finally, to the issue of capacity to marry, whilst not reaching any conclusion as to whether such a declaration could stand irrespective of any conclusion about capacity to engage in sexual relations, I am satisfied that in the circumstances of this case that ground of appeal is also established. A consistent feature of the evidence is that ZZ wishes to marry TD and for them to have children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having reached these conclusions, I am satisfied the existing stay should remain in place, the parties should agree directions and the matter should be remitted to reconsider the question of capacity in relation to these matters.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to whether, and in what circumstances, any deprivation of liberty should continue will need to be considered at the same time as the issues relating to capacity.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

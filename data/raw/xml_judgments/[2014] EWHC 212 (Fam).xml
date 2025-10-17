@@ -1,0 +1,783 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/212"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/212"/>
+	  <FRBRdate date="2014-02-10" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="212"/>
+	  <FRBRname value="Swansea v XZ &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/212"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/212"/>
+	  <FRBRdate date="2014-02-10" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/212/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/212/data.xml"/>
+	  <FRBRdate date="2024-10-27T23:01:55" name="transform"/>
+	  <FRBRdate date="2024-11-24T15:20:59" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2014-02-10" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="city-and-county-of-swansea" href="" showAs="City and County of Swansea"/>
+	<TLCPerson eId="xz" href="" showAs="XZ"/>
+	<TLCPerson eId="yz" href="" showAs="YZ"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-moor" href="/judge-mr-justice-moor" showAs="Mr Justice Moor"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2014</uk:year>
+	<uk:number>212</uk:number>
+	<uk:cite>[2014] EWHC 212 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>94611a7377bc69b28debd4ef960596878f5d6f2f742c12efd2d3a7bfdd517300</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center;border:0.5pt solid"><span style="font-weight:bold;font-size:10pt">IMPORTANT NOTICE</span></p>
+      <p style="text-align:justify;border:0.5pt solid"><span style="font-weight:bold;font-size:10pt">This judgment was delivered in private. The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment no person other than the advocates or the solicitors instructing them and other persons named in this version of the judgment may be identified by name or location and that in particular the anonymity of the children and members of their family must be strictly preserved. All persons, including representatives of the media, must ensure that this condition is strictly complied with. Failure to do so will be a contempt of court.</span></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2014] EWHC 212 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>UV 13 C 00056</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2014-02-10" refersTo="#judgment">10/02/2014</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-moor">Mr Justice Moor</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.45in 3.7in 1.19in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#city-and-county-of-swansea" style="font-weight:bold">City and County of Swansea</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant" style="text-decoration-line:none">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#xz" style="font-weight:bold">XZ</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:none">First Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#yz" style="font-weight:bold">YZ</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:none">Second Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">The Children (by their Guardian, Joanne Bamford)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><span style="text-decoration-line:none">Next Respondents</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">The Press, Media and Others</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><span style="text-decoration-line:none">Final Respondents</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Ms Janet Bazley QC for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center">Mr Jonathan Furness QC and Ms Sharon James for the <span style="font-weight:bold">First Respondent</span></p>
+      <p style="text-align:center">Ms Lucy Leader for the <span style="font-weight:bold">Second Respondent</span></p>
+      <p style="text-align:center">Ms Alison Ball QC for the Children&#8217;s Guardian</p>
+      <p style="text-align:center">Ms Caoilfhionn Gallagher for <span style="font-weight:bold">Times Newspapers Ltd, Guardian News and Media Ltd, the British Broadcasting Corporation and the South Wales Evening Post</span></p>
+      <p style="text-align:center">Hearing date: 21st January 2014 </p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="CoverDesc" style="text-align:left"><span style="font-size:14pt">MR JUSTICE MOOR:-</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This is an application by the Local Authority, the City and County of Swansea to extend a Reporting Restriction Order that I made initially on 11th March 2013.  An earlier version of that Order had been made by me on 6<span style="vertical-align:super;font-size:smaller">th</span> March 2013 following an out-of-hours application by the Local Authority.  The Local Authority was concerned that some details of the case were about to be reported on ITV Wales. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">My original order severely restricts media reporting of criminal proceedings instituted against XZ, the First Respondent, who is the Mother of the surviving children with whom I am concerned.  Indeed, it really only enables the media to report the charges she faces with reference to her identity being limited to &#8220;<span style="font-style:italic">a woman from the Swansea area</span>&#8221;.  The order was to continue until the conclusion of the criminal proceedings.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Although the media was served with notice of the March 2013 application, it is right to note that the media was not represented before me and no substantive opposition was made to the order at that point.  I did not, therefore, hear full argument.  I was satisfied that, prima facie, the Local Authority was entitled to its order but made detailed directions for the trial of the issue should the media subsequently decide to challenge it.  I am quite satisfied that the fact that the media did not originally challenge the order is of no relevance to the issues which I now have to decide.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Mother was originally charged with two counts, namely the murder of her baby daughter, AZ (Child A) in August 2006 and grievous bodily harm with intent against her baby BZ (Child B) in November 2007.  Medical reports have since been obtained as to the Mother&#8217;s mental health at the time of the alleged offences.  Following production of those reports, the Mother pleaded guilty on 16th December 2013 to the infanticide of AZ and the wounding of BZ.  The Court (Wyn Williams J) and the CPS accepted the pleas.  The Mother is due to be sentenced on 13th February 2014.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Local Authority applied on 3rd January 2014 to extend my order notwithstanding the conclusion of the criminal trial.  It appeared at first that it was seeking an indefinite extension.  It has since, quite properly, been made clear that the extension sought is until the youngest of the children attains the age of 18.  The Local Authority&#8217;s application is supported by the Mother, the Father and the Guardian on behalf of the children.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Ms Gallagher appears on behalf of four media organisations, namely Times Newspapers Ltd, Guardian News and Media Ltd (publishers of the Guardian and the Observer), the British Broadcasting Corporation and the South Wales Evening Post.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">At first, the position of the media organisations was to oppose the grant of anonymity to the Mother.  At that stage, the organisations did not have the full papers in the case available.  An application was made to me last week for permission to serve the full papers on them.  I granted the application as soon as it came to my attention but I consider that it was not a satisfactory situation.  I take the clear view that, in any case where a Reporting Restriction Order is applied for, the Applicant should immediately serve all evidence on which it relies on any media organisation that requests it, provided  the organisation has been served with notice of the application either directly or through Copy Direct. It is not necessary for the organisation to intervene formally to obtain the documents as I accept Ms Gallagher&#8217;s submission that it is very difficult for the media to know whether to intervene or not until it has seen the evidence.  The media is, of course, subject to the normal requirements for confidentiality.  It follows that there is no need to obtain permission to let them see those documents.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Once the media organisations had seen the full evidence on which the Local Authority relied, they changed their position to accept the need for anonymity in the quite exceptional circumstances of this particular case.  They did so solely as a result of the need to protect the welfare of the surviving children.  As I will explain in detail in due course, I make it clear that I am completely satisfied that this was the correct and responsible position for the media organisations to adopt.  It was a very welcome concession to make, for which all parties indicated their gratitude during the hearing.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">It does, however, mean that the ambit of the dispute narrowed very considerably.  In essence, the only area on which I now have to rule is the extent of the restrictions necessary to ensure that the children are not identified notwithstanding the order for anonymity.  There is, of course, very considerable law as to when it is appropriate to grant a Reporting Restriction Order.  I will briefly outline the law in due course but I make it clear at this stage that the only restrictions on publication that are justified are those that are required to prevent identification of the children.  In this case, this inevitably means that the identity of the Mother cannot be reported either as to do so would itself inevitably lead to the identification of the children.  However, in every other respect, the media should be free to report.  I propose at the end of this judgment to make clear a number of matters that are not restricted by my order.  Indeed, as the hearing progressed, the differences between the parties narrowed considerably, with both sides of the argument making sensible and appropriate concessions.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">Indeed, by the end, I was left with only a limited number of issues to decide, relating to whether or not to permit publication of certain background details relating to the family.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">The history</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">To understand why it is that this case is truly exceptional, it is necessary to give some detail of the history of the matter, although I make it very clear that the history of the litigation in particular has been very complex and of exceedingly long duration.  It is not possible, nor necessary, for me to do more than give a relatively short overview of what has happened which will be necessarily restricted in my open judgement by the need to protect the identity of the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">The Mother and Father were both born abroad and are nationals of that country.  They met in 1998 and married in the same year.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">The parents came to the UK in 2004 and then lived in the Swansea area..  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">In 2006 AZ was born.  She died just over a month later.  The post-mortem indicated that she had a subdural haemorrhage over the brain and spinal cord, probably caused by a combination of recent bleeding and pre-existing subdural haemorrhage.  There was an axonal injury in the brain stem and spinal cord together with orbital, optic nerve sheath and optic nerve haemorrhages of different ages.  There were two opposing curved arcades of greying bruising on her right thigh and left thigh and a faint grey bruise across the centre of her forehead.  Neither the Police nor Local Authority took any substantive action at that stage. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">In 2007, BZ was born, who is therefore now aged 6.   In November 2007, BZ appeared quite lifeless and was admitted to hospital.  BZ&#8217;s injuries were found to include bilateral subdural haemorrhages as well as a healing undisplaced transverse fracture of the mid-shaft of the left ulna together with a healing injury to the right tibia.  Fortunately, BZ survived.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">On 29th November 2007, an Interim Care Order was granted in relation to BZ who was placed with foster carers on discharge from hospital.  The other children, however, remained living at home.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">Wood J undertook a fact finding hearing which concluded with a judgment on 30th October 2008.  He said that the reports of the care given by the parents to the other children had been uniformly positive.  He found, on the balance of probabilities, that both AZ and BZ had been the victims of non-accidental injury.  In particular, they had been the victims of shaking or shaking/impact.  Neither parent had been prepared to give him a truthful account in the witness box.  The Mother had been under immense strain and had a history of depressive illness.  She was not coping.  Although both parents fell under suspicion, he found that it was more likely than not that it was the Mother who had inflicted the injuries, having been &#8220;<span style="font-style:italic">overborne by the weight of her general plight</span>.&#8221; The Judge did not believe the Father had witnessed the incidents but he had obfuscated the truth in an attempt to cover up for the Mother.      </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">Dr Holt, a consultant psychiatrist reported in January 2009 that the Mother was a risk to small babies but, as BZ was now older, the child could return to join the family.  In April 2009, the Mother indicated that she was pregnant again.  Her mother then died, which caused her yet further distress.  She then started to make admissions to Mrs Price, an Independent Social Worker.  Dr Holt subsequently changed his recommendation to adoption.  The Father then proposed that the Mother should move out of the family home and he should care for the children alone.  Wood J rejected this plan and found that the threshold criteria were made out in relation to the children.  The Court of Appeal allowed the parents&#8217; appeal and approved the plan for assessment of the Father as sole carer.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">In August 2009, Dr D, a Child Psychiatrist reported that the Mother had made further admissions.  The Mother had been suffering from depression of moderate severity.  She was described as having an acute or chronic mental illness with profound, severe and cumulative grief.  She was a high risk to dependent demanding children and a high risk of self-harm or suicide. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">In October 2009, the Mother moved out of the family home.  In March 2010, two of the children briefly moved from foster care to live with the Father.  The Mother was to have no unauthorised contact with the children but, within the first week, the children said they had seen their Mother.  The Local Authority therefore changed its care plans to propose adoption.  Charles J found that there had been clear and deliberate breaches of the agreement for the Mother to have no unauthorised contact but refused to approve the care plans proposing adoption and directed that a fresh rehabilitation plan be implemented.  The children were returned a second time in January 2011.  The intention was that, in due course, the Mother would return to the family home but it appears that her mental health, which had been much better, deteriorated again.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">In May 2011, the Father said the marriage was over.  The parents have lived separately ever since.  At that point, the Mother&#8217;s contact to the children living with the Father remained supervised but the psychiatric assessments of her were generally positive.  In October 2011, Dr D said that she was well with good insight and that she responded to early warning signs of stress by seeking increased medication.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">On 27th September 2011, the police finally applied for disclosure of the case papers.  I note that this was already nearly three years after the finding of fact hearing before Wood J.  The case came before Charles J on 1st November 2011.  Even at that stage, he said that there was, as far as he could see, &#8220;<span style="font-style:italic">no reasonable justification</span>&#8221; for the delay in applying which appeared to be &#8220;<span style="font-style:italic">inexcusable</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">On 11th November 2011, the children&#8217;s then Guardian, Julie May said that &#8220;any decision to pursue a criminal investigation is likely to have a profound, destabilising and distressing impact on the Mother and all other members of the family, in particular the children.&#8221;  Charles J ordered, on 18th November 2011, that the police should undertake their investigation &#8220;urgently and as quickly as possible.&#8221;  He made it clear that, if he had not heard from the police by April 2012, he would make final orders in relation to the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">As he heard nothing, Charles J made final orders on 1st May 2012 enabling the children to live with and have contact with their parents.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">On 25th February 2013, the Mother was finally charged with the murder of AZ and grievous bodily harm with intent against BZ.  The Mother agreed that the children would stay with the Father until 28th February.   The case came before me on 28th February 2013.  I refused the Local Authority&#8217;s application for an interim care order and made directions about the children&#8217;s living arrangements in the intervening period.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I should make it clear that the Mother&#8217;s care of the children that were staying with her has, since the institution of the proceedings, been, at all times, exemplary.  The children very much wanted to be with their Mother and it was in their best interests to be with her provided she was mentally well and it was safe for them.  By 11th March 2013, it was clear that, despite the criminal charges, her mental health had not deteriorated.  I therefore directed that those children should return to live with her on 19th March.  It was on the same day that I continued the Reporting Restriction Order that I had initially made &#8220;without notice&#8221; on 6<span style="vertical-align:super;font-size:smaller">th</span> March until the conclusion of the criminal trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">The Mother has commissioned two psychiatric reports as to her mental health at the time of the death of AZ and the injuries to BZ.  Both consultant psychiatrists (Dr D and Dr T) have reported that the Mother&#8217;s mental health at the time of the offences was such as to justify a charge of infanticide rather than murder.  These reports have been accepted by the Crown leading to the guilty pleas already outlined.  It is, of course, a matter entirely for the trial judge as to what sentence is passed.  I have been told that the Probation Report recommends a non-custodial sentence.  I am also told that custodial sentences following a plea of infanticide are virtually unheard of.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">The reasons for the application</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">The Local Authority case is that permitting the media to report the identity of the Mother will cause very significant harm to the children.  First, it is said that, for reasons I cannot explain fully in this public judgment, anyone in the locality reading a media report naming her would instantly know which family it was.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">It is then said that there are a number of features of this case that could well result in real danger and harm to these children.  In particular, it is argued that this case involves a significant number of features that have, rightly or wrongly, caused great contention of late in this country.  These stem from the family background details and that very serious harm was done to two babies; and the Mother has cared for those children notwithstanding what has happened.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">It is said that, as a result, the family would be at high risk of being targeted within their community by threats and reprisals if they were identified.  It is argued that reprisals might be both physical against them and against their homes.  There would be a real risk of serious bullying at school.  I am told that the effect on the children is potentially devastating.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">Significant evidence has been put before me as to the risk that the children will suffer significant harm.  Whilst I accept that such evidence does involve a considerable element of speculation, Sir Mark Potter P, in the case of <span style="text-decoration-line:underline;text-decoration-style:solid">Re W (Children) (Identification: restriction on publication)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2005/1564" uk:canonical="[2005] EWHC 1564 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWHC 1564 (Fam)</ref>, <ref href="#" uk:canonical="[2006] 1 FLR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 1 FLR 1</ref> said at Paragraph 21 that:-</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.75in">&#8220;<span style="font-style:italic">I accept that the evidence to which I have referred is speculative.  However, in a situation where, so far, no substantial publicity has occurred, the evidence is necessarily speculative in nature.  In this case, it consists of the assessment of a local authority officer and guardian, both with wide welfare experience and local knowledge as to local attitudes.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">The evidence that has been placed before me comes into exactly this category.  It is from a very experienced social worker, Carol Jones, who is well aware of local conditions.  I also have evidence from the Guardian (albeit that she has only relatively recently been appointed in this case) and from the consultant psychiatrist, Dr D.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">Carol Jones says that, for reasons explained in her evidence, the family are easily identifiable.  She is concerned that the community may, wrongly, feel that the family has been treated differently because of their background.  She tells me that something similar happened to another family in the locality where there was a conviction for child murder.  She adds that, if there is no custodial sentence, that may itself fuel resentment.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">She goes on to say that, if the application for the Reporting Restriction Order fails, the Local Authority has decided that it will have to remove the family immediately to a completely new area of the country and give them new identities.  This, of itself, shows how very seriously this matter is viewed.  If this happens, the children will lose the stability that has been painstakingly acquired since the tragic events of 2006 and 2007.  They will also lose the consistency and security of their schools that have provided them with significant stability, notwithstanding the difficulties faced by the family.  They will lose friendship groups.   I accept everything that Ms Jones writes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">The Guardian, Joanne Bamford, says that she is particularly concerned about one of the children, who is well aware of what has happened.  That child has found the stress of the last few months increasingly intolerable and is exhibiting signs of anger and frustration.  Ms Bamford considers exposure will have a particularly devastating impact upon that child who uses Facebook and will be exposed to what is written about the family.  The child may well be bullied and threatened.  There is concern as to the child&#8217;s mental health and even the possibility of self-harm or even attempted suicide.  I accept all this evidence as well.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">As noted above, the Local Authority has prepared a Safety Plan that involves immediate relocation out of the Swansea area even before the reaction of the public is tested, so serious are the concerns.  In my view, the effect of all this on the children will be nothing short of devastating.  In due course, they will all know that one of their siblings has died and that another sibling was seriously injured.  These events happened as a result of the actions of their Mother, who they love so much.  None of this was in any way their responsibility yet they are the ones who would now suffer the most.  They would have to move home and school.  They would lose their friends and all that is familiar to them.  They would have to change their identities.  Moreover, in all likelihood, they would suffer significant vilification and abuse.   Once this is all clear, it becomes immediately clear why this is such an exceptional case.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">The Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I now turn to consider the relevant and applicable law.  In essence, I accept everything that Ms Gallagher for the media organisations submits to me in this regard.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">Subject to limited exceptions, there is a general and very important right to publish fair and accurate reports of proceedings held in public and, in particular, reports of criminal proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">The Court must have regard to the common law open justice principle.  There is a strong presumption at common law in favour of open justice.    Open justice is &#8220;<span style="font-style:italic">a principle at the heart of our system of justice and vital to the rule of law&#8221; </span>(see <span style="text-decoration-line:underline;text-decoration-style:solid">R (Guardian News and Media Ltd) v City of Westminster Magistrates&#8217; Court and the Government of the USA</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/420" uk:canonical="[2012] EWCA Civ 420" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 420</ref> per Toulson LJ at Paragraph 1).  This strong presumption can only be rebutted in exceptional circumstances (where there is a pressing social need requiring its restriction and, even then, the restriction must be proportionate).   There must be anxious scrutiny of the legal and evidential basis for such requests.  The open justice principle is regarded as integral to protecting the rights of those involved and essential to maintaining public confidence in the administration of justice.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">It is agreed that, notwithstanding the above, the High Court has jurisdiction to restrain publicity, derived from Convention rights under the ECHR (see <span style="text-decoration-line:underline;text-decoration-style:solid">Re S (A child) (Identification: Restriction on Publication)</span> <ref href="#" uk:canonical="[2005] 1 AC 593" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 1 AC 593</ref> (HL).  I am not applying the &#8220;<span style="font-style:italic">best interests of the child</span>&#8221; paramouncy principle.   I have to balance the various rights under the Convention and, in particular, Article 8 (the right to respect for private and family life) and Article 10 (freedom of expression).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I have to apply <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref>.  In particular, <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/12/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s12(4)</ref> states that I have to have particular regard to the importance of the Convention right to freedom of expression and to the extent to which:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.75in;text-indent:0.12in">the material has, or is about to, become available to the public; or</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0in">it is or would be in the public interest for the material to be published.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">In the case of <span style="text-decoration-line:underline;text-decoration-style:solid">Re S</span>, S&#8217;s mother was accused of murdering his brother by salt poisoning.  The child&#8217;s guardian argued that publicity would have a seriously detrimental effect on S&#8217;s welfare and was supported by a psychiatric report.  There was a risk that he would become an object of curiosity and be subject to bullying and teasing.  His brother&#8217;s death had seriously increased the risk of S developing a depressive disorder and the stress of the publicity and attention would significantly increase the possibility of him developing a psychiatric disorder. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">Nevertheless, Hedley J permitted identification of the mother and the deceased brother and the publication of photographs of them.  The subsequent appeals to the Court of Appeal and the House of Lords were both dismissed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In the House of Lords, Lord Steyn summarised the Strasbourg jurisprudence in this area at Paragraph [15] and concluded:-</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in">&#8220;<span style="font-style:italic">These statements by the European Court of Human Rights reveal that under the ECHR there is a general and strong rule in favour of unrestrained publicity of any proceedings in a criminal trial&#8221;</span>.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">At Paragraph [17], he lists four propositions from <span style="text-decoration-line:underline;text-decoration-style:solid">Campbell v MGN Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2004/22" uk:canonical="[2004] UKHL 22" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] UKHL 22</ref>; <ref href="#" uk:canonical="[2004] 2 WLR 1232" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 2 WLR 1232</ref>, that he clearly accepts:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.5in">(a)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">Neither Article 8 nor Article 10 has <span style="font-style:italic">as such </span>precedence over the other;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.5in">(b)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">Secondly, where the values under the two Articles are in conflict, an intense focus on the comparative importance of the specific rights being claimed in the individual case is necessary;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.5in">(c)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">Thirdly, the justifications for interfering with or restricting each right must be taken into account;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.5in">(d)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">Finally, the proportionality test must be applied to each.  For convenience, he calls this the ultimate balancing test.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">He says at Paragraph [18] that:-</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in"><span style="font-style:italic">&#8220;..the ordinary rule is that the press, as the watchdog of the public may report everything that takes place in a criminal trial.  I would add that in domestic practice this is a strong rule. It can only be displaced by unusual or exceptional circumstances.  It is not however a mechanical rule.  The duty of the court is to examine with care each application for a departure from the rule by reason of rights under article 8.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">He reviewed, at Paragraphs [24] &#8211; [27], the impact of the child in that case of reporting the trial and concluded that:-</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in"><span style="font-style:italic">&#8220;The interference with article 8 rights, however distressing for the child, is not of the same order when compared with cases of juveniles who are directly involved with criminal trials&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">He considered the real importance of the freedom of the press to report the progress of a criminal trial without restraint at Paragraphs [28] to [31].  He ended at Paragraph [34] by referring to the reporting of a sensational trial without revealing the identity of the defendant as being &#8220;<span style="font-style:italic">a very much disembodied trial&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I have also been referred to a number of subsequent first instance decisions, including <span style="text-decoration-line:underline;text-decoration-style:solid">Re W (Children) (Identification: Restrictions on Publication)</span> (referred to in Paragraph 33 above), <span style="text-decoration-line:underline;text-decoration-style:solid">Re P (A child)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/4048" uk:canonical="[2013] EWHC 4048 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 4048 (Fam)</ref> and <span style="text-decoration-line:underline;text-decoration-style:solid">Re J (A child)</span> [2013] EWHC 2694.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">In <span style="text-decoration-line:underline;text-decoration-style:solid">Re W</span>, the then President, Sir Mark Potter, did prevent the publication of the identity (including photographs) of a mother who had pleaded guilty to infecting the children&#8217;s father with HIV.  It was possible that the younger child might himself be HIV positive.  The President said at Paragraph [53] that the effect of Lord Steyn&#8217;s judgment was not to accord presumptive priority to Article 10 over Article 8 but that the starting point was presumptive parity of the two articles:-</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in"><span style="font-style:italic">&#8220;&#8230;neither article has precedence over or &#8220;trumps&#8221; the other&#8230;An intense focus on the comparative importance of the specific rights being claimed in the individual case is necessary before the ultimate balancing test in terms of proportionality is carried out.  Having so stated, Lord Steyn strongly emphasised the interest in open justice as a factor to be accorded great weight&#8230;However, nowhere did he indicate that the weight to be accorded to the right freely to report criminal proceedings would invariably be determinative of the outcome.  Indeed, although he acknowledged that it was the &#8220;ordinary&#8221; rule that the press, as public watchdog, may report everything that takes place in a criminal court, that rule might nonetheless be displaced in unusual or exceptional circumstances&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">It is important to note that there was clear evidence of the serious consequences to the children of the facts of <span style="text-decoration-line:underline;text-decoration-style:solid">Re W</span> becoming known in the community.  The mother had been driven out of her home by abuse and harassment when it became known that she was HIV positive.  There was concern that publicity would lead to general outcry at the children&#8217;s nursery and that other families would either refuse to use the facilities or intimidate the family until they were prevented from attending themselves.  Potential foster carers would be put off by the reputation of the children.  It was not the knowledge of the criminal proceedings against the mother that would cause the harm but the assumption that the children were infected.   I entirely accept that this brought the balance down on the side of protecting the children&#8217;s Article 8 rights.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">In <span style="text-decoration-line:underline;text-decoration-style:solid">Re P</span>, the President, Sir James Munby said at Paragraph 26 that &#8220;<span style="font-style:italic">it is not the role of the judge to seek to exercise any kind of editorial control over the manner in which the media reports information, which it is entitled to publish.  Second, that comment and criticism may be ill-informed and based, it may be, on misunderstanding or misrepresentation of the facts [but the] fear of such criticism, however justified that fear may be, and however unjustified the criticism is&#8230;not of itself a justification for prior restraint by injunction of the kind being sought here, even if the criticism is expressed in vigorous, trenchant or outspoken terms...or even in language which is crude, insulting and vulgar.&#8221; </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">He did, however, make clear in Paragraph 33 that, when conducting the balancing exercise, it was necessary to focus on the comparative importance of the specific rights in play in the individual case.  He said that the court should treat the interests of the child, although not paramount, as a primary consideration.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">Ms Gallagher also referred to me to <span style="text-decoration-line:underline;text-decoration-style:solid">In re Guardian News and Media Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2010/1" uk:canonical="[2010] UKSC 1" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] UKSC 1</ref>; <ref href="#" uk:canonical="[2010] 2 AC 697" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 2 AC 697</ref> and, in particular, Paragraphs 63 &#8211; 65 as to the importance of being able to identify individuals, so as to make the story more attractive, vivid and compelling.  She also drew my attention to Paragraph 72 to the effect that the possibility of some sectors of the Press abusing their freedom to report cannot, of itself, be a sufficient reason for curtailing that freedom for all members of the press.  Lord Rodger of Earlsferry JSC, giving the judgment of the court, adds that the possibility of abuse is therefore simply one factor to be taken into account when considering whether an anonymity order is a proportionate restriction on press freedom. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">The law as it relates to this particular case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I have already said that, very responsibly, having considered all the evidence, the media organisations represented before me accept that this is one of those very few wholly exceptional cases in which anonymity is justified not just for the children but also for the Mother (and Father) because identifying the parents will lead to identification of the children.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I agree with that assessment.  I am solely concerned in this regard with the effect on the children, not the effect on their Mother but the evidence points inexorably to serious harm being done to the children if their identity was to become known.  The fact that the Local Authority considers, rightly in my view, that it would have to uproot them immediately from the area where the children have lived for many years, if I was to refuse to make the Reporting Restriction Order, is clear evidence of the serious damage such exposure will do.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I am, however; equally clear that I must permit reporting of anything that does not lead to the identification of the children.  I must therefore assess what is likely to lead to their identification and what can safely be put in the public domain without leading to their identification.  I accept the submission of the Local Authority and the parents, with which the media organisations do not dissent, that, in dealing with this area, I must consider &#8220;<span style="font-style:italic">the jigsaw effect</span>&#8221;.  In other words, I must remember that there may be an individual piece of evidence that itself may not lead to identification but that is likely to do so if combined with other pieces of information also placed in the public domain.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">It is accepted that they would be identified if their name was known.  It is for this reason that it is accepted that the Mother and Father&#8217;s names must be given anonymity as well as those of the children.   I also remind myself that there may be a significant number of people who know that this family lost a baby in 2006.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">The individual issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">The first issue I had been asked to consider was whether or not to permit reference to the family&#8217;s origin.  I am absolutely clear that such reporting must be prevented as was agreed by the media once they had read the further papers.  Having considered the statistics relating to persons from that country living in the Swansea area, I am quite satisfied that, if any reference had been made to their origin, there would have been a likelihood of exposure.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I will therefore now turn to deal with the areas that remain in dispute. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">The first issue was whether or not there could be reference to their religious faith.  Again I have considered the statistics in relation to this and I have come to the clear conclusion that permitting disclosure of her religious faith would also be likely to lead to identification of the children.  I therefore refuse to do so.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I consider that it also follows that the media should not be entitled to name AZ.  It certainly points to a family of their origin.  I have come to the conclusion that AZ should be referred to as &#8220;A&#8221; and BZ as &#8220;B&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">Ms Gallagher perfectly properly pointed out at the end of the submissions that the draft Reporting Restrictions Order would appear to permit the media to report how the Mother came to be in this country.  The other parties were surprised by this as they had assumed that this would not be possible.  I was therefore additionally asked to decide on that.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I am particularly aware of the fact that the Z family are not living in an area where there are a significant number of people who might potentially have this background.  I have come to the same conclusion in relation to this aspect.  In other words, I consider that permitting disclosure would run too high a risk of identification.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">Finally, there is the question of the composition of the family.  I consider that very different considerations apply here although I am still concerned about naming the exact number of the children.  To do so would immediately show that this is a family with a particular number of surviving children plus one deceased in 2006.  I do not believe there are likely to be many families in the Swansea area in that category and certainly not where they live.  It therefore follows that I consider it would be to run too high a risk to permit naming of the number of the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I do not, however, see that there is any reason to prevent reporting that the parents are separated.  Indeed, it would be surprising if they were not.  Equally, I consider there is no reason to prevent the media saying that there is more than one surviving sibling and that they see their Mother.  Further, I consider that it is appropriate to report, if the media wishes to do so, that, since the institution of care proceedings, her care of them when with her has, at all times, been exemplary.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid">Other matters that are permitted for publication</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">There are a number of other aspects that it is clear the media should be able to report. At the suggestion of Ms Gallagher, I set them out here.  For the avoidance of any doubt, they should also be included in the eventual Reporting Restrictions Order flowing from this judgment:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.5in">(a)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">The Defendant in the criminal proceedings is a Mother from the Swansea area, rather than just a woman from the Swansea area.  This is, of course, obvious from the fact that she has pleaded guilty to infanticide and from the matters that I have permitted to be disclosed as to the composition of the family but I say it for the avoidance of doubt given that it was previously restrained.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.5in">(b)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">The Local Authority is the City and County of Swansea.   </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.5in">(c)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">The police authority is South Wales Police.  This can include reference to the police&#8217;s failure to take action in 2006 and 2007 and the time taken to decide to prosecute since then. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.5in">(d)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">Children A and B are the Mother&#8217;s children and they are siblings.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.5in">(e)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">The fact that Reporting Restriction Orders have been made, to include the history of these Orders.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">It is possible that there may be other matters that the parties consider I should include in the order under &#8220;<span style="font-style:italic">permitted publications</span>&#8221;.  If they are agreed, they can be included without further reference to me.  If they are in dispute, I am happy to consider and rule on any such dispute by email to my Clerk. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I accept that it is desirable, if possible, to publish this judgment.  It is, however, obvious that it cannot be published in such a form which would itself lead to a risk of identification.  I will consider this further in due course when all those involved have had a chance to reflect on my conclusions.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in">I am very grateful to all counsel for the very great help I have had with this difficult case at relatively short notice.   </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

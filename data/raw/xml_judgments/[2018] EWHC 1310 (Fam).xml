@@ -1,0 +1,984 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2018/1310"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2018/1310"/>
+	  <FRBRdate date="2018-05-25" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1310"/>
+	  <FRBRname value="CH v CT"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/1310"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/1310"/>
+	  <FRBRdate date="2018-05-25" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/1310/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/1310/data.xml"/>
+	  <FRBRdate date="2024-10-10T22:01:38" name="transform"/>
+	  <FRBRdate date="2024-11-25T16:16:11" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2018-05-25" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ch" href="" showAs="CH"/>
+	<TLCPerson eId="ct" href="" showAs="CT"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-baker" href="/judge-the-honourable-mr-justice-baker" showAs="THE HONOURABLE MR JUSTICE BAKER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2018</uk:year>
+	<uk:number>1310</uk:number>
+	<uk:cite>[2018] EWHC 1310 (Fam)</uk:cite>
+	<uk:parser>0.26.8</uk:parser>
+	<uk:hash>9926bf0ccd440dfc0424624c1d199e077cc975d4ba07f08ebdf06130eeeb200e</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-family: Georgia; font-size: 15.5pt; color: #7D7864; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .legp1paratext1 { text-align: justify; font-size: 9.5pt; color: #494949; }
+#judgment .legclearfix2 { font-size: 9.5pt; color: #494949; }
+#judgment .legp2paratext1 { text-align: justify; font-size: 9.5pt; color: #494949; }
+#judgment .PlainText { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .NoSpacing { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .Heading4Char { font-family: Georgia; font-size: 15.5pt; color: #7D7864; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .subsectiontext { }
+#judgment .sectionitemno { }
+#judgment .subsectionno { }
+#judgment .text { }
+#judgment .legds2 { }
+#judgment .PlainTextChar { font-family: 'Calibri, sans-serif'; font-size: 10.5pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #808080; background-color: initial; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:75.75pt;height:75pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2018] EWHC 1310 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>2018/0050</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">On appeal from the Family Court at Mansfield</span></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2018-05-25" refersTo="#judgment">25/05/2018</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-baker" style="font-weight:bold">THE HONOURABLE MR JUSTICE BAKER</judge></p>
+      <p><docTitle style="font-weight:bold">IN THE MATTER OF THE CHILDREN ACT 1989</docTitle></p>
+      <p><span style="font-weight:bold">AND IN THE MATTER OF E (COMMITTAL APPEAL)</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#ch" style="font-weight:bold">CH</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#ct" style="font-weight:bold">CT</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Robert Glansfield </span>(solicitor of<span style="font-weight:bold"> Bhatia Best Ltd</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">James Conlon</span> (instructed by <span style="font-weight:bold">MKB LLP</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 1 May 2018</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:justify">The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the child and members of her family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">MR JUSTICE BAKER :</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"> On 1 May 2018, sitting at Nottingham, I allowed an appeal against a suspended committal order made by a recorder sitting in the family court following the appellant&#8217;s failure to comply with an earlier order which required her to make her daughter available for contact with the respondent to this appeal. This judgment sets out the reasons for my decision.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Summary of facts</span></heading>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The proceedings concern a little girl, hereafter referred to as E, now aged rising 5. Throughout her life, E has lived with her mother, the appellant in this case. E&#8217;s father died in 2014. Both of E&#8217;s paternal grandparents &#8211; her grandmother, C, and grandfather, G &#8211; are still alive, but are no longer in a relationship. Indeed, it is clear from court documents I have seen, and their conduct during the hearing before me, that relations between them are extremely poor. It seems that, for a while after her father&#8217;s death, E was having contact with her paternal grandmother C, and her current partner, P.  That broke down in circumstances that are disputed between the parties. The mother alleges that C abused her own children, including E&#8217;s father, when they were young, and in making these allegations has been supported by the grandfather, G. C denies these allegations, and instead asserts that the mother only stopped contact after C and P reported concerns to social services about the mother&#8217;s partner. I am not in a position to decide where the truth lies in these cross-allegations, and it is unnecessary for me to resolve them for the purposes of this appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Towards the end of 2016, C and P applied for permission to apply for a child arrangements order so that they could resume contact with E. The application was opposed by the mother but permission was granted, and the application for a child arrangements order was listed for a contested hearing before justices sitting in the family court on 21 July 2017. At the conclusion of the hearing, the justices made an order for contact. In the reasons for their decision, they concluded that &#8220;it was appropriate for the paternal grandparents to have time with their granddaughter&#8221;. The mother and G have objected strongly to the use of the phrase &#8220;paternal grandparents&#8221; to mean C and P, when P is, in fact, not her grandparent. The order drafted immediately after the hearing provided that C should have contact every Sunday, in a two-weekly cycle, week one from 12 noon to 2pm and week two from 12 noon to 5pm. The sealed version of the order, however, provided that both C and P should have contact at those times. This difference has also been the cause of grievance between the parties and was the subject of an application some months later to amend the order as described below which led to a third version of the order. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">All of the versions of the order contained the following words on the front of the order: &#8220;if you do not do what the child arrangements order says you may be sent to prison and/or fined, made to do unpaid work or pay financial compensation&#8221;. In the version handed down immediately after the hearing, the words are in bold typeface, whereas in the sealed order they are in ordinary font. The sealed version of the order also contained an endorsement on the second page, in bold typeface, headed &#8220;Warning&#8221;, which included the following words:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in">&#8220;Where a Child Arrangements Order is in force: if you do not comply with a provision of this Child Arrangements Order </p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in">you may be held in contempt of court and be committed to prison or fined; and/or </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in">the Court may make an order requiring you to undertake unpaid work (&#8216;an enforcement order&#8217;) and/or an order that you pay financial compensation.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>The version of the order handed out immediately after the conclusion of the hearing contained the words &#8220;WARNING NOTICE&#8221; at the bottom, but no words underneath. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">No contact has taken place under the order. C and P have allegedly attended outside the mother&#8217;s property every Sunday but have not been allowed to see E.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother appealed against the order and also filed a further application for another child arrangements order, effectively to supersede the first order. Shortly before the hearing of the appeal, G applied for permission to intervene in the proceedings to support the mother. The appeal was listed before HH Judge Lea on 14 September 2017. At the start of the hearing, the judge refused G&#8217;s application, whereupon both G and C left the court. The judge proceeded to consider C&#8217;s application for permission to appeal against the order of 21 July. He dismissed the application and ordered C to pay the respondents&#8217; costs on the sum of &#163;1,320. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 26 October 2017, C filed an application for an enforcement order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>J of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. The application was listed for a hearing before a deputy district judge. Shortly before the hearing, the mother filed an application to set aside Judge Lea&#8217;s order dismissing her application for permission to appeal. At the hearing on 14 December 2017, the deputy district judge dismissed that application, recording on the face of his order that the mother had admitted that she had failed to comply with the order of 21 July but wished to advance reasons for her non-compliance which needed to be determined by the court as to whether they amounted to a reasonable excuse within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>J(3) of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the Act</ref>. He therefore listed the application for an enforcement order on 20 February 2018, the purpose of the hearing being described in the order as &#8220;to determine whether the mother had a reasonable excuse for failing to comply with the order of 21 July 2017&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 3 January 2018, pursuant to a direction given by the deputy district judge, C filed a statement in support of her application. At the conclusion of her statement, she expressed the view that only a robust order would succeed in making the mother comply with the order and invited the court to make a suspended committal order.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The hearing on 20 February 2018 took place before Recorder Wilson. The information before me about what happened at the hearing consists only of the order and the transcript of the recorder&#8217;s judgment. At the conclusion of the hearing, the recorder made a committal order in Form N79. The order began with the following recital in the standard form on Form N79:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in">&#8220;an application having been made by [C] for the committal of [the mother] to prison for disobeying the order [breach of the undertaking] dated [<span style="font-style:italic">blank</span>]. The relevant terms of the order (undertaking) and the allegations made are recited on the attached notice to show good reason.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>In fact, the only application made by C for the mother&#8217;s committal was in her statement filed in support of her application for an enforcement order, and so far as I am aware, no notice to show good reason was ever served. The form continued with the section headed &#8220;Alternative Disposal&#8221; completed as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">&#8220;It is ordered that [the mother] be committed to prison for a (total) period of 3 months. The order is suspended until 20 June 2018 and will not be put into force if during that time the contemnor [the mother] complies with the following terms:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">paragraph 1 of the order of 21 July 2017 as attached.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>The &#8220;record of service, hearing and contempts found&#8221; recorded that C had been represented by counsel, that the mother had appeared in person, that the court had read the statements of C and P, and that the court was satisfied that the mother had been guilty of contempt by disobeying the order of 21 July 2017 in the following way:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">&#8220;Has not obeyed the order in that she has not permitted the paternal grandparents to have contact in the 2 week cycle recited in that order. The mother has acknowledged that she has not done so and further confirmed that she does not intend to do so.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The recorder delivered a very short judgment which has been transcribed for the purposes of this appeal. It reads as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;1.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">I am considering making a custodial order certainly. I have only done that once, but this is an order that has been outstanding since 21 July, and really the number of learned judges and lay magistrates that have been involved in this case, and have all been of the opinion that this child is entitled to see her grandparents is longer that any I have seen.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>2.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">You are in breach; you have told me that. You are in breach of this order and you do not intend to obey it. For this little girl&#8217;s sake I am bound to make a committal order. However, at the moment I am prepared to suspend it for a period of four months.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>After an exchange between the recorder, grandmother&#8217;s counsel and the mother, the judge continued: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;3.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.22in">Right, Mr Parkinson, [counsel] now I am reading through your book, and my reasons are that I am certainly satisfied beyond reasonable doubt that a committal order should be made, and that [the mother] has deliberately broken and knowingly broken this order. Further, she has told me today that she has done so, and that she is reluctant to force her daughter to go again. She has also told me that she is not prepared to force her to go, which is regrettable, and as I have pointed out to her that is part of &#8230;&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>After an interjection from the mother, the recorder continued:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">&#8220;I am presuming a penal notice was attached to the order in question. That is what I was going to turn over now. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">Counsel: Tab B</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">Judge: I think it says it in capitals does it not?</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">Counsel: Yes. It&#8217;s on page E2, Your Honour.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">Judge: Yes, show me where it is? Yes, I see it.</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>4.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.22in">I do regard this as a [inaudible]; I do not see any point in fining this lady. She owes the applicants money in any event and a community service order. I have no one here to advise me about that, and anyway I have been told that [the mother] has another child so that might present difficulties if she was doing a community service order.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>5.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.22in">I do not like doing it, but I consider, given the heavy involvement of many members of the judiciary in this case, that a committal order should be made, and I am prepared to suspend it for a period of four months.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>6.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.22in">Now that means within the four-month period if this order continues to be disobeyed then the suspension will be lifted and you could face a custodial sentence.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>There followed a further exchange between the recorder, counsel and the mother in the course of which the recorder indicated that the sentence would be three months&#8217; imprisonment. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 26 February 2018, the mother filed a notice of appeal to the Family Division against the recorder&#8217;s order. Her grounds of appeal and skeleton argument raised a number of complaints, including that C had abused her own child and was a risk to E; that the order of 21 July 2017 had been defective because it had referred to P as a paternal grandparent; that evidence was withheld from the court in July 2017 by the Cafcass officer. The mother also said that she was a litigant in person who did not understand court workings, that she had been refused legal aid, was &#8220;the equivalent of a 10-year-old&#8221;, and dependent on the support of G to assist her in the case. The mother, assisted by G, also filed a notice of appeal to the Court of Appeal. After discussions between the two appeal offices and judges in both courts, it was confirmed that the appeal lay to the High Court rather than the Court of Appeal. Directions were therefore given for a hearing of the appeal in Nottingham. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In addition, the mother and G were pursuing other complaints, including a complaint about the terms of the sealed order of 21 July. On 13 March 2018, the court office amended the order by deleting P&#8217;s name, so that the order for contact only applied to C. Both C and P assert that they had no notice of the application to amend, an assertion which the mother and G deny.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Prior to the hearing of the appeal, having received the transcript of the recorder&#8217;s judgment, the mother filed an additional skeleton argument in which she reiterated a number of complaints about issues which had arisen during the proceedings, including a complaint about the investigation by the Cafcass officer prior to the hearing in July 2017. She also stated, however, that at the time of the hearing in December she had a pro bono barrister who had been unable to attend but had asked to be given notice of the next hearing. The mother continued:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in">&#8220;However, she was never given any notice of the committal proceedings and consequently didn&#8217;t attend. Consequently, I was given a prison sentence, albeit suspended. I wasn&#8217;t given any warnings by the court of a prison sentence being a possibility. I wasn&#8217;t asked if I had sought legal help or if I wanted legal help.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>She added that she understood the law provided that a person under threat of prison who is on benefits is entitled to legal aid and required the court to satisfy itself there is a good reason why they do not have legal representation before proceedings to deal with the case and adjourn if necessary, citing the decision of the Court of Appeal in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Brown v Haringey LBC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/483" uk:canonical="[2015] EWCA Civ 483" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 483</ref> in support. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In response, a lengthy skeleton argument was filed by solicitors acting on behalf of the respondents, in which it was asserted that the mother can have been under no illusion that the result of a failure to comply with the terms of the child arrangements order would amount to a contempt of court since it was recorded twice on the order; that she had shown a blatant and flagrant disregard of the court orders; that it was &#8220;clearly open&#8221; to the recorder to make a committal order; that such an order was &#8220;the only appropriate order&#8221;; that the mother had never disclosed the fact that she had been refused legal aid but if she had been &#8220;it can only be assumed that any such refusal has been on the basis that the appellant&#8217;s position has been and continues to be entirely misconceived&#8221;, and that accordingly the appeal was totally without merit.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Shortly before the hearing, a request was submitted on behalf of the mother for public funding for representation at the hearing. On 26 April, following the decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">King&#8217;s Lynn and West Norfolk Council v Bunning and the Legal Aid Agency</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2013/3390" uk:canonical="[2013] EWHC 3390 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 3390 (QB)</ref>, I granted her public funding, but gave the Legal Aid Agency permission to apply to vary or discharge the order. The following day, the agency applied to discharge the order, and after an exchange of emails, after the agency had itself issued a representation order granting the respondent public funding for the hearing, I granted their application. I shall return to the exchanges with the agency, and the issue of public funding for appeals against committal orders to this court, at the end of this judgment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As a result, the mother was represented at the hearing before me by a solicitor, Mr Glansfield. The court is very grateful to him for taking on this appeal at very short notice. The grandmother was represented by counsel, Mr Conlon. Given the difficulties in the proceedings, and the very strong feelings between the parties, it was of particular assistance to the court that both sides were represented by advocates who took a sensible and realistic approach to the issues.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The law</span></heading>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A child arrangements order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> can, in certain circumstances, be enforced by an application to commit the defaulting party to prison for contempt of court. It is generally recognised, however, that committal proceedings are usually inappropriate as a method of enforcing a child arrangements order. For that reason, the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/20" uk:canonical="2006 c. 20" uk:origin="TNA" uk:type="legislation">Children and Adoption Act 2006</ref> introduced a new procedure for enforcing such orders by making an &#8220;enforcement order&#8221; requiring the defaulting party to do unpaid work. The relevant provisions, found in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>J of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> as amended by <ref href="http://www.legislation.gov.uk/id/ukpga/2006/20" uk:canonical="2006 c. 20" uk:origin="TNA" uk:type="legislation">the 2006 Act</ref>, provide <span style="font-style:italic">inter alia</span> as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(1)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">This section applies if a child arrangements order with respect to a child has been made.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">If the court is satisfied beyond reasonable doubt that a person has failed to comply with a provision of the child arrangements order, it may make an order (an &#8220;enforcement order&#8221;) imposing on the person an unpaid work requirement.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">But the court may not make an enforcement order if it is satisfied that the person had a reasonable excuse for failing to comply with the provision.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(4)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">The burden of proof as to the matter mentioned in subsection (3) lies on the person claiming to have had a reasonable excuse, and the standard of proof is the balance of probabilities.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>There are further provisions governing the making of enforcement orders in the remaining subsections of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>J, and also in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss.11</ref>K. 11L, 11M and 11N.  Importantly, under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>K, a court may not make an enforcement order unless the person said to be in breach of the child arrangements order had been given a warning notice under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>I. That latter section provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0in">&#8220;Where the court makes (or varies) a child arrangements order, it is to attach to the child arrangements order (or the order varying the child arrangements order) a notice warning of the consequences of failing to comply with the child arrangements order.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The rules governing applications and proceedings in relation to contempt of court in family proceedings are set out in Part 37 of the Family Procedure Rules 2010, which was introduced into the rules by an amendment in 2014. Rules 37.4(1), 37.9 and 37.10 are particularly relevant to this appeal. They provide as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in">&#8220;37.4(1) If a person -</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in">required by a judgment or order to do an act does not do it within the time fixed by the judgment or order; or </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in">disobeys a judgment or order not to do an act, </p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.39in"><marker name="tab"/><marker name="tab"/>then, subject to the Debtors Acts 1869 and 1878 and to the provisions of these Rules, the judgment or order may be enforced under the court&#8217;s powers by an order for committal.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.39in"><marker name="tab"/><marker name="tab"/>&#8230;.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in">37.9(1) Subject to paragraph (2), a judgment or order to do or not do an act may not be enforced under rule 37.4 unless there is prominently displayed, on the front of the copy of the judgment or order served in accordance with this Chapter, a warning to the person required to do or not do the act in question that disobedience to the order would be a contempt of court punishable by imprisonment, a fine or sequestration of assets.</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">The following may be enforced under rule 37.4 notwithstanding that the judgment or order does not contain the warning described in paragraph (1) -</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">an undertaking to do or not do an act which is contained in a judgment or order; and </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">an incoming protection measure.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">In the case of -</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref> order (within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>);</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">an order under section 14A, 14B(2)(b), 14C(3)(b) or 14D of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> enforceable by committal order;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">an order prohibiting contact with a child under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/51" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 51</ref>A(2)(b) of the [<ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref>]</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in"><span class="subsectiontext">the court may, on the application of the person entitled to enforce the order, direct that the court officer issue a copy of the order, endorsed with or incorporating a notice as to the consequences of disobedience, for service in accordance with this rule, and no copy of the order shall be issued with any such notice endorsed or incorporated save in accordance with such a direction.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>37.10</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">(1) A committal application is made by an application notice using the Part 18 procedure in the proceedings in which the judgment or order was made or the undertaking was given.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">Where the committal application is made against a person who is not an existing party to the proceedings, it is made against that person by an application notice using the Part 18 procedure.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">The application notice must &#8211;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">set out in full the grounds on which the committal application is made and must identify, separately and numerically, each alleged act of contempt including, if known, the date of each of the alleged acts; and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">be supported by one or more affidavits containing all the evidence relied upon.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(4)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">Subject to paragraph (5), the application notice and the evidence in support must be served personally on the respondent.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(5)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">The court may &#8211;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">dispense with service under paragraph (4) if it considers it just to do so; or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">make an order in respect of service by an alternative method or at an alternative place.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">FPR Part 37 is supplemented by Practice Direction 37A, the following provisions of which are relevant to this case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Paragraph 1 of the Practice Direction provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;1.1</num>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in">A judgement or order which restrains a party from doing an act or requires an act to be done must, if disobedience is to be dealt with by proceedings for contempt of court, have a penal notice endorsed on it as follows (or in words to substantially the same effect) &#8211;</p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in;text-indent:0.01in">&#8220;If you the within-named [<span style="font-style:italic">insert name</span>] do not comply with this order you may be held to be in contempt of court and imprisoned or fined, or your assets may be seized.&#8221;.</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num>1.2</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.22in">Where an order referred to in rule 37.9(3)(a) or (b) is to be endorsed with or have incorporated in it a penal notice in accordance with rule 37.9(3), the notice must be in the words set out in paragraph 1.1 of the Practice Direction, or words to substantially the same effect.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Paragraph 10.2 provides <span style="font-style:italic">inter alia</span>:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in">&#8220;If &#8230; the committal application is commenced by the filing of an application notice &#8230; (4) the application notice must contain a prominent notice stating the possible consequences of the court making a committal order and the respondent not attending the hearing. A form of notice which may be used is annexed to this Practice Direction.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>The annex to paragraph 10.2(4), headed &#8220;Form of penal notice to be included on committal applications&#8221;, states:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/><marker name="tab"/>&#8220;IMPORTANT NOTICE</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:-0.5in"><marker name="tab"/>The Court has power to send you to prison, to find you or seize your assets if it finds that any of the allegations made against you are true and amount to a contempt of court. <span style="font-weight:bold">You must attend court </span>on the date shown on the front of this form. It is in your own interest to do so. You should bring with you any witnesses and documents which you think will help you put your side of the case. If you consider the allegations are not true you must tell the court why. If it is established that they are true, you must tell the court of any good reason why they do not amount to a contempt of court, or, if they do, why you should not be punished. If you need advice, you should show this document at once to your solicitor or go to a Citizens&#8217; Advice Bureau or similar organisation.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Paragraph 12.5 provides <span style="font-style:italic">inter alia</span>:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in">&#8220;The court will also have regard to the need for the respondent to be - </p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="margin-left:1.19in;text-indent:-0.4in">(1)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.19in">allowed a reasonable time for responding to the committal application including, if necessary, preparing a defence;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.19in;text-indent:-0.4in">(2)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.19in">made aware of the possible availability of criminal legal aid and how to contact the Legal Aid Agency;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.19in;text-indent:-0.4in">(3)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.19in">given the opportunity, if unrepresented, to obtain legal advice &#8230;.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Under paragraph 13.2:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in">&#8220;The court may waive any procedural defect in the commencement or conduct of a committal application if satisfied that no injustice has been caused to the respondent by the defect.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The procedural irregularities in this case</span></heading>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">An appeal in a family case can only succeed if the court is satisfied that the judgment or order at first instance was wrong or that it was unjust because of a serious procedural or other irregularity. In this case, it is plain that there were a number of serious procedural irregularities.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">First, and most obviously, there was no application to commit the appellant. Although the statement filed on 3 January had stated that only a robust order would succeed in making the mother comply with the order and had invited the court to make a suspended committal order, I accept the appellant&#8217;s submission that she did not have proper notice of the committal application. It was for that reason that her pro bono barrister did not attend the hearing. The only application filed and served on the appellant was an application for an enforcement order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>I. It seems that the recorder mistakenly assumed that this gave her the power to make a committal order. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Secondly, and following on from the first error, neither of the requirements of rule 37.10(3) was satisfied. The appellant did not receive an application identifying, &#8220;separately and numerically, each alleged act of contempt including, if known, the date of each of the alleged acts&#8221;, nor did the respondent file an affidavit in support. Furthermore, there was a failure to comply with several of the provisions of Practice Direction 37A. The application served on the appellant did not contain a warning as required by paragraph 10.2(4) and the Annex thereto. As no notice of application to commit was served on the appellant, it follows that she accordingly had no time to prepare a defence or respond in any other way, as required by paragraph 12.5(1). There is nothing to indicate that she was made aware of the possible availability of criminal legal aid, or how to contact the Legal Aid Agency, or given any other opportunity to obtain legal advice, as required by paragraph 12.5(2) and (3).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Thirdly, although the recorder caused an order to be drawn in form N79 setting out the contempts which she purported to find proved, her judgment &#8211; if indeed it can be properly so described &#8211; did not adequately set out the breaches she found proved, nor her rationale for making a committal order as opposed to alternative orders for enforcement of the child arrangements order. Although she alluded to &#8220;community service&#8221;, she plainly did not give sufficient consideration to the making of an enforcement order which was, in fact, the order for which the respondent had applied. It is well-recognised that a committal order should be regarded as a remedy of last resort in these sensitive cases, and the recorder should have given far greater consideration to the alternatives. But in truth, she should not have got as far as even considering committal, because no such application was before the court. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although, as stated above, the court has power under paragraph 13.2 of the Practice Direction to waive any procedural defect in the commencement or conduct of a committal application, it may only do so if satisfied that no injustice has been caused to the respondent by the defect. There is nothing in the papers that I have read to suggest that the recorder addressed this issue. Even if she had done so, I am confident that she could not reasonably have concluded that no injustice had been caused to the appellant by the manifold defects in the commencement and conduct of the committal application.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For those reasons, I reached the clear conclusion that the recorder&#8217;s order was wrong. In saying that, I am not endorsing the appellant&#8217;s actions. It seems plain that she has failed to comply with the order of 21 July 2017. But the fact that a party has failed to comply with an order does not empower the court to make a committal order without complying with the procedural requirements. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is another matter which I raised with the parties in the course of the hearing, namely whether the order of 21 July 2017 was one which was capable of being enforced by committal at all. As set out above, an order can only be enforced by committal if endorsed with a penal notice that complies with FPR rule 37.9(1) and paragraphs 1.1 and 1.2 of Practice Direction 37A. The notice contained in the various iterations of the order of 21 July 2017 did not comply with those provisions. The notice on the front of the order handed down after the hearing did not state, in terms, that disobedience of the order would be a contempt of court which could be punishable by imprisonment. Instead, it stated (in bold typeface) that &#8220;if you do not do what the child arrangements order says you may be sent to prison and/or fined, made to do unpaid work or pay financial compensation&#8221;. The sealed version of the order subsequently served also included those words on the front of the order on the front of the order but in ordinary font as opposed to bold typeface. The sealed order did contain a notice that.stated &#8220;if you do not comply with the provisions of this order you may be held in contempt of court and be committed to prison or fined&#8221;, but that notice was on the second page of the order, not on the front.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Plainly what has happened here is that the warning notice under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>I of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> has been conflated with the penal notice under FPR Part 37. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If a child arrangements order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> is to be enforced by committal, it must comply with the provisions of FPR 37.9 and PD 37A as to a penal notice. The notice must contain the words as set out in paragraph 1.1 of the Practice Direction or words to substantially the same effect. It must be prominently displayed. It must be on the front of the order.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In addition, it is important to note the effect of rule 37.9(3)(a). A penal notice under rule 37.9 must not be endorsed on an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>, including a child arrangements order, unless the court, on the application of the person entitled to enforce the order, has expressly directed that it be endorsed. This contrasts with the warning notice under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>I of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> as amended which must be attached to every child arrangements order. In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re A (A Child)</span> [2013] EWCA 1104 at paragraph 13, McFarlane LJ observed that the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>I:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in">&#8220;seems plain; it is to alert the parties to the fact that all contact orders are potentially enforceable against those who may act in breach of them and, secondly, to remove judicial discretion as to whether to attach, or not attached, a penal notice to any particular order.&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">But, as noted above, Part 37 was inserted into the rules in 2014, after the decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re A</span>. Its provisions closely follow the equivalent provisions in CPR Part 81. Thus, FPR 37.9(1) and (2) are in virtually identical terms to CPR 81.9(1) and (2). There is, however, no parallel provision in CPR Part 81 to FPR 37.9(3). In my judgement, the provision in FPR 37.9(3)(a) that, in the case of a <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.8</ref> order, the court <span style="text-decoration-line:underline;text-decoration-style:solid">may</span> (my emphasis) direct that the order be endorsed with a penal notice, and that without such a direction no copy of the order shall be so endorsed, is aimed at countering the observation that the purpose and effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>I was to remove judicial discretion as to whether or not a penal notice should be attached.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgement, a warning notice under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>I is different from a penal notice under FPR rule 37.9. All child arrangements orders must contain a warning notice under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>I. In addition, however, a child arrangements order may be endorsed with a penal notice, if expressly directed by the court. Any penal notice so directed must comply with the provisions of rule 37.9(1) and PD37A paragraph 1.1.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have drawn the above observations to the attention of the group of judges who have been asked by the President of the Family Division to draft standard form orders in children&#8217;s cases (Mostyn J, HH Judge Dancey, HH Judge Hess and Mr Edward Devereux QC). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">So far as this case is concerned, I conclude that the order of 21 July 2017 was not one capable of being enforced by an order for committal under FPR rule 37.4 because it did not contain a penal notice in terms that complied with FPR rule 37.9(1).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Legal aid</span></heading>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally, I return to the issue of legal aid. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.14</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10" uk:canonical="2012 c. 10" uk:origin="TNA" uk:type="legislation">Legal Aid, Sentencing and Punishment of Offenders Act 2012</ref> (&#8220;LASPO&#8221;), &#8220;criminal proceedings&#8221; are defined as including inter alia:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(g)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in"><span class="legds2">proceedings for contempt committed, or alleged to have been committed, by an individual in the face of a court, and</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(h)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in"><span class="legds2">such other proceedings, before any court, tribunal or other person, as may be prescribed.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>Regulation 9 of the Criminal Legal Aid (General) Regulations 2013 SI 2013 No 9 (&#8220;the General Regulations&#8221;) sets out a list of proceedings considered &#8220;criminal&#8221; for the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14</ref> (h) of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10" uk:canonical="2012 c. 10" uk:origin="TNA" uk:type="legislation">the Act</ref>, including under regulation 9(v):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Any other proceedings that involve the determination of a criminal charge for the purpose of article 6(1) of the European Convention on Human Rights.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is well recognised &#8211; including by the Legal Aid Agency &#8211; that proceedings for committal in family proceedings are a criminal charge for the purposes of article 6: <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Hammerton v Hammerton</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/248" uk:canonical="[2007] EWCA Civ 248" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Civ 248</ref>. Anyone against whom a committal order is sought is entitled to the minimum rights stipulated in article 6.3, including:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(c)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in">to defend himself in person or through legal assistance of his own choosing or, if he has not sufficient means to pay for legal assistance, to be given it free when the interests of justice so require.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Under s.16 of LASPO, representation is to be available at public expense for criminal proceedings for a &#8220;specified individual&#8221; if the individual qualifies for such representation. &#8220;Specified individual&#8221; includes, &#8220;in relation to criminal proceedings prescribed by regulations under <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.14</ref>(h), a description of individual specified in the regulations in relation to those proceedings&#8221; and therefore includes a person subject to a committal application.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Under s.7(1) of LASPO:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.79in">&#8220;The relevant authority must determine whether an individual qualifies under this Part for representation for the purposes of criminal proceedings (whether provisionally or otherwise) in accordance with</p>
+		    </intro>
+		    <subparagraph>
+		      <num style="margin-left:1.48in;text-indent:-0.49in">(a)</num>
+		      <content>
+			<p class="ParaLevel3" style="margin-left:1.48in">s.21 (financial resources) and regulations under that section, and</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="margin-left:1.48in;text-indent:-0.49in">(b)</num>
+		      <content>
+			<p class="ParaLevel3" style="margin-left:1.48in">the interests of justice.&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">S.17(2) identifies a number of factors that must be taken into account when deciding what the interests of justice consist of for the purposes of such a determination, including:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.18in">whether, if any matter arising in the proceedings is decided against the individual, the individual would be likely to lose his or her liberty or livelihood or to suffer serious damage to his or her reputation &#8230;.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Under regulation 21 of the General Regulations:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="legp1paratext1" style="margin-left:0.79in;text-indent:0in"><span style="font-size:12pt">&#8220;For the purposes of a determination under <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10" uk:canonical="2012 c. 10" uk:origin="TNA" uk:type="legislation">the Act</ref>, making representation available to an individual for the purposes of criminal proceedings is taken to be in the interests of justice when the proceedings are before&#8212; </span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num class="legds2" style="color:#494949">(a)</num>
+		    <content>
+		      <p class="legclearfix2" style="margin-left:1.18in"><span class="legds2" style="font-size:12pt">the Crown Court, to the extent that such proceedings do not relate to an appeal to the Crown Court;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds2" style="color:#494949">(b)</num>
+		    <content>
+		      <p class="legclearfix2" style="margin-left:1.18in"><span class="legds2" style="font-size:12pt">the High Court;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <num class="legds2" style="color:#494949">(c)</num>
+	      <content>
+		<p class="legclearfix2" style="margin-left:0.39in;text-indent:0.5in"><span class="legds2" style="font-size:12pt">the Court of Appeal; or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legds2" style="color:#494949">(d)</num>
+	      <intro>
+		<p class="legclearfix2" style="margin-left:0.39in;text-indent:0.5in"><span class="legds2" style="font-size:12pt">the Supreme Court.&#8221;</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ParaLevel1" style="margin-left:0.5in">It follows that the representation of a person who is the subject of a committal application in family proceedings in the High Court, including an appeal to the High Court against a committal order made in the family court, is in the interests of justice.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Under s.21(1), <span class="legds2">&#8220;a person may not make a relevant determination that an individual qualifies  &#8230; for services unless the person has determined that the individual&#8217;s financial resources are such that the individual is eligible for the services&#8221;. </span>Under regulation 17 of the Criminal Legal Aid (Financial Resources) Regulations 2013 SI 2013 No 471, however:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.04in;text-indent:-0.25in">(1)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1.04in;text-indent:0.12in">The Director must make a determination in respect of an individual&#8217;s application for representation under <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10" uk:canonical="2012 c. 10" uk:origin="TNA" uk:type="legislation">the Act</ref> without making a determination in respect of that individual&#8217;s financial resources, where that determination relates to (a) any criminal proceedings which are not listed in paragraph (2) &#8230;.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#494949;margin-left:1.04in;text-indent:-0.25in">(2)</num>
+	      <content>
+		<p class="legp2paratext1" style="margin-left:1.04in;text-indent:0.12in"><span style="font-size:12pt">The criminal proceedings are </span><span class="legds2" style="font-size:12pt">(a) any of the proceedings referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14</ref>(a) to (g) of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10" uk:canonical="2012 c. 10" uk:origin="TNA" uk:type="legislation">the Act</ref> [LASPO] and in regulation 9(a) to (q) and (s) to (v) of the General Regulations, but only to the extent that such proceedings take place in the magistrates&#8217; court &#8230;.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.39in">It follows that <span style="color:#000000">there is no financial test for criminal proceedings in the High Court, and that a person who is the subject of a committal application in that court, including an appeal against a committal order, is entitled to publicly-funded representation.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The issue that arose in these proceedings was the identity of the &#8220;relevant authority&#8221; under s.17 of LASPO for determining an application for public funding. In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">King&#8217;s Lynn and West Norfolk Council v Bunning (Legal Aid Agency interested party)</span><span style="font-style:italic"/><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2013/3390" uk:canonical="[2013] EWHC 3390 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 3390 (QB)</ref>, Blake J held that, in committal proceedings in the High Court, the relevant authority for determining whether representation is to be granted is the High Court. His decision was followed by Sir James Munby P in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chelmsford County Court v Ramet</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/56" uk:canonical="[2014] EWHC 56 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 56 (Fam)</ref>. On the basis of those authorities, I initially made an order granting the appellant public funding, but gave the Legal Aid Agency liberty to apply to vary or discharge the order. Within a short period of time, the Agency applied by email for the discharge of the order, on the grounds that <span style="color:#000000">High Court was not the relevant authority for determining whether an individual qualifies for legal aid under <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.16</ref> of LASPO. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="color:#000000">The agency&#8217;s argument, in short was as follows.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.19in;text-indent:-0.4in">(1)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1.19in">Under s.18 of LASPO, the Director of Legal Aid Casework is authorised to determine whether an individual qualifies for representation for the purposes of criminal proceedings, <span style="text-decoration-line:underline;text-decoration-style:solid">except</span> in circumstances in which a court is expressly authorised to make the determination under regulations made under s.19 of LASPO.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.19in;text-indent:-0.4in">(2)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1.19in">Under <span style="color:#000000">regulation 7 of the Criminal Legal Aid (Determinations by a Court and Choice of Representative) Regulations 2013, made under s.19 of LASPO, the High Court may make a determination under <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.16</ref> that an individual qualifies for representation</span><span/><span style="color:#000000">for the purposes of those criminal proceedings before the High Court described in <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.14</ref>(a) to (g) of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10" uk:canonical="2012 c. 10" uk:origin="TNA" uk:type="legislation">the Act</ref>, but not those described in <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.14</ref>(h).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.19in;text-indent:-0.4in">(3)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1.19in">It follows that <span style="color:#000000">the Director is the relevant authority for determining whether an individual qualifies for representation in proceedings before the High Court which are prescribed as criminal proceedings in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.14</ref>(h) of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10" uk:canonical="2012 c. 10" uk:origin="TNA" uk:type="legislation">the Act</ref>, including committal proceedings falling under regulation 9(v) of the General Regulations. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in">In the same email, however, the agency indicated that, as <span style="color:#000000">there is no financial test for criminal proceedings in the High Court, and under regulation 21 of the General Regulations 2013 the interests of justice test is deemed to be met in respect of criminal proceedings before the High Court, the Director was able to determine that the individual qualifies for representation under <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.16</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2012/10" uk:canonical="2012 c. 10" uk:origin="TNA" uk:type="legislation">the Act</ref> and issue a representation order to that effect. The agency indicated that it would agree to the discharge of my order granting legal aid to the appellant to be contingent upon the Director granting her public funding for the appeal. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In view of the shortage of time before the hearing, I made the pragmatic decision to follow the course proposed by the agency on this occasion, and duly discharged the order on the condition that the Director granted the appellant public funding for the appeal. But in doing so I invited Mr Michael Rimer, the senior lawyer at the agency who has been of considerable assistance in a number of other cases before this court in which issues concerning public funding have arisen, to join the hearing by telephone for a preliminary discussion before I considered the substantive issue. He duly did so and made supplementary submissions and observations which he kindly agreed to reduce to writing afterwards.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In his supplementary submissions, Mr Rimer confirmed that it was the agency&#8217;s view that the decision in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Bunning</span> case was wrong. He pointed out that the decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Bunning</span> was of no assistance to committal applications in the county or family courts, and that the agency had therefore devised processes for granting representation in committal proceedings in those courts administered by its office in Nottingham. Where the agency came across instances where the High Court had made a grant of criminal legal aid after <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Bunning</span>, its practice has been to substitute that grant with its own grant of representation and treat the High Court's order as a clear indication that legal aid should be granted in that particular case.  Mr Rimer added that, since May 2015, the team in Nottingham had received and granted criminal legal aid in 130 High Court committal matters out of a total of 1,804 applications for legal aid arising out of contempt matters. He drew attention to guidance available at <a class="Hyperlink" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/620018/civil-contempt-guidance.pdf">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/620018/civil-contempt-guidance.pdf</a>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I did not hear detailed legal argument on this issue and make it clear that I am not disagreeing with the decision of Blake J in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Bunning</span>, which, as I have mentioned, has been followed by the President in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Ramet</span> case. If the Legal Aid Agency wishes to challenge that line of authority, I respectfully suggest that it must identify a suitable case in which to do so. I merely record that the agency now has a department in Nottingham which specialises in considering applications for legal aid in committal cases. Mr Rimer told me that the unit was accustomed to processing such applications promptly, given the urgency which often arises in committal cases. It may be, therefore, that in future a litigant who finds himself or herself in a similar position as the appellant in this case would be better advised in the first instance to apply to the agency for public funding. In the event that the application is unsuccessful or delayed, the matter should be raised with the court.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Order on appeal</span></heading>
+	  <paragraph eId="para_48">
+	    <num style="font-size:11pt">48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the reasons set out above, I allowed the appeal against the recorder&#8217;s order and set aside the suspended committal order. I further ordered that the application for an enforcement order under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.11</ref>J of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> be listed before a circuit judge, time estimate half a day, to consider whether the appellant had a reasonable excuse for failing to comply with the order of 21 July 2017, and gave case management orders in respect of that hearing. I recited, for the avoidance of doubt, that the order of 21 July remains in force. I made no order as to costs save for a detailed assessment of the costs of the publicly funded parties. </p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

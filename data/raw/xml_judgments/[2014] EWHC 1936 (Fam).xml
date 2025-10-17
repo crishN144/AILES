@@ -1,0 +1,546 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/1936"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/1936"/>
+	  <FRBRdate date="2014-06-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1936"/>
+	  <FRBRname value="N And N (Non Accidental Head Injury: Fact Finding)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1936"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1936"/>
+	  <FRBRdate date="2014-06-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1936/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1936/data.xml"/>
+	  <FRBRdate date="2024-10-27T23:02:14" name="transform"/>
+	  <FRBRdate date="2024-11-28T02:48:01" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2014-06-12" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-mrs-justice-pauffley" href="/judge-mrs-justice-pauffley" showAs="MRS JUSTICE PAUFFLEY"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2014</uk:year>
+	<uk:number>1936</uk:number>
+	<uk:cite>[2014] EWHC 1936 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>4ba89c245725f28d5d71849a78a3b81aca7bb4dd92cc08a948e1f1e9ad496604</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2014] EWHC 1936 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>EG13C00141</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2014-06-12" refersTo="#judgment">12/06/2014</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-pauffley">MRS JUSTICE PAUFFLEY</judge></p>
+      <p style="text-align:center;margin-left:0.25in">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Re N and N (Non accidental head injury: Fact finding)</span></p>
+      <p style="text-align:center;margin-left:0.25in">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center;margin-left:0.25in">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Frances Heaton QC and Ginnette Fitzharris </span>for the local authority</p>
+      <p style="text-align:center"><span style="font-weight:bold">Susan Grocott QC and Arron Thomas </span>for the mother</p>
+      <p style="text-align:center"><span style="font-weight:bold">Alistair MacDonald QC and William Baker</span> for the father</p>
+      <p style="text-align:center"><span style="font-weight:bold">Bansa Singh Hayer</span> for the Children&#8217;s Guardian</p>
+      <p style="text-align:center">Hearing dates: 4<span style="vertical-align:super;font-size:smaller">th</span> &#8211; 11<span style="vertical-align:super;font-size:smaller">th</span> June 2014</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mrs Justice Pauffley:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading class="ParaLevel1" style="text-align:left"><span style="font-style:italic">Introduction and issue</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At 02.00 on 3<span style="vertical-align:super;font-size:smaller">rd</span> October 2013, a telephone call was made to the emergency services by the father of a 6 week old baby boy who was said to be having breathing difficulties. An ambulance arrived just seven minutes later to find the infant in cardiac arrest, not breathing and without a pulse. The father told the paramedics that whilst he had been feeding the baby, he had struggled to breathe, then became limp and floppy.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The ambulance crew gave the child CPR, administered adrenaline and after 10 minutes or so, his heart began to beat again. He was conveyed to hospital, assessed and treated in the paediatric intensive care unit. He was found to have suffered acute, widespread and life-threatening head injuries. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The outlook for him, very sadly, is bleak. He is severely disabled; and his life expectancy is reduced. He has severe developmental delay, cerebral palsy and possible spastic quadriplegia. He cannot feed normally; currently he has a naso-gastric tube because of difficulties with swallowing. There is a strong likelihood that he will display some form of neurological and / or neuro developmental impairment including seizures and visual loss. All the signs are that he will remain dependent upon others to satisfy his physical care needs for the remainder of his life.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 11<span style="vertical-align:super;font-size:smaller">th </span>October, eight days after the index event, during the course of his second police interview that day, the father gave an account which was significantly different to that he&#8217;d previously provided. He said he had dropped the baby down the stairs. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This hearing has been to establish the facts. Two distinct possibilities are put forward. The local authority claims that the child&#8217;s injuries were inflicted and thus non accidental &#8211; they resulted from an undisclosed shaking with impact mechanism. The father&#8217;s assertion is straightforward &#8211; that there was an accident when he lost his balance at the top of the stairs which caused the baby to fall down to the bottom.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Legal principle</span>s <span style="font-style:italic">&#8211; burden and standard of proof - lies</span></heading>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father does not have to prove anything. The burden of proof remains with the local authority. It is my task to consider what is alleged, a wealth of information from a variety of sources including, of course, the oral evidence and then to come to an overall conclusion as to what, in fact, occurred. The standard of proof in finding the facts necessary to establish any factual issue in the case is the simple balance of probabilities, nothing more and nothing less. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I should also remind myself that there are many reasons why a person, in proceedings such as these, might lie. The mere fact that a potential perpetrator lies is not in itself evidence of guilt. People try to deceive for a whole host of motives. Not necessarily because they are culpable but, for example, out of shame or because they are fearful or in an attempt to bolster up a just cause or so as to conceal dishonourable behaviour from their families. The mere fact that a potential perpetrator lies is not in itself evidence of guilt. In this situation, it would almost never be sufficient evidence of culpability to establish that someone had lied. It is an altogether more subtle and delicate process than that.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The essential background</span></heading>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The essential background may be shortly stated. The proceedings relate to two children, F who is 1 &#190; years old and T who is 9 months old. Their mother is TT now in her mid twenties; their father is TT just a little younger. He is in his early twenties.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The family was unknown to the local authority prior to the events of early October last year. Since then, F has lived first with her paternal and then with her maternal grandmother. T was discharged from hospital in mid December to foster parents skilled in looking after children with complex health needs. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The parents had been in a relationship with one another since 2009 / 2010. They are married. On 18<span style="vertical-align:super;font-size:smaller">th</span> October last year, the mother informed the local authority that she was separating from the father. They are now in the process of becoming divorced. Currently, the mother is living with her paternal grandparents; the father has returned to live with his parents. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Father&#8217;s account of events on 3</span><span style="font-style:italic;vertical-align:super;font-size:smaller">rd</span><span style="font-style:italic"> October</span></heading>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father&#8217;s account of what happened between about 01.30 and 02.00 on 3<span style="vertical-align:super;font-size:smaller">rd</span> October, as given in evidence, was as follows.  He said he had been fine about getting up to do the feed. He was neither tired nor stressed. The baby had woken him up &#8220;<span style="font-style:italic">normally, screaming, his normal cry</span>.&#8221; The mother had nudged him and asked if he would do the feed. He went and prepared the bottle from the pot of powder and bottle on the chest in the bedroom. He did not turn on the bedroom light; there had been &#8220;<span style="font-style:italic">a little bit of moonlight between the curtains</span>.&#8221; It took &#8220;seconds to mix the feed.&#8221; He had then &#8220;<span style="font-style:italic">proceeded to pick T up from his Moses basket &#8230;</span>&#8221; He had picked up the feeding bottle after the baby and &#8220;<span style="font-style:italic">held it in the fingertips of (his) right arm</span>.&#8221; He had been intending to take T downstairs to feed him so as not to disturb the mother.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At the top of the stairs, there was no obstruction, just a stair-gate which they&#8217;d had for about three days. The father could not remember how many night time feeds he had been responsible for since the installation of the stair-gate.  He had opened the clasp with his left hand. T had been in his right arm and &#8220;<span style="font-style:italic">held against</span>&#8221; him. The gate had opened away from them, &#8220;<span style="font-style:italic">because of the gravity of the stairs</span>.&#8221; The father had, he said, &#8220;<span style="font-style:italic">proceeded to start walking down the stairs.</span>&#8221; He had &#8220;<span style="font-style:italic">misjudged (his) footing and tripped on the metal bar (at the base) of the stair-gate. (He) went backwards, tried to correct (his) footing and T fell out of (his) arms. He tumbled away and in front</span>&#8221; of him. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father had &#8220;<span style="font-style:italic">looked the other way whilst it was happening, whilst T had been falling downstairs</span>.&#8221; He had heard the thud noises. He heard nothing from T. He went quiet after the first thud. He had &#8220;<span style="font-style:italic">looked again after he had stopped falling</span>.&#8221; He had seen T &#8220;<span style="font-style:italic">hunched up at the bottom of the stairs in a ball sort of shape</span>.&#8221; The father had &#8220;<span style="font-style:italic">proceeded to walk down the stairs and picked him up</span>.&#8221; He had thought, &#8220;<span style="font-style:italic">Oh my God, what have I done</span>.&#8221; He had decided to &#8220;<span style="font-style:italic">proceed to feed him</span>.&#8221; He had &#8220;<span style="font-style:italic">just panicked</span>.&#8221; He had fed him on the sofa in the lounge. T had &#8220;<span style="font-style:italic">taken the milk a lot slower than what he normally would</span>&#8221; but the father could not give a time.  He had taken &#8220;<span style="font-style:italic">around an ounce of milk. Then T had started struggling (with his) breathing, went limp in (his) arms, so (he) rushed upstairs</span>.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father described how he &#8220;<span style="font-style:italic">proceeded to wake the mother and told her that T was not breathing</span>.&#8221; He needed to call an ambulance. He had not told the mother what had happened because he &#8220;<span style="font-style:italic">was scared of being called an idiot for causing an accident</span>.&#8221; He was not sure what was wrong with T; &#8220;<span style="font-style:italic">he did not seem right</span>.&#8221;</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Parties&#8217; positions</span></heading>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The parties&#8217; positions at the completion of the evidence deserve mention albeit not to the same extent as would be necessary had Counsel made oral rather than written submissions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The local authority maintains that the father&#8217;s account is false and that something else happened to T whilst his father was caring for him that night which involved the mechanisms of shaking and impact. It is not suggested that the mother could have known that the father would behave as he did. Her personal and parenting progress throughout the course of the proceedings has been, Miss Heaton suggests, obvious.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother&#8217;s position in relation to causation underwent a significant alteration after she had heard the father&#8217;s oral evidence. Whereas she had made clear that, in part at least, she wanted to believe there was an &#8216;accident&#8217; not least for the sake of F and her potential future relationship with her father, having heard his evidence the mother, according to Miss Grocott QC, &#8220;<span style="font-style:italic">can no longer invest in an accidental mechanism</span>.&#8221; She found his account of the fall, his reasoning for telling the &#8216;fall story&#8217; and his description of having fed T wholly lacking in credibility. She left court at the end of the father&#8217;s evidence, Miss Grocott reports, deeply distressed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On behalf of the father, Mr MacDonald QC and Mr Baker produced written submissions which, to my mind, could not have been improved upon. At their conclusion, they state that the accident which the father contends caused the injuries was heard by the mother, relying upon what she said to the police and in evidence. It is also suggested that T&#8217;s injuries are, on the evidence of the medical experts, consistent with the fall as described by the father. In that context, it is submitted that those matters which have cast suspicion upon the father are not necessarily probative of his having injured T deliberately. Thus, on the father&#8217;s behalf, I am asked to find that the local authority has not established, on the balance of probabilities, that he inflicted the injuries, it being more likely that they resulted from the accident described by the father.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Hayer, on behalf of the children&#8217;s guardian, conducted a detailed and very full analysis of the evidence given at and before the hearing. He suggests that the history and the versions of events leading up to T&#8217;s hospital admission will be crucial and the parents&#8217; credibility might well be decisive. He drew my attention to a number of matters which, he submits, are unusual or at odds with some of the evidence. Mr Hayer submits it is inexplicable that an innocent accident was not reported at the time to the mother, the medical staff and initially to the police. He suggests it is all the more bizarre when one considers that it was the father who raised &#8216;shaking&#8217; within his own police interview.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Discussion and overall conclusion</span></heading>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It has been my task to survey a broad array of evidence and information from a wide variety of sources. The medical framework has been, as it almost always would be in a dispute of this kind, of considerable importance. Not just in differentiating between consistent and inconsistent accounts but also in enabling me to understand those aspects of T&#8217;s case which have a particular clinical significance. Examining and analysing the history, particularly events at the time of and in the days that followed 3<span style="vertical-align:super;font-size:smaller">rd</span> October has been immensely important. So, too, the oral evidence of the parties not just about what happened on the night and thereafter but also more generally.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The wider background</span></heading>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A number of matters merit explicit mention because they form part of the wider background. First, that the father has no history of having inflicted physical violence upon anyone. There was nothing, reports the mother, which would have suggested he was likely to deliberately hurt either child. She had no anxiety about him doing the night time feeds for T. He had been &#8216;heavy handed,&#8217; the mother told the police, on only a few occasions in all probability because of inexperience. She also said he is ordinarily a gentle person, a &#8216;Mummy&#8217;s boy&#8217; and an immature young man prone to &#8216;childish strops&#8217; nothing more worrying than that. Of his response to problems the mother said he would either ignore them or cover them up.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Moreover, there is no basis for believing that in the early hours of the morning on the night of 2<span style="vertical-align:super;font-size:smaller">nd</span> / 3<span style="vertical-align:super;font-size:smaller">rd</span> October the father was more tired that usual or under particular stress because of any argument with the mother. He was on annual leave, did not have to get up early the next morning, and the atmosphere in the family home that night was harmonious.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The only slightly unusual facets of the father&#8217;s character arise from the way in which he responded to news of the mother&#8217;s pregnancies. The information about them was not revealed to the paternal grandparents because, as the father said in evidence, he did not believe his parents would be happy that he and the mother were having a baby and then a second with only a short gap between the two. He was &#8220;<span style="font-style:italic">scared about what (his) Mum and Dad would say</span>.&#8221; Later, the father added that his own father, the paternal grandfather &#8220;<span style="font-style:italic">can fly off the handle and then calm down. He is hard to predict</span>.&#8221; There is also information, strongly denied by the father, suggestive that he felt differently about T to the way in which he felt about F to which I shall return in due time.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Overall conclusion</span></heading>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At the end of it all, I have arrived at a very clear conclusion which is that T&#8217;s injuries did indeed result from forcefully inflicted shaking with impact upon some unyielding surface or object. I reject, without hesitation, the father&#8217;s alternative suggested scenario of an accident undisclosed at the time because of fear. I now turn to my detailed reasons for those conclusions and begin with the medical evidence.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The medical evidence</span></heading>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The combined opinion of the specialist doctors who participated at the experts&#8217; meeting is that although the mechanism put forward by the father is theoretically possible there are features &#8211; essentially two &#8211; which impel them to question whether it is likely. None of the experts would have completely discounted the father&#8217;s account of a fall but, on the basis of what had been described, they considered it unlikely.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr Cartlidge, an eminent consultant paediatrician &#8211; whose report, if I may say so, was a model of brevity, analysing all of the relevant material in just a little over 20 pages &#8211; said in evidence that although &#8220;<span style="font-style:italic">all the injuries we see could have been caused by a fall downstairs, two factors militate against &#8211; the described presentation of T and the failure of the father to describe the event (before he did).&#8221; </span>As a clinician Dr Cartlidge said he found that a &#8220;<span style="font-style:italic">very unusual aspect</span>.&#8221; He also said that &#8220;<span style="font-style:italic">given the subsequently found brain injuries, it was more likely that T would have been unconscious after such a fall</span>.&#8221; He would have expected a &#8220;<span style="font-style:italic">very unwell baby with reduced consciousness. Very pale, very floppy, very unlikely to feed normally. He may have made mouthing movements but would not have been able to suck and swallow</span>.&#8221; For Dr Cartlidge the father&#8217;s account of T taking an ounce of milk represented a &#8216;red flag&#8217; in relation credibility. He added that in his view it was &#8220;<span style="font-style:italic">a bizarre thing to be doing &#8211; trying to feed a baby who was semi conscious.</span>&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr Cartlidge also held to the contention he&#8217;d expressed in the experts&#8217; meeting in relation to the significance of delay in the father&#8217;s description of a fall. He had encountered situations in which an individual had delayed telling the truth, &#8220;<span style="font-style:italic">but not in the situation we have here. The baby&#8217;s life was in peril. It was bizarre to withhold such information</span>.&#8221; In conclusion, Dr Cartlidge explained that &#8211; &#8220;<span style="font-style:italic">the baby would have been very unwell straightaway; the father&#8217;s actions were not what (he&#8217;d) expect; and the (relevance of the) failure to reveal the fall history is for the court to decide.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Richards, consultant paediatric neurosurgeon, gave evidence which was in complete accord<span style="font-style:italic"/>with that of Dr Cartlidge. He had &#8220;<span style="font-style:italic">no difficulty at all</span>&#8221; in agreeing that T&#8217;s injuries could have resulted either from shaking with impact or from tumbling down the stairs. He said that given the severity of the injuries, T would have been either &#8220;<span style="font-style:italic">knocked out or in extreme distress &#8230; unconscious or crying inconsolably</span>.&#8221; </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If the history of a fall down the stairs had been given from the outset, Mr Richards may have been satisfied with it. But he &#8220;<span style="font-style:italic">takes (Dr Cartlidge&#8217;s) point &#8211; &#8216;fine and fed afterwards&#8217; &#8211; that would have rung alarm bells</span>.&#8221; In his clinical practice, Mr Richards will see about four cases a year in which the parents say, &#8216;I dropped him down the stairs.&#8217; He has not had an experience of someone getting themselves into a &#8216;silly situation&#8217; of lying about the circumstances.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr Jaspan, consultant paediatric radiologist, stood by the conclusions he&#8217;d expressed within his written report and at the experts&#8217; meeting. Whilst the father&#8217;s explanation is worthy of serious consideration, it is Dr Jaspan&#8217;s opinion &#8211; based on his experience and the literature &#8211; that it is more likely that T&#8217;s injuries resulted from an &#8220;<span style="font-style:italic">as yet unexplained mechanism &#8230; that probably involved both impacts or blows to the head and acceleration / deceleration / rotation forces such as may occur with a short lived but vigorous shaking</span>.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As Dr Jaspan explained in evidence, the &#8220;<span style="font-style:italic">key component militating against this being a fall was a combination of the literature together with (his) experience of 25 years</span>.&#8221; And although he could not exclude the possibility of a fall down the stairs, he said, &#8220;<span style="font-style:italic">There was imaging which in (his) opinion means there were other forces in play &#8211; the symmetrical pattern of the subdural haemorrhages as well as the hypoxic ischaemic changes</span>.&#8221; In relation to a fall down stairs, Dr Jaspan added that after the first impact, there would have been a series of &#8220;<span style="font-style:italic">mini falls of lower intensity which would not be associated with the pattern we see in shaking mechanism injuries.</span>&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally in this analysis of the medical evidence relating to the key issue, Mr Newman &#8211; consultant paediatric ophthalmologist &#8211; held to the view he expressed within the Agreed Medical Statement. He said that if the court is of the opinion following a review of the evidence in its entirety that the retinal haemorrhages and other findings are of accidental origin from the fall described by the father, then this &#8220;<span style="font-style:italic">would make it a very rare event and an outlier</span>.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In his oral evidence, he reiterated his opinion that on the current state of medical knowledge, &#8220;<span style="font-style:italic">retinal haemorrhages are rare following short falls, usually unilateral and usually confined to the posterior pole</span>.&#8221; He added that those assertions would be agreed by the American Academy and bodies within the European Union. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">He also said that retinal haemorrhages do occur following low level falls but usually they are few and unilateral. He cited an example of a recent and complex case reported upon by Miss Adams at Great Ormond Street Hospitals. He agreed with Mr MacDonald there were others &#8211; the case of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Lancashire County Council v R</span> [2013] EWHC 3064 a decision of Mostyn J and another decided case, <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re B</span> [2014] EWHC B1 (Fam) &#8211; Judge Lea sitting in Nottingham &#8211; where, according to Mr Newman, the judge had relied in part upon Mostyn J&#8217;s reasoning in the Lancashire case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Ultimately, it remained Mr Newman&#8217;s opinion, on the balance of probabilities, that T&#8217;s retinal haemorrhages were consistent with those found after a shaking type injury rather than an accidental fall down a flight of stairs. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr MacDonald suggests I should treat that evidence with circumspection in circumstances where ophthalmologists do not know the precise mechanism by which retinal haemorrhages are caused or the level of force required to cause them. Mr Newman accepted that perforce the evidence relating to retinal haemorrhages derives from those patients who have a significant injury which brings them to a head injury unit; that ophthalmologists only examine a child&#8217;s eyes if asked to do so; and to that extent the evidence base is, in general, skewed towards patients with intra cranial injuries. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I am bound to say, I find no reason to be circumspect in relation to Mr Newman&#8217;s evidence. He is an expert with a nationwide if not an international reputation. His career has been long and distinguished. He has advised the courts in countless cases. He is diligent, thorough and precise in the way he expresses himself. I am unable to find a reason to disagree with the fundamental advice he offers emphasising, as he did, that I would have to look at or examine &#8220;<span style="font-style:italic">the whole thing, not just the retinal haemorrhages</span>.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The consensus amongst the experts is that T&#8217;s case is very complex; that the medical evidence base relating to shaking injuries is not a complete one; that infants cannot be used for experiments and that all of the scientific research is performed upon simulations. Each expert nonetheless held to his essential thesis which is that T&#8217;s injuries, on the balance of probabilities, resulted from an as yet undisclosed event involving shaking with impact.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I should also say that Mr MacDonald&#8217;s questions directed to the issue of whether T, given his age and physiology, may have been more susceptible to injury from a fall of the kind described by the father did not gain much if any real traction with the experts. Dr Cartlidge said T&#8217;s vulnerability would be the same as for any three week old (T was born three weeks prematurely; his expected date of delivery had been 13<span style="vertical-align:super;font-size:smaller">th</span> September). Dr Cartlidge did not know if a 3 week old would be more vulnerable than a six month old. Both, he said, have a high chance of injury if they fall from a height of about a metre. Asked to consider the rise in T&#8217;s head circumference from the 50<span style="vertical-align:super;font-size:smaller">th</span> to 91<span style="vertical-align:super;font-size:smaller">st</span> centiles ahead of the incident, Dr Cartlidge said he would not have been &#8220;<span style="font-style:italic">clinically all that concerned</span>.&#8221; He added that T&#8217;s head was big for his body and was thus likely to appear more floppy. If he were shaken or tumbled down the stairs then there would be a &#8220;<span style="font-style:italic">mildly &#8211; and (he did) stress mildly &#8211; increased vulnerability</span>.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Asked similar questions, Mr Richards said that &#8220;<span style="font-style:italic">in terms of subdural haemorrhage there was potentially increased vulnerability but (he didn&#8217;t) know it would be (so) for brain substance injury&#8230;. The presence of contusions is normally associated with impact. Tears could be related to acceleration / deceleration</span>.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr Jaspan whose report had contained the assertion that T&#8217;s brain was &#8220;very immature and thus vulnerable to injury&#8221; said in evidence there had been &#8220;<span style="font-style:italic">no hard and fast scientific work &#8211; but the probability is that the brain is more vulnerable to the consequences of trauma. The weaker the neck muscles, the larger head size compared to the body. The brain is waterlogged &#8211; 90% water for the first few months of life &#8211; and is potentially more vulnerable to lacerations and contusions.</span>&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The more important matter, surely, is that none of the experts would exclude the possibility that T&#8217;s injuries could have been accounted for by a fall downstairs. Each for the reasons they have provided considers it unlikely.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr MacDonald counsels caution in relation to the proposition that domestic falls rarely result in the nature and extent of injuries seen in T. I can reassure him and indeed the father that propositions make only the most limited impression upon me. My interest is, and always would be, in the evidence of experienced medical experts applying their knowledge and skill to the difficulties presented by this or any other case.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Reasons for and impact of father&#8217;s delayed account</span></heading>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I turn then from the medical components to consider the reasons for and impact of the father&#8217;s delayed account of what happened on 3<span style="vertical-align:super;font-size:smaller">rd</span> October. He stuck to his story that T&#8217;s collapse occurred whilst he was feeding him at all times until his second police interview at 18.45 on 11<span style="vertical-align:super;font-size:smaller">th</span> October. Asked why he had given the account of a fall down the stairs only at that stage, the father said it was &#8220;<span style="font-style:italic">because of the charge (he) was facing at the time &#8211; attempted murder. That made it hit home more &#8211; being charged with attempted murder when it was an accident.</span>&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Challenged as he was, again and again, as to the reasons for not telling anyone about a fall if, in fact, it occurred &#8211; the father could only respond that he had been scared and in a panic. That was why he had not told the mother when he&#8217;d brought T into the bedroom. He was &#8220;<span style="font-style:italic">scared of being called an idiot for causing an accident</span>;&#8221; he had not rung for an ambulance &#8220;<span style="font-style:italic">because (he) was scared about what (he&#8217;d) accidentally done</span>;&#8221; he had not told the paramedics because he was &#8220;<span style="font-style:italic">scared</span>&#8221;; did not tell the hospital doctors because he was &#8220;<span style="font-style:italic">scared of being disowned and of the mother leaving (him)</span>&#8221; </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It quite simply defies belief that anyone, for reasons associated with fear of the consequences for himself, could fail to disclose the circumstances of a baby&#8217;s accidental fall down the stairs if, in truth, that is what happened. All around the world, on every day of the year, children have accidents. It&#8217;s part of life and an integral ingredient of bringing up a child. No one could or should castigate or criticise a parent when an accident occurs unless there was negligence or failure to take appropriate precautions to reduce the risk.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">So I ask myself, would the mother or anyone else have condemned the father if he&#8217;d revealed at the time that he had stumbled at the top of the stairs and dropped T? The answer to that question must surely and emphatically be no.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the father to be fearful of the consequences for himself of revealing an accident throughout those long days whilst T lay in hospital, clinging to life, when the doctors, the mother and all of T&#8217;s relatives were anxiously trying to understand why he was so gravely ill, likewise defies belief.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The inherent improbability of the father&#8217;s account</span></heading>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There are other reasons as well for my rejection, without hesitation, of the father&#8217;s version of events.  He described falling backwards himself but regaining his balance; and yet he maintains that T fell away from  and in front of him all the way down the stairs. He told the police he had swapped the feeding bottle from one hand to the other but said he had given the correct version during his evidence. There had been no swapping over of the bottle from one hand to the other. Most significantly of all, in relation to the futility of the father&#8217;s purported story, he told Miss Heaton QC he was &#8220;<span style="font-style:italic">not sure how (he) could hold on to the bottle but not (his) son</span>.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">When I envisaged the mechanics of the suggested fall, it made no sense at all. The father did not describe a stumble forwards towards the top of the stairs. He does not say that he himself fell over; he regained his footing. On his demonstrated account, in evidence, he was holding T close to his chest with his right arm. The notion that somehow T was launched down the stairs strikes me as ludicrous.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Similarly, I reject the father&#8217;s account of having successfully fed T after his supposed fall. Mr MacDonald suggests I will wish to weigh that evidence against the experts&#8217; settled view that it would have been unlikely. He submits that unusual things do happen and that medical knowledge is necessarily incomplete. In response to those suggestions, I say only this &#8211; that the notion of a severely brain damaged infant being able to feed satisfactorily in the minutes following the insult is at variance with the evidence given in this and countless other similar cases over the years. The medical view is settled precisely because there is a sound and very adequate evidence base acquired by the professions over decades.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_12">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The mother&#8217;s account in interview with the police</span></heading>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Understandably enough, Mr MacDonald places considerable reliance on the mother&#8217;s account of what happened that night, as given to the police in interview. Mr MacDonald contends that her answers to the police and in evidence are consistent with the father&#8217;s version of events. She heard something falling or going down the stairs. She heard more than one impact, something solid hitting each step, described by her as like a heavy object. The mother also said she definitely heard T&#8217;s cry<span style="font-style:italic"/>change during the time she heard the heavy object falling. It was, she said, slightly worse when she heard &#8220;<span style="font-style:italic">bang, bang, bang down the stairs</span>;&#8221; and it turned into a more painful, high pitched cry before it stopped.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">When the father gave evidence, after the mother, he described a very different situation. He said he had &#8220;<span style="font-style:italic">heard T falling down, heard the thud noises &#8230; (The father) heard nothing from T. He went quiet after the first thud</span>.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Whatever happened between the father and T that night was unquestionably violent. There was an impact when T&#8217;s head came into contact with either a hard surface or an object so that he sustained a skull fracture. The mother had been, as she said, &#8220;<span style="font-style:italic">only mildly aware; half asleep; half awake-ish</span>.&#8221; She had been trying to get back to sleep. Her initial reaction on hearing &#8220;<span style="font-style:italic">the thud, thud, thud down the stairs had been that it was the bottle falling.</span>&#8221; In answer to Miss Heaton, the mother confirmed she had not heard the sound of an adult stumbling on the landing, nor the sound of anyone stubbing his foot, nor any rattle of the stair-gate as it was banged against, nor the father running down the stairs.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Maybe, as the mother initially thought, a full feeding bottle did fall down the stairs. When she had asked the father at the hospital what the noise she&#8217;d heard was, he told her the bottle had slipped out of his hand and down the stairs. Maybe T was making a lot of noise at the time coincidental with the bottle&#8217;s descent. Unquestionably, there came a time when T was silent and made no further sound. By then, almost certainly, he had been severely injured and was, if not unconscious, then close to losing consciousness.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_13">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The father as a witness of fact</span></heading>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The content of and the way in which the father gave his evidence is of obvious importance in the fact finding exercise. Clearly he was nervous in the extreme; he spoke very, very quietly and gave most of his evidence in a flat, impassive manner. Seldom did he demonstrate much emotional response about anything. One of the only times when he became animated was in response to Miss Heaton&#8217;s suggestion that the fall had not happened. The father said, with some emphasis, that &#8220;<span style="font-style:italic">the fall did happen</span>&#8221;; and as he did so he seemed to me to be really quite angry. He was definitely red in the face.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">His account of what had happened of the night of 3<span style="vertical-align:super;font-size:smaller">rd</span> October had many of the hallmarks of a rehearsed account, one he had gone over and over in his own mind and there was a certain associated artificiality. He told me again and again how he had &#8220;<span style="font-style:italic">proceeded</span>&#8221; to do certain things. He seemed to me to be both strikingly immature and self absorbed. When he said it had been &#8220;<span style="font-style:italic">too devastating</span>&#8221; to look down the stairs after T&#8217;s supposed fall and was asked for whom it had been devastating, the father replied, &#8220;<span style="font-style:italic">for me</span>.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Overall, I am in no doubt at all, the father has told a whole succession of lies. His credibility has been in serious issue right from the start. His lie about having fed T an ounce of milk after he&#8217;d sustained catastrophic brain injuries alerted the doctors more or less at once to the improbability of his delayed and spurious account.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">His two separate but diametrically opposed accounts to the police could not, by any stretch of imagination, have both been true.  The father admitted in evidence that he had no explanation for having told the police he had been carrying T down the stairs in his Moses basket. He did not know &#8220;<span style="font-style:italic">why (he) had said it</span>.&#8221; He was similarly &#8220;<span style="font-style:italic">unsure</span>&#8221; as to why he had said in police interview that the feeding bottle had been swapped from one hand to the other.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The reason why the father has lied over and over again, almost without question, is that he is worried about the consequences for himself of the truth being known. He does not have the courage to admit to what happened. The consequences for the mother &#8211; who has to be viewed as blameless for what happened that night &#8211; have been beyond comprehension.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_14">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The subtle clues</span></heading>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Arising out of the evidence, there were some clues, strongly denied by the father, that his relationship with T and his temperament in the weeks following his birth were questionable. The mother said that after T was born, the father became &#8220;<span style="font-style:italic">a lot more distant&#8230;. (She had) asked him if he had a male version of post natal depression. He went quiet and tensed his body &#8230;. He had done hardly anything for the baby. He was more heavy handed than he should have been and would &#8216;go off on one</span>&#8217;&#8221; when she tackled him.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">When T was critically ill in the intensive care unit and there was a real question as to whether he would live, the father was heard to say to the mother, &#8220;<span style="font-style:italic">Don&#8217;t worry you still have me and that gorgeous little girl</span>&#8221; which struck me as the most extraordinarily insensitive and unfeeling remark.   When T was removed from the ventilator, the father admits he only stayed in the room with the mother and T for 10 minutes because he &#8220;<span style="font-style:italic">found it very hard</span>&#8221; to be there. Seemingly, he had no care for the mother&#8217;s obvious sorrow and extreme distress.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Moreover, in the call he made to the emergency services in the very early hours of 3<span style="vertical-align:super;font-size:smaller">rd</span> October, the father was remarkably and most unusually calm. He was &#8216;matter of fact&#8217; throughout and even though his son, very obviously, was in a very poor way. The father&#8217;s tone, his speech delivery, signified no emotional arousal at all. He was exceptionally calm as he described how T was struggling to breathe whilst the mother could be heard crying in the background. The father did not appear to be in the least bit distressed as he said, &#8220;He&#8217;s still warm.&#8221; His delivery was flat calm as he said, &#8220;He&#8217;s stopped breathing.&#8221; The mother could be heard gulping in distress in the background.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_15">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Deliberately inflicted or loss of control?</span></heading>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In his final submissions, Mr MacDonald suggests that those matters which have cast suspicion on the father are not necessarily probative of his having injured T &#8220;deliberately.&#8221; To do something &#8220;deliberately&#8221; means to do it on purpose, intentionally or on a basis that has been fully considered. I should make clear that I cannot conceive of circumstances in which the father set about injuring T either deliberately or intentionally. What happened that night, in all probability, might best be described as a sudden, frenzied loss of control with catastrophic consequences. The father, in all likelihood, became very angry and frustrated indeed as the result of something in the early hours of that morning.  T&#8217;s injuries were the enormously sad result.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

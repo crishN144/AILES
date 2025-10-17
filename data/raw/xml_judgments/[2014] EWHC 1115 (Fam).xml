@@ -1,0 +1,979 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/1115"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/1115"/>
+	  <FRBRdate date="2014-03-21" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1115"/>
+	  <FRBRname value="Surrey County Council v AB &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1115"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1115"/>
+	  <FRBRdate date="2014-03-21" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1115/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1115/data.xml"/>
+	  <FRBRdate date="2024-10-27T23:31:47" name="transform"/>
+	  <FRBRdate date="2024-11-18T14:15:00" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2014-03-21" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="surrey-county-council" href="" showAs="Surrey County Council"/>
+	<TLCPerson eId="ab" href="" showAs="AB"/>
+	<TLCPerson eId="cd" href="" showAs="CD"/>
+	<TLCPerson eId="ef" href="" showAs="EF"/>
+	<TLCPerson eId="x" href="" showAs="X"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis-dbe" href="/judge-mrs-justice-theis-dbe" showAs="MRS JUSTICE THEIS DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2014</uk:year>
+	<uk:number>1115</uk:number>
+	<uk:cite>[2014] EWHC 1115 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>d25bb85ced720f553aa45e0a6586d3cda94056eca6579e20e6912e0f3ffc80c9</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><span style="font-size:11pt">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</span></p>
+      <p class="CoverText">Case No: <docketNumber>NZ13C00033</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2014] EWHC 1115 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2014-03-21" refersTo="#judgment">21/03/2014</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis-dbe">MRS JUSTICE THEIS DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.31in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#surrey-county-council" style="font-weight:bold">Surrey County Council</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#ab" style="font-weight:bold">AB</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">1st Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#cd" style="font-weight:bold">CD</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">2nd Respondent </role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and - </span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#ef" style="font-weight:bold">EF</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">3rd Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#x" style="font-weight:bold">X</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(Through his Children&#8217;s Guardian)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">4th Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - -- - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Mr Andrew Norton </span><span style="font-size:11pt">(instructed by</span><span style="font-weight:bold;font-size:11pt"> Local Authority</span><span style="font-size:11pt">) for the </span><span style="font-weight:bold;font-size:11pt">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Ms Francesca Wiley</span><span style="font-size:11pt"> (instructed by </span><span style="font-weight:bold;font-size:11pt">Blavo &amp; Co Solicitors</span><span style="font-size:11pt">) for the </span><span style="font-weight:bold;font-size:11pt">1st Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Ms Philippa Jenkins </span><span style="font-size:11pt">(instructed by </span><span style="font-weight:bold;font-size:11pt">Child Law Partnership</span><span style="font-size:11pt">) for the </span><span style="font-weight:bold;font-size:11pt">2nd Respondent </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">EF </span><span style="font-size:11pt">Appeared in Person</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Ms Sally Stone </span><span style="font-size:11pt">(instructed by </span><span style="font-weight:bold;font-size:11pt">Blackfords Solicitors) </span><span style="font-size:11pt">for the </span><span style="font-weight:bold;font-size:11pt">4th Respondent</span></p>
+      <p style="text-align:center"><span style="font-size:11pt">Hearing dates: 12</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> -14</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt">, 19</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> and 21st March 2014</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Judgment</p>
+      <p><span style="font-weight:bold">Mrs Justice Theis DBE:</span></p>
+      <p><span/><span style="font-weight:bold">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This matter concerns X born in August 2011, now 2 years 7 months. X&#8217;s mother is AB and father CD. I will hereafter refer to them as the mother and father. They are respectively 21 and 20.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Surrey County Council (the local authority) issued care proceedings on 25 March 2013. Apart from the parents the other parties to the proceedings are EF, (who I will hereafter refer to as the paternal grandmother), and X through his Children&#8217;s Guardian, Julie Coote.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This case was listed for an eight day hearing commencing on 12 March 2014. On the third day following completion of the oral evidence from the allocated social worker, Ms Horrox, the parties were able to reach broad agreement on X&#8217;s future care. The only matter they have not been able to agree is the fine detail of the legal framework going forward, although all parties accept the case requires consideration by the court in about six months time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I fully appreciate that this has been an extremely difficult decision for these two young parents. They understandably want to care for X full time but now realistically recognise that cannot happen. They have been supported in that decision by the paternal grandmother, who will be able to support the parents seeing X when he visits her home. Both the parents and the paternal grandmother have a good working relationship with Mr and Mrs SG and they will all need proper support in place to help ensure that remains an effective working relationship to benefit X.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">What has been agreed is that X should remain in the care of his current carers Mr and Mrs SG who have been his foster carers since May 2012. It is agreed that should be under a special guardianship order (SGO) in favour of Mr and Mrs SG. The local authority have filed a revised care plan which provides for more comprehensive contact between X and his birth family, leading to a regime of overnight contact based at the paternal grandmother&#8217;s home. That is agreed in principle, although there may still be some revision regarding the final detail and the support in place for the parents when I give this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Following the agreement reached between the parties the local authority have filed a further statement from Ms Grindon Assistant Team Manager (ATM) and the revised care plan already referred to.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">All parties have filed comprehensive written closing submissions which it was agreed would address the legal framework and issues regarding the actions of the local authority. The paternal grandmother records in her document that she is comforted by the fact that <span style="font-style:italic">&#8216;we fought off adoption, suitable contacts arrangements are being made and that the Mr and Mrs SG are able to offer a loving secure home&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Although agreement has been reached I have been asked to give a judgment. The parents and paternal grandmother feel, in particular, the actions of the local authority in this case should be in the public domain in the hope that lessons can be learnt and other families in similar situations will not have the same experience they have had. I recognise that I have only heard from the allocated social worker however most of the concerns expressed occurred during the period of time she was allocated.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">Brief History</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">X has complex health needs. He was born with hypertonia, suffers from a visual impairment Peters Anomaly Type 1/Anterior Dysgenesis Anomoly, has significant motor delay, scoliosis of the spine and suffers from digestive difficulties. As a result of these health difficulties he requires a standard of care that enables his particular health needs to be met. Such care includes 24 hour postural support, careful monitoring of his diet and significant care when feeding and essential auditory and tactile stimulation to ensure his emotional needs are met and to compensate for his loss of other senses. He has been placed with foster carers since May 2012 under a section 20 agreement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">His parents have their own health difficulties. His mother has cerebral palsy involving weakness in one arm and both legs and a possible mild learning disability. The father was diagnosed as a child with ADHD and is said to have Asperger-like symptoms, although there is no formal diagnosis.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">One of the central issues in this case has been the adequacy of the assessments of the parents as to their capacity to care for X. Put simply the parent&#8217;s case was that the local authority comprehensively failed in their duties to support X&#8217;s continued placement with his parents. It is submitted there has been an unfair process resulting in a catalogue of missed opportunities and inadequate assessments, which have resulted in the parents now being at a significant disadvantage in putting themselves forward to care for X. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The local authority acknowledges some of their procedures and assessments have  been inadequate, but submit the basic factual background has not changed. This is a  young boy who needs exceptional care due to his particular needs and the combination of the parent&#8217;s volatile relationship and the father&#8217;s inability to provide emotional care for this young boy mean his parents were unable to provide the care he needed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">X has been placed with foster carers, Mr and Mrs SG, since 16 May 2012. He has never been the subject of any interim orders and has remained with foster carers throughout under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Prior to that he was in the care of his parents, initially together until X was admitted to hospital on 17 March 2012 due to poor weight gain. During that admission the mother said she had separated from the father and she went to live with X at her parents&#8217; home. Following the discovery of pornographic material being accessed by the mother&#8217;s brother in the family home X was placed with foster carers, Mr and Mrs SG, with the consent of the parents under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The local authority first received a referral from the hospital on 23 March 2012 regarding X&#8217;s poor weight gain. A Strategy Meeting was convened on 30 March 2012 and X was discharged to the maternal grandparents&#8217; home with the mother on 4 April 2012. She said she had separated from the father.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">An initial child protection conference was held on 13 April 2012 and X was placed on a child protection plan under the category of neglect.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">At that time the allocated social worker was Kim Perrin. A core assessment was started on 23 March 2012 and completed on 25 April 2012. Curiously the core assessment under <span style="font-style:italic">&#8220;Agencies contributing to core assessment&#8221;</span> records <span style="font-style:italic">&#8220;No Key Agencies identified&#8221;.</span> Under the section asking whether there were any disability or communication issues for the child or parents are to be recorded the box is left blank. This is despite it then being known about some of X&#8217;s health difficulties and the body of the assessment refers to his <span style="font-style:italic">&#8216;global delay&#8217;</span>, the mother having cerebral palsy and learning difficulties and the father Aspergers. The assessment also records in relation to the mother that she was <span style="font-style:italic">&#8216;unable to use public transport due her physical disability&#8217;. </span>The assessment goes on to record under parents&#8217; views <span style="font-style:italic">&#8216;[the parents] do not believe that their difficulties will impede on their capacity to care for or meet their son&#8217;s needs and their wish for him to be returned to their care in the very near future&#8217;.</span>  The parents are recorded as not agreeing with the local authority&#8217;s recommendation that X be made the subject of a child protection plan, however it goes on to record that both parents <span style="font-style:italic">&#8216;are keen to work with all agencies so that they will be able to care for their son&#8217;.</span> In the decision section the <span style="font-style:italic">&#8216;No further action&#8217;</span> box was ticked.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This was not a promising start. On the face of the document it seems incomprehensible that the core assessment failed to identify the disabilities and communication difficulties that were obvious on the face of the assessment. Of the &#8216;tick box&#8217; decision options there was included <span style="font-style:italic">&#8216;specialist assessment&#8217;</span> and <span style="font-style:italic">&#8216;referral to other agency&#8217;</span> yet despite identifying difficulties which required further assessment and the parents expressing their willingness to work with agencies no further action was taken. It is suggested that this was one of the first lost opportunities to support the parents in their wish to care for X. I agree.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">There was a core group meeting on 27 April 2012 attended by the parents, maternal grandparents, allocated social worker Ms Perrin, the ATM Mr Taljaard, Ms Livingstone the health visitor and Ms Murdoch (described as other social care staff). The minutes dated 8 June 2012 (some six weeks later) record <span style="font-style:italic">&#8216;a residential unit for AB and X was discussed with AB stating that she is not keen for this to happen as this would put further stress on [the parents] as a couple&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">At this time X remained in the care of the mother in the maternal grandparents&#8217; home. After the parents reported the mother&#8217;s brother&#8217;s use of pornographic sites X was placed with foster carers pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 20</ref>. There is no evidence of what, if any, other options within the wider family were explored to enable X to remain being cared for by his mother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Ms Kim Horrox became the allocated social worker on 29 June 2012. She took over from Claire Stevens. Garth Taljaard was the ATM and remained so until Ms Grindon took over in January 2013, she remains the ATM to date<span style="font-weight:bold">.</span> Ms Horrox qualified in 2011 although she had some previous social work related experience. This was her first case that resulted in care proceedings. By this stage X had been with the foster carers for six weeks. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Ms Horrox was clear in oral evidence that at the handover meeting in June 2012 she was informed that a residential assessment had been refused by the mother and was not being further explored. However, this is not consistent with other documents at the same time which seemed to indicate this issue was being actively pursued. There is a record of a discussion with the mother on 15 May 2012 in which she says she would rather go to a mother and baby foster home or residential unit than go back to her parents&#8217; home for further assessment. A letter from the paediatric dietician to the consultant paediatrician on 24 May records that the mother was &#8216;<span style="font-style:italic">awaiting a mother and baby placement in foster care for her and X&#8217;</span>, it was mentioned as being the preferred plan in a meeting with the safeguarding nurse Mel Baxendale on 29 May 2012 and on 22 June 2012 there is an email from Mr Taljaard ATM after the review CP conference stating that the team manager and area manager have agreed a care plan that allows mother and baby to be placed in an appropriate residential unit for further assessment. This is said to be a further lost opportunity, I agree.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">On 6 June 2012 there was a LAC Review and a review CP conference on 22 June 2012. A further core group meeting was not arranged until August 2012. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Ms Horrox stated that on taking the case over she wished to conduct her own assessment of the parents and make her own judgment. She met with the parents on 3 July and on 17 July a youth support worker informed Ms Horrox that the mother was declining support from adult services. Ms Horrox accepted in oral evidence that she should have been more creative in helping the mother access appropriate support.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Legal planning meetings took place on 4 July 2012 and 22 August 2012.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">There was a further core group meeting on 4 October 2012 and on 9 November 2012 the LA issued letters of intent stating they intend to issue care proceedings. The mother attended the public law outline (PLO) meeting alone on 23 November 2012 and did not take up the offer of legal advice. The father was unwell and following two further failed PLO meetings the father attended one in January 2013.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The police attended the parents&#8217; home on 4 December following reports by neighbours of an argument. The mother accepts they had a heated argument.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">On 12 December the mother reports to the social worker the father had assaulted her in the face and they had separated. This incident has since been played down by the parents and it has subsequently been described by them as an accident. The parents were reconciled by 20 December 2012.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In February/March 2013 there was a referral by Ms Horrox to the adult services team for an assessment to be conducted as the parents were said now to be consenting to such an assessment. It is accepted by Ms Horrox that this referral was not accepted by the relevant team until 23 September 2013 some 7 months later. Ms Horrox said in evidence that having made the referral she chased it three times and on the third time was told it needed to be sent to the &#8216;transition team&#8217;, that required a different referral form which she completed and sent. That was apparently deleted by mistake, once that was discovered a further referral was sent and then, finally, it was <span style="font-style:italic">&#8216;actioned&#8217;</span>. I agree this was another lost opportunity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The care proceedings were issued on 25 March 2013, 10 months after X had been placed with foster carers and over 4 &#189; months after the local authority issued letters of intent to the parents informing them of their intention to issue proceedings. Ms Horrox frankly accepted in evidence this delay was unacceptable, she acknowledged it was her first case where care proceedings had been issued and had been a <span style="font-style:italic">&#8216;steep learning curve for her&#8217;.</span> She agreed with Ms Jenkins on behalf of the father that it was not fair the parents were at the bottom of this learning curve she said <span style="font-style:italic">&#8216;I apologise for it being at the expense of this family&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Despite the volume of material in this case and the length of the social work statements there is little, if any, evidence of effective supervision of Ms Horrox between June 2012 and September 2013. If there had been it would have been expected such unacceptable delays would have been picked up and effectively managed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The local authority care plan at the time the proceedings were started was, in reality, adoption, although Ms Horrox said she kept an open mind. The discussions she had had with the mother at the PLO meeting in November was in the context of long term placement with Mr and Mrs SG, either under a care order, adoption or SGO. In her evidence Ms Horrox kept talking about <span style="font-style:italic">&#8216;parallel planning&#8217;</span> but there was no evidence of any effective parallel assessment of the parents&#8217; ability to care for X at the same time as investigating alternatives in the care of the local authority. That is what parallel planning means. It is right the mother is recorded at the meeting in November as effectively supporting the long term placement of X with Mr and Mrs SG but that was without legal advice and in circumstances where there was no evidence of any alternative involving X being cared for by his family being actively discussed at that time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Following transfer of the proceedings to the County Court the first effective hearing was not until 13 August. HHJ Cushing case managed the four significant hearings between then and 17 October 2013 when the deficits in the assessments undertaken by the local authority became clear. In essence a parenting assessment had been undertaken by Ms Horrox without the benefit of any assessment from adult services, and the subsequent assessment by adult services was accepted by the local authority to be inadequate. The care plan filed by the local authority on 6 September sought care orders and placement orders with contact with the birth family 4 times a year and made no mention of any outstanding assessments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">The Professionals Meeting convened on 2 October 2013 was, unfortunately, not a good example of how such a meeting should be structured. The minutes record at the beginning the 8 questions that were described as the purpose of the meeting, which included such matters as what are the identified needs of the Mother and Father, now and in the foreseeable future? What services are required to meet those needs? How can those serves be provided? What services are therefore required to allow the parents to meet X&#8217;s needs? This is followed by 9 pages of typed notes of the discussion with a record at the end as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-style:italic">Meeting confirmed that</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic">1)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.95in;text-indent:0.05in"><span style="font-style:italic">X&#8217;s needs are such that he needs consistent care</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">2)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.95in;text-indent:0.05in"><span style="font-style:italic">CWD will not offer a service</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">3)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.95in;text-indent:0.05in"><span style="font-style:italic">SSD to arrange another TAC meeting (team around the child)</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In her evidence Ms Horrox agreed with Ms Wiley, on behalf of the mother, that this meeting did not answer the questions at the beginning, although it is clear from the record of the meeting that both the CWD team and the AWD team informed the meeting that they could only do assessments of the parents if X returned home, which seemed an unnecessarily unhelpful and rigid position to take. This was another lost opportunity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Although the matter remained listed for final hearing in the County Court on 11 November for five days on 17 October 2013 HHJ Cushing transferred the matter to the High Court to determine what further directions were required as active consideration was being given by the parents to issue judicial review proceedings regarding the alleged failure of the local authority to undertake the necessary assessments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The matter came before Mostyn J on 22 October 2013. He transferred the case to the High Court and the order provides for further comprehensive community assessments to be conducted with a recital recording that &#8216;<span style="font-style:italic">the court indicating that there should be an independent element to the assessment and that if a different person from both the Children with Disability Team and the Adult Team undertake the assessment, this would constitute that independent element&#8217;</span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">A 6 week community based assessment plan was devised at the end of October which included the children with CWD and AWD teams. The assessments were completed in early December 2013 and involved nearly 100 hours of observed assessment by the various teams. The matter came before me on 18 December. I made directions leading to the final hearing on 12 March 2014. It transpired that Ms Gomesz carried out one of the assessments. She had been part of the earlier assessments, this was not made clear by the local authority in the evidence they filed. When the Children&#8217;s Guardian made enquiries she was informed there was no one else available and, in any event, it was too late to do anything about it. Whilst there is no criticism of the work undertaken by Ms Gomesz it was not what was intended by the order made by Mostyn J.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I gave permission to the Respondents to instruct Heloise Dove, an independent social worker with particular expertise in cases where the parents and/or the child had disabilities and the provision of services in those circumstances. She reported on 2 February and whilst she was critical of the failure of the local authority to conduct the relevant assessments much earlier she considered the recent 6 week assessment to be comprehensive, she did not recommend any further work and she agreed with the recommendations of the assessments that the parents were not able to care for X.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The matter was listed before me for an IRH on 12 February and following tentative proposals made by the paternal grandmother and the Children&#8217;s Guardian about the possibility of a regime of shared care the parties convened a meeting on 4 March to discuss these proposals. Unfortunately agreement was not possible at that meeting.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">At the start of the final hearing the local authority sought an SGO in favour of Mr and Mrs SG, a supervision order with fortnightly visiting contact with the birth family. The parents did not accept the threshold criteria were met on the evidence. Ms Wiley even went so far to say the proceedings had been brought unlawfully, but did not pursue that submission as a preliminary point. They sought the return of X to their care. The Guardian supported the plan of the local authority, but sought a care order due to her concerns about the history and the need for someone to have overall control. She considered the contact should be more than that set out by the local authority and proposed a plan that involved a programme of contact building up to staying contact at the paternal grandmother&#8217;s home.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The paternal grandmother is a party but is not legally represented. Although she was not involved in the early stages of the local authority involvement she has taken an active role since late 2012. There were historical difficulties in her relationship with the mother, those seem to have been resolved and her presence in the proceedings has been very helpful. She has put herself forward to care for X if he can&#8217;t be cared for by his parents. She has been the subject of an SGO assessment, which does not recommend placement of X with her. She has sought at all stages to try and find a resolution to this case and has been proactive in considering shared care options. Her involvement in this case has been beneficial to all parties, in particular X.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">On the third day of the final hearing the parties were able to reach agreement that X would remain based with Mr and Mrs SG under an SGO with a plan for extended contact with the family leading up to overnight contact at the paternal grandmother&#8217;s home. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">The document submitted to the court records as follows: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">Upon it being recorded that the Local Authority issued Care Proceedings on 25</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> March 2013 which were ultimately listed for final hearing commencing on 12</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> March 2014 for reasons set out in the judgment of the court</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">And upon the Local Authority within those proceedings asserting that there was sufficient evidence upon which the court could be satisfied that the Threshold for the making of a Public Law Order was crossed and that as a result of those matters there were grounds upon which the court could approve a placement of X away from his birth family; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">And upon the parents not accepting that there was sufficient evidence for Threshold to be crossed </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">And upon the court hearing evidence from the Allocated Social Worker but not from the parents and therefore not being in a position to determine the facts in issue</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">And upon it being accepted therefore that no findings have been made in relation to those disputed facts</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">And upon it being accepted however that there is merit in resolving these proceedings by taking a holistic view in relation to welfare and not therefore requiring to determine issues of Threshold, on the basis that the parents and EF, the paternal grandmother accept that X&#8217;s welfare requires his long term placement to be with his current carers </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">And upon the court indicating it will deliver a judgment, on the basis of the evidence heard, in respect of the actions of the Local Authority in this case</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">And upon it being recorded that the parents accept that as a result of their own disabilities and X&#8217;s particular enhanced care needs arising from his own disabilities they are not able to care for him now or in the future</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">And upon it being recorded that the Local Authority does not pursue findings as a result of the parents&#8217; concession; it being noted that the Local Authority&#8217;s case has not been that the parents&#8217; disabilities are of themselves the reason why proceedings were pursued. The Local Authority however agreeing to withdraw these proceedings on the basis of the agreements reached</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">One of the features of this case all parties are agreed upon is the excellent care Mr and Mrs SG have been able to provide for X. That has never been in issue in this case and despite the difficulties there have been between the parents and the local authority the relationship between the family and Mr and Mrs SG has remained strong and all the evidence points to this remaining the position in the future. It is of note that Mr and Mrs SG attended the meeting on 4 March and the minutes of that meeting record the effective working relationship they have established. At that meeting the mother, in particular, recognised that X&#8217;s 24 hour 7 day a week care was better carried out by Mr and Mrs SG. She acknowledged she found it hard to say that and ideally she would like to care for X for shorter periods. She said she thought it was best for everyone to work together for X.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I am informed by Mr Norton for the local authority that Mr and Mrs SG have been kept informed of developments during this hearing and the local authority have funded legal advice for them. He reports they are content with what is proposed by the parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Whilst the parties have reached agreement the court has to independently consider whether the arrangements that have been agreed are consistent with X&#8217;s welfare needs, bearing in mind his welfare is the court&#8217;s paramount consideration. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I am satisfied the agreement reached in this case does meet X&#8217;s welfare needs. Whilst it will never be known if the correct assessments of the parents had been undertaken earlier, as they should have been, whether the parents would have been in a position to care for X the reality is now the comprehensive assessments undertaken since are united in their conclusions that the parents would not be able to care full time for X, even with extensive support being provided. Those assessments have been subject to the critical eyes of two independent people. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">First by Ms Dove, who has conducted an extremely impressive detailed analysis of the assessments undertaken by the local authority. She is in my view rightly critical of the delays and the earlier assessments undertaken by the local authority, but regards the later assessments conducted at the end of last year as being comprehensive, does not consider any further assessment needs to be undertaken and she agrees with the conclusions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Second by Ms Coote, the Children&#8217;s Guardian. Her reports are a model of their kind. They each provide a detailed comprehensive analysis of the position, she has closely scrutinised the local authority records and, when justified, has taken a very strong line about what she regarded as the failings in the previous assessments undertaken by the local authority. She has very much been the independent voice for X in these proceedings, which has been invaluable to the court and the parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I am satisfied that X&#8217;s welfare needs require there to be some certainty about his future care and I agree that an SGO in favour of Mr and Mrs SG will provide that stability and they will have parental responsibility to make decisions regarding X. The support package to underpin the SGO is comprehensive, agreed by all parties and Mr and Mrs SG and I endorse it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The revised care plan dated 18 March 2014 sets out the changes to the regime of contact between X and his parents and paternal grandmother. They are agreed in principle and I will hear submissions as to any revisions to the plan when I give this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The Children&#8217;s Guardian highlights in her closing submissions matters that may require further discussion. Are the parents and paternal grandmother invited to attend the team around the child meetings? How the local authority plan to fund the couple counselling and the involvement of a support worker from the National Autistic Society&#8217;s Outreach Service? When the case will be transferred to the CWD team? To what extent Mr and Mrs SG should be directly involved in the proposed contact?</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">The Legal Framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">It is agreed the court has power, of its own motion, to make an SGO within family proceedings (<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/14" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 14</ref>A (6) (b) <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I have set out above why I consider such an order meets the welfare needs of X.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Explicit in the agreement reached between the parties is the local authority does not pursue the findings on the threshold criteria and seek the leave of the court to withdraw the care proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">It is accepted that due to the unusual circumstances of this case and the history of these proceedings the matter should come back before me for a further hearing in six months time, with the expectation that the court will conclude any ongoing proceedings. It is quite clearly agreed that the purpose of that hearing is not to be treated either as an adjournment of this hearing or a wholesale review of X&#8217;s care arrangements as those have been settled by the agreement of the parties and the orders made today.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The legal structure within which such a hearing can take place is not agreed. The local authority submits the court can make an interim supervision order. The relatively low evidential threshold for such an order is, they submit, established and there is sufficient evidence to demonstrate that there are reasonable grounds for believing the threshold criteria are met. They must implicitly acknowledge within that submission that at the next hearing they will be seeking permission to withdraw the care proceedings as they do not pursue final findings on the evidence which they say underpin the threshold criteria.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The parents seek to invoke the court&#8217;s inherent jurisdiction in the unusual circumstances of this case. They rely in particular on the decision of Hedley J in <span style="font-style:italic">Re K (Children) [2012] EWHC LS09C05566</span> where after extensive negotiations between the local authority and the parents agreement was reached on the care arrangements for the five children who, like here, had not been the subject of any interim orders. The local authority sought permission to withdraw the care proceedings and the parties agreed that making the children wards of court provided a time limited legal structure which was commensurate with the welfare needs of the children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">As Hedley J observed context is everything. In that case, as in this one, the local authority are going to be involved with the family for many years with both parents and X and conflict, battles over control and legal status are luxuries X cannot afford. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">An essential ingredient of the agreement the parties have been able to reach is that it hopefully provides a secure foundation for them to work effectively together and with Mr and Mrs SG in the future, as they will need to for the benefit of X.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">What is being sought by the parties is for the court to retain a welfare oversight for a short period of time to assist the parties, if required, to deal with issues concerning the welfare of X. In particular to provide a legal framework which kept all parties on equal terms and did not undermine the morale of the parents and made both the parents and the local authority accountable to the court for the maintenance of a proper working relationship.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I am, of course, constrained by <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40/section/100" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 100</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref> which prevents the court from using the inherent jurisdiction to compel parents to relinquish parental responsibility to a local authority. Here there is agreement about where X should reside and the local authority seek permission to withdraw the care proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Having considered the position I have reached the clear conclusion that in the very unusual circumstances of this case, and particularly because of the history, the court should accede to the request by the local authority to withdraw the care proceedings and invite one of the parties to issue proceedings under the inherent jurisdiction with the other parties to the care proceedings being joined as parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">I have reached this conclusion for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.38in;text-indent:0.12in">The agreement reached by the parties was on the basis that the local authority does not pursue its findings regarding the threshold criteria and seeks leave to withdraw the care proceedings. It would be inconsistent with the letter and the spirit of that agreement, if the court went on to make findings, albeit on the lower level necessary to found an interim supervision order. The risk with that course is that it may hinder the future good working relationship between the parties which is not in X&#8217;s best interests. Particularly as there is going to be a change of team.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.38in;text-indent:0.12in">I am satisfied that the withdrawal of the care proceedings is consistent with X&#8217;s welfare. In the light of the agreement reached between the parties it would be wrong to require a trial on the threshold issues in this case. The parents accept X will be cared long term by Mr and Mrs SG under an SGO and they accept the revised care plan put forward by the LA regarding their contact. There would be no demonstrable welfare purpose in such a contested hearing. On the contrary I consider such a trial would seriously risk the positive steps made by the parties in reaching agreement. Having said that I am certainly not prepared to say on a summary basis that threshold could not have been made out in this case. As I indicated in argument, Ms Wiley&#8217;s submission at the start of this hearing that the proceedings were unlawful was ambitious and was wisely not pursued. I did not hear all the evidence and whilst it looked like the issues concerning missed medical appointments and failure to provide breakfast on one occasion during the assessment did not stand up to forensic scrutiny there were other issues, such as the parents&#8217; relationship and the emotional care of X that would, if necessary, have required detailed consideration by the court as to whether the threshold criteria was met.   </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.38in;text-indent:0.12in">X&#8217;s welfare requires the parties in this case to look forward. I consider that has the best chance of succeeding if the care proceedings are withdrawn at this stage, rather than lingering on in the way suggested which may hamper the parties on the ground being able to move forward with a proper working relationship, which is what X&#8217;s welfare demands.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.38in;text-indent:0.12in">I have been informed by the parties that there are no procedural or funding obstacles in the way of the same parties being re-constituted within different proceedings. This step will not cause delay. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span/><span style="font-weight:bold">The actions of the local authority</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The parents submit much of the difficulty in this case has been caused by the action, or inaction, of this local authority. In both their opening and closing submissions they are deeply critical of the behaviour of the local authority. The focus of their criticism is the inadequacy of the initial assessments, the unacceptable delays and the closing of minds at an early stage to considering ways X could be restored to the care of his parents or birth family. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">They are supported, in part, by the closing submissions on behalf of the Children&#8217;s Guardian and the comprehensive overview assessment undertaken by Ms Dove.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Mr Norton, on behalf of the local authority, frankly acknowledges some of the criticism made of the local authority but cautions the court on what it says as the court has not had the benefit of hearing all the evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I am acutely aware that I have not heard all the evidence and bear that fact very much in mind when I make the observations I have set out below. I am also aware that the mother, in particular, has on occasions struggled with the decision as to what is best for X. That is wholly understandable in the situation she found herself in. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I have read the extensive material that is available in the court bundles and have had the benefit of hearing Ms Horrox, the allocated social worker for the last 21 months give oral evidence. She candidly admitted that this was her first case where care proceedings were issued, it was an extremely complex case, it was a steep learning curve and she acknowledged that the parents were unfairly at the bottom of that learning curve. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In the light of the material I have read and the oral evidence of Ms Horrox it is right for the court to record the following concerns about the actions of this local authority under four main headings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num>(1)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold">Delay generally and, in particular, in issuing proceedings</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">Some of the delays in this case have been wholly unacceptable. There are three specific examples that illustrate the point:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.38in;text-indent:0.12in">X was placed with foster carers in May 2012, care proceedings were not issued until March 2013 some 10 months later. The fact of that delay put the parents in an increasingly difficult position to seek to restore X to their care, as there was no structure to the period of time prior to the issue of proceedings and they did not have effective access to legal advice. To rely, as Ms Horrox did in her evidence, on the fact that they did not take up the offer of legal advice at the PLO meetings misses the point;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.38in;text-indent:0.12in">The decision to take care proceedings appears to have been made prior to November 2012 yet the proceedings were not issued until some 5 months later. Again leaving the parents in limbo with the local authority, in effect, recommending permanent removal of X from his parents care by way of adoption but the parents not being within the structure of legal proceedings to challenge that was unfair. I appreciate the mother at the November PLO meeting appeared to be endorsing the plan of the local authority, but that was without the benefit of independent legal advice and was perhaps illustrative of the internal struggle she has had about where X&#8217;s best interests lay.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.38in;text-indent:0.12in">The delay in the referral to adult services from February/March to September 2013 was unacceptable. It was caused by a catalogue of errors, a lack of effective co-ordination and structure between teams that should be effectively working together. There appeared to be no system in place to chase up referrals.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num>(2)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold">Ineffective supervision, planning or co-ordination</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">This concern applies in almost every aspect of this case up until late October 2013. There appears to have been a chronic lack of effective supervision of the allocated social worker who was inexperienced and dealing with a complex case. I agree with the observations made by Ms Dove about the lack of effective multi agency planning which should have been in place immediately after the initial core assessment in April 2012. Again three examples well illustrate this area of concern:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.38in;text-indent:0.12in">The initial core assessment dated 25 April 2012 is on the face of it flawed. It details the disabilities both X and the parents have, yet fails to record that in the relevant box which specifically addresses that issue. It records the parents willingness to work with all agencies so that they will be able to care for their son and then in the decision section ignores the options that would flag up further assessment or referral to other agencies and just ticks the &#8216;no further action box&#8217;. There is no evidence these inconsistencies were picked up in any subsequent discussions with the ATM or in any of the meetings. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.38in;text-indent:0.12in">When Ms Horrox took over the case she was clear in her evidence that at the handover a residential assessment was no longer being pursued as the mother did not agree. However other contemporaneous documents, one just a few days before she took over from the ATM is reported to state <span style="font-style:italic">&#8216;the team manager and area manager have agreed a care plan that allows the mother and baby to be placed in an appropriate residential unit for further assessment&#8217;</span> and a letter in May refers to the mother waiting to hear about a residential assessment<span style="font-style:italic">.</span> It is deeply concerning that there appeared to be such a deep level of miscommunication on such a fundamental issue by two of the key social work professionals managing the case.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.38in;text-indent:0.12in">The failure to pick up in supervision (i) there had been no referral to adult services or when there was the delay of six months; (ii) to consider getting advice about how to more effectively communicate with the father; (iii) what further steps could be taken to engage the parents with support services; (iv) filing a care plan seeking adoption when a key referral to the adult disability team was still outstanding (which is not referred to in the Care Plan dated 6 September 2013 or the parenting assessment dated 17 July 2013)</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-weight:bold">(3)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold">Not keeping an open mind about placement </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">There is a thread of evidence which points towards the local authority making up their mind at a very early stage that X could not be restored to his parent&#8217;s care and that, in reality, the options were either adoption or an SGO with his current carers. Whilst Ms Horrox said she retained an open mind, from the parent&#8217;s perspective that may not have been readily apparent to them. There is no evidence of a structure as to how that position was reached and an analysis of the options, with the advantages and disadvantages being properly weighed up and considering what support could be available for the parents. From the parent&#8217;s perspective it may have seemed an unfair process.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-weight:bold">(4)</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in;text-indent:0.25in"><span style="font-weight:bold">Content of the statements filed on behalf of the local authority</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The social work statements were far too long and, in part, unfocussed and there was a lack of balance regarding their content. For example, it was extremely difficult to find the core relevant material that underpinned the threshold criteria. There were pages of generalisations which lacked any real evidential value. The lack of balance in the way some of the information in the statement was presented is illustrated by the reference in Ms Horrox&#8217;s statement referring to the police being called by the neighbours in early December as the parents were reported to be arguing. The statement records the mother being <span style="font-style:italic">&#8216;dishevelled&#8217;</span> is not in the referral from the police, which is the only source of the information. Also, what the statement does not record, which is in the referral document sent by the police to the local authority, is the particular neighbours who alerted the police had been previously arrested for wasting police time for making such calls.<span style="font-weight:bold"/>That could have been an important context that should have been set out and addressed, not just left out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Another matter that arose in the oral evidence was comments made by the mother in July 2013 regarding her concerns about the paternal grandmother. Whilst those comments were referred to in general terms in the written material the detail only came out under cross examination by Ms Stone on behalf of the Children&#8217;s Guardian. Ms Horrox&#8217;s instincts were correct that information should have been recorded and disclosed. She was understandably concerned about the management of when it was disclosed, but appeared to be awaiting authorisation from some unspecified person to disclose it. It is right to record that the Court has made no findings about the concerns raised by the mother and no party has suggested that those concerns affect the paternal grandmother&#8217;s ability to care for X in the future during periods of contact.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_77">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">This case has not had a happy history. I was told by Ms Horrox that lessons have been learned. The statement filed by Ms Grindon after the parties reached agreement sets out what steps the local authority have taken. I am afraid its content and tone does not fill the court with confidence. I hope I will be able to record a postscript to this judgment that will address some of the issues I have raised below.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">78.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">At paragraphs 4 and 5 she states </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">4.</num>
+	    <content>
+	      <p style="margin-left:0.75in;text-indent:0.25in"><span style="font-style:italic">The local authority has considered, carefully the way this case has progressed over the past two years and accepts that there have been some important lessons learnt. As a result, action has been taken to try and address the criticisms levelled at the local authority.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">5.</num>
+	    <content>
+	      <p style="margin-left:0.75in;text-indent:0.25in"><span style="font-style:italic">In line with the Family Justice Review a comprehensive flow chart regarding the process for a multi-agency approach has been developed. This highlights the importance of an early referral to CWD team and Adult services, where there are concerns about complex needs. I refer the court to exhibit SG1, attached </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Ms Grindon attaches to the statement a hard copy of an electronic checklist that provides a structure and checklist to decisions that need to be made pre proceedings. It has &#8216;draft&#8217; written across it. There is no indication in Ms Grindon&#8217;s statement as to when it is going to be implemented. In the section entitled &#8216;Prior to Legal Planning Meeting&#8217; it states in one of the bullet points <span style="font-style:italic">&#8216;Any disability, need to refer to adult services or CWD at this point&#8217;</span>. It is difficult to see how that is going to avoid what happened in this case.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">At paragraph 6 Ms Grindon refers to the mother not agreeing to the referral being made to adult services. It remains unclear which period Ms Grindon is referring to. There is evidence (such as the initial core assessment) that this was not the case, it was denied by the mother and I have seen no record of any active review of that position. Ms Horrox accepted that there could have been more creative thinking about encouraging or assisting the mother to access such support services.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Ms Grindon&#8217;s reliance on the fact the parents did not take up legal advice for the PLO meetings is unhelpful. On one analysis it should make the local authority more anxious to ensure there is no further delay by issuing proceedings promptly, particularly when the local authority plan was, in reality, adoption.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The court is acutely aware hard choices have to be made about limited resources but the structural failures in this case, particularly at the early stages, to properly assess the parent&#8217;s ability to be able to care for X has caused enormous delay in decisions being made about X&#8217;s future care.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">I should make it clear whilst Ms Horrox has been the person giving evidence and been at the front line, I am satisfied on the information I have seen that the faults appear to be primarily systemic faults within the structure of the local authority. It was Ms Horrox first case where proceedings had been issued. She accepted there were delays in the disability assessments, delays in completing the relevant documentation for care proceedings. Those and other delays should have been picked up by those with responsibility for supervising her much earlier. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">Postscript</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_83">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Having circulated the draft judgment in advance of today&#8217;s hearing the local authority has promptly responded to the matters raised, through a document submitted by Mr Norton. That document repeats the apology given to the parents and paternal grandmother for them being at the bottom of the &#8220;learning curve&#8221; for the allocated social worker.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">84.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">The document prepared by Mr Norton provides the following information:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.83in">(1)</num>
+	    <content>
+	      <p style="margin-left:0.83in;text-indent:0.38in">The local authority is now more astute to the interplay between CWD, Adult and Child Protection teams. The document attached to Ms Grindon&#8217;s statement is intended as a visual and electronic aid to ensure the appropriate referrals are in place, it is intended to act as a further reminder of the practice that must be followed. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.83in">(2)</num>
+	    <content>
+	      <p style="margin-left:0.83in;text-indent:0.38in">I am informed that following the difficulties in this case there has been close liaison between the child protection team and the CWD and Adult teams so that all managers are aware of the need for comprehensive assessments and that the errors in this case of, for example, the earlier Adult assessment (which only considered the parents in their then current positions) are not repeated.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.83in">(3)</num>
+	    <content>
+	      <p style="margin-left:0.83in;text-indent:0.38in">The presentation of the Family Justice Review process is being presented to the senior management team next Thursday 27 March 2014. The local authority stress that the reference to draft relates to the tool itself and that the actual processes and the need for a coordinated approach are already in practice within Surrey.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.83in">(4)</num>
+	    <content>
+	      <p style="margin-left:0.83in;text-indent:0.38in">The delay of 5 months in this case between the PLO meeting and issuing proceedings is exceptional to this case and is not standard practice within Surrey.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.83in">(5)</num>
+	    <content>
+	      <p style="margin-left:0.83in;text-indent:0.38in">The legal department within Surrey has been made aware of the matters raised in paragraph 80 that the fact that a parent does not take up legal advice at the pre proceedings meeting may be a factor to take into account in ensuring proceedings are issued promptly.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.83in">(6)</num>
+	    <content>
+	      <p style="margin-left:0.83in;text-indent:0.38in">The observations in the judgment in relation to being more creative about encouraging parents to access adult services will be relayed to the social work teams as a learning tool. As Ms Stone said in the closing submissions on behalf of the Children&#8217;s Guardian <span style="font-style:italic">&#8216;..more imaginative approaches could and should have been employed to try and encourage the parents to access adult services.&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">85.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">At the hearing today Mr Norton was able to confirm that the draft judgment has been seen by Ms Budden, Head of Service at the local authority. Following his discussion with Ms Budden he informed the court that the local authority are undertaking a wholesale review looking at the PLO process and tracking of cases to ensure there are no systemic failures. This includes safeguarding officers regularly reviewing existing policies to ensure difficulties encountered are appropriately escalated within the management structure. A programme is also being devised to provide robust support for newly qualified social workers, which is likely to include co-working cases and enhanced supervision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">86.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">As I set out in paragraph 82 above, the Court&#8217;s main concern here were the systemic faults within the local authority which were not the responsibility of the allocated social worker Ms Horrox. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The additional information has been extremely helpful, as has been the constructive approach of the local authority following receipt of the judgment. It has provided the Court with the necessary re-assurance that the systemic failures and missed opportunities in this case will not be repeated.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

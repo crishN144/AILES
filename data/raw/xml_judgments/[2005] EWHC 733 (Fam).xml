@@ -1,0 +1,777 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2005/733"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2005/733"/>
+	  <FRBRdate date="2005-05-04" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="733"/>
+	  <FRBRname value="S v B &amp; Y (A Minor)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2005/733"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2005/733"/>
+	  <FRBRdate date="2005-05-04" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2005/733/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2005/733/data.xml"/>
+	  <FRBRdate date="2024-10-28T06:03:04" name="transform"/>
+	  <FRBRdate date="2024-11-30T12:06:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2005-05-04" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="b" href="" showAs="B"/>
+	<TLCPerson eId="y-a-minor" href="" showAs="&#8216;Y&#8217; (A Minor)"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2005</uk:year>
+	<uk:number>733</uk:number>
+	<uk:cite>[2005] EWHC 733 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>edc6d2a6fd34ce66cca6429cd53ecb089ff6f60fee006820097ddf3ac0917ca1</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaHeading { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText">Case No: <docketNumber>FD05P00298</docketNumber></p>
+      <p class="CoverMain">Neutral Citation Number: <neutralCitation>[2005] EWHC 733 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2005-05-04" refersTo="#judgment">04/05/2005</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center">THE PRESIDENT</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">     Between :</span></p>
+      <table uk:widths="1.45in 3.7in 1.19in">
+	<tr>
+	  <td style="border-style:none">
+	    <p/>
+	  </td>
+	  <td style="border-style:none">
+	    <p style="text-align:center"><span style="font-weight:bold">S</span></p>
+	  </td>
+	  <td style="border-style:none">
+	    <p class="CoverMain" style="text-align:right">Plaintiff</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border-style:none">
+	    <p/>
+	  </td>
+	  <td style="border-style:none">
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td style="border-style:none">
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="border-style:none">
+	    <p/>
+	  </td>
+	  <td style="border-style:none">
+	    <p style="text-align:center"><party as="#defendant" refersTo="#b" style="font-weight:bold">B</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#y-a-minor" style="font-weight:bold">&#8216;Y&#8217; (A Minor)</party></p>
+	    <p/>
+	  </td>
+	  <td style="border-style:none">
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">First Defendant</role></p>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Second Defendant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Charles Howard QC and Mr James Roberts </span>(instructed by<span style="font-weight:bold"> Charles Russell</span>) for the <span style="font-weight:bold">Plaintiff</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">James Turner QC</span> (instructed by <span style="font-weight:bold">Dawson Cornwell</span>) for the <span style="font-weight:bold">First Defendant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Henry Setright QC (</span>instructed by Freemans) for the <span style="font-weight:bold">Second Defendant</span></p>
+      <p style="text-align:center">Hearing dates: 13<span style="vertical-align:super;font-size:smaller">th</span> and 14<span style="vertical-align:super;font-size:smaller">th</span> April 2005 </p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:center">THE PRESIDENT</p>
+	    <p style="text-align:justify">This judgment is being handed down in private on 4<span style="vertical-align:super;font-size:smaller">th</span> May 2005. It consists of 18 pages and has been signed and dated by the judge.  The judge hereby gives leave for it to be reported.</p>
+	    <p style="text-align:justify"> The judgment is being distributed on the strict understanding that in any report no person other than the advocates or the solicitors instructing them (and other persons identified by name in the judgment itself) may be identified by name or location and that in particular the anonymity of the children and the adult members of their family must be strictly preserved.</p>
+	    <p><span style="font-weight:bold">Sir Mark Potter P.:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is an application by a father under the Hague Convention on the Civil Aspects of International Child Abduction 1980 (&#8220;the Convention&#8221;) in relation to his daughter X born in New Zealand in July 2003 and now 20 months old.  The mother is English; the father is a New Zealander.  They are not married.  Their relationship began when the father came to England in 2001.  After a short time, the father returned to New Zealand and the mother joined him there on what was intended to be a settled and permanent basis, having taken with her Y, her 10 year-old son, now aged 13.  When X was born in July 2003, they all lived together as a family in Lyttelton, a suburb of Christchurch, in a pleasant house of which the mother and father were joint legal owners.  By that time the mother&#8217;s parents had also moved to New Zealand.  They lived nearby, are of comfortable means and generously helped the mother and father with the purchase of their home.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Unfortunately, the parties&#8217; relationship did not prove happy.  The mother contends that the father could not commit himself to family life and the relationship was in trouble by the time of X&#8217;s birth.  Separation had already been discussed between them and the father left the family home in October 2003.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The mother became depressed.  The father&#8217;s contact with X was the subject of agreement between them following two sessions of counselling through the Family Court in New Zealand.  However, contact proved somewhat erratic because of difficulties arising from the father&#8217;s occupation as a tour driver.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst living in New Zealand, the mother, by distance learning, completed a Bachelor&#8217;s Degree from London University in Early Childhood Care.  She agreed with the father that she would have a holiday in England taking X and Y with her during his summer school holiday, where she would attend her Graduation Ceremony scheduled for December 2004 returning to New Zealand on 22 December 2004.  Return tickets were purchased for that purpose.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Once in England, the mother&#8217;s depression lifted and she experienced great relief at being home.  At the same time, Y, who is an intelligent child of sensitivity and some maturity, revealed to her how deeply unhappy and isolated he had felt in New Zealand.  He is a child of mixed race.  He had been bullied at his New Zealand school, but had not revealed his own unhappiness to his mother because he did not wish to add to her distressed state.  The mother felt that she had failed him and was herself full of dread at the thought of returning to New Zealand.  She registered Y to attend a school in England and informed the father by telephone of her decision to stay in England with the two children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The father did not accept that decision.  There were strong arguments over the telephone and the mother had her telephone number changed.  She arranged to telephone the father in order for X to have telephone contact with him on a weekly basis.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She made arrangements for the house which she owned and left in New Zealand to be sold.  The father was aware of this and made arrangements to collect items of his from the house which he wanted before it was sold.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 19 January 2005 the father commenced proceedings under the New Zealand Guardianship Amendment Act 1991 for the return of X under the provisions of the Convention and issued an originating summons in this country on 17 February 2005.  At a directions hearing on 17 March 2005, for reasons to which I shall return later, Singer J. ordered that Y be joined as second defendant to the originating summons.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The factual evidence before me consists of an affidavit sworn by the father on 9 February 2005 in support of the proceedings, the affidavit of the mother dated 15 March 2005 and a further affidavit of the father dated 11 April 2005.  In addition, there are two affirmations, the first dated 17 March 2005 and the second dated 13 April 2005 of Nina Lind Hansen, a solicitor acting on behalf of Y.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In those affirmations, Miss Hansen, who is a solicitor highly experienced in proceedings concerning children and is a member of the Law Society&#8217;s Children Panel, sets out Y&#8217;s history, state of mind and strong feelings as recounted by him in some detail.  They confirm his unhappiness in New Zealand, the difficult and unsympathetic relationship which he had with the father, his happy feelings and excellent progress at school here in England and his unwillingness to return to New Zealand if his mother does so.  He has stated that, much as he would regret it, if his mother left with X for New Zealand he would not go as well.  He says that he has friends with whose families he could stay while at school here, and that such is his intention if his mother goes back.  He says that he loves X and would miss her a lot.  He describes how she loves his company and rushes to be with him on his return from school.  He describes his mother&#8217;s depressed state while in New Zealand and how he feels &#8220;very worried&#8221; that this would happen again if she returned.  He states that seeing her as he had seen her in New Zealand really scared him because previously he had always been able to rely on her.  He is worried that if he went to New Zealand with her, this situation would re-occur.  He also states that, though he realises that X could not control the circumstances of her birth, he has felt and would feel anger with her for rendering his mother in a position of trying to force him to return. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no effective dispute between the parties that the evidence establishes a case of wrongful retention under the Convention.  So far as Article 3 and Article 5 are concerned, the affidavit of Miss Harrison as to New Zealand law makes clear, and it is not in dispute, that the mother&#8217;s indication to the father that she would not be returning to New Zealand from her holiday as planned and her subsequent retention of X here, was in breach of the rights of the father under New Zealand law which amounted to rights of custody within the meaning attributed to the concept by English law.  Thus, by Article 12 of the Convention, the court is obliged to order the return of X to New Zealand forthwith unless the mother is able to establish one of the exceptions allowed in Article 12 or Article 13.  There is no applicable exception under Article 12.  The exception relied upon by the mother is that set out in Article 13(b) of the Convention which provides that</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Notwithstanding the provisions of the preceding Article, the judicial or administrative authority of the requested State is not bound to order the return of the child if the person, institution or other body which opposes its return establishes that &#8211;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230;&#8230;&#8230; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">there is a grave risk that his or her return exposes the child to physical or psychological harm or otherwise places the child in an intolerable situation.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I observe in parenthesis that there can be no question of a refusal to return the child the subject of the application on the Article 13(b) ground that she &#8220;objects to being returned&#8221; because clearly X has not &#8220;attained an age and degree of maturity at which it is appropriate to take account of [her] views.&#8221;  As to Y, it is clear that he is of such age and maturity; however, he is not a child in respect of whom the application is made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The case for the mother, shortly put, is this.  It is acknowledged on her behalf that, for the purposes of Article 13(b), the focus is upon the child and not upon herself and that the burden rests upon her to satisfy the court that, if the order is made for X&#8217;s return, there is a grave risk that X will be exposed to physical or psychological harm or otherwise placed in an intolerable situation.  It is not suggested that there is any grave risk of physical or psychological harm to X by reason of the conduct of the father or, indeed, in any direct sense.  What is suggested is that, by reason of Y&#8217;s unwillingness to return to New Zealand, coupled with a grave risk that the mother will suffer a recurrence and deepening of her depression upon her return, X will be exposed to a situation where her primary carer will be rendered incapable or incompetent of giving  her the care she needs and has always provided, in a situation where no satisfactory substitute is available and in which X will be deprived of the beneficial association with Y her half-sibling to whom she is devoted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is of course the position that, if Y is adamant in his refusal to go back to New Zealand and the mother chooses to stay with him i.e. she refuses to return to New Zealand, that <span style="font-style:italic">in itself</span> is not a matter upon which the mother can rely, because, in such a case, it is the refusal of the abducting parent rather than the making of the order for return which would be the cause of the risk of harm: see <span style="font-style:italic">Re C (Minor: Abduction: Rights of Custody Abroad) </span>[1989] 1FLR 403 at 410c.  However, the mother&#8217;s dilemma resulting from the need to choose between, on the one hand the strongly expressed wishes (and indeed the welfare) of Y and on the other hand returning with X to the land where Y was unhappy and the mother became clinically depressed, is relied upon to demonstrate the likelihood that her depression will reassert itself with inevitable detriment to the happiness and care of X, thus placing X in an intolerable situation for the purpose of Article 13(b).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Turner QC for the mother has identified and developed three elements which together contribute to the grave risk that such an intolerable situation will arise.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, the psychological state of the mother.  So far as &#8220;lay&#8221; evidence is concerned, the mother asserts, and in this respect is supported by the evidence of Y, that following X&#8217;s birth, she was distressed and suffered low moods that became worse as time went on.  They did not improve following separation and in April 2004 she was treated and prescribed medication for clinical depression.  Her low mood had an effect upon the children.  She noticed that X was not a very smiley baby and that Y lost his motivation and was unhappy and of low mood.  Unlike his normal character, he appeared to become apathetic and disinterested in life. He was worried and preoccupied and would &#8220;slouch&#8221; along rather that walk and run as a carefree small boy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She and Y became very homesick and she hoped that the trip to England for a holiday would assist.  Upon arrival in England both became immediately more happy and relieved to be &#8220;home&#8221;.  Y soon made clear to her how profoundly unhappy he had been in New Zealand.  He expressed a strong desire to return to school in London and remain amongst his friends and in an English environment where he is less aware of his &#8220;difference&#8221; than in New Zealand.  The events which followed have already been described by me in paragraphs 5 to 7 above.  The mother confirms her agonising dilemma as set out in paragraph 14 above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So far as medical evidence is concerned, there are before the court two short reports from medical practitioners, one as to the state of health of the mother in New Zealand and one as to her situation here.  The first, dated 31 March 2005 is from Dr Chambers of the Lyttelton Heath Centre where the mother and her family were her patients while they lived in Lyttelton.  She states that on 9 February 2003, when X was eight months old and the father had left some four months previously, the mother was feeling stressed with poor sleep.  However the mother had stated that she felt she had good support and did not think she was depressed at that stage.  Unhappily, when the doctor saw her on 8 April 2004 with her father, her symptoms had worsened.  She appeared depressed with disturbed sleep, early morning wakening, low mood, negative thinking, poor concentration, indecisiveness and feeling that everyday tasks required a Herculean effort to achieve.  She was prescribed antidepressants and in-house counselling.  The report then states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;She responded to treatment and by 27<span style="vertical-align:super;font-size:smaller">th</span> April 2004, she was feeling less anxious, sleeping and eating better and feeling clearer mentally.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">She was seen a further 5 times for review and repeat medication.  She continued to improve and returned to being positive, clear headed and enjoying life.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">She was last seen on 18<span style="vertical-align:super;font-size:smaller">th</span> October 2004.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">In regard to your question about the likely effect on her were she to return to New Zealand, I note that on 13 July 2004 she was seen by Dr Perdue (a locum) and he commented that she was quite homesick, missing friends and their support.  This would likely re-occur if she had to come back against her will.  This could well put her at risk of a further episode of depression.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The second report is that of Dr Braunold of the Kilburn Park Medical Centre in London who was doctor to the mother and Y before they left for New Zealand.  Dr Braunold states that the mother came to see her on 29 December in a distressed state.  The doctor was concerned as to her welfare and prescribed antidepressants and in-house counselling at the surgery.  The report states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;She has been getting considerably better but I am very concerned regarding what would be the outcome should her ex-partner regain rights for X, her daughter.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">After referring to the previous unhappiness of Y, the report continues:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;[The mother] has settled well back here and is coping very well looking after X and Y here in the UK.  I have absolutely no doubt that should X be returned to the jurisdiction of New Zealand, [the mother] would have to go back and she would suffer a great deal of stress and anxiety and depression as a result&#8230;&#8230;.  I feel that she would actually become quite vulnerable were X to return to New Zealand and would have grave concerns for her welfare.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In reliance upon that evidence, Mr Turner submits that if the mother were to accompany X on her return, whether with or without Y, her likely emotional/psychological state and the consequences for her child caring abilities would in turn be likely to cause psychological harm or otherwise place X in an intolerable situation.  He relies upon authority to the effect that a depressive condition on the part of a mother upon whom relevant children are physically and emotionally dependant may give rise to an intolerable situation of the kind envisaged by Article 13(b); see <span style="font-style:italic">Re G (Abduction: Psychological Harm) </span>[1995] 1FLR 64, a case in which it was established that three very young children who were clearly both physically and emotionally dependent upon their mother would be at grave risk of exposure to psychological harm in a situation where the judge found that the mother was suffering from a moderately severe reactive depression and in considerable danger of becoming psychotic and that, if she were forced to return to Texas with the children there was not only a risk, but the likelihood, that she would become psychotic.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Turner relies also on the statement of the law by Hale LJ in <span style="font-style:italic">T.B. v J.B (Abduction: Grave Risk of Harm) </span>[2001] 2FLR 515 at para [95]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;It is clear that harm for the purposes of Art. 13 is capable of including harm caused  &#8230;. by  the deterioration in the mother&#8217;s condition and consequently on her ability to care for her children.  The issue as it seem to me is whether [the judge] was correct in his conclusion about the gravity of the risk of such harm.  As I see it, the Convention requires an assessment of the factors relevant to that risk, and an evaluation of the likelihood of  its occurring.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The second factor on which Mr Turner relies is that there will be lack of a proper home in New Zealand for the mother and X (and Y on the assumption that he too returns) because the mother has sold the home in which she and the children were living in New Zealand.  This will create practical problems in respect of the arrangements upon return, the absence of a secure home and the problem of arranging accommodation being likely to aggravate the mother&#8217;s state of anxiety and depression.  In this respect, he relies on the fact that the mother sold the home with the knowledge of the husband after he had become aware that she did not intend to return and that he did not notify her of any Convention proceedings to compel her return until after the sale had become binding.  Thus the mother did not sell with the intention of seeking to frustrate any proceedings for a return.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The third factor upon which Mr Turner relies is the situation concerning Y.  He submits that, if the court were to make an order for the return of X to New Zealand, the mother would be placed in an impossible situation in trying to balance and provide for the needs of her two children, to both of whom she is devoted. He poses the rhetorical question, should she go with X, leaving Y behind; should she stay with Y, sending X back to New Zealand without her primary carer or her brother; or should she seek to force Y to return?  Whichever choice she were forced to make would be likely to lead to a depressive reaction on her part and create an intolerable situation for X.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this respect, Mr Turner relies on the decision in <span style="font-style:italic">B v K (Child Abduction) </span>[1993] 1FCR 382.  In that case the mother wrongfully removed three children of the family from Germany, the two elder children aged nine and seven objecting to their return.  Since they were of an age and maturity at which it was appropriate for the court to take account of their views the court (Johnson J.) exercised its discretion under Article 13 not to order the return of the two elder children because of their objection.  However, the youngest child was too young for the court to take account of his views and there could be no sustainable objection to his return on that ground.  Since the court was satisfied that he would be devastated if separated from the two elder children it was held that he would suffer psychological harm and that he would be placed in an intolerable situation if returned to Germany without them. The court therefore exercised its discretion to refuse an order for return.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In recounting the nature of the mother&#8217;s case and the evidence upon which she relies in support, I have already set out the position of Y whose clear views and wishes are plainly relevant.  Indeed they are the cause of the mother&#8217;s dilemma.  Y having been joined as a party pursuant to the order of Singer J. and being well able by reason of his age, maturity and understanding to take part in these proceedings, I have heard Mr Setright QC on his behalf.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Setright correctly submits that the practical effect upon Y of a successful application for the return of X to New Zealand is obvious and striking.  It will also have an impact on the welfare of X, his half-sibling with whom he has always lived to date.  He seeks to avoid the argument that the dilemma in which the mother has placed herself if a return is ordered is, so far as she is concerned, self-induced by pointing out that Y is blameless in that regard and faces a bleak position in which he will be obliged either to return to New Zealand contrary to his strong objections and his happy situation in England, or be separated from his life-long primary carer mother and a half sister whom he loves and with whom he has lived since she was born.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Setright (in common with Mr Turner) submits that, in this situation the Article 6 and Article 8 rights of Y under the European Convention of Human Rights (ECHR) are engaged.  He points out that, had Y been a subject-party of the proceedings, he could have argued that to make an order which would either result in his unwilling return to New Zealand or sever his relationship with his family would place him in an intolerable situation.   It is a matter of indifference to Y that he is only a half-sibling rather than a full brother to X.  Thus, says Mr Setright, &#8220;the technicality of parentage&#8221; does not alter or reduce the practical adverse effect of the decision of the court on Y, which the Court should strive to avoid.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Setright acknowledges that the decision in <span style="font-style:italic">Re:C (Abduction:Grave Risk of Physical or Psychological Harm) </span>[1999] 2FLR at 478 appears to stand in the way of success for a submission of this kind.  That case bore a considerable similarity to this case, so far as the facts were concerned.  An English mother removed B, a young child of the marriage aged 6 from Cyprus where he was habitually resident without informing the Cypriot father.  She took with her A, a child by a previous relationship who had moved to Cyprus with her when she married the father, living as part of the family.  The father sought the return from England of B under the Convention.  There was evidence from A that, whereas she had been very unhappy in Cyprus, she was now happy and settled in England and would refuse to return to Cyprus.  The mother&#8217;s case was that returning the child to Cyprus would involve splitting the family, thus placing her in the intolerable position of having to choose whether to stay in England with A or go back to Cyprus with B.  The judge concluded that, although the Convention conditions had been made out, the mother had established that, if B were returned he would face grave risk of psychological harm or otherwise be placed in an intolerable situation under Article 13(b) because of the potential splitting of the family and, in her discretion, the judge refused to return the child.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In reversing the decision, the Court of Appeal held that, while the position of A was a relevant consideration, it was wrong to place too much weight on the effects of a child who was not the subject of the Convention.  The consequences of the return on A should not have deflected the court from concentrating on the right of B to have his future decided in the state of his habitual residence.  The mother had to make what arrangements she could for A and, in the situation created by her, make the choice whether she returned to Cyprus with B or not.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In that case, great emphasis was placed upon the fact that the dilemma faced by the mother was self-induced in the sense that it was the arbitrary action of the mother herself which created the possibility of the risk to the child.  Butler-Sloss LJ quoted from her earlier decision in <span style="font-style:italic">Re C (A Minor)(Abduction) </span>[1989] 1FLR 403 at 410D-F:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The grave risk of harm arises not from the return of the child, but from the refusal of the mother to accompany him.  The Convention does not require the court in this country to consider the welfare of the child as paramount, but only to be satisfied as to the grave risk of harm.  I am not satisfied that the child would be placed in an intolerable situation, if the mother refused to go back.  In weighing up the various factors, I must place in the balance and as of the greatest importance the effect of the court refusing the application under the Convention because of the refusal of the mother to return for her own reasons, not for the sake of the child.  Is a parent to create the psychological situation, and then rely upon it?  If the grave risk of psychological harm to a child is to be inflicted by the conduct of the parent who abducted him, then it would be relied upon by every mother of a young child who removed him out of the jurisdiction and refused to return.  It would drive a coach and four through the Convention, at least in respect of  applications relating to young children.  I, for my part, cannot believe that this is in the interests of international relations.  Nor should the mother, by her own actions, succeed in preventing the return of a child who should be living in his own country and deny him contact with his other parent.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court also emphasised:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The established line of authority that the court should require clear and compelling evidence of the grave risk of harm or other intolerability which must be measured as substantial, not trivial, and of a severity which is much more than is inherent in the inevitable disruption, uncertainty and anxiety which follows an unwelcome return to the jurisdiction of the court of habitual residence.&#8221;  (Per Ward LJ in <span style="font-style:italic">Re C: (Abduction: Grave Risk of Psychological Harm) </span>[1999] 1FLR 1145 at 1154 A-D).</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thorpe LJ, agreeing with Butler-Sloss LJ, observed at 487g-488b:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In many cases a balanced analysis of the assertion that an order for return would expose the child to a risk of grave psychological harm leads to the conclusion that the respondent is in reality relying upon her own wrong-doing in order to build up the statutory defence.  In testing the validity of an Art. 13(b) defence, trial judges should usefully ask themselves what were the intolerable features of the child&#8217;s family life immediately prior to the wrongful abduction?  If the answer be scant or non-existent, then the circumstances in which an Art. 13(b) defence would be upheld are difficult to hypothesise.  In my opinion Art. 13 (b) is given its proper construction if ordinarily confined to meet the case where the mother&#8217;s motivation for flight is to remove the child from a family situation that is damaging to the child&#8217;s development. &#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I pause there to note that in <span style="font-style:italic">TB v JB(Supra) </span>at para [42] Hale LJ observed that the test propounded by Thorpe LJ should not be taken too far.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;It is not an addition to the statutory text.  It is merely guidance on what is more likely to surmount the high hurdle presented by Art 13(b).  It is a useful way of distinguishing those cases where the abduction has caused the problems feared from those cases where it has not.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">See also per Arden LJ at paras [89] and [95].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Setright argues that <span style="font-style:italic">Re C (Abduction: Grave Risk of Physical or Psychological Harm) </span>from which I have already quoted, as well as the authorities relied upon therein, were all decided prior to the introduction into English Law of the ECHR by the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> and that the interpretation of the Hague Convention as introduced into English Law by the 1985 Act now requires to be interpreted as ECHR compliant.  That, he submits, requires the court to give more emphasis to the position of others whose human rights are affected.  It is thus necessary to consider not only the rights to respect for the family life of the father and X, upon which the Hague Convention concentrates almost exclusively, but also to give weight to the mother&#8217;s rights to  respect for family life with either of her two children and, in particular, Y&#8217;s rights to respect for family life with his mother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In response to these submissions, Mr Howard for the father submits that the material relied upon by the mother falls far short of the high threshold to an Article 13(b) defence provided by the wording of paragraph (b) itself and the passages in the authorities in the Court of Appeal from which I have already quoted.  He further relies upon the view and summary of those authorities in <span style="font-style:italic">T.B v J.B.(Abduction: Grave Risk of Harm) </span>[2001] 2FLR 515 by Hale LJ in the passage headed &#8220;<span style="font-style:italic">Principle&#8221; </span>at paras [39] &#8211; [44] and Arden LJ at paragraphs [64] &#8211; [72].  Also upon the judgment of Laws LJ in which, at paragraph [109], he emphasised the necessity to recognise and bear in mind the difference between the judicial exercise on which the court is engaged when administering the Hague Convention and the task which family courts undertake in care proceedings and otherwise in deciding where the welfare of a child or children lies.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8220;In dealing with an application to return a child under Article 12 of the Convention we do not apply a straightforward welfare test; if we did we should risk frustrating the plain purpose of the Convention.  In <span style="font-style:italic">Re C (Abduction: Grave Risk of Psychological Harm) </span>[1999] 1FLR at 1145 Ward LJ at 1152E described the following words of Lord Browne-Wilkinson in <span style="font-style:italic">Re H (Abduction: Aquiescence) </span>[1998] AC72, 81 [1997] 1FLR 872, 875 as &#8220;[t]he most authoritative statement of the purpose of the Convention&#8221;:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">The Recitals and Article 1 of the Convention set out its underlying purpose.  Although they are not specifically incorporated into the law of the United Kingdom, they are plainly relevant to the construction of an international treaty.  The object of the Convention is to protect children from the harmful effects of their wrongful removal from the country of their habitual residence to another country or their wrongful retention in some country other than that of their habitual residence.  This is to be achieved by establishing a procedure to ensure the prompt return of the child to the State of his habitual residence. &#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In going on to consider the Article 13(b) defence and the level of psychological harm or other intolerable situation, by way of contrast with a straightforward welfare approach, Laws LJ quoted with approval the words of Lord Donaldson MR in <span style="font-style:italic">Re C (A Minor) (Abduction) </span>[1989] 1FLR 403, 413D-F:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;&#8230;.  In a situation in which it is necessary to consider operating the machinery of the Convention, some psychological harm to the child is inherent, whether the child is or is not returned.  This is, I think, recognised by the words &#8220;or otherwise place the child in an intolerable situation&#8221; which casts considerable light on the severe degree of psychological harm which the Convention has in mind.  It will be the concern of the court of the State to which the child is to be returned to minimise or eliminate this harm and, in the absence of compelling evidence to the contrary or evidence that it is beyond the powers of those courts in the circumstances of the case, the courts of this country should assume that this will be done.  Save in an exceptional case, our concern, i.e. the concern of these courts, should be limited to giving the child the maximum possible protection until the courts of the other country, &#8230;&#8230;&#8230;. can resume their normal role in relation to the child.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Laws LJ also emphasised the &#8220;rigour of proof&#8221; and high &#8220;degree of cogency&#8221; required to establish a case under Article 13(b), making clear that this is closely linked to the summary nature of the proceedings which is a function of the policy of the Convention.  He pointed out that, as observed by Hale LJ:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The whole point of the procedure is that the parent left behind should not be obliged to travel to the country to which his children have been taken in order to give the evidence needed to secure their return.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In summing up the position, Laws LJ stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;&#8230;.. (3)  The decision whether such grave risk is made out has to be assessed summarily else (a) the policy stated [that substantive questions of a child&#8217;s welfare should be decided by the courts of the State of the child&#8217;s habitual residence] &#8230;. might be undermined, and (b) otherwise the parent left behind in the home jurisdiction is potentially put to unjust disadvantage in seeking to making a case for the child&#8217;s return.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The considerations set out at (3), the words of Art.13(b), and the exceptional nature of what has to be demonstrated, show that &#8216;clear and compelling evidence&#8217; &#8230;. is required if the obligation to return is in any particular case to give way in the light of Art.13(b).&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Approaching the matter in the light of those authorities, Mr Howard submits that the case of the mother fails to surmount the high threshold or discharge the burden of proof imposed by the wording of Article 13(b).  He also points to a certain lack of cogency in the evidence provided to surmount that threshold.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the mother&#8217;s emotional/medical state, he submits that the Court should be cautious in its approach to the evidence of the mother as to her state of mind in New Zealand and its likely effect upon the welfare of X.  Depressed as the mother no doubt became in New Zealand, the evidence of her then general practitioner falls far short of demonstrating that she left New Zealand in a state of depression.  On the contrary, it demonstrates that by April 2004 she was emerging from her depression, sleeping and eating better and feeling clearer mentally.  She continued to improve and, when last seen on 18 October 2004 had returned to being positive, clear-headed and enjoying life.  The evidence confirms that she was homesick and missing friends and their support and suggested that this might re-occur if she had to come back against her will.  However, the observation that &#8216;this could well put her at risk of a further episode of depression&#8217; does not amount to cogent evidence of grave risk of psychological harm or other intolerable situation so far as X is concerned.  The position spoken to would certainly fail to satisfy the working test suggested by Thorpe LJ in <span style="font-style:italic">Re C </span>[1999] 2FLR at 487H-488B; there is nothing to show that X&#8217;s life in New Zealand was intolerable or damaging to her development at the time when the mother left New Zealand when she first made up her mind not to return.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Nor is this deficiency made good by the report of Dr Braunold obtained in England.  A fair reading of that report suggests that the stress under which the mother was labouring on 29 December 2004 was the result of her decision to stay in England and the worry and stress she was receiving from telephone calls from the father, in respect of which she was developing panic attacks at the thought of simply answering the telephone.  The report speaks to the mother having settled well in England and her coping well with looking after X and Y here in the UK.  Its conclusion, based on the account of the mother (&#8216;I feel that she would actually become quite vulnerable were X returned to New Zealand and would have grave concerns for her welfare&#8217;) is again not of a level of confidence or objectivity necessary to establish the grave risk to be established so far as X is concerned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the lack of a proper home should the mother return to New Zealand, that is a problem well able to be overcome without grave risk of an intolerable situation arising.  When the mother sold the home which she owned in New Zealand in early 2005 it is clear that she received a sum by way of profit on the resale after repayment to her parents of the money lent for its purchase.  Further, it is clear that money has been accumulating to her credit in New Zealand as a result of maintenance payments made by the father to the New Zealand equivalent of the Child Support Agency. Thus, she has the means available at least to rent a property on her return.  Furthermore, the mother&#8217;s parents would be able to provide emergency accommodation while the mother sought a more satisfactory place to rent with the children while awaiting the outcome of any application made by her to the New Zealand court for permission to relocate.  The grandparents have in the past been generous and supportive, and there is no reason to doubt they would be so again.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So far as Y is concerned, Mr Howard submits that the dilemma in which the mother finds herself is self-induced, as a result of choosing to stay in England rather than returning to New Zealand after the holiday as originally intended.  Furthermore, in so far as Y was enrolled in a new school in November and has since become settled and happy there, that was again something which could have been avoided if the mother had returned with him to New Zealand during what was the Summer break, and allowed Y to begin at his secondary school in New Zealand at the start of a new term.  In so far as she encouraged in Y the expectation of remaining in England with her, she has only herself to blame.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Howard accepts that, although Y is not a subject of the application, it is relevant to take into account his position when considering  whether grave risk of an intolerable situation has been established in respect of X; however he submits it cannot and should not prevail.  He submits that the overwhelming probability is that if X is ordered to be returned, the mother will rightly decide to return with her and Y will go too when faced with the reality of an order.  There is no evidence, save for an expression of belief and intention on Y&#8217;s part, that he has anyone capable of  providing care for him in the everyday way a 13 year-old needs, despite his maturity.  His devotion to his mother and to X (despite feelings of anger which he may well feel at the position in which he has been placed) will take him back to New Zealand.  That is the reality of the situation, so that X will continue to have the company of a brother she loves.  In the highly unlikely alternative that Y were to remain in England, the age of X and the family support available to her in New Zealand pending any welfare-based decision as to her future by the New Zealand court, is apt to avoid grave risk of harm or an intolerable situation arising for the purpose of Article 13(b).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, Mr Howard accepts that, as a result of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">the 1998 Act</ref>, human rights considerations arise and that, in determining an application under the Convention, the Court must not act in a manner which is incompatible with the  ECHR.  However, he submits that a driving policy of the Hague Convention is itself respect for family life in the sense that its underlying purpose is to protect children internationally from the harmful effects of their wrongful removal or retention from the care of the parent who has custody rights in respect of them and from the protection of the courts best placed to consider their welfare interests.  It is on that basis that the threshold test for an Article 13(b) defence in respect of a child too young to express its own wishes is set so high.  Thus, while in dealing with a case of this kind it is relevant in relation to the child the subject of the application to take into account the position of the half-sibling not the subject of such application, the imperative of the Convention is to safeguard the right to family life as between the child the subject of the application and the aggrieved parent, and to treat the rights and interests of other sub-sets of family life as subordinate.  Thus, absent a defence provided for in the Convention, it is difficult to envisage any situation where the making of an order by a court after careful and child-focussed consideration of whether such defence has been made out, would or could be regarded as incompatible with the ECHR.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I accept the submissions of Mr Howard in the form in which I have summarised them.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have omitted from that summary the repeated emphasis placed by Mr Howard on the fact that the mother&#8217;s dilemma and hence the risk of a renewed onset of depression were &#8216;self-induced&#8217; as if, of itself, this would preclude an Article 13(b) defence based on such risk.  In this respect, Mr Howard placed heavy reliance on the observations of Butler-Sloss LJ quoted at paragraph 31 above.  In that passage, Butler-Sloss LJ was drawing attention in forcible terms to the undesirability of permitting a situation where the mother, as Thorpe LJ put it:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;is in reality relying upon her own wrongdoing in order to build up the statutory defence.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">However, I am satisfied she did not intend that, in relation to the risk of psychological harm or an intolerable situation arising in respect of the child, the court must ignore the effect on the mother&#8217;s psychological health in a case where it is clear that her health might become such that the mother as primary carer she would face real and severe difficulty in providing for the child&#8217;s needs on return:  cf <span style="font-style:italic">TB v JB(Supra) </span>at paras [44] and [95] per Hale LJ.  So to hold would be to place a gloss on the words of the Article 13(b) defence which they do not bear.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The principle that it would be wrong to allow the abducting parent to rely upon adverse conditions brought about by a situation which she has herself created by her own conduct is born of the proposition that it would drive a coach and horses through the 1985 Act if that were not accepted as the broad and instinctive approach to a defence raised under Article 13(b) of the Convention.  However, it is not a principle articulated in the Convention or <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">the Act</ref> and should not be applied to the effective exclusion of the very defence itself, which is in terms directed to the question of risk of harm to the child and not the wrongful conduct of the abducting parent.  By reason of the provisions of Articles 3 and 12, such wrongful conduct is a &#8216;given&#8217; in the context of which the defence is nonetheless made available if its constituents can be established.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">No doubt, the reasoning underlying the provision of an Article 13(b) defence within the Convention is the desire of the Signatory States expressed in the preamble to the Convention:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;&#8230;. <span style="font-style:italic">To protect children internationally from the harmful effects of their wrongful removal or retention</span> and to establish procedures to ensure their prompt return to the State of their habitual residence, as well as to secure protection for rights of access. &#8221; (Emphasis added).</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">Whilst the italicised words do not appear in the objects of the Convention as stated in  Article 1, they are an aid to the construction of the Articles set out in Schedule 1 to the 1980 Act (see per Nourse LJ in <span style="font-style:italic">Re A (A Minor) (Abduction) </span>[1988] 1FLR 365 at 367-8).  Thus, while the primary purpose of the Convention  as stated in Article 1 is to provide for the prompt return of a child wrongfully removed or retained and to ensure that rights of custody and access under the law of each contracting State are respected, it was no doubt thought necessary in the interests of child protection generally to provide a &#8216;longstop&#8217; defence under Article 13(b) in any case where it appears that the risk of harm which the Convention assumes as a result of the wrongful removal would be intolerably compounded by an order for return.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That said however, Article 13(b) sets a high threshold, as the authorities have repeatedly made clear; as Mr Turner observed at one point, it can be harsh in its operation.  However tempted the Court may be to temper the effect of the Convention on the basis of the broad welfare interests of the abducting parent and child as they appear in the summary snapshot before the court, it must restrain that inclination, ceding any decision in that regard to the court of the country of habitual residence:  See the observations of Wall LJ in <span style="font-style:italic">Re J (Abduction: Child&#8217;s Objections to Return) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/428" uk:canonical="[2004] EWCA Civ 428" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 428</ref> [2004] 2FLR 64 at para [93].  Only where a case of grave risk is established on the basis of cogent evidence should it do otherwise.  While the mother&#8217;s psychological and emotional health are plainly matters of concern in this case, for the reasons advanced by Mr Howard the cogency of the evidence summarised at paragraphs 16-20 above is not such that it enables me to find a grave risk of danger to the psychological health of X, for the reasons given by Mr Howard at paragraph 40-42 above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Nor do I consider that my obligation to construe the 1985 Act in a Convention-compliant manner and to have regard to Y&#8217;s ECHR rights leads to any different result.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So far as Y is concerned, he plainly has Article 8 rights to which the Court must have regard in coming to its conclusion.  It is well established that the mutual enjoyment by parent and child of each other&#8217;s company constitutes a fundamental element of family life.  If United Kingdom domestic measures and court decisions hinder such enjoyment they potentially amount to an interference with the right to respect for family life protected by Article 8.  Thus an order of the court which interferes with Y&#8217;s and the mother&#8217;s enjoyment of family life together would entail a violation of Article 8 vis-&#224;-vis Y unless shown to be (i) &#8216;in accordance with the law&#8217;, (ii) to have an aim or aims which is or are legitimate under Article 8(2) and (iii) to be necessary in a democratic society for those aims: see <span style="font-style:italic">Haase v Germany</span> [2004] 2FLR 55 at paras [82] &#8211; [83].  In relation to (c), the notion of necessity implies that the interference corresponds to a pressing social need and, in particular, that it is proportionate to the legitimate aim pursued: ibid para [88].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is plain that, in principle, an order made by the court pursuant to the terms of the Hague Convention, and in particular Article 13(b), after a proper consideration of the issues which those terms raise, satisfies (i) and (ii) above.  Insofar as an order made for return in this case may interfere with Y&#8217;s and the mother&#8217;s mutual enjoyment of each other&#8217;s company, it will be made for &#8216;the protection of the rights and freedom of others&#8217;, namely X and the father&#8217;s corresponding rights, to which the Convention, by its structure and terms, accords paramount weight.  Under the terms of the Hague Convention itself, the focus is on X.  Y is not the subject of the application, nor a person whose objections to the order being made is relevant to the establishment of a defence under Article 13(b).  While his position is relevant to the extent that it affects X&#8217;s welfare in the sense of the risk of harm to X, that is as far as it goes for the purpose of considering whether a Section 13(b) defence has been established in respect of X.  If it does so assist, it will also become relevant in its own right in relation to the exercise of the Court&#8217;s discretion whether to make an order nonetheless.  If it does not so assist, then it is not relevant for the purposes of the Hague Convention.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having said that, it seems to me that only in the most exiguous sense can it be said that the making of an order for the return of X (in relation to which Y is entirely free to accompany his mother and X back to New Zealand and is only &#8216;prevented&#8217; from doing so by his reluctance to return to life in New Zealand) amounts to breach of his right to respect for his private and family life.  The order can only be regarded as an &#8216;interference&#8217; with the exercise of such right to the extent that it puts pressure upon his private and family life in this country, as opposed to New Zealand.  However it is plain that such pressure cannot be avoided if the protection of the rights and freedoms of X and her father are to be accorded the precedence required by the Hague Convention.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Turner and Mr Setright have asserted that Article 6 of the ECHR is also engaged in relation to the wishes and interests of Y in the circumstances of this case.  However, they have not elaborated on that submission.  It does not seem to me that it has any substance in this case.  The Court is not engaged in a determination of the civil rights and obligations of Y, which is the situation in which the right to a fair trial attaches, as set out in Article 6(1) of the ECHR.   I therefore say no more on that topic.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have already indicated, I have enjoyed the benefit of Mr Setright&#8217;s submissions on behalf of Y by reason of the Order of Singer J. made upon Mr Setright&#8217;s application that Y be joined as second defendant to the originating summons so that his position could be fully and properly articulated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the event, I consider that to have been an unnecessary exercise.  Before Singer J., Mr Setright submitted first that Y was a mandatory respondent to the originating summons under the provisions of Rule 6.5(e) of the <span style="font-style:italic">Family Proceedings Rules 1991.</span>  Rule 6.5 provides that the defendants to a Hague Convention application shall be</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The person alleged to have brought into the United Kingdom the child in respect of whom an application &#8230;.. is made;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The person with whom the child is alleged to be;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Any parent or guardian of the child who is within the United Kingdom and is not otherwise a party;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The person in whose favour a decision relating to custody has been made if he is not otherwise a party; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">Any other person who appears to the Court to have an interest in the welfare of the child.</span>&#8221; (emphasis added).</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is apparent from the short judgment of Singer J. which is before me, that he did not consider that a child in the position of Y was a mandatory defendant as therein provided.  I agree.  It seems to me that the words in (e) fall to be construed <span style="font-style:italic">eiusdem generis</span> with the preceding classes of defendant in (a) &#8211; (d), namely persons who by reason of their particular situation are directly concerned with the welfare of the child in the sense that they have provided, and/or have a continuing or potential interest in the provision of, care for the child or have some legal or practical responsibility for the child&#8217;s welfare.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Singer J. granted Mr Setright&#8217;s application on the basis that the position of Y was analogous to that of the position of a child who is himself the subject of a Convention application. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In such a case it is plain that there is jurisdiction in the court, where appropriate, to permit children to be joined as parties.  Hitherto, as far as reported decisions go, orders for separate representation have been limited to cases where (a) the child concerned is the subject of the application and objects to return to the country of his habitual residence and (b) the position of the abducting parent is such that she or he may not be relied upon to put those objections fully and accurately before the court, or otherwise to advance the interests of the child.  Usually this difficulty can be cleared by requesting a CAFCASS reporter to perform the dual role of assessment of the degree of the child&#8217;s maturity and conveying to the Court the child&#8217;s views and the strength of his/her objection to the order; see <span style="font-style:italic">Re M (A Minor) (Child Abduction) </span>[1994] 1FLR 390 at 394 (per Wall J) and 397 (per Sir Thomas Bingham, MR).  However, in rare and unusual cases (e.g. where there is a substantial dispute as between the child and the abducting parent as to his welfare) it may be necessary for the child to be separately legally represented if his interests are to be safeguarded: see <span style="font-style:italic">M (A Minor) (Abduction: Child&#8217;s Objections) </span>[1994] 2FLR 126 and <span style="font-style:italic">Re: S (Abduction: Children: Separate Representation) </span>[1997] 1FLR 486 </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the latter case, Wall J. set out the considerations at length and encapsulated the proper approach to an application for separate representation in this way:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;It follows therefore for a child to require separate representation there must be exceptional circumstances which on the facts make it inappropriate for the child&#8217;s wishes and feelings to be represented either by one of the existing parties to the proceedings or by the court welfare officer.  There must  also in my view, although this is not apparent from the authorities, but by analogy with applications for leave under the Children Act, be an arguable case that the discretion under Art 13 will be exercised.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">It is of course impossible to define &#8216;exceptional circumstances&#8217;, but they clearly include the situation in the second <span style="font-style:italic">Re </span>M in which there was in effect nobody to represent the child&#8217;s wishes and feelings and the child&#8217;s father was unable to do so<span style="font-style:italic"/>&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-left:0.5in">c.f. the decision of Hogg J. in <span style="font-style:italic">Re T (Abduction: Appointment of Guardian ad Litem) </span>[1999] 2FLR 796 (a European rather than a Hague Convention Case) where the deciding factor was that the mother was ignorant of a number of key events and was not in a position properly to represent the child&#8217;s views.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Singer J. accepted the argument of Mr Setright that the Hague Convention must now be construed and interpreted so far as possible to accord with the ECHR and observed that there was now a positive obligation to make sure that the rights to a family life and the right to a fair trial are given proper weight.  Accordingly, he granted the application so that the matter could be fully argued.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the course of his judgment, Singer J. referred to the straw in the wind constituted by Article 11(2) of the revised <span style="font-style:italic">Brussels II Regulations</span> which came into force on 1 March 2005 and which have the force of law without the need of domestic incorporation by statute. The Regulations overlay the provisions of the Hague Convention, requiring in a Convention case as between signatory states that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;When applying Articles 12 and 13 of the 1980 Hague Convention, it shall be ensured that the child is given the opportunity to be heard during the proceedings unless this appears inappropriate having regard to his or her age or degree of maturity.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is pertinent to observe in this respect that Preamble 19 to the Regulations makes it clear that they are not intended to affect the way in which individual states exercise their child abduction jurisdiction, by providing:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The hearing of the child plays an important role in the application of this Regulation, although this Instrument is not intended to modify national procedures applicable.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is not necessary for me to decide in these proceedings whether the existing court practice I have outlined constitutes sufficient compliance with the obligation laid down in Article 11(2) quoted above.  That is because this is a New Zealand, and not a European, case and I have not heard detailed submissions in the latter regard.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this case Singer J.&#8217;s decision was a proper solution on the basis of the submissions then presented to him.  As a result, Y&#8217;s separate point of view has been ably presented by Mr Setright.  As it has emerged, the order was unnecessary because there has been no substantial divergence of interest apparent between Y and the mother.  Both Mr Setright and Mr Turner have urged that the Court should make no order for return, based on the dilemma of the mother in the face of Y&#8217;s unwillingness to return to New Zealand.  Both have advanced and supported Y&#8217;s wishes in that respect.  Both counsel submit that it is intolerable that the mother should be obliged to choose between the interests of her two children and that her return will adversely affect her health and her capacity to care for the children.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus the concerns of Singer J. have proved unfounded.  This perhaps emphasises the importance upon an application for separate representation of investigating whether or not (a) there are exceptional circumstances to justify such a course and (b) there is, on the information available, an arguable case for exercise of the court&#8217;s Article 13 discretion.  As a general observation it seems to me that, at least in relation to non-European cases, the need to order separate representation in relation to a child who is not the subject of the application will be rare indeed.  The summary nature of the procedure, the hegemony to be accorded to the interests of the child who is the subject of the application, and the availability of the services of a CAFCASS officer in an appropriate case, all make it difficult to envisage a situation where the position of a sibling who is not the subject of the application would merit such a course.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There will be an order that the mother return X to New Zealand.  I will hear counsel upon the appropriate terms of the order.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

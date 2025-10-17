@@ -1,0 +1,850 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2018/1841"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2018/1841"/>
+	  <FRBRdate date="2018-07-16" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1841"/>
+	  <FRBRname value="ABCDE, Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/1841"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/1841"/>
+	  <FRBRdate date="2018-07-16" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/1841/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/1841/data.xml"/>
+	  <FRBRdate date="2024-10-27T03:32:21" name="transform"/>
+	  <FRBRdate date="2024-11-30T09:44:28" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2018-07-16" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A LOCAL AUTHORITY"/>
+	<TLCPerson eId="a-mother" href="" showAs="A MOTHER"/>
+	<TLCPerson eId="a-father" href="" showAs="A FATHER"/>
+	<TLCPerson eId="a-b-c-d-and-e" href="" showAs="A, B, C, D and E"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-knowles" href="/judge-mrs-justice-knowles" showAs="MRS JUSTICE KNOWLES"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2018</uk:year>
+	<uk:number>1841</uk:number>
+	<uk:cite>[2018] EWHC 1841 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>6d3104cc4a53a8e8a96c975b775db5abdee403868113dbee72e1d3f6dd405013</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center">This judgment was delivered in private. The Judge has given permission for this anonymised version of the judgment (and any of the facts and matters contained in it) to be published on condition always that the names and addresses of the parties and the children must not be published. For the avoidance of doubt, the strict prohibition on publishing the names and addresses of the parties and the children will continue to apply where that information has been obtained by using the contents of this judgment to discover information already in the public domain. All persons, including representatives of the media, must ensure these conditions are strictly complied with. Failure to do so will be a contempt of court.</p>
+      <p class="CoverText">Case No: <docketNumber>ZE17C00258</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2018] EWHC 1841 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2018-07-16" refersTo="#judgment">16/07/2018</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-knowles">MRS JUSTICE KNOWLES</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a-local-authority" style="font-weight:bold">A LOCAL AUTHORITY</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a-mother" style="font-weight:bold">A MOTHER</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">And</span></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a-father" style="font-weight:bold">A FATHER</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">And</span></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#a-b-c-d-and-e" style="font-weight:bold">A, B, C, D and E</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(By their Children&#8217;s Guardian)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Miss Kirby and Mr Barnes </span>for the local authority</p>
+      <p style="text-align:center"><span style="font-weight:bold">Miss Fottrell QC and Miss Segal</span> for the mother</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Rowley QC</span> for the father</p>
+      <p style="text-align:center"><span style="font-weight:bold">Miss King QC</span> for the children </p>
+      <p style="text-align:center">Hearing dates: 25,26,27,28,29,3 and 4 July 2018</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mrs Justice Knowles:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I am required to determine an application by a local authority for permission to withdraw care proceedings in respect of five children, A born in 2003, B born in 2005, C born in 2006, D born in 2009, and E born in 2011. By reason of separate proceedings in the Queen&#8217;s Bench Division, there is an anonymity order in force which prevents the identification of the father, the mother and the children. I am also required to determine an application by the mother, supported by the father, that the local authority should pay their costs from 4 May 2018 to day four of this hearing, 28 June 2018. That application was opposed by the local authority. I record that the children&#8217;s guardian adopted a neutral stance with respect to both the application for permission to withdraw and for costs.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The application by the local authority for permission to withdraw the care proceedings was not resisted by any of the parties and I am quite satisfied that I should give permission. Given the circumstances of this case, it is appropriate that I give a judgment setting out the court&#8217;s reasons for granting permission. I have read the evidence filed and served in these proceedings over the course of two days and I have also viewed video material relevant to the activities of the parents. Finally, I have had the benefit of detailed position statements from the local authority, the mother and the father. The children&#8217;s guardian did not file a detailed position statement as he adopted a neutral stance in respect of the facts the local authority sought to prove.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The hearing listed before me was a fact-finding hearing with a time estimate of 12 days. Days one and two were set aside for judicial reading. When the parties attended on day three, I sought to ascertain from the local authority the evidence upon which it relied to establish the link between what were said to be extremist, radical beliefs held by the parents and the feared harm to the children, whether actual or likely. During the course of that exercise, it became apparent that, contrary to the most recent version of its threshold document, the local authority was no longer asserting that the children <span style="font-weight:bold">had</span> suffered significant harm attributable to their parents&#8217; care and now stated that the children <span style="font-weight:bold">were likely to</span> suffer significant harm attributable to their parents&#8217; care. Given that shift in the local authority&#8217;s position, I observed that I doubted whether the evidence I had read would establish the necessary connection between the facts asserted by the local authority and the likelihood of risk to the children. I allowed the local authority time to consider its position in the light of my comments.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On day four of the hearing the local authority indicated in an email sent to me and circulated to the parties that it intended to withdraw its application for care orders in respect of all the children, subject to there being a robust agreement between the parents and the local authority as to the way forward particularly with respect to Child A. At that point, it was not able to file a formal document to that effect as the same was under consideration by senior managers. Regrettably, Child A&#8217;s particular circumstances meant that it was necessary for the parties to attend before me on days five and seven of the listed hearing. On day eight I was able to conclude these proceedings by giving the local authority permission to withdraw the applications for care orders with respect to all five children. I also heard oral argument about the application for a costs order on days seven and eight.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At the conclusion of the hearing, I indicated that I would reserve my judgment and that I had not yet come to a concluded view on the issue of costs. This judgment also explains my decision to refuse the parents&#8217; application that the local authority should pay their costs from 4 May 2018 up 28 June 2018.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It will be apparent that there are evident parallels between this case and a case determined by Macdonald J reported as <span style="text-decoration-line:underline;text-decoration-style:solid">A Local Authority v X, Y and Z (Permission to Withdraw)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/3741" uk:canonical="[2017] EWHC 3741 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 3741 (Fam)</ref>. I make it plain that, despite the obvious similarities, this case fell to be considered on its own facts.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1">BACKGROUND</heading>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The applications for care orders arose out of an alleged risk to the children arising from what were said to be the parents&#8217; alleged extremist beliefs and the father being the subject of a Terrorist Prevention and Investigation Measure [&#8220;TPIM&#8221;] since June 2016. That order expired shortly before this hearing. I note that the father is due to stand trial for breaches of the TPIM later this year. The parents separated in 2013 and all the children lived with the mother until Child A left her mother&#8217;s care to live with her father in May 2015.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">TPIMs are used in circumstances where a person is believed to be involved in terrorism but cannot be prosecuted or deported. The circumstances in which the father became subject to a TPIM are set out in detail in the open judgment of Nicol J published as <span style="text-decoration-line:underline;text-decoration-style:solid">Secretary of State for the Home Department v LG, IM and JM</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2017/1529" uk:canonical="[2017] EWHC 1529 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 1529 (Admin)</ref>.  I note that the father was served with a TPIM on 20 June 2016 pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2011/23/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2011/23" uk:canonical="2011 c. 23" uk:origin="TNA" uk:type="legislation">Terrorism Prevention and Investigation Measures Act 2011</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I set out an excerpt from paragraph 11 of the judgment of Macdonald J in <span style="text-decoration-line:underline;text-decoration-style:solid">A Local Authority v X, Y and Z (Permission to Withdraw)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/3741" uk:canonical="[2017] EWHC 3741 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 3741 (Fam)</ref> as it summarises the five conditions in <ref href="http://www.legislation.gov.uk/id/ukpga/2011/23/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2011/23" uk:canonical="2011 c. 23" uk:origin="TNA" uk:type="legislation">Terrorism Prevention and Investigative Measures Act 2011</ref> which must be met before a TPIM can be imposed. Those conditions are:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic">&#8220;a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">That the Secretary of State is satisfied, on the balance of probabilities, that the individual is, or has been, involved in terrorism-related activity.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">That some or all of the relevant activity is new terrorism-related activity.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">c)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">That the Secretary of State reasonably considers that it is necessary, for purposes connected with protecting members of the public from a risk of terrorism, for terrorism prevention and investigation measures to be imposed on the individual.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">d)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">That the Secretary of State reasonably considers that it is necessary, for purposes connected with preventing or restricting the individual&#8217;s involvement in terrorism-related activity, for the specified terrorism prevention and investigation measures to be imposed on the individual.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">e)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">That the court gives the Secretary of State permission to issue a TPIM notice or the Secretary of State reasonably considers that the urgency of the case requires terrorism prevention and investigation measures to be imposed without obtaining such permission.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in">Following the issue of a TPIM notice, the court must thereafter conduct a review of the TPIM to determine whether the conditions justifying the notice were met and continued to be met. This review is conducted by reference to the principles applicable on an application for judicial review. Nicol J, in conducting that review, made clear at paragraph 42 of his 2017 judgment that he would examine for himself whether, on the balance of probabilities, each of the Respondents were or had been involved in terrorism-related activity.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A closed material procedure was used during part of the hearing before Nicol J when the father was represented by a special advocate. I record that the closed material before Nicol J has not formed part of the evidence before this court and in fact, a very small amount of the open material available to  Nicol J has been disclosed into these proceedings. On 5 June 2018 Nicol J granted an application by the local authority for the disclosure into these proceedings of three documents utilised in the proceedings before him, namely (a) the unredacted paragraphs of his judgment concerning the father, (b) the confidential annex to his judgment concerning the father, and (c) the mother&#8217;s statement. He refused an application by the local authority for the disclosure of a psychiatric report on the father (though indicated the local authority&#8217;s application in this respect might be restored on 48 hours&#8217; notice to the father) and for the disclosure of various statements, including those made by the father.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On the balance of probabilities, Nicol J made the following findings about the father in his open judgment:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The father was a senior leading figure within Al-Muhajiroun [&#8220;ALM&#8221;], an organisation whose aim was the establishment of an Islamic Caliphate ruled by Sharia law. This organisation (whether operating as ALM or under one of its other names) was proscribed pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/11/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/11" uk:canonical="2000 c. 11" uk:origin="TNA" uk:type="legislation">Terrorism Act 2000</ref> and continued to exist for the purpose of the proceedings before Nicol J.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The father had, through radicalisation, facilitated or encouraged others to join ISIL, to whose Caliphate he had personally declared allegiance. His conduct amounted to radicalisation. [ISIL, an acronym for Islamic State in the Levant, was a name for the organisation which had declared control of various parts of Syria and Iraq. It too was a terrorist organisation proscribed under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/11/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.3</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/11" uk:canonical="2000 c. 11" uk:origin="TNA" uk:type="legislation">Terrorism Act 2000</ref>].</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The father&#8217;s assertion that he observed the covenant of security, namely that he must not attack the country in which he was living, was not accepted. This was because ISIL had called for attacks on the West and ALM, as an organisation, had pledged allegiance to ISIL.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Nicol J was satisfied that the TPIM with respect to the father remained necessary for purposes connected with protecting members of the public from a risk of terrorism. It required the father to live at some considerable distance from the children and from his extended family. The father is seeking permission to appeal the decision of Nicol J though I understand that there is no challenge to the findings of fact found by that judge.  In these proceedings, the father submitted that Nicol J&#8217;s findings could not bind this court as the evidential substratum on which those findings were based was simply not available to me. He asserted that he did not hold radical or extreme views of the sort attributed to him and that there was no evidence that the children had been harmed by any beliefs he and/or the mother might have. He maintained there was no real possibility that the children were likely to be so harmed in future.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As far as the mother was concerned, the local authority alleged that she too was radicalised and held extremist beliefs which she actively propagated. The mother was said to be an active participant in, organiser of, and speaker at the Women&#8217;s Circle which included a large number of individuals closely associated with ALM. The extremist and radicalised views expressed during meetings of the Women&#8217;s Circle were featured in the Channel 4 documentary <span style="font-style:italic">&#8220;Isis: The British Women Supporters Unveiled&#8221;</span> [&#8220;the ISIS Women Supporters&#8221;]. The mother was also said to have given a lecture to the Women&#8217;s Circle at which she expressed views sympathetic to ISIL and supportive of &#8220;<span style="font-style:italic">one brother</span>&#8221; who had travelled to Syria to engage in Jihad or holy warfare on behalf of ISIL. When the mother&#8217;s laptop was seized by the police, it contained an audio file of a speech promoting violent Jihad against non-Muslims and other material demonstrating the mother&#8217;s alleged radical beliefs.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother, in contrast, asserted that she was a politically engaged, articulate and devout person who believed that observant Muslims should aspire to live in a caliphate. At a time when there was limited information about the nature of ISIL, she, like other Muslims, had an interest in the political events occurring in Syria but she now recognised ISIL&#8217;s lack of legitimacy. She maintained that the local authority&#8217;s criticism of her public activism failed to acknowledge her right to hold and express views critical of foreign and domestic policy and to practice her religion in concert with others. She submitted that the local authority insinuated she had been radicalised by her association with women whose husbands had been convicted of offences. Above all, she maintained that there was no evidence the children had been taught the views that the local authority contended the parents held or have held in the past. There was further no evidence that the children had been affected negatively by any extreme political or religious views, even if the local authority were able to satisfy the court that the mother had been radicalised.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In its final threshold document dated 8 June 2018, the local authority asserted that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">the children were suffering significant emotional and psychological harm arising from exposure to their parents&#8217; extremist and radicalising views and were likely to adopt those same extremist and radical views;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">the children had been exposed to the extremist and radicalising content of meetings of the Women&#8217;s Circle when they accompanied the mother to those meetings. There was also photographic evidence of one of the children attending an ALM demonstration;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">the parents&#8217; continuing level of denial and their failure to engage meaningfully with any protective resource and/or organisation meant that there had been no reduction in the likelihood that the children would continue to suffer significant harm in consequence of their parents&#8217; extremist and radical views;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Child A was suffering and was likely to suffer significant emotional and educational harm, the former giving rise to a likelihood of significant emotional harm to her younger siblings. In summary, that harm arose from Child A, who had been resident with her father for a significant period of time, experiencing numerous police raids and being subject to many of the restrictions consequent upon the imposition of the TPIM. It was further contended that Child A was beyond the control of her mother and had been physically abusive to both her mother and to a younger sibling.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There has been periodic and intermittent contact between the family and the local authority since December 2005. Some of the referrals concerned (a) allegations of domestic abuse made by the mother against the father; (b) mental health crises concerning both parents; (c) and the mother&#8217;s concerns about Child A&#8217;s alleged difficult behaviour. The first referral to the local authority in connection with the parents&#8217; alleged radical/extremist beliefs was made in July 2015 when the father was said to be under investigation for &#8220;<span style="font-style:italic">terror offences</span>&#8221;. In November 2015 the local authority received notification from the police that the mother had been identified as one of the women participating in the ISIS Women Supporters&#8217; documentary. Following these referrals, the local authority conducted an investigation pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/47" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.47</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. However, it alleged that the parents had failed to cooperate with that assessment. The four younger children were made subject to child protection plans in respect of emotional abuse in December 2015. At this time, Child A was living with her father in another local authority and that local authority also completed a child and family assessment. Throughout 2016, the local authority bringing these proceedings sought without success to engage the family in anti-radicalisation work. It was also apparent that, in summer 2016, Child A had been seen by mental health professionals as a result of difficulties between her and her mother. With her father, Child A moved in September 2016 to live in the area of a yet another local authority. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 4 April 2017, the local authority made an application for interim supervision orders in respect of the four youngest children, in what was recorded by the court to be an attempt to ensure compliance by the parents in seeking to address the local authority&#8217;s long-standing concerns for the children&#8217;s welfare. No interim public law orders were made at the first hearing before Cobb J on 2 May 2017 and none have been made subsequently. The local authority in whose area Child A had been living since September 2016 [&#8220;the second local authority&#8221;] issued proceedings in relation to Child A in July 2017. Those proceedings were consolidated with the existing proceedings concerning the four younger children. The matter was set down for a fact-finding hearing in January 2018 with a time estimate of 10 days. From 22 November 2017, I have been the allocated judge responsible for the case management of these proceedings.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Regrettably, there has been delay in the final determination of these proceedings. The fact-finding hearing listed for January 2018 had to be abandoned on 22 November 2017 because the mother was in hospital and required surgical treatment. She was simply in no position to give instructions so that the January 2018 hearing could be effective. In those circumstances I listed the matter for the next available ten day slot before me which was in June 2018. I also record that in March 2018 the local authority agreed to be the designated local authority in respect of Child A and that I discharged the second local authority as a party to the proceedings. At the March 2018 hearing, I refused an application for an interim care order in respect of Child A whose parents were agreed that she should be placed in foster care under the framework of an agreement pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.20</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. That placement in foster care arose because Child A&#8217;s home with her father had come to an end in the autumn of 2017 and she had been temporarily living with relatives and not attending school, in circumstances where neither of her parents were able to offer her a stable home.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The matter was listed before me for a case management hearing on 4 May 2018. At that hearing I made a number of observations to the local authority about certain of the threshold grounds on which it then relied. My order recorded that the court required the local authority to give careful consideration to its threshold document and to consider, in particular, (i) the relevance of historic domestic violence allegations; (ii) the evidential foundation for any allegation in relation to school attendance/non-attendance by the children; and (iii) the causal connection between any finding sought and the harm suffered and/or likely to be suffered by any of the children given the observations made by the President of the Family Division in the case of <span style="text-decoration-line:underline;text-decoration-style:solid">Re A (Application for Care and Placement Orders: Local Authority Failings)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2015/11" uk:canonical="[2015] EWFC 11" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWFC 11</ref>. I observe that the local authority&#8217;s revised and final threshold document dated 8 June 2018 abandoned reliance on both historic domestic violence allegations and on significant harm arising from school attendance/non-attendance. Instead it focussed on the matters listed in paragraph 15 above.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The local authority evidence in this case comprised (a) statements from the social worker, Miss A, and statements from the social worker employed by the second local authority; (b) statements from police officers relating to the father&#8217;s and to the mother&#8217;s activities; (c) material gathered by the police and disclosed within these proceedings relating to the parents&#8217; alleged extremist beliefs and radicalisation; and (d) a significant tranche of documents from the local authority and the second local authority which included minutes of Child Protection Case Conferences.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The initial social work statement dated 21 March 2017 set out the history of the local authority&#8217;s involvement with the family and explained that the purpose of issuing proceedings and inviting the court to make an interim supervision order was to require the parents to engage with a specialist risk assessment in order that the risk of the children being radicalised due to the parents&#8217; &#8220;<span style="font-style:italic">fundamental ideology and extremist mindset</span>&#8221; might be better assessed than had been previously possible [section 1:4]. Miss A made clear that (a) she had no concerns about the mother&#8217;s physical care of her children who were developing age appropriately and whose basic needs were being met; (b) throughout her work with the family, the children had not expressed any views of hatred that would indicate that they were exposed to &#8220;<span style="font-style:italic">violent conversations or extremist views</span>&#8221; [analysis of harm]; (c) the children had not overtly expressed the same views as their parents and the local authority had no evidence from the children to suggest that they were expressing extremist views; and (d) the parents were aware of the local authority&#8217;s concerns and thus far had cooperated with the child protection plans by allowing social work visits and attending meetings regularly. The information in the social work statement was underscored by the contents of the local authority documents generated prior to the issue of proceedings. Nowhere in those documents was there any evidence that the children expressed or held beliefs similar to those allegedly held by their parents.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As far as Child A was concerned, the second local authority social worker had conducted a parenting assessment in respect of Child A and her father dated 25 May 2017. That assessment did not identify any concerns about the father&#8217;s care of Child A. He was able to meet all her basic needs and there were no concerns about his ability to provide her with a good home. On the basis of all the information in the possession of the second local authority, it stated that &#8220;<span style="font-style:italic">currently there can be no conclusion drawn that Child A has been radicalised or is at risk of radicalisation</span>&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The social work statements subsequently generated during the proceedings largely focused on the difficulties arising from the breakdown of Child A&#8217;s placement with her father. This necessitated finding a foster placement for her which allowed her to attend a suitable school reasonably close to the mother&#8217;s home so that she might have contact with her siblings and her mother.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The final social work statement dated 21 June 2018 updated the court about Child A&#8217;s circumstances since she had been accommodated by the local authority. She was said to be a quiet and intelligent young person who enjoyed going shopping and liked to bake. She had a good relationship with her siblings whom she visited regularly even when her relationship with her mother was strained. She also had a good relationship with her father. Both parents were agreed that Child A required intervention from child mental health services. There was no evidence that Child A either held/expressed extremist views or that she had been radicalised. The four younger children had also been seen regularly by the social worker and by a duty worker and they had been encouraged by their mother to speak to these workers when they visited the family home. The children appeared relaxed at home and expressed their views without any hesitation. As with Child A, there was no evidence that the younger children either held/expressed extremist views or that they had been radicalised.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In paragraph 50 of the local authority&#8217;s final statement, Miss A stated the following:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8220;The mother and father have been involved with and are known to be associated with people and organisations who seem to hold extremist views of Islam. The parents have also expressed their views in documentaries and confirmed that they were linked to these organisations. The local authority is concerned that the parents&#8217; extremist views has put the children at risk of forming extremist views themselves as they would view their parents&#8217; views as normal. The local authority is of the view that the children&#8217;s exposure to extremist views throughout their lives will increase the risk of them developing their parents&#8217; views but will also normalise those views. In addition to this harm, the younger children were present during the police search warrants of the mother&#8217;s home on [date redacted], Child A was presence in [date redacted] in the father&#8217;s home in [location redacted] when the first TPIM was executed and in the home in [location redacted] when the father was arrested for suspected breaches of the TPIM. The local authority is concerned that the parents&#8217; extremist views have caused the children to experience emotional harm&#8221;. </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in">The social worker explained that the local authority sought a supervision order in relation to the younger children and a care order in respect of Child A. She concluded that &#8220;<span style="font-style:italic">it would be very surprising if the children did not share their parents&#8217; views and those of their parents&#8217; associates and friends and their children. Whether or not they share those views could be established by an assessment of the children</span>&#8221;. </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Also available to the court was an independent social work assessment of the father dated October 2016 prepared in connection with the proceedings before Nicol J. The independent social worker spent a significant amount of time with the father and with Child A; she met the mother; and she also observed the younger four children. Her report was thorough and helpful. It established that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">despite their separation, the parents retained a strong mutual dependence on each other in a non-hostile manner;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Child A&#8217;s need for assessment and evaluation given her emotional turmoil;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Child A&#8217;s stability was to be found in the care of her father;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">the need for the father and Child A to relocate closer to the mother&#8217;s home for them to have contact with the mother and the for younger children. Closer geographic location would better support the family and produce a better assessment of Child A&#8217;s needs</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The children&#8217;s Guardian produced a case analysis in June 2017 which provided invaluable information about all five children. He met the children on two occasions, once with their mother and once when she was not present. He had no concerns about the manner in which the children presented to him and stated that &#8220;<span style="font-style:italic">my initial enquiries have not uncovered any evidence that [Children B, C, D and E] are suffering from any emotional harm as a direct consequence of either of their parents&#8217; extremist views</span>&#8221; [I note that he was not Child A&#8217;s children&#8217;s Guardian at the time of writing his case analysis]. He observed that, though he had only carried out preliminary investigations, the children were under intense scrutiny by the local authority, the police, the security services and the family court. He considered that this would have an impact on them. In accordance with his views, the children&#8217;s Guardian has minimised his involvement with the four younger children during these proceedings. His involvement with Child A has necessarily been greater given the breakdown of her home with her father and her move into foster care but it has properly focused on welfare rather than threshold issues. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Following my observations made on the third day of the hearing, the local authority applied for permission to withdraw its applications for public law orders in respect of all the children. All the other parties supported that application as being in the children&#8217;s best interests. The local authority contended that this was a case where the threshold criteria could be met and therefore the application for permission to withdraw the proceedings fell to be measured against the children&#8217;s best interests as the court&#8217;s paramount consideration. Both parents however submitted that this was a case where it was plain that the threshold could not be met and therefore that the application for permission to withdraw must succeed.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1">THE LAW</heading>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The law that the court must apply when considering whether to grant permission to a local authority to withdraw care proceedings has been well summarised by Macdonald J in <span style="text-decoration-line:underline;text-decoration-style:solid">A Local Authority v X, Y and Z (Permission to Withdraw)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/3741" uk:canonical="[2017] EWHC 3741 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 3741 (Fam)</ref>. I set out his analysis as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic">&#8220;48.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Pursuant to FPR r.29.4(2), a local authority may only withdraw an application for a care order with the permission of the court. Where an application for permission to withdraw is mounted in proceedings in which the local authority is unable to satisfy the threshold criteria pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.31(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>, then that application must succeed. However, where on the evidence before the court the local authority could satisfy the threshold criteria, then the court must consider whether withdrawal is consistent with the welfare of the child such that no order is required pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(5)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (see </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Redbridge LBC v B and C and A (Through his Children&#8217;s Guardian)</span><span style="font-style:italic"> <ref href="#" uk:canonical="[2011] 2 FLR 117" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 2 FLR 117</ref>). An application made pursuant to FPR r.29.4 involves the court determining a question with respect to the upbringing of a child for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>. In the circumstances, when considering an application for permission to withdraw an application for a care order, the child&#8217;s welfare is the court&#8217;s paramount concern (see </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">London Borough of Southwark v B</span><span style="font-style:italic"> <ref href="#" uk:canonical="[1993] 2 FLR 559" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] 2 FLR 559</ref> at 572). However, an application for permission to withdraw proceedings falls outside the scope of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(4)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> and therefore there is no requirement to have regard to the welfare checklist in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref>.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">49.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">With respect to the former situation where an application for permission to withdraw is mounted in proceedings in which the local authority is unable to satisfy the threshold criteria, in considering whether the threshold criteria can be made out it is important to recall the reminder given by the President in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Re A</span><span style="font-style:italic"> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2015/11" uk:canonical="[2015] EWFC 11" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWFC 11</ref> at [12] of the need to link the facts relied upon by the local authority with its case on threshold:</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8216;The second fundamentally important point is the need to link the facts relied upon by the local authority with its case on threshold, the need to demonstrate why, as the local authority asserts, facts A+B+C justify the conclusion that the child has suffered, or is at risk of suffering, significant harm of types X, Y or Z. Sometimes the linkage will be obvious, as where the facts proved establish physical harm. But the linkage may be very much less obvious where the allegation is only that the child is at risk of suffering emotional harm or, as in the present case, at risk of suffering neglect. In the present case, as we shall see, an important element of the local authority&#8217;s case was that the father &#8220;lacks honesty with professionals&#8221;, &#8220;minimises matters of importance&#8221; and &#8220;is immature and lacks insight of issues of importance&#8221;. May be. But how does this feed through into a conclusion that A is at risk of neglect? The conclusion does not follow naturally from the premise. The local authority&#8217;s evidence and submissions must set out the argument and explain explicitly why it is said that, in the particular case, the conclusion indeed follows from the facts.&#8217;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-style:italic">50.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">With respect to the latter situation, where on the evidence before the court the local authority could satisfy the threshold criteria, in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">J, A, M and X (Children)</span><span style="font-style:italic"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/4648" uk:canonical="[2014] EWHC 4648 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 4648 (Fam)</ref> at [30], Cobb J considered that in order for a case to fall into the category of cases in which the local authority is unable to satisfy the threshold criteria, and hence into the category of cases in which the application for permission must be granted, the inability on the part of the local authority to satisfy the threshold criteria should be &#8220;obvious&#8221;.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">51.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Within this context, in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">J, A, M and X (Children)</span><span style="font-style:italic">, Cobb J considered the proper approach to an application for permission to withdraw care proceedings in a case where it was possible that the threshold might be crossed, depending on the court&#8217;s construction of the evidence. In such a case, Cobb J concluded that, before considering whether the local authority should be given permission to withdraw, the court must first determine whether or not it should proceed with a fact-finding exercise by reference to the factors set out by McFarlane J (as he then was) in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">A County Council v DP, RS, BS (By the Children&#8217;s Guardian)</span><span style="font-style:italic"> <ref href="#" uk:canonical="[2005] 2 FLR 1031" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 2 FLR 1031</ref>. Those factors, which in their totality embody the concepts of both necessity and proportionality, are as follows:</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the interests of the child (relevant not paramount);</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the time the investigation would take;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">c)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the likely cost of public funds;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">d)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the evidential result;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">e)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the necessity of the investigation;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">f)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the relevance of the potential results to the future care plans for the child;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">g)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the impact of any fact-finding process upon the other parties;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">h)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the prospects of a fair trial on the issue;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">i)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the justice of the case.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">52.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Having considered the factors set out in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">A County Council v DP, RS, BS (By the Children&#8217;s Guardian)</span><span style="font-style:italic"> within this context, and determined whether a fact-finding enquiry should be undertaken, the court should then cross-check the conclusion reached having regard to the best interests test under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> in reaching its decision on the application for permission to withdraw proceedings (</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">J, A, M and X (Children)</span><span style="font-style:italic"> at [35]).</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic">53.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Finally, it is important to note that, notwithstanding the emotive subject matter of these proceedings, the court&#8217;s power under FPR r.29.4 to grant a local authority permission to withdraw proceedings constitutes, to paraphrase Cobb J in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">J, A, M and X (Children)</span><span style="font-style:italic"> an objective and dispassionate check on whether the local authority should be entitled to disengage from proceedings.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in">DISCUSSION</heading>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have reviewed the totality of the evidence in these proceedings and considered the documents filed by the parties, including those prepared after the fourth day of the hearing when the local authority indicated its intention to apply for permission to withdraw the proceedings with respect to all five children. I have also heard oral submissions from the parties. Given the process I undertook on day three of the hearing and the forensic difficulties I highlighted to the local authority, I am more than satisfied that the local authority should be given permission to withdraw its proceedings in respect of all five of the children. Moreover, I am satisfied that this is a case in which, on the evidence summarised above, the local authority would be unable to satisfy the threshold criteria pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.31(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> and, accordingly, that this is a case in which the local authority&#8217;s application for permission to withdraw the proceedings must be granted.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In determining the application for permission to withdraw, I make plain that I have not made any findings. Factual matters pertaining to threshold were not agreed between the parties and I have heard no evidence upon which I could make findings of fact. The analysis that follows needs to be understood in that context.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As far as the father was concerned, it might have been open to the court to make findings regarding his beliefs and his behaviour based on the findings made by Nicol J in the Administrative Court. Though those findings could not bind this court, Mr Rowley QC on behalf of the father acknowledged that those findings stood. I was told that the father&#8217;s application for permission to appeal Nicol J&#8217;s decision &#8211; as yet undetermined &#8211; did not seek to challenge the findings of fact made by Nicol J. Thus, I am persuaded that, with respect to the father, it would have been open to the court to make findings consistent with those made by Nicol J summarised at paragraph 11 above. As with the father in the case before Macdonald J [<span style="text-decoration-line:underline;text-decoration-style:solid">A Local Authority v X, Y and Z (Permission to Withdraw)</span>], this would place the father in a &#8220;<span style="font-style:italic">very small cohort of individuals against whom exceptional measures are deemed to be required</span>&#8221; [56].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother was not subject to a TPIM. Though she had a caution for an assault committed in the presence of the children, this was unrelated to her alleged extremist beliefs. Her position was thus appreciably different to that of the father. The mother accepted that she had attended meetings of the Women&#8217;s Circle but denied that this was affiliated to ALM or that she held extremist views. She accepted that, occasionally, children might enter the room where the Women&#8217;s Circle was meeting but this was not intentional or encouraged.  Standing back and evaluating all of the material I have read, I have concluded that it might have been possible for the court to make findings about the mother&#8217;s extremist beliefs but that outcome was far less certain than the findings sought by the local authority in relation to the father. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If, for the purpose of this analysis, the evidence might have persuaded me that I could have made the very serious findings sought by the local authority about the parents&#8217; extremist beliefs and radicalisation, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.31(2)</ref> required the court to be satisfied that the children had suffered or were likely to suffer significant harm attributable to the care given or likely to be given to them by their parents. It was in that respect that I considered the forensic hurdles faced by the local authority to be insurmountable. Put simply, the local authority could not <span style="font-weight:bold">evidence</span> anything to suggest that there was a connection between the parents&#8217; alleged extremist beliefs and radicalisation and the way in which the children presented to social care, health and education professionals.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Despite three years of local authority involvement since July 2015 when the local authority was told that the father was under investigation for terror offences, there was no evidence that the children held extremist beliefs or that they had been radicalised. That was the case at the relevant date &#8211; 4 April 2017 when proceedings were issued with respect to the four younger children - to judge by the contents of Miss A&#8217;s first statement. It was also the case on the relevant date with respect to Child A &#8211; 11 July 2017 &#8211; judging from the contents of the second local authority&#8217;s parenting assessment. It was also the case at the time Miss A filed her final statement concerning all five children. They were engaging children who had no hesitation in expressing their views to the social worker who had seen them very regularly over the course of her involvement in this case from December 2015. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Though the local authority accepted on day three of the hearing that, contrary to its final threshold document, it could not demonstrate that the children had suffered significant harm, it is important to recognise this was not a concession made because the evidence on this issue might not have been persuasive overall. On the contrary, there was an absence of any evidence that the children had been significantly harmed by their parent&#8217;s alleged extremist and radicalised beliefs. There was certainly no proper evidential basis to put to the parents in cross-examination that they had radicalised their children; that their children shared their extremist beliefs; or that the children had been coached to disguise the true position in the family home. The threshold for establishing that significant harm had been suffered by any of the children simply could not have been crossed on the evidence before the court.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Turning to the risk of significant harm, my conclusion is the same. Given that the local authority could point to no evidence of the children having suffered significant emotional harm, the local authority would, in my view, have been unable to achieve a finding that there was a risk of significant harm on the evidence before the court. What was required to establish the likelihood of significant harm was a <span style="font-weight:bold">real possibility</span>, a possibility that could not sensibly be ignored having regard to the nature and gravity of the feared harm [<span style="text-decoration-line:underline;text-decoration-style:solid">Re H and Others (Child Sexual Abuse: Standard of Proof)</span> <ref href="#" uk:canonical="[1996] 1 FLR 80" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] 1 FLR 80</ref>]. As Mr Rowley QC put it in paragraph 9 of his position statement dated 26 June 2018, the father had held his beliefs for the entirety of the children&#8217;s lives and in 15 years Child A had suffered no harm thereby. There was no inductively reasoned basis for concluding that the future for these children would not resemble the past. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The threshold document dated 8 June 2018 contained some additional provisions with respect to Child A separate from the local authority&#8217;s prime contention that she, like her siblings, had suffered was likely to suffer significant harm arising from her parents&#8217; alleged extremist beliefs and radicalisation. In my view, those additional provisions were equally unlikely to satisfy the threshold criteria. For example, though Child A was not in a school setting for an extended period, it was doubtful that she was being &#8220;<span style="font-style:italic">kept out of education</span>&#8221; by her parents. The evidence was that the father was providing her with appropriate home schooling and was engaged with efforts to source suitable formal schooling provision. Likewise, there was no evidence that the parents had repeatedly told Child A that she was mentally unwell given that the local authority could only point to a single instance in the case of each parent of the use by them of an undoubtedly negative comment to Child A. Finally, the restrictions imposed by virtue of the TPIM were not attributable to the care given to Child A by her father not being what it would be reasonable to expect a parent to give to her and thus could not satisfy the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/31/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.31(2)</ref> attributability condition. I observe that, during these proceedings, it had not been suggested either by the local authority or by the second local authority that Child A should not live with the father in consequence of the TPIM conditions which had, in any event, now lapsed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In conclusion, I am satisfied that I must give permission to the local authority to withdraw the public law proceedings in respect of each of the children with whom I am concerned.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1">THE APPLICATION FOR COSTS</heading>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In her note dated 25 June 2018, Miss Fottrell QC stated the following: &#8220;<span style="font-style:italic">The mother invites the Court to consider carefully before any evidence is heard whether it should require the local authority to revise its approach. The mother will invite the Court to find that threshold is not met in this case. If she is correct in that assertion, it will be necessary to critically evaluate the excessive way in which the local authority has prosecuted its case</span>&#8221; [paragraph 53]. On behalf of the father, Mr Rowley QC filed a position statement dated 26 June 2018 which stated &#8220;<span style="font-style:italic">As we have consistently argued, this case should be withdrawn and the family be provided with the peace it has been denied through years of State intervention. It is still not too late for the local authority to revise its stance: if it fails to do so we will invite consideration at the conclusion of the case of the unreasonableness of its conduct of the litigation</span>&#8221;. On day three of the hearing, Mr Rowley QC confirmed that, if the local authority required the court to hold a fact-finding hearing and if the outcome of that hearing failed to establish that the threshold criteria were satisfied with respect to these children, the father would make an application for a costs order against the local authority. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By day seven of the proceedings and prior to which the local authority had indicated its intention to apply for permission to withdraw its applications for public law orders, the mother invited me in a written document dated 3 July 2018 to scrutinise the local authority&#8217;s conduct with a view to making a costs order requiring the local authority to pay for the mother&#8217;s legal costs. Though no parameters defining the extent of the costs order sought by the mother were set out in that document, Miss Fottrell QC confirmed during the course of submissions that she sought an order requiring the local authority to pay the mother&#8217;s publicly funded costs from 5 May 2018 [this being the day after the directions hearing on 4 May 2018 when the local authority was required to give careful consideration to the contents of its threshold document] until the date upon which the local authority indicated that it would apply for permission to withdraw the proceedings [day four of the hearing, 28 June 2018]. Mr Rowley QC confirmed the same position was advanced by the father. His written document dated 4 July 2018 submitted that the father&#8217;s decision to pursue a costs order against the local authority had been made following further reflection notwithstanding the local authority&#8217;s application to for permission to withdraw.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Neither parent had prepared a written statement in schedule form of the costs which it claimed from the local authority for the period in question. I permitted each parent a further 7 days to prepare and file such a document and gave the local authority an opportunity to respond in writing within the following five days. I did so because it seemed to me that the amount claimed was relevant to the exercise of the court&#8217;s discretion in deciding what order (if any) to make having regard to all the circumstances [Civil Procedure Rules 1998, Rule 44.2(4)]. On 11 July 2018, I received the mother&#8217;s schedule of costs in the sum of &#163;7,149.60 and, on 12 July 2018, the father&#8217;s schedule of costs in the sum of &#163;10,371.53. The total costs being claimed from the local authority thus amounted to &#163;17,521.13. I received no submissions from the local authority in response to the schedules of costs.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The Legal Context: Costs</span></heading>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By Rule 28.1 of the Family Procedure Rules 2010 [&#8220;the FPR&#8221;], the court may at any time make such order as to costs as it thinks just. The exercise of that discretion by the court is governed by the Civil Procedure Rules 1998 [&#8220;the CPR&#8221;] [see Rule 28.2(1)]. Rule 44.2(1) of the CPR provides that the court has a discretion to order a party to pay the costs of another party in such amount and in such time as may be determined. The general rule that costs follow the event is disapplied in family proceedings [Rule 44.2(2)(a) disapplied by Rule 28.1(1) of the FPR]. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">CPR Rule 44.2(4) provides that, in deciding what order (if any) to make about costs, the court will have regard to all the circumstances, including:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The conduct of all the parties;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Whether a party has succeeded on part of its case, even if that party has not been wholly successful; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Any admissible offer to settle made by a party which is drawn to the court&#8217;s attention, and which is not an offer to which costs consequences under Part 36 apply.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:0.39in">In <span style="text-decoration-line:underline;text-decoration-style:solid">Re S (A Child) (Costs: Care Proceedings)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/20" uk:canonical="[2015] UKSC 20" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 20</ref>, the Supreme Court held that, in children cases, the factor at Rule 44.2(4)(b) did not apply and that at Rule 44.2(4)(c) had only limited impact [see paragraph 17 ot its judgment].</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">CPR Rule 44.2(5) provides that the conduct of the parties includes:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Conduct before, as well as during the proceedings and in particular the extent to which the parties followed &#8230; any relevant pre-action protocol;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Whether it was reasonable for a party to raise, pursue or contest a particular allegation or issue;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The manner in which a party has pursued or defended its case or a particular allegation or issue; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Whether a claimant who has succeeded in the claim, in whole or in part, exaggerated its claim.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in"> It is unusual to make an order for costs in children&#8217;s cases though, even in care proceedings, there is no fixed or defined category of case within which it might be appropriate or just to award costs [<span style="text-decoration-line:underline;text-decoration-style:solid">Re S (A Child) (Costs: Care Proceedings)</span>, paragraph 31].  The general practice of not awarding costs against a party, including a local authority, in the absence of reprehensible behaviour or an unreasonable stance, is one that accords with the ends of justice and which should not be subject to an exception in the case of split hearings [<span style="text-decoration-line:underline;text-decoration-style:solid">Re T (Care Proceedings: Costs) (CAFCASS and Another Intervening)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2012/36" uk:canonical="[2012] UKSC 36" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKSC 36</ref> at paragraph 44].</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Re T (Care Proceedings: Costs) (CAFCASS and Another Intervening)</span> highlighted at paragraph 42 the duties imposed by the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> on local authorities in respect of the care of children: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">&#8220;&#8230; If the local authority receives information that a child has been subjected to or is likely to be subjected to serious harm it has a duty to investigate the report and, where there are reasonable grounds for believing it may be well founded, to instigate care proceedings. In this respect, the role of a local authority has much in common with the role of a prosecuting authority in criminal proceedings. It is for the court, and not the local authority, to decide whether the allegations are well founded. It is a serious misfortune to be the subject of unjustified allegations in relation to misconduct to a child but where it is reasonable that these should be investigated by a court, justice does not demand that the local authority responsible for placing the allegations before the court should ultimately be responsible for the legal costs of the person against whom the allegations are made.&#8221;</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in">In this particular case, those duties were supplemented by the local authority&#8217;s duty pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2015/6/section/26/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 26(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2015/6" uk:canonical="2015 c. 6" uk:origin="TNA" uk:type="legislation">Counter-Terrorism and Security Act 2015</ref> which states that, in the exercise of its functions, a specified authority must have due regard to the need to prevent people being drawn into terrorism. A local authority is a specified authority pursuant to Schedule 6 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2015/6" uk:canonical="2015 c. 6" uk:origin="TNA" uk:type="legislation">Counter-Terrorism and Security Act 2015</ref>.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There are a variety of reported authorities where costs have been awarded against a local authority where it has behaved unreasonably in its conduct of care proceedings. In <span style="text-decoration-line:underline;text-decoration-style:solid">Re R (Care: Disclosure: Nature of Proceedings)</span> <ref href="#" uk:canonical="[2002] 1 FLR 755" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 FLR 755</ref> Charles J made an order for costs against a local authority where allegations of sexual abuse against a number of parties were abandoned on day 13 of a hearing. In <span style="text-decoration-line:underline;text-decoration-style:solid">Coventry City Council v X, Y and Z (Care Proceedings: Costs)</span> <ref href="#" uk:canonical="[2011] 1 FLR 1045" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 FLR 1045</ref> a costs order was made after the local authority successfully applied for permission to withdraw on day 8 of a fact finding hearing listed for 20 days in circumstances where there was little or no material capable of satisfying the threshold criteria.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The Submissions of the Parties</span></heading>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I set these out in summary form. Both Miss Fottrell QC and Mr Rowley QC submitted that, given the ambit of the costs order for which they contended, my focus should properly be on the local authority&#8217;s conduct between 5 May and 28 June 2018. Both relied on the local authority&#8217;s abandonment, during the course of the process I undertook on day three of the hearing, of its case that the children had been significantly harmed by reason of their parents&#8217; beliefs contrary to what was stated in its opening note and its threshold document, as an example both of insufficient analysis by the local authority of its overall case and thereby unreasonable conduct. Having been invited by the court on 4 May 2018 to consider the causal connection between any finding sought and the harm suffered or likely to be suffered, the local authority simply failed to do so in circumstances where (a) there was no evidence that the children had actually been harmed and (b) where Child A had not suffered the alleged harm during 15 years of care by her parents. Further, the local authority&#8217;s application for permission to withdraw was made on an evidential foundation which was essentially unchanged since 4 May 2018. The Court&#8217;s exchanges with counsel for the local authority on day three of the hearing had forced the local authority to an analysis and an appraisal of its case which it should have engaged in prior to the start of the hearing. In essence, the local authority had been unreasonable in seeking to assert a case which it could never have proved. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Both Miss Fottrell QC and Mr Rowley QC also criticised the local authority for the manner in which it had presented its case. Both were highly critical of what they considered to be the tendentious tone adopted in the local authority&#8217;s documents. Thus, for example, the local authority&#8217;s opening note at paragraph 71 asserted that the parents had obstructed the child protection system during the involvement of three local authorities. The comprehensive schedule of local authority involvement prepared on behalf of the mother indicated that, on the dates noted, the mother was considered repeatedly by the local authority to have been co-operative. Largely the same observations were applied at the time to the father&#8217;s involvement with the local authority. Put simply, the overall presentation of the local authority&#8217;s case was founded on assertion rather than proper analysis of the evidence available to the court.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Miss Kirby submitted that it was not appropriate to make a costs order in this case as the local authority was obliged to pursue its threshold case to a hearing because there were conflicting decisions by judges of the Division about the evidence in cases involving parents with extremist beliefs and radicalised views. In <span style="text-decoration-line:underline;text-decoration-style:solid">A Local Authority v X, Y and Z (Permission to Withdraw)</span>, Macdonald J had come to the view that the local authority would have been unable to satisfy the threshold criteria whereas in another case Pauffley J had refused a local authority permission to withdraw the proceedings but, having heard the evidence, had decided that the threshold criteria were not made out [<span style="text-decoration-line:underline;text-decoration-style:solid">Re C (A Child: Application for Dismissal or Withdrawal of Proceedings) (No. 3)</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2017/37" uk:canonical="[2017] EWFC 37" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWFC 37</ref>]. The local authority relied on its dual duties pursuant to the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/2015/6" uk:canonical="2015 c. 6" uk:origin="TNA" uk:type="legislation">Counter-Terrorism and Security Act 2015</ref> as a rationale for its decision to pursue matters to a hearing rather than to apply earlier for permission to withdraw its application. Miss Kirby sought to blame the parents - the mother in particular - for failing to provide a threshold response until late in the proceedings and submitted that I should look at the conduct of all the parties throughout the proceedings rather than focussing on the period after 4 May 2018. Finally, Miss Kirby criticised the failure by both parents to provide a costs schedule. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Discussion</span></heading>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I concluded that, on the facts in this particular case, the threshold criteria for establishing either actual or likely significant harm to the five children simply could not have been crossed on the evidence before the court. Given that, the application by the local authority for permission to withdraw had to succeed. That is the context in which I am required to consider making a costs order against the local authority. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As a preliminary observation, I state clearly that the subject matter of these proceedings, namely harm arising from the allegedly extremist beliefs and radicalised behaviour of the parents, does not constitute a special category of care proceedings where local authorities are absolved from their obligation to scrutinise the evidence underpinning their threshold case. The duties imposed on the local authority by the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/2015/6" uk:canonical="2015 c. 6" uk:origin="TNA" uk:type="legislation">Counter-Terrorism and Security Act 2015</ref> are accepted by this court but the existence of those duties does not divest the local authority of its responsibilities (a) to demonstrate, having regard to the evidence and to the guidance given by the President in <span style="text-decoration-line:underline;text-decoration-style:solid">Re A</span> [see paragraph 29 above], why asserted facts justify the conclusion that a child has suffered or is likely to suffer significant harm of the type identified by the local authority; (b) to assist the court in furthering the overriding objective in Rule 1.1 of the FPR so that cases are, for example, dealt with expeditiously, fairly and in a proportionate manner; and (c) to confine the issues and evidence to what is reasonably considered necessary for the proper presentation of the case  [per Charles J at pages 772-774 of <span style="text-decoration-line:underline;text-decoration-style:solid">Re R (Care: Disclosure: Nature of Proceedings)</span>]. Finally, I note that the duties in the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> and the Counter-Terrorism Act 2015 do not undermine my jurisdiction to make a costs order in appropriate cases against a local authority.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Miss Kirby&#8217;s submission that the local authority was obliged to pursue its threshold case to a hearing because there were conflicting decisions by judges of the Division is not one I find persuasive. As I have already made clear, the local authority has an obligation to scrutinise the evidence underpinning its threshold case. Each case is intensely fact specific so analogies with other reported decisions concerning parents with alleged extremist beliefs are, in my view, of very limited value. There is no substitute for a careful and thorough analysis by the local authority before it decides whether to pursue its threshold case to a hearing. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Though Miss Kirby invited me to consider the relevance of the parties&#8217; conduct throughout the proceedings, this did not seem to be especially helpful given the parents&#8217; application for a costs order limited to the period between 5 May 2018 and 28 June 2018.  Addressing one of Miss Kirby&#8217;s complaints about the conduct of the parents, the mother failed to comply with the court&#8217;s direction to file her response to the local authority&#8217;s threshold document as directed on 26 March 2018 but did so on 13 April 2018 at the same time as she filed her detailed statement. The mother&#8217;s failure to respond as directed to the threshold document, whilst undesirable, was not fundamental in circumstances where the local authority comprehensively revised its threshold document on 8 June 2018. The other criticisms made by the local authority of the parents, such as the father&#8217;s objections to the disclosure of the TPIM conditions and the parents&#8217; witness requirements being notified/amended either late or unreasonably, did not amount in my view to problematic litigation conduct weighing decisively in the balance against the making of a costs order. To assert that, if the parents had co-operated, the proceedings need not have taken so long implied rather that the parents were being unreasonable in &#8211; as is their right - seeking to contest the threshold case advanced by the local authority. Indeed, Miss Kirby&#8217;s suggestion that I should look at the parties&#8217; conduct throughout the proceedings represented something of a double-edged submission for the local authority given that the advocates for both parents had been saying from the inception of the proceedings that the local authority could not establish its threshold case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It follows that I am satisfied, having considered the parties&#8217; conduct throughout the proceedings and the provisions of CPR Rule 44.2(5)(a), that there is nothing decisive about the overall litigation conduct which either supports or undermines the parents&#8217; application for a costs order.  Turning to CPR Rule 44.2(5)(b), I need to consider whether, with effect from 5 May 2018 onwards, it was reasonable for the local authority to pursue the threshold findings set out in its document dated 8 June 2018.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By my order dated 4 May 2018 I had required the local authority to give careful consideration to its threshold document and to consider, in particular, (a) the relevance of historic domestic violence allegations; (b) the evidential foundation for any allegation relating to school attendance/non-attendance and (c) the causal connection between any findings sought and the harm suffered or likely to be suffered. In its threshold document dated 8 June 2018, the local authority abandoned any reliance on historic domestic violence allegations or school attendance/non-attendance as matters capable of establishing the threshold criteria.  Thus, the local authority had done what it had been asked to do and had reflected upon the relevance of two of the matters listed in my order. Though I concluded, in giving permission to withdraw, that the local authority&#8217;s analysis of the nexus between parental beliefs and behaviour and actual/likely harm was inadequate, I am reluctant to hold that it was unreasonable for the local authority to pursue its threshold case from 5 May 2018 onwards.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Firstly, the local authority had reconsidered its position following the exchanges in court on day three of the hearing and had indicated on day four of the hearing its intention to apply for permission to withdraw its applications for public law orders in respect of all the children. Thus, this was not a case in which the local authority had embarked on a hearing and realised, during the course of the witness evidence, that its threshold case was incapable of being established. In addition, the circumstances of this case were very different indeed to the wholesale and significant failings identified of the local authorities in <span style="text-decoration-line:underline;text-decoration-style:solid">Coventry City Council v X, Y and Z (Care Proceedings: Costs)</span> and <span style="text-decoration-line:underline;text-decoration-style:solid">Re R (Care: Disclosure: Nature of Proceedings)</span>. Secondly, though the local authority came to a faulty analysis of its threshold case despite my direction on 4 May 2018, it would not be the first or the last local authority &#8211; or indeed, party - to recognise at a late stage that either its threshold case or other aspects of its case were untenable. To visit costs on a local authority in such circumstances would be akin to saying that any change of mind by a party during the course of children litigation was an admission of past error requiring a punitive response from the court. As a matter of public policy, such a stance by the court would render unreasonable the finely balanced judgments many local authorities have to take both before and during children litigation and undermine the general proposition that an order for costs is unusual in such proceedings. Finally, I observe that the local authority responded appropriately to the observations I made in court on day three of the hearing, thereby giving effect to its obligation, pursuant to Rule 1.1(3) of the FPR, to help the court further the overriding objective set out in Rule 1.1(1) of dealing with cases justly, having regard to any welfare issues involved.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I turn to consider CPR Rule 44.2(5)(c), namely the manner in which a party has pursued or defended its case or a particular allegation or issue. The parents criticised the local authority&#8217;s documents as demonstrating a confused approach to the evidence and relying on assertions which were not translated into its threshold documents. Thus, for example, in paragraph 28 of its opening note the local authority asserted that &#8220;<span style="font-style:italic">the way in which the children are being brought up by their parents puts them at risk of being subjected to terrorism measures, imprisonment and death</span>&#8221;, a proposition which Mr Rowley QC described as wholly unsubstantiated by the evidence and barely comprehensible. The criticism of the local authority documents was well made. The assertions made did not stand even preliminary scrutiny by the court given that the local authority, during the exchanges in court on day three, managed to contradict the contents of its own threshold document by asserting it no longer relied on past harm to establish its threshold case. The local authority&#8217;s muddled thinking about an inherently weak case translated into confused and overly tendentious documents which tried to justify - despite the evidence to the contrary &#8211; its prosecution of this case. It is fortunate that the local authority reconsidered its stance before the evidence began. However, I am not persuaded that this ground alone would justify a costs order even though I recognise that the parents will have been upset by the way in which the local authority presented its opening position.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Given that CPR Rule 44.2(5)(d) is not applicable in the context of this case, my analysis of the specific factors set out in Rule 44.2(5) and of &#8220;<span style="font-style:italic">all the circumstances</span>&#8221; [Rule 44.2(4)] does not support the making of a costs order against the local authority. I emphasise that the application made by Miss Fottrell QC and Mr Rowley QC was neither misconceived nor was it a long shot. There was much here in the local authority&#8217;s conduct to scrutinise with great care. Nevertheless, a costs order, even in the limited sum contended for, would have been unjust. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I make one final observation. Miss Kirby criticised the parents for failing to file a costs schedule prior to their application. That was a point well made because it is difficult to see how a court could come to a decision about costs in these circumstances without knowing the amount at stake. The amount of costs sought must form part of &#8220;<span style="font-style:italic">all the circumstances</span>&#8221; referred to in Rule 44.2(4) otherwise it is difficult to see how the court can come to a decision on what is just in the circumstances of a particular case [FPR Rule 28.1]. Thus, I disagree with Miss Fottrell QC that a decision on costs in cases of this sort can be made on principle without full knowledge of the sum involved. Before coming to my decision, I directed a process whereby each parent could provide a schedule of costs after I had heard their submissions and gave an opportunity for the local authority to comment thereon.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Unfortunately, neither Rule 28 of the FPR nor the provisions of the CPR make clear how a party in children proceedings, whether publicly funded or not, is to place information about the costs it seeks before the court. Practice Direction 44 to CPR Rule 44 contains, in section nine, general provisions about summary assessment of costs, a procedure available to the court - as paragraph 9.2(b) makes clear - &#8220;<span style="font-style:italic">at the conclusion of any other hearing, which has lasted not more than one day, in which case the order will deal with the costs of the application or matter to which the hearing related. If this hearing disposes of the claim, the order may deal with the costs of the whole claim</span>&#8221;. That summary process did not appear to be applicable in this case though I note that, in the context of a financial remedies case, Sir Peter Singer held that the power to make a summary assessment was not confined to a case listed for one day or less nor to cases involving modest amounts [<span style="text-decoration-line:underline;text-decoration-style:solid">Thiry v Thiry</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/4046" uk:canonical="[2014] EWHC 4046 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 4046 (Fam)</ref>]. That case had been listed for five days but had concluded within a day, the husband declining to be present or represented.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The provisions of paragraph 9.5 of Practice Direction 44 which provide for a schedule of costs to be prepared by the party claiming costs appear only to apply to the process for summary assessment. Until such time as there is revision or amendment of costs provisions in children proceedings, I suggest a pragmatic approach is adopted by those seeking to claim costs, whether publicly funded or not. They should prepare a schedule in accordance with the provisions of paragraph 9.5 of CPR PD 44 which incidentally would give the local authority not less than 24 hours before the hearing to consider this document. By that route, the court would have the necessary information available to it to make a just decision without the requirement for the claiming party to prepare a comprehensive and detailed schedule of costs such as is otherwise required for a detailed or comprehensive assessment. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="ParaLevel1">CONCLUSION</heading>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I conclude this judgment by thanking the advocates involved for their assistance in resolving these proceedings. Each said all that could be said in support of their respective cases and I am very grateful for the detailed and helpful written submissions that I received.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That is my decision.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

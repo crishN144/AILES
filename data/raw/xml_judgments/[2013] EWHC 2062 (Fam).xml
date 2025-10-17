@@ -1,0 +1,815 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2013/2062"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2013/2062"/>
+	  <FRBRdate date="2013-06-28" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2062"/>
+	  <FRBRname value="LA v ML &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2062"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2062"/>
+	  <FRBRdate date="2013-06-28" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2062/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/2062/data.xml"/>
+	  <FRBRdate date="2024-10-04T20:00:48" name="transform"/>
+	  <FRBRdate date="2024-11-27T09:56:42" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2013-06-28" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="la" href="" showAs="LA"/>
+	<TLCPerson eId="ml" href="" showAs="ML"/>
+	<TLCPerson eId="mq" href="" showAs="MQ"/>
+	<TLCPerson eId="sp" href="" showAs="SP"/>
+	<TLCPerson eId="mp" href="" showAs="MP"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-theis-dbe" href="/judge-mrs-justice-theis-dbe" showAs="MRS JUSTICE THEIS DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2013</uk:year>
+	<uk:number>2062</uk:number>
+	<uk:cite>[2013] EWHC 2062 (Fam)</uk:cite>
+	<uk:parser>0.26.5</uk:parser>
+	<uk:hash>ffe532a207aba83bd45956293c2bed38aed7262baf777ecb6acc4cda93aa3e06</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .lc { margin-right: 0.12in; font-family: Arial; font-size: 6pt; color: #666666; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><span style="font-size:10pt">This judgment is being handed down in private on 28th June 2013. It consists of 12 pages and has been signed and dated by the judge.</span></p>
+      <p style="text-align:center"><span style="font-size:10pt">The judgment is being distributed on the strict understanding that in any report no person other than the advocates or the solicitors instructing them (and other persons identified by name in the judgment itself) may be identified by name or location and that in particular the anonymity of the Children and the adult members of their family must be strictly preserved.</span></p>
+      <p class="CoverText">Case No: <docketNumber>UO13C00040</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2013] EWHC 2062 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2013-06-28" refersTo="#judgment">28/06/2013</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-theis-dbe">MRS JUSTICE THEIS DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Between:</span></p>
+      <table uk:widths="1.23in 3.68in 1.38in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#la" style="font-weight:bold;font-size:10pt">LA</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant" style="font-size:10pt">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><party as="#respondent" refersTo="#ml" style="font-weight:bold;font-size:10pt">ML</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-size:10pt">1st Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><span style="font-weight:bold;font-size:10pt">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><party as="#respondent" refersTo="#mq" style="font-weight:bold;font-size:10pt">MQ</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-size:10pt">2nd Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><span style="font-weight:bold;font-size:10pt">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><party as="#respondent" refersTo="#sp" style="font-weight:bold;font-size:10pt">SP</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent" style="font-size:10pt">3rd Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><span style="font-weight:bold;font-size:10pt">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><party as="#respondent" refersTo="#mp" style="font-weight:bold;font-size:10pt">MP</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent"><span style="font-size:10pt">4</span><span style="vertical-align:super;font-size:10pt">th</span><span style="font-size:10pt"> Respondent </span></role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.02in"><span style="font-weight:bold;font-size:10pt">The Centre for the International Protection of Children and Youth</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><span style="font-size:10pt">Intervenor</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-size:10pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Ms Geraldine More O'Ferrall </span><span style="font-size:10pt">(instructed by</span><span style="font-weight:bold;font-size:10pt"> Local Authority</span><span style="font-size:10pt">) for the </span><span style="font-weight:bold;font-size:10pt">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Mr Michael Hosford-Tanner</span><span style="font-size:10pt"> (instructed by </span><span style="font-weight:bold;font-size:10pt">Pritchard Joyce and Hinds</span><span style="font-size:10pt">) for the </span><span style="font-weight:bold;font-size:10pt">1st Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Mr David Williams Q.C. &amp; Mr Hassan Khan </span><span style="font-size:10pt">(instructed by </span><span style="font-weight:bold;font-size:10pt">Hopkin Murray Beskine</span><span style="font-size:10pt">) for </span><span style="font-weight:bold;font-size:10pt">3rd Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:10pt">Mr MQ- In Person</span></p>
+      <p style="text-align:center"><span style="font-size:11pt">Hearing date: 24th June 2013</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Judgment</p>
+      <p><span style="font-weight:bold">Mrs Justice Theis DBE:</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">It is important issues of jurisdiction are resolved without delay; in family cases where delay in making decisions is generally inimical to the Child&#8217;s welfare the court must be vigilant to avoid delay. This is particularly so in care proceedings, which by their nature involve interference in family life by the State.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">This case concerns the jurisdiction of this court to determine care proceedings concerning a young boy born on 26 June 2008 (the Child), who is nearly 5 years old. Proceedings were commenced on 4 March 2013, following the Child being taken into police protection on 1 March 2013. This was done due to injuries (including bruising) being observed on the Child&#8217;s back at school, which he indicated had been caused by his step father. He has been with foster carers since, pursuant to a series of interim care orders made in favour of the Local Authority (the LA).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">The Respondents to the application are the mother, ML (the mother), his step father MQ (the step father), the Child though his Children&#8217;s Guardian (the Guardian) and the Central Authority for the Slovak Republic (the Central Authority). The Child&#8217;s biological father SP (the father) lives in Slovakia. He has not been formally served with the proceedings, but is aware of their existence and the fact that the Child is placed with foster carers. Since being made aware of the situation he has requested the Child is returned to Slovakia.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">The issues I have to determine are whether this court has jurisdiction, and, if so, should the proceedings be transferred to Slovakia under Art 15 of Council Regulation (EC) No 2201/2003 (BIIR).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">The position of the parties can be summarised as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.62in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.62in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Ms More O&#8217;Ferrall, on behalf of the LA, upon whom the burden rests to establish jurisdiction, submits the Child was habitually resident here at the time this court was seised. In the event that can&#8217;t be established jurisdiction is established by presence, pursuant to Art 13 (1). Art 12 (3), she submits, is not applicable as the Slovakian jurisdiction had not been accepted in accordance with Art 12 (3) (b). In any event, she submits the court has jurisdiction under Art 20 to make interim protective measures. The LA initially supported the mother&#8217;s request for the proceedings to be transferred to Slovakia under Art 15. However, their position moderated to some extent in their oral submissions to support the Guardian&#8217;s position, that the fact finding should take place here, followed by re-consideration of the Art 15 transfer request at the conclusion of that hearing.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.62in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.62in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Hosford-Tanner on behalf of the mother, supported by the step father who acts in person, submits this court does not have jurisdiction, as the Child was not habitually resident here at the time these proceedings commenced. He acknowledges the court can still have jurisdiction under Art 13 or Art 20. He seeks a transfer of the proceedings to Slovakia, pursuant to Art 15. The mother returned to Slovakia (apparently without warning to the other parties) 3 weeks after these proceedings commenced. She was pregnant with her daughter, who she gave birth to in May in Slovakia. The step father is the father, although he remains in this jurisdiction as his immigration status does not enable him to travel to Slovakia.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.62in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.62in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Williams Q.C. and Mr Khan, on behalf of the Guardian, submit the issue regarding habitual residence has been raised very late. It was not the focus of the previous directions made by the court; the focus was on Arts 12 and 15. In any event, he submits, the court can determine habitual residence on the information available, which is established in this case so the court has jurisdiction under Art 8. If the court cannot do that jurisdiction is established under Art 13 (1), by the Child&#8217;s presence. He resists the application to transfer under Art 15. He submits the balance comes down, at this stage, on this court determining the discrete facts upon which these proceedings are based and to then re-consider the Art 15 request for a transfer at the end of that hearing. Under Arts 21 and 2 (4) he submits the judgment of the court regarding the fact finding would be enforceable in Slovakia.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-weight:bold">Background</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">The mother and father of the Child are both Slovakian nationals. They cohabited for a short time, but did not marry. The Child was born in Slovakia, and lived with his mother. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">Following an application made by the mother, the Slovakian court on 30 May 2011 granted the mother residence of the Child with contact to the father in the presence of the mother, together with an order for the father to pay maintenance for the Child. The evidence suggests he has had little contact with the Child. According to the mother he left when the Child was born and she has only seen him once since then. On 21 February 2012 the father applied to reduce his maintenance payments, that application is still outstanding.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">On 28 May 2012 the mother moved to England with the Child in order to pursue her relationship with the step father. They had met on the internet in early 2012. They married in a Muslim ceremony in the United Kingdom on 6 June 2012, followed by a civil ceremony on 29 August 2012.  They lived, together with the Child, at an address in east London. The Child started attending school and he and the mother were registered with a GP and the Child with a dentist. The evidence points to the mother coming here with the Child with the intention of settling in the UK.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">On 1 March 2013 the Child was accommodated with foster carers following a referral from his school which noted the Child had scratches, bruises and broken skin on his back. the Child indicated his step father had been responsible for the injuries.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Care proceedings were commenced on 4</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> March 2013, following investigation by social services and the police. The doctor who examined the Child concluded </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;in view of the distribution of the bruises and the presence of multiple bruises on the body, the injuries are perhaps less likely to be accidental.....However the exact mechanism of the bruises are unclear and the situation warrants further investigation&#8217;.</span><span style="font-family:'Times New Roman';font-size:12pt"> The mother&#8217;s explanation for the injuries is that the Child fell in onto a metal object which leaned against the garden wall in the back garden at the family home. According to the social worker&#8217;s statement, the mother and step father gave inconsistent accounts of their knowledge of the injuries. It is said on behalf of the mother that this could be down to language difficulties.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">An emergency protection order was granted on 4 March 2013 followed by an 8 week interim care order on 7 March 2013. The CMC hearing on 20 March 2013 was adjourned to 23 April 2013. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 10 March 2013 the mother contacted the Slovakian central authority informing it that the Child had been removed from her care and she wishes for the Child to be returned to Slovakia. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 26 March 2013 the mother left the UK and returned to live in Slovakia. It appears this was done without any prior notice to the other parties, or to the Child. Her statement dated 18 March 2013 makes no mention of this.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 16 April 2013 the Centre for the International Legal Protection of Children and Youth in the Slovak Republic (&#8216;the Central Authority&#8217;) sent an urgent request to the this court to intervene in these proceedings and for the Child to be placed in care in the Slovak Republic on the following grounds:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">the Child is a Slovak citizen</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Most of the Child&#8217;s relatives live in Slovakia</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.62in"><span style="font-family:'Times New Roman';font-size:12pt">The Slovak Republic is able to provide adequate social as well as medical </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">care for the Child</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Child has a particular connection with Slovakia</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(v)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">The Child would be under the constant supervisions of the competent </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">authorities</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(vi)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It is in the Child&#8217;s best interests</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 23 April 2013 HHJ Cox transferred the matter to the High Court for reasons of jurisdictional and international complexity.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 30 April 2013 the mother applied to the Slovakian court to change the child&#8217;s name.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> On 7 May 2013 the President gave comprehensive directions and listed the matter for  one day jurisdiction hearing on 21 June 2013. That order contained the following recital </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;Upon the mother indicating that she intends to pursue jurisdictional arguments in respect of Article 12 and Article 15 Brussels II Revised regulation (BIIR)&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 12 May 2013 the mother gave birth to a baby girl, the step father is said to be the father.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Central Authority filed two further documents; written statements dated 27 May  2013 and 19 June 2013. In addition, documents were filed from the proceedings in the Slovakian court and a report from the Central Office of Labour, Social Affairs and Family following visits to the family living in Slovakia.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">Legal framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There is little dispute between the parties about the legal framework. The dispute centres on the application of the relevant principles.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> A Member State which is governed by BIIR will have jurisdiction over a child habitually resident in that Member State at the time the court is seised (Art 8).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">P-J (Abduction: Habitual Residence: Consent) [2009] 2FLR 1051</span><span style="font-family:'Times New Roman';font-size:12pt"> Ward LJ set out the following 7 principles as being </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;firmly established&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt"> :</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">The term habitually resident is not to be treated as a term of art but is to be understood according to the ordinary and natural meaning of the words.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">In the domestic context there is no difference between &#8216;ordinary&#8217; and &#8216;habitual&#8217; residence.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;ordinarily resident&#8221; refers to a man&#8217;s abode in a particular place or country which he has adopted voluntarily and for settled purposes as part of the regular order of his life for the time being, whether of short or of long duration</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">The test is not where the &#8216;real home&#8217; is. There is a distinction to be drawn between being settled in a new place or country and being resident there for a settled purpose which may be fulfilled by meeting a purpose of short duration or one conditional upon future events. To ask whether the family are settled, in the sense of putting down substantial roots is a misdirection.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">&#8216;There is a significant difference between a person ceasing to be habitually resident in country A, and his subsequently becoming habitually resident in country B. A person may cease to be habitually resident in country A in a single day if he or she leaves it with a settled intention not to return to it but to take up long term residence in country B instead. Such a person cannot, however, become habitually resident in country B in a single day. An appreciable period of time and a settled intention will be necessary to enable him or her to become so. During that appreciable period of time the person will have ceased to be habitually resident in country A but not yet have become habitually resident in country B&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Habitual residence of a young child of married parents all living together as a family is the same as the habitual residence of the parents themselves and neither parent can change it without the express or tacit consent of the other or an order of the court</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(7)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Last but not least and certainly a point of importance for appellate courts reviewing the judgment below, whether or not a person is or is not habitually resident in a specified country is a question of fact to be decided by reference to all the circumstances of the particular case. The answer depends &#8216;more upon the evidence of matters susceptible of objective proof than upon evidence as to state of mind&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Re A (Area of Freedom, Security and Justice) (C-523/07) European Court of Justice <ref href="#" uk:canonical="[2009] 2 FLR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 2 FLR 1</ref></span><span style="font-family:'Times New Roman';font-size:12pt"> the ECJ said in relation to habitual residence:  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#535353">The concept of habitual residence under Art 8(1) of the regulation must be interpreted as meaning that it corresponded to the place which reflected some degree of integration by the Child in a social and family environment. To that end, in particular the duration, regularity, conditions and reasons for the stay on the territory of a Member State and the family&#8217;s move to that State, the Child&#8217;s nationality, place and conditions of school attendance, linguistic knowledge and the family and social relationships of the Child in that State must be taken into consideration. It was for the national court to establish the habitual residence of the Child, taking account of all the circumstances specific to each individual case.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In December 2011 in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Mercredi v Chaffe <ref href="#" uk:canonical="[2011] 1 FLR 1293" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 FLR 1293</ref></span><span style="font-family:'Times New Roman';font-size:12pt"> the Court of Justice of the European Union effectively endorsed the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Re A</span><span style="font-family:'Times New Roman';font-size:12pt"> definition, albeit with more detail.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> Although English courts have stated habitual residence cannot be lost absent consent of all the holders of parental responsibility to the presence of a child in another jurisdiction the wording in BIIR suggests the absence of parental consent is not an absolute bar. For example, in Art 12 to jurisdiction being accepted expressly </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;or otherwise in an unequivocal manner&#8217;.</span><span style="font-family:'Times New Roman';font-size:12pt"> In addition, the decisions of Peter Jackson J in  </span><a href="http://www.bailii.org/ew/cases/EWHC/Fam/2012/3363.html" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">I (Habitual Residence), Re </a><a href="http://www.bailii.org/ew/cases/EWHC/Fam/2012/3363.html" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/3363" uk:canonical="[2012] EWHC 3363 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 3363 (Fam)</ref></a><span style="font-family:'Times New Roman';font-size:12pt"> (03 December 2012) </span><a href="http://www.bailii.org/ew/cases/EWHC/Fam/2012/3364.html" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">J (Habitual Residence), Re </a><a href="http://www.bailii.org/ew/cases/EWHC/Fam/2012/3364.html" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/3364" uk:canonical="[2012] EWHC 3364 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 3364 (Fam)</ref></a><span style="font-family:'Times New Roman';font-size:12pt"> (03 December 2012)      provide support for the proposition that habitual residence is not determined by reference to intentions alone.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Article 12 (3) provides a mechanism where holders of parental responsibility over a child can agree that a court other than that of habitual residence should determine disputes between them. In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Re I (A Child)(Contact Application: Jurisdiction) <ref href="#" uk:canonical="[2010] 1 FLR 361" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 1 FLR 361</ref></span><span style="font-family:'Times New Roman';font-size:12pt"> the Supreme Court considered Art 12 (3), albeit in the context of issues of consent and its relevance where the other state concerned was not an EU member state.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Maintenance and name change are excluded from BIIR (Articles 1 (3) (c) and (e)). Article 12 (3) suggests that the jurisdiction that may be prorogued is confined to the subject matter of the proceedings, rather than </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;any matter of PR&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt"> which is covered by Article 12 (1). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> Jurisdiction based on the Child&#8217;s presence can be established under Article 13 (1) </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;Where a child&#8217;s habitual residence cannot be established and jurisdiction cannot be determined on the basis of Article 12&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> Article 15 permits a transfer of a case to a court better placed to hear the case where it is in the interests of the Child and the Child has a particular connection with the other Member State.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">AB</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> v </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">JLB (Brussels II Revised: Article 15)</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> <ref href="#" uk:canonical="[2009] 1 FLR 517" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 FLR 517</ref></span><span style="font-family:'Times New Roman';font-size:12pt"> Munby J (as he then was) set out considerations for the court under Article 15(1). </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Firstly, the court must determine whether the Child has a &#8216;particular connection&#8217; with the other Member state. This is a simple question of fact.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">Secondly, it must determine whether the court of that other Member State would be better placed to hear the case or a specific part of it. This is an evaluation in all the circumstances of the case. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt"> Thirdly, it must determine if a transfer to the other court &#8216;is in the best interests of the Child.&#8217; This again involves an evaluation undertaken in the light of all the circumstances of the particular child.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This issue has recently been considered by Mostyn J in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">Re T (A Child: Article 15 of BIIbis)</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/521" uk:canonical="[2013] EWHC 521 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 521 (Fam)</ref>. </span><span style="font-family:'Times New Roman';font-size:12pt">He set out the following principles relating to Article 15. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.33in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">the burden is upon the person applying to establish that a stay of the proceedings is appropriate;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.33in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">the applicant must show not only that England is not the natural or appropriate forum but also that the other jurisdiction is clearly the more appropriate forum;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.33in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">in assessing the appropriateness of each forum, the court must discern the forum with which the case has the more real and substantial connection in terms of convenience, expense and availability of witnesses;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.33in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">&#160;if the court were to conclude that the other forum was clearly more appropriate, it should grant a stay unless other more potent factors were to drive the opposite result; and&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(e)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.33in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">in the exercise to be conducted at (d), the welfare of the Child is an important, but not a paramount, consideration.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Mostyn J then considered the scope of the best interests enquiry mandated by Article 15. He concluded it did not involve a profound investigation, but an attenuated one. By virtue of the use of the word &#8216;may&#8217; in article 15(1), the court of the Member State with jurisdiction, having considered the above questions, then has a discretion as to whether or not to transfer the proceedings. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">Submissions </span></p>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">Habitual residence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The LA, supported by the Guardian, submits the court can determine habitual residence. They submit the evidence establishes that the Child moved here with his mother on an indefinite basis to make his life with his mother and step-father. They made their home together and the Child was enrolled and attended school. The mother&#8217;s move, with the Child, in June 2012 was plainly indefinite or permanent.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">They submit there was no apparent objection to this move by the Child&#8217;s father. His application in the Slovakian courts was to reduce maintenance but, significantly, he did not subsequently seek the return of the Child to Slovakia. In his letter dated 12 April 2013, sent via the Central Authority, he requests the return of the Child to Slovakia but it is clearly on the basis of his objections to the Child being placed with foster carers, rather than due to the Child moving to the United Kingdom with his mother in June 2012.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The mother submits she would not have the right to unilaterally change habitual residence. She has no firm connection with England, so change, she submits, would be slow, if at all over the period of 8 months.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">Article 13</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">If the court was not able to determine habitual residence then the LA, supported by the Guardian, submits the court can determine that habitual residence cannot be established under Art 13 (1) and jurisdiction is conferred on this court by the Child&#8217;s presence. It was submitted this could cover a situation where the evidence in relation to habitual residence was equivocal. For example, this court could conclude that the evidence establishes habitual residence of the Child was not in Slovakia and is probably here, but it is not possible to determine whether habitual residence had been acquired here at the relevant time. Mr Hosford-Tanner, on behalf of the mother, did not dispute this analysis, but said the court had to be careful not to use it as a fall back in cases where habitual residence can&#8217;t be established.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">Article 12</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This was not strenuously pursued by Mr Hosford-Tanner, as he accepted the maintenance application made by the father in Slovakia was not caught by BIIR (Art 1 (3) (e)) and the application to change the Child&#8217;s surname was made after the court was seised here. There was an issue between the parties, in any event, as to whether the proceedings to change the surname would be sufficient to invoke Art 12 (3). The LA and the Guardian said not, as those proceedings were excluded from BIIR by virtue of Art 1 (3) (c). Mr Hosford-Tanner did not challenge that but submitted it could be said that as all proceedings relating to the Child had been taken by those with parental responsibility in Slovakia it could possibly be caught by Art 12.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">Article 15</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> It is accepted the burden of proof rests on the mother. She submits this is a Slovak family, their first language is Slovak, the Child&#8217;s mother and father are in Slovakia, previous proceedings relating to the Child have been there, the Child&#8217;s half siblings are there and welfare decisions should be made by the Slovak court together with the importance of continuity of judge.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Guardian, supported by the LA, submits in exercising the court&#8217;s discretion the balance tips in favour of this court undertaking the fact finding exercise here to determine the circumstances in which the Child came to suffer injury. That decision is better taken here where the Child is habitually resident and the bulk of the evidence is available in this jurisdiction. Arrangements can be put in place for the mother to return to give evidence or participate in that hearing via a video link. They accept the court must then re-consider whether to transfer the proceedings under Art 15.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">Discussion and conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> Habitual residence is a question of fact. There is little dispute about the core facts in this case. There is no issue that the mother came to this jurisdiction with the Child in order to pursue her relationship with the step father. She married him in a religious ceremony within 9 days of her arrival, followed a matter of 10 weeks later by a civil ceremony. There is nothing in the evidence to suggest they were planning to return to Slovakia, either before or after the birth of their child. The step father would not be able to go to Slovakia and he does not speak Slovak. They set up home together here with the Child and he attended school, with no suggestion it was time limited. He was registered with a GP and a dentist. There is nothing to counter the conclusion that this was a long term relationship which was going to be pursued in this jurisdiction. The mother quickly fell pregnant with the step father&#8217;s child.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> That view is fortified by the fact that the step father is not able to travel to Slovakia, due to his immigration status.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At no stage in her written evidence does the mother suggest that the Child came to this jurisdiction without the knowledge of the father. This is supported by the letter written by the father when he was informed about the position by the Central Authority after these proceedings had been commenced. He sought the return of the Child to Slovakia, notably on the basis that he did not agree with the Child being placed with foster carers, not that he had been wrongly removed to or retained in this jurisdiction.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The evidence, in my judgment, clearly points to the mother coming here with the Child with the intention of settling in the UK. They did settle here and at the time these proceedings were commenced were habitually resident here. The father took no steps, either before or after the proceedings were commenced to suggest the Child and the mother came here without his consent. He took no steps to require the mother and the Child to return to Slovakia prior to 1 March 2013, despite the fact that they had been here for 9 months. The court is entitled to infer from this that he unequivocally accepted and acquiesced to her removing the Child to this jurisdiction.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Therefore, I find that the LA have established to the required standard that it is more likely than not that the Child was habitually resident in this jurisdiction at the time this court was seised.. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In those circumstances it is not necessary to determine the position under Art 13 (1) although there can be little doubt that this case would fall within that Article.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I am satisfied that in this case Art 12 (3) does not apply. There is no evidence the jurisdiction of the courts of Slovakia has been expressly accepted or otherwise in an unequivocal manner by the mother and father of the Child. The proceedings that have been issued in Slovakia regarding the Child are not covered by BIIR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Turning to Art 15 I accept the decision whether to transfer the proceedings is finely balanced. This is well illustrated by the position of the LA, which was relatively firm in support of the mother on paper, but having had sight of the written submissions on behalf of the Guardian and following oral submissions were more equivocal and, in the end, supported the Guardian when it became clear that a fact-finding hearing could take place within three weeks.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> There are powerful factors that push the court towards requesting the Slovakian courts to assume jurisdiction. They include:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">The nationality of the Child&#8217;s biological parents and the Child;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Slovakian is the first language of the Child and his parents;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.62in"><span style="font-family:'Times New Roman';font-size:12pt">Both the Child&#8217;s parents are now in Slovakia;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Child&#8217;s wider family, including his half siblings are in Slovakia;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(v)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">There are benefits in having judicial continuity from the start, although this </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">is not an absolute rule. In this case where there is a discrete factual </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">foundation it is perhaps not as important as in a case where there is long </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt">term factual foundation to the proceedings, such as long term neglect.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> However, there are, in my judgment and in the exercise of my discretion, considerations that make the gravitational force of the proceedings remaining here more persuasive, at least until the conclusion of the next hearing. They include:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Times New Roman';font-size:12pt">The need to determine the circumstances in which the Child came to suffer injury. That can take place at a hearing in just over two weeks time before me, so there will be minimal delay.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">That determination is important as it is the foundation for jurisdiction in this case. If the facts do not meet the required standard under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/38" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 38</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (that there are reasonable grounds for believing the Child has suffered significant harm attributable to the care of his parents, not being what it would be reasonable to expect them to give him) there is no basis for the proceedings to continue. In those circumstances there would be no proceedings to transfer.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.62in"><span style="font-family:'Times New Roman';font-size:12pt">The majority of the evidence is in this jurisdiction. The events relied upon took place in this jurisdiction, were investigated in this jurisdiction and, save for the mother, all the relevant evidence is available here. Arrangements can be put in place to enable the mother to participate in the hearing, and give evidence, either by travelling here or by joining the hearing by telephone and video link. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in">(iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There was nothing to be gained by making a transfer request now, as was submitted by Mr Hosford-Tanner, in tandem with this court conducting the fact finding hearing. Parallel enquiries are going to be made that will enable there to be a swift transfer request, if that is the conclusion at the end of the next hearing. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> There is support for the court dealing with part of a hearing, in circumstances similar to this. </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">In Re S (Care: Jurisdiction) <ref href="#" uk:canonical="[2009] 2 FLR 550" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 2 FLR 550</ref></span><span style="font-family:'Times New Roman';font-size:12pt">, albeit in the more limited context of Article 20, Charles J said as follows: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:0.75in">(4)</num>
+	    <content>
+	      <p class="lc" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial">Under Art 20 it would be unusual for a court to embark upon fact-finding hearings; rather the court should focus upon: (i) identifying the range of possible issues and risks for decision by the foreign court; and (ii) putting in place appropriate interim measures to minimise harm arising from the materialisation of such risks until further decisions were made by the foreign court. </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:initial">However, it might be appropriate for the English court to make findings of fact in respect of any relevant incident that had taken place in the UK.</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial"> It would be inappropriate in this case for the court to make findings as to the risks of re-trafficking and reprisals, or to determine issues under Art 16(7) of the Trafficking Convention, as to the Child&#8217;s best interests. The English court should leave such matters to the Romanian court, respecting the fact that under Brussels II Revised the Romanian court and authorities were the appropriate decision-makers (see paras [63], [64], [67], [82], [84], [89]).[emphasis added] </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> In this case, where I have determined this court has primary and substantive jurisdiction over the Child, it makes it even more appropriate that this court conducts the fact finding element. Making such a determination is important to the Child&#8217;s welfare, whether he remains in this jurisdiction or whether he returns to Slovakia.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> Therefore the mother has not, at this stage, discharged the burden on her to demonstrate that the requirements under Art 15 are met in such a way to enable the court to exercise its discretion to request that the proceedings are transferred to Slovakia. For the reasons outlined above, whilst I consider the Child clearly has a connection with Slovakia, the courts there would not in my judgment be a better place to determine the cause of the injuries to the Child, this jurisdiction is, and his welfare requires that to take place here.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> I shall therefore make the necessary directions to ensure the hearing in two weeks is effective and adjourn the Art 15 application until the conclusion of that hearing. I have directed that detailed enquiries are made through the Central Authority to ensure that in the event of the court making a transfer the practical arrangements are in place without undue delay.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Although not pre-determining the application in any way, and subject to the factual determination by the this court, if these proceedings continue to the welfare stage on the information the court has available now the discretionary balance may well tip in favour of the proceedings being transferred to Slovakia.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

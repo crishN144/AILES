@@ -1,0 +1,813 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/1836"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2014/1836"/>
+	  <FRBRdate date="2014-06-06" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1836"/>
+	  <FRBRname value="DH v CL &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1836"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1836"/>
+	  <FRBRdate date="2014-06-06" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1836/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2014/1836/data.xml"/>
+	  <FRBRdate date="2024-10-27T23:02:21" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2014-06-06" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" showAs="The Family Division of the High Court" shortForm="The Family Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="dh" href="" showAs="DH"/>
+	<TLCPerson eId="cl" href="" showAs="CL"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A Local Authority"/>
+	<TLCPerson eId="ml-and-et" href="" showAs="ML and ET"/>
+	<TLCPerson eId="ll-by-his-childrens-guardian" href="" showAs="LL (by his Children&#8217;s Guardian)"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-cobb" href="/judge-mr-justice-cobb" showAs="MR JUSTICE COBB"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2014</uk:year>
+	<uk:number>1836</uk:number>
+	<uk:cite>[2014] EWHC 1836 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>9a4c050ecc80b3282e3f4be68f629cb2e4ccf779ecfdded68c69bc3144912d5d</uk:hash>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+#judgment .Emphasis { font-style: italic; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+      <p class="CoverText">Case No: <docketNumber>TE13C00320</docketNumber></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2014] EWHC 1836 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Middlesbrough Combined Court</p>
+      <p class="CoverText">Date: <docDate date="2014-06-06" refersTo="#judgment">06/06/2014</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-cobb">MR JUSTICE COBB</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#dh" as="#applicant" style="font-weight:bold">DH</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#cl" as="#respondent" style="font-weight:bold">CL</party></p>
+	    <p style="text-align:center"><party refersTo="#a-local-authority" as="#respondent" style="font-weight:bold">A Local Authority </party></p>
+	    <p style="text-align:center"><party refersTo="#ml-and-et" as="#respondent" style="font-weight:bold">ML and ET</party></p>
+	    <p style="text-align:center"><party refersTo="#ll-by-his-childrens-guardian" as="#respondent" style="font-weight:bold">LL (by his Children&#8217;s Guardian)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Helen Gamble </span>(instructed by<span style="font-weight:bold"> Miles Hutchinson &amp; Lithgow</span>) for the father, DH</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Rebecca Stokes-Herbst</span> (instructed by <span style="font-weight:bold">Watson Woodhouse</span>) for the mother, CL</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mrs Elaine Averis </span>(instructed by<span style="font-weight:bold"> Tilly Baily &amp; Irvine</span>) for the maternal grandparents, ML &amp; ET</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Lesley McKenzie </span>(instructed by<span style="font-weight:bold"> Local Authority Solicitor</span>) for the Local Authority</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Phil Mitchell </span>(instructed by<span style="font-weight:bold"> Donnelly McArdle Adamson</span>) for the Children&#8217;s Guardian </p>
+      <p style="text-align:center">Hearing dates: <span style="font-weight:bold">14-16 May 2014</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">The Honourable Mr Justice Cobb:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Introduction &amp; summary</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By application dated 9 October 2013, DH, the father of a 7&#189; year old boy, LL (L), seeks the permission of the court permanently to remove L from this jurisdiction to live abroad.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This relocation application is unusual in at least two respects:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The proposed future home for L is in the Kurdistan Region of Iraq (the semi-autonomous state in the north-east corner of Iraq) (&#8216;Kurdistan&#8217;); the father fled from this region some 12 years ago as an asylum seeker; he now wishes to return;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">There is (or, more accurately, was &#8211; see [7] below) a real prospect that were I to refuse the application, the father would return to Kurdistan without L. For reasons summarised below, L&#8217;s mother is not able (and does not put herself forward) to care for L.  L&#8217;s grandparents offer to care for him in England, but their proposal is not without difficulties, and does not attract the support of the local authority or L&#8217;s guardian.  There is a local authority application for a public law order which would become active if L were left here by his father; L faces a real prospect of a childhood in long-term foster care if he remains in England. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">DH (&#8220;the father&#8221;) is an Iraqi Kurd.  He arrived in England in 2002, aged 15, as an asylum seeker, and in 2011 obtained British Citizenship.  He currently works in a fast-food restaurant in a town in the north-east of England.  L&#8217;s mother, CL (&#8220;the mother&#8221;) is English and resides in the same town as the father.  L is their only child; the parties never married, though the father has parental responsibility by virtue of an order made on 13<span style="vertical-align:super;font-size:smaller">th</span> April 2010.  Each parent has another child; the father has a daughter (T) aged 7, who lives with her mother.  The mother has a son (W) aged 2, who lives with his father, under a care order.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father&#8217;s application is not in fact the first in time; it was issued immediately following an application for a care order issued by &#8216;A&#8217; Local Authority under <span style="font-style:italic">Part IV</span> of the <span style="font-style:italic">Children Act 1989 </span>(4 October 2013); it has been agreed by all parties that I should determine this private law application as the lead application. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In determining the issue, I heard oral evidence over three court days &#8211; from the father, the mother, the maternal grandparents, and from social work professionals.  I heard from L&#8217;s guardian.  By secure video-link established to Erbil, the capital of the Kurdistan region, I received the oral evidence of three members of the father&#8217;s family.  The oral evidence of the paternal family members supplemented written statements; although the preparation of these statements did not strictly comply with the guidance given by Peter Jackson J in <span style="font-style:italic">NN v ZZ &amp; Others</span> [2013] EWHC 2261 (Fam), I was nonetheless satisfied (on reading the statements, hearing the witnesses, and receiving the detailed written evidence of the solicitor who obtained the statements) that they were evidentially sound.  The paternal family gave evidence by way of secure link provided by &#8216;eyenetwork.com&#8217;, a global video-conferencing service, in accordance with the guidance in <span style="font-style:italic">Re ML (Use of Skype Technology)</span> [2013] EWHC 2091 (Fam).  With respect to the preparation of the relevant written evidence and the arrangements for receiving the oral evidence from Erbil, I wish to record my appreciation to the father&#8217;s solicitor, and (in respect of the video-link) additionally to the court staff at Middlesbrough Combined Court, for attending to these issues so conscientiously.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have also received written reports from an anthropologist (Roger Ballard) who reported on the current political and social climate in Kurdistan, from a contemporary Kurdish writer and specialist in the socio-political situation in the Middle East (Dr. Rebwar Fatah) and from CFAB (Children and Families Across Borders).   I also have reports from an independent social worker (Paul Greenhalgh), following his assessments of the maternal grandparents.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At all preparatory stages of this application, and indeed when the hearing began, the mother and maternal grandparents were firmly opposed to the father&#8217;s application, and his plans to remove L from this jurisdiction; although neither the mother nor the grandparents sought to disturb the current arrangement whereby L has his primary home with his father in England, they proposed that L should move to live with the grandparents if the father relocated to Kurdistan without L.  Their position was argued vigorously throughout the hearing, and they gave evidence to this effect.  At the conclusion of the evidence and before the closing submissions of the advocates, I was advised that the mother had reflected on the evidence, and, that while she continued to have concerns about aspects of the father&#8217;s relocation plan, she had resolved no longer actively to oppose the application.  The grandparents, through Mrs Averis, indicated that they would wish to support their daughter in her decision, notwithstanding the pain which that decision plainly brought them.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I should add that L&#8217;s guardian (who has been involved in proceedings concerning L on and off for over 4 years) supported the father&#8217;s application, as did the local authority,</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Given that the mother did not formally consent to the removal, and given the obvious concern of the local authority and the grandparents, I deliver this judgment to set out my reasons for granting the father the relief he seeks &#8211; a decision which I made known to the parties at the conclusion of the hearing, following the abbreviated submissions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Specifically, I made a child arrangements order under <span style="font-style:italic">section 8 </span>confirming that L lives with his father; and granted the father&#8217;s application permanently to remove L to live in Kurdistan with effect from the end of the school summer term here (July 2014).  I also made further <span style="font-style:italic">section 8</span> child arrangements orders specifying the periods of time which L would spend with his mother and grandparents (a) before relocation and (b) after relocation.  I set out the orders more fully below.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Relevant legal principles </span></heading>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A<span style="color:#000000">t the date of the application, L was (albeit briefly as it turned out) the subject of an interim care order</span>, accordingly the application was not made under <span style="font-style:italic">section 13 CA 1989</span> (as recently amended by <span style="font-style:italic">para.22 Schedule 2 </span>of the <span style="font-style:italic">Children and Families Act 2014</span>), as &#8211; perhaps &#8211; it may have been, but was for a specific issue order<span style="color:#000000">.  That said, L had been in the primary care of his father since 2010, and for almost all of that period under the auspices of a residence order. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In determining this application, I have adopted and applied the following legal principles:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">As I am required by statute, I determine L&#8217;s future by giving primacy to L&#8217;s best interests (<span style="font-style:italic">section 1(1) CA 1989</span>).  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">In applying the test in (i) above, I have had specific regard to the factors relevant to his welfare adumbrated in <span style="font-style:italic">section 1(3)</span> ibid.   </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The welfare principles summarised above in (i) and (ii) govern applications for international relocation just as they govern other welfare-based determinations concerning children. This is the essence of the Court of Appeal&#8217;s judgments in <span style="font-style:italic;color:#000000">K v K (Relocation: Shared Care Arrangement) </span><span style="color:#000000">[2011] EWCA Civ 793 [2012] 2 FLR 880, which laid to rest any notion that there should be a determinative presumption in favour of such an application.  As Black LJ said at &#167;141: </span></p>
+		<block name="embeddedStructure">
+                  <embeddedStructure>
+		    <level>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in"><span style="color:#000000">&#8220;</span><span style="font-style:italic;color:#000000">the principle &#8211; the </span><span class="Emphasis" style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">only</span><span class="Emphasis" style="font-style:normal;color:#000000"> </span><span style="font-style:italic;color:#000000">authentic principle &#8211; that runs through the entire line of relocation authorities is that the welfare of the child is the court's paramount consideration. Everything that is considered by the court in reaching its determination is put into the balance with a view to measuring its impact on the child</span><span style="color:#000000">.&#8221;</span></p>
+		      </content>
+		    </level>
+		    <level>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.68in;text-indent:-0.5in"><span style="color:#000000">Adding (&#167;143)</span></p>
+		      </content>
+		    </level>
+		    <level>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in"><span style="color:#000000">&#8220;</span><span style="font-style:italic;color:#000000">I detect in</span><span style="color:#000000"> [Dame Elizabeth Butler Sloss P&#8217;s] </span><span style="font-style:italic;color:#000000">discussion of the factors and in her summary at para [85] </span><span style="color:#000000">[in </span><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Payne v Payne [2001] 1 FLR 1052</span><span style="color:#000000">] </span><span style="font-style:italic;color:#000000">no weighting in favour of any particular factor. She said that the reasonable proposals of the parent with a residence order wishing to live abroad carry &#8216;great weight' whereas the effect on the child of denying contact with the other parent is &#8216;very important' but I do not infer from that phraseology any loading in favour of the reasonable proposals as opposed to the effect of the loss of contact</span><span style="color:#000000">.&#8221;</span></p>
+		      </content>
+		    </level>
+		    <level>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.68in;text-indent:-0.5in"><span style="color:#000000">And (&#167;145)</span></p>
+		      </content>
+		    </level>
+		    <level>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in"><span style="color:#000000">&#8220;</span><span style="font-style:italic;color:#000000">When a relocation application falls to be determined, all of the facts need to be considered</span><span style="color:#000000">.&#8221;</span></p>
+		      </content>
+		    </level>
+		  </embeddedStructure>
+                </block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">I have considered the positives and negatives, the benefits and detriments, of the relevant placement options for L by reference to the evidence and the welfare checklist factors (following and adapting the approach in see <span style="font-style:italic">Re W</span> [2013] EWCA Civ 1227 &#167;78).  I have guarded against adopting a linear approach to this exercise (as discussed by McFarlane LJ in <span style="font-style:italic">Re G</span> [2013] EWCA Civ 965), which</p>
+		<block name="embeddedStructure">
+                  <embeddedStructure>
+		    <level>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in"><span style="font-style:italic">&#8220;&#8230; is not apt where the judicial task is to undertake a global, holistic evaluation of each of the options available for the child's future upbringing before deciding which of those options best meets the duty to afford paramount consideration to the child's welfare</span>&#8221; (&#167;50).</p>
+		      </content>
+		    </level>
+		  </embeddedStructure>
+                </block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in">That said, in the overall evaluation of the competing outcomes for L, I have attached significance and importance to the particular and special relationship which L enjoys with each of his parents.  This point has particular relevance to these facts given the stark alternative either of L having his home with his father abroad, or living with a grandparent or foster carers in this country.  I approach this particular issue by following the guidance offered by the House of Lords in <span style="font-style:italic;color:#000000">Re G</span><span style="color:#000000"> [2006] UKHL 43, [2006] 2 FLR 629, and the Supreme Court in </span><span style="font-style:italic">Re B</span> [2009] UKSC 5, [2010] 1 FLR 551.  In <span style="font-style:italic">Re G</span> Baroness Hale <span style="color:#000000">observed:</span></p>
+		<block name="embeddedStructure">
+                  <embeddedStructure>
+		    <level>
+		      <content>
+			<p class="ParaLevel2" style="margin-left:1.18in">&#8220;<span style="font-style:italic">that</span><span class="Emphasis" style="color:#000000"> </span><span class="Emphasis" style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">the fact of parenthood is to be regarded as an important and significant factor in considering which proposals better advance the welfare of the child</span>. <span style="font-style:italic">Such fact does not, however, establish a presumption in favour of the natural parent, nor generate a preferential position in favour of the natural parent from which the Court commences its decision making process&#8230; Each case should be determined upon an examination of its own merits and of the individuals there involved</span>.' (Emphasis, by underlining, in the original).</p>
+		      </content>
+		    </level>
+		  </embeddedStructure>
+                </block>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ParaLevel1" style="margin-left:1in">The point was further and specifically explored in <span style="font-style:italic">Re B</span> [2009] in which Lord Kerr (at &#167;37, giving the judgment of the court) said:</p>
+		  <block name="embeddedStructure">
+                    <embeddedStructure>
+		      <level>
+			<content>
+			  <p class="ParaLevel1" style="margin-left:1.18in"><span style="color:#000000">&#8220;</span><span style="font-style:italic;color:#000000">All consideration of the importance of parenthood in private law disputes about residence must be firmly rooted in an examination of what is in the child's best interests. This is the paramount consideration. It is only as a contributor to the child's welfare that parenthood assumes any significance. In common with all other factors bearing on what is in the best interests of the child, it must be examined for its potential to fulfil that aim. There are various ways in which it may do so, some of which were explored by Baroness Hale in </span><span class="Emphasis" style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Re G</span><span style="font-style:italic;color:#000000">, but the essential task for the court is always the same</span><span style="color:#000000">.&#8221;</span></p>
+			</content>
+		      </level>
+		    </embeddedStructure>
+                  </block>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">I bear very much in mind that the facts of this case engage L&#8217;s rights to respect for a private and family life under <span style="font-style:italic">Article 8</span> of the <span style="font-style:italic">ECHR</span>.  This is reflected by his right to a family life with his father, whether here or abroad; but he also has a right to family life with his maternal family, and indeed with his half-siblings (with whom he has had only reasonably limited contact in recent times).  L&#8217;s <span style="font-style:italic">Article 8</span> rights are not merely theoretical, but real and dynamic rights, deserving of the closest attention.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally, in relation to the legal principles engaged, I have had to consider issues of recognition and enforcement abroad of any order I make here.  In this regard, I have been provided with a report from the jointly instructed expert Dr. Rebwar Fatah.  Iraq is not a signatory to the Hague Convention, and he advises that: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Article 16 of the Iraqi Civil Code makes plain that &#8220;<span style="font-style:italic">foreign judgments issued by foreign courts are not subject to enforcement in Iraq unless it was deemed otherwise by a specific law</span>&#8221;;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The authorities of Iraq or the Iraqi Kurdistan Region will not recognise the order made here &#8220;<span style="font-style:italic">unless an application for the foreign order to be enforced is made with </span>(sic.) <span style="font-style:italic">the presence of both parties</span>&#8221;; I interpolate here that this is unlikely to be realistically achieved on the facts of this case;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">There is no assurance that if the parties sought to engage the family court in Iraq (the Court of Personal Status, applying the Islamic Shari&#8217;a &#8211; Shafite or Hanafi schools) and sought a custody declaration in line with the order of this court that it would necessarily mirror an order made in this court.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the circumstances, and in the absence of any meaningful reciprocal enforcement regime through the courts, I have had to <span style="color:#000000">assess carefully not only</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the risk that the father may breach the child arrangements order providing for L to spend time or otherwise have contact with his mother and grandparents, </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.49in">but also </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">the magnitude of the consequence of breach of such an order.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.49in">In this regard, I have considered the judgment in <span style="font-style:italic">Re K (Removal from the Jurisdiction Practice)</span> [1999] 2 FLR 1084 (following <span style="font-style:italic">Re T (Staying Contact in Non-Convention Country</span>) [1999] 1 FLR 262, and <span style="font-style:italic">Re A (Security for Return to the Jurisdiction: Note</span>) [1999] 2 FLR 1); I accept the key principle distilled from these authorities &#8211; namely that it is for the court to achieve what security it can for the child by building in all practical safeguards to its order.  In this case, the financial circumstances of the parties put beyond reality the adoption of a monetary bond.  No party proposed any specific alternative.  In the event, I considered that it was reasonable and proportionate to require the father, at the conclusion of the hearing and once the path to relocation was cleared, to return to the witness box to swear on the Koran before the family members that he would bring L back for contact with the maternal family each year.  He gave me that assurance on oath.  </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In line with the guidance from the earlier authorities cited in the previous paragraph, I shall also require him before he leaves to make a formal declaration on oath on the Koran before an Imam or other suitable person to honour the undertaking which he has given this court (i.e. that he will return L to this jurisdiction for the purposes of annual contact for the maternal family).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">L and his childhood history </span></heading>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As is apparent from my summary above, L is of dual heritage; he speaks both Kurdish and English with reasonable fluency.  He is a physically healthy and active child, and is reported (as indeed the photographs show) to have many physical characteristics of his father.  Since 2010 he has lived with his father, having supervised contact with his mother, and regular contact with his grandparents.  In recent times, L has stayed with the maternal family almost every weekend for at least one night, and has visited their home mid-week.  He has also enjoyed extended stays with them on occasions when the father has returned to Kurdistan without L to visit his wife and family.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although described by his school as a &#8220;<span style="font-style:italic">happy little boy</span>&#8221;, he is struggling academically. He has recently been assessed by an educational psychologist, and is believed to have moderate learning difficulties.  Some of his learning deficits (particularly in relation to his verbal ability) may be affected by the fact that he lives in a bilingual home.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">L was born in October 2006.  The parents had had what the mother described as an &#8220;<span style="font-style:italic">on/off</span>&#8221; relationship for about a year; they lived with each other only for a matter for a few days.  They were no longer in a relationship at the time of L&#8217;s birth; the father was living in a house with other asylum seekers, the mother at home with her parents.  L was a very premature baby, and was nursed for the first few weeks of his life on a neonatal unit before being discharged to the care of the mother, a task she shared with the grandparents for the first 18 months of L&#8217;s life.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Social services first became involved in L&#8217;s life when, in September 2008, the mother alleged to the police that the father had seriously assaulted L by biting him, head-butting him, and hanging him upside down by his feet; the father denied these serious allegations.  These allegations were jointly investigated by police and social services, and L was admitted to hospital for assessment; no injuries were observed.  L&#8217;s admission to hospital drew attention, however, to a much more serious issue &#8211; his emotional and physical neglect in the care of his mother.  L was observed to be an unusually quiet and unresponsive child, subdued, failing to thrive and thin (the mother was found to be feeding L with baby food suitable for a 9-month old when he was over 2 years old).  One of the hospital records refers to him displaying &#8216;<span style="font-style:italic">frozen watchfulness</span>&#8217;, and presenting in an extremely unusual way.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A child protection plan was drawn up, and when the mother resisted professional advice and support under that plan, the local authority issued an application for a care order.  The father, whose access to L had been restricted by the mother, made an application for contact which was consolidated with the public law application.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In February 2009, L was removed from his mother&#8217;s care under an interim care order and placed in foster care, where he remained for over a year.  Within those proceedings (in August 2009), the mother was assessed by a psychologist (Nicole Hampton), who opined that she displayed prominent &#8216;anxious and paranoid thinking&#8217;, and &#8216;over-reliance&#8217; on her child to manage her own emotional needs; Ms Hampton advised that the mother would benefit from significant professional psychological help.  Regrettably, the mother has not taken up that recommendation.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At a fact-finding hearing before DJ Arkless (October 2009), the alleged assault on L (referred to in [19] above) was investigated; the judge concluded on the evidence that the assault &#8220;<span style="font-style:italic">did not occur</span>&#8221;.  The mother had further alleged within the proceedings that the father had assaulted his daughter, T; the judge rejected this allegation too.  The judge however found (as the local authority had claimed) that the mother had neglected L&#8217;s emotional needs, and was stubborn and unwilling to take advice from professionals.  The judge found that it was the mother&#8217;s conduct which had caused L to suffer significant harm.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father and grandparents were assessed as long-term carers for L.  The father&#8217;s assessment was extremely positive; he demonstrated a high level of commitment to care for L.  The assessment of the maternal grandparents was not so positive; the independent social worker (Mr Greenhalgh) advised against placement of L with them (discussed further below &#8211; see [46-48]).  The public law proceedings came to an end in April 2010; in the face of strong opposition from the mother (who had told the psychologist and other professionals that she did not even want L to have any contact with the father), the court directed that L should move to live with his father under a residence order.  At the point of making the residence order, the court made a supervision order in favour of the local authority.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the following year, the father issued private law proceedings seeking leave to remove L temporarily for a holiday to Turkey.  Leave was granted (and the holiday took place), but a wider prohibition was imposed restraining the father from removing L from the jurisdiction otherwise than for the holiday.  This wider prohibition expired in April 2012. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In December 2011, the father travelled to Iran (without L) where he married SM; this was an arranged marriage.  SM is an Iranian Kurd, she is not currently working but previously worked in a children&#8217;s nursery. Following his marriage, the father took steps to support SM&#8217;s entry to the UK under a spousal visa; the Home Office have refused this visa.  An appeal against the refusal of a spousal visa was unsuccessful. The father has therefore had to visit his wife abroad, altogether making four trips since their marriage, on one occasion (see [28] below) with L.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the summer of 2012, the father visited Kurdistan for over 7 weeks to be with his wife, leaving L in this country, in the care of the maternal grandparents.  The extended stay with the grandparents was said to be successful.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In late 2012, the mother gave birth to her second child, W.  Public law proceedings followed.  Within those proceedings, the maternal grandparents were further assessed by Mr Greenhalgh as potential long-term carers; in the event, their bid was not pursued.  W is now the subject of a care order, though placed with his father (who has separated from the mother); a supervised contact order is in place in relation to the mother&#8217;s contact.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In July 2013, and with the agreement of the mother, the father took L to Kurdistan to meet SM and the paternal family; they were there for a little over four weeks.  This appears to have been a successful trip; L was reportedly happy, and the photos would indicate that he met and spent time with many of his paternal relatives.  On his return to England, the father asked the mother whether he could take L to live with him in Kurdistan; the mother did not agree.  The request provoked tensions in the parental relationship.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Early in the academic term following L&#8217;s trip to Kurdistan, the mother told teachers at L&#8217;s school that the father was leaving L in her care while the father was working late.  The school discussed this issue with the father, and the issue was resolved, with suitable arrangements being made for L&#8217;s care.  Within a matter of a few days, the school reported that L had become upset claiming that his mother had told him that he would have to make a choice about where to live in the future &#8211; with his mother in England or with his father in Kurdistan.  It appeared that L favoured living in Kurdistan.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Some days later, the maternal grandparents telephoned social services alleging (as they claim to have been told by L) that the father had assaulted L by punching him in the stomach.  This serious allegation was investigated by the police and the social services; L repeated the assertion but did not elaborate.  The local authority asked for parental consent to accommodate L during their investigation.  The father agreed, but the mother did not.  Accordingly on 4 October the authority applied for a care order, and was granted an interim care order.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At this point, the father told social services that he felt he could no longer look after L.  For a few days, he did not see L; L was plainly upset by this, and missed his father.  While the father&#8217;s stance was ill-considered it was mercifully short-lived; he subsequently rationalised it by reference to his increasing sense of being undermined at every turn by the maternal family in his care of L.  Specifically he was frustrated at having to deal with allegations that he had had harmed L (this was, as is apparent from the history above, not the first such referral).  The father&#8217;s position in rejecting L at this point, even for those reasons, and even though short-lived, is more than mildly concerning, given that he now wishes to remove L in his full-time care to live abroad.  I can state at this stage that I am nonetheless satisfied on all that I have read and heard that, while I do not believe that this was a mature or welfare-based decision, it does not reveal any worrying ambivalence or lack of attachment to L.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">No party has asked me to make findings of fact in relation to the alleged assault in October 2013 (see [30]); all parties appear to accept that the evidence would not support such a finding.  Indeed the mother explicitly acknowledged in her oral evidence to me that she was not asserting that L&#8217;s comments were necessarily true. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Briefly L was placed with the maternal grandparents; however, when the child protection investigation proved inconclusive (concerns were raised about the validity of the complaint), L was returned to his father 10 days later.  The care proceedings were not discharged or withdrawn at that stage, given the uncertainties about L&#8217;s future, though all parties have proceeded on the basis that this is essentially a private law dispute. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Thus, by this hearing, L has lived with his father for more than 4 years, with only a few interruptions; he has enjoyed regular contact with his maternal family (which I find the father has conscientiously facilitated, sometimes in the face of hostility).  L spent at least one night each weekend with his grandparents, and generally one tea-time mid-week.  When L has stayed with his grandparents, he has been taken to school punctually, and the grandparents have shown appropriate interest in his education.  In spite of the family tensions, this is encouraging, particularly when looking at the proposed arrangements for the future.  When the father has visited Kurdistan on his own (summer 2012, February 2013), he has asked the maternal grandparents to care for L and they have done so.  While Mr Greenhalgh (the independent social worker) has not actively supported the grandparents&#8217; ability to offer long-term care for L, he nonetheless has commented positively on the contribution which the grandparents have made to L&#8217;s life: &#8220;<span style="font-style:italic">they are a humble couple who are not looking for medals or haloes [but] I do think that a formal acknowledgement of what they have achieved for L would be helpful to them</span>&#8221;.  I willingly give them that acknowledgement.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The application: proposals for L&#8217;s future</span></heading>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father now wishes to return to live in Kurdistan to be with his wife, and his family; he has a large and close-knit extended family in and around Erbil.  He has nine brothers and two sisters, all married and living in their own homes in and around Erbil.  They are described (per Ballard) as part of Erbil&#8217;s &#8216;middle class&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Understandable concerns are raised by the maternal family about the security of the region, about L&#8217;s safety, and about the social and cultural context in which L would be living.  The father had, after all, come here as an asylum seeker (though it appears that the rest of his family remained in Kurdistan); the father asserted confidently to me that the situation is now materially different (&#8220;<span style="font-style:italic">Saddam Hussein was alive then</span> [i.e. in 2002]<span style="font-style:italic">&#8230;</span>&#8221;).  Much evidence was filed by the father to address these concerns:  the evidence included the Joint Report of the Danish Immigration Service / UKBA fact-finding mission to Erbil and Dahuk (2011).  Their investigations revealed that there had been no major security incidents in Kurdistan since 2007.  The Iraq Bulletin (2013) published by the Home Office confirmed that the Kurdistan Region of Iraq remained &#8220;<span style="font-style:italic">largely free of violence</span>&#8221; in the relevant period (late 2012), although it was still felt to remain &#8220;<span style="font-style:italic">a potential target for terrorist operations&#8230;</span>&#8221;.  There was indeed one attack on an Interior Ministry building in Erbil in 2013, which appears (from the other reports which I have read, and the lack of subsequent incident) to have been isolated.  On the information provided, many foreign state observers consider that the country is &#8220;<span style="font-style:italic">safe</span>&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have been provided with reports from Mr Ballard and Dr. Rebwar Fatah.  They describe Kurdistan as having a strong local ethnic solidarity, a region which is infinitely more stable than it was during the era of Saddam Hussein&#8217;s rule, and in the immediate aftermath of his fall. Kurdistan is now a relatively prosperous region of Iraq; the ancient city of Erbil is thriving, and a growing centre for commerce in the region.  There is a large number of highly qualified professionals from central and southern Iraq settling there because of its reputation for business (oil-fields lie within its borders) and tourism.  Within the last year, the Kurdistan Parliament formally ratified a Child Protection law designed to improve the welfare of Kurdish children.   It appears, in short, to be a very different from the place which the father left 12 years ago.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In his written evidence, the father indicated that he planned to move to Erbil in the near future irrespective of the outcome of this process (i.e. with or without L).  The father&#8217;s position was explored during the hearing; in his oral evidence he bared a mind tortured by the irresolvable dilemma of his competing family commitments.  The father explained with considerable sadness and exasperation, how he had been frustrated in his efforts to bring his wife to this country, yet feared being unable to relocate with his son to Kurdistan.  Indeed, he turned to me during his evidence and directly asked me to decide for him what he, the father, should do in these impossibly difficult circumstances; I made clear that I could not make that decision for him.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father recognised that the options for L, were he to be left here, were not propitious; the mother did not put herself forward to care for L (and, in my judgment, sensibly so).  Therefore either L would live with the maternal grandparents, or he would be placed in foster care.  The local authority had indicated in the clearest terms that it would not support L remaining with his grandparents if L were left here by his father, would seek to persuade the court that this outcome would be likely to cause L significant harm, and would seek a care order, a course to which the guardian had signalled her support.  The father initially indicated that if I refused permission for L to relocate abroad, then L should live with the maternal family; the father later modified his position to reflect a wish that L should in these circumstances reside in foster care.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I made clear to counsel at the outset of the hearing that while I would have to consider all of the potential options for L&#8217;s future (including possible placement options while L resided in this country), on the evidence I could not ultimately resolve the specific question of L&#8217;s long-term placement were the father to leave L in England and return to live in Kurdistan.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The father&#8217;s detailed proposals to relocate L can be summarised thus:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">He plans to move back to Kurdistan at the end of the current school year, in mid/late July 2014. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">He has obtained a place for L in a school in Erbil where his brother is the Deputy Headmaster.  That school has a number of foreign students, including three English children.  The school can make special needs provisions for L; English is one of the mainstream core subjects.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">L speaks fluent Kurdish, and has no difficulty in conversing with his cousins and paternal family; he should therefore be able to integrate satisfactorily into his school and local community; the paternal family also have some familiarity with English &#8211; certainly written English even if not conversational &#8211; which will also assist L.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The father will live in his own home with L and his wife; this property was bequeathed to him by his late father, but is currently tenanted.  I have seen photographs of the property and descriptions of it.  It appears more than adequate for their needs.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The father has been offered a job in a kitchen fitting company for which a brother is a manager.  I have seen an e-mail confirming the job offer, with a starting salary of $1,000 per month;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The father&#8217;s home is a 5-minute drive from the local General Hospital; L will be entitled to state funded health services;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The father has made a commitment to return to England each year with L for one month (at his own expense), so that L may have contact with his maternal family (the academic year in Kurdistan provides for a long summer holiday from late May to early September). W<span style="color:#000000">hen L is spending time with his mother the father proposes that this continues to be supervised at all times by the maternal grandparents; these return visits to England will give L the opportunity also to see his half-siblings, W and T;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">The father wishes to make one trip to Kurdistan in the near future to sort out the formalities relating to his move (including the arrangements for obtaining vacant possession of his home); he has offered that L should stay with the maternal grandparents in that period.  It is further proposed that the current weekly contact should continue until L leaves this jurisdiction. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Once L has moved, indirect contact will take place at least weekly by Skype; Skype contact will also take place on relevant maternal family birthdays, mother&#8217;s day, Christmas and Easter, and other important events.  The father has offered to purchase the maternal family a laptop and has agreed to fund the provision of internet.  I support these initiatives.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The father has further agreed to provide translated school reports and photographs to the mother on an annual basis, together with details of the school term dates, and current telephone numbers</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It appears to me that were L to reside in Kurdistan he could expect to enjoy a material lifestyle which is significantly superior to that which she has so far enjoyed in the UK &#8211; a view which is shared by Mr Ballard.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I was initially asked on behalf of the mother to find that these proposals do not approach the range and depth of information ordinarily expected on a relocation application; as it happens, I do not agree.  The father has made realistic proposals, which have been well thought-and cover all domains of L&#8217;s life.  The report from CFAB was disappointingly light on information (notwithstanding that specific supplementary questions had been raised of its authors) but the information garnered from social workers in Erbil all indicated favourable conditions for L&#8217;s relocation.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The maternal grandparents plainly dote on their grandson.  They told me of their concerns that if L were to be removed to live abroad they would not see L again.  They doubted the father&#8217;s commitment to return with L.  They poignantly referred to the relative inadequacies of Skype communication to maintain the strength and intensity of their current relationship &#8211; the grandmother told me &#8220;<span style="font-style:italic">you cannot hug a plasma screen</span>&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As indicated above ([2(ii)] and [38]), if I were to refuse the father&#8217;s application, issue would arise as to (a) whether the father would move back to Kurdistan without L, and (b) if he did so, whether the grandparents would be able to offer adequate care for L. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Without doubting their strength of feelings towards their grandson, there are nonetheless serious concerns about the grandparents&#8217; ability to offer long-term care for L. These concerns have been highlighted in the three reports of Mr. Paul Greenhalgh, independent social worker, who has assessed the couple at different points over the past four years.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr. Greenhalgh&#8217;s first report was prepared in January 2010 (within the original care proceedings).  At that time, Mr. Greenhalgh recognised that the grandparents had offered L some positive experiences in his early life, and had offered good quality care for him at times; he however expressed no confidence that the mother would accept the court&#8217;s, the local authority&#8217;s, or perhaps more importantly her parents&#8217; &#8220;<span style="font-style:italic">views and rules</span>&#8221;, and that it would be &#8220;<span style="font-style:italic">precarious</span>&#8221; to place L in such a situation.  He understood (from other assessments) that the mother was someone who found it difficult to accept other people&#8217;s views, was &#8220;<span style="font-style:italic">extremely egocentric, stubborn and adamant</span>&#8221; and &#8220;<span style="font-style:italic">unable to accept help</span>&#8221;.  He was concerned that the mother would undermine the grandparents&#8217; ability to care for L.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In his oral evidence before me, Mr. Greenhalgh advised me of his continuing concern that the mother had been allowed to have unsupervised time with L while in the grandparents care; he was further troubled by the grandparents&#8217; minimisation of the findings of the court in 2009/2010, and their tendency now to make excuses for the serious maternal shortcomings of their daughter.  None of this was auspicious.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The grandmother&#8217;s physical health (she is 53) is poor; she suffers from Type II diabetes, and other disabling conditions.  The grandfather (aged 61) is her registered carer.  Although their commitment to, and in many ways their basic care of, L has been generally positively assessed (they have been involved in L&#8217;s care from a young age), several concerns have been identified including the grandmother&#8217;s tendency to over-identify with her daughter&#8217;s stance in relation to her parenting abilities, which led to unhealthy collusion within the family (this was apparent to me, to some extent, during her evidence).  Concern has also more recently been expressed that the grandparents had allowed standards to slip while L was in their care &#8211; not ensuring that he had clean clothes, nor allowing him to sleep in his own bed (L slept in bed with his grandparents, notwithstanding that they had been repeatedly asked by social services to ensure that L had his own bed).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Discussion</span></heading>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I formed a favourable view of the father and was impressed by his evidence. He gave full and detailed answers (largely through an interpreter in Kurdish Sorani); he came across as a thoughtful and sensitive man.  He displayed a conscientious approach to his responsibilities as parent of L.  At the invitation of Ms McKenzie, he gave some of his evidence in English &#8211; demonstrating a more-than-adequate grasp of basic language, which will remain vital for L as he continues to converse with his English maternal family.  It was apparent that the father had developed a great fondness for, and an allegiance to, England, and was keen to retain his relationship with this country, and his citizenship. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother asked me to conclude that the father was not to be trusted, and specifically criticised the father for having acted high-handedly and unilaterally in the past.  She alluded to the fact that the father had arranged L&#8217;s circumcision without her knowledge or consent.  I heard no evidence about this event, but felt that <span style="font-style:italic">if</span> this happened as she said, it would indeed have been a significant misjudgement on the father&#8217;s part, but possibly taken when relations between the families was poor.  Even if it were true, it is not, in my judgment, in itself illustrative of a basic lack of integrity or trustworthiness on the part of the father.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Insofar as I was able to form a judgment on the father&#8217;s family, via the medium of video-link and interpretation, they also made a good impression on me.  SM appears to be a thoughtful and sensitive woman; she was questioned about how it came about that L now calls SM &#8220;<span style="font-style:italic">mummy</span>&#8221;, but was reassured that this was not planted in L&#8217;s mind by SM (&#8220;<span style="font-style:italic">I did not suggest that he called me that.  we started to chat through skype and he started of his own free-will to call me Mummy</span>.&#8221;) or by the father.   I considered that L&#8217;s use of &#8216;mummy&#8217; to address SM was simply expedient short-hand, rather than any confusion or desire on his part to displace his own mother (he had specifically referred to SM as &#8220;<span style="font-style:italic">mummy from Kurdistan</span>&#8221; in discussion with the social worker).  Indeed, I felt that SM will ensure that CL, L&#8217;s natural mother, continues to occupy that unique place in L&#8217;s life; SM told me that L&#8217;s &#8220;<span style="font-style:italic">mother is something precious</span>&#8221;.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is clear evidence in a number of the filed reports (which suggested that the mother had confided her views to more than one reporter) that the mother held deeply antagonistic views about L&#8217;s Iraqi heritage and identity, and had allegedly spoken negatively about Iraqi people; the jointly instructed psychologist expressed concerns that the mother would be likely to teach L to be ashamed of his Iraqi heritage, and would not be able to promote L&#8217;s awareness of his cultural mix.  The mother was said to believe that L would be &#8216;bullied&#8217; if it was widely known that he was part-Iraqi.  In her oral evidence the mother played down these reported views, and claimed that her words had been &#8220;<span style="font-style:italic">twisted</span>&#8221;; although I am not able to form a view about that (I have not heard from the authors of the reports in which the mother&#8217;s comments were expressed), I heard no recent evidence of hostile attitudes being expressed by the mother in respect of the father&#8217;s Iraqi heritage and his role in L&#8217;s life. Therefore, if the earlier accounts were accurate, it appears that the mother has at least moderated her opinions.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother is reported (earlier Guardian&#8217;s report) to have refused to accept that her actions placed L at risk, and was not accepting of the concerns of professionals; she felt that everyone except for her had &#8216;got it wrong&#8217;.  I felt that in her oral evidence some years on from that original report she continued worryingly to play down her past failings in parenting of L; this coincided with the grandparents&#8217; benign views of her parenting.  The maternal grandmother clung onto an artificially positive and as it happens wholly distorted view of her daughter&#8217;s shortcomings as a parent, over-identifying with her, and minimising the mother&#8217;s responsibility for the deficits in L&#8217;s early life.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Understandably the mother and the grandparents all genuinely expressed their concerns about the impact of the proposed relocation on their relationship with L.  The grandparents spoke with obvious warmth about L.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I was impressed, as I infer was the local authority, by the fact that in spite of the adverse views which had been expressed about the father and his heritage, the father had managed to maintain reasonably cordial relationships with the maternal family even though &#8220;<span style="font-style:italic">he feels that he has been shamed in the British culture due to the allegations made against him.</span>&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">While I have conscientiously reviewed L&#8217;s welfare &#8216;in the round&#8217;, the following features of the checklist in my view have particular prominence on the facts of this case.</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Physical and emotional needs / capability of the parents:  It is apparent from the history rehearsed above that the mother&#8217;s care of L in the first two years of his life were neglectful, and in DJ Arkless&#8217; judgment, significantly harmful.  By contrast, the local authority has made clear its view (and the guardian confirms) that in the last four years L has thrived in his father&#8217;s care; the father has offered L stability and consistent care.  Concerns about the father&#8217;s practice of taking L to work with him at the fast-food outlet on some evenings of school days were readily acknowledged by the father and swiftly corrected; the father referred to the fact that he had a limited support network in this country to assist him with appropriate babysitting; the arrangement by which the father left L with the mother and grandparents on some evenings came to an end.  The father will have working commitments with more sociable hours in Kurdistan, and a wider support network;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">I have obviously considered carefully the &#8216;capability&#8217; of the grandparents to care for L.  The evidence, including the independent evidence of Mr. Greenhalgh the independent social worker, is that they would struggle to offer L the quality of care which he needs, particularly for the balance of L&#8217;s childhood;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">In fact, it seemed to me that if the father were to have left L in this country, and relocated himself, L would be devastated.  This would, in my judgment, be likely to manifest itself in distressed and challenging behaviour.  As a consequence L would not be likely to settle easily in any placement; he would need an unusually competent standard of parenting.  In my judgment, the grandparents would have struggled to manage a young boy, playing out destructive or other similar behaviours, while he grieved for his father.  If they found it difficult to care for L, and failed, L would be exposed to further disruption and loss which would aggravate his already strong sense of disruption and abandonment.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Educational needs: Although L would benefit from special needs provision in the school in England, I do not believe that the special educational provision in Erbil will be materially different.  He would be likely to be offered the chance to work in small groups in class.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Cultural issues: L is a boy with a rich mixed heritage.  Whether here or in Kurdistan, it is important that respect is paid to both sides of his cultural inheritance.  The father complains that the maternal family have been dismissive of L&#8217;s cultural mix, and indeed have been racist and shown animosity towards him.  The maternal family&#8217;s hostile and denigrating attitude to the father&#8217;s Iraqi heritage have been referred to above (see [53]).  It is a matter of some anxiety that these views may re-surface.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Background circumstances:  While the father has received valuable practical support from the maternal grandparents at times in the past, the father does not have a good network of emotional support.  In Kurdistan, by contrast, the father has considerable emotional and practical support available to him.  While L will benefit from the support of the paternal family, he will sadly lose the immediacy of a relationship with, and regularity of care by, his maternal grandparents</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Likely effect on change in circumstances:  As L has enjoyed regular contact with the maternal side of his family throughout his life, in the short-term the loss of that contact will be detrimental to L.  That said, I feel confident that with the benefit of loving care from his father, and the commitment to promote the relationship the effects of losing that regular relationship will be significantly mitigated.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">L&#8217;s ascertainable wishes and feelings:  Following L&#8217;s trip to Kurdistan in summer 2013, it appears that L became increasingly embroiled in discussions between the adults about future options for him; he was described to be &#8220;<span style="font-style:italic">torn</span>&#8221; between them, and feeling &#8220;<span style="font-style:italic">responsible</span>&#8221; for their actions.  L often asked professionals what he should do to &#8220;<span style="font-style:italic">sort things out</span>&#8221;.  When given the chance to express his view in a neutral setting to a social worker on more than one occasion, (on each occasion without prior notice having been given to the parents, thereby reducing the risk of pressure being placed on him) L reported that he would like to live in Kurdistan; he referred more than once to not loving his mother because she would not let him go.  </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Conclusion.</span></heading>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">L has suffered not inconsiderable disruption in his short life; he has already experienced many losses.  He has regrettably spent more than one year of his life in local authority care.  Whatever the outcome of this litigation, L faces the prospect of suffering additional loss &#8211; either the loss of full-time care by his father, or of the regularity of his contact with his mother and maternal grandparents.  In determining this application, I was in very large measure engaged in an exercise in the balancing of losses; the balance was, in many ways, reasonably evenly poised.  Whichever way the Gordian knot was to be cut, one party would inevitably feel themselves to be the losers.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In important domains of his life &#8211; cultural, social, educational, and of course the diminution of the immediacy of established family relationships &#8211; the greater upheaval for L will be reflected by a move to Kurdistan.  That said, I am satisfied that short-term disruption will be more than compensated by longer term stability for L &#8211; importantly, L will remain in the loving full-time care of his father, who has offered him permanence and consistency, and who has shown a high level of commitment to his upbringing.  The father himself will, I believe, be more settled in his own life, being able to live with his wife, surrounded by his family, and in more stimulating employment; L will benefit from school where his needs can be met.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother&#8217;s change of instructions just prior to the conclusion of the case removed any real contest to the outcome; but more than that, it demonstrated an ability (which, given the history, may have in itself been a significant turning point) to prioritise the interests of L over and above her own. I do not under-estimate her pain in confronting this life-changing decision for herself and for her son.  In this, she showed great courage, and selflessness. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother indicated that she wished to compile a scrapbook for L, with mementoes of his life in England, for L to take with him.  I support her in fulfilling this task for L; this showed very considerable understanding of L&#8217;s likely needs.  The father helpfully agreed to contribute to and co-operate with that plan.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the reasons more fully set out above, I am as confident as I can be that this planned move will promote and enhance L&#8217;s best interests, and I am pleased to be able to grant the father&#8217;s application.  It is far better for L that he knows that, in the end, his mother did not stand in the way of him moving to start a new life with his father and family in Kurdistan.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That is my judgment.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,963 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2024/44"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2024/44"/>
+	  <FRBRdate date="2024-03-04" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="44"/>
+	  <FRBRname value="Z (No.5) (Enforcement), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2024/44"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2024/44"/>
+	  <FRBRdate date="2024-03-04" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2024/44/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2024/44/data.xml"/>
+	  <FRBRdate date="2024-11-10T05:39:09" name="transform"/>
+	  <FRBRdate date="2024-12-03T17:11:12" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-03-04" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewfc" href="https://www.judiciary.uk/you-and-the-judiciary/going-to-court/family-law-courts/" showAs="The Family Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="x" href="" showAs="X"/>
+	<TLCPerson eId="y" href="" showAs="Y"/>
+	<TLCPerson eId="the-z-trust" href="" showAs="The Z Trust"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-cobb" href="/judge-the-honourable-mr-justice-cobb" showAs="THE HONOURABLE MR JUSTICE COBB"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWFC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>44</uk:number>
+	<uk:cite>[2024] EWFC 44</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>072d2248476319ec8c9ae2407102bb168c3fab4a78966cb03cb164c669e74a2c</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .para2text1 { color: #666666; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">THE HONOURABLE MR JUSTICE COBB</span></p>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Approved Judgment</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"><span style="font-family:'Times New Roman';font-size:8pt">Re Z (No.5)(Enforcement)</span></p>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2024] EWFC 44</neutralCitation><span/></p>
+      <p class="CoverText">Case No: <docketNumber>LS20P01640</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewfc">IN THE FAMILY COURT</courtType></p>
+      <p class="CoverText">Sitting at </p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2024-03-04" refersTo="#judgment">4/3/2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-cobb">THE HONOURABLE MR JUSTICE COBB</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 4.28in 1.28in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#x" style="font-weight:bold">X</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#y" style="font-weight:bold">Y</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">First Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#the-z-trust" style="font-weight:bold">The Z Trust</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Second Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Re Z (No.5) (Enforcement)</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Alexander Thorpe KC </span>(instructed by<span style="font-weight:bold"> Levison Meltzer Pigott</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Respondents</span> were not present and were not represented. </p>
+      <p style="text-align:center">Hearing date: 16 February 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 4 March 2024 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">THE HONOURABLE MR JUSTICE COBB</p>
+      <p style="text-align:center">This judgment was delivered in private.   </p>
+      <p style="text-align:center">The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the child and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+      <p><span style="font-weight:bold">The Honourable Mr Justice Cobb :</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Overview</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These proceedings, brought under Schedule 1 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (&#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/40" uk:canonical="1989 c. 40" uk:origin="TNA" uk:type="legislation">CA 1989</ref>&#8217;), concern Zoe; this is not her real name.  Zoe was born at the end of October 2020 and is now therefore 3 years 4 months old.  She is the child of the Applicant mother (&#8216;the mother&#8217;) and the First Respondent (&#8216;the father&#8217;).  Zoe lives with her mother in London, while the father lives in the United States of America.  The mother and father were never married; their short relationship ended before Zoe was born.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">This is the fifth substantive judgment which I have delivered in this case.  The previous judgments are reported as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic;font-family:'Times New Roman'">Re Z (Schedule 1: Legal Costs Funding Order; Interim Financial Provision)</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2020/80" uk:canonical="[2020] EWFC 80" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWFC 80</ref> (26 November 2020);</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><a class="Hyperlink" href="https://www.bailii.org/ew/cases/EWFC/HCJ/2020/80.html" style="font-family:'Times New Roman'">https://www.bailii.org/ew/cases/EWFC/HCJ/2020/80.html</a></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic;font-family:'Times New Roman'">Re Z (Schedule 1: Further Legal Costs Funding Order; Further Interim Financial Provision) (No.2)</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2021/72" uk:canonical="[2021] EWFC 72" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWFC 72</ref> (16 August 2021)</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><a class="Hyperlink" href="https://www.bailii.org/ew/cases/EWFC/HCJ/2021/72.html" style="font-family:'Times New Roman'">https://www.bailii.org/ew/cases/EWFC/HCJ/2021/72.html</a></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman'">Re Z (No.3) (Schedule 1: Further orders) </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2021/85" uk:canonical="[2021] EWFC 85" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWFC 85</ref> (20 October 2021)</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><a class="Hyperlink" href="https://www.bailii.org/ew/cases/EWFC/HCJ/2021/85.html" style="font-family:'Times New Roman'">https://www.bailii.org/ew/cases/EWFC/HCJ/2021/85.html</a></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-style:italic;font-family:'Times New Roman'">Re Z (No.4)</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000"> (Schedule 1 award)</span><span style="font-family:'Times New Roman';color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2023/25" uk:canonical="[2023] EWFC 25" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWFC 25</ref> (7 March 2023)</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><a class="Hyperlink" href="https://www.bailii.org/ew/cases/EWFC/HCJ/2023/25.html" style="font-family:'Times New Roman'">Z (No 4) (Schedule 1 award) <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2023/25" uk:canonical="[2023] EWFC 25" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWFC 25</ref> (07 March 2023) (bailii.org)</a></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Schedule 1 proceedings effectively concluded in March 2023 with the making of the composite financial award in the terms which I have outlined at </span>&#167;20 below<span style="font-family:'Times New Roman'">.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I have now been asked to consider the question of enforcement of my final award.  In doing so, I would like to make clear, given its relevance to the question of enforcement, that had </span><span style="font-style:italic;font-family:'Times New Roman'">either</span><span style="font-family:'Times New Roman'"> the mother or father considered that any of the decisions reflected by the reasoned judgments above were wrong, or </span><span style="font-family:'Times New Roman';color:#000000">unjust because of a serious procedural or other irregularity (CPR rule 52.21),</span><span style="font-family:'Times New Roman'"> they could have sought permission to appeal.  To the best of my knowledge, neither of the parties has ever done so.  Nor has either party sought to vary or discharge any aspect of the final order which I made in March 2023.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The history of the case is contained within the earlier reported judgments and I do not propose to rehearse it here; I specifically draw attention to [3]-[13] of the first judgment (<ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2020/80" uk:canonical="[2020] EWFC 80" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWFC 80</ref>), [6]-[10] of the second judgment (<ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2021/72" uk:canonical="[2021] EWFC 72" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWFC 72</ref>) and [25]-[30] of the fourth judgment (</span><span style="font-family:'Times New Roman';color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2023/25" uk:canonical="[2023] EWFC 25" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWFC 25</ref>).  I referenced Zoe&#8217;s particular health needs at [31]-[38] of the fourth judgment.  </span><span style="font-family:'Times New Roman'">It should be noted that even though the father did not attend the final hearing in February 2023, I made a point of including in my lengthy judgment many references to his written case, and a section which described the arguments which he had wished me to consider in resisting the Schedule 1 claim as advanced by the mother (see [44]-[47]).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">There are three applications before the court now:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">An application for the continuation of a freezing order which I made without notice in November 2023;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">An application for capitalisation of the award of ongoing personal support for Zoe (i.e., child support, nanny care and education);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">An application for a <span style="font-style:italic">Hadkinson</span> order (<span style="font-style:italic">Hadkinson v Hadkinson</span> <ref href="#" uk:canonical="[1952] P 285" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1952">[1952] P 285</ref>).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At a hearing in November 2023 I joined a Second Respondent to this application, namely the trustees of the &#8216;living trust&#8217;, which is the vehicle through which the father holds and manages his significant wealth. It is known, for instance, that the Second Respondent owns the father&#8217;s main home which is located in State A<authorialNote class="footnote" marker="1">
+		<p class="FootnoteText"><span/><span style="font-family:'Times New Roman'">State A and State B are referenced in the first judgment at </span><span style="font-family:'Times New Roman'">[2020] </span><span style="font-family:'Times New Roman'">EWFC</span><span style="font-family:'Times New Roman'"> 80</span><span style="font-family:'Times New Roman'"> at [3]-[6].</span></p>
+	      </authorialNote><span style="font-family:'Times New Roman'"> on the West Coast of the USA</span>, and is the named account holder of accounts with significant funds in the USA.  In joining the trust to the litigation, I was influenced by the fact that the father is both the settlor (&#8216;Trustor&#8217;) and the trustee of the living trust.  Crucially it also shows that the father has very considerable control of the living trust; in this regard the trust deed provides (Article 4.1) that the trustee &#8220;shall pay to or apply for the benefit of the [settlor] so much of the net income and principal of the trust, up to and including the entire trust estate, as the [settlor] may request at any time&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The father has not attended this hearing, nor has he been represented.  No person has attended for or on behalf of the Second Respondent trust.  I am satisfied that both of the respondents have been served with the final judgment delivered in March 2023, together with the final order.  I am equally satisfied from the documents presented to me that the respondents have also been served with:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The application for a freezing order together with the without notice order, together with relevant documentation;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The application for a capitalisation of support order, together with relevant documentation;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The application for a <span style="font-style:italic">Hadkinson</span> Order;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Notice of this hearing.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.49in">The father has also been sent by e-mail in the 24 hours prior to the hearing the hyperlink by which he could access the CVP (Cloud Video Platform) video-link for this hearing.  He has not responded to any of the communications, nor has he attempted to join the video link.  It will be remembered that the father did not attend the final hearing in February 2023.  He was last legally represented by solicitors and counsel at the pre-trial review prior to the final hearing in January 2023. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Rule 27.4(2) of the Family Procedure Rules 2010 (&#8216;FPR 2010&#8217;) empowers me to proceed in the absence of the respondent parties, provided that I am satisfied that they have had reasonable notice of the application, and specifically of this hearing, and that the circumstances of the case justify proceeding in their absence (rule 27.4(3)(a) and (b) FPR 2010). I am satisfied that the respondents have had reasonable and proper notice and given the history of non-engagement over the last 12 months, that I ought now to proceed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Updated background history</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">As I described in my earlier judgments, Zoe suffers from Williams Syndrome, </span><span style="font-family:'Times New Roman';color:#000001;background-color:#FFFFFF">a genetic condition characterised by a range of medical problems, including cardiovascular disease, developmental delays, and learning challenges.&#160;</span><span style="font-family:'Times New Roman';color:#000000"> I observed in my final judgment ([51]) that this </span><span class="para2text1" style="font-family:'Times New Roman';color:initial">medical condition would be a life-long disorder; the syndrome will affect, and in all likelihood materially inhibit, Zoe&#8217;s development in many ways as she progresses through childhood into adulthood.  I was satisfied then, as I am now, that Zoe will require particularly special care over the course of her childhood in the home and at school.  A year on from my last review, it appears that her condition continues to present challenges; I was informed by the mother that Zoe attended Great Ormond Street Hospital for Children as an outpatient on the day before this hearing for further treatment / monitoring.  The mother was nonetheless able to tell me at the hearing that Zoe is making good progress and is medically not giving her cause for concern at present.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Following the delivery of the substantive judgment in March 2023, the mother and Zoe travelled to State A, so that Zoe could spend a fortnight with the father.  This was the first time they had met.  The mother reports that the father and Zoe enjoyed seeing each other, and in that sense the visit was a success.  However, the mother also reports that during the visit the father informed her that he intended not to honour the court-ordered financial obligations which I had explained in my March 2023 judgment.   The mother&#8217;s evidence (which I am conscious has been presented to me unchallenged) is that the father told her that she would &#8220;not see a penny&#8221; of the award which I had made, and that he had been &#8220;arranging and managing his finances for years to limit/restrict [the mother&#8217;s] ability to enforce&#8221;.  He led the mother to understand that he had a plan to place her under such financial pressure in the UK that she would move to the USA, where he would make enhanced financial provision for her and Zoe.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The mother&#8217;s evidence is that during the summer of 2023 (following the mother&#8217;s visit to the USA to see the father) the father reduced his financial provision for Zoe to &#163;7,200pm (&#163;86,400pa).  Notably, this was in fact materially less than his open offer at the time of the final hearing (&#163;155,600pa), and in my judgment it falls significantly short of Zoe&#8217;s financial requirements. In light of this, the mother was forced to suspend Zoe&#8217;s engagement in privately funded and much needed medical therapies, including her physiotherapy, occupational therapy and speech and language therapy; Zoe has had to be withdrawn from the nursery which she enjoyed and from which she benefited, with the inevitable impact on her social and educational development. The mother gave up her tenancy of her flat, and for a time was &#8216;sofa surfing&#8217; with various friends.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In light of the father&#8217;s unilateral action, and his apparent defiance of my order, the mother&#8217;s English solicitors sought to engage with the father&#8217;s US attorneys.  I have seen some limited correspondence between them. In a letter from the father&#8217;s US attorneys of 2 September 2023, it is said that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;[The father] recognises the need for [the mother] and [Zoe] to have housing and is prepared to help.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The letter from the US attorneys makes complaint that the mother has explicitly threatened to withdraw contact for the father with Zoe if he does not comply with the March 2023 financial order.  The mother, through solicitor&#8217;s correspondence and through counsel in court, denies that she has threatened the father in this way, and has repeated her offer for the father to visit Zoe in England.  The father is, of course, not here to pursue his complaint, and/or argue the point. In none of the correspondence on behalf of the father has he indicated any intention to meet his court ordered obligations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">On 29 September 2023, the father&#8217;s US attorneys wrote again to the mother&#8217;s London solicitors in these terms:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;[The father] remains heavily invested in ensuring that the needs of his daughter are met, and wishes to reiterate his willingness to cooperate with [the mother] to ensure [Zoe&#8217;s] best interest&#8230; in regards to your plan to file for recognition and enforcement of the English judgement in the [US] courts, we look forward to addressing this matter on its merits once you have proceeded with the filing. &#8230; If [the mother] would like to revisit the possibility of settlement, we welcome the opportunity. We are more than willing to engage in settlement negotiations in various forums&#8230;&#8221;. </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="para2text1" style="font-family:'Times New Roman';color:initial">It was, conspicuously, </span><span class="para2text1" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:initial">not</span><span class="para2text1" style="font-family:'Times New Roman';color:initial"> asserted in this or any other correspondence that the father could </span><span class="para2text1" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:initial">not</span><span class="para2text1" style="font-family:'Times New Roman';color:initial"> meet the final award.  I was told by Mr Thorpe that the letter of 29 September 2023 has been the &#8216;last word&#8217; from the father&#8217;s US attorneys.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="para2text1" style="font-family:'Times New Roman';color:initial">The parents have nonetheless been in direct touch with each other over the autumn 2023; moreover, the father and his family have enjoyed weekly contact by Zoom with Zoe.  I have seen some direct messaging between the parents conducted on WhatsApp from mid-November through to Christmas 2023; some of it is cordial, some not.  In this WhatsApp exchange, the father said that he was:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.95in"><span class="para2text1" style="font-family:'Times New Roman';color:initial">&#8220;&#8230; ready to invest in what truly benefits [Zoe] but this necessitates transparency and a willingness to work together... I hope we can agree that [Zoe&#8217;s] best interests go beyond occasional luxuries&#8230; I am prepared to financially support any agreed upon recommended treatments or resources for [Zoe] following our joint discussions and agreement&#8230; Regardless of our disagreements, I will continue to provide the necessary financial support for her care and well-being. &#8230; I am committed to supporting [Zoe] in every way, ensuring she receives all the love and care she deserves. &#8230; I will continue to provide $10,000 USD monthly for [Zoe&#8217;s] needs. This amount is substantial and should adequately cover her expenses, including her ongoing therapy. If you believe additional funds are necessary, I urge you to either speak with me directly, engage in a session with a family therapist, or have your lawyer communicate with mine. Any decision involving additional financial support must be part of a collaborative and agreed-upon plan for [Zoe&#8217;s] care.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="para2text1" style="font-family:'Times New Roman';color:initial">These messages might leave a reader with the impression that the father was wholly unaware of the Schedule 1 award.  Of course he was not unaware of it at all; indeed in later exchanges with the mother he described it as an &#8220;outrageous order set by a foreign country (sic.)&#8221;.  The father has proposed to the mother in very general terms that Zoe&#8217;s health and educational needs should be met by the NHS and the state education system (respectively); this underpins some of his comments.  In the final communication between them (29 December 2023) the father repeated his assertion that the mother was threatening the withdrawal of contact in England and/or the USA unless he complied with the Schedule 1 order.  He concluded his last message:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span class="para2text1" style="font-family:'Times New Roman';color:initial">&#8220;Given these circumstances, and your explicit statements that I will never have a real relationship with [Zoe], it's in her best interest to avoid any further emotional confusion. I will continue to send the $10,000 USD monthly, to be used specifically for [Zoe&#8217;s] care and therapies. Please provide regular updates on her health and growth, along with photos. If there comes a time when you reconsider and are willing to allow [Zoe] a genuine relationship with her father and her American family, my door remains open&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="para2text1" style="font-family:'Times New Roman';color:initial">The mother told me, through counsel, that she has continued to send the father updates on Zoe&#8217;s medical information, cardiogram results, and photographs.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span class="para2text1" style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:initial">Freezing order</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="para2text1" style="font-family:'Times New Roman';color:initial">In light of the history recounted above, in the autumn 2023, the mother applied for a worldwide freezing order.  This came before me on 22 November 2023 without notice to the father; having considered the evidence I made a freezing order in the sum of c.&#163;8.6m.  I was guided in doing so by the principles set out in </span><span class="para2text1" style="font-style:italic;font-family:'Times New Roman';color:initial">Ninemia Maritime Corp v Trave Schiffahrts GmbH &amp; Co KG (The Niedersachsen)</span><span class="para2text1" style="font-family:'Times New Roman';color:initial"> <ref href="#" uk:canonical="[1983] 1 WLR 1412" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] 1 WLR 1412</ref>, <ref href="#" uk:canonical="[1984] 1 All ER 398" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] 1 All ER 398</ref> and </span><span class="para2text1" style="font-style:italic;font-family:'Times New Roman';color:initial">Crowther v Crowther</span><span class="para2text1" style="font-family:'Times New Roman';color:initial"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/762" uk:canonical="[2020] EWCA Civ 762" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 762</ref>, [2020] 3 FCR 602.  I provided for the father to apply to vary or discharge the order, and for a return date of the application on the 20 December, at which time I indicated that I would consider the issue of capitalisation of the financial support payments.  In relation to the latter, I explicitly provided in my order that the father would need to show cause at the return date of the freezing order application why capitalisation of the financial support payments should not now be undertaken given his apparent default of the periodic payments.  The first listed return date (20 December 2023) was ineffective through lack of service on the respondents; the matter was re-listed before me on 16 February 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="para2text1" style="font-family:'Times New Roman';color:initial">In early 2024, the freezing order was served on the father&#8217;s bank in the USA.  I am advised that the March 2023 substantive order has been registered with the relevant Superior Court and &#8216;domesticated&#8217; as a &#8216;local&#8217; judgment in the USA, as has the freezing order. Those orders together with supporting papers were served on the First Respondent&#8217;s bank on 5 February 2024 and on the First Respondent and Second Respondent on 7 February 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="para2text1" style="font-family:'Times New Roman';color:initial">Given the history as I have outlined it above, it is clear that </span><span style="color:#000000">my March 2023 judgment is being ignored by the father.  On the evidence before me it is reasonably clear that the father is determined not to comply with the award and his alleged threat to the mother that she will not see a penny of the award gives me reason to believe that he will dispose of his assets, unless he is restrained by the court from disposing of them. I remain of the view, which I formed at the November 2023 hearing, that it is just and convenient in all the circumstances to make (more accurately, to continue) the freezing order.  I am sorry that it has come to this; but the father must in my judgment be restrained from evading justice by disposing of, or concealing, assets otherwise than in the normal course of business.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span class="para2text1" style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:initial">The Schedule 1 award</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="para2text1" style="font-family:'Times New Roman';color:initial">To recap, the award which I made for Zoe included the following (in outline):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The father to provide the sum of &#163;3.65m for a property to be settled on Zoe until she has attained the age of eighteen or ceased tertiary education; this was to be </span><span style="font-family:'Times New Roman';color:#000000">held in the most fiscally beneficial way, and the father was to cover the costs of purchase;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The father to pay a lump sum to reflect the following expenditure for the benefit of Zoe:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman'">&#163;50,000 for redecoration, and refitting of the property upon purchase;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman'">&#163;25,000 (to be released by the conveyancing solicitors only on proof of a need for adaptations and/or further redecoration);</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman'">&#163;7,500 moving fund;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman'">&#163;</span><span class="para2text1" style="font-family:'Times New Roman';color:initial">87,450.26 to clear the mother&#8217;s debts (i.e., sums claimed excluding the account of her former solicitors);</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman';color:#000000">The father to pay or cause to be paid to the mother for the benefit of the child, Zoe:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman'">Periodical payments (HECSA) with effect from 1</span><span style="vertical-align:super;font-size:smaller;font-family:'Times New Roman'">st</span><span style="font-family:'Times New Roman'"> April 2023 at the rate of &#163;148,250pa per annum payable monthly in advance by standing order; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman';color:#000000">Periodical payments with effect from 1</span><span style="vertical-align:super;font-size:smaller;font-family:'Times New Roman';color:#000000">st</span><span style="font-family:'Times New Roman';color:#000000"> March 2023 at the rate of </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#163;</span><span style="font-family:'Times New Roman';color:#000000">92,402.91pa by way of contribution to the cost of providing a nanny for Zoe</span><span style="font-family:'Times New Roman'">, until Zoe&#8217;s ninth birthday at which point the provision will be reviewed;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman';color:#000000">Periodical payments in such sum as equals the primary school (including nursery) fees, to include any reasonable agreed extras and (as far as not provided by the state) the cost of the 1:1 teaching assistant for so long as such an assistant is required by the relevant school, at any educational establishment Zoe shall attend from time to time during her minority; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman';color:#000000">Periodical payments pursuant to my earlier order of 27 October 2022 varied to the extent that the father shall pay child maintenance for the benefit of the child to meet the costs of the mother&#8217;s representation at court in the reduced sum of &#163;152,898.20 together with the sum of &#163;10,000 to provide initial advice on the issue of enforcement of this order in the USA;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The periodical payments will be index-linked to the Consumer Price Index;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman';color:#000000">The father is to meet the cost of securing suitable health insurance cover for the mother and Zoe in the UK and where appropriate in the USA, and shall maintain that cover until the cessation of periodical payments provided for in my order</span><span style="font-family:'Times New Roman'">;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">Interim top up for rent in the increased sum of &#163;5,750 per month payable monthly in advance;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman'">The provision of business class flights for the mother, a friend, nanny and Zoe, plus expenses for accommodation for the visits to the USA for Zoe to see the father;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in"><span style="font-family:'Times New Roman'">The father shall provide security for the periodical payments ordered above by way of a charge/lien on his main home in [State A] such charge/lien to become effective to trigger a sale of the property in the event of default on any of the periodic payments provided for above and this security shall remain in place and continue for so long as the father is liable to pay the periodical payments pursuant to this order.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Capitalisation of the periodical payments</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">At the end of his submissions at the final hearing in February 2023, Mr Thorpe had invited me to consider making a contingent order for capitalisation of the periodical payments and other ongoing financial support awards which, he submitted, should be automatically triggered in the event of default in payment by the father.  I rejected this submission at that time, and at [93]-[95] of my fourth judgment, I addressed this point as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;[93] Mr Thorpe has argued that a mechanism should be built into the order to provide for automatic capitalisation of the sums which I have awarded for (a) ongoing support for Zoe (b) her education, and (c) nanny provision.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">[94] He refers, with some justification, to the fact that the father has failed to make the final instalment payment of &#163;175,000 towards the mother&#8217;s legal costs, and has further caused anxiety by failing to engage in this final hearing.  Judges in this jurisdiction have not been slow to make orders which will have the effect of bringing to account the defaulting father &#8211; see for instance the recent decision of Moor J in </span><span style="font-style:italic;font-family:'Times New Roman'">Stacey v McNicholas </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2022/278" uk:canonical="[2022] EWHC 278 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWHC 278 (Fam)</ref> (a series of monthly lump sums were ordered to cover rent for the property occupied by mother and child in a CMS case where the respondent had appealed the housing order and there was therefore delay), and I should make it clear that in principle I will have little hesitation in following suit.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">[95] However, I decline to incorporate this mechanism at this stage for a number of reasons:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="margin-left:1.67in;text-indent:-0.49in">i)</num>
+		  <content>
+		    <p class="ParaLevel2" style="margin-left:1.67in;margin-right:1.05in"><span style="font-family:'Times New Roman'">I consider that I should give the father the opportunity to comply with my order, before imposing automatic triggers in the event that he defaults;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.67in;text-indent:-0.49in">ii)</num>
+		  <content>
+		    <p class="ParaLevel2" style="margin-left:1.67in;margin-right:1.05in"><span style="font-family:'Times New Roman'">The father has had very limited notice that the mother proposes capitalisation as part of her claim;  it was raised for the first time in the mother&#8217;s twelfth statement dated 13 February 2023; I am not sure that he has seen this document;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.67in;text-indent:-0.49in">iii)</num>
+		  <content>
+		    <p class="ParaLevel2" style="margin-left:1.67in;margin-right:1.05in;text-indent:0.01in"><span style="font-family:'Times New Roman'">I am presently loath to capitalise the periodical payments in favour of Zoe under the HECSA unless I absolutely need to do so, given the possibility that this part of the order may well need to be reviewed/varied over time.  I bring to mind what Mostyn J said in </span><span style="font-style:italic;font-family:'Times New Roman'">AZ v FM </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2021/2" uk:canonical="[2021] EWFC 2" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWFC 2</ref> at [58], namely that a capitalised order for child maintenance would be a &#8220;rare bird&#8221;, and that &#8220;[i]</span><span style="font-family:'Times New Roman';color:#000000">n the overwhelming majority of cases, &#8230; the risks and uncertainties inherent in capitalisation will lead the court, where it has jurisdiction, to make, or continue, a traditional order for periodic payments&#8221; and what Moor J said in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Hussein v Maktoum</span><span style="font-family:'Times New Roman';color:#000000"> (citation above) at [48] (&#8220;the normal convention [is] that a court does not capitalise periodical payments for children&#8221;);&#160;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.67in;text-indent:-0.49in">iv)</num>
+		  <content>
+		    <p class="ParaLevel2" style="margin-left:1.67in;margin-right:1.05in"><span style="font-family:'Times New Roman'">There has been no detailed thought yet given to how any capitalised sums would be administered, and at what cost.  Mr Thorpe suggested (following the approach taken by Moor J in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Hussein v Maktoum</span><span style="font-family:'Times New Roman';color:#000000">) that independent accountants could be &#8220;custodians&#8221; of the fund (thereby avoiding the tax implications of setting up a trust); but, as I say, this was floated as no more than a suggestion;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.67in;text-indent:-0.49in">v)</num>
+		  <content>
+		    <p class="ParaLevel2" style="margin-left:1.67in;margin-right:1.05in"><span style="font-family:'Times New Roman'">The father may wish to make representations about the method of calculation of a capitalised sum.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In light of the events since the final hearing described above, and given the specific application for immediate capitalisation, I have been caused to revisit the grounds on which I had declined to accede to the submissions on behalf of the mother at the main hearing.  I can confirm that the position is now as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The father has had a clear opportunity, and encouragement, to comply with the order; he has not done so;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The father has had ample notice of the mother&#8217;s application for capitalisation, first through my March 2023 judgment and then through the mother&#8217;s statement dated 18 October 2023, the application, and the order of 22 November 2023;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman'">Although I accept that it is rare for a court to capitalise child support, I am satisfied that unless I do so, there will be no effective means of securing any degree of compliance with my order; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The mother and her legal team now propose that the fund would be administered by a professional fund manager Connor Broadley Ltd.; it is proposed that the managed funds would be retained and invested by them, and then paid out to the relevant third party (be that to the school, the mother herself, or a nanny) as required; in this way the capital sum would be held securely, and the recipients would receive sums on a periodic basis as I contemplated by my order;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The father has had an opportunity to make representations, but has chosen not to do so.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Returning specifically to Mostyn J&#8217;s comments in </span><span style="font-style:italic;font-family:'Times New Roman'">AZ v FM</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2021/2" uk:canonical="[2021] EWFC 2" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWFC 2</ref>, <ref href="#" uk:canonical="[2021] 2 FLR 1371" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 2 FLR 1371</ref> which I quoted in my earlier judgment (see </span>&#167;<span style="font-family:'Times New Roman'">21 above where I reproduce the quotation from </span><span style="font-style:italic;font-family:'Times New Roman'">AZ v FM </span><span style="font-family:'Times New Roman'">at [95](iii)) I have considered specifically what he said at [58].  In a section of the judgment which contains a characteristically thorough and wide-ranging discussion about prophecy and probability both from within and outwith legal jurisprudence, he said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-family:'Times New Roman';color:#000000">I am satisfied the jurisdiction [to capitalise an award of court-ordered child support] exists, and that in this case the trial judge was entitled to exercise it, it will remain </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">a very rare bird indeed</span><span style="font-family:'Times New Roman';color:#000000">. In this case the <ref href="http://www.legislation.gov.uk/id/ukpga/1991/48" uk:canonical="1991 c. 48" uk:origin="TNA" uk:type="legislation">Child Support Act 1991</ref> did not apply as the husband was habitually resident in the USA. The combination of: (1) incessant litigation, on which the trial judge found the husband thrived, (2) repeated defaults on the part of the husband with the maintenance obligation, and (3) the age of the child and the relatively short period until the maintenance liability expired, all militated strongly in favour of a capitalisation and the ending of financial links between the parties. In the overwhelming majority of cases, however, the risks and uncertainties inherent in capitalisation will lead the court, where it has jurisdiction, to make, or continue, a traditional order for periodic payments&#8230; it seems to me that capitalisation could only properly be considered where <ref href="http://www.legislation.gov.uk/id/ukpga/1991/48" uk:canonical="1991 c. 48" uk:origin="TNA" uk:type="legislation">the 1991 Act</ref> could not apply, because, for example, one of the parents or the child is habitually resident overseas, or because the child is over 19&#8221;.&#160; (Emphasis by underlining added).</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Thorpe submits that this is one of those &#8220;very rare&#8221; cases where capitalisation is appropriate. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I was addressed on the basis of computation for capitalisation of the award. I was asked to consider both the approach laid out in the </span><span style="font-style:italic;font-family:'Times New Roman'">Ogden Tables</span><span style="font-family:'Times New Roman'"/><span style="font-family:'Times New Roman';color:#000000">(the actuarial tables used for assessing the sum to be awarded as general damages for future pecuniary loss: now in their 8</span><span style="vertical-align:super;font-size:smaller;font-family:'Times New Roman';color:#000000">th</span><span style="font-family:'Times New Roman';color:#000000">&#160;edition: 2022; see&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/1995/38/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1995/38" uk:canonical="1995 c. 38" uk:origin="TNA" uk:type="legislation">Civil Evidence Act 1995</ref></span><span style="font-family:'Times New Roman';color:#000000">), </span><span style="font-family:'Times New Roman'">the </span><span style="font-style:italic;font-family:'Times New Roman'">Duxbury</span><span style="font-family:'Times New Roman'"> formula, and/or a &#8216;true&#8217; multiplier based on the precise number of years outstanding in each area of financial support.   As it happens, </span><span style="font-family:'Times New Roman';color:#000000">I myself had considered the </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Ogden</span><span style="font-family:'Times New Roman';color:#000000"> versus </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Duxbury</span><span style="font-family:'Times New Roman';color:#000000"> approach for computation in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">HC v FW</span><span style="font-family:'Times New Roman';color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/3196" uk:canonical="[2017] EWHC 3196 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 3196 (Fam)</ref>; that case concerned future financial provision for a wife who had suffered personal injury. A persuasive argument was mounted in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">HC v FW</span><span style="font-family:'Times New Roman';color:#000000"> that the future payment needs should be calculated by reference to the </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Ogden Tables</span><span style="font-family:'Times New Roman';color:#000000">. I said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1.18in;margin-right:0.95in"><span style="font-family:'Times New Roman';color:#000000">&#8220;[79] &#8230; the&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Ogden Tables</span><span style="font-family:'Times New Roman';color:#000000">&#160;contemplate virtually no growth, on an investment of virtually no risk, whereas&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Duxbury</span><span style="font-family:'Times New Roman';color:#000000">&#160;contemplates an element of risk. [The wife&#8217;s litigation friend] maintains "I take the view that if a lump sum is calculated with reference to the&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Duxbury</span><span style="font-family:'Times New Roman';color:#000000">&#160;principles there is a very real risk of a significant shortfall resulting in a failure to meet [the wife]'s ongoing care needs." The case has nonetheless been presented on behalf of the wife is in fact content to proceed on the basis of&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Duxbury</span><span style="font-family:'Times New Roman';color:#000000">, notwithstanding that she will have to invest cautiously in order to ensure that she is provided for.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <intro>
+		    <p style="text-align:justify;margin-left:1.18in;margin-right:0.95in"><span style="font-family:'Times New Roman';color:#000000">[80] The&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Duxbury</span><span style="font-family:'Times New Roman';color:#000000">&#160;computation factors in the range of imponderables which more commonly arise in a family law context than in a personal injuries context; many of these imponderables are not likely to be relevant to the wife here, including for instance the prospect of remarriage.&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Duxbury</span><span style="font-family:'Times New Roman';color:#000000">&#160;calculations are fair, but they also:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-family:'Times New Roman';color:#000000">"&#8230;suffer from the uncertainties of prediction. Nothing will in fact turn out exactly as it is predicted to turn out, whether in family law or in personal injuries law. A far safer way of catering for future financial losses is by way of a structured settlement involving capital payments for some needs and periodical payments for future needs, which can be adjusted year on year for inflation in accordance with the most suitable index available" (Baroness Hale in&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Simon v Helmot&#160;</span><span style="font-family:'Times New Roman';color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/jcpc/2012/5" uk:canonical="[2012] UKPC 5" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKPC 5</ref>,&#160;[2012] Med LR 394).&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Baroness Hale&#8217;s comment in </span><span style="font-style:italic;font-family:'Times New Roman'">Simon v Helmot</span><span style="font-family:'Times New Roman'"> (see the final passage of the quote in </span>&#167;<span style="font-family:'Times New Roman'">25 above) was echoed by Mostyn J in </span><span style="font-style:italic;font-family:'Times New Roman'">AZ v FM</span><span style="font-family:'Times New Roman'">, wherein he revealed that the creator of the </span><span style="font-style:italic;font-family:'Times New Roman'">Duxbury</span><span style="font-family:'Times New Roman'"> tables: &#8220;</span><span style="font-family:'Times New Roman';color:#000000">often would remark that the one thing about </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Duxbury</span><span style="font-family:'Times New Roman';color:#000000"> about which you could be certain is that it would give the wrong result. Unpredictable things happen&#8221;.&#160; In this regard, </span><span style="font-family:'Times New Roman'">I further note that in </span><span style="font-style:italic;font-family:'Times New Roman'">Tattersall v Tattersall</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/1978" uk:canonical="[2018] EWCA Civ 1978" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 1978</ref>, Moylan LJ considered the same point (</span><span style="font-style:italic;font-family:'Times New Roman'">Ogden</span><span style="font-family:'Times New Roman'"> v </span><span style="font-style:italic;font-family:'Times New Roman'">Duxbury</span><span style="font-family:'Times New Roman'">), and preferred the use of the </span><span style="font-style:italic;font-family:'Times New Roman'">Duxbury</span><span style="font-family:'Times New Roman'"> tables.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In this case, Mr Thorpe argues that the calculation should be on the &#8216;true&#8217; basis of the number of actual years as the multiplier, without modification, and that there should be no adjustment made for advance receipt.  Mr Thorpe illustrated the contrasting outcomes if I applied the </span><span style="font-style:italic;font-family:'Times New Roman'">Duxbury</span><span style="font-family:'Times New Roman'"> and the </span><span style="font-style:italic;font-family:'Times New Roman'">Ogden</span><span style="font-family:'Times New Roman'"> approach.  The </span><span style="font-style:italic;font-family:'Times New Roman'">Ogden</span><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman'">Table</span><span style="font-family:'Times New Roman'"> created a multiplier of 16.32 on 16 years due to their applying a discount rate of -2.5% in contrast to that of </span><span style="font-style:italic;font-family:'Times New Roman'">Duxbury</span><span style="font-family:'Times New Roman'"> which assumes growth predicated on risk being taken on the investment (but which also takes account the chance of re-marriage which is not relevant here).  In the particular circumstances of Zoe it was submitted that the third &#8216;true&#8217; path should be taken, neither assuming the risk inherent in the </span><span style="font-style:italic;font-family:'Times New Roman'">Duxbury</span><span style="font-family:'Times New Roman'"> calculation, nor the zero growth of the </span><span style="font-style:italic;font-family:'Times New Roman'">Ogden</span><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman'">Tables</span><span style="font-family:'Times New Roman'">.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The mother proposes that the capitalised award should be held by Connor Broadley Ltd for the benefit of Zoe on the basis that any residue will be returned to the father at the conclusion of Zoe&#8217;s period of need. Given the range and extent of Zoe&#8217;s disabilities, as I have earlier reflected, it seems highly unlikely that she will ever be in a position of self-sufficiency.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In my judgment, this is indeed one of those &#8220;very rare&#8221; cases in which it would be appropriate to order capitalised periodical payments and other support payments (school and nanny).  I say so for a number of reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The father has, over a protracted period, shown himself unwilling to recognise the authority of this court, and a wilful failure to submit to its orders; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The father is resident abroad, and therefore out of reach of other enforcement strategies;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The registration and enforcement process is likely to be a difficult and uncertain process in the USA.  The advice from the mother&#8217;s US attorneys is that it would be helpful if the claim for enforcement could be made once, and once only, with a claim for a single order for a capital lump sum (clearly defined as child support); I am advised that this will assist the US courts in making an order and will assist the enforcement authorities in recovering the monies;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Zoe has unusual and very particular health needs as a result of her Williams&#8217; Syndrome.  I sense that the father has an overestimated expectation that Zoe&#8217;s multiple medical needs can all be met in a timely and/or satisfactory way on the National Health Service in England, thus relieving him of the obligation to fund private health care.  He has a similar view of Zoe&#8217;s capacity to access, and benefit from, state education without significant support.  These views are not only unrealistic, but they fail to meet the mother&#8217;s well-made case for Zoe to receive intense and bespoke treatments in order to maximise her potential.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although these points in combination persuade me to order capitalisation, I am not insensitive to the fact that Zoe, of all children, may develop unusual or unexpected needs as she grows older, and there will be no ongoing maintenance provision to vary.  The mother is also aware of this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I accept Mr Thorpe&#8217;s submission that in this case, the appropriate basis of computation should be the &#8216;true&#8217; multiplier (the actual number of years outstanding for support, multiplied by my computed annual award). Therefore the capitalised award shall be provided for as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the appropriate multiplier for calculating the capitalised child periodical payments should be the exact period between the first date of payment, 1 April 2023, and Zoe&#8217;s eighteenth birthday, a <span style="color:#000000">multiplier of 15.5534</span>; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the appropriate multiplier for calculating the capitalised child periodical payments for the provision of a nanny should be the exact period between the first date of payment, 1 April 2023, and Zoe&#8217;s ninth birthday (a multiplier of <span style="color:#000000">6.5534);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="color:#000000">the school fees fund inclusive of a one-to-one teaching assistant in primary school is assessed at &#163;392,874;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="color:#000000">there should be set off against the capitalised child periodical payments all sums paid by the father in child periodical payments since the 1 April 2023.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Hadkinson order</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Thorpe invites me to make a&#160;</span><span style="font-style:italic;font-family:'Times New Roman'">Hadkinson</span><span style="font-family:'Times New Roman'">&#160;order in this case at this stage.  The application is supported by a statement of evidence from Mr. Simon Pigott, the Managing Partner in the solicitor&#8217;s firm with conduct of the litigation on behalf of the mother.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">This application was presented on the basis that the </span><span style="font-style:italic;font-family:'Times New Roman'">Hadkinson</span><span style="font-family:'Times New Roman'"> order would apply to the mother&#8217;s application for capitalisation of the support payments; the mother contended that the father should not be able to participate in, or seek to defend, that application unless and until he has first complied with his financial obligations under my substantive order, and my freezing order, and paid into Court the sum of &#163;8,662,940.46.  Of course, as the father has not engaged in any sense with the application for capitalisation, I queried whether the </span><span style="font-style:italic;font-family:'Times New Roman'">Hadkinson</span><span style="font-family:'Times New Roman'"> order was unnecessary.  Mr Thorpe argues that the order should be made nonetheless, so that if the father wishes to apply to this court for any form of substantive relief (including variation or discharge of any of the orders made), then he will need to make the relevant payment up front.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">A </span><span style="font-style:italic;font-family:'Times New Roman'">Hadkinson</span><span style="font-family:'Times New Roman'"> order will generally only be made if the following conditions are satisfied, namely where:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The respondent (the father in this case) is in contempt;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman';color:#000000">The contempt is deliberate and continuing;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman';color:#000000">As a result, there is an impediment to the course of justice;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman';color:#000000">There is no other realistic and effective remedy;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman';color:#000000">The order is proportionate to the problem and goes no further than necessary to remedy it.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.49in"><span style="font-family:'Times New Roman';color:#000000">See the former Senior President of Tribunals in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Assoun v Assoun</span><span style="font-family:'Times New Roman';color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/21" uk:canonical="[2017] EWCA Civ 21" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 21</ref>, and Peter Jackson LJ in&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">De</span><span style="font-family:'Times New Roman';color:#000000">&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Gafforj v De Gafforj</span><span style="font-family:'Times New Roman';color:#000000">&#160;</span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/2070" uk:canonical="[2018] EWCA Civ 2070" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 2070</ref></span><span style="font-family:'Times New Roman';color:#000000">, at [11].</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Taking the five factors listed above and applying them to the facts of this case:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">I am satisfied that the father has failed to make the payments in line with my order; specifically,</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">He has failed to make payment of a lump sum of &#163;4,154,750 to provide <span style="font-family:'Times New Roman'">the Applicant and Zoe with a housing fund to purchase a suitable property;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman'">He has not made payment of a lump sum of &#163;250,348.60 to the mother&#8217;s solicitors to cover the mother&#8217;s unpaid legal fees and certain historic debts;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman'">He has not paid child periodical payments at the rate of &#163;148,250pa since my order;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman'">He has not made payment of child periodical payments for a nanny at the rate of &#163;92,402.91pa;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">e)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman'">He has failed to make payment of child periodical payments in such sum as equals the primary school (including nursery) fees, to include any reasonable extras and the cost of a one to one teaching assistant for so long as such an assistant is required by the relevant school;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">f)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in"><span style="font-family:'Times New Roman'">He has not met the cost of securing suitable health insurance cover for Zoe.  </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">I am satisfied that the contempt is deliberate (the father plainly knows of the award has described it as &#8220;outrageous&#8221;, see </span>&#167;<span style="font-family:'Times New Roman'">15 above) and it is continuing;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman'">There is an impediment to the course of justice; I have made clear findings of fact as to Zoe&#8217;s medical, housing, domestic, accommodation and care needs; these are now not being met as I directed them; justice is not being served by the father&#8217;s non-compliance;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">The father is currently not engaging constructively with the court process; for over a year now he has been avoidant of this litigation, having walked away shortly before the final hearing.  As he knows, I specifically addressed his arguments and his evidence in my final judgment, notwithstanding that he had chosen not to advocate them.  Although the freezing order should provide a degree of security for the mother, enforcement in the US may yet prove problematic. Mr Thorpe adverted to the paradox of shutting out a litigant who has shut himself out; but it seems to me that it is right to lay the foundation for proper security for the mother if the father attempts to engage with the court on any application for variation or discharge of any or all of the orders made.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">I have paused long before considering whether a </span><span style="font-style:italic;font-family:'Times New Roman'">Hadkinson</span><span style="font-family:'Times New Roman'"> order now is a proportionate response; there is no obvious further prospective litigation before the English courts.  I am conscious of the draconian nature of the order.  However, the father has plainly shown no willingness to meet his financial obligations as I have ordered them; he is willing only to provide for Zoe on his own terms.  I made it very clear in my judgment in March 2023 that I would not incorporate a trigger provision for capitalisation of the child periodical payments provision at that stage, contrary to the argument advanced on the mother's behalf, because I wished to give the father the opportunity (a) to honour the award on a routine basis, and/or (b) to address me on the issue should it become a live one.  I declined to make the capitalisation award when the case came before me for the freezing order, because I wished to give the father the opportunity to make representations.  The father has, in my judgement, provoked this application by his non-compliance with the ongoing orders for financial support; he has been given more than one opportunity to address the court, and specifically to seek to persuade me to take another course.  The sum to be injuncted by this order is a considerable sum; but Zoe&#8217;s needs are great and the father&#8217;s contempt of my order is both deliberate and flagrant. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally I would like to add this.  This <span style="font-style:italic">Hadkinson</span> application is perhaps unusually made at a point in this litigation after the substantive decisions have in fact been made.  The situation which I am dealing with here is thus distinguishable from the situation faced by Moor J in <span style="font-style:italic;font-family:'Times New Roman'">Young v Young </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/3637" uk:canonical="[2013] EWHC 3637 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 3637 (Fam)</ref> where he (at [90]) referred to the importance of a court being enabled when making the substantive decision itself to make &#8220;a proper investigation&#8221; so that it can produce &#8220;a judgment that is not only fair but also right and correct&#8221;.  As he pointed out in that case, and this is a point with which I associate myself, &#8220;restricting the right of one party to participate in that exercise is difficult and, at times, has the potential to lead to injustice.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I propose therefore to grant the order, in the following terms:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in"><span style="color:#000000">&#8220;The First Respondent is not permitted to be heard on any issues before the court pertaining to [the substantive Schedule 1 award order], the freezing order and the capitalisation order unless and until he has first complied with his financial objections under that order and paid the sum of &#163;8,662,940.46, being the amount frozen under the freezing order, into court&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold">Costs</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Given the father&#8217;s conduct in this litigation, and in his non-compliance with my order, I am satisfied that the mother is entitled to her costs of this application.  Mr Thorpe has submitted that the mother is entitled to recover her costs on an indemnity basis. I have been provided with schedules of costs.  For the two applications (freezing order without notice in November, and the application for capitalisation/</span><span style="font-style:italic;font-family:'Times New Roman'">Hadkinson</span><span style="font-family:'Times New Roman'">), the mother&#8217;s costs are a little over &#163;89,000.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In order to justify an award of costs on an indemnity basis, it is necessary for the applicant to show that the respondent is guilty of a high degree of unreasonable litigation misconduct. CPR rule 44.3(3) applies in these circumstances which provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.18in;margin-right:1.05in;text-indent:0.32in"><span style="font-family:'Times New Roman';color:#000000">Where the amount of costs is to be assessed on the indemnity basis, the court will resolve any doubt which it may have as to whether costs were reasonably incurred or were reasonable in amount in favour of the receiving party&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Although no authorities were referred to me on how I should apply that rule, I have reminded myself of the decision of the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Excelsior Commercial and Industrial Holdings Ltd v Salisbury Ham Johnson</span><span style="font-family:'Times New Roman';color:#000000">&#160;</span><span style="font-family:'Times New Roman'">[2002] CPRep 67</span><span style="font-family:'Times New Roman';color:#000000">, and the judgment of </span><span style="font-family:'Times New Roman'">Tomlinson J (as he then was) in </span><span style="font-style:italic;font-family:'Times New Roman'">Three Rivers District Council &amp; others v The Governor and Company of the Bank of England</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2006/816" uk:canonical="[2006] EWHC 816 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] EWHC 816 (Comm)</ref> at [25].  In this jurisdiction, the judgment of Eleanor King J (as she then was) in </span><span style="font-style:italic;font-family:'Times New Roman'">M v M &amp; Others</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2013/3372" uk:canonical="[2013] EWHC 3372 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 3372 (Fam)</ref> is also relevant. In short, and as the authorities make clear, the applicant must show &#8220;a circumstance which takes the case out of the norm&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I am satisfied that the mother has been put to considerable litigation expense in pursuing her application for enforcement, including the application for capitalisation and a freezing order.  I am satisfied that she has been required to do so as the father has deliberately ignored the obligations imposed on him by my March 2023 order; indeed, he has made not the slightest attempt to comply.  The evidence, which I accept, reveals that the mother&#8217;s solicitors spent very considerable time (and therefore cost) in identifying US attorneys to accept instructions without requiring upfront payment, and liaising with them thereafter; it was also of course necessary to engage litigation funders in the USA.  The situation which has arisen here takes the case &#8220;out of the norm&#8221; of costs orders; I am persuaded me that the mother should not be left out of pocket in pursuing satisfaction of a carefully considered order in respect of Zoe which I made nearly one year ago.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">[END]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

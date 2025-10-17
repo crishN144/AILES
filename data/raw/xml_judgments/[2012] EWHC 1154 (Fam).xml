@@ -1,0 +1,830 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2012/1154"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2012/1154"/>
+	  <FRBRdate date="2012-04-03" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1154"/>
+	  <FRBRname value="BCC v FZ &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/1154"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/1154"/>
+	  <FRBRdate date="2012-04-03" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/1154/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2012/1154/data.xml"/>
+	  <FRBRdate date="2024-10-28T02:03:11" name="transform"/>
+	  <FRBRdate date="2024-12-04T13:28:06" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2012-04-03" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="bcc" href="" showAs="BCC"/>
+	<TLCPerson eId="fz" href="" showAs="FZ"/>
+	<TLCPerson eId="az" href="" showAs="AZ"/>
+	<TLCPerson eId="hz" href="" showAs="HZ"/>
+	<TLCPerson eId="tvp" href="" showAs="TVP"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mrs-justice-eleanor-king" href="/judge-mrs-justice-eleanor-king" showAs="MRS. JUSTICE ELEANOR KING"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2012</uk:year>
+	<uk:number>1154</uk:number>
+	<uk:cite>[2012] EWHC 1154 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>7a41c37dd0c56d54934eb15b24d0ee9069b404e6d43d0e728446b7c58e5cffbe</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'CG Times'; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #404040; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-size: 16pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2012] EWHC 1154 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD12C00120</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2012-04-03" refersTo="#judgment">03/04/2012</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-eleanor-king">MRS. JUSTICE ELEANOR KING</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#bcc" style="font-weight:bold">BCC</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#fz" style="font-weight:bold">FZ</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">1<span style="vertical-align:super;font-size:smaller">st</span> Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#az" style="font-weight:bold">AZ</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#hz" style="font-weight:bold">HZ</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#tvp" style="font-weight:bold">TVP</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">2<span style="vertical-align:super;font-size:smaller">nd</span> Respondent </role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">3<span style="vertical-align:super;font-size:smaller">rd</span> Respondent</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">4<span style="vertical-align:super;font-size:smaller">th</span> Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr. Damian Garrido </span>(instructed by<span style="font-weight:bold"> BCC Legal</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Miss Allison Ball QC</span> (instructed by <span style="font-weight:bold">IBB law Sols</span>) for the <span style="font-weight:bold">1st and 2nd  Respondent </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Miss J. Trustman (instructed by IBB Law Sols) for the 1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Miss E. Tomlinson (instructed by Kidd Rapinet) for the 2</span><span style="font-weight:bold;font-size:8pt">nd</span><span style="font-weight:bold"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Miss V. Teggin (instructed by Bruce Lance Sols) for the 3</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">rd</span><span style="font-weight:bold"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr. E Pleeth (instructed by TVP legal) for the 4</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> Respondent  </span></p>
+      <p style="text-align:center">Hearing dates: 2nd and 3rd April 2012</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:center">Open version for distribution to all parties</p>
+	    <p style="text-align:center">.............................</p>
+	    <p style="text-align:center">MRS. JUSTICE ELEANOR KING</p>
+	    <p style="text-align:justify">The judge hereby gives leave for it to be reported.</p>
+	    <p style="text-align:justify">The judgment is being distributed on the strict understanding that in any report no person other than the advocates or the solicitors instructing them (and other persons identified by name in the judgment itself) may be identified by name or location and that in particular the anonymity of the children and the adult members of their family must be strictly preserved.</p>
+	    <p><span style="font-weight:bold">Mrs. Justice Eleanor King :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">These are care proceedings in relation to HZ who was born on 19<span style="vertical-align:super;font-size:smaller">th</span> March 1996 and has just turned 16 years of age.  Her parents are F Z and AZ.  H has an older sister F who is about 18 and a younger brother A who is 12.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">H was taken into police protective custody on the evening of 19<span style="vertical-align:super;font-size:smaller">th</span> January 2012; since then she has remained living at a confidential address under a series of interim care orders. H has had no official direct contact with her parents since her reception into care although she recently contacted her mother by telephone after having left her foster placement without permission. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"> On 23rd January 2012 the Local Authority issued care proceedings and sought an interim care order.  That application was heard the same afternoon by His Honour Judge Hughes sitting at M K.  The Local Authority's previous involvement with the family was set out in the application as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in">'In July 2008 H came to the attention of B C C social care department when a referral was received from another child that H then aged 12 had told another child she was pregnant for the third time with her father's child and that the previous two pregnancies had been aborted.  This referral was investigated by social care.  Mother said that the referral was malicious and that she knew who the referrer was.  H was spoken to alone and said that some children at school were jealous of her academic abilities, that the referral was malicious.  The conversation with H raised no concerns and the case was closed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"> In June 2010 H disclosed that her father had hit her twice round the head during an argument.  In July 2010 H disclosed that she had been sexually abused by her father since the age of eight years old.  However the allegations were not substantiated and she was not able to give any details about sexual abuse.  She subsequently withdrew the allegations.  She said that she had found out that her father was having an affair; when asked if the allegation was malicious because she was angry with her father, she said nothing.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in">In October 2010 an initial assessment was carried out due to H disclosing that her mother had slapped her around the head.  She also disclosed that her father had punched her on the leg and on the left forearm.  The parents deny these allegations.  H subsequently withdrew the allegations and claimed that she made the allegations because she was angry with her father.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in">There has been no current social care involvement but H has been receiving ongoing support from R-U-S and CAMHS.  It is understood that H's school attendance has been poor and that the EWO may become involved as a result.  Enquiries are being made in respect of the same.'</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The application was accompanied by a form C2.  That form was not (and has not subsequently been) disclosed to the parents. The C2 set out information which had been provided by the police and which the Local Authority considered met the threshold for an interim care order and further justified the making of both a "no contact" order and a non-disclosure order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">His Honour Judge Hughes heard submissions from counsel for the Local Authority and the solicitor for the child initially in closed session and thereafter in open session when he had the benefit of additional submissions from counsel for the mother. HHJ Hughes made orders that the information in the C2 should not be disclosed to the parents and that there should be no contact between them and H.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"> There have subsequently been three further hearings before Judge Hughes at which the continuation of the orders was considered in the light of further police evidence dated 31<span style="vertical-align:super;font-size:smaller">st</span> January 2012 and 14 February 2012. That confidential evidence which by now comprised the C2 and the information provided by T V P, became known as the <span style="font-style:italic">"G section </span><span/><span style="font-style:italic">material"</span> by reference to its place in the confidential bundle prepared by the Local Authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">At each hearing before HHJ Hughes further submissions were made on behalf of the parents seeking disclosure. The orders for interim care, non-disclosure and 'no contact' were renewed.  At the last of the hearings the proceedings were transferred to the High Court to be heard by a judge of the Family Division.  Accordingly the matter came before Mrs Justice Pauffley on 2<span style="vertical-align:super;font-size:smaller">nd</span> March 2012. Pauffley J made directions for today's hearing and made orders maintaining the <span style="font-style:italic">status quo</span> in relation to contact and disclosure.  The court yesterday heard submissions in relation to the following issues which had been identified by Pauffley J:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">An application to assert public interest immunity (PII) in respect of material held by TVP.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">The continuation of orders for non-disclosure to the parents of evidence disclosed by the police to the Local Authority and the children's guardian.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">The continuation of the order for no contact between H and her parents, and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.25in">Any consequential directions including consideration of inviting the Attorney General to appoint special advocates on behalf of the parents.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">By agreement between the parties the application for non-disclosure/PII made by the TVP has been dealt with by way of a series of closed and open hearings.  The Court initially convened with all parties present.  The state of disclosure at that stage was as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">The parents and their legal team had only the limited disclosure contained in the initial application.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">The children's guardian and legal team had, in addition, the documents contained in the <span style="font-style:italic">G section</span>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">The Local Authority, as of yesterday, has also had sight of two further files of additional material provided by the TVP which relate to their investigations in respect of H.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In open session I heard submissions from Miss Ball QC on behalf of the parents.  Miss Ball has prepared and submitted a skeleton argument which, unsurprisingly and quite properly, emphasises to the court that the starting-point in such applications is that there should be full disclosure and that there must be an imperative need to withhold disclosure, stringently tested, before the Court accedes to such an application.  Miss Ball reminded the Court of the potential value of a special advocate in assessing the documents said to be the subject of public interest immunity and elaborated upon her submissions in relation to the case of <span style="font-style:italic">Chief Constable v YK, RB, ZS, SI, AK and MH: </span>[2010] EWCA Fam 2438.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Having made her submissions, Miss Ball and the parents withdrew from court and I thereafter heard a number of welfare submissions from Miss Teggin on behalf of the Children's Guardian. These submissions arose out of information contained in the <span style="font-style:italic">G section.</span>  The Guardian told the Court that she had seen H twice and spoken to her on the phone three times, most recently last Friday, 30<span style="vertical-align:super;font-size:smaller">th</span> March 2012.  H is emphatic, the Guardian tells me through Miss Teggin, that she does not want to go home and that  she does not want any of the information (whether in <span style="font-style:italic">Section G</span> or the police bundles), disclosing to her parents.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Having heard the Guardian's submissions, the Guardian's team also left the court and the balance of the hearing was conducted in closed session with submissions by Mr Pleeth on behalf of the TVP (TVP) and Mr Garrido on behalf of the Local Authority.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The court was invited to, and heard, oral evidence from an investigating police officer.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-weight:bold;font-family:'Times New Roman'">The procedural approach to the application of TVP for non-disclosure</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">.  </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">There is no dispute between the parties as to the applicable law.  The hearing has been dealt with by following the procedural and legal route carefully and clearly set out by Mr Pleeth in his skeleton argument and which he helpfully drafted in such a way so as to allow its disclosure to Miss Ball and the parents. No party, so far as I am aware, takes exception to the approach set out in Mr Pleeth's document.  Mr Pleeth and Mr Garrido for the Local Authority subsequently amplified their skeleton arguments in closed session by reference to the detail contained within the confidential information.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">The TVP, through Mr Pleeth,  have adopted the procedural approach set out in the decision of Mr Justice McFarlane (as he then was), in <span style="font-style:italic">Re T (Wardship: Impact of Police Intelligence) [2009] EWHC 2440, [2010] 1FLR 104,8</span> which illustrated the approach the court may take when considering disclosure of police material in the context of family proceedings. Within his judgment at para [112]  McFarlane J  set out a list of procedural matters the following parts of which are relevant to the present case:</p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.98in">'In closing I propose now simply to list the procedural and other observations that arise from the body of this judgment so that they may be of use should another court encounter a similar set of difficulties in the future.</p>
+	    </intro>
+	    <subparagraph>
+	      <num>(i)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.18in;text-indent:0.32in">Full disclosure to the court of all material relevant to the allegation and its investigation at the earliest possible stage.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(ii)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.18in;text-indent:0.32in">Disclosure again at the earliest stage to the open parties of as much of the police material as is not rendered confidential by PII.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(iii)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.18in;text-indent:0.32in">Thereafter establish a process again at the earliest stage to evaluate PII claim and if appropriate arrange for the disclosure of further material to the open parties, either in a full, gisted or redacted form.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(viii)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.18in;text-indent:0.32in">Consider at an early stage of requesting the Attorney General to appoint a special advocate for the party to whom full disclosure of sensitive but highly relevant material may not be made.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(xi)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.18in;text-indent:0.32in">At the start of this process the court should establish a procedural and practice for the case which supports open and closed sessions.  This is likely to involve separate and closed files, separate hearings where different teams of advocates are present and from time to time the giving of both open and closed judgments.'</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-style:italic">15.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In applying the pathway prescribed in <span style="font-style:italic">re T </span>to this case I will refer to each stage by the number given to it in McFarlane J's judgment, the court already having adopted the system of open and closed sessions, files and judgments as recommended within McFarlane J's <span style="font-style:italic">paragraph 112 (xi)</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-style:italic">(i)</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-style:italic">Full disclosure to the court of all material relevant to the allegation and its investigation at the earliest possible stage.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">The TVP have complied with (i) above and have made full disclosure to the Court of all material relevant to the allegation and its investigation.  I am satisfied that the TVP have been alert to the danger of making the same mistakes and errors as were made by the police in <span style="font-style:italic">Re T. </span>In <span style="font-style:italic">Re T </span> the police had what was in effect a blanket policy of non-disclosure yet, after a thorough analysis by a special advocate, some 90% of the material was deemed not only to be disclosable but was ultimately disclosed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">TVP, unlike the police authority in <span style="font-style:italic">Re T </span>have adopted an approach of complete disclosure. What is not already in the confidential bundles is in court and available for me to read.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num>(ii)</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in"><span style="font-style:italic">Disclosure again at the earliest stage to the open parties of as much of the police material as is not rendered confidential by </span>PII.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"> In the present case the TVP, supported by the local authority, submit that there is no police material which fits within this category and is therefore capable of disclosure to the open parties.  The totality of the police evidence is, they submit, rendered confidential by PII and should not be disclosed.  It is therefore necessary to move on to <span style="font-style:italic">paragraph [112] (iii)</span> of McFarlane J's judgment in <span style="font-style:italic">Re T </span>in order to evaluate the PII claim.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-style:italic">(iii)</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.38in"><span style="font-style:italic">Thereafter establish a process again at the earliest stage to evaluate the PII claim and if appropriate arrange for the disclosure of further material to the open parties either in a full, 'gisted' or redacted form.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">In order to make such an evaluation it is necessary briefly to consider the law which provides the backdrop against which the non-disclosure/ PII claim is made:  </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(a)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">The threshold test for disclosure</span>.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">In considering an application for disclosure it is well established that the material must first pass through the relevant threshold test.  In <span style="font-style:italic">Re R (Care disclosure: nature of proceedings) [2002] 1FLR 755</span> Mr Justice Charles put it this way:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in">'In my judgment, the first thing that needs to be remembered is that when disclosure in respect of proceedings under the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> falls to be considered, the first question, as it is in other proceedings, is whether the material passes the relevant threshold test for disclosure. This test has had a number of formulations, but one regularly used in relation to it is and remains whether disclosure is necessary for the fair disposal of the proceedings.'</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">Neither the Local Authority nor the police seek to suggest other than that the threshold test for disclosure has been satisfied.  That being so, I move on to  remind myself of the principles to be applied in determining whether, despite the fact that the material is clearly relevant, it is on the facts of the present case, nevertheless rendered confidential </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(b)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">General principles relating to disclosure.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">In <span style="font-style:italic">Re B (Disclosure to other parties) <ref href="#" uk:canonical="[2001] 2 FLR 1071" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 2 FLR 1071</ref></span> Munby J, as he then was, enunciated three propositions of law which have subsequently been summarised by Charles J and approved by the Court of Appeal at paragraph 62 of the <span style="font-style:italic">Chief Constable AA v YK [2010] EWCA Fam 2435A</span>, [2010] AUER (D) 59, as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in">'(1) Firstly that whilst an entitlement to a fair trial under ECHR Article 6 is absolute, this does not mean that a party has an absolute and unqualified right to see all the documents.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">the advent of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> means it is no longer the case that the only interests capable of denying a litigant access to documents are the interests of children involved in the litigation. Thus the interests of anyone else who is involved, whether as victim, party or witness and who can demonstrate that their ECHR Article 8 rights are sufficiently engaged, can also have that effect.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">a limited qualification of the right to see the documents may be acceptable if directed towards a clear and proper objective. Non-disclosure, as Munby J made clear, must be limited to what the situation imperatively demands and is justified only when the case is compelling or strictly necessary, with the court being rigorous in its examination of the feared harm and any difficulty caused to the litigant counterbalanced by procedures designed to ensure a fair trial.'</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">I bear in mind the three propositions summarised above and in doing so have in mind the strictures of Charles J in relation to the necessity of seeking to counterbalance the court procedures in order to ensure a fair trial and, if there is not to be disclosure of the whole or any of the material, to make such a prohibition only if the situation imperatively demands such a course to be taken.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(c)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Applications for disclosure:  Children Act cases</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">In the well-known case of <span style="font-style:italic">Re D (Minors)(Adoption reports confidentiality) <ref href="#" uk:canonical="[1996] AC 593" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] AC 593</ref></span> Lord Mustill set out five general guidelines which were designed to provide a route by which to determine the issue of non-disclosure in children cases.  In <span style="font-style:italic">Re M (Disclosure) <ref href="#" uk:canonical="[1998] 2 FLR 1028" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">[1998] 2 FLR 1028</ref> </span>those guidelines were subsequently approved as applicable and relevant in relation to Children Act cases and subsequently in <span style="font-style:italic">Re B <ref href="#" uk:canonical="[2001] 2 FLR 1017" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 2 FLR 1017</ref></span> the class of people who were to be taken into consideration in respect of possible harm resulting as a consequence of disclosure of disclosure was widened following the introduction of the Human Rights Act.  The five well-known guidelines are as follows, </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in">'(1) It is a fundamental principle of fairness that a party is entitled to the disclosure of all materials which may be taken into account by the court when reaching a decision adverse to that party.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">The court should first consider whether disclosure of the material would involve a real possibility of significant harm to the child.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">It if would, the court should next consider whether the overall interests of the child would benefit from non-disclosure, weighing on the one hand the interest of the child in having the material properly tested, and on the other both the magnitude of the risk that harm will occur and the gravity of the harm if it does occur.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">If the court is satisfied that the interests of the child point towards nondisclosure, the next and final step is for the court to weigh that consideration, and its strength in the circumstances of the case, against the interest of the parent or other party in having an opportunity to see and respond to the material. In the latter regard the court should take into account the importance of the material to the issues in the case.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">Non-disclosure should be the exception and not the rule. The court should be rigorous in its examination of the risk and gravity of the feared harm to the child, and should order non-disclosure only when the case for doing so is compelling.'</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(d)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Applications for non-disclosure:  Public interest immunity</span>.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">Courts have long accepted and recognised that some documents, whilst relevant to the issues between the parties, may be immune from disclosure on public interest grounds.  The development of the law can be easily traced  starting with <span style="font-style:italic">Conway v Rimmer <ref href="#" uk:canonical="[1968] AC 910" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1968">[1968] AC 910</ref></span> through to <span style="font-style:italic">R v Chief Constable of the West Midlands ex parte Wiley <ref href="#" uk:canonical="[1995] 1 AC 274" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 AC 274</ref></span>.  As explained in <span style="font-style:italic">Wiley</span> by Lord Simon of <span style="color:#000000">Glaisdale:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="color:#000000">'The public interest which demands that the evidence be withheld&#8230;</span><span/><span style="color:#000000">against the public interest in the administration of justice that courts should have the fullest possible access to all relevant material and if, "the former public interest is held to outweigh the latter, the evidence cannot in any circumstances be admitted.'</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="color:#000000">See also </span><span style="font-style:italic;color:#000000">Al Rawi &amp; Ors v Security Service &amp; Ors <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/482" uk:canonical="[2010] EWCA Civ 482" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Civ 482</ref> at 25.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="color:#000000"/><span style="font-style:italic;color:#000000">Regina v H and C</span><span style="color:#000000"/><span style="font-style:italic;color:#000000">(Appellants)(on appeal from the Court of Appeal (Criminal Division))(Cojoined Appeals)</span><span style="color:#000000"/><span style="font-style:italic;color:#000000">[2004] HL3 </span><span style="color:#000000">was a criminal case which had involved an alleged conspiracy to supply Class A drugs.  Lord Bingham of Cornhill gave the opinion of the appellate committee in relation to the evaluation for a claim for PII saying: [para36]</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="color:#000000">'When any issue of derogation from the golden rule of full disclosure comes before it the court must address a series of questions,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">What is the material which the prosecution seek to withhold? This must be considered by the court in detail.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">Is the material such as may weaken the prosecution case or strengthen that of the defence? If No, disclosure should not be ordered. If yes, full disclosure should (subject to (3), (4) and (5) below) be ordered.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">Is there a real risk of serious prejudice to an important public interest (and, if so, what) if full disclosure of the material is ordered? If No, full disclosure should be ordered.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">If the answer to (2) and (3) is Yes, can the defendant's interest be protected without disclosure or disclosure be ordered to an extent or in a way which will give adequate protection to the public interest in question and also afford adequate protection to the interests of the defence? This question requires the court to consider, with specific reference to the material which the prosecution seek to withhold and the facts of the case and the defence as disclosed, whether the prosecution should formally admit what the defence seek to establish or whether disclosure short of full disclosure may be ordered. This may be done in appropriate cases by the preparation of summaries or extracts of evidence, or the provision of documents in an edited or anonymised form, provided the documents supplied are in each instance approved by the judge. In appropriate cases the appointment of special counsel may be a necessary step to ensure that the contentions of the prosecution are tested and the interests of the defendant protected.  In cases of exceptional difficulty the court may require the appointment of special counsel to ensure a correct answer to questions (2) and (3) as well as (4).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">Do the measures proposed in answer to (4) represent the minimum derogation necessary to protect the public interest in question? If No, the court should order such greater disclosure as will represent the minimum derogation from the golden rule of full disclosure.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(6)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">If limited disclosure is ordered pursuant to (4) or (5), may the effect be to render the trial process, viewed as a whole, unfair to the defendant? If yes, then fuller disclosure should be ordered even if this leads or may lead the prosecution to discontinue the proceedings so as to avoid having to make disclosure.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(7)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">If the answer to (6) when first given is no, does that remain the correct answer as the trial unfolds, evidence is adduced and the defence advanced?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in">It is important that the answer to (6) should not be treated as a final, once-and-for-all, answer but as a provisional answer which the court must keep under review.'</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I bear in mind the process to be followed in criminal proceedings as set out in </span><span style="font-style:italic;font-family:'Times New Roman'">Regina v H &amp; C</span><span style="font-family:'Times New Roman'"> and whilst they inform the approach of the court, I do not intend to go through each question step by step in these Children Act proceedings.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(e)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Is this a case in which PII/non-disclosure arises?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">Having evaluated the PII/non-disclosure claim by:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">reading the confidential material</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">hearing  oral evidence </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">hearing submissions of Counsel on behalf of all the parties and having considered the legal backdrop and authorities </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">I have concluded that this is a case where PII/non-disclosure arises and further that there can be no disclosure of the police material in this case.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Procedurally, the Court could choose to decline to disclose the TVP material to the parents either through the <span style="font-style:italic">Re D</span> and <span style="font-style:italic">Re M</span> route which is more commonly used in cases relating to children, (which route sets out in terms the necessity of considering the risk of significant harm to H as a consequence of disclosure), or alternatively, by the traditional PII route.  It has been submitted by counsel for the Local Authority and for the police that in the present case, the two routes provide only an artificial distinction as each drives the court to the same conclusion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"> I agree with that submission. In England and Wales the approach to legislation in relation to children is predicated on the basis that the protection of children from significant harm is so much a part of the public interest that it has rendered it appropriate for Parliament to pass various Acts (including the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> and The <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref>) which, notwithstanding the rights protected by Article 8, allow for the permanent removal of children from their parents. It follows therefore that the risk to H of significant harm resulting as a consequence of the disclosure of the confidential material is a proper and appropriate consideration for the court in the context of an application to withhold relevant material from a party to the care proceedings. The risk of significant harm to H forms as much a part of the balancing exercise for a court in an application by the police for public interest immunity as it does in an application made by a Local Authority for the non -disclosure of confidential material by reference to <span style="font-style:italic">Re D and Re M.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">In carrying out the necessary balancing exercise I have been conscious of the serious and deleterious effect to the parents if there is to be no disclosure of the material which forms the basis of these care proceedings. Having conducted that balancing exercise and taken into account the authorities to which I have referred and the submissions made not only by counsel for the Local Authority and the police but also Miss Ball, I unhesitatingly conclude that there can be no disclosure in this case.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">It goes without saying that the issue of disclosure, whether of the material with which I am currently concerned or any material generated subsequently, must be kept under constant review and it may  be that in due course some if not all of the confidential material can and should be disclosed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">In reaching my decision I have considered whether some limited disclosure (in whatever form) could be facilitated in order to ameliorate the draconian effect of the order sought.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in">Having assessed the nature and substance of the confidential material, I am satisfied that for the time being there will of necessity have to be a blanket ban on the disclosure of all the confidential material, whether contained in the <span style="font-style:italic">G Section</span> or otherwise.  For reasons set out in this judgment in paragraph 34 onwards, I do not feel it necessary to have the assistance of a Special Advocate before reaching that conclusion.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-style:italic">(viii)</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-style:italic">Consider at an early stage requesting the Attorney General to appoint a special advocate for the party to whom full disclosure of sensitive but highly relevant material may not be made.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">In <span style="font-style:italic">Chief Constable v YK</span> ,referred to above, the court acknowledged that PII can arise at any stage in proceedings and [para 45] held that:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in">'Two immediate questions therefore pose themselves:</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">Is this a case in which PII arises, and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in">If it does, are special advocates required to deal with PII issues?'</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">Having decided that this is a case in which PII arises, I turn then to consider whether or not a special advocate or advocates are required to assist me to deal with the issue of whether a claim of PII should be upheld and if so whether there can be some lesser form of disclosure in order to ameliorate to some extent the impact on the parents of that non-disclosure. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"> It has become the practice, where appropriate and fair to do so, for special advocates to be appointed to assist the Court on the issue of whether the claim for PII should be upheld and once appointed to sift the evidence with a view to identifying such evidence as may be either disclosed or summarised.  Guidance in relation to the appointment of special advocates in the context of family proceedings can be found at paragraphs 19-29 of the judgment in <span style="font-style:italic">Re T</span>.  In his analysis of the role of special advocate McFarlane J said [para 21]:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in">'A special advocate represents "the interests of" a party, as opposed to fully representing that party (as a fully instructed legal team would do). In the context of the SIAC, the key functions of a special advocate are to become briefed by the party and his legal team, but thereafter to receive disclosure of all of the evidential material, both "open" (i.e. disclosed fully to the party and his legal team) and 'closed' (not disclosed to the party or his legal team). A special advocate will seek to achieve the disclosure of such part of the closed material as may properly be disclosable (either fully or in a gisted or redacted form). A special advocate represents the interests of the party at closed hearings from which the party and/or his legal team are excluded. Following such a process it is normal for the SIAC to issue both an open and a closed judgment.'</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in">In <span style="font-style:italic">Chief Constable v YK</span> Sir Nicholas Wall emphasised in a forced marriage case the exceptional nature of special advocates saying at para 92:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.98in">'The use of special advocates is a matter of last, as opposed to first resort, there has to be something which a special advocate can do, which it would not be appropriate for the judge to do. In my judgment, a judge on the facts of this case is fully in a position to resolve a PII or disclosure application, and there is nothing that a special advocate could do which cannot properly be done by the judge. I do not, accordingly, need a special advocate to assist on the basic disclosure or PII issue.'</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="color:#000000">Miss Ball on behalf of the parents is not unnaturally considerably exercised about this issue and urges the Court to consider with care whether or not it would be appropriate to appoint a </span>special advocate to assist the Court at this early stage to consider the question as to whether PII arises and if so, whether there should be disclosure of the material currently before the court.   Miss Ball has referred me to the totality of the judgment in the <span style="font-style:italic">Re YK</span> case and urged me to conclude that that is a case which is clearly distinguishable on its facts from the present case.  <span style="font-style:italic">Re YK  </span> is indeed different on the facts in that it is a case concerning a forced marriage and I am accordingly careful to consider this case on its own facts and merits.  Lord Justice Wall,  whilst  declining to seek the appointment of a special advocate in <span style="font-style:italic">Re YK </span> nevertheless made it clear in his judgment [para112] that <span style="font-style:italic">even if</span><span/><span style="font-style:italic">special advocates are not called for in the instant case, there will undoubtedly be circumstances in family proceedings in which they are appropriate or in which&#8230; representation by an advocate will be required.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in">I note also that in <span style="font-style:italic">Re T</span> a special advocate was used at both stages that is to say:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">in evaluating the PII application (para 112(ii) and para 112(iii) of McFarlane J's PII pathway)      and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="color:#000000">thereafter representing the interests of the parties in relation  to the continual review of disclosure and in relation to the substantive care proceedings.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"> In my judgment <span style="font-style:italic">Re T</span> itself was again different from both <span style="font-style:italic">Re YK </span>and the present case.<span style="font-style:italic"/>At paragraph 30 of his judgment in  <span style="font-style:italic">Re T</span>  Mr Justice McFarlane in deciding it was necessary to invoke the assistance of a special advocate at the early first stage stage of analysing the PII documents said:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in">'In the light of the wardship court's duty to investigate the contract to murder and in the light of the fact that initially the MPS were declining to permit disclosure of <span style="font-style:italic">any</span> of the information held by them, it was essential for the court to establish some form of filter or buffer between the MPS and the parties in the wardship proceedings through which the relevant evidential material could pass or otherwise be assessed by the court in a manner that respected the parties' Article 6(1) of the European Convention rights and in a manner that was as far as possible commensurate with any countervailing claims of PII. In this case the special advocate procedure allowed the court and the special advocates to discharge the duty described by Baroness Hale of Richmond in testing "with the utmost scepticism" the MPS's blanket assertion of PII. The result was that the vast majority of the MPS material (some 90% in my estimation) was disclosed in one form or another. In relation to the small amount of material that remained undisclosed, the special advocates, again with Baroness Hale of Richmond's strictures in mind, conducted a process of cross-examination and submission designed to test the material and enable the court to see any weakness there may be in its evaluation'.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="color:#000000">Whilst always bearing Baroness Hale's </span><span style="font-style:italic;color:#000000">strictures </span><span style="color:#000000">(as referred to by McFarlane J), at the forefront of my mind, this is in my judgment  a different situation requiring a different approach for two principal reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">The </span><span style="font-family:'Times New Roman'">TVP have been throughout alive to the trap into which the police fell in </span><span style="font-style:italic;font-family:'Times New Roman'">Re T</span><span style="font-family:'Times New Roman'">.  I am satisfied that they have, at the earliest possible stage, been entirely open and have provided the Court with complete disclosure.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">For the reasons set out in this judgment I am satisfied that none of the confidential material in question should be disclosed even in summary form. It follows therefore that the court does not require the assistance of a special advocate to represent the interests of the parents in conducting a filtering or filleting exercise of that confidential information.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'"> In my judgment there is nothing that a </span>special advocate(s) could do at this stage which cannot be done by the court particularly in circumstances where I am satisfied that, at this stage a global approach to disclosure is necessary.  Consequently I hold that there is no need for a special advocate to assist on the basic disclosure or PII issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in">That leaves then the question of whether a special advocate will be required hereafter. McFarlane J said in <span style="font-style:italic">re T </span>at paragraph 121: <span style="font-style:italic"> there may well be cases where the procedural imbalance and potential unfairness created by difficulty over disclosure can be alleviated by the use of special advocates</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'CG Times'">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">As a consequence of my judgment H's case now becomes one of those exceptional cases where it is necessary, certainly for the present, for the parents to be deprived of access to all of the material upon which the Local Authority base their case. In order to give the parents proper protection of their rights under Article 8 and Article 6 it is therefore essential that a special advocate(s) is/are brought into the case forthwith to represent their interests both in relation to continuing and future disclosure and, in the event that there is to be no disclosure going forward, in the testing of the evidence at any subsequent trial.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'CG Times'">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">I therefore invite the Attorney General to appoint a Special Advocate and direct that there be provision made for an open hearing as soon as practicable in order to plan the procedural way forward.  </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

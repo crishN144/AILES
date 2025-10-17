@@ -1,0 +1,842 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2018/870"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2018/870"/>
+	  <FRBRdate date="2018-04-19" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="870"/>
+	  <FRBRname value="A Local Authority v M &amp; N (Female Genital Mutilation Protection Order - FGMPO)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/870"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/870"/>
+	  <FRBRdate date="2018-04-19" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/870/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2018/870/data.xml"/>
+	  <FRBRdate date="2024-10-05T04:34:14" name="transform"/>
+	  <FRBRdate date="2024-11-27T11:30:11" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2018-04-19" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A local Authority"/>
+	<TLCPerson eId="m" href="" showAs="M"/>
+	<TLCPerson eId="n" href="" showAs="N"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-hayden" href="/judge-mr-justice-hayden" showAs="MR JUSTICE HAYDEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2018</uk:year>
+	<uk:number>870</uk:number>
+	<uk:cite>[2018] EWHC 870 (Fam)</uk:cite>
+	<uk:parser>0.26.5</uk:parser>
+	<uk:hash>b5bddc3f19ad6573616a029ac52a22cbaf580dbfaa1066a3522dcbc1f0d622df</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Body { font-family: 'Helvetica Neue'; font-size: 11pt; color: #000000; }
+#judgment .FootnoteTextChar { font-family: 'Calibri, sans-serif'; }
+#judgment .FootnoteReference { vertical-align: super; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2018] EWHC 870 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>LV18F900194</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2018-04-19" refersTo="#judgment">19/04/2018</docDate><span/></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-hayden">MR JUSTICE HAYDEN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#a-local-authority" style="font-weight:bold">A local Authority </party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:0.25in"><party as="#respondent" refersTo="#m" style="font-weight:bold">(1) M</party></p>
+	    <p style="text-align:center;margin-left:0.25in"><party as="#respondent" refersTo="#n" style="font-weight:bold">(2) N</party></p>
+	    <p style="text-align:center;margin-left:0.25in"><span style="font-weight:bold">(a child acting by her Children&#8217;s Guardian)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Lorraine Cavanagh </span>(instructed by<span style="font-weight:bold"> Legal Services</span>) for the local Authority</p>
+      <p style="text-align:center"><span style="font-weight:bold">Frances Heaton QC and Kate Burnell</span> (instructed by <span style="font-weight:bold">MSB Solicitors</span>) for the Mother</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ginette Fitzharris</span> (instructed by Morecrofts Solicitors) for the child, N. </p>
+      <p style="text-align:center">Hearing dates: 31 January, 22 February, 2 and 8 March 2018</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment Approved</p>
+      <p style="text-align:center">MR JUSTICE HAYDEN</p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+      <p><span style="font-weight:bold">Mr Justice Hayden :</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am concerned here with the Local Authority&#8217;s application for a Female Genital Mutilation Protection Order (FGMPO) to prevent N who is an infant, travelling to the Sudan with her mother.  The mother (M) is a British citizen born in Sudan, habitually resident in the UK where she has lived for over a decade.  The mother has a British passport only.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The background history of the case has not been easy to tease out but certain key facts emerge.  The mother gained citizenship following an application for asylum.  The father (F) who is a Sudanese national has, at some point, made a similar application but was unsuccessful in his claim.  M and F lived together in the UK for over 10 years.  They have a large family all of the children having been born in the United Kingdom.  The older children are all boys.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In July 2017 the family travelled to the Middle East during the course of the school summer holidays.  It was, I have been told, the intention that they should return to the UK.  However, the plans changed and the family travelled on from the Middle East to Sudan and to the village where both M and F&#8217;s extended family live.  I have heard different accounts as to why the family did this but have concluded that the motivation really does not matter.  What is however agreed is that at some point, not long after his arrival, F decided that he wanted to remain in Sudan.  Equally clear is that M was passionately resistant to this.  She strongly believes that the UK offers far better life opportunities for her and her children.  She fled Sudan as a refugee and as an asylum seeker.  In her evidence to me she demonstrated a strong enthusiasm for independence, educational opportunity and financial freedom.  She told me that she loved and respected her husband and that what she wanted &#8220;<span style="font-style:italic">most of all in the world</span>&#8221; was for them all to live as a family here in the UK.  She explained that F had not always treated her well and that he had in the past been violent towards her.  She considered life in the UK had an educative impact on him and whilst here she claims, and I accept, he behaved respectfully towards her.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is plain that M was deeply uncomfortable about F&#8217;s decision to stay in Sudan.  She told me he was resistant to allowing her or the children to return to the UK.  She asserted that F had taken the boys passports and locked them in a safe so that she would not be able to arrange for them to leave the country.  By this stage the mother was heavily pregnant, expecting N.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">M, who is an intelligent and resourceful woman, managed to prevail upon  male family members, as I understand it from both sides of the family, to persuade F to permit her to return to the UK.  The basis of her plea to her husband was that she had suffered difficulties in her labour with some of the boys and wanted to avail herself of the best medical care she could.  Both parents knew that M was expecting a female baby.  It is equally clear that both were delighted about this.  Eventually, though by no means enthusiastically, F agreed to M returning to the UK.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When M returned to the UK she made a number of complaints to the Social Services.  She contended that she felt scared of her husband&#8217;s family.  She confirmed that she had been herself a victim of FGM in the Sudan.  Whilst she (M) was very resistant to the practice she told the social worker that she knew F&#8217;s family wanted this and would force her husband to permit it.  Because F had family members in the UK who M appeared to be concerned about, the Local Authority provided refuge accommodation for her.  In her account to me, as Miss Cavanagh on behalf of the Local Authority was correct to emphasise, M made repeated reference to having <span style="font-style:italic">&#8220;</span><span style="font-style:italic;font-weight:bold">escaped</span><span style="font-style:italic">&#8221;</span> Sudan with her unborn baby.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When the mother was assessed by the Social Services, on the 8<span style="vertical-align:super;font-size:smaller">th</span> of December 2017, she made a number of assertions which strike me as significant.  Firstly, she recounted that it was her mother and brother who had assisted her in the purchase of a return ticket to the UK; secondly, she related how on her return the family home had been stripped of all its belongings including furniture, carpets etc.; thirdly, the father&#8217;s family had gained possession of some of M&#8217;s personal documentation including her bank card and had been able to divert the family&#8217;s benefits to Sudan.  All this suggested, and I conclude was intended to, that unbeknown to M, F and his family had planned a permanent removal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At a hearing on the 30<span style="vertical-align:super;font-size:smaller">th</span> of January 2018 I heard evidence from M in response to the Local Authority&#8217;s application.  Though I did not deliver a judgment I made the following findings of fact which were recorded on the order:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.62in">The risk to this child, in light of the history of this particular family and in the wider the cultural context of the Sudan as set out in the UNICEF 2016 risk assessment tool, indicated that this child is likely to be at greatest risk between the ages of 5 and 9 years of age of FGM;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.62in">the mother is highly motivated to protect this much wanted baby;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-0.5in">(iii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.62in;text-indent:0.12in">the mother is eager to be reunified with her boys.  M loves and respects her husband;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-0.5in">(iv)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.62in">though the mother&#8217;s ideal would be for the family to live together here in the United Kingdom, this seems unlikely in the light of the father&#8217;s immigration status and his own decision to return to the Sudan; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-0.5in">(v)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.62in">the history of the case reveals that the mother has been powerless in the past to prevent intrusive medical intervention in relation to her boys which she would not have wished;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-0.5in">(vi)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.62in">the mother indicated in her evidence that the father behaves very differently towards her in the Sudan where he can be violent and controlling in contrast to his loving and responsible behaviour towards her and the boys in the UK; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-0.5in">(vii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.62in;text-indent:0.12in">consistent with the above, the father has control of the boys&#8217; passports in a safety deposit box in a bank in the Sudan to which the mother does not have access.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Though I had been broadly sympathetic to the mother&#8217;s situation, I drew back from delivering a judgment on the 30<span style="vertical-align:super;font-size:smaller">th</span> of January as I was particularly concerned by F&#8217;s manipulative control of the passport documents.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">F knows nothing about these proceedings, as is often the case in applications of this kind.  M, who has frequently had to sacrifice the truth in order to negotiate her options in life, has informed F that N is being treated in hospital and cannot yet travel.  I sense that F has not entirely accepted this account.  M told me in evidence that she has sent F a photograph of a baby in an incubator, in order to placate him.  In view of the situation I required the case to be relisted before me expeditiously.  In the event that was only achievable by a change of counsel.  Judicial continuity was however, self-evidently, preserved.  When the case came before me at the end of February there was some dispute about M&#8217;s evidence and I permitted her to be recalled.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">FGMPO applications are made pursuant to <span style="font-weight:bold">Schedule 2 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/31" uk:canonical="2003 c. 31" uk:origin="TNA" uk:type="legislation">Female Genital Mutilation Act 2003</ref></span> (<ref href="http://www.legislation.gov.uk/id/ukpga/2003/31" uk:canonical="2003 c. 31" uk:origin="TNA" uk:type="legislation">FGMA 2003</ref>), which was inserted by <ref href="http://www.legislation.gov.uk/id/ukpga/2003/31/section/73" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.73</ref> of the <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/2015/9" uk:canonical="2015 c. 9" uk:origin="TNA" uk:type="legislation">Serious Crime Act 2015</ref></span> and came into force on the 17 July 2015. The schedule provides as follows: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold">Power to make FGM protection order</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">The court in England and Wales may make an order (an "FGM protection order") for the purposes of -</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic">protecting a girl against the commission of a genital mutilation offence &#8230;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">In deciding whether to exercise its powers under this paragraph and, if so, in what manner, the court must have regard to all the circumstances, including the need to secure the health, safety and well-being of the girl to be protected.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">An FGM protection order may contain -</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic">Such prohibitions, restriction or requirements, and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic">such other terms, as the court considers appropriate for the purposes of the order.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(4)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">The terms of an FGM protection order may, in particular, relate to - </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic">conduct outside England and Wales as well as (or instead of) conduct within England and Wales &#8230;&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A local authority is a &#8216;<span style="font-style:italic">relevant third party&#8217;</span> for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2015/9/section/2/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(7)</ref> of schedule 2 of <ref href="http://www.legislation.gov.uk/id/ukpga/2015/9" uk:canonical="2015 c. 9" uk:origin="TNA" uk:type="legislation">the Act</ref>, pursuant to the <span style="font-weight:bold">Female Genital Mutilation Protection Order (Relevant Third Party) Regulations 2015</span> (SI2015/1422).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have foreshadowed at paragraph 10 above, Paragraph 5 of Schedule 2 to <ref href="http://www.legislation.gov.uk/id/ukpga/2015/9" uk:canonical="2015 c. 9" uk:origin="TNA" uk:type="legislation">the Act</ref> makes provision for <span style="font-style:italic">ex parte</span> orders. In any case where it is just and convenient to do so, the court may make an FGMPO even though the respondent has not been given such notice as would otherwise be required. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By way of completeness I note that <ref href="http://www.legislation.gov.uk/id/ukpga/2003/31/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/31" uk:canonical="2003 c. 31" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> creates the offence of <span style="font-weight:bold">failing to protect</span> a girl from risk of FGM. The section is engaged if the female genital mutilation offence has taken place and the offender is a &#8216;person responsible for&#8217; the child. Here the mother is a person embraced by the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2003/31/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s3</ref>A (3) (a) and (b) as she has parental responsibility. Miss Cavanagh contends that pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2003/31/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">S3</ref>A(5)(a) the defence would not be available to M if N undergoes FGM in the Sudan.  It is submitted that the accused must show they could not reasonably have been expected to be aware that there was any such risk was present.  This, says Miss Cavanagh, M would be unable to establish.  Whilst it is appropriate to raise this point I do not consider that <ref href="http://www.legislation.gov.uk/id/ukpga/2003/31" uk:canonical="2003 c. 31" uk:origin="TNA" uk:type="legislation">the 2003 Act</ref> created an offence of strict liability such that a mother would be liable to prosecution in circumstances where she had done all reasonably within her power to obviate risk.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It requires to be acknowledged and highlighted that by the time of the February hearing M had significantly modified her earlier evidence.  She now persistently, under questioning, sought to minimise the extent of the risk that F and his family presented to N in the context of FGM.  She claimed that brothers in the wider family were more progressive in their attitudes and claimed that some of the women in this family had not been subject to FGM.  I found this to be entirely unconvincing.  It is significant, in my judgment, that while she has been back in the UK, M and her sons have been communicating via Whatsapp.  It is all too clear that M misses her boys dreadfully.  One of them has contracted malaria in her absence.  M plainly feels that this would not have happened had she been with him and able to attend to his care.  It is equally clear that the boys are missing their mother and are pressing her to return soon.  It is important to remember that each of these boys has only known life here in the UK.  Life in the Sudan without their mother must pose a very considerable challenge for them.  In addition, it has not been possible, I have been told, for all the boys to be cared for in the same household thus responsibility for them has been spread across the wider extended family.  I have no doubt that this separation causes extreme distress to M.  I have concluded that it is her eagerness to return to her boys that has led to her significant change in her account of the risk of FGM to N.  M&#8217;s pain and distress is moving and almost palpable.  She finds herself in a wholly invidious position.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">All have agreed, who could not, that FGM is an abomination.  It is inhuman, degrading and torturous to its victims.  Those words have obvious significance to which I will return.  When she first gave evidence M told me of the impact of FGM on her life.  She did so in terms which were candid and shocking.  I am clear that those in court who heard her evidence will not easily forget it.  It does not require to be set out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the agreed documentation before me is a copy of the <span style="font-weight:bold">HM Government: Multi-Agency Statutory Guidance on Female Genital Mutilation</span>.  Annex A summarises both the short and long term consequences of this barbaric practice.  It also sets out the complex justifications and motivations for it.  These include: bringing status and respect to the girls; preservation of virginity/chastity; social acceptability for marriage; cleanliness, hygiene and aesthetic desirability; the warning off of bad luck or evil spirits.  Whilst all right thinking men and women would deprecate this reasoning it is important to understand it and acknowledge it in order properly to evaluate the issues and risks.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Guidance highlights the immediate/short-term consequences of FGM as including: severe pain; shock; haemorrhage; wound infection; urinary retention; injury to adjacent tissue; and genital swelling.  It is also emphasised that the practice can sometimes cause the death of the victim.  The longer term consequences are equally alarming:  genital scarring; genital cysts and keloid scar formation; recurrent urinary tract infections and difficulties in passing urine; possible increased risk of blood infections such as Hepatitis B and HIV; pain during sexual intercourse, lack of pleasurable sensation and impaired sexual function; psychological impact such as anxiety, flashbacks and post traumatic stress disorder; difficulties with menstruation; complications in pregnancy or childbirth (including prolonged labour, bleeding or tears during childbirth, increased risk of caesarean section); and increased risk of stillbirth and death of child during or just after birth.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her evidence M had described many of these consequences in the context of her own experience.  It is, I repeat, entirely unnecessary for me to relay them here.  It was however this evidence in the context of M&#8217;s determination to return to the UK with her daughter (alongside the wider panoply of material to which I have referred) that left me with the very clear impression that M is highly motivated to protect N.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the context of many welfare investigations, arising from child protection concerns, M&#8217;s clear understanding of risk of harm and determination to protect her child would point very strongly to the State supporting her and respecting her autonomy.  In other words the State would usually repose responsibility for decision making about a child with the parent, where the parent has identified risk and shown herself alert to protect.  Here, however, I am required to consider whether M&#8217;s resolve and appreciation of risk is likely to equip her sufficiently to protect from it. In this analysis there are a number of other important features which require to be considered and which emerge from the mother&#8217;s discussions with the social workers.  It is convenient to set them out:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p class="ParaLevel6" style="margin-left:1.62in">M told the social workers that F&#8217;s sister removed her 4-year old son, R, at 4am whilst M was asleep, and took him for a procedure, his tongue was cut, by a person not qualified to undertake it. This she said was against the beliefs and will of her and her husband;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p class="ParaLevel6" style="margin-left:1.62in">M told the social worker  that it was F who removed A to take him to the doctors against her wishes and the doctor cut his tongue. This is later related to the social worker as the removal of the child&#8217;s palatine uvula (the flesh at the back of the throat on the soft palate); </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-0.5in">(iii)</num>
+	    <content>
+	      <p class="ParaLevel6" style="margin-left:1.62in;text-indent:0.12in">M indicated to the social workers that she was scared of F&#8217;s family; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.62in;text-indent:-0.5in">(iv)</num>
+	    <content>
+	      <p class="ParaLevel6" style="margin-left:1.62in">M appears to have told the hospital staff that she feared that the family will undertake FGM upon the baby if she returns to the Sudan.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the avoidance of any ambiguity I found M&#8217;s denial of the report at (iv) above to be opportunistic and entirely unconvincing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I specifically directed all counsel to focus on Article 3 of the ECHR when considering Schedule 2 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/31" uk:canonical="2003 c. 31" uk:origin="TNA" uk:type="legislation">FGMA 2003</ref>.  This is not raised expressly in the Statute but it does seem to me to be self-evidently intrinsic to it.  In: <span style="font-weight:bold">K v Secretary of State for the Home Department: Fornah v Home Secretary Home Department <ref href="#" uk:canonical="[2007] 1 AC 412" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 AC 412</ref></span>, Baroness Hale observed:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;[94] Hence, it is a human rights issue, not only because of the unequal treatment of men and women, but also because the procedure will almost inevitably amount either to torture or to other cruel, inhuman or degrading treatment within the meaning, not only of article 3 of the European Convention on Human Rights, but also of article 1 or 16 of the Convention against Torture and other Cruel, Inhuman or Degrading Treatment or Punishment, article 7 of the International Covenant on Civil and Political Rights, and article 37(a) of the Convention on the Rights of the Child.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Earlier, Lord Bingham, in the same case, set out the international consensus on FGM:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;[8] FGM has been condemned as cruel, discriminatory and degrading by a long series of international instruments, declarations, resolutions, pronouncements and recommendations. Nothing turns on the detail of these. Their tenor may be illustrated by a recent Report of the United Nations Special Rapporteur on violence against women, E/CN.4/2002/83, 31 January 2002, Introduction, para 6: </span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;margin-right:0.77in"><span style="font-style:italic">&#8216;Nevertheless, many of the practices enumerated in the next section are unconscionable and challenge the very concept of universal human rights. Many of them involve severe pain and suffering and may be considered torture like in their manifestation. Others such as property and marital rights are inherently unequal and blatantly challenge the international imperatives towards equality. The right to be free from torture is considered by many scholars to be jus cogens, a norm of international law that cannot be derogated from by nation states. So fundamental is the right to be free from torture that, along with the right to be free from genocide, it is seen as a norm that binds all nation states, whether or not they have signed any international convention or document. Therefore those cultural practices that involve severe pain and suffering for the woman or the girl child, those that do not respect the physical integrity of the female body, must receive maximum international scrutiny and agitation. It is imperative that practices such as female genital mutilation, honour killings, Sati or any other form of cultural practice that brutalizes the female body receive international attention, and international leverage should be used to ensure that these practices are curtailed and eliminated as quickly as possible.&#8217;</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">In some countries, including the United Kingdom, effect is given to this international consensus by the prohibition of FGM on pain of severe criminal sanctions.&#8221;</span></p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst the Statute requires the court to have regard to <span style="font-style:italic">&#8220;all the circumstances, including health safety and wellbeing of the girl to be protected&#8221;</span>, all this requires to be evaluated through the prism of Article 3.  Article 3 is an absolute right.  Accordingly N&#8217;s Right to Protection is unqualified, in the sense that it cannot be suborned to protection of the rights of others.  The State, and through it this court, has a positive duty to prevent N being subjected to inhuman or degrading treatment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before I consider the application of the case law it is necessary to identify the data and analysis provided by UNICEF in relation to the Sudan.  All the parties agree this is important and independent information.  I have been taken to the various graphs surveying the prevailing attitudes in the Sudan towards FGM as well as the extent of the practice.   It isn&#8217;t necessary for me to incorporate them all within this judgment but a number of key statistics emerge:  a girl is likely to be at greatest risk between the ages of 5 and 9 years of age; 90% of girls and women in Sudan have undergone FGM; 10% of girls are subjected to the practice below the age of 4, 11% between 10 and 14 and 15% over 15 years of age.  Accordingly, and as M said in her evidence, the greatest risk occurs between 5 and 9 years of age.  It was within this bracket that M herself was subjected to the procedure.  It is also statistically important to note that, notwithstanding the extent of the practice, slightly more than half of women and girls are opposed to it.  This indicates that their own wishes are frequently not able to prevail.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Article 3</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Article 3</span> addresses &#8220;<span style="font-style:italic">prohibition of torture&#8221;</span> and provides <span style="font-style:italic">&#8220;no one shall be subjected to torture or to inhuman or degrading treatment or punishment&#8221;</span>.  The essence of the provision is to provide absolute protection for individual dignity and physical integrity.  <span style="font-weight:bold">Article 1</span> imposes on the State the obligation to <span style="font-style:italic">&#8220;secure to everyone within their jurisdiction the rights and freedoms defined Section 1 of this Convention&#8221;</span>.  The obligations can be summarised as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1.29in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.29in">The State must not, either on its own or through its agents, subject its citizens, and other persons within its territory, to torture or to inhuman or degrading treatment;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1.29in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.29in">to pass criminal laws outlawing and punishing ill treatment amounting to torture or inhuman or degrading treatment;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1.29in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.29in">an obligation to investigate arguable breaches of Article 3;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1.29in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.29in">an obligation to take reasonable steps to prevent real and immediate risks of torture or inhuman or degrading treatment at the hands of non-state agents.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is common ground amongst the advocates that all this imposes upon the State a positive obligation to take steps to prevent a person from suffering treatment which violates Article 3 when they are outside of the jurisdiction.  See: <span style="font-style:italic;font-weight:bold">ISSA v Turkey [2004] 41 EHRR 567; Ocalan v Turkey [2005] 41 EHRR 985; Bankovic v Belgium [2007] Gianpiero Buonomo, Non sempre la Guerra, giurisdizione extraterritoriale: l&#8217;occasione mancata del caso Bankovic; Al-Skeini and others v Secretary of State for Defence <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2007/26" uk:canonical="[2007] UKHL 26" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] UKHL 26</ref>)</span>.  The counterpoint is the negative obligation on the State to provide mechanisms to criminalise the treatment which would violate Article 3 and to ensure that there are lawful investigatory processes in place.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, whenever substantial grounds are shown for believing that an individual would face a <span style="font-weight:bold">real risk</span> of being subject to treatment, contrary to Art. 3, if removed to another country, the State becomes responsible for safeguarding against such treatment: <span style="font-style:italic;font-weight:bold">Cruz Varas v Sweden [1991] 14 EHRR 1</span>, para 69: <span style="font-style:italic;font-weight:bold">Vilvarajah v United Kingdom [1991] 14 EHRR 248</span>, para 103, <span style="font-style:italic;font-weight:bold">Chahal v United Kingdom [1996] 23 EHRR 413</span>, para 80: <span style="font-style:italic;font-weight:bold">Z v United Kingdom [2002] 34 EHRR 3</span>, para C93. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The key issue in this case is the nature and ambit of the State&#8217;s obligation to take preventative measures to provide the necessary protection to a child who is at risk from another individual i.e. not the State directly.  This was considered in <span style="font-style:italic;font-weight:bold">Z v United Kingdom [2002] 34 EHRR 3</span>.  There the commission held:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;[93] &#8230;that the protection of children who by reason of their age and vulnerability are not capable of protecting themselves requires not merely that criminal law provides protection against Article 3 treatment but that, additionally, this provision will in appropriate circumstances imply a positive obligation on the authorities to take preventative measures to protect a child who is at risk from another individual. The Commission notes in this regard the international recognition accorded to this principle in Article 19 of the United Nations Convention on the Rights of the Child which enjoins states to take all appropriate measures &#8216;to protect children from all forms of physical and mental violence, in jury or abuse.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In<span style="font-style:italic;font-weight:bold"> Mayeka &amp; Mitunga v Belgium [2006] 46 EHRR 449 </span>the European Court, cited <span style="font-style:italic;font-weight:bold">Z, A and</span><span/><span style="font-style:italic;font-weight:bold">Osman</span><span/><span style="font-style:italic;font-weight:bold">29 [1998] EHRR 245</span>, especially para. 116 and reiterated that: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;the obligation on high contracting parties under article 1 of the Convention to secure to everyone within their jurisdiction the rights and freedoms defined in the Convention, taken in conjunction with article 3, requires states to take measures designed to ensure that individuals within their jurisdiction are not subjected to torture or inhuman or degrading treatment, including such ill-treatment administered by private individuals. Steps should be taken to enable effective protection to be provided, particularly to children and other vulnerable members of society, and should include reasonable measures to prevent ill-treatment of which the authorities have or ought to have knowledge&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;font-weight:bold">E v Chief Constable of the Royal Ulster Constabulary (HL)(NI) <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/66" uk:canonical="[2008] UKHL 66" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 66</ref></span> the House of Lords was considering whether the Police were entitled to take into account the risk of serious harm and even death to unspecified people in Belfast when deciding how to protect children as they walked to school through violent protests.  Counsel had submitted that since the Police had available to them the means of stopping the protest and preventing the infliction of inhuman or degrading treatment, the obligation to use the measures at their disposal was in itself absolute, unless they could demonstrate conclusively that if they adopted such measures worse consequences of risk to life or the infliction of inhuman or degrading treatment would be caused to the children or others.  In essence it was argued that an absolute right met an obligation upon the State which was also absolute.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his speech Lord Carswell rejected the submission, deconstructing it thus:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;I am unable to accept the thesis advanced by either counsel. It is in my opinion quite clear from para 116 of Osman 29 EHRR 245 that the obligation placed upon the authorities in an article 2 case is to do all that could reasonably be expected of them to avoid a real and immediate risk to life, once they have or ought to have knowledge of the existence of the risk.  I cannot suppose that the obligation under article 3 is different in kind, and the Strasbourg jurisprudence confirms this, as I set out below. To hold otherwise would be to place an intolerable burden on the state.  In the present case it would have required the police to drive back the protesters by main force and make numerous arrests, irrespective of the consequences which could have ensued and which could have given rise to widespread disorder, loss of life and destruction of property.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lord Carswell returned to his earlier observations in re <span style="font-style:italic;font-weight:bold">Officer L <ref href="#" uk:canonical="[2007] 1 WLR 2135" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 WLR 2135</ref></span>, para 21 which he considered equally applicable:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;Secondly, there is a reflection of the principle of proportionality, striking a fair balance between the general rights of the community and the personal rights of the individual, to be found in the degree of stringency imposed upon the state authorities in the level of precautions which they have to take to avoid being in breach of article 2. As the European Court of Human Rights stated in Osman v United Kingdom 29 EHRR 245, para 116, the applicant has to show that the authorities failed to do all that was reasonably to be expected of them to avoid the risk to life. The standard accordingly is based on reasonableness, which brings in consideration of the circumstances of the case, the ease or difficulty of taking precautions and the resources available. In this way the state is not expected to undertake an unduly burdensome obligation: it is not obliged to satisfy an absolute standard requiring the risk to be averted, regardless of all other considerations: cf McBride, Protecting Life: A Positive Obligation to Help (1999) 24 EL Rev Human Rights Survey HR/43, HR/52.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The pre-existing case law was also considered: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;This conclusion is supported by the post-Osman decisions of the ECtHR, of which it is sufficient to mention only a few. &#240;neryildiz v Turkey E vChief Constable of the Royal Ulster Constabulary (HL(NI)) [2009] 1 AC Lord Carswell <ref href="#" uk:canonical="(2004) 41 EHRR 325" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">(2004) 41 EHRR 325</ref> was an application brought under Article 2, in a case in which it was claimed that the respondent state had failed to take sufficient measures to prevent the loss of life caused by a methane gas explosion at a municipal rubbish tip. The court held that the state had failed in its positive obligation under article 2 to set up a framework for the protection of persons at risk. Citing, amongst other cases, the Osman decision 29 EHRR 245, it held that the authorities had ample knowledge of the risk and were in breach of their duty to take such operational measures as were necessary and sufficient to protect the persons at risk. There was no suggestion that this was an absolute duty or one which differed in any way from that laid down in Osman. Z v United Kingdom <ref href="#" uk:canonical="(2001) 34 EHRR 97" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">(2001) 34 EHRR 97</ref> concerned a complaint brought under article 3 of child neglect and abuse.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In a final passage which strikes me as important when identifying the framework for this case, Lord Carswell observed:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;The court stated in para 73 that the states obligations under the Convention required them to take measures designed to ensure that individuals within their jurisdiction are not subjected to torture or inhuman or degrading treatment, including such ill-treatment administered by private individuals. Citing Osman, it said that these measures should provide effective protection, in particular, of children and other vulnerable persons and include reasonable steps to prevent ill-treatment of which the authorities had or ought to have had knowledge. In 97 members of the Gldani Congregation of Jehovah&#8217;s Witnesses v Georgia (Application No 71156/01) (unreported) given 3 May 2007 police had known in advance of an attack upon the applicants by religious opponents, which constituted inhuman or degrading treatment, but had failed to take any preventive action. The court rearmed the existence of a positive obligation upon states under article 3, in the terms set out in Z v United Kingdom and quoted above. It added, at para 96:  &#8220;This protection calls for reasonable and executive measures.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The positive obligation on the State to take measures to protect an individual&#8217;s Article 3 rights is analysed above as extending only to that which can be achieved by reasonable and effective measures.  The European Court of Human Rights (ECHR) has emphasised the unique vulnerability of children in its judgments, analysing the obligations on the State to protect people from inhuman or degrading treatment.  Baroness Hale in <span style="font-weight:bold">E v Chief Constable of the Royal Ulster Constabulary (Supra)</span><span style="font-style:italic"/>makes the following observations:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;It is noteworthy that the landmark rulings in which the state has been found responsible for failing to protect victims from serious ill-treatment meted out by private individuals have concerned children. A v United Kingdom <ref href="#" uk:canonical="(1998) 27 EHRR 611" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">(1998) 27 EHRR 611</ref> was decided shortly before the leading case of Osman v United Kingdom <ref href="#" uk:canonical="(2000) 29 EHRR 245" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">(2000) 29 EHRR 245</ref>. Av United Kingdom established the principle that the state was obliged to take measures designed to ensure that people were not subjected to ill-treatment by private individuals. Vulnerable people were entitled to be protected by effective deterrent measures. The existence of the defence of reasonable chastisement failed to afford children such protection. Osman took the matter further by establishing a duty to take more pro-active protective measures to guard against real and immediate risk of which the authorities knew or ought to have known.  There was no breach in Osman itself; but breaches were found in both Z v United Kingdom <ref href="#" uk:canonical="(2001) 34 EHRR 97" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">(2001) 34 EHRR 97</ref> and E v United Kingdom <ref href="#" uk:canonical="(2002) 36 EHRR 519" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">(2002) 36 EHRR 519</ref>. In Z, the authorities had failed to protect children from prolonged abuse and neglect which they knew all about. In E, they had failed to monitor the situation after a stepfather had been convicted of sexual abuse, and so it was held that they should have found out that he was abusing the children and done something to protect them.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Baroness Hale recognised (following the analysis in <span style="font-weight:bold">R(Limbuela) v Secretary of State for the Home Department [2006] 1 AC396</span>), that a distinction between negative or positive obligations on the State, arising from Article 3, was generally unhelpful and frequently shown to be a false dichotomy: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;Nevertheless, there must be some distinction between the scope of the state&#8217;s duty not to take life or ill-treat people in a way which falls foul of article 3 and its duty to protect people from the harm which others may do to them. In the one case, there is an absolute duty not to do it. In the other, there is a duty to do what is reasonable in all the circumstances to protect people from a real and immediate risk of harm. Both duties may be described as absolute but their content is different. So once again it may be a false dichotomy between the absolute negative duty and a qualified positive one.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is crucial here to emphasise that whilst Baroness Hale describes the obligations upon the State in terms of its duty to protect people from harm by third parties as &#8220;different&#8221; in complexion to its own direct duty, it is nonetheless to be regarded as an absolute duty.  To use her term &#8220;both are absolute but their content is different&#8221;.  Accordingly, where the State has a duty to protect children from harm which others might cause them, the duty remains absolute but the obligations under it require the State to do that which is reasonable in all the circumstances to protect children from real and immediate risk of harm.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is undoubtedly the case here that N has Article 8 rights which require consideration.  She is entitled to the opportunity of a relationship with her brothers, father and, in principle, her extended family.  It is however important to emphasise that these rights are not to be evaluated alongside N&#8217;s Article 3 rights, as if neither had precedence.  I do not consider that Russell J, in <span style="font-weight:bold">Re: X (a child) (Female Genital Mutilation Protection Order) [2017] EWHC 2898</span>, intended to give any contrary impression.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-weight:bold">A v British Broadcasting Corporation (Secretary of State for the Home Department intervening) <ref href="#" uk:canonical="[2015] AC 588" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] AC 588</ref></span>, Lord Reed analysed the approach to be taken where qualified rights fell to be considered alongside absolute rights.   He stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;Where the conflict is between the media&#8217;s rights under article 10 and an unqualified right of some other party, such as the rights guaranteed by articles 2, 3 and 6.1, there can be no derogation from the latter. Care must nevertheless be taken to ensure that the extent of the interference with the media&#8217;s rights is no greater than is necessary. The need for such care reflects the important role of the media in a democratic society in scrutinising the administration of justice generally, as well as their role as the conduit of information about particular proceedings which may be of public interest.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, whilst there can be no derogation from N&#8217;s Article 3 rights, the interference with her Article 8&#8217;s rights, and those of her siblings and family, must be limited to that which is necessary to protect her Article 3 rights.  Of course, though this is relatively easy to state, it is difficult to apply on the facts of this case and, I suspect, in FGMPO applications generally.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Two further observations also require to be highlighted.  In <span style="font-weight:bold">Commissioner of Police of the Metropolis v DSD &amp; another <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2018/11" uk:canonical="[2018] UKSC 11" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKSC 11</ref></span> Lord Hughes emphasised the delicate balance to be struck between the duty of the State to the public generally as well as to its relationship to particular individuals:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;[134] The relevance of the position at which English law has arrived, after long consideration at the highest level, is not that English law can control the operation of the ECHR. But it is to highlight the delicate balance between the duty of the State to the public generally and its relationship to individuals in particular cases of reported or anticipated crime. That delicate balance is as applicable to the ambit of the implied ancillary positive obligation under articles 2, 3 and maybe others as it is to an action in tort in the domestic courts.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The sensitivity of that identified balance, it seems to me, is, by parity of analysis, replicated, on the facts of this case, when considering the scope of the State&#8217;s positive obligations under Article 3.  Ms Cavanagh, in her erudite submissions on the law, also highlighted the following passages from the judgment of Lord Neuberger in <span style="font-weight:bold">Commissioner of Police of the Metropolis v DSD (supra)</span>:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;[93] Secondly, I cannot see any basis in its jurisprudence to suggest that it is likely that the Strasbourg court would think it right to limit the extent of the investigatory duty to systemic, as opposed to operational, failures. It is true that in A v United Kingdom <ref href="#" uk:canonical="(1998) 27 EHRR 611" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">(1998) 27 EHRR 611</ref>, having held that article 3, together with article 1, &#8220;requires States to take measures designed to ensure that individuals within their jurisdiction are not subjected to torture or inhuman or degrading treatment or punishment&#8221;, the court concluded that then-current statutory provisions &#8220;did not provide adequate protection to the applicant against treatment or punishment contrary to article 3&#8221; and that &#8220;the failure to provide adequate protection constitutes a violation of article 3&#8221; (paras 21 and 24). However, that conclusion merely reflected the factual basis and arguments in the case. If the statute did not provide adequate protection, there was a systemic failure, and it was both unnecessary and pointless to consider the operational aspects of the legal system.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">[94] Similarly, while the court in Osman, para 116, was concerned to ensure that the investigatory duty was not interpreted or applied unrealistically, there is no indication in that paragraph that it was intending to limit the duty to the provision of a satisfactory framework, irrespective of how ineptly it operated in a particular case. Indeed, such an approach would seem to me to be inconsistent with how the Strasbourg court approaches cases generally, namely by reference to the specific facts of the particular case.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">All this makes it very clear that the State is required to take active measures, designed to ensure the protection of the individual&#8217;s Article 3 rights.  Such protection has to provide adequate protection from the identified risk.  The failure to provide protection which can objectively be assessed as adequate will itself constitute a violation of Article 3.  What is adequate however, will require to be assessed on a case by case basis, in line with the approach on the Strasbourg court.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By way of completeness, it perhaps also needs to be stated that Ms Cavanagh makes the point that there are occasions where FGM results in death.  Accordingly, she argues, Article 2 is engaged.  Whilst I see some force in this submission, I do not consider that on proper analysis, the statistical possibility of death based on the UNICEF figures can properly be regarded as carrying sufficient immediacy to engage N&#8217;s Article 2 rights here.  In any event, although it might sound incongruous to say so, this point has little real impact on the application before me.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-weight:bold">Osman v United Kingdom <ref href="#" uk:canonical="(2000) 29 EHRR 245" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">(2000) 29 EHRR 245</ref></span> paragraph 116, the court noted that the protective obligations on the State should not impose a disproportionate burden:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;For the Court, and bearing in mind the difficulties involved in policing modern societies, the unpredictability of human conduct and the operational choices which must be made in terms of priorities and resources, such an obligation must be interpreted in a way which does not impose an impossible or disproportionate burden on the authorities. Accordingly, not every claimed risk to life can entail for the authorities a Convention requirement to take operational measures to prevent that risk from materialising. Another relevant consideration is the need to ensure that the police exercise their powers to control and prevent crime in a manner which fully respects the due process and other guarantees which legitimately place restraints on the scope of their action to investigate crime and bring offenders to justice, including the guarantees contained in Articles&#160;5 and 8 of the Convention.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This, it seems to me, also needs to be considered when assessing M&#8217;s own ability to take protective measures for her daughter.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Heaton QC and Ms Burnell, on behalf of M, emphasise the following authorities in their supplemental skeleton argument (the emphasis is theirs):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;In </span><span style="font-style:italic;font-weight:bold">Secic v. Croatia</span><span style="font-style:italic"> <ref href="#" uk:canonical="(2009) 49 EHRR 18" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">(2009) 49 EHRR 18</ref> (31 May 2007), ECtHR considered a complaint of ineffective criminal investigation of a racially motivated physical assault.  the court again repeated the statement from </span><span style="font-style:italic;font-weight:bold">MC</span><span style="font-style:italic"> that article 3 may give rise to a positive obligation to conduct an official investigation - para53.  The court stated that the obligation on the state to conduct an official investigation is </span><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">one of means, not result</span><span style="font-style:italic"> [emphasis added] referring to the article 2 cases of </span><span style="font-style:italic;font-weight:bold">Menson v. UK</span><span style="font-style:italic"> (2003) 37 EHRR CD 220 and </span><span style="font-style:italic;font-weight:bold">Yasa v. Turkey</span><span style="font-style:italic"> <ref href="#" uk:canonical="(1998) 28 EHRR 408" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">(1998) 28 EHRR 408</ref>.&#8221; &#167; 33 per Lord Kerr;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">Referring to </span><span style="font-style:italic;font-weight:bold">Berganovic v. Croatia </span><span style="font-style:italic">(Application No 46423/06) 25 June 2009 the ECtHR acknowledged that no direct responsibility can attach to a member state under ECHR for the acts of private individuals however at &#167;71, &#8220;In order that a state may be held responsible it must ... be shown that the domestic legal system, and in particular the criminal law applicable in the circumstances of the case, fails to provide practical and effective protection of the rights guaranteed by article 3&#8221; - &#167;37 per Lord Kerr;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;Even in the most law-abiding of states, that sometimes serious harm will be inflicted by one individual upon another, in the context of all manner of disputes and in pursuit of many different objectives, is a regrettably unavoidable feature of life.  </span><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">No one suggests that the state is bound to guarantee that this will not happen.  Indeed, some steps which an authoritarian state might be inclined to take with a view to preventing it (such as preventative detention without conviction or other court order, house arrest, intensive surveillance and the like) might themselves be infringements of other fundamental rights afforded to the citizen</span><span style="font-style:italic">.  [Emphasis added]. That consideration apart, the systems which states adopt for the protection of those within their boundaries do not have to be the same.  It has never been suggested that it is the function of the Convention to monitor every act of enforcement or policing of the varied domestic legal requirements, nor the content of those requirements, so long as they provide sufficiently for the protection of the individual against third party behaviour which meets the high threshold of severity contemplated by article 3.&#8221; - &#167;109 per Lord Hughes.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Heaton and Ms Burnell structure their analysis on the basis that there are three potential outcomes which they identify as follows:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">[S&#8217;s] travel is restricted via the FGMPO and mother and [N] remain in the UK.  The Court makes orders for the return of the older children from Sudan which are highly unlikely to be enforceable.  The net result will be mother and [N] in England with father and the boys remaining in Sudan.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">[N&#8217;s] travel is restricted via the FGMPO and the mother returns to Sudan (with or without court orders for the return of the boys) and attempts to bring the boys back to England (noting that the Court has already indicated that it considers very unlikely that mother would leave [N] in England to return to the Sudan).  The Court has already acknowledged that in this scenario the mother is very unlikely to be able to leave Sudan with the boys.  Court orders are highly unlikely to be enforceable.  The net result will be [N] in England and mother, father and boys in Sudan.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic">(iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">[N&#8217;s] travel is not restricted.  Mother and [N] return to Sudan to attempt to bring boys back to England.  If successful mother and all seven children will be in England.  If unsuccessful, or as the court has commented mother decides to remain in Sudan because she does not want to or cannot leave, mother, father and all seven children remain in Sudan.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the first of these scenarios, whilst it is acknowledged that N&#8217;s Article 3 rights are protected by the State, Ms Heaton emphasises the Article 8 rights of the wider family:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;The ability of her mother to protect her becomes irrelevant.  However [N&#8217;s] article 8 rights are breached - she cannot have a direct relationship with her siblings and she cannot have a direct relationship with her father given the restriction on her travelling out of the country and his immigration difficulty in returning to England,.  The article 8 rights of the mother, father and older siblings are similarly breached.  Crucially the boys will </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">continue </span><span style="font-style:italic">to suffer the significant harm which they are presently subject to, namely:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic">(i)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">lack of access to education;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic">(ii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">separation from their primary carer;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic">(iii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.97in"><span style="font-style:italic">emotional harm to the extent that one of the children is refusing to eat;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic">(iv)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.97in"><span style="font-style:italic">lack of access to medical care, one of the children is suffering from malaria;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;margin-left:2in;text-indent:-0.5in">(v)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:2in"><span style="font-style:italic">the care being given to the children by members of the extended family in circumstances where the children do not speak the same language as the family and where it is known that in the past the extended family have carried out &#8220;medical&#8221; procedures against the wishes of the parents.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the second scenario (para 48 above), it is contended that whilst N&#8217;s Article 3 rights are protected, the Article 8 rights of all the children, M and F are breached.  Finally in the third scenario it is contended that the Article 8 rights of each of the children and M and F are &#8221;promoted&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In paragraph 22 of their document Ms Heaton and Ms Burnell submit:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;This situation also respects the mother&#8217;s autonomy to determine how and where she and her children should live.  It is the only scenario where [N] can meet and have the possibility of a direct relationship with her father.  It is the only scenario where there is a realistic prospect of [N] having a direct relationship with her siblings whilst also maintaining her relationship with her mother.  The issue is therefore the extent to which, if permitting this situation, the Court (as arm of the state) is protecting [N&#8217;s] absolute right pursuant to article 3.  Conversely, does [N&#8217;s] article 3 right require the Court to make an FGMPO with a travel restriction?&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Heaton emphasises that not every claimed risk to life can entail an imposition on authorities of an obligation to prevent risk from materialising.  The duty goes no further, she submits, than that which is reasonable in all the circumstances to protect the individual from a real and immediate risk from harm.  As I have set out, I regard these principles as essentially uncontroversial.  The State manifestly, for the reasons that I have analysed, cannot be expected to bear an intolerable burden in its duty to protect from the actions of third parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is important that I make it abundantly clear, if I have not already done so, that I found M to be impressive on many levels.  She brought N to court with her, having no other option.  N was obviously well cared for and M possessed the confidence and calm of an experienced mother with a large family.  It was clear to me that M is determined to reunite her family.  Having managed, with some guile, to leave Sudan, she is hoping to return and to persuade her husband to let her take the boys.  I consider that she feels that the force of her argument will ultimately win the day.  She believes her husband to be an essentially good man who will yield to what she sees as the best option for all the children.  She also considers that she may be able to recruit some of the other male members of the family in support.  She is realistic enough to tell me that she thinks this will take some months.  I have already said that M has been inconsistent in her evidence but I believe the account that I have just set out to represent her genuine objectives.  Moreover, M has intimated that, if necessary, she would remove the children from the Sudan without F&#8217;s permission.  She has, as I have already commented, shown a degree of guile to the extent that I do not discount this as a possibility.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Though I do not question M&#8217;s determination, I regret to say I do doubt her capacity, because it is beyond her control, to achieve the reunification of her family in the UK.  It is obvious from everything I have said that M&#8217;s status as a mother and wife has been subjugated already, in the recent past, to stronger cultural imperatives.  It is also very clear that as a woman, in her family, she does not enjoy equal respect alongside her husband nor is her autonomy valued by the extended family.  The key illustrations of all this I find to be:  F&#8217;s retention of the passports; the wider family&#8217;s imposed &#8220;treatment&#8221; on two of the boys against M&#8217;s wishes (the cutting of R&#8217;s tongue ostensibly to heal a cough); F&#8217;s dismantling of the family home in the UK without informing M; and M&#8217;s expressed anxiety to the social workers concerning F&#8217;s extended family in the UK.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my earlier factual findings (see para 8 above) I considered that N, in common with the prevailing culture in the Sudan, would be most at risk in the age group 5-9 years of age.  This is the bracket in which, statistically, most Sudanese girls are subjected to FGM.  This leads Ms Heaton to argue that the contemplated Article 3 violation cannot here be said to be &#8220;real and immediate&#8221;.  With respect, I disagree.  It is true that M herself was subjected to the process when she was 9 years of age i.e. within the window which is most culturally normative.  However, I very strongly suspect that M&#8217;s views on the practice are known by her husband but may not be shared by him with the same commitment.  M&#8217;s rejection of much that she sees as negative or retrograde in Sudanese culture is clear for all to see.  Thus there is a risk that the family might act precipitously.  This I determine to be a real risk and not merely a speculative one.  Moreover it also has to be remembered that a statistically significant number of FGMs are performed in the Sudan under the age of 4 (i.e. 10% according to the UNICEF figures).  Additionally, the reality and immediacy of the risk to N has to be considered in the context of M&#8217;s ability to extricate herself and her children from Sudan in the future.  Thus it is M&#8217;s re-entry to Sudan which should be regarded as representing the immediacy of the risk if she is unable to negotiate N&#8217;s subsequent removal.  It is clear that M&#8217;s undoubted strength meets with a resistance from the wider family, the force and perseverance of which cannot be predicted.  In such circumstances the risk can logically only be regarded as high and the countervailing measures required in order to protect as substantial.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Here, N faces the real risk of degrading and inhuman treatment from which she has an absolute right to be protected.  The State, through this court, has a duty to do all that is reasonable, not merely to attempt to but proactively to take measures to protect her.  The force of the duty imposed to protect N from her family members and community, whilst it does not extend to that which is unduly burdensome, has nonetheless been characterised by Baroness Hale as &#8220;absolute&#8221; in itself.   It can only be seen here as requiring measures which have a real prospect of protecting N, rather than a strategy that conceivably might.  The latter does not discharge the duty sufficiently or indeed at all.  In the discharge of this obligation it may be that the Article 8 or other rights of the victim and family members become casualties to the greater obligation under Article 3.  Ms Heaton is entirely right to point to the compromise of this family&#8217;s Article 8 rights in prohibiting N&#8217;s return here but the duty on the State is not to avert such breaches entirely (it cannot do so) rather to keep them to the minimum required to protect the identified Article 3 right.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having assessed M&#8217;s determination to protect her daughter in Sudan so positively, I have considered whether the State&#8217;s obligations might, in the context of family life, properly be discharged by placing the responsibility in the hands of a parent fully alert to the risk and determined to protect from it.  Ultimately however, I am driven to conclude that the violation of the individual which results from this practice requires the State to intervene far more positively.  The force of M&#8217;s will, her undoubted determination to protect her daughter, is not in the end enough.  Accordingly, I grant the Local Authority&#8217;s application prohibiting N&#8217;s removal.  I record also that the application is supported by N&#8217;s Guardian.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,426 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2017/2924"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2017/2924"/>
+	  <FRBRdate date="2017-11-09" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="2924"/>
+	  <FRBRname value="R (A Child : whether to revoke Placement Order)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2924"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2924"/>
+	  <FRBRdate date="2017-11-09" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2924/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/2924/data.xml"/>
+	  <FRBRdate date="2024-10-27T05:01:44" name="transform"/>
+	  <FRBRdate date="2024-12-02T15:13:03" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2017-11-09" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" shortForm="The Family Division" showAs="The Family Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="london-borough-of-islington" href="" showAs="London Borough of Islington"/>
+	<TLCPerson eId="m" href="" showAs="M"/>
+	<TLCPerson eId="r" href="" showAs="R"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-hayden" href="/judge-mr-justice-hayden" showAs="MR JUSTICE HAYDEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2017</uk:year>
+	<uk:number>2924</uk:number>
+	<uk:cite>[2017] EWHC 2924 (Fam)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>e945f660d74754a691a725f726fc812f04a1ab1f2ddd13d2774de5707437303b</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .jus { font-size: 12pt; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .Strong { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2017] EWHC 2924 (Fam)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>FD17P00510</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2017-11-09" refersTo="#judgment">09/11/2017</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-hayden">MR JUSTICE HAYDEN </judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#london-borough-of-islington" style="font-weight:bold">London Borough of Islington</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#m" style="font-weight:bold">M</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">1<span style="vertical-align:super;font-size:smaller">st</span> Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#r" style="font-weight:bold">R</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(Represented by his Guardian)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">2<span style="vertical-align:super;font-size:smaller">nd</span> Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Peter Coutts </span>(instructed by<span style="font-weight:bold"> London Borough of Islington</span>) </p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Daisy Hughes</span> (instructed by <span style="font-weight:bold">Bindmans Solicitors</span>) for the <span style="font-weight:bold">First Respondent</span></p>
+      <p style="text-align:center">Hearing date: 9<span style="vertical-align:super;font-size:smaller">th</span> November 2017</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment Approved</p>
+      <p style="text-align:center">MR JUSTICE HAYDEN </p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved.   All persons, including representatives of the media, must ensure that this condition is strictly complied with.   Failure to do so will be a contempt of court.</p>
+      <p><span style="font-weight:bold">Mr Justice Hayden :</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> In this application I am concerned once again with R, a boy who is now 3 year of age.  He is described in the papers as &#8216;handsome&#8217; and of &#8216;white British and possibly Portuguese descent&#8217;.  He has a lively personality and his social development is recorded positively.  On the 24 February 2017, following a 5 day hearing, I granted the London Borough of Islington&#8217;s application for R to be made the subject of a Placement Order.  That judgment, reported: <span style="font-weight:bold">Re. R (A Child: Care Order) <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/364" uk:canonical="[2017] EWHC 364 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 364 (Fam)</ref>, </span>sets out the background to this case which it is unnecessary to repeat here.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Today the mother (M) has applied for permission to revoke the Placement Order.  R&#8217;s putative father, J, played no part in the earlier proceedings and none in these, his whereabouts are unknown.  It has not been necessary to make the child a party.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the 17 March 2017, M applied for permission to appeal my findings.  On 13 June 2017, McFarlane LJ refused permission.  On the 18 September 2017 M issued this application.  On 25 September 2017, Francis J gave directions for the filing of evidence and for the matter to be listed for a hearing before me.  M has now been able to obtain public funding and is represented today by Ms Daisy Hughes who was junior counsel in the earlier proceedings.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">An admirably concise document was filed on M&#8217;s behalf on the 7 November 2017, identifying the following issues at this hearing:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.74in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.74in">should the Applicant be granted leave to apply to revoke the Placement Order in respect of R;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.74in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.74in">should the application for leave to apply be listed for further hearing;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.74in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.74in">should further information or evidence be obtained from R&#8217;s foster carer in respect of the Applicant&#8217;s contention that she has indicated a willingness to care for R under a Special Guardianship Order, and if so, how and by whom;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.74in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.74in">is further information or evidence required from the police and/or any other agency in respect of the recent concerns raised regarding the Applicant.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By this morning&#8217;s hearing, Ms Hughes had honed her submissions down to one central proposition.  She contended that, on the facts, there <span style="font-weight:bold">might</span> (<span style="font-style:italic">my emphasis) </span>be &#8216;a change of circumstances&#8217; which might, if properly investigated, establish a basis for an application for leave to apply to revoke the Placement Order.  Having, sensibly, in my judgement, evaluated the evidence in these terms, Ms Hughes concentrated on the possibility that R might remain with his present carer under the aegis of a Special Guardianship Order (SGO).  This she argued would potentially be a change of circumstances which would justify the revocation of the Placement Order.  Further, she reasoned, this was not an option available to the Court when it evaluated and approved the Local Authority&#8217;s care plan, which contemplated adoption, in February 2017.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In support of this, Ms Hughes identified my observation in the judgment stating &#8216;<span style="font-style:italic">I regret to say that I am entirely satisfied that there is no practical alternative to a plan for adoption&#8217;</span>.  During the course of submissions I asked if I might see R&#8217;s Permanence Report.  The Local Authority was able to email it to me over a short adjournment.  I had wanted further to investigate the prospects of R being adopted within identifiable timescales.  Ms Hughes referred me to <span style="font-weight:bold">Re. SF <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/964" uk:canonical="[2017] EWCA Civ 964" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 964</ref> </span>per Ryder LJ</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;10.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">In this context, the evidential importance of what is described in the Adoption Agencies Regulations 2005 as the 'permanence report' is not to be underestimated.&#160; I have highlighted the relevant regulatory scheme on more than one occasion (see, for example:</span><span class="Emphasis" style="font-style:normal"> In the Matter of S (A Child)</span><span style="font-style:italic">, </span><a href="http://www.familylawweek.co.uk/site.aspx?i=ed115437"><span class="Emphasis" style="font-style:normal;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">K v London Borough of Brent </span><span class="Strong" style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/926" uk:canonical="[2013] EWCA Civ 926" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 926</ref></span></a><span style="font-style:italic"> at [4] and [22 to 24] and </span><a href="http://www.familylawweek.co.uk/site.aspx?i=ed129663"><span class="Emphasis" style="font-style:normal;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Surrey County Council v S</span><span class="Strong" style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/601" uk:canonical="[2014] EWCA Civ 601" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 601</ref></span></a><span style="font-style:italic"> at [28]).&#160;&#160; In England, and by reg 17 of the 2005 Regulations, the permanence report has to contain an analysis of the options for the future care of the child and why adoption is the preferred option.&#160; By reg 12, the local authority's adoption agency decision has to be recorded in the child's care record.</span>&#160;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Two further paragraphs of the judgment also require consideration :</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;11.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">The permanence report and the agency decision maker's record of decision contain the required analysis and reasoning which is necessary to support an application for a placement order.&#160; They are disclosable documents that should be scrutinised by the children's guardian and are susceptible of cross examination.&#160; It is good practice to file them with the court in support of a placement order application.&#160; Given their importance, I would go further and say that it is poor practice not to file them with the court because this is the documentation that records in original form the pros and cons of each of the realistic care options and the social work reasoning behind the local authority's decision to apply for a placement order.</span> &#8221;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#160;<span style="font-style:italic">12. The reasoning of necessity will include a justification of the opinion that nothing other than adoption will do, it will consider the child's need for contact, on the facts of this case it would be the source of the best interests proposition that the search should be limited to six months and any relevant information about the feasibility and availability of the placement options.&#160; It is neither second hand nor in summary form as everything else tends to be.&#160; In this case the good practice that I have identified was not followed.&#160; The judge did not have the permanence report or the agency decision maker's record of decision.&#160; Whatever analysis of the options that the documents could have provided was missing.</span>&#160; &#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Though nobody had sought the Permanence Report, in the January hearing, all the information within it had been considered by the Court in the course of the evidence of the key social worker Mr Jason Ward.  The report confirmed my recollection that R would not be a difficult child to place.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Somewhat unusually, the relevant facts upon which the mother&#8217;s argument is predicated are substantially agreed.  It is of great concern that at 3 years of age, R has spent all but a few weeks of his life in the care of FC, his &#8216;short term&#8217; foster mother.  There was no dispute at all, nor could there have been, in the February hearing but that R sees FC as his mother.  M, to her credit, has always recognised this and paid appropriate tribute to the relationship.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following the unsuccessful appeal against my judgment in June of this year, M began, tentatively, to explore with FC as to whether she might be prepared to care for R long term.  That phase, &#8216;long term&#8217;, requires to be scrutinised.  What truly is being asked of FC is whether she feels able to give what is nothing less than life long commitment to R as his mother.  This requires to be stated unambiguously.  M&#8217;s overtures to FC were discrete, sensitive and entirely understandable.  I have already observed that she is an articulate and eloquent woman who, outside her catastrophic relationships with men, can sometimes show insight and sensitivity in her interpersonal relationships.  M researched the scope and ambit of the SGO and offered the fruits of her investigation to FC.  She believed she detected a positive response from her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this application I heard from Mr Jason Ward, Social Worker, whose professionalism impressed me in the earlier proceedings and whose analysis in this application served only to reinforce my earlier judgement of him.  He told me that his own preferred outcome here is for R to remain with FC under the protection of an Adoption Order.  R is still young enough for adoption to hold out for him the real chance of a stable, secure, permanent and &#8216;forever&#8217; placement.  All agree he deserves and is entitled to nothing less.  Mr Ward considers that any other regime is likely to fall short of this identified Welfare objective. I endorsed that approach in my judgment in February 2017 and, on a proper construction of the evidence, nothing has changed. My impression is that Mr Ward has not yet discounted R being adopted by his foster parent.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is clear, that FC has felt the strain of this highly litigious case.  The substantive hearing before me came about in consequence of a rehearing directed by the Court of Appeal, following its conclusion that hair strand testing analysis was unsatisfactory.  I have no doubt that FC has, in consequence of the twists of the litigation, at very least contemplated, at some point, the possibility of R being returned to his mother.  That is no longer a possibility.  There is no doubt that FC is very close to R and that the severance of this relationship is likely to be very distressing to both of them.  Mr Coutts, on behalf of the Local Authority, reminds me that it is often said that a secure attachment to a primary carer equips a child to transfer that attachment and to &#8216;move on&#8217;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In essence, says Mr Ward, FC needs the space and opportunity to decide whether she is able to make this ultimate commitment to R.  The label &#8216;adoption&#8217; may be, he said, less important than the acceptance of a life long emotional commitment to the child.  FC, I am told, enjoys her work as a foster carer, her own child is grown up, and now, a single woman in her early 40s, she understandably values her own independence.  That is her right.  There is no doubt that she has been ambushed by her own emotions with R.  Mr Ward explained that FC is in an emotional upheaval at the moment.  This was already evident from the papers and I have no doubt is fully recognised by M herself.  It is important for the M to know that if R decides that she cannot take on this responsibility it will be in R&#8217;s best interest for an alternative adoptive placement to be found.  It is, if I may say so, an indicator of FC&#8217;s personal strength that she is prepared to examine so thoroughly what she may be able to provide for R.  That this process is painful to her is entirely obvious and wholly understandable.  It is a journey that only she can complete. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I suggested to Ms Hughes that the mother may wish to consider whether this application is ultimately misconceived in that it puts pressure on FC at a time when it is most dangerous to do so.  Having watched M in court, now over the course of two hearings, I was not at all surprised that she did not heed this well intentioned suggestion.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Ward made the point that the label &#8216;Adoption&#8217; or &#8216;SGO&#8217; is to some extent less important than the establishment of long term emotional commitment to the child.  He did not discount the possibility of an SGO, the central question for him was whether it reflected a life long commitment.  I consider that this represents the very carefully balanced views of a social worker who has given this case a great deal of thought.  That said, Mr Ward was clear that the legal framework of an Adoption Order also provided a stability that he thought to be necessary.  I agree.  This is particularly so here where the legal process itself has been such a unsettling influence on the child&#8217;s life.  My earlier judgment records how a carefully planned rehabilitation failed very quickly.  Fortunately, FC was there to pick up the pieces.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus it seems to me that, properly evaluated, all the information contemplated by Ms Hughes&#8217; suggested enquiries is already before the Court.  The reality is that the foster carer does not have answers to the questions Ms Hughes poses.  I am quite sure M recognises this, just as she is able to see that Mr Ward&#8217;s hopes are very similar to her own.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Sadly, it is also necessary to record that as the mother was pursuing her appeal against my decision, her life was reverting to a familiar pattern.  The relationship with her present partner had ended up with M bloodied and bruised and with him remanded in custody.  According to the crime reports, M had a visible black eye and bruising.  Whilst her contact with her son has always been stimulating and good fun it has to be acknowledged that as R gets older seeing his mum in a bruised or fragile condition is likely to be unsettling and upsetting to him.  That will itself potentially undermine the security of any placement.  Ms Hughes, properly, asks me to record that there is no record of the mother having attended at any contact to date with visible bruising.  I am pleased to be able to do so.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have structured my analysis of Ms Hughes&#8217; application around the framework of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 24</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref>.  For completeness, this provides as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.77in"><span style="font-style:italic;font-weight:bold;font-family:Garamond;font-size:13pt">Revoking placement orders</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:Garamond;font-size:13pt">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.77in;text-indent:0.32in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">The court may revoke a placement order on the application of any person.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:Garamond;font-size:13pt">(2)</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.77in;text-indent:0.32in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">But an application may not be made by a person other than the child or the local authority authorised by the order to place the child for adoption unless&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Garamond;font-size:13pt">(a)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.58in;margin-right:0.77in;text-indent:0.42in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">the court has given leave to apply, and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Garamond;font-size:13pt">(b)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.58in;margin-right:0.77in;text-indent:0.42in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">the child is not placed for adoption by the authority.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:Garamond;font-size:13pt">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.77in;text-indent:0.32in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">The court cannot give leave under subsection (2)(a) unless </span><span style="font-style:italic;font-weight:bold;font-family:Garamond;font-size:13pt">satisfied that there has been a change in circumstances since the order was made</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:13pt">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:Garamond;font-size:13pt">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.77in;text-indent:0.32in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">If the court determines, on an application for an adoption order, not to make the order, it may revoke any placement order in respect of the child.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:Garamond;font-size:13pt">(5)</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.77in;text-indent:0.32in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">Where&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Garamond;font-size:13pt">(a)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.58in;margin-right:0.77in;text-indent:0.42in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">an application for the revocation of a placement order has been made and has not been disposed of, and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Garamond;font-size:13pt">(b)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.58in;margin-right:0.77in;text-indent:0.42in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">the child is not placed for adoption by the authority,</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.77in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">the child may not without the court's leave be placed for adoption under the order. (emphasis added)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is now well established that the first point which I am required to consider is whether there has been a change in circumstances, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/24/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 24(3)</ref>.  Russell J made pertinent observations in <span style="font-weight:bold">Re. T(Children) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/1369" uk:canonical="[2014] EWCA Civ 1369" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 1369</ref>: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:Garamond;font-size:13pt">&#8220;44.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1.18in;margin-right:0.77in;text-indent:0.32in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">The change has to be relevant to the circumstances of the case; <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/24/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s24(3)</ref> does not relate the change to the circumstances of the parent or parents and it would be unacceptable on any level to exclude any change in circumstance to the children who are the subject of the orders. As set out in paragraph 31 in </span><a href="https://login.westlaw.co.uk/maf/wluk/app/document?src=doc&amp;linktype=ref&amp;context=47&amp;crumb-action=replace&amp;docguid=I19244670F96F11E29F3CE6958BBC5981" style="font-style:italic;font-family:Garamond;font-size:13pt">Re P</a><span style="font-style:italic;font-family:Garamond;font-size:13pt"> &#8216;Section 47(7) does not relate change to the circumstances of the parents. The only limiting factor is that it must be a change in circumstances &#8220;since the placement order was made&#8221;.&#8217; This must apply to <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">s24</ref>. &#8230;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:Garamond;font-size:13pt">&#8220;60.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1.18in;margin-right:0.77in;text-indent:0.32in"><span style="font-style:italic;font-family:Garamond;font-size:13pt">The judge was wrong to find that there had been no relevant change of circumstances. The judge should have considered any change of circumstance within the context of the case as a whole. In any case the relevance of any change should be set against the finding or threshold upon which the original orders were made so that the test is not set too high. This will vary from case to case but in this case the threshold was at the lower end of the scale and the test should reflect that; it should be proportionate to the facts of this case.&#8221; (T (Children) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/1369" uk:canonical="[2014] EWCA Civ 1369" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 1369</ref>). </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The second stage is to consider whether leave to revoke the Placement Order should be granted if a change of circumstances has been established.  This process will require consideration of, inter alia, the prospects of the application succeeding.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Though Ms Hughes has advanced her arguments sensitively and on an appropriately tentative basis, I have had little hesitation, for all the reasons set out above, in coming to the conclusion that there are no grounds capable of amounting to a change in circumstances within the framework of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 24</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/38" uk:canonical="2002 c. 38" uk:origin="TNA" uk:type="legislation">Adoption and Children Act 2002</ref>.  Moreover, I am bound to say that I consider this application is in itself likely to be counter productive to M&#8217;s own objectives.  It serves only to put pressure on FC who needs time and space to arrive at her decision.  Whatever that decision is it requires to be respected, inevitably it will be the right decision for R.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
