@@ -1,31 +1,60 @@
-# Exclude everything except what we want
-/*
+# Dataset files (too large for GitHub)
+*.jsonl
+ailes_training_dataset_production.jsonl
+ailes_statutes_training_dataset.jsonl
 
-# Include only these specific directories and files
-!/src/
-!/src/data_processing/
-!/src/training/
-!/src/validation/
-!/src/deployment/
-!/data/
-!/data/raw/
-!/data/raw/xml_judgments/
-!.gitignore
-!LICENSE
-!README.md
-!requirements.txt
+# Checkpoints and state
+ailes_checkpoints/
+*.pkl
 
-# Standard Python excludes
+# Logs
+*.log
+logs/
+
+# Excel tracking (can regenerate)
+*.xlsx
+
+# Processed data directories
+data/processed*/
+data/final_*/
+data/debug_test/
+data/test_processed/
+data/unified_training/
+data/validation/
+data/production_safe_test/
+data/temp_failed_files/
+data/sample_xml/
+
+# XML judgments (already in repo)
+data/raw/xml_judgments/
+
+# Duplicate analysis temp files
+data/raw/duplicates_backup/
+data/raw/duplicate_*.json
+data/raw/*_duplicates.py
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
 *.so
-.env
-.venv/
 
-# Exclude files with API tokens
-src/training/train_llama3_lora.py
-src/training/train_llama3_fp16.py
-src/training/train_llama3_fixed.py
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Batch files
+ailes_dataset_batch_*.jsonl
