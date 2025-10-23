@@ -1,7 +1,7 @@
 # Dataset files (too large for GitHub)
-*.jsonl
-ailes_training_dataset_production.jsonl
+# Allowing ailes_training_dataset_production.jsonl (46 MB - under GitHub's 100 MB limit)
 ailes_statutes_training_dataset.jsonl
+ailes_dataset_batch_*.jsonl
 
 # Checkpoints and state
 ailes_checkpoints/
@@ -56,5 +56,4 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Batch files
-ailes_dataset_batch_*.jsonl
+# Batch files (removed duplicate from above)
